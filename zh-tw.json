@@ -1,7 +1,7 @@
 {
   "config": {
-    "displayName": "簡體中文",
-    "path": "zh-cn"
+    "displayName": "Traditional Chinese/簡體中文",
+    "path": "zh-TW"
   },
   "lostConnection": "您已失去與伺服器的連線。",
   "noLocalStorageSupport": "您的瀏覽器不支援本地儲存或本地儲存被禁用。",
@@ -92,7 +92,25 @@
     "noLoadImage": "無法載入圖片",
     "billing": "賬單",
     "help": "幫助",
-    "confirm": "確認"
+    "confirm": "確認",
+    "management": "Management",
+    "welcome": "Welcome",
+    "invite": "Invited to join",
+    "tutorial": "Tutorial",
+    "shareEvent": "Share Event",
+    "filter": "Filter",
+    "currently": "Currently",
+    "clickTo": "Click to",
+    "embed": "Embed",
+    "field": "Field",
+    "required": "Required",
+    "optional": "Optional",
+    "yes": "Yes",
+    "no": "No",
+    "totalStages": "Total Stages",
+    "totalStageGroups": "Total Stage Groups",
+    "stages": "Stages",
+    "stageGroups": "Stage Groups"
   },
   "data": {
     "import": "匯入",
@@ -105,7 +123,9 @@
     "modifyComInfo": "更改社群自定義",
     "modifyComDepts": "透過管理器更改部門",
     "modifyComForms": "透過編輯器更改表單",
-    "modifyComRosters": "透過編輯器更改名冊"
+    "modifyComRosters": "透過編輯器更改名冊",
+    "modifyDiscordHooks": "Modify Discord Logging Webhooks",
+    "modifyIntegration": "Modify API Integration"
   },
   "dashboard": {
     "dashboard": "主介面",
@@ -117,7 +137,8 @@
     "formCenter": "可用表單",
     "calendar": "社群日曆",
     "totalMembers": "總人數",
-    "created": "已建立"
+    "created": "已建立",
+    "drive": "Drive"
   },
   "menu": {
     "join": "加入一個社群",
@@ -176,7 +197,149 @@
       "comform": "社群表單",
       "disciplinary": "紀律處分",
       "training": "培訓歷史"
-    }
+    },
+    "formSystem": "Custom Form System",
+    "formStageEditor": "Custom Form Stage Editor",
+    "formStagePageLabel": "Custom Form Stage Editor",
+    "formStageGroupsEditor": "Custom Form Stage Groups Editor",
+    "stageTypes": {
+      "recSubmit": "Recently Submitted",
+      "reqReview": "Requesting Review",
+      "awaitChange": "Awaiting Changes",
+      "underReview": "Under Review",
+      "pendingSteps": "Pending Additional Steps",
+      "completed": "Completed",
+      "archived": "Archived"
+    },
+    "stageType": "Stage Type",
+    "stageLabel": "Stage Label",
+    "stageDescription": "Stage Description",
+    "stageAutoFormReply": "Stage Action: Auto-Form Reply",
+    "addCustomAction": "Add Custom Action",
+    "stageActionTypes": {
+      "autoReply": "Auto-Form Reply",
+      "notifySubmitterNotification": "Notify Submitter via Notification",
+      "notifySubmitterEmail": "Notify Submitter via Email",
+      "disableEnableReplies": "Disable/Enable Replies",
+      "changeDepartmentSlashRank": "Change Submitter's Department/Rank",
+      "executeDiscordWebhook": "Execute Discord Webhook"
+    },
+    "stageIcon": "Stage Icon",
+    "stageColor": "Stage Color",
+    "stageAutoFormReplyDescription": "The stage \"auto-form reply\" action will automatically enter a reply when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within your reply.",
+    "stageNotifySubmitterNotification": "Stage Action: Notify Submitter via Notification",
+    "stageNotifySubmitterNotificationDescription": "The stage \"notify submitter via notification\" action will automatically send a notification to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within the notification content.",
+    "stageNotifySubmitterEmail": "Stage Action: Notify Submitter via Email",
+    "stageNotifySubmitterEmailDescription": "The stage \"notify submitter via email\" action will automatically send a email to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within the email content.",
+    "stageDisableEnableReplies": "Stage Action: Disable/Enable Form Replies",
+    "stageDisableEnableRepliesDescription": "The stage \"disable/enable form replies\" action will automatically will automatically disable/enable form replies for everyone, moderators, or administrators when the form's stage changes to {stageName}.",
+    "removeAction": "Remove Stage Action",
+    "stageDisableEnableRepliesToggles": {
+      "pastTense": {
+        "everyone": {
+          "enable": "ENABLED REPLIES FOR EVERYONE",
+          "disable": "DISABLED REPLIES FOR EVERYONE",
+          "noChange": "NO CHANGES TO EVERYONE REPLYING"
+        },
+        "moderator": {
+          "enable": "ENABLED REPLIES FOR MODERATORS",
+          "disable": "DISABLED REPLIES FOR MODERATORS",
+          "noChange": "NO CHANGES TO MODERATORS REPLYING"
+        },
+        "administrator": {
+          "enable": "ENABLED REPLIES FOR ADMINISTRATORS",
+          "disable": "DISABLED REPLIES FOR ADMINISTRATORS",
+          "noChange": "NO CHANGES TO ADMINISTRATORS REPLYING"
+        }
+      },
+      "current": {
+        "everyone": {
+          "enable": "ENABLE REPLIES FOR EVERYONE",
+          "disable": "DISABLE REPLIES FOR EVERYONE",
+          "noChange": "NO CHANGES TO EVERYONE REPLYING"
+        },
+        "moderator": {
+          "enable": "ENABLE REPLIES FOR MODERATORS",
+          "disable": "DISABLE REPLIES FOR MODERATORS",
+          "noChange": "NO CHANGES TO MODERATORS REPLYING"
+        },
+        "administrator": {
+          "enable": "ENABLE REPLIES FOR ADMINISTRATORS",
+          "disable": "DISABLE REPLIES FOR ADMINISTRATORS",
+          "noChange": "NO CHANGES TO ADMINISTRATORS REPLYING"
+        }
+      }
+    },
+    "stageChangeDepartmentSlashRankToggles": {
+      "pastTense": {
+        "noChange": "{item} SET TO NOT ADD OR REMOVE FROM INDIVIDUAL",
+        "add": "{item} SET TO ADD ONTO INDIVIDUAL",
+        "remove": "{item} SET TO REMOVE FROM INDIVIDUAL"
+      },
+      "current": {
+        "noChange": "{item} SET NOT ADD OR REMOVE FROM INDIVIDUAL",
+        "add": "{item} SET ADD ONTO INDIVIDUAL",
+        "remove": "{item} SET REMOVE FROM INDIVIDUAL"
+      }
+    },
+    "stageChangeDepartmentSlashRank": "Stage Action: Change Submitter's Department/Rank",
+    "stageChangeDepartmentSlashRankDescription": "The stage \"change submitter's department/rank\" action will automatically change/set the submitter's primary or secondary department and/or rank when the form's stage changes to {stageName}.",
+    "stageExecuteDiscordWebhook": "Stage Action: Execute Discord Webhook",
+    "stageExecuteDiscordWebhookDescription": "The stage \"execute discord webhook\" action will automatically execute a Discord webhook when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within the notification content.",
+    "stageChangeDepartmentSlashRankPriDept": "Primary Department",
+    "stageChangeDepartmentSlashRankPriRank": "Primary Rank",
+    "stageChangeDepartmentSlashRankSecDept": "Secondary Department(s)",
+    "stageChangeDepartmentSlashRankSecRank": "Secondary Rank(s)",
+    "stageActionDepartmentsRanksNoDept": "Set to No Department",
+    "stageActionDepartmentsRanksNoRank": "Set to No Rank",
+    "stageActionDepartmentsRanksPriChanges": "Primary Changes",
+    "stageActionDepartmentsRanksSecChanges": "Secondary Changes",
+    "stageActionDepartmentsRanksPriChangesDesc": "Primary Changes are changes only to the submitter's primary department and rank, this does not affect their secondary department(s) or rank(s).",
+    "stageActionDepartmentsRanksSecChangesDesc": "Secondary Changes are changes only to the submitter's secondary department(s) and/or rank(s), this does not affect their primary department and rank.",
+    "executeDiscordWebhookURL": "Webhook URL",
+    "executeDiscordWebhookContent": "Webhook Content",
+    "executeDiscordWebhookContentHint": "Message sent with the Discord Webhook",
+    "removeEmbed": "Remove Embed",
+    "addEmbedField": "Add Embed Field",
+    "embedTitle": "Embed Title",
+    "embedDescription": "Embed Description",
+    "embedURL": "Embed URL",
+    "embedColor": "Embed Color",
+    "embedAuthor": "Embed Author",
+    "embedAuthorURL": "Embed Author URL",
+    "embedAuthorIconURL": "Embed Author Icon URL",
+    "embedBody": "Embed Body",
+    "embedFields": "Embed Fields",
+    "addFieldToEmbed": "Add Field To Embed",
+    "removeEmbedField": "Remove Field From Embed",
+    "embedImages": "Embed Images",
+    "embedImagesImage": "Embed Image",
+    "embedImagesThumbnail": "Embed Image Thumbnail",
+    "embedFooter": "Embed Footer",
+    "embedFooterText": "Embed Footer Text",
+    "embedFooterIconURL": "Embed Footer Icon URL",
+    "embedFieldName": "Embed Field Name",
+    "embedFieldValue": "Embed Field Value",
+    "embedFieldInline": "Inline",
+    "importWebhookJSONData": "Import Webhook JSON Data",
+    "discordEmbedWebhookJSON": "Discord Embed Webhook JSON",
+    "formsUsedBy": "Forms Used By",
+    "stageGroupLabel": "Stage Group Label",
+    "stageGroupDescription": "Stage Group Description",
+    "addStageToGroup": "Add Stage to Group",
+    "removeStageFromGroup": "Remove Stage from Group",
+    "formStageGroup": "Form Stage Group",
+    "editOwn": "Edit Own Form",
+    "changeStages": "Change Form Stage",
+    "toggleReplies": "Enable/Disable Replies",
+    "appReply": "Basic Reply Access",
+    "appReplyMod": "Mod Reply Access",
+    "appReplyAdmin": "Admin Reply Access",
+    "viewSubmitted": "View Submitted",
+    "archiveOwn": "Archive Own Form",
+    "archiveForm": "Archive Form",
+    "unarchiveOwn": "Unarchive Own Form",
+    "unarchiveForm": "Unarchive Form"
   },
   "departments": {
     "departmentManager": "部門主管",
@@ -217,7 +380,10 @@
     "markRankSecondary": "標記為只能次要成員使用",
     "copyPermissions": "複製許可權",
     "pastePermissions": "貼上許可權",
-    "removeConfirm": "你確定要從該部門刪除嗎？"
+    "removeConfirm": "你確定要從該部門刪除嗎？",
+    "toggleAllPermissions": "Toggle All Permissions",
+    "formPermissions": "Form Permissions",
+    "serverPermissions": "Server Permissions"
   },
   "accounts": {
     "accounts": "賬戶",
@@ -310,7 +476,10 @@
     "rsvp": "需回覆",
     "unrsvp": "無需回覆",
     "eventNotFound": "事件無法找到/訪問",
-    "eventNotFoundDesc": "該事件不存在或您無權直接檢視該事件。"
+    "eventNotFoundDesc": "該事件不存在或您無權直接檢視該事件。",
+    "editEvent": "Edit an Event - Category",
+    "saveEvent": "Save Event",
+    "editEventExplain": "Edit Event"
   },
   "advanced": {
     "discordIntegration": {
@@ -320,6 +489,14 @@
     "limits": {
       "label": "限制",
       "pageLabel": "社群限制"
+    },
+    "customDomain": {
+      "label": "Custom Domain",
+      "pageLabel": "Custom Domain Settings"
+    },
+    "apiIntegration": {
+      "label": "API Integration",
+      "pageLabel": "API Integration"
     }
   },
   "accountViewer": {
@@ -351,7 +528,11 @@
     "calCategories": "日曆類別",
     "discordLog": "Discord記錄鉤子",
     "changeComId": "修改社群ID",
-    "confirmNewId": "確認新社群ID"
+    "confirmNewId": "確認新社群ID",
+    "deleteCom": "Delete Community",
+    "deleteComConf": "Delete Community Confirmation",
+    "pages": "Pages",
+    "driveStorage": "Drive Storage"
   },
   "profile": {
     "clockInHistory": "上班/下班歷史"
@@ -403,7 +584,8 @@
     "transferConf": "你確定將{0}從{1}轉移至{2}？",
     "setConf": "",
     "transferComNotice": "轉移社群訂閱。",
-    "alreadyActiveSub": "已存在活躍的訂閱。"
+    "alreadyActiveSub": "已存在活躍的訂閱。",
+    "bundleAndSave": "Bundle and Save"
   },
   "pricing": {
     "title": "升級訂閱價格",
