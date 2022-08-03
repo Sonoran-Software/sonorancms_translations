@@ -115,7 +115,10 @@
     "yes": "Yes",
     "no": "No",
     "stages": "Stages",
-    "stageGroups": "Stage Groups"
+    "stageGroups": "Stage Groups",
+    "uploader": "Uploader",
+    "upload": "Upload",
+    "document": "Document"
   },
   "data": {
     "import": "Import",
