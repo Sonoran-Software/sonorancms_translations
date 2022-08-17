@@ -7,7 +7,7 @@
     "login": "Login",
     "loginWithSonoran": "Login With Sonoran",
     "loginWithDiscord": "Login With Discord",
-    "loginWithApple": "Login With Apple"
+    "loginWithApple": "Sign in with Apple"
   },
   "lostConnection": "You have lost connection to the server.",
   "noLocalStorageSupport": "Your browser doesn't support local storage or it may be disabled.",
@@ -96,6 +96,8 @@
     "previewTempDepartmentDetails": "Template Department Details",
     "previewTempRosterDetails": "Template Roster Details",
     "previewTempFormDetails": "Template Form Details",
+    "previewTempPageDetails": "Template Page Details",
+    "previewTempToolbarDetails": "Template Toolbar Details",
     "comId": "Community ID",
     "noLoadImage": "Cannot Load Image",
     "billing": "Billing",
@@ -118,7 +120,9 @@
     "stageGroups": "Stage Groups",
     "uploader": "Uploader",
     "upload": "Upload",
-    "document": "Document"
+    "document": "Document",
+    "pages": "Pages",
+    "toolbar": "Toolbar"
   },
   "data": {
     "import": "Import",
@@ -391,7 +395,9 @@
     "copyPermissions": "Copy Permissions",
     "pastePermissions": "Paste Permissions",
     "removeConfirm": "Are you sure you want to remove this department?",
-    "toggleAllPermissions": "Toggle All Permissions"
+    "toggleAllPermissions": "Toggle All Permissions",
+    "copyRankIdToClipboard": "Copy ID To Clipboard",
+    "copySuccess": "Copied to clipboard!"
   },
   "accounts": {
     "accounts": "Accounts",

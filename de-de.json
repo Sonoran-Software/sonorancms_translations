@@ -113,7 +113,11 @@
     "stageGroups": "Stage Groups",
     "uploader": "Uploader",
     "upload": "Upload",
-    "document": "Document"
+    "document": "Document",
+    "previewTempPageDetails": "Template Page Details",
+    "previewTempToolbarDetails": "Template Toolbar Details",
+    "pages": "Pages",
+    "toolbar": "Toolbar"
   },
   "data": {
     "import": "Import",
@@ -386,7 +390,9 @@
     "removeConfirm": "Are you sure you want to remove this department?",
     "formPermissions": "Form Permissions",
     "serverPermissions": "Server Permissions",
-    "toggleAllPermissions": "Toggle All Permissions"
+    "toggleAllPermissions": "Toggle All Permissions",
+    "copyRankIdToClipboard": "Copy ID To Clipboard",
+    "copySuccess": "Copied to clipboard!"
   },
   "accounts": {
     "accounts": "Accounts",

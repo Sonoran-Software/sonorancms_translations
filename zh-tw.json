@@ -113,7 +113,11 @@
     "stageGroups": "Stage Groups",
     "uploader": "Uploader",
     "upload": "Upload",
-    "document": "Document"
+    "document": "Document",
+    "previewTempPageDetails": "Template Page Details",
+    "previewTempToolbarDetails": "Template Toolbar Details",
+    "pages": "Pages",
+    "toolbar": "Toolbar"
   },
   "data": {
     "import": "匯入",
@@ -386,7 +390,9 @@
     "removeConfirm": "你確定要從該部門刪除嗎？",
     "toggleAllPermissions": "Toggle All Permissions",
     "formPermissions": "Form Permissions",
-    "serverPermissions": "Server Permissions"
+    "serverPermissions": "Server Permissions",
+    "copyRankIdToClipboard": "Copy ID To Clipboard",
+    "copySuccess": "Copied to clipboard!"
   },
   "accounts": {
     "accounts": "賬戶",
