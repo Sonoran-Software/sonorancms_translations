@@ -117,7 +117,9 @@
     "previewTempPageDetails": "Template Page Details",
     "previewTempToolbarDetails": "Template Toolbar Details",
     "pages": "Pages",
-    "toolbar": "Toolbar"
+    "toolbar": "Toolbar",
+    "toolbarItems": "Toolbar Items",
+    "manage": "Manage"
   },
   "data": {
     "import": "导入",
@@ -599,5 +601,10 @@
   "pricing": {
     "title": "升级订阅价格",
     "howToPurchase": "如何购买"
+  },
+  "templateManagement": {
+    "creationDescription": "This creation dialog will assist you in creating a Sonoran CMS Community Template from elements from your community, you can update and remove this template at any time after creation is completed.",
+    "previewImages": "Template Preview Images",
+    "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed."
   }
 }
