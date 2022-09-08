@@ -119,7 +119,8 @@
     "pages": "Pages",
     "toolbar": "Toolbar",
     "toolbarItems": "Toolbar Items",
-    "manage": "Manage"
+    "manage": "Manage",
+    "return": "Return"
   },
   "data": {
     "import": "Import",
@@ -427,7 +428,13 @@
     "comDescription": "Community Description",
     "nameIdentFormatDescription": "Format that member's name & identifier should be formated. | {comName} & {identifier} can be used for formatting. Example: {comName} | {identifier} would be formatted as such: Dawson G. | 2B-1",
     "customizeColorNameStatus": "Customize the color and name of community status types that are available.",
-    "customizeColorNameCalendar": ">Customize the color and name of calendar categories that are available in the calendar area of SonoranCMS."
+    "customizeColorNameCalendar": ">Customize the color and name of calendar categories that are available in the calendar area of SonoranCMS.",
+    "removeStatusFailure": "Error while removing a status!",
+    "removeStatusSuccess": "Successfully removed a status!",
+    "addStatusFailure": "Error while adding a status!",
+    "addStatusSuccess": "Successfully added a status!",
+    "updateStatusFailure": "Error while updating a status!",
+    "updateStatusSuccess": "Successfully updated a status!"
   },
   "rosterEditor": {
     "rosterEditor": "Custom Roster Editor",
@@ -605,6 +612,8 @@
   "templateManagement": {
     "creationDescription": "This creation dialog will assist you in creating a Sonoran CMS Community Template from elements from your community, you can update and remove this template at any time after creation is completed.",
     "previewImages": "Template Preview Images",
-    "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed."
+    "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed.",
+    "manageDescription": "This manage dialog will allow you to add, remove and update elements and information of your template. Once you save any changes it will need to be re-reviewed by the Sonoran CMS Development Team.",
+    "manageImages": "Manage Template Preview Images"
   }
 }

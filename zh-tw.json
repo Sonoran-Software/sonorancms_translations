@@ -119,7 +119,8 @@
     "pages": "Pages",
     "toolbar": "Toolbar",
     "toolbarItems": "Toolbar Items",
-    "manage": "Manage"
+    "manage": "Manage",
+    "return": "Return"
   },
   "data": {
     "import": "匯入",
@@ -427,7 +428,13 @@
     "comDescription": "社群描述",
     "nameIdentFormatDescription": "成員的名稱和ID應格式化 應使用|，{comName}和{identifier}，例如{comName} | {identifier}將顯示為Dawson G. | 2B-1",
     "customizeColorNameStatus": "可以自定義社群狀態型別的名稱和顏色。",
-    "customizeColorNameCalendar": "可以在日曆介面自定義社群日曆型別的名稱和顏色。"
+    "customizeColorNameCalendar": "可以在日曆介面自定義社群日曆型別的名稱和顏色。",
+    "removeStatusFailure": "Error while removing a status!",
+    "removeStatusSuccess": "Successfully removed a status!",
+    "addStatusFailure": "Error while adding a status!",
+    "addStatusSuccess": "Successfully added a status!",
+    "updateStatusFailure": "Error while updating a status!",
+    "updateStatusSuccess": "Successfully updated a status!"
   },
   "rosterEditor": {
     "rosterEditor": "自定義名冊編輯器",
@@ -605,6 +612,8 @@
   "templateManagement": {
     "creationDescription": "This creation dialog will assist you in creating a Sonoran CMS Community Template from elements from your community, you can update and remove this template at any time after creation is completed.",
     "previewImages": "Template Preview Images",
-    "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed."
+    "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed.",
+    "manageDescription": "This manage dialog will allow you to add, remove and update elements and information of your template. Once you save any changes it will need to be re-reviewed by the Sonoran CMS Development Team.",
+    "manageImages": "Manage Template Preview Images"
   }
 }
