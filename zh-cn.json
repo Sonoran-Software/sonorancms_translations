@@ -93,34 +93,34 @@
     "billing": "账单",
     "help": "帮助",
     "confirm": "确认",
-    "management": "Management",
-    "welcome": "Welcome",
-    "invite": "Invited to join",
-    "tutorial": "Tutorial",
+    "management": "管理",
+    "welcome": "欢迎",
+    "invite": "邀请加入",
+    "tutorial": "手册",
     "shareEvent": "Share Event",
-    "filter": "Filter",
-    "currently": "Currently",
-    "clickTo": "Click to",
-    "embed": "Embed",
-    "field": "Field",
-    "required": "Required",
-    "optional": "Optional",
+    "filter": "过滤器",
+    "currently": "当前",
+    "clickTo": "点击",
+    "embed": "嵌入",
+    "field": "字段",
+    "required": "必填",
+    "optional": "可选",
     "yes": "Yes",
     "no": "No",
-    "totalStages": "Total Stages",
-    "totalStageGroups": "Total Stage Groups",
-    "stages": "Stages",
-    "stageGroups": "Stage Groups",
-    "uploader": "Uploader",
-    "upload": "Upload",
-    "document": "Document",
-    "previewTempPageDetails": "Template Page Details",
-    "previewTempToolbarDetails": "Template Toolbar Details",
-    "pages": "Pages",
-    "toolbar": "Toolbar",
-    "toolbarItems": "Toolbar Items",
-    "manage": "Manage",
-    "return": "Return"
+    "totalStages": "所有流程",
+    "totalStageGroups": "所有流程组",
+    "stages": "流程",
+    "stageGroups": "流程组",
+    "uploader": "上转者",
+    "upload": "上传",
+    "document": "文档",
+    "previewTempPageDetails": "模板页面详细信息",
+    "previewTempToolbarDetails": "模板工具栏详细信息",
+    "pages": "所有页面",
+    "toolbar": "工具栏",
+    "toolbarItems": "工具栏内容",
+    "manage": "管理",
+    "return": "返回"
   },
   "data": {
     "import": "导入",
@@ -134,8 +134,8 @@
     "modifyComDepts": "通过管理器更改部门",
     "modifyComForms": "通过编辑器更改表单",
     "modifyComRosters": "通过编辑器更改名册",
-    "modifyDiscordHooks": "Modify Discord Logging Webhooks",
-    "modifyIntegration": "Modify API Integration"
+    "modifyDiscordHooks": "修改Disocrd日志Webhooks",
+    "modifyIntegration": "修改API整合"
   },
   "dashboard": {
     "dashboard": "主界面",
@@ -208,91 +208,91 @@
       "disciplinary": "纪律处分",
       "training": "培训历史"
     },
-    "formSystem": "Custom Form System",
-    "formStageEditor": "Custom Form Stage Editor",
-    "formStagePageLabel": "Custom Form Stage Editor",
-    "formStageGroupsEditor": "Custom Form Stage Groups Editor",
+    "formSystem": "自定义表单系统",
+    "formStageEditor": "自定义表单流程编辑器",
+    "formStagePageLabel": "自定义表单流程编辑器",
+    "formStageGroupsEditor": "自定义表单流程组编辑器",
     "stageTypes": {
-      "recSubmit": "Recently Submitted",
-      "reqReview": "Requesting Review",
-      "awaitChange": "Awaiting Changes",
-      "underReview": "Under Review",
-      "pendingSteps": "Pending Additional Steps",
-      "completed": "Completed",
-      "archived": "Archived"
+      "recSubmit": "近期提交",
+      "reqReview": "需要审核",
+      "awaitChange": "等待修改",
+      "underReview": "审核中",
+      "pendingSteps": "等待进一步操作",
+      "completed": "已完成",
+      "archived": "已归档"
     },
-    "stageType": "Stage Type",
-    "stageLabel": "Stage Label",
-    "stageDescription": "Stage Description",
-    "stageAutoFormReply": "Stage Action: Auto-Form Reply",
-    "addCustomAction": "Add Custom Action",
+    "stageType": "流程类型",
+    "stageLabel": "流程标签",
+    "stageDescription": "流程描述",
+    "stageAutoFormReply": "流程操作：自动回复",
+    "addCustomAction": "添加自定义操作",
     "stageActionTypes": {
-      "autoReply": "Auto-Form Reply",
-      "notifySubmitterNotification": "Notify Submitter via Notification",
-      "notifySubmitterEmail": "Notify Submitter via Email",
-      "disableEnableReplies": "Disable/Enable Replies",
-      "changeDepartmentSlashRank": "Change Submitter's Department/Rank",
-      "executeDiscordWebhook": "Execute Discord Webhook"
+      "autoReply": "自动表单回复",
+      "notifySubmitterNotification": "通过网页内通知通知提交者",
+      "notifySubmitterEmail": "通过邮件通知提交者",
+      "disableEnableReplies": "禁用/启动回复",
+      "changeDepartmentSlashRank": "修改提交者部门/职级",
+      "executeDiscordWebhook": "执行Discord Webhook"
     },
-    "stageIcon": "Stage Icon",
-    "stageColor": "Stage Color",
-    "stageAutoFormReplyDescription": "The stage \"auto-form reply\" action will automatically enter a reply when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within your reply.",
-    "stageNotifySubmitterNotification": "Stage Action: Notify Submitter via Notification",
+    "stageIcon": "流程图标",
+    "stageColor": "流程颜色",
+    "stageAutoFormReplyDescription": "当表单的阶段更改为｛stageName｝时，阶段“自动表单回复”操作将自动输入回复。您可以使用以下模板字符串：{form_name}、{stage_name}、{submitter_com_name}和{submister_username}在自动答复中包含动态数据.",
+    "stageNotifySubmitterNotification": "流程操作：通过通知通知提交者",
     "stageNotifySubmitterNotificationDescription": "The stage \"notify submitter via notification\" action will automatically send a notification to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within the notification content.",
-    "stageNotifySubmitterEmail": "Stage Action: Notify Submitter via Email",
+    "stageNotifySubmitterEmail": "流程操作：通过电子邮件通知提交者",
     "stageNotifySubmitterEmailDescription": "The stage \"notify submitter via email\" action will automatically send a email to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within the email content.",
-    "stageDisableEnableReplies": "Stage Action: Disable/Enable Form Replies",
+    "stageDisableEnableReplies": "流程操作：禁用/启用表单答复",
     "stageDisableEnableRepliesDescription": "The stage \"disable/enable form replies\" action will automatically will automatically disable/enable form replies for everyone, moderators, or administrators when the form's stage changes to {stageName}.",
-    "removeAction": "Remove Stage Action",
+    "removeAction": "移除流程操作",
     "stageDisableEnableRepliesToggles": {
       "pastTense": {
         "everyone": {
-          "enable": "ENABLED REPLIES FOR EVERYONE",
-          "disable": "DISABLED REPLIES FOR EVERYONE",
-          "noChange": "NO CHANGES TO EVERYONE REPLYING"
+          "enable": "为所有人启用答复",
+          "disable": "为所有人的禁用回复",
+          "noChange": "不对所有人回复进行操作"
         },
         "moderator": {
-          "enable": "ENABLED REPLIES FOR MODERATORS",
-          "disable": "DISABLED REPLIES FOR MODERATORS",
-          "noChange": "NO CHANGES TO MODERATORS REPLYING"
+          "enable": "为版主启用回复",
+          "disable": "为版主禁用回复",
+          "noChange": "不对版主回复进行操作"
         },
         "administrator": {
-          "enable": "ENABLED REPLIES FOR ADMINISTRATORS",
-          "disable": "DISABLED REPLIES FOR ADMINISTRATORS",
-          "noChange": "NO CHANGES TO ADMINISTRATORS REPLYING"
+          "enable": "为管理员启用答复",
+          "disable": "为管理员禁用答复",
+          "noChange": "不对管理员答复进行操作"
         }
       },
       "current": {
         "everyone": {
-          "enable": "ENABLE REPLIES FOR EVERYONE",
-          "disable": "DISABLE REPLIES FOR EVERYONE",
-          "noChange": "NO CHANGES TO EVERYONE REPLYING"
+          "enable": "为所有人启用答复",
+          "disable": "为所有人的禁用回复",
+          "noChange": "不对所有人回复进行操作"
         },
         "moderator": {
-          "enable": "ENABLE REPLIES FOR MODERATORS",
-          "disable": "DISABLE REPLIES FOR MODERATORS",
-          "noChange": "NO CHANGES TO MODERATORS REPLYING"
+          "enable": "为版主启用回复",
+          "disable": "为版主禁用回复",
+          "noChange": "不对版主回复进行操作"
         },
         "administrator": {
-          "enable": "ENABLE REPLIES FOR ADMINISTRATORS",
-          "disable": "DISABLE REPLIES FOR ADMINISTRATORS",
-          "noChange": "NO CHANGES TO ADMINISTRATORS REPLYING"
+          "enable": "为管理员启用答复",
+          "disable": "为管理员禁用答复",
+          "noChange": "不对管理员答复进行操作"
         }
       }
     },
     "stageChangeDepartmentSlashRankToggles": {
       "pastTense": {
-        "noChange": "{item} SET TO NOT ADD OR REMOVE FROM INDIVIDUAL",
-        "add": "{item} SET TO ADD ONTO INDIVIDUAL",
-        "remove": "{item} SET TO REMOVE FROM INDIVIDUAL"
+        "noChange": "{item} 设置为不添加或删除个人",
+        "add": "{item} 设置为添加到个人",
+        "remove": "{item} 设置为从个人中删除L"
       },
       "current": {
-        "noChange": "{item} SET NOT ADD OR REMOVE FROM INDIVIDUAL",
-        "add": "{item} SET ADD ONTO INDIVIDUAL",
-        "remove": "{item} SET REMOVE FROM INDIVIDUAL"
+        "noChange": "{item} 设置不添加或从个人中删除",
+        "add": "{item} 设置附加到个人",
+        "remove": "{item} 设置为从个人移除"
       }
     },
-    "stageChangeDepartmentSlashRank": "Stage Action: Change Submitter's Department/Rank",
+    "stageChangeDepartmentSlashRank": "流程操作：更改提交人的部门/级别",
     "stageChangeDepartmentSlashRankDescription": "The stage \"change submitter's department/rank\" action will automatically change/set the submitter's primary or secondary department and/or rank when the form's stage changes to {stageName}.",
     "stageExecuteDiscordWebhook": "Stage Action: Execute Discord Webhook",
     "stageExecuteDiscordWebhookDescription": "The stage \"execute discord webhook\" action will automatically execute a Discord webhook when the form's stage changes to {stageName}. You can utilize the following template strings: {form_name}, {stage_name}, {submitter_com_name}, and {submitter_username} to have dynamic data within the notification content.",
@@ -391,9 +391,9 @@
     "copyPermissions": "复制权限",
     "pastePermissions": "粘贴权限",
     "removeConfirm": "你确定要从该部门删除吗？",
-    "toggleAllPermissions": "Toggle All Permissions",
-    "formPermissions": "Form Permissions",
-    "serverPermissions": "Server Permissions",
+    "toggleAllPermissions": "给与所有权限",
+    "formPermissions": "表单权限",
+    "serverPermissions": "服务器权限",
     "copyRankIdToClipboard": "Copy ID To Clipboard",
     "copySuccess": "Copied to clipboard!"
   },
@@ -610,10 +610,10 @@
     "howToPurchase": "如何购买"
   },
   "templateManagement": {
-    "creationDescription": "This creation dialog will assist you in creating a Sonoran CMS Community Template from elements from your community, you can update and remove this template at any time after creation is completed.",
-    "previewImages": "Template Preview Images",
-    "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed.",
-    "manageDescription": "This manage dialog will allow you to add, remove and update elements and information of your template. Once you save any changes it will need to be re-reviewed by the Sonoran CMS Development Team.",
-    "manageImages": "Manage Template Preview Images"
+    "creationDescription": "此创建对话框将帮助您从社区中的元素创建Sonoran CMS社区模板。创建完成后，您可以随时更新和删除此模板.",
+    "previewImages": "模板预览图像",
+    "creationSelectionDescription": "此创建对话框将帮助您选择要包含在模板中的社区组件。创建完成后，您可以在此模板中更新和删除组件.",
+    "manageDescription": "此管理对话框将允许您添加、删除和更新模板的元素和信息。保存任何更改后，需要由Sonoran CMS开发团队重新审查.",
+    "manageImages": "管理模板预览图像"
   }
 }
