@@ -237,6 +237,7 @@
       "notifySubmitterEmail": "Notify Submitter via Email",
       "disableEnableReplies": "Disable/Enable Replies",
       "changeDepartmentSlashRank": "Change Submitter's Department/Rank",
+      "modifyCommunityStatus": "Modify Submitter's Community Status",
       "executeDiscordWebhook": "Execute Discord Webhook"
     },
     "stageIcon": "Stage Icon",
@@ -248,6 +249,14 @@
     "stageNotifySubmitterEmailDescription": "The stage \"notify submitter via email\" action will automatically send a email to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {'{form_name}'}, {'{stage_name}'}, {'{submitter_com_name}'}, and {'{submitter_username}'} to have dynamic data within the email content.",
     "stageDisableEnableReplies": "Stage Action: Disable/Enable Form Replies",
     "stageDisableEnableRepliesDescription": "The stage \"disable/enable form replies\" action will automatically will automatically disable/enable form replies for everyone, moderators, or administrators when the form's stage changes to {stageName}.",
+    "stageModifyCommunityStatus": "Stage Action: Modify Submitter's Community Status",
+    "stageModifyCommunityStatusDescription": "The stage \"modify submitter's community status\" action will automatically will modify the submitter's status, kick or ban when the form's stage changes to {stageName}.",
+    "stageModifyCommunityStatusOptions": {
+      "setPending": "Set Submitter Pending",
+      "setActive": "Set Submitter Active",
+      "setKick": "Kick Submitter",
+      "setBan": "Ban Submitter"
+    },
     "removeAction": "Remove Stage Action",
     "stageDisableEnableRepliesToggles": {
       "pastTense": {
@@ -374,6 +383,7 @@
     "rosterPermissions": "Roster Permissions",
     "calendarPermissions": "Calendar Permissions",
     "serverPermissions": "Server Permissions",
+    "profileFieldPermissions": "Profile Fields Permissions",
     "rankPower": "Power",
     "rankPowerDesc": "Rank Power is associated to who you can attempt system actions on and how you would sort in rosters. For example you cannot kick someone who has the same or higher rank power than you.",
     "successfulSave": "Successfully saved department!",
@@ -391,7 +401,7 @@
     "addSecondaryRoster": "Add Secondary Member to Roster",
     "addFillerRoster": "Add Filler Position to Roster",
     "saveMemberOnRoster": "Save Member",
-    "removeMemberFromRoster": "Remove off of Roster",
+    "removeMemberFromRoster": "Remove from Roster",
     "duplicateRank": "Duplicate Rank",
     "markRankPrimary": "Mark Rank Primary Use Only",
     "markRankSecondary": "Mark Rank Secondary Use Only",
@@ -565,8 +575,8 @@
     "viewMemberProfile": "View Member Profile",
     "priFilterNotice": "Primary Members will be filtered as a group above the \"secondary members\"",
     "secFilterNotice": "Secondary Members will be filtered as a group under the \"primary members\"",
-    "addPrimary": "Add Primary Member to",
-    "addSecondary": "Add Secondary Member to",
+    "addPrimary": "Add Primary Member to {rosterName}",
+    "addSecondary": "Add Secondary Member to {rosterName}",
     "disableAvail": "Disabled due to all available accounts are already on the roster",
     "configureOpts": "Configurable Options",
     "higherSortDesc": "Higher the # the higher they're sorted in the roster.",
@@ -574,8 +584,7 @@
     "noResults": "No Results",
     "disableNoSecondaryRanks": "Disabled due to account not having any secondary ranks.",
     "disableNoSecondaryIdents": "Disabled due to account not having any secondary identifiers.",
-    "editing": "Editing",
-    "member": "Member"
+    "editingMember": "Editing: {name}"
   },
   "clockInOut": {
     "clockIn": "Clock In",
@@ -620,5 +629,19 @@
     "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed.",
     "manageDescription": "This manage dialog will allow you to add, remove and update elements and information of your template. Once you save any changes it will need to be re-reviewed by the Sonoran CMS Development Team.",
     "manageImages": "Manage Template Preview Images"
+  },
+  "profileFieldsEditor": {
+    "viewer": "Profile Fields Viewer",
+    "editor": "Profile Field Editor",
+    "existingFields": "Existing Profile Fields",
+    "fieldLabel": "Field Label",
+    "fieldType": "Field Type",
+    "errors": {
+      "onGetAll": "An error occured while getting all profile fields. Error: {error}",
+      "noSelectOptions": "The Profile Field type 'SELECT' require at least one option.",
+      "onSave": "An error occured while getting saving a new profile field. Error: {error}",
+      "noFindField": "There was no field found from what is selected."
+    },
+    "newSelectOption": "New Select Option"
   }
 }

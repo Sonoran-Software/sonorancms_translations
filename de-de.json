@@ -232,7 +232,8 @@
       "notifySubmitterEmail": "Notify Submitter via Email",
       "disableEnableReplies": "Disable/Enable Replies",
       "changeDepartmentSlashRank": "Change Submitter's Department/Rank",
-      "executeDiscordWebhook": "Execute Discord Webhook"
+      "executeDiscordWebhook": "Execute Discord Webhook",
+      "modifyCommunityStatus": "Modify Submitter's Community Status"
     },
     "stageIcon": "Stage Icon",
     "stageColor": "Stage Color",
@@ -349,7 +350,15 @@
     "archiveOwn": "Archive Own Form",
     "archiveForm": "Archive Form",
     "unarchiveOwn": "Unarchive Own Form",
-    "unarchiveForm": "Unarchive Form"
+    "unarchiveForm": "Unarchive Form",
+    "stageModifyCommunityStatus": "Stage Action: Modify Submitter's Community Status",
+    "stageModifyCommunityStatusDescription": "The stage \"modify submitter's community status\" action will automatically will modify the submitter's status, kick or ban when the form's stage changes to {stageName}.",
+    "stageModifyCommunityStatusOptions": {
+      "setPending": "Set Submitter Pending",
+      "setActive": "Set Submitter Active",
+      "setKick": "Kick Submitter",
+      "setBan": "Ban Submitter"
+    }
   },
   "departments": {
     "departmentManager": "Department Manager",
@@ -395,7 +404,8 @@
     "serverPermissions": "Server Permissions",
     "toggleAllPermissions": "Toggle All Permissions",
     "copyRankIdToClipboard": "Copy ID To Clipboard",
-    "copySuccess": "Copied to clipboard!"
+    "copySuccess": "Copied to clipboard!",
+    "profileFieldPermissions": "Profile Fields Permissions"
   },
   "accounts": {
     "accounts": "Accounts",
@@ -570,7 +580,8 @@
     "disableNoSecondaryRanks": "Disabled due to account not having any secondary ranks.",
     "disableNoSecondaryIdents": "Disabled due to account not having any secondary identifiers.",
     "editing": "Editing",
-    "member": "Member"
+    "member": "Member",
+    "editingMember": "Editing: {name}"
   },
   "clockInOut": {
     "clockIn": "Clock In",
@@ -615,5 +626,19 @@
     "creationSelectionDescription": "This creation dialog will assist you in selecting what components of your community you'd like to include in the template,  you can update and remove components from this template after creation is completed.",
     "manageDescription": "This manage dialog will allow you to add, remove and update elements and information of your template. Once you save any changes it will need to be re-reviewed by the Sonoran CMS Development Team.",
     "manageImages": "Manage Template Preview Images"
+  },
+  "profileFieldsEditor": {
+    "viewer": "Profile Fields Viewer",
+    "editor": "Profile Field Editor",
+    "existingFields": "Existing Profile Fields",
+    "fieldLabel": "Field Label",
+    "fieldType": "Field Type",
+    "errors": {
+      "onGetAll": "An error occured while getting all profile fields. Error: {error}",
+      "noSelectOptions": "The Profile Field type 'SELECT' require at least one option.",
+      "onSave": "An error occured while getting saving a new profile field. Error: {error}",
+      "noFindField": "There was no field found from what is selected."
+    },
+    "newSelectOption": "New Select Option"
   }
 }
