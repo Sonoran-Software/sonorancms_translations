@@ -125,22 +125,82 @@
     "toolbar": "Toolbar",
     "toolbarItems": "Toolbar Items",
     "manage": "Manage",
-    "return": "Return"
+    "return": "Return",
+    "join": "Join",
+    "discovery": "Discovery"
   },
   "data": {
     "import": "Import",
     "importPrompt": "Paste the JSON content"
   },
   "permissions": {
-    "kickUser": "Kick User",
-    "banUser": "Ban User",
+    "kickUser": "Kick Users",
+    "banUser": "Ban Users",
     "changePermissions": "Change Permissions",
     "modifyComInfo": "Modify Community Customization",
     "modifyComDepts": "Modify Departments via Manager",
     "modifyComForms": "Modify Custom Forms via Editor",
     "modifyComRosters": "Modify Custom Rosters via Editor",
     "modifyDiscordHooks": "Modify Discord Logging Webhooks",
-    "modifyIntegration": "Modify API Integration"
+    "modifyIntegration": "Modify API Integration",
+    "tooltips": {
+      "system": {
+        "kickUserExplanation": "Granting this permission will allow a user with this rank to kick another user from the community.",
+        "banUserExplanation": "Granting this permission will allow a user with this rank to ban another user from the community.",
+        "changePermissionsExplanation": "Granting this permission will allow a user with this rank to modify another user's permissions and account details from the community.",
+        "modifyComInfoExplanation": "Granting this permission will allow a user with this rank to customize aspects of the Sonoran CMS platform such as Name, Image, Name/Identifier Format, etc.",
+        "modifyComFormsExplanation": "Granting this permission will allow a user with this rank to customize the custom form templates that are used when users submit forms.",
+        "modifyComDeptsExplanation": "Granting this permission will allow a user with this rank to customize departments and ranks like you are doing now.",
+        "modifyComRostersExplanation": "Granting this permission will allow a user with this rank to customize the roster templates that are used to display the community's roster data.",
+        "modifyDiscordHooksExplanation": "Granting this permission will allow a user with this rank to customize the Discord webhook settings for the community.",
+        "modifyIntegrationExplanation": "Granting this permission will allow a user with this rank to customize and retrieve API credentials.",
+        "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
+        "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
+        "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive."
+      },
+      "forms": {
+        "viewSubmittedExplanation": "Granting this permission will allow a user with this rank to view all submitted forms of this type.",
+        "editOwnExplanation": "Granting this permission will allow a user with this rank to edit their submissions of this type of form.",
+        "changeStagesExplanation": "Granting this permission will allow a user with this rank to change the stage of a submitted form of this type.",
+        "modifyReplySettingsExplanation": "Granting this permission will allow a user with this rank to change the reply settings of a submitted form of this type.",
+        "replyExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic replies.",
+        "replyModExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic or Mod replies.",
+        "replyAdminExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic, Mod, or Admin replies.",
+        "submitExplanation": "Granting this permission will allow a user with this rank to submit a form of this type.",
+        "adminDeleteExplanation": "Granting this permission will allow a user with this rank to fully delete a submission of this form."
+      },
+      "rosters": {
+        "viewExplanation": "Granting this permission will allow a user with this rank to view this roster.",
+        "addPrimaryUserExplanation": "Granting this permission will allow a user with this rank to add a user to the roster as a Primary Row (sorted initially before secondary rows).",
+        "addSecondaryUserExplanation": "Granting this permission will allow a user with this rank to add a user to the roster as a Secondary Row (sorted after primary rows).",
+        "editPrimaryUserExplanation": "Granting this permission will allow a user with this rank to edit a primary row in this roster.",
+        "editSecondaryUserExplanation": "Granting this permission will allow a user with this rank to edit a secondary row in this roster.",
+        "removePrimaryUserExplanation": "Granting this permission will allow a user with this rank to remove a primary row from the roster.",
+        "removeSecondaryUserExplanation": "Granting this permission will allow a user with this rank to remove a secondary row from the roster.",
+        "viewModColumnExplanation": "Granting this permission will allow a user with this rank to view roster column(s) that are marked as Mod only.",
+        "viewAdminColumnExplanation": "Granting this permission will allow a user with this rank to view roster column(s) that are marked as Admin only."
+      },
+      "calendars": {
+        "viewExplanation": "Granting this permission will allow a user with this rank to view events within this calendar category.",
+        "createExplanation": "Granting this permisison will allow a user with this rank to create events within this calendar category.",
+        "removeExplanation": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
+        "editOtherExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
+      },
+      "servers": {
+        "allowWhitelistExplanation": "Granting this permission will allow a user with this rank to be allowed through the API whitelist (if a user holds the block permission for this server they'll be blocked as block takes precedence).",
+        "blockWhitelistExplanation": "Granting this permission will block a user with this rank to be allowed through the API whitelist (if a user holds the allow permission for this server they'll still be blocked as it takes precedence)."
+      },
+      "profileFields": {
+        "attachExplanation": "Granting this permission will attach this profile field to all member's profiles that hold this rank. This will allow anyone who views your profile to see it unless either of the next two permissions are applied.",
+        "hideFromOwnerExplanation": "Granting this permission will hide the field from the member's profile that hold's this rank.",
+        "requireModToViewExplanation": "Granting this permission will require a member to have the \"View Field on Other Profiles - Mod Power\" in order to view the field on a profile.",
+        "requireAdminToViewExplanation": "Granting this permission will require a member to have the \"View Field on Other Profiles - Admin Power\" in order to view the field on a profile.",
+        "viewModPowerExplanation": "Granting this permission will allow a member to view this field on a profile with \"Mod Power\" in mind. See above permissions for association.",
+        "viewAdminPowerExplanation": "Granting this permission will allow a member to view this field on a profile with \"Admin Power\" in mind. See above permissions for association.",
+        "allowOwnerToEditExplanation": "Granting this permission will allow the member that holds this rank to edit this field on their profile. If the \"Hides Field from Profile Owner\" permission is granted it will ignore this permission as it won't be visible.",
+        "editOthersExplanation": "Granting this permission will allow the member that holds this rank to edit this field on any member profiles that their able to view."
+      }
+    }
   },
   "dashboard": {
     "dashboard": "Dashboard",
@@ -168,7 +228,15 @@
     "alreadyJoined": "Already Joined",
     "comNotFound": "Community Not Found",
     "togDefaultCom": "Toggle Default CMS Community",
-    "leaveCommunity": "Leave Community"
+    "leaveCommunity": "Leave Community",
+    "leaveCommunityTitle": "Leave Community Confirmation",
+    "leaveCommunityMessage": "Are you sure you want to leave this community? You will no longer be able to access any of the community's content.",
+    "discovery": "Discovery",
+    "tooltips": {
+      "joinButton": "Have a community ID? Join a community here!",
+      "discoveryButton": "Looking for a community? Discover communities using Sonoran CMS!",
+      "createButton": "Looking to use Sonoran CMS with your community? Proceed here."
+    }
   },
   "forms": {
     "formEditor": "Custom Form Editor",
@@ -363,7 +431,8 @@
     "archiveOwn": "Archive Own Form",
     "archiveForm": "Archive Form",
     "unarchiveOwn": "Unarchive Own Form",
-    "unarchiveForm": "Unarchive Form"
+    "unarchiveForm": "Unarchive Form",
+    "adminDelete": "Admin Delete"
   },
   "departments": {
     "departmentManager": "Department Manager",
@@ -410,7 +479,8 @@
     "removeConfirm": "Are you sure you want to remove this department?",
     "toggleAllPermissions": "Toggle All Permissions",
     "copyRankIdToClipboard": "Copy ID To Clipboard",
-    "copySuccess": "Copied to clipboard!"
+    "copySuccess": "Copied to clipboard!",
+    "defaultPermissions": "Default Department Permissions"
   },
   "accounts": {
     "accounts": "Accounts",
@@ -449,7 +519,29 @@
     "comDescription": "Community Description",
     "nameIdentFormatDescription": "Format that member's name & identifier should be formated. | {comName} & {identifier} can be used for formatting. Example: {comName} | {identifier} would be formatted as such: Dawson G. | 2B-1",
     "customizeColorNameStatus": "Customize the color and name of community status types that are available.",
-    "customizeColorNameCalendar": "Customize the color and name of calendar categories that are available in the calendar area of SonoranCMS."
+    "customizeColorNameCalendar": "Customize the color and name of calendar categories that are available in the calendar area of SonoranCMS.",
+    "inputs": {
+      "discoveryEnable": "Enable Community Discovery",
+      "discoverySelectForm": "New Member Default Form",
+      "bumpDiscovery": "Bump Discovery",
+      "discoveryTags": "Search Tags",
+      "logo": "Community Logo",
+      "banner": "Community Banner Image*"
+    },
+    "tooltips": {
+      "discoveryEnable": "This is enable/disable the community for Sonoran CMS's Community Discovery system.",
+      "discoverySelectForm": "This will automatically show this form for submission if a user joins the community through the Sonoran CMS Community Discovery system. The form must be the type of \"New Member Application\".",
+      "enableDiscoveryFirst": "Community Discovery must be enabled to use this",
+      "hoursUntilNextBump": "You have one hour left before you can bump again | You have {hours} hours left before you can bump again",
+      "canBumpDiscovery": "Bring your community to the top of the discovery page!"
+    },
+    "explanations": {
+      "discovery": "Configure your community to be discoverable through the Sonoran CMS Community Discovery!"
+    },
+    "errors": {
+      "unexpectedOnSave": "Error: An unexpected error occured while saving discovery settings.",
+      "expectedOnSave": "Error: An unexpected error occured while saving discovery settings. ERR: {msg}"
+    }
   },
   "rosterEditor": {
     "rosterEditor": "Custom Roster Editor",
@@ -643,5 +735,22 @@
       "noFindField": "There was no field found from what is selected."
     },
     "newSelectOption": "New Select Option"
+  },
+  "discovery": {
+    "communityDiscovery": "Community Discovery"
+  },
+  "forum": {
+    "topicBy": "by {name} ({fromNow})",
+    "goBack": "Go Back",
+    "editTopic": "Edit",
+    "deleteTopic": "Remove",
+    "deleteReply": "Remove Reply",
+    "postReply": "Post Reply",
+    "loadingCategory": "Loading Category...",
+    "invalidCategory": "Invalid Category",
+    "noTopics": "No topics in this category yet!",
+    "topicTitlePlaceholder": "An Interesting Title",
+    "topicContentPlaceholder": "What's on your mind?",
+    "createTopic": "Create Topic"
   }
 }
