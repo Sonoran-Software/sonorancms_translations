@@ -122,7 +122,10 @@
     "manage": "Manage",
     "return": "Return",
     "join": "Join",
-    "discovery": "Discovery"
+    "discovery": "Discovery",
+    "back": "Back",
+    "learnMore": "Learn More",
+    "areYouSure": "Are you sure?"
   },
   "data": {
     "import": "Import",
@@ -151,7 +154,8 @@
         "modifyIntegrationExplanation": "Granting this permission will allow a user with this rank to customize and retrieve API credentials.",
         "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
-        "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive."
+        "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
+        "clockInOutExplanation": "Granting this permission will allow a user to clock in and out."
       },
       "forms": {
         "viewSubmittedExplanation": "Granting this permission will allow a user with this rank to view all submitted forms of this type.",
@@ -194,6 +198,16 @@
         "viewAdminPowerExplanation": "Granting this permission will allow a member to view this field on a profile with \"Admin Power\" in mind. See above permissions for association.",
         "allowOwnerToEditExplanation": "Granting this permission will allow the member that holds this rank to edit this field on their profile. If the \"Hides Field from Profile Owner\" permission is granted it will ignore this permission as it won't be visible.",
         "editOthersExplanation": "Granting this permission will allow the member that holds this rank to edit this field on any member profiles that their able to view."
+      },
+      "navigation": {
+        "viewDashboardBtnExplanation": "Granting this permission will allow a user to see the Dashboard button on the side navigation bar.",
+        "viewDriveBtnExplanation": "Granting this permission will allow a user to see the Drive butotn on the side navigation bar (if the 'Modify All Documents (Drive)' permission is granted this is already inherited).",
+        "viewCalendarBtnExplanation": "Granting this permission will allow a user to see the Calendar button on the side navigation bar.",
+        "viewRostersBtnExplanation": "Granting this permission will allow a user to see the Rosters buttons on the side navigation bar.",
+        "viewProfileBtnExplanation": "Granting this permission will allow a user to see the Community Profile button on the side navigation bar."
+      },
+      "pages": {
+        "viewExplanation": "Granting this permissions will allow the member that holds this rank to view this page as the page is set to PRIVATE."
       }
     }
   },
@@ -208,7 +222,8 @@
     "calendar": "Community Calendar",
     "totalMembers": "Total Members",
     "created": "Created",
-    "drive": "Drive"
+    "drive": "Drive",
+    "communityPages": "Community Pages"
   },
   "menu": {
     "join": "Join a Community",
@@ -427,7 +442,71 @@
       "setKick": "Kick Submitter",
       "setBan": "Ban Submitter"
     },
-    "adminDelete": "Admin Delete"
+    "adminDelete": "Admin Delete",
+    "formEditorTitle": "Form Editor",
+    "formEditorSubtitle": "Customize your community's forms right here!",
+    "formSelectSubtitle": "Select a form to edit or create a new one to get started!",
+    "formTitleInput": "Title",
+    "formDescInput": "Description",
+    "formTypeInput": "Form Type",
+    "formSortOrderInput": "Sort Order",
+    "formDeleteConfirm": "Are you sure you want to delete \"{formName}\"?",
+    "editFormStages": "Edit Form Stages",
+    "editFormLimits": "Edit Form Limits",
+    "setupFormStagesErr": "This form has an invalid stage setup. It must be setup before being used",
+    "secHeaderInput": "Section Header",
+    "secHeaderDefault": "New Section",
+    "secDepToggle": "Conditional",
+    "secDepOnWhat": "Depends on...",
+    "secDepInput": "Values (comma,separated)",
+    "secDepInputTooltip": "A comma separated list of values that will show this section",
+    "secFieldsHeader": "Fields",
+    "secFieldRequired": "Required",
+    "secFieldTypeInput": "Field Type",
+    "secFieldLabelInput": "Field Label",
+    "secFieldLabelDefault": "New Field",
+    "secFieldRefInput": "Field/Source to Reference",
+    "secFieldColor": "Label Color",
+    "secFieldMaskInput": "Text Mask (Advanced)",
+    "secFieldDateMaskInput": "Date Mask",
+    "secFieldRevMaskToggle": "Reverse Mask",
+    "secFieldSelectInput": "Select Values",
+    "secPLogHeader": "Patrol Start/End Section Options",
+    "secAddField": "Add Field",
+    "secAddSection": "Add Section",
+    "secRemoveConfirm": "Are you sure you want to remove this?",
+    "noSections": "No form sections yet :(",
+    "editStageGroupTitle": "Form Stages",
+    "stageGroupDesc": "Custom Form Stages are different statuses a custom form can go through. Each \"stage\" can have customizable action(s) and functions.",
+    "stageGroupExample": "For example, if this form template is for a community application, you may want the process to be {0}",
+    "noStageOptions": "No further stages",
+    "createNewStage": "Create New Stage",
+    "addExistingStage": "Add Existing Stage",
+    "stageGroupErr": {
+      "invalid": "The stage with this ID has been deleted",
+      "noRoutes": "This stage is unselectable. To use this stage, it must be added to the stage options of another stage",
+      "noDefault": "There are no default stages",
+      "unresolved": "There are unresolved errors (highlighted in red) that must be addressed before saving"
+    },
+    "stageDefaultTitle": "My New Stage",
+    "stageDefaultDesc": "A stage description",
+    "stageEditSubtitle": "Note that editing this stage (except Default Stage & Next Stage Options) will apply to {0} forms that use this stage",
+    "stageEditSubtitleAll": "ALL",
+    "stageLabelInput": "Stage Label",
+    "stageInternalLabelInput": "Stage Internal Label",
+    "stageDescInput": "Stage Description",
+    "stageColorInput": "Color",
+    "stageIconInput": "Icon",
+    "stageOptionsInput": "Next Stage Options",
+    "stageOptionsTooltip": "The next stages that can be selected from this stage",
+    "stageDefaultToggle": "Default Stage",
+    "stageDefaultTooltip": "If set, this is the default stage for forms from this template",
+    "stageDelete": "Delete Stage",
+    "stageDeleteConfirm": "Are you sure you want to delete this stage? This may influence other form templates that use this stage.",
+    "stageActions": "Stage Actions (Advanced)",
+    "stageRemoveAction": "Remove Action",
+    "stageCreate": "Create Stage",
+    "stageUpdate": "Update Stage"
   },
   "departments": {
     "departmentManager": "Department Manager",
@@ -475,7 +554,11 @@
     "copyRankIdToClipboard": "Copy ID To Clipboard",
     "copySuccess": "Copied to clipboard!",
     "profileFieldPermissions": "Profile Fields Permissions",
-    "defaultPermissions": "Default Department Permissions"
+    "defaultPermissions": "Default Department Permissions",
+    "navigationPermissions": "Navigation Permissions",
+    "pagePermissions": "Page Permissions",
+    "rankColor": "Rank Cosmetic Color",
+    "rankIcon": "Rank Cosmetic Icon"
   },
   "accounts": {
     "accounts": "Accounts",
@@ -548,7 +631,10 @@
     "rosterTypes": {
       "main": "Department Roster",
       "sub": "Subdepartment Roster",
-      "com": "Community Roster"
+      "com": "Community Roster",
+      "custom": "Custom Roster",
+      "department": "Department Roster",
+      "community": "Community Roster"
     },
     "columnName": "Column Name",
     "columnType": "Column Type",
@@ -565,7 +651,8 @@
     "existingComRosters": "Existing Custom Rosters",
     "pLogHours": "Patrol Log Hours",
     "determinesHours": "Determines from when to calculate hours from.",
-    "rosterViewer": "Roster Viewer"
+    "rosterViewer": "Roster Viewer",
+    "departmentSelector": "Department Associated with Roster"
   },
   "formManagement": {
     "label": "Form Management Panel",
@@ -748,6 +835,13 @@
     "noTopics": "No topics in this category yet!",
     "topicTitlePlaceholder": "An Interesting Title",
     "topicContentPlaceholder": "What's on your mind?",
-    "createTopic": "Create Topic"
+    "createTopic": "Create Topic",
+    "saveReply": "Save Reply",
+    "expandCategory": "Expand Forum Category",
+    "topicHeader": "Forum Topics"
+  },
+  "rosterManager": {
+    "label": "Roster Manager",
+    "pageLabel": "Roster Manager"
   }
 }

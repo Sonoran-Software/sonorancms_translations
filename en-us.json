@@ -45,6 +45,7 @@
     "archive": "Archive",
     "addSettings": "Additional Settings",
     "save": "Save",
+    "back": "Back",
     "update": "Update",
     "import": "Import",
     "cancel": "Cancel",
@@ -127,7 +128,9 @@
     "manage": "Manage",
     "return": "Return",
     "join": "Join",
-    "discovery": "Discovery"
+    "discovery": "Discovery",
+    "learnMore": "Learn More",
+    "areYouSure": "Are you sure?"
   },
   "data": {
     "import": "Import",
@@ -156,7 +159,15 @@
         "modifyIntegrationExplanation": "Granting this permission will allow a user with this rank to customize and retrieve API credentials.",
         "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
-        "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive."
+        "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
+        "clockInOutExplanation": "Granting this permission will allow a user to clock in and out."
+      },
+      "navigation": {
+        "viewDashboardBtnExplanation": "Granting this permission will allow a user to see the Dashboard button on the side navigation bar.",
+        "viewDriveBtnExplanation": "Granting this permission will allow a user to see the Drive butotn on the side navigation bar (if the 'Modify All Documents (Drive)' permission is granted this is already inherited).",
+        "viewCalendarBtnExplanation": "Granting this permission will allow a user to see the Calendar button on the side navigation bar.",
+        "viewRostersBtnExplanation": "Granting this permission will allow a user to see the Rosters buttons on the side navigation bar.",
+        "viewProfileBtnExplanation": "Granting this permission will allow a user to see the Community Profile button on the side navigation bar."
       },
       "forms": {
         "viewSubmittedExplanation": "Granting this permission will allow a user with this rank to view all submitted forms of this type.",
@@ -199,6 +210,9 @@
         "viewAdminPowerExplanation": "Granting this permission will allow a member to view this field on a profile with \"Admin Power\" in mind. See above permissions for association.",
         "allowOwnerToEditExplanation": "Granting this permission will allow the member that holds this rank to edit this field on their profile. If the \"Hides Field from Profile Owner\" permission is granted it will ignore this permission as it won't be visible.",
         "editOthersExplanation": "Granting this permission will allow the member that holds this rank to edit this field on any member profiles that their able to view."
+      },
+      "pages": {
+        "viewExplanation": "Granting this permissions will allow the member that holds this rank to view this page as the page is set to PRIVATE."
       }
     }
   },
@@ -213,7 +227,8 @@
     "formCenter": "Available Forms",
     "calendar": "Community Calendar",
     "totalMembers": "Total Members",
-    "created": "Created"
+    "created": "Created",
+    "communityPages": "Community Pages"
   },
   "menu": {
     "join": "Join a Community",
@@ -239,38 +254,13 @@
     }
   },
   "forms": {
-    "formEditor": "Custom Form Editor",
-    "pageLabel": "Custom Form Editor",
-    "formName": "Form Name",
-    "formDescription": "Form Description",
-    "formType": "Form Type",
-    "addSection": "Add Section",
-    "addPremadeSection": "Add Premade Section",
-    "removeSection": "Remove Section",
-    "sectionName": "Section Name",
-    "pStartEnd": "Patrol Start/End",
-    "importClockData": "Import Clock In/Out Data",
-    "fields": {
-      "addField": "Add Field",
-      "fieldName": "Field Name",
-      "removeField": "Remove Field",
-      "mask": "Mask",
-      "reverseMask": "Reverse Mask",
-      "requiredAbout": "Required Field",
-      "width": "Width",
-      "newValue": "New Value",
-      "pLogHours": "Calculate Hours From"
-    },
-    "viewPending": "View Pending",
-    "viewAssociated": "View Associated",
-    "approveApplicant": "Approve Applicant",
-    "denyApplicant": "Deny Applicant",
-    "appSubmit": "Submit Application/Form",
-    "apply": {
-      "availableForms": "Available Forms",
-      "myForms": "My Forms",
-      "apply": "Submit"
-    },
+    "formEditorTitle": "Form Editor",
+    "formEditorSubtitle": "Customize your community's forms right here!",
+    "formSelectSubtitle": "Select a form to edit or create a new one to get started!",
+    "formTitleInput": "Title",
+    "formDescInput": "Description",
+    "formTypeInput": "Form Type",
+    "formSortOrderInput": "Sort Order",
     "templateTypes": {
       "newmemberapp": "New Member Application",
       "reserveapp": "Secondary Application",
@@ -281,24 +271,64 @@
       "disciplinary": "Disciplinary Action",
       "training": "Training History"
     },
-    "formSystem": "Custom Form System",
-    "formStageEditor": "Custom Form Stage Editor",
-    "formStagePageLabel": "Custom Form Stage Editor",
-    "formStageGroupsEditor": "Custom Form Stage Groups Editor",
-    "stageTypes": {
-      "recSubmit": "Recently Submitted",
-      "reqReview": "Requesting Review",
-      "awaitChange": "Awaiting Changes",
-      "underReview": "Under Review",
-      "pendingSteps": "Pending Additional Steps",
-      "completed": "Completed",
-      "archived": "Archived"
+    "formDeleteConfirm": "Are you sure you want to delete \"{formName}\"?",
+    "editFormStages": "Edit Form Stages",
+    "editFormLimits": "Edit Form Limits",
+    "setupFormStagesErr": "This form has an invalid stage setup. It must be setup before being used",
+    "secHeaderInput": "Section Header",
+    "secHeaderDefault": "New Section",
+    "secDepToggle": "Conditional",
+    "secDepOnWhat": "Depends on...",
+    "secDepInput": "Values (comma,separated)",
+    "secDepInputTooltip": "A comma separated list of values that will show this section",
+    "secFieldsHeader": "Fields",
+    "secFieldRequired": "Required",
+    "secFieldTypeInput": "Field Type",
+    "secFieldLabelInput": "Field Label",
+    "secFieldLabelDefault": "New Field",
+    "secFieldRefInput": "Field/Source to Reference",
+    "secFieldColor": "Label Color",
+    "secFieldMaskInput": "Text Mask (Advanced)",
+    "secFieldDateMaskInput": "Date Mask",
+    "secFieldRevMaskToggle": "Reverse Mask",
+    "secFieldSelectInput": "Select Values",
+    "secPLogHeader": "Patrol Start/End Section Options",
+    "secAddField": "Add Field",
+    "secAddSection": "Add Section",
+    "secRemoveConfirm": "Are you sure you want to remove this?",
+    "noSections": "No form sections yet :(",
+    "editStageGroupTitle": "Form Stages",
+    "stageGroupDesc": "Custom Form Stages are different statuses a custom form can go through. Each \"stage\" can have customizable action(s) and functions.",
+    "stageGroupExample": "For example, if this form template is for a community application, you may want the process to be {0}",
+    "noStageOptions": "No further stages",
+    "createNewStage": "Create New Stage",
+    "addExistingStage": "Add Existing Stage",
+    "stageGroupErr": {
+      "invalid": "The stage with this ID has been deleted",
+      "noRoutes": "This stage is unselectable. To use this stage, it must be added to the stage options of another stage",
+      "noDefault": "There are no default stages",
+      "unresolved": "There are unresolved errors (highlighted in red) that must be addressed before saving"
     },
-    "stageType": "Stage Type",
-    "stageLabel": "Stage Label",
-    "stageDescription": "Stage Description",
-    "stageAutoFormReply": "Stage Action: Auto-Form Reply",
+    "stageDefaultTitle": "My New Stage",
+    "stageDefaultDesc": "A stage description",
+    "stageEditSubtitle": "Note that editing this stage (except Default Stage & Next Stage Options) will apply to {0} forms that use this stage",
+    "stageEditSubtitleAll": "ALL",
+    "stageLabelInput": "Stage Label",
+    "stageInternalLabelInput": "Stage Internal Label",
+    "stageDescInput": "Stage Description",
+    "stageColorInput": "Color",
+    "stageIconInput": "Icon",
+    "stageOptionsInput": "Next Stage Options",
+    "stageOptionsTooltip": "The next stages that can be selected from this stage",
+    "stageDefaultToggle": "Default Stage",
+    "stageDefaultTooltip": "If set, this is the default stage for forms from this template",
+    "stageDelete": "Delete Stage",
+    "stageDeleteConfirm": "Are you sure you want to delete this stage? This may influence other form templates that use this stage.",
+    "stageActions": "Stage Actions (Advanced)",
     "addCustomAction": "Add Custom Action",
+    "stageRemoveAction": "Remove Action",
+    "stageCreate": "Create Stage",
+    "stageUpdate": "Update Stage",
     "stageActionTypes": {
       "autoReply": "Auto-Form Reply",
       "notifySubmitterNotification": "Notify Submitter via Notification",
@@ -308,8 +338,6 @@
       "modifyCommunityStatus": "Modify Submitter's Community Status",
       "executeDiscordWebhook": "Execute Discord Webhook"
     },
-    "stageIcon": "Stage Icon",
-    "stageColor": "Stage Color",
     "stageAutoFormReplyDescription": "The stage \"auto-form reply\" action will automatically enter a reply when the form's stage changes to {stageName}. You can utilize the following template strings: {'{form_name}'}, {'{stage_name}'}, {'{submitter_com_name}'}, and {'{submitter_username}'} to have dynamic data within your reply.",
     "stageNotifySubmitterNotification": "Stage Action: Notify Submitter via Notification",
     "stageNotifySubmitterNotificationDescription": "The stage \"notify submitter via notification\" action will automatically send a notification to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {'{form_name}'}, {'{stage_name}'}, {'{submitter_com_name}'}, and {'{submitter_username}'} to have dynamic data within the notification content.",
@@ -324,43 +352,6 @@
       "setActive": "Set Submitter Active",
       "setKick": "Kick Submitter",
       "setBan": "Ban Submitter"
-    },
-    "removeAction": "Remove Stage Action",
-    "stageDisableEnableRepliesToggles": {
-      "pastTense": {
-        "everyone": {
-          "enable": "ENABLED REPLIES FOR BASIC REPLY POWER",
-          "disable": "DISABLED REPLIES FOR BASIC REPLY POWER",
-          "noChange": "NO CHANGES TO BASIC REPLY POWER REPLYING"
-        },
-        "moderator": {
-          "enable": "ENABLED REPLIES FOR MOD REPLY POWER",
-          "disable": "DISABLED REPLIES FOR MOD REPLY POWER",
-          "noChange": "NO CHANGES TO MOD REPLY POWER REPLYING"
-        },
-        "administrator": {
-          "enable": "ENABLED REPLIES FOR ADMIN REPLY POWER",
-          "disable": "DISABLED REPLIES FOR ADMIN REPLY",
-          "noChange": "NO CHANGES TO AMDIN REPLY POWER REPLYING"
-        }
-      },
-      "current": {
-        "everyone": {
-          "enable": "ENABLE REPLIES FOR BASIC REPLY POWER",
-          "disable": "DISABLE REPLIES FOR BASIC REPLY POWER",
-          "noChange": "NO CHANGES TO BASIC REPLY POWER REPLYING"
-        },
-        "moderator": {
-          "enable": "ENABLE REPLIES FOR MOD REPLY POWER",
-          "disable": "DISABLE REPLIES FOR MOD REPLY POWER",
-          "noChange": "NO CHANGES TO MOD REPLY POWER REPLYING"
-        },
-        "administrator": {
-          "enable": "ENABLE REPLIES FOR ADMIN REPLY POWER",
-          "disable": "DISABLE REPLIES FOR ADMIN REPLY POWER",
-          "noChange": "NO CHANGES TO ADMIN REPLY POWER REPLYING"
-        }
-      }
     },
     "stageChangeDepartmentSlashRankToggles": {
       "pastTense": {
@@ -415,12 +406,45 @@
     "embedFieldInline": "Inline",
     "importWebhookJSONData": "Import Webhook JSON Data",
     "discordEmbedWebhookJSON": "Discord Embed Webhook JSON",
-    "formsUsedBy": "Forms Used By",
-    "stageGroupLabel": "Stage Group Label",
-    "stageGroupDescription": "Stage Group Description",
-    "addStageToGroup": "Add Stage to Group",
-    "removeStageFromGroup": "Remove Stage from Group",
-    "formStageGroup": "Form Stage Group",
+    "stageDisableEnableRepliesToggles": {
+      "pastTense": {
+        "everyone": {
+          "enable": "ENABLED REPLIES FOR BASIC REPLY POWER",
+          "disable": "DISABLED REPLIES FOR BASIC REPLY POWER",
+          "noChange": "NO CHANGES TO BASIC REPLY POWER REPLYING"
+        },
+        "moderator": {
+          "enable": "ENABLED REPLIES FOR MOD REPLY POWER",
+          "disable": "DISABLED REPLIES FOR MOD REPLY POWER",
+          "noChange": "NO CHANGES TO MOD REPLY POWER REPLYING"
+        },
+        "administrator": {
+          "enable": "ENABLED REPLIES FOR ADMIN REPLY POWER",
+          "disable": "DISABLED REPLIES FOR ADMIN REPLY",
+          "noChange": "NO CHANGES TO AMDIN REPLY POWER REPLYING"
+        }
+      },
+      "current": {
+        "everyone": {
+          "enable": "ENABLE REPLIES FOR BASIC REPLY POWER",
+          "disable": "DISABLE REPLIES FOR BASIC REPLY POWER",
+          "noChange": "NO CHANGES TO BASIC REPLY POWER REPLYING"
+        },
+        "moderator": {
+          "enable": "ENABLE REPLIES FOR MOD REPLY POWER",
+          "disable": "DISABLE REPLIES FOR MOD REPLY POWER",
+          "noChange": "NO CHANGES TO MOD REPLY POWER REPLYING"
+        },
+        "administrator": {
+          "enable": "ENABLE REPLIES FOR ADMIN REPLY POWER",
+          "disable": "DISABLE REPLIES FOR ADMIN REPLY POWER",
+          "noChange": "NO CHANGES TO ADMIN REPLY POWER REPLYING"
+        }
+      }
+    },
+    "formSystem": "Community Forms",
+    "importClockData": "Import Clock In/Out Data",
+    "appSubmit": "Submit Application/Form",
     "editOwn": "Edit Own Form",
     "changeStages": "Change Form Stage",
     "toggleReplies": "Enable/Disable Replies",
@@ -432,7 +456,12 @@
     "archiveForm": "Archive Form",
     "unarchiveOwn": "Unarchive Own Form",
     "unarchiveForm": "Unarchive Form",
-    "adminDelete": "Admin Delete"
+    "adminDelete": "Admin Delete",
+    "apply": {
+      "availableForms": "Available Forms",
+      "myForms": "My Forms",
+      "apply": "Submit"
+    }
   },
   "departments": {
     "departmentManager": "Department Manager",
@@ -446,6 +475,8 @@
     "addRank": "Add Rank",
     "removeRank": "Remove Rank",
     "rankName": "Rank Name",
+    "rankColor": "Rank Cosmetic Color",
+    "rankIcon": "Rank Cosmetic Icon",
     "cmsPermissions": "CMS Permissions",
     "applicationPermissions": "Application Permissions",
     "formPermissions": "Form Permissions",
@@ -453,6 +484,7 @@
     "calendarPermissions": "Calendar Permissions",
     "serverPermissions": "Server Permissions",
     "profileFieldPermissions": "Profile Fields Permissions",
+    "navigationPermissions": "Navigation Permissions",
     "rankPower": "Power",
     "rankPowerDesc": "Rank Power is associated to who you can attempt system actions on and how you would sort in rosters. For example you cannot kick someone who has the same or higher rank power than you.",
     "successfulSave": "Successfully saved department!",
@@ -480,7 +512,8 @@
     "toggleAllPermissions": "Toggle All Permissions",
     "copyRankIdToClipboard": "Copy ID To Clipboard",
     "copySuccess": "Copied to clipboard!",
-    "defaultPermissions": "Default Department Permissions"
+    "defaultPermissions": "Default Department Permissions",
+    "pagePermissions": "Page Permissions"
   },
   "accounts": {
     "accounts": "Accounts",
@@ -553,7 +586,10 @@
     "rosterTypes": {
       "main": "Department Roster",
       "sub": "Subdepartment Roster",
-      "com": "Community Roster"
+      "com": "Community Roster",
+      "custom": "Custom Roster",
+      "department": "Department Roster",
+      "community": "Community Roster"
     },
     "columnName": "Column Name",
     "columnType": "Column Type",
@@ -570,7 +606,8 @@
     "existingComRosters": "Existing Custom Rosters",
     "pLogHours": "Patrol Log Hours",
     "determinesHours": "Determines from when to calculate hours from.",
-    "rosterViewer": "Roster Viewer"
+    "rosterViewer": "Roster Viewer",
+    "departmentSelector": "Department Associated with Roster"
   },
   "formManagement": {
     "label": "Form Management Panel",
@@ -746,11 +783,18 @@
     "deleteTopic": "Remove",
     "deleteReply": "Remove Reply",
     "postReply": "Post Reply",
+    "saveReply": "Save Reply",
     "loadingCategory": "Loading Category...",
     "invalidCategory": "Invalid Category",
     "noTopics": "No topics in this category yet!",
     "topicTitlePlaceholder": "An Interesting Title",
     "topicContentPlaceholder": "What's on your mind?",
-    "createTopic": "Create Topic"
+    "createTopic": "Create Topic",
+    "expandCategory": "Expand Forum Category",
+    "topicHeader": "Forum Topics"
+  },
+  "rosterManager": {
+    "label": "Roster Manager",
+    "pageLabel": "Roster Manager"
   }
 }
