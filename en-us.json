@@ -139,6 +139,7 @@
   "permissions": {
     "kickUser": "Kick Users",
     "banUser": "Ban Users",
+    "archiveUser": "Archive User",
     "changePermissions": "Change Permissions",
     "modifyComInfo": "Modify Community Customization",
     "modifyComDepts": "Modify Departments via Manager",
@@ -150,6 +151,7 @@
       "system": {
         "kickUserExplanation": "Granting this permission will allow a user with this rank to kick another user from the community.",
         "banUserExplanation": "Granting this permission will allow a user with this rank to ban another user from the community.",
+        "archiveUserExplanation": "Granting this permission will allow a user with this rank to archive another user from the community.",
         "changePermissionsExplanation": "Granting this permission will allow a user with this rank to modify another user's permissions and account details from the community.",
         "modifyComInfoExplanation": "Granting this permission will allow a user with this rank to customize aspects of the Sonoran CMS platform such as Name, Image, Name/Identifier Format, etc.",
         "modifyComFormsExplanation": "Granting this permission will allow a user with this rank to customize the custom form templates that are used when users submit forms.",
@@ -351,7 +353,8 @@
       "setPending": "Set Submitter Pending",
       "setActive": "Set Submitter Active",
       "setKick": "Kick Submitter",
-      "setBan": "Ban Submitter"
+      "setBan": "Ban Submitter",
+      "setArchived": "Archive Submitter"
     },
     "stageChangeDepartmentSlashRankToggles": {
       "pastTense": {
@@ -697,11 +700,13 @@
     "driveStorage": "Drive Storage"
   },
   "profile": {
-    "clockInHistory": "Clock In/Out History"
+    "clockInHistory": "Clock In/Out History",
+    "clockInOutFormHistory": "Clock In/Out & Form History"
   },
   "roster": {
     "editRosterData": "Edit Roster Data",
     "viewMemberProfile": "View Member Profile",
+    "viewProfile": "View Profile",
     "priFilterNotice": "Primary Members will be filtered as a group above the \"secondary members\"",
     "secFilterNotice": "Secondary Members will be filtered as a group under the \"primary members\"",
     "addPrimary": "Add Primary Member to {rosterName}",

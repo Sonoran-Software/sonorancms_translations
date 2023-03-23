@@ -155,7 +155,8 @@
         "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
         "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
-        "clockInOutExplanation": "Granting this permission will allow a user to clock in and out."
+        "clockInOutExplanation": "Granting this permission will allow a user to clock in and out.",
+        "archiveUserExplanation": "Granting this permission will allow a user with this rank to archive another user from the community."
       },
       "forms": {
         "viewSubmittedExplanation": "Granting this permission will allow a user with this rank to view all submitted forms of this type.",
@@ -209,7 +210,8 @@
       "pages": {
         "viewExplanation": "Granting this permissions will allow the member that holds this rank to view this page as the page is set to PRIVATE."
       }
-    }
+    },
+    "archiveUser": "Archive User"
   },
   "dashboard": {
     "dashboard": "主界面",
@@ -440,7 +442,8 @@
       "setPending": "Set Submitter Pending",
       "setActive": "Set Submitter Active",
       "setKick": "Kick Submitter",
-      "setBan": "Ban Submitter"
+      "setBan": "Ban Submitter",
+      "setArchived": "Archive Submitter"
     },
     "adminDelete": "Admin Delete",
     "formEditorTitle": "Form Editor",
@@ -742,7 +745,8 @@
     "driveStorage": "Drive Storage"
   },
   "profile": {
-    "clockInHistory": "上班/下班历史"
+    "clockInHistory": "上班/下班历史",
+    "clockInOutFormHistory": "Clock In/Out & Form History"
   },
   "roster": {
     "editRosterData": "编辑名册数据",
@@ -760,7 +764,8 @@
     "disableNoSecondaryIdents": "已禁用，因为账户没有次要ID。",
     "editing": "编辑",
     "member": "成员",
-    "editingMember": "Editing: {name}"
+    "editingMember": "Editing: {name}",
+    "viewProfile": "View Profile"
   },
   "clockInOut": {
     "clockIn": "上班",
