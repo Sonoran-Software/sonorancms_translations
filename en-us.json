@@ -147,6 +147,13 @@
     "modifyComRosters": "Modify Custom Rosters via Editor",
     "modifyDiscordHooks": "Modify Discord Logging Webhooks",
     "modifyIntegration": "Modify API Integration",
+    "modifyToolbar": "Modify Toolbar",
+    "modifyPages": "Modify Pages",
+    "modifyDocuments": "Modify All Documents (Drive)",
+    "clockInOut": "Clock In & Out",
+    "modifyTeamSpeak": "Modify TeamSpeak Integration",
+    "modifyShield": "Modify Sonoran Shield",
+    "modifyProfileFields": "Modify Profile Fields",
     "tooltips": {
       "system": {
         "kickUserExplanation": "Granting this permission will allow a user with this rank to kick another user from the community.",
@@ -162,7 +169,9 @@
         "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
         "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
-        "clockInOutExplanation": "Granting this permission will allow a user to clock in and out."
+        "clockInOutExplanation": "Granting this permission will allow a user to clock in and out.",
+        "modifyTeamSpeakExplanation": "Granting this permission will allow a user to modify the TeamSpeak integration settings.",
+        "modifyShieldExplanation": "Granting this permission will allow a user to modify the Sonoran Shield settings."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Granting this permission will allow a user to see the Dashboard button on the side navigation bar.",
@@ -233,6 +242,8 @@
     "communityPages": "Community Pages"
   },
   "menu": {
+    "nameNew": "Congrats on your new community!\nLet's give your community a name.",
+    "congrats": "Awesome!\nClick the green button to create your new community!",
     "join": "Join a Community",
     "create": "Create a Community",
     "myCommunities": "My Communities",
@@ -241,6 +252,10 @@
     "selectTemplate": "Select Community Template",
     "comName": "Community Name",
     "comTag": "Community Tagline",
+    "tagline": "A Community tagline is like a hashtag.\nThey help people discover and connect with your community!",
+    "comImage": "Upload a logo for your new community!",
+    "comBanner": "Upload a banner for your new community!",
+    "comDescription": "Let others learn about your new community.\nGive a brief description of what it's like.",
     "limitNotice": "Limit has been reached for owning communities.",
     "alreadyJoined": "Already Joined",
     "comNotFound": "Community Not Found",
@@ -369,7 +384,7 @@
       }
     },
     "stageChangeDepartmentSlashRank": "Stage Action: Change Submitter's Department/Rank",
-    "stageChangeDepartmentSlashRankDescription": "The stage \"change submitter's department/rank\" action will automatically change/set the submitter's primary or secondary department and/or rank when the form's stage changes to {stageName}.",
+    "stageChangeDepartmentSlashRankDescription": "The stage \"change submitter's department/rank\" action will automatically change/set the submitter's ranks when the form's stage changes to {stageName}.",
     "stageExecuteDiscordWebhook": "Stage Action: Execute Discord Webhook",
     "stageExecuteDiscordWebhookDescription": "The stage \"execute discord webhook\" action will automatically execute a Discord webhook when the form's stage changes to {stageName}. You can utilize the following template strings: {'{form_name}'}, {'{stage_name}'}, {'{submitter_com_name}'}, and {'{submitter_username}'} to have dynamic data within the notification content.",
     "stageChangeDepartmentSlashRankPriDept": "Primary Department",
@@ -380,6 +395,7 @@
     "stageActionDepartmentsRanksNoRank": "Set to No Rank",
     "stageActionDepartmentsRanksPriChanges": "Primary Changes",
     "stageActionDepartmentsRanksSecChanges": "Secondary Changes",
+    "stageActionDepartmentsRanksChanges": "Rank Changes",
     "stageActionDepartmentsRanksPriChangesDesc": "Primary Changes are changes only to the submitter's primary department and rank, this does not affect their secondary department(s) or rank(s).",
     "stageActionDepartmentsRanksSecChangesDesc": "Secondary Changes are changes only to the submitter's secondary department(s) and/or rank(s), this does not affect their primary department and rank.",
     "executeDiscordWebhookURL": "Webhook URL",
@@ -445,7 +461,7 @@
         }
       }
     },
-    "formSystem": "Community Forms",
+    "formSystem": "Forms",
     "importClockData": "Import Clock In/Out Data",
     "appSubmit": "Submit Application/Form",
     "editOwn": "Edit Own Form",
@@ -467,8 +483,8 @@
     }
   },
   "departments": {
-    "departmentManager": "Department Manager",
-    "pageLabel": "Department Manager",
+    "rankManager": "Ranks",
+    "pageLabel": "Rank Manager",
     "addDepartment": "Add Department",
     "removeDepartment": "Remove Department",
     "departmentName": "Department Name",
@@ -480,6 +496,7 @@
     "rankName": "Rank Name",
     "rankColor": "Rank Cosmetic Color",
     "rankIcon": "Rank Cosmetic Icon",
+    "rankImg": "Rank Cosmetic Image",
     "cmsPermissions": "CMS Permissions",
     "applicationPermissions": "Application Permissions",
     "formPermissions": "Form Permissions",
@@ -500,11 +517,11 @@
       "reserve": "Secondary Department",
       "cwidesub": "Community Wide Subdepartment"
     },
-    "addToRoster": "Add to Roster",
+    "addToRoster": "Create Row",
     "addPrimaryRoster": "Add Primary Member to Roster",
     "addSecondaryRoster": "Add Secondary Member to Roster",
     "addFillerRoster": "Add Filler Position to Roster",
-    "saveMemberOnRoster": "Save Member",
+    "saveMemberOnRoster": "Save Row",
     "removeMemberFromRoster": "Remove from Roster",
     "duplicateRank": "Duplicate Rank",
     "markRankPrimary": "Mark Rank Primary Use Only",
@@ -535,6 +552,10 @@
     "notAuthorized": "You are not authorized to modify community customization!",
     "calCustom": "Calendar Customization",
     "calCateName": "Calendar Category Name",
+    "advanced": "Advanced Customization",
+    "social": "Community Social Media Customization",
+    "title": "Community Title Customization",
+    "image": "Community Image Customization",
     "calColorPicker": "Calendar Category Color",
     "removeCalFailure": "Error while removing a calendar category!",
     "removeCalSuccess": "Successfully removed a calendar category!",
@@ -562,7 +583,7 @@
       "bumpDiscovery": "Bump Discovery",
       "discoveryTags": "Search Tags",
       "logo": "Community Logo",
-      "banner": "Community Banner Image*"
+      "banner": "Community Banner Image"
     },
     "tooltips": {
       "discoveryEnable": "This is enable/disable the community for Sonoran CMS's Community Discovery system.",
@@ -651,6 +672,10 @@
       "label": "Discord Integration",
       "pageLabel": "Discord Integration"
     },
+    "teamspeakIntegration": {
+      "label": "TeamSpeak3 Integration",
+      "pageLabel": "TeamSpeak3 Integration"
+    },
     "limits": {
       "label": "Limits",
       "pageLabel": "Community Limits"
@@ -662,6 +687,10 @@
     "apiIntegration": {
       "label": "API Integration",
       "pageLabel": "API Integration"
+    },
+    "integrations": {
+      "label": "Integrations",
+      "pageLabel": "Integrations"
     }
   },
   "accountViewer": {
@@ -696,8 +725,12 @@
     "confirmNewId": "Confirm New Community ID",
     "deleteCom": "Delete Community",
     "deleteComConf": "Delete Community Confirmation",
+    "transferCom": "Transfer Community",
+    "transferComConf": "Transfer Community Confirmation",
     "pages": "Pages",
-    "driveStorage": "Drive Storage"
+    "driveStorage": "Drive Storage",
+    "customId": "Custom ID",
+    "customDomain": "Custom Domain"
   },
   "profile": {
     "clockInHistory": "Clock In/Out History",
@@ -709,8 +742,8 @@
     "viewProfile": "View Profile",
     "priFilterNotice": "Primary Members will be filtered as a group above the \"secondary members\"",
     "secFilterNotice": "Secondary Members will be filtered as a group under the \"primary members\"",
-    "addPrimary": "Add Primary Member to {rosterName}",
-    "addSecondary": "Add Secondary Member to {rosterName}",
+    "addPrimary": "Add Row",
+    "addSecondary": "Add Row",
     "disableAvail": "Disabled due to all available accounts are already on the roster",
     "configureOpts": "Configurable Options",
     "higherSortDesc": "Higher the # the higher they're sorted in the roster.",
@@ -718,7 +751,7 @@
     "noResults": "No Results",
     "disableNoSecondaryRanks": "Disabled due to account not having any secondary ranks.",
     "disableNoSecondaryIdents": "Disabled due to account not having any secondary identifiers.",
-    "editingMember": "Editing: {name}"
+    "editingMember": "Edit Row"
   },
   "clockInOut": {
     "clockIn": "Clock In",
@@ -770,6 +803,12 @@
     "existingFields": "Existing Profile Fields",
     "fieldLabel": "Field Label",
     "fieldType": "Field Type",
+    "success": {
+      "addField": "Saved New Field",
+      "reOrder": "Saved New Order",
+      "removeField": "Successfully Removed Field",
+      "saveField": "Saved Profile Field"
+    },
     "errors": {
       "onGetAll": "An error occured while getting all profile fields. Error: {error}",
       "noSelectOptions": "The Profile Field type 'SELECT' require at least one option.",
@@ -799,7 +838,10 @@
     "topicHeader": "Forum Topics"
   },
   "rosterManager": {
-    "label": "Roster Manager",
+    "label": "Rosters",
     "pageLabel": "Roster Manager"
+  },
+  "drive": {
+    "uploadBulk": "Upload Bulk via ZIP"
   }
 }

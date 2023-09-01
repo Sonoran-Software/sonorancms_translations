@@ -156,7 +156,9 @@
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
         "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
         "clockInOutExplanation": "Granting this permission will allow a user to clock in and out.",
-        "archiveUserExplanation": "Granting this permission will allow a user with this rank to archive another user from the community."
+        "archiveUserExplanation": "Granting this permission will allow a user with this rank to archive another user from the community.",
+        "modifyTeamSpeakExplanation": "Granting this permission will allow a user to modify the TeamSpeak integration settings.",
+        "modifyShieldExplanation": "Granting this permission will allow a user to modify the Sonoran Shield settings."
       },
       "forms": {
         "viewSubmittedExplanation": "Granting this permission will allow a user with this rank to view all submitted forms of this type.",
@@ -211,7 +213,14 @@
         "viewExplanation": "Granting this permissions will allow the member that holds this rank to view this page as the page is set to PRIVATE."
       }
     },
-    "archiveUser": "Archive User"
+    "archiveUser": "Archive User",
+    "modifyToolbar": "Modify Toolbar",
+    "modifyPages": "Modify Pages",
+    "modifyDocuments": "Modify All Documents (Drive)",
+    "clockInOut": "Clock In & Out",
+    "modifyTeamSpeak": "Modify TeamSpeak Integration",
+    "modifyShield": "Modify Sonoran Shield",
+    "modifyProfileFields": "Modify Profile Fields"
   },
   "dashboard": {
     "dashboard": "主界面",
@@ -248,7 +257,13 @@
       "joinButton": "Have a community ID? Join a community here!",
       "discoveryButton": "Looking for a community? Discover communities using Sonoran CMS!",
       "createButton": "Looking to use Sonoran CMS with your community? Proceed here."
-    }
+    },
+    "nameNew": "Congrats on your new community!\nLet's give your community a name.",
+    "congrats": "Awesome!\nClick the green button to create your new community!",
+    "tagline": "A Community tagline is like a hashtag.\nThey help people discover and connect with your community!",
+    "comImage": "Upload a logo for your new community!",
+    "comBanner": "Upload a banner for your new community!",
+    "comDescription": "Let others learn about your new community.\nGive a brief description of what it's like."
   },
   "forms": {
     "formEditor": "自定义表单编辑器",
@@ -509,7 +524,8 @@
     "stageActions": "Stage Actions (Advanced)",
     "stageRemoveAction": "Remove Action",
     "stageCreate": "Create Stage",
-    "stageUpdate": "Update Stage"
+    "stageUpdate": "Update Stage",
+    "stageActionDepartmentsRanksChanges": "Rank Changes"
   },
   "departments": {
     "departmentManager": "部门主管",
@@ -561,7 +577,9 @@
     "navigationPermissions": "Navigation Permissions",
     "pagePermissions": "Page Permissions",
     "rankColor": "Rank Cosmetic Color",
-    "rankIcon": "Rank Cosmetic Icon"
+    "rankIcon": "Rank Cosmetic Icon",
+    "rankManager": "Ranks",
+    "rankImg": "Rank Cosmetic Image"
   },
   "accounts": {
     "accounts": "账户",
@@ -622,7 +640,11 @@
     "errors": {
       "unexpectedOnSave": "Error: An unexpected error occured while saving discovery settings.",
       "expectedOnSave": "Error: An unexpected error occured while saving discovery settings. ERR: {msg}"
-    }
+    },
+    "advanced": "Advanced Customization",
+    "social": "Community Social Media Customization",
+    "title": "Community Title Customization",
+    "image": "Community Image Customization"
   },
   "rosterEditor": {
     "rosterEditor": "自定义名册编辑器",
@@ -707,6 +729,14 @@
     "apiIntegration": {
       "label": "API Integration",
       "pageLabel": "API Integration"
+    },
+    "teamspeakIntegration": {
+      "label": "TeamSpeak3 Integration",
+      "pageLabel": "TeamSpeak3 Integration"
+    },
+    "integrations": {
+      "label": "Integrations",
+      "pageLabel": "Integrations"
     }
   },
   "accountViewer": {
@@ -742,7 +772,11 @@
     "deleteCom": "Delete Community",
     "deleteComConf": "Delete Community Confirmation",
     "pages": "Pages",
-    "driveStorage": "Drive Storage"
+    "driveStorage": "Drive Storage",
+    "transferCom": "Transfer Community",
+    "transferComConf": "Transfer Community Confirmation",
+    "customId": "Custom ID",
+    "customDomain": "Custom Domain"
   },
   "profile": {
     "clockInHistory": "上班/下班历史",
@@ -823,7 +857,13 @@
       "onSave": "An error occured while getting saving a new profile field. Error: {error}",
       "noFindField": "There was no field found from what is selected."
     },
-    "newSelectOption": "New Select Option"
+    "newSelectOption": "New Select Option",
+    "success": {
+      "addField": "Saved New Field",
+      "reOrder": "Saved New Order",
+      "removeField": "Successfully Removed Field",
+      "saveField": "Saved Profile Field"
+    }
   },
   "discovery": {
     "communityDiscovery": "Community Discovery"
@@ -848,5 +888,8 @@
   "rosterManager": {
     "label": "Roster Manager",
     "pageLabel": "Roster Manager"
+  },
+  "drive": {
+    "uploadBulk": "Upload Bulk via ZIP"
   }
 }
