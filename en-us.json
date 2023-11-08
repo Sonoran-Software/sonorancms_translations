@@ -281,7 +281,7 @@
     "templateTypes": {
       "newmemberapp": "New Member Application",
       "reserveapp": "Secondary Application",
-      "plog": "Patrol Log",
+      "plog": "Time Log",
       "commend": "Commendation",
       "complaint": "Complaint",
       "comform": "Community Form",
@@ -361,7 +361,7 @@
     "stageNotifySubmitterEmail": "Stage Action: Notify Submitter via Email",
     "stageNotifySubmitterEmailDescription": "The stage \"notify submitter via email\" action will automatically send a email to the submitter when the form's stage changes to {stageName}. You can utilize the following template strings: {'{form_name}'}, {'{stage_name}'}, {'{submitter_com_name}'}, and {'{submitter_username}'} to have dynamic data within the email content.",
     "stageDisableEnableReplies": "Stage Action: Disable/Enable Form Replies",
-    "stageDisableEnableRepliesDescription": "The stage \"disable/enable form replies\" action will automatically will automatically disable/enable form replies for everyone, moderators, or administrators when the form's stage changes to {stageName}.",
+    "stageDisableEnableRepliesDescription": "The stage \"disable/enable form replies\" action will automatically disable/enable form replies for certain ranks when the form's stage changes to {stageName}.",
     "stageModifyCommunityStatus": "Stage Action: Modify Submitter's Community Status",
     "stageModifyCommunityStatusDescription": "The stage \"modify submitter's community status\" action will automatically will modify the submitter's status, kick or ban when the form's stage changes to {stageName}.",
     "stageModifyCommunityStatusOptions": {
@@ -602,7 +602,7 @@
   },
   "rosterEditor": {
     "rosterEditor": "Custom Roster Editor",
-    "availablePLogForms": "Available Patrol Logs",
+    "availablePLogForms": "Available Time Logs",
     "statusSelector": "Status Selector",
     "pageLabel": "Custom Roster Editor",
     "addColumn": "Add Column",
@@ -628,7 +628,7 @@
     "markModHidden": "Mark Column Moderator Hidden",
     "markAdminHidden": "Mark Column Administrator Hidden",
     "existingComRosters": "Existing Custom Rosters",
-    "pLogHours": "Patrol Log Hours",
+    "pLogHours": "Time Log Hours",
     "determinesHours": "Determines from when to calculate hours from.",
     "rosterViewer": "Roster Viewer",
     "departmentSelector": "Department Associated with Roster"
@@ -761,8 +761,8 @@
     "clockedOut": "Clocked Out"
   },
   "homepage": {
-    "viewComMenu": "View Community Menu",
-    "createCom": "Create a Community"
+    "viewComMenu": "Community Menu",
+    "createCom": "Create Community"
   },
   "billing": {
     "chooseSub": "Choose Subscription",
