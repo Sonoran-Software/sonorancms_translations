@@ -1116,7 +1116,9 @@
     "accounts71": "Account(s)",
     "flagInformation55": "Flag Information",
     "date40": "Date:",
-    "accounts55": "Accounts:"
+    "accounts55": "Accounts:",
+    "anErrorOccuredWhileAttemptingToSaveDisco88": "An error occured while attempting to save discovery settings",
+    "successfullySavedDiscoverySettings48": "Successfully saved discovery settings"
   },
   "Dashboard": {
     "securityDashboard": "Security - Dashboard"
@@ -1562,5 +1564,9 @@
     "urlShortener": "URL Shortener",
     "Unlimited": "♾️ Unlimited",
     "Unlimited42": "♾️ Unlimited"
+  },
+  "GrowthGraph": {
+    "numberOfUniqueViewsFromCommunityDiscover": "Number of unique views from Community Discovery",
+    "numberOfUniqueUsersThatVisitedTheCommunity": "Number of unique users that visited the community page from Community Discovery"
   }
 }
