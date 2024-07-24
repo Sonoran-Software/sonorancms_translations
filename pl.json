@@ -1,1 +1,10 @@
-{}
+{
+    "Index": {
+        "duplicateDiscord": "Zduplikowany Discord",
+        "no": "Nie",
+        "noPermissions": "Brak uprawnień",
+        "duplicateIp": "Zduplikowany adres IP",
+        "limitscommunitysecuritycenter": "Społecznościowe Centrum Bezpieczeństwa",
+        "yes": "Tak"
+    }
+}
