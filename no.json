@@ -204,7 +204,8 @@
     },
     "noAdditional": "Ingen Tilleggsfelt",
     "premadeSections": "Ferdiglagde Seksjoner",
-    "fields": "Felt"
+    "fields": "Felt",
+    "appThirdPartySubmit": "Send inn tredjeparts søknad/skjema"
   },
   "departments": {
     "departmentName": "Avdelingsnavn",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# tillatelser for SonoranCMS auto-oppdaterer (PÅKREVD)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Ingen serverdata"
+    "noServerData": "Ingen serverdata",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Innstilling lagret, men oppdagelse ikke aktivert på grunn av verifiseringsfeil:",
+    "communityDiscoveryDisabled": "Oppdagelse av fellesskap deaktivert"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Vellykket oppdatert fellesskaps-ID til:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Feil: Den spesifiserte fellesskaps-ID-en er allerede i bruk, vennligst bruk en annen.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Feil: En feil oppstod under initiering av fellesskapsoverføring. FEIL:",
-    "userSelected": "Bruker valgt"
+    "userSelected": "Bruker valgt",
+    "isAdditionalStorage": "er Tilleggslagring",
+    "isTierStorage": "er Lagermetoden"
   },
   "EditCharacterCard": {
     "citizenId": "Borger-ID",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtrer rangeringer"
-  },
-  "RankSelect": {
-    "close": "Lukk"
   },
   "accountNotificationPreferences": {
     "forms": "Skjemaer",
@@ -1867,7 +1869,9 @@
     "addingAny": "Legger til noen",
     "willAdd": "vil legge til",
     "removeAll": "Fjern alle",
-    "willRemove": "vil fjerne"
+    "willRemove": "vil fjerne",
+    "havingNoneOf": "Ingen av",
+    "doNotManuallyApply": "Ikke bruk manuelt"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Sett fellesskap for abonnement:",
     "anErrorOccuredWhileChangingTheSubscripti": "En feil oppstod under endring av abonnementet, hvis dette vedvarer, kontakt support.",
     "id": "ID",
-    "trial": "PRØVE"
+    "trial": "PRØVE",
+    "increasedStorage": "Økt lagring"
   },
   "Account": {
     "apiIdSettings": "API ID-innstillinger",
@@ -2326,7 +2331,6 @@
     "upload": "Last opp",
     "uploader": "Opplaster",
     "learnMore": "Lær mer",
-    "goProToday": "Bli Pro i dag",
     "createdBy": "Opprettet av",
     "actions": "Handlinger",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Sikkerhetssenter",
     "advancedsecuritypagelabel": "Sikkerhetssenter",
     "advancedcustomdomainlabel": "Egendefinert domene",
-    "advancedcustomdomainpagelabel": "Innstillinger for egendefinert domene"
+    "advancedcustomdomainpagelabel": "Innstillinger for egendefinert domene",
+    "communityDiscoveryDisabled": "Fellesskapsoppdagelse deaktivert"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle valgte ranger vil kunne få tilgang til denne serveren",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Det oppsto en feil under lagring av siden:",
     "pageSavedSuccessfully": "Siden ble lagret vellykket!",
-    "thereWasAProblemSavingThePage": "Det oppsto et problem med å lagre siden"
+    "thereWasAProblemSavingThePage": "Det oppsto et problem med å lagre siden",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Siden ble lagret, men under godkjenning av oppdagelse mislyktes det og deaktiverte oppdagelsen på grunn av:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Rolle Synkronisering Veiledning",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Vellykket duplisert avdeling:",
     "addToSaveDepartment": "Legg til for å lagre avdeling",
     "userAttemptedToSaveTheDepartment": "Bruker forsøkte å lagre avdelingen:",
-    "newRank": "Ny Rang"
+    "newRank": "Ny Rang",
+    "modifyDocuments": "Endre dokumenter",
+    "modifyTeamSpeak": "Endre TeamSpeak",
+    "modifyShield": "Endre Sonoran Shield",
+    "modifyProfileFields": "Endre profilfelter",
+    "securityCenter": "Sikkerhetssenter",
+    "securityCenterManageFlags": "Administrer sikkerhetsflagg",
+    "assetsRootAccess": "Kjøringsressursers rot-tilgang",
+    "manageCadIntegration": "Administrer CAD-integrasjon",
+    "growthCenter": "Vekstsenter",
+    "shortUrls": "Korte nettadresser"
   },
   "calendarView": {
     "createEvent": "Opprett Hendelse",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteringsmodus aktivert: Dra og slipp radene i den rekkefølgen du vil ha dem sortert.",
     "savedSortedPages": "Lagrede sorterte sider!",
     "homepageUpdated": "Hjemmeside oppdatert!",
-    "thereWasAProblemSettingThePageAsHomepage": "Det oppstod et problem med å sette siden som hjemmeside."
+    "thereWasAProblemSettingThePageAsHomepage": "Det oppstod et problem med å sette siden som hjemmeside.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Hjemmesiden oppdatert, men under oppdagelsesgodkjenning mislyktes det og deaktiverte oppdagelsen på grunn av:"
   },
   "SectionEditor": {
     "background": "Bakgrunn",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Dette feltet har ingen data. Det mest sannsynlige problemet er at din servers Sonoran CMS Core-plugin er utdatert."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "ingenRangerÅVelgeFra"
   }
 }

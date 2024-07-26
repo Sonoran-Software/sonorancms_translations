@@ -204,7 +204,8 @@
     },
     "noAdditional": "Brak Dodatkowych Pól",
     "premadeSections": "Gotowe Sekcje",
-    "fields": "Pola"
+    "fields": "Pola",
+    "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# uprawnienia dla automatycznej aktualizacji SonoranCMS (WYMAGANE)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Brak danych serwera"
+    "noServerData": "Brak danych serwera",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Postavka spremljena, ali otkrivanje nije omogućeno zbog neuspjeha verifikacije:",
+    "communityDiscoveryDisabled": "Odkrywanie społeczności wyłączone"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Pomyślnie zaktualizowano ID społeczności na:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Błąd: Podane ID społeczności jest już w użyciu, proszę użyć innego.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Błąd: Wystąpił błąd podczas inicjowania transferu społeczności. ERR:",
-    "userSelected": "Użytkownik wybrany"
+    "userSelected": "Użytkownik wybrany",
+    "isAdditionalStorage": "jest dodatkowe miejsce na dysku",
+    "isTierStorage": "é Armazenamento de Nível"
   },
   "EditCharacterCard": {
     "citizenId": "ID obywatela",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtruj Rangi"
-  },
-  "RankSelect": {
-    "close": "Zamknij"
   },
   "accountNotificationPreferences": {
     "forms": "Formularze",
@@ -1867,7 +1869,9 @@
     "addingAny": "Dodanie jakiegokolwiek",
     "willAdd": "doda",
     "removeAll": "Usuń wszystko",
-    "willRemove": "usunie"
+    "willRemove": "usunie",
+    "havingNoneOf": "Nie mając żadnego z",
+    "doNotManuallyApply": "Nie stosuj ręcznie"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Ustaw społeczność dla subskrypcji:",
     "anErrorOccuredWhileChangingTheSubscripti": "Wystąpił błąd podczas zmiany subskrypcji, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "id": "ID",
-    "trial": "TRIAL"
+    "trial": "TRIAL",
+    "increasedStorage": "Aumento de Armazenamento"
   },
   "Account": {
     "apiIdSettings": "Ustawienia ID API",
@@ -2326,7 +2331,6 @@
     "upload": "Prześlij",
     "uploader": "Przesyłanie",
     "learnMore": "Dowiedz Się Więcej",
-    "goProToday": "Przejdź na Pro Dzisiaj",
     "createdBy": "Utworzone Przez",
     "actions": "Działania",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Centrum bezpieczeństwa",
     "advancedsecuritypagelabel": "Centrum bezpieczeństwa",
     "advancedcustomdomainlabel": "Domena niestandardowa",
-    "advancedcustomdomainpagelabel": "Ustawienia domeny niestandardowej"
+    "advancedcustomdomainpagelabel": "Ustawienia domeny niestandardowej",
+    "communityDiscoveryDisabled": "Odkrywanie Społeczności Wyłączone"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Wszystkie wybrane rangi będą miały dostęp do tego serwera",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
     "pageSavedSuccessfully": "Strona zapisana pomyślnie!",
-    "thereWasAProblemSavingThePage": "Wystąpił problem podczas zapisywania strony"
+    "thereWasAProblemSavingThePage": "Wystąpił problem podczas zapisywania strony",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Página guardada, pero durante la aprobación del descubrimiento falló y desactivó el descubrimiento debido a:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Samouczek Synchronizacji Ról Discord",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Pomyślnie zduplikowano dział:",
     "addToSaveDepartment": "Dodaj, aby zapisać dział",
     "userAttemptedToSaveTheDepartment": "Użytkownik próbował zapisać dział:",
-    "newRank": "Nowa Ranga"
+    "newRank": "Nowa Ranga",
+    "modifyDocuments": "Modyfikuj dokumenty",
+    "modifyTeamSpeak": "Zmodyfikuj TeamSpeak",
+    "modifyShield": "Modyfikuj Sonoran Shield",
+    "modifyProfileFields": "Modyfikuj pola profilu",
+    "securityCenter": "Central de Segurança",
+    "securityCenterManageFlags": "Zarządzaj flagami zabezpieczeń",
+    "assetsRootAccess": "Napęd Dostęp do Zasobów Root",
+    "manageCadIntegration": "Zarządzaj integracją CAD",
+    "growthCenter": "Centrum Wzrostu",
+    "shortUrls": "Krótkie URL-e"
   },
   "calendarView": {
     "createEvent": "Utwórz Wydarzenie",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Tryb sortowania aktywowany: Przeciągnij i upuść wiersze w kolejności, w jakiej chcesz je posortować.",
     "savedSortedPages": "Zapisano posortowane strony!",
     "homepageUpdated": "Strona główna zaktualizowana!",
-    "thereWasAProblemSettingThePageAsHomepage": "Wystąpił problem z ustawieniem strony jako strony głównej."
+    "thereWasAProblemSettingThePageAsHomepage": "Wystąpił problem z ustawieniem strony jako strony głównej.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Strona główna zaktualizowana, ale podczas zatwierdzania odkrycia nie powiodło się i wyłączono odkrycie z powodu:"
   },
   "SectionEditor": {
     "background": "Tło",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "To pole nie zawiera danych. Najbardziej prawdopodobnym problemem jest to, że wtyczka Sonoran CMS Core na twoim serwerze jest nieaktualna."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "brakOpcjiRangiDoWyboru"
   }
 }

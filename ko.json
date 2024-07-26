@@ -204,7 +204,8 @@
     },
     "noAdditional": "추가 필드 없음",
     "premadeSections": "미리 만들어진 섹션",
-    "fields": "필드"
+    "fields": "필드",
+    "appThirdPartySubmit": "타사 애플리케이션/양식 제출"
   },
   "departments": {
     "departmentName": "부서 이름",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms_updatehelper command allow",
     "addaceResourcesonorancmsupdatehelperComm": "서버 데이터 없음",
-    "noServerData": "보안 - 대시보드"
+    "noServerData": "보안 - 대시보드",
+    "settingSavedButDiscoveryNotEnabledDueTo": "설정이 저장되었지만, 검증 실패로 인해 검색이 활성화되지 않았습니다:",
+    "communityDiscoveryDisabled": "커뮤니티 검색 비활성화됨"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "오류: 지정된 커뮤니티 ID가 이미 사용 중입니다. 다른 ID를 사용해 주세요.",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "오류: 커뮤니티 전송을 시작하는 동안 오류가 발생했습니다. ERR:",
     "errorAnErrorOccuredWhileInitiatingCommun": "사용자가 선택됨",
-    "userSelected": "시민 ID"
+    "userSelected": "시민 ID",
+    "isAdditionalStorage": "추가 저장소입니다",
+    "isTierStorage": "계층 저장소입니다"
   },
   "EditCharacterCard": {
     "citizenId": "이름",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "닫기"
-  },
-  "RankSelect": {
-    "close": "양식"
   },
   "accountNotificationPreferences": {
     "forms": "받은 편지함",
@@ -1867,7 +1869,9 @@
     "addingAny": "추가됩니다",
     "willAdd": "모두 제거",
     "removeAll": "제거됩니다",
-    "willRemove": "길드:"
+    "willRemove": "길드:",
+    "havingNoneOf": "없음",
+    "doNotManuallyApply": "수동으로 적용하지 마십시오"
   },
   "DiscordRoleMultiSelector": {
     "guild": "길드:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "구독을 변경하는 동안 오류가 발생했습니다. 문제가 지속되면 지원팀에 문의하세요.",
     "anErrorOccuredWhileChangingTheSubscripti": "ID",
     "id": "체험판",
-    "trial": "API ID 설정"
+    "trial": "API ID 설정",
+    "increasedStorage": "저장소 증가"
   },
   "Account": {
     "apiIdSettings": "로그아웃",
@@ -2326,7 +2331,6 @@
     "upload": "업로더",
     "uploader": "자세히 알아보기",
     "learnMore": "오늘 Pro로 업그레이드",
-    "goProToday": "작성자",
     "createdBy": "작업",
     "actions": "ID",
     "id": "이름",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "보안 센터",
     "advancedsecuritypagelabel": "맞춤 도메인",
     "advancedcustomdomainlabel": "맞춤 도메인 설정",
-    "advancedcustomdomainpagelabel": "선택한 모든 계급은 이 서버에 접근할 수 있습니다"
+    "advancedcustomdomainpagelabel": "선택한 모든 계급은 이 서버에 접근할 수 있습니다",
+    "communityDiscoveryDisabled": "커뮤니티 검색 비활성화됨"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "허용 목록",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "페이지를 저장하는 데 문제가 발생했습니다",
     "pageSavedSuccessfully": "디스코드 역할 동기화 튜토리얼",
-    "thereWasAProblemSavingThePage": "디스코드 역할 동기화에 대해 알아보세요"
+    "thereWasAProblemSavingThePage": "디스코드 역할 동기화에 대해 알아보세요",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "페이지가 저장되었지만 발견 승인 중 오류가 발생하고 다음 이유로 발견이 비활성화됨:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "디스코드 역할 동기화 문서",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "사용자가 부서를 저장하려고 시도했습니다:",
     "addToSaveDepartment": "새 순위",
     "userAttemptedToSaveTheDepartment": "이벤트 생성",
-    "newRank": "이전"
+    "newRank": "이전",
+    "modifyDocuments": "문서 수정",
+    "modifyTeamSpeak": "팀스픽 수정",
+    "modifyShield": "소노란쉴드 수정",
+    "modifyProfileFields": "프로필 필드 수정",
+    "securityCenter": "보안 센터",
+    "securityCenterManageFlags": "보안 플래그 관리",
+    "assetsRootAccess": "드라이브 자산 루트 접근",
+    "manageCadIntegration": "CAD 통합 관리",
+    "growthCenter": "성장 센터",
+    "shortUrls": "짧은 URL"
   },
   "calendarView": {
     "createEvent": "다음",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "홈페이지가 업데이트되었습니다!",
     "savedSortedPages": "페이지를 홈페이지로 설정하는 중 문제가 발생했습니다.",
     "homepageUpdated": "배경",
-    "thereWasAProblemSettingThePageAsHomepage": "편집기"
+    "thereWasAProblemSettingThePageAsHomepage": "편집기",
+    "homepageUpdatedButDuringDiscoveryApproval": "홈페이지가 업데이트되었지만 검색 승인 중 실패하여 다음 이유로 검색이 비활성화되었습니다:"
   },
   "SectionEditor": {
     "background": "왼쪽",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "This field has no data. The most probable issue is that your servers Sonoran CMS Core plugin is outdated."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "선택할 랭크 옵션이 없습니다"
   }
 }

@@ -204,7 +204,8 @@
     },
     "noAdditional": "Geen Extra Velden",
     "premadeSections": "Vooraf Gemaakte Secties",
-    "fields": "Velden"
+    "fields": "Velden",
+    "appThirdPartySubmit": "Verzend applicatie/formulier van derden"
   },
   "departments": {
     "departmentName": "Afdelingsnaam",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# machtigingen voor SonoranCMS auto-updater (VEREIST)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Geen servergegevens"
+    "noServerData": "Geen servergegevens",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Instelling opgeslagen, maar ontdekking niet ingeschakeld vanwege verificatiefout:",
+    "communityDiscoveryDisabled": "Community-ontdekking uitgeschakeld"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Community-ID succesvol bijgewerkt naar:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Fout: De opgegeven community-ID is al in gebruik, gebruik alstublieft een andere.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Fout: Er is een fout opgetreden bij het initiëren van de community-overdracht. FOUT:",
-    "userSelected": "Gebruiker geselecteerd"
+    "userSelected": "Gebruiker geselecteerd",
+    "isAdditionalStorage": "is Extra Opslag",
+    "isTierStorage": "is Tieropslag"
   },
   "EditCharacterCard": {
     "citizenId": "Burger-ID",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filter Rangen"
-  },
-  "RankSelect": {
-    "close": "Sluiten"
   },
   "accountNotificationPreferences": {
     "forms": "Formulieren",
@@ -1867,7 +1869,9 @@
     "addingAny": "Toevoegen van een",
     "willAdd": "zal toevoegen",
     "removeAll": "Verwijder Alles",
-    "willRemove": "zal verwijderen"
+    "willRemove": "zal verwijderen",
+    "havingNoneOf": "Geen van",
+    "doNotManuallyApply": "Niet handmatig toepassen"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Stel Gemeenschap in voor abonnement:",
     "anErrorOccuredWhileChangingTheSubscripti": "Er is een fout opgetreden bij het wijzigen van het abonnement, neem contact op met de ondersteuning als dit aanhoudt.",
     "id": "ID",
-    "trial": "PROEF"
+    "trial": "PROEF",
+    "increasedStorage": "Vergrote opslag"
   },
   "Account": {
     "apiIdSettings": "API ID-instellingen",
@@ -2326,7 +2331,6 @@
     "upload": "Uploaden",
     "uploader": "Uploader",
     "learnMore": "Meer Leren",
-    "goProToday": "Word Vandaag Pro",
     "createdBy": "Gemaakt Door",
     "actions": "Acties",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Beveiligingscentrum",
     "advancedsecuritypagelabel": "Beveiligingscentrum",
     "advancedcustomdomainlabel": "Aangepast domein",
-    "advancedcustomdomainpagelabel": "Instellingen voor aangepast domein"
+    "advancedcustomdomainpagelabel": "Instellingen voor aangepast domein",
+    "communityDiscoveryDisabled": "Community-ontdekking uitgeschakeld"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle geselecteerde rangen hebben toegang tot deze server",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Er is een fout opgetreden bij het opslaan van de pagina:",
     "pageSavedSuccessfully": "Pagina succesvol opgeslagen!",
-    "thereWasAProblemSavingThePage": "Er was een probleem bij het opslaan van de pagina"
+    "thereWasAProblemSavingThePage": "Er was een probleem bij het opslaan van de pagina",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Pagina opgeslagen, maar tijdens goedkeuring van ontdekking is het mislukt en ontdekking is uitgeschakeld vanwege:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Rol Sync Tutorial",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Afdeling succesvol gedupliceerd:",
     "addToSaveDepartment": "Toevoegen om afdeling op te slaan",
     "userAttemptedToSaveTheDepartment": "Gebruiker probeerde de afdeling op te slaan:",
-    "newRank": "Nieuwe Rang"
+    "newRank": "Nieuwe Rang",
+    "modifyDocuments": "Documenten aanpassen",
+    "modifyTeamSpeak": "TeamSpeak bewerken",
+    "modifyShield": "Wijzig Sonoran Shield",
+    "modifyProfileFields": "Wijzig Profielvelden",
+    "securityCenter": "Beveiligingscentrum",
+    "securityCenterManageFlags": "Beveiligingsvlaggen beheren",
+    "assetsRootAccess": "Bestandssysteembeheer root toegang",
+    "manageCadIntegration": "Beheer CAD-integratie",
+    "growthCenter": "Groei Centrum",
+    "shortUrls": "Korte URL's"
   },
   "calendarView": {
     "createEvent": "Evenement Aanmaken",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteermodus geactiveerd: Sleep de rijen in de volgorde waarin u ze wilt sorteren.",
     "savedSortedPages": "Gesorteerde pagina's opgeslagen!",
     "homepageUpdated": "Startpagina bijgewerkt!",
-    "thereWasAProblemSettingThePageAsHomepage": "Er was een probleem bij het instellen van de pagina als startpagina."
+    "thereWasAProblemSettingThePageAsHomepage": "Er was een probleem bij het instellen van de pagina als startpagina.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Homepage bijgewerkt, maar tijdens goedkeuring van ontdekking is het mislukt en is ontdekking uitgeschakeld vanwege:"
   },
   "SectionEditor": {
     "background": "Achtergrond",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Dit veld bevat geen gegevens. Het meest waarschijnlijke probleem is dat de Sonoran CMS Core plugin van uw servers verouderd is."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "geenRangOptiesOmUitTeKiezen"
   }
 }

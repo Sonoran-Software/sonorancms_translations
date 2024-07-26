@@ -204,7 +204,8 @@
     },
     "noAdditional": "Aucun Champ Supplémentaire",
     "premadeSections": "Sections Prédéfinies",
-    "fields": "Champs"
+    "fields": "Champs",
+    "appThirdPartySubmit": "Soumettre une application/formulaire tiers"
   },
   "departments": {
     "departmentName": "Nom du Département",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# permissions pour l'auto-mise à jour de SonoranCMS (OBLIGATOIRE)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Aucune donnée de serveur"
+    "noServerData": "Aucune donnée de serveur",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Paramètre enregistré mais découverte non activée en raison d'un échec de vérification.",
+    "communityDiscoveryDisabled": "Découverte de communauté désactivée"
   },
   "Dashboard": {
     "securityDashboard": "Sécurité - Tableau de bord",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "ID de la communauté mis à jour avec succès :",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Erreur : L'ID de la communauté spécifié est déjà utilisé, veuillez en utiliser un autre.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Erreur : Une erreur s'est produite lors de l'initiation du transfert de communauté. ERR :",
-    "userSelected": "Utilisateur sélectionné"
+    "userSelected": "Utilisateur sélectionné",
+    "isAdditionalStorage": "est Stockage Supplémentaire",
+    "isTierStorage": "est Stockage par Niveau"
   },
   "EditCharacterCard": {
     "citizenId": "ID du citoyen",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtrer les rangs"
-  },
-  "RankSelect": {
-    "close": "Fermer"
   },
   "accountNotificationPreferences": {
     "forms": "Formulaires",
@@ -1867,7 +1869,9 @@
     "addingAny": "Ajouter n'importe quel",
     "willAdd": "ajoutera",
     "removeAll": "Tout supprimer",
-    "willRemove": "supprimera"
+    "willRemove": "supprimera",
+    "havingNoneOf": "N'ayant aucun de",
+    "doNotManuallyApply": "Ne pas appliquer manuellement"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guilde :"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Définir la communauté pour l'abonnement :",
     "anErrorOccuredWhileChangingTheSubscripti": "Une erreur s'est produite lors du changement de l'abonnement, si cela persiste, contactez le support.",
     "id": "ID",
-    "trial": "ESSAI"
+    "trial": "ESSAI",
+    "increasedStorage": "Stockage augmenté"
   },
   "Account": {
     "apiIdSettings": "Paramètres d'ID API",
@@ -2326,7 +2331,6 @@
     "upload": "Téléverser",
     "uploader": "Téléverseur",
     "learnMore": "En Savoir Plus",
-    "goProToday": "Passez à la Version Pro Aujourd'hui",
     "createdBy": "Créé Par",
     "actions": "Actions",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Centre de Sécurité",
     "advancedsecuritypagelabel": "Centre de Sécurité",
     "advancedcustomdomainlabel": "Domaine Personnalisé",
-    "advancedcustomdomainpagelabel": "Paramètres de Domaine Personnalisé"
+    "advancedcustomdomainpagelabel": "Paramètres de Domaine Personnalisé",
+    "communityDiscoveryDisabled": "Découverte de la communauté désactivée"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Tous les rangs sélectionnés pourront accéder à ce serveur",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Une erreur est survenue lors de l'enregistrement de la page :",
     "pageSavedSuccessfully": "Page enregistrée avec succès!",
-    "thereWasAProblemSavingThePage": "Il y a eu un problème lors de l'enregistrement de la page"
+    "thereWasAProblemSavingThePage": "Il y a eu un problème lors de l'enregistrement de la page",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Page enregistrée mais pendant l'approbation de la découverte, elle a échoué et a désactivé la découverte en raison de :"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Tutoriel de Synchronisation des Rôles Discord",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Département dupliqué avec succès :",
     "addToSaveDepartment": "Ajouter pour enregistrer le département",
     "userAttemptedToSaveTheDepartment": "L'utilisateur a tenté d'enregistrer le département :",
-    "newRank": "Nouveau Rang"
+    "newRank": "Nouveau Rang",
+    "modifyDocuments": "Modifier des documents",
+    "modifyTeamSpeak": "Modifier TeamSpeak",
+    "modifyShield": "Modifier Sonoran Shield",
+    "modifyProfileFields": "Modifier les champs de profil",
+    "securityCenter": "Centre de sécurité",
+    "securityCenterManageFlags": "Gérer les indicateurs de sécurité",
+    "assetsRootAccess": "Accès racine aux actifs de Drive",
+    "manageCadIntegration": "Gérer l'intégration CAD",
+    "growthCenter": "Centre de croissance",
+    "shortUrls": "URLs courtes"
   },
   "calendarView": {
     "createEvent": "Créer un Événement",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Mode de tri activé : Glissez et déposez les lignes dans l'ordre dans lequel vous souhaitez les trier.",
     "savedSortedPages": "Pages triées enregistrées !",
     "homepageUpdated": "Page d'accueil mise à jour !",
-    "thereWasAProblemSettingThePageAsHomepage": "Il y a eu un problème lors de la définition de la page comme page d'accueil."
+    "thereWasAProblemSettingThePageAsHomepage": "Il y a eu un problème lors de la définition de la page comme page d'accueil.",
+    "homepageUpdatedButDuringDiscoveryApproval": "La page d'accueil a été mise à jour, mais lors de l'approbation de la découverte, elle a échoué et a désactivé la découverte en raison de :"
   },
   "SectionEditor": {
     "background": "Arrière-plan",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Ce champ n'a pas de données. Le problème le plus probable est que le plugin Sonoran CMS Core de vos serveurs est obsolète."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "aucuneOptionDeRangÀSélectionner"
   }
 }

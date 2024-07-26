@@ -204,7 +204,8 @@
     },
     "noAdditional": "Нет Дополнительных Полей",
     "premadeSections": "Готовые Разделы",
-    "fields": "Поля"
+    "fields": "Поля",
+    "appThirdPartySubmit": "Отправить стороннее приложение/форму"
   },
   "departments": {
     "departmentName": "Название Отдела",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms_updatehelper command allow",
     "addaceResourcesonorancmsupdatehelperComm": "Нет данных о сервере",
-    "noServerData": "Безопасность - Панель управления"
+    "noServerData": "Безопасность - Панель управления",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Настройки сохранены, но обнаружение не включено из-за ошибки проверки:",
+    "communityDiscoveryDisabled": "Обнаружение сообщества отключено"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Ошибка: Указанный ID сообщества уже используется, пожалуйста, используйте другой.",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Ошибка: Произошла ошибка при инициации передачи сообщества. ОШИБКА:",
     "errorAnErrorOccuredWhileInitiatingCommun": "Пользователь выбран",
-    "userSelected": "ID гражданина"
+    "userSelected": "ID гражданина",
+    "isAdditionalStorage": "дополнительное хранилище",
+    "isTierStorage": "это уровень хранения"
   },
   "EditCharacterCard": {
     "citizenId": "Имя",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Закрыть"
-  },
-  "RankSelect": {
-    "close": "Формы"
   },
   "accountNotificationPreferences": {
     "forms": "Входящие",
@@ -1867,7 +1869,9 @@
     "addingAny": "добавит",
     "willAdd": "Удалить все",
     "removeAll": "удалит",
-    "willRemove": "Гильдия:"
+    "willRemove": "Гильдия:",
+    "havingNoneOf": "Не имея",
+    "doNotManuallyApply": "Не применяйте вручную"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Гильдия:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Произошла ошибка при изменении подписки, если это повторится, свяжитесь с поддержкой.",
     "anErrorOccuredWhileChangingTheSubscripti": "ID",
     "id": "ПРОБНЫЙ",
-    "trial": "Настройки API ID"
+    "trial": "Настройки API ID",
+    "increasedStorage": "Увеличенное хранилище"
   },
   "Account": {
     "apiIdSettings": "Выйти",
@@ -2326,7 +2331,6 @@
     "upload": "Загрузчик",
     "uploader": "Узнать больше",
     "learnMore": "Перейти на Pro сегодня",
-    "goProToday": "Создано",
     "createdBy": "Действия",
     "actions": "ID",
     "id": "Имя",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Центр безопасности",
     "advancedsecuritypagelabel": "Пользовательский домен",
     "advancedcustomdomainlabel": "Настройки пользовательского домена",
-    "advancedcustomdomainpagelabel": "Все выбранные ранги смогут получить доступ к этому серверу"
+    "advancedcustomdomainpagelabel": "Все выбранные ранги смогут получить доступ к этому серверу",
+    "communityDiscoveryDisabled": "Сообщество Отключено"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Список разрешений",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Страница успешно сохранена!",
     "pageSavedSuccessfully": "Возникла проблема при сохранении страницы",
-    "thereWasAProblemSavingThePage": "Учебник по синхронизации ролей Discord"
+    "thereWasAProblemSavingThePage": "Учебник по синхронизации ролей Discord",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Страница сохранена, но при утверждении обнаружения произошла ошибка и обнаружение отключено из-за:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Узнайте о синхронизации ролей Discord",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Добавить для сохранения отдела",
     "addToSaveDepartment": "Пользователь попытался сохранить отдел:",
     "userAttemptedToSaveTheDepartment": "Новый ранг",
-    "newRank": "Создать событие"
+    "newRank": "Создать событие",
+    "modifyDocuments": "Изменить документы",
+    "modifyTeamSpeak": "Изменить TeamSpeak",
+    "modifyShield": "Изменить Sonoran Shield",
+    "modifyProfileFields": "Изменить поля профиля",
+    "securityCenter": "Центр безопасности",
+    "securityCenterManageFlags": "Управление флагами безопасности",
+    "assetsRootAccess": "Доступ к корневым ресурсам диска",
+    "manageCadIntegration": "Управление интеграцией CAD",
+    "growthCenter": "Центр роста",
+    "shortUrls": "Короткие ссылки"
   },
   "calendarView": {
     "createEvent": "Предыдущий",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Сохраненные отсортированные страницы!",
     "savedSortedPages": "Главная страница обновлена!",
     "homepageUpdated": "Возникла проблема с установкой страницы в качестве главной.",
-    "thereWasAProblemSettingThePageAsHomepage": "Фон"
+    "thereWasAProblemSettingThePageAsHomepage": "Фон",
+    "homepageUpdatedButDuringDiscoveryApproval": "Главная страница обновлена, но во время утверждения обнаружения произошел сбой, и обнаружение было отключено из-за:"
   },
   "SectionEditor": {
     "background": "Редактор",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "This field has no data. The most probable issue is that your servers Sonoran CMS Core plugin is outdated."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "нет вариантов ранга для выбора"
   }
 }

@@ -204,7 +204,8 @@
     },
     "noAdditional": "没有额外字段",
     "premadeSections": "预制部分",
-    "fields": "字段"
+    "fields": "字段",
+    "appThirdPartySubmit": "提交第三方申请/表格"
   },
   "departments": {
     "departmentName": "部门名称",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# SonoranCMS自动更新器的权限（必需）",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "无服务器数据"
+    "noServerData": "无服务器数据",
+    "settingSavedButDiscoveryNotEnabledDueTo": "设置已保存，但由于验证失败，未启用发现：",
+    "communityDiscoveryDisabled": "社区发现已禁用"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "成功更新社区ID为：",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "错误：指定的社区ID已被使用，请使用另一个。",
     "errorAnErrorOccuredWhileInitiatingCommun": "错误：在启动社区转移时发生错误。错误：",
-    "userSelected": "用户已选择"
+    "userSelected": "用户已选择",
+    "isAdditionalStorage": "是额外存储",
+    "isTierStorage": "是层级存储"
   },
   "EditCharacterCard": {
     "citizenId": "公民ID",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "筛选等级"
-  },
-  "RankSelect": {
-    "close": "关闭"
   },
   "accountNotificationPreferences": {
     "forms": "表单",
@@ -1867,7 +1869,9 @@
     "addingAny": "添加任何",
     "willAdd": "将添加",
     "removeAll": "移除所有",
-    "willRemove": "将移除"
+    "willRemove": "将移除",
+    "havingNoneOf": "没有",
+    "doNotManuallyApply": "请勿手动申请"
   },
   "DiscordRoleMultiSelector": {
     "guild": "公会："
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "设置订阅的社区：",
     "anErrorOccuredWhileChangingTheSubscripti": "更改订阅时发生错误，如果问题持续，请联系支持。",
     "id": "ID",
-    "trial": "试用"
+    "trial": "试用",
+    "increasedStorage": "增加存储"
   },
   "Account": {
     "apiIdSettings": "API ID 设置",
@@ -2326,7 +2331,6 @@
     "upload": "上传",
     "uploader": "上传器",
     "learnMore": "了解更多",
-    "goProToday": "立即升级到专业版",
     "createdBy": "创建者",
     "actions": "操作",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "安全中心",
     "advancedsecuritypagelabel": "安全中心",
     "advancedcustomdomainlabel": "自定义域",
-    "advancedcustomdomainpagelabel": "自定义域设置"
+    "advancedcustomdomainpagelabel": "自定义域设置",
+    "communityDiscoveryDisabled": "社区发现已禁用"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "所有选定的等级将能够访问此服务器",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "保存页面时发生错误：",
     "pageSavedSuccessfully": "页面保存成功！",
-    "thereWasAProblemSavingThePage": "保存页面时出现问题"
+    "thereWasAProblemSavingThePage": "保存页面时出现问题",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "页面已保存，但在发现审批期间失败，并由于以下原因禁用发现："
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord角色同步教程",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "成功复制了部门：",
     "addToSaveDepartment": "添加以保存部门",
     "userAttemptedToSaveTheDepartment": "用户尝试保存部门：",
-    "newRank": "新等级"
+    "newRank": "新等级",
+    "modifyDocuments": "修改文档",
+    "modifyTeamSpeak": "修改TeamSpeak",
+    "modifyShield": "修改 Sonoran Shield",
+    "modifyProfileFields": "修改个人资料字段",
+    "securityCenter": "安全中心",
+    "securityCenterManageFlags": "管理安全标志",
+    "assetsRootAccess": "驱动资产根访问",
+    "manageCadIntegration": "管理 CAD 集成",
+    "growthCenter": "增长中心",
+    "shortUrls": "简短网址"
   },
   "calendarView": {
     "createEvent": "创建事件",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "排序模式已激活：拖放行以按您希望的顺序排序。",
     "savedSortedPages": "已保存排序的页面！",
     "homepageUpdated": "主页已更新！",
-    "thereWasAProblemSettingThePageAsHomepage": "将页面设置为主页时出现问题。"
+    "thereWasAProblemSettingThePageAsHomepage": "将页面设置为主页时出现问题。",
+    "homepageUpdatedButDuringDiscoveryApproval": "主页已更新，但在发现审批过程中失败并由于以下原因禁用发现："
   },
   "SectionEditor": {
     "background": "背景",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "此字段没有数据。最可能的问题是您的服务器 Sonoran CMS 核心插件已过时。"
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "没有可供选择的等级选项"
   }
 }

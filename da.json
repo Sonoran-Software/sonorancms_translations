@@ -204,7 +204,8 @@
     },
     "noAdditional": "Ingen Yderligere Felter",
     "premadeSections": "Forudlavede Sektioner",
-    "fields": "Felter"
+    "fields": "Felter",
+    "appThirdPartySubmit": "Indsend tredjepartsansøgning/formular"
   },
   "departments": {
     "departmentName": "Afdelingsnavn",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# tilladelser til SonoranCMS auto-opdatering (PÅKRÆVET)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Ingen serverdata"
+    "noServerData": "Ingen serverdata",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Indstilling gemt, men opdagelse ikke aktiveret på grund af verificeringsfejl:",
+    "communityDiscoveryDisabled": "Fællesskabsopdagelse deaktiveret"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Fællesskabs-ID opdateret med succes til:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Fejl: Det angivne fællesskabs-ID er allerede i brug, venligst brug et andet.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Fejl: Der opstod en fejl under initiering af fællesskabsoverførsel. FEJL:",
-    "userSelected": "Bruger valgt"
+    "userSelected": "Bruger valgt",
+    "isAdditionalStorage": "er yderligere lagerplads",
+    "isTierStorage": "er-niveau-lagering"
   },
   "EditCharacterCard": {
     "citizenId": "Borger-ID",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtrer rangeringer"
-  },
-  "RankSelect": {
-    "close": "Luk"
   },
   "accountNotificationPreferences": {
     "forms": "Formularer",
@@ -1867,7 +1869,9 @@
     "addingAny": "Tilføjer nogen",
     "willAdd": "vil tilføje",
     "removeAll": "Fjern alle",
-    "willRemove": "vil fjerne"
+    "willRemove": "vil fjerne",
+    "havingNoneOf": "Har ingen af",
+    "doNotManuallyApply": "Anvend ikke manuelt"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Indstil fællesskab for abonnement:",
     "anErrorOccuredWhileChangingTheSubscripti": "En fejl opstod under ændring af abonnementet, hvis dette fortsætter, kontakt support.",
     "id": "ID",
-    "trial": "PRØVE"
+    "trial": "PRØVE",
+    "increasedStorage": "Øget lagerplads"
   },
   "Account": {
     "apiIdSettings": "API ID Indstillinger",
@@ -2326,7 +2331,6 @@
     "upload": "Upload",
     "uploader": "Uploader",
     "learnMore": "Lær Mere",
-    "goProToday": "Bliv Pro I Dag",
     "createdBy": "Oprettet Af",
     "actions": "Handlinger",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Sikkerhedscenter",
     "advancedsecuritypagelabel": "Sikkerhedscenter",
     "advancedcustomdomainlabel": "Brugerdefineret domæne",
-    "advancedcustomdomainpagelabel": "Indstillinger for brugerdefineret domæne"
+    "advancedcustomdomainpagelabel": "Indstillinger for brugerdefineret domæne",
+    "communityDiscoveryDisabled": "Fællesskabsopdagelse Deaktiveret"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle valgte rækker vil kunne få adgang til denne server",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Der opstod en fejl under lagring af siden:",
     "pageSavedSuccessfully": "Siden blev gemt med succes!",
-    "thereWasAProblemSavingThePage": "Der var et problem med at gemme siden"
+    "thereWasAProblemSavingThePage": "Der var et problem med at gemme siden",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Siden blev gemt, men under godkendelse af opdagelsen mislykkedes det og deaktiverede opdagelsen på grund af:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Rolle Synkronisering Tutorial",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Afdeling duplikeret med succes:",
     "addToSaveDepartment": "Tilføj for at gemme afdeling",
     "userAttemptedToSaveTheDepartment": "Bruger forsøgte at gemme afdelingen:",
-    "newRank": "Ny Rang"
+    "newRank": "Ny Rang",
+    "modifyDocuments": "Ændr dokumenter",
+    "modifyTeamSpeak": "Rediger TeamSpeak",
+    "modifyShield": "Rediger Sonoran Shield",
+    "modifyProfileFields": "Ændr Profilfelter",
+    "securityCenter": "Sikkerhedscenter",
+    "securityCenterManageFlags": "Administrer sikkerhedsflag",
+    "assetsRootAccess": "Kør adgang til roden af aktiver",
+    "manageCadIntegration": "Administrer CAD-integration",
+    "growthCenter": "Vækstcenter",
+    "shortUrls": "Korte URL'er"
   },
   "calendarView": {
     "createEvent": "Opret Begivenhed",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteringstilstand aktiveret: Træk og slip rækkerne i den rækkefølge, du ønsker dem sorteret.",
     "savedSortedPages": "Gemte sorterede sider!",
     "homepageUpdated": "Hjemmeside opdateret!",
-    "thereWasAProblemSettingThePageAsHomepage": "Der var et problem med at indstille siden som hjemmeside."
+    "thereWasAProblemSettingThePageAsHomepage": "Der var et problem med at indstille siden som hjemmeside.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Hjemmeside opdateret, men under godkendelse af opdagelse mislykkedes det og deaktiverede opdagelse på grund af:"
   },
   "SectionEditor": {
     "background": "Baggrund",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Dette felt har ingen data. Det mest sandsynlige problem er, at din servers Sonoran CMS Core plugin er forældet."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "ingenRangmulighederAtVælgeFra"
   }
 }

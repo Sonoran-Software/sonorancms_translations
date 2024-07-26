@@ -204,7 +204,8 @@
     },
     "noAdditional": "Žádná další pole",
     "premadeSections": "Předpřipravené sekce",
-    "fields": "Pole"
+    "fields": "Pole",
+    "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany"
   },
   "departments": {
     "departmentName": "Název oddělení",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# oprávnění pro automatickou aktualizaci SonoranCMS (POVINNÉ)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Žádná data serveru"
+    "noServerData": "Žádná data serveru",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Nastavení bylo uloženo, ale objevování nebylo povoleno kvůli selhání ověření:",
+    "communityDiscoveryDisabled": "Objevování Komunity Zakázáno"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Úspěšně aktualizováno ID komunity na:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Chyba: Zadané ID komunity je již používáno, prosím použijte jiné.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Chyba: Došlo k chybě při zahájení převodu komunity. CHYBA:",
-    "userSelected": "Uživatel vybrán"
+    "userSelected": "Uživatel vybrán",
+    "isAdditionalStorage": "je Dodatečné úložiště",
+    "isTierStorage": "je úroveň úložiště"
   },
   "EditCharacterCard": {
     "citizenId": "Občanský průkaz",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtrovat hodnosti"
-  },
-  "RankSelect": {
-    "close": "Zavřít"
   },
   "accountNotificationPreferences": {
     "forms": "Formuláře",
@@ -1867,7 +1869,9 @@
     "addingAny": "Přidání jakéhokoli",
     "willAdd": "přidá",
     "removeAll": "Odstranit vše",
-    "willRemove": "odstraní"
+    "willRemove": "odstraní",
+    "havingNoneOf": "Nemít žádné",
+    "doNotManuallyApply": "Neaplikujte ručně"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Cech:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Nastavit komunitu pro předplatné:",
     "anErrorOccuredWhileChangingTheSubscripti": "Došlo k chybě při změně předplatného, pokud problém přetrvává, kontaktujte podporu.",
     "id": "ID",
-    "trial": "ZKUŠEBNÍ VERZE"
+    "trial": "ZKUŠEBNÍ VERZE",
+    "increasedStorage": "Zvýšená kapacita úložiště"
   },
   "Account": {
     "apiIdSettings": "Nastavení API ID",
@@ -2326,7 +2331,6 @@
     "upload": "Nahrát",
     "uploader": "Nahrávač",
     "learnMore": "Zjistit více",
-    "goProToday": "Přejít na Pro dnes",
     "createdBy": "Vytvořil",
     "actions": "Akce",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Centrum zabezpečení",
     "advancedsecuritypagelabel": "Centrum zabezpečení",
     "advancedcustomdomainlabel": "Vlastní doména",
-    "advancedcustomdomainpagelabel": "Nastavení vlastní domény"
+    "advancedcustomdomainpagelabel": "Nastavení vlastní domény",
+    "communityDiscoveryDisabled": "Objevování komunit zakázáno"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Všechny vybrané hodnosti budou mít přístup k tomuto serveru",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Došlo k chybě při ukládání stránky:",
     "pageSavedSuccessfully": "Stránka byla úspěšně uložena!",
-    "thereWasAProblemSavingThePage": "Došlo k problému při ukládání stránky"
+    "thereWasAProblemSavingThePage": "Došlo k problému při ukládání stránky",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Stránka byla uložena, ale během schvalování objevu selhalo a deaktivovalo objev z důvodu:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Návod na synchronizaci rolí Discord",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Oddělení úspěšně duplikováno:",
     "addToSaveDepartment": "Přidat k uložení oddělení",
     "userAttemptedToSaveTheDepartment": "Uživatel se pokusil uložit oddělení:",
-    "newRank": "Nová hodnost"
+    "newRank": "Nová hodnost",
+    "modifyDocuments": "Upravit dokumenty",
+    "modifyTeamSpeak": "Upravit TeamSpeak",
+    "modifyShield": "Upravit Sonoran Shield",
+    "modifyProfileFields": "Upravit položky profilu",
+    "securityCenter": "Centrum zabezpečení",
+    "securityCenterManageFlags": "Spravovat bezpečnostní vlajky",
+    "assetsRootAccess": "Přístup ke kořenovým souborům Drive Assets",
+    "manageCadIntegration": "Spravovat integraci CAD",
+    "growthCenter": "Růstové centrum",
+    "shortUrls": "Krátké URL adresy"
   },
   "calendarView": {
     "createEvent": "Vytvořit událost",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Režim třídění aktivován: Přetáhněte řádky v pořadí, ve kterém je chcete seřadit.",
     "savedSortedPages": "Seřazené stránky byly uloženy!",
     "homepageUpdated": "Domovská stránka byla aktualizována!",
-    "thereWasAProblemSettingThePageAsHomepage": "Došlo k problému při nastavování stránky jako domovské."
+    "thereWasAProblemSettingThePageAsHomepage": "Došlo k problému při nastavování stránky jako domovské.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Domovská stránka byla aktualizována, ale během schválení objevu se nezdařilo a objev byl deaktivován z důvodu:"
   },
   "SectionEditor": {
     "background": "Pozadí",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Toto pole neobsahuje žádná data. Nejpravděpodobnější problém je, že váš plugin Sonoran CMS Core na serveru je zastaralý."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "Žádné možnosti hodnosti k výběru"
   }
 }

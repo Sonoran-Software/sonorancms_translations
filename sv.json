@@ -204,7 +204,8 @@
     },
     "noAdditional": "Inga Ytterligare Fält",
     "premadeSections": "Förgjorda Sektioner",
-    "fields": "Fält"
+    "fields": "Fält",
+    "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part"
   },
   "departments": {
     "departmentName": "Avdelningsnamn",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# behörigheter för SonoranCMS auto-uppdaterare (KRÄVS)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Ingen serverdata"
+    "noServerData": "Ingen serverdata",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Inställningen sparades men upptäckt inte aktiverad på grund av verifieringsfel:",
+    "communityDiscoveryDisabled": "Upptäckt av gemenskap inaktiverad"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Framgångsrikt uppdaterat community-ID till:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Fel: Det angivna community-ID:t används redan, vänligen använd ett annat.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Fel: Ett fel inträffade vid initiering av community-överföring. FEL:",
-    "userSelected": "Användare vald"
+    "userSelected": "Användare vald",
+    "isAdditionalStorage": "är Ytterligare Lagring",
+    "isTierStorage": "är nivålagring"
   },
   "EditCharacterCard": {
     "citizenId": "Medborgar-ID",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtrera rangordningar"
-  },
-  "RankSelect": {
-    "close": "Stäng"
   },
   "accountNotificationPreferences": {
     "forms": "Formulär",
@@ -1867,7 +1869,9 @@
     "addingAny": "Lägger till någon",
     "willAdd": "kommer att lägga till",
     "removeAll": "Ta bort alla",
-    "willRemove": "kommer att ta bort"
+    "willRemove": "kommer att ta bort",
+    "havingNoneOf": "Har inget av",
+    "doNotManuallyApply": "Använd inte manuellt"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Ställ in community för prenumeration:",
     "anErrorOccuredWhileChangingTheSubscripti": "Ett fel inträffade vid ändring av prenumerationen, om detta kvarstår kontakta support.",
     "id": "ID",
-    "trial": "PROV"
+    "trial": "PROV",
+    "increasedStorage": "Ökad lagring"
   },
   "Account": {
     "apiIdSettings": "API ID-inställningar",
@@ -2326,7 +2331,6 @@
     "upload": "Ladda upp",
     "uploader": "Uppladdare",
     "learnMore": "Läs Mer",
-    "goProToday": "Bli Pro Idag",
     "createdBy": "Skapad Av",
     "actions": "Åtgärder",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Säkerhetscenter",
     "advancedsecuritypagelabel": "Säkerhetscenter",
     "advancedcustomdomainlabel": "Anpassad domän",
-    "advancedcustomdomainpagelabel": "Inställningar för anpassad domän"
+    "advancedcustomdomainpagelabel": "Inställningar för anpassad domän",
+    "communityDiscoveryDisabled": "Samhällsupptäckt inaktiverad"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alla valda rangordningar kommer att kunna få tillgång till denna server",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fel uppstod vid sparande av sida:",
     "pageSavedSuccessfully": "Sidan sparades framgångsrikt!",
-    "thereWasAProblemSavingThePage": "Det uppstod ett problem vid sparande av sidan"
+    "thereWasAProblemSavingThePage": "Det uppstod ett problem vid sparande av sidan",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Sidan sparades men under upptäcktsgodkännande misslyckades det och inaktiverade upptäckt på grund av:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Roll Synkronisering Tutorial",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Lyckades duplicera avdelningen: ",
     "addToSaveDepartment": "Lägg till för att spara avdelningen",
     "userAttemptedToSaveTheDepartment": "Användaren försökte spara avdelningen:",
-    "newRank": "Ny Rang"
+    "newRank": "Ny Rang",
+    "modifyDocuments": "Ändra Dokument",
+    "modifyTeamSpeak": "Ändra TeamSpeak",
+    "modifyShield": "Ändra Sonoran Shield",
+    "modifyProfileFields": "Ändra Profilfält",
+    "securityCenter": "Säkerhetscenter",
+    "securityCenterManageFlags": "Hantera säkerhetsflaggor",
+    "assetsRootAccess": "Köra tillgångar rotåtkomst",
+    "manageCadIntegration": "Hantera CAD-integration",
+    "growthCenter": "Tillväxtcenter",
+    "shortUrls": "Kortlänkar"
   },
   "calendarView": {
     "createEvent": "Skapa Evenemang",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteringsläge aktiverat: Dra och släpp raderna i den ordning du vill sortera dem.",
     "savedSortedPages": "Sparade sorterade sidor!",
     "homepageUpdated": "Hemsidan uppdaterad!",
-    "thereWasAProblemSettingThePageAsHomepage": "Det uppstod ett problem med att ställa in sidan som hemsida."
+    "thereWasAProblemSettingThePageAsHomepage": "Det uppstod ett problem med att ställa in sidan som hemsida.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Hemsidan uppdaterad, men under upptäcktsgodkännande misslyckades det och inaktiverade upptäckt på grund av:"
   },
   "SectionEditor": {
     "background": "Bakgrund",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Detta fält har ingen data. Det mest troliga problemet är att din servers Sonoran CMS Core-plugin är föråldrad."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "ingaRankingsalternativAttVäljaFrån"
   }
 }

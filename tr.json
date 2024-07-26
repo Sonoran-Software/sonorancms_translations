@@ -204,7 +204,8 @@
     },
     "noAdditional": "Ek Alan Yok",
     "premadeSections": "Hazır Bölümler",
-    "fields": "Alanlar"
+    "fields": "Alanlar",
+    "appThirdPartySubmit": "Üçüncü Taraf Başvurusunu/Formunu Gönder"
   },
   "departments": {
     "departmentName": "Departman Adı",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# SonoranCMS otomatik güncelleyici için izinler (GEREKLİ)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Sunucu Verisi Yok"
+    "noServerData": "Sunucu Verisi Yok",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Ayar kaydedildi ancak doğrulama hatası nedeniyle keşif etkinleştirilmedi:",
+    "communityDiscoveryDisabled": "Topluluk Keşfi Devre Dışı Bırakıldı"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Topluluk kimliği başarıyla güncellendi:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Hata: Belirtilen topluluk kimliği zaten kullanılıyor, lütfen başka bir tane kullanın.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Hata: Topluluk transferi başlatılırken bir hata oluştu. HATA:",
-    "userSelected": "Kullanıcı seçildi"
+    "userSelected": "Kullanıcı seçildi",
+    "isAdditionalStorage": "ek Depolama",
+    "isTierStorage": "Katman Deposu"
   },
   "EditCharacterCard": {
     "citizenId": "Vatandaş Kimliği",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Rütbeleri Filtrele"
-  },
-  "RankSelect": {
-    "close": "Kapat"
   },
   "accountNotificationPreferences": {
     "forms": "Formlar",
@@ -1867,7 +1869,9 @@
     "addingAny": "Herhangi bir ekleme",
     "willAdd": "ekleyecek",
     "removeAll": "Hepsini Kaldır",
-    "willRemove": "kaldıracak"
+    "willRemove": "kaldıracak",
+    "havingNoneOf": "Hiçbiri",
+    "doNotManuallyApply": "Elleçle uygulama yapmayın"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Lonca:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Abonelik için Topluluğu Ayarla:",
     "anErrorOccuredWhileChangingTheSubscripti": "Abonelik değiştirilirken bir hata oluştu, bu durum devam ederse destek ile iletişime geçin.",
     "id": "ID",
-    "trial": "DENEME"
+    "trial": "DENEME",
+    "increasedStorage": "Depolama Artırıldı"
   },
   "Account": {
     "apiIdSettings": "API ID Ayarları",
@@ -2326,7 +2331,6 @@
     "upload": "Yükle",
     "uploader": "Yükleyici",
     "learnMore": "Daha Fazla Bilgi Edinin",
-    "goProToday": "Bugün Pro Olun",
     "createdBy": "Oluşturan",
     "actions": "Eylemler",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Güvenlik Merkezi",
     "advancedsecuritypagelabel": "Güvenlik Merkezi",
     "advancedcustomdomainlabel": "Özel Alan Adı",
-    "advancedcustomdomainpagelabel": "Özel Alan Adı Ayarları"
+    "advancedcustomdomainpagelabel": "Özel Alan Adı Ayarları",
+    "communityDiscoveryDisabled": "Topluluk Keşfi Devre Dışı"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Seçilen tüm rütbeler bu sunucuya erişebilecek",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sayfa kaydedilirken hata oluştu:",
     "pageSavedSuccessfully": "Sayfa başarıyla kaydedildi!",
-    "thereWasAProblemSavingThePage": "Sayfa kaydedilirken bir sorun oluştu"
+    "thereWasAProblemSavingThePage": "Sayfa kaydedilirken bir sorun oluştu",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Sayfa kaydedildi ancak keşif onayı sırasında başarısız oldu ve şu nedenle devre dışı bırakıldı:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Rol Senkronizasyonu Eğitimi",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Departman başarıyla kopyalandı:",
     "addToSaveDepartment": "Departmanı kaydetmek için ekle",
     "userAttemptedToSaveTheDepartment": "Kullanıcı departmanı kaydetmeye çalıştı:",
-    "newRank": "Yeni Rütbe"
+    "newRank": "Yeni Rütbe",
+    "modifyDocuments": "Belgeleri Değiştir",
+    "modifyTeamSpeak": "TeamSpeak'i Düzenle",
+    "modifyShield": "Sonoran Kalkanı Değiştir",
+    "modifyProfileFields": "Profil Alanlarını Değiştir",
+    "securityCenter": "Güvenlik Merkezi",
+    "securityCenterManageFlags": "Güvenlik Bayraklarını Yönet",
+    "assetsRootAccess": "Sürücü Varlıkları Kök Erişimi",
+    "manageCadIntegration": "CAD Entegrasyonunu Yönet",
+    "growthCenter": "Büyüme Merkezi",
+    "shortUrls": "Kısa URL'ler"
   },
   "calendarView": {
     "createEvent": "Etkinlik Oluştur",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Sıralama Modu Etkin: Satırları sıralamak istediğiniz sıraya göre sürükleyip bırakın.",
     "savedSortedPages": "Sıralanmış sayfalar kaydedildi!",
     "homepageUpdated": "Ana sayfa güncellendi!",
-    "thereWasAProblemSettingThePageAsHomepage": "Sayfa ana sayfa olarak ayarlanırken bir sorun oluştu."
+    "thereWasAProblemSettingThePageAsHomepage": "Sayfa ana sayfa olarak ayarlanırken bir sorun oluştu.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Ana sayfa güncellendi, ancak keşif onayı sırasında başarısız oldu ve şu nedenle keşif devre dışı bırakıldı:"
   },
   "SectionEditor": {
     "background": "Arka Plan",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Bu alanın verisi yok. En olası sorun, sunucularınızın Sonoran CMS Core eklentisinin güncel olmamasıdır."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "Seçilecek derecelendirme seçeneği yok"
   }
 }

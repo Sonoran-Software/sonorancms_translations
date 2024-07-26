@@ -204,7 +204,8 @@
     },
     "noAdditional": "لا توجد حقول إضافية",
     "premadeSections": "الأقسام الجاهزة",
-    "fields": "الحقول"
+    "fields": "الحقول",
+    "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية"
   },
   "departments": {
     "departmentName": "اسم القسم",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# الأذونات لتحديث SonoranCMS التلقائي (مطلوب)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "لا توجد بيانات خادم"
+    "noServerData": "لا توجد بيانات خادم",
+    "settingSavedButDiscoveryNotEnabledDueTo": "تم حفظ الإعداد ولكن لم يتم تمكين الاكتشاف بسبب فشل التحقق:",
+    "communityDiscoveryDisabled": "تم تعطيل اكتشاف المجتمع"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "تم تحديث معرف المجتمع بنجاح إلى:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "خطأ: معرف المجتمع المحدد مستخدم بالفعل، يرجى استخدام معرف آخر.",
     "errorAnErrorOccuredWhileInitiatingCommun": "خطأ: حدث خطأ أثناء بدء نقل المجتمع. ERR:",
-    "userSelected": "المستخدم المحدد"
+    "userSelected": "المستخدم المحدد",
+    "isAdditionalStorage": "مساحة تخزين إضافية",
+    "isTierStorage": "هو تخزين الطبقات"
   },
   "EditCharacterCard": {
     "citizenId": "معرف المواطن",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "تصفية الرتب"
-  },
-  "RankSelect": {
-    "close": "إغلاق"
   },
   "accountNotificationPreferences": {
     "forms": "النماذج",
@@ -1867,7 +1869,9 @@
     "addingAny": "إضافة أي شيء",
     "willAdd": "سيتم إضافة",
     "removeAll": "إزالة الكل",
-    "willRemove": "سيتم إزالة"
+    "willRemove": "سيتم إزالة",
+    "havingNoneOf": "لا شيء من",
+    "doNotManuallyApply": "لا تقم بالتطبيق يدويًا"
   },
   "DiscordRoleMultiSelector": {
     "guild": "النقابة:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "تعيين المجتمع للاشتراك:",
     "anErrorOccuredWhileChangingTheSubscripti": "حدث خطأ أثناء تغيير الاشتراك، إذا استمر هذا، يرجى الاتصال بالدعم.",
     "id": "المعرف",
-    "trial": "تجريبي"
+    "trial": "تجريبي",
+    "increasedStorage": "زيادة التخزين"
   },
   "Account": {
     "apiIdSettings": "إعدادات معرف API",
@@ -2326,7 +2331,6 @@
     "upload": "رفع",
     "uploader": "رافع الملفات",
     "learnMore": "تعرف على المزيد",
-    "goProToday": "احصل على النسخة الاحترافية اليوم",
     "createdBy": "تم الإنشاء بواسطة",
     "actions": "الإجراءات",
     "id": "المعرف",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "مركز الأمان",
     "advancedsecuritypagelabel": "مركز الأمان",
     "advancedcustomdomainlabel": "النطاق المخصص",
-    "advancedcustomdomainpagelabel": "إعدادات النطاق المخصص"
+    "advancedcustomdomainpagelabel": "إعدادات النطاق المخصص",
+    "communityDiscoveryDisabled": "تم تعطيل اكتشاف المجتمع"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "جميع الرتب المحددة ستكون قادرة على الوصول إلى هذا الخادم",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "حدث خطأ أثناء حفظ الصفحة:",
     "pageSavedSuccessfully": "تم حفظ الصفحة بنجاح!",
-    "thereWasAProblemSavingThePage": "كانت هناك مشكلة في حفظ الصفحة"
+    "thereWasAProblemSavingThePage": "كانت هناك مشكلة في حفظ الصفحة",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "تم حفظ الصفحة ولكن أثناء موافقة الاكتشاف فشلت وتم تعطيل الاكتشاف بسبب:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "دليل مزامنة دور Discord",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "تم تكرار القسم بنجاح:",
     "addToSaveDepartment": "أضف لحفظ القسم",
     "userAttemptedToSaveTheDepartment": "حاول المستخدم حفظ القسم:",
-    "newRank": "رتبة جديدة"
+    "newRank": "رتبة جديدة",
+    "modifyDocuments": "تعديل المستندات",
+    "modifyTeamSpeak": "تعديل TeamSpeak",
+    "modifyShield": "تعديل Sonoran Shield",
+    "modifyProfileFields": "تعديل حقول الملف الشخصي",
+    "securityCenter": "مركز الأمان",
+    "securityCenterManageFlags": "إدارة إشارات الأمان",
+    "assetsRootAccess": "جذر الوصول لأصول Drive",
+    "manageCadIntegration": "إدارة تكامل CAD",
+    "growthCenter": "مركز النمو",
+    "shortUrls": "روابط مختصرة"
   },
   "calendarView": {
     "createEvent": "إنشاء حدث",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "تم تفعيل وضع الفرز: اسحب وأفلت الصفوف بالترتيب الذي تريده.",
     "savedSortedPages": "تم حفظ الصفحات المرتبة!",
     "homepageUpdated": "تم تحديث الصفحة الرئيسية!",
-    "thereWasAProblemSettingThePageAsHomepage": "كانت هناك مشكلة في تعيين الصفحة كصفحة رئيسية."
+    "thereWasAProblemSettingThePageAsHomepage": "كانت هناك مشكلة في تعيين الصفحة كصفحة رئيسية.",
+    "homepageUpdatedButDuringDiscoveryApproval": "تم تحديث الصفحة الرئيسية، ولكن أثناء الموافقة على الاكتشاف فشلت وتم تعطيل الاكتشاف بسبب:"
   },
   "SectionEditor": {
     "background": "الخلفية",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "هذا الحقل لا يحتوي على بيانات. المشكلة الأكثر احتمالاً هي أن مكون Sonoran CMS Core الإضافي على خوادمك قديم."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "لا توجد خيارات للرتب للاختيار منها"
   }
 }

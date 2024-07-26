@@ -204,7 +204,8 @@
     },
     "noAdditional": "追加フィールドなし",
     "premadeSections": "事前作成されたセクション",
-    "fields": "フィールド"
+    "fields": "フィールド",
+    "appThirdPartySubmit": "サードパーティのアプリケーション/フォームを提出"
   },
   "departments": {
     "departmentName": "部門名",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms_updatehelper command allow",
     "addaceResourcesonorancmsupdatehelperComm": "サーバーデータなし",
-    "noServerData": "セキュリティ - ダッシュボード"
+    "noServerData": "セキュリティ - ダッシュボード",
+    "settingSavedButDiscoveryNotEnabledDueTo": "設定は保存されましたが、確認失敗のためディスカバリーが有効になりませんでした。",
+    "communityDiscoveryDisabled": "コミュニティ探索が無効になっています"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "エラー: 指定されたコミュニティIDは既に使用されています。別のIDを使用してください。",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "エラー: コミュニティ転送の開始中にエラーが発生しました。ERR:",
     "errorAnErrorOccuredWhileInitiatingCommun": "ユーザーが選択されました",
-    "userSelected": "市民ID"
+    "userSelected": "市民ID",
+    "isAdditionalStorage": "追加ストレージ",
+    "isTierStorage": "階層ストレージです"
   },
   "EditCharacterCard": {
     "citizenId": "名",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "閉じる"
-  },
-  "RankSelect": {
-    "close": "フォーム"
   },
   "accountNotificationPreferences": {
     "forms": "受信トレイ",
@@ -1867,7 +1869,9 @@
     "addingAny": "追加されます",
     "willAdd": "すべて削除",
     "removeAll": "削除されます",
-    "willRemove": "ギルド："
+    "willRemove": "ギルド：",
+    "havingNoneOf": "を持っていない",
+    "doNotManuallyApply": "手動で適用しない"
   },
   "DiscordRoleMultiSelector": {
     "guild": "ギルド："
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "サブスクリプションの変更中にエラーが発生しました。これが続く場合はサポートに連絡してください。",
     "anErrorOccuredWhileChangingTheSubscripti": "ID",
     "id": "トライアル",
-    "trial": "API ID設定"
+    "trial": "API ID設定",
+    "increasedStorage": "ストレージの増加"
   },
   "Account": {
     "apiIdSettings": "ログアウト",
@@ -2326,7 +2331,6 @@
     "upload": "アップローダー",
     "uploader": "詳細を学ぶ",
     "learnMore": "今日からプロに",
-    "goProToday": "作成者",
     "createdBy": "アクション",
     "actions": "ID",
     "id": "名前",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "セキュリティセンター",
     "advancedsecuritypagelabel": "カスタムドメイン",
     "advancedcustomdomainlabel": "カスタムドメイン設定",
-    "advancedcustomdomainpagelabel": "選択されたすべてのランクはこのサーバーにアクセスできます"
+    "advancedcustomdomainpagelabel": "選択されたすべてのランクはこのサーバーにアクセスできます",
+    "communityDiscoveryDisabled": "コミュニティディスカバリー無効"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "許可リスト",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "ページが正常に保存されました！",
     "pageSavedSuccessfully": "ページの保存中に問題が発生しました",
-    "thereWasAProblemSavingThePage": "Discordロール同期チュートリアル"
+    "thereWasAProblemSavingThePage": "Discordロール同期チュートリアル",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "ページが保存されましたが、ディスカバリー承認中に失敗し、ディスカバリーを無効にしました。その理由は："
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discordロール同期について学ぶ",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "部門を保存するために追加",
     "addToSaveDepartment": "ユーザーが部門を保存しようとしました：",
     "userAttemptedToSaveTheDepartment": "新しいランク",
-    "newRank": "イベントを作成"
+    "newRank": "イベントを作成",
+    "modifyDocuments": "ドキュメントの編集",
+    "modifyTeamSpeak": "チームスピークを修正",
+    "modifyShield": "ソノランシールドの修正",
+    "modifyProfileFields": "プロファイルフィールドを変更",
+    "securityCenter": "セキュリティセンター",
+    "securityCenterManageFlags": "セキュリティフラグを管理する",
+    "assetsRootAccess": "ドライブアセットルートアクセス",
+    "manageCadIntegration": "CAD統合の管理",
+    "growthCenter": "成長センター",
+    "shortUrls": "短縮URL"
   },
   "calendarView": {
     "createEvent": "前へ",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "ソートされたページを保存しました！",
     "savedSortedPages": "ホームページが更新されました！",
     "homepageUpdated": "ホームページとしてページを設定する際に問題が発生しました。",
-    "thereWasAProblemSettingThePageAsHomepage": "背景"
+    "thereWasAProblemSettingThePageAsHomepage": "背景",
+    "homepageUpdatedButDuringDiscoveryApproval": "ホームページが更新されましたが、ディスカバリー承認中に失敗し、次の理由でディスカバリーを無効にしました:"
   },
   "SectionEditor": {
     "background": "エディター",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "This field has no data. The most probable issue is that your servers Sonoran CMS Core plugin is outdated."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "選択できるランクオプションがありません"
   }
 }

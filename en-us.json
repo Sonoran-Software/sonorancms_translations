@@ -185,6 +185,7 @@
       "executeDiscordDm": "Send Discord DM"
     },
     "appSubmit": "Submit Application/Form",
+    "appThirdPartySubmit": "Submit Third Party Application/Form",
     "editOwn": "Edit Own Form",
     "changeStages": "Change Form Stage",
     "toggleReplies": "Enable/Disable Replies",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# permissions for SonoranCMS auto-updater (REQUIRED)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "No Server Data"
+    "noServerData": "No Server Data",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Setting saved but discovery not enabled due to verification failure: ",
+    "communityDiscoveryDisabled": "Community Discovery Disabled"
   },
   "Dashboard": {
     "securityDashboard": "Security - Dashboard",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "Successfully updated community ID to:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Error: The specified community ID specified is already in use, please use another one.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Error: An error occured while initiating community transfer. ERR:",
-    "userSelected": "User selected"
+    "userSelected": "User selected",
+    "isAdditionalStorage": "is Additional Storage",
+    "isTierStorage": "is Tier Storage"
   },
   "EditCharacterCard": {
     "citizenId": "Citizen ID",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filter Ranks"
-  },
-  "RankSelect": {
-    "close": "Close"
   },
   "accountNotificationPreferences": {
     "forms": "Forms",
@@ -1867,7 +1869,9 @@
     "addingAny": "Adding any",
     "willAdd": "will add",
     "removeAll": "Remove All",
-    "willRemove": "will remove"
+    "willRemove": "will remove",
+    "havingNoneOf": "Having none of",
+    "doNotManuallyApply": "Do not manually apply"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Set Community for subscription:",
     "anErrorOccuredWhileChangingTheSubscripti": "An error occured while changing the subscription, if this persists contact support.",
     "id": "ID",
-    "trial": "TRIAL"
+    "trial": "TRIAL",
+    "increasedStorage": "Increased Storage"
   },
   "Account": {
     "apiIdSettings": "API ID Settings",
@@ -2326,7 +2331,6 @@
     "upload": "Upload",
     "uploader": "Uploader",
     "learnMore": "Learn More",
-    "goProToday": "Go Pro Today",
     "createdBy": "Created By",
     "actions": "Actions",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Security Center",
     "advancedsecuritypagelabel": "Security Center",
     "advancedcustomdomainlabel": "Custom Domain",
-    "advancedcustomdomainpagelabel": "Custom Domain Settings"
+    "advancedcustomdomainpagelabel": "Custom Domain Settings",
+    "communityDiscoveryDisabled": "Community Discovery Disabled"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "All selected ranks will be able to access this server",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Error occured while saving page:",
     "pageSavedSuccessfully": "Page saved successfully!",
-    "thereWasAProblemSavingThePage": "There was a problem saving the page"
+    "thereWasAProblemSavingThePage": "There was a problem saving the page",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Page saved but during discovery approval it failed and disable discovery due to:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Role Sync Tutorial",
@@ -3189,8 +3195,18 @@
     "noServersFoundForCommunityCreateServersI": "No servers found for community... Create servers in API Integration.",
     "ModifyToolbar": "Modify Toolbar",
     "modifyPages": "Modify Pages",
+    "modifyDocuments": "Modify Documents",
+    "modifyTeamSpeak": "Modify TeamSpeak",
     "modifyAllDocumentsDrive": "Modify All Documents (Drive)",
     "clockInOut": "Clock In & Out",
+    "modifyShield": "Modify Sonoran Shield",
+    "modifyProfileFields": "Modify Profile Fields",
+    "securityCenter": "Security Center",
+    "securityCenterManageFlags": "Manage Security Flags",
+    "assetsRootAccess": "Drive Assets Root Access",
+    "manageCadIntegration": "Manage CAD Integration",
+    "growthCenter": "Growth Center",
+    "shortUrls": "Short URLs",
     "viewDashboardNavigationButton": "View Dashboard Navigation Button",
     "viewDriveNavigationButton": "View Drive Navigation Button",
     "viewCalendarNavigationButton": "View Calendar Navigation Button",
@@ -3233,11 +3249,11 @@
     "successfullyPastedSpecificApplicationPer": "Successfully pasted specific application permissions!",
     "youHaventCopiedAnySpecificApplicationPer": "You havent copied any specific application permissions to paste!",
     "successfullyPastedAllCalendarPermissions": "Successfully pasted all calendar permissions!",
-    "youHaventCopiedAnyAllCalendarPermissions": "You haven\\\\t copied any all calendar permissions to paste!",
+    "youHaventCopiedAnyAllCalendarPermissions": "You haven\\'t copied any all calendar permissions to paste!",
     "successfullyPastedSpecificCalendarPermis": "Successfully pasted specific calendar permissions!",
     "youHaventCopiedAnySpecificCalendarPermis": "You havent copied any specific calendar permissions to paste!",
     "successfullyPastedAllRosterPermissions": "Successfully pasted all roster permissions!",
-    "youHaventCopiedAnyAllRosterPermissionsTo": "You haven\\\\t copied any all roster permissions to paste!",
+    "youHaventCopiedAnyAllRosterPermissionsTo": "You haven\\'t copied any all roster permissions to paste!",
     "successfullyPastedSpecificRosterPermissi": "Successfully pasted specific roster permissions!",
     "youHaventCopiedAnySpecificRosterPermissi": "You havent copied any specific roster permissions to paste!",
     "userAttemptedToAddADepartmentButCouldntD": "User attempted to add a department but couldnt due to hitting limit",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Sort Mode Activated: Drag And Drop the rows in the order in which youd like them sorted.",
     "savedSortedPages": "Saved sorted pages!",
     "homepageUpdated": "Homepage updated!",
-    "thereWasAProblemSettingThePageAsHomepage": "There was a problem setting the page as homepage."
+    "thereWasAProblemSettingThePageAsHomepage": "There was a problem setting the page as homepage.",
+    "homepageUpdatedButDuringDiscoveryApproval": "Homepage updated, but during discovery approval it failed and disabled discovery due to:"
   },
   "SectionEditor": {
     "background": "Background",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "This field has no data. The most probable issue is that your servers Sonoran CMS Core plugin is outdated."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "No rank options to select from"
   }
 }

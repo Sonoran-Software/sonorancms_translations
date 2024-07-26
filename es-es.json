@@ -204,7 +204,8 @@
     },
     "noAdditional": "No hay Campos Adicionales",
     "premadeSections": "Secciones Prediseñadas",
-    "fields": "Campos"
+    "fields": "Campos",
+    "appThirdPartySubmit": "Enviar solicitud/formulario de terceros"
   },
   "departments": {
     "departmentName": "Nombre del Departamento",
@@ -616,7 +617,9 @@
     "PermissionsForSonorancmsAutoupdaterRequi": "# permisos para el actualizador automático de SonoranCMS (REQUERIDO)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
-    "noServerData": "Sin datos del servidor"
+    "noServerData": "Sin datos del servidor",
+    "settingSavedButDiscoveryNotEnabledDueTo": "Configuración guardada, pero el descubrimiento no se habilitó debido a la falla de verificación:",
+    "communityDiscoveryDisabled": "Descubrimiento de la comunidad deshabilitado"
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -1318,7 +1321,9 @@
     "successfullyUpdatedCommunityIdTo": "ID de comunidad actualizado con éxito a:",
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Error: El ID de comunidad especificado ya está en uso, por favor use otro.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Error: Ocurrió un error al iniciar la transferencia de la comunidad. ERR:",
-    "userSelected": "Usuario seleccionado"
+    "userSelected": "Usuario seleccionado",
+    "isAdditionalStorage": "almacenamiento adicional",
+    "isTierStorage": "es Almacenamiento de Niveles"
   },
   "EditCharacterCard": {
     "citizenId": "ID de Ciudadano",
@@ -1454,9 +1459,6 @@
   },
   "RankList": {
     "filterRanks": "Filtrar Rangos"
-  },
-  "RankSelect": {
-    "close": "Cerrar"
   },
   "accountNotificationPreferences": {
     "forms": "Formularios",
@@ -1867,7 +1869,9 @@
     "addingAny": "Añadiendo cualquier",
     "willAdd": "añadirá",
     "removeAll": "Eliminar todo",
-    "willRemove": "eliminará"
+    "willRemove": "eliminará",
+    "havingNoneOf": "No tener ninguno de",
+    "doNotManuallyApply": "No aplicar manualmente"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gremio:"
@@ -2077,7 +2081,8 @@
     "setCommunityForSubscription": "Establecer Comunidad para la suscripción:",
     "anErrorOccuredWhileChangingTheSubscripti": "Ocurrió un error al cambiar la suscripción, si esto persiste contacte al soporte.",
     "id": "ID",
-    "trial": "PRUEBA"
+    "trial": "PRUEBA",
+    "increasedStorage": "Almacenamiento Aumentado"
   },
   "Account": {
     "apiIdSettings": "Configuraciones de ID de API",
@@ -2326,7 +2331,6 @@
     "upload": "Subir",
     "uploader": "Subidor",
     "learnMore": "Aprender Más",
-    "goProToday": "Hazte Pro Hoy",
     "createdBy": "Creado Por",
     "actions": "Acciones",
     "id": "ID",
@@ -2390,7 +2394,8 @@
     "advancedsecuritylabel": "Centro de Seguridad",
     "advancedsecuritypagelabel": "Centro de Seguridad",
     "advancedcustomdomainlabel": "Dominio Personalizado",
-    "advancedcustomdomainpagelabel": "Configuración de Dominio Personalizado"
+    "advancedcustomdomainpagelabel": "Configuración de Dominio Personalizado",
+    "communityDiscoveryDisabled": "Descubrimiento de la Comunidad Deshabilitado"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Todos los rangos seleccionados podrán acceder a este servidor",
@@ -3020,7 +3025,8 @@
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocurrió un error al guardar la página:",
     "pageSavedSuccessfully": "¡Página guardada exitosamente!",
-    "thereWasAProblemSavingThePage": "Hubo un problema al guardar la página"
+    "thereWasAProblemSavingThePage": "Hubo un problema al guardar la página",
+    "pageSavedButDuringDiscoveryApprovalItFailed": "Página guardada, pero durante la aprobación de descubrimiento falló y se desactivó el descubrimiento debido a:"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Tutorial de Sincronización de Roles de Discord",
@@ -3247,7 +3253,17 @@
     "successfullyDuplicatedDepartment": "Departamento duplicado con éxito:",
     "addToSaveDepartment": "Agregar para guardar departamento",
     "userAttemptedToSaveTheDepartment": "El usuario intentó guardar el departamento:",
-    "newRank": "Nuevo Rango"
+    "newRank": "Nuevo Rango",
+    "modifyDocuments": "Modificar Documentos",
+    "modifyTeamSpeak": "Modificar TeamSpeak",
+    "modifyShield": "Modificar Sonoran Shield",
+    "modifyProfileFields": "Modificar campos del perfil",
+    "securityCenter": "Centro de Seguridad",
+    "securityCenterManageFlags": "Administrar banderas de seguridad",
+    "assetsRootAccess": "Acceso a la raíz de activos de Drive",
+    "manageCadIntegration": "Gestionar la integración de CAD",
+    "growthCenter": "Centro de Crecimiento",
+    "shortUrls": "URLs cortas"
   },
   "calendarView": {
     "createEvent": "Crear Evento",
@@ -3749,7 +3765,8 @@
     "sortModeActivatedDragAndDropTheRowsInThe": "Modo de orden activado: Arrastra y suelta las filas en el orden en que deseas que se ordenen.",
     "savedSortedPages": "¡Páginas ordenadas guardadas!",
     "homepageUpdated": "¡Página principal actualizada!",
-    "thereWasAProblemSettingThePageAsHomepage": "Hubo un problema al configurar la página como página principal."
+    "thereWasAProblemSettingThePageAsHomepage": "Hubo un problema al configurar la página como página principal.",
+    "homepageUpdatedButDuringDiscoveryApproval": "La página principal se actualizó, pero durante la aprobación de descubrimiento falló y deshabilitó el descubrimiento debido a:"
   },
   "SectionEditor": {
     "background": "Fondo",
@@ -4057,5 +4074,8 @@
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "Este campo no tiene datos. El problema más probable es que el plugin principal de Sonoran CMS en tus servidores esté desactualizado."
+  },
+  "rankSelect": {
+    "noRankOptionsToSelectFrom": "no hay opciones de rango para seleccionar"
   }
 }
