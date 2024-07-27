@@ -23,5 +23,38 @@
     },
     "ForumTopic": {
         "1SecAgo": "1 sek temu"
+    },
+    "common": {
+        "no": "Nie",
+        "needHelp": "Potrzebujesz pomocy?",
+        "noResults": "Brak wyników",
+        "add": "Dodaj",
+        "dupDept": "Zduplikowany dział",
+        "save": "Zapisz",
+        "cancel": "Anuluj",
+        "view": "Wyświetl",
+        "close": "Zamknij",
+        "image": "Obraz",
+        "description": "Opis",
+        "templateDetails": "Szczegóły szablonu",
+        "information": "Informacje",
+        "recPlan": "Zalecany plan",
+        "totalRanks": "Łączenie rang",
+        "totalDepts": "Łączenie działów"
+    },
+    "iconImageHandler": {
+        "icon": "Ikona",
+        "image": "Zdjęcie"
+    },
+    "helpButtonComponent": {
+        "viewTutorialVideo": "Wyświetl film instruktażowy",
+        "documentation": "Dokumentacja",
+        "close": "Zamknij",
+        "videoTutorialComingSoon": "Samouczek wideo już wkrótce"
+    },
+    "searchEngineEditor": {
+        "seoSettings": "Ustawienia seo",
+        "pageSEOSettings": "Ustawienia SEO strony",
+        "pageDesciption": "Opis strony"
     }
 }
