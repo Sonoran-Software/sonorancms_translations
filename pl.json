@@ -6,5 +6,22 @@
         "duplicateIp": "Zduplikowany adres IP",
         "limitscommunitysecuritycenter": "Społecznościowe Centrum Bezpieczeństwa",
         "yes": "Tak"
+    },
+    "Pricing": {
+        "1999mo": "$19.99/mies",
+        "999mo": "$9.99/mies",
+        "100UserAccounts": "100 Kont Użytkownika"
+    },
+    "AccountViewer": {
+        "1SecAgo": "1 sek temu"
+    },
+    "ApiIntegration": {
+        "1SecAgo": "1 sek temu"
+    },
+    "profileView": {
+        "1SecAgo": "1 sek temu"
+    },
+    "ForumTopic": {
+        "1SecAgo": "1 sek temu"
     }
 }
