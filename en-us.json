@@ -461,7 +461,6 @@
     "thisUserIsNoLongerWithinTheCommunity": "This user is no longer within the community",
     "thisUserIsPendingWithinTheCommunity": "This user is pending within the community",
     "thisUserHasNeverBeenApartOfTheCommunityB": "This user has never been apart of the community but is tied to the flag",
-    "": "",
     "noPermissions": "No Permissions",
     "viewAllYourCommunitysAvailableLogsFilter": "View all your community's available logs, filter by account, type, and date.",
     "availableCommunityLogs": "Available Community Logs",
@@ -1924,8 +1923,7 @@
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "No auth credentials present, contact support.",
-    "dismiss": "Dismiss",
-    "": ""
+    "dismiss": "Dismiss"
   },
   "Menu": {
     "createCommmunityTutorial": "Create Commmunity Tutorial",
