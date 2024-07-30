@@ -1,7 +1,7 @@
 {
     "config": {
         "displayName": "Polski",
-        "path": "po"
+        "path": "pl"
     },
     "iconImageHandler": {
         "icon": "Ikona",
