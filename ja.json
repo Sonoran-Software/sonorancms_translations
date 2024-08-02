@@ -1924,7 +1924,7 @@
     },
     "oauth": {
         "noAuthCredentialsPresentContactSupport": "閉じる",
-        "dismiss": "",
+        "dismiss": "却下する",
         "": "コミュニティ作成チュートリアル"
     },
     "Menu": {
