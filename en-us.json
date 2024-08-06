@@ -161,14 +161,15 @@
   },
   "forms": {
     "templateTypes": {
-      "newmemberapp": "New Member Application",
+      "newmemberapp": "New Member Form",
       "reserveapp": "Secondary Application",
       "plog": "Time Log",
       "commend": "Commendation",
       "complaint": "Complaint",
       "comform": "Community Form",
       "disciplinary": "Disciplinary Action",
-      "training": "Training History"
+      "training": "Training History",
+      "generalapp": "General Form"
     },
     "formDeleteConfirm": "Are you sure you want to delete \"{formName}\"?",
     "secFieldsHeader": "Fields",
@@ -461,6 +462,7 @@
     "thisUserIsNoLongerWithinTheCommunity": "This user is no longer within the community",
     "thisUserIsPendingWithinTheCommunity": "This user is pending within the community",
     "thisUserHasNeverBeenApartOfTheCommunityB": "This user has never been apart of the community but is tied to the flag",
+    "": "",
     "noPermissions": "No Permissions",
     "viewAllYourCommunitysAvailableLogsFilter": "View all your community's available logs, filter by account, type, and date.",
     "availableCommunityLogs": "Available Community Logs",
@@ -618,7 +620,13 @@
     "addaceResourcesonorancmsupdatehelperComm": "add_ace resource.sonorancms_updatehelper command allow",
     "noServerData": "No Server Data",
     "settingSavedButDiscoveryNotEnabledDueTo": "Setting saved but discovery not enabled due to verification failure: ",
-    "communityDiscoveryDisabled": "Community Discovery Disabled"
+    "communityDiscoveryDisabled": "Community Discovery Disabled",
+    "securityFlagPreferences": "Security Flag Preferences",
+    "anErrorOccuredWhileSavingSecurityPreferences": "An error occured while saving security preferences: ",
+    "vpnDetection": "VPN Detection",
+    "displayVpnDetectionFlagsOnlyForUsersWho": "Display VPN detection flags only for users who are pending, meaning those who have joined but do not have any CMS ranks.",
+    "altDetection": "Alt Detection",
+    "ignoreAlternateAccountDetectionFlags": "Ignore alternate account detection flags for users not yet in the community. Display the flag only when the suspected alternate account joins the community."
   },
   "Dashboard": {
     "securityDashboard": "Security - Dashboard",
@@ -1239,6 +1247,7 @@
     "formstemplatetypescomform": "Community Form",
     "formstemplatetypesdisciplinary": "Disciplinary Action",
     "formstemplatetypestraining": "Training History",
+    "formstemplatetypesgeneral": "General Form",
     "invalidFormStatus": "Invalid Form Status",
     "pending": "Pending",
     "approved": "Approved",
@@ -1258,7 +1267,6 @@
     "successfullyAppliedToThe": "Successfully applied to the",
     "userSuccessfullySubmittedANewForm": "User successfully submitted a new form:",
     "label": "Label",
-    "type": "Type",
     "actions": "Actions",
     "stage": "Stage",
     "goToSubmissions": "Go to submissions"
@@ -1923,7 +1931,8 @@
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "No auth credentials present, contact support.",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "": ""
   },
   "Menu": {
     "createCommmunityTutorial": "Create Commmunity Tutorial",
@@ -2124,14 +2133,10 @@
   },
   "Roster": {
     "addRow": "Add Row",
-    "sortPower": "Sort Power",
-    "higherTheTheHigherTheyreSortedInTheRoste": "Higher the # the higher theyre sorted in the roster.",
     "memberToAdd": "Member to Add",
     "noResults": "No Results",
     "disabledDueToAllAvailableAccountsAreAlre": "Disabled due to all available accounts are already on the roster",
     "learnMore": "Learn More",
-    "configurableOptions": "Configurable Options",
-    "close": "Close",
     "cancel": "Cancel",
     "primary": "Primary",
     "secondary": "Secondary",
@@ -2140,7 +2145,6 @@
     "invalidWsqueryRes": "invalid wsQuery res",
     "notSet": "NOT SET",
     "rosterDoesNotExist": "roster does not exist",
-    "invalidDate": "Invalid Date",
     "couldNotGetRosterRows": "could not get roster rows",
     "automaticallyGeneratedRosterRow": "Automatically Generated Roster Row"
   },
@@ -2393,7 +2397,8 @@
     "advancedsecuritypagelabel": "Security Center",
     "advancedcustomdomainlabel": "Custom Domain",
     "advancedcustomdomainpagelabel": "Custom Domain Settings",
-    "communityDiscoveryDisabled": "Community Discovery Disabled"
+    "communityDiscoveryDisabled": "Community Discovery Disabled",
+    "disciplinary": "Disciplinary"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "All selected ranks will be able to access this server",
@@ -3000,7 +3005,7 @@
     "startTime": "Start Time",
     "endDate": "End Date",
     "endTime": "End Time",
-    "customizeNewMemberApplication": "Customize New Member Application",
+    "newMemberFormTypeExplaination": "Allows pending users to submit",
     "customizeSecondaryApplication": "Customize Secondary Application",
     "customizeTimeLog": "Customize Time Log",
     "customizeCommendationForms": "Customize Commendation Forms",
@@ -3018,13 +3023,14 @@
     "thatIsNotAValidFormTemplate": "That is not a valid form template...",
     "newQuestion": "New Question",
     "errorAnIssueOccuredWhileSavingFormErr": "Error: An issue occured while saving form. ERR:",
-    "formSettings": "Form Settings"
+    "formSettings": "Form Settings",
+    "customizeGeneralApplication": "Customize General Form"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Error occured while saving page:",
     "pageSavedSuccessfully": "Page saved successfully!",
     "thereWasAProblemSavingThePage": "There was a problem saving the page",
-    "pageSavedButDuringDiscoveryApprovalItFailed": "Page saved but during discovery approval it failed and disable discovery due to:"
+    "pagePathAlreadyInUse": "Page URL Slug is already in use"
   },
   "DiscordIntegration": {
     "discordRoleSyncTutorial": "Discord Role Sync Tutorial",
@@ -3301,7 +3307,6 @@
     "calendarremoveevents": "Remove Events",
     "permissionstooltipscalendarsremoveexplan": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
     "calendareditotherevents": "Edit Other Events",
-    "eventCreation": "Event Creation",
     "categorySelection": "Category Selection",
     "commmunityCalendarTutorial": "Commmunity Calendar Tutorial",
     "learnAboutYourCommmunityCalendar": "Learn about Your Commmunity Calendar",
@@ -4075,5 +4080,96 @@
   },
   "rankSelect": {
     "noRankOptionsToSelectFrom": "No rank options to select from"
+  },
+  "permNames": {
+    "allowsMembersToRemoveOtherMembersFromThe": "Allows members to remove other members from the community if they have more power than the removed member. Kicked members can rejoin.",
+    "allowsMembersToPermanentlyBanOtherMember": "Allows members to permanently ban other members from the community if they have more power than the banned member.",
+    "allowsMembersToCustomizeOtherMembersRank": "Allows members to customize other members' ranks and information.",
+    "allowsMembersToChangeCommunityCustomizat": "Allows members to change community customization information in the Administrative Panel.",
+    "allowsMembersToChangeCommunityFormTempla": "Allows members to change community form templates within the Forms Builder in the Administrative Panel.",
+    "allowsMembersToChangeRankSettingsWithinT": "Allows members to change rank settings within the Rank Manager in the Administrative Panel.",
+    "allowsMembersToChangeRosterStructuresWit": "Allows members to change roster structures within the Roster Editor in the Adminstrative Panel.",
+    "allowsMembersToManageDiscordIntegrationS": "Allows members to manage Discord Integration settings in the Administrative Panel.",
+    "allowsMembersToManageApiIntegrationSetti": "Allows members to manage API Integration settings in the Administrative Panel",
+    "allowsMembersToChangeTheCommunityToolbar": "Allows members to change the community toolbar within the Website Builder in the Administrative Panel.",
+    "allowsMembersToChangeCommunityPagesWithi": "Allows members to change community pages within the Website Builder in the Administrative Panel.",
+    "grantsMembersFullAccessToTheDriveSystem": "Grants members full access to the Drive system.",
+    "allowsMembersToClockInAndOut": "Allows members to clock in and out.",
+    "allowsMembersToChangeTeamspeakIntegratio": "Allows members to change TeamSpeak Integration settings in the Administrative Panel.",
+    "allowsMembersToChangeSonoranShieldSettin": "Allows members to change Sonoran Shield settings in the Administrative Panel.",
+    "allowsMembersToChangeProfileFieldTypesWi": "Allows members to change Profile Field types within the Profile Fields Editor in the Administrative Panel.",
+    "allowsMembersToAccessTheSecurityCenterIn": "Allows members to access the Security Center in the Administrative Panel.",
+    "allowsMembersToViewAnadManageFlagsWithin": "Allows members to view anad manage flags within the Security Center in the Administrative Panel.",
+    "allowsMembersToAccessTheRootOfTheCommuni": "Allows members to access the root of the Community Assets, can download & remove.",
+    "allowsMembersToManageCadIntegrationSetti": "Allows members to manage CAD Integration settings in the Administrative Panel.",
+    "allowsMembersToAccessTheGrowthCenterInTh": "Allows members to access the Growth Center in the Administrative Panel.",
+    "allowsMembersToAccessTheUrlShortenerInTh": "Allows members to access the URL Shortener in the Administrative Panel.",
+    "allowsMembersToViewToolbarNavigationItem": "Allows members to view toolbar navigation items that are the type of Dashboard.",
+    "allowsMembersToViewToolbarNavigationItem48": "Allows members to view toolbar navigation items that are the type of Drive.",
+    "allowsMembersToViewToolbarNavigationItem42": "Allows members to view toolbar navigation items that are the type of Calendar.",
+    "allowsMembersToViewToolbarNavigationItem90": "Allows members to view toolbar navigation items that are the type of Rosters.",
+    "allowsMembersToViewToolbarNavigationItem35": "Allows members to view toolbar navigation items that are the type of Community Profile.",
+    "viewDashboardNavigationButton": "View Dashboard Navigation Button",
+    "viewDriveNavigationButton": "View Drive Navigation Button",
+    "viewCalendarNavigationButton": "View Calendar Navigation Button",
+    "viewViewRostersNavigationButton": "View View Rosters Navigation Button",
+    "viewCommunityProfileNavigationButton": "View Community Profile Navigation Button",
+    "allowsMembersToViewOtherMembersSubmissio": "Allows members to view other members submissions of this form template in the Form Submissions viewer.",
+    "allowsMembersToEditTheirOwnSubmissionsOf": "Allows members to edit their own submissions of this form template.",
+    "allowsMembersToChangeTheStageOfSubmissio": "Allows members to change the stage of submissions of this form template in the Form Submissions viewer.",
+    "allowsMembersToChangeTheReplySettingsOfS": "Allows members to change the reply settings of submissions of this form template in the Form Submissions viewer.",
+    "allowsMembersToSubmitAFormOfThisTemplate": "Allows members to submit a form of this template within their Available Forms.",
+    "allowsMembersToSubmitAFormOfThisTemplate8": "Allows members to submit a form of this template on behalf of another account within their Available Forms or Community Profile.",
+    "allowsMembersToForcefullyRemoveASubmissi": "Allows members to forcefully remove a submission in the Form Submissions viewer.",
+    "view": "View",
+    "allowsMembersToViewThisRoster": "Allows members to view this roster.",
+    "addRosterRow": "Add Roster Row",
+    "allowsMembersToAddRowsToThisRoster": "Allows members to add rows to this roster.",
+    "editRosterRow": "Edit Roster Row",
+    "allowsMembersToEditRowsOnThisRoster": "Allows members to edit rows on this roster.",
+    "removeRosterRow": "Remove Roster Row",
+    "allowsMembersToRemoveRowsOnThisRoster": "Allows members to remove rows on this roster.",
+    "viewPage": "View Page",
+    "allowsMembersToViewThisPage": "Allows members to view this page.",
+    "allowsMembersToViewEventsThatAreCreatedI": "Allows members to view events that are created in this category.",
+    "allowsMembersToCreateEventsWithinThisCat": "Allows members to create events within this category.",
+    "allowsMembersToRemoveEventsWithinThisCat": "Allows members to remove events within this category.",
+    "allowsMembersToEditOtherMembersEventsInT": "Allows members to edit other members events in this category.",
+    "restrictVisibility": "Restrict Visibility",
+    "membersWithThisPermissionWillHaveThisPro": "Members with this permission will have this profile field on their Community Profile.",
+    "allowEditing": "Allow Editing",
+    "membersThatHaveThisPermissionWillBeAbleT": "Members that have this permission will be able to edit the value of this profile field on their Community Profile.",
+    "allowsMembersToEditOtherMembersProfileFi": "Allows members to edit other members profile field value if they have this profile field on their Community Profile.",
+    "allowOthersToEdit": "Allow Others to Edit",
+    "allowWhitelist": "Allow Whitelist",
+    "membersWithThisPermissionWillBeAllowedTh": "Members with this permission will be allowed through the whitelist for this server. If they also have Deny Whitelist for this server they will be blocked.",
+    "membersWithThisPermissionWillBeBlockedTh": "Members with this permission will be blocked through the whitelist for this server. This permission takes precedence over Allow Whiteilst.",
+    "denyWhitelist": "Deny Whitelist",
+    "viewGamePanel": "View Game Panel",
+    "allowsMembersToViewGamePanelForThisServe": "Allows members to view Game Panel for this server.",
+    "kickPlayer": "Kick Player",
+    "allowsMembersToKickPlayersInTheGamePanel": "Allows members to kick players in the Game Panel for this server.",
+    "editCharacter": "Edit Character",
+    "allowsMembersToEditPlayersCharactersInTh": "Allows members to edit players character\\\\s in the Game Panel for this server.",
+    "repairPlayerVehicle": "Repair Player Vehicle",
+    "allowsMembersToRepairPlayersVehiclesInTh": "Allows members to repair players vehicles in the Game Panel for this server.",
+    "despawnPlayerVehicle": "Despawn Player Vehicle",
+    "allowsMembersToDespawnPlayersVehiclesInT": "Allows members to despawn players vehicles in the Game Panel for this server.",
+    "manageResources": "Manage Resources",
+    "allowsMembersToTheResourceAreaInTheGameP": "Allows members to the Resource area in the Game Panel for this server.",
+    "manageCharacterVehicles": "Manage Character Vehicles",
+    "allowsMembersToTheCharacterVehiclesAreaI": "Allows members to the Character Vehicles area in the Game Panel for this server.",
+    "manageJobs": "Manage Jobs",
+    "allowsMembersToTheJobsAreaInTheGamePanel": "Allows members to the Jobs area in the Game Panel for this server.",
+    "manageGangs": "Manage Gangs",
+    "allowsMembersToTheGangsAreaInTheGamePane": "Allows members to the Gangs area in the Game Panel for this server.",
+    "manageItems": "Manage Items",
+    "allowsMembersToTheItemsAreaInTheGamePane": "Allows members to the Items area in the Game Panel for this server."
+  },
+  "permissionToggleGroup": {
+    "inherited": "Inherited"
+  },
+  "permissionExpansionGroup": {
+    "noOptions": "No options"
   }
 }
