@@ -144,7 +144,9 @@
       "pages": {
         "viewExplanation": "Przyznanie tych uprawnień pozwoli członkowi posiadającemu ten rangę na przeglądanie tej strony, ponieważ strona jest ustawiona jako PRYWATNA."
       }
-    }
+    },
+    "disciplinaryPanel": "Panel Dyscyplinarny",
+    "changePermissionsHigher": "Zmień wyższe uprawnienia"
   },
   "growth": {
     "ERRORED": "BŁĄD",
@@ -183,7 +185,8 @@
       "changeDepartmentSlashRank": "Modyfikuj rangę(i)",
       "modifyCommunityStatus": "Modyfikuj status społeczności",
       "executeDiscordWebhook": "Wykonaj webhook Discord",
-      "executeDiscordDm": "Wyślij wiadomość prywatną na Discord"
+      "executeDiscordDm": "Wyślij wiadomość prywatną na Discord",
+      "applyDisciplinaryPoints": "Apply Disciplinary Points"
     },
     "appSubmit": "Złóż aplikację/formularz",
     "editOwn": "Edytuj własny formularz",
@@ -206,7 +209,8 @@
     "noAdditional": "Brak Dodatkowych Pól",
     "premadeSections": "Gotowe Sekcje",
     "fields": "Pola",
-    "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej"
+    "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
+    "modifyStageSettings": "Modyfikuj ustawienia sceny"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -227,8 +231,6 @@
     "navigationPermissions": "Uprawnienia Nawigacji",
     "rankPower": "Moc",
     "rankPowerDesc": "Moc Rangi jest związana z tym, na kogo możesz próbować podjąć działania systemowe i jak będziesz sortowany na listach. Na przykład, nie możesz wyrzucić kogoś, kto ma taką samą lub wyższą moc rangi niż ty.",
-    "successfulSave": "Pomyślnie zapisano dział!",
-    "successfulAdd": "Pomyślnie dodano nowy dział!",
     "limitsHit": "Osiągnięto maksymalny limit działów!",
     "departmentType": "Typ Działu",
     "typeOptions": {
@@ -462,7 +464,6 @@
     "thisUserIsNoLongerWithinTheCommunity": "Ten użytkownik nie jest już w społeczności",
     "thisUserIsPendingWithinTheCommunity": "Ten użytkownik oczekuje w społeczności",
     "thisUserHasNeverBeenApartOfTheCommunityB": "Ten użytkownik nigdy nie był częścią społeczności, ale jest powiązany z flagą",
-    "": "",
     "noPermissions": "Brak uprawnień",
     "viewAllYourCommunitysAvailableLogsFilter": "Zobacz wszystkie dostępne logi swojej społeczności, filtruj według konta, typu i daty.",
     "availableCommunityLogs": "Dostępne logi społeczności",
@@ -613,7 +614,8 @@
     "management": "Zarządzanie",
     "server": "Serwer",
     "qbCore": "QB Core",
-    "ensureSonorancms": "zapewnij [sonorancms]",
+    "ensureSonorancms": "ensure [sonorancms]",
+    "ensureSonorancmsNoBracket": "ensure sonorancms",
     "servercfg": "server.cfg",
     "PermissionsForSonorancmsAutoupdaterRequi": "# uprawnienia dla automatycznej aktualizacji SonoranCMS (WYMAGANE)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
@@ -834,7 +836,6 @@
     "memberIdMustBeAWholeNumber": "ID Członka musi być liczbą całkowitą",
     "memberIdMustBeAPositiveNumber": "ID Członka musi być liczbą dodatnią",
     "memberIdIsAlreadyInUse": "ID Członka jest już w użyciu",
-    "memberIdUpdatedSuccessfully": "ID Członka zaktualizowane pomyślnie!",
     "userHasNotConnectedTheirDiscord": "Użytkownik nie połączył swojego Discorda.",
     "discordIdCopiedToClipboard": "Discord ID skopiowane do schowka.",
     "1SecAgo": "1 sekunda temu",
@@ -857,7 +858,6 @@
     "unarchiveUser": "Przywróć użytkownika",
     "removeUsersRanks": "Usuń rangi użytkowników",
     "errorYouCannotEditThisMemberDueToYourCom": "Błąd: Nie możesz edytować tego członka z powodu swojej mocy w społeczności.",
-    "errorYouCannotEditYourOwnAccountInformat": "Błąd: Nie możesz edytować swoich własnych informacji o koncie.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Błąd: Nie masz uprawnień do edytowania informacji o osobie.",
     "thereWasAnIssueUpdatingTheAccount": "Wystąpił problem z aktualizacją konta",
     "failedToUpdateCommunityAccount": "Nie udało się zaktualizować konta społeczności",
@@ -915,7 +915,6 @@
     "failedToUpdateMemberId": "Nie udało się zaktualizować identyfikatora członka:",
     "multiaccount": "Wielokrotne konto",
     "confirmation": "Potwierdzenie",
-    "ensureToSaveTheAccountToApplyTheExpirati": "upewnij się, że zapisujesz konto, aby zastosować ustawienia wygaśnięcia.",
     "successfullyRefreshedAccountsOnTheAccoun": "pomyślnie odświeżono konta na stronie konta.",
     "areYouSureYouWantToRevoke": "Czy na pewno chcesz cofnąć",
     "sBan": "zakaz?",
@@ -924,10 +923,7 @@
     "anErrorOccuredWhileUnarchivingUser": "Wystąpił błąd podczas przywracania użytkownika.",
     "successfullyUnarchivedUser": "Pomyślnie przywrócono użytkownika:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: Wystąpił problem z synchronizacją z Twoją społecznością Sonoran CAD.",
-    "hasBeenUpdated": "został zaktualizowany!",
-    "successfullyKicked": "Pomyślnie wyrzucono",
-    "successfullyBanned": "Pomyślnie zbanowano",
-    "successfullyArchived": "Pomyślnie zarchiwizowano"
+    "disciplinaryPoint": "Punkt Discyplinarny"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -1008,7 +1004,6 @@
     "commmunityCustomizationTutorial": "Samouczek dostosowywania społeczności",
     "learnHowToCustomizeYourCommmunitys": "Dowiedz się, jak dostosować swoją społeczność",
     "commmunityCustomizationDocuments": "Dokumenty dotyczące dostosowywania społeczności",
-    "customizationcominfo": "Informacje o społeczności",
     "customizationinputslogo": "Logo społeczności",
     "commoncomname": "Nazwa społeczności",
     "commoncomsubtitle": "Podtytuł społeczności",
@@ -1213,8 +1208,8 @@
     "anErrorOccuredWhileMovingFolderError": "Wystąpił błąd podczas przenoszenia folderu. Błąd:",
     "root": "Główny",
     "anErrorOccuredWhileTogglingTheFormLock": "Wystąpił błąd podczas przełączania blokady formularza",
-    "successfullyAddedFolder": "Pomyślnie dodano folder:",
-    "folderLabel": "Etykieta folderu"
+    "folderLabel": "Etykieta folderu",
+    "avatar": "Awatar"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Zablokowane przed nowymi zgłoszeniami",
@@ -1442,7 +1437,6 @@
     "thereWasAnIssueUpdatingTheDepartmentRank": "Wystąpił problem z aktualizacją rang działu."
   },
   "InlinePermissionSelect": {
-    "successfullySavedPermissions": "Pomyślnie zapisano uprawnienia",
     "thereWasAnIssueUpdatingTheDepartmentRank": "Wystąpił problem z aktualizacją rang działu.",
     "inherited": "Odziedziczone"
   },
@@ -1631,7 +1625,9 @@
     "formSettings": "Ustawienia formularza",
     "togglingThisOnWillAllowTheMemberToViewTh": "Włączenie tego pozwoli członkowi na przeglądanie zgłoszenia formularza na swoim profilu.",
     "warningYouAreStillNamedAsTheAuthorOfThis": "Ostrzeżenie: Nadal jesteś wymieniony jako autor tego formularza",
-    "submissionOn": "Zgłoszenie na"
+    "submissionOn": "Zgłoszenie na",
+    "activeDisciplinaryPoints": "Aktywne punkty dyscyplinarne",
+    "viewDisciplinary": "Wyświetl dyscyplinarny"
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Powiadomienie",
@@ -1931,8 +1927,7 @@
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Brak danych uwierzytelniających, skontaktuj się z pomocą techniczną.",
-    "dismiss": "Odrzuć",
-    "": ""
+    "dismiss": "Odrzuć"
   },
   "Menu": {
     "createCommmunityTutorial": "Samouczek tworzenia społeczności",
@@ -2166,7 +2161,6 @@
     "formManagement": "Zarządzanie Formularzami",
     "createStage": "Utwórz Etap",
     "reorderStages": "Uporządkuj Etapy",
-    "errorStageCouldNotBeSavedErr": "Błąd: Nie można zapisać etapu, błąd:",
     "unableToUpdateStagesOrderingError": "Nie można zaktualizować kolejności etapów, błąd:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Wystąpił błąd podczas porządkowania etapów, spróbuj ponownie.",
     "anErrorOccuredWhileQueryingForms": "Wystąpił błąd podczas zapytania o formularze..."
@@ -2174,7 +2168,8 @@
   "accountAvatar": {
     "visit": "Odwiedź",
     "profile": "profil",
-    "activeSecurityFlags": "Aktywne Flagi Bezpieczeństwa"
+    "activeSecurityFlags": "Aktywne Flagi Bezpieczeństwa",
+    "activeDisciplinaryPoints": "Aktywne punkty dyscyplinarne"
   },
   "RosterEditor": {
     "communityIdentifier": "Identyfikator Społeczności",
@@ -2238,7 +2233,7 @@
     "daysPrior": "dni wcześniej",
     "total": "Łącznie",
     "cooldown": "Czas Oczekiwania",
-    "timeWindow": "Przedział Czasowy"
+    "limitSubTotal": "Dostosuj przedział czasowy, do którego ma zastosowanie to ograniczenie."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Wygaśnięcie Rangi: Włączone",
@@ -2302,7 +2297,8 @@
     "Info": "Informacje",
     "Actions": "Działania",
     "stageIcon": "Ikona etapu",
-    "noLabel": "Brak Etykiety"
+    "noLabel": "Brak Etykiety",
+    "formsstageactiontypesapplydisciplinaryp": "Nałóż punkty dyscyplinarne"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -2768,7 +2764,6 @@
     "writeYourReplyHere": "Napisz swoją odpowiedź tutaj...",
     "newReply": "Nowa odpowiedź",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Powiadomimy Cię, gdy do tego formularza zostanie dodana nowa odpowiedź.",
-    "successfullySavedNewReplySettings": "Pomyślnie zapisano nowe ustawienia odpowiedzi!",
     "failedToSubmitComment": "Nie udało się przesłać komentarza",
     "automaticReply": "Automatyczna odpowiedź",
     "loading": "Ładowanie...",
@@ -3028,7 +3023,6 @@
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
-    "pageSavedSuccessfully": "Strona zapisana pomyślnie!",
     "thereWasAProblemSavingThePage": "Wystąpił problem podczas zapisywania strony",
     "pagePathAlreadyInUse": "Nazwa url strony jest już używana"
   },
@@ -3223,39 +3217,21 @@
     "allowProfileOwnerToEdit": "Zezwól właścicielowi profilu na edycję",
     "editFieldOnOtherProfiles": "Edytuj pole w innych profilach",
     "viewPage": "Zobacz stronę",
-    "successfullyCopiedCmsPermissions": "Pomyślnie skopiowano uprawnienia CMS!",
-    "successfullyCopiedAllApplicationPermissi": "Pomyślnie skopiowano wszystkie uprawnienia aplikacji!",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Bezużyteczne jest kopiowanie uprawnień aplikacji, która nie ma uprawnień...",
-    "successfullyCopiedSpecificApplicationPer": "Pomyślnie skopiowano specyficzne uprawnienia aplikacji!",
-    "successfullyCopiedAllCalendarPermissions": "Pomyślnie skopiowano wszystkie uprawnienia kalendarza!",
     "ItsUselessToCopyPermissionsOfACalendarTh": "Bezużyteczne jest kopiowanie uprawnień kalendarza, który nie ma uprawnień...",
-    "successfullyCopiedSpecificCalendarPermis": "Pomyślnie skopiowano specyficzne uprawnienia kalendarza!",
-    "successfullyCopiedAllRosterPermissions": "Pomyślnie skopiowano wszystkie uprawnienia listy!",
     "ItsUselessToCopyPermissionsOfARosterThat": "Bezużyteczne jest kopiowanie uprawnień listy, która nie ma uprawnień...",
-    "successfullyCopiedSpecificRosterPermissi": "Pomyślnie skopiowano specyficzne uprawnienia listy!",
-    "successfullyCopiedAllServerPermissions": "Pomyślnie skopiowano wszystkie uprawnienia serwera!",
     "itsUselessToCopyPermissionsOfAServerThat": "Bezużyteczne jest kopiowanie uprawnień serwera, który nie ma uprawnień...",
-    "successfullyCopiedSpecificServerPermissi": "Pomyślnie skopiowano określone uprawnienia serwera!",
-    "successfullyPastedCmsPermissions": "Pomyślnie wklejono uprawnienia CMS!",
     "youHaventCopiedAnyCmsPermissionsToPaste": "Nie skopiowano żadnych uprawnień CMS do wklejenia!",
-    "successfullyPastedAllApplicationPermissi": "Pomyślnie wklejono wszystkie uprawnienia aplikacji!",
     "youHaventCopiedAnyAllApplicationPermissi": "Nie skopiowano żadnych uprawnień aplikacji do wklejenia!",
-    "successfullyPastedSpecificApplicationPer": "Pomyślnie wklejono określone uprawnienia aplikacji!",
     "youHaventCopiedAnySpecificApplicationPer": "Nie skopiowano żadnych określonych uprawnień aplikacji do wklejenia!",
-    "successfullyPastedAllCalendarPermissions": "Pomyślnie wklejono wszystkie uprawnienia kalendarza!",
     "youHaventCopiedAnyAllCalendarPermissions": "Nie skopiowano żadnych uprawnień kalendarza do wklejenia!",
-    "successfullyPastedSpecificCalendarPermis": "Pomyślnie wklejono określone uprawnienia kalendarza!",
     "youHaventCopiedAnySpecificCalendarPermis": "Nie skopiowano żadnych określonych uprawnień kalendarza do wklejenia!",
-    "successfullyPastedAllRosterPermissions": "Pomyślnie wklejono wszystkie uprawnienia grafiku!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Nie skopiowano żadnych uprawnień grafiku do wklejenia!",
-    "successfullyPastedSpecificRosterPermissi": "Pomyślnie wklejono określone uprawnienia grafiku!",
     "youHaventCopiedAnySpecificRosterPermissi": "Nie skopiowano żadnych określonych uprawnień grafiku do wklejenia!",
     "userAttemptedToAddADepartmentButCouldntD": "Użytkownik próbował dodać dział, ale nie mógł z powodu osiągnięcia limitu",
     "userSuccessfullyAddedTheDepartment": "Użytkownik pomyślnie dodał dział:",
     "userAttemptedToRemoveTheDepartment": "Użytkownik próbował usunąć dział:",
     "userSuccessfullySavedTheDepartment": "Użytkownik pomyślnie zapisał dział:",
-    "successfullyDuplicatedDepartment": "Pomyślnie zduplikowano dział:",
-    "addToSaveDepartment": "Dodaj, aby zapisać dział",
     "userAttemptedToSaveTheDepartment": "Użytkownik próbował zapisać dział:",
     "newRank": "Nowa Ranga",
     "modifyDocuments": "Modyfikuj dokumenty",
@@ -3317,7 +3293,6 @@
     "mustSpecifyATitle": "Musisz określić tytuł!",
     "newEvent": "Nowe Wydarzenie",
     "youCannotLimitLessThan01Unlimited": "Nie możesz ustawić limitu mniejszego niż 0. -1 = Nieograniczony",
-    "eventRequiresATitleBeforeCreation": "Wydarzenie wymaga tytułu przed utworzeniem.",
     "eventRequiresADetailsBeforeCreation": "Wydarzenie wymaga szczegółów przed utworzeniem.",
     "eventRequiresAStartDateBeforeCreation": "Wydarzenie wymaga daty rozpoczęcia przed utworzeniem.",
     "eventRequiresAEndDateBeforeCreation": "Wydarzenie wymaga daty zakończenia przed utworzeniem.",
@@ -3327,7 +3302,6 @@
     "eventRequiresAStartDateBeforeSaving": "Wydarzenie wymaga daty rozpoczęcia przed zapisaniem.",
     "eventRequiresAEndDateBeforeSaving": "Wydarzenie wymaga daty zakończenia przed zapisaniem.",
     "anErrorOccuredWhileUpdatingEventTryAgain": "Wystąpił błąd podczas aktualizacji wydarzenia. Spróbuj ponownie później.",
-    "eventUpdated": "Wydarzenie zaktualizowane!",
     "deletionConfirmation": "Potwierdzenie usunięcia",
     "no": "Nie",
     "yes": "Tak",
@@ -3340,12 +3314,10 @@
     "deleteEvent": "Usuń wydarzenie",
     "areYouSureYouWantToDeleteThisEvent": "Czy na pewno chcesz usunąć to wydarzenie?",
     "errorOccuredWhileAttemptingToDeleteThisE": "Wystąpił błąd podczas próby usunięcia tego wydarzenia.",
-    "copiedEventShareableLinkToCopyboard": "Skopiowano link do udostępnienia wydarzenia do schowka!",
     "successfullyRetrievedEventsForCommunity": "Pomyślnie pobrano wydarzenia dla społeczności",
     "unableToPublishEventIfTheTitleDetailsImg": "Nie można opublikować wydarzenia, jeśli tytuł, szczegóły, URL obrazu, data/godzina rozpoczęcia lub data/godzina zakończenia są puste, proszę je uzupełnić, aby opublikować!",
     "userAttemptedToAddANewEvent": "Użytkownik próbował dodać nowe wydarzenie",
     "anErrorOccuredWithAddingANewEvent": "Wystąpił błąd podczas dodawania nowego wydarzenia!",
-    "successfullyAddedANewEvent": "Pomyślnie dodano nowe wydarzenie!",
     "userSuccessfullyToAddANewEvent": "Użytkownik pomyślnie dodał nowe wydarzenie",
     "unsuccessfullySavedEventDetailsDueToAFea": "Nie udało się zapisać szczegółów wydarzenia z powodu błędu feathers",
     "unsuccessfullyRetrievedCommunityAccounts": "Nie udało się pobrać kont społecznościowych dla RSVP",
@@ -3362,10 +3334,8 @@
     "eventHeader": "Nagłówek wydarzenia",
     "provideRsvpLimit1Unlimited": "Podaj limit RSVP! -1 = Bez limitu",
     "noOneHasRsvpdYet": "Nikt jeszcze nie odpowiedział na RSVP...",
-    "successfullyDeletedEvent": "Pomyślnie usunięto wydarzenie:",
     "unsuccessfullyRemovedCommunityEvent": "Nie udało się usunąć wydarzenia społecznościowego:",
     "error": "Błąd:",
-    "successfullySavedEvent": "Pomyślnie zapisano wydarzenie:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Błąd: Nie udało się zapisać szczegółów wydarzenia z powodu błędu wewnętrznego`"
   },
   "dashboardView": {
@@ -3590,7 +3560,6 @@
     "formsstagedisableenablerepliesdescriptio": "Akcja etapu \"wyłącz/włącz odpowiedzi na formularz\" automatycznie wyłączy/włączy odpowiedzi na formularz dla określonych rang, gdy etap formularza zmieni się na {stageName}.",
     "stageModifyCommunityStatus": "Akcja etapu: Modyfikuj status społeczności",
     "stageModifyCommunityStatusDescription": "Akcja etapu \"zmień status użytkownika w społeczności\" automatycznie zmieni status użytkownika, wyrzuci go lub zablokuje, gdy etap formularza zmieni się na {stageName}.",
-    "formsstageactiondepartmentsrankschanges": "Akcja etapu \"zmień rangę użytkownika\" automatycznie zmieni/ustawi rangi użytkownika, gdy etap formularza zmieni się na {stageName}.",
     "formsstageexecutediscordwebhookdescripti": "Akcja etapu \"wykonaj webhook Discord\" automatycznie wykona webhook Discord, gdy etap formularza zmieni się na {stageName}. Możesz użyć następujących szablonów: {'{form_name}'}, {'{user_submission_link}'}, {'{submission_link}'}, {'{stage_name}'}, {'{submitter_com_name}'}, {'{submitter_username}'}, {'{submitter_discord_ping}'} aby mieć dynamiczne dane w treści powiadomienia.",
     "formsstageexecutediscorddmdescription": "Akcja etapu \"wyślij wiadomość DM na Discord\" automatycznie wyśle użytkownikowi wiadomość DM na Discord, gdy etap formularza zmieni się na {stageName}. Możesz użyć następujących ciągów szablonów: {'{form_name}'}, {'{user_submission_link}'}, {'{submission_link}'}, {'{stage_name}'}, {'{submitter_com_name}'}, {'{submitter_username}'}, i {'{submitter_discord_ping}'} aby mieć dynamiczne dane w treści powiadomienia.",
     "appliesTo": "Dotyczy",
@@ -3616,7 +3585,17 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Nie wybrano żadnych rang do dodania do kont...",
     "ranksToRemove": "Rangi do usunięcia",
     "noRanksSelectedToBeRemovedFromAccounts": "Nie wybrano żadnych rang do usunięcia z kont...",
-    "sonoranBotEncounteredAnIssue": "Sonoran Bot napotkał problem:"
+    "sonoranBotEncounteredAnIssue": "Sonoran Bot napotkał problem:",
+    "stageChangeDepartmentSlashRankDescription": "Akcja \"modyfikuj rangę/i\" etapu automatycznie zmieni / ustawi rangi użytkownika, gdy etap formularza zmieni się na {stageName}.",
+    "ranksToAdd": "Rangos para añadir",
+    "formsstageapplydisciplinarypointsdescription": "Etap \"Zastosuj punkty dyscyplinarne\" automatycznie zastosuje punkty dyscyplinarne wobec użytkownika, gdy etap formularza zmieni się na {stageName}. Możesz użyć następujących ciągów szablonów: {'{form_name}'}, {'{user_submission_link}'}, {'{submission_link}'}, {'{stage_name}'}, {'{submitter_com_name}'}, {'{submitter_username}'}, oraz {'{submitter_discord_ping}'} aby mieć dynamiczne dane w powodzie punktów dyscyplinarnych.",
+    "numberField": "Campo numérico",
+    "points": "Pontos",
+    "reason": "Powód",
+    "applyReferencedPoints": "Zastosuj określoną liczbę punktów z wymaganego pola liczb.",
+    "applyFixedPoints": "Przyznaj stałą liczbę punktów",
+    "current": "Bieżące:",
+    "clickTo": "Kliknij, aby:"
   },
   "FormSectionEditor": {
     "required": "Wymagane",
@@ -3725,7 +3704,8 @@
     "formSubmitter": "Nadawca formularza",
     "anErrorOccuredWhileUploadingAudio": "Wystąpił błąd podczas przesyłania dźwięku: ",
     "noFieldsourceSelected": "*Nie wybrano pola/źródła",
-    "cloneField": "Klonuj pole"
+    "cloneField": "Klonuj pole",
+    "number": "Número"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -3761,15 +3741,14 @@
     "yourCommunityPage": "Twoja strona społeczności",
     "anErrorOccuredWhileSelectingPageTemplate": "Wystąpił błąd podczas wybierania szablonu strony, spróbuj ponownie.",
     "thereWasAProblemLoadingDataAboutThePage": "Wystąpił problem z ładowaniem danych o stronie",
-    "thePageWasRemoved": "Strona została usunięta!",
     "thereWasAProblemRemovingThePage": "Wystąpił problem z usunięciem strony",
     "thisPageIsSetToYourDashboardItCannotBeRe": "Ta strona jest ustawiona jako Twój pulpit nawigacyjny, nie można jej usunąć.",
     "areYouSureYouWantToDeleteThisPage": "Czy na pewno chcesz usunąć tę stronę?",
     "sortModeActivatedDragAndDropTheRowsInThe": "Tryb sortowania aktywowany: Przeciągnij i upuść wiersze w kolejności, w jakiej chcesz je posortować.",
-    "savedSortedPages": "Zapisano posortowane strony!",
     "homepageUpdated": "Strona główna zaktualizowana!",
     "thereWasAProblemSettingThePageAsHomepage": "Wystąpił problem z ustawieniem strony jako strony głównej.",
-    "homepageUpdatedButDuringDiscoveryApproval": "Strona główna zaktualizowana, ale podczas zatwierdzania odkrycia nie powiodło się i wyłączono odkrycie z powodu:"
+    "homepageUpdatedButDuringDiscoveryApproval": "Strona główna zaktualizowana, ale podczas zatwierdzania odkrycia nie powiodło się i wyłączono odkrycie z powodu:",
+    "copyPage": "Kopioida"
   },
   "SectionEditor": {
     "background": "Tło",
@@ -4164,12 +4143,70 @@
     "manageGangs": "zarządzajGangami",
     "allowsMembersToTheGangsAreaInTheGamePane": "pozwalaCzłonkomNaObszarGangówWPaskuGry",
     "manageItems": "zarządzajPrzedmiotami",
-    "allowsMembersToTheItemsAreaInTheGamePane": "zezwala członkom na dostęp do obszaru przedmiotów w panelu gry"
+    "allowsMembersToTheItemsAreaInTheGamePane": "zezwala członkom na dostęp do obszaru przedmiotów w panelu gry",
+    "allowsMembersToAccessTheDisciplinaryPane": "Permite que los miembros accedan al Panel Disciplinario.",
+    "allowsMembersToApplyHigherPermissions": "Pozwala członkom zmieniać rangi innych członków na rangi o wyższej mocy niż ich własna.",
+    "allowsMembersToChangeStageSettings": "Permite que os membros alterem as configurações de estágio deste modelo de formulário na Gestão de Formulários no Painel Administrativo.",
+    "manageRadioIntegration": "Gerenciar Integração de Rádio",
+    "allowsMembersToManageRadioIntegrationSetti": "Umożliwia członkom zarządzanie ustawieniami integracji radiowej w panelu administracyjnym."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"
   },
   "permissionExpansionGroup": {
     "noOptions": "brak opcji"
+  },
+  "PointThresholdActionEditor": {
+    "notificationContentDescription": "Opis treści powiadomienia",
+    "emailContentDescription": "Opis treści e-maila",
+    "modifyCommunityStatus": "modyfikujStatusSpołeczności",
+    "modifyCommunityStatusDescription": "zmieńStatusSpołecznościOpis",
+    "modifyCommunityRanksDescription": "modyfikujOpisStopniSpołeczności",
+    "discordWebhookContentDescription": "opis zawartości webhooka Discord",
+    "discordMessageContentDescription": "zawartość komunikacji Discord",
+    "notificationContent": "zawartośćPowiadomienia",
+    "emailContent": "zawartość e-maila",
+    "selectRanks": "wybierzRangi",
+    "pending": "oczekujący",
+    "active": "aktywny",
+    "kick": "sacar",
+    "ban": "proibir",
+    "archive": "archivar",
+    "webhookChannel": "kanałWebhook",
+    "webhookEmbedContent": "zawartośćOsadzeniaWebhook",
+    "webhookContentHint": "Podaj niestandardowe treści, które mają być dołączone do treści wiadomości w przetwarzaniu analizera szablonu, zostanie użyta standardowa wiadomość.",
+    "notSetupFollowStepsBelow": "niezainstalowanyPostępujZgodnieZInstrukcjamiPonżej",
+    "notWithinGuildInviteSonoranbot": "nie jest w zaproszeniu do gildii Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Błąd podczas pobierania danych SonoranBot - trwało to zbyt długo",
+    "ranksToAddAddingRanks": "ranksToAddAddingRanks",
+    "noRanksSelectedToBeAddedOnToAccounts": "nenhumaClassificaçãoSelecionadaParaSerAdicionadaÀsContas",
+    "ranksToRemove": "rangiDoUsunięcia",
+    "noRanksSelectedToBeRemovedFromAccounts": "Brak wybranych rang do usunięcia z kont.",
+    "sonoranBotEncounteredAnIssue": "SonoranBot encontrou um problema"
+  },
+  "RadioIntegration": {
+    "remove": "usuń",
+    "noCommunityId": "brakIdentyfikatoraSpołeczności",
+    "apiCredentials": "poświadczeniaAPI",
+    "syncOptions": "Opcje synchronizacji",
+    "permissionSelector": "wybór uprawnienia",
+    "communityIdInput": "ID społeczności",
+    "apiKeyInput": "kluczApiInput",
+    "kickSync": "kickSync",
+    "banSync": "prohibirSincronización",
+    "autoJoinLabel": "Automatyczna synchronizacja dołączeń",
+    "autoJoinEnabled": "Todos",
+    "autoJoinSpecific": "Rangos Específicos",
+    "autoJoinDisabled": "Desativado o Auto Join",
+    "autoJoinRanks": "Stopnie z automatycznym dołączaniem",
+    "autoJoinRanksEmpty": "O sincronismo de adesão só funciona para os cargos que você selecionar, mas você não selecionou nenhum!"
+  },
+  "disciplinaryAccounts": {
+    "disciplinaryPoints": "punkty dyscyplinarne",
+    "noActiveDisciplinaryPoints": "brakAktywnychPunktówDyscyplinarnych",
+    "addDisciplinaryPoints": "dodajPunktyDyscyplinarne"
+  },
+  "RadioPermSelector": {
+    "setRadio": "ustawRadio"
   }
 }
