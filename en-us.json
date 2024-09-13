@@ -1717,6 +1717,7 @@
     "numberOfUniqueViewsFromCommunityDiscover": "Number of unique views from Community Discovery",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Number of unique users that visited the community page from Community Discovery",
     "growthpreviousperioud": "Previous Period",
+    "growthprevious": "Previous",
     "growthnodata": "No Data",
     "theresNotEnoughDataToPopulateTheGraph": "Theres not enough data to populate the graph.",
     "growtherrored": "ERRORED",
