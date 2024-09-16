@@ -810,7 +810,7 @@
     "accountskick": "Kick",
     "accountsban": "Ban",
     "commonarchive": "Archive",
-    "accountviewercomname": "Community Name",
+    "accountviewercomname": "Community Display Name",
     "defaultIdentifier": "Default Identifier",
     "clickStarToSetIdentifierAsDefault": "Click star to set identifier as default",
     "selectRanks": "Select Ranks",
