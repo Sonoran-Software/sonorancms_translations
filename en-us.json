@@ -1063,7 +1063,7 @@
     "createdByAnOfficialSonoranSoftwareSystem": "Created by an Official Sonoran Software Systems Employee",
     "availableFormatKeysComnameIdentifierUniq": "Available Format Keys: {comName} | {identifier} | {uniqueId}",
     "grantRankOnUserJoin": "Grant Rank on User Join",
-    "namingFormat": "Naming Format",
+    "nameFormat": "Name Format",
     "allowMembers": "Allow Members",
     "toCustomizeName": "to Customize Name",
     "invalidDiscordRichPresenceButton2UrlYouC": "Invalid Discord Rich Presence Button #2 URL, you can only use CAD or CMS community invite links. Ex. https://sonorancms.com/comid=SonoranSoftware",
@@ -4196,7 +4196,11 @@
     "modifyComRosters": "Modify Custom Rosters via Editor",
     "modifyDiscordHooks": "Modify Discord Logging Webhooks",
     "modifyIntegration": "Modify API Integration",
-    "changeHigherPermissions": "Change Higher Permissions"
+    "changeHigherPermissions": "Change Higher Permissions",
+    "changeOwnDisplayName": "Change Display Name",
+    "allowsMembersToManageOwnDisplayName": "Allows members to manage their own display name.",
+    "changeOtherDisplayName": "Change user Display Name",
+    "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
