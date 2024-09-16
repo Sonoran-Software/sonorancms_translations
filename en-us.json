@@ -919,7 +919,9 @@
     "unarchiveOptionsFor": "Unarchive Options for",
     "anErrorOccuredWhileUnarchivingUser": "An error occured while unarchiving user.",
     "successfullyUnarchivedUser": "Successfully unarchived user:",
-    "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: There was an issue with syncing to your Sonoran CAD community."
+    "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: There was an issue with syncing to your Sonoran CAD community.",
+    "permanent": "Permanent",
+    "temporary": "Temporary"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Commmunity API Tutorial",
@@ -3582,7 +3584,8 @@
     "applyFixedPoints": "Apply a fixed number of points",
     "current": "Current:",
     "clickTo": "Click to:",
-    "ranksToAddAddingRanks": "Ranks To Add Adding ranks:"
+    "ranksToAddAddingRanks": "Ranks To Add Adding ranks:",
+    "banConfiguration": "Ban Configuration"
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the following template strings: {'{com_name}'}, {'{username}'}, and {'{point_reason}'} to have dynamic data within the notification content.",
@@ -3610,7 +3613,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "No ranks selected to be added on to accounts...",
     "ranksToRemove": "Ranks To Remove",
     "noRanksSelectedToBeRemovedFromAccounts": "No ranks selected to be removed from accounts...",
-    "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:"
+    "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
+    "banConfiguration": "Ban Configuration"
   },
   "FormSectionEditor": {
     "required": "Required",
@@ -4215,5 +4219,16 @@
   },
   "RadioPermSelector": {
     "setRadio": "Set Radio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "Ban Configuration"
+  },
+  "BanConfiguration": {
+    "permanent": "Permanent",
+    "temporary": "Temporary",
+    "daysAheadToExpire": "Days Ahead to Expire",
+    "banExpiration": "Ban Expiration",
+    "close": "Close",
+    "applyBan": "Apply Ban"
   }
 }
