@@ -1646,7 +1646,8 @@
     "invalidDate": "Invalid Date",
     "clickToDisableConditionalFormatValueBein": "Click to disable conditional format value being overridden",
     "clickToOverrideConditionalFormatValue": "Click to override conditional format value",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster."
   },
   "ToolbarLinks": {
     "button": "Button",
@@ -4204,7 +4205,9 @@
     "changeOwnDisplayName": "Change Display Name",
     "allowsMembersToManageOwnDisplayName": "Allows members to manage their own display name.",
     "changeOtherDisplayName": "Change user Display Name",
-    "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name."
+    "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name.",
+    "manageActivityTracker": "Manage Activity Tracker",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Allows members to edit Activity Tracker logs on this roster."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
