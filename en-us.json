@@ -1647,7 +1647,10 @@
     "clickToDisableConditionalFormatValueBein": "Click to disable conditional format value being overridden",
     "clickToOverrideConditionalFormatValue": "Click to override conditional format value",
     "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets.",
-    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster."
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster.",
+    "server": "Server:",
+    "start": "Start",
+    "end": "End"
   },
   "ToolbarLinks": {
     "button": "Button",
