@@ -775,6 +775,7 @@
     "na": "N/A"
   },
   "AccountViewer": {
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
     "userAcccountsTutorial": "User Acccounts Tutorial",
     "learnHowToUseUserAccounts": "Learn how to use User Accounts",
     "userAcccountsDocuments": "User Acccounts Documents",
@@ -1477,6 +1478,7 @@
     "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:"
   },
   "profileView": {
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
     "commmunityProfileTutorial": "Commmunity Profile Tutorial",
     "learnAboutYourCommmunityProfile": "Learn about Your Commmunity Profile",
     "commmunityProfileDocuments": "Commmunity Profile Documents",
@@ -1569,8 +1571,8 @@
     "anErrorOccuredDuringAccountDeletionIfThe": "An error occured during account deletion, if the issue persists contact support. ",
     "errorYouCannotEditThisMemberDueToYourCom": "Error: You cannot edit this member due to your community power.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Error: You do not have permission to edit an individuals information.",
-    "changeCommunityName": "Change Community Name",
-    "changeYourCommunityNameHere": "Change your community name here!",
+    "changeCommunityName": "Change Community display Name",
+    "changeYourCommunityNameHere": "Change your community display name here!",
     "na": "N/A",
     "youDoNotHavePermissionToEditThisField": "You do not have permission to edit this field.",
     "anUnexpectedErrorOccuredWhileSavingProfi": "An unexpected error occured while saving profile field.",
