@@ -1649,8 +1649,8 @@
     "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster.",
     "server": "Server:",
-    "start": "Start",
-    "end": "End"
+    "start": "Start:",
+    "end": "End:"
   },
   "ToolbarLinks": {
     "button": "Button",
