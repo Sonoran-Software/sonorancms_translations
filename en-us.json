@@ -109,7 +109,8 @@
         "replyAdminExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic, Mod, or Admin replies.",
         "submitExplanation": "Granting this permission will allow a user with this rank to submit a form of this type.",
         "adminDeleteExplanation": "Granting this permission will allow a user with this rank to fully delete a submission of this form.",
-        "modifyStageSettings": "Modify Stage Settings"
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Granting this permission will allow a user with this rank to view this roster.",
@@ -4223,7 +4224,11 @@
     "modifyPages": "Modify Pages",
     "manageRadioIntegration": "Manage Radio Integration",
     "clockInOut": "Clock In & Out",
-    "disciplinaryPanel": "Disciplinary Panel"
+    "disciplinaryPanel": "Disciplinary Panel",
+    "allowsMembersToApplyHigherPermissions": "Allows members to apply higher permissions than their own rank.",
+    "allowsMembersToAccessTheDisciplinaryPane": "Allows members to access the Disciplinary Panel in the Administrative Panel.",
+    "allowsMembersToManageRadioIntegrationSetti": "Allows members to manage Radio Integration settings in the Administrative Panel.",
+    "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
