@@ -108,7 +108,8 @@
         "replyModExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic or Mod replies.",
         "replyAdminExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic, Mod, or Admin replies.",
         "submitExplanation": "Granting this permission will allow a user with this rank to submit a form of this type.",
-        "adminDeleteExplanation": "Granting this permission will allow a user with this rank to fully delete a submission of this form."
+        "adminDeleteExplanation": "Granting this permission will allow a user with this rank to fully delete a submission of this form.",
+        "modifyStageSettings": "Modify Stage Settings"
       },
       "rosters": {
         "viewExplanation": "Granting this permission will allow a user with this rank to view this roster.",
@@ -4202,6 +4203,7 @@
     "banUser": "Ban Users",
     "archiveUser": "Archive User",
     "changePermissions": "Change Permissions",
+    "changePermissionsHigher": "Change Higher Permissions",
     "modifyComInfo": "Modify Community Customization",
     "modifyComDepts": "Modify Departments via Manager",
     "modifyComForms": "Modify Custom Forms via Editor",
@@ -4214,7 +4216,12 @@
     "changeOtherDisplayName": "Change user Display Name",
     "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name.",
     "manageActivityTracker": "Manage Activity Tracker",
-    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Allows members to edit Activity Tracker logs on this roster."
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Allows members to edit Activity Tracker logs on this roster.",
+    "ModifyToolbar": "Modify Toolbar",
+    "modifyPages": "Modify Pages",
+    "manageRadioIntegration": "Manage Radio Integration",
+    "clockInOut": "Clock In & Out",
+    "disciplinaryPanel": "Disciplinary Panel"
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
