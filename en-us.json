@@ -4088,7 +4088,9 @@
     "autoJoinSpecific": "Specific Ranks",
     "autoJoinDisabled": "Auto Join Disabled",
     "autoJoinRanks": "Ranks that Auto Join",
-    "autoJoinRanksEmpty": "Join sync only works for the ranks you select, but you don't have any selected!"
+    "autoJoinRanksEmpty": "Join sync only works for the ranks you select, but you don't have any selected!",
+    "communityMembersAutomaticallyJoinSonoran": "Community members automatically join Sonoran Radio when they join CMS",
+    "communityMembersAutomaticallyKickSonoran": "Community members automatically leave/are kicked from Sonoran Radio when they leave CMS"
   },
   "imageInn": {
     "dropArea": "Drop Area"
