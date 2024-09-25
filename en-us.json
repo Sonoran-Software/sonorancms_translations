@@ -207,7 +207,9 @@
     },
     "noAdditional": "No Additional Fields",
     "premadeSections": "Premade Sections",
-    "fields": "Fields"
+    "fields": "Fields",
+    "modifyStageSettings": "Modify Stage Settings",
+    "appThirdPartySubmit": "Third Party Submit"
   },
   "departments": {
     "departmentName": "Department Name",
