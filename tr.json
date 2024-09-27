@@ -108,7 +108,9 @@
         "replyModExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel veya Mod yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
         "replyAdminExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel, Mod veya Admin yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
         "submitExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türde bir form göndermesine izin verecektir.",
-        "adminDeleteExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu formun bir gönderimini tamamen silmesine izin verecektir."
+        "adminDeleteExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu formun bir gönderimini tamamen silmesine izin verecektir.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listeyi görüntülemesine izin verecektir.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Kullanıcıyı arşivden çıkarırken bir hata oluştu.",
     "successfullyUnarchivedUser": "Kullanıcı başarıyla arşivden çıkarıldı:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Senkronizasyonu: Sonoran CAD topluluğunuza senkronize ederken bir sorun oluştu.",
-    "disciplinaryPoint": "Disiplin Puanı"
+    "disciplinaryPoint": "Disiplin Puanı",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Görüntü adınızı değiştirme izniniz yok.",
+    "permanent": "Kalıcı",
+    "temporary": "Geçici"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Sahne Tür(leri)",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Boş şablon kullanılırken beklenmeyen bir hata oluştu, bu durum devam ederse destekle iletişime geçin.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Şablon kullanılırken beklenmeyen bir hata oluştu, bu durum devam ederse destekle iletişime geçin.",
-    "anErrorOccuredWhileSavingTryAgain": "Kaydedilirken bir hata oluştu, tekrar deneyin."
+    "anErrorOccuredWhileSavingTryAgain": "Kaydedilirken bir hata oluştu, tekrar deneyin.",
+    "nameFormat": "İsim Formatı"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Kısaltıcı Eğitimi",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Uyarı: Hâlâ bu formun yazarı olarak adlandırılıyorsunuz",
     "submissionOn": "Gönderim",
     "activeDisciplinaryPoints": "Aktif Disiplin Puanları",
-    "viewDisciplinary": "Disiplin Cezalarını Görüntüle"
+    "viewDisciplinary": "Disiplin Cezalarını Görüntüle",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Görüntü adınızı değiştirme izinleriniz yok."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Bildirim",
@@ -1648,7 +1655,11 @@
     "invalidDate": "Geçersiz Tarih",
     "clickToDisableConditionalFormatValueBein": "Koşullu format değerinin geçersiz kılınmasını devre dışı bırakmak için tıklayın",
     "clickToOverrideConditionalFormatValue": "Koşullu format değerini geçersiz kılmak için tıklayın",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Değer, koşullu değer setlerini göz ardı ederek manuel bir değerle geçersiz kılındı."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Değer, koşullu değer setlerini göz ardı ederek manuel bir değerle geçersiz kılındı.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Bu listede etkinlik izleyicisini yönetme yetkiniz yok.",
+    "server": "Sunucu:",
+    "start": "Başla:",
+    "end": "Bitiş"
   },
   "ToolbarLinks": {
     "button": "Düğme",
@@ -1734,7 +1745,8 @@
     "growthnumberofstaffapplicationsubmission": "Personel başvurusu gönderim sayısı",
     "growthnumberofuniquevisitorsonthehomepag": "Ana Sayfa sayfasındaki benzersiz ziyaretçi sayısı",
     "growthnumberofuniquevisitorsontheaboutpa": "Hakkında sayfasındaki benzersiz ziyaretçi sayısı",
-    "growthnumberofuniquevisitorsonyourcommun": "Topluluk Sayfanızdaki benzersiz ziyaretçi sayısı"
+    "growthnumberofuniquevisitorsonyourcommun": "Topluluk Sayfanızdaki benzersiz ziyaretçi sayısı",
+    "growthprevious": "Önceki"
   },
   "embedBuilder": {
     "commonembed": "Göm",
@@ -3595,7 +3607,8 @@
     "applyReferencedPoints": "Gerekli bir sayı alanından belirtilen puanları uygulayın",
     "applyFixedPoints": "Belirli bir sayıda puan uygulayın",
     "current": "Mevcut:",
-    "clickTo": "Tıklamak için:"
+    "clickTo": "Tıklamak için:",
+    "banConfiguration": "Ban Yapılandırması"
   },
   "FormSectionEditor": {
     "required": "Gerekli",
@@ -4148,7 +4161,39 @@
     "allowsMembersToApplyHigherPermissions": "Üyelerin diğer üyelerin rütbelerini, kendi rütbelerinden daha yüksek bir güce sahip olan bir rütbeye değiştirmelerine olanak tanır.",
     "allowsMembersToChangeStageSettings": "Üyelerin Yönetici Panelinde Form Yönetimi içinde bu form şablonu için aşama ayarlarını değiştirmelerine olanak tanır.",
     "manageRadioIntegration": "Radyo Entegrasyonunu Yönet",
-    "allowsMembersToManageRadioIntegrationSetti": "Üyelerin Yönetim Panelinde Radyo Entegrasyonu ayarlarını yönetmesine izin verir."
+    "allowsMembersToManageRadioIntegrationSetti": "Üyelerin Yönetim Panelinde Radyo Entegrasyonu ayarlarını yönetmesine izin verir.",
+    "modifyShield": "Sonoran Shield'i Düzenle",
+    "modifyProfileFields": "Profil Alanlarını Düzenle",
+    "securityCenter": "Güvenlik Merkezi",
+    "securityCenterManageFlags": "Güvenlik Bayraklarını Yönet",
+    "assetsRootAccess": "Varlık Sürücüsü Kök Erişimi",
+    "manageCadIntegration": "CAD Entegrasyonunu Yönet",
+    "growthCenter": "Büyüme Merkezi",
+    "shortUrls": "Kısa URL'ler",
+    "modifyDocuments": "Belgeleri Değiştir",
+    "modifyTeamSpeak": "TeamSpeak'i Değiştir",
+    "kickUser": "Kullanıcıları At",
+    "banUser": "Kullanıcıları Yasakla",
+    "archiveUser": "Kullanıcıyı Arşivle",
+    "changePermissions": "İzinleri Değiştir",
+    "changePermissionsHigher": "Yüksek İzinleri Değiştir",
+    "modifyComInfo": "Topluluk Özelleştirmesini Değiştir",
+    "modifyComDepts": "Yöneticiden Departmanları Düzenle",
+    "modifyComForms": "Düzenleyici Aracılığıyla Özel Formları Değiştir",
+    "modifyComRosters": "Editör aracılığıyla Özel Kadroları Düzenleyin",
+    "modifyDiscordHooks": "Discord Günlük Web Kancalarını Değiştir",
+    "modifyIntegration": "API Entegrasyonunu Değiştir",
+    "changeHigherPermissions": "Yüksek İzinleri Değiştir",
+    "changeOwnDisplayName": "Görünen İsmi Değiştir",
+    "allowsMembersToManageOwnDisplayName": "Üyelerin kendi görünen adlarını yönetmelerine izin verir.",
+    "changeOtherDisplayName": "Kullanıcı Görünen Adını Değiştir",
+    "allowsMembersToManageOtherDisplayName": "Üyelerin diğer üyelerin görünen adını yönetmesine olanak tanır.",
+    "manageActivityTracker": "Etkinlik İzleyicisini Yönet",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Üyelerin bu listede Aktivite Takipçisi kayıtlarını düzenlemesine izin verir.",
+    "ModifyToolbar": "Araç Çubuğunu Değiştir",
+    "modifyPages": "Sayfaları Değiştir",
+    "clockInOut": "Giriş ve Çıkış",
+    "disciplinaryPanel": "Disiplin Paneli"
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan"
@@ -4182,7 +4227,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Hesaplara eklenecek rütbe seçilmedi",
     "ranksToRemove": "Kaldırılacak Rütbeler",
     "noRanksSelectedToBeRemovedFromAccounts": "Hesaplardan kaldırılacak rütbe seçilmedi",
-    "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı"
+    "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı",
+    "banConfiguration": "Yasaklama Yapılandırması"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinPuanları",
@@ -4204,9 +4250,22 @@
     "autoJoinSpecific": "Belirli Rütbeler",
     "autoJoinDisabled": "Otomatik Katılma Devre Dışı",
     "autoJoinRanks": "Otomatik Katılan Rütbeler",
-    "autoJoinRanksEmpty": "Katılım senkronizasyonu yalnızca seçtiğiniz rütbeler için çalışır, ancak hiçbirini seçmediniz!"
+    "autoJoinRanksEmpty": "Katılım senkronizasyonu yalnızca seçtiğiniz rütbeler için çalışır, ancak hiçbirini seçmediniz!",
+    "communityMembersAutomaticallyJoinSonoran": "CMS'ye katıldıklarında topluluk üyeleri otomatik olarak Sonoran Radio'ya katılırlar",
+    "communityMembersAutomaticallyKickSonoran": "CMS'den ayrıldıklarında topluluk üyeleri otomatik olarak Sonoran Radyo'dan ayrılır/atılır"
   },
   "RadioPermSelector": {
     "setRadio": "radyoAyarlama"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "Yasaklama Konfigürasyonu"
+  },
+  "BanConfiguration": {
+    "permanent": "kalıcı",
+    "temporary": "geçici",
+    "daysAheadToExpire": "son kullanma tarihine günler kalmak",
+    "banExpiration": "yasakSüresi",
+    "close": "kapat",
+    "applyBan": "Yasakla"
   }
 }

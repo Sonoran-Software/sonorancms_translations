@@ -108,7 +108,9 @@
         "replyModExplanation": "Otorgar este permiso permitirá a un usuario con este rango responder a un formulario enviado de este tipo si la configuración de respuesta permite respuestas Básicas o de Moderador.",
         "replyAdminExplanation": "Otorgar este permiso permitirá a un usuario con este rango responder a un formulario enviado de este tipo si la configuración de respuesta permite respuestas Básicas, de Moderador o de Administrador.",
         "submitExplanation": "Otorgar este permiso permitirá a un usuario con este rango enviar un formulario de este tipo.",
-        "adminDeleteExplanation": "Otorgar este permiso permitirá a un usuario con este rango eliminar completamente una presentación de este formulario."
+        "adminDeleteExplanation": "Otorgar este permiso permitirá a un usuario con este rango eliminar completamente una presentación de este formulario.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Otorgar este permiso permitirá a un usuario con este rango ver esta lista.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Ocurrió un error al desarchivar al usuario.",
     "successfullyUnarchivedUser": "Usuario desarchivado exitosamente:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sincronización de Sonoran CAD: Hubo un problema al sincronizar con tu comunidad de Sonoran CAD.",
-    "disciplinaryPoint": "Punto Disciplinario"
+    "disciplinaryPoint": "Punto Disciplinario",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "No tienes permisos para cambiar tu nombre visible.",
+    "permanent": "Permanente",
+    "temporary": "Temporal"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial de API de la Comunidad",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Tipo(s) de etapa",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ha ocurrido un error inesperado al usar una plantilla en blanco, si esto persiste contacta al soporte.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ha ocurrido un error inesperado al usar una plantilla, si esto persiste contacta al soporte.",
-    "anErrorOccuredWhileSavingTryAgain": "Ocurrió un error al guardar, intenta de nuevo."
+    "anErrorOccuredWhileSavingTryAgain": "Ocurrió un error al guardar, intenta de nuevo.",
+    "nameFormat": "Formato de Nombre"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Acortador de URL",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Advertencia: Aún estás nombrado como el autor de este formulario",
     "submissionOn": "Envío en",
     "activeDisciplinaryPoints": "Puntos Disciplinarios Activos",
-    "viewDisciplinary": "Ver Disciplinario"
+    "viewDisciplinary": "Ver Disciplinario",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "No tienes permisos para cambiar tu nombre visible."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Notificación",
@@ -1648,7 +1655,11 @@
     "invalidDate": "Fecha Inválida",
     "clickToDisableConditionalFormatValueBein": "Haz clic para deshabilitar el valor de formato condicional que se está sobrescribiendo",
     "clickToOverrideConditionalFormatValue": "Haz clic para sobrescribir el valor de formato condicional",
-    "valueHasBeenOverwrittenByAManualValueIgn": "El valor ha sido sobrescrito por un valor manual, ignorando los valores condicionales establecidos."
+    "valueHasBeenOverwrittenByAManualValueIgn": "El valor ha sido sobrescrito por un valor manual, ignorando los valores condicionales establecidos.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "No tienes permisos para gestionar el rastreador de actividad en esta lista.",
+    "server": "Servidor:",
+    "start": "Inicio:",
+    "end": "Fin"
   },
   "ToolbarLinks": {
     "button": "Botón",
@@ -1734,7 +1745,8 @@
     "growthnumberofstaffapplicationsubmission": "Número de presentaciones de solicitudes de personal",
     "growthnumberofuniquevisitorsonthehomepag": "Número de visitantes únicos en la página de Inicio",
     "growthnumberofuniquevisitorsontheaboutpa": "Número de visitantes únicos en la página Acerca de",
-    "growthnumberofuniquevisitorsonyourcommun": "Número de visitantes únicos en la página de Tu Comunidad"
+    "growthnumberofuniquevisitorsonyourcommun": "Número de visitantes únicos en la página de Tu Comunidad",
+    "growthprevious": "Anterior"
   },
   "embedBuilder": {
     "commonembed": "Incrustar",
@@ -3595,7 +3607,8 @@
     "applyReferencedPoints": "Aplicar puntos especificados desde un campo numérico requerido",
     "applyFixedPoints": "Aplicar un número fijo de puntos",
     "current": "Actual:",
-    "clickTo": "Haga clic para:"
+    "clickTo": "Haga clic para:",
+    "banConfiguration": "Configuración de Baneo"
   },
   "FormSectionEditor": {
     "required": "Requerido",
@@ -4148,7 +4161,39 @@
     "allowsMembersToApplyHigherPermissions": "Permite a los miembros cambiar los rangos de otros miembros a un rango que tenga más poder que el propio.",
     "allowsMembersToChangeStageSettings": "Permite a los miembros cambiar la configuración de etapas para esta plantilla de formulario dentro de la Gestión de Formularios en el Panel Administrativo.",
     "manageRadioIntegration": "Administrar la integración de radio",
-    "allowsMembersToManageRadioIntegrationSetti": "Permite a los miembros gestionar la configuración de Integración de Radio en el Panel Administrativo."
+    "allowsMembersToManageRadioIntegrationSetti": "Permite a los miembros gestionar la configuración de Integración de Radio en el Panel Administrativo.",
+    "modifyShield": "Modificar Sonoran Shield",
+    "modifyProfileFields": "Modificar campos del perfil",
+    "securityCenter": "Centro de Seguridad",
+    "securityCenterManageFlags": "Gestionar banderas de seguridad",
+    "assetsRootAccess": "Acceso de Root a Drive Assets",
+    "manageCadIntegration": "Administrar la integración de CAD",
+    "growthCenter": "Centro de Crecimiento",
+    "shortUrls": "URLs cortas",
+    "modifyDocuments": "Modificar Documentos",
+    "modifyTeamSpeak": "Modificar TeamSpeak",
+    "kickUser": "Expulsar Usuarios",
+    "banUser": "Prohibir Usuarios",
+    "archiveUser": "Archivar Usuario",
+    "changePermissions": "Cambiar Permisos",
+    "changePermissionsHigher": "Cambiar permisos superiores",
+    "modifyComInfo": "Modificar la Personalización de la Comunidad",
+    "modifyComDepts": "Modificar Departamentos a través del Administrador",
+    "modifyComForms": "Modificar formularios personalizados a través del editor",
+    "modifyComRosters": "Modificar listas personalizadas a través del editor",
+    "modifyDiscordHooks": "Modificar los webhooks de registro de Discord",
+    "modifyIntegration": "Modificar Integración API",
+    "changeHigherPermissions": "Cambiar permisos superiores",
+    "changeOwnDisplayName": "Cambiar nombre para mostrar",
+    "allowsMembersToManageOwnDisplayName": "Permite a los miembros gestionar su propio nombre para mostrar.",
+    "changeOtherDisplayName": "Cambiar el nombre para mostrar del usuario",
+    "allowsMembersToManageOtherDisplayName": "Permite a los miembros gestionar el nombre de visualización de otros miembros.",
+    "manageActivityTracker": "Gestionar el Rastreador de Actividad",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Permite a los miembros editar los registros del Rastreador de Actividad en este listado.",
+    "ModifyToolbar": "Modificar barra de herramientas",
+    "modifyPages": "Modificar Páginas",
+    "clockInOut": "Fichar entrada y salida",
+    "disciplinaryPanel": "Panel Disciplinario"
   },
   "permissionToggleGroup": {
     "inherited": "heredado"
@@ -4182,7 +4227,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "No se han seleccionado rangos para agregarse a las cuentas",
     "ranksToRemove": "rangosParaEliminar",
     "noRanksSelectedToBeRemovedFromAccounts": "No se han seleccionado rangos para ser eliminados de las cuentas",
-    "sonoranBotEncounteredAnIssue": "sonoranBot ha encontrado un problema"
+    "sonoranBotEncounteredAnIssue": "sonoranBot ha encontrado un problema",
+    "banConfiguration": "Configuración de prohibición"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "puntos disciplinarios",
@@ -4204,9 +4250,22 @@
     "autoJoinSpecific": "Rangos específicos",
     "autoJoinDisabled": "Unirse automáticamente desactivado",
     "autoJoinRanks": "Rangos que se unen automáticamente",
-    "autoJoinRanksEmpty": "¡La sincronización de unión solo funciona para los rangos que seleccionas, pero no has seleccionado ninguno!"
+    "autoJoinRanksEmpty": "¡La sincronización de unión solo funciona para los rangos que seleccionas, pero no has seleccionado ninguno!",
+    "communityMembersAutomaticallyJoinSonoran": "Los miembros de la comunidad se unen automáticamente a Sonoran Radio cuando se unen a CMS",
+    "communityMembersAutomaticallyKickSonoran": "Los miembros de la comunidad salen automáticamente/son expulsados de Sonoran Radio cuando dejan CMS"
   },
   "RadioPermSelector": {
     "setRadio": "configurarRadio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "configuraciónDeProhibición"
+  },
+  "BanConfiguration": {
+    "permanent": "permanente",
+    "temporary": "temporal",
+    "daysAheadToExpire": "días hasta que expire",
+    "banExpiration": "expiraciónDeBan",
+    "close": "cerrar",
+    "applyBan": "aplicarProhibición"
   }
 }

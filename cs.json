@@ -108,7 +108,9 @@
         "replyModExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní nebo moderátorské odpovědi.",
         "replyAdminExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní, moderátorské nebo administrátorské odpovědi.",
         "submitExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odeslat formulář tohoto typu.",
-        "adminDeleteExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zcela smazat podání tohoto formuláře."
+        "adminDeleteExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zcela smazat podání tohoto formuláře.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit tento seznam.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Došlo k chybě při obnovení uživatele.",
     "successfullyUnarchivedUser": "Uživatel úspěšně obnoven:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: Došlo k problému se synchronizací s vaší komunitou Sonoran CAD.",
-    "disciplinaryPoint": "Kárný bod"
+    "disciplinaryPoint": "Kárný bod",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Nemáte oprávnění změnit své zobrazované jméno.",
+    "permanent": "Trvalý",
+    "temporary": "Dočasný"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Typ(y) fáze",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Došlo k neočekávané chybě při použití prázdné šablony, pokud problém přetrvává, kontaktujte podporu.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Došlo k neočekávané chybě při použití šablony, pokud problém přetrvává, kontaktujte podporu.",
-    "anErrorOccuredWhileSavingTryAgain": "Při ukládání došlo k chybě, zkuste to znovu."
+    "anErrorOccuredWhileSavingTryAgain": "Při ukládání došlo k chybě, zkuste to znovu.",
+    "nameFormat": "Formát jména"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Návod na zkracovač URL",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Varování: Stále jste uveden jako autor tohoto formuláře",
     "submissionOn": "Odeslání na",
     "activeDisciplinaryPoints": "Aktivní disciplinární body",
-    "viewDisciplinary": "Zobrazit disciplinární"
+    "viewDisciplinary": "Zobrazit disciplinární",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Nemáte oprávnění změnit své zobrazované jméno."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Oznámení",
@@ -1648,7 +1655,11 @@
     "invalidDate": "Neplatné datum",
     "clickToDisableConditionalFormatValueBein": "Klikněte pro deaktivaci přepsání podmíněné hodnoty formátu",
     "clickToOverrideConditionalFormatValue": "Klikněte pro přepsání podmíněné hodnoty formátu",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Hodnota byla přepsána ruční hodnotou, ignorování podmíněných hodnot."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Hodnota byla přepsána ruční hodnotou, ignorování podmíněných hodnot.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Nemáte oprávnění spravovat sledování aktivity na tomto seznamu.",
+    "server": "Server:",
+    "start": "Start:",
+    "end": "Konec"
   },
   "ToolbarLinks": {
     "button": "Tlačítko",
@@ -1734,7 +1745,8 @@
     "growthnumberofstaffapplicationsubmission": "Počet podání žádostí o zaměstnání",
     "growthnumberofuniquevisitorsonthehomepag": "Počet unikátních návštěvníků na stránce Domovská stránka",
     "growthnumberofuniquevisitorsontheaboutpa": "Počet unikátních návštěvníků na stránce O nás",
-    "growthnumberofuniquevisitorsonyourcommun": "Počet unikátních návštěvníků na stránce Vaše komunita"
+    "growthnumberofuniquevisitorsonyourcommun": "Počet unikátních návštěvníků na stránce Vaše komunita",
+    "growthprevious": "Předchozí"
   },
   "embedBuilder": {
     "commonembed": "Vložit",
@@ -3595,7 +3607,8 @@
     "applyReferencedPoints": "Použít zadané body z požadovaného číselného pole",
     "applyFixedPoints": "Použít pevný počet bodů",
     "current": "Aktuální:",
-    "clickTo": "Klikněte na:"
+    "clickTo": "Klikněte na:",
+    "banConfiguration": "Konfigurace zákazu"
   },
   "FormSectionEditor": {
     "required": "Povinné",
@@ -4148,7 +4161,39 @@
     "allowsMembersToApplyHigherPermissions": "Umožňuje členům měnit hodnosti ostatních členů na hodnost, která má větší moc než jejich vlastní.",
     "allowsMembersToChangeStageSettings": "Umožňuje členům měnit nastavení etap pro tuto šablonu formuláře ve správě formulářů v administrátorském panelu.",
     "manageRadioIntegration": "Spravujte integraci rádia",
-    "allowsMembersToManageRadioIntegrationSetti": "Umožňuje členům spravovat nastavení integrace rádia v administrativním panelu."
+    "allowsMembersToManageRadioIntegrationSetti": "Umožňuje členům spravovat nastavení integrace rádia v administrativním panelu.",
+    "modifyShield": "Upravit Sonoran Shield",
+    "modifyProfileFields": "Upravit pole profilu",
+    "securityCenter": "Centrum zabezpečení",
+    "securityCenterManageFlags": "Spravovat bezpečnostní příznaky",
+    "assetsRootAccess": "Rootový přístup k diskovým prostředkům",
+    "manageCadIntegration": "Spravovat integraci CAD",
+    "growthCenter": "Růstové centrum",
+    "shortUrls": "Krátké URL adresy",
+    "modifyDocuments": "Upravit dokumenty",
+    "modifyTeamSpeak": "Upravit TeamSpeak",
+    "kickUser": "Vyhodit uživatele",
+    "banUser": "Zakázat uživatele",
+    "archiveUser": "Archivovat uživatele",
+    "changePermissions": "Změnit oprávnění",
+    "changePermissionsHigher": "Změna vyšších oprávnění",
+    "modifyComInfo": "Upravit přizpůsobení komunity",
+    "modifyComDepts": "Upravit oddělení pomocí správce",
+    "modifyComForms": "Upravit vlastní formuláře pomocí editoru",
+    "modifyComRosters": "Upravit vlastní seznamy přes editor",
+    "modifyDiscordHooks": "Upravit webhooky pro protokolování na Discordu",
+    "modifyIntegration": "Upravit integraci API",
+    "changeHigherPermissions": "Změnit vyšší oprávnění",
+    "changeOwnDisplayName": "Změnit zobrazované jméno",
+    "allowsMembersToManageOwnDisplayName": "Umožňuje členům spravovat své vlastní zobrazované jméno.",
+    "changeOtherDisplayName": "Změnit zobrazované jméno uživatele",
+    "allowsMembersToManageOtherDisplayName": "Umožňuje členům spravovat zobrazovaná jména ostatních členů.",
+    "manageActivityTracker": "Spravovat sledování aktivity",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Umožňuje členům upravovat záznamy sledovače aktivity na tomto seznamu.",
+    "ModifyToolbar": "Upravit panel nástrojů",
+    "modifyPages": "Upravit stránky",
+    "clockInOut": "Přihlášení a odhlášení",
+    "disciplinaryPanel": "Disciplinární komise"
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"
@@ -4182,7 +4227,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "nebyly vybrány žádné hodnosti, které by byly přidány na účty",
     "ranksToRemove": "hodnosti k odstranění",
     "noRanksSelectedToBeRemovedFromAccounts": "Nebyla vybrána žádná hodnost k odstranění z účtů",
-    "sonoranBotEncounteredAnIssue": "sonoranBotSeSetkalSProblémem"
+    "sonoranBotEncounteredAnIssue": "sonoranBotSeSetkalSProblémem",
+    "banConfiguration": "Konfigurace banu"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinární body",
@@ -4204,9 +4250,22 @@
     "autoJoinSpecific": "Specifické Hodnosti",
     "autoJoinDisabled": "Automatické připojení zakázáno",
     "autoJoinRanks": "Hodnosti, které se automaticky připojí",
-    "autoJoinRanksEmpty": "Připojení synchronizace funguje pouze pro hodnosti, které vyberete, ale žádné jste nevybrali!"
+    "autoJoinRanksEmpty": "Připojení synchronizace funguje pouze pro hodnosti, které vyberete, ale žádné jste nevybrali!",
+    "communityMembersAutomaticallyJoinSonoran": "Členové komunity se automaticky připojí k Sonoran Radio, když se připojí k CMS",
+    "communityMembersAutomaticallyKickSonoran": "Členové komunity se automaticky odpojí nebo jsou vykopnuti ze Sonoran Radio, když opustí CMS"
   },
   "RadioPermSelector": {
     "setRadio": "nastavitRadio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "nastaveníBanu"
+  },
+  "BanConfiguration": {
+    "permanent": "trvalý",
+    "temporary": "dočasný",
+    "daysAheadToExpire": "dní do vypršení platnosti",
+    "banExpiration": "Konec banu",
+    "close": "zavřít",
+    "applyBan": "uvalit zákaz"
   }
 }

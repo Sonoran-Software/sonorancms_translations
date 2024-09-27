@@ -108,7 +108,9 @@
         "replyModExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende oder Moderator-Antworten zulassen.",
         "replyAdminExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende, Moderator- oder Administrator-Antworten zulassen.",
         "submitExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, ein Formular dieses Typs einzureichen.",
-        "adminDeleteExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Einreichung dieses Formulars vollständig zu löschen."
+        "adminDeleteExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Einreichung dieses Formulars vollständig zu löschen.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, diese Liste anzusehen.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Ein Fehler ist aufgetreten, während der Benutzer archiviert wurde.",
     "successfullyUnarchivedUser": "Benutzer erfolgreich archiviert:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: Es gab ein Problem beim Synchronisieren mit Ihrer Sonoran CAD-Community.",
-    "disciplinaryPoint": "Disziplinarpunkt"
+    "disciplinaryPoint": "Disziplinarpunkt",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Sie haben keine Berechtigung, Ihren Anzeigenamen zu ändern.",
+    "permanent": "Permanent",
+    "temporary": "Vorübergehend"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Bühnenart(en)",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ein unerwarteter Fehler ist beim Verwenden einer leeren Vorlage aufgetreten, wenn dies weiterhin besteht, kontaktieren Sie den Support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ein unerwarteter Fehler ist beim Verwenden einer Vorlage aufgetreten, wenn dies weiterhin besteht, kontaktieren Sie den Support.",
-    "anErrorOccuredWhileSavingTryAgain": "Beim Speichern ist ein Fehler aufgetreten, bitte versuchen Sie es erneut."
+    "anErrorOccuredWhileSavingTryAgain": "Beim Speichern ist ein Fehler aufgetreten, bitte versuchen Sie es erneut.",
+    "nameFormat": "Namensformat"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-Verkürzer-Tutorial",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Warnung: Sie sind immer noch als Autor dieses Formulars benannt",
     "submissionOn": "Einreichung am",
     "activeDisciplinaryPoints": "Aktive Disziplinarpunkte",
-    "viewDisciplinary": "Disziplinarmaßnahmen anzeigen"
+    "viewDisciplinary": "Disziplinarmaßnahmen anzeigen",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Sie haben keine Berechtigung, Ihren Anzeigenamen zu ändern."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Benachrichtigung",
@@ -1648,7 +1655,11 @@
     "invalidDate": "Ungültiges Datum",
     "clickToDisableConditionalFormatValueBein": "Klicken, um das Überschreiben des bedingten Formatwerts zu deaktivieren",
     "clickToOverrideConditionalFormatValue": "Klicken, um den bedingten Formatwert zu überschreiben",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Wert wurde manuell überschrieben und ignoriert bedingte Wertsetzungen."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Wert wurde manuell überschrieben und ignoriert bedingte Wertsetzungen.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Sie haben keine Berechtigungen, um den Aktivitäts-Tracker in diesem Dienstplan zu verwalten.",
+    "server": "Server:",
+    "start": "Start:",
+    "end": "Ende"
   },
   "ToolbarLinks": {
     "button": "Knopf",
@@ -1734,7 +1745,8 @@
     "growthnumberofstaffapplicationsubmission": "Anzahl der Mitarbeitereinreichungen",
     "growthnumberofuniquevisitorsonthehomepag": "Anzahl der eindeutigen Besucher auf der Startseite",
     "growthnumberofuniquevisitorsontheaboutpa": "Anzahl der eindeutigen Besucher auf der Über-Seite",
-    "growthnumberofuniquevisitorsonyourcommun": "Anzahl der eindeutigen Besucher auf Ihrer Community-Seite"
+    "growthnumberofuniquevisitorsonyourcommun": "Anzahl der eindeutigen Besucher auf Ihrer Community-Seite",
+    "growthprevious": "Vorherige"
   },
   "embedBuilder": {
     "commonembed": "Einbetten",
@@ -3595,7 +3607,8 @@
     "applyReferencedPoints": "Anwenden von Punkten aus einem erforderlichen Zahlenfeld",
     "applyFixedPoints": "Eine feste Anzahl von Punkten vergeben",
     "current": "Aktuell:",
-    "clickTo": "Klicken Sie auf:"
+    "clickTo": "Klicken Sie auf:",
+    "banConfiguration": "Bann-Konfiguration"
   },
   "FormSectionEditor": {
     "required": "Erforderlich",
@@ -4148,7 +4161,39 @@
     "allowsMembersToApplyHigherPermissions": "Ermöglicht Mitgliedern, die Ränge anderer Mitglieder in einen Rang zu ändern, der mehr Macht als ihr eigener hat.",
     "allowsMembersToChangeStageSettings": "Erlaubt Mitgliedern, Bühneneinstellungen für diese Formularvorlage im Formularmanagement im Verwaltungsbereich zu ändern.",
     "manageRadioIntegration": "Radiointegration verwalten",
-    "allowsMembersToManageRadioIntegrationSetti": "Ermöglicht Mitgliedern die Verwaltung der Funk-Integrations-Einstellungen im Verwaltungsbereich."
+    "allowsMembersToManageRadioIntegrationSetti": "Ermöglicht Mitgliedern die Verwaltung der Funk-Integrations-Einstellungen im Verwaltungsbereich.",
+    "modifyShield": "Sonoran Shield bearbeiten",
+    "modifyProfileFields": "Profilfelder ändern",
+    "securityCenter": "Sicherheitszentrum",
+    "securityCenterManageFlags": "Sicherheitskennzeichen verwalten",
+    "assetsRootAccess": "Root-Zugriff auf Laufwerksressourcen",
+    "manageCadIntegration": "CAD-Integration verwalten",
+    "growthCenter": "Wachstumszentrum",
+    "shortUrls": "Kurze URLs",
+    "modifyDocuments": "Dokumente bearbeiten",
+    "modifyTeamSpeak": "TeamSpeak ändern",
+    "kickUser": "Benutzer entfernen",
+    "banUser": "Benutzer sperren",
+    "archiveUser": "Benutzer archivieren",
+    "changePermissions": "Berechtigungen ändern",
+    "changePermissionsHigher": "Höhere Berechtigungen ändern",
+    "modifyComInfo": "Community-Anpassung bearbeiten",
+    "modifyComDepts": "Abteilungen über Manager ändern",
+    "modifyComForms": "Benutzerdefinierte Formulare über den Editor bearbeiten",
+    "modifyComRosters": "Benutzerdefinierte Dienstpläne über Editor bearbeiten",
+    "modifyDiscordHooks": "Discord-Protokollierungs-Webhooks ändern",
+    "modifyIntegration": "API-Integration ändern",
+    "changeHigherPermissions": "Höhere Berechtigungen ändern",
+    "changeOwnDisplayName": "Anzeigenamen ändern",
+    "allowsMembersToManageOwnDisplayName": "Ermöglicht Mitgliedern die Verwaltung ihres eigenen Anzeigennamens.",
+    "changeOtherDisplayName": "Benutzernamen ändern",
+    "allowsMembersToManageOtherDisplayName": "Ermöglicht Mitgliedern, die Anzeigenamen anderer Mitglieder zu verwalten.",
+    "manageActivityTracker": "Aktivitäts-Tracker verwalten",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Ermöglicht Mitgliedern, Activity-Tracker-Protokolle in diesem Dienstplan zu bearbeiten.",
+    "ModifyToolbar": "Symbolleiste ändern",
+    "modifyPages": "Seiten bearbeiten",
+    "clockInOut": "Ein- und Ausstempeln",
+    "disciplinaryPanel": "Disziplinarausschuss"
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"
@@ -4182,7 +4227,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Keine Ränge ausgewählt, die zu den Konten hinzugefügt werden sollen",
     "ranksToRemove": "Ränge zu entfernen",
     "noRanksSelectedToBeRemovedFromAccounts": "Keine Ränge ausgewählt, die von Konten entfernt werden sollen",
-    "sonoranBotEncounteredAnIssue": "SonoranBot hat ein Problem festgestellt"
+    "sonoranBotEncounteredAnIssue": "SonoranBot hat ein Problem festgestellt",
+    "banConfiguration": "Bannkonfiguration"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "Disziplinarpunkte",
@@ -4204,9 +4250,22 @@
     "autoJoinSpecific": "Bestimmte Ränge",
     "autoJoinDisabled": "Auto-Join deaktiviert",
     "autoJoinRanks": "Ränge, die automatisch beitreten",
-    "autoJoinRanksEmpty": "Der Beitrittsabgleich funktioniert nur für die Ränge, die du auswählst, aber du hast keine ausgewählt!"
+    "autoJoinRanksEmpty": "Der Beitrittsabgleich funktioniert nur für die Ränge, die du auswählst, aber du hast keine ausgewählt!",
+    "communityMembersAutomaticallyJoinSonoran": "Community-Mitglieder treten automatisch Sonoran Radio bei, wenn sie CMS beitreten",
+    "communityMembersAutomaticallyKickSonoran": "Community-Mitglieder werden automatisch von Sonoran Radio entfernt/gekickt, wenn sie CMS verlassen."
   },
   "RadioPermSelector": {
     "setRadio": "Funkgerät einstellen"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "Bannkonfiguration"
+  },
+  "BanConfiguration": {
+    "permanent": "permanent",
+    "temporary": "vorübergehend",
+    "daysAheadToExpire": "TageVorAblauf",
+    "banExpiration": "Ablauf des Banns",
+    "close": "Schließen",
+    "applyBan": "Sperre anwenden"
   }
 }
