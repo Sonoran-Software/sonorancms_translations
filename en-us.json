@@ -1656,7 +1656,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster.",
     "server": "Server:",
     "start": "Start:",
-    "end": "End:"
+    "end": "End:",
+    "noServer": "No server name"
   },
   "ToolbarLinks": {
     "button": "Button",
