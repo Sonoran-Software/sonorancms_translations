@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "활동 추적기를 이 명단에서 관리할 권한이 없습니다.",
     "server": "서버:",
     "start": "시작:",
-    "end": "종료:"
+    "end": "종료:",
+    "noServer": "서버 이름 없음"
   },
   "ToolbarLinks": {
     "button": "드롭다운",

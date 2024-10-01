@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Non hai i permessi per gestire il tracciatore di attività su questo roster.",
     "server": "Server:",
     "start": "Inizia:",
-    "end": "Fine:"
+    "end": "Fine:",
+    "noServer": "Nessun nome del server"
   },
   "ToolbarLinks": {
     "button": "Pulsante",

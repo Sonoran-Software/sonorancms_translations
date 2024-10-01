@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Nie masz uprawnień do zarządzania śledzeniem aktywności na tej liście.",
     "server": "Serwer:",
     "start": "Start:",
-    "end": "Koniec"
+    "end": "Koniec",
+    "noServer": "Brak nazwy serwera"
   },
   "ToolbarLinks": {
     "button": "Przycisk",

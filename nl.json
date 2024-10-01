@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Je hebt geen rechten om de activiteitstracker in dit rooster te beheren.",
     "server": "Server:",
     "start": "Start:",
-    "end": "Einde"
+    "end": "Einde",
+    "noServer": "Geen servernaam"
   },
   "ToolbarLinks": {
     "button": "Knop",

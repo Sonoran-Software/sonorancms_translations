@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Nemáte oprávnění spravovat sledování aktivity na tomto seznamu.",
     "server": "Server:",
     "start": "Start:",
-    "end": "Konec"
+    "end": "Konec",
+    "noServer": "Žádný název serveru"
   },
   "ToolbarLinks": {
     "button": "Tlačítko",

@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Sinulla ei ole oikeuksia hallita aktiivisuusseurantaa tällä kokoonpanolla.",
     "server": "Palvelin:",
     "start": "Aloita:",
-    "end": "Loppu"
+    "end": "Loppu",
+    "noServer": "Ei palvelimen nimeä"
   },
   "ToolbarLinks": {
     "button": "Painike",

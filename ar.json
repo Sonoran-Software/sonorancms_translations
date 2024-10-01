@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "ليس لديك الأذونات لإدارة متتبع النشاط في هذه القائمة.",
     "server": "الخادم:",
     "start": "ابدأ",
-    "end": "النهاية"
+    "end": "النهاية",
+    "noServer": "لا يوجد اسم خادم"
   },
   "ToolbarLinks": {
     "button": "زر",

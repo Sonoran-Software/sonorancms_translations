@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Du har ikke tilladelse til at administrere aktivitetssporing på denne liste.",
     "server": "Server:",
     "start": "Start:",
-    "end": "Slut:"
+    "end": "Slut:",
+    "noServer": "Intet servernavn"
   },
   "ToolbarLinks": {
     "button": "Knap",

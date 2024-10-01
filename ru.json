@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "У вас нет прав на управление трекером активности в этом составе.",
     "server": "Сервер:",
     "start": "Начать:",
-    "end": "Конец"
+    "end": "Конец",
+    "noServer": "Нет имени сервера"
   },
   "ToolbarLinks": {
     "button": "Выпадающее меню",

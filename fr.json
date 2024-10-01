@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Vous n'avez pas les permissions pour gérer le suivi des activités sur ce tableau.",
     "server": "Serveur :",
     "start": "Commencer:",
-    "end": "Fin:"
+    "end": "Fin:",
+    "noServer": "Pas de nom de serveur"
   },
   "ToolbarLinks": {
     "button": "Bouton",

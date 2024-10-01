@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Você não tem permissão para gerenciar o rastreador de atividades nesta lista.",
     "server": "Servidor:",
     "start": "Iniciar:",
-    "end": "Fim:"
+    "end": "Fim:",
+    "noServer": "Sem nome de servidor"
   },
   "ToolbarLinks": {
     "button": "Botão",

@@ -1659,7 +1659,8 @@
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Bu listede etkinlik izleyicisini yönetme yetkiniz yok.",
     "server": "Sunucu:",
     "start": "Başla:",
-    "end": "Bitiş"
+    "end": "Bitiş",
+    "noServer": "Sunucu adı yok"
   },
   "ToolbarLinks": {
     "button": "Düğme",
