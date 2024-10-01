@@ -108,7 +108,9 @@
         "replyModExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic or Mod replies.",
         "replyAdminExplanation": "Granting this permission will allow a user with this rank to reply to a submitted form of this type if the reply settings allow for Basic, Mod, or Admin replies.",
         "submitExplanation": "Granting this permission will allow a user with this rank to submit a form of this type.",
-        "adminDeleteExplanation": "Granting this permission will allow a user with this rank to fully delete a submission of this form."
+        "adminDeleteExplanation": "Granting this permission will allow a user with this rank to fully delete a submission of this form.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Granting this permission will allow a user with this rank to view this roster.",
@@ -206,7 +208,9 @@
     },
     "noAdditional": "No Additional Fields",
     "premadeSections": "Premade Sections",
-    "fields": "Fields"
+    "fields": "Fields",
+    "modifyStageSettings": "Modify Stage Settings",
+    "appThirdPartySubmit": "Third Party Submit"
   },
   "departments": {
     "departmentName": "Department Name",
@@ -775,6 +779,7 @@
     "na": "N/A"
   },
   "AccountViewer": {
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
     "userAcccountsTutorial": "User Acccounts Tutorial",
     "learnHowToUseUserAccounts": "Learn how to use User Accounts",
     "userAcccountsDocuments": "User Acccounts Documents",
@@ -810,7 +815,7 @@
     "accountskick": "Kick",
     "accountsban": "Ban",
     "commonarchive": "Archive",
-    "accountviewercomname": "Community Name",
+    "accountviewercomname": "Community Display Name",
     "defaultIdentifier": "Default Identifier",
     "clickStarToSetIdentifierAsDefault": "Click star to set identifier as default",
     "selectRanks": "Select Ranks",
@@ -919,7 +924,9 @@
     "unarchiveOptionsFor": "Unarchive Options for",
     "anErrorOccuredWhileUnarchivingUser": "An error occured while unarchiving user.",
     "successfullyUnarchivedUser": "Successfully unarchived user:",
-    "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: There was an issue with syncing to your Sonoran CAD community."
+    "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: There was an issue with syncing to your Sonoran CAD community.",
+    "permanent": "Permanent",
+    "temporary": "Temporary"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Commmunity API Tutorial",
@@ -1063,7 +1070,7 @@
     "createdByAnOfficialSonoranSoftwareSystem": "Created by an Official Sonoran Software Systems Employee",
     "availableFormatKeysComnameIdentifierUniq": "Available Format Keys: {comName} | {identifier} | {uniqueId}",
     "grantRankOnUserJoin": "Grant Rank on User Join",
-    "namingFormat": "Naming Format",
+    "nameFormat": "Name Format",
     "allowMembers": "Allow Members",
     "toCustomizeName": "to Customize Name",
     "invalidDiscordRichPresenceButton2UrlYouC": "Invalid Discord Rich Presence Button #2 URL, you can only use CAD or CMS community invite links. Ex. https://sonorancms.com/comid=SonoranSoftware",
@@ -1475,6 +1482,7 @@
     "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:"
   },
   "profileView": {
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
     "commmunityProfileTutorial": "Commmunity Profile Tutorial",
     "learnAboutYourCommmunityProfile": "Learn about Your Commmunity Profile",
     "commmunityProfileDocuments": "Commmunity Profile Documents",
@@ -1567,8 +1575,8 @@
     "anErrorOccuredDuringAccountDeletionIfThe": "An error occured during account deletion, if the issue persists contact support. ",
     "errorYouCannotEditThisMemberDueToYourCom": "Error: You cannot edit this member due to your community power.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Error: You do not have permission to edit an individuals information.",
-    "changeCommunityName": "Change Community Name",
-    "changeYourCommunityNameHere": "Change your community name here!",
+    "changeCommunityName": "Change Community display Name",
+    "changeYourCommunityNameHere": "Change your community display name here!",
     "na": "N/A",
     "youDoNotHavePermissionToEditThisField": "You do not have permission to edit this field.",
     "anUnexpectedErrorOccuredWhileSavingProfi": "An unexpected error occured while saving profile field.",
@@ -1644,7 +1652,12 @@
     "invalidDate": "Invalid Date",
     "clickToDisableConditionalFormatValueBein": "Click to disable conditional format value being overridden",
     "clickToOverrideConditionalFormatValue": "Click to override conditional format value",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster.",
+    "server": "Server:",
+    "start": "Start:",
+    "end": "End:",
+    "noServer": "No server name"
   },
   "ToolbarLinks": {
     "button": "Button",
@@ -1716,7 +1729,8 @@
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Number of unique views from Community Discovery",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Number of unique users that visited the community page from Community Discovery",
-    "growthpreviousperioud": "Previous Period",
+    "growthpreviousperioud": "Previous",
+    "growthprevious": "Previous",
     "growthnodata": "No Data",
     "theresNotEnoughDataToPopulateTheGraph": "Theres not enough data to populate the graph.",
     "growtherrored": "ERRORED",
@@ -3581,7 +3595,8 @@
     "applyFixedPoints": "Apply a fixed number of points",
     "current": "Current:",
     "clickTo": "Click to:",
-    "ranksToAddAddingRanks": "Ranks To Add Adding ranks:"
+    "ranksToAddAddingRanks": "Ranks To Add Adding ranks:",
+    "banConfiguration": "Ban Configuration"
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the following template strings: {'{com_name}'}, {'{username}'}, and {'{point_reason}'} to have dynamic data within the notification content.",
@@ -3609,7 +3624,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "No ranks selected to be added on to accounts...",
     "ranksToRemove": "Ranks To Remove",
     "noRanksSelectedToBeRemovedFromAccounts": "No ranks selected to be removed from accounts...",
-    "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:"
+    "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
+    "banConfiguration": "Ban Configuration"
   },
   "FormSectionEditor": {
     "required": "Required",
@@ -4077,7 +4093,9 @@
     "autoJoinSpecific": "Specific Ranks",
     "autoJoinDisabled": "Auto Join Disabled",
     "autoJoinRanks": "Ranks that Auto Join",
-    "autoJoinRanksEmpty": "Join sync only works for the ranks you select, but you don't have any selected!"
+    "autoJoinRanksEmpty": "Join sync only works for the ranks you select, but you don't have any selected!",
+    "communityMembersAutomaticallyJoinSonoran": "Community members automatically join Sonoran Radio when they join CMS",
+    "communityMembersAutomaticallyKickSonoran": "Community members automatically leave/are kicked from Sonoran Radio when they leave CMS"
   },
   "imageInn": {
     "dropArea": "Drop Area"
@@ -4189,13 +4207,29 @@
     "banUser": "Ban Users",
     "archiveUser": "Archive User",
     "changePermissions": "Change Permissions",
+    "changePermissionsHigher": "Change Higher Permissions",
     "modifyComInfo": "Modify Community Customization",
     "modifyComDepts": "Modify Departments via Manager",
     "modifyComForms": "Modify Custom Forms via Editor",
     "modifyComRosters": "Modify Custom Rosters via Editor",
     "modifyDiscordHooks": "Modify Discord Logging Webhooks",
     "modifyIntegration": "Modify API Integration",
-    "changeHigherPermissions": "Change Higher Permissions"
+    "changeHigherPermissions": "Change Higher Permissions",
+    "changeOwnDisplayName": "Change Display Name",
+    "allowsMembersToManageOwnDisplayName": "Allows members to manage their own display name.",
+    "changeOtherDisplayName": "Change user Display Name",
+    "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name.",
+    "manageActivityTracker": "Manage Activity Tracker",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Allows members to edit Activity Tracker logs on this roster.",
+    "ModifyToolbar": "Modify Toolbar",
+    "modifyPages": "Modify Pages",
+    "manageRadioIntegration": "Manage Radio Integration",
+    "clockInOut": "Clock In & Out",
+    "disciplinaryPanel": "Disciplinary Panel",
+    "allowsMembersToApplyHigherPermissions": "Allows members to apply higher permissions than their own rank.",
+    "allowsMembersToAccessTheDisciplinaryPane": "Allows members to access the Disciplinary Panel in the Administrative Panel.",
+    "allowsMembersToManageRadioIntegrationSetti": "Allows members to manage Radio Integration settings in the Administrative Panel.",
+    "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
@@ -4210,5 +4244,16 @@
   },
   "RadioPermSelector": {
     "setRadio": "Set Radio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "Ban Configuration"
+  },
+  "BanConfiguration": {
+    "permanent": "Permanent",
+    "temporary": "Temporary",
+    "daysAheadToExpire": "Days Ahead to Expire",
+    "banExpiration": "Ban Expiration",
+    "close": "Close",
+    "applyBan": "Apply Ban"
   }
 }

@@ -108,7 +108,9 @@
         "replyModExplanation": "授予此权限将允许具有此等级的用户在回复设置允许基本或版主回复的情况下回复已提交的此类型表单。",
         "replyAdminExplanation": "授予此权限将允许具有此等级的用户在回复设置允许基本、版主或管理员回复的情况下回复已提交的此类型表单。",
         "submitExplanation": "授予此权限将允许具有此等级的用户提交此类型的表单。",
-        "adminDeleteExplanation": "授予此权限将允许具有此等级的用户完全删除此表单的提交内容。"
+        "adminDeleteExplanation": "授予此权限将允许具有此等级的用户完全删除此表单的提交内容。",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "授予此权限将允许具有此等级的用户查看此名册。",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "取消归档用户时发生错误。",
     "successfullyUnarchivedUser": "成功取消归档用户：",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD 同步：与您的 Sonoran CAD 社区同步时出现问题。",
-    "disciplinaryPoint": "纪律点数"
+    "disciplinaryPoint": "纪律点数",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "您没有更改显示名称的权限。",
+    "permanent": "永久",
+    "temporary": "临时"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -1075,7 +1080,8 @@
     "stageTypes": "阶段类型",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "使用空白模板时发生意外错误，如果问题持续请联系支持。",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "使用模板时发生意外错误，如果问题持续请联系支持。",
-    "anErrorOccuredWhileSavingTryAgain": "保存时发生错误，请重试。"
+    "anErrorOccuredWhileSavingTryAgain": "保存时发生错误，请重试。",
+    "nameFormat": "名称格式"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL 缩短器教程",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "警告：您仍然被列为此表单的作者",
     "submissionOn": "提交于",
     "activeDisciplinaryPoints": "活动处罚点",
-    "viewDisciplinary": "查看纪律"
+    "viewDisciplinary": "查看纪律",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "您没有权限更改您的显示名称。"
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "通知",
@@ -1648,7 +1655,12 @@
     "invalidDate": "无效日期",
     "clickToDisableConditionalFormatValueBein": "点击以禁用条件格式值被覆盖",
     "clickToOverrideConditionalFormatValue": "点击以覆盖条件格式值",
-    "valueHasBeenOverwrittenByAManualValueIgn": "值已被手动值覆盖，忽略条件值设置。"
+    "valueHasBeenOverwrittenByAManualValueIgn": "值已被手动值覆盖，忽略条件值设置。",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "您没有权限管理此名单上的活动追踪器。",
+    "server": "服务器:",
+    "start": "开始:",
+    "end": "结束:",
+    "noServer": "没有服务器名称"
   },
   "ToolbarLinks": {
     "button": "按钮",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "员工申请提交次数",
     "growthnumberofuniquevisitorsonthehomepag": "主页上的独特访问者数",
     "growthnumberofuniquevisitorsontheaboutpa": "关于页面上的独特访问者数",
-    "growthnumberofuniquevisitorsonyourcommun": "您的社区页面上的独特访问者数"
+    "growthnumberofuniquevisitorsonyourcommun": "您的社区页面上的独特访问者数",
+    "growthprevious": "上一个"
   },
   "embedBuilder": {
     "commonembed": "嵌入",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "从必填数字字段应用指定积分",
     "applyFixedPoints": "应用固定点数",
     "current": "当前：",
-    "clickTo": "点击："
+    "clickTo": "点击：",
+    "banConfiguration": "禁令配置"
   },
   "FormSectionEditor": {
     "required": "必需的",
@@ -4149,27 +4163,38 @@
     "allowsMembersToChangeStageSettings": "允许成员在管理面板的表单管理中更改此表单模板的阶段设置。",
     "manageRadioIntegration": "管理无线电集成",
     "allowsMembersToManageRadioIntegrationSetti": "允许成员在管理面板中管理电台集成设置。",
-    "modifyShield": "修改Sonoran Shield",
-    "modifyProfileFields": "修改档案字段",
+    "modifyShield": "修改 Sonoran Shield",
+    "modifyProfileFields": "修改资料字段",
     "securityCenter": "安全中心",
     "securityCenterManageFlags": "管理安全标志",
     "assetsRootAccess": "驱动资产根访问",
-    "manageCadIntegration": "管理CAD集成",
-    "growthCenter": "增长中心",
-    "shortUrls": "短链接",
+    "manageCadIntegration": "管理 CAD 集成",
+    "growthCenter": "成长中心",
+    "shortUrls": "短网址",
     "modifyDocuments": "修改文件",
     "modifyTeamSpeak": "修改TeamSpeak",
-    "kickUser": "踢用户",
+    "kickUser": "踢出用户",
     "banUser": "禁止用户",
     "archiveUser": "存档用户",
     "changePermissions": "更改权限",
+    "changePermissionsHigher": "更改更高权限",
     "modifyComInfo": "修改社区自定义",
-    "modifyComDepts": "通过经理修改部门",
+    "modifyComDepts": "通过管理员修改部门",
     "modifyComForms": "通过编辑器修改自定义表单",
     "modifyComRosters": "通过编辑器修改自定义名单",
-    "modifyDiscordHooks": "修改 Discord 日志记录 Webhooks",
+    "modifyDiscordHooks": "修改 Discord 登录 Webhooks",
     "modifyIntegration": "修改 API 集成",
-    "changeHigherPermissions": "更改更高权限"
+    "changeHigherPermissions": "更改更高权限",
+    "changeOwnDisplayName": "更改显示名称",
+    "allowsMembersToManageOwnDisplayName": "允许成员管理他们自己的显示名称。",
+    "changeOtherDisplayName": "更改用户显示名称",
+    "allowsMembersToManageOtherDisplayName": "允许成员管理其他成员的显示名称。",
+    "manageActivityTracker": "管理活动跟踪器",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "允许成员编辑此花名册上的活动跟踪日志。",
+    "ModifyToolbar": "修改工具栏",
+    "modifyPages": "修改页面",
+    "clockInOut": "上下班打卡",
+    "disciplinaryPanel": "纪律小组"
   },
   "permissionToggleGroup": {
     "inherited": "继承"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "未选择要添加到帐户的级别",
     "ranksToRemove": "要删除的级别",
     "noRanksSelectedToBeRemovedFromAccounts": "未选择要从帐户中删除的等级",
-    "sonoranBotEncounteredAnIssue": "SonoranBot遇到了一个问题"
+    "sonoranBotEncounteredAnIssue": "SonoranBot遇到了一个问题",
+    "banConfiguration": "禁令配置"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "处分分数",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "特定级别",
     "autoJoinDisabled": "自动加入已禁用",
     "autoJoinRanks": "自动加入的等级",
-    "autoJoinRanksEmpty": "加入同步仅对您选择的等级有效，但您没有选择任何等级！"
+    "autoJoinRanksEmpty": "加入同步仅对您选择的等级有效，但您没有选择任何等级！",
+    "communityMembersAutomaticallyJoinSonoran": "社区成员在加入 CMS 时会自动加入 Sonoran Radio",
+    "communityMembersAutomaticallyKickSonoran": "社区成员离开 CMS 时会自动离开/被踢出 Sonoran Radio"
   },
   "RadioPermSelector": {
     "setRadio": "设置广播"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "禁令配置"
+  },
+  "BanConfiguration": {
+    "permanent": "永久",
+    "temporary": "临时",
+    "daysAheadToExpire": "距到期天数",
+    "banExpiration": "禁令到期",
+    "close": "关闭",
+    "applyBan": "应用禁令"
   }
 }

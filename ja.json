@@ -108,7 +108,9 @@
         "replyModExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信またはモデレーター返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
         "replyAdminExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信、モデレーター返信、または管理者返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
         "submitExplanation": "この権限を付与すると、このランクのユーザーがこのタイプのフォームを提出できるようになります。",
-        "adminDeleteExplanation": "この権限を付与すると、このランクのユーザーがこのフォームの提出物を完全に削除できるようになります。"
+        "adminDeleteExplanation": "この権限を付与すると、このランクのユーザーがこのフォームの提出物を完全に削除できるようになります。",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "この権限を付与すると、このランクのユーザーがこの名簿を閲覧できるようになります。",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "ユーザーを正常にアーカイブ解除しました:",
     "successfullyUnarchivedUser": "Sonoran CAD同期: Sonoran CADコミュニティとの同期に問題が発生しました。",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "が更新されました！",
-    "disciplinaryPoint": "懲戒ポイント"
+    "disciplinaryPoint": "懲戒ポイント",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "表示名を変更する権限がありません。",
+    "permanent": "永久",
+    "temporary": "一時的"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -1075,7 +1080,8 @@
     "stageTypes": "空のテンプレートを使用中に予期しないエラーが発生しました。この問題が続く場合はサポートに連絡してください。",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "テンプレートを使用中に予期しないエラーが発生しました。この問題が続く場合はサポートに連絡してください。",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "保存中にエラーが発生しました。もう一度お試しください。",
-    "anErrorOccuredWhileSavingTryAgain": "URL短縮ツールチュートリアル"
+    "anErrorOccuredWhileSavingTryAgain": "URL短縮ツールチュートリアル",
+    "nameFormat": "名前の形式"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "コミュニティのために短いURLを作成する方法を学ぶ",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "提出日",
     "submissionOn": "通知",
     "activeDisciplinaryPoints": "アクティブな懲戒ポイント",
-    "viewDisciplinary": "懲戒を表示"
+    "viewDisciplinary": "懲戒を表示",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "表示名を変更する権限がありません。"
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "受信箱",
@@ -1648,7 +1655,12 @@
     "invalidDate": "条件付きフォーマット値の上書きを無効にするにはクリック",
     "clickToDisableConditionalFormatValueBein": "条件付きフォーマット値を上書きするにはクリック",
     "clickToOverrideConditionalFormatValue": "値は手動で上書きされ、条件付き値セットが無視されました。",
-    "valueHasBeenOverwrittenByAManualValueIgn": "ボタン"
+    "valueHasBeenOverwrittenByAManualValueIgn": "ボタン",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "このロスターでアクティビティトラッカーを管理する権限がありません。",
+    "server": "サーバー:",
+    "start": "開始:",
+    "end": "終わり",
+    "noServer": "サーバー名なし"
   },
   "ToolbarLinks": {
     "button": "ドロップダウン",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "ホームページのユニーク訪問者数",
     "growthnumberofuniquevisitorsonthehomepag": "アバウトページのユニーク訪問者数",
     "growthnumberofuniquevisitorsontheaboutpa": "コミュニティページのユニーク訪問者数",
-    "growthnumberofuniquevisitorsonyourcommun": "埋め込み"
+    "growthnumberofuniquevisitorsonyourcommun": "埋め込み",
+    "growthprevious": "前の"
   },
   "embedBuilder": {
     "commonembed": "埋め込みを削除",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "必須の数値フィールドから指定されたポイントを適用します",
     "applyFixedPoints": "固定ポイント数を適用",
     "current": "現在:",
-    "clickTo": "クリックして:"
+    "clickTo": "クリックして:",
+    "banConfiguration": "禁止設定"
   },
   "FormSectionEditor": {
     "required": "セクションヘッダー",
@@ -4150,26 +4164,37 @@
     "manageRadioIntegration": "無線統合を管理",
     "allowsMembersToManageRadioIntegrationSetti": "メンバーが管理パネルで無線統合の設定を管理できるようにします。",
     "modifyShield": "ソノランシールドを修正",
-    "modifyProfileFields": "プロフィールフィールドを変更する",
+    "modifyProfileFields": "プロフィールフィールドの変更",
     "securityCenter": "セキュリティセンター",
     "securityCenterManageFlags": "セキュリティフラグを管理する",
     "assetsRootAccess": "ドライブ資産ルートアクセス",
-    "manageCadIntegration": "CAD統合を管理",
+    "manageCadIntegration": "CAD統合を管理する",
     "growthCenter": "成長センター",
-    "shortUrls": "短いURL",
-    "modifyDocuments": "ドキュメントを修正する",
-    "modifyTeamSpeak": "TeamSpeakを修正する",
+    "shortUrls": "短縮URL",
+    "modifyDocuments": "ドキュメントを変更",
+    "modifyTeamSpeak": "TeamSpeakを修正",
     "kickUser": "ユーザーをキック",
-    "banUser": "ユーザーを禁止",
-    "archiveUser": "ユーザーをアーカイブ",
+    "banUser": "ユーザーを禁止する",
+    "archiveUser": "ユーザーをアーカイブする",
     "changePermissions": "権限を変更",
+    "changePermissionsHigher": "上位の権限を変更",
     "modifyComInfo": "コミュニティカスタマイズの変更",
-    "modifyComDepts": "マネージャーで部門を変更",
-    "modifyComForms": "エディターでカスタムフォームを変更する",
-    "modifyComRosters": "エディターでカスタムロスターを変更する",
-    "modifyDiscordHooks": "DiscordロギングWebhookの変更",
-    "modifyIntegration": "API統合を変更",
-    "changeHigherPermissions": "高い権限の変更"
+    "modifyComDepts": "マネージャー経由で部門を変更",
+    "modifyComForms": "エディターでカスタムフォームを編集",
+    "modifyComRosters": "エディタでカスタム名簿を変更",
+    "modifyDiscordHooks": "Discord ロギング Webhooks を変更",
+    "modifyIntegration": "API統合の変更",
+    "changeHigherPermissions": "上位権限の変更",
+    "changeOwnDisplayName": "表示名を変更",
+    "allowsMembersToManageOwnDisplayName": "メンバーが自分の表示名を管理できるようにします。",
+    "changeOtherDisplayName": "ユーザー表示名を変更",
+    "allowsMembersToManageOtherDisplayName": "メンバーが他のメンバーの表示名を管理できるようにします。",
+    "manageActivityTracker": "アクティビティトラッカーを管理",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "メンバーがこのロスターの活動トラッカーログを編集できるようにします。",
+    "ModifyToolbar": "ツールバーの変更",
+    "modifyPages": "ページを変更",
+    "clockInOut": "出退勤",
+    "disciplinaryPanel": "懲戒委員会"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "アカウントに追加するランクが選択されていません",
     "ranksToRemove": "削除するランク",
     "noRanksSelectedToBeRemovedFromAccounts": "アカウントから削除されるランクが選択されていません",
-    "sonoranBotEncounteredAnIssue": "SonoranBotに問題が発生しました"
+    "sonoranBotEncounteredAnIssue": "SonoranBotに問題が発生しました",
+    "banConfiguration": "禁止設定"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "懲戒点数",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "特定のランク",
     "autoJoinDisabled": "自動参加が無効",
     "autoJoinRanks": "自動参加するランク",
-    "autoJoinRanksEmpty": "参加の同期は選択したランクでのみ機能しますが、選択されているランクがありません！"
+    "autoJoinRanksEmpty": "参加の同期は選択したランクでのみ機能しますが、選択されているランクがありません！",
+    "communityMembersAutomaticallyJoinSonoran": "コミュニティメンバーはCMSに参加すると自動的にSonoran Radioに参加します",
+    "communityMembersAutomaticallyKickSonoran": "コミュニティメンバーはCMSを離れたときに自動的にSonoran Radioから退出/キックされます"
   },
   "RadioPermSelector": {
     "setRadio": "無線を設定"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "禁止設定"
+  },
+  "BanConfiguration": {
+    "permanent": "永久",
+    "temporary": "一時的",
+    "daysAheadToExpire": "期限が切れるまでの日数",
+    "banExpiration": "禁止の期限",
+    "close": "閉じる",
+    "applyBan": "禁止を適用する"
   }
 }

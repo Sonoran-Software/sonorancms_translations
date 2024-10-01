@@ -108,7 +108,9 @@
         "replyModExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом отвечать на отправленную форму этого типа, если настройки ответов позволяют базовые или модераторские ответы.",
         "replyAdminExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом отвечать на отправленную форму этого типа, если настройки ответов позволяют базовые, модераторские или администраторские ответы.",
         "submitExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом отправлять форму этого типа.",
-        "adminDeleteExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом полностью удалить отправленную форму."
+        "adminDeleteExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом полностью удалить отправленную форму.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом просматривать этот список.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Пользователь успешно разархивирован:",
     "successfullyUnarchivedUser": "Синхронизация Sonoran CAD: Возникла проблема с синхронизацией с вашим сообществом Sonoran CAD.",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "был обновлен!",
-    "disciplinaryPoint": "Дисциплинарный балл"
+    "disciplinaryPoint": "Дисциплинарный балл",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "У вас нет разрешения на изменение отображаемого имени.",
+    "permanent": "Постоянный",
+    "temporary": "Временный"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Произошла неожиданная ошибка при использовании пустого шаблона, если это повторится, свяжитесь с поддержкой.",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Произошла неожиданная ошибка при использовании шаблона, если это повторится, свяжитесь с поддержкой.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Произошла ошибка при сохранении, попробуйте еще раз.",
-    "anErrorOccuredWhileSavingTryAgain": "Учебник по сокращению URL"
+    "anErrorOccuredWhileSavingTryAgain": "Учебник по сокращению URL",
+    "nameFormat": "Формат имени"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Узнайте, как создавать короткие URL для вашего сообщества",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Отправка на",
     "submissionOn": "Уведомление",
     "activeDisciplinaryPoints": "Активные дисциплинарные баллы",
-    "viewDisciplinary": "Просмотреть дисциплинарные меры"
+    "viewDisciplinary": "Просмотреть дисциплинарные меры",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "У вас нет прав на изменение вашего отображаемого имени."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Входящие",
@@ -1648,7 +1655,12 @@
     "invalidDate": "Нажмите, чтобы отключить переопределение условного значения",
     "clickToDisableConditionalFormatValueBein": "Нажмите, чтобы переопределить условное значение",
     "clickToOverrideConditionalFormatValue": "Значение было переопределено вручную, игнорируя установленные условные значения.",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Кнопка"
+    "valueHasBeenOverwrittenByAManualValueIgn": "Кнопка",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "У вас нет прав на управление трекером активности в этом составе.",
+    "server": "Сервер:",
+    "start": "Начать:",
+    "end": "Конец",
+    "noServer": "Нет имени сервера"
   },
   "ToolbarLinks": {
     "button": "Выпадающее меню",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "Количество уникальных посетителей на главной странице",
     "growthnumberofuniquevisitorsonthehomepag": "Количество уникальных посетителей на странице 'О нас'",
     "growthnumberofuniquevisitorsontheaboutpa": "Количество уникальных посетителей на странице вашего сообщества",
-    "growthnumberofuniquevisitorsonyourcommun": "Встроить"
+    "growthnumberofuniquevisitorsonyourcommun": "Встроить",
+    "growthprevious": "Предыдущий"
   },
   "embedBuilder": {
     "commonembed": "Удалить встроенный элемент",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "Применить указанные баллы из обязательного числового поля",
     "applyFixedPoints": "Назначить фиксированное количество очков",
     "current": "Текущий:",
-    "clickTo": "Нажмите, чтобы:"
+    "clickTo": "Нажмите, чтобы:",
+    "banConfiguration": "Конфигурация запрета"
   },
   "FormSectionEditor": {
     "required": "Заголовок раздела",
@@ -4152,24 +4166,35 @@
     "modifyShield": "Изменить Sonoran Shield",
     "modifyProfileFields": "Изменить поля профиля",
     "securityCenter": "Центр безопасности",
-    "securityCenterManageFlags": "Управление флажками безопасности",
-    "assetsRootAccess": "Доступ к корневым активам Drive",
+    "securityCenterManageFlags": "Управление флагами безопасности",
+    "assetsRootAccess": "Доступ к корневому каталогу Drive Assets",
     "manageCadIntegration": "Управление интеграцией CAD",
     "growthCenter": "Центр роста",
-    "shortUrls": "Короткие URL-адреса",
-    "modifyDocuments": "Редактировать документы",
+    "shortUrls": "Короткие ссылки",
+    "modifyDocuments": "Изменить документы",
     "modifyTeamSpeak": "Изменить TeamSpeak",
-    "kickUser": "Удалить пользователей",
-    "banUser": "Забанить пользователей",
+    "kickUser": "Исключить пользователей",
+    "banUser": "Заблокировать пользователей",
     "archiveUser": "Архивировать пользователя",
     "changePermissions": "Изменить разрешения",
+    "changePermissionsHigher": "Изменить Высшие Разрешения",
     "modifyComInfo": "Изменить Настройку Сообщества",
-    "modifyComDepts": "Изменить отделы через менеджера",
-    "modifyComForms": "Изменение пользовательских форм через редактор",
-    "modifyComRosters": "Изменить настраиваемые списки через редактор",
+    "modifyComDepts": "Изменить отделы через менеджер",
+    "modifyComForms": "Изменить пользовательские формы через редактор",
+    "modifyComRosters": "Изменить пользовательские списки через редактор",
     "modifyDiscordHooks": "Изменить вебхуки логирования Discord",
-    "modifyIntegration": "Изменить интеграцию API",
-    "changeHigherPermissions": "Изменить высшие разрешения"
+    "modifyIntegration": "Изменить API интеграцию",
+    "changeHigherPermissions": "Изменить повышенные разрешения",
+    "changeOwnDisplayName": "Изменить отображаемое имя",
+    "allowsMembersToManageOwnDisplayName": "Позволяет участникам управлять своим отображаемым именем.",
+    "changeOtherDisplayName": "Изменить отображаемое имя пользователя",
+    "allowsMembersToManageOtherDisplayName": "Позволяет участникам управлять отображаемыми именами других участников.",
+    "manageActivityTracker": "Управление трекером активности",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Позволяет участникам редактировать журналы трекера активности в этом составе.",
+    "ModifyToolbar": "Изменить панель инструментов",
+    "modifyPages": "Изменить страницы",
+    "clockInOut": "Вход и выход",
+    "disciplinaryPanel": "Дисциплинарная комиссия"
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Не выбрано рангов для добавления к аккаунтам",
     "ranksToRemove": "рангиДляУдаления",
     "noRanksSelectedToBeRemovedFromAccounts": "не выбрано званий для удаления из учетных записей",
-    "sonoranBotEncounteredAnIssue": "SonoranBot столкнулся с проблемой"
+    "sonoranBotEncounteredAnIssue": "SonoranBot столкнулся с проблемой",
+    "banConfiguration": "Настройка бана"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "дисциплинарныеБаллы",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "Определенные Звания",
     "autoJoinDisabled": "Автоматическое присоединение отключено",
     "autoJoinRanks": "Ранги, которые автоматически присоединяются",
-    "autoJoinRanksEmpty": "Синхронизация при присоединении работает только для выбранных вами рангов, но ни один не выбран!"
+    "autoJoinRanksEmpty": "Синхронизация при присоединении работает только для выбранных вами рангов, но ни один не выбран!",
+    "communityMembersAutomaticallyJoinSonoran": "Участники сообщества автоматически присоединяются к Sonoran Radio, когда они присоединяются к CMS",
+    "communityMembersAutomaticallyKickSonoran": "Члены сообщества автоматически выходят/исключаются из Sonoran Radio, когда выходят из CMS"
   },
   "RadioPermSelector": {
     "setRadio": "установить Радио"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "конфигурацияБана"
+  },
+  "BanConfiguration": {
+    "permanent": "постоянный",
+    "temporary": "временный",
+    "daysAheadToExpire": "дней до истечения срока",
+    "banExpiration": "истечение срока бана",
+    "close": "Закрыть",
+    "applyBan": "наложить бан"
   }
 }

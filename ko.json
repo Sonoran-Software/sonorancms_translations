@@ -108,7 +108,9 @@
         "replyModExplanation": "이 권한을 부여하면 이 등급의 사용자가 답변 설정이 기본 또는 모드 답변을 허용하는 경우 이 유형의 제출된 양식에 답변할 수 있습니다.",
         "replyAdminExplanation": "이 권한을 부여하면 이 등급의 사용자가 답변 설정이 기본, 모드 또는 관리자 답변을 허용하는 경우 이 유형의 제출된 양식에 답변할 수 있습니다.",
         "submitExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 유형의 양식을 제출할 수 있습니다.",
-        "adminDeleteExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 양식의 제출물을 완전히 삭제할 수 있습니다."
+        "adminDeleteExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 양식의 제출물을 완전히 삭제할 수 있습니다.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 명단을 볼 수 있습니다.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "사용자를 성공적으로 보관 해제했습니다:",
     "successfullyUnarchivedUser": "Sonoran CAD 동기화: Sonoran CAD 커뮤니티와 동기화하는 데 문제가 발생했습니다.",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "업데이트되었습니다!",
-    "disciplinaryPoint": "징계 점수"
+    "disciplinaryPoint": "징계 점수",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "디스플레이 이름을 변경할 권한이 없습니다.",
+    "permanent": "영구",
+    "temporary": "임시"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -1075,7 +1080,8 @@
     "stageTypes": "빈 템플릿을 사용하는 동안 예상치 못한 오류가 발생했습니다. 이 문제가 지속되면 지원팀에 문의하세요.",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "템플릿을 사용하는 동안 예상치 못한 오류가 발생했습니다. 이 문제가 지속되면 지원팀에 문의하세요.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "저장 중 오류가 발생했습니다. 다시 시도하세요.",
-    "anErrorOccuredWhileSavingTryAgain": "URL 단축기 튜토리얼"
+    "anErrorOccuredWhileSavingTryAgain": "URL 단축기 튜토리얼",
+    "nameFormat": "이름 형식"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "제출일",
     "submissionOn": "알림",
     "activeDisciplinaryPoints": "활성 징계 포인트",
-    "viewDisciplinary": "징계 보기"
+    "viewDisciplinary": "징계 보기",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "디스플레이 이름을 변경할 권한이 없습니다."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "받은 편지함",
@@ -1648,7 +1655,12 @@
     "invalidDate": "조건부 형식 값을 재정의하는 것을 비활성화하려면 클릭하세요",
     "clickToDisableConditionalFormatValueBein": "조건부 형식 값을 재정의하려면 클릭하세요",
     "clickToOverrideConditionalFormatValue": "값이 수동 값으로 재정의되어 조건부 값 세트를 무시합니다.",
-    "valueHasBeenOverwrittenByAManualValueIgn": "버튼"
+    "valueHasBeenOverwrittenByAManualValueIgn": "버튼",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "활동 추적기를 이 명단에서 관리할 권한이 없습니다.",
+    "server": "서버:",
+    "start": "시작:",
+    "end": "종료:",
+    "noServer": "서버 이름 없음"
   },
   "ToolbarLinks": {
     "button": "드롭다운",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "홈페이지 페이지의 고유 방문자 수",
     "growthnumberofuniquevisitorsonthehomepag": "소개 페이지의 고유 방문자 수",
     "growthnumberofuniquevisitorsontheaboutpa": "커뮤니티 페이지의 고유 방문자 수",
-    "growthnumberofuniquevisitorsonyourcommun": "임베드"
+    "growthnumberofuniquevisitorsonyourcommun": "임베드",
+    "growthprevious": "이전"
   },
   "embedBuilder": {
     "commonembed": "임베드 제거",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "지정된 포인트를 필수 숫자 필드에 적용",
     "applyFixedPoints": "고정된 포인트 수 적용",
     "current": "현재:",
-    "clickTo": "클릭하여:"
+    "clickTo": "클릭하여:",
+    "banConfiguration": "차단 구성"
   },
   "FormSectionEditor": {
     "required": "조건부",
@@ -4153,23 +4167,34 @@
     "modifyProfileFields": "프로필 필드 수정",
     "securityCenter": "보안 센터",
     "securityCenterManageFlags": "보안 플래그 관리",
-    "assetsRootAccess": "드라이브 자산 루트 접근",
+    "assetsRootAccess": "드라이브 자원 루트 접근",
     "manageCadIntegration": "CAD 통합 관리",
     "growthCenter": "성장 센터",
     "shortUrls": "짧은 URL",
     "modifyDocuments": "문서 수정",
-    "modifyTeamSpeak": "팀스피크 수정",
+    "modifyTeamSpeak": "팀스픽 수정",
     "kickUser": "사용자 추방",
     "banUser": "사용자 차단",
-    "archiveUser": "사용자 보관",
-    "changePermissions": "사용 권한 변경",
-    "modifyComInfo": "커뮤니티 맞춤 설정 수정",
-    "modifyComDepts": "관리자를 통해 부서 수정",
-    "modifyComForms": "편집기를 통해 사용자 지정 양식 수정",
+    "archiveUser": "사용자 보관됨",
+    "changePermissions": "권한 변경",
+    "changePermissionsHigher": "더 높은 권한 변경",
+    "modifyComInfo": "커뮤니티 사용자 정의 수정",
+    "modifyComDepts": "관리자를 통한 부서 수정",
+    "modifyComForms": "편집기를 통해 사용자 정의 양식 수정",
     "modifyComRosters": "편집기를 통해 사용자 지정 명부 수정",
-    "modifyDiscordHooks": "Discord 로깅 웹후크 수정",
+    "modifyDiscordHooks": "디스코드 로깅 웹훅 수정",
     "modifyIntegration": "API 통합 수정",
-    "changeHigherPermissions": "더 높은 권한 변경"
+    "changeHigherPermissions": "더 높은 권한 변경",
+    "changeOwnDisplayName": "표시 이름 변경",
+    "allowsMembersToManageOwnDisplayName": "구성원이 자신의 표시 이름을 관리할 수 있습니다.",
+    "changeOtherDisplayName": "사용자 표시 이름 변경",
+    "allowsMembersToManageOtherDisplayName": "구성원이 다른 구성원의 표시 이름을 관리할 수 있도록 합니다.",
+    "manageActivityTracker": "활동 추적기 관리",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "이 명단에서 멤버가 활동 추적기 로그를 편집할 수 있습니다.",
+    "ModifyToolbar": "도구 모음 수정",
+    "modifyPages": "페이지 수정",
+    "clockInOut": "출퇴근 기록",
+    "disciplinaryPanel": "징계 위원회"
   },
   "permissionToggleGroup": {
     "inherited": "상속된"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "추가할 계정에 선택된 직급 없음",
     "ranksToRemove": "제거할 등급",
     "noRanksSelectedToBeRemovedFromAccounts": "계정에서 제거할 계급이 선택되지 않았습니다",
-    "sonoranBotEncounteredAnIssue": "SonoranBot에 문제가 발생했습니다."
+    "sonoranBotEncounteredAnIssue": "SonoranBot에 문제가 발생했습니다.",
+    "banConfiguration": "밴 구성"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "징계 점수",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "특정 계급",
     "autoJoinDisabled": "자동 참여 비활성화됨",
     "autoJoinRanks": "자동 가입 등급",
-    "autoJoinRanksEmpty": "동기화 참여는 선택한 계급에서만 작동하지만, 선택한 계급이 없습니다!"
+    "autoJoinRanksEmpty": "동기화 참여는 선택한 계급에서만 작동하지만, 선택한 계급이 없습니다!",
+    "communityMembersAutomaticallyJoinSonoran": "커뮤니티 회원은 CMS에 가입할 때 자동으로 Sonoran Radio에 가입합니다",
+    "communityMembersAutomaticallyKickSonoran": "커뮤니티 구성원이 CMS를 떠나면 Sonoran Radio에서 자동으로 나가거나 강제 퇴장됩니다."
   },
   "RadioPermSelector": {
     "setRadio": "라디오 설정"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "차단 구성"
+  },
+  "BanConfiguration": {
+    "permanent": "영구적",
+    "temporary": "임시",
+    "daysAheadToExpire": "만료될_날짜_앞",
+    "banExpiration": "밴 만료",
+    "close": "닫기",
+    "applyBan": "밴 적용"
   }
 }

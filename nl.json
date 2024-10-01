@@ -108,7 +108,9 @@
         "replyModExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om te reageren op een ingediend formulier van dit type als de antwoordinstellingen basis- of mod-antwoorden toestaan.",
         "replyAdminExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om te reageren op een ingediend formulier van dit type als de antwoordinstellingen basis-, mod- of admin-antwoorden toestaan.",
         "submitExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om een formulier van dit type in te dienen.",
-        "adminDeleteExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om een inzending van dit formulier volledig te verwijderen."
+        "adminDeleteExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om een inzending van dit formulier volledig te verwijderen.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om deze lijst te bekijken.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Er is een fout opgetreden bij het de-archiveren van de gebruiker.",
     "successfullyUnarchivedUser": "Gebruiker succesvol gearchiveerd:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: Er was een probleem met het synchroniseren met je Sonoran CAD-community.",
-    "disciplinaryPoint": "Disciplinair Punt"
+    "disciplinaryPoint": "Disciplinair Punt",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "U hebt geen rechten om uw weergavenaam te wijzigen.",
+    "permanent": "Permanent",
+    "temporary": "Tijdelijk"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Podiumtype(n)",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Er is een onverwachte fout opgetreden bij het gebruik van een lege sjabloon, neem contact op met de ondersteuning als dit aanhoudt.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Er is een onverwachte fout opgetreden bij het gebruik van een sjabloon, neem contact op met de ondersteuning als dit aanhoudt.",
-    "anErrorOccuredWhileSavingTryAgain": "Er is een fout opgetreden tijdens het opslaan, probeer het opnieuw."
+    "anErrorOccuredWhileSavingTryAgain": "Er is een fout opgetreden tijdens het opslaan, probeer het opnieuw.",
+    "nameFormat": "Naamformaat"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-verkorter Tutorial",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Waarschuwing: Je wordt nog steeds genoemd als de auteur van dit formulier",
     "submissionOn": "Inzending op",
     "activeDisciplinaryPoints": "Actieve disciplinaire punten",
-    "viewDisciplinary": "Disciplinaire bekijken"
+    "viewDisciplinary": "Disciplinaire bekijken",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Je hebt geen toestemming om je weergavenaam te wijzigen."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Melding",
@@ -1648,7 +1655,12 @@
     "invalidDate": "Ongeldige datum",
     "clickToDisableConditionalFormatValueBein": "Klik om voorwaardelijke opmaakwaarde te deactiveren",
     "clickToOverrideConditionalFormatValue": "Klik om voorwaardelijke opmaakwaarde te overschrijven",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Waarde is overschreven door een handmatige waarde, negeert voorwaardelijke waarde-instellingen."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Waarde is overschreven door een handmatige waarde, negeert voorwaardelijke waarde-instellingen.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Je hebt geen rechten om de activiteitstracker in dit rooster te beheren.",
+    "server": "Server:",
+    "start": "Start:",
+    "end": "Einde",
+    "noServer": "Geen servernaam"
   },
   "ToolbarLinks": {
     "button": "Knop",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "Aantal inzendingen van personeelsaanvragen",
     "growthnumberofuniquevisitorsonthehomepag": "Aantal unieke bezoekers op de Homepage",
     "growthnumberofuniquevisitorsontheaboutpa": "Aantal unieke bezoekers op de Over-pagina",
-    "growthnumberofuniquevisitorsonyourcommun": "Aantal unieke bezoekers op de Communitypagina"
+    "growthnumberofuniquevisitorsonyourcommun": "Aantal unieke bezoekers op de Communitypagina",
+    "growthprevious": "Vorige"
   },
   "embedBuilder": {
     "commonembed": "Insluiten",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "Pas gespecificeerde punten toe vanuit een verplicht numeriek veld",
     "applyFixedPoints": "Pas een vast aantal punten toe",
     "current": "Huidig:",
-    "clickTo": "Klik om te:"
+    "clickTo": "Klik om te:",
+    "banConfiguration": "Banconfiguratie"
   },
   "FormSectionEditor": {
     "required": "Vereist",
@@ -4149,27 +4163,38 @@
     "allowsMembersToChangeStageSettings": "Hiermee kunnen leden de podiuminstellingen voor deze formulier sjabloon wijzigen binnen het Formulierbeheer in het Administratieve Paneel.",
     "manageRadioIntegration": "Beheer radio-integratie",
     "allowsMembersToManageRadioIntegrationSetti": "Hiermee kunnen leden de Radio-integratie-instellingen beheren in het beheerpaneel.",
-    "modifyShield": "Wijzig Sonoran Shield",
-    "modifyProfileFields": "Wijzig profielvelden",
+    "modifyShield": "Sonoran Shield aanpassen",
+    "modifyProfileFields": "Profielvelden wijzigen",
     "securityCenter": "Beveiligingscentrum",
-    "securityCenterManageFlags": "Beveiligingsvlaggen Beheren",
-    "assetsRootAccess": "Drive Assets Root Toegang",
+    "securityCenterManageFlags": "Beheer Beveiligingsvlaggen",
+    "assetsRootAccess": "Drive-assets hoofdtoegang",
     "manageCadIntegration": "Beheer CAD-integratie",
     "growthCenter": "Groei Centrum",
     "shortUrls": "Korte URL's",
-    "modifyDocuments": "Documenten wijzigen",
-    "modifyTeamSpeak": "Wijzig TeamSpeak",
+    "modifyDocuments": "Documenten Wijzigen",
+    "modifyTeamSpeak": "TeamSpeak wijzigen",
     "kickUser": "Gebruikers Verwijderen",
     "banUser": "Gebruikers Verbannen",
-    "archiveUser": "Gearchiveerde Gebruiker",
-    "changePermissions": "Machtigingen Wijzigen",
-    "modifyComInfo": "Pas Gemeenschapsaanpassing aan",
-    "modifyComDepts": "Afdelingen wijzigen via Manager",
-    "modifyComForms": "Formulieren aanpassen via Editor",
-    "modifyComRosters": "Pas aangepaste roosters aan via editor",
-    "modifyDiscordHooks": "Wijzig Discord Logging Webhooks",
+    "archiveUser": "Gebruiker Archiveren",
+    "changePermissions": "Wijzig Machtigingen",
+    "changePermissionsHigher": "Wijzig hogere machtigingen",
+    "modifyComInfo": "Wijzig community-aanpassing",
+    "modifyComDepts": "Wijzig afdelingen via Manager",
+    "modifyComForms": "Wijzig aangepaste formulieren via editor",
+    "modifyComRosters": "Aanpassen van Aangepaste Roosters via Editor",
+    "modifyDiscordHooks": "Wijzigen van Discord Logging Webhooks",
     "modifyIntegration": "API-integratie wijzigen",
-    "changeHigherPermissions": "Hogere machtigingen wijzigen"
+    "changeHigherPermissions": "Wijzig Hogere Machtigingen",
+    "changeOwnDisplayName": "Weergavenaam Wijzigen",
+    "allowsMembersToManageOwnDisplayName": "Stelt leden in staat om hun eigen weergavenaam te beheren.",
+    "changeOtherDisplayName": "Gebruikersnaam wijzigen",
+    "allowsMembersToManageOtherDisplayName": "Staat leden toe de weergavenaam van andere leden te beheren.",
+    "manageActivityTracker": "Beheer Activiteit Tracker",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Hiermee kunnen leden Activity Tracker-logboeken op deze rooster bewerken.",
+    "ModifyToolbar": "Werkbalk Wijzigen",
+    "modifyPages": "Wijzig pagina's",
+    "clockInOut": "In- en uitklokken",
+    "disciplinaryPanel": "Disciplinaire Commissie"
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Er zijn geen rangen geselecteerd om aan accounts toe te voegen",
     "ranksToRemove": "rangenOmTeVerwijderen",
     "noRanksSelectedToBeRemovedFromAccounts": "Geen rangen geselecteerd om van accounts te verwijderen",
-    "sonoranBotEncounteredAnIssue": "sonoranBotHeeftEenProbleemOndervonden"
+    "sonoranBotEncounteredAnIssue": "sonoranBotHeeftEenProbleemOndervonden",
+    "banConfiguration": "Banconfiguratie"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinairepunten",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "Specifieke rangen",
     "autoJoinDisabled": "Automatisch Meedoen Uitgeschakeld",
     "autoJoinRanks": "Rangen die automatisch deelnemen",
-    "autoJoinRanksEmpty": "Deelnemen synchronisatie werkt alleen voor de rangen die je selecteert, maar je hebt geen rangen geselecteerd!"
+    "autoJoinRanksEmpty": "Deelnemen synchronisatie werkt alleen voor de rangen die je selecteert, maar je hebt geen rangen geselecteerd!",
+    "communityMembersAutomaticallyJoinSonoran": "Community-leden worden automatisch lid van Sonoran Radio wanneer ze lid worden van CMS",
+    "communityMembersAutomaticallyKickSonoran": "Communityleden verlaten/worden automatisch verwijderd uit Sonoran Radio wanneer ze CMS verlaten"
   },
   "RadioPermSelector": {
     "setRadio": "instellenRadio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "verbanningConfiguratie"
+  },
+  "BanConfiguration": {
+    "permanent": "permanent",
+    "temporary": "tijdelijk",
+    "daysAheadToExpire": "dagen tot vervaldatum",
+    "banExpiration": "banVerloop",
+    "close": "sluiten",
+    "applyBan": "toepassingBlokkeer"
   }
 }

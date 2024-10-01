@@ -108,7 +108,9 @@
         "replyModExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å svare på et innsendt skjema av denne typen hvis svarinnstillingene tillater grunnleggende eller moderator-svar.",
         "replyAdminExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å svare på et innsendt skjema av denne typen hvis svarinnstillingene tillater grunnleggende, moderator- eller administrator-svar.",
         "submitExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å sende inn et skjema av denne typen.",
-        "adminDeleteExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å slette en innsending av dette skjemaet fullstendig."
+        "adminDeleteExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å slette en innsending av dette skjemaet fullstendig.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å se denne listen.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "En feil oppstod under avarkivering av bruker.",
     "successfullyUnarchivedUser": "Bruker ble avarkivert:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: Det oppstod et problem med synkronisering til ditt Sonoran CAD-samfunn.",
-    "disciplinaryPoint": "Disiplinpoeng"
+    "disciplinaryPoint": "Disiplinpoeng",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Du har ikke tillatelse til å endre visningsnavnet ditt.",
+    "permanent": "Permanent",
+    "temporary": "Midlertidig"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Veiledning",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Stadietype(r)",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "En uventet feil oppstod ved bruk av en tom mal, kontakt support hvis dette vedvarer.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "En uventet feil oppstod ved bruk av en mal, kontakt support hvis dette vedvarer.",
-    "anErrorOccuredWhileSavingTryAgain": "En feil oppstod under lagring, prøv igjen."
+    "anErrorOccuredWhileSavingTryAgain": "En feil oppstod under lagring, prøv igjen.",
+    "nameFormat": "Navneformat"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-forkorter Veiledning",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Advarsel: Du er fortsatt oppført som forfatter av dette skjemaet",
     "submissionOn": "Innsending på",
     "activeDisciplinaryPoints": "Aktive disiplinærpoeng",
-    "viewDisciplinary": "Se disiplinærtiltak"
+    "viewDisciplinary": "Se disiplinærtiltak",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Du har ikke tillatelse til å endre visningsnavnet ditt."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Varsel",
@@ -1648,7 +1655,12 @@
     "invalidDate": "Ugyldig dato",
     "clickToDisableConditionalFormatValueBein": "Klikk for å deaktivere betinget formatverdi som blir overstyrt",
     "clickToOverrideConditionalFormatValue": "Klikk for å overstyre betinget formatverdi",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Verdi har blitt overstyrt av en manuell verdi, ignorerer betingede verdier."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Verdi har blitt overstyrt av en manuell verdi, ignorerer betingede verdier.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Du har ikke tillatelse til å administrere aktivitetsfølgeren på denne listen.",
+    "server": "Server:",
+    "start": "Start:",
+    "end": "Slutt",
+    "noServer": "Ingen servernavn"
   },
   "ToolbarLinks": {
     "button": "Knapp",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "Antall innsendinger av søknader for ansatte",
     "growthnumberofuniquevisitorsonthehomepag": "Antall unike besøkende på Hjemmesiden",
     "growthnumberofuniquevisitorsontheaboutpa": "Antall unike besøkende på Om-siden",
-    "growthnumberofuniquevisitorsonyourcommun": "Antall unike besøkende på Din Samfunnsside"
+    "growthnumberofuniquevisitorsonyourcommun": "Antall unike besøkende på Din Samfunnsside",
+    "growthprevious": "Forrige"
   },
   "embedBuilder": {
     "commonembed": "Bygg inn",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "Bruk angitte poeng fra et påkrevd nummerfelt",
     "applyFixedPoints": "Bruk et fast antall poeng",
     "current": "Nåværende:",
-    "clickTo": "Klikk for:"
+    "clickTo": "Klikk for:",
+    "banConfiguration": "Ban Konfigurasjon"
   },
   "FormSectionEditor": {
     "required": "Påkrevd",
@@ -4150,26 +4164,37 @@
     "manageRadioIntegration": "Administrer radiointegrering",
     "allowsMembersToManageRadioIntegrationSetti": "Lar medlemmene administrere Radio Integration-innstillinger i administrasjonspanelet.",
     "modifyShield": "Endre Sonoran Shield",
-    "modifyProfileFields": "Endre profilfelter",
+    "modifyProfileFields": "Endre profilfelt",
     "securityCenter": "Sikkerhetssenter",
     "securityCenterManageFlags": "Administrer sikkerhetsflagg",
-    "assetsRootAccess": "Kjøreasseter Rottilgang",
+    "assetsRootAccess": "Kjøretilgang til rot for ressurser",
     "manageCadIntegration": "Administrer CAD-integrasjon",
     "growthCenter": "Vekstsenter",
-    "shortUrls": "Korte URLer",
+    "shortUrls": "Korte URL-er",
     "modifyDocuments": "Endre dokumenter",
     "modifyTeamSpeak": "Endre TeamSpeak",
-    "kickUser": "Sperr brukere",
+    "kickUser": "Spark Brukere",
     "banUser": "Utesteng brukere",
     "archiveUser": "Arkiver Bruker",
     "changePermissions": "Endre tillatelser",
+    "changePermissionsHigher": "Endre høyere tillatelser",
     "modifyComInfo": "Endre fellestilpasning",
-    "modifyComDepts": "Endre avdelinger via Manager",
-    "modifyComForms": "Endre egendefinerte skjemaer via editoren",
-    "modifyComRosters": "Endre egendefinerte oppstillinger via redigering",
-    "modifyDiscordHooks": "Endre Discord-loggingswebhooks",
+    "modifyComDepts": "Modifiser avdelinger via Manager",
+    "modifyComForms": "Endre tilpassede skjemaer via redigeringsprogrammet",
+    "modifyComRosters": "Rediger tilpassede lister via redigerer",
+    "modifyDiscordHooks": "Endre Discord-logging-webhooks",
     "modifyIntegration": "Endre API-integrasjon",
-    "changeHigherPermissions": "Endre høyere tillatelser"
+    "changeHigherPermissions": "Endre høyere tillatelser",
+    "changeOwnDisplayName": "Bytt visningsnavn",
+    "allowsMembersToManageOwnDisplayName": "Lar medlemmer administrere sitt eget visningsnavn.",
+    "changeOtherDisplayName": "Endre brukers visningsnavn",
+    "allowsMembersToManageOtherDisplayName": "Tillater medlemmer å administrere andre medlemmers visningsnavn.",
+    "manageActivityTracker": "Administrer aktivitetssporeren",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Lar medlemmer redigere aktivitetslogg på denne listen.",
+    "ModifyToolbar": "Endre verktøylinje",
+    "modifyPages": "Endre sider",
+    "clockInOut": "Stemple inn og ut",
+    "disciplinaryPanel": "Disiplinærpanel"
   },
   "permissionToggleGroup": {
     "inherited": "arvet"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Ingen ranger valgt for å bli lagt til kontoen",
     "ranksToRemove": "grader å fjerne",
     "noRanksSelectedToBeRemovedFromAccounts": "Ingen rangering valgt for å fjernes fra kontoer",
-    "sonoranBotEncounteredAnIssue": "sonoranBotHarStøttPåEtProblem"
+    "sonoranBotEncounteredAnIssue": "sonoranBotHarStøttPåEtProblem",
+    "banConfiguration": "Utestengingskonfigurasjon"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinpoeng",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "Spesifikke rangeringer",
     "autoJoinDisabled": "Automatisk pålogging deaktivert",
     "autoJoinRanks": "Rangering som automatisk blir med",
-    "autoJoinRanksEmpty": "Join-synkronisering fungerer bare for rangene du velger, men du har ikke valgt noen!"
+    "autoJoinRanksEmpty": "Join-synkronisering fungerer bare for rangene du velger, men du har ikke valgt noen!",
+    "communityMembersAutomaticallyJoinSonoran": "Medlemmer av fellesskapet blir automatisk med i Sonoran Radio når de blir med i CMS",
+    "communityMembersAutomaticallyKickSonoran": "Medlemmer av fellesskapet forlater/er automatisk ekskludert fra Sonoran Radio når de forlater CMS"
   },
   "RadioPermSelector": {
     "setRadio": "setteRadio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "banKonfigurasjon"
+  },
+  "BanConfiguration": {
+    "permanent": "permanent",
+    "temporary": "midlertidig",
+    "daysAheadToExpire": "dagerTilUtløp",
+    "banExpiration": "utløp av utestengelse",
+    "close": "lukk",
+    "applyBan": "anvendeUtestengelse"
   }
 }

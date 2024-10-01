@@ -108,7 +108,9 @@
         "replyModExplanation": "Tämän luvan myöntäminen sallii tämän tason käyttäjän vastata lähetettyyn tämän tyyppiseen lomakkeeseen, jos vastausasetukset sallivat Perus- tai Mod-vastaukset.",
         "replyAdminExplanation": "Tämän luvan myöntäminen sallii tämän tason käyttäjän vastata lähetettyyn tämän tyyppiseen lomakkeeseen, jos vastausasetukset sallivat Perus-, Mod- tai Admin-vastaukset.",
         "submitExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän lähettää tämän tyyppisen lomakkeen.",
-        "adminDeleteExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän poistaa tämän lomakkeen lähetyksen kokonaan."
+        "adminDeleteExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän poistaa tämän lomakkeen lähetyksen kokonaan.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän tarkastella tätä luetteloa.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "Tapahtui virhe käyttäjän arkistoinnin purkamisessa.",
     "successfullyUnarchivedUser": "Käyttäjä arkistoitiin onnistuneesti:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD -synkronointi: Tapahtui ongelma synkronoinnissa Sonoran CAD -yhteisöösi.",
-    "disciplinaryPoint": "Kurinpiste"
+    "disciplinaryPoint": "Kurinpiste",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Sinulla ei ole oikeuksia muuttaa näyttönimeäsi.",
+    "permanent": "Pysyvä",
+    "temporary": "Väliaikainen"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -1075,7 +1080,8 @@
     "stageTypes": "Vaihetyyppi(t)",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Odottamaton virhe tapahtui tyhjää mallia käytettäessä, jos tämä jatkuu, ota yhteyttä tukeen.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Odottamaton virhe tapahtui mallia käytettäessä, jos tämä jatkuu, ota yhteyttä tukeen.",
-    "anErrorOccuredWhileSavingTryAgain": "Tapahtui virhe tallennettaessa, yritä uudelleen."
+    "anErrorOccuredWhileSavingTryAgain": "Tapahtui virhe tallennettaessa, yritä uudelleen.",
+    "nameFormat": "Nimen muoto"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-lyhentimen opas",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "Varoitus: Olet edelleen nimetty tämän lomakkeen tekijäksi",
     "submissionOn": "Lähetys",
     "activeDisciplinaryPoints": "Aktiiviset kurinpitopisteet",
-    "viewDisciplinary": "Näytä kurinpitotoimet"
+    "viewDisciplinary": "Näytä kurinpitotoimet",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "Sinulla ei ole oikeuksia muuttaa näyttönimeäsi."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "Ilmoitus",
@@ -1648,7 +1655,12 @@
     "invalidDate": "Virheellinen päivämäärä",
     "clickToDisableConditionalFormatValueBein": "Klikkaa poistaaksesi ehdollisen muotoiluarvon ohituksen",
     "clickToOverrideConditionalFormatValue": "Klikkaa ohittaaksesi ehdollisen muotoiluarvon",
-    "valueHasBeenOverwrittenByAManualValueIgn": "Arvo on ohitettu manuaalisella arvolla, jättäen huomioimatta ehdolliset arvot."
+    "valueHasBeenOverwrittenByAManualValueIgn": "Arvo on ohitettu manuaalisella arvolla, jättäen huomioimatta ehdolliset arvot.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Sinulla ei ole oikeuksia hallita aktiivisuusseurantaa tällä kokoonpanolla.",
+    "server": "Palvelin:",
+    "start": "Aloita:",
+    "end": "Loppu",
+    "noServer": "Ei palvelimen nimeä"
   },
   "ToolbarLinks": {
     "button": "Painike",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "Henkilöstöhakemusten lähetyksien määrä",
     "growthnumberofuniquevisitorsonthehomepag": "Yksilöllisten kävijöiden määrä etusivulla",
     "growthnumberofuniquevisitorsontheaboutpa": "Yksilöllisten kävijöiden määrä Tietoja-sivulla",
-    "growthnumberofuniquevisitorsonyourcommun": "Yksilöllisten kävijöiden määrä Yhteisösi sivulla"
+    "growthnumberofuniquevisitorsonyourcommun": "Yksilöllisten kävijöiden määrä Yhteisösi sivulla",
+    "growthprevious": "Edellinen"
   },
   "embedBuilder": {
     "commonembed": "Upota",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "Käytä määritetyt pisteet pakollisesta numerokentästä",
     "applyFixedPoints": "Sovella kiinteä määrä pisteitä",
     "current": "Nykyinen:",
-    "clickTo": "Klikkaa:"
+    "clickTo": "Klikkaa:",
+    "banConfiguration": "Määritysten kieltäminen"
   },
   "FormSectionEditor": {
     "required": "Vaadittu",
@@ -4149,27 +4163,38 @@
     "allowsMembersToChangeStageSettings": "Antaa jäsenille mahdollisuuden muuttaa tämän lomakepohjan vaiheen asetuksia Lomakkeiden hallinnassa hallintapaneelissa.",
     "manageRadioIntegration": "Hallinnoi radiaintegraatiota",
     "allowsMembersToManageRadioIntegrationSetti": "Mahdollistaa jäsenten hallita Radio-integraatioasetuksia hallintapaneelissa.",
-    "modifyShield": "Muokkaa Sonoran Shield",
+    "modifyShield": "Muokkaa Sonoran Shieldia",
     "modifyProfileFields": "Muokkaa profiilikenttiä",
-    "securityCenter": "Turvallisuuskeskus",
-    "securityCenterManageFlags": "Hallitse tietoturvalippuja",
-    "assetsRootAccess": "Aja käyttöoikeuksia juuritason tiedostoihin",
+    "securityCenter": "Tietoturvan keskus",
+    "securityCenterManageFlags": "Hallitse turvallisuuslippuja",
+    "assetsRootAccess": "Aja Oikeus Varojen Pääsyyn",
     "manageCadIntegration": "Hallitse CAD-integraatiota",
     "growthCenter": "Kasvukeskus",
     "shortUrls": "Lyhyet URL-osoitteet",
     "modifyDocuments": "Muokkaa asiakirjoja",
     "modifyTeamSpeak": "Muokkaa TeamSpeakia",
-    "kickUser": "Käyttäjien poistaminen",
+    "kickUser": "Potki käyttäjiä",
     "banUser": "Käyttäjien estäminen",
     "archiveUser": "Arkistoi käyttäjä",
-    "changePermissions": "Muuta oikeuksia",
-    "modifyComInfo": "Muokkaa yhteisön mukauttamista",
+    "changePermissions": "Muokkaa oikeuksia",
+    "changePermissionsHigher": "Muuta korkeampia käyttöoikeuksia",
+    "modifyComInfo": "Muokkaa yhteisön mukautusta",
     "modifyComDepts": "Muokkaa osastoja hallinnan kautta",
-    "modifyComForms": "Muokkaa mukautettuja lomakkeita editorin kautta",
-    "modifyComRosters": "Muokkaa mukautettuja kokoonpanoja editorin kautta",
-    "modifyDiscordHooks": "Muokkaa Discord-lokituksen Webhookeja",
+    "modifyComForms": "Muokkaa mukautettuja lomakkeita editorissa",
+    "modifyComRosters": "Muokkaa mukautettuja kokoonpanoja editorissa",
+    "modifyDiscordHooks": "Muokkaa Discord-lokitietojen web-koukkuja",
     "modifyIntegration": "Muokkaa API-integraatiota",
-    "changeHigherPermissions": "Vaihda korkeammat käyttöoikeudet"
+    "changeHigherPermissions": "Muuta korkeamman tason käyttöoikeuksia",
+    "changeOwnDisplayName": "Vaihda näyttönimeä",
+    "allowsMembersToManageOwnDisplayName": "Antaa jäsenille mahdollisuuden hallita omia näyttönimiään.",
+    "changeOtherDisplayName": "Vaihda käyttäjän näyttönimi",
+    "allowsMembersToManageOtherDisplayName": "Sallii jäsenien hallita muiden jäsenten näyttönimeä.",
+    "manageActivityTracker": "Hallitse aktiivisuusseurantaa",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Sallii jäsenten muokata toimintaseurannan lokit tässä luettelossa.",
+    "ModifyToolbar": "Muokkaa työkalupalkkia",
+    "modifyPages": "Muokkaa sivuja",
+    "clockInOut": "Kello Sisään & Ulos",
+    "disciplinaryPanel": "Kurinpitoelin"
   },
   "permissionToggleGroup": {
     "inherited": "peritty"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Ei lisättäviä sijoituksia valittuna tileille",
     "ranksToRemove": "arvotPoistettavaksi",
     "noRanksSelectedToBeRemovedFromAccounts": "mitään arvoja ei valittu poistettavaksi tileiltä",
-    "sonoranBotEncounteredAnIssue": "sonoranBotilla ilmeni ongelma"
+    "sonoranBotEncounteredAnIssue": "sonoranBotilla ilmeni ongelma",
+    "banConfiguration": "Määräys asetukset"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "kurinpidollisetPisteet",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "Tietyt arvot",
     "autoJoinDisabled": "Automaattinen liittyminen pois käytöstä",
     "autoJoinRanks": "Arvot, jotka liittyvät automaattisesti",
-    "autoJoinRanksEmpty": "Liittymisen synkronointi toimii vain valitsemasi kokoon, mutta et ole valinnut yhtään!"
+    "autoJoinRanksEmpty": "Liittymisen synkronointi toimii vain valitsemasi kokoon, mutta et ole valinnut yhtään!",
+    "communityMembersAutomaticallyJoinSonoran": "Yhteisön jäsenet liittyvät automaattisesti Sonoran Radioon, kun he liittyvät CMS:ään",
+    "communityMembersAutomaticallyKickSonoran": "Yhteisön jäsenet poistuvat automaattisesti tai heidät poistetaan Sonoran Radiosta, kun he lähtevät CMS:stä"
   },
   "RadioPermSelector": {
     "setRadio": "asetaRadio"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "kieltoasetukset"
+  },
+  "BanConfiguration": {
+    "permanent": "pysyvä",
+    "temporary": "väliaikainen",
+    "daysAheadToExpire": "päiviäVanhenemiseen",
+    "banExpiration": "kiellon päättyminen",
+    "close": "sulje",
+    "applyBan": "sovella Kielto"
   }
 }

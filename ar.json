@@ -108,7 +108,9 @@
         "replyModExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية أو ردود المشرفين.",
         "replyAdminExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية، ردود المشرفين، أو ردود المسؤولين.",
         "submitExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتقديم نموذج من هذا النوع.",
-        "adminDeleteExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بحذف تقديم نموذج بالكامل."
+        "adminDeleteExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بحذف تقديم نموذج بالكامل.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
       },
       "rosters": {
         "viewExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض هذه القائمة.",
@@ -923,7 +925,10 @@
     "anErrorOccuredWhileUnarchivingUser": "حدث خطأ أثناء إلغاء أرشفة المستخدم.",
     "successfullyUnarchivedUser": "تم إلغاء أرشفة المستخدم بنجاح:",
     "sonoranCadSyncThereWasAnIssueWithSyncing": "مزامنة Sonoran CAD: كانت هناك مشكلة في المزامنة مع مجتمع Sonoran CAD الخاص بك.",
-    "disciplinaryPoint": "نقطة تأديبية"
+    "disciplinaryPoint": "نقطة تأديبية",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "ليس لديك الأذونات لتغيير اسم العرض الخاص بك.",
+    "permanent": "دائم",
+    "temporary": "مؤقت"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -1075,7 +1080,8 @@
     "stageTypes": "نوع المرحلة",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "حدث خطأ غير متوقع أثناء استخدام قالب فارغ، إذا استمر هذا فاتصل بالدعم.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "حدث خطأ غير متوقع أثناء استخدام قالب، إذا استمر هذا فاتصل بالدعم.",
-    "anErrorOccuredWhileSavingTryAgain": "حدث خطأ أثناء الحفظ، حاول مرة أخرى."
+    "anErrorOccuredWhileSavingTryAgain": "حدث خطأ أثناء الحفظ، حاول مرة أخرى.",
+    "nameFormat": "تنسيق الاسم"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "دليل تقصير الروابط",
@@ -1627,7 +1633,8 @@
     "warningYouAreStillNamedAsTheAuthorOfThis": "تحذير: لا تزال مسمى كمؤلف لهذا النموذج",
     "submissionOn": "إرسال في",
     "activeDisciplinaryPoints": "النقاط التأديبية النشطة",
-    "viewDisciplinary": "عرض الإجراءات التأديبية"
+    "viewDisciplinary": "عرض الإجراءات التأديبية",
+    "youDoNotHavePermssionsToChangeYourDisplayName": "ليس لديك أذونات لتغيير اسم العرض الخاص بك."
   },
   "specificSubscribedAccountNotificationPreference": {
     "notification": "إشعار",
@@ -1648,7 +1655,12 @@
     "invalidDate": "تاريخ غير صالح",
     "clickToDisableConditionalFormatValueBein": "انقر لتعطيل تجاوز قيمة التنسيق الشرطي",
     "clickToOverrideConditionalFormatValue": "انقر لتجاوز قيمة التنسيق الشرطي",
-    "valueHasBeenOverwrittenByAManualValueIgn": "تم تجاوز القيمة بواسطة قيمة يدوية، متجاهلاً مجموعات القيم الشرطية."
+    "valueHasBeenOverwrittenByAManualValueIgn": "تم تجاوز القيمة بواسطة قيمة يدوية، متجاهلاً مجموعات القيم الشرطية.",
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "ليس لديك الأذونات لإدارة متتبع النشاط في هذه القائمة.",
+    "server": "الخادم:",
+    "start": "ابدأ",
+    "end": "النهاية",
+    "noServer": "لا يوجد اسم خادم"
   },
   "ToolbarLinks": {
     "button": "زر",
@@ -1734,7 +1746,8 @@
     "growthnumberofstaffapplicationsubmission": "عدد طلبات التوظيف المقدمة",
     "growthnumberofuniquevisitorsonthehomepag": "عدد الزوار الفريدين على صفحة الرئيسية",
     "growthnumberofuniquevisitorsontheaboutpa": "عدد الزوار الفريدين على صفحة حول",
-    "growthnumberofuniquevisitorsonyourcommun": "عدد الزوار الفريدين على صفحة مجتمعك"
+    "growthnumberofuniquevisitorsonyourcommun": "عدد الزوار الفريدين على صفحة مجتمعك",
+    "growthprevious": "السابق"
   },
   "embedBuilder": {
     "commonembed": "تضمين",
@@ -3595,7 +3608,8 @@
     "applyReferencedPoints": "تطبيق النقاط المحددة من حقل رقمي مطلوب",
     "applyFixedPoints": "تطبيق عدد ثابت من النقاط",
     "current": "الحالي:",
-    "clickTo": "اضغط ل:"
+    "clickTo": "اضغط ل:",
+    "banConfiguration": "تكوين الحظر"
   },
   "FormSectionEditor": {
     "required": "مطلوب",
@@ -4152,24 +4166,35 @@
     "modifyShield": "تعديل Sonoran Shield",
     "modifyProfileFields": "تعديل حقول الملف الشخصي",
     "securityCenter": "مركز الأمن",
-    "securityCenterManageFlags": "إدارة إشارات الأمان",
-    "assetsRootAccess": "الوصول الجذر لأصول القيادة",
-    "manageCadIntegration": "إدارة تكامل CAD",
+    "securityCenterManageFlags": "إدارة أعلام الأمان",
+    "assetsRootAccess": "وصول جذر أصول القيادة",
+    "manageCadIntegration": "إدارة تكامل الـ CAD",
     "growthCenter": "مركز النمو",
-    "shortUrls": "روابط مختصرة",
+    "shortUrls": "عناوين URL القصيرة",
     "modifyDocuments": "تعديل المستندات",
     "modifyTeamSpeak": "تعديل TeamSpeak",
     "kickUser": "طرد المستخدمين",
     "banUser": "حظر المستخدمين",
     "archiveUser": "أرشفة المستخدم",
     "changePermissions": "تغيير الأذونات",
+    "changePermissionsHigher": "تغيير الأذونات الأعلى",
     "modifyComInfo": "تعديل تخصيص المجتمع",
-    "modifyComDepts": "تعديل الإدارات عبر المدير",
+    "modifyComDepts": "تعديل الأقسام عبر المدير",
     "modifyComForms": "تعديل النماذج المخصصة عبر المحرر",
     "modifyComRosters": "تعديل القوائم المخصصة عبر المحرر",
-    "modifyDiscordHooks": "تعديل مسارات ويب تسجيل Discord",
+    "modifyDiscordHooks": "تعديل روابط تسجيل الدخول على Discord",
     "modifyIntegration": "تعديل تكامل API",
-    "changeHigherPermissions": "تغيير الأذونات الأعلى"
+    "changeHigherPermissions": "تغيير الأذونات الأعلى",
+    "changeOwnDisplayName": "تغيير اسم العرض",
+    "allowsMembersToManageOwnDisplayName": "يُسمح للأعضاء بإدارة اسم العرض الخاص بهم.",
+    "changeOtherDisplayName": "تغيير اسم المستخدم المعروض",
+    "allowsMembersToManageOtherDisplayName": "يسمح للأعضاء بإدارة اسم العرض للأعضاء الآخرين.",
+    "manageActivityTracker": "إدارة متعقب النشاط",
+    "allowsMembersToEditActivityTrackerLogsOnThisRoster": "يسمح للأعضاء بتحرير سجلات تتبع النشاط في هذه القائمة.",
+    "ModifyToolbar": "تعديل شريط الأدوات",
+    "modifyPages": "تعديل الصفحات",
+    "clockInOut": "التسجيل وقت الدخول والخروج",
+    "disciplinaryPanel": "لجنة التأديب"
   },
   "permissionToggleGroup": {
     "inherited": "موروث"
@@ -4203,7 +4228,8 @@
     "noRanksSelectedToBeAddedOnToAccounts": "لم يتم تحديد رُتب لإضافته إلى الحسابات",
     "ranksToRemove": "الرتب لإزالتها",
     "noRanksSelectedToBeRemovedFromAccounts": "لم يتم تحديد الرتب لإزالتها من الحسابات",
-    "sonoranBotEncounteredAnIssue": "واجه SonoranBot مشكلة"
+    "sonoranBotEncounteredAnIssue": "واجه SonoranBot مشكلة",
+    "banConfiguration": "تكوين الحظر"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "النقاط التأديبية",
@@ -4225,9 +4251,22 @@
     "autoJoinSpecific": "رتب محددة",
     "autoJoinDisabled": "تعطيل الانضمام التلقائي",
     "autoJoinRanks": "الرتب التي تنضم تلقائيًا",
-    "autoJoinRanksEmpty": "تزامن الانضمام يعمل فقط للرتب التي تحددها، ولكنك لم تحدد أي رتب!"
+    "autoJoinRanksEmpty": "تزامن الانضمام يعمل فقط للرتب التي تحددها، ولكنك لم تحدد أي رتب!",
+    "communityMembersAutomaticallyJoinSonoran": "أعضاء المجتمع ينضمون تلقائيًا إلى Sonoran Radio عندما ينضمون إلى CMS",
+    "communityMembersAutomaticallyKickSonoran": "يغادر أعضاء المجتمع تلقائيًا / يتم طردهم من Sonoran Radio عند ترك النظام."
   },
   "RadioPermSelector": {
     "setRadio": "تعيين الراديو"
+  },
+  "BanConfigurationDialog": {
+    "banConfiguration": "تكوين الحظر"
+  },
+  "BanConfiguration": {
+    "permanent": "دائم",
+    "temporary": "مؤقت",
+    "daysAheadToExpire": "الأيام المتبقية لانتهاء الصلاحية",
+    "banExpiration": "انتهاء الحظر",
+    "close": "إغلاق",
+    "applyBan": "تطبيق الحظر"
   }
 }
