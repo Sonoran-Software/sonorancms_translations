@@ -718,7 +718,6 @@
     "alreadyApartOfThisCommunityIfYouBelieveT": "Already apart of this community, if you believe this in error contact support.",
     "youAreBannedFromThisCommunity": "You are banned from this community.",
     "successfullyJoinedCommunity": "Successfully joined community!",
-    "cadPermissionsSynced": "CAD Permissions Synced",
     "errorAnErrorOccuredWhileAddingANewClockI": "Error: An error occured while adding a new clock in note.",
     "errorAnErrorOccuredWhiledSavingApiIdPref": "Error: An error occured whiled saving API ID preferences, contact support.",
     "apiIdSelectedToBeEditedIsCorruptedContac": "API ID selected to be edited is corrupted, contact support.",
@@ -750,13 +749,11 @@
     "communitySettings": "Community Settings",
     "apiIds": "API IDs",
     "teamspeak": "TeamSpeak",
-    "cadSync": "CAD Sync",
     "notifications": "Notifications",
     "apiIdsAllowYourAccountToBeUsedWithOurPub": "API IDs allow your account to be used with our public api to further integrate Sonoran CMS into",
     "deleteApiId": "Delete API ID",
     "teamspeak3": "TeamSpeak 3",
     "yourCommunityUsesTeamspeakSupplyYourUidB": "Your community uses TeamSpeak! Supply your UID below to reap the benefits of automatic role sync",
-    "syncYourCadPermissionsAndAccountStatusTo": "Sync your CAD permissions and account status to your community's linked CAD community, this will automatically add you to their CAD community and will sync permissions set from the CMS to the CAD.",
     "notificationPreferences": "Notification Preferences",
     "noClockInNotesCurrently": "No clock in notes currently...",
     "newApi": "New API",
@@ -776,7 +773,10 @@
     "license": "License",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Resync",
+    "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status.",
+    "permissionsSynced": "Permissions Synced"
   },
   "AccountViewer": {
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
@@ -811,7 +811,6 @@
     "commonclose": "Close",
     "accountvieweraccount": "Account",
     "accountviewerjoined": "Joined",
-    "rosterviewprofile": "View Profile",
     "accountskick": "Kick",
     "accountsban": "Ban",
     "commonarchive": "Archive",
@@ -1071,8 +1070,6 @@
     "availableFormatKeysComnameIdentifierUniq": "Available Format Keys: {comName} | {identifier} | {uniqueId}",
     "grantRankOnUserJoin": "Grant Rank on User Join",
     "nameFormat": "Name Format",
-    "allowMembers": "Allow Members",
-    "toCustomizeName": "to Customize Name",
     "invalidDiscordRichPresenceButton2UrlYouC": "Invalid Discord Rich Presence Button #2 URL, you can only use CAD or CMS community invite links. Ex. https://sonorancms.com/comid=SonoranSoftware",
     "sonoranCms": "Sonoran CMS",
     "stageTypes": "Stage Type(s)",
@@ -1174,7 +1171,13 @@
     "permissions": "Permissions",
     "cancel": "Cancel",
     "save": "Save",
-    "unknownRule": "Unknown Rule"
+    "unknownRule": "Unknown Rule",
+    "current": "Current",
+    "currentParameter": "Current Parameter",
+    "week": "Week",
+    "month": "Month",
+    "quarter": "Quarter",
+    "year": "Year"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "This form is unlocked for new Submissions",
@@ -1654,7 +1657,6 @@
     "clickToOverrideConditionalFormatValue": "Click to override conditional format value",
     "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster.",
-    "server": "Server:",
     "start": "Start:",
     "end": "End:",
     "noServer": "No server name"
@@ -3855,7 +3857,9 @@
     "theBackgroundImageWithOutAnyStyling": "The background image with out any styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elements cannot be dropped into a forum section",
     "addSection": "Add Section",
-    "backgroundOptions": "Background Options"
+    "backgroundOptions": "Background Options",
+    "elementsCannotBeMovedIntoARosterSection": "Elements cannot be moved into a roster section",
+    "elementsCannotBeDroppedIntoARosterSection": "Elements cannot be dropped into a roster section"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lock item to this section",
