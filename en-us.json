@@ -775,7 +775,7 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
     "na": "N/A",
     "resync": "Resync",
-    "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status.",
+    "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status to SonoranCAD & Radio.",
     "permissionsSynced": "Permissions Synced"
   },
   "AccountViewer": {
