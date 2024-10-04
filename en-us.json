@@ -1479,7 +1479,12 @@
     "calendar": "Calendar",
     "eventCreation": "Event Creation",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Will notify you when an event is published within this category.",
-    "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:"
+    "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:",
+    "automaticActions": "Automatic Actions",
+    "stageActions": "Stage Actions",
+    "whenAFormStageActionNotificationIsTrigge": "When a form stage action notification is triggered yo'ull be notified through Inbox and other preferences selected.",
+    "disciplinaryActions": "Disciplinary Actions",
+    "whenADisciplinaryActionNotificationIsTri": "When a disciplinary action notification is triggered you'll be notified through Inbox and other preferences selected."
   },
   "profileView": {
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
