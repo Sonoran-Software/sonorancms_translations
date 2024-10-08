@@ -1012,6 +1012,7 @@
     "onJoin": "On Join",
     "nameCustomizations": "Name Customizations",
     "disabledNameCustomizations": "(Customization disabled due to Discord Name Sync Direction)",
+    "formatKeys": "Format Keys",
     "customizationinputsdiscoveryenable": "Enable Community Discovery",
     "customizationtooltipsdiscoveryenable": "This is enable/disable the community for Sonoran CMS's Community Discovery system.",
     "customizationtooltipsenablediscoveryfirs": "Community Discovery must be enabled to use this",
