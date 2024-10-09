@@ -1482,7 +1482,12 @@
     "calendar": "Calendrier",
     "eventCreation": "Création d'événement",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Vous serez notifié lorsqu'un événement sera publié dans cette catégorie.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Une erreur s'est produite lors de la mise à jour des préférences de notification, réessayez plus tard. Erreur :"
+    "anErrorOccuredWhileUpdatingNotificationP": "Une erreur s'est produite lors de la mise à jour des préférences de notification, réessayez plus tard. Erreur :",
+    "automaticActions": "Actions automatiques",
+    "stageActions": "Actions de scène",
+    "whenAFormStageActionNotificationIsTrigge": "Lorsque la notification d'une action d'étape de formulaire est déclenchée, vous serez informé via la boîte de réception et les autres préférences sélectionnées.",
+    "disciplinaryActions": "Actions disciplinaires",
+    "whenADisciplinaryActionNotificationIsTri": "Lorsqu'une notification de mesure disciplinaire est déclenchée, vous serez informé via la boîte de réception et les autres préférences sélectionnées."
   },
   "profileView": {
     "commmunityProfileTutorial": "Tutoriel du profil communautaire",

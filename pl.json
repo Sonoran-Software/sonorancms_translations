@@ -1482,7 +1482,12 @@
     "calendar": "Kalendarz",
     "eventCreation": "Tworzenie Wydarzenia",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Powiadomi Cię, gdy w tej kategorii zostanie opublikowane wydarzenie.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:",
+    "automaticActions": "Automatyczne działania",
+    "stageActions": "Działania na scenie",
+    "whenAFormStageActionNotificationIsTrigge": "Gdy powiadomienie o akcji etapu formularza zostanie wywołane, otrzymasz powiadomienie przez Skrzynkę odbiorczą i inne wybrane preferencje.",
+    "disciplinaryActions": "Działania Dyscyplinarne",
+    "whenADisciplinaryActionNotificationIsTri": "Kiedy powiadomienie o działaniu dyscyplinarnym zostanie uruchomione, zostaniesz powiadomiony przez Skrzynkę odbiorczą i inne wybrane preferencje."
   },
   "profileView": {
     "commmunityProfileTutorial": "Samouczek Profilu Społeczności",

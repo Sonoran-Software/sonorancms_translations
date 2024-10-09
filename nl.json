@@ -1482,7 +1482,12 @@
     "calendar": "Kalender",
     "eventCreation": "Evenement Aanmaken",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Zal u op de hoogte stellen wanneer een evenement binnen deze categorie is gepubliceerd.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Er is een fout opgetreden bij het bijwerken van de meldingsvoorkeuren, probeer het later opnieuw. Fout:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Er is een fout opgetreden bij het bijwerken van de meldingsvoorkeuren, probeer het later opnieuw. Fout:",
+    "automaticActions": "Automatische Acties",
+    "stageActions": "Fase Acties",
+    "whenAFormStageActionNotificationIsTrigge": "Wanneer een formulierstadiumactie melding wordt geactiveerd, word je op de hoogte gebracht via Inbox en andere geselecteerde voorkeuren.",
+    "disciplinaryActions": "Disciplinaire maatregelen",
+    "whenADisciplinaryActionNotificationIsTri": "Wanneer een melding van een disciplinaire maatregel wordt geactiveerd, word je op de hoogte gebracht via Inbox en andere geselecteerde voorkeuren."
   },
   "profileView": {
     "commmunityProfileTutorial": "Gemeenschapsprofiel Tutorial",

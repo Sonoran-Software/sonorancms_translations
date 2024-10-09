@@ -1482,7 +1482,12 @@
     "calendar": "Создание события",
     "eventCreation": "Уведомит вас, когда в этой категории будет опубликовано событие.",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Произошла ошибка при обновлении настроек уведомлений, попробуйте позже. Ошибка:",
-    "anErrorOccuredWhileUpdatingNotificationP": "Учебник по профилю сообщества"
+    "anErrorOccuredWhileUpdatingNotificationP": "Учебник по профилю сообщества",
+    "automaticActions": "Автоматические действия",
+    "stageActions": "Действия на этапе",
+    "whenAFormStageActionNotificationIsTrigge": "Когда уведомление о действии на этапе формы будет активировано, вы получите оповещение через Входящие или другие выбранные вами параметры.",
+    "disciplinaryActions": "Дисциплинарные меры",
+    "whenADisciplinaryActionNotificationIsTri": "Когда уведомление о дисциплинарном взыскании будет сработано, вы получите уведомление через Входящие и другие выбранные предпочтения."
   },
   "profileView": {
     "commmunityProfileTutorial": "Узнайте о своем профиле сообщества",

@@ -1482,7 +1482,12 @@
     "calendar": "التقويم",
     "eventCreation": "إنشاء حدث",
     "willNotifyYouWhenAnEventIsPublishedWithi": "سيتم إشعارك عند نشر حدث ضمن هذه الفئة.",
-    "anErrorOccuredWhileUpdatingNotificationP": "حدث خطأ أثناء تحديث تفضيلات الإشعارات، حاول مرة أخرى لاحقًا. خطأ:"
+    "anErrorOccuredWhileUpdatingNotificationP": "حدث خطأ أثناء تحديث تفضيلات الإشعارات، حاول مرة أخرى لاحقًا. خطأ:",
+    "automaticActions": "إجراءات تلقائية",
+    "stageActions": "إجراءات المرحلة",
+    "whenAFormStageActionNotificationIsTrigge": "عندما يتم تنشيط إشعار إجراء مرحلة النموذج ستتلقى إشعارًا عبر البريد الوارد والتفضيلات الأخرى المختارة.",
+    "disciplinaryActions": "إجراءات تأديبية",
+    "whenADisciplinaryActionNotificationIsTri": "عندما يتم تفعيل إشعار إجراء تأديبي، سيتم إعلامك عبر صندوق الوارد والتفضيلات الأخرى المحددة."
   },
   "profileView": {
     "commmunityProfileTutorial": "دليل ملف المجتمع",

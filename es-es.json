@@ -1482,7 +1482,12 @@
     "calendar": "Calendario",
     "eventCreation": "Creación de Evento",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Le notificará cuando se publique un evento dentro de esta categoría.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Ocurrió un error al actualizar las preferencias de notificación, intente nuevamente más tarde. Error:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Ocurrió un error al actualizar las preferencias de notificación, intente nuevamente más tarde. Error:",
+    "automaticActions": "Acciones Automáticas",
+    "stageActions": "Acciones de Escenario",
+    "whenAFormStageActionNotificationIsTrigge": "Cuando se active una notificación de acción de etapa de formulario, se le notificará a través de la Bandeja de entrada y otras preferencias seleccionadas.",
+    "disciplinaryActions": "Acciones disciplinarias",
+    "whenADisciplinaryActionNotificationIsTri": "Cuando se active una notificación de acción disciplinaria, recibirás una notificación a través de la Bandeja de entrada y otras preferencias seleccionadas."
   },
   "profileView": {
     "commmunityProfileTutorial": "Tutorial del Perfil de la Comunidad",

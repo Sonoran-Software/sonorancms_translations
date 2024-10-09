@@ -1482,7 +1482,12 @@
     "calendar": "Kalendarz",
     "eventCreation": "Tworzenie Wydarzenia",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Powiadomi Cię, gdy w tej kategorii zostanie opublikowane wydarzenie.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:",
+    "automaticActions": "Ações Automáticas",
+    "stageActions": "Akcje sceniczne",
+    "whenAFormStageActionNotificationIsTrigge": "Quando uma notificação de ação de estágio de formulário é acionada, você será notificado pela Caixa de Entrada e outras preferências selecionadas.",
+    "disciplinaryActions": "Działania Dyscyplinarne",
+    "whenADisciplinaryActionNotificationIsTri": "Когда уведомление о дисциплинарном взыскании срабатывает, вы будете уведомлены через Входящие и другие выбранные предпочтения."
   },
   "profileView": {
     "commmunityProfileTutorial": "Samouczek Profilu Społeczności",

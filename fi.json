@@ -1482,7 +1482,12 @@
     "calendar": "Kalenteri",
     "eventCreation": "Tapahtuman luominen",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Ilmoittaa sinulle, kun tapahtuma on julkaistu tässä kategoriassa.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Virhe tapahtui ilmoitusasetuksia päivittäessä, yritä myöhemmin uudelleen. Virhe:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Virhe tapahtui ilmoitusasetuksia päivittäessä, yritä myöhemmin uudelleen. Virhe:",
+    "automaticActions": "Automaattiset toiminnot",
+    "stageActions": "Vaihetoiminnot",
+    "whenAFormStageActionNotificationIsTrigge": "Kun lomakevaiheen ilmoitus laukaistaan, saat ilmoituksen Saapuneet-kansioon ja muihin valitsemiisi ilmoitustapoihin.",
+    "disciplinaryActions": "Kurinpidolliset Toimet",
+    "whenADisciplinaryActionNotificationIsTri": "Kun kurinpitotoimintailmoitus laukaistaan, sinulle ilmoitetaan siitä Saapuneet-kansion ja muiden valittujen asetusten kautta."
   },
   "profileView": {
     "commmunityProfileTutorial": "Yhteisöprofiilin opas",

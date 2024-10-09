@@ -1482,7 +1482,12 @@
     "calendar": "イベント作成",
     "eventCreation": "このカテゴリ内でイベントが公開されたときに通知されます。",
     "willNotifyYouWhenAnEventIsPublishedWithi": "通知設定の更新中にエラーが発生しました。後でもう一度お試しください。エラー:",
-    "anErrorOccuredWhileUpdatingNotificationP": "コミュニティプロフィールチュートリアル"
+    "anErrorOccuredWhileUpdatingNotificationP": "コミュニティプロフィールチュートリアル",
+    "automaticActions": "自動アクション",
+    "stageActions": "ステージアクション",
+    "whenAFormStageActionNotificationIsTrigge": "フォームステージアクション通知がトリガーされると、受信トレイおよび選択されたその他の設定を通じて通知されます。",
+    "disciplinaryActions": "懲戒処分",
+    "whenADisciplinaryActionNotificationIsTri": "懲戒処分の通知が発動されると、受信トレイや選択した他の設定を通じて通知されます。"
   },
   "profileView": {
     "commmunityProfileTutorial": "コミュニティプロフィールについて学ぶ",

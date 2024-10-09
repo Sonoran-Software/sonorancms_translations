@@ -1482,7 +1482,12 @@
     "calendar": "Takvim",
     "eventCreation": "Etkinlik Oluşturma",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Bu kategoride bir etkinlik yayınlandığında sizi bilgilendirecektir.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Bildirim tercihleri güncellenirken bir hata oluştu, lütfen daha sonra tekrar deneyin. Hata:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Bildirim tercihleri güncellenirken bir hata oluştu, lütfen daha sonra tekrar deneyin. Hata:",
+    "automaticActions": "Otomatik İşlemler",
+    "stageActions": "Sahne Eylemleri",
+    "whenAFormStageActionNotificationIsTrigge": "Bir form aşaması eylem bildirimi tetiklendiğinde, Gelen Kutusu ve seçilen diğer tercihler üzerinden bilgilendirileceksiniz.",
+    "disciplinaryActions": "Disiplin Cezaları",
+    "whenADisciplinaryActionNotificationIsTri": "Disiplin cezası bildirimi tetiklendiğinde, Gelen Kutusu ve seçilen diğer tercihler aracılığıyla bilgilendirileceksiniz."
   },
   "profileView": {
     "commmunityProfileTutorial": "Topluluk Profili Eğitimi",

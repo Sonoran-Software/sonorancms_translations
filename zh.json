@@ -1482,7 +1482,12 @@
     "calendar": "日历",
     "eventCreation": "事件创建",
     "willNotifyYouWhenAnEventIsPublishedWithi": "当在此类别中发布事件时将通知您。",
-    "anErrorOccuredWhileUpdatingNotificationP": "更新通知偏好时发生错误，请稍后再试。错误："
+    "anErrorOccuredWhileUpdatingNotificationP": "更新通知偏好时发生错误，请稍后再试。错误：",
+    "automaticActions": "自动操作",
+    "stageActions": "阶段操作",
+    "whenAFormStageActionNotificationIsTrigge": "当表单阶段动作通知被触发时，您将通过收件箱和其他选定的偏好设置收到通知。",
+    "disciplinaryActions": "纪律处分",
+    "whenADisciplinaryActionNotificationIsTri": "当触发纪律处分通知时，您将通过收件箱和其他选择的偏好设置收到通知。"
   },
   "profileView": {
     "commmunityProfileTutorial": "社区档案教程",

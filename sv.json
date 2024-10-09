@@ -1482,7 +1482,12 @@
     "calendar": "Kalender",
     "eventCreation": "Evenemangsskapande",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Kommer att meddela dig när ett evenemang publiceras inom denna kategori.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Ett fel inträffade vid uppdatering av meddelandeinställningar, försök igen senare. Fel:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Ett fel inträffade vid uppdatering av meddelandeinställningar, försök igen senare. Fel:",
+    "automaticActions": "Automatiska åtgärder",
+    "stageActions": "Scenåtgärder",
+    "whenAFormStageActionNotificationIsTrigge": "När en formulärstegshandlingsnotis utlöses kommer du att bli meddelad genom Inkorgen och andra valda preferenser.",
+    "disciplinaryActions": "Disciplinära åtgärder",
+    "whenADisciplinaryActionNotificationIsTri": "När en disciplinär åtgärd notifikation utlöses kommer du att bli meddelad genom Inkorgen och andra valda preferenser."
   },
   "profileView": {
     "commmunityProfileTutorial": "Community-profilhandledning",

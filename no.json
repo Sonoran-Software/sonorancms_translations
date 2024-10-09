@@ -1482,7 +1482,12 @@
     "calendar": "Kalender",
     "eventCreation": "Hendelsesopprettelse",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Vil varsle deg når en hendelse er publisert i denne kategorien.",
-    "anErrorOccuredWhileUpdatingNotificationP": "En feil oppstod under oppdatering av varslingsinnstillinger, prøv igjen senere. Feil:"
+    "anErrorOccuredWhileUpdatingNotificationP": "En feil oppstod under oppdatering av varslingsinnstillinger, prøv igjen senere. Feil:",
+    "automaticActions": "Automatiske handlinger",
+    "stageActions": "Scenehandlinger",
+    "whenAFormStageActionNotificationIsTrigge": "Når en skjemaetappe-handlingsvarsel utløses, vil du bli varslet gjennom Innboksen og andre valgte preferanser.",
+    "disciplinaryActions": "Disiplinære handlinger",
+    "whenADisciplinaryActionNotificationIsTri": "Når en varsel om disiplinærtiltak utløses, blir du varslet gjennom innboksen og andre valgte preferanser."
   },
   "profileView": {
     "commmunityProfileTutorial": "Fellesskapsprofilveiledning",

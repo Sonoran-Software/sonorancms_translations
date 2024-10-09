@@ -1482,7 +1482,12 @@
     "calendar": "Kalender",
     "eventCreation": "Ereigniserstellung",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Benachrichtigt Sie, wenn ein Ereignis in dieser Kategorie veröffentlicht wird.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Ein Fehler ist beim Aktualisieren der Benachrichtigungseinstellungen aufgetreten, versuchen Sie es später erneut. Fehler:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Ein Fehler ist beim Aktualisieren der Benachrichtigungseinstellungen aufgetreten, versuchen Sie es später erneut. Fehler:",
+    "automaticActions": "Automatische Aktionen",
+    "stageActions": "Bühnenaktionen",
+    "whenAFormStageActionNotificationIsTrigge": "Wenn eine Benachrichtigung über eine Formularphasenaktion ausgelöst wird, erhalten Sie eine Benachrichtigung über den Posteingang und andere ausgewählte Präferenzen.",
+    "disciplinaryActions": "Disziplinarmaßnahmen",
+    "whenADisciplinaryActionNotificationIsTri": "Wenn eine Benachrichtigung über eine disziplinarische Maßnahme ausgelöst wird, werden Sie über den Eingangsordner und andere ausgewählte Einstellungen benachrichtigt."
   },
   "profileView": {
     "commmunityProfileTutorial": "Community-Profil-Tutorial",

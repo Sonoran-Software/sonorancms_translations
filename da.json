@@ -1482,7 +1482,12 @@
     "calendar": "Kalender",
     "eventCreation": "Begivenhedsoprettelse",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Vil give dig besked, når en begivenhed offentliggøres inden for denne kategori.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Der opstod en fejl under opdatering af notifikationsindstillinger, prøv igen senere. Fejl:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Der opstod en fejl under opdatering af notifikationsindstillinger, prøv igen senere. Fejl:",
+    "automaticActions": "Automatiske handlinger",
+    "stageActions": "Scenehandlinger",
+    "whenAFormStageActionNotificationIsTrigge": "Når en formulartrin-handlingsmeddelelse udløses, vil du blive underrettet gennem Indbakke og andre valgte præferencer.",
+    "disciplinaryActions": "Disciplinære handlinger",
+    "whenADisciplinaryActionNotificationIsTri": "Når en disciplinær handling notifikation udløses, vil du blive underrettet gennem indbakken og andre valgte præferencer."
   },
   "profileView": {
     "commmunityProfileTutorial": "Fællesskabsprofilvejledning",

@@ -1482,7 +1482,12 @@
     "calendar": "Kalendář",
     "eventCreation": "Vytvoření události",
     "willNotifyYouWhenAnEventIsPublishedWithi": "Upozorní vás, když je v této kategorii publikována událost.",
-    "anErrorOccuredWhileUpdatingNotificationP": "Došlo k chybě při aktualizaci nastavení upozornění, zkuste to prosím později. Chyba:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Došlo k chybě při aktualizaci nastavení upozornění, zkuste to prosím později. Chyba:",
+    "automaticActions": "Automatické akce",
+    "stageActions": "Akce stupně",
+    "whenAFormStageActionNotificationIsTrigge": "Když je spuštěno oznámení o akci fáze formuláře, budete upozorněni prostřednictvím Doručené pošty a dalších vybraných preferencí.",
+    "disciplinaryActions": "Kárná opatření",
+    "whenADisciplinaryActionNotificationIsTri": "Když je spuštěno oznámení o disciplinárním opatření, budete o tom informováni prostřednictvím Doručené pošty a dalších vybraných preferencí."
   },
   "profileView": {
     "commmunityProfileTutorial": "Návod na komunitní profil",

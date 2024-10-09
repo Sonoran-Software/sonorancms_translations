@@ -1482,7 +1482,12 @@
     "calendar": "이벤트 생성",
     "eventCreation": "이 카테고리 내에서 이벤트가 게시되면 알림을 받습니다.",
     "willNotifyYouWhenAnEventIsPublishedWithi": "알림 설정을 업데이트하는 동안 오류가 발생했습니다. 나중에 다시 시도해 주세요. 오류:",
-    "anErrorOccuredWhileUpdatingNotificationP": "커뮤니티 프로필 튜토리얼"
+    "anErrorOccuredWhileUpdatingNotificationP": "커뮤니티 프로필 튜토리얼",
+    "automaticActions": "자동 작업",
+    "stageActions": "무대 작업",
+    "whenAFormStageActionNotificationIsTrigge": "양식 단계 동작 알림이 트리거되면 받은 편지함과 선택한 다른 환경 설정을 통해 알림을 받게 됩니다.",
+    "disciplinaryActions": "징계 조치",
+    "whenADisciplinaryActionNotificationIsTri": "징계 조치 알림이 발동되면 받은 편지함 및 선택된 기타 환경 설정을 통해 통지됩니다."
   },
   "profileView": {
     "commmunityProfileTutorial": "커뮤니티 프로필에 대해 알아보기",
