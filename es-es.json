@@ -778,7 +778,10 @@
     "license": "Licencia",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: Ocurrió un error al obtener los datos del servidor.",
-    "na": "N/D"
+    "na": "N/D",
+    "resync": "Re-sincronizar",
+    "syncYourPermissionsAndAccountStatus": "Sincroniza tus permisos y el estado de tu cuenta con SonoranCAD y Radio.",
+    "permissionsSynced": "Permisos Sincronizados"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Cuentas de Usuario",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ha ocurrido un error inesperado al usar una plantilla en blanco, si esto persiste contacta al soporte.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ha ocurrido un error inesperado al usar una plantilla, si esto persiste contacta al soporte.",
     "anErrorOccuredWhileSavingTryAgain": "Ocurrió un error al guardar, intenta de nuevo.",
-    "nameFormat": "Formato de Nombre"
+    "nameFormat": "Formato de Nombre",
+    "disabledNameCustomizations": "(Personalización deshabilitada debido a la Dirección de Sincronización del Nombre de Discord)",
+    "formatKeys": "Formato de Claves"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Acortador de URL",
@@ -1177,7 +1182,13 @@
     "permissions": "Permisos",
     "cancel": "Cancelar",
     "save": "Guardar",
-    "unknownRule": "Regla Desconocida"
+    "unknownRule": "Regla Desconocida",
+    "current": "Actual",
+    "currentParameter": "Parámetro Actual",
+    "week": "Semana",
+    "month": "Mes",
+    "quarter": "Trimestre",
+    "year": "Año"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Este formulario está desbloqueado para nuevas presentaciones",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "La imagen de fondo sin ningún estilo",
     "elementsCannotBeDroppedIntoAForumSection": "Los elementos no se pueden soltar en una sección del foro",
     "addSection": "Agregar Sección",
-    "backgroundOptions": "Opciones de Fondo"
+    "backgroundOptions": "Opciones de Fondo",
+    "elementsCannotBeMovedIntoARosterSection": "Los elementos no se pueden mover a una sección del roster",
+    "elementsCannotBeDroppedIntoARosterSection": "Los elementos no se pueden soltar en una sección de lista"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Bloquear elemento a esta sección",

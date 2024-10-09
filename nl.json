@@ -778,7 +778,10 @@
     "license": "Licentie",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fout: Er is een fout opgetreden bij het ophalen van servergegevens.",
-    "na": "N.v.t."
+    "na": "N.v.t.",
+    "resync": "Resynchroniseren",
+    "syncYourPermissionsAndAccountStatus": "Synchroniseer je permissies en accountstatus met SonoranCAD & Radio.",
+    "permissionsSynced": "Machtigingen gesynchroniseerd"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Er is een onverwachte fout opgetreden bij het gebruik van een lege sjabloon, neem contact op met de ondersteuning als dit aanhoudt.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Er is een onverwachte fout opgetreden bij het gebruik van een sjabloon, neem contact op met de ondersteuning als dit aanhoudt.",
     "anErrorOccuredWhileSavingTryAgain": "Er is een fout opgetreden tijdens het opslaan, probeer het opnieuw.",
-    "nameFormat": "Naamformaat"
+    "nameFormat": "Naamformaat",
+    "disabledNameCustomizations": "Aanpassing uitgeschakeld wegens Discord naam synchronisatierichting",
+    "formatKeys": "Formatsleutels"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-verkorter Tutorial",
@@ -1177,7 +1182,13 @@
     "permissions": "Machtigingen",
     "cancel": "Annuleren",
     "save": "Opslaan",
-    "unknownRule": "Onbekende Regel"
+    "unknownRule": "Onbekende Regel",
+    "current": "Huidig",
+    "currentParameter": "Huidige Parameter",
+    "week": "Week",
+    "month": "Maand",
+    "quarter": "Kwartaal",
+    "year": "Jaar"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dit formulier is ontgrendeld voor nieuwe inzendingen",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "De achtergrondafbeelding zonder enige styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elementen kunnen niet in een forumsectie worden gedropt",
     "addSection": "Sectie toevoegen",
-    "backgroundOptions": "Achtergrondopties"
+    "backgroundOptions": "Achtergrondopties",
+    "elementsCannotBeMovedIntoARosterSection": "Elementen kunnen niet in een roostersectie worden verplaatst.",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementen kunnen niet in een roostersectie worden geplaatst"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Vergrendel item aan deze sectie",

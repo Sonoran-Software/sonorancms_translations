@@ -778,7 +778,10 @@
     "license": "Licens",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fel: Ett fel inträffade vid hämtning av serverdata.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Synkronisera igen",
+    "syncYourPermissionsAndAccountStatus": "Synkronisera dina behörigheter och kontostatus till SonoranCAD & Radio.",
+    "permissionsSynced": "Behörigheter synkroniserade"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ett oväntat fel inträffade vid användning av en blank mall, om detta kvarstår kontakta support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ett oväntat fel inträffade vid användning av en mall, om detta kvarstår kontakta support.",
     "anErrorOccuredWhileSavingTryAgain": "Ett fel inträffade vid sparning, försök igen.",
-    "nameFormat": "Namnformat"
+    "nameFormat": "Namnformat",
+    "disabledNameCustomizations": "Anpassning inaktiverad på grund av Discord-namnsynkroniseringsriktning",
+    "formatKeys": "Formateringsnycklar"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-förkortare handledning",
@@ -1177,7 +1182,13 @@
     "permissions": "Behörigheter",
     "cancel": "Avbryt",
     "save": "Spara",
-    "unknownRule": "Okänd Regel"
+    "unknownRule": "Okänd Regel",
+    "current": "Nuvarande",
+    "currentParameter": "Aktuell parameter",
+    "week": "Vecka",
+    "month": "Månad",
+    "quarter": "Kvartal",
+    "year": "År"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Detta formulär är upplåst för nya Inlämningar",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Bakgrundsbilden utan någon styling",
     "elementsCannotBeDroppedIntoAForumSection": "Element kan inte släppas i en forumsektion",
     "addSection": "Lägg till sektion",
-    "backgroundOptions": "Bakgrundsalternativ"
+    "backgroundOptions": "Bakgrundsalternativ",
+    "elementsCannotBeMovedIntoARosterSection": "Element kan inte flyttas till en sektionslista",
+    "elementsCannotBeDroppedIntoARosterSection": "Element kan inte släppas i en lista-sektion"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås objekt till denna sektion",

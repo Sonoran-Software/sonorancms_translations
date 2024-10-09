@@ -778,7 +778,10 @@
     "license": "Licens",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fejl: Der opstod en fejl under hentning af serverdata.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Synkroniser igen",
+    "syncYourPermissionsAndAccountStatus": "Synkroniser dine tilladelser og kontostatus til SonoranCAD & Radio.",
+    "permissionsSynced": "Tilladelser synkroniseret"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brugerkonti Vejledning",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "En uventet fejl opstod under brug af en blank skabelon, hvis dette fortsætter, kontakt support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "En uventet fejl opstod under brug af en skabelon, hvis dette fortsætter, kontakt support.",
     "anErrorOccuredWhileSavingTryAgain": "Der opstod en fejl under lagring, prøv igen.",
-    "nameFormat": "Navneformat"
+    "nameFormat": "Navneformat",
+    "disabledNameCustomizations": "(Tilpasning deaktiveret på grund af synkroniseringsretning for Discord-navn)",
+    "formatKeys": "Formatnøgler"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Forkorter Vejledning",
@@ -1177,7 +1182,13 @@
     "permissions": "Tilladelser",
     "cancel": "Annuller",
     "save": "Gem",
-    "unknownRule": "Ukendt Regel"
+    "unknownRule": "Ukendt Regel",
+    "current": "Nuværende",
+    "currentParameter": "Nuværende parameter",
+    "week": "Uge",
+    "month": "Måned",
+    "quarter": "Kvartal",
+    "year": "År"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Denne formular er ulåst for nye indsendelser",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Baggrundsbilledet uden nogen styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elementer kan ikke droppes i en forumsektion",
     "addSection": "Tilføj Sektion",
-    "backgroundOptions": "Baggrundsindstillinger"
+    "backgroundOptions": "Baggrundsindstillinger",
+    "elementsCannotBeMovedIntoARosterSection": "Elementer kan ikke flyttes ind i en liste sektion",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementer kan ikke placeres i en rostersektion"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås element til denne sektion",

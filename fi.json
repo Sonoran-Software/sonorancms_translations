@@ -778,7 +778,10 @@
     "license": "Lisenssi",
     "ping": "Viive",
     "errorAnErrorOccuredWhileFetchingServerDa": "Virhe: Virhe tapahtui haettaessa palvelimen tietoja.",
-    "na": "Ei saatavilla"
+    "na": "Ei saatavilla",
+    "resync": "Synkronoi uudelleen",
+    "syncYourPermissionsAndAccountStatus": "Synkronoi oikeutesi ja tilisi tila SonoranCAD & Radion kanssa.",
+    "permissionsSynced": "Oikeudet synkronoitu"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Odottamaton virhe tapahtui tyhjää mallia käytettäessä, jos tämä jatkuu, ota yhteyttä tukeen.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Odottamaton virhe tapahtui mallia käytettäessä, jos tämä jatkuu, ota yhteyttä tukeen.",
     "anErrorOccuredWhileSavingTryAgain": "Tapahtui virhe tallennettaessa, yritä uudelleen.",
-    "nameFormat": "Nimen muoto"
+    "nameFormat": "Nimen muoto",
+    "disabledNameCustomizations": "(Mukauttaminen pois käytöstä Discord-nimisynkronoinnin suuntautumisen vuoksi)",
+    "formatKeys": "Muotoiluavaimet"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-lyhentimen opas",
@@ -1177,7 +1182,13 @@
     "permissions": "Oikeudet",
     "cancel": "Peruuta",
     "save": "Tallenna",
-    "unknownRule": "Tuntematon sääntö"
+    "unknownRule": "Tuntematon sääntö",
+    "current": "Nykyinen",
+    "currentParameter": "Nykyinen parametri",
+    "week": "Viikko",
+    "month": "Kuukausi",
+    "quarter": "Kvartaali",
+    "year": "Vuosi"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tämä lomake on avoinna uusille lähetyksille",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Taustakuva ilman mitään tyylittelyä",
     "elementsCannotBeDroppedIntoAForumSection": "Elementtejä ei voi pudottaa foorumiosioon",
     "addSection": "Lisää osio",
-    "backgroundOptions": "Tausta-asetukset"
+    "backgroundOptions": "Tausta-asetukset",
+    "elementsCannotBeMovedIntoARosterSection": "Elementtejä ei voi siirtää kokoonpanon osioon",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementtejä ei voida vetää luettelon osioon"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lukitse kohde tähän osioon",

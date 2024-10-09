@@ -778,7 +778,10 @@
     "license": "许可证",
     "ping": "延迟",
     "errorAnErrorOccuredWhileFetchingServerDa": "错误：获取服务器数据时发生错误。",
-    "na": "不适用"
+    "na": "不适用",
+    "resync": "重新同步",
+    "syncYourPermissionsAndAccountStatus": "同步您的权限和账户状态到SonoranCAD和Radio。",
+    "permissionsSynced": "权限已同步"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "使用空白模板时发生意外错误，如果问题持续请联系支持。",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "使用模板时发生意外错误，如果问题持续请联系支持。",
     "anErrorOccuredWhileSavingTryAgain": "保存时发生错误，请重试。",
-    "nameFormat": "名称格式"
+    "nameFormat": "名称格式",
+    "disabledNameCustomizations": "(由于 Discord 名称同步方向，自定义已禁用)",
+    "formatKeys": "格式键"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL 缩短器教程",
@@ -1177,7 +1182,13 @@
     "permissions": "权限",
     "cancel": "取消",
     "save": "保存",
-    "unknownRule": "未知规则"
+    "unknownRule": "未知规则",
+    "current": "当前",
+    "currentParameter": "当前参数",
+    "week": "周",
+    "month": "月份",
+    "quarter": "季度",
+    "year": "年"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "此表单已解锁，可进行新提交",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "没有任何样式的背景图像",
     "elementsCannotBeDroppedIntoAForumSection": "元素不能被拖放到论坛部分",
     "addSection": "添加部分",
-    "backgroundOptions": "背景选项"
+    "backgroundOptions": "背景选项",
+    "elementsCannotBeMovedIntoARosterSection": "元素不能移动到名单部分",
+    "elementsCannotBeDroppedIntoARosterSection": "元素无法放入名册部分"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "将项目锁定到此部分",

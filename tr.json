@@ -778,7 +778,10 @@
     "license": "Lisans",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Hata: Sunucu verileri alınırken bir hata oluştu.",
-    "na": "Yok"
+    "na": "Yok",
+    "resync": "Yeniden Senkronize Et",
+    "syncYourPermissionsAndAccountStatus": "İzinlerinizi ve hesap durumunuzu SonoranCAD & Radio ile senkronize edin.",
+    "permissionsSynced": "İzinler Senkronize Edildi"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Boş şablon kullanılırken beklenmeyen bir hata oluştu, bu durum devam ederse destekle iletişime geçin.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Şablon kullanılırken beklenmeyen bir hata oluştu, bu durum devam ederse destekle iletişime geçin.",
     "anErrorOccuredWhileSavingTryAgain": "Kaydedilirken bir hata oluştu, tekrar deneyin.",
-    "nameFormat": "İsim Formatı"
+    "nameFormat": "İsim Formatı",
+    "disabledNameCustomizations": "(Discord Adı Eşitleme Yönü nedeniyle Özelleştirme devre dışı bırakıldı)",
+    "formatKeys": "Biçim Anahtarları"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Kısaltıcı Eğitimi",
@@ -1177,7 +1182,13 @@
     "permissions": "İzinler",
     "cancel": "İptal",
     "save": "Kaydet",
-    "unknownRule": "Bilinmeyen Kural"
+    "unknownRule": "Bilinmeyen Kural",
+    "current": "Şu Anki",
+    "currentParameter": "Geçerli Parametre",
+    "week": "Hafta",
+    "month": "Ay",
+    "quarter": "Çeyrek",
+    "year": "Yıl"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Bu form yeni gönderimler için kilidi açılmıştır",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Herhangi bir stil olmadan arka plan resmi",
     "elementsCannotBeDroppedIntoAForumSection": "Öğeler bir forum bölümüne bırakılabilir",
     "addSection": "Bölüm Ekle",
-    "backgroundOptions": "Arka Plan Seçenekleri"
+    "backgroundOptions": "Arka Plan Seçenekleri",
+    "elementsCannotBeMovedIntoARosterSection": "Öğeler bir kadro bölümüne taşınamaz",
+    "elementsCannotBeDroppedIntoARosterSection": "Öğeler bir kadro bölümüne bırakılamaz"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Öğeyi bu bölüme kilitle",

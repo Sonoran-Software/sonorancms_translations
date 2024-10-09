@@ -778,7 +778,10 @@
     "license": "Licença",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Erro: Ocorreu um erro ao buscar dados do servidor.",
-    "na": "N/D"
+    "na": "N/D",
+    "resync": "Resincronizar",
+    "syncYourPermissionsAndAccountStatus": "Sincronize suas permissões e status de conta com SonoranCAD & Radio.",
+    "permissionsSynced": "Permissões Sincronizadas"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Contas de Usuário",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ocorreu um erro inesperado ao usar um modelo em branco, se isso persistir entre em contato com o suporte.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ocorreu um erro inesperado ao usar um modelo, se isso persistir entre em contato com o suporte.",
     "anErrorOccuredWhileSavingTryAgain": "Ocorreu um erro ao salvar, tente novamente.",
-    "nameFormat": "Formato do Nome"
+    "nameFormat": "Formato do Nome",
+    "disabledNameCustomizations": "(Personalização desativada devido à Sincronização de Nome do Discord)",
+    "formatKeys": "Formatar Chaves"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Encurtador de URL",
@@ -1177,7 +1182,13 @@
     "permissions": "Permissões",
     "cancel": "Cancelar",
     "save": "Salvar",
-    "unknownRule": "Regra Desconhecida"
+    "unknownRule": "Regra Desconhecida",
+    "current": "Atual",
+    "currentParameter": "Parâmetro Atual",
+    "week": "Semana",
+    "month": "Mês",
+    "quarter": "Trimestre",
+    "year": "Ano"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Este formulário está desbloqueado para novas Submissões",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "A imagem de fundo sem qualquer estilo",
     "elementsCannotBeDroppedIntoAForumSection": "Elementos não podem ser soltos em uma seção de fórum",
     "addSection": "Adicionar Seção",
-    "backgroundOptions": "Opções de Fundo"
+    "backgroundOptions": "Opções de Fundo",
+    "elementsCannotBeMovedIntoARosterSection": "Elementos não podem ser movidos para uma seção de lista",
+    "elementsCannotBeDroppedIntoARosterSection": "Os elementos não podem ser colocados em uma seção de lista."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Travar item nesta seção",

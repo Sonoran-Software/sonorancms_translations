@@ -778,7 +778,10 @@
     "license": "Licencja",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Błąd: Wystąpił błąd podczas pobierania danych serwera.",
-    "na": "N/D"
+    "na": "N/D",
+    "resync": "Ponowna synchronizacja",
+    "syncYourPermissionsAndAccountStatus": "Synchronizuj swoje uprawnienia i status konta z SonoranCAD i Radiem.",
+    "permissionsSynced": "Uprawnienia zsynchronizowane"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Wystąpił nieoczekiwany błąd podczas używania pustego szablonu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Wystąpił nieoczekiwany błąd podczas używania szablonu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "anErrorOccuredWhileSavingTryAgain": "Wystąpił błąd podczas zapisywania, spróbuj ponownie.",
-    "nameFormat": "Format Nazwy"
+    "nameFormat": "Format Nazwy",
+    "disabledNameCustomizations": "(Dostosowywanie wyłączone z powodu kierunku synchronizacji nazwy Discord)",
+    "formatKeys": "Klucze formatowania"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Samouczek skracacza URL",
@@ -1177,7 +1182,13 @@
     "permissions": "Uprawnienia",
     "cancel": "Anuluj",
     "save": "Zapisz",
-    "unknownRule": "Nieznana Zasada"
+    "unknownRule": "Nieznana Zasada",
+    "current": "Bieżący",
+    "currentParameter": "Bieżący parametr",
+    "week": "Tydzień",
+    "month": "Miesiąc",
+    "quarter": "Kwartał",
+    "year": "Rok"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Ten formularz jest odblokowany dla nowych zgłoszeń",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Obraz tła bez żadnego stylu",
     "elementsCannotBeDroppedIntoAForumSection": "Elementy nie mogą być upuszczane w sekcji forum",
     "addSection": "Dodaj Sekcję",
-    "backgroundOptions": "Opcje Tła"
+    "backgroundOptions": "Opcje Tła",
+    "elementsCannotBeMovedIntoARosterSection": "Elementy nie mogą być przenoszone do sekcji rosteru",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementów nie można upuszczać w sekcji listy użytkowników"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Zablokuj element do tej sekcji",

@@ -778,7 +778,10 @@
     "license": "Licence",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Erreur : Une erreur s'est produite lors de la récupération des données du serveur.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Resynchroniser",
+    "syncYourPermissionsAndAccountStatus": "Synchronisez vos autorisations et l'état de votre compte avec SonoranCAD et Radio.",
+    "permissionsSynced": "Autorisations Synchronisées"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutoriel des Comptes Utilisateurs",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Une erreur inattendue s'est produite lors de l'utilisation d'un modèle vierge, si cela persiste, contactez le support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Une erreur inattendue s'est produite lors de l'utilisation d'un modèle, si cela persiste, contactez le support.",
     "anErrorOccuredWhileSavingTryAgain": "Une erreur s'est produite lors de l'enregistrement, veuillez réessayer.",
-    "nameFormat": "Format de nom"
+    "nameFormat": "Format de nom",
+    "disabledNameCustomizations": "Personnalisation désactivée en raison de la synchronisation du nom Discord.",
+    "formatKeys": "Format des clés"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutoriel de raccourcisseur d'URL",
@@ -1177,7 +1182,13 @@
     "permissions": "Permissions",
     "cancel": "Annuler",
     "save": "Enregistrer",
-    "unknownRule": "Règle Inconnue"
+    "unknownRule": "Règle Inconnue",
+    "current": "Actuel",
+    "currentParameter": "Paramètre actuel",
+    "week": "Semaine",
+    "month": "Mois",
+    "quarter": "Trimestre",
+    "year": "Année"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Ce formulaire est déverrouillé pour de nouvelles soumissions",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "L'image de fond sans aucun style",
     "elementsCannotBeDroppedIntoAForumSection": "Les éléments ne peuvent pas être déposés dans une section de forum",
     "addSection": "Ajouter une section",
-    "backgroundOptions": "Options de fond"
+    "backgroundOptions": "Options de fond",
+    "elementsCannotBeMovedIntoARosterSection": "Les éléments ne peuvent pas être déplacés dans une section de liste",
+    "elementsCannotBeDroppedIntoARosterSection": "Les éléments ne peuvent pas être déposés dans une section du roster."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Verrouiller l'élément à cette section",

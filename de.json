@@ -778,7 +778,10 @@
     "license": "Lizenz",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fehler: Beim Abrufen der Serverdaten ist ein Fehler aufgetreten.",
-    "na": "N/V"
+    "na": "N/V",
+    "resync": "Synchronisieren",
+    "syncYourPermissionsAndAccountStatus": "Synchronisieren Sie Ihre Berechtigungen und den Kontostatus mit SonoranCAD & Radio.",
+    "permissionsSynced": "Berechtigungen synchronisiert"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Benutzerkonten-Tutorial",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ein unerwarteter Fehler ist beim Verwenden einer leeren Vorlage aufgetreten, wenn dies weiterhin besteht, kontaktieren Sie den Support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ein unerwarteter Fehler ist beim Verwenden einer Vorlage aufgetreten, wenn dies weiterhin besteht, kontaktieren Sie den Support.",
     "anErrorOccuredWhileSavingTryAgain": "Beim Speichern ist ein Fehler aufgetreten, bitte versuchen Sie es erneut.",
-    "nameFormat": "Namensformat"
+    "nameFormat": "Namensformat",
+    "disabledNameCustomizations": "(Anpassung deaktiviert aufgrund der Discord-Namenssynchronisierungsrichtung)",
+    "formatKeys": "Formatschlüssel"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-Verkürzer-Tutorial",
@@ -1177,7 +1182,13 @@
     "permissions": "Berechtigungen",
     "cancel": "Abbrechen",
     "save": "Speichern",
-    "unknownRule": "Unbekannte Regel"
+    "unknownRule": "Unbekannte Regel",
+    "current": "Aktuell",
+    "currentParameter": "Aktueller Parameter",
+    "week": "Woche",
+    "month": "Monat",
+    "quarter": "Quartal",
+    "year": "Jahr"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dieses Formular ist für neue Einreichungen freigeschaltet",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Das Hintergrundbild ohne jegliche Stilierung",
     "elementsCannotBeDroppedIntoAForumSection": "Elemente können nicht in einen Forenabschnitt gezogen werden",
     "addSection": "Abschnitt hinzufügen",
-    "backgroundOptions": "Hintergrundoptionen"
+    "backgroundOptions": "Hintergrundoptionen",
+    "elementsCannotBeMovedIntoARosterSection": "Elemente können nicht in einen Dienstplanabschnitt verschoben werden",
+    "elementsCannotBeDroppedIntoARosterSection": "Elemente können nicht in einen Dienstplanabschnitt abgelegt werden"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Element in diesem Abschnitt sperren",

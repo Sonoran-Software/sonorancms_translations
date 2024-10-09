@@ -778,7 +778,10 @@
     "license": "الرخصة",
     "ping": "الزمن المستغرق",
     "errorAnErrorOccuredWhileFetchingServerDa": "خطأ: حدث خطأ أثناء جلب بيانات الخادم.",
-    "na": "غير متاح"
+    "na": "غير متاح",
+    "resync": "إعادة المزامنة",
+    "syncYourPermissionsAndAccountStatus": "قم بمزامنة أذوناتك وحالة حسابك مع SonoranCAD والراديو.",
+    "permissionsSynced": "الأذونات متزامنة"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "حدث خطأ غير متوقع أثناء استخدام قالب فارغ، إذا استمر هذا فاتصل بالدعم.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "حدث خطأ غير متوقع أثناء استخدام قالب، إذا استمر هذا فاتصل بالدعم.",
     "anErrorOccuredWhileSavingTryAgain": "حدث خطأ أثناء الحفظ، حاول مرة أخرى.",
-    "nameFormat": "تنسيق الاسم"
+    "nameFormat": "تنسيق الاسم",
+    "disabledNameCustomizations": "(تم تعطيل التخصيص بسبب اتجاه مزامنة الاسم على Discord)",
+    "formatKeys": "مفاتيح التنسيق"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "دليل تقصير الروابط",
@@ -1177,7 +1182,13 @@
     "permissions": "أذونات",
     "cancel": "إلغاء",
     "save": "حفظ",
-    "unknownRule": "قاعدة غير معروفة"
+    "unknownRule": "قاعدة غير معروفة",
+    "current": "الحالي",
+    "currentParameter": "المعلمة الحالية",
+    "week": "أسبوع",
+    "month": "شهر",
+    "quarter": "ربع",
+    "year": "السنة"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "هذا النموذج مفتوح لتقديمات جديدة",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "صورة الخلفية بدون أي تنسيق",
     "elementsCannotBeDroppedIntoAForumSection": "لا يمكن إسقاط العناصر في قسم المنتدى",
     "addSection": "إضافة قسم",
-    "backgroundOptions": "خيارات الخلفية"
+    "backgroundOptions": "خيارات الخلفية",
+    "elementsCannotBeMovedIntoARosterSection": "لا يمكن نقل العناصر إلى قسم القائمة",
+    "elementsCannotBeDroppedIntoARosterSection": "لا يمكن إسقاط العناصر في قسم القائمة"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "قفل العنصر في هذا القسم",

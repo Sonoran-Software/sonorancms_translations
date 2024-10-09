@@ -778,7 +778,10 @@
     "license": "핑",
     "ping": "오류: 서버 데이터를 가져오는 동안 오류가 발생했습니다.",
     "errorAnErrorOccuredWhileFetchingServerDa": "해당 없음",
-    "na": "사용자 계정 튜토리얼"
+    "na": "사용자 계정 튜토리얼",
+    "resync": "동기화 다시 하기",
+    "syncYourPermissionsAndAccountStatus": "SonoranCAD 및 Radio에 대한 권한 및 계정 상태를 동기화합니다.",
+    "permissionsSynced": "권한 동기화됨"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "사용자 계정 사용 방법 배우기",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "템플릿을 사용하는 동안 예상치 못한 오류가 발생했습니다. 이 문제가 지속되면 지원팀에 문의하세요.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "저장 중 오류가 발생했습니다. 다시 시도하세요.",
     "anErrorOccuredWhileSavingTryAgain": "URL 단축기 튜토리얼",
-    "nameFormat": "이름 형식"
+    "nameFormat": "이름 형식",
+    "disabledNameCustomizations": "디스코드 이름 동기화 방향으로 인해 사용자 지정 비활성화됨",
+    "formatKeys": "형식 키"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요",
@@ -1177,7 +1182,13 @@
     "permissions": "취소",
     "cancel": "저장",
     "save": "알 수 없는 규칙",
-    "unknownRule": "이 양식은 새로운 제출을 위해 잠금 해제되었습니다"
+    "unknownRule": "이 양식은 새로운 제출을 위해 잠금 해제되었습니다",
+    "current": "현재",
+    "currentParameter": "현재 매개변수",
+    "week": "주",
+    "month": "월",
+    "quarter": "분기",
+    "year": "년"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "이 양식은 새로운 제출이 불가능합니다",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "섹션 추가",
     "elementsCannotBeDroppedIntoAForumSection": "배경 옵션",
     "addSection": "이 섹션에 항목 잠금",
-    "backgroundOptions": "이미지 채우기"
+    "backgroundOptions": "이미지 채우기",
+    "elementsCannotBeMovedIntoARosterSection": "요소를 명단 섹션으로 이동할 수 없습니다.",
+    "elementsCannotBeDroppedIntoARosterSection": "요소를 사용자 명단 섹션에 넣을 수 없습니다"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "잠금을 해제하여 다른 섹션으로 항목 드래그",

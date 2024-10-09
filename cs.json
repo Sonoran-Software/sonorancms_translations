@@ -778,7 +778,10 @@
     "license": "Licence",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Chyba: Při načítání dat serveru došlo k chybě.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Znovu synchronizovat",
+    "syncYourPermissionsAndAccountStatus": "Synchronizujte svá oprávnění a stav účtu se SonoranCAD a Radio.",
+    "permissionsSynced": "Oprávnění synchronizována"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Došlo k neočekávané chybě při použití prázdné šablony, pokud problém přetrvává, kontaktujte podporu.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Došlo k neočekávané chybě při použití šablony, pokud problém přetrvává, kontaktujte podporu.",
     "anErrorOccuredWhileSavingTryAgain": "Při ukládání došlo k chybě, zkuste to znovu.",
-    "nameFormat": "Formát jména"
+    "nameFormat": "Formát jména",
+    "disabledNameCustomizations": "Přizpůsobení zakázáno kvůli synchronizaci názvů Discord",
+    "formatKeys": "Formátovat klíče"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Návod na zkracovač URL",
@@ -1177,7 +1182,13 @@
     "permissions": "Oprávnění",
     "cancel": "Zrušit",
     "save": "Uložit",
-    "unknownRule": "Neznámé pravidlo"
+    "unknownRule": "Neznámé pravidlo",
+    "current": "Aktuální",
+    "currentParameter": "Aktuální parametr",
+    "week": "Týden",
+    "month": "Měsíc",
+    "quarter": "Čtvrtletí",
+    "year": "Rok"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tento formulář je odemčen pro nové příspěvky",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Pozadí obrázku bez jakéhokoli stylování",
     "elementsCannotBeDroppedIntoAForumSection": "Elementy nelze vložit do sekce fóra",
     "addSection": "Přidat sekci",
-    "backgroundOptions": "Možnosti pozadí"
+    "backgroundOptions": "Možnosti pozadí",
+    "elementsCannotBeMovedIntoARosterSection": "Prvky nelze přesunout do sekce seznamu",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementy nelze vložit do sekce sestavy"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Uzamknout položku do této sekce",

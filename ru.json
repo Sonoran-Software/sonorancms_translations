@@ -778,7 +778,10 @@
     "license": "Пинг",
     "ping": "Ошибка: Произошла ошибка при получении данных сервера.",
     "errorAnErrorOccuredWhileFetchingServerDa": "Н/Д",
-    "na": "Учебник по учетным записям пользователей"
+    "na": "Учебник по учетным записям пользователей",
+    "resync": "Повторная синхронизация",
+    "syncYourPermissionsAndAccountStatus": "Синхронизируйте свои разрешения и статус аккаунта с SonoranCAD и Radio.",
+    "permissionsSynced": "Разрешения синхронизированы"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Произошла неожиданная ошибка при использовании шаблона, если это повторится, свяжитесь с поддержкой.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Произошла ошибка при сохранении, попробуйте еще раз.",
     "anErrorOccuredWhileSavingTryAgain": "Учебник по сокращению URL",
-    "nameFormat": "Формат имени"
+    "nameFormat": "Формат имени",
+    "disabledNameCustomizations": "Кастомизация отключена из-за направления синхронизации имени Discord",
+    "formatKeys": "Форматировать ключи"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Узнайте, как создавать короткие URL для вашего сообщества",
@@ -1177,7 +1182,13 @@
     "permissions": "Отмена",
     "cancel": "Сохранить",
     "save": "Неизвестное правило",
-    "unknownRule": "Эта форма разблокирована для новых отправок"
+    "unknownRule": "Эта форма разблокирована для новых отправок",
+    "current": "Текущий",
+    "currentParameter": "Текущий параметр",
+    "week": "Неделя",
+    "month": "Месяц",
+    "quarter": "Квартал",
+    "year": "Год"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Эта форма заблокирована для новых отправок",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Элементы нельзя перемещать в раздел форума",
     "elementsCannotBeDroppedIntoAForumSection": "Добавить раздел",
     "addSection": "Параметры фона",
-    "backgroundOptions": "Закрепить элемент в этом разделе"
+    "backgroundOptions": "Закрепить элемент в этом разделе",
+    "elementsCannotBeMovedIntoARosterSection": "Элементы не могут быть перемещены в раздел списка",
+    "elementsCannotBeDroppedIntoARosterSection": "Элементы нельзя помещать в раздел списка"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Заполнить изображение",

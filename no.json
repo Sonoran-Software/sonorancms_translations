@@ -778,7 +778,10 @@
     "license": "Lisens",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Feil: En feil oppstod under henting av serverdata.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Synkroniser på nytt",
+    "syncYourPermissionsAndAccountStatus": "Synkroniser tillatelsene og kontostatusen din til SonoranCAD & Radio.",
+    "permissionsSynced": "Rettigheter synkronisert"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brukerkontoer Veiledning",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "En uventet feil oppstod ved bruk av en tom mal, kontakt support hvis dette vedvarer.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "En uventet feil oppstod ved bruk av en mal, kontakt support hvis dette vedvarer.",
     "anErrorOccuredWhileSavingTryAgain": "En feil oppstod under lagring, prøv igjen.",
-    "nameFormat": "Navneformat"
+    "nameFormat": "Navneformat",
+    "disabledNameCustomizations": "(Tilpasning deaktivert på grunn av Discord-navnesynkroniseringsretning)",
+    "formatKeys": "Formater nøkler"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-forkorter Veiledning",
@@ -1177,7 +1182,13 @@
     "permissions": "Tillatelser",
     "cancel": "Avbryt",
     "save": "Lagre",
-    "unknownRule": "Ukjent Regel"
+    "unknownRule": "Ukjent Regel",
+    "current": "Nåværende",
+    "currentParameter": "Nåværende parameter",
+    "week": "Uke",
+    "month": "Måned",
+    "quarter": "Kvartal",
+    "year": "År"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dette skjemaet er ulåst for nye innsendinger",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "Bakgrunnsbildet uten noen styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elementer kan ikke slippes inn i en forumseksjon",
     "addSection": "Legg til seksjon",
-    "backgroundOptions": "Bakgrunnsvalg"
+    "backgroundOptions": "Bakgrunnsvalg",
+    "elementsCannotBeMovedIntoARosterSection": "Elementer kan ikke flyttes inn i en oppsettseksjon",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementer kan ikke droppes inn i en oppstillingsseksjon"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås element til denne seksjonen",

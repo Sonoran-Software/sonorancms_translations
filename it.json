@@ -778,7 +778,10 @@
     "license": "Licenza",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Errore: Si è verificato un errore durante il recupero dei dati del server.",
-    "na": "N/D"
+    "na": "N/D",
+    "resync": "Resincronizza",
+    "syncYourPermissionsAndAccountStatus": "Sincronizza i tuoi permessi e lo stato dell'account con SonoranCAD e Radio.",
+    "permissionsSynced": "Permessi sincronizzati"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial sugli Account Utente",
@@ -1081,7 +1084,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Si è verificato un errore imprevisto durante l'utilizzo di un modello vuoto, se il problema persiste contatta il supporto.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Si è verificato un errore imprevisto durante l'utilizzo di un modello, se il problema persiste contatta il supporto.",
     "anErrorOccuredWhileSavingTryAgain": "Si è verificato un errore durante il salvataggio, riprova.",
-    "nameFormat": "Formato Nome"
+    "nameFormat": "Formato Nome",
+    "disabledNameCustomizations": "(Customizzazione disabilitata a causa della sincronia del nome Discord)",
+    "formatKeys": "Formato Chiavi"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial per l'Accorciatore di URL",
@@ -1177,7 +1182,13 @@
     "permissions": "Permessi",
     "cancel": "Annulla",
     "save": "Salva",
-    "unknownRule": "Regola Sconosciuta"
+    "unknownRule": "Regola Sconosciuta",
+    "current": "Corrente",
+    "currentParameter": "Parametro attuale",
+    "week": "Settimana",
+    "month": "Mese",
+    "quarter": "Trimestre",
+    "year": "Anno"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Questo modulo è sbloccato per nuove Sottomissioni",
@@ -3844,7 +3855,9 @@
     "theBackgroundImageWithOutAnyStyling": "L'immagine di sfondo senza alcuno stile",
     "elementsCannotBeDroppedIntoAForumSection": "Gli elementi non possono essere trascinati in una sezione del forum",
     "addSection": "Aggiungi Sezione",
-    "backgroundOptions": "Opzioni di Sfondo"
+    "backgroundOptions": "Opzioni di Sfondo",
+    "elementsCannotBeMovedIntoARosterSection": "Gli elementi non possono essere spostati in una sezione del roster",
+    "elementsCannotBeDroppedIntoARosterSection": "Gli elementi non possono essere rilasciati in una sezione del roster"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Blocca elemento a questa sezione",
