@@ -3632,6 +3632,26 @@
     "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
     "banConfiguration": "Ban Configuration"
   },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "This action will automatically send a notification to the user when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the notification content.",
+    "emailContentDescription": "This action will automatically send a email to the user when the point threshold is met. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the email content.",
+    "modifyCommunityRanksDescription": "This action will automatically set the user's ranks when they join the community.",
+    "discordWebhookContentDescription": "This action will automatically execute a Discord webhook when the user joins the community. You can utilize the following template strings: {'{com_name}'} {'{username}'}, and {'{discord_ping}'} to have dynamic data within the notification content.",
+    "discordMessageContentDescription": "This action will automatically send the user a Discord DM when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'}, and {'{discord_ping}'} to have dynamic data within the notification content.",
+    "notificationContent": "Notification Content",
+    "emailContent": "Email Content",
+    "selectRanks": "Select Ranks",
+    "webhookChannel": "Webhook Channel",
+    "webhookEmbedContent": "Embed Content",
+    "webhookContentHint": "Message sent with the Discord Embed",
+    "notSetupFollowStepsBelow": "Not setup, follow steps below",
+    "notWithinGuildInviteSonoranbot": "Not within guild, invite SonoranBot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Error: Fetching Sonoran Bot guilds data took too long, try again later.",
+    "ranksToAddAddingRanks": "Ranks To Set:",
+    "noRanksSelectedToBeAddedOnToAccounts": "No ranks selected to be set on to accounts...",
+    "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
+    "banConfiguration": "Ban Configuration"
+  },
   "FormSectionEditor": {
     "required": "Required",
     "sectionHeader": "Section Header",
