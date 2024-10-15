@@ -3634,7 +3634,7 @@
   },
   "OnJoinActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the notification content.",
-    "emailContentDescription": "This action will automatically send a email to the user when the point threshold is met. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the email content.",
+    "emailContentDescription": "This action will automatically send a email to the user when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the email content.",
     "modifyCommunityRanksDescription": "This action will automatically set the user's ranks when they join the community.",
     "discordWebhookContentDescription": "This action will automatically execute a Discord webhook when the user joins the community. You can utilize the following template strings: {'{com_name}'} {'{username}'}, and {'{discord_ping}'} to have dynamic data within the notification content.",
     "discordMessageContentDescription": "This action will automatically send the user a Discord DM when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'}, and {'{discord_ping}'} to have dynamic data within the notification content.",
