@@ -4273,5 +4273,25 @@
     "banExpiration": "expiraçãoDoBanimento",
     "close": "fechar",
     "applyBan": "aplicarBanimento"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "descrição do conteúdo da notificação",
+    "emailContentDescription": "Descrição do conteúdo do e-mail",
+    "modifyCommunityRanksDescription": "Modificar as descrições de classificações da comunidade",
+    "discordWebhookContentDescription": "Descrição do conteúdo do webhook do Discord",
+    "discordMessageContentDescription": "Descrição do conteúdo da mensagem do Discord",
+    "notificationContent": "conteúdoNotificação",
+    "emailContent": "Conteúdo do email",
+    "selectRanks": "selecionarClassificações",
+    "webhookChannel": "canalWebhook",
+    "webhookEmbedContent": "conteúdoIncorporadoDeWebhook",
+    "webhookContentHint": "Dica de conteúdo do webhook",
+    "notSetupFollowStepsBelow": "não configurado, siga os passos abaixo",
+    "notWithinGuildInviteSonoranbot": "Você não está no servidor Discord da Sonoran Bot.",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Erro ao buscar dados do Sonoran Bot: demorou muito tempo.",
+    "ranksToAddAddingRanks": "Patentes para adicionar Adicionando Patentes",
+    "noRanksSelectedToBeAddedOnToAccounts": "Nenhum cargo selecionado para ser adicionado às contas.",
+    "sonoranBotEncounteredAnIssue": "sonoranBot encontrou um problema",
+    "banConfiguration": "Configuração de banimento"
   }
 }

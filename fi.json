@@ -4273,5 +4273,25 @@
     "banExpiration": "kiellon päättyminen",
     "close": "sulje",
     "applyBan": "sovella Kielto"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "ilmoituksen sisällön kuvaus",
+    "emailContentDescription": "Sähköpostisisällön kuvaus",
+    "modifyCommunityRanksDescription": "muokkaa yhteisön arvojen kuvausta",
+    "discordWebhookContentDescription": "Discord-verkkokoukun sisältökuvaus",
+    "discordMessageContentDescription": "Discord-viestisisältökuvaus",
+    "notificationContent": "ilmoituksenSisältö",
+    "emailContent": "sähköpostisisältö",
+    "selectRanks": "valitseArvot",
+    "webhookChannel": "webhook-kanava",
+    "webhookEmbedContent": "webhookUpotusSisältö",
+    "webhookContentHint": "verkkokoukun sisällön vinkki",
+    "notSetupFollowStepsBelow": "ei asennettu, seuraa alla olevia ohjeita",
+    "notWithinGuildInviteSonoranbot": "kutsulinkkiä ei voi luoda, koska et ole Sonoranbotin kanssa samassa Discord-killassa",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Virhe haettaessa Sonoran Bot -kiltatietoja, kesti liian kauan",
+    "ranksToAddAddingRanks": "arvoja lisätessä",
+    "noRanksSelectedToBeAddedOnToAccounts": "Ei rankkeja valittuna lisättäväksi tileille",
+    "sonoranBotEncounteredAnIssue": "sonoranBot kohtasi ongelman",
+    "banConfiguration": "kieltoasetukset"
   }
 }

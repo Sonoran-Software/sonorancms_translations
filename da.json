@@ -4273,5 +4273,25 @@
     "banExpiration": "udløbsdato for forbud",
     "close": "luk",
     "applyBan": "anvendForbud"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "beskrivelsenIndholdAfNotifikation",
+    "emailContentDescription": "Beskrivelse af e-mailindhold",
+    "modifyCommunityRanksDescription": "ændre fællesskabsrangsbeskrivelse",
+    "discordWebhookContentDescription": "discord-webhook-indholdsbeskrivelse",
+    "discordMessageContentDescription": "discordBeskedIndholdBeskrivelse",
+    "notificationContent": "notifikationsindhold",
+    "emailContent": "emailindhold",
+    "selectRanks": "vælgRanger",
+    "webhookChannel": "webhook-kanal",
+    "webhookEmbedContent": "webhookIndlejringsindhold",
+    "webhookContentHint": "webhookindholdstip",
+    "notSetupFollowStepsBelow": "ikke opsat Følg trinene nedenfor",
+    "notWithinGuildInviteSonoranbot": "ikke inden for guild-invitationen Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Fejl ved hentning af Sonoran Bot Guilds-data tog for lang tid",
+    "ranksToAddAddingRanks": "rækker at tilføje",
+    "noRanksSelectedToBeAddedOnToAccounts": "ingenRangerValgtTilAtBliveTilføjetTilKonti",
+    "sonoranBotEncounteredAnIssue": "sonoranBot stødte på et problem",
+    "banConfiguration": "banKonfiguration"
   }
 }

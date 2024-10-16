@@ -4273,5 +4273,25 @@
     "banExpiration": "истечение срока бана",
     "close": "Закрыть",
     "applyBan": "наложить бан"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "Описание уведомления",
+    "emailContentDescription": "Описание содержимого электронной почты",
+    "modifyCommunityRanksDescription": "изменитьОписаниеРанговСообщества",
+    "discordWebhookContentDescription": "Описание содержимого вебхука Discord",
+    "discordMessageContentDescription": "Описание содержимого сообщения в Discord",
+    "notificationContent": "содержаниеУведомления",
+    "emailContent": "содержимое электронной почты",
+    "selectRanks": "выбрать звания",
+    "webhookChannel": "каналWebhooks",
+    "webhookEmbedContent": "встраиваемое содержимое вебхука",
+    "webhookContentHint": "установить пользовательский текст для содержимого вебхука",
+    "notSetupFollowStepsBelow": "не настроено, следуйте приведённым ниже шагам",
+    "notWithinGuildInviteSonoranbot": "не в гильдии, пригласите Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "ошибка получения данных гильдий SonoranBot заняла слишком много времени",
+    "ranksToAddAddingRanks": "рангиДляДобавленияДобавлениеРангов",
+    "noRanksSelectedToBeAddedOnToAccounts": "не выбраны ранги для добавления к учетным записям",
+    "sonoranBotEncounteredAnIssue": "Sonoran Bot столкнулся с проблемой",
+    "banConfiguration": "конфигурацияБана"
   }
 }

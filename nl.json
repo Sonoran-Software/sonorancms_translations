@@ -4273,5 +4273,25 @@
     "banExpiration": "banVerloop",
     "close": "sluiten",
     "applyBan": "toepassingBlokkeer"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "notificatie-inhoudbeschrijving",
+    "emailContentDescription": "emailinhoudsbeschrijving",
+    "modifyCommunityRanksDescription": "\"Beschrijf de wijziging van gemeenschapsrangen\"",
+    "discordWebhookContentDescription": "Beschrijving van de Discord-webhookinhoud",
+    "discordMessageContentDescription": "inhoudsbeschrijving van Discord-bericht",
+    "notificationContent": "notificatieInhoud",
+    "emailContent": "e-mailinhoud",
+    "selectRanks": "selecteerRangen",
+    "webhookChannel": "webhookKanaal",
+    "webhookEmbedContent": "webhook-bijlage-inhoud",
+    "webhookContentHint": "webhook inhoud hint",
+    "notSetupFollowStepsBelow": "niet ingericht, volg de onderstaande stappen",
+    "notWithinGuildInviteSonoranbot": "Niet binnen de guild uitnodigen Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Fout bij het ophalen van Sonoran Bot-gildedata duurde te lang",
+    "ranksToAddAddingRanks": "Rangen toe te voegen",
+    "noRanksSelectedToBeAddedOnToAccounts": "er zijn geen rangen geselecteerd om aan accounts toe te voegen",
+    "sonoranBotEncounteredAnIssue": "sonoranBot heeft een probleem ondervonden",
+    "banConfiguration": "banConfiguratie"
   }
 }

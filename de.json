@@ -4273,5 +4273,25 @@
     "banExpiration": "Ablauf des Banns",
     "close": "Schließen",
     "applyBan": "Sperre anwenden"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "Benutzer (-name) hat einen Inhalt (-typ) veröffentlicht.",
+    "emailContentDescription": "E-Mail-Inhaltsbeschreibung",
+    "modifyCommunityRanksDescription": "Beschreibung der Änderungen der Community-Ränge",
+    "discordWebhookContentDescription": "Discord-Webhook-InhaltBeschreibung",
+    "discordMessageContentDescription": "Discord-Nachrichteninhaltsbeschreibung",
+    "notificationContent": "Benachrichtigungsinhalt",
+    "emailContent": "E-Mail-Inhalt",
+    "selectRanks": "Ränge auswählen",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "Webhook-Embed-Inhalt",
+    "webhookContentHint": "Webhook-Inhalt-Hinweis",
+    "notSetupFollowStepsBelow": "nicht eingerichtet, folgen Sie den untenstehenden Schritten",
+    "notWithinGuildInviteSonoranbot": "Nicht innerhalb der Gilde einladen Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Fehler beim Abrufen der Sonoran Bot-Gilden-Daten hat zu lange gedauert",
+    "ranksToAddAddingRanks": "Ränge zum Hinzufügen hinzufügen",
+    "noRanksSelectedToBeAddedOnToAccounts": "Keine Ränge ausgewählt, die Konten hinzugefügt werden sollen",
+    "sonoranBotEncounteredAnIssue": "SonoranBot hat ein Problem festgestellt",
+    "banConfiguration": "Bannkonfiguration"
   }
 }
