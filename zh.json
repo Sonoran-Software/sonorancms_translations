@@ -4273,5 +4273,25 @@
     "banExpiration": "禁令到期",
     "close": "关闭",
     "applyBan": "应用禁令"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "通知内容描述",
+    "emailContentDescription": "电子邮件内容描述",
+    "modifyCommunityRanksDescription": "修改社区等级描述",
+    "discordWebhookContentDescription": "Discord 网钩内容描述",
+    "discordMessageContentDescription": "Discord 消息内容说明",
+    "notificationContent": "通知内容",
+    "emailContent": "邮件内容",
+    "selectRanks": "选择等级",
+    "webhookChannel": "webhook频道",
+    "webhookEmbedContent": "webhook嵌入内容",
+    "webhookContentHint": "Webhook 内容提示",
+    "notSetupFollowStepsBelow": "尚未设置，请按以下步骤操作",
+    "notWithinGuildInviteSonoranbot": "不在公会内邀请Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "从 Sonoran Bot 获取公会数据超时出错",
+    "ranksToAddAddingRanks": "添加的等级",
+    "noRanksSelectedToBeAddedOnToAccounts": "未选择要添加到帐户的等级",
+    "sonoranBotEncounteredAnIssue": "SonoranBot遇到问题",
+    "banConfiguration": "禁止配置"
   }
 }

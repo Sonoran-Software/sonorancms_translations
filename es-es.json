@@ -4273,5 +4273,25 @@
     "banExpiration": "expiraciónDeBan",
     "close": "cerrar",
     "applyBan": "aplicarProhibición"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "Descripción del contenido de notificación",
+    "emailContentDescription": "Descripción del contenido del correo electrónico",
+    "modifyCommunityRanksDescription": "Modificar los rangos de la comunidad",
+    "discordWebhookContentDescription": "Descripción del contenido del webhook de Discord",
+    "discordMessageContentDescription": "Descripción del contenido del mensaje de Discord",
+    "notificationContent": "contenidoDeNotificación",
+    "emailContent": "contenido del correo electrónico",
+    "selectRanks": "seleccionarRangos",
+    "webhookChannel": "canalWebhook",
+    "webhookEmbedContent": "contenidoDelEmbedDelWebhook",
+    "webhookContentHint": "Sugerencia de contenido del webhook",
+    "notSetupFollowStepsBelow": "noConfiguradoSigaLosPasosABajo",
+    "notWithinGuildInviteSonoranbot": "No está dentro del gremio, invite a Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Error al obtener datos de Sonoran Bot. Demasiado tiempo.",
+    "ranksToAddAddingRanks": "rangosParaAgregarAgregarRangos",
+    "noRanksSelectedToBeAddedOnToAccounts": "No se seleccionaron rangos para añadir a las cuentas",
+    "sonoranBotEncounteredAnIssue": "sonoranBot encontró un problema",
+    "banConfiguration": "configuraciónDeBan"
   }
 }

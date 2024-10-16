@@ -4273,5 +4273,25 @@
     "banExpiration": "utløp av utestengelse",
     "close": "lukk",
     "applyBan": "anvendeUtestengelse"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "beskrivelsenotifikasjonsinnhold",
+    "emailContentDescription": "Beskrivelse av e-postinnhold",
+    "modifyCommunityRanksDescription": "Endre samfunnsrangeringene dine.",
+    "discordWebhookContentDescription": "Innholdet i Discord-nettkroken.",
+    "discordMessageContentDescription": "beskrivelse av discord-meldingsinnhold",
+    "notificationContent": "varslingsinnhold",
+    "emailContent": "e-postinnhold",
+    "selectRanks": "velgRangeringer",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webhookEmbedInnhold",
+    "webhookContentHint": "webhookInnholdHint",
+    "notSetupFollowStepsBelow": "ikke satt opp, følg trinnene nedenfor",
+    "notWithinGuildInviteSonoranbot": "ikke i guilden (inviter SonoranBot)",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Feil ved henting av Sonoran Bot guilds-data tok for lang tid.",
+    "ranksToAddAddingRanks": "rangerÅLeggeTilLeggeTilRanks",
+    "noRanksSelectedToBeAddedOnToAccounts": "Ingen ranger valgt for å bli lagt til på kontoer.",
+    "sonoranBotEncounteredAnIssue": "sonoranBot opplevde et problem",
+    "banConfiguration": "banKonfigurasjon"
   }
 }

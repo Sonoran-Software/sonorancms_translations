@@ -4273,5 +4273,25 @@
     "banExpiration": "wygaśnięcie bana",
     "close": "zamknij",
     "applyBan": "zastosujZbanowanie"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "opis powiadomienia",
+    "emailContentDescription": "Opis zawartości e-maila",
+    "modifyCommunityRanksDescription": "zmodyfikujOpisRangSpołeczności",
+    "discordWebhookContentDescription": "Opis zawartości webhooka Discorda",
+    "discordMessageContentDescription": "Opis zawartości wiadomości Discord",
+    "notificationContent": "zawartośćPowiadomienia",
+    "emailContent": "Zawartość e-maila",
+    "selectRanks": "wybierzStawki",
+    "webhookChannel": "kanałWebhook",
+    "webhookEmbedContent": "treśćOsadzeniaWebhooku",
+    "webhookContentHint": "Wskazówka dotycząca zawartości webhooka",
+    "notSetupFollowStepsBelow": "nie skonfigurowano, postępuj zgodnie z poniższymi krokami",
+    "notWithinGuildInviteSonoranbot": "Zaproszenie jest spoza gildii SonoranBot.",
+    "errorFetchingSonoranBotGuildsDataTookToo": "błąd pobierania danych z Sonoran Bot, trwało to zbyt długo",
+    "ranksToAddAddingRanks": "rangiDoDodaniaDodawanieRang",
+    "noRanksSelectedToBeAddedOnToAccounts": "Nie wybrano stopni do dodania na konta",
+    "sonoranBotEncounteredAnIssue": "sonoranBot napotkał problem",
+    "banConfiguration": "konfiguracjaBana"
   }
 }

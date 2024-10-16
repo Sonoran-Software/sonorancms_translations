@@ -4273,5 +4273,25 @@
     "banExpiration": "禁止の期限",
     "close": "閉じる",
     "applyBan": "禁止を適用する"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "通知内容の説明",
+    "emailContentDescription": "メール内容の説明",
+    "modifyCommunityRanksDescription": "コミュニティランクの変更",
+    "discordWebhookContentDescription": "Discord Webhook コンテンツの説明",
+    "discordMessageContentDescription": "Discordメッセージコンテンツの説明",
+    "notificationContent": "通知内容",
+    "emailContent": "メールコンテンツ",
+    "selectRanks": "ランクを選択",
+    "webhookChannel": "ウェブフックチャンネル",
+    "webhookEmbedContent": "ウェブフック埋め込みコンテンツ",
+    "webhookContentHint": "Webhookコンテンツのヒント",
+    "notSetupFollowStepsBelow": "まだ設定が完了していません。以下の手順に従ってください。",
+    "notWithinGuildInviteSonoranbot": "SonoranBotがこのギルドのメンバーではありません",
+    "errorFetchingSonoranBotGuildsDataTookToo": "データの取得に時間がかかりすぎました",
+    "ranksToAddAddingRanks": "ランクを追加",
+    "noRanksSelectedToBeAddedOnToAccounts": "アカウントに追加するランクが選択されていません",
+    "sonoranBotEncounteredAnIssue": "SonoranBotが問題に遭遇しました",
+    "banConfiguration": "禁止設定"
   }
 }

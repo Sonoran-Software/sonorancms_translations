@@ -4273,5 +4273,25 @@
     "banExpiration": "Konec banu",
     "close": "zavřít",
     "applyBan": "uvalit zákaz"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "popisObsahuOznámení",
+    "emailContentDescription": "obsahPopisuEmailu",
+    "modifyCommunityRanksDescription": "Upravit popis hodností komunity",
+    "discordWebhookContentDescription": "Popis obsahu Discord webhooku",
+    "discordMessageContentDescription": "Popis obsahu zprávy na Discordu",
+    "notificationContent": "obsahUpozornění",
+    "emailContent": "emailObsah",
+    "selectRanks": "vybratHodnosti",
+    "webhookChannel": "webhookKanál",
+    "webhookEmbedContent": "obsahVloženíWebhooku",
+    "webhookContentHint": "Obsah webhooku",
+    "notSetupFollowStepsBelow": "nenastaveno, postupujte podle následujících kroků",
+    "notWithinGuildInviteSonoranbot": "Uživatel není ve vaší discordové guildě.",
+    "errorFetchingSonoranBotGuildsDataTookToo": "chyba při získávání dat Sonoran Bot Guilds trvalo příliš dlouho",
+    "ranksToAddAddingRanks": "hodnosti k přidání Přidávání hodností",
+    "noRanksSelectedToBeAddedOnToAccounts": "Žádné hodnosti nebyly vybrány k přidání k účtům",
+    "sonoranBotEncounteredAnIssue": "sonoranBot narazil na problém",
+    "banConfiguration": "konfiguraceBanu"
   }
 }

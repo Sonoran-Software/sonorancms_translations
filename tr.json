@@ -4273,5 +4273,25 @@
     "banExpiration": "yasakSüresi",
     "close": "kapat",
     "applyBan": "Yasakla"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "Bildirim içeriği açıklaması",
+    "emailContentDescription": "E-posta İçeriği Açıklaması",
+    "modifyCommunityRanksDescription": "Topluluk rütbelerini düzenleme, oluşturma ve yönetme.",
+    "discordWebhookContentDescription": "Discord Webhook İçeriği Açıklaması",
+    "discordMessageContentDescription": "discord Mesaj İçeriği Açıklaması",
+    "notificationContent": "bildirimİçeriği",
+    "emailContent": "emailIçeriği",
+    "selectRanks": "rütbeleriSeç",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webhookYerleştirmeİçeriği",
+    "webhookContentHint": "Webhook için URL'yi ve içeriği girin.",
+    "notSetupFollowStepsBelow": "kurulmadı, aşağıdaki adımları izleyin",
+    "notWithinGuildInviteSonoranbot": "Sonoran botu, bu sunucunun bir parçası değil",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Sonoran Bot Guilds verilerini alırken hata oluştu, çok uzun sürdü.",
+    "ranksToAddAddingRanks": "Rütbe Eklemek İçin Eklenen Rütbeler",
+    "noRanksSelectedToBeAddedOnToAccounts": "Hesaplara eklenecek rütbe seçilmedi",
+    "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı",
+    "banConfiguration": "yasakKonfigürasyonu"
   }
 }

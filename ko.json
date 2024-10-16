@@ -4273,5 +4273,25 @@
     "banExpiration": "밴 만료",
     "close": "닫기",
     "applyBan": "밴 적용"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "알림 내용 설명",
+    "emailContentDescription": "이메일 콘텐츠 설명",
+    "modifyCommunityRanksDescription": "커뮤니티 등급을 수정하고 관리하세요.",
+    "discordWebhookContentDescription": "디스코드 웹훅 컨텐츠 설명",
+    "discordMessageContentDescription": "디스코드 메시지 내용 설명",
+    "notificationContent": "알림 내용",
+    "emailContent": "이메일 내용",
+    "selectRanks": "계급 선택",
+    "webhookChannel": "웹훅 채널",
+    "webhookEmbedContent": "웹훅 임베드 내용",
+    "webhookContentHint": "웹훅 콘텐츠 힌트",
+    "notSetupFollowStepsBelow": "설정되지 않음, 아래 단계를 따르세요",
+    "notWithinGuildInviteSonoranbot": "커뮤니티에 참여할 수 있는 권한이 없습니다. 관리자에게 문의하세요.",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Sonoran Bot 길드 데이터를 가져오는 데 시간이 너무 오래 걸렸습니다.",
+    "ranksToAddAddingRanks": "추가할 계급",
+    "noRanksSelectedToBeAddedOnToAccounts": "계정에 추가할 등급이 선택되지 않음",
+    "sonoranBotEncounteredAnIssue": "SonoranBot이 문제를 발견했습니다.",
+    "banConfiguration": "차단 설정"
   }
 }

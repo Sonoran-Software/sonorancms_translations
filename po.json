@@ -4273,5 +4273,25 @@
     "banExpiration": "wygaśnięcie bana",
     "close": "zamknij",
     "applyBan": "zastosujZakaz"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "Opis zawartości powiadomienia",
+    "emailContentDescription": "Opis zawartości e-maila",
+    "modifyCommunityRanksDescription": "zmodyfikujOpisRangSpołeczności",
+    "discordWebhookContentDescription": "Opis treści webhooka Discord",
+    "discordMessageContentDescription": "Zawartość wiadomości na Discordzie",
+    "notificationContent": "zawartośćPowiadomienia",
+    "emailContent": "zawartośćEmail",
+    "selectRanks": "wybierzStopnie",
+    "webhookChannel": "웹훅채널",
+    "webhookEmbedContent": "Zawartość osadzenia webhooka",
+    "webhookContentHint": "Zawartość webhooka",
+    "notSetupFollowStepsBelow": "ei ole konfiguroitu, seuraa alla olevia ohjeita",
+    "notWithinGuildInviteSonoranbot": "Bot Sonoran no está en la invitación al gremio",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Błąd podczas pobierania danych SonoranBot: trwało to zbyt długo.",
+    "ranksToAddAddingRanks": "Dodavanje činova",
+    "noRanksSelectedToBeAddedOnToAccounts": "Žádné hodnosti nebyly vybrány k přidání na účty.",
+    "sonoranBotEncounteredAnIssue": "sonoranBot encontró un problema",
+    "banConfiguration": "KonfiguracjaBanów"
   }
 }

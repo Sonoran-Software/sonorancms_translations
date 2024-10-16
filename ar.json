@@ -4273,5 +4273,25 @@
     "banExpiration": "انتهاء الحظر",
     "close": "إغلاق",
     "applyBan": "تطبيق الحظر"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "وصف محتوى الإشعار",
+    "emailContentDescription": "وصف محتوى البريد الإلكتروني",
+    "modifyCommunityRanksDescription": "تعديل رتب المجتمع",
+    "discordWebhookContentDescription": "وصف محتوى الوصلة الإلكترونية لديسكورد",
+    "discordMessageContentDescription": "وصف محتوى رسالة Discord",
+    "notificationContent": "محتوى الإخطار",
+    "emailContent": "محتوى البريد الإلكتروني",
+    "selectRanks": "اختر الرتب",
+    "webhookChannel": "قناة الويب هوك",
+    "webhookEmbedContent": "محتوى تضمين الويب هوك",
+    "webhookContentHint": "تلميح محتوى الويب هوك",
+    "notSetupFollowStepsBelow": "لم يتم الإعداد، اتبع الخطوات أدناه",
+    "notWithinGuildInviteSonoranbot": "غير مدعو إلى هذه النقابة داخل Sonoran Bot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "حدث خطأ أثناء جلب بيانات Sonoran Bot Guilds - استغرق الأمر وقتًا طويلاً.",
+    "ranksToAddAddingRanks": "الرتب لإضافتها إضافة الرتب",
+    "noRanksSelectedToBeAddedOnToAccounts": "لم يتم تحديد أي رتب ليتم إضافتها على الحسابات",
+    "sonoranBotEncounteredAnIssue": "واجه Sonoran Bot مشكلة",
+    "banConfiguration": "تكوين الحظر"
   }
 }

@@ -4273,5 +4273,25 @@
     "banExpiration": "banUtgång",
     "close": "stäng",
     "applyBan": "tillämpaBan"
+  },
+  "OnJoinActionEditor": {
+    "notificationContentDescription": "notifikationsinnehållsbeskrivning",
+    "emailContentDescription": "e-postinnehållsbeskrivning",
+    "modifyCommunityRanksDescription": "modifiera communitybetyg beskrivning",
+    "discordWebhookContentDescription": "discordWebhookInnehållsbeskrivning",
+    "discordMessageContentDescription": "discord meddelandeinnehåll beskrivning",
+    "notificationContent": "notifikationsinnehåll",
+    "emailContent": "e-postinnehåll",
+    "selectRanks": "väljRankningar",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webbhookInbäddatInnehåll",
+    "webhookContentHint": "Innehållet i webhooken",
+    "notSetupFollowStepsBelow": "inte konfigurerad följ stegen nedan",
+    "notWithinGuildInviteSonoranbot": "inte inom guildens inbjudan Sonoranbot",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Fel vid hämtning av Sonoran Bot-guilddata, tog för lång tid.",
+    "ranksToAddAddingRanks": "rankerAttLäggTillLäggTillRanker",
+    "noRanksSelectedToBeAddedOnToAccounts": "ingaRangValdaSkaLäggasTillPåKonton",
+    "sonoranBotEncounteredAnIssue": "sonoranBot stötte på ett problem",
+    "banConfiguration": "konfigurationsförbud"
   }
 }
