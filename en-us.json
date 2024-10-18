@@ -1105,7 +1105,16 @@
     "confirmDelete": "Confirm Delete",
     "noCustomDomainConfigured": "No custom domain configured",
     "originalUrl": "Original URL",
-    "clicks": "Clicks"
+    "clicks": "Clicks",
+    "chooseYourDomainName": "Choose your subdomain name",
+    "youMustOwnYourDomainName": "You must own your Domain name!",
+    "configureYourDnsRecord": "Configure Your DNS Record",
+    "name": "Name",
+    "content": "Content",
+    "communityUuid": "Community UUID",
+    "addLinkSubdomain": "Add Link Subdomain",
+    "addNewLinkShortenerSubdomain": "Add new link shortener subdomain",
+    "saveYourCommunitesLinkSubdomain": "Save new link subdomain"
   },
   "EditColumnCard": {
     "editRosterColumn": "Edit roster column",
