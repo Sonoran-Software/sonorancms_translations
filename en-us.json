@@ -631,6 +631,8 @@
     "ignoreAlternateAccountDetectionFlags": "Ignore alternate account detection flags for users not yet in the community. Display the flag only when the suspected alternate account joins the community."
   },
   "Dashboard": {
+    "radio": "Radio",
+    "radioDesc": "Automate Sonoran Radio permissions with Sonoran CMS!",
     "securityDashboard": "Security - Dashboard",
     "growthDashboard": "Growth - Dashboard",
     "loadingData": "Loading Data",
