@@ -1117,6 +1117,11 @@
     "saveYourCommunitesLinkSubdomain": "Save new link subdomain"
   },
   "EditColumnCard": {
+    "week": "Week",
+    "month": "Month",
+    "quarter": "Quarter",
+    "year": "Year",
+    "current": "Current",
     "editRosterColumn": "Edit roster column",
     "delete": "Delete",
     "font": "Font",
