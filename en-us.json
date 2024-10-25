@@ -631,6 +631,8 @@
     "ignoreAlternateAccountDetectionFlags": "Ignore alternate account detection flags for users not yet in the community. Display the flag only when the suspected alternate account joins the community."
   },
   "Dashboard": {
+    "resync": "Resync",
+    "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status with CAD, Radio, and TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
     "radioDesc": "Automate Sonoran Radio permissions with Sonoran CMS!",
