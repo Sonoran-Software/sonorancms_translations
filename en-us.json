@@ -1120,6 +1120,7 @@
     "saveYourCommunitesLinkSubdomain": "Save new link subdomain"
   },
   "EditColumnCard": {
+    "currentParameter": "Current Range Parameters",
     "week": "Week",
     "month": "Month",
     "quarter": "Quarter",
