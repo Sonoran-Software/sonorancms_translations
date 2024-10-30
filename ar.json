@@ -778,7 +778,12 @@
     "license": "الرخصة",
     "ping": "الزمن المستغرق",
     "errorAnErrorOccuredWhileFetchingServerDa": "خطأ: حدث خطأ أثناء جلب بيانات الخادم.",
-    "na": "غير متاح"
+    "na": "غير متاح",
+    "resync": "إعادة المزامنة",
+    "syncYourPermissionsAndAccountStatus": "زامن صلاحياتك وحالة حسابك مع نظام إدارة الطلبات، والراديو، وTeamSpeak.",
+    "SonoranRadio": "سونوران راديو",
+    "radio": "راديو",
+    "radioDesc": "أتمت أذونات Sonoran Radio باستخدام Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "تأكيد الحذف",
     "noCustomDomainConfigured": "لم يتم تكوين نطاق مخصص",
     "originalUrl": "الرابط الأصلي",
-    "clicks": "النقرات"
+    "clicks": "النقرات",
+    "chooseYourDomainName": "اختر اسم النطاق الفرعي الخاص بك",
+    "youMustOwnYourDomainName": "يجب أن تمتلك اسم النطاق الخاص بك!",
+    "configureYourDnsRecord": "قم بتكوين سجل DNS الخاص بك",
+    "name": "الاسم",
+    "content": "محتوى",
+    "communityUuid": "معرف UUID للمجتمع",
+    "addLinkSubdomain": "أضف رابط النطاق الفرعي",
+    "addNewLinkShortenerSubdomain": "إضافة نطاق فرعي جديد لاختصار الروابط",
+    "saveYourCommunitesLinkSubdomain": "احفظ رابط النطاق الفرعي الجديد"
   },
   "EditColumnCard": {
     "editRosterColumn": "تعديل عمود القائمة",
@@ -1177,7 +1191,13 @@
     "permissions": "أذونات",
     "cancel": "إلغاء",
     "save": "حفظ",
-    "unknownRule": "قاعدة غير معروفة"
+    "unknownRule": "قاعدة غير معروفة",
+    "currentParameter": "المعلمات الحالية للنطاق",
+    "week": "أسبوع",
+    "month": "شهر",
+    "quarter": "ربع",
+    "year": "سنة",
+    "current": "الحالي"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "هذا النموذج مفتوح لتقديمات جديدة",

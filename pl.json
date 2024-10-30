@@ -778,7 +778,12 @@
     "license": "Licencja",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Błąd: Wystąpił błąd podczas pobierania danych serwera.",
-    "na": "N/D"
+    "na": "N/D",
+    "resync": "Ponowna synchronizacja",
+    "syncYourPermissionsAndAccountStatus": "Zsynchronizuj swoje uprawnienia i status konta z CAD, Radiem i TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Radio",
+    "radioDesc": "Zautomatyzuj uprawnienia Sonoran Radio dzięki Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Potwierdź usunięcie",
     "noCustomDomainConfigured": "Brak skonfigurowanej niestandardowej domeny",
     "originalUrl": "Oryginalny URL",
-    "clicks": "Kliknięcia"
+    "clicks": "Kliknięcia",
+    "chooseYourDomainName": "Wybierz nazwę swojej subdomeny",
+    "youMustOwnYourDomainName": "Musisz posiadać swoją nazwę domeny!",
+    "configureYourDnsRecord": "Skonfiguruj swój rekord DNS",
+    "name": "Nazwa",
+    "content": "Zawartość",
+    "communityUuid": "UUID społeczności",
+    "addLinkSubdomain": "Dodaj Poddomenę Linku",
+    "addNewLinkShortenerSubdomain": "Dodaj nową subdomenę skracacza linków",
+    "saveYourCommunitesLinkSubdomain": "Zapisz nowy subdomen linku"
   },
   "EditColumnCard": {
     "editRosterColumn": "Edytuj kolumnę listy",
@@ -1177,7 +1191,13 @@
     "permissions": "Uprawnienia",
     "cancel": "Anuluj",
     "save": "Zapisz",
-    "unknownRule": "Nieznana Zasada"
+    "unknownRule": "Nieznana Zasada",
+    "currentParameter": "Aktualne parametry zakresu",
+    "week": "Tydzień",
+    "month": "Miesiąc",
+    "quarter": "Kwartał",
+    "year": "Rok",
+    "current": "Obecny"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Ten formularz jest odblokowany dla nowych zgłoszeń",

@@ -778,7 +778,12 @@
     "license": "Licence",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Chyba: Při načítání dat serveru došlo k chybě.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Znovu synchronizovat",
+    "syncYourPermissionsAndAccountStatus": "Synchronizujte svá oprávnění a stav účtu s CAD, rádiem a TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Rádio",
+    "radioDesc": "Automatizujte oprávnění Sonoran Radio pomocí Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Potvrdit smazání",
     "noCustomDomainConfigured": "Není nakonfigurována žádná vlastní doména",
     "originalUrl": "Původní URL",
-    "clicks": "Kliknutí"
+    "clicks": "Kliknutí",
+    "chooseYourDomainName": "Vyberte název své subdomény",
+    "youMustOwnYourDomainName": "Musíte vlastnit svůj název domény!",
+    "configureYourDnsRecord": "Nakonfigurujte svůj záznam DNS",
+    "name": "Jméno",
+    "content": "Obsah",
+    "communityUuid": "UUID komunity",
+    "addLinkSubdomain": "Přidat odkaz subdomény",
+    "addNewLinkShortenerSubdomain": "Přidat novou subdoménu zkracovače odkazů",
+    "saveYourCommunitesLinkSubdomain": "Uložit novou subdoménu odkazu"
   },
   "EditColumnCard": {
     "editRosterColumn": "Upravit sloupec seznamu",
@@ -1177,7 +1191,13 @@
     "permissions": "Oprávnění",
     "cancel": "Zrušit",
     "save": "Uložit",
-    "unknownRule": "Neznámé pravidlo"
+    "unknownRule": "Neznámé pravidlo",
+    "currentParameter": "Aktuální parametry rozsahu",
+    "week": "Týden",
+    "month": "Měsíc",
+    "quarter": "Čtvrtletí",
+    "year": "Rok",
+    "current": "Aktuální"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tento formulář je odemčen pro nové příspěvky",

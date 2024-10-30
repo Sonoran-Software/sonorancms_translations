@@ -778,7 +778,12 @@
     "license": "Lisenssi",
     "ping": "Viive",
     "errorAnErrorOccuredWhileFetchingServerDa": "Virhe: Virhe tapahtui haettaessa palvelimen tietoja.",
-    "na": "Ei saatavilla"
+    "na": "Ei saatavilla",
+    "resync": "Synkronoi uudelleen",
+    "syncYourPermissionsAndAccountStatus": "Synkronoi käyttöoikeudet ja tilisi tila CAD:n, radion ja TeamSpeakin kanssa.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Radio",
+    "radioDesc": "Automatisoi Sonoran Radion käyttöoikeudet Sonoran CMS:llä!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Vahvista poisto",
     "noCustomDomainConfigured": "Mukautettua verkkotunnusta ei ole määritetty",
     "originalUrl": "Alkuperäinen URL",
-    "clicks": "Klikkaukset"
+    "clicks": "Klikkaukset",
+    "chooseYourDomainName": "Valitse aliverkkotunnuksesi nimi",
+    "youMustOwnYourDomainName": "Sinun on omistettava verkkotunnuksesi!",
+    "configureYourDnsRecord": "Määritä DNS-tietueesi",
+    "name": "Nimi",
+    "content": "Sisältö",
+    "communityUuid": "Yhteisön UUID",
+    "addLinkSubdomain": "Lisää linkkialidomain",
+    "addNewLinkShortenerSubdomain": "Lisää uusi linkin lyhennyspalvelun alidomain",
+    "saveYourCommunitesLinkSubdomain": "Tallenna uusi linkin aliverkkotunnus"
   },
   "EditColumnCard": {
     "editRosterColumn": "Muokkaa luettelon saraketta",
@@ -1177,7 +1191,13 @@
     "permissions": "Oikeudet",
     "cancel": "Peruuta",
     "save": "Tallenna",
-    "unknownRule": "Tuntematon sääntö"
+    "unknownRule": "Tuntematon sääntö",
+    "currentParameter": "Nykyiset alueparametrit",
+    "week": "Viikko",
+    "month": "Kuukausi",
+    "quarter": "Vuosineljännes",
+    "year": "Vuosi",
+    "current": "Nykyinen"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tämä lomake on avoinna uusille lähetyksille",
