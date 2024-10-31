@@ -14,7 +14,7 @@
     "videoTutorialComingSoon": "Video Tutorial Coming Soon"
   },
   "searchEngineEditor": {
-    "seoSettings": "Seo settings",
+    "seoSettings": "Seo Settings",
     "pageSEOSettings": "Page SEO Settings",
     "pageDesciption": "Page Description"
   },
@@ -633,6 +633,9 @@
   "Dashboard": {
     "resync": "Resync",
     "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status with CAD, Radio, and TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Radio",
+    "radioDesc": "Automate Sonoran Radio permissions with Sonoran CMS!",
     "securityDashboard": "Security - Dashboard",
     "growthDashboard": "Growth - Dashboard",
     "loadingData": "Loading Data",
@@ -1107,9 +1110,24 @@
     "confirmDelete": "Confirm Delete",
     "noCustomDomainConfigured": "No custom domain configured",
     "originalUrl": "Original URL",
-    "clicks": "Clicks"
+    "clicks": "Clicks",
+    "chooseYourDomainName": "Choose your subdomain name",
+    "youMustOwnYourDomainName": "You must own your Domain name!",
+    "configureYourDnsRecord": "Configure Your DNS Record",
+    "name": "Name",
+    "content": "Content",
+    "communityUuid": "Community UUID",
+    "addLinkSubdomain": "Add Link Subdomain",
+    "addNewLinkShortenerSubdomain": "Add new link shortener subdomain",
+    "saveYourCommunitesLinkSubdomain": "Save new link subdomain"
   },
   "EditColumnCard": {
+    "currentParameter": "Current Range Parameters",
+    "week": "Week",
+    "month": "Month",
+    "quarter": "Quarter",
+    "year": "Year",
+    "current": "Current",
     "editRosterColumn": "Edit roster column",
     "delete": "Delete",
     "font": "Font",

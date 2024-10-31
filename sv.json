@@ -778,7 +778,12 @@
     "license": "Licens",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fel: Ett fel inträffade vid hämtning av serverdata.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Återsynkronisera",
+    "syncYourPermissionsAndAccountStatus": "Synkronisera dina behörigheter och kontostatus med CAD, Radio och TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Radio",
+    "radioDesc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Bekräfta radering",
     "noCustomDomainConfigured": "Ingen anpassad domän konfigurerad",
     "originalUrl": "Ursprunglig URL",
-    "clicks": "Klick"
+    "clicks": "Klick",
+    "chooseYourDomainName": "Välj ditt subdomännamn",
+    "youMustOwnYourDomainName": "Du måste äga ditt domännamn!",
+    "configureYourDnsRecord": "Konfigurera din DNS-post",
+    "name": "Namn",
+    "content": "Innehåll",
+    "communityUuid": "Community UUID",
+    "addLinkSubdomain": "Lägg till länkunderdomän",
+    "addNewLinkShortenerSubdomain": "Lägg till nytt länkförkortare-subdomän",
+    "saveYourCommunitesLinkSubdomain": "Spara ny länkens subdomän"
   },
   "EditColumnCard": {
     "editRosterColumn": "Redigera rosterkolumn",
@@ -1177,7 +1191,13 @@
     "permissions": "Behörigheter",
     "cancel": "Avbryt",
     "save": "Spara",
-    "unknownRule": "Okänd Regel"
+    "unknownRule": "Okänd Regel",
+    "currentParameter": "Aktuella omfångsparametrar",
+    "week": "Vecka",
+    "month": "Månad",
+    "quarter": "Kvartal",
+    "year": "År",
+    "current": "Nuvarande"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Detta formulär är upplåst för nya Inlämningar",

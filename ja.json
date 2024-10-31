@@ -778,7 +778,12 @@
     "license": "ピング",
     "ping": "エラー: サーバーデータの取得中にエラーが発生しました。",
     "errorAnErrorOccuredWhileFetchingServerDa": "該当なし",
-    "na": "ユーザーアカウントチュートリアル"
+    "na": "ユーザーアカウントチュートリアル",
+    "resync": "再同期",
+    "syncYourPermissionsAndAccountStatus": "CAD、Radio、TeamSpeakと権限およびアカウントステータスを同期します。",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "ラジオ",
+    "radioDesc": "Sonoran CMSでSonoran Radioの権限を自動化！"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "カスタムドメインが設定されていません",
     "noCustomDomainConfigured": "元のURL",
     "originalUrl": "クリック数",
-    "clicks": "ロスター列を編集"
+    "clicks": "ロスター列を編集",
+    "chooseYourDomainName": "サブドメイン名を選択してください",
+    "youMustOwnYourDomainName": "ドメイン名を所有している必要があります！",
+    "configureYourDnsRecord": "DNSレコードを設定する",
+    "name": "名前",
+    "content": "コンテンツ",
+    "communityUuid": "コミュニティ UUID",
+    "addLinkSubdomain": "リンクサブドメインを追加",
+    "addNewLinkShortenerSubdomain": "新しいリンク短縮サブドメインを追加",
+    "saveYourCommunitesLinkSubdomain": "新しいリンクサブドメインを保存"
   },
   "EditColumnCard": {
     "editRosterColumn": "削除",
@@ -1177,7 +1191,13 @@
     "permissions": "キャンセル",
     "cancel": "保存",
     "save": "不明なルール",
-    "unknownRule": "このフォームは新しい提出のためにロック解除されています"
+    "unknownRule": "このフォームは新しい提出のためにロック解除されています",
+    "currentParameter": "現在の範囲パラメータ",
+    "week": "週",
+    "month": "月",
+    "quarter": "四半期",
+    "year": "年",
+    "current": "現在"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "このフォームは新しい提出からロックされています",

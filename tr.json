@@ -778,7 +778,12 @@
     "license": "Lisans",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Hata: Sunucu verileri alınırken bir hata oluştu.",
-    "na": "Yok"
+    "na": "Yok",
+    "resync": "Yeniden Senkronize Et",
+    "syncYourPermissionsAndAccountStatus": "CAD, Radyo ve TeamSpeak ile izinlerinizi ve hesap durumunuzu senkronize edin.",
+    "SonoranRadio": "Sonoran Radyo",
+    "radio": "Radyo",
+    "radioDesc": "Sonoran Radio izinlerini Sonoran CMS ile otomatikleştirin!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Silme İşlemini Onayla",
     "noCustomDomainConfigured": "Özel alan adı yapılandırılmadı",
     "originalUrl": "Orijinal URL",
-    "clicks": "Tıklamalar"
+    "clicks": "Tıklamalar",
+    "chooseYourDomainName": "Alt alan adınızı seçin",
+    "youMustOwnYourDomainName": "Alan adınızın sahibi olmalısınız!",
+    "configureYourDnsRecord": "DNS Kayıtlarınızı Yapılandırın",
+    "name": "İsim",
+    "content": "İçerik",
+    "communityUuid": "Topluluk UUID'si",
+    "addLinkSubdomain": "Alt Bağlantı Alt Etki Alanı Ekle",
+    "addNewLinkShortenerSubdomain": "Yeni bağlantı kısaltma alt alanı ekle",
+    "saveYourCommunitesLinkSubdomain": "Yeni bağlantı alt alan adını kaydet"
   },
   "EditColumnCard": {
     "editRosterColumn": "Liste sütununu düzenle",
@@ -1177,7 +1191,13 @@
     "permissions": "İzinler",
     "cancel": "İptal",
     "save": "Kaydet",
-    "unknownRule": "Bilinmeyen Kural"
+    "unknownRule": "Bilinmeyen Kural",
+    "currentParameter": "Geçerli Aralık Parametreleri",
+    "week": "Hafta",
+    "month": "Ay",
+    "quarter": "Çeyrek",
+    "year": "Yıl",
+    "current": "Güncel"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Bu form yeni gönderimler için kilidi açılmıştır",

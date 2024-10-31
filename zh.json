@@ -778,7 +778,12 @@
     "license": "许可证",
     "ping": "延迟",
     "errorAnErrorOccuredWhileFetchingServerDa": "错误：获取服务器数据时发生错误。",
-    "na": "不适用"
+    "na": "不适用",
+    "resync": "重新同步",
+    "syncYourPermissionsAndAccountStatus": "将您的权限和账户状态与 CAD、无线电和 TeamSpeak 同步。",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "广播",
+    "radioDesc": "使用 Sonoran CMS 自动化 Sonoran Radio 权限！"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "确认删除",
     "noCustomDomainConfigured": "未配置自定义域",
     "originalUrl": "原始网址",
-    "clicks": "点击次数"
+    "clicks": "点击次数",
+    "chooseYourDomainName": "选择您的子域名",
+    "youMustOwnYourDomainName": "您必须拥有您的域名！",
+    "configureYourDnsRecord": "配置您的 DNS 记录",
+    "name": "名称",
+    "content": "内容",
+    "communityUuid": "社区 UUID",
+    "addLinkSubdomain": "添加链接子域名",
+    "addNewLinkShortenerSubdomain": "添加新的链接缩短子域名",
+    "saveYourCommunitesLinkSubdomain": "保存新链接子域名"
   },
   "EditColumnCard": {
     "editRosterColumn": "编辑名单列",
@@ -1177,7 +1191,13 @@
     "permissions": "权限",
     "cancel": "取消",
     "save": "保存",
-    "unknownRule": "未知规则"
+    "unknownRule": "未知规则",
+    "currentParameter": "当前范围参数",
+    "week": "周",
+    "month": "月份",
+    "quarter": "季度",
+    "year": "年",
+    "current": "当前"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "此表单已解锁，可进行新提交",

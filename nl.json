@@ -778,7 +778,12 @@
     "license": "Licentie",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fout: Er is een fout opgetreden bij het ophalen van servergegevens.",
-    "na": "N.v.t."
+    "na": "N.v.t.",
+    "resync": "Resynchroniseren",
+    "syncYourPermissionsAndAccountStatus": "Synchroniseer je permissies en accountstatus met CAD, Radio en TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Radio",
+    "radioDesc": "Automatiseer Sonoran Radio-machtigingen met Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Verwijdering Bevestigen",
     "noCustomDomainConfigured": "Geen aangepast domein geconfigureerd",
     "originalUrl": "Oorspronkelijke URL",
-    "clicks": "Klikken"
+    "clicks": "Klikken",
+    "chooseYourDomainName": "Kies je subdomeinnaam",
+    "youMustOwnYourDomainName": "Je moet eigenaar zijn van je domeinnaam!",
+    "configureYourDnsRecord": "Configureer uw DNS-record",
+    "name": "Naam",
+    "content": "Inhoud",
+    "communityUuid": "Community UUID",
+    "addLinkSubdomain": "Subdomein koppeling toevoegen",
+    "addNewLinkShortenerSubdomain": "Voeg nieuw linkverkorter-subdomein toe",
+    "saveYourCommunitesLinkSubdomain": "Sla nieuwe link-subdomein op"
   },
   "EditColumnCard": {
     "editRosterColumn": "Bewerk roster kolom",
@@ -1177,7 +1191,13 @@
     "permissions": "Machtigingen",
     "cancel": "Annuleren",
     "save": "Opslaan",
-    "unknownRule": "Onbekende Regel"
+    "unknownRule": "Onbekende Regel",
+    "currentParameter": "Huidige bereikparameters",
+    "week": "Week",
+    "month": "Maand",
+    "quarter": "Kwartaal",
+    "year": "Jaar",
+    "current": "Huidig"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dit formulier is ontgrendeld voor nieuwe inzendingen",

@@ -778,7 +778,12 @@
     "license": "Пинг",
     "ping": "Ошибка: Произошла ошибка при получении данных сервера.",
     "errorAnErrorOccuredWhileFetchingServerDa": "Н/Д",
-    "na": "Учебник по учетным записям пользователей"
+    "na": "Учебник по учетным записям пользователей",
+    "resync": "Повторная синхронизация",
+    "syncYourPermissionsAndAccountStatus": "Синхронизируйте свои разрешения и статус учетной записи с CAD, Radio и TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Радио",
+    "radioDesc": "Автоматизируйте разрешения Sonoran Radio с помощью Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Пользовательский домен не настроен",
     "noCustomDomainConfigured": "Оригинальный URL",
     "originalUrl": "Клики",
-    "clicks": "Редактировать столбец списка"
+    "clicks": "Редактировать столбец списка",
+    "chooseYourDomainName": "Выберите название для вашего поддомена",
+    "youMustOwnYourDomainName": "Вы должны владеть своим доменным именем!",
+    "configureYourDnsRecord": "Настройте вашу DNS запись",
+    "name": "Имя",
+    "content": "Содержимое",
+    "communityUuid": "UUID сообщества",
+    "addLinkSubdomain": "Добавить ссылку на поддомен",
+    "addNewLinkShortenerSubdomain": "Добавить новый субдомен сокращения ссылок",
+    "saveYourCommunitesLinkSubdomain": "Сохранить новый субдомен ссылки"
   },
   "EditColumnCard": {
     "editRosterColumn": "Удалить",
@@ -1177,7 +1191,13 @@
     "permissions": "Отмена",
     "cancel": "Сохранить",
     "save": "Неизвестное правило",
-    "unknownRule": "Эта форма разблокирована для новых отправок"
+    "unknownRule": "Эта форма разблокирована для новых отправок",
+    "currentParameter": "Текущие параметры диапазона",
+    "week": "Неделя",
+    "month": "Месяц",
+    "quarter": "Квартал",
+    "year": "Год",
+    "current": "Текущий"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Эта форма заблокирована для новых отправок",

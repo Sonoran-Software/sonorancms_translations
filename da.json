@@ -778,7 +778,12 @@
     "license": "Licens",
     "ping": "Ping",
     "errorAnErrorOccuredWhileFetchingServerDa": "Fejl: Der opstod en fejl under hentning af serverdata.",
-    "na": "N/A"
+    "na": "N/A",
+    "resync": "Genoptag同步",
+    "syncYourPermissionsAndAccountStatus": "Synkroniser dine tilladelser og kontostatus med CAD, Radio og TeamSpeak.",
+    "SonoranRadio": "Sonoran Radio",
+    "radio": "Radio",
+    "radioDesc": "Automatiser Sonoran Radio tilladelser med Sonoran CMS!"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brugerkonti Vejledning",
@@ -1108,7 +1113,16 @@
     "confirmDelete": "Bekræft Sletning",
     "noCustomDomainConfigured": "Ingen brugerdefineret domæne konfigureret",
     "originalUrl": "Original URL",
-    "clicks": "Klik"
+    "clicks": "Klik",
+    "chooseYourDomainName": "Vælg dit subdomænenavn",
+    "youMustOwnYourDomainName": "Du skal eje dit domænenavn!",
+    "configureYourDnsRecord": "Konfigurér din DNS-post",
+    "name": "Navn",
+    "content": "Indhold",
+    "communityUuid": "Community UUID",
+    "addLinkSubdomain": "Tilføj link Subdomæne",
+    "addNewLinkShortenerSubdomain": "Tilføj nyt linkkorteringsunderdomæne",
+    "saveYourCommunitesLinkSubdomain": "Gem nyt link-subdomæne"
   },
   "EditColumnCard": {
     "editRosterColumn": "Rediger roster kolonne",
@@ -1177,7 +1191,13 @@
     "permissions": "Tilladelser",
     "cancel": "Annuller",
     "save": "Gem",
-    "unknownRule": "Ukendt Regel"
+    "unknownRule": "Ukendt Regel",
+    "currentParameter": "Nuværende rækkeparametre",
+    "week": "Uge",
+    "month": "Måned",
+    "quarter": "Kvartal",
+    "year": "År",
+    "current": "Nuværende"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Denne formular er ulåst for nye indsendelser",
