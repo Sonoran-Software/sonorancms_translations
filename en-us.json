@@ -2575,7 +2575,7 @@
   },
   "JobSync": {
     "jobSyncMapRanks": "Job Sync - Map Ranks",
-    "easilyAndAutomaticallyManageJobsForYourS": "Easily and automatically manage jobs for your server! Map ranks directly to QBCore jobs",
+    "easilyAndAutomaticallyManageJobsForYourS": "Map CMS ranks to in-game jobs. CMS ranks will automatically be applied when a player is on duty for the job, and removed when they are off duty.",
     "noDataAvailablebYouProbablyNeedToUpdateY": "No data available./b You probably need to update your servers",
     "ranks": "Ranks",
     "job": "Job",
