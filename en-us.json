@@ -4301,5 +4301,13 @@
     "banExpiration": "Ban Expiration",
     "close": "Close",
     "applyBan": "Apply Ban"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "No server name",
+    "rosterviewstart": "Start:",
+    "start": "Start",
+    "rosterviewend": "End:",
+    "end": "End",
+    "profileFieldRange": "Profile Field Range"
   }
 }
