@@ -3206,7 +3206,7 @@
     "RoleIsGrantedToTheUserIfTheyHaveAnyOfThe": "role is granted to the user if they have any of the CMS ranks in this mapping. Granting this Discord role will do nothing.",
     "the": "The",
     "theDiscord": "The Discord",
-    "kickDiscordGuildMembersWhenTheyLeaveTheC": "Kick Discord Guild members when they leave the CMS community",
+    "kickDiscordGuildMembersWhenTheyLeaveTheC": "Kicks the user from CMS if they are removed/leave all Discord guilds",
     "kickOnLeave": "Kick on Leave",
     "stripDiscordGuildRolesFromUsersThatAreNo": "Strip Discord Guild roles from users that are not mapped within the CMS",
     "stripUnmapped": "Strip Unmapped",
