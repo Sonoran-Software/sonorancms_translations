@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Kárný bod",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Nemáte oprávnění změnit své zobrazované jméno.",
     "permanent": "Trvalý",
-    "temporary": "Dočasný"
+    "temporary": "Dočasný",
+    "previousMembers": "Předchozí členové"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Žádné hodnosti nebyly vybrány k přidání k účtům",
     "sonoranBotEncounteredAnIssue": "sonoranBot narazil na problém",
     "banConfiguration": "konfiguraceBanu"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Žádný server.",
+    "rosterviewstart": "začátek zobrazení seznamu",
+    "start": "startovat",
+    "rosterviewend": "Zobrazit konec seznamu členů",
+    "end": "konec",
+    "profileFieldRange": "profilPoleRozsahu"
   }
 }

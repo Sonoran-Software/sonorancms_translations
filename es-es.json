@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Punto Disciplinario",
     "youDoNotHavePermssionsToChangeYourDisplayName": "No tienes permisos para cambiar tu nombre visible.",
     "permanent": "Permanente",
-    "temporary": "Temporal"
+    "temporary": "Temporal",
+    "previousMembers": "Miembros anteriores"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial de API de la Comunidad",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "No se seleccionaron rangos para añadir a las cuentas",
     "sonoranBotEncounteredAnIssue": "sonoranBot encontró un problema",
     "banConfiguration": "configuraciónDeBan"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Vista de la lista de miembros sin servidor",
+    "rosterviewstart": "inicio del vista de lista",
+    "start": "comenzar",
+    "rosterviewend": "ver vista del roster",
+    "end": "fin",
+    "profileFieldRange": "campoDeRangoDePerfil"
   }
 }

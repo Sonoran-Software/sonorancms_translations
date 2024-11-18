@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Punkt Discyplinarny",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Nie masz uprawnień do zmiany swojej nazwy wyświetlanej.",
     "permanent": "Stały",
-    "temporary": "Tijdelijk"
+    "temporary": "Tijdelijk",
+    "previousMembers": "Miembros anteriores"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Žádné hodnosti nebyly vybrány k přidání na účty.",
     "sonoranBotEncounteredAnIssue": "sonoranBot encontró un problema",
     "banConfiguration": "KonfiguracjaBanów"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Nie ma serwera",
+    "rosterviewstart": "Vista del roster",
+    "start": "começar",
+    "rosterviewend": "vistaçãodosescalõesfinalizar",
+    "end": "koniec",
+    "profileFieldRange": "zakresPolaProfilu"
   }
 }

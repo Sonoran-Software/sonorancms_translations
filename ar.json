@@ -933,7 +933,8 @@
     "disciplinaryPoint": "نقطة تأديبية",
     "youDoNotHavePermssionsToChangeYourDisplayName": "ليس لديك الأذونات لتغيير اسم العرض الخاص بك.",
     "permanent": "دائم",
-    "temporary": "مؤقت"
+    "temporary": "مؤقت",
+    "previousMembers": "الأعضاء السابقون"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "لم يتم تحديد أي رتب ليتم إضافتها على الحسابات",
     "sonoranBotEncounteredAnIssue": "واجه Sonoran Bot مشكلة",
     "banConfiguration": "تكوين الحظر"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "%! لم يتم ضبط أي خادم ",
+    "rosterviewstart": "بداية عرض القائمة",
+    "start": "ابدأ",
+    "rosterviewend": "عرض القائمة",
+    "end": "النهاية",
+    "profileFieldRange": "نطاق حقل الملف الشخصي"
   }
 }

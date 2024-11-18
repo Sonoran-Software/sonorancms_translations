@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Disiplin Puanı",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Görüntü adınızı değiştirme izniniz yok.",
     "permanent": "Kalıcı",
-    "temporary": "Geçici"
+    "temporary": "Geçici",
+    "previousMembers": "Önceki Üyeler"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Hesaplara eklenecek rütbe seçilmedi",
     "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı",
     "banConfiguration": "yasakKonfigürasyonu"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Sunucu yok",
+    "rosterviewstart": "Roster Görünümü Başla",
+    "start": "başlat",
+    "rosterviewend": "Gösterim Sonu",
+    "end": "son",
+    "profileFieldRange": "profilAlanıAralığı"
   }
 }

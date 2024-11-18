@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Disciplinair Punt",
     "youDoNotHavePermssionsToChangeYourDisplayName": "U hebt geen rechten om uw weergavenaam te wijzigen.",
     "permanent": "Permanent",
-    "temporary": "Tijdelijk"
+    "temporary": "Tijdelijk",
+    "previousMembers": "Vorige Leden"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "er zijn geen rangen geselecteerd om aan accounts toe te voegen",
     "sonoranBotEncounteredAnIssue": "sonoranBot heeft een probleem ondervonden",
     "banConfiguration": "banConfiguratie"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Geen servers gekoppeld",
+    "rosterviewstart": "Roosterweergave start",
+    "start": "starten",
+    "rosterviewend": "rosteroverzichtend",
+    "end": "einde",
+    "profileFieldRange": "profielveldbereik"
   }
 }

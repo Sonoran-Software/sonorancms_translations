@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Disziplinarpunkt",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Sie haben keine Berechtigung, Ihren Anzeigenamen zu ändern.",
     "permanent": "Permanent",
-    "temporary": "Vorübergehend"
+    "temporary": "Vorübergehend",
+    "previousMembers": "Vorherige Mitglieder"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Keine Ränge ausgewählt, die Konten hinzugefügt werden sollen",
     "sonoranBotEncounteredAnIssue": "SonoranBot hat ein Problem festgestellt",
     "banConfiguration": "Bannkonfiguration"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Roster-Ansicht Kein Server",
+    "rosterviewstart": "Rostervorschau starten",
+    "start": "Start",
+    "rosterviewend": "Roster-Ansichtende",
+    "end": "Beenden",
+    "profileFieldRange": "Profilfeldbereich"
   }
 }

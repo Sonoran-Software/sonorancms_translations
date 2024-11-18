@@ -933,7 +933,8 @@
     "disciplinaryPoint": "懲戒ポイント",
     "youDoNotHavePermssionsToChangeYourDisplayName": "表示名を変更する権限がありません。",
     "permanent": "永久",
-    "temporary": "一時的"
+    "temporary": "一時的",
+    "previousMembers": "以前のメンバー"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "アカウントに追加するランクが選択されていません",
     "sonoranBotEncounteredAnIssue": "SonoranBotが問題に遭遇しました",
     "banConfiguration": "禁止設定"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "サーバーがありません",
+    "rosterviewstart": "予定開始日時",
+    "start": "開始",
+    "rosterviewend": "閲覧終了",
+    "end": "終了",
+    "profileFieldRange": "プロフィールフィールド範囲"
   }
 }

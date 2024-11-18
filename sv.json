@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Disciplinär Poäng",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Du har inte behörighet att ändra ditt visningsnamn.",
     "permanent": "Permanent",
-    "temporary": "Tillfällig"
+    "temporary": "Tillfällig",
+    "previousMembers": "Tidigare medlemmar"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "ingaRangValdaSkaLäggasTillPåKonton",
     "sonoranBotEncounteredAnIssue": "sonoranBot stötte på ett problem",
     "banConfiguration": "konfigurationsförbud"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Inga servrar tillagda",
+    "rosterviewstart": "rostervystart",
+    "start": "starta",
+    "rosterviewend": "listavyförhandsgranskning",
+    "end": "slut",
+    "profileFieldRange": "profilfältområde"
   }
 }

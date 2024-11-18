@@ -933,7 +933,8 @@
     "disciplinaryPoint": "징계 점수",
     "youDoNotHavePermssionsToChangeYourDisplayName": "디스플레이 이름을 변경할 권한이 없습니다.",
     "permanent": "영구",
-    "temporary": "임시"
+    "temporary": "임시",
+    "previousMembers": "이전 회원들"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "계정에 추가할 등급이 선택되지 않음",
     "sonoranBotEncounteredAnIssue": "SonoranBot이 문제를 발견했습니다.",
     "banConfiguration": "차단 설정"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "서버가 없습니다.",
+    "rosterviewstart": "출석부 보기 시작",
+    "start": "시작",
+    "rosterviewend": "명단보기 종료",
+    "end": "끝",
+    "profileFieldRange": "프로필 필드 범위"
   }
 }

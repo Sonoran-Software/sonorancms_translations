@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Disiplinpoeng",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Du har ikke tillatelse til å endre visningsnavnet ditt.",
     "permanent": "Permanent",
-    "temporary": "Midlertidig"
+    "temporary": "Midlertidig",
+    "previousMembers": "Tidligere medlemmer"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Veiledning",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "Ingen ranger valgt for å bli lagt til på kontoer.",
     "sonoranBotEncounteredAnIssue": "sonoranBot opplevde et problem",
     "banConfiguration": "banKonfigurasjon"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Server ikke lagt til",
+    "rosterviewstart": "Vise medlemmer fra starten",
+    "start": "start",
+    "rosterviewend": "rostervisning slutt",
+    "end": "slutt",
+    "profileFieldRange": "profilfeltområde"
   }
 }

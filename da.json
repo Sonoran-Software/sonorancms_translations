@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Disciplinær Point",
     "youDoNotHavePermssionsToChangeYourDisplayName": "Du har ikke tilladelse til at ændre dit visningsnavn.",
     "permanent": "Permanent",
-    "temporary": "Midlertidig"
+    "temporary": "Midlertidig",
+    "previousMembers": "Tidligere medlemmer"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "ingenRangerValgtTilAtBliveTilføjetTilKonti",
     "sonoranBotEncounteredAnIssue": "sonoranBot stødte på et problem",
     "banConfiguration": "banKonfiguration"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Rostervisning er ikke tilknyttet nogen server",
+    "rosterviewstart": "start på visning af roster",
+    "start": "Start",
+    "rosterviewend": "visning af medlemsliste slut",
+    "end": "slut",
+    "profileFieldRange": "profilfeltområde"
   }
 }

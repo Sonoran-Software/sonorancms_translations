@@ -933,7 +933,8 @@
     "disciplinaryPoint": "纪律点数",
     "youDoNotHavePermssionsToChangeYourDisplayName": "您没有更改显示名称的权限。",
     "permanent": "永久",
-    "temporary": "临时"
+    "temporary": "临时",
+    "previousMembers": "以前的成员"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "未选择要添加到帐户的等级",
     "sonoranBotEncounteredAnIssue": "SonoranBot遇到问题",
     "banConfiguration": "禁止配置"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "未找到 Sonoran 服务器插件或所属服务器。",
+    "rosterviewstart": "花名册视图开始",
+    "start": "开始",
+    "rosterviewend": "名单视图结束",
+    "end": "结束",
+    "profileFieldRange": "个人资料字段范围"
   }
 }

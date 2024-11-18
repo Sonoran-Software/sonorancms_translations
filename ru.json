@@ -933,7 +933,8 @@
     "disciplinaryPoint": "Дисциплинарный балл",
     "youDoNotHavePermssionsToChangeYourDisplayName": "У вас нет разрешения на изменение отображаемого имени.",
     "permanent": "Постоянный",
-    "temporary": "Временный"
+    "temporary": "Временный",
+    "previousMembers": "Предыдущие участники"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -4313,5 +4314,13 @@
     "noRanksSelectedToBeAddedOnToAccounts": "не выбраны ранги для добавления к учетным записям",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot столкнулся с проблемой",
     "banConfiguration": "конфигурацияБана"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "Отсутствуют доступные серверы для отображения резерва.",
+    "rosterviewstart": "Начало просмотра состава",
+    "start": "старт",
+    "rosterviewend": "просмотр состава завершен",
+    "end": "Конец",
+    "profileFieldRange": "диапазонПоляПрофиля"
   }
 }
