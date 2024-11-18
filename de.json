@@ -1,323 +1,324 @@
 {
-  "config": {
-    "displayName": "Deutsch",
-    "path": "de"
-  },
-  "iconImageHandler": {
-    "icon": "Symbol",
-    "image": "Bild"
-  },
-  "helpButtonComponent": {
-    "viewTutorialVideo": "Tutorial-Video ansehen",
-    "documentation": "Dokumentation",
-    "close": "Schließen",
-    "videoTutorialComingSoon": "Video-Tutorial kommt bald"
-  },
-  "searchEngineEditor": {
-    "seoSettings": "SEO-Einstellungen",
-    "pageSEOSettings": "Seiten-SEO-Einstellungen",
-    "pageDesciption": "Seitenbeschreibung"
-  },
-  "common": {
-    "support": "Support",
-    "needHelp": "Brauchen Sie Hilfe?",
-    "noResults": "Keine Ergebnisse",
-    "add": "Hinzufügen",
-    "dupDept": "Abteilung duplizieren",
-    "remove": "Entfernen",
-    "save": "Speichern",
-    "cancel": "Abbrechen",
-    "view": "Ansehen",
-    "close": "Schließen",
-    "image": "Bild",
-    "description": "Beschreibung",
-    "templateDetails": "Vorlagendetails",
-    "information": "Informationen",
-    "recPlan": "Empfohlener Plan",
-    "totalDepts": "Gesamtanzahl der Abteilungen",
-    "totalRanks": "Gesamtanzahl der Ränge",
-    "totalRosters": "Gesamtanzahl der Dienstpläne",
-    "totalForms": "Gesamtanzahl der Formulare",
-    "totalStages": "Gesamtanzahl der Stufen",
-    "totalStageGroups": "Gesamtanzahl der Stufengruppen",
-    "calCates": "Kalenderkategorien",
-    "departments": "Abteilungen",
-    "rosters": "Dienstpläne",
-    "forms": "Formulare",
-    "calendars": "Kalender",
-    "previewTempDepartmentDetails": "Vorlagenabteilungsdetails",
-    "previewTempRosterDetails": "Vorlagen-Dienstplandetails",
-    "previewTempFormDetails": "Vorlagen-Formulardetails",
-    "previewTempPageDetails": "Vorlagenseitendetails",
-    "previewTempToolbarDetails": "Vorlagen-Toolbar-Details",
-    "filter": "Filter",
-    "no": "Nein",
-    "stages": "Stufen",
-    "stageGroups": "Stufengruppen",
-    "pages": "Seiten",
-    "toolbar": "Toolbar",
-    "toolbarItems": "Toolbar-Elemente",
-    "manage": "Verwalten",
-    "return": "Zurückkehren",
-    "learnMore": "Mehr erfahren",
-    "previewTempStageGroupDetails": "Stufengruppendetails anzeigen"
-  },
-  "permissions": {
-    "kickUser": "Benutzer kicken",
-    "banUser": "Benutzer bannen",
-    "archiveUser": "Benutzer archivieren",
-    "changePermissions": "Berechtigungen ändern",
-    "modifyComInfo": "Community-Anpassung ändern",
-    "modifyComDepts": "Abteilungen über Manager ändern",
-    "modifyComForms": "Benutzerdefinierte Formulare über Editor ändern",
-    "modifyComRosters": "Benutzerdefinierte Dienstpläne über Editor ändern",
-    "modifyDiscordHooks": "Discord-Logging-Webhooks ändern",
-    "modifyIntegration": "API-Integration ändern",
-    "tooltips": {
-      "system": {
-        "kickUserExplanation": "Das Gewähren dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen anderen Benutzer aus der Community zu kicken.",
-        "banUserExplanation": "Das Gewähren dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen anderen Benutzer aus der Community zu bannen.",
-        "archiveUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen anderen Benutzer aus der Community zu archivieren.",
-        "changePermissionsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Berechtigungen und Kontodetails eines anderen Benutzers aus der Community zu ändern.",
-        "modifyComInfoExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Aspekte der Sonoran CMS-Plattform wie Name, Bild, Namens-/Identifikatorformat usw. anzupassen.",
-        "modifyComFormsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die benutzerdefinierten Formularvorlagen anzupassen, die verwendet werden, wenn Benutzer Formulare einreichen.",
-        "modifyComDeptsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Abteilungen und Ränge anzupassen, wie Sie es gerade tun.",
-        "modifyComRostersExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Vorlagen für das Verzeichnis anzupassen, die verwendet werden, um die Verzeichnisdaten der Community anzuzeigen.",
-        "modifyDiscordHooksExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Discord-Webhook-Einstellungen für die Community anzupassen.",
-        "modifyIntegrationExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, API-Anmeldeinformationen anzupassen und abzurufen.",
-        "modifyToolbarExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Werkzeugleisteneinstellungen für die Community anzupassen.",
-        "modifyPagesExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Seiten für die Community anzupassen.",
-        "modifyDocumentsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, alle Dokumente im Sonoran CMS Community Drive zu verwalten.",
-        "clockInOutExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, sich ein- und auszustempeln.",
-        "modifyTeamSpeakExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die TeamSpeak-Integrationseinstellungen zu ändern.",
-        "modifyShieldExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Sonoran Shield-Einstellungen zu ändern."
-      },
-      "navigation": {
-        "viewDashboardBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Dashboard-Schaltfläche in der seitlichen Navigationsleiste zu sehen.",
-        "viewDriveBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Drive-Schaltfläche in der seitlichen Navigationsleiste zu sehen (wenn die Berechtigung 'Alle Dokumente (Drive) ändern' erteilt wurde, ist dies bereits enthalten).",
-        "viewCalendarBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Kalender-Schaltfläche in der seitlichen Navigationsleiste zu sehen.",
-        "viewRostersBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Dienstplan-Schaltflächen in der seitlichen Navigationsleiste zu sehen.",
-        "viewProfileBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Schaltfläche 'Community-Profil' in der seitlichen Navigationsleiste zu sehen."
-      },
-      "forms": {
-        "viewSubmittedExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, alle eingereichten Formulare dieses Typs anzusehen.",
-        "editOwnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, seine Einreichungen dieses Formulars zu bearbeiten.",
-        "changeStagesExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, den Status eines eingereichten Formulars dieses Typs zu ändern.",
-        "modifyReplySettingsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Antwort-Einstellungen eines eingereichten Formulars dieses Typs zu ändern.",
-        "replyExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende Antworten zulassen.",
-        "replyModExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende oder Moderator-Antworten zulassen.",
-        "replyAdminExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende, Moderator- oder Administrator-Antworten zulassen.",
-        "submitExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, ein Formular dieses Typs einzureichen.",
-        "adminDeleteExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Einreichung dieses Formulars vollständig zu löschen.",
-        "modifyStageSettings": "Modify Stage Settings",
-        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-      },
-      "rosters": {
-        "viewExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, diese Liste anzusehen.",
-        "addPrimaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen Benutzer als Primärzeile zur Liste hinzuzufügen (anfangs vor den Sekundärzeilen sortiert).",
-        "addSecondaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen Benutzer als Sekundärzeile zur Liste hinzuzufügen (nach den Primärzeilen sortiert).",
-        "editPrimaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Primärzeile in dieser Liste zu bearbeiten.",
-        "editSecondaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Sekundärzeile in dieser Liste zu bearbeiten.",
-        "removePrimaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Primärzeile aus der Liste zu entfernen.",
-        "removeSecondaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Sekundärzeile aus der Liste zu entfernen.",
-        "viewModColumnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Spalten der Liste anzusehen, die als nur für Moderatoren markiert sind.",
-        "viewAdminColumnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Dienstplan-Spalten zu sehen, die nur für Administratoren markiert sind."
-      },
-      "calendars": {
-        "viewExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu sehen.",
-        "createExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu erstellen.",
-        "removeExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu entfernen.",
-        "editOtherExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu bearbeiten."
-      },
-      "servers": {
-        "allowWhitelistExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, durch die API-Whitelist zugelassen zu werden (wenn ein Benutzer die Blockierberechtigung für diesen Server hat, wird er blockiert, da die Blockierung Vorrang hat).",
-        "blockWhitelistExplanation": "Das Erteilen dieser Berechtigung blockiert einen Benutzer mit diesem Rang, durch die API-Whitelist zugelassen zu werden (wenn ein Benutzer die Zulassungsberechtigung für diesen Server hat, wird er trotzdem blockiert, da die Blockierung Vorrang hat)."
-      },
-      "profileFields": {
-        "attachExplanation": "Das Erteilen dieser Berechtigung fügt dieses Profilfeld zu den Profilen aller Mitglieder hinzu, die diesen Rang innehaben. Dies ermöglicht es jedem, der Ihr Profil ansieht, es zu sehen, es sei denn, eine der beiden nächsten Berechtigungen wird angewendet.",
-        "hideFromOwnerExplanation": "Das Gewähren dieser Berechtigung wird das Feld aus dem Profil des Mitglieds ausblenden, das diesen Rang innehat.",
-        "requireModToViewExplanation": "Das Gewähren dieser Berechtigung erfordert, dass ein Mitglied die Berechtigung \"Feld in anderen Profilen anzeigen - Mod-Power\" hat, um das Feld in einem Profil anzuzeigen.",
-        "requireAdminToViewExplanation": "Das Gewähren dieser Berechtigung erfordert, dass ein Mitglied die Berechtigung \"Feld in anderen Profilen anzeigen - Admin-Power\" hat, um das Feld in einem Profil anzuzeigen.",
-        "viewModPowerExplanation": "Das Gewähren dieser Berechtigung erlaubt einem Mitglied, dieses Feld in einem Profil mit \"Mod-Power\" anzuzeigen. Siehe oben stehende Berechtigungen für die Zuordnung.",
-        "viewAdminPowerExplanation": "Das Gewähren dieser Berechtigung erlaubt einem Mitglied, dieses Feld in einem Profil mit \"Admin-Power\" anzuzeigen. Siehe oben stehende Berechtigungen für die Zuordnung.",
-        "allowOwnerToEditExplanation": "Das Gewähren dieser Berechtigung erlaubt dem Mitglied, das diesen Rang innehat, dieses Feld in seinem Profil zu bearbeiten. Wenn die Berechtigung \"Feld vor Profilinhaber verbergen\" gewährt wird, wird diese Berechtigung ignoriert, da das Feld nicht sichtbar ist.",
-        "editOthersExplanation": "Das Gewähren dieser Berechtigung erlaubt dem Mitglied, das diesen Rang innehat, dieses Feld in allen Mitgliederprofilen zu bearbeiten, die es anzeigen kann."
-      },
-      "pages": {
-        "viewExplanation": "Das Erteilen dieser Berechtigungen ermöglicht es dem Mitglied, das diesen Rang innehat, diese Seite zu sehen, da die Seite auf PRIVAT gesetzt ist."
-      }
+    "config": {
+        "displayName": "Deutsch",
+        "path": "de"
     },
-    "disciplinaryPanel": "Disziplinarausschuss",
-    "changePermissionsHigher": "Höhere Berechtigungen ändern"
-  },
-  "growth": {
-    "ERRORED": "FEHLERHAFT",
-    "thereWasNotEnoughDataForThisCommmunityToDetermine": "Es lagen nicht genügend Daten vor, um diese Gemeinschaft zu bestimmen.",
-    "fastestGrowing": "Am schnellsten wachsend",
-    "fastestGrowingCommunityInTheLast7DaysComparedTo": "am schnellsten wachsende Gemeinschaft in den letzten 7 Tagen im Vergleich zu"
-  },
-  "menu": {
-    "join": "Einer Gemeinschaft beitreten",
-    "togDefaultCom": "Standard-CMS-Gemeinschaft umschalten",
-    "leaveCommunity": "Gemeinschaft verlassen",
-    "leaveCommunityTitle": "Bestätigung des Gemeinschaftsverlassens",
-    "leaveCommunityMessage": "Sind Sie sicher, dass Sie diese Gemeinschaft verlassen möchten? Sie werden keinen Zugriff mehr auf die Inhalte der Gemeinschaft haben."
-  },
-  "forms": {
-    "templateTypes": {
-      "newmemberapp": "Neuer Mitgliedsantrag",
-      "reserveapp": "Sekundärer Antrag",
-      "plog": "Zeitprotokoll",
-      "commend": "Lob",
-      "complaint": "Beschwerde",
-      "comform": "Gemeinschaftsformular",
-      "disciplinary": "Disziplinarmaßnahme",
-      "training": "Schulungshistorie",
-      "generalapp": "General Form"
+    "iconImageHandler": {
+        "icon": "Symbol",
+        "image": "Bild"
     },
-    "formDeleteConfirm": "Sind Sie sicher, dass Sie \"{formName}\" löschen möchten?",
-    "secFieldsHeader": "Felder",
-    "stageCreate": "Stufe erstellen",
-    "stageUpdate": "Stufe aktualisieren",
-    "stageActionTypes": {
-      "autoReply": "Automatische Formularantwort",
-      "notifySubmitterNotification": "Benachrichtigung per Mitteilung",
-      "notifySubmitterEmail": "Benachrichtigung per E-Mail",
-      "disableEnableReplies": "Antworten deaktivieren/aktivieren",
-      "changeDepartmentSlashRank": "Rang(e) ändern",
-      "modifyCommunityStatus": "Gemeinschaftsstatus ändern",
-      "executeDiscordWebhook": "Discord Webhook ausführen",
-      "executeDiscordDm": "Discord DM senden",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+    "helpButtonComponent": {
+        "viewTutorialVideo": "Tutorial-Video ansehen",
+        "documentation": "Dokumentation",
+        "close": "Schließen",
+        "videoTutorialComingSoon": "Video-Tutorial kommt bald"
     },
-    "appSubmit": "Antrag/Formular einreichen",
-    "editOwn": "Eigenes Formular bearbeiten",
-    "changeStages": "Formularstufe ändern",
-    "toggleReplies": "Antworten aktivieren/deaktivieren",
-    "appReply": "Grundlegender Antwortzugriff",
-    "appReplyMod": "Mod-Antwortzugriff",
-    "appReplyAdmin": "Admin-Antwortzugriff",
-    "viewSubmitted": "Eingereichtes anzeigen",
-    "archiveOwn": "Eigenes Formular archivieren",
-    "archiveForm": "Formular archivieren",
-    "unarchiveOwn": "Eigenes Formular aus dem Archiv holen",
-    "unarchiveForm": "Formular aus dem Archiv holen",
-    "adminDelete": "Admin Löschen",
-    "apply": {
-      "availableForms": "Verfügbare Formulare",
-      "myForms": "Meine Formulare",
-      "apply": "Absenden"
+    "searchEngineEditor": {
+        "seoSettings": "SEO-Einstellungen",
+        "pageSEOSettings": "Seiten-SEO-Einstellungen",
+        "pageDesciption": "Seitenbeschreibung"
     },
-    "noAdditional": "Keine zusätzlichen Felder",
-    "premadeSections": "Vorgefertigte Abschnitte",
-    "fields": "Felder",
-    "appThirdPartySubmit": "Drittanbieterantrag/Formular einreichen",
-    "modifyStageSettings": "Bühnen Einstellungen bearbeiten"
-  },
-  "departments": {
-    "departmentName": "Abteilungsname",
-    "shortName": "Kurzname",
-    "ranksAndPositions": "Zugeordnete Ränge/Positionen",
-    "addRank": "Rang hinzufügen",
-    "removeRank": "Rang entfernen",
-    "rankName": "Rangname",
-    "rankColor": "Rang kosmetische Farbe",
-    "rankIcon": "Rang kosmetisches Symbol",
-    "rankImg": "Rang kosmetisches Bild",
-    "cmsPermissions": "CMS-Berechtigungen",
-    "formPermissions": "Formularberechtigungen",
-    "rosterPermissions": "Roster-Berechtigungen",
-    "calendarPermissions": "Kalenderberechtigungen",
-    "serverPermissions": "Server-Berechtigungen",
-    "profileFieldPermissions": "Profilfeld-Berechtigungen",
-    "navigationPermissions": "Navigationsberechtigungen",
-    "rankPower": "Macht",
-    "rankPowerDesc": "Rangmacht ist damit verbunden, auf wen Sie Systemaktionen versuchen können und wie Sie in Roster sortiert werden. Zum Beispiel können Sie niemanden kicken, der die gleiche oder höhere Rangmacht als Sie hat.",
-    "limitsHit": "Maximale Anzahl an Abteilungen erreicht!",
-    "departmentType": "Abteilungstyp",
-    "typeOptions": {
-      "leadership": "Gemeinschaftsführung",
-      "primary": "Primäre Abteilung",
-      "reserve": "Sekundäre Abteilung",
-      "cwidesub": "Gemeinschaftsweite Unterabteilung"
+    "common": {
+        "support": "Support",
+        "needHelp": "Brauchen Sie Hilfe?",
+        "noResults": "Keine Ergebnisse",
+        "add": "Hinzufügen",
+        "dupDept": "Abteilung duplizieren",
+        "remove": "Entfernen",
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "view": "Ansehen",
+        "close": "Schließen",
+        "image": "Bild",
+        "description": "Beschreibung",
+        "templateDetails": "Vorlagendetails",
+        "information": "Informationen",
+        "recPlan": "Empfohlener Plan",
+        "totalDepts": "Gesamtanzahl der Abteilungen",
+        "totalRanks": "Gesamtanzahl der Ränge",
+        "totalRosters": "Gesamtanzahl der Dienstpläne",
+        "totalForms": "Gesamtanzahl der Formulare",
+        "totalStages": "Gesamtanzahl der Stufen",
+        "totalStageGroups": "Gesamtanzahl der Stufengruppen",
+        "calCates": "Kalenderkategorien",
+        "departments": "Abteilungen",
+        "rosters": "Dienstpläne",
+        "forms": "Formulare",
+        "calendars": "Kalender",
+        "previewTempDepartmentDetails": "Vorlagenabteilungsdetails",
+        "previewTempRosterDetails": "Vorlagen-Dienstplandetails",
+        "previewTempFormDetails": "Vorlagen-Formulardetails",
+        "previewTempPageDetails": "Vorlagenseitendetails",
+        "previewTempToolbarDetails": "Vorlagen-Toolbar-Details",
+        "filter": "Filter",
+        "no": "Nein",
+        "stages": "Stufen",
+        "stageGroups": "Stufengruppen",
+        "pages": "Seiten",
+        "toolbar": "Toolbar",
+        "toolbarItems": "Toolbar-Elemente",
+        "manage": "Verwalten",
+        "return": "Zurückkehren",
+        "learnMore": "Mehr erfahren",
+        "previewTempStageGroupDetails": "Stufengruppendetails anzeigen"
     },
-    "addToRoster": "Zeile erstellen",
-    "saveMemberOnRoster": "Zeile speichern",
-    "removeMemberFromRoster": "Aus dem Roster entfernen",
-    "duplicateRank": "Rang duplizieren",
-    "markRankPrimary": "Rang nur für primäre Nutzung markieren",
-    "markRankSecondary": "Rang nur für sekundäre Nutzung markieren",
-    "copyPermissions": "Berechtigungen kopieren",
-    "pastePermissions": "Berechtigungen einfügen",
-    "removeConfirm": "Sind Sie sicher, dass Sie diese Abteilung entfernen möchten?",
-    "toggleAllPermissions": "Alle Berechtigungen umschalten",
-    "copyRankIdToClipboard": "ID in die Zwischenablage kopieren",
-    "copySuccess": "In die Zwischenablage kopiert!",
-    "defaultPermissions": "Standard-Abteilungsberechtigungen",
-    "pagePermissions": "Seitenberechtigungen"
-  },
-  "customization": {
-    "inputs": {
-      "discoveryEnable": "Community-Entdeckung aktivieren",
-      "discoverySelectForm": "Standardformular für neue Mitglieder",
-      "bumpDiscovery": "Entdeckung anstoßen",
-      "discoveryTags": "Such-Tags",
-      "logo": "Community-Logo",
-      "banner": "Community-Bannerbild"
+    "permissions": {
+        "kickUser": "Benutzer kicken",
+        "banUser": "Benutzer bannen",
+        "archiveUser": "Benutzer archivieren",
+        "changePermissions": "Berechtigungen ändern",
+        "modifyComInfo": "Community-Anpassung ändern",
+        "modifyComDepts": "Abteilungen über Manager ändern",
+        "modifyComForms": "Benutzerdefinierte Formulare über Editor ändern",
+        "modifyComRosters": "Benutzerdefinierte Dienstpläne über Editor ändern",
+        "modifyDiscordHooks": "Discord-Logging-Webhooks ändern",
+        "modifyIntegration": "API-Integration ändern",
+        "tooltips": {
+            "system": {
+                "kickUserExplanation": "Das Gewähren dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen anderen Benutzer aus der Community zu kicken.",
+                "banUserExplanation": "Das Gewähren dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen anderen Benutzer aus der Community zu bannen.",
+                "archiveUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen anderen Benutzer aus der Community zu archivieren.",
+                "changePermissionsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Berechtigungen und Kontodetails eines anderen Benutzers aus der Community zu ändern.",
+                "modifyComInfoExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Aspekte der Sonoran CMS-Plattform wie Name, Bild, Namens-/Identifikatorformat usw. anzupassen.",
+                "modifyComFormsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die benutzerdefinierten Formularvorlagen anzupassen, die verwendet werden, wenn Benutzer Formulare einreichen.",
+                "modifyComDeptsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Abteilungen und Ränge anzupassen, wie Sie es gerade tun.",
+                "modifyComRostersExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Vorlagen für das Verzeichnis anzupassen, die verwendet werden, um die Verzeichnisdaten der Community anzuzeigen.",
+                "modifyDiscordHooksExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Discord-Webhook-Einstellungen für die Community anzupassen.",
+                "modifyIntegrationExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, API-Anmeldeinformationen anzupassen und abzurufen.",
+                "modifyToolbarExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Werkzeugleisteneinstellungen für die Community anzupassen.",
+                "modifyPagesExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Seiten für die Community anzupassen.",
+                "modifyDocumentsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, alle Dokumente im Sonoran CMS Community Drive zu verwalten.",
+                "clockInOutExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, sich ein- und auszustempeln.",
+                "modifyTeamSpeakExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die TeamSpeak-Integrationseinstellungen zu ändern.",
+                "modifyShieldExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Sonoran Shield-Einstellungen zu ändern."
+            },
+            "navigation": {
+                "viewDashboardBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Dashboard-Schaltfläche in der seitlichen Navigationsleiste zu sehen.",
+                "viewDriveBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Drive-Schaltfläche in der seitlichen Navigationsleiste zu sehen (wenn die Berechtigung 'Alle Dokumente (Drive) ändern' erteilt wurde, ist dies bereits enthalten).",
+                "viewCalendarBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Kalender-Schaltfläche in der seitlichen Navigationsleiste zu sehen.",
+                "viewRostersBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Dienstplan-Schaltflächen in der seitlichen Navigationsleiste zu sehen.",
+                "viewProfileBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Schaltfläche 'Community-Profil' in der seitlichen Navigationsleiste zu sehen."
+            },
+            "forms": {
+                "viewSubmittedExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, alle eingereichten Formulare dieses Typs anzusehen.",
+                "editOwnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, seine Einreichungen dieses Formulars zu bearbeiten.",
+                "changeStagesExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, den Status eines eingereichten Formulars dieses Typs zu ändern.",
+                "modifyReplySettingsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, die Antwort-Einstellungen eines eingereichten Formulars dieses Typs zu ändern.",
+                "replyExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende Antworten zulassen.",
+                "replyModExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende oder Moderator-Antworten zulassen.",
+                "replyAdminExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, auf ein eingereichtes Formular dieses Typs zu antworten, wenn die Antwort-Einstellungen grundlegende, Moderator- oder Administrator-Antworten zulassen.",
+                "submitExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, ein Formular dieses Typs einzureichen.",
+                "adminDeleteExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Einreichung dieses Formulars vollständig zu löschen.",
+                "modifyStageSettings": "Modify Stage Settings",
+                "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+            },
+            "rosters": {
+                "viewExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, diese Liste anzusehen.",
+                "addPrimaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen Benutzer als Primärzeile zur Liste hinzuzufügen (anfangs vor den Sekundärzeilen sortiert).",
+                "addSecondaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, einen Benutzer als Sekundärzeile zur Liste hinzuzufügen (nach den Primärzeilen sortiert).",
+                "editPrimaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Primärzeile in dieser Liste zu bearbeiten.",
+                "editSecondaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Sekundärzeile in dieser Liste zu bearbeiten.",
+                "removePrimaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Primärzeile aus der Liste zu entfernen.",
+                "removeSecondaryUserExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, eine Sekundärzeile aus der Liste zu entfernen.",
+                "viewModColumnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Spalten der Liste anzusehen, die als nur für Moderatoren markiert sind.",
+                "viewAdminColumnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Dienstplan-Spalten zu sehen, die nur für Administratoren markiert sind."
+            },
+            "calendars": {
+                "viewExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu sehen.",
+                "createExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu erstellen.",
+                "removeExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu entfernen.",
+                "editOtherExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu bearbeiten."
+            },
+            "servers": {
+                "allowWhitelistExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, durch die API-Whitelist zugelassen zu werden (wenn ein Benutzer die Blockierberechtigung für diesen Server hat, wird er blockiert, da die Blockierung Vorrang hat).",
+                "blockWhitelistExplanation": "Das Erteilen dieser Berechtigung blockiert einen Benutzer mit diesem Rang, durch die API-Whitelist zugelassen zu werden (wenn ein Benutzer die Zulassungsberechtigung für diesen Server hat, wird er trotzdem blockiert, da die Blockierung Vorrang hat)."
+            },
+            "profileFields": {
+                "attachExplanation": "Das Erteilen dieser Berechtigung fügt dieses Profilfeld zu den Profilen aller Mitglieder hinzu, die diesen Rang innehaben. Dies ermöglicht es jedem, der Ihr Profil ansieht, es zu sehen, es sei denn, eine der beiden nächsten Berechtigungen wird angewendet.",
+                "hideFromOwnerExplanation": "Das Gewähren dieser Berechtigung wird das Feld aus dem Profil des Mitglieds ausblenden, das diesen Rang innehat.",
+                "requireModToViewExplanation": "Das Gewähren dieser Berechtigung erfordert, dass ein Mitglied die Berechtigung \"Feld in anderen Profilen anzeigen - Mod-Power\" hat, um das Feld in einem Profil anzuzeigen.",
+                "requireAdminToViewExplanation": "Das Gewähren dieser Berechtigung erfordert, dass ein Mitglied die Berechtigung \"Feld in anderen Profilen anzeigen - Admin-Power\" hat, um das Feld in einem Profil anzuzeigen.",
+                "viewModPowerExplanation": "Das Gewähren dieser Berechtigung erlaubt einem Mitglied, dieses Feld in einem Profil mit \"Mod-Power\" anzuzeigen. Siehe oben stehende Berechtigungen für die Zuordnung.",
+                "viewAdminPowerExplanation": "Das Gewähren dieser Berechtigung erlaubt einem Mitglied, dieses Feld in einem Profil mit \"Admin-Power\" anzuzeigen. Siehe oben stehende Berechtigungen für die Zuordnung.",
+                "allowOwnerToEditExplanation": "Das Gewähren dieser Berechtigung erlaubt dem Mitglied, das diesen Rang innehat, dieses Feld in seinem Profil zu bearbeiten. Wenn die Berechtigung \"Feld vor Profilinhaber verbergen\" gewährt wird, wird diese Berechtigung ignoriert, da das Feld nicht sichtbar ist.",
+                "editOthersExplanation": "Das Gewähren dieser Berechtigung erlaubt dem Mitglied, das diesen Rang innehat, dieses Feld in allen Mitgliederprofilen zu bearbeiten, die es anzeigen kann."
+            },
+            "pages": {
+                "viewExplanation": "Das Erteilen dieser Berechtigungen ermöglicht es dem Mitglied, das diesen Rang innehat, diese Seite zu sehen, da die Seite auf PRIVAT gesetzt ist."
+            }
+        },
+        "disciplinaryPanel": "Disziplinarausschuss",
+        "changePermissionsHigher": "Höhere Berechtigungen ändern"
     },
-    "tooltips": {
-      "discoveryEnable": "Dies aktiviert/deaktiviert die Community für das Community-Entdeckungssystem von Sonoran CMS.",
-      "discoverySelectForm": "Dies zeigt dieses Formular automatisch zur Einreichung an, wenn ein Benutzer der Community über das Sonoran CMS Community-Entdeckungssystem beitritt. Das Formular muss vom Typ \"Neuanmeldungsantrag\" sein.",
-      "enableDiscoveryFirst": "Community-Entdeckung muss aktiviert sein, um dies zu nutzen",
-      "hoursUntilNextBump": "Du hast noch eine Stunde, bevor du erneut anstoßen kannst | Du hast noch {hours} Stunden, bevor du erneut anstoßen kannst",
-      "canBumpDiscovery": "Bringe deine Community an die Spitze der Entdeckungsseite!"
-    }
-  },
-  "formManagement": {
-    "pending": "Ausstehend",
-    "approve": "Genehmigen",
-    "approved": "Genehmigt",
-    "denied": "Abgelehnt",
-    "submitter": "Einreicher",
-    "status": "Status"
-  },
-  "calendar": {
-    "viewEvents": "Veranstaltungen anzeigen",
-    "createEvents": "Veranstaltungen erstellen",
-    "removeEvents": "Veranstaltungen entfernen",
-    "editOtherEvents": "Andere Veranstaltungen bearbeiten",
-    "createEvent": "Eine Veranstaltung erstellen - Kategorie",
-    "eventNotFound": "Veranstaltung nicht gefunden/nicht zugänglich",
-    "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen."
-  },
-  "limits": {
-    "version": "Version",
-    "departments": "Abteilungen",
-    "driveStorage": "Speicherplatz",
-    "idPrefix": "ID:",
-    "versionPrefix": "Stufe:",
-    "expiresPrefix": "Ablauf: ",
-    "goProToday": "Werde heute Pro"
-  },
-  "roster": {
-    "addPrimary": "Zeile hinzufügen",
-    "addSecondary": "Zeile hinzufügen",
-    "editingMember": "Zeile bearbeiten"
-  },
-  "templateManagement": {
-    "creationDescription": "Dieser Erstellungsdialog hilft dir dabei, eine Sonoran CMS Community-Vorlage aus Elementen deiner Community zu erstellen. Du kannst diese Vorlage jederzeit nach der Erstellung aktualisieren und entfernen.",
-    "previewImages": "Vorlagen-Vorschaubilder",
-    "creationSelectionDescription": "Dieser Erstellungsdialog hilft Ihnen bei der Auswahl, welche Komponenten Ihrer Community Sie in die Vorlage aufnehmen möchten. Sie können die Komponenten dieser Vorlage nach Abschluss der Erstellung aktualisieren und entfernen.",
-    "manageDescription": "Dieser Verwaltungsdialog ermöglicht es Ihnen, Elemente und Informationen Ihrer Vorlage hinzuzufügen, zu entfernen und zu aktualisieren. Sobald Sie Änderungen speichern, muss dies vom Sonoran CMS-Entwicklungsteam erneut überprüft werden.",
-    "manageImages": "Vorlagen-Vorschaubilder verwalten"
-  },
-  "profileFieldsEditor": {
-    "errors": {
-      "onGetAll": "Beim Abrufen aller Profilfelder ist ein Fehler aufgetreten. Fehler: {error}",
-      "noSelectOptions": "Der Profilfeldtyp 'SELECT' erfordert mindestens eine Option.",
-      "onSave": "Beim Speichern eines neuen Profilfelds ist ein Fehler aufgetreten. Fehler: {error}",
-      "noFindField": "Es wurde kein Feld gefunden, das ausgewählt wurde."
-    }
+    "growth": {
+        "ERRORED": "FEHLERHAFT",
+        "thereWasNotEnoughDataForThisCommmunityToDetermine": "Es lagen nicht genügend Daten vor, um diese Gemeinschaft zu bestimmen.",
+        "fastestGrowing": "Am schnellsten wachsend",
+        "fastestGrowingCommunityInTheLast7DaysComparedTo": "am schnellsten wachsende Gemeinschaft in den letzten 7 Tagen im Vergleich zu"
+    },
+    "menu": {
+        "join": "Einer Gemeinschaft beitreten",
+        "togDefaultCom": "Standard-CMS-Gemeinschaft umschalten",
+        "leaveCommunity": "Gemeinschaft verlassen",
+        "leaveCommunityTitle": "Bestätigung des Gemeinschaftsverlassens",
+        "leaveCommunityMessage": "Sind Sie sicher, dass Sie diese Gemeinschaft verlassen möchten? Sie werden keinen Zugriff mehr auf die Inhalte der Gemeinschaft haben."
+    },
+    "forms": {
+        "templateTypes": {
+            "newmemberapp": "Neuer Mitgliedsantrag",
+            "reserveapp": "Sekundärer Antrag",
+            "plog": "Zeitprotokoll",
+            "commend": "Lob",
+            "complaint": "Beschwerde",
+            "comform": "Gemeinschaftsformular",
+            "disciplinary": "Disziplinarmaßnahme",
+            "training": "Schulungshistorie",
+            "generalapp": "General Form"
+        },
+        "formDeleteConfirm": "Sind Sie sicher, dass Sie \"{formName}\" löschen möchten?",
+        "secFieldsHeader": "Felder",
+        "stageCreate": "Stufe erstellen",
+        "stageUpdate": "Stufe aktualisieren",
+        "stageActionTypes": {
+            "autoReply": "Automatische Formularantwort",
+            "notifySubmitterNotification": "Benachrichtigung per Mitteilung",
+            "notifySubmitterEmail": "Benachrichtigung per E-Mail",
+            "disableEnableReplies": "Antworten deaktivieren/aktivieren",
+            "changeDepartmentSlashRank": "Rang(e) ändern",
+            "modifyCommunityStatus": "Gemeinschaftsstatus ändern",
+            "executeDiscordWebhook": "Discord Webhook ausführen",
+            "executeDiscordDm": "Discord DM senden",
+            "applyDisciplinaryPoints": "Apply Disciplinary Points"
+        },
+        "appSubmit": "Antrag/Formular einreichen",
+        "editOwn": "Eigenes Formular bearbeiten",
+        "changeStages": "Formularstufe ändern",
+        "toggleReplies": "Antworten aktivieren/deaktivieren",
+        "appReply": "Grundlegender Antwortzugriff",
+        "appReplyMod": "Mod-Antwortzugriff",
+        "appReplyAdmin": "Admin-Antwortzugriff",
+        "viewSubmitted": "Eingereichtes anzeigen",
+        "archiveOwn": "Eigenes Formular archivieren",
+        "archiveForm": "Formular archivieren",
+        "unarchiveOwn": "Eigenes Formular aus dem Archiv holen",
+        "unarchiveForm": "Formular aus dem Archiv holen",
+        "adminDelete": "Admin Löschen",
+        "apply": {
+            "availableForms": "Verfügbare Formulare",
+            "myForms": "Meine Formulare",
+            "apply": "Absenden"
+        },
+        "noAdditional": "Keine zusätzlichen Felder",
+        "premadeSections": "Vorgefertigte Abschnitte",
+        "fields": "Felder",
+        "appThirdPartySubmit": "Drittanbieterantrag/Formular einreichen",
+        "modifyStageSettings": "Bühnen Einstellungen bearbeiten"
+    },
+    "departments": {
+        "departmentName": "Abteilungsname",
+        "shortName": "Kurzname",
+        "ranksAndPositions": "Zugeordnete Ränge/Positionen",
+        "addRank": "Rang hinzufügen",
+        "removeRank": "Rang entfernen",
+        "rankName": "Rangname",
+        "rankColor": "Rang kosmetische Farbe",
+        "rankIcon": "Rang kosmetisches Symbol",
+        "rankImg": "Rang kosmetisches Bild",
+        "cmsPermissions": "CMS-Berechtigungen",
+        "formPermissions": "Formularberechtigungen",
+        "rosterPermissions": "Roster-Berechtigungen",
+        "calendarPermissions": "Kalenderberechtigungen",
+        "serverPermissions": "Server-Berechtigungen",
+        "profileFieldPermissions": "Profilfeld-Berechtigungen",
+        "navigationPermissions": "Navigationsberechtigungen",
+        "rankPower": "Macht",
+        "rankPowerDesc": "Rangmacht ist damit verbunden, auf wen Sie Systemaktionen versuchen können und wie Sie in Roster sortiert werden. Zum Beispiel können Sie niemanden kicken, der die gleiche oder höhere Rangmacht als Sie hat.",
+        "limitsHit": "Maximale Anzahl an Abteilungen erreicht!",
+        "departmentType": "Abteilungstyp",
+        "typeOptions": {
+            "leadership": "Gemeinschaftsführung",
+            "primary": "Primäre Abteilung",
+            "reserve": "Sekundäre Abteilung",
+            "cwidesub": "Gemeinschaftsweite Unterabteilung"
+        },
+        "addToRoster": "Zeile erstellen",
+        "saveMemberOnRoster": "Zeile speichern",
+        "removeMemberFromRoster": "Aus dem Roster entfernen",
+        "duplicateRank": "Rang duplizieren",
+        "markRankPrimary": "Rang nur für primäre Nutzung markieren",
+        "markRankSecondary": "Rang nur für sekundäre Nutzung markieren",
+        "copyPermissions": "Berechtigungen kopieren",
+        "pastePermissions": "Berechtigungen einfügen",
+        "removeConfirm": "Sind Sie sicher, dass Sie diese Abteilung entfernen möchten?",
+        "toggleAllPermissions": "Alle Berechtigungen umschalten",
+        "copyRankIdToClipboard": "ID in die Zwischenablage kopieren",
+        "copySuccess": "In die Zwischenablage kopiert!",
+        "defaultPermissions": "Standard-Abteilungsberechtigungen",
+        "pagePermissions": "Seitenberechtigungen"
+    },
+    "customization": {
+        "inputs": {
+            "discoveryEnable": "Community-Entdeckung aktivieren",
+            "discoverySelectForm": "Standardformular für neue Mitglieder",
+            "bumpDiscovery": "Entdeckung anstoßen",
+            "discoveryTags": "Such-Tags",
+            "logo": "Community-Logo",
+            "banner": "Community-Bannerbild"
+        },
+        "tooltips": {
+            "discoveryEnable": "Dies aktiviert/deaktiviert die Community für das Community-Entdeckungssystem von Sonoran CMS.",
+            "discoverySelectForm": "Dies zeigt dieses Formular automatisch zur Einreichung an, wenn ein Benutzer der Community über das Sonoran CMS Community-Entdeckungssystem beitritt. Das Formular muss vom Typ \"Neuanmeldungsantrag\" sein.",
+            "enableDiscoveryFirst": "Community-Entdeckung muss aktiviert sein, um dies zu nutzen",
+            "hoursUntilNextBump": "Du hast noch eine Stunde, bevor du erneut anstoßen kannst | Du hast noch {hours} Stunden, bevor du erneut anstoßen kannst",
+            "canBumpDiscovery": "Bringe deine Community an die Spitze der Entdeckungsseite!"
+        }
+    },
+    "formManagement": {
+        "pending": "Ausstehend",
+        "approve": "Genehmigen",
+        "approved": "Genehmigt",
+        "denied": "Abgelehnt",
+        "submitter": "Einreicher",
+        "status": "Status"
+    },
+    "calendar": {
+        "viewEvents": "Veranstaltungen anzeigen",
+        "createEvents": "Veranstaltungen erstellen",
+        "removeEvents": "Veranstaltungen entfernen",
+        "editOtherEvents": "Andere Veranstaltungen bearbeiten",
+        "createEvent": "Eine Veranstaltung erstellen - Kategorie",
+        "eventNotFound": "Veranstaltung nicht gefunden/nicht zugänglich",
+        "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen."
+    },
+    "limits": {
+        "version": "Version",
+        "departments": "Abteilungen",
+        "driveStorage": "Speicherplatz",
+        "idPrefix": "ID:",
+        "versionPrefix": "Stufe:",
+        "expiresPrefix": "Ablauf: ",
+        "goProToday": "Werde heute Pro"
+    },
+    "roster": {
+        "addPrimary": "Zeile hinzufügen",
+        "addSecondary": "Zeile hinzufügen",
+        "editingMember": "Zeile bearbeiten"
+    },
+    "templateManagement": {
+        "creationDescription": "Dieser Erstellungsdialog hilft dir dabei, eine Sonoran CMS Community-Vorlage aus Elementen deiner Community zu erstellen. Du kannst diese Vorlage jederzeit nach der Erstellung aktualisieren und entfernen.",
+        "previewImages": "Vorlagen-Vorschaubilder",
+        "creationSelectionDescription": "Dieser Erstellungsdialog hilft Ihnen bei der Auswahl, welche Komponenten Ihrer Community Sie in die Vorlage aufnehmen möchten. Sie können die Komponenten dieser Vorlage nach Abschluss der Erstellung aktualisieren und entfernen.",
+        "manageDescription": "Dieser Verwaltungsdialog ermöglicht es Ihnen, Elemente und Informationen Ihrer Vorlage hinzuzufügen, zu entfernen und zu aktualisieren. Sobald Sie Änderungen speichern, muss dies vom Sonoran CMS-Entwicklungsteam erneut überprüft werden.",
+        "manageImages": "Vorlagen-Vorschaubilder verwalten"
+    },
+    "profileFieldsEditor": {
+        "errors": {
+            "onGetAll": "Beim Abrufen aller Profilfelder ist ein Fehler aufgetreten. Fehler: {error}",
+            "noSelectOptions": "Der Profilfeldtyp 'SELECT' erfordert mindestens eine Option.",
+            "onSave": "Beim Speichern eines neuen Profilfelds ist ein Fehler aufgetreten. Fehler: {error}",
+            "noFindField": "Es wurde kein Feld gefunden, das ausgewählt wurde."
+        }
+    },
   },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "Sonoran Shield Netzwerkschutz",

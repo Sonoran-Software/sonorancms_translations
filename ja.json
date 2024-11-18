@@ -1,323 +1,324 @@
 {
-  "config": {
-    "displayName": "日本語",
-    "path": "ja"
-  },
-  "iconImageHandler": {
-    "icon": "アイコン",
-    "image": "画像"
-  },
-  "helpButtonComponent": {
-    "viewTutorialVideo": "チュートリアルビデオを見る",
-    "documentation": "ドキュメント",
-    "close": "閉じる",
-    "videoTutorialComingSoon": "ビデオチュートリアルは近日公開"
-  },
-  "searchEngineEditor": {
-    "seoSettings": "SEO設定",
-    "pageSEOSettings": "ページSEO設定",
-    "pageDesciption": "ページの説明"
-  },
-  "common": {
-    "support": "サポート",
-    "needHelp": "助けが必要ですか？",
-    "noResults": "結果なし",
-    "add": "追加",
-    "dupDept": "部門を複製",
-    "remove": "削除",
-    "save": "保存",
-    "cancel": "キャンセル",
-    "view": "表示",
-    "close": "閉じる",
-    "image": "画像",
-    "description": "説明",
-    "templateDetails": "テンプレートの詳細",
-    "information": "情報",
-    "recPlan": "推奨プラン",
-    "totalDepts": "総部門数",
-    "totalRanks": "総ランク数",
-    "totalRosters": "総名簿数",
-    "totalForms": "総フォーム数",
-    "totalStages": "総ステージ数",
-    "totalStageGroups": "総ステージグループ数",
-    "calCates": "カレンダーのカテゴリ",
-    "departments": "部門",
-    "rosters": "名簿",
-    "forms": "フォーム",
-    "calendars": "カレンダー",
-    "previewTempDepartmentDetails": "テンプレート部門の詳細",
-    "previewTempRosterDetails": "テンプレート名簿の詳細",
-    "previewTempFormDetails": "テンプレートフォームの詳細",
-    "previewTempPageDetails": "テンプレートページの詳細",
-    "previewTempToolbarDetails": "テンプレートツールバーの詳細",
-    "filter": "フィルター",
-    "no": "いいえ",
-    "stages": "ステージ",
-    "stageGroups": "ステージグループ",
-    "pages": "ページ",
-    "toolbar": "ツールバー",
-    "toolbarItems": "ツールバーアイテム",
-    "manage": "管理",
-    "return": "戻る",
-    "learnMore": "詳細を学ぶ",
-    "previewTempStageGroupDetails": "ステージグループの詳細をプレビュー"
-  },
-  "permissions": {
-    "kickUser": "ユーザーをキック",
-    "banUser": "ユーザーを禁止",
-    "archiveUser": "ユーザーをアーカイブ",
-    "changePermissions": "権限を変更",
-    "modifyComInfo": "コミュニティのカスタマイズを変更",
-    "modifyComDepts": "マネージャーを通じて部門を変更",
-    "modifyComForms": "エディターを通じてカスタムフォームを変更",
-    "modifyComRosters": "エディターを通じてカスタム名簿を変更",
-    "modifyDiscordHooks": "Discordログウェブフックを変更",
-    "modifyIntegration": "API統合を変更",
-    "tooltips": {
-      "system": {
-        "kickUserExplanation": "この権限を付与すると、このランクのユーザーは他のユーザーをコミュニティからキックすることができます。",
-        "banUserExplanation": "この権限を付与すると、このランクのユーザーは他のユーザーをコミュニティから禁止することができます。",
-        "archiveUserExplanation": "この権限を付与すると、このランクのユーザーがコミュニティから他のユーザーをアーカイブすることができるようになります。",
-        "changePermissionsExplanation": "この権限を付与すると、このランクのユーザーがコミュニティから他のユーザーの権限やアカウントの詳細を変更することができるようになります。",
-        "modifyComInfoExplanation": "この権限を付与すると、このランクのユーザーがSonoran CMSプラットフォームの名前、画像、名前/識別子の形式などの側面をカスタマイズすることができるようになります。",
-        "modifyComFormsExplanation": "この権限を付与すると、このランクのユーザーがユーザーがフォームを提出する際に使用するカスタムフォームテンプレートをカスタマイズすることができるようになります。",
-        "modifyComDeptsExplanation": "この権限を付与すると、このランクのユーザーが現在行っているように部門やランクをカスタマイズすることができるようになります。",
-        "modifyComRostersExplanation": "この権限を付与すると、このランクのユーザーがコミュニティの名簿データを表示するために使用される名簿テンプレートをカスタマイズすることができるようになります。",
-        "modifyDiscordHooksExplanation": "この権限を付与すると、このランクのユーザーがコミュニティのDiscordウェブフック設定をカスタマイズすることができるようになります。",
-        "modifyIntegrationExplanation": "この権限を付与すると、このランクのユーザーがAPIの認証情報をカスタマイズおよび取得することができるようになります。",
-        "modifyToolbarExplanation": "この権限を付与すると、このランクのユーザーがコミュニティのツールバー設定をカスタマイズできるようになります。",
-        "modifyPagesExplanation": "この権限を付与すると、このランクのユーザーがコミュニティのページをカスタマイズできるようになります。",
-        "modifyDocumentsExplanation": "この権限を付与すると、このランクのユーザーがSonoran CMSコミュニティドライブ内のすべてのドキュメントを管理できるようになります。",
-        "clockInOutExplanation": "この権限を付与すると、ユーザーが出退勤できるようになります。",
-        "modifyTeamSpeakExplanation": "この権限を付与すると、ユーザーがTeamSpeak統合設定を変更できるようになります。",
-        "modifyShieldExplanation": "この権限を付与すると、ユーザーがSonoran Shield設定を変更できるようになります。"
-      },
-      "navigation": {
-        "viewDashboardBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるダッシュボードボタンを見られるようになります。",
-        "viewDriveBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるドライブボタンを見られるようになります（「すべてのドキュメントを変更（ドライブ）」の権限が付与されている場合、これは既に継承されています）。",
-        "viewCalendarBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるカレンダーボタンを見られるようになります。",
-        "viewRostersBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるロスターズボタンを見られるようになります。",
-        "viewProfileBtnExplanation": "この権限を付与すると、ユーザーはサイドナビゲーションバーにコミュニティプロファイルボタンを表示できるようになります。"
-      },
-      "forms": {
-        "viewSubmittedExplanation": "この権限を付与すると、このランクのユーザーはこのタイプのすべての提出済みフォームを閲覧できるようになります。",
-        "editOwnExplanation": "この権限を付与すると、このランクのユーザーはこのタイプのフォームの提出物を編集できるようになります。",
-        "changeStagesExplanation": "この権限を付与すると、このランクのユーザーはこのタイプの提出済みフォームのステージを変更できるようになります。",
-        "modifyReplySettingsExplanation": "この権限を付与すると、このランクのユーザーはこのタイプの提出済みフォームの返信設定を変更できるようになります。",
-        "replyExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
-        "replyModExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信またはモデレーター返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
-        "replyAdminExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信、モデレーター返信、または管理者返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
-        "submitExplanation": "この権限を付与すると、このランクのユーザーがこのタイプのフォームを提出できるようになります。",
-        "adminDeleteExplanation": "この権限を付与すると、このランクのユーザーがこのフォームの提出物を完全に削除できるようになります。",
-        "modifyStageSettings": "Modify Stage Settings",
-        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-      },
-      "rosters": {
-        "viewExplanation": "この権限を付与すると、このランクのユーザーがこの名簿を閲覧できるようになります。",
-        "addPrimaryUserExplanation": "この権限を付与すると、このランクのユーザーがユーザーを名簿にプライマリ行として追加できるようになります（セカンダリ行の前に初期ソートされます）。",
-        "addSecondaryUserExplanation": "この権限を付与すると、このランクのユーザーがユーザーを名簿にセカンダリ行として追加できるようになります（プライマリ行の後にソートされます）。",
-        "editPrimaryUserExplanation": "この権限を付与すると、このランクのユーザーがこの名簿のプライマリ行を編集できるようになります。",
-        "editSecondaryUserExplanation": "この権限を付与すると、このランクのユーザーがこの名簿のセカンダリ行を編集できるようになります。",
-        "removePrimaryUserExplanation": "この権限を付与すると、このランクのユーザーが名簿からプライマリ行を削除できるようになります。",
-        "removeSecondaryUserExplanation": "この権限を付与すると、このランクのユーザーが名簿からセカンダリ行を削除できるようになります。",
-        "viewModColumnExplanation": "この権限を付与すると、このランクのユーザーがモデレーター専用としてマークされた名簿の列を閲覧できるようになります。",
-        "viewAdminColumnExplanation": "この権限を付与すると、このランクのユーザーは管理者専用としてマークされた名簿の列を表示できるようになります。"
-      },
-      "calendars": {
-        "viewExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを表示できるようになります。",
-        "createExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内でイベントを作成できるようになります。",
-        "removeExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを削除できるようになります。",
-        "editOtherExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを編集できるようになります。"
-      },
-      "servers": {
-        "allowWhitelistExplanation": "この権限を付与すると、このランクのユーザーはAPIホワイトリストを通過できるようになります（このサーバーのブロック権限を持っている場合、ブロックが優先されるためブロックされます）。",
-        "blockWhitelistExplanation": "この権限を付与すると、このランクのユーザーはAPIホワイトリストを通過できなくなります（このサーバーの許可権限を持っている場合でも、ブロックが優先されるためブロックされます）。"
-      },
-      "profileFields": {
-        "attachExplanation": "この権限を付与すると、このランクを持つすべてのメンバーのプロフィールにこのプロフィールフィールドが追加されます。次の2つの権限のいずれかが適用されない限り、プロフィールを表示する誰もがそれを見ることができます。",
-        "hideFromOwnerExplanation": "この権限を付与すると、このランクを持つメンバーのプロフィールからフィールドが非表示になります。",
-        "requireModToViewExplanation": "この権限を付与すると、メンバーがプロフィール上のフィールドを表示するために「他のプロフィールのフィールドを表示 - モデレーターパワー」を持っている必要があります。",
-        "requireAdminToViewExplanation": "この権限を付与すると、メンバーがプロフィール上のフィールドを表示するために「他のプロフィールのフィールドを表示 - 管理者パワー」を持っている必要があります。",
-        "viewModPowerExplanation": "この権限を付与すると、メンバーが「モデレーターパワー」を持っている場合にプロフィール上のフィールドを表示できるようになります。関連する権限については上記を参照してください。",
-        "viewAdminPowerExplanation": "この権限を付与すると、メンバーが「管理者パワー」を持っている場合にプロフィール上のフィールドを表示できるようになります。関連する権限については上記を参照してください。",
-        "allowOwnerToEditExplanation": "この権限を付与すると、このランクを持つメンバーが自分のプロフィール上のフィールドを編集できるようになります。「プロフィール所有者からフィールドを非表示にする」権限が付与されている場合、この権限は無視され、フィールドは表示されません。",
-        "editOthersExplanation": "この権限を付与すると、このランクを持つメンバーが表示できる他のメンバープロフィール上のフィールドを編集できるようになります。"
-      },
-      "pages": {
-        "viewExplanation": "この権限を付与すると、このランクを持つメンバーがこのページを閲覧できるようになります。このページはプライベートに設定されています。"
-      }
+    "config": {
+        "displayName": "日本語",
+        "path": "ja"
     },
-    "disciplinaryPanel": "懲戒委員会",
-    "changePermissionsHigher": "上位の権限を変更"
-  },
-  "growth": {
-    "ERRORED": "エラーが発生しました",
-    "thereWasNotEnoughDataForThisCommmunityToDetermine": "このコミュニティには判断するための十分なデータがありませんでした",
-    "fastestGrowing": "最も急成長している",
-    "fastestGrowingCommunityInTheLast7DaysComparedTo": "過去7日間で最も急成長しているコミュニティ"
-  },
-  "menu": {
-    "join": "コミュニティに参加する",
-    "togDefaultCom": "デフォルトCMSコミュニティの切り替え",
-    "leaveCommunity": "コミュニティを離れる",
-    "leaveCommunityTitle": "コミュニティを離れる確認",
-    "leaveCommunityMessage": "本当にこのコミュニティを離れますか？コミュニティのコンテンツにアクセスできなくなります。"
-  },
-  "forms": {
-    "templateTypes": {
-      "newmemberapp": "新メンバー申請",
-      "reserveapp": "二次申請",
-      "plog": "タイムログ",
-      "commend": "表彰",
-      "complaint": "苦情",
-      "comform": "コミュニティフォーム",
-      "disciplinary": "懲戒処分",
-      "training": "トレーニング履歴",
-      "generalapp": "General Form"
+    "iconImageHandler": {
+        "icon": "アイコン",
+        "image": "画像"
     },
-    "formDeleteConfirm": "本当に「{formName}」を削除しますか？",
-    "secFieldsHeader": "フィールド",
-    "stageCreate": "ステージを作成",
-    "stageUpdate": "ステージを更新",
-    "stageActionTypes": {
-      "autoReply": "自動フォーム返信",
-      "notifySubmitterNotification": "通知で知らせる",
-      "notifySubmitterEmail": "メールで知らせる",
-      "disableEnableReplies": "返信を無効/有効にする",
-      "changeDepartmentSlashRank": "ランクを変更する",
-      "modifyCommunityStatus": "コミュニティステータスを変更する",
-      "executeDiscordWebhook": "Discord Webhookを実行する",
-      "executeDiscordDm": "Discord DMを送信する",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+    "helpButtonComponent": {
+        "viewTutorialVideo": "チュートリアルビデオを見る",
+        "documentation": "ドキュメント",
+        "close": "閉じる",
+        "videoTutorialComingSoon": "ビデオチュートリアルは近日公開"
     },
-    "appSubmit": "申請/フォームを提出する",
-    "editOwn": "自分のフォームを編集する",
-    "changeStages": "フォームステージを変更する",
-    "toggleReplies": "返信を有効/無効にする",
-    "appReply": "基本返信アクセス",
-    "appReplyMod": "モデレーター返信アクセス",
-    "appReplyAdmin": "管理者返信アクセス",
-    "viewSubmitted": "提出済みを表示",
-    "archiveOwn": "自分のフォームをアーカイブする",
-    "archiveForm": "フォームをアーカイブする",
-    "unarchiveOwn": "自分のフォームをアーカイブ解除する",
-    "unarchiveForm": "フォームをアーカイブ解除する",
-    "adminDelete": "管理者削除",
-    "apply": {
-      "availableForms": "利用可能なフォーム",
-      "myForms": "私のフォーム",
-      "apply": "送信"
+    "searchEngineEditor": {
+        "seoSettings": "SEO設定",
+        "pageSEOSettings": "ページSEO設定",
+        "pageDesciption": "ページの説明"
     },
-    "noAdditional": "追加フィールドなし",
-    "premadeSections": "事前作成されたセクション",
-    "fields": "フィールド",
-    "appThirdPartySubmit": "サードパーティのアプリケーション/フォームを提出",
-    "modifyStageSettings": "ステージ設定を変更"
-  },
-  "departments": {
-    "departmentName": "部門名",
-    "shortName": "短縮名",
-    "ranksAndPositions": "関連するランク/ポジション",
-    "addRank": "ランクを追加",
-    "removeRank": "ランクを削除",
-    "rankName": "ランク名",
-    "rankColor": "ランクの装飾色",
-    "rankIcon": "ランクの装飾アイコン",
-    "rankImg": "ランクの装飾画像",
-    "cmsPermissions": "CMS権限",
-    "formPermissions": "フォーム権限",
-    "rosterPermissions": "名簿権限",
-    "calendarPermissions": "カレンダー権限",
-    "serverPermissions": "サーバー権限",
-    "profileFieldPermissions": "プロフィールフィールド権限",
-    "navigationPermissions": "ナビゲーション権限",
-    "rankPower": "権力",
-    "rankPowerDesc": "ランクの権力は、システムアクションを試みることができる相手や名簿での並び順に関連します。例えば、あなたと同じかそれ以上のランクの権力を持つ人を追放することはできません。",
-    "limitsHit": "部門の最大数制限に達しました！",
-    "departmentType": "部門タイプ",
-    "typeOptions": {
-      "leadership": "コミュニティリーダーシップ",
-      "primary": "主要部門",
-      "reserve": "副部門",
-      "cwidesub": "コミュニティ全体のサブ部門"
+    "common": {
+        "support": "サポート",
+        "needHelp": "助けが必要ですか？",
+        "noResults": "結果なし",
+        "add": "追加",
+        "dupDept": "部門を複製",
+        "remove": "削除",
+        "save": "保存",
+        "cancel": "キャンセル",
+        "view": "表示",
+        "close": "閉じる",
+        "image": "画像",
+        "description": "説明",
+        "templateDetails": "テンプレートの詳細",
+        "information": "情報",
+        "recPlan": "推奨プラン",
+        "totalDepts": "総部門数",
+        "totalRanks": "総ランク数",
+        "totalRosters": "総名簿数",
+        "totalForms": "総フォーム数",
+        "totalStages": "総ステージ数",
+        "totalStageGroups": "総ステージグループ数",
+        "calCates": "カレンダーのカテゴリ",
+        "departments": "部門",
+        "rosters": "名簿",
+        "forms": "フォーム",
+        "calendars": "カレンダー",
+        "previewTempDepartmentDetails": "テンプレート部門の詳細",
+        "previewTempRosterDetails": "テンプレート名簿の詳細",
+        "previewTempFormDetails": "テンプレートフォームの詳細",
+        "previewTempPageDetails": "テンプレートページの詳細",
+        "previewTempToolbarDetails": "テンプレートツールバーの詳細",
+        "filter": "フィルター",
+        "no": "いいえ",
+        "stages": "ステージ",
+        "stageGroups": "ステージグループ",
+        "pages": "ページ",
+        "toolbar": "ツールバー",
+        "toolbarItems": "ツールバーアイテム",
+        "manage": "管理",
+        "return": "戻る",
+        "learnMore": "詳細を学ぶ",
+        "previewTempStageGroupDetails": "ステージグループの詳細をプレビュー"
     },
-    "addToRoster": "行を作成",
-    "saveMemberOnRoster": "行を保存",
-    "removeMemberFromRoster": "名簿から削除",
-    "duplicateRank": "ランクを複製",
-    "markRankPrimary": "ランクを主要用途のみにマーク",
-    "markRankSecondary": "ランクを副用途のみにマーク",
-    "copyPermissions": "権限をコピー",
-    "pastePermissions": "権限を貼り付け",
-    "removeConfirm": "この部門を削除してもよろしいですか？",
-    "toggleAllPermissions": "すべての権限を切り替え",
-    "copyRankIdToClipboard": "IDをクリップボードにコピー",
-    "copySuccess": "クリップボードにコピーされました！",
-    "defaultPermissions": "デフォルトの部門権限",
-    "pagePermissions": "ページ権限"
-  },
-  "customization": {
-    "inputs": {
-      "discoveryEnable": "コミュニティディスカバリーを有効にする",
-      "discoverySelectForm": "新メンバーのデフォルトフォーム",
-      "bumpDiscovery": "ディスカバリーをバンプする",
-      "discoveryTags": "検索タグ",
-      "logo": "コミュニティロゴ",
-      "banner": "コミュニティバナー画像"
+    "permissions": {
+        "kickUser": "ユーザーをキック",
+        "banUser": "ユーザーを禁止",
+        "archiveUser": "ユーザーをアーカイブ",
+        "changePermissions": "権限を変更",
+        "modifyComInfo": "コミュニティのカスタマイズを変更",
+        "modifyComDepts": "マネージャーを通じて部門を変更",
+        "modifyComForms": "エディターを通じてカスタムフォームを変更",
+        "modifyComRosters": "エディターを通じてカスタム名簿を変更",
+        "modifyDiscordHooks": "Discordログウェブフックを変更",
+        "modifyIntegration": "API統合を変更",
+        "tooltips": {
+            "system": {
+                "kickUserExplanation": "この権限を付与すると、このランクのユーザーは他のユーザーをコミュニティからキックすることができます。",
+                "banUserExplanation": "この権限を付与すると、このランクのユーザーは他のユーザーをコミュニティから禁止することができます。",
+                "archiveUserExplanation": "この権限を付与すると、このランクのユーザーがコミュニティから他のユーザーをアーカイブすることができるようになります。",
+                "changePermissionsExplanation": "この権限を付与すると、このランクのユーザーがコミュニティから他のユーザーの権限やアカウントの詳細を変更することができるようになります。",
+                "modifyComInfoExplanation": "この権限を付与すると、このランクのユーザーがSonoran CMSプラットフォームの名前、画像、名前/識別子の形式などの側面をカスタマイズすることができるようになります。",
+                "modifyComFormsExplanation": "この権限を付与すると、このランクのユーザーがユーザーがフォームを提出する際に使用するカスタムフォームテンプレートをカスタマイズすることができるようになります。",
+                "modifyComDeptsExplanation": "この権限を付与すると、このランクのユーザーが現在行っているように部門やランクをカスタマイズすることができるようになります。",
+                "modifyComRostersExplanation": "この権限を付与すると、このランクのユーザーがコミュニティの名簿データを表示するために使用される名簿テンプレートをカスタマイズすることができるようになります。",
+                "modifyDiscordHooksExplanation": "この権限を付与すると、このランクのユーザーがコミュニティのDiscordウェブフック設定をカスタマイズすることができるようになります。",
+                "modifyIntegrationExplanation": "この権限を付与すると、このランクのユーザーがAPIの認証情報をカスタマイズおよび取得することができるようになります。",
+                "modifyToolbarExplanation": "この権限を付与すると、このランクのユーザーがコミュニティのツールバー設定をカスタマイズできるようになります。",
+                "modifyPagesExplanation": "この権限を付与すると、このランクのユーザーがコミュニティのページをカスタマイズできるようになります。",
+                "modifyDocumentsExplanation": "この権限を付与すると、このランクのユーザーがSonoran CMSコミュニティドライブ内のすべてのドキュメントを管理できるようになります。",
+                "clockInOutExplanation": "この権限を付与すると、ユーザーが出退勤できるようになります。",
+                "modifyTeamSpeakExplanation": "この権限を付与すると、ユーザーがTeamSpeak統合設定を変更できるようになります。",
+                "modifyShieldExplanation": "この権限を付与すると、ユーザーがSonoran Shield設定を変更できるようになります。"
+            },
+            "navigation": {
+                "viewDashboardBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるダッシュボードボタンを見られるようになります。",
+                "viewDriveBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるドライブボタンを見られるようになります（「すべてのドキュメントを変更（ドライブ）」の権限が付与されている場合、これは既に継承されています）。",
+                "viewCalendarBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるカレンダーボタンを見られるようになります。",
+                "viewRostersBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるロスターズボタンを見られるようになります。",
+                "viewProfileBtnExplanation": "この権限を付与すると、ユーザーはサイドナビゲーションバーにコミュニティプロファイルボタンを表示できるようになります。"
+            },
+            "forms": {
+                "viewSubmittedExplanation": "この権限を付与すると、このランクのユーザーはこのタイプのすべての提出済みフォームを閲覧できるようになります。",
+                "editOwnExplanation": "この権限を付与すると、このランクのユーザーはこのタイプのフォームの提出物を編集できるようになります。",
+                "changeStagesExplanation": "この権限を付与すると、このランクのユーザーはこのタイプの提出済みフォームのステージを変更できるようになります。",
+                "modifyReplySettingsExplanation": "この権限を付与すると、このランクのユーザーはこのタイプの提出済みフォームの返信設定を変更できるようになります。",
+                "replyExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
+                "replyModExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信またはモデレーター返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
+                "replyAdminExplanation": "この権限を付与すると、このランクのユーザーは返信設定が基本返信、モデレーター返信、または管理者返信を許可している場合、このタイプの提出済みフォームに返信できるようになります。",
+                "submitExplanation": "この権限を付与すると、このランクのユーザーがこのタイプのフォームを提出できるようになります。",
+                "adminDeleteExplanation": "この権限を付与すると、このランクのユーザーがこのフォームの提出物を完全に削除できるようになります。",
+                "modifyStageSettings": "Modify Stage Settings",
+                "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+            },
+            "rosters": {
+                "viewExplanation": "この権限を付与すると、このランクのユーザーがこの名簿を閲覧できるようになります。",
+                "addPrimaryUserExplanation": "この権限を付与すると、このランクのユーザーがユーザーを名簿にプライマリ行として追加できるようになります（セカンダリ行の前に初期ソートされます）。",
+                "addSecondaryUserExplanation": "この権限を付与すると、このランクのユーザーがユーザーを名簿にセカンダリ行として追加できるようになります（プライマリ行の後にソートされます）。",
+                "editPrimaryUserExplanation": "この権限を付与すると、このランクのユーザーがこの名簿のプライマリ行を編集できるようになります。",
+                "editSecondaryUserExplanation": "この権限を付与すると、このランクのユーザーがこの名簿のセカンダリ行を編集できるようになります。",
+                "removePrimaryUserExplanation": "この権限を付与すると、このランクのユーザーが名簿からプライマリ行を削除できるようになります。",
+                "removeSecondaryUserExplanation": "この権限を付与すると、このランクのユーザーが名簿からセカンダリ行を削除できるようになります。",
+                "viewModColumnExplanation": "この権限を付与すると、このランクのユーザーがモデレーター専用としてマークされた名簿の列を閲覧できるようになります。",
+                "viewAdminColumnExplanation": "この権限を付与すると、このランクのユーザーは管理者専用としてマークされた名簿の列を表示できるようになります。"
+            },
+            "calendars": {
+                "viewExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを表示できるようになります。",
+                "createExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内でイベントを作成できるようになります。",
+                "removeExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを削除できるようになります。",
+                "editOtherExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを編集できるようになります。"
+            },
+            "servers": {
+                "allowWhitelistExplanation": "この権限を付与すると、このランクのユーザーはAPIホワイトリストを通過できるようになります（このサーバーのブロック権限を持っている場合、ブロックが優先されるためブロックされます）。",
+                "blockWhitelistExplanation": "この権限を付与すると、このランクのユーザーはAPIホワイトリストを通過できなくなります（このサーバーの許可権限を持っている場合でも、ブロックが優先されるためブロックされます）。"
+            },
+            "profileFields": {
+                "attachExplanation": "この権限を付与すると、このランクを持つすべてのメンバーのプロフィールにこのプロフィールフィールドが追加されます。次の2つの権限のいずれかが適用されない限り、プロフィールを表示する誰もがそれを見ることができます。",
+                "hideFromOwnerExplanation": "この権限を付与すると、このランクを持つメンバーのプロフィールからフィールドが非表示になります。",
+                "requireModToViewExplanation": "この権限を付与すると、メンバーがプロフィール上のフィールドを表示するために「他のプロフィールのフィールドを表示 - モデレーターパワー」を持っている必要があります。",
+                "requireAdminToViewExplanation": "この権限を付与すると、メンバーがプロフィール上のフィールドを表示するために「他のプロフィールのフィールドを表示 - 管理者パワー」を持っている必要があります。",
+                "viewModPowerExplanation": "この権限を付与すると、メンバーが「モデレーターパワー」を持っている場合にプロフィール上のフィールドを表示できるようになります。関連する権限については上記を参照してください。",
+                "viewAdminPowerExplanation": "この権限を付与すると、メンバーが「管理者パワー」を持っている場合にプロフィール上のフィールドを表示できるようになります。関連する権限については上記を参照してください。",
+                "allowOwnerToEditExplanation": "この権限を付与すると、このランクを持つメンバーが自分のプロフィール上のフィールドを編集できるようになります。「プロフィール所有者からフィールドを非表示にする」権限が付与されている場合、この権限は無視され、フィールドは表示されません。",
+                "editOthersExplanation": "この権限を付与すると、このランクを持つメンバーが表示できる他のメンバープロフィール上のフィールドを編集できるようになります。"
+            },
+            "pages": {
+                "viewExplanation": "この権限を付与すると、このランクを持つメンバーがこのページを閲覧できるようになります。このページはプライベートに設定されています。"
+            }
+        },
+        "disciplinaryPanel": "懲戒委員会",
+        "changePermissionsHigher": "上位の権限を変更"
     },
-    "tooltips": {
-      "discoveryEnable": "これはSonoran CMSのコミュニティディスカバリーシステムのためにコミュニティを有効/無効にします。",
-      "discoverySelectForm": "これは、ユーザーがSonoran CMSコミュニティディスカバリーシステムを通じてコミュニティに参加した場合に、このフォームを自動的に表示します。フォームは「新メンバー申請」のタイプでなければなりません。",
-      "enableDiscoveryFirst": "これを使用するにはコミュニティディスカバリーを有効にする必要があります",
-      "hoursUntilNextBump": "再度バンプするまであと1時間です | 再度バンプするまであと{hours}時間です",
-      "canBumpDiscovery": "あなたのコミュニティをディスカバリーページのトップに持ってきましょう！"
-    }
-  },
-  "formManagement": {
-    "pending": "保留中",
-    "approve": "承認する",
-    "approved": "承認済み",
-    "denied": "拒否されました",
-    "submitter": "提出者",
-    "status": "ステータス"
-  },
-  "calendar": {
-    "viewEvents": "イベントを見る",
-    "createEvents": "イベントを作成する",
-    "removeEvents": "イベントを削除する",
-    "editOtherEvents": "他のイベントを編集する",
-    "createEvent": "イベントを作成する - カテゴリー",
-    "eventNotFound": "イベントが見つからない/アクセスできない",
-    "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。"
-  },
-  "limits": {
-    "version": "バージョン",
-    "departments": "部門",
-    "driveStorage": "ドライブストレージ",
-    "idPrefix": "ID:",
-    "versionPrefix": "ティア:",
-    "expiresPrefix": "有効期限: ",
-    "goProToday": "今日プロにアップグレード"
-  },
-  "roster": {
-    "addPrimary": "行を追加",
-    "addSecondary": "行を追加",
-    "editingMember": "行を編集"
-  },
-  "templateManagement": {
-    "creationDescription": "この作成ダイアログは、コミュニティの要素からSonoran CMSコミュニティテンプレートを作成するのを支援します。作成が完了した後でも、このテンプレートをいつでも更新および削除できます。",
-    "previewImages": "テンプレートプレビュー画像",
-    "creationSelectionDescription": "この作成ダイアログは、コミュニティのどのコンポーネントをテンプレートに含めるかを選択するのに役立ちます。作成が完了した後でも、コンポーネントを更新および削除することができます。",
-    "manageDescription": "この管理ダイアログでは、テンプレートの要素や情報を追加、削除、更新することができます。変更を保存すると、Sonoran CMS開発チームによる再審査が必要になります。",
-    "manageImages": "テンプレートプレビュー画像の管理"
-  },
-  "profileFieldsEditor": {
-    "errors": {
-      "onGetAll": "すべてのプロファイルフィールドを取得中にエラーが発生しました。エラー: {error}",
-      "noSelectOptions": "プロファイルフィールドタイプ「SELECT」には少なくとも1つのオプションが必要です。",
-      "onSave": "新しいプロファイルフィールドを保存中にエラーが発生しました。エラー: {error}",
-      "noFindField": "選択されたものからフィールドが見つかりませんでした。"
-    }
+    "growth": {
+        "ERRORED": "エラーが発生しました",
+        "thereWasNotEnoughDataForThisCommmunityToDetermine": "このコミュニティには判断するための十分なデータがありませんでした",
+        "fastestGrowing": "最も急成長している",
+        "fastestGrowingCommunityInTheLast7DaysComparedTo": "過去7日間で最も急成長しているコミュニティ"
+    },
+    "menu": {
+        "join": "コミュニティに参加する",
+        "togDefaultCom": "デフォルトCMSコミュニティの切り替え",
+        "leaveCommunity": "コミュニティを離れる",
+        "leaveCommunityTitle": "コミュニティを離れる確認",
+        "leaveCommunityMessage": "本当にこのコミュニティを離れますか？コミュニティのコンテンツにアクセスできなくなります。"
+    },
+    "forms": {
+        "templateTypes": {
+            "newmemberapp": "新メンバー申請",
+            "reserveapp": "二次申請",
+            "plog": "タイムログ",
+            "commend": "表彰",
+            "complaint": "苦情",
+            "comform": "コミュニティフォーム",
+            "disciplinary": "懲戒処分",
+            "training": "トレーニング履歴",
+            "generalapp": "General Form"
+        },
+        "formDeleteConfirm": "本当に「{formName}」を削除しますか？",
+        "secFieldsHeader": "フィールド",
+        "stageCreate": "ステージを作成",
+        "stageUpdate": "ステージを更新",
+        "stageActionTypes": {
+            "autoReply": "自動フォーム返信",
+            "notifySubmitterNotification": "通知で知らせる",
+            "notifySubmitterEmail": "メールで知らせる",
+            "disableEnableReplies": "返信を無効/有効にする",
+            "changeDepartmentSlashRank": "ランクを変更する",
+            "modifyCommunityStatus": "コミュニティステータスを変更する",
+            "executeDiscordWebhook": "Discord Webhookを実行する",
+            "executeDiscordDm": "Discord DMを送信する",
+            "applyDisciplinaryPoints": "Apply Disciplinary Points"
+        },
+        "appSubmit": "申請/フォームを提出する",
+        "editOwn": "自分のフォームを編集する",
+        "changeStages": "フォームステージを変更する",
+        "toggleReplies": "返信を有効/無効にする",
+        "appReply": "基本返信アクセス",
+        "appReplyMod": "モデレーター返信アクセス",
+        "appReplyAdmin": "管理者返信アクセス",
+        "viewSubmitted": "提出済みを表示",
+        "archiveOwn": "自分のフォームをアーカイブする",
+        "archiveForm": "フォームをアーカイブする",
+        "unarchiveOwn": "自分のフォームをアーカイブ解除する",
+        "unarchiveForm": "フォームをアーカイブ解除する",
+        "adminDelete": "管理者削除",
+        "apply": {
+            "availableForms": "利用可能なフォーム",
+            "myForms": "私のフォーム",
+            "apply": "送信"
+        },
+        "noAdditional": "追加フィールドなし",
+        "premadeSections": "事前作成されたセクション",
+        "fields": "フィールド",
+        "appThirdPartySubmit": "サードパーティのアプリケーション/フォームを提出",
+        "modifyStageSettings": "ステージ設定を変更"
+    },
+    "departments": {
+        "departmentName": "部門名",
+        "shortName": "短縮名",
+        "ranksAndPositions": "関連するランク/ポジション",
+        "addRank": "ランクを追加",
+        "removeRank": "ランクを削除",
+        "rankName": "ランク名",
+        "rankColor": "ランクの装飾色",
+        "rankIcon": "ランクの装飾アイコン",
+        "rankImg": "ランクの装飾画像",
+        "cmsPermissions": "CMS権限",
+        "formPermissions": "フォーム権限",
+        "rosterPermissions": "名簿権限",
+        "calendarPermissions": "カレンダー権限",
+        "serverPermissions": "サーバー権限",
+        "profileFieldPermissions": "プロフィールフィールド権限",
+        "navigationPermissions": "ナビゲーション権限",
+        "rankPower": "権力",
+        "rankPowerDesc": "ランクの権力は、システムアクションを試みることができる相手や名簿での並び順に関連します。例えば、あなたと同じかそれ以上のランクの権力を持つ人を追放することはできません。",
+        "limitsHit": "部門の最大数制限に達しました！",
+        "departmentType": "部門タイプ",
+        "typeOptions": {
+            "leadership": "コミュニティリーダーシップ",
+            "primary": "主要部門",
+            "reserve": "副部門",
+            "cwidesub": "コミュニティ全体のサブ部門"
+        },
+        "addToRoster": "行を作成",
+        "saveMemberOnRoster": "行を保存",
+        "removeMemberFromRoster": "名簿から削除",
+        "duplicateRank": "ランクを複製",
+        "markRankPrimary": "ランクを主要用途のみにマーク",
+        "markRankSecondary": "ランクを副用途のみにマーク",
+        "copyPermissions": "権限をコピー",
+        "pastePermissions": "権限を貼り付け",
+        "removeConfirm": "この部門を削除してもよろしいですか？",
+        "toggleAllPermissions": "すべての権限を切り替え",
+        "copyRankIdToClipboard": "IDをクリップボードにコピー",
+        "copySuccess": "クリップボードにコピーされました！",
+        "defaultPermissions": "デフォルトの部門権限",
+        "pagePermissions": "ページ権限"
+    },
+    "customization": {
+        "inputs": {
+            "discoveryEnable": "コミュニティディスカバリーを有効にする",
+            "discoverySelectForm": "新メンバーのデフォルトフォーム",
+            "bumpDiscovery": "ディスカバリーをバンプする",
+            "discoveryTags": "検索タグ",
+            "logo": "コミュニティロゴ",
+            "banner": "コミュニティバナー画像"
+        },
+        "tooltips": {
+            "discoveryEnable": "これはSonoran CMSのコミュニティディスカバリーシステムのためにコミュニティを有効/無効にします。",
+            "discoverySelectForm": "これは、ユーザーがSonoran CMSコミュニティディスカバリーシステムを通じてコミュニティに参加した場合に、このフォームを自動的に表示します。フォームは「新メンバー申請」のタイプでなければなりません。",
+            "enableDiscoveryFirst": "これを使用するにはコミュニティディスカバリーを有効にする必要があります",
+            "hoursUntilNextBump": "再度バンプするまであと1時間です | 再度バンプするまであと{hours}時間です",
+            "canBumpDiscovery": "あなたのコミュニティをディスカバリーページのトップに持ってきましょう！"
+        }
+    },
+    "formManagement": {
+        "pending": "保留中",
+        "approve": "承認する",
+        "approved": "承認済み",
+        "denied": "拒否されました",
+        "submitter": "提出者",
+        "status": "ステータス"
+    },
+    "calendar": {
+        "viewEvents": "イベントを見る",
+        "createEvents": "イベントを作成する",
+        "removeEvents": "イベントを削除する",
+        "editOtherEvents": "他のイベントを編集する",
+        "createEvent": "イベントを作成する - カテゴリー",
+        "eventNotFound": "イベントが見つからない/アクセスできない",
+        "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。"
+    },
+    "limits": {
+        "version": "バージョン",
+        "departments": "部門",
+        "driveStorage": "ドライブストレージ",
+        "idPrefix": "ID:",
+        "versionPrefix": "ティア:",
+        "expiresPrefix": "有効期限: ",
+        "goProToday": "今日プロにアップグレード"
+    },
+    "roster": {
+        "addPrimary": "行を追加",
+        "addSecondary": "行を追加",
+        "editingMember": "行を編集"
+    },
+    "templateManagement": {
+        "creationDescription": "この作成ダイアログは、コミュニティの要素からSonoran CMSコミュニティテンプレートを作成するのを支援します。作成が完了した後でも、このテンプレートをいつでも更新および削除できます。",
+        "previewImages": "テンプレートプレビュー画像",
+        "creationSelectionDescription": "この作成ダイアログは、コミュニティのどのコンポーネントをテンプレートに含めるかを選択するのに役立ちます。作成が完了した後でも、コンポーネントを更新および削除することができます。",
+        "manageDescription": "この管理ダイアログでは、テンプレートの要素や情報を追加、削除、更新することができます。変更を保存すると、Sonoran CMS開発チームによる再審査が必要になります。",
+        "manageImages": "テンプレートプレビュー画像の管理"
+    },
+    "profileFieldsEditor": {
+        "errors": {
+            "onGetAll": "すべてのプロファイルフィールドを取得中にエラーが発生しました。エラー: {error}",
+            "noSelectOptions": "プロファイルフィールドタイプ「SELECT」には少なくとも1つのオプションが必要です。",
+            "onSave": "新しいプロファイルフィールドを保存中にエラーが発生しました。エラー: {error}",
+            "noFindField": "選択されたものからフィールドが見つかりませんでした。"
+        }
+    },
   },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "Sonoran Shieldネットワーク防御",
