@@ -794,6 +794,7 @@
     "pendingMembers": "Pending Members",
     "bannedMembers": "Banned Members",
     "archivedMembers": "Archived Members",
+    "previousMembers": "Previous Members",
     "actions": "Actions",
     "setRanksToSelectedAccounts": "Set Ranks to Selected Accounts",
     "addremoveRanksToSelectedAccounts": "Add/Remove Ranks to Selected Accounts",
@@ -2575,7 +2576,7 @@
   },
   "JobSync": {
     "jobSyncMapRanks": "Job Sync - Map Ranks",
-    "easilyAndAutomaticallyManageJobsForYourS": "Easily and automatically manage jobs for your server! Map ranks directly to QBCore jobs",
+    "easilyAndAutomaticallyManageJobsForYourS": "Map CMS ranks to in-game jobs. CMS ranks will automatically be applied when a player is on duty for the job, and removed when they are off duty.",
     "noDataAvailablebYouProbablyNeedToUpdateY": "No data available./b You probably need to update your servers",
     "ranks": "Ranks",
     "job": "Job",
@@ -3205,7 +3206,7 @@
     "RoleIsGrantedToTheUserIfTheyHaveAnyOfThe": "role is granted to the user if they have any of the CMS ranks in this mapping. Granting this Discord role will do nothing.",
     "the": "The",
     "theDiscord": "The Discord",
-    "kickDiscordGuildMembersWhenTheyLeaveTheC": "Kick Discord Guild members when they leave the CMS community",
+    "kickDiscordGuildMembersWhenTheyLeaveTheC": "Kicks the user from CMS if they are removed/leave all Discord guilds",
     "kickOnLeave": "Kick on Leave",
     "stripDiscordGuildRolesFromUsersThatAreNo": "Strip Discord Guild roles from users that are not mapped within the CMS",
     "stripUnmapped": "Strip Unmapped",
@@ -4300,5 +4301,13 @@
     "banExpiration": "Ban Expiration",
     "close": "Close",
     "applyBan": "Apply Ban"
+  },
+  "PFActivityHoursView": {
+    "rosterviewnoserver": "No server name",
+    "rosterviewstart": "Start:",
+    "start": "Start",
+    "rosterviewend": "End:",
+    "end": "End",
+    "profileFieldRange": "Profile Field Range"
   }
 }
