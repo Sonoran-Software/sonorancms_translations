@@ -1,324 +1,323 @@
 {
-    "config": {
-        "displayName": "Français",
-        "path": "fr"
+  "config": {
+    "displayName": "Français",
+    "path": "fr"
+  },
+  "iconImageHandler": {
+    "icon": "Icône",
+    "image": "Image"
+  },
+  "helpButtonComponent": {
+    "viewTutorialVideo": "Voir la vidéo tutorielle",
+    "documentation": "Documentation",
+    "close": "Fermer",
+    "videoTutorialComingSoon": "Vidéo tutorielle à venir"
+  },
+  "searchEngineEditor": {
+    "seoSettings": "Paramètres SEO",
+    "pageSEOSettings": "Paramètres SEO de la page",
+    "pageDesciption": "Description de la page"
+  },
+  "common": {
+    "support": "Support",
+    "needHelp": "Besoin d'aide?",
+    "noResults": "Aucun résultat",
+    "add": "Ajouter",
+    "dupDept": "Dupliquer le département",
+    "remove": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "view": "Voir",
+    "close": "Fermer",
+    "image": "Image",
+    "description": "Description",
+    "templateDetails": "Détails du modèle",
+    "information": "Information",
+    "recPlan": "Plan recommandé",
+    "totalDepts": "Total des départements",
+    "totalRanks": "Total des rangs",
+    "totalRosters": "Total des listes",
+    "totalForms": "Total des formulaires",
+    "totalStages": "Total des étapes",
+    "totalStageGroups": "Total des groupes d'étapes",
+    "calCates": "Catégories de calendrier",
+    "departments": "Départements",
+    "rosters": "Listes",
+    "forms": "Formulaires",
+    "calendars": "Calendriers",
+    "previewTempDepartmentDetails": "Détails du département du modèle",
+    "previewTempRosterDetails": "Détails de la liste du modèle",
+    "previewTempFormDetails": "Détails du formulaire du modèle",
+    "previewTempPageDetails": "Détails de la page du modèle",
+    "previewTempToolbarDetails": "Détails de la barre d'outils du modèle",
+    "filter": "Filtrer",
+    "no": "Non",
+    "stages": "Étapes",
+    "stageGroups": "Groupes d'étapes",
+    "pages": "Pages",
+    "toolbar": "Barre d'outils",
+    "toolbarItems": "Éléments de la barre d'outils",
+    "manage": "Gérer",
+    "return": "Retour",
+    "learnMore": "En savoir plus",
+    "previewTempStageGroupDetails": "Aperçu des détails du groupe d'étapes"
+  },
+  "permissions": {
+    "kickUser": "Expulser les utilisateurs",
+    "banUser": "Bannir les utilisateurs",
+    "archiveUser": "Archiver l'utilisateur",
+    "changePermissions": "Modifier les permissions",
+    "modifyComInfo": "Modifier la personnalisation de la communauté",
+    "modifyComDepts": "Modifier les départements via le gestionnaire",
+    "modifyComForms": "Modifier les formulaires personnalisés via l'éditeur",
+    "modifyComRosters": "Modifier les listes personnalisées via l'éditeur",
+    "modifyDiscordHooks": "Modifier les webhooks de journalisation Discord",
+    "modifyIntegration": "Modifier l'intégration API",
+    "tooltips": {
+      "system": {
+        "kickUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'expulser un autre utilisateur de la communauté.",
+        "banUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de bannir un autre utilisateur de la communauté.",
+        "archiveUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'archiver un autre utilisateur de la communauté.",
+        "changePermissionsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier les permissions et les détails du compte d'un autre utilisateur de la communauté.",
+        "modifyComInfoExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser des aspects de la plateforme Sonoran CMS tels que le nom, l'image, le format du nom/identifiant, etc.",
+        "modifyComFormsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les modèles de formulaires personnalisés utilisés lorsque les utilisateurs soumettent des formulaires.",
+        "modifyComDeptsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les départements et les rangs comme vous le faites actuellement.",
+        "modifyComRostersExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les modèles de listes utilisés pour afficher les données de la liste de la communauté.",
+        "modifyDiscordHooksExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les paramètres du webhook Discord pour la communauté.",
+        "modifyIntegrationExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser et de récupérer les identifiants API.",
+        "modifyToolbarExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les paramètres de la barre d'outils pour la communauté.",
+        "modifyPagesExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les pages pour la communauté.",
+        "modifyDocumentsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de gérer tous les documents au sein du Sonoran CMS Community Drive.",
+        "clockInOutExplanation": "Accorder cette permission permettra à un utilisateur de pointer à l'entrée et à la sortie.",
+        "modifyTeamSpeakExplanation": "Accorder cette permission permettra à un utilisateur de modifier les paramètres d'intégration de TeamSpeak.",
+        "modifyShieldExplanation": "Accorder cette permission permettra à un utilisateur de modifier les paramètres de Sonoran Shield."
+      },
+      "navigation": {
+        "viewDashboardBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Tableau de bord sur la barre de navigation latérale.",
+        "viewDriveBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Drive sur la barre de navigation latérale (si la permission 'Modifier tous les documents (Drive)' est accordée, cela est déjà hérité).",
+        "viewCalendarBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Calendrier sur la barre de navigation latérale.",
+        "viewRostersBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir les boutons Rosters sur la barre de navigation latérale.",
+        "viewProfileBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Profil de la Communauté dans la barre de navigation latérale."
+      },
+      "forms": {
+        "viewSubmittedExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir tous les formulaires soumis de ce type.",
+        "editOwnExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier leurs soumissions de ce type de formulaire.",
+        "changeStagesExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de changer l'étape d'un formulaire soumis de ce type.",
+        "modifyReplySettingsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de changer les paramètres de réponse d'un formulaire soumis de ce type.",
+        "replyExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de répondre à un formulaire soumis de ce type si les paramètres de réponse permettent des réponses de base.",
+        "replyModExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de répondre à un formulaire soumis de ce type si les paramètres de réponse permettent des réponses de base ou de modérateur.",
+        "replyAdminExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de répondre à un formulaire soumis de ce type si les paramètres de réponse permettent des réponses de base, de modérateur ou d'administrateur.",
+        "submitExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de soumettre un formulaire de ce type.",
+        "adminDeleteExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer complètement une soumission de ce formulaire.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+      },
+      "rosters": {
+        "viewExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir cette liste.",
+        "addPrimaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'ajouter un utilisateur à la liste en tant que Ligne Principale (triée initialement avant les lignes secondaires).",
+        "addSecondaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'ajouter un utilisateur à la liste en tant que Ligne Secondaire (triée après les lignes principales).",
+        "editPrimaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier une ligne principale dans cette liste.",
+        "editSecondaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier une ligne secondaire dans cette liste.",
+        "removePrimaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de retirer une ligne principale de la liste.",
+        "removeSecondaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de retirer une ligne secondaire de la liste.",
+        "viewModColumnExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les colonnes de la liste marquées comme réservées aux modérateurs.",
+        "viewAdminColumnExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les colonnes de la liste marquées comme réservées aux administrateurs."
+      },
+      "calendars": {
+        "viewExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les événements dans cette catégorie de calendrier.",
+        "createExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de créer des événements dans cette catégorie de calendrier.",
+        "removeExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer des événements dans cette catégorie de calendrier.",
+        "editOtherExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier des événements dans cette catégorie de calendrier."
+      },
+      "servers": {
+        "allowWhitelistExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'être autorisé via la liste blanche de l'API (si un utilisateur détient la permission de blocage pour ce serveur, il sera bloqué car le blocage a la priorité).",
+        "blockWhitelistExplanation": "Accorder cette permission bloquera un utilisateur avec ce rang d'être autorisé via la liste blanche de l'API (si un utilisateur détient la permission d'autorisation pour ce serveur, il sera toujours bloqué car cela prend la priorité)."
+      },
+      "profileFields": {
+        "attachExplanation": "Accorder cette permission attachera ce champ de profil à tous les profils des membres qui détiennent ce rang. Cela permettra à quiconque de voir votre profil de le voir, sauf si l'une des deux permissions suivantes est appliquée.",
+        "hideFromOwnerExplanation": "Accorder cette permission masquera le champ du profil du membre qui détient ce rang.",
+        "requireModToViewExplanation": "Accorder cette permission exigera qu'un membre ait le \"Voir le champ sur d'autres profils - Pouvoir de modérateur\" pour voir le champ sur un profil.",
+        "requireAdminToViewExplanation": "Accorder cette permission exigera qu'un membre ait le \"Voir le champ sur d'autres profils - Pouvoir d'administrateur\" pour voir le champ sur un profil.",
+        "viewModPowerExplanation": "Accorder cette permission permettra à un membre de voir ce champ sur un profil avec le \"Pouvoir de modérateur\" en tête. Voir les permissions ci-dessus pour l'association.",
+        "viewAdminPowerExplanation": "Accorder cette permission permettra à un membre de voir ce champ sur un profil avec le \"Pouvoir d'administrateur\" en tête. Voir les permissions ci-dessus pour l'association.",
+        "allowOwnerToEditExplanation": "Accorder cette permission permettra au membre qui détient ce rang de modifier ce champ sur son profil. Si la permission \"Masquer le champ du propriétaire du profil\" est accordée, elle ignorera cette permission car le champ ne sera pas visible.",
+        "editOthersExplanation": "Accorder cette permission permettra au membre qui détient ce rang de modifier ce champ sur tous les profils des membres qu'il est capable de voir."
+      },
+      "pages": {
+        "viewExplanation": "Accorder ces permissions permettra au membre qui détient ce rang de voir cette page car la page est définie comme PRIVÉE."
+      }
     },
-    "iconImageHandler": {
-        "icon": "Icône",
-        "image": "Image"
+    "disciplinaryPanel": "Commission Disciplinaire",
+    "changePermissionsHigher": "Modifier les autorisations supérieures"
+  },
+  "growth": {
+    "ERRORED": "ERREUR",
+    "thereWasNotEnoughDataForThisCommmunityToDetermine": "Il n'y avait pas assez de données pour que cette communauté puisse déterminer",
+    "fastestGrowing": "Croissance la plus rapide",
+    "fastestGrowingCommunityInTheLast7DaysComparedTo": "communauté à la croissance la plus rapide au cours des 7 derniers jours par rapport à"
+  },
+  "menu": {
+    "join": "Rejoindre une communauté",
+    "togDefaultCom": "Basculer la communauté CMS par défaut",
+    "leaveCommunity": "Quitter la communauté",
+    "leaveCommunityTitle": "Confirmation de départ de la communauté",
+    "leaveCommunityMessage": "Êtes-vous sûr de vouloir quitter cette communauté ? Vous ne pourrez plus accéder à aucun contenu de la communauté."
+  },
+  "forms": {
+    "templateTypes": {
+      "newmemberapp": "Nouvelle demande de membre",
+      "reserveapp": "Demande secondaire",
+      "plog": "Journal de temps",
+      "commend": "Éloge",
+      "complaint": "Plainte",
+      "comform": "Formulaire de communauté",
+      "disciplinary": "Action disciplinaire",
+      "training": "Historique de formation",
+      "generalapp": "General Form"
     },
-    "helpButtonComponent": {
-        "viewTutorialVideo": "Voir la vidéo tutorielle",
-        "documentation": "Documentation",
-        "close": "Fermer",
-        "videoTutorialComingSoon": "Vidéo tutorielle à venir"
+    "formDeleteConfirm": "Êtes-vous sûr de vouloir supprimer \"{formName}\" ?",
+    "secFieldsHeader": "Champs",
+    "stageCreate": "Créer une étape",
+    "stageUpdate": "Mettre à jour une étape",
+    "stageActionTypes": {
+      "autoReply": "Réponse automatique au formulaire",
+      "notifySubmitterNotification": "Notifier via notification",
+      "notifySubmitterEmail": "Notifier par email",
+      "disableEnableReplies": "Désactiver/Activer les réponses",
+      "changeDepartmentSlashRank": "Modifier le(s) rang(s)",
+      "modifyCommunityStatus": "Modifier le statut de la communauté",
+      "executeDiscordWebhook": "Exécuter le webhook Discord",
+      "executeDiscordDm": "Envoyer un DM Discord",
+      "applyDisciplinaryPoints": "Apply Disciplinary Points"
     },
-    "searchEngineEditor": {
-        "seoSettings": "Paramètres SEO",
-        "pageSEOSettings": "Paramètres SEO de la page",
-        "pageDesciption": "Description de la page"
+    "appSubmit": "Soumettre une demande/un formulaire",
+    "editOwn": "Modifier son propre formulaire",
+    "changeStages": "Changer l'étape du formulaire",
+    "toggleReplies": "Activer/Désactiver les réponses",
+    "appReply": "Accès de base aux réponses",
+    "appReplyMod": "Accès aux réponses des modérateurs",
+    "appReplyAdmin": "Accès aux réponses des administrateurs",
+    "viewSubmitted": "Voir les soumissions",
+    "archiveOwn": "Archiver son propre formulaire",
+    "archiveForm": "Archiver le formulaire",
+    "unarchiveOwn": "Désarchiver son propre formulaire",
+    "unarchiveForm": "Désarchiver le formulaire",
+    "adminDelete": "Supprimer l'Admin",
+    "apply": {
+      "availableForms": "Formulaires Disponibles",
+      "myForms": "Mes Formulaires",
+      "apply": "Soumettre"
     },
-    "common": {
-        "support": "Support",
-        "needHelp": "Besoin d'aide?",
-        "noResults": "Aucun résultat",
-        "add": "Ajouter",
-        "dupDept": "Dupliquer le département",
-        "remove": "Supprimer",
-        "save": "Enregistrer",
-        "cancel": "Annuler",
-        "view": "Voir",
-        "close": "Fermer",
-        "image": "Image",
-        "description": "Description",
-        "templateDetails": "Détails du modèle",
-        "information": "Information",
-        "recPlan": "Plan recommandé",
-        "totalDepts": "Total des départements",
-        "totalRanks": "Total des rangs",
-        "totalRosters": "Total des listes",
-        "totalForms": "Total des formulaires",
-        "totalStages": "Total des étapes",
-        "totalStageGroups": "Total des groupes d'étapes",
-        "calCates": "Catégories de calendrier",
-        "departments": "Départements",
-        "rosters": "Listes",
-        "forms": "Formulaires",
-        "calendars": "Calendriers",
-        "previewTempDepartmentDetails": "Détails du département du modèle",
-        "previewTempRosterDetails": "Détails de la liste du modèle",
-        "previewTempFormDetails": "Détails du formulaire du modèle",
-        "previewTempPageDetails": "Détails de la page du modèle",
-        "previewTempToolbarDetails": "Détails de la barre d'outils du modèle",
-        "filter": "Filtrer",
-        "no": "Non",
-        "stages": "Étapes",
-        "stageGroups": "Groupes d'étapes",
-        "pages": "Pages",
-        "toolbar": "Barre d'outils",
-        "toolbarItems": "Éléments de la barre d'outils",
-        "manage": "Gérer",
-        "return": "Retour",
-        "learnMore": "En savoir plus",
-        "previewTempStageGroupDetails": "Aperçu des détails du groupe d'étapes"
+    "noAdditional": "Aucun Champ Supplémentaire",
+    "premadeSections": "Sections Prédéfinies",
+    "fields": "Champs",
+    "appThirdPartySubmit": "Soumettre une application/formulaire tiers",
+    "modifyStageSettings": "Modifier les paramètres de l'étape"
+  },
+  "departments": {
+    "departmentName": "Nom du Département",
+    "shortName": "Nom Court",
+    "ranksAndPositions": "Rangs/Positions Associés",
+    "addRank": "Ajouter un Rang",
+    "removeRank": "Supprimer un Rang",
+    "rankName": "Nom du Rang",
+    "rankColor": "Couleur Cosmétique du Rang",
+    "rankIcon": "Icône Cosmétique du Rang",
+    "rankImg": "Image Cosmétique du Rang",
+    "cmsPermissions": "Permissions CMS",
+    "formPermissions": "Permissions de Formulaire",
+    "rosterPermissions": "Permissions de Roster",
+    "calendarPermissions": "Permissions de Calendrier",
+    "serverPermissions": "Permissions de Serveur",
+    "profileFieldPermissions": "Permissions des Champs de Profil",
+    "navigationPermissions": "Permissions de Navigation",
+    "rankPower": "Pouvoir",
+    "rankPowerDesc": "Le Pouvoir du Rang est associé à qui vous pouvez tenter des actions système et comment vous seriez trié dans les rosters. Par exemple, vous ne pouvez pas expulser quelqu'un qui a le même pouvoir de rang ou un pouvoir supérieur au vôtre.",
+    "limitsHit": "Limite maximale de départements atteinte !",
+    "departmentType": "Type de Département",
+    "typeOptions": {
+      "leadership": "Leadership Communautaire",
+      "primary": "Département Principal",
+      "reserve": "Département Secondaire",
+      "cwidesub": "Sous-département à l'Échelle de la Communauté"
     },
-    "permissions": {
-        "kickUser": "Expulser les utilisateurs",
-        "banUser": "Bannir les utilisateurs",
-        "archiveUser": "Archiver l'utilisateur",
-        "changePermissions": "Modifier les permissions",
-        "modifyComInfo": "Modifier la personnalisation de la communauté",
-        "modifyComDepts": "Modifier les départements via le gestionnaire",
-        "modifyComForms": "Modifier les formulaires personnalisés via l'éditeur",
-        "modifyComRosters": "Modifier les listes personnalisées via l'éditeur",
-        "modifyDiscordHooks": "Modifier les webhooks de journalisation Discord",
-        "modifyIntegration": "Modifier l'intégration API",
-        "tooltips": {
-            "system": {
-                "kickUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'expulser un autre utilisateur de la communauté.",
-                "banUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de bannir un autre utilisateur de la communauté.",
-                "archiveUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'archiver un autre utilisateur de la communauté.",
-                "changePermissionsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier les permissions et les détails du compte d'un autre utilisateur de la communauté.",
-                "modifyComInfoExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser des aspects de la plateforme Sonoran CMS tels que le nom, l'image, le format du nom/identifiant, etc.",
-                "modifyComFormsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les modèles de formulaires personnalisés utilisés lorsque les utilisateurs soumettent des formulaires.",
-                "modifyComDeptsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les départements et les rangs comme vous le faites actuellement.",
-                "modifyComRostersExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les modèles de listes utilisés pour afficher les données de la liste de la communauté.",
-                "modifyDiscordHooksExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les paramètres du webhook Discord pour la communauté.",
-                "modifyIntegrationExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser et de récupérer les identifiants API.",
-                "modifyToolbarExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les paramètres de la barre d'outils pour la communauté.",
-                "modifyPagesExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de personnaliser les pages pour la communauté.",
-                "modifyDocumentsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de gérer tous les documents au sein du Sonoran CMS Community Drive.",
-                "clockInOutExplanation": "Accorder cette permission permettra à un utilisateur de pointer à l'entrée et à la sortie.",
-                "modifyTeamSpeakExplanation": "Accorder cette permission permettra à un utilisateur de modifier les paramètres d'intégration de TeamSpeak.",
-                "modifyShieldExplanation": "Accorder cette permission permettra à un utilisateur de modifier les paramètres de Sonoran Shield."
-            },
-            "navigation": {
-                "viewDashboardBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Tableau de bord sur la barre de navigation latérale.",
-                "viewDriveBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Drive sur la barre de navigation latérale (si la permission 'Modifier tous les documents (Drive)' est accordée, cela est déjà hérité).",
-                "viewCalendarBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Calendrier sur la barre de navigation latérale.",
-                "viewRostersBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir les boutons Rosters sur la barre de navigation latérale.",
-                "viewProfileBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Profil de la Communauté dans la barre de navigation latérale."
-            },
-            "forms": {
-                "viewSubmittedExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir tous les formulaires soumis de ce type.",
-                "editOwnExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier leurs soumissions de ce type de formulaire.",
-                "changeStagesExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de changer l'étape d'un formulaire soumis de ce type.",
-                "modifyReplySettingsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de changer les paramètres de réponse d'un formulaire soumis de ce type.",
-                "replyExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de répondre à un formulaire soumis de ce type si les paramètres de réponse permettent des réponses de base.",
-                "replyModExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de répondre à un formulaire soumis de ce type si les paramètres de réponse permettent des réponses de base ou de modérateur.",
-                "replyAdminExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de répondre à un formulaire soumis de ce type si les paramètres de réponse permettent des réponses de base, de modérateur ou d'administrateur.",
-                "submitExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de soumettre un formulaire de ce type.",
-                "adminDeleteExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer complètement une soumission de ce formulaire.",
-                "modifyStageSettings": "Modify Stage Settings",
-                "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-            },
-            "rosters": {
-                "viewExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir cette liste.",
-                "addPrimaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'ajouter un utilisateur à la liste en tant que Ligne Principale (triée initialement avant les lignes secondaires).",
-                "addSecondaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'ajouter un utilisateur à la liste en tant que Ligne Secondaire (triée après les lignes principales).",
-                "editPrimaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier une ligne principale dans cette liste.",
-                "editSecondaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier une ligne secondaire dans cette liste.",
-                "removePrimaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de retirer une ligne principale de la liste.",
-                "removeSecondaryUserExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de retirer une ligne secondaire de la liste.",
-                "viewModColumnExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les colonnes de la liste marquées comme réservées aux modérateurs.",
-                "viewAdminColumnExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les colonnes de la liste marquées comme réservées aux administrateurs."
-            },
-            "calendars": {
-                "viewExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les événements dans cette catégorie de calendrier.",
-                "createExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de créer des événements dans cette catégorie de calendrier.",
-                "removeExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer des événements dans cette catégorie de calendrier.",
-                "editOtherExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier des événements dans cette catégorie de calendrier."
-            },
-            "servers": {
-                "allowWhitelistExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'être autorisé via la liste blanche de l'API (si un utilisateur détient la permission de blocage pour ce serveur, il sera bloqué car le blocage a la priorité).",
-                "blockWhitelistExplanation": "Accorder cette permission bloquera un utilisateur avec ce rang d'être autorisé via la liste blanche de l'API (si un utilisateur détient la permission d'autorisation pour ce serveur, il sera toujours bloqué car cela prend la priorité)."
-            },
-            "profileFields": {
-                "attachExplanation": "Accorder cette permission attachera ce champ de profil à tous les profils des membres qui détiennent ce rang. Cela permettra à quiconque de voir votre profil de le voir, sauf si l'une des deux permissions suivantes est appliquée.",
-                "hideFromOwnerExplanation": "Accorder cette permission masquera le champ du profil du membre qui détient ce rang.",
-                "requireModToViewExplanation": "Accorder cette permission exigera qu'un membre ait le \"Voir le champ sur d'autres profils - Pouvoir de modérateur\" pour voir le champ sur un profil.",
-                "requireAdminToViewExplanation": "Accorder cette permission exigera qu'un membre ait le \"Voir le champ sur d'autres profils - Pouvoir d'administrateur\" pour voir le champ sur un profil.",
-                "viewModPowerExplanation": "Accorder cette permission permettra à un membre de voir ce champ sur un profil avec le \"Pouvoir de modérateur\" en tête. Voir les permissions ci-dessus pour l'association.",
-                "viewAdminPowerExplanation": "Accorder cette permission permettra à un membre de voir ce champ sur un profil avec le \"Pouvoir d'administrateur\" en tête. Voir les permissions ci-dessus pour l'association.",
-                "allowOwnerToEditExplanation": "Accorder cette permission permettra au membre qui détient ce rang de modifier ce champ sur son profil. Si la permission \"Masquer le champ du propriétaire du profil\" est accordée, elle ignorera cette permission car le champ ne sera pas visible.",
-                "editOthersExplanation": "Accorder cette permission permettra au membre qui détient ce rang de modifier ce champ sur tous les profils des membres qu'il est capable de voir."
-            },
-            "pages": {
-                "viewExplanation": "Accorder ces permissions permettra au membre qui détient ce rang de voir cette page car la page est définie comme PRIVÉE."
-            }
-        },
-        "disciplinaryPanel": "Commission Disciplinaire",
-        "changePermissionsHigher": "Modifier les autorisations supérieures"
+    "addToRoster": "Créer une Ligne",
+    "saveMemberOnRoster": "Enregistrer la Ligne",
+    "removeMemberFromRoster": "Retirer du Roster",
+    "duplicateRank": "Dupliquer le Rang",
+    "markRankPrimary": "Marquer le Rang pour Utilisation Principale Uniquement",
+    "markRankSecondary": "Marquer le Rang pour Utilisation Secondaire Uniquement",
+    "copyPermissions": "Copier les Permissions",
+    "pastePermissions": "Coller les Permissions",
+    "removeConfirm": "Êtes-vous sûr de vouloir supprimer ce département ?",
+    "toggleAllPermissions": "Basculer Toutes les Permissions",
+    "copyRankIdToClipboard": "Copier l'ID dans le Presse-papiers",
+    "copySuccess": "Copié dans le presse-papiers !",
+    "defaultPermissions": "Permissions par Défaut du Département",
+    "pagePermissions": "Autorisations de Page"
+  },
+  "customization": {
+    "inputs": {
+      "discoveryEnable": "Activer la Découverte de la Communauté",
+      "discoverySelectForm": "Formulaire par Défaut pour Nouveau Membre",
+      "bumpDiscovery": "Remonter la Découverte",
+      "discoveryTags": "Tags de Recherche",
+      "logo": "Logo de la Communauté",
+      "banner": "Image de Bannière de la Communauté"
     },
-    "growth": {
-        "ERRORED": "ERREUR",
-        "thereWasNotEnoughDataForThisCommmunityToDetermine": "Il n'y avait pas assez de données pour que cette communauté puisse déterminer",
-        "fastestGrowing": "Croissance la plus rapide",
-        "fastestGrowingCommunityInTheLast7DaysComparedTo": "communauté à la croissance la plus rapide au cours des 7 derniers jours par rapport à"
-    },
-    "menu": {
-        "join": "Rejoindre une communauté",
-        "togDefaultCom": "Basculer la communauté CMS par défaut",
-        "leaveCommunity": "Quitter la communauté",
-        "leaveCommunityTitle": "Confirmation de départ de la communauté",
-        "leaveCommunityMessage": "Êtes-vous sûr de vouloir quitter cette communauté ? Vous ne pourrez plus accéder à aucun contenu de la communauté."
-    },
-    "forms": {
-        "templateTypes": {
-            "newmemberapp": "Nouvelle demande de membre",
-            "reserveapp": "Demande secondaire",
-            "plog": "Journal de temps",
-            "commend": "Éloge",
-            "complaint": "Plainte",
-            "comform": "Formulaire de communauté",
-            "disciplinary": "Action disciplinaire",
-            "training": "Historique de formation",
-            "generalapp": "General Form"
-        },
-        "formDeleteConfirm": "Êtes-vous sûr de vouloir supprimer \"{formName}\" ?",
-        "secFieldsHeader": "Champs",
-        "stageCreate": "Créer une étape",
-        "stageUpdate": "Mettre à jour une étape",
-        "stageActionTypes": {
-            "autoReply": "Réponse automatique au formulaire",
-            "notifySubmitterNotification": "Notifier via notification",
-            "notifySubmitterEmail": "Notifier par email",
-            "disableEnableReplies": "Désactiver/Activer les réponses",
-            "changeDepartmentSlashRank": "Modifier le(s) rang(s)",
-            "modifyCommunityStatus": "Modifier le statut de la communauté",
-            "executeDiscordWebhook": "Exécuter le webhook Discord",
-            "executeDiscordDm": "Envoyer un DM Discord",
-            "applyDisciplinaryPoints": "Apply Disciplinary Points"
-        },
-        "appSubmit": "Soumettre une demande/un formulaire",
-        "editOwn": "Modifier son propre formulaire",
-        "changeStages": "Changer l'étape du formulaire",
-        "toggleReplies": "Activer/Désactiver les réponses",
-        "appReply": "Accès de base aux réponses",
-        "appReplyMod": "Accès aux réponses des modérateurs",
-        "appReplyAdmin": "Accès aux réponses des administrateurs",
-        "viewSubmitted": "Voir les soumissions",
-        "archiveOwn": "Archiver son propre formulaire",
-        "archiveForm": "Archiver le formulaire",
-        "unarchiveOwn": "Désarchiver son propre formulaire",
-        "unarchiveForm": "Désarchiver le formulaire",
-        "adminDelete": "Supprimer l'Admin",
-        "apply": {
-            "availableForms": "Formulaires Disponibles",
-            "myForms": "Mes Formulaires",
-            "apply": "Soumettre"
-        },
-        "noAdditional": "Aucun Champ Supplémentaire",
-        "premadeSections": "Sections Prédéfinies",
-        "fields": "Champs",
-        "appThirdPartySubmit": "Soumettre une application/formulaire tiers",
-        "modifyStageSettings": "Modifier les paramètres de l'étape"
-    },
-    "departments": {
-        "departmentName": "Nom du Département",
-        "shortName": "Nom Court",
-        "ranksAndPositions": "Rangs/Positions Associés",
-        "addRank": "Ajouter un Rang",
-        "removeRank": "Supprimer un Rang",
-        "rankName": "Nom du Rang",
-        "rankColor": "Couleur Cosmétique du Rang",
-        "rankIcon": "Icône Cosmétique du Rang",
-        "rankImg": "Image Cosmétique du Rang",
-        "cmsPermissions": "Permissions CMS",
-        "formPermissions": "Permissions de Formulaire",
-        "rosterPermissions": "Permissions de Roster",
-        "calendarPermissions": "Permissions de Calendrier",
-        "serverPermissions": "Permissions de Serveur",
-        "profileFieldPermissions": "Permissions des Champs de Profil",
-        "navigationPermissions": "Permissions de Navigation",
-        "rankPower": "Pouvoir",
-        "rankPowerDesc": "Le Pouvoir du Rang est associé à qui vous pouvez tenter des actions système et comment vous seriez trié dans les rosters. Par exemple, vous ne pouvez pas expulser quelqu'un qui a le même pouvoir de rang ou un pouvoir supérieur au vôtre.",
-        "limitsHit": "Limite maximale de départements atteinte !",
-        "departmentType": "Type de Département",
-        "typeOptions": {
-            "leadership": "Leadership Communautaire",
-            "primary": "Département Principal",
-            "reserve": "Département Secondaire",
-            "cwidesub": "Sous-département à l'Échelle de la Communauté"
-        },
-        "addToRoster": "Créer une Ligne",
-        "saveMemberOnRoster": "Enregistrer la Ligne",
-        "removeMemberFromRoster": "Retirer du Roster",
-        "duplicateRank": "Dupliquer le Rang",
-        "markRankPrimary": "Marquer le Rang pour Utilisation Principale Uniquement",
-        "markRankSecondary": "Marquer le Rang pour Utilisation Secondaire Uniquement",
-        "copyPermissions": "Copier les Permissions",
-        "pastePermissions": "Coller les Permissions",
-        "removeConfirm": "Êtes-vous sûr de vouloir supprimer ce département ?",
-        "toggleAllPermissions": "Basculer Toutes les Permissions",
-        "copyRankIdToClipboard": "Copier l'ID dans le Presse-papiers",
-        "copySuccess": "Copié dans le presse-papiers !",
-        "defaultPermissions": "Permissions par Défaut du Département",
-        "pagePermissions": "Autorisations de Page"
-    },
-    "customization": {
-        "inputs": {
-            "discoveryEnable": "Activer la Découverte de la Communauté",
-            "discoverySelectForm": "Formulaire par Défaut pour Nouveau Membre",
-            "bumpDiscovery": "Remonter la Découverte",
-            "discoveryTags": "Tags de Recherche",
-            "logo": "Logo de la Communauté",
-            "banner": "Image de Bannière de la Communauté"
-        },
-        "tooltips": {
-            "discoveryEnable": "Ceci active/désactive la communauté pour le système de Découverte de Communauté de Sonoran CMS.",
-            "discoverySelectForm": "Cela affichera automatiquement ce formulaire pour soumission si un utilisateur rejoint la communauté via le système de Découverte de Communauté de Sonoran CMS. Le formulaire doit être du type \"Demande de Nouveau Membre\".",
-            "enableDiscoveryFirst": "La Découverte de Communauté doit être activée pour utiliser ceci",
-            "hoursUntilNextBump": "Vous avez une heure avant de pouvoir remonter à nouveau | Vous avez {hours} heures avant de pouvoir remonter à nouveau",
-            "canBumpDiscovery": "Amenez votre communauté en haut de la page de découverte !"
-        }
-    },
-    "formManagement": {
-        "pending": "En attente",
-        "approve": "Approuver",
-        "approved": "Approuvé",
-        "denied": "Refusé",
-        "submitter": "Soumetteur",
-        "status": "Statut"
-    },
-    "calendar": {
-        "viewEvents": "Voir les Événements",
-        "createEvents": "Créer des Événements",
-        "removeEvents": "Supprimer des Événements",
-        "editOtherEvents": "Modifier d'Autres Événements",
-        "createEvent": "Créer un Événement - Catégorie",
-        "eventNotFound": "Événement Non Trouvé/Accessible",
-        "eventNotFoundDesc": "Soit l'événement n'existe pas, soit vous n'avez pas la permission de voir cet événement directement."
-    },
-    "limits": {
-        "version": "Version",
-        "departments": "Départements",
-        "driveStorage": "Stockage de Fichiers",
-        "idPrefix": "ID :",
-        "versionPrefix": "Niveau :",
-        "expiresPrefix": "Expiration :",
-        "goProToday": "Passez à la Version Pro Aujourd'hui"
-    },
-    "roster": {
-        "addPrimary": "Ajouter une Ligne",
-        "addSecondary": "Ajouter une Ligne",
-        "editingMember": "Modifier une Ligne"
-    },
-    "templateManagement": {
-        "creationDescription": "Ce dialogue de création vous aidera à créer un Modèle de Communauté Sonoran CMS à partir des éléments de votre communauté, vous pouvez mettre à jour et supprimer ce modèle à tout moment après la création terminée.",
-        "previewImages": "Aperçu des images du modèle",
-        "creationSelectionDescription": "Cette boîte de dialogue de création vous aidera à sélectionner les composants de votre communauté que vous souhaitez inclure dans le modèle. Vous pouvez mettre à jour et supprimer des composants de ce modèle une fois la création terminée.",
-        "manageDescription": "Cette boîte de dialogue de gestion vous permettra d'ajouter, de supprimer et de mettre à jour des éléments et des informations de votre modèle. Une fois que vous aurez enregistré les modifications, elles devront être réexaminées par l'équipe de développement de Sonoran CMS.",
-        "manageImages": "Gérer l'aperçu des images du modèle"
-    },
-    "profileFieldsEditor": {
-        "errors": {
-            "onGetAll": "Une erreur s'est produite lors de la récupération de tous les champs de profil. Erreur : {error}",
-            "noSelectOptions": "Le type de champ de profil 'SELECT' nécessite au moins une option.",
-            "onSave": "Une erreur s'est produite lors de l'enregistrement d'un nouveau champ de profil. Erreur : {error}",
-            "noFindField": "Aucun champ n'a été trouvé à partir de ce qui est sélectionné."
-        }
-    },
+    "tooltips": {
+      "discoveryEnable": "Ceci active/désactive la communauté pour le système de Découverte de Communauté de Sonoran CMS.",
+      "discoverySelectForm": "Cela affichera automatiquement ce formulaire pour soumission si un utilisateur rejoint la communauté via le système de Découverte de Communauté de Sonoran CMS. Le formulaire doit être du type \"Demande de Nouveau Membre\".",
+      "enableDiscoveryFirst": "La Découverte de Communauté doit être activée pour utiliser ceci",
+      "hoursUntilNextBump": "Vous avez une heure avant de pouvoir remonter à nouveau | Vous avez {hours} heures avant de pouvoir remonter à nouveau",
+      "canBumpDiscovery": "Amenez votre communauté en haut de la page de découverte !"
+    }
+  },
+  "formManagement": {
+    "pending": "En attente",
+    "approve": "Approuver",
+    "approved": "Approuvé",
+    "denied": "Refusé",
+    "submitter": "Soumetteur",
+    "status": "Statut"
+  },
+  "calendar": {
+    "viewEvents": "Voir les Événements",
+    "createEvents": "Créer des Événements",
+    "removeEvents": "Supprimer des Événements",
+    "editOtherEvents": "Modifier d'Autres Événements",
+    "createEvent": "Créer un Événement - Catégorie",
+    "eventNotFound": "Événement Non Trouvé/Accessible",
+    "eventNotFoundDesc": "Soit l'événement n'existe pas, soit vous n'avez pas la permission de voir cet événement directement."
+  },
+  "limits": {
+    "version": "Version",
+    "departments": "Départements",
+    "driveStorage": "Stockage de Fichiers",
+    "idPrefix": "ID :",
+    "versionPrefix": "Niveau :",
+    "expiresPrefix": "Expiration :",
+    "goProToday": "Passez à la Version Pro Aujourd'hui"
+  },
+  "roster": {
+    "addPrimary": "Ajouter une Ligne",
+    "addSecondary": "Ajouter une Ligne",
+    "editingMember": "Modifier une Ligne"
+  },
+  "templateManagement": {
+    "creationDescription": "Ce dialogue de création vous aidera à créer un Modèle de Communauté Sonoran CMS à partir des éléments de votre communauté, vous pouvez mettre à jour et supprimer ce modèle à tout moment après la création terminée.",
+    "previewImages": "Aperçu des images du modèle",
+    "creationSelectionDescription": "Cette boîte de dialogue de création vous aidera à sélectionner les composants de votre communauté que vous souhaitez inclure dans le modèle. Vous pouvez mettre à jour et supprimer des composants de ce modèle une fois la création terminée.",
+    "manageDescription": "Cette boîte de dialogue de gestion vous permettra d'ajouter, de supprimer et de mettre à jour des éléments et des informations de votre modèle. Une fois que vous aurez enregistré les modifications, elles devront être réexaminées par l'équipe de développement de Sonoran CMS.",
+    "manageImages": "Gérer l'aperçu des images du modèle"
+  },
+  "profileFieldsEditor": {
+    "errors": {
+      "onGetAll": "Une erreur s'est produite lors de la récupération de tous les champs de profil. Erreur : {error}",
+      "noSelectOptions": "Le type de champ de profil 'SELECT' nécessite au moins une option.",
+      "onSave": "Une erreur s'est produite lors de l'enregistrement d'un nouveau champ de profil. Erreur : {error}",
+      "noFindField": "Aucun champ n'a été trouvé à partir de ce qui est sélectionné."
+    }
   },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "Défense du réseau Sonoran Shield",

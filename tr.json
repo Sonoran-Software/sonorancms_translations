@@ -1,324 +1,323 @@
 {
-    "config": {
-        "displayName": "Türkçe",
-        "path": "tr"
+  "config": {
+    "displayName": "Türkçe",
+    "path": "tr"
+  },
+  "iconImageHandler": {
+    "icon": "Simge",
+    "image": "Görsel"
+  },
+  "helpButtonComponent": {
+    "viewTutorialVideo": "Eğitim Videosunu İzle",
+    "documentation": "Dokümantasyon",
+    "close": "Kapat",
+    "videoTutorialComingSoon": "Video Eğitimi Yakında"
+  },
+  "searchEngineEditor": {
+    "seoSettings": "SEO ayarları",
+    "pageSEOSettings": "Sayfa SEO Ayarları",
+    "pageDesciption": "Sayfa Açıklaması"
+  },
+  "common": {
+    "support": "Destek",
+    "needHelp": "Yardıma mı ihtiyacınız var?",
+    "noResults": "Sonuç yok",
+    "add": "Ekle",
+    "dupDept": "Departmanı Kopyala",
+    "remove": "Kaldır",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "view": "Görüntüle",
+    "close": "Kapat",
+    "image": "Görsel",
+    "description": "Açıklama",
+    "templateDetails": "Şablon Detayları",
+    "information": "Bilgi",
+    "recPlan": "Önerilen Plan",
+    "totalDepts": "Toplam Departmanlar",
+    "totalRanks": "Toplam Rütbeler",
+    "totalRosters": "Toplam Kadrolar",
+    "totalForms": "Toplam Formlar",
+    "totalStages": "Toplam Aşamalar",
+    "totalStageGroups": "Toplam Aşama Grupları",
+    "calCates": "Takvim Kategorileri",
+    "departments": "Departmanlar",
+    "rosters": "Kadrolar",
+    "forms": "Formlar",
+    "calendars": "Takvimler",
+    "previewTempDepartmentDetails": "Şablon Departman Detayları",
+    "previewTempRosterDetails": "Şablon Kadro Detayları",
+    "previewTempFormDetails": "Şablon Form Detayları",
+    "previewTempPageDetails": "Şablon Sayfa Detayları",
+    "previewTempToolbarDetails": "Şablon Araç Çubuğu Detayları",
+    "filter": "Filtre",
+    "no": "Hayır",
+    "stages": "Aşamalar",
+    "stageGroups": "Aşama Grupları",
+    "pages": "Sayfalar",
+    "toolbar": "Araç Çubuğu",
+    "toolbarItems": "Araç Çubuğu Öğeleri",
+    "manage": "Yönet",
+    "return": "Geri Dön",
+    "learnMore": "Daha Fazla Bilgi Edinin",
+    "previewTempStageGroupDetails": "Aşama Grubu Detaylarını Önizle"
+  },
+  "permissions": {
+    "kickUser": "Kullanıcıları At",
+    "banUser": "Kullanıcıları Yasakla",
+    "archiveUser": "Kullanıcıyı Arşivle",
+    "changePermissions": "İzinleri Değiştir",
+    "modifyComInfo": "Topluluk Özelleştirmesini Değiştir",
+    "modifyComDepts": "Yönetici aracılığıyla Departmanları Değiştir",
+    "modifyComForms": "Editör aracılığıyla Özel Formları Değiştir",
+    "modifyComRosters": "Editör aracılığıyla Özel Kadroları Değiştir",
+    "modifyDiscordHooks": "Discord Günlük Webhook'larını Değiştir",
+    "modifyIntegration": "API Entegrasyonunu Değiştir",
+    "tooltips": {
+      "system": {
+        "kickUserExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcıyı atmasına izin verecektir.",
+        "banUserExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcıyı yasaklamasına izin verecektir.",
+        "archiveUserExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcıyı arşivlemesine izin verecektir.",
+        "changePermissionsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcının izinlerini ve hesap detaylarını değiştirmesine izin verecektir.",
+        "modifyComInfoExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının Sonoran CMS platformunun Ad, Görüntü, Ad/Kimlik Formatı gibi yönlerini özelleştirmesine izin verecektir.",
+        "modifyComFormsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının kullanıcıların form gönderirken kullandığı özel form şablonlarını özelleştirmesine izin verecektir.",
+        "modifyComDeptsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının şu anda yaptığınız gibi departmanları ve rütbeleri özelleştirmesine izin verecektir.",
+        "modifyComRostersExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluğun kadro verilerini görüntülemek için kullanılan kadro şablonlarını özelleştirmesine izin verecektir.",
+        "modifyDiscordHooksExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluk için Discord webhook ayarlarını özelleştirmesine izin verecektir.",
+        "modifyIntegrationExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının API kimlik bilgilerini özelleştirmesine ve almasına izin verecektir.",
+        "modifyToolbarExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının topluluk için araç çubuğu ayarlarını özelleştirmesine olanak tanır.",
+        "modifyPagesExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının topluluk için sayfaları özelleştirmesine olanak tanır.",
+        "modifyDocumentsExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının Sonoran CMS Topluluk Sürücüsü içindeki tüm belgeleri yönetmesine olanak tanır.",
+        "clockInOutExplanation": "Bu iznin verilmesi, bir kullanıcının giriş ve çıkış yapmasına olanak tanır.",
+        "modifyTeamSpeakExplanation": "Bu iznin verilmesi, bir kullanıcının TeamSpeak entegrasyon ayarlarını değiştirmesine olanak tanır.",
+        "modifyShieldExplanation": "Bu iznin verilmesi, bir kullanıcının Sonoran Shield ayarlarını değiştirmesine olanak tanır."
+      },
+      "navigation": {
+        "viewDashboardBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Dashboard düğmesini görmesine olanak tanır.",
+        "viewDriveBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Drive düğmesini görmesine olanak tanır (eğer 'Tüm Belgeleri Değiştir (Drive)' izni verilmişse, bu zaten devralınmıştır).",
+        "viewCalendarBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Takvim düğmesini görmesine olanak tanır.",
+        "viewRostersBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Kadrolar düğmelerini görmesine olanak tanır.",
+        "viewProfileBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Topluluk Profili düğmesini görmesini sağlar."
+      },
+      "forms": {
+        "viewSubmittedExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki tüm gönderilmiş formları görüntülemesini sağlar.",
+        "editOwnExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki formların gönderimlerini düzenlemesini sağlar.",
+        "changeStagesExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki gönderilmiş bir formun aşamasını değiştirmesini sağlar.",
+        "modifyReplySettingsExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki gönderilmiş bir formun yanıt ayarlarını değiştirmesini sağlar.",
+        "replyExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
+        "replyModExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel veya Mod yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
+        "replyAdminExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel, Mod veya Admin yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
+        "submitExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türde bir form göndermesine izin verecektir.",
+        "adminDeleteExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu formun bir gönderimini tamamen silmesine izin verecektir.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+      },
+      "rosters": {
+        "viewExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listeyi görüntülemesine izin verecektir.",
+        "addPrimaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bir kullanıcıyı listeye Birincil Satır olarak eklemesine izin verecektir (ikincil satırlardan önce sıralanır).",
+        "addSecondaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bir kullanıcıyı listeye İkincil Satır olarak eklemesine izin verecektir (birincil satırlardan sonra sıralanır).",
+        "editPrimaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listedeki birincil bir satırı düzenlemesine izin verecektir.",
+        "editSecondaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listedeki ikincil bir satırı düzenlemesine izin verecektir.",
+        "removePrimaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının listeyi birincil bir satırdan kaldırmasına izin verecektir.",
+        "removeSecondaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının listeyi ikincil bir satırdan kaldırmasına izin verecektir.",
+        "viewModColumnExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yalnızca Mod olarak işaretlenmiş liste sütunlarını görüntülemesine izin verecektir.",
+        "viewAdminColumnExplanation": "Granting this permission will allow a user with this rank to view roster column(s) that are marked as Admin only."
+      },
+      "calendars": {
+        "viewExplanation": "Granting this permission will allow a user with this rank to view events within this calendar category.",
+        "createExplanation": "Granting this permisison will allow a user with this rank to create events within this calendar category.",
+        "removeExplanation": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
+        "editOtherExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
+      },
+      "servers": {
+        "allowWhitelistExplanation": "Granting this permission will allow a user with this rank to be allowed through the API whitelist (if a user holds the block permission for this server they'll be blocked as block takes precedence).",
+        "blockWhitelistExplanation": "Granting this permission will block a user with this rank to be allowed through the API whitelist (if a user holds the allow permission for this server they'll still be blocked as it takes precedence)."
+      },
+      "profileFields": {
+        "attachExplanation": "Granting this permission will attach this profile field to all member's profiles that hold this rank. This will allow anyone who views your profile to see it unless either of the next two permissions are applied.",
+        "hideFromOwnerExplanation": "Bu izni vermek, bu rütbeye sahip üyenin profilinden alanı gizleyecektir.",
+        "requireModToViewExplanation": "Bu izni vermek, bir üyenin bir profildeki alanı görebilmesi için \"Diğer Profillerde Alanı Görüntüle - Mod Yetkisi\" iznine sahip olmasını gerektirecektir.",
+        "requireAdminToViewExplanation": "Bu izni vermek, bir üyenin bir profildeki alanı görebilmesi için \"Diğer Profillerde Alanı Görüntüle - Admin Yetkisi\" iznine sahip olmasını gerektirecektir.",
+        "viewModPowerExplanation": "Bu izni vermek, bir üyenin bir profilde bu alanı \"Mod Yetkisi\" ile görüntülemesine izin verecektir. İlişkilendirme için yukarıdaki izinlere bakın.",
+        "viewAdminPowerExplanation": "Bu izni vermek, bir üyenin bir profilde bu alanı \"Admin Yetkisi\" ile görüntülemesine izin verecektir. İlişkilendirme için yukarıdaki izinlere bakın.",
+        "allowOwnerToEditExplanation": "Bu izni vermek, bu rütbeye sahip üyenin profilindeki bu alanı düzenlemesine izin verecektir. \"Profil Sahiplerinden Alanı Gizler\" izni verilirse, bu izin göz ardı edilecektir çünkü görünür olmayacaktır.",
+        "editOthersExplanation": "Bu izni vermek, bu rütbeye sahip üyenin görüntüleyebildiği herhangi bir üye profilindeki bu alanı düzenlemesine izin verecektir."
+      },
+      "pages": {
+        "viewExplanation": "Bu izinlerin verilmesi, bu rütbeye sahip olan üyenin bu sayfayı görüntülemesine olanak tanır çünkü sayfa ÖZEL olarak ayarlanmıştır."
+      }
     },
-    "iconImageHandler": {
-        "icon": "Simge",
-        "image": "Görsel"
+    "disciplinaryPanel": "Disiplin Kurulu",
+    "changePermissionsHigher": "Yüksek İzinleri Değiştir"
+  },
+  "growth": {
+    "ERRORED": "HATA OLUŞTU",
+    "thereWasNotEnoughDataForThisCommmunityToDetermine": "Bu topluluk için yeterli veri yoktu",
+    "fastestGrowing": "En Hızlı Büyüyen",
+    "fastestGrowingCommunityInTheLast7DaysComparedTo": "son 7 gün içinde en hızlı büyüyen topluluk"
+  },
+  "menu": {
+    "join": "Bir Topluluğa Katıl",
+    "togDefaultCom": "Varsayılan CMS Topluluğunu Değiştir",
+    "leaveCommunity": "Topluluktan Ayrıl",
+    "leaveCommunityTitle": "Topluluktan Ayrılma Onayı",
+    "leaveCommunityMessage": "Bu topluluktan ayrılmak istediğinizden emin misiniz? Topluluğun hiçbir içeriğine artık erişemeyeceksiniz."
+  },
+  "forms": {
+    "templateTypes": {
+      "newmemberapp": "Yeni Üye Başvurusu",
+      "reserveapp": "İkincil Başvuru",
+      "plog": "Zaman Kaydı",
+      "commend": "Övgü",
+      "complaint": "Şikayet",
+      "comform": "Topluluk Formu",
+      "disciplinary": "Disiplin Cezası",
+      "training": "Eğitim Geçmişi",
+      "generalapp": "General Form"
     },
-    "helpButtonComponent": {
-        "viewTutorialVideo": "Eğitim Videosunu İzle",
-        "documentation": "Dokümantasyon",
-        "close": "Kapat",
-        "videoTutorialComingSoon": "Video Eğitimi Yakında"
+    "formDeleteConfirm": "\"{formName}\" adlı formu silmek istediğinizden emin misiniz?",
+    "secFieldsHeader": "Alanlar",
+    "stageCreate": "Aşama Oluştur",
+    "stageUpdate": "Aşama Güncelle",
+    "stageActionTypes": {
+      "autoReply": "Otomatik Form Yanıtı",
+      "notifySubmitterNotification": "Bildirim ile Bildir",
+      "notifySubmitterEmail": "E-posta ile Bildir",
+      "disableEnableReplies": "Yanıtları Devre Dışı Bırak/Aktif Et",
+      "changeDepartmentSlashRank": "Rütbe(leri) Değiştir",
+      "modifyCommunityStatus": "Topluluk Durumunu Değiştir",
+      "executeDiscordWebhook": "Discord Webhook'u Çalıştır",
+      "executeDiscordDm": "Discord DM Gönder",
+      "applyDisciplinaryPoints": "Apply Disciplinary Points"
     },
-    "searchEngineEditor": {
-        "seoSettings": "SEO ayarları",
-        "pageSEOSettings": "Sayfa SEO Ayarları",
-        "pageDesciption": "Sayfa Açıklaması"
+    "appSubmit": "Başvuru/Form Gönder",
+    "editOwn": "Kendi Formunu Düzenle",
+    "changeStages": "Form Aşamasını Değiştir",
+    "toggleReplies": "Yanıtları Aktif Et/Devre Dışı Bırak",
+    "appReply": "Temel Yanıt Erişimi",
+    "appReplyMod": "Mod Yanıt Erişimi",
+    "appReplyAdmin": "Admin Yanıt Erişimi",
+    "viewSubmitted": "Gönderilenleri Görüntüle",
+    "archiveOwn": "Kendi Formunu Arşivle",
+    "archiveForm": "Formu Arşivle",
+    "unarchiveOwn": "Kendi Formunu Arşivden Çıkar",
+    "unarchiveForm": "Formu Arşivden Çıkar",
+    "adminDelete": "Yönetici Sil",
+    "apply": {
+      "availableForms": "Mevcut Formlar",
+      "myForms": "Formlarım",
+      "apply": "Gönder"
     },
-    "common": {
-        "support": "Destek",
-        "needHelp": "Yardıma mı ihtiyacınız var?",
-        "noResults": "Sonuç yok",
-        "add": "Ekle",
-        "dupDept": "Departmanı Kopyala",
-        "remove": "Kaldır",
-        "save": "Kaydet",
-        "cancel": "İptal",
-        "view": "Görüntüle",
-        "close": "Kapat",
-        "image": "Görsel",
-        "description": "Açıklama",
-        "templateDetails": "Şablon Detayları",
-        "information": "Bilgi",
-        "recPlan": "Önerilen Plan",
-        "totalDepts": "Toplam Departmanlar",
-        "totalRanks": "Toplam Rütbeler",
-        "totalRosters": "Toplam Kadrolar",
-        "totalForms": "Toplam Formlar",
-        "totalStages": "Toplam Aşamalar",
-        "totalStageGroups": "Toplam Aşama Grupları",
-        "calCates": "Takvim Kategorileri",
-        "departments": "Departmanlar",
-        "rosters": "Kadrolar",
-        "forms": "Formlar",
-        "calendars": "Takvimler",
-        "previewTempDepartmentDetails": "Şablon Departman Detayları",
-        "previewTempRosterDetails": "Şablon Kadro Detayları",
-        "previewTempFormDetails": "Şablon Form Detayları",
-        "previewTempPageDetails": "Şablon Sayfa Detayları",
-        "previewTempToolbarDetails": "Şablon Araç Çubuğu Detayları",
-        "filter": "Filtre",
-        "no": "Hayır",
-        "stages": "Aşamalar",
-        "stageGroups": "Aşama Grupları",
-        "pages": "Sayfalar",
-        "toolbar": "Araç Çubuğu",
-        "toolbarItems": "Araç Çubuğu Öğeleri",
-        "manage": "Yönet",
-        "return": "Geri Dön",
-        "learnMore": "Daha Fazla Bilgi Edinin",
-        "previewTempStageGroupDetails": "Aşama Grubu Detaylarını Önizle"
+    "noAdditional": "Ek Alan Yok",
+    "premadeSections": "Hazır Bölümler",
+    "fields": "Alanlar",
+    "appThirdPartySubmit": "Üçüncü Taraf Başvurusunu/Formunu Gönder",
+    "modifyStageSettings": "Aşama Ayarlarını Düzenle"
+  },
+  "departments": {
+    "departmentName": "Departman Adı",
+    "shortName": "Kısa Ad",
+    "ranksAndPositions": "İlişkili Rütbeler/Pozisyonlar",
+    "addRank": "Rütbe Ekle",
+    "removeRank": "Rütbe Kaldır",
+    "rankName": "Rütbe Adı",
+    "rankColor": "Rütbe Kozmetik Rengi",
+    "rankIcon": "Rütbe Kozmetik Simgesi",
+    "rankImg": "Rütbe Kozmetik Görseli",
+    "cmsPermissions": "CMS İzinleri",
+    "formPermissions": "Form İzinleri",
+    "rosterPermissions": "Kadrolama İzinleri",
+    "calendarPermissions": "Takvim İzinleri",
+    "serverPermissions": "Sunucu İzinleri",
+    "profileFieldPermissions": "Profil Alanları İzinleri",
+    "navigationPermissions": "Navigasyon İzinleri",
+    "rankPower": "Güç",
+    "rankPowerDesc": "Rütbe Gücü, sistem eylemlerini kime karşı gerçekleştirebileceğinizi ve kadrolarda nasıl sıralanacağınızı belirler. Örneğin, sizinle aynı veya daha yüksek rütbe gücüne sahip birini atamazsınız.",
+    "limitsHit": "Maksimum departman sayısı sınırına ulaşıldı!",
+    "departmentType": "Departman Türü",
+    "typeOptions": {
+      "leadership": "Topluluk Liderliği",
+      "primary": "Birincil Departman",
+      "reserve": "İkincil Departman",
+      "cwidesub": "Topluluk Genel Alt Departmanı"
     },
-    "permissions": {
-        "kickUser": "Kullanıcıları At",
-        "banUser": "Kullanıcıları Yasakla",
-        "archiveUser": "Kullanıcıyı Arşivle",
-        "changePermissions": "İzinleri Değiştir",
-        "modifyComInfo": "Topluluk Özelleştirmesini Değiştir",
-        "modifyComDepts": "Yönetici aracılığıyla Departmanları Değiştir",
-        "modifyComForms": "Editör aracılığıyla Özel Formları Değiştir",
-        "modifyComRosters": "Editör aracılığıyla Özel Kadroları Değiştir",
-        "modifyDiscordHooks": "Discord Günlük Webhook'larını Değiştir",
-        "modifyIntegration": "API Entegrasyonunu Değiştir",
-        "tooltips": {
-            "system": {
-                "kickUserExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcıyı atmasına izin verecektir.",
-                "banUserExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcıyı yasaklamasına izin verecektir.",
-                "archiveUserExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcıyı arşivlemesine izin verecektir.",
-                "changePermissionsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluktan başka bir kullanıcının izinlerini ve hesap detaylarını değiştirmesine izin verecektir.",
-                "modifyComInfoExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının Sonoran CMS platformunun Ad, Görüntü, Ad/Kimlik Formatı gibi yönlerini özelleştirmesine izin verecektir.",
-                "modifyComFormsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının kullanıcıların form gönderirken kullandığı özel form şablonlarını özelleştirmesine izin verecektir.",
-                "modifyComDeptsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının şu anda yaptığınız gibi departmanları ve rütbeleri özelleştirmesine izin verecektir.",
-                "modifyComRostersExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluğun kadro verilerini görüntülemek için kullanılan kadro şablonlarını özelleştirmesine izin verecektir.",
-                "modifyDiscordHooksExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının topluluk için Discord webhook ayarlarını özelleştirmesine izin verecektir.",
-                "modifyIntegrationExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının API kimlik bilgilerini özelleştirmesine ve almasına izin verecektir.",
-                "modifyToolbarExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının topluluk için araç çubuğu ayarlarını özelleştirmesine olanak tanır.",
-                "modifyPagesExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının topluluk için sayfaları özelleştirmesine olanak tanır.",
-                "modifyDocumentsExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının Sonoran CMS Topluluk Sürücüsü içindeki tüm belgeleri yönetmesine olanak tanır.",
-                "clockInOutExplanation": "Bu iznin verilmesi, bir kullanıcının giriş ve çıkış yapmasına olanak tanır.",
-                "modifyTeamSpeakExplanation": "Bu iznin verilmesi, bir kullanıcının TeamSpeak entegrasyon ayarlarını değiştirmesine olanak tanır.",
-                "modifyShieldExplanation": "Bu iznin verilmesi, bir kullanıcının Sonoran Shield ayarlarını değiştirmesine olanak tanır."
-            },
-            "navigation": {
-                "viewDashboardBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Dashboard düğmesini görmesine olanak tanır.",
-                "viewDriveBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Drive düğmesini görmesine olanak tanır (eğer 'Tüm Belgeleri Değiştir (Drive)' izni verilmişse, bu zaten devralınmıştır).",
-                "viewCalendarBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Takvim düğmesini görmesine olanak tanır.",
-                "viewRostersBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Kadrolar düğmelerini görmesine olanak tanır.",
-                "viewProfileBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Topluluk Profili düğmesini görmesini sağlar."
-            },
-            "forms": {
-                "viewSubmittedExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki tüm gönderilmiş formları görüntülemesini sağlar.",
-                "editOwnExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki formların gönderimlerini düzenlemesini sağlar.",
-                "changeStagesExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki gönderilmiş bir formun aşamasını değiştirmesini sağlar.",
-                "modifyReplySettingsExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türdeki gönderilmiş bir formun yanıt ayarlarını değiştirmesini sağlar.",
-                "replyExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
-                "replyModExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel veya Mod yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
-                "replyAdminExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yanıt ayarları Temel, Mod veya Admin yanıtları izin veriyorsa bu türdeki gönderilmiş bir forma yanıt vermesini sağlar.",
-                "submitExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu türde bir form göndermesine izin verecektir.",
-                "adminDeleteExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu formun bir gönderimini tamamen silmesine izin verecektir.",
-                "modifyStageSettings": "Modify Stage Settings",
-                "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-            },
-            "rosters": {
-                "viewExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listeyi görüntülemesine izin verecektir.",
-                "addPrimaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bir kullanıcıyı listeye Birincil Satır olarak eklemesine izin verecektir (ikincil satırlardan önce sıralanır).",
-                "addSecondaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bir kullanıcıyı listeye İkincil Satır olarak eklemesine izin verecektir (birincil satırlardan sonra sıralanır).",
-                "editPrimaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listedeki birincil bir satırı düzenlemesine izin verecektir.",
-                "editSecondaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının bu listedeki ikincil bir satırı düzenlemesine izin verecektir.",
-                "removePrimaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının listeyi birincil bir satırdan kaldırmasına izin verecektir.",
-                "removeSecondaryUserExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının listeyi ikincil bir satırdan kaldırmasına izin verecektir.",
-                "viewModColumnExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının yalnızca Mod olarak işaretlenmiş liste sütunlarını görüntülemesine izin verecektir.",
-                "viewAdminColumnExplanation": "Granting this permission will allow a user with this rank to view roster column(s) that are marked as Admin only."
-            },
-            "calendars": {
-                "viewExplanation": "Granting this permission will allow a user with this rank to view events within this calendar category.",
-                "createExplanation": "Granting this permisison will allow a user with this rank to create events within this calendar category.",
-                "removeExplanation": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
-                "editOtherExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
-            },
-            "servers": {
-                "allowWhitelistExplanation": "Granting this permission will allow a user with this rank to be allowed through the API whitelist (if a user holds the block permission for this server they'll be blocked as block takes precedence).",
-                "blockWhitelistExplanation": "Granting this permission will block a user with this rank to be allowed through the API whitelist (if a user holds the allow permission for this server they'll still be blocked as it takes precedence)."
-            },
-            "profileFields": {
-                "attachExplanation": "Granting this permission will attach this profile field to all member's profiles that hold this rank. This will allow anyone who views your profile to see it unless either of the next two permissions are applied.",
-                "hideFromOwnerExplanation": "Bu izni vermek, bu rütbeye sahip üyenin profilinden alanı gizleyecektir.",
-                "requireModToViewExplanation": "Bu izni vermek, bir üyenin bir profildeki alanı görebilmesi için \"Diğer Profillerde Alanı Görüntüle - Mod Yetkisi\" iznine sahip olmasını gerektirecektir.",
-                "requireAdminToViewExplanation": "Bu izni vermek, bir üyenin bir profildeki alanı görebilmesi için \"Diğer Profillerde Alanı Görüntüle - Admin Yetkisi\" iznine sahip olmasını gerektirecektir.",
-                "viewModPowerExplanation": "Bu izni vermek, bir üyenin bir profilde bu alanı \"Mod Yetkisi\" ile görüntülemesine izin verecektir. İlişkilendirme için yukarıdaki izinlere bakın.",
-                "viewAdminPowerExplanation": "Bu izni vermek, bir üyenin bir profilde bu alanı \"Admin Yetkisi\" ile görüntülemesine izin verecektir. İlişkilendirme için yukarıdaki izinlere bakın.",
-                "allowOwnerToEditExplanation": "Bu izni vermek, bu rütbeye sahip üyenin profilindeki bu alanı düzenlemesine izin verecektir. \"Profil Sahiplerinden Alanı Gizler\" izni verilirse, bu izin göz ardı edilecektir çünkü görünür olmayacaktır.",
-                "editOthersExplanation": "Bu izni vermek, bu rütbeye sahip üyenin görüntüleyebildiği herhangi bir üye profilindeki bu alanı düzenlemesine izin verecektir."
-            },
-            "pages": {
-                "viewExplanation": "Bu izinlerin verilmesi, bu rütbeye sahip olan üyenin bu sayfayı görüntülemesine olanak tanır çünkü sayfa ÖZEL olarak ayarlanmıştır."
-            }
-        },
-        "disciplinaryPanel": "Disiplin Kurulu",
-        "changePermissionsHigher": "Yüksek İzinleri Değiştir"
+    "addToRoster": "Satır Oluştur",
+    "saveMemberOnRoster": "Satırı Kaydet",
+    "removeMemberFromRoster": "Kadrolamadan Kaldır",
+    "duplicateRank": "Rütbeyi Kopyala",
+    "markRankPrimary": "Rütbeyi Sadece Birincil Kullanım Olarak İşaretle",
+    "markRankSecondary": "Rütbeyi Sadece İkincil Kullanım Olarak İşaretle",
+    "copyPermissions": "İzinleri Kopyala",
+    "pastePermissions": "İzinleri Yapıştır",
+    "removeConfirm": "Bu departmanı kaldırmak istediğinizden emin misiniz?",
+    "toggleAllPermissions": "Tüm İzinleri Değiştir",
+    "copyRankIdToClipboard": "Kimliği Panoya Kopyala",
+    "copySuccess": "Panoya kopyalandı!",
+    "defaultPermissions": "Varsayılan Departman İzinleri",
+    "pagePermissions": "Sayfa İzinleri"
+  },
+  "customization": {
+    "inputs": {
+      "discoveryEnable": "Topluluk Keşfini Etkinleştir",
+      "discoverySelectForm": "Yeni Üye Varsayılan Formu",
+      "bumpDiscovery": "Keşfi Yükselt",
+      "discoveryTags": "Arama Etiketleri",
+      "logo": "Topluluk Logosu",
+      "banner": "Topluluk Afiş Görseli"
     },
-    "growth": {
-        "ERRORED": "HATA OLUŞTU",
-        "thereWasNotEnoughDataForThisCommmunityToDetermine": "Bu topluluk için yeterli veri yoktu",
-        "fastestGrowing": "En Hızlı Büyüyen",
-        "fastestGrowingCommunityInTheLast7DaysComparedTo": "son 7 gün içinde en hızlı büyüyen topluluk"
-    },
-    "menu": {
-        "join": "Bir Topluluğa Katıl",
-        "togDefaultCom": "Varsayılan CMS Topluluğunu Değiştir",
-        "leaveCommunity": "Topluluktan Ayrıl",
-        "leaveCommunityTitle": "Topluluktan Ayrılma Onayı",
-        "leaveCommunityMessage": "Bu topluluktan ayrılmak istediğinizden emin misiniz? Topluluğun hiçbir içeriğine artık erişemeyeceksiniz."
-    },
-    "forms": {
-        "templateTypes": {
-            "newmemberapp": "Yeni Üye Başvurusu",
-            "reserveapp": "İkincil Başvuru",
-            "plog": "Zaman Kaydı",
-            "commend": "Övgü",
-            "complaint": "Şikayet",
-            "comform": "Topluluk Formu",
-            "disciplinary": "Disiplin Cezası",
-            "training": "Eğitim Geçmişi",
-            "generalapp": "General Form"
-        },
-        "formDeleteConfirm": "\"{formName}\" adlı formu silmek istediğinizden emin misiniz?",
-        "secFieldsHeader": "Alanlar",
-        "stageCreate": "Aşama Oluştur",
-        "stageUpdate": "Aşama Güncelle",
-        "stageActionTypes": {
-            "autoReply": "Otomatik Form Yanıtı",
-            "notifySubmitterNotification": "Bildirim ile Bildir",
-            "notifySubmitterEmail": "E-posta ile Bildir",
-            "disableEnableReplies": "Yanıtları Devre Dışı Bırak/Aktif Et",
-            "changeDepartmentSlashRank": "Rütbe(leri) Değiştir",
-            "modifyCommunityStatus": "Topluluk Durumunu Değiştir",
-            "executeDiscordWebhook": "Discord Webhook'u Çalıştır",
-            "executeDiscordDm": "Discord DM Gönder",
-            "applyDisciplinaryPoints": "Apply Disciplinary Points"
-        },
-        "appSubmit": "Başvuru/Form Gönder",
-        "editOwn": "Kendi Formunu Düzenle",
-        "changeStages": "Form Aşamasını Değiştir",
-        "toggleReplies": "Yanıtları Aktif Et/Devre Dışı Bırak",
-        "appReply": "Temel Yanıt Erişimi",
-        "appReplyMod": "Mod Yanıt Erişimi",
-        "appReplyAdmin": "Admin Yanıt Erişimi",
-        "viewSubmitted": "Gönderilenleri Görüntüle",
-        "archiveOwn": "Kendi Formunu Arşivle",
-        "archiveForm": "Formu Arşivle",
-        "unarchiveOwn": "Kendi Formunu Arşivden Çıkar",
-        "unarchiveForm": "Formu Arşivden Çıkar",
-        "adminDelete": "Yönetici Sil",
-        "apply": {
-            "availableForms": "Mevcut Formlar",
-            "myForms": "Formlarım",
-            "apply": "Gönder"
-        },
-        "noAdditional": "Ek Alan Yok",
-        "premadeSections": "Hazır Bölümler",
-        "fields": "Alanlar",
-        "appThirdPartySubmit": "Üçüncü Taraf Başvurusunu/Formunu Gönder",
-        "modifyStageSettings": "Aşama Ayarlarını Düzenle"
-    },
-    "departments": {
-        "departmentName": "Departman Adı",
-        "shortName": "Kısa Ad",
-        "ranksAndPositions": "İlişkili Rütbeler/Pozisyonlar",
-        "addRank": "Rütbe Ekle",
-        "removeRank": "Rütbe Kaldır",
-        "rankName": "Rütbe Adı",
-        "rankColor": "Rütbe Kozmetik Rengi",
-        "rankIcon": "Rütbe Kozmetik Simgesi",
-        "rankImg": "Rütbe Kozmetik Görseli",
-        "cmsPermissions": "CMS İzinleri",
-        "formPermissions": "Form İzinleri",
-        "rosterPermissions": "Kadrolama İzinleri",
-        "calendarPermissions": "Takvim İzinleri",
-        "serverPermissions": "Sunucu İzinleri",
-        "profileFieldPermissions": "Profil Alanları İzinleri",
-        "navigationPermissions": "Navigasyon İzinleri",
-        "rankPower": "Güç",
-        "rankPowerDesc": "Rütbe Gücü, sistem eylemlerini kime karşı gerçekleştirebileceğinizi ve kadrolarda nasıl sıralanacağınızı belirler. Örneğin, sizinle aynı veya daha yüksek rütbe gücüne sahip birini atamazsınız.",
-        "limitsHit": "Maksimum departman sayısı sınırına ulaşıldı!",
-        "departmentType": "Departman Türü",
-        "typeOptions": {
-            "leadership": "Topluluk Liderliği",
-            "primary": "Birincil Departman",
-            "reserve": "İkincil Departman",
-            "cwidesub": "Topluluk Genel Alt Departmanı"
-        },
-        "addToRoster": "Satır Oluştur",
-        "saveMemberOnRoster": "Satırı Kaydet",
-        "removeMemberFromRoster": "Kadrolamadan Kaldır",
-        "duplicateRank": "Rütbeyi Kopyala",
-        "markRankPrimary": "Rütbeyi Sadece Birincil Kullanım Olarak İşaretle",
-        "markRankSecondary": "Rütbeyi Sadece İkincil Kullanım Olarak İşaretle",
-        "copyPermissions": "İzinleri Kopyala",
-        "pastePermissions": "İzinleri Yapıştır",
-        "removeConfirm": "Bu departmanı kaldırmak istediğinizden emin misiniz?",
-        "toggleAllPermissions": "Tüm İzinleri Değiştir",
-        "copyRankIdToClipboard": "Kimliği Panoya Kopyala",
-        "copySuccess": "Panoya kopyalandı!",
-        "defaultPermissions": "Varsayılan Departman İzinleri",
-        "pagePermissions": "Sayfa İzinleri"
-    },
-    "customization": {
-        "inputs": {
-            "discoveryEnable": "Topluluk Keşfini Etkinleştir",
-            "discoverySelectForm": "Yeni Üye Varsayılan Formu",
-            "bumpDiscovery": "Keşfi Yükselt",
-            "discoveryTags": "Arama Etiketleri",
-            "logo": "Topluluk Logosu",
-            "banner": "Topluluk Afiş Görseli"
-        },
-        "tooltips": {
-            "discoveryEnable": "Bu, Sonoran CMS'in Topluluk Keşfi sistemi için topluluğu etkinleştirir/devre dışı bırakır.",
-            "discoverySelectForm": "Bu, bir kullanıcı Sonoran CMS Topluluk Keşfi sistemi aracılığıyla topluluğa katılırsa, bu formun otomatik olarak gönderilmesini sağlar. Formun türü \"Yeni Üye Başvurusu\" olmalıdır.",
-            "enableDiscoveryFirst": "Bunu kullanmak için Topluluk Keşfi etkinleştirilmelidir",
-            "hoursUntilNextBump": "Tekrar yükseltme yapabilmeniz için bir saatiniz kaldı | Tekrar yükseltme yapabilmeniz için {hours} saatiniz kaldı",
-            "canBumpDiscovery": "Topluluğunuzu keşif sayfasının en üstüne taşıyın!"
-        }
-    },
-    "formManagement": {
-        "pending": "Beklemede",
-        "approve": "Onayla",
-        "approved": "Onaylandı",
-        "denied": "Reddedildi",
-        "submitter": "Gönderen",
-        "status": "Durum"
-    },
-    "calendar": {
-        "viewEvents": "Etkinlikleri Görüntüle",
-        "createEvents": "Etkinlikler Oluştur",
-        "removeEvents": "Etkinlikleri Kaldır",
-        "editOtherEvents": "Diğer Etkinlikleri Düzenle",
-        "createEvent": "Bir Etkinlik Oluştur - Kategori",
-        "eventNotFound": "Etkinlik Bulunamadı/Erişilemedi",
-        "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok."
-    },
-    "limits": {
-        "version": "Sürüm",
-        "departments": "Departmanlar",
-        "driveStorage": "Sürücü Depolama",
-        "idPrefix": "Kimlik:",
-        "versionPrefix": "Seviye:",
-        "expiresPrefix": "Sona Erme:",
-        "goProToday": "Bugün Pro Olun"
-    },
-    "roster": {
-        "addPrimary": "Satır Ekle",
-        "addSecondary": "Satır Ekle",
-        "editingMember": "Satırı Düzenle"
-    },
-    "templateManagement": {
-        "creationDescription": "Bu oluşturma diyaloğu, topluluğunuzdaki öğelerden bir Sonoran CMS Topluluk Şablonu oluşturmanıza yardımcı olacaktır, oluşturma tamamlandıktan sonra bu şablonu istediğiniz zaman güncelleyebilir ve kaldırabilirsiniz.",
-        "previewImages": "Şablon Önizleme Görselleri",
-        "creationSelectionDescription": "Bu oluşturma diyaloğu, topluluğunuzun hangi bileşenlerini şablona dahil etmek istediğinizi seçmenize yardımcı olacaktır, oluşturma tamamlandıktan sonra bu şablondan bileşenleri güncelleyebilir ve kaldırabilirsiniz.",
-        "manageDescription": "Bu yönetim diyaloğu, şablonunuzun öğelerini ve bilgilerini eklemenize, kaldırmanıza ve güncellemenize olanak tanır. Herhangi bir değişikliği kaydettikten sonra, Sonoran CMS Geliştirme Ekibi tarafından yeniden incelenmesi gerekecektir.",
-        "manageImages": "Şablon Önizleme Görsellerini Yönet"
-    },
-    "profileFieldsEditor": {
-        "errors": {
-            "onGetAll": "Tüm profil alanları alınırken bir hata oluştu. Hata: {error}",
-            "noSelectOptions": "'SEÇ' profil alanı türü en az bir seçenek gerektirir.",
-            "onSave": "Yeni bir profil alanı kaydedilirken bir hata oluştu. Hata: {error}",
-            "noFindField": "Seçilenlerden herhangi bir alan bulunamadı."
-        }
-    },
+    "tooltips": {
+      "discoveryEnable": "Bu, Sonoran CMS'in Topluluk Keşfi sistemi için topluluğu etkinleştirir/devre dışı bırakır.",
+      "discoverySelectForm": "Bu, bir kullanıcı Sonoran CMS Topluluk Keşfi sistemi aracılığıyla topluluğa katılırsa, bu formun otomatik olarak gönderilmesini sağlar. Formun türü \"Yeni Üye Başvurusu\" olmalıdır.",
+      "enableDiscoveryFirst": "Bunu kullanmak için Topluluk Keşfi etkinleştirilmelidir",
+      "hoursUntilNextBump": "Tekrar yükseltme yapabilmeniz için bir saatiniz kaldı | Tekrar yükseltme yapabilmeniz için {hours} saatiniz kaldı",
+      "canBumpDiscovery": "Topluluğunuzu keşif sayfasının en üstüne taşıyın!"
+    }
+  },
+  "formManagement": {
+    "pending": "Beklemede",
+    "approve": "Onayla",
+    "approved": "Onaylandı",
+    "denied": "Reddedildi",
+    "submitter": "Gönderen",
+    "status": "Durum"
+  },
+  "calendar": {
+    "viewEvents": "Etkinlikleri Görüntüle",
+    "createEvents": "Etkinlikler Oluştur",
+    "removeEvents": "Etkinlikleri Kaldır",
+    "editOtherEvents": "Diğer Etkinlikleri Düzenle",
+    "createEvent": "Bir Etkinlik Oluştur - Kategori",
+    "eventNotFound": "Etkinlik Bulunamadı/Erişilemedi",
+    "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok."
+  },
+  "limits": {
+    "version": "Sürüm",
+    "departments": "Departmanlar",
+    "driveStorage": "Sürücü Depolama",
+    "idPrefix": "Kimlik:",
+    "versionPrefix": "Seviye:",
+    "expiresPrefix": "Sona Erme:",
+    "goProToday": "Bugün Pro Olun"
+  },
+  "roster": {
+    "addPrimary": "Satır Ekle",
+    "addSecondary": "Satır Ekle",
+    "editingMember": "Satırı Düzenle"
+  },
+  "templateManagement": {
+    "creationDescription": "Bu oluşturma diyaloğu, topluluğunuzdaki öğelerden bir Sonoran CMS Topluluk Şablonu oluşturmanıza yardımcı olacaktır, oluşturma tamamlandıktan sonra bu şablonu istediğiniz zaman güncelleyebilir ve kaldırabilirsiniz.",
+    "previewImages": "Şablon Önizleme Görselleri",
+    "creationSelectionDescription": "Bu oluşturma diyaloğu, topluluğunuzun hangi bileşenlerini şablona dahil etmek istediğinizi seçmenize yardımcı olacaktır, oluşturma tamamlandıktan sonra bu şablondan bileşenleri güncelleyebilir ve kaldırabilirsiniz.",
+    "manageDescription": "Bu yönetim diyaloğu, şablonunuzun öğelerini ve bilgilerini eklemenize, kaldırmanıza ve güncellemenize olanak tanır. Herhangi bir değişikliği kaydettikten sonra, Sonoran CMS Geliştirme Ekibi tarafından yeniden incelenmesi gerekecektir.",
+    "manageImages": "Şablon Önizleme Görsellerini Yönet"
+  },
+  "profileFieldsEditor": {
+    "errors": {
+      "onGetAll": "Tüm profil alanları alınırken bir hata oluştu. Hata: {error}",
+      "noSelectOptions": "'SEÇ' profil alanı türü en az bir seçenek gerektirir.",
+      "onSave": "Yeni bir profil alanı kaydedilirken bir hata oluştu. Hata: {error}",
+      "noFindField": "Seçilenlerden herhangi bir alan bulunamadı."
+    }
   },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "Sonoran Shield Ağ Savunması",
