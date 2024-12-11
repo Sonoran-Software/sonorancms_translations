@@ -1088,6 +1088,7 @@
     "anErrorOccuredWhileSavingTryAgain": "An error occured while saving, try again."
   },
   "UrlShortener": {
+    "vanityCustomLong": "Vanity/Custom/Long",
     "urlShortenerTutorial": "URL Shortener Tutorial",
     "learnHowToCreateShortUrlsForYourCommunit": "Learn how to create short URLs for your community",
     "urlShortenerDocuments": "URL Shortener Documents",
