@@ -173,10 +173,11 @@
       "training": "Training History",
       "generalapp": "General Form"
     },
-    "formDeleteConfirm": "Are you sure you want to delete \"{formName}\"?",
+    "formDeleteConfirm": "Are you sure you want to delete ",
     "secFieldsHeader": "Fields",
     "stageCreate": "Create Stage",
     "stageUpdate": "Update Stage",
+
     "stageActionTypes": {
       "autoReply": "Auto-Form Reply",
       "notifySubmitterNotification": "Notify via Notification",
@@ -1200,6 +1201,8 @@
     "unknownRule": "Unknown Rule"
   },
   "FormEditSelector": {
+    "Ok": "Ok",
+    "Cancel": "Cancel",
     "thisFormIsUnlockedForNewSubmissions": "This form is unlocked for new Submissions",
     "thisFormIsLockedFromNewSubmissions": "This form is locked from new submissions",
     "addANewForm": "Add a New Form",
