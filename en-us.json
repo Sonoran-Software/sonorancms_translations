@@ -2925,7 +2925,7 @@
     "pasteAllPermissions": "Paste All Permissions",
     "searchForPermissions": "Search for permissions",
     "editNewRank": "Edit new rank",
-    "editRankNameTest": "Edit Rank Name test",
+    "editRankNameTest": "Edit Rank Name",
     "hasHigherAuthority": "has higher authority.",
     "linkADiscordGuild": "Link a Discord Guild",
     "importRolesToRanks": "Import Roles to Ranks",
@@ -4280,7 +4280,17 @@
     "allowsMembersToApplyHigherPermissions": "Allows members to apply higher permissions than their own rank.",
     "allowsMembersToAccessTheDisciplinaryPane": "Allows members to access the Disciplinary Panel in the Administrative Panel.",
     "allowsMembersToManageRadioIntegrationSetti": "Allows members to manage Radio Integration settings in the Administrative Panel.",
-    "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+    "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form.",
+    "viewShortUrls": "View Short URLs",
+    "viewShortUrlsDesc": "Allows members to view short URLs in the Short URL Manager.",
+    "addShortUrls": "Add Short URLs",
+    "addShortUrlsDesc": "Allows members to add short URLs in the Short URL Manager.",
+    "editShortUrls": "Edit Short URLs",
+    "editShortUrlsDesc": "Allows members to edit short URLs in the Short URL Manager.",
+    "removeShortUrls": "Remove Short URLs",
+    "removeShortUrlsDesc": "Allows members to remove short URLs in the Short URL Manager.",
+    "manageDomains ": "Manage Domains",
+    "manageDomainsDesc": "Allows members to manage domains in the Short URL Manager."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
