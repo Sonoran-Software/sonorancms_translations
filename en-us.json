@@ -2352,6 +2352,8 @@
     "errorMissingPermissionsForThisFile": "Error: Missing permissions for this file."
   },
   "Drive": {
+    "newImage": "New Image",
+    "commonImage": "Image",
     "driveAndDocumentsTutorial": "Drive and Documents Tutorial",
     "learnAboutDriveAndDocuments": "Learn about Drive and Documents",
     "driveAndDocumentsDocuments": "Drive and Documents, Documents",
