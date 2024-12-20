@@ -4164,7 +4164,7 @@
   },
 
   "permNames": {
-    "manageDomains ": "Manage Domains",
+    "manageDomains": "Manage Domains",
 
     "allowsMembersToRemoveOtherMembersFromThe": "Allows members to remove other members from the community if they have more power than the removed member. Kicked members can rejoin.",
     "allowsMembersToPermanentlyBanOtherMember": "Allows members to permanently ban other members from the community if they have more power than the banned member.",
