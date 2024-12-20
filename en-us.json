@@ -4163,10 +4163,10 @@
     "noRankOptionsToSelectFrom": "No rank options to select from"
   },
 
-  "permNames2": {
-    "manageDomains ": "Manage Domains"
-  },
+  "permNames2": {},
   "permNames": {
+    "manageDomains ": "Manage Domains",
+
     "allowsMembersToRemoveOtherMembersFromThe": "Allows members to remove other members from the community if they have more power than the removed member. Kicked members can rejoin.",
     "allowsMembersToPermanentlyBanOtherMember": "Allows members to permanently ban other members from the community if they have more power than the banned member.",
     "allowsMembersToCustomizeOtherMembersRank": "Allows members to customize other members' ranks and information.",
