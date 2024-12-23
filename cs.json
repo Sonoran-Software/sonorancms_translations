@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID komunity",
     "addLinkSubdomain": "Přidat odkaz subdomény",
     "addNewLinkShortenerSubdomain": "Přidat novou subdoménu zkracovače odkazů",
-    "saveYourCommunitesLinkSubdomain": "Uložit novou subdoménu odkazu"
+    "saveYourCommunitesLinkSubdomain": "Uložit novou subdoménu odkazu",
+    "vanityCustomLong": "Marnost/Vlastní/Dlouhý",
+    "learnHowToCreateShortenerForYourCommunit": "Naučte se, jak vytvářet krátké URL pro vaši komunitu"
   },
   "EditColumnCard": {
     "editRosterColumn": "Upravit sloupec seznamu",
@@ -1237,7 +1239,9 @@
     "root": "Kořen",
     "anErrorOccuredWhileTogglingTheFormLock": "Došlo k chybě při přepínání zámku formuláře",
     "folderLabel": "Štítek složky",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Ahoj",
+    "Cancel": "Zrušit"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Uzamčeno pro nové podání",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Při nahrávání dokumentu došlo k chybě, pokud problém přetrvává, kontaktujte podporu. Chyba:",
     "successfullyUploadedTheFollowingFiles": "Úspěšně nahrány následující soubory:",
     "theFollowingFilesWereNotUploaded": "Následující soubory nebyly nahrány:",
-    "fileName": "Název souboru"
+    "fileName": "Název souboru",
+    "newImage": "Nový obrázek",
+    "commonImage": "Obrázek"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Chyba: Nemáte oprávnění k zobrazení",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Upravit panel nástrojů",
     "modifyPages": "Upravit stránky",
     "clockInOut": "Přihlášení a odhlášení",
-    "disciplinaryPanel": "Disciplinární komise"
+    "disciplinaryPanel": "Disciplinární komise",
+    "manageDomains": "Spravovat domény",
+    "shortener": "Zkracovač URL",
+    "viewShortener": "Zobrazit krátké adresy URL",
+    "viewShortenerDesc": "Umožňuje členům zobrazit krátké URL v manažeru krátkých URL.",
+    "addShortener": "Přidat krátké URL adresy",
+    "addShortenerDesc": "Umožňuje členům přidávat krátké URL adresy v Správci krátkých URL.",
+    "editShortener": "Upravit krátké URL adresy",
+    "editShortenerDesc": "Umožňuje členům upravovat krátké URL v správci krátkých URL.",
+    "removeShortener": "Odebrat krátké adresy URL",
+    "removeShortenerDesc": "Umožňuje členům odstranit krátké URL v položce Správce krátkých URL.",
+    "manageDomainsDesc": "Umožňuje členům spravovat domény ve správci krátkých URL."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"

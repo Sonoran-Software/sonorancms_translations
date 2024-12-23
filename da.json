@@ -1124,7 +1124,9 @@
     "communityUuid": "Community UUID",
     "addLinkSubdomain": "Tilføj link Subdomæne",
     "addNewLinkShortenerSubdomain": "Tilføj nyt linkkorteringsunderdomæne",
-    "saveYourCommunitesLinkSubdomain": "Gem nyt link-subdomæne"
+    "saveYourCommunitesLinkSubdomain": "Gem nyt link-subdomæne",
+    "vanityCustomLong": "Forfængelig/Tilpasset/Lang",
+    "learnHowToCreateShortenerForYourCommunit": "Lær hvordan du opretter korte URL'er til din community"
   },
   "EditColumnCard": {
     "editRosterColumn": "Rediger roster kolonne",
@@ -1237,7 +1239,9 @@
     "root": "Rod",
     "anErrorOccuredWhileTogglingTheFormLock": "Der opstod en fejl under skift af formularlås",
     "folderLabel": "Mappenavn",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Okay",
+    "Cancel": "Annuller"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Låst for nye indsendelser",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Der opstod en fejl under upload af dokumentet, hvis dette fortsætter, kontakt support. Fejl:",
     "successfullyUploadedTheFollowingFiles": "Følgende filer blev uploadet med succes:",
     "theFollowingFilesWereNotUploaded": "Følgende filer blev ikke uploadet:",
-    "fileName": "Filnavn"
+    "fileName": "Filnavn",
+    "newImage": "Nyt Billede",
+    "commonImage": "Billede"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fejl: Du har ikke tilladelse til at se",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Rediger værktøjslinje",
     "modifyPages": "Rediger sider",
     "clockInOut": "Komme Ind & Ud",
-    "disciplinaryPanel": "Disciplinærpanel"
+    "disciplinaryPanel": "Disciplinærpanel",
+    "manageDomains": "Administrer domæner",
+    "shortener": "URL-forkorter",
+    "viewShortener": "Se korte URL'er",
+    "viewShortenerDesc": "Giver medlemmer mulighed for at se korte URL'er i Short URL Manager.",
+    "addShortener": "Tilføj korte URL'er",
+    "addShortenerDesc": "Giver medlemmer mulighed for at tilføje korte URL'er i kort URL Manageren.",
+    "editShortener": "Rediger korte URL'er",
+    "editShortenerDesc": "Giver medlemmer mulighed for at redigere korte URL'er i Short URL Manager.",
+    "removeShortener": "Fjern korte URL'er",
+    "removeShortenerDesc": "Tillader medlemmer at fjerne korte URL'er i Short URL Manager.",
+    "manageDomainsDesc": "Giver medlemmer mulighed for at administrere domæner i Short URL Manager."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

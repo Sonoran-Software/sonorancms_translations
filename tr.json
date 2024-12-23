@@ -1124,7 +1124,9 @@
     "communityUuid": "Topluluk UUID'si",
     "addLinkSubdomain": "Alt Bağlantı Alt Etki Alanı Ekle",
     "addNewLinkShortenerSubdomain": "Yeni bağlantı kısaltma alt alanı ekle",
-    "saveYourCommunitesLinkSubdomain": "Yeni bağlantı alt alan adını kaydet"
+    "saveYourCommunitesLinkSubdomain": "Yeni bağlantı alt alan adını kaydet",
+    "vanityCustomLong": "Özel/Özelleştirilmiş/Uzun",
+    "learnHowToCreateShortenerForYourCommunit": "Topluluğunuz için kısa URL'ler oluşturmayı öğrenin"
   },
   "EditColumnCard": {
     "editRosterColumn": "Liste sütununu düzenle",
@@ -1237,7 +1239,9 @@
     "root": "Kök",
     "anErrorOccuredWhileTogglingTheFormLock": "Form kilidi değiştirilirken bir hata oluştu",
     "folderLabel": "Klasör Etiketi",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Tamam",
+    "Cancel": "İptal"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Yeni gönderimlerden kilitlendi",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Belge yüklenirken bir hata oluştu, bu devam ederse destek ile iletişime geçin. Hata:",
     "successfullyUploadedTheFollowingFiles": "Aşağıdaki dosyalar başarıyla yüklendi:",
     "theFollowingFilesWereNotUploaded": "Aşağıdaki dosyalar yüklenmedi:",
-    "fileName": "Dosya Adı"
+    "fileName": "Dosya Adı",
+    "newImage": "Yeni Görüntü",
+    "commonImage": "Görüntü"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Hata: Görüntüleme izniniz yok",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Araç Çubuğunu Değiştir",
     "modifyPages": "Sayfaları Değiştir",
     "clockInOut": "Giriş ve Çıkış",
-    "disciplinaryPanel": "Disiplin Paneli"
+    "disciplinaryPanel": "Disiplin Paneli",
+    "manageDomains": "Etki Alanlarını Yönet",
+    "shortener": "URL Kısaltıcı",
+    "viewShortener": "Kısa URL'leri Görüntüle",
+    "viewShortenerDesc": "Üyelerin Kısa URL Yöneticisi'nde kısa URL'leri görmesini sağlar.",
+    "addShortener": "Kısa URL'ler Ekle",
+    "addShortenerDesc": "Üyelerin Kısa URL Yöneticisi'nde kısa URL'ler eklemesine izin verir.",
+    "editShortener": "Kısa URL'leri Düzenle",
+    "editShortenerDesc": "Üyelere Kısa URL Yöneticisi'nde kısa URL'leri düzenleme izni verir.",
+    "removeShortener": "Kısa URL'leri Kaldır",
+    "removeShortenerDesc": "Kısa URL Yöneticisi'nde üyelerin kısa URL'leri kaldırmasına izin verir.",
+    "manageDomainsDesc": "Kısa URL Yöneticisi'nde üyelerin alan adlarını yönetmesine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan"

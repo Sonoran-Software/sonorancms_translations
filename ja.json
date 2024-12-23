@@ -1124,7 +1124,9 @@
     "communityUuid": "コミュニティ UUID",
     "addLinkSubdomain": "リンクサブドメインを追加",
     "addNewLinkShortenerSubdomain": "新しいリンク短縮サブドメインを追加",
-    "saveYourCommunitesLinkSubdomain": "新しいリンクサブドメインを保存"
+    "saveYourCommunitesLinkSubdomain": "新しいリンクサブドメインを保存",
+    "vanityCustomLong": "バニティ/カスタム/ロング",
+    "learnHowToCreateShortenerForYourCommunit": "コミュニティ用の短縮URLの作り方を学ぶ"
   },
   "EditColumnCard": {
     "editRosterColumn": "削除",
@@ -1237,7 +1239,9 @@
     "root": "フォームのロック切り替え中にエラーが発生しました",
     "anErrorOccuredWhileTogglingTheFormLock": "フォルダが正常に追加されました：",
     "folderLabel": "新しい提出をロックしました",
-    "avatar": "アバター"
+    "avatar": "アバター",
+    "Ok": "はい",
+    "Cancel": "キャンセル"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "追加の提出をブロックしました",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "次のファイルのアップロードに成功しました：",
     "successfullyUploadedTheFollowingFiles": "次のファイルはアップロードされませんでした：",
     "theFollowingFilesWereNotUploaded": "ファイル名",
-    "fileName": "エラー：表示する権限がありません"
+    "fileName": "エラー：表示する権限がありません",
+    "newImage": "新しい画像",
+    "commonImage": "画像"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "ページの読み込み中に問題が発生しました",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "ツールバーの変更",
     "modifyPages": "ページを変更",
     "clockInOut": "出退勤",
-    "disciplinaryPanel": "懲戒委員会"
+    "disciplinaryPanel": "懲戒委員会",
+    "manageDomains": "ドメインを管理",
+    "shortener": "URL短縮器",
+    "viewShortener": "短縮URLを表示",
+    "viewShortenerDesc": "メンバーがショートURLマネージャーでショートURLを表示できるようにします。",
+    "addShortener": "ショートURLを追加",
+    "addShortenerDesc": "メンバーが短縮URLマネージャーで短縮URLを追加できるようにします。",
+    "editShortener": "ショートURLを編集",
+    "editShortenerDesc": "メンバーがショートURLマネージャーでショートURLを編集できるようにします。",
+    "removeShortener": "短縮URLを削除",
+    "removeShortenerDesc": "短縮URLマネージャーでメンバーが短縮URLを削除できるようにします。",
+    "manageDomainsDesc": "メンバーがショートURLマネージャーでドメインを管理できるようにします。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"

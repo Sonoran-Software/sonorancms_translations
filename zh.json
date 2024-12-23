@@ -1124,7 +1124,9 @@
     "communityUuid": "社区 UUID",
     "addLinkSubdomain": "添加链接子域名",
     "addNewLinkShortenerSubdomain": "添加新的链接缩短子域名",
-    "saveYourCommunitesLinkSubdomain": "保存新链接子域名"
+    "saveYourCommunitesLinkSubdomain": "保存新链接子域名",
+    "vanityCustomLong": "虚荣/自定义/长",
+    "learnHowToCreateShortenerForYourCommunit": "了解如何为您的社区创建短网址"
   },
   "EditColumnCard": {
     "editRosterColumn": "编辑名单列",
@@ -1237,7 +1239,9 @@
     "root": "根目录",
     "anErrorOccuredWhileTogglingTheFormLock": "切换表单锁定状态时发生错误",
     "folderLabel": "文件夹标签",
-    "avatar": "头像"
+    "avatar": "头像",
+    "Ok": "好的",
+    "Cancel": "取消"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "禁止新提交",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "上传文档时发生错误，如果此问题持续存在，请联系支持。错误：",
     "successfullyUploadedTheFollowingFiles": "成功上传以下文件：",
     "theFollowingFilesWereNotUploaded": "以下文件未上传：",
-    "fileName": "文件名"
+    "fileName": "文件名",
+    "newImage": "新图片",
+    "commonImage": "图像"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "错误：您没有查看权限",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "修改工具栏",
     "modifyPages": "修改页面",
     "clockInOut": "上下班打卡",
-    "disciplinaryPanel": "纪律小组"
+    "disciplinaryPanel": "纪律小组",
+    "manageDomains": "管理域名",
+    "shortener": "网址缩短器",
+    "viewShortener": "查看短网址",
+    "viewShortenerDesc": "允许成员在短网址管理器中查看短网址。",
+    "addShortener": "添加短网址",
+    "addShortenerDesc": "允许成员在短网址管理器中添加短网址。",
+    "editShortener": "编辑短网址",
+    "editShortenerDesc": "允许成员在短网址管理器中编辑短网址。",
+    "removeShortener": "移除短网址",
+    "removeShortenerDesc": "允许成员在短网址管理器中删除短网址。",
+    "manageDomainsDesc": "允许成员在短网址管理器中管理域名。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"

@@ -1124,7 +1124,9 @@
     "communityUuid": "Community UUID",
     "addLinkSubdomain": "Link-Subdomain hinzufügen",
     "addNewLinkShortenerSubdomain": "Neue Link-Verkürzer-Subdomain hinzufügen",
-    "saveYourCommunitesLinkSubdomain": "Neuen Link-Subdomain speichern"
+    "saveYourCommunitesLinkSubdomain": "Neuen Link-Subdomain speichern",
+    "vanityCustomLong": "Eitelkeit/Benutzerdefiniert/Lang",
+    "learnHowToCreateShortenerForYourCommunit": "Erfahren Sie, wie Sie kurze URLs für Ihre Community erstellen können"
   },
   "EditColumnCard": {
     "editRosterColumn": "Roster-Spalte bearbeiten",
@@ -1237,7 +1239,9 @@
     "root": "Stammverzeichnis",
     "anErrorOccuredWhileTogglingTheFormLock": "Ein Fehler ist beim Umschalten der Formularsperre aufgetreten",
     "folderLabel": "Ordnerbezeichnung",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "In Ordnung",
+    "Cancel": "Abbrechen"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Für neue Einreichungen gesperrt",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Beim Hochladen eines Dokuments ist ein Fehler aufgetreten. Wenn dies weiterhin besteht, wenden Sie sich bitte an den Support. Fehler:",
     "successfullyUploadedTheFollowingFiles": "Die folgenden Dateien wurden erfolgreich hochgeladen:",
     "theFollowingFilesWereNotUploaded": "Die folgenden Dateien wurden nicht hochgeladen:",
-    "fileName": "Dateiname"
+    "fileName": "Dateiname",
+    "newImage": "Neues Bild",
+    "commonImage": "Bild"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fehler: Sie haben keine Berechtigung, dies anzusehen",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Symbolleiste ändern",
     "modifyPages": "Seiten bearbeiten",
     "clockInOut": "Ein- und Ausstempeln",
-    "disciplinaryPanel": "Disziplinarausschuss"
+    "disciplinaryPanel": "Disziplinarausschuss",
+    "manageDomains": "Domänen verwalten",
+    "shortener": "URL-Shortener",
+    "viewShortener": "Kurz-URLs anzeigen",
+    "viewShortenerDesc": "Ermöglicht Mitgliedern, kurze URLs im Kurz-URL-Manager anzusehen.",
+    "addShortener": "Kurze URLs hinzufügen",
+    "addShortenerDesc": "Ermöglicht es Mitgliedern, kurze URLs im Kurz-URL-Manager hinzuzufügen.",
+    "editShortener": "Kurze URLs bearbeiten",
+    "editShortenerDesc": "Ermöglicht Mitgliedern das Bearbeiten von Kurz-URLs im Kurz-URL-Manager.",
+    "removeShortener": "Kurze URLs entfernen",
+    "removeShortenerDesc": "Ermöglicht es Mitgliedern, kurze URLs im Short-URL-Manager zu entfernen.",
+    "manageDomainsDesc": "Ermöglicht Mitgliedern, Domains im Short-URL-Manager zu verwalten."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"

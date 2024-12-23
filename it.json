@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID della comunità",
     "addLinkSubdomain": "Aggiungi Sottodominio di Collegamento",
     "addNewLinkShortenerSubdomain": "Aggiungi un nuovo sottodominio di abbreviazione link",
-    "saveYourCommunitesLinkSubdomain": "Salva nuovo sottodominio del link"
+    "saveYourCommunitesLinkSubdomain": "Salva nuovo sottodominio del link",
+    "vanityCustomLong": "Vanità/Personalizzato/Lungo",
+    "learnHowToCreateShortenerForYourCommunit": "Scopri come creare URL brevi per la tua community"
   },
   "EditColumnCard": {
     "editRosterColumn": "Modifica colonna del roster",
@@ -1237,7 +1239,9 @@
     "root": "Radice",
     "anErrorOccuredWhileTogglingTheFormLock": "Si è verificato un errore durante l'attivazione/disattivazione del blocco del modulo",
     "folderLabel": "Etichetta Cartella",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Va bene",
+    "Cancel": "Annulla"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Bloccato per nuove sottomissioni",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Si è verificato un errore durante il caricamento del documento, se persiste contatta il supporto. Errore:",
     "successfullyUploadedTheFollowingFiles": "I seguenti file sono stati caricati con successo:",
     "theFollowingFilesWereNotUploaded": "I seguenti file non sono stati caricati:",
-    "fileName": "Nome del file"
+    "fileName": "Nome del file",
+    "newImage": "Nuova Immagine",
+    "commonImage": "Immagine"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Errore: Non hai il permesso di visualizzare",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Modifica barra degli strumenti",
     "modifyPages": "Modifica Pagine",
     "clockInOut": "Timbratura in entrata e uscita",
-    "disciplinaryPanel": "Collegio Disciplinare"
+    "disciplinaryPanel": "Collegio Disciplinare",
+    "manageDomains": "Gestisci Domini",
+    "shortener": "Abbrevia URL",
+    "viewShortener": "Visualizza URL brevi",
+    "viewShortenerDesc": "Consente ai membri di visualizzare gli URL brevi nel Gestore URL Breve.",
+    "addShortener": "Aggiungi URL brevi",
+    "addShortenerDesc": "Consente ai membri di aggiungere URL brevi nel gestore di URL brevi.",
+    "editShortener": "Modifica URL brevi",
+    "editShortenerDesc": "Consente ai membri di modificare gli URL brevi nel Gestore URL brevi.",
+    "removeShortener": "Rimuovi gli URL brevi",
+    "removeShortenerDesc": "Consente ai membri di rimuovere URL brevi nel Gestore URL Brevi.",
+    "manageDomainsDesc": "Consente ai membri di gestire i domini nel Gestore degli URL brevi."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"

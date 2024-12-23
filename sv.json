@@ -1124,7 +1124,9 @@
     "communityUuid": "Community UUID",
     "addLinkSubdomain": "Lägg till länkunderdomän",
     "addNewLinkShortenerSubdomain": "Lägg till nytt länkförkortare-subdomän",
-    "saveYourCommunitesLinkSubdomain": "Spara ny länkens subdomän"
+    "saveYourCommunitesLinkSubdomain": "Spara ny länkens subdomän",
+    "vanityCustomLong": "Vanity/Anpassad/Lång",
+    "learnHowToCreateShortenerForYourCommunit": "Lär dig hur du skapar korta URL:er för din community"
   },
   "EditColumnCard": {
     "editRosterColumn": "Redigera rosterkolumn",
@@ -1237,7 +1239,9 @@
     "root": "Rot",
     "anErrorOccuredWhileTogglingTheFormLock": "Ett fel inträffade vid växling av formulärlås",
     "folderLabel": "Mappetikett",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Okej",
+    "Cancel": "Avbryt"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Låst för nya inlämningar",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Ett fel inträffade vid uppladdning av dokumentet, om detta fortsätter kontakta supporten. Fel:",
     "successfullyUploadedTheFollowingFiles": "Följande filer har laddats upp framgångsrikt:",
     "theFollowingFilesWereNotUploaded": "Följande filer laddades inte upp:",
-    "fileName": "Filnamn"
+    "fileName": "Filnamn",
+    "newImage": "Ny bild",
+    "commonImage": "Bild"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fel: Du har inte behörighet att visa",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Modifiera Verktygsfältet",
     "modifyPages": "Modifiera sidor",
     "clockInOut": "Stämpla in och ut",
-    "disciplinaryPanel": "Disciplinpanel"
+    "disciplinaryPanel": "Disciplinpanel",
+    "manageDomains": "Hantera domäner",
+    "shortener": "URL-förkortare",
+    "viewShortener": "Visa korta URL:er",
+    "viewShortenerDesc": "Tillåter medlemmar att visa korta URL:er i Hanterare för korta URL:er.",
+    "addShortener": "Lägg till korta URL:er",
+    "addShortenerDesc": "Tillåter medlemmar att lägga till korta URL:er i korta URL-chefen.",
+    "editShortener": "Redigera korta URL:er",
+    "editShortenerDesc": "Tillåter medlemmar att redigera korta URL:er i hanteraren för korta URL:er.",
+    "removeShortener": "Ta bort korta URL:er",
+    "removeShortenerDesc": "Tillåter medlemmar att ta bort korta URL:er i hanteraren för korta URL:er.",
+    "manageDomainsDesc": "Låter medlemmar hantera domäner i Kort-URL-hanteraren."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"

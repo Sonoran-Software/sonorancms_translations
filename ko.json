@@ -1124,7 +1124,9 @@
     "communityUuid": "커뮤니티 UUID",
     "addLinkSubdomain": "하위 도메인 추가 링크",
     "addNewLinkShortenerSubdomain": "새 링크 단축기 하위 도메인 추가",
-    "saveYourCommunitesLinkSubdomain": "새 링크 서브도메인 저장"
+    "saveYourCommunitesLinkSubdomain": "새 링크 서브도메인 저장",
+    "vanityCustomLong": "허영/맞춤형/긴",
+    "learnHowToCreateShortenerForYourCommunit": "당신의 커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요"
   },
   "EditColumnCard": {
     "editRosterColumn": "삭제",
@@ -1237,7 +1239,9 @@
     "root": "양식 잠금을 전환하는 동안 오류가 발생했습니다",
     "anErrorOccuredWhileTogglingTheFormLock": "폴더가 성공적으로 추가되었습니다:",
     "folderLabel": "새 제출물로부터 잠김",
-    "avatar": "아바타"
+    "avatar": "아바타",
+    "Ok": "확인",
+    "Cancel": "취소"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "추가 제출물로부터 차단됨",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "다음 파일을 성공적으로 업로드했습니다:",
     "successfullyUploadedTheFollowingFiles": "다음 파일은 업로드되지 않았습니다:",
     "theFollowingFilesWereNotUploaded": "파일 이름",
-    "fileName": "오류: 보기 권한이 없습니다"
+    "fileName": "오류: 보기 권한이 없습니다",
+    "newImage": "새 이미지",
+    "commonImage": "이미지"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "페이지를 로드하는 중 문제가 발생했습니다",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "도구 모음 수정",
     "modifyPages": "페이지 수정",
     "clockInOut": "출퇴근 기록",
-    "disciplinaryPanel": "징계 위원회"
+    "disciplinaryPanel": "징계 위원회",
+    "manageDomains": "도메인 관리",
+    "shortener": "URL 단축기",
+    "viewShortener": "단축 URL 보기",
+    "viewShortenerDesc": "단축 URL 관리자에서 구성원이 단축 URL을 볼 수 있도록 합니다.",
+    "addShortener": "짧은 URL 추가",
+    "addShortenerDesc": "회원이 단축 URL 관리자에 단축 URL을 추가할 수 있습니다.",
+    "editShortener": "단축 URL 편집",
+    "editShortenerDesc": "멤버가 단축 URL 관리자에서 단축 URL을 편집할 수 있도록 허용합니다.",
+    "removeShortener": "짧은 URL 제거",
+    "removeShortenerDesc": "회원이 짧은 URL 관리에서 짧은 URL을 제거할 수 있도록 허용합니다.",
+    "manageDomainsDesc": "단축 URL 관리에서 도메인을 관리할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된"

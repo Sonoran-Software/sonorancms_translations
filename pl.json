@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID społeczności",
     "addLinkSubdomain": "Dodaj Poddomenę Linku",
     "addNewLinkShortenerSubdomain": "Dodaj nową subdomenę skracacza linków",
-    "saveYourCommunitesLinkSubdomain": "Zapisz nowy subdomen linku"
+    "saveYourCommunitesLinkSubdomain": "Zapisz nowy subdomen linku",
+    "vanityCustomLong": "Stylizacja/Niestandardowy/Długi",
+    "learnHowToCreateShortenerForYourCommunit": "Dowiedz się, jak tworzyć krótkie adresy URL dla swojej społeczności"
   },
   "EditColumnCard": {
     "editRosterColumn": "Edytuj kolumnę listy",
@@ -1237,7 +1239,9 @@
     "root": "Główny",
     "anErrorOccuredWhileTogglingTheFormLock": "Wystąpił błąd podczas przełączania blokady formularza",
     "folderLabel": "Etykieta folderu",
-    "avatar": "Awatar"
+    "avatar": "Awatar",
+    "Ok": "Ok",
+    "Cancel": "Anuluj"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Zablokowane przed nowymi zgłoszeniami",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Wystąpił błąd podczas przesyłania dokumentu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną. Błąd:",
     "successfullyUploadedTheFollowingFiles": "Pomyślnie przesłano następujące pliki:",
     "theFollowingFilesWereNotUploaded": "Następujące pliki nie zostały przesłane:",
-    "fileName": "Nazwa pliku"
+    "fileName": "Nazwa pliku",
+    "newImage": "Nowy obraz",
+    "commonImage": "Obraz"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Błąd: Nie masz uprawnień do przeglądania",
@@ -4280,7 +4286,18 @@
     "ModifyToolbar": "Modyfikuj pasek narzędzi",
     "modifyPages": "Modyfikuj Strony",
     "clockInOut": "Zegar w i poza",
-    "disciplinaryPanel": "Panel Dyscyplinarny"
+    "disciplinaryPanel": "Panel Dyscyplinarny",
+    "manageDomains": "Zarządzaj domenami",
+    "shortener": "Skracacz URL",
+    "viewShortener": "Wyświetl krótkie adresy URL",
+    "viewShortenerDesc": "Pozwala członkom na przeglądanie krótkich adresów URL w Menedżerze Krótkich Adresów URL.",
+    "addShortener": "Dodaj krótkie URL-e",
+    "addShortenerDesc": "Pozwala członkom dodawać krótkie adresy URL w Menedżerze Krótkich URL-i.",
+    "editShortener": "Edytuj krótkie URL-e",
+    "editShortenerDesc": "Pozwala członkom edytować krótkie adresy URL w Menedżerze Krótkich URL-i.",
+    "removeShortener": "Usuń krótkie URL-e",
+    "removeShortenerDesc": "Pozwala członkom usuwać krótkie URL-e w Menedżerze Krótkich URL-i.",
+    "manageDomainsDesc": "Pozwala członkom zarządzać domenami w Menedżerze Skróconych URL."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

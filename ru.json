@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID сообщества",
     "addLinkSubdomain": "Добавить ссылку на поддомен",
     "addNewLinkShortenerSubdomain": "Добавить новый субдомен сокращения ссылок",
-    "saveYourCommunitesLinkSubdomain": "Сохранить новый субдомен ссылки"
+    "saveYourCommunitesLinkSubdomain": "Сохранить новый субдомен ссылки",
+    "vanityCustomLong": "Индивидуальный/Кастомный/Длинный",
+    "learnHowToCreateShortenerForYourCommunit": "Узнайте, как создавать короткие URL для вашего сообщества"
   },
   "EditColumnCard": {
     "editRosterColumn": "Удалить",
@@ -1237,7 +1239,9 @@
     "root": "Произошла ошибка при переключении блокировки формы",
     "anErrorOccuredWhileTogglingTheFormLock": "Папка успешно добавлена:",
     "folderLabel": "Заблокировано для новых отправок",
-    "avatar": "Аватар"
+    "avatar": "Аватар",
+    "Ok": "Хорошо",
+    "Cancel": "Отмена"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Заблокировано для дополнительных отправок",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Успешно загружены следующие файлы:",
     "successfullyUploadedTheFollowingFiles": "Следующие файлы не были загружены:",
     "theFollowingFilesWereNotUploaded": "Имя файла",
-    "fileName": "Ошибка: У вас нет разрешения на просмотр"
+    "fileName": "Ошибка: У вас нет разрешения на просмотр",
+    "newImage": "Новое изображение",
+    "commonImage": "Изображение"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Возникла проблема при загрузке страницы",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Изменить панель инструментов",
     "modifyPages": "Изменить страницы",
     "clockInOut": "Вход и выход",
-    "disciplinaryPanel": "Дисциплинарная комиссия"
+    "disciplinaryPanel": "Дисциплинарная комиссия",
+    "manageDomains": "Управление доменами",
+    "shortener": "Укоротитель URL",
+    "viewShortener": "Просмотр коротких URL-адресов",
+    "viewShortenerDesc": "Позволяет участникам просматривать короткие URL в менеджере коротких URL.",
+    "addShortener": "Добавить короткие URL-адреса",
+    "addShortenerDesc": "Позволяет членам добавлять короткие URL-адреса в Менеджер коротких URL.",
+    "editShortener": "Редактировать короткие URL-адреса",
+    "editShortenerDesc": "Позволяет участникам редактировать короткие URL в менеджере коротких URL.",
+    "removeShortener": "Удалить короткие URL-адреса",
+    "removeShortenerDesc": "Позволяет участникам удалять короткие URL в менеджере коротких URL.",
+    "manageDomainsDesc": "Позволяет участникам управлять доменами в менеджере коротких URL."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"

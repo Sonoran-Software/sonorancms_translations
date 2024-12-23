@@ -1124,7 +1124,9 @@
     "communityUuid": "Community UUID",
     "addLinkSubdomain": "Subdomein koppeling toevoegen",
     "addNewLinkShortenerSubdomain": "Voeg nieuw linkverkorter-subdomein toe",
-    "saveYourCommunitesLinkSubdomain": "Sla nieuwe link-subdomein op"
+    "saveYourCommunitesLinkSubdomain": "Sla nieuwe link-subdomein op",
+    "vanityCustomLong": "Aangepast/Lang",
+    "learnHowToCreateShortenerForYourCommunit": "Leer hoe je korte URL's voor je community kunt maken"
   },
   "EditColumnCard": {
     "editRosterColumn": "Bewerk roster kolom",
@@ -1237,7 +1239,9 @@
     "root": "Root",
     "anErrorOccuredWhileTogglingTheFormLock": "Er is een fout opgetreden bij het schakelen van de formuliervergrendeling",
     "folderLabel": "Maplabel",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Oké",
+    "Cancel": "Annuleren"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Vergrendeld voor nieuwe inzendingen",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Er is een fout opgetreden bij het uploaden van een document, als dit aanhoudt neem dan contact op met de ondersteuning. Fout:",
     "successfullyUploadedTheFollowingFiles": "De volgende bestanden zijn succesvol geüpload:",
     "theFollowingFilesWereNotUploaded": "De volgende bestanden zijn niet geüpload:",
-    "fileName": "Bestandsnaam"
+    "fileName": "Bestandsnaam",
+    "newImage": "Nieuwe afbeelding",
+    "commonImage": "Afbeelding"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fout: U heeft geen toestemming om dit te bekijken",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Werkbalk Wijzigen",
     "modifyPages": "Wijzig pagina's",
     "clockInOut": "In- en uitklokken",
-    "disciplinaryPanel": "Disciplinaire Commissie"
+    "disciplinaryPanel": "Disciplinaire Commissie",
+    "manageDomains": "Domeinen Beheren",
+    "shortener": "URL-verkorter",
+    "viewShortener": "Bekijk korte URL's",
+    "viewShortenerDesc": "Hiermee kunnen leden korte URL's bekijken in de Korte URL-beheerder.",
+    "addShortener": "Korte URL's toevoegen",
+    "addShortenerDesc": "Staat leden toe om korte URL's toe te voegen in de Korte URL Manager.",
+    "editShortener": "Korte URL's bewerken",
+    "editShortenerDesc": "Staat leden toe om korte URL's te bewerken in de Korte URL Manager.",
+    "removeShortener": "Korte URL's verwijderen",
+    "removeShortenerDesc": "Staat leden toe korte URL's te verwijderen in de Korte URL Manager.",
+    "manageDomainsDesc": "Hiermee kunnen leden domeinen beheren in de Korte URL Beheerder."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"

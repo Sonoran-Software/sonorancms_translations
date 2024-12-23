@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID de la communauté",
     "addLinkSubdomain": "Ajouter un sous-domaine de lien",
     "addNewLinkShortenerSubdomain": "Ajouter un nouveau sous-domaine de raccourcisseur de liens",
-    "saveYourCommunitesLinkSubdomain": "Sauvegarder le nouveau sous-domaine de lien"
+    "saveYourCommunitesLinkSubdomain": "Sauvegarder le nouveau sous-domaine de lien",
+    "vanityCustomLong": "Vanité/Personnalisé/Long",
+    "learnHowToCreateShortenerForYourCommunit": "Découvrez comment créer des URL courtes pour votre communauté"
   },
   "EditColumnCard": {
     "editRosterColumn": "Modifier la colonne de la liste",
@@ -1237,7 +1239,9 @@
     "root": "Racine",
     "anErrorOccuredWhileTogglingTheFormLock": "Une erreur s'est produite lors du basculement du verrouillage du formulaire",
     "folderLabel": "Étiquette du dossier",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "D'accord",
+    "Cancel": "Annuler"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Verrouillé pour les nouvelles soumissions",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Une erreur s'est produite lors du téléchargement d'un document, si cela persiste, contactez le support. Erreur :",
     "successfullyUploadedTheFollowingFiles": "Les fichiers suivants ont été téléchargés avec succès :",
     "theFollowingFilesWereNotUploaded": "Les fichiers suivants n'ont pas été téléchargés :",
-    "fileName": "Nom du fichier"
+    "fileName": "Nom du fichier",
+    "newImage": "Nouvelle image",
+    "commonImage": "Image"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Erreur : Vous n'avez pas la permission de voir",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Modifier la barre d'outils",
     "modifyPages": "Modifier les pages",
     "clockInOut": "Horodateur d’entrée et de sortie",
-    "disciplinaryPanel": "Panneau disciplinaire"
+    "disciplinaryPanel": "Panneau disciplinaire",
+    "manageDomains": "Gérer les domaines",
+    "shortener": "Raccourcisseur d'URL",
+    "viewShortener": "Voir les URL courtes",
+    "viewShortenerDesc": "Permet aux membres de voir les URL courtes dans le gestionnaire d'URL courtes.",
+    "addShortener": "Ajouter des URL courtes",
+    "addShortenerDesc": "Permet aux membres d'ajouter des URL courtes dans le Gestionnaire de liens courts.",
+    "editShortener": "Modifier les URL courtes",
+    "editShortenerDesc": "Permet aux membres de modifier les URL courtes dans le Gestionnaire des URL courtes.",
+    "removeShortener": "Supprimer les URL courtes",
+    "removeShortenerDesc": "Permet aux membres de supprimer les URLs courtes dans le Gestionnaire de URLs courtes.",
+    "manageDomainsDesc": "Permet aux membres de gérer les domaines dans le Gestionnaire de URL courtes."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"

@@ -1124,7 +1124,9 @@
     "communityUuid": "معرف UUID للمجتمع",
     "addLinkSubdomain": "أضف رابط النطاق الفرعي",
     "addNewLinkShortenerSubdomain": "إضافة نطاق فرعي جديد لاختصار الروابط",
-    "saveYourCommunitesLinkSubdomain": "احفظ رابط النطاق الفرعي الجديد"
+    "saveYourCommunitesLinkSubdomain": "احفظ رابط النطاق الفرعي الجديد",
+    "vanityCustomLong": "فانيتي/مخصص/طويل",
+    "learnHowToCreateShortenerForYourCommunit": "تعلم كيفية إنشاء روابط قصيرة لمجتمعك"
   },
   "EditColumnCard": {
     "editRosterColumn": "تعديل عمود القائمة",
@@ -1237,7 +1239,9 @@
     "root": "الجذر",
     "anErrorOccuredWhileTogglingTheFormLock": "حدث خطأ أثناء تبديل قفل النموذج",
     "folderLabel": "تسمية المجلد",
-    "avatar": "الصورة الرمزية"
+    "avatar": "الصورة الرمزية",
+    "Ok": "حسنًا",
+    "Cancel": "إلغاء"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "مغلق من التقديمات الجديدة",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "حدث خطأ أثناء تحميل المستند، إذا استمر هذا، يرجى الاتصال بالدعم. خطأ:",
     "successfullyUploadedTheFollowingFiles": "تم تحميل الملفات التالية بنجاح:",
     "theFollowingFilesWereNotUploaded": "لم يتم تحميل الملفات التالية:",
-    "fileName": "اسم الملف"
+    "fileName": "اسم الملف",
+    "newImage": "صورة جديدة",
+    "commonImage": "صورة"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "خطأ: ليس لديك إذن لعرض",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "تعديل شريط الأدوات",
     "modifyPages": "تعديل الصفحات",
     "clockInOut": "التسجيل وقت الدخول والخروج",
-    "disciplinaryPanel": "لجنة التأديب"
+    "disciplinaryPanel": "لجنة التأديب",
+    "manageDomains": "إدارة النطاقات",
+    "shortener": "مختصر الروابط",
+    "viewShortener": "عرض عناوين URL المختصرة",
+    "viewShortenerDesc": "يسمح للأعضاء بعرض الروابط القصيرة في مدير الروابط القصيرة.",
+    "addShortener": "إضافة روابط قصيرة",
+    "addShortenerDesc": "يسمح للأعضاء بإضافة روابط قصيرة في مدير الروابط القصيرة.",
+    "editShortener": "تحرير الروابط القصيرة",
+    "editShortenerDesc": "يسمح للأعضاء بتحرير الروابط القصيرة في مدير الروابط القصيرة.",
+    "removeShortener": "إزالة الروابط القصيرة",
+    "removeShortenerDesc": "يسمح للأعضاء بحذف الروابط القصيرة في مدير الروابط القصيرة.",
+    "manageDomainsDesc": "يسمح للأعضاء بإدارة النطاقات في مدير الروابط القصيرة."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"

@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID społeczności",
     "addLinkSubdomain": "Dodaj link do subdomeny",
     "addNewLinkShortenerSubdomain": "Dodaj nową subdomenę skracacza linków",
-    "saveYourCommunitesLinkSubdomain": "Zapisz nową subdomenę linku"
+    "saveYourCommunitesLinkSubdomain": "Zapisz nową subdomenę linku",
+    "vanityCustomLong": "próżność/niestandardowy/długi",
+    "learnHowToCreateShortenerForYourCommunit": "Aprende a crear URL cortas para tu comunidad"
   },
   "EditColumnCard": {
     "editRosterColumn": "Edytuj kolumnę listy",
@@ -1237,7 +1239,9 @@
     "root": "Główny",
     "anErrorOccuredWhileTogglingTheFormLock": "Wystąpił błąd podczas przełączania blokady formularza",
     "folderLabel": "Etykieta folderu",
-    "avatar": "Awatar"
+    "avatar": "Awatar",
+    "Ok": "Ok",
+    "Cancel": "Anuluj"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Zablokowane przed nowymi zgłoszeniami",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Wystąpił błąd podczas przesyłania dokumentu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną. Błąd:",
     "successfullyUploadedTheFollowingFiles": "Pomyślnie przesłano następujące pliki:",
     "theFollowingFilesWereNotUploaded": "Następujące pliki nie zostały przesłane:",
-    "fileName": "Nazwa pliku"
+    "fileName": "Nazwa pliku",
+    "newImage": "Nowe zdjęcie",
+    "commonImage": "Obraz"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Błąd: Nie masz uprawnień do przeglądania",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Zmodyfikuj pasek narzędzi",
     "modifyPages": "Modyfikuj strony",
     "clockInOut": "Zegar wchodzenia i wychodzenia",
-    "disciplinaryPanel": "Comissão Disciplinar"
+    "disciplinaryPanel": "Comissão Disciplinar",
+    "manageDomains": "Domény spravovať",
+    "shortener": "Acortador de Url",
+    "viewShortener": "Przeglądaj krótkie adresy URL",
+    "viewShortenerDesc": "Umožňuje članovima pregled kratkih URL-ova u upravitelju kratkih URL-ova.",
+    "addShortener": "Dodaj krótki adres URL",
+    "addShortenerDesc": "Pozwala członkom dodawać krótkie adresy URL w menedżerze skróconych adresów URL.",
+    "editShortener": "Edytuj krótkie adresy URL",
+    "editShortenerDesc": "Pozwala członkom edytować krótkie URL-e w Menedżerze Krótkich URL-i.",
+    "removeShortener": "Quitar URLs cortas",
+    "removeShortenerDesc": "Zezwala członkom na usuwanie krótkich adresów URL w Menedżerze krótkich adresów URL.",
+    "manageDomainsDesc": "Permite que los miembros gestionen dominios en el Administrador de URL cortas."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"

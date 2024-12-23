@@ -1124,7 +1124,9 @@
     "communityUuid": "UUID de la comunidad",
     "addLinkSubdomain": "Agregar subdominio de enlace",
     "addNewLinkShortenerSubdomain": "Agregar nuevo subdominio de acortador de enlaces",
-    "saveYourCommunitesLinkSubdomain": "Guardar nuevo subdominio de enlace"
+    "saveYourCommunitesLinkSubdomain": "Guardar nuevo subdominio de enlace",
+    "vanityCustomLong": "Vanidad/Personalizado/Largo",
+    "learnHowToCreateShortenerForYourCommunit": "Aprende a crear URL cortas para tu comunidad"
   },
   "EditColumnCard": {
     "editRosterColumn": "Editar columna de lista",
@@ -1237,7 +1239,9 @@
     "root": "Raíz",
     "anErrorOccuredWhileTogglingTheFormLock": "Ocurrió un error al alternar el bloqueo del formulario",
     "folderLabel": "Etiqueta de Carpeta",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "De acuerdo",
+    "Cancel": "Cancelar"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Bloqueado para nuevas presentaciones",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Ocurrió un error al subir un documento, si esto persiste contacte al soporte. Error:",
     "successfullyUploadedTheFollowingFiles": "Se subieron con éxito los siguientes archivos:",
     "theFollowingFilesWereNotUploaded": "Los siguientes archivos no fueron subidos:",
-    "fileName": "Nombre del archivo"
+    "fileName": "Nombre del archivo",
+    "newImage": "Nueva Imagen",
+    "commonImage": "Imagen"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Error: No tienes permiso para ver",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Modificar barra de herramientas",
     "modifyPages": "Modificar Páginas",
     "clockInOut": "Fichar entrada y salida",
-    "disciplinaryPanel": "Panel Disciplinario"
+    "disciplinaryPanel": "Panel Disciplinario",
+    "manageDomains": "Administrar dominios",
+    "shortener": "Acortador de Urls",
+    "viewShortener": "Ver URLs cortas",
+    "viewShortenerDesc": "Permite a los miembros ver URL cortas en el Administrador de URL Cortas.",
+    "addShortener": "Agregar URLs cortas",
+    "addShortenerDesc": "Permite a los miembros agregar URLs cortas en el Administrador de URLs Cortas.",
+    "editShortener": "Editar URLs cortas",
+    "editShortenerDesc": "Permite a los miembros editar URL cortas en el Gestor de URL Cortas.",
+    "removeShortener": "Eliminar URL cortos",
+    "removeShortenerDesc": "Permite a los miembros eliminar URL cortas en el Administrador de URL Cortas.",
+    "manageDomainsDesc": "Permite a los miembros gestionar dominios en el Administrador de URL Cortas."
   },
   "permissionToggleGroup": {
     "inherited": "heredado"

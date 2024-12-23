@@ -1124,7 +1124,9 @@
     "communityUuid": "Yhteisön UUID",
     "addLinkSubdomain": "Lisää linkkialidomain",
     "addNewLinkShortenerSubdomain": "Lisää uusi linkin lyhennyspalvelun alidomain",
-    "saveYourCommunitesLinkSubdomain": "Tallenna uusi linkin aliverkkotunnus"
+    "saveYourCommunitesLinkSubdomain": "Tallenna uusi linkin aliverkkotunnus",
+    "vanityCustomLong": "Turhamaisuus/Räätälöity/Pitkä",
+    "learnHowToCreateShortenerForYourCommunit": "Opi luomaan lyhyitä URL-osoitteita yhteisöllesi"
   },
   "EditColumnCard": {
     "editRosterColumn": "Muokkaa luettelon saraketta",
@@ -1237,7 +1239,9 @@
     "root": "Juuri",
     "anErrorOccuredWhileTogglingTheFormLock": "Lomakkeen lukituksen vaihtamisessa tapahtui virhe",
     "folderLabel": "Kansion nimi",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "Ok": "Okai",
+    "Cancel": "Peruuta"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Estetty uusilta lähetyksiltä",
@@ -2399,7 +2403,9 @@
     "anErrorOccuredWhileUploadingADocumentIfT": "Tapahtui virhe asiakirjaa ladattaessa, jos tämä jatkuu, ota yhteyttä tukeen. Virhe:",
     "successfullyUploadedTheFollowingFiles": "Seuraavat tiedostot ladattiin onnistuneesti:",
     "theFollowingFilesWereNotUploaded": "Seuraavia tiedostoja ei ladattu:",
-    "fileName": "Tiedoston nimi"
+    "fileName": "Tiedoston nimi",
+    "newImage": "Uusi kuva",
+    "commonImage": "Kuva"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Virhe: Sinulla ei ole oikeutta tarkastella",
@@ -4221,7 +4227,18 @@
     "ModifyToolbar": "Muokkaa työkalupalkkia",
     "modifyPages": "Muokkaa sivuja",
     "clockInOut": "Kello Sisään & Ulos",
-    "disciplinaryPanel": "Kurinpitoelin"
+    "disciplinaryPanel": "Kurinpitoelin",
+    "manageDomains": "Hallitse verkkotunnuksia",
+    "shortener": "URL-lyhennin",
+    "viewShortener": "Näytä lyhyet URL-osoitteet",
+    "viewShortenerDesc": "Sallii jäsenten tarkastella lyhyitä URL-osoitteita Short URL Managerissa.",
+    "addShortener": "Lisää lyhyet URL-osoitteet",
+    "addShortenerDesc": "Sallii jäsenten lisätä lyhyitä URL-osoitteita lyhyt-URL-hallintaan.",
+    "editShortener": "Muokkaa lyhyitä URL-osoitteita",
+    "editShortenerDesc": "Antaa jäsenten muokata lyhytlinkkejä Lyhytlinkkihallinnassa.",
+    "removeShortener": "Poista lyhyet URL-osoitteet",
+    "removeShortenerDesc": "Antaa jäsenten poistaa lyhyitä URL-osoitteita Lyhyt URL-osoitteiden hallinnassa.",
+    "manageDomainsDesc": "Mahdollistaa jäsenten hallita verkkotunnuksia lyhyen URL-osoitteen hallinnassa."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"
