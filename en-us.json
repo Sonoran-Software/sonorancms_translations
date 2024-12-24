@@ -3755,6 +3755,8 @@
     "communityMemberNameElement": "Community member name element",
     "automemberUniqueId": "Auto-Member Unique ID",
     "communityMemberIdElement": "Community member ID element",
+    "automemberDiscordId": "Auto-Member Discord ID",
+    "communityMemberDiscordIdElement": "Community member Discord ID element",
     "automemberUnitNumber": "Auto-Member Unit Number",
     "unitMemberNumberElement": "Unit member number element",
     "automemberPrimaryRank": "Auto-Member Primary Rank",
