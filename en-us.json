@@ -4329,5 +4329,8 @@
     "rosterviewend": "End:",
     "end": "End",
     "profileFieldRange": "Profile Field Range"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "Search by column"
   }
 }
