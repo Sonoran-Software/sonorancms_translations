@@ -177,7 +177,6 @@
     "secFieldsHeader": "Fields",
     "stageCreate": "Create Stage",
     "stageUpdate": "Update Stage",
-
     "stageActionTypes": {
       "autoReply": "Auto-Form Reply",
       "notifySubmitterNotification": "Notify via Notification",
@@ -3756,6 +3755,8 @@
     "communityMemberNameElement": "Community member name element",
     "automemberUniqueId": "Auto-Member Unique ID",
     "communityMemberIdElement": "Community member ID element",
+    "automemberDiscordId": "Auto-Member Discord ID",
+    "communityMemberDiscordIdElement": "Community member Discord ID element",
     "automemberUnitNumber": "Auto-Member Unit Number",
     "unitMemberNumberElement": "Unit member number element",
     "automemberPrimaryRank": "Auto-Member Primary Rank",
@@ -4132,6 +4133,7 @@
     "cadPermissionsSelector": "CAD Permissions Selector"
   },
   "RadioIntegration": {
+    "title": "Sonoran Radio Configurations",
     "remove": "Remove",
     "noCommunityId": "No Community ID",
     "apiCredentials": "Radio API Credentials",
@@ -4148,7 +4150,8 @@
     "autoJoinRanks": "Ranks that Auto Join",
     "autoJoinRanksEmpty": "Join sync only works for the ranks you select, but you don't have any selected!",
     "communityMembersAutomaticallyJoinSonoran": "Community members automatically join Sonoran Radio when they join CMS",
-    "communityMembersAutomaticallyKickSonoran": "Community members automatically leave/are kicked from Sonoran Radio when they leave CMS"
+    "communityMembersAutomaticallyKickSonoran": "Community members automatically leave/are kicked from Sonoran Radio when they leave CMS",
+    "nameSync": "Name Sync"
   },
   "imageInn": {
     "dropArea": "Drop Area"
@@ -4162,10 +4165,8 @@
   "rankSelect": {
     "noRankOptionsToSelectFrom": "No rank options to select from"
   },
-
   "permNames": {
     "manageDomains": "Manage Domains",
-
     "allowsMembersToRemoveOtherMembersFromThe": "Allows members to remove other members from the community if they have more power than the removed member. Kicked members can rejoin.",
     "allowsMembersToPermanentlyBanOtherMember": "Allows members to permanently ban other members from the community if they have more power than the banned member.",
     "allowsMembersToCustomizeOtherMembersRank": "Allows members to customize other members' ranks and information.",
@@ -4328,5 +4329,8 @@
     "rosterviewend": "End:",
     "end": "End",
     "profileFieldRange": "Profile Field Range"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "Search by column"
   }
 }
