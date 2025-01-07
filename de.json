@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Beim Hochladen von Audio ist ein Fehler aufgetreten:",
     "noFieldsourceSelected": "*Kein Feld/Quelle ausgewählt",
     "cloneField": "Feld klonen",
-    "number": "Nummer"
+    "number": "Nummer",
+    "automemberDiscordId": "Auto-Mitglied-Discord-ID",
+    "communityMemberDiscordIdElement": "Community-Mitglieds-Discord-ID-Element"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Ränge, die automatisch beitreten",
     "autoJoinRanksEmpty": "Der Beitrittsabgleich funktioniert nur für die Ränge, die du auswählst, aber du hast keine ausgewählt!",
     "communityMembersAutomaticallyJoinSonoran": "Community-Mitglieder treten automatisch Sonoran Radio bei, wenn sie CMS beitreten",
-    "communityMembersAutomaticallyKickSonoran": "Community-Mitglieder werden automatisch von Sonoran Radio entfernt/gekickt, wenn sie CMS verlassen."
+    "communityMembersAutomaticallyKickSonoran": "Community-Mitglieder werden automatisch von Sonoran Radio entfernt/gekickt, wenn sie CMS verlassen.",
+    "title": "Sonoran Radio Konfigurationen",
+    "nameSync": "Namenssynchronisierung"
   },
   "RadioPermSelector": {
     "setRadio": "Funkgerät einstellen"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "Roster-Ansichtende",
     "end": "Beenden",
     "profileFieldRange": "Profilfeldbereich"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "Suche Tooltip"
   }
 }

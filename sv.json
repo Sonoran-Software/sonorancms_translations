@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Ett fel inträffade vid uppladdning av ljud: ",
     "noFieldsourceSelected": "*Inget Fält/Källa Vald",
     "cloneField": "Klona Fält",
-    "number": "Nummer"
+    "number": "Nummer",
+    "automemberDiscordId": "Auto-Medlem Discord ID",
+    "communityMemberDiscordIdElement": "Discord-ID för communitymedlem"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Ranker som Auto Joina",
     "autoJoinRanksEmpty": "Anslutningssynkronisering fungerar bara för de rangordningar du väljer, men du har inga valda!",
     "communityMembersAutomaticallyJoinSonoran": "Community-medlemmar går automatiskt med i Sonoran Radio när de går med i CMS",
-    "communityMembersAutomaticallyKickSonoran": "Community-medlemmar lämnar/avvisas automatiskt från Sonoran Radio när de lämnar CMS"
+    "communityMembersAutomaticallyKickSonoran": "Community-medlemmar lämnar/avvisas automatiskt från Sonoran Radio när de lämnar CMS",
+    "title": "Sonoran Radio-konfigurationer",
+    "nameSync": "Namnsynkronisering"
   },
   "RadioPermSelector": {
     "setRadio": "setRadio"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "listavyförhandsgranskning",
     "end": "slut",
     "profileFieldRange": "profilfältområde"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "sökverktygstips"
   }
 }

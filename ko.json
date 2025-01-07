@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "필드 복제",
     "noFieldsourceSelected": "명단 선택",
     "cloneField": "커뮤니티 페이지 선택",
-    "number": "숫자"
+    "number": "숫자",
+    "automemberDiscordId": "자동 회원 Discord ID",
+    "communityMemberDiscordIdElement": "커뮤니티 멤버 Discord ID 요소"
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "자동 가입 등급",
     "autoJoinRanksEmpty": "동기화 참여는 선택한 계급에서만 작동하지만, 선택한 계급이 없습니다!",
     "communityMembersAutomaticallyJoinSonoran": "커뮤니티 회원은 CMS에 가입할 때 자동으로 Sonoran Radio에 가입합니다",
-    "communityMembersAutomaticallyKickSonoran": "커뮤니티 구성원이 CMS를 떠나면 Sonoran Radio에서 자동으로 나가거나 강제 퇴장됩니다."
+    "communityMembersAutomaticallyKickSonoran": "커뮤니티 구성원이 CMS를 떠나면 Sonoran Radio에서 자동으로 나가거나 강제 퇴장됩니다.",
+    "title": "Sonoran 라디오 구성",
+    "nameSync": "이름 동기화"
   },
   "RadioPermSelector": {
     "setRadio": "라디오 설정"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "명단보기 종료",
     "end": "끝",
     "profileFieldRange": "프로필 필드 범위"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "검색 툴팁"
   }
 }

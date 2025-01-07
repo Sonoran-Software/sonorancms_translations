@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "*Поле/Источник не выбраны",
     "noFieldsourceSelected": "Клонировать поле",
     "cloneField": "Выбрать список",
-    "number": "Число"
+    "number": "Число",
+    "automemberDiscordId": "Авто-участник Discord ID",
+    "communityMemberDiscordIdElement": "Элемент Discord ID участника сообщества"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Ранги, которые автоматически присоединяются",
     "autoJoinRanksEmpty": "Синхронизация при присоединении работает только для выбранных вами рангов, но ни один не выбран!",
     "communityMembersAutomaticallyJoinSonoran": "Участники сообщества автоматически присоединяются к Sonoran Radio, когда они присоединяются к CMS",
-    "communityMembersAutomaticallyKickSonoran": "Члены сообщества автоматически выходят/исключаются из Sonoran Radio, когда выходят из CMS"
+    "communityMembersAutomaticallyKickSonoran": "Члены сообщества автоматически выходят/исключаются из Sonoran Radio, когда выходят из CMS",
+    "title": "Конфигурации Sonoran Radio",
+    "nameSync": "Синхронизация Имени"
   },
   "RadioPermSelector": {
     "setRadio": "установить Радио"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "просмотр состава завершен",
     "end": "Конец",
     "profileFieldRange": "диапазонПоляПрофиля"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "Поиск"
   }
 }

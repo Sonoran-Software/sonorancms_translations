@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Si è verificato un errore durante il caricamento dell'audio: ",
     "noFieldsourceSelected": "*Nessun Campo/Fonte Selezionato",
     "cloneField": "Clona Campo",
-    "number": "Numero"
+    "number": "Numero",
+    "automemberDiscordId": "ID Discord Membro Automatico",
+    "communityMemberDiscordIdElement": "Elemento dell'ID Discord del membro comunitario"
   },
   "selectRoster": {
     "selectRoster": "Seleziona Elenco"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Gradi che si uniscono automaticamente",
     "autoJoinRanksEmpty": "La sincronizzazione della partecipazione funziona solo per i gradi selezionati, ma non ne hai selezionato nessuno!",
     "communityMembersAutomaticallyJoinSonoran": "I membri della comunità si uniscono automaticamente a Sonoran Radio quando si uniscono a CMS",
-    "communityMembersAutomaticallyKickSonoran": "I membri della community lasciano/sono espulsi automaticamente da Sonoran Radio quando lasciano CMS"
+    "communityMembersAutomaticallyKickSonoran": "I membri della community lasciano/sono espulsi automaticamente da Sonoran Radio quando lasciano CMS",
+    "title": "Configurazioni di Sonoran Radio",
+    "nameSync": "Sincronizzazione Nome"
   },
   "RadioPermSelector": {
     "setRadio": "impostaRadio"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "visualizzazionefinerosta",
     "end": "fine",
     "profileFieldRange": "intervalloCampoProfilo"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "Suggerisci invio di un suggerimento di ricerca usando il mandato di barra di comando nel tuo server di Discord: \"/log search\""
   }
 }

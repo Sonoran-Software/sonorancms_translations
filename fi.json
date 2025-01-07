@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Virhe tapahtui ääntä ladattaessa: ",
     "noFieldsourceSelected": "*Ei kenttää/lähdettä valittu",
     "cloneField": "Kloonaa kenttä",
-    "number": "Numero"
+    "number": "Numero",
+    "automemberDiscordId": "Automaattijäsenen Discord ID",
+    "communityMemberDiscordIdElement": "Yhteisön jäsenen Discord ID -elementti"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Arvot, jotka liittyvät automaattisesti",
     "autoJoinRanksEmpty": "Liittymisen synkronointi toimii vain valitsemasi kokoon, mutta et ole valinnut yhtään!",
     "communityMembersAutomaticallyJoinSonoran": "Yhteisön jäsenet liittyvät automaattisesti Sonoran Radioon, kun he liittyvät CMS:ään",
-    "communityMembersAutomaticallyKickSonoran": "Yhteisön jäsenet poistuvat automaattisesti tai heidät poistetaan Sonoran Radiosta, kun he lähtevät CMS:stä"
+    "communityMembersAutomaticallyKickSonoran": "Yhteisön jäsenet poistuvat automaattisesti tai heidät poistetaan Sonoran Radiosta, kun he lähtevät CMS:stä",
+    "title": "Sonoran Radion asetukset",
+    "nameSync": "Nimen synkronointi"
   },
   "RadioPermSelector": {
     "setRadio": "asetaRadio"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "Yhteenveto näkymän loppu",
     "end": "loppua",
     "profileFieldRange": "profiilikentän rajaus"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "hakutyökalu"
   }
 }

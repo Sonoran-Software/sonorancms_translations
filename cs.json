@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Při nahrávání zvuku došlo k chybě: ",
     "noFieldsourceSelected": "*Není vybráno žádné pole/zdroj",
     "cloneField": "Klonovat pole",
-    "number": "Číslo"
+    "number": "Číslo",
+    "automemberDiscordId": "Automaticky přidávané Discord ID člena",
+    "communityMemberDiscordIdElement": "Prvek ID uživatele Discord člena komunity"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Hodnosti, které se automaticky připojí",
     "autoJoinRanksEmpty": "Připojení synchronizace funguje pouze pro hodnosti, které vyberete, ale žádné jste nevybrali!",
     "communityMembersAutomaticallyJoinSonoran": "Členové komunity se automaticky připojí k Sonoran Radio, když se připojí k CMS",
-    "communityMembersAutomaticallyKickSonoran": "Členové komunity se automaticky odpojí nebo jsou vykopnuti ze Sonoran Radio, když opustí CMS"
+    "communityMembersAutomaticallyKickSonoran": "Členové komunity se automaticky odpojí nebo jsou vykopnuti ze Sonoran Radio, když opustí CMS",
+    "title": "Konfigurace Sonoran Radio",
+    "nameSync": "Název synchronizace"
   },
   "RadioPermSelector": {
     "setRadio": "nastavitRadio"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "Zobrazit konec seznamu členů",
     "end": "konec",
     "profileFieldRange": "profilPoleRozsahu"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "vyhledávacíNástroj"
   }
 }

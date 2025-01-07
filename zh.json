@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "上传音频时发生错误：",
     "noFieldsourceSelected": "*未选择字段/来源",
     "cloneField": "克隆字段",
-    "number": "号码"
+    "number": "号码",
+    "automemberDiscordId": "自动成员 Discord ID",
+    "communityMemberDiscordIdElement": "社区成员 Discord ID 元素"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "自动加入的等级",
     "autoJoinRanksEmpty": "加入同步仅对您选择的等级有效，但您没有选择任何等级！",
     "communityMembersAutomaticallyJoinSonoran": "社区成员在加入 CMS 时会自动加入 Sonoran Radio",
-    "communityMembersAutomaticallyKickSonoran": "社区成员离开 CMS 时会自动离开/被踢出 Sonoran Radio"
+    "communityMembersAutomaticallyKickSonoran": "社区成员离开 CMS 时会自动离开/被踢出 Sonoran Radio",
+    "title": "Sonoran Radio 配置",
+    "nameSync": "名称同步"
   },
   "RadioPermSelector": {
     "setRadio": "设置广播"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "名单视图结束",
     "end": "结束",
     "profileFieldRange": "个人资料字段范围"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "搜索提示"
   }
 }

@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Er is een fout opgetreden bij het uploaden van audio: ",
     "noFieldsourceSelected": "*Geen Veld/Bron Geselecteerd",
     "cloneField": "Veld Klonen",
-    "number": "Nummer"
+    "number": "Nummer",
+    "automemberDiscordId": "Auto-Lid Discord ID",
+    "communityMemberDiscordIdElement": "Communitylid Discord-ID-element"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Rangen die automatisch deelnemen",
     "autoJoinRanksEmpty": "Deelnemen synchronisatie werkt alleen voor de rangen die je selecteert, maar je hebt geen rangen geselecteerd!",
     "communityMembersAutomaticallyJoinSonoran": "Community-leden worden automatisch lid van Sonoran Radio wanneer ze lid worden van CMS",
-    "communityMembersAutomaticallyKickSonoran": "Communityleden verlaten/worden automatisch verwijderd uit Sonoran Radio wanneer ze CMS verlaten"
+    "communityMembersAutomaticallyKickSonoran": "Communityleden verlaten/worden automatisch verwijderd uit Sonoran Radio wanneer ze CMS verlaten",
+    "title": "Sonoran Radio-configuraties",
+    "nameSync": "Naam Synchronisatie"
   },
   "RadioPermSelector": {
     "setRadio": "instellenRadio"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "rosteroverzichtend",
     "end": "einde",
     "profileFieldRange": "profielveldbereik"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "zoektooltip"
   }
 }

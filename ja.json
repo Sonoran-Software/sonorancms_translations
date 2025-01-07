@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "*フィールド/ソースが選択されていません",
     "noFieldsourceSelected": "フィールドを複製",
     "cloneField": "名簿を選択",
-    "number": "番号"
+    "number": "番号",
+    "automemberDiscordId": "オートメンバー Discord ID",
+    "communityMemberDiscordIdElement": "コミュニティメンバーDiscord ID要素"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "自動参加するランク",
     "autoJoinRanksEmpty": "参加の同期は選択したランクでのみ機能しますが、選択されているランクがありません！",
     "communityMembersAutomaticallyJoinSonoran": "コミュニティメンバーはCMSに参加すると自動的にSonoran Radioに参加します",
-    "communityMembersAutomaticallyKickSonoran": "コミュニティメンバーはCMSを離れたときに自動的にSonoran Radioから退出/キックされます"
+    "communityMembersAutomaticallyKickSonoran": "コミュニティメンバーはCMSを離れたときに自動的にSonoran Radioから退出/キックされます",
+    "title": "ソノランラジオの設定",
+    "nameSync": "名前の同期"
   },
   "RadioPermSelector": {
     "setRadio": "無線を設定"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "閲覧終了",
     "end": "終了",
     "profileFieldRange": "プロフィールフィールド範囲"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "検索ツールチップ"
   }
 }

@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "حدث خطأ أثناء تحميل الصوت: ",
     "noFieldsourceSelected": "*لم يتم اختيار حقل/مصدر",
     "cloneField": "استنساخ الحقل",
-    "number": "رقم"
+    "number": "رقم",
+    "automemberDiscordId": "معرف ديسكورد عضو تلقائي",
+    "communityMemberDiscordIdElement": "معرّف مستخدم Discord لعضو المجتمع"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "الرتب التي تنضم تلقائيًا",
     "autoJoinRanksEmpty": "تزامن الانضمام يعمل فقط للرتب التي تحددها، ولكنك لم تحدد أي رتب!",
     "communityMembersAutomaticallyJoinSonoran": "أعضاء المجتمع ينضمون تلقائيًا إلى Sonoran Radio عندما ينضمون إلى CMS",
-    "communityMembersAutomaticallyKickSonoran": "يغادر أعضاء المجتمع تلقائيًا / يتم طردهم من Sonoran Radio عند ترك النظام."
+    "communityMembersAutomaticallyKickSonoran": "يغادر أعضاء المجتمع تلقائيًا / يتم طردهم من Sonoran Radio عند ترك النظام.",
+    "title": "تكوينات Sonoran Radio",
+    "nameSync": "مزامنة الاسم"
   },
   "RadioPermSelector": {
     "setRadio": "تعيين الراديو"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "عرض القائمة",
     "end": "النهاية",
     "profileFieldRange": "نطاق حقل الملف الشخصي"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "تلميح البحث"
   }
 }

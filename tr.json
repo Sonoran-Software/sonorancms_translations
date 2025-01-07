@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Ses yüklenirken bir hata oluştu: ",
     "noFieldsourceSelected": "*Alan/Kaynak Seçilmedi",
     "cloneField": "Alanı Kopyala",
-    "number": "Numara"
+    "number": "Numara",
+    "automemberDiscordId": "Otomatik Üye Discord ID'si",
+    "communityMemberDiscordIdElement": "Topluluk üyesi Discord ID öğesi"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Otomatik Katılan Rütbeler",
     "autoJoinRanksEmpty": "Katılım senkronizasyonu yalnızca seçtiğiniz rütbeler için çalışır, ancak hiçbirini seçmediniz!",
     "communityMembersAutomaticallyJoinSonoran": "CMS'ye katıldıklarında topluluk üyeleri otomatik olarak Sonoran Radio'ya katılırlar",
-    "communityMembersAutomaticallyKickSonoran": "CMS'den ayrıldıklarında topluluk üyeleri otomatik olarak Sonoran Radyo'dan ayrılır/atılır"
+    "communityMembersAutomaticallyKickSonoran": "CMS'den ayrıldıklarında topluluk üyeleri otomatik olarak Sonoran Radyo'dan ayrılır/atılır",
+    "title": "Sonoran Radyo Yapılandırmaları",
+    "nameSync": "Ad Senkronizasyonu"
   },
   "RadioPermSelector": {
     "setRadio": "radyoAyarlama"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "Gösterim Sonu",
     "end": "son",
     "profileFieldRange": "profilAlanıAralığı"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "arama ipucu"
   }
 }

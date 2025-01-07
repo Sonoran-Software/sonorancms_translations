@@ -3752,7 +3752,9 @@
     "anErrorOccuredWhileUploadingAudio": "Der opstod en fejl under upload af lyd: ",
     "noFieldsourceSelected": "*Ingen Felt/Kilde Valgt",
     "cloneField": "Klon Felt",
-    "number": "Antal"
+    "number": "Antal",
+    "automemberDiscordId": "Auto-medlems Discord ID",
+    "communityMemberDiscordIdElement": "Community-medlem Discord ID-element"
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"
@@ -4297,7 +4299,9 @@
     "autoJoinRanks": "Rangstillinger der Auto Tilmeldinger",
     "autoJoinRanksEmpty": "Deltagelsessynkronisering virker kun for de rangeringer, du vælger, men du har ikke valgt nogen!",
     "communityMembersAutomaticallyJoinSonoran": "Medlemmer af fællesskabet tilslutter sig automatisk Sonoran Radio, når de tilslutter sig CMS",
-    "communityMembersAutomaticallyKickSonoran": "Fællesskabsmedlemmer forlader automatisk/bliver fjernet fra Sonoran Radio, når de forlader CMS"
+    "communityMembersAutomaticallyKickSonoran": "Fællesskabsmedlemmer forlader automatisk/bliver fjernet fra Sonoran Radio, når de forlader CMS",
+    "title": "Sonoran Radio konfigurationer",
+    "nameSync": "Navnesynkronisering"
   },
   "RadioPermSelector": {
     "setRadio": "sætRadio"
@@ -4340,5 +4344,8 @@
     "rosterviewend": "visning af medlemsliste slut",
     "end": "slut",
     "profileFieldRange": "profilfeltområde"
+  },
+  "accountSearchFilter": {
+    "searchTooltip": "søgeværktøjstip"
   }
 }
