@@ -1,323 +1,323 @@
 {
   "config": {
-      "displayName": "Svenska",
-      "path": "sv"
+    "displayName": "Svenska",
+    "path": "sv"
   },
   "iconImageHandler": {
-      "icon": "Ikon",
-      "image": "Bild"
+    "icon": "Ikon",
+    "image": "Bild"
   },
   "helpButtonComponent": {
-      "viewTutorialVideo": "Visa instruktionsvideo",
-      "documentation": "Dokumentation",
-      "close": "Stäng",
-      "videoTutorialComingSoon": "Instruktionsvideo kommer snart"
+    "viewTutorialVideo": "Visa instruktionsvideo",
+    "documentation": "Dokumentation",
+    "close": "Stäng",
+    "videoTutorialComingSoon": "Instruktionsvideo kommer snart"
   },
   "searchEngineEditor": {
-      "seoSettings": "SEO-inställningar",
-      "pageSEOSettings": "Sidans SEO-inställningar",
-      "pageDesciption": "Sidbeskrivning"
+    "seoSettings": "SEO-inställningar",
+    "pageSEOSettings": "Sidans SEO-inställningar",
+    "pageDesciption": "Sidbeskrivning"
   },
   "common": {
-      "support": "Support",
-      "needHelp": "Behöver du hjälp?",
-      "noResults": "Inga resultat",
-      "add": "Lägg till",
-      "dupDept": "Duplicera avdelning",
-      "remove": "Ta bort",
-      "save": "Spara",
-      "cancel": "Avbryt",
-      "view": "Visa",
-      "close": "Stäng",
-      "image": "Bild",
-      "description": "Beskrivning",
-      "templateDetails": "Mallinformation",
-      "information": "Information",
-      "recPlan": "Rekommenderad plan",
-      "totalDepts": "Totalt antal avdelningar",
-      "totalRanks": "Totalt antal rangordningar",
-      "totalRosters": "Totalt antal listor",
-      "totalForms": "Totalt antal formulär",
-      "totalStages": "Totalt antal steg",
-      "totalStageGroups": "Totalt antal steggrupper",
-      "calCates": "Kalenderkategorier",
-      "departments": "Avdelningar",
-      "rosters": "Listor",
-      "forms": "Formulär",
-      "calendars": "Kalendrar",
-      "previewTempDepartmentDetails": "Mallavdelningsdetaljer",
-      "previewTempRosterDetails": "Malllistdetaljer",
-      "previewTempFormDetails": "Mallformulärdetaljer",
-      "previewTempPageDetails": "Mallsidans detaljer",
-      "previewTempToolbarDetails": "Mallverktygsfältets detaljer",
-      "filter": "Filter",
-      "no": "Nej",
-      "stages": "Steg",
-      "stageGroups": "Steggrupper",
-      "pages": "Sidor",
-      "toolbar": "Verktygsfält",
-      "toolbarItems": "Verktygsfältsobjekt",
-      "manage": "Hantera",
-      "return": "Återvänd",
-      "learnMore": "Läs mer",
-      "previewTempStageGroupDetails": "Förhandsgranska steggruppsdetaljer"
+    "support": "Support",
+    "needHelp": "Behöver du hjälp?",
+    "noResults": "Inga resultat",
+    "add": "Lägg till",
+    "dupDept": "Duplicera avdelning",
+    "remove": "Ta bort",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "view": "Visa",
+    "close": "Stäng",
+    "image": "Bild",
+    "description": "Beskrivning",
+    "templateDetails": "Mallinformation",
+    "information": "Information",
+    "recPlan": "Rekommenderad plan",
+    "totalDepts": "Totalt antal avdelningar",
+    "totalRanks": "Totalt antal rangordningar",
+    "totalRosters": "Totalt antal listor",
+    "totalForms": "Totalt antal formulär",
+    "totalStages": "Totalt antal steg",
+    "totalStageGroups": "Totalt antal steggrupper",
+    "calCates": "Kalenderkategorier",
+    "departments": "Avdelningar",
+    "rosters": "Listor",
+    "forms": "Formulär",
+    "calendars": "Kalendrar",
+    "previewTempDepartmentDetails": "Mallavdelningsdetaljer",
+    "previewTempRosterDetails": "Malllistdetaljer",
+    "previewTempFormDetails": "Mallformulärdetaljer",
+    "previewTempPageDetails": "Mallsidans detaljer",
+    "previewTempToolbarDetails": "Mallverktygsfältets detaljer",
+    "filter": "Filter",
+    "no": "Nej",
+    "stages": "Steg",
+    "stageGroups": "Steggrupper",
+    "pages": "Sidor",
+    "toolbar": "Verktygsfält",
+    "toolbarItems": "Verktygsfältsobjekt",
+    "manage": "Hantera",
+    "return": "Återvänd",
+    "learnMore": "Läs mer",
+    "previewTempStageGroupDetails": "Förhandsgranska steggruppsdetaljer"
   },
   "permissions": {
-      "kickUser": "Sparka användare",
-      "banUser": "Banna användare",
-      "archiveUser": "Arkivera användare",
-      "changePermissions": "Ändra behörigheter",
-      "modifyComInfo": "Modifiera gemenskapsanpassning",
-      "modifyComDepts": "Modifiera avdelningar via chef",
-      "modifyComForms": "Modifiera anpassade formulär via redigerare",
-      "modifyComRosters": "Modifiera anpassade listor via redigerare",
-      "modifyDiscordHooks": "Modifiera Discord-loggningswebhooks",
-      "modifyIntegration": "Modifiera API-integration",
-      "tooltips": {
-          "system": {
-              "kickUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att sparka en annan användare från gemenskapen.",
-              "banUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att banna en annan användare från gemenskapen.",
-              "archiveUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att arkivera en annan användare från gemenskapen.",
-              "changePermissionsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ändra en annan användares behörigheter och kontouppgifter från gemenskapen.",
-              "modifyComInfoExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa aspekter av Sonoran CMS-plattformen såsom Namn, Bild, Namn/Identifieringsformat, etc.",
-              "modifyComFormsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa de anpassade formulärmallarna som används när användare skickar in formulär.",
-              "modifyComDeptsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa avdelningar och rangordningar som du gör nu.",
-              "modifyComRostersExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa de mallar som används för att visa gemenskapens rosterdata.",
-              "modifyDiscordHooksExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa Discord-webhook-inställningarna för gemenskapen.",
-              "modifyIntegrationExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa och hämta API-referenser.",
-              "modifyToolbarExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa verktygsfältets inställningar för gemenskapen.",
-              "modifyPagesExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa sidorna för gemenskapen.",
-              "modifyDocumentsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att hantera alla dokument inom Sonoran CMS Community Drive.",
-              "clockInOutExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att stämpla in och ut.",
-              "modifyTeamSpeakExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra TeamSpeak-integrationsinställningarna.",
-              "modifyShieldExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra Sonoran Shield-inställningarna."
-          },
-          "navigation": {
-              "viewDashboardBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Dashboard-knappen på sidonavigeringsfältet.",
-              "viewDriveBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Drive-knappen på sidonavigeringsfältet (om behörigheten 'Ändra alla dokument (Drive)' beviljas är detta redan ärvt).",
-              "viewCalendarBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Kalender-knappen på sidonavigeringsfältet.",
-              "viewRostersBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Roster-knapparna på sidonavigeringsfältet.",
-              "viewProfileBtnExplanation": "Att bevilja denna behörighet gör att en användare kan se knappen för Community-profilen i sidonavigeringsfältet."
-          },
-          "forms": {
-              "viewSubmittedExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan se alla inskickade formulär av denna typ.",
-              "editOwnExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan redigera sina inskickade formulär av denna typ.",
-              "changeStagesExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan ändra stadiet för ett inskickat formulär av denna typ.",
-              "modifyReplySettingsExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan ändra svarinställningarna för ett inskickat formulär av denna typ.",
-              "replyExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan svara på ett inskickat formulär av denna typ om svarinställningarna tillåter grundläggande svar.",
-              "replyModExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan svara på ett inskickat formulär av denna typ om svarinställningarna tillåter grundläggande eller moderator-svar.",
-              "replyAdminExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan svara på ett inskickat formulär av denna typ om svarinställningarna tillåter grundläggande, moderator- eller administratörssvar.",
-              "submitExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att skicka in ett formulär av denna typ.",
-              "adminDeleteExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att helt radera en inlämning av detta formulär.",
-              "modifyStageSettings": "Modify Stage Settings",
-              "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-          },
-          "rosters": {
-              "viewExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att visa denna lista.",
-              "addPrimaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att lägga till en användare i listan som en Primär Rad (sorterad initialt före sekundära rader).",
-              "addSecondaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att lägga till en användare i listan som en Sekundär Rad (sorterad efter primära rader).",
-              "editPrimaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera en primär rad i denna lista.",
-              "editSecondaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera en sekundär rad i denna lista.",
-              "removePrimaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort en primär rad från listan.",
-              "removeSecondaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort en sekundär rad från listan.",
-              "viewModColumnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att visa listkolumn(er) som är markerade som endast för moderatorer.",
-              "viewAdminColumnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att se kolumn(er) i listan som är markerade som endast för administratörer."
-          },
-          "calendars": {
-              "viewExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att se händelser inom denna kalenderkategori.",
-              "createExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att skapa händelser inom denna kalenderkategori.",
-              "removeExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort händelser inom denna kalenderkategori.",
-              "editOtherExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera händelser inom denna kalenderkategori."
-          },
-          "servers": {
-              "allowWhitelistExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att tillåtas genom API-whitelist (om en användare har blockbehörigheten för denna server kommer de att blockeras eftersom blockeringen har företräde).",
-              "blockWhitelistExplanation": "Att bevilja denna behörighet kommer att blockera en användare med denna rang från att tillåtas genom API-whitelist (om en användare har tillåtelsebehörigheten för denna server kommer de fortfarande att blockeras eftersom det har företräde)."
-          },
-          "profileFields": {
-              "attachExplanation": "Att bevilja denna behörighet kommer att fästa detta profilfält till alla medlemmars profiler som har denna rang. Detta kommer att tillåta alla som ser din profil att se det om inte någon av de två nästa behörigheterna tillämpas.",
-              "hideFromOwnerExplanation": "Att bevilja denna behörighet kommer att dölja fältet från medlemmens profil som har denna rang.",
-              "requireModToViewExplanation": "Att bevilja denna behörighet kommer att kräva att en medlem har \"Visa fält på andra profiler - Mod Power\" för att kunna se fältet på en profil.",
-              "requireAdminToViewExplanation": "Att bevilja denna behörighet kommer att kräva att en medlem har \"Visa fält på andra profiler - Admin Power\" för att kunna se fältet på en profil.",
-              "viewModPowerExplanation": "Att bevilja denna behörighet kommer att tillåta en medlem att se detta fält på en profil med \"Mod Power\" i åtanke. Se ovanstående behörigheter för association.",
-              "viewAdminPowerExplanation": "Att bevilja denna behörighet kommer att tillåta en medlem att se detta fält på en profil med \"Admin Power\" i åtanke. Se ovanstående behörigheter för association.",
-              "allowOwnerToEditExplanation": "Att bevilja denna behörighet kommer att tillåta medlemmen som har denna rang att redigera detta fält på sin profil. Om behörigheten \"Döljer fält från profilägare\" beviljas kommer den att ignorera denna behörighet eftersom den inte kommer att vara synlig.",
-              "editOthersExplanation": "Att bevilja denna behörighet kommer att tillåta medlemmen som har denna rang att redigera detta fält på alla medlemsprofiler som de kan se."
-          },
-          "pages": {
-              "viewExplanation": "Att bevilja dessa behörigheter kommer att tillåta medlemmen som har denna rang att se denna sida eftersom sidan är inställd på PRIVAT."
-          }
+    "kickUser": "Sparka användare",
+    "banUser": "Banna användare",
+    "archiveUser": "Arkivera användare",
+    "changePermissions": "Ändra behörigheter",
+    "modifyComInfo": "Modifiera gemenskapsanpassning",
+    "modifyComDepts": "Modifiera avdelningar via chef",
+    "modifyComForms": "Modifiera anpassade formulär via redigerare",
+    "modifyComRosters": "Modifiera anpassade listor via redigerare",
+    "modifyDiscordHooks": "Modifiera Discord-loggningswebhooks",
+    "modifyIntegration": "Modifiera API-integration",
+    "tooltips": {
+      "system": {
+        "kickUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att sparka en annan användare från gemenskapen.",
+        "banUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att banna en annan användare från gemenskapen.",
+        "archiveUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att arkivera en annan användare från gemenskapen.",
+        "changePermissionsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ändra en annan användares behörigheter och kontouppgifter från gemenskapen.",
+        "modifyComInfoExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa aspekter av Sonoran CMS-plattformen såsom Namn, Bild, Namn/Identifieringsformat, etc.",
+        "modifyComFormsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa de anpassade formulärmallarna som används när användare skickar in formulär.",
+        "modifyComDeptsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa avdelningar och rangordningar som du gör nu.",
+        "modifyComRostersExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa de mallar som används för att visa gemenskapens rosterdata.",
+        "modifyDiscordHooksExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa Discord-webhook-inställningarna för gemenskapen.",
+        "modifyIntegrationExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa och hämta API-referenser.",
+        "modifyToolbarExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa verktygsfältets inställningar för gemenskapen.",
+        "modifyPagesExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att anpassa sidorna för gemenskapen.",
+        "modifyDocumentsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att hantera alla dokument inom Sonoran CMS Community Drive.",
+        "clockInOutExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att stämpla in och ut.",
+        "modifyTeamSpeakExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra TeamSpeak-integrationsinställningarna.",
+        "modifyShieldExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra Sonoran Shield-inställningarna."
       },
-      "disciplinaryPanel": "Disciplinpanel",
-      "changePermissionsHigher": "Ändra högre behörigheter"
+      "navigation": {
+        "viewDashboardBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Dashboard-knappen på sidonavigeringsfältet.",
+        "viewDriveBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Drive-knappen på sidonavigeringsfältet (om behörigheten 'Ändra alla dokument (Drive)' beviljas är detta redan ärvt).",
+        "viewCalendarBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Kalender-knappen på sidonavigeringsfältet.",
+        "viewRostersBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Roster-knapparna på sidonavigeringsfältet.",
+        "viewProfileBtnExplanation": "Att bevilja denna behörighet gör att en användare kan se knappen för Community-profilen i sidonavigeringsfältet."
+      },
+      "forms": {
+        "viewSubmittedExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan se alla inskickade formulär av denna typ.",
+        "editOwnExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan redigera sina inskickade formulär av denna typ.",
+        "changeStagesExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan ändra stadiet för ett inskickat formulär av denna typ.",
+        "modifyReplySettingsExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan ändra svarinställningarna för ett inskickat formulär av denna typ.",
+        "replyExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan svara på ett inskickat formulär av denna typ om svarinställningarna tillåter grundläggande svar.",
+        "replyModExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan svara på ett inskickat formulär av denna typ om svarinställningarna tillåter grundläggande eller moderator-svar.",
+        "replyAdminExplanation": "Att bevilja denna behörighet gör att en användare med denna rang kan svara på ett inskickat formulär av denna typ om svarinställningarna tillåter grundläggande, moderator- eller administratörssvar.",
+        "submitExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att skicka in ett formulär av denna typ.",
+        "adminDeleteExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att helt radera en inlämning av detta formulär.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+      },
+      "rosters": {
+        "viewExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att visa denna lista.",
+        "addPrimaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att lägga till en användare i listan som en Primär Rad (sorterad initialt före sekundära rader).",
+        "addSecondaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att lägga till en användare i listan som en Sekundär Rad (sorterad efter primära rader).",
+        "editPrimaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera en primär rad i denna lista.",
+        "editSecondaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera en sekundär rad i denna lista.",
+        "removePrimaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort en primär rad från listan.",
+        "removeSecondaryUserExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort en sekundär rad från listan.",
+        "viewModColumnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att visa listkolumn(er) som är markerade som endast för moderatorer.",
+        "viewAdminColumnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att se kolumn(er) i listan som är markerade som endast för administratörer."
+      },
+      "calendars": {
+        "viewExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att se händelser inom denna kalenderkategori.",
+        "createExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att skapa händelser inom denna kalenderkategori.",
+        "removeExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort händelser inom denna kalenderkategori.",
+        "editOtherExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera händelser inom denna kalenderkategori."
+      },
+      "servers": {
+        "allowWhitelistExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att tillåtas genom API-whitelist (om en användare har blockbehörigheten för denna server kommer de att blockeras eftersom blockeringen har företräde).",
+        "blockWhitelistExplanation": "Att bevilja denna behörighet kommer att blockera en användare med denna rang från att tillåtas genom API-whitelist (om en användare har tillåtelsebehörigheten för denna server kommer de fortfarande att blockeras eftersom det har företräde)."
+      },
+      "profileFields": {
+        "attachExplanation": "Att bevilja denna behörighet kommer att fästa detta profilfält till alla medlemmars profiler som har denna rang. Detta kommer att tillåta alla som ser din profil att se det om inte någon av de två nästa behörigheterna tillämpas.",
+        "hideFromOwnerExplanation": "Att bevilja denna behörighet kommer att dölja fältet från medlemmens profil som har denna rang.",
+        "requireModToViewExplanation": "Att bevilja denna behörighet kommer att kräva att en medlem har \"Visa fält på andra profiler - Mod Power\" för att kunna se fältet på en profil.",
+        "requireAdminToViewExplanation": "Att bevilja denna behörighet kommer att kräva att en medlem har \"Visa fält på andra profiler - Admin Power\" för att kunna se fältet på en profil.",
+        "viewModPowerExplanation": "Att bevilja denna behörighet kommer att tillåta en medlem att se detta fält på en profil med \"Mod Power\" i åtanke. Se ovanstående behörigheter för association.",
+        "viewAdminPowerExplanation": "Att bevilja denna behörighet kommer att tillåta en medlem att se detta fält på en profil med \"Admin Power\" i åtanke. Se ovanstående behörigheter för association.",
+        "allowOwnerToEditExplanation": "Att bevilja denna behörighet kommer att tillåta medlemmen som har denna rang att redigera detta fält på sin profil. Om behörigheten \"Döljer fält från profilägare\" beviljas kommer den att ignorera denna behörighet eftersom den inte kommer att vara synlig.",
+        "editOthersExplanation": "Att bevilja denna behörighet kommer att tillåta medlemmen som har denna rang att redigera detta fält på alla medlemsprofiler som de kan se."
+      },
+      "pages": {
+        "viewExplanation": "Att bevilja dessa behörigheter kommer att tillåta medlemmen som har denna rang att se denna sida eftersom sidan är inställd på PRIVAT."
+      }
+    },
+    "disciplinaryPanel": "Disciplinpanel",
+    "changePermissionsHigher": "Ändra högre behörigheter"
   },
   "growth": {
-      "ERRORED": "FELAKTIG",
-      "thereWasNotEnoughDataForThisCommmunityToDetermine": "Det fanns inte tillräckligt med data för att bestämma detta samhälle",
-      "fastestGrowing": "Snabbast växande",
-      "fastestGrowingCommunityInTheLast7DaysComparedTo": "snabbast växande samhälle under de senaste 7 dagarna jämfört med"
+    "ERRORED": "FELAKTIG",
+    "thereWasNotEnoughDataForThisCommmunityToDetermine": "Det fanns inte tillräckligt med data för att bestämma detta samhälle",
+    "fastestGrowing": "Snabbast växande",
+    "fastestGrowingCommunityInTheLast7DaysComparedTo": "snabbast växande samhälle under de senaste 7 dagarna jämfört med"
   },
   "menu": {
-      "join": "Gå med i en gemenskap",
-      "togDefaultCom": "Växla standard CMS-gemenskap",
-      "leaveCommunity": "Lämna gemenskap",
-      "leaveCommunityTitle": "Bekräftelse på att lämna gemenskap",
-      "leaveCommunityMessage": "Är du säker på att du vill lämna denna gemenskap? Du kommer inte längre att kunna komma åt något av gemenskapens innehåll."
+    "join": "Gå med i en gemenskap",
+    "togDefaultCom": "Växla standard CMS-gemenskap",
+    "leaveCommunity": "Lämna gemenskap",
+    "leaveCommunityTitle": "Bekräftelse på att lämna gemenskap",
+    "leaveCommunityMessage": "Är du säker på att du vill lämna denna gemenskap? Du kommer inte längre att kunna komma åt något av gemenskapens innehåll."
   },
   "forms": {
-      "templateTypes": {
-          "newmemberapp": "Ny medlemsansökan",
-          "reserveapp": "Sekundär ansökan",
-          "plog": "Tidslogg",
-          "commend": "Beröm",
-          "complaint": "Klagomål",
-          "comform": "Gemenskapsformulär",
-          "disciplinary": "Disciplinär åtgärd",
-          "training": "Träningshistorik",
-          "generalapp": "General Form"
-      },
-      "formDeleteConfirm": "Är du säker på att du vill radera \"{formName}\"?",
-      "secFieldsHeader": "Fält",
-      "stageCreate": "Skapa steg",
-      "stageUpdate": "Uppdatera steg",
-      "stageActionTypes": {
-          "autoReply": "Automatisk formulärsvar",
-          "notifySubmitterNotification": "Meddela via notifikation",
-          "notifySubmitterEmail": "Meddela via e-post",
-          "disableEnableReplies": "Inaktivera/Aktivera svar",
-          "changeDepartmentSlashRank": "Ändra rang(er)",
-          "modifyCommunityStatus": "Ändra gemenskapsstatus",
-          "executeDiscordWebhook": "Utför Discord Webhook",
-          "executeDiscordDm": "Skicka Discord DM",
-          "applyDisciplinaryPoints": "Apply Disciplinary Points"
-      },
-      "appSubmit": "Skicka in ansökan/formulär",
-      "editOwn": "Redigera eget formulär",
-      "changeStages": "Ändra formulärsteg",
-      "toggleReplies": "Aktivera/Inaktivera svar",
-      "appReply": "Grundläggande svarsåtkomst",
-      "appReplyMod": "Mod svarsåtkomst",
-      "appReplyAdmin": "Admin svarsåtkomst",
-      "viewSubmitted": "Visa inskickade",
-      "archiveOwn": "Arkivera eget formulär",
-      "archiveForm": "Arkivera formulär",
-      "unarchiveOwn": "Avarkivera eget formulär",
-      "unarchiveForm": "Avarkivera formulär",
-      "adminDelete": "Admin Radera",
-      "apply": {
-          "availableForms": "Tillgängliga Formulär",
-          "myForms": "Mina Formulär",
-          "apply": "Skicka"
-      },
-      "noAdditional": "Inga Ytterligare Fält",
-      "premadeSections": "Förgjorda Sektioner",
-      "fields": "Fält",
-      "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part",
-      "modifyStageSettings": "Ändra sceninställningar"
+    "templateTypes": {
+      "newmemberapp": "Ny medlemsansökan",
+      "reserveapp": "Sekundär ansökan",
+      "plog": "Tidslogg",
+      "commend": "Beröm",
+      "complaint": "Klagomål",
+      "comform": "Gemenskapsformulär",
+      "disciplinary": "Disciplinär åtgärd",
+      "training": "Träningshistorik",
+      "generalapp": "General Form"
+    },
+    "formDeleteConfirm": "Är du säker på att du vill radera \"{formName}\"?",
+    "secFieldsHeader": "Fält",
+    "stageCreate": "Skapa steg",
+    "stageUpdate": "Uppdatera steg",
+    "stageActionTypes": {
+      "autoReply": "Automatisk formulärsvar",
+      "notifySubmitterNotification": "Meddela via notifikation",
+      "notifySubmitterEmail": "Meddela via e-post",
+      "disableEnableReplies": "Inaktivera/Aktivera svar",
+      "changeDepartmentSlashRank": "Ändra rang(er)",
+      "modifyCommunityStatus": "Ändra gemenskapsstatus",
+      "executeDiscordWebhook": "Utför Discord Webhook",
+      "executeDiscordDm": "Skicka Discord DM",
+      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+    },
+    "appSubmit": "Skicka in ansökan/formulär",
+    "editOwn": "Redigera eget formulär",
+    "changeStages": "Ändra formulärsteg",
+    "toggleReplies": "Aktivera/Inaktivera svar",
+    "appReply": "Grundläggande svarsåtkomst",
+    "appReplyMod": "Mod svarsåtkomst",
+    "appReplyAdmin": "Admin svarsåtkomst",
+    "viewSubmitted": "Visa inskickade",
+    "archiveOwn": "Arkivera eget formulär",
+    "archiveForm": "Arkivera formulär",
+    "unarchiveOwn": "Avarkivera eget formulär",
+    "unarchiveForm": "Avarkivera formulär",
+    "adminDelete": "Admin Radera",
+    "apply": {
+      "availableForms": "Tillgängliga Formulär",
+      "myForms": "Mina Formulär",
+      "apply": "Skicka"
+    },
+    "noAdditional": "Inga Ytterligare Fält",
+    "premadeSections": "Förgjorda Sektioner",
+    "fields": "Fält",
+    "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part",
+    "modifyStageSettings": "Ändra sceninställningar"
   },
   "departments": {
-      "departmentName": "Avdelningsnamn",
-      "shortName": "Kort Namn",
-      "ranksAndPositions": "Associerade Ranks/Positioner",
-      "addRank": "Lägg till Rank",
-      "removeRank": "Ta bort Rank",
-      "rankName": "Rank Namn",
-      "rankColor": "Rank Kosmetisk Färg",
-      "rankIcon": "Rank Kosmetisk Ikon",
-      "rankImg": "Rank Kosmetisk Bild",
-      "cmsPermissions": "CMS Behörigheter",
-      "formPermissions": "Formulär Behörigheter",
-      "rosterPermissions": "Roster Behörigheter",
-      "calendarPermissions": "Kalender Behörigheter",
-      "serverPermissions": "Server Behörigheter",
-      "profileFieldPermissions": "Profilfält Behörigheter",
-      "navigationPermissions": "Navigationsbehörigheter",
-      "rankPower": "Makt",
-      "rankPowerDesc": "Rank Makt är associerad med vem du kan försöka utföra systemåtgärder på och hur du skulle sortera i roster. Till exempel kan du inte sparka någon som har samma eller högre rank makt än du.",
-      "limitsHit": "Maximalt antal avdelningar gräns nådd!",
-      "departmentType": "Avdelningstyp",
-      "typeOptions": {
-          "leadership": "Gemenskapsledning",
-          "primary": "Primär Avdelning",
-          "reserve": "Sekundär Avdelning",
-          "cwidesub": "Gemenskapsomfattande Underavdelning"
-      },
-      "addToRoster": "Skapa Rad",
-      "saveMemberOnRoster": "Spara Rad",
-      "removeMemberFromRoster": "Ta bort från Roster",
-      "duplicateRank": "Duplicera Rank",
-      "markRankPrimary": "Markera Rank Endast Primär Användning",
-      "markRankSecondary": "Markera Rank Endast Sekundär Användning",
-      "copyPermissions": "Kopiera Behörigheter",
-      "pastePermissions": "Klistra in Behörigheter",
-      "removeConfirm": "Är du säker på att du vill ta bort denna avdelning?",
-      "toggleAllPermissions": "Växla Alla Behörigheter",
-      "copyRankIdToClipboard": "Kopiera ID till Urklipp",
-      "copySuccess": "Kopierat till urklipp!",
-      "defaultPermissions": "Standard Avdelningsbehörigheter",
-      "pagePermissions": "Sidbehörigheter"
+    "departmentName": "Avdelningsnamn",
+    "shortName": "Kort Namn",
+    "ranksAndPositions": "Associerade Ranks/Positioner",
+    "addRank": "Lägg till Rank",
+    "removeRank": "Ta bort Rank",
+    "rankName": "Rank Namn",
+    "rankColor": "Rank Kosmetisk Färg",
+    "rankIcon": "Rank Kosmetisk Ikon",
+    "rankImg": "Rank Kosmetisk Bild",
+    "cmsPermissions": "CMS Behörigheter",
+    "formPermissions": "Formulär Behörigheter",
+    "rosterPermissions": "Roster Behörigheter",
+    "calendarPermissions": "Kalender Behörigheter",
+    "serverPermissions": "Server Behörigheter",
+    "profileFieldPermissions": "Profilfält Behörigheter",
+    "navigationPermissions": "Navigationsbehörigheter",
+    "rankPower": "Makt",
+    "rankPowerDesc": "Rank Makt är associerad med vem du kan försöka utföra systemåtgärder på och hur du skulle sortera i roster. Till exempel kan du inte sparka någon som har samma eller högre rank makt än du.",
+    "limitsHit": "Maximalt antal avdelningar gräns nådd!",
+    "departmentType": "Avdelningstyp",
+    "typeOptions": {
+      "leadership": "Gemenskapsledning",
+      "primary": "Primär Avdelning",
+      "reserve": "Sekundär Avdelning",
+      "cwidesub": "Gemenskapsomfattande Underavdelning"
+    },
+    "addToRoster": "Skapa Rad",
+    "saveMemberOnRoster": "Spara Rad",
+    "removeMemberFromRoster": "Ta bort från Roster",
+    "duplicateRank": "Duplicera Rank",
+    "markRankPrimary": "Markera Rank Endast Primär Användning",
+    "markRankSecondary": "Markera Rank Endast Sekundär Användning",
+    "copyPermissions": "Kopiera Behörigheter",
+    "pastePermissions": "Klistra in Behörigheter",
+    "removeConfirm": "Är du säker på att du vill ta bort denna avdelning?",
+    "toggleAllPermissions": "Växla Alla Behörigheter",
+    "copyRankIdToClipboard": "Kopiera ID till Urklipp",
+    "copySuccess": "Kopierat till urklipp!",
+    "defaultPermissions": "Standard Avdelningsbehörigheter",
+    "pagePermissions": "Sidbehörigheter"
   },
   "customization": {
-      "inputs": {
-          "discoveryEnable": "Aktivera Community Discovery",
-          "discoverySelectForm": "Standardformulär för nya medlemmar",
-          "bumpDiscovery": "Bump Discovery",
-          "discoveryTags": "Sök Taggar",
-          "logo": "Community Logotyp",
-          "banner": "Community Bannerbild"
-      },
-      "tooltips": {
-          "discoveryEnable": "Detta aktiverar/inaktiverar communityn för Sonoran CMS:s Community Discovery-system.",
-          "discoverySelectForm": "Detta kommer automatiskt att visa detta formulär för inlämning om en användare går med i communityn genom Sonoran CMS Community Discovery-systemet. Formuläret måste vara av typen \"Ny medlemsansökan\".",
-          "enableDiscoveryFirst": "Community Discovery måste vara aktiverat för att använda detta",
-          "hoursUntilNextBump": "Du har en timme kvar innan du kan bumpa igen | Du har {hours} timmar kvar innan du kan bumpa igen",
-          "canBumpDiscovery": "Ta din community till toppen av upptäcktsidan!"
-      }
+    "inputs": {
+      "discoveryEnable": "Aktivera Community Discovery",
+      "discoverySelectForm": "Standardformulär för nya medlemmar",
+      "bumpDiscovery": "Bump Discovery",
+      "discoveryTags": "Sök Taggar",
+      "logo": "Community Logotyp",
+      "banner": "Community Bannerbild"
+    },
+    "tooltips": {
+      "discoveryEnable": "Detta aktiverar/inaktiverar communityn för Sonoran CMS:s Community Discovery-system.",
+      "discoverySelectForm": "Detta kommer automatiskt att visa detta formulär för inlämning om en användare går med i communityn genom Sonoran CMS Community Discovery-systemet. Formuläret måste vara av typen \"Ny medlemsansökan\".",
+      "enableDiscoveryFirst": "Community Discovery måste vara aktiverat för att använda detta",
+      "hoursUntilNextBump": "Du har en timme kvar innan du kan bumpa igen | Du har {hours} timmar kvar innan du kan bumpa igen",
+      "canBumpDiscovery": "Ta din community till toppen av upptäcktsidan!"
+    }
   },
   "formManagement": {
-      "pending": "Väntande",
-      "approve": "Godkänn",
-      "approved": "Godkänd",
-      "denied": "Nekad",
-      "submitter": "Inlämnare",
-      "status": "Status"
+    "pending": "Väntande",
+    "approve": "Godkänn",
+    "approved": "Godkänd",
+    "denied": "Nekad",
+    "submitter": "Inlämnare",
+    "status": "Status"
   },
   "calendar": {
-      "viewEvents": "Visa Evenemang",
-      "createEvents": "Skapa Evenemang",
-      "removeEvents": "Ta bort Evenemang",
-      "editOtherEvents": "Redigera Andra Evenemang",
-      "createEvent": "Skapa ett Evenemang - Kategori",
-      "eventNotFound": "Evenemang Ej Hittat/Tillgängligt",
-      "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt."
+    "viewEvents": "Visa Evenemang",
+    "createEvents": "Skapa Evenemang",
+    "removeEvents": "Ta bort Evenemang",
+    "editOtherEvents": "Redigera Andra Evenemang",
+    "createEvent": "Skapa ett Evenemang - Kategori",
+    "eventNotFound": "Evenemang Ej Hittat/Tillgängligt",
+    "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt."
   },
   "limits": {
-      "version": "Version",
-      "departments": "Avdelningar",
-      "driveStorage": "Lagring",
-      "idPrefix": "ID:",
-      "versionPrefix": "Nivå:",
-      "expiresPrefix": "Utgår: ",
-      "goProToday": "Bli Pro Idag"
+    "version": "Version",
+    "departments": "Avdelningar",
+    "driveStorage": "Lagring",
+    "idPrefix": "ID:",
+    "versionPrefix": "Nivå:",
+    "expiresPrefix": "Utgår: ",
+    "goProToday": "Bli Pro Idag"
   },
   "roster": {
-      "addPrimary": "Lägg till Rad",
-      "addSecondary": "Lägg till Rad",
-      "editingMember": "Redigera Rad"
+    "addPrimary": "Lägg till Rad",
+    "addSecondary": "Lägg till Rad",
+    "editingMember": "Redigera Rad"
   },
   "templateManagement": {
-      "creationDescription": "Denna skapelsedialog kommer att hjälpa dig att skapa en Sonoran CMS Community Mall från element från din community, du kan uppdatera och ta bort denna mall när som helst efter att skapelsen är slutförd.",
-      "previewImages": "Mallförhandsgranskningsbilder",
-      "creationSelectionDescription": "Denna skapelsedialog kommer att hjälpa dig att välja vilka komponenter i din community du vill inkludera i mallen, du kan uppdatera och ta bort komponenter från denna mall efter att skapelsen är slutförd.",
-      "manageDescription": "Denna hanteringsdialog kommer att låta dig lägga till, ta bort och uppdatera element och information i din mall. När du sparar några ändringar måste de granskas igen av Sonoran CMS Development Team.",
-      "manageImages": "Hantera mallförhandsgranskningsbilder"
+    "creationDescription": "Denna skapelsedialog kommer att hjälpa dig att skapa en Sonoran CMS Community Mall från element från din community, du kan uppdatera och ta bort denna mall när som helst efter att skapelsen är slutförd.",
+    "previewImages": "Mallförhandsgranskningsbilder",
+    "creationSelectionDescription": "Denna skapelsedialog kommer att hjälpa dig att välja vilka komponenter i din community du vill inkludera i mallen, du kan uppdatera och ta bort komponenter från denna mall efter att skapelsen är slutförd.",
+    "manageDescription": "Denna hanteringsdialog kommer att låta dig lägga till, ta bort och uppdatera element och information i din mall. När du sparar några ändringar måste de granskas igen av Sonoran CMS Development Team.",
+    "manageImages": "Hantera mallförhandsgranskningsbilder"
   },
   "profileFieldsEditor": {
-      "errors": {
-          "onGetAll": "Ett fel inträffade vid hämtning av alla profilfält. Fel: {error}",
-          "noSelectOptions": "Profilfältstypen 'SELECT' kräver minst ett alternativ.",
-          "onSave": "Ett fel inträffade vid sparande av ett nytt profilfält. Fel: {error}",
-          "noFindField": "Det fanns inget fält som hittades från det som valts."
-      }
+    "errors": {
+      "onGetAll": "Ett fel inträffade vid hämtning av alla profilfält. Fel: {error}",
+      "noSelectOptions": "Profilfältstypen 'SELECT' kräver minst ett alternativ.",
+      "onSave": "Ett fel inträffade vid sparande av ett nytt profilfält. Fel: {error}",
+      "noFindField": "Det fanns inget fält som hittades från det som valts."
+    }
   },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "Sonoran Shield Nätverksförsvar",
@@ -630,7 +630,10 @@
     "vpnDetection": "VPN-detektering",
     "displayVpnDetectionFlagsOnlyForUsersWho": "Visa VPN-detekteringsflaggor endast för användare som är i vänteläge, det vill säga de som har gått med men inte har några CMS-rankningar.",
     "altDetection": "Alt Detektering",
-    "ignoreAlternateAccountDetectionFlags": "Ignorera alternativa kontodetekteringsflaggor för användare som ännu inte är i gemenskapen. Visa flaggan endast när det misstänkta alternativa kontot går med i gemenskapen."
+    "ignoreAlternateAccountDetectionFlags": "Ignorera alternativa kontodetekteringsflaggor för användare som ännu inte är i gemenskapen. Visa flaggan endast när det misstänkta alternativa kontot går med i gemenskapen.",
+    "lastWeek": "Förra veckan",
+    "lastMonth": "Förra månaden",
+    "allTime": "Alltid"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -1838,7 +1841,8 @@
     "errorFileTypeeMessage": "Filtypen stöds inte. Vänligen ladda upp endast bilder.",
     "errorDuplicateMessage": "Denna fil har redan laddats upp.",
     "errorMaxTotalSizeMessage": "Den totala storleken på filerna överskrider den maximalt tillåtna gränsen på 100MB.",
-    "errorDefaultMessage": "Ett oväntat fel inträffade under uppladdningen. Vänligen försök igen. Om problemet kvarstår, kontakta support för hjälp."
+    "errorDefaultMessage": "Ett oväntat fel inträffade under uppladdningen. Vänligen försök igen. Om problemet kvarstår, kontakta support för hjälp.",
+    "errorImageErrored": "Det uppstod ett fel vid inläsning av en bild."
   },
   "whatYouSeeEditor": {
     "updateMessage": "Textinnehållet har konverterats från den gamla redigeraren. Vänligen granska och uppdatera vid behov."

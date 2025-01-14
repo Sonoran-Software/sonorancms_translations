@@ -505,6 +505,9 @@
     "website": "Website",
     "discovery": "Discovery",
     "last24Hours": "Last 24 Hours",
+    "lastWeek": "Last Week",
+    "lastMonth": "Last Month",
+    "allTime": "All Time",
     "newMembers": "New Members",
     "lostMembers": "Lost Members",
     "activeMembers": "Active Members",
@@ -1826,6 +1829,7 @@
     "start": "Start"
   },
   "imagePreviewUploader": {
+    "errorImageErrored": "There was an error loading an image.",
     "dropArea": "Drop Area",
     "dropAreaToolTip": "Click to select or drag and drop an image here",
     "errorMessage": "An error occured uploading the image:",
