@@ -3631,7 +3631,6 @@
     "applyFixedPoints": "Apply a fixed number of points",
     "current": "Current:",
     "clickTo": "Click to:",
-    "ranksToAddAddingRanks": "Ranks To Add Adding ranks:",
     "banConfiguration": "Ban Configuration"
   },
   "PointThresholdActionEditor": {
@@ -3656,8 +3655,8 @@
     "notSetupFollowStepsBelow": "Not setup, follow steps below",
     "notWithinGuildInviteSonoranbot": "Not within guild, invite SonoranBot",
     "errorFetchingSonoranBotGuildsDataTookToo": "Error: Fetching Sonoran Bot guilds data took too long, try again later.",
-    "ranksToAddAddingRanks": "Ranks To Add Adding ranks:",
     "noRanksSelectedToBeAddedOnToAccounts": "No ranks selected to be added on to accounts...",
+    "ranksToAdd": "Ranks To Add",
     "ranksToRemove": "Ranks To Remove",
     "noRanksSelectedToBeRemovedFromAccounts": "No ranks selected to be removed from accounts...",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
@@ -3678,7 +3677,7 @@
     "notSetupFollowStepsBelow": "Not setup, follow steps below",
     "notWithinGuildInviteSonoranbot": "Not within guild, invite SonoranBot",
     "errorFetchingSonoranBotGuildsDataTookToo": "Error: Fetching Sonoran Bot guilds data took too long, try again later.",
-    "ranksToAddAddingRanks": "Ranks To Set:",
+    "ranksToAdd":"Ranks To Add",
     "noRanksSelectedToBeAddedOnToAccounts": "No ranks selected to be set on to accounts...",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
     "banConfiguration": "Ban Configuration"
