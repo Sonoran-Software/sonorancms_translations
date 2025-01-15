@@ -4121,10 +4121,6 @@
     "cadApiKey": "CAD API Key",
     "learnMore": "Learn More",
     "manualSync": "Manual Sync",
-    "kickSync": "Kick Sync",
-    "banSync": "Ban Sync",
-    "apiIdsSync": "API IDs Sync",
-    "autoJoinCad": "Auto Join CAD",
     "cadintegrationsavesuccess": "Saved CAD Integration!",
     "cadintegrationsaveerror": "Failed to save CAD integration:",
     "cadintegrationpermissionsavesuccess": "Permissions saved successfully",
@@ -4134,7 +4130,18 @@
     "sonoranCadConfigurations": "Sonoran CAD Configurations",
     "cadApiCredentials": "CAD API Credentials",
     "cadSyncOptions": "CAD Sync Options",
-    "cadPermissionsSelector": "CAD Permissions Selector"
+    "cadPermissionsSelector": "CAD Permissions Selector",
+    "banEnabled": "Ban Sync",
+    "kickEnabled": "Kick Sync",
+    "syncEnabled": "Permission Sync",
+    "joinSyncEnabled": "Join Sync",
+    "apiIdSyncEnabled": "API ID Sync",
+    "banEnabledDescription": "Banning a user from the CMS bans them from the Sonoran CAD community.",
+    "kickEnabledDescription": "Kicking a user from the CMS kicks them from the Sonoran CAD community.",
+    "syncEnabledDescription": "Sync permissions from Sonoran CMS user accounts to their Sonoran CAD community account.",
+    "joinSyncEnabledDescription": "Automatically join all user accounts in the CMS to the Sonoran CAD community.",
+    "apiIdSyncEnabledDescription": "Automatically add user API IDs from Sonoran CMS to their Sonoran CAD community account.",
+    "cadSyncNotEnabled": "Enable Permission Sync to configure permissions."
   },
   "RadioIntegration": {
     "title": "Sonoran Radio Configurations",
@@ -4153,9 +4160,10 @@
     "autoJoinDisabled": "Auto Join Disabled",
     "autoJoinRanks": "Ranks that Auto Join",
     "autoJoinRanksEmpty": "Join sync only works for the ranks you select, but you don't have any selected!",
-    "communityMembersAutomaticallyJoinSonoran": "Community members automatically join Sonoran Radio when they join CMS",
-    "communityMembersAutomaticallyKickSonoran": "Community members automatically leave/are kicked from Sonoran Radio when they leave CMS",
-    "nameSync": "Name Sync"
+    "communityMembersAutomaticallyJoinSonoran": "Automatically join all user accounts in the CMS to the Sonoran Radio community.",
+    "communityMembersAutomaticallyKickSonoran": "Kicking a user from the CMS kicks them from the Sonoran Radio community.",
+    "nameSync": "Name Sync",
+    "nameSyncDescription": "Automatically sync display names from Sonoran CMS to their Sonoran Radio community account."
   },
   "imageInn": {
     "dropArea": "Drop Area"
