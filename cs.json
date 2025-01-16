@@ -1,324 +1,324 @@
 {
-    "config": {
-        "displayName": "Čeština",
-        "path": "cs"
+  "config": {
+    "displayName": "Čeština",
+    "path": "cs"
+  },
+  "iconImageHandler": {
+    "icon": "Ikona",
+    "image": "Obrázek"
+  },
+  "helpButtonComponent": {
+    "viewTutorialVideo": "Zhlédnout výukové video",
+    "documentation": "Dokumentace",
+    "close": "Zavřít",
+    "videoTutorialComingSoon": "Výukové video brzy přijde"
+  },
+  "searchEngineEditor": {
+    "seoSettings": "Nastavení SEO",
+    "pageSEOSettings": "Nastavení SEO stránky",
+    "pageDesciption": "Popis stránky"
+  },
+  "common": {
+    "support": "Podpora",
+    "needHelp": "Potřebujete pomoc?",
+    "noResults": "Žádné výsledky",
+    "add": "Přidat",
+    "dupDept": "Duplikovat oddělení",
+    "remove": "Odstranit",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "view": "Zobrazit",
+    "close": "Zavřít",
+    "image": "Obrázek",
+    "description": "Popis",
+    "templateDetails": "Podrobnosti šablony",
+    "information": "Informace",
+    "recPlan": "Doporučený plán",
+    "totalDepts": "Celkem oddělení",
+    "totalRanks": "Celkem hodností",
+    "totalRosters": "Celkem seznamů",
+    "totalForms": "Celkem formulářů",
+    "totalStages": "Celkem fází",
+    "totalStageGroups": "Celkem skupin fází",
+    "calCates": "Kategorie kalendáře",
+    "departments": "Oddělení",
+    "rosters": "Seznamy",
+    "forms": "Formuláře",
+    "calendars": "Kalendáře",
+    "previewTempDepartmentDetails": "Podrobnosti oddělení šablony",
+    "previewTempRosterDetails": "Podrobnosti seznamu šablony",
+    "previewTempFormDetails": "Podrobnosti formuláře šablony",
+    "previewTempPageDetails": "Podrobnosti stránky šablony",
+    "previewTempToolbarDetails": "Podrobnosti nástrojové lišty šablony",
+    "filter": "Filtr",
+    "no": "Ne",
+    "stages": "Fáze",
+    "stageGroups": "Skupiny fází",
+    "pages": "Stránky",
+    "toolbar": "Nástrojová lišta",
+    "toolbarItems": "Položky nástrojové lišty",
+    "manage": "Spravovat",
+    "return": "Vrátit se",
+    "learnMore": "Zjistit více",
+    "previewTempStageGroupDetails": "Náhled podrobností skupiny fází"
+  },
+  "permissions": {
+    "kickUser": "Vyhodit uživatele",
+    "banUser": "Zabanovat uživatele",
+    "archiveUser": "Archivovat uživatele",
+    "changePermissions": "Změnit oprávnění",
+    "modifyComInfo": "Upravit přizpůsobení komunity",
+    "modifyComDepts": "Upravit oddělení pomocí správce",
+    "modifyComForms": "Upravit vlastní formuláře pomocí editoru",
+    "modifyComRosters": "Upravit vlastní seznamy pomocí editoru",
+    "modifyDiscordHooks": "Upravit webhooky pro logování na Discordu",
+    "modifyIntegration": "Upravit integraci API",
+    "tooltips": {
+      "system": {
+        "kickUserExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností vyhodit jiného uživatele z komunity.",
+        "banUserExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností zabanovat jiného uživatele z komunity.",
+        "archiveUserExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností archivovat jiného uživatele z komunity.",
+        "changePermissionsExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností upravit oprávnění a detaily účtu jiného uživatele z komunity.",
+        "modifyComInfoExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit aspekty platformy Sonoran CMS, jako je jméno, obrázek, formát jména/identifikátoru atd.",
+        "modifyComFormsExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit šablony vlastních formulářů, které se používají při odesílání formulářů uživateli.",
+        "modifyComDeptsExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit oddělení a hodnosti, jako to děláte nyní.",
+        "modifyComRostersExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit šablony seznamů, které se používají k zobrazení dat seznamu komunity.",
+        "modifyDiscordHooksExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit nastavení webhooku Discord pro komunitu.",
+        "modifyIntegrationExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit a získat přihlašovací údaje API.",
+        "modifyToolbarExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přizpůsobit nastavení nástrojové lišty pro komunitu.",
+        "modifyPagesExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přizpůsobit stránky pro komunitu.",
+        "modifyDocumentsExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností spravovat všechny dokumenty v rámci Sonoran CMS Community Drive.",
+        "clockInOutExplanation": "Udělení tohoto oprávnění umožní uživateli se přihlašovat a odhlašovat.",
+        "modifyTeamSpeakExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení integrace TeamSpeak.",
+        "modifyShieldExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení Sonoran Shield."
+      },
+      "navigation": {
+        "viewDashboardBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Dashboard na boční navigační liště.",
+        "viewDriveBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Drive na boční navigační liště (pokud je uděleno oprávnění 'Upravit všechny dokumenty (Drive)', toto oprávnění je již zděděno).",
+        "viewCalendarBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Kalendář na boční navigační liště.",
+        "viewRostersBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítka Seznamy na boční navigační liště.",
+        "viewProfileBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Komunitní profil v postranní navigační liště."
+      },
+      "forms": {
+        "viewSubmittedExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením zobrazit všechny odeslané formuláře tohoto typu.",
+        "editOwnExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením upravovat jejich odeslané formuláře tohoto typu.",
+        "changeStagesExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením změnit fázi odeslaného formuláře tohoto typu.",
+        "modifyReplySettingsExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením změnit nastavení odpovědí odeslaného formuláře tohoto typu.",
+        "replyExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní odpovědi.",
+        "replyModExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní nebo moderátorské odpovědi.",
+        "replyAdminExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní, moderátorské nebo administrátorské odpovědi.",
+        "submitExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odeslat formulář tohoto typu.",
+        "adminDeleteExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zcela smazat podání tohoto formuláře.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+      },
+      "rosters": {
+        "viewExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit tento seznam.",
+        "addPrimaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přidat uživatele do seznamu jako Primární řádek (seřazený před sekundárními řádky).",
+        "addSecondaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přidat uživatele do seznamu jako Sekundární řádek (seřazený po primárních řádcích).",
+        "editPrimaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravit primární řádek v tomto seznamu.",
+        "editSecondaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravit sekundární řádek v tomto seznamu.",
+        "removePrimaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstranit primární řádek ze seznamu.",
+        "removeSecondaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstranit sekundární řádek ze seznamu.",
+        "viewModColumnExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit sloupec/sloupce seznamu, které jsou označeny jako Pouze pro moderátory.",
+        "viewAdminColumnExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit sloupce seznamu, které jsou označeny jako pouze pro administrátory."
+      },
+      "calendars": {
+        "viewExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit události v této kategorii kalendáře.",
+        "createExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností vytvářet události v této kategorii kalendáře.",
+        "removeExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstraňovat události v této kategorii kalendáře.",
+        "editOtherExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravovat události v této kategorii kalendáře."
+      },
+      "servers": {
+        "allowWhitelistExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností být povolen prostřednictvím whitelistu API (pokud má uživatel blokovací oprávnění pro tento server, bude zablokován, protože blokování má přednost).",
+        "blockWhitelistExplanation": "Udělení tohoto oprávnění zablokuje uživatele s touto hodností, aby byl povolen prostřednictvím whitelistu API (pokud má uživatel povolovací oprávnění pro tento server, bude stále zablokován, protože blokování má přednost)."
+      },
+      "profileFields": {
+        "attachExplanation": "Udělení tohoto oprávnění připojí toto pole profilu ke všem profilům členů, kteří mají tuto hodnost. To umožní komukoli, kdo si prohlíží váš profil, to vidět, pokud nejsou použita některá z následujících dvou oprávnění.",
+        "hideFromOwnerExplanation": "Udělení tohoto oprávnění skryje pole z profilu člena, který má tuto hodnost.",
+        "requireModToViewExplanation": "Udělení tohoto oprávnění bude vyžadovat, aby člen měl oprávnění \"Zobrazit pole na jiných profilech - Moderátorská síla\" k zobrazení pole na profilu.",
+        "requireAdminToViewExplanation": "Udělení tohoto oprávnění bude vyžadovat, aby člen měl oprávnění \"Zobrazit pole na jiných profilech - Administrátorská síla\" k zobrazení pole na profilu.",
+        "viewModPowerExplanation": "Udělení tohoto oprávnění umožní členovi zobrazit toto pole na profilu s ohledem na \"Moderátorskou sílu\". Viz výše uvedená oprávnění pro souvislost.",
+        "viewAdminPowerExplanation": "Udělení tohoto oprávnění umožní členovi zobrazit toto pole na profilu s ohledem na \"Administrátorskou sílu\". Viz výše uvedená oprávnění pro souvislost.",
+        "allowOwnerToEditExplanation": "Udělení tohoto oprávnění umožní členovi, který má tuto hodnost, upravit toto pole na svém profilu. Pokud je uděleno oprávnění \"Skrýt pole před vlastníkem profilu\", toto oprávnění bude ignorováno, protože pole nebude viditelné.",
+        "editOthersExplanation": "Udělení tohoto oprávnění umožní členovi, který má tuto hodnost, upravit toto pole na jakémkoli profilu člena, který může zobrazit."
+      },
+      "pages": {
+        "viewExplanation": "Udělení těchto oprávnění umožní členovi, který má tento hodnost, zobrazit tuto stránku, protože stránka je nastavena na SOUKROMÁ."
+      }
     },
-    "iconImageHandler": {
-        "icon": "Ikona",
-        "image": "Obrázek"
+    "disciplinaryPanel": "Disciplinární panel",
+    "changePermissionsHigher": "Změnit vyšší oprávnění"
+  },
+  "growth": {
+    "ERRORED": "CHYBA",
+    "thereWasNotEnoughDataForThisCommmunityToDetermine": "Nebylo dostatek dat pro tuto komunitu k určení",
+    "fastestGrowing": "Nejrychleji rostoucí",
+    "fastestGrowingCommunityInTheLast7DaysComparedTo": "nejrychleji rostoucí komunita za posledních 7 dní ve srovnání s"
+  },
+  "menu": {
+    "join": "Připojit se ke komunitě",
+    "togDefaultCom": "Přepnout výchozí CMS komunitu",
+    "leaveCommunity": "Opustit komunitu",
+    "leaveCommunityTitle": "Potvrzení opuštění komunity",
+    "leaveCommunityMessage": "Jste si jisti, že chcete opustit tuto komunitu? Už nebudete mít přístup k žádnému obsahu komunity."
+  },
+  "forms": {
+    "templateTypes": {
+      "newmemberapp": "Nová žádost o členství",
+      "reserveapp": "Sekundární žádost",
+      "plog": "Časový záznam",
+      "commend": "Uznání",
+      "complaint": "Stížnost",
+      "comform": "Formulář komunity",
+      "disciplinary": "Kárné opatření",
+      "training": "Historie školení",
+      "generalapp": "General Form"
     },
-    "helpButtonComponent": {
-        "viewTutorialVideo": "Zhlédnout výukové video",
-        "documentation": "Dokumentace",
-        "close": "Zavřít",
-        "videoTutorialComingSoon": "Výukové video brzy přijde"
+    "formDeleteConfirm": "Jste si jisti, že chcete smazat \"{formName}\"?",
+    "secFieldsHeader": "Položky",
+    "stageCreate": "Vytvořit fázi",
+    "stageUpdate": "Aktualizovat fázi",
+    "stageActionTypes": {
+      "autoReply": "Automatická odpověď na formulář",
+      "notifySubmitterNotification": "Oznámit prostřednictvím oznámení",
+      "notifySubmitterEmail": "Oznámit prostřednictvím e-mailu",
+      "disableEnableReplies": "Zakázat/Povolit odpovědi",
+      "changeDepartmentSlashRank": "Upravit hodnost(i)",
+      "modifyCommunityStatus": "Upravit stav komunity",
+      "executeDiscordWebhook": "Spustit Discord Webhook",
+      "executeDiscordDm": "Odeslat Discord DM",
+      "applyDisciplinaryPoints": "Apply Disciplinary Points"
     },
-    "searchEngineEditor": {
-        "seoSettings": "Nastavení SEO",
-        "pageSEOSettings": "Nastavení SEO stránky",
-        "pageDesciption": "Popis stránky"
+    "appSubmit": "Odeslat žádost/formulář",
+    "editOwn": "Upravit vlastní formulář",
+    "changeStages": "Změnit fázi formuláře",
+    "toggleReplies": "Povolit/Zakázat odpovědi",
+    "appReply": "Základní přístup k odpovědím",
+    "appReplyMod": "Moderátorský přístup k odpovědím",
+    "appReplyAdmin": "Administrátorský přístup k odpovědím",
+    "viewSubmitted": "Zobrazit odeslané",
+    "archiveOwn": "Archivovat vlastní formulář",
+    "archiveForm": "Archivovat formulář",
+    "unarchiveOwn": "Obnovit vlastní archivovaný formulář",
+    "unarchiveForm": "Obnovit archivovaný formulář",
+    "adminDelete": "Smazat administrátora",
+    "apply": {
+      "availableForms": "Dostupné formuláře",
+      "myForms": "Moje formuláře",
+      "apply": "Odeslat"
     },
-    "common": {
-        "support": "Podpora",
-        "needHelp": "Potřebujete pomoc?",
-        "noResults": "Žádné výsledky",
-        "add": "Přidat",
-        "dupDept": "Duplikovat oddělení",
-        "remove": "Odstranit",
-        "save": "Uložit",
-        "cancel": "Zrušit",
-        "view": "Zobrazit",
-        "close": "Zavřít",
-        "image": "Obrázek",
-        "description": "Popis",
-        "templateDetails": "Podrobnosti šablony",
-        "information": "Informace",
-        "recPlan": "Doporučený plán",
-        "totalDepts": "Celkem oddělení",
-        "totalRanks": "Celkem hodností",
-        "totalRosters": "Celkem seznamů",
-        "totalForms": "Celkem formulářů",
-        "totalStages": "Celkem fází",
-        "totalStageGroups": "Celkem skupin fází",
-        "calCates": "Kategorie kalendáře",
-        "departments": "Oddělení",
-        "rosters": "Seznamy",
-        "forms": "Formuláře",
-        "calendars": "Kalendáře",
-        "previewTempDepartmentDetails": "Podrobnosti oddělení šablony",
-        "previewTempRosterDetails": "Podrobnosti seznamu šablony",
-        "previewTempFormDetails": "Podrobnosti formuláře šablony",
-        "previewTempPageDetails": "Podrobnosti stránky šablony",
-        "previewTempToolbarDetails": "Podrobnosti nástrojové lišty šablony",
-        "filter": "Filtr",
-        "no": "Ne",
-        "stages": "Fáze",
-        "stageGroups": "Skupiny fází",
-        "pages": "Stránky",
-        "toolbar": "Nástrojová lišta",
-        "toolbarItems": "Položky nástrojové lišty",
-        "manage": "Spravovat",
-        "return": "Vrátit se",
-        "learnMore": "Zjistit více",
-        "previewTempStageGroupDetails": "Náhled podrobností skupiny fází"
+    "noAdditional": "Žádná další pole",
+    "premadeSections": "Předpřipravené sekce",
+    "fields": "Pole",
+    "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany",
+    "modifyStageSettings": "Upravit nastavení stupně"
+  },
+  "departments": {
+    "departmentName": "Název oddělení",
+    "shortName": "Krátký název",
+    "ranksAndPositions": "Přidružené hodnosti/pozice",
+    "addRank": "Přidat hodnost",
+    "removeRank": "Odebrat hodnost",
+    "rankName": "Název hodnosti",
+    "rankColor": "Kosmetická barva hodnosti",
+    "rankIcon": "Kosmetická ikona hodnosti",
+    "rankImg": "Kosmetický obrázek hodnosti",
+    "cmsPermissions": "Oprávnění CMS",
+    "formPermissions": "Oprávnění formuláře",
+    "rosterPermissions": "Oprávnění seznamu",
+    "calendarPermissions": "Oprávnění kalendáře",
+    "serverPermissions": "Oprávnění serveru",
+    "profileFieldPermissions": "Oprávnění profilových polí",
+    "navigationPermissions": "Oprávnění navigace",
+    "rankPower": "Síla",
+    "rankPowerDesc": "Síla hodnosti je spojena s tím, na koho můžete zkusit systémové akce a jak se budete řadit v seznamech. Například nemůžete vykopnout někoho, kdo má stejnou nebo vyšší sílu hodnosti než vy.",
+    "limitsHit": "Byl dosažen maximální počet oddělení!",
+    "departmentType": "Typ oddělení",
+    "typeOptions": {
+      "leadership": "Vedení komunity",
+      "primary": "Primární oddělení",
+      "reserve": "Sekundární oddělení",
+      "cwidesub": "Pododdělení celé komunity"
     },
-    "permissions": {
-        "kickUser": "Vyhodit uživatele",
-        "banUser": "Zabanovat uživatele",
-        "archiveUser": "Archivovat uživatele",
-        "changePermissions": "Změnit oprávnění",
-        "modifyComInfo": "Upravit přizpůsobení komunity",
-        "modifyComDepts": "Upravit oddělení pomocí správce",
-        "modifyComForms": "Upravit vlastní formuláře pomocí editoru",
-        "modifyComRosters": "Upravit vlastní seznamy pomocí editoru",
-        "modifyDiscordHooks": "Upravit webhooky pro logování na Discordu",
-        "modifyIntegration": "Upravit integraci API",
-        "tooltips": {
-            "system": {
-                "kickUserExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností vyhodit jiného uživatele z komunity.",
-                "banUserExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností zabanovat jiného uživatele z komunity.",
-                "archiveUserExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností archivovat jiného uživatele z komunity.",
-                "changePermissionsExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností upravit oprávnění a detaily účtu jiného uživatele z komunity.",
-                "modifyComInfoExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit aspekty platformy Sonoran CMS, jako je jméno, obrázek, formát jména/identifikátoru atd.",
-                "modifyComFormsExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit šablony vlastních formulářů, které se používají při odesílání formulářů uživateli.",
-                "modifyComDeptsExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit oddělení a hodnosti, jako to děláte nyní.",
-                "modifyComRostersExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit šablony seznamů, které se používají k zobrazení dat seznamu komunity.",
-                "modifyDiscordHooksExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit nastavení webhooku Discord pro komunitu.",
-                "modifyIntegrationExplanation": "Udělění tohoto oprávnění umožní uživateli s touto hodností přizpůsobit a získat přihlašovací údaje API.",
-                "modifyToolbarExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přizpůsobit nastavení nástrojové lišty pro komunitu.",
-                "modifyPagesExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přizpůsobit stránky pro komunitu.",
-                "modifyDocumentsExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností spravovat všechny dokumenty v rámci Sonoran CMS Community Drive.",
-                "clockInOutExplanation": "Udělení tohoto oprávnění umožní uživateli se přihlašovat a odhlašovat.",
-                "modifyTeamSpeakExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení integrace TeamSpeak.",
-                "modifyShieldExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení Sonoran Shield."
-            },
-            "navigation": {
-                "viewDashboardBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Dashboard na boční navigační liště.",
-                "viewDriveBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Drive na boční navigační liště (pokud je uděleno oprávnění 'Upravit všechny dokumenty (Drive)', toto oprávnění je již zděděno).",
-                "viewCalendarBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Kalendář na boční navigační liště.",
-                "viewRostersBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítka Seznamy na boční navigační liště.",
-                "viewProfileBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Komunitní profil v postranní navigační liště."
-            },
-            "forms": {
-                "viewSubmittedExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením zobrazit všechny odeslané formuláře tohoto typu.",
-                "editOwnExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením upravovat jejich odeslané formuláře tohoto typu.",
-                "changeStagesExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením změnit fázi odeslaného formuláře tohoto typu.",
-                "modifyReplySettingsExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením změnit nastavení odpovědí odeslaného formuláře tohoto typu.",
-                "replyExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní odpovědi.",
-                "replyModExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní nebo moderátorské odpovědi.",
-                "replyAdminExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením odpovědět na odeslaný formulář tohoto typu, pokud nastavení odpovědí umožňuje základní, moderátorské nebo administrátorské odpovědi.",
-                "submitExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odeslat formulář tohoto typu.",
-                "adminDeleteExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zcela smazat podání tohoto formuláře.",
-                "modifyStageSettings": "Modify Stage Settings",
-                "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-            },
-            "rosters": {
-                "viewExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit tento seznam.",
-                "addPrimaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přidat uživatele do seznamu jako Primární řádek (seřazený před sekundárními řádky).",
-                "addSecondaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností přidat uživatele do seznamu jako Sekundární řádek (seřazený po primárních řádcích).",
-                "editPrimaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravit primární řádek v tomto seznamu.",
-                "editSecondaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravit sekundární řádek v tomto seznamu.",
-                "removePrimaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstranit primární řádek ze seznamu.",
-                "removeSecondaryUserExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstranit sekundární řádek ze seznamu.",
-                "viewModColumnExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit sloupec/sloupce seznamu, které jsou označeny jako Pouze pro moderátory.",
-                "viewAdminColumnExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit sloupce seznamu, které jsou označeny jako pouze pro administrátory."
-            },
-            "calendars": {
-                "viewExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit události v této kategorii kalendáře.",
-                "createExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností vytvářet události v této kategorii kalendáře.",
-                "removeExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstraňovat události v této kategorii kalendáře.",
-                "editOtherExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravovat události v této kategorii kalendáře."
-            },
-            "servers": {
-                "allowWhitelistExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností být povolen prostřednictvím whitelistu API (pokud má uživatel blokovací oprávnění pro tento server, bude zablokován, protože blokování má přednost).",
-                "blockWhitelistExplanation": "Udělení tohoto oprávnění zablokuje uživatele s touto hodností, aby byl povolen prostřednictvím whitelistu API (pokud má uživatel povolovací oprávnění pro tento server, bude stále zablokován, protože blokování má přednost)."
-            },
-            "profileFields": {
-                "attachExplanation": "Udělení tohoto oprávnění připojí toto pole profilu ke všem profilům členů, kteří mají tuto hodnost. To umožní komukoli, kdo si prohlíží váš profil, to vidět, pokud nejsou použita některá z následujících dvou oprávnění.",
-                "hideFromOwnerExplanation": "Udělení tohoto oprávnění skryje pole z profilu člena, který má tuto hodnost.",
-                "requireModToViewExplanation": "Udělení tohoto oprávnění bude vyžadovat, aby člen měl oprávnění \"Zobrazit pole na jiných profilech - Moderátorská síla\" k zobrazení pole na profilu.",
-                "requireAdminToViewExplanation": "Udělení tohoto oprávnění bude vyžadovat, aby člen měl oprávnění \"Zobrazit pole na jiných profilech - Administrátorská síla\" k zobrazení pole na profilu.",
-                "viewModPowerExplanation": "Udělení tohoto oprávnění umožní členovi zobrazit toto pole na profilu s ohledem na \"Moderátorskou sílu\". Viz výše uvedená oprávnění pro souvislost.",
-                "viewAdminPowerExplanation": "Udělení tohoto oprávnění umožní členovi zobrazit toto pole na profilu s ohledem na \"Administrátorskou sílu\". Viz výše uvedená oprávnění pro souvislost.",
-                "allowOwnerToEditExplanation": "Udělení tohoto oprávnění umožní členovi, který má tuto hodnost, upravit toto pole na svém profilu. Pokud je uděleno oprávnění \"Skrýt pole před vlastníkem profilu\", toto oprávnění bude ignorováno, protože pole nebude viditelné.",
-                "editOthersExplanation": "Udělení tohoto oprávnění umožní členovi, který má tuto hodnost, upravit toto pole na jakémkoli profilu člena, který může zobrazit."
-            },
-            "pages": {
-                "viewExplanation": "Udělení těchto oprávnění umožní členovi, který má tento hodnost, zobrazit tuto stránku, protože stránka je nastavena na SOUKROMÁ."
-            }
-        },
-        "disciplinaryPanel": "Disciplinární panel",
-        "changePermissionsHigher": "Změnit vyšší oprávnění"
+    "addToRoster": "Vytvořit řádek",
+    "saveMemberOnRoster": "Uložit řádek",
+    "removeMemberFromRoster": "Odebrat ze seznamu",
+    "duplicateRank": "Duplikovat hodnost",
+    "markRankPrimary": "Označit hodnost pouze pro primární použití",
+    "markRankSecondary": "Označit hodnost pouze pro sekundární použití",
+    "copyPermissions": "Kopírovat oprávnění",
+    "pastePermissions": "Vložit oprávnění",
+    "removeConfirm": "Opravdu chcete odstranit toto oddělení?",
+    "toggleAllPermissions": "Přepnout všechna oprávnění",
+    "copyRankIdToClipboard": "Kopírovat ID do schránky",
+    "copySuccess": "Zkopírováno do schránky!",
+    "defaultPermissions": "Výchozí oprávnění oddělení",
+    "pagePermissions": "Oprávnění stránky"
+  },
+  "customization": {
+    "inputs": {
+      "discoveryEnable": "Povolit objevování komunity",
+      "discoverySelectForm": "Výchozí formulář pro nové členy",
+      "bumpDiscovery": "Obnovit objevování",
+      "discoveryTags": "Vyhledávací štítky",
+      "logo": "Logo komunity",
+      "banner": "Obrázek banneru komunity"
     },
-    "growth": {
-        "ERRORED": "CHYBA",
-        "thereWasNotEnoughDataForThisCommmunityToDetermine": "Nebylo dostatek dat pro tuto komunitu k určení",
-        "fastestGrowing": "Nejrychleji rostoucí",
-        "fastestGrowingCommunityInTheLast7DaysComparedTo": "nejrychleji rostoucí komunita za posledních 7 dní ve srovnání s"
-    },
-    "menu": {
-        "join": "Připojit se ke komunitě",
-        "togDefaultCom": "Přepnout výchozí CMS komunitu",
-        "leaveCommunity": "Opustit komunitu",
-        "leaveCommunityTitle": "Potvrzení opuštění komunity",
-        "leaveCommunityMessage": "Jste si jisti, že chcete opustit tuto komunitu? Už nebudete mít přístup k žádnému obsahu komunity."
-    },
-    "forms": {
-        "templateTypes": {
-            "newmemberapp": "Nová žádost o členství",
-            "reserveapp": "Sekundární žádost",
-            "plog": "Časový záznam",
-            "commend": "Uznání",
-            "complaint": "Stížnost",
-            "comform": "Formulář komunity",
-            "disciplinary": "Kárné opatření",
-            "training": "Historie školení",
-            "generalapp": "General Form"
-        },
-        "formDeleteConfirm": "Jste si jisti, že chcete smazat \"{formName}\"?",
-        "secFieldsHeader": "Položky",
-        "stageCreate": "Vytvořit fázi",
-        "stageUpdate": "Aktualizovat fázi",
-        "stageActionTypes": {
-            "autoReply": "Automatická odpověď na formulář",
-            "notifySubmitterNotification": "Oznámit prostřednictvím oznámení",
-            "notifySubmitterEmail": "Oznámit prostřednictvím e-mailu",
-            "disableEnableReplies": "Zakázat/Povolit odpovědi",
-            "changeDepartmentSlashRank": "Upravit hodnost(i)",
-            "modifyCommunityStatus": "Upravit stav komunity",
-            "executeDiscordWebhook": "Spustit Discord Webhook",
-            "executeDiscordDm": "Odeslat Discord DM",
-            "applyDisciplinaryPoints": "Apply Disciplinary Points"
-        },
-        "appSubmit": "Odeslat žádost/formulář",
-        "editOwn": "Upravit vlastní formulář",
-        "changeStages": "Změnit fázi formuláře",
-        "toggleReplies": "Povolit/Zakázat odpovědi",
-        "appReply": "Základní přístup k odpovědím",
-        "appReplyMod": "Moderátorský přístup k odpovědím",
-        "appReplyAdmin": "Administrátorský přístup k odpovědím",
-        "viewSubmitted": "Zobrazit odeslané",
-        "archiveOwn": "Archivovat vlastní formulář",
-        "archiveForm": "Archivovat formulář",
-        "unarchiveOwn": "Obnovit vlastní archivovaný formulář",
-        "unarchiveForm": "Obnovit archivovaný formulář",
-        "adminDelete": "Smazat administrátora",
-        "apply": {
-            "availableForms": "Dostupné formuláře",
-            "myForms": "Moje formuláře",
-            "apply": "Odeslat"
-        },
-        "noAdditional": "Žádná další pole",
-        "premadeSections": "Předpřipravené sekce",
-        "fields": "Pole",
-        "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany",
-        "modifyStageSettings": "Upravit nastavení stupně"
-    },
-    "departments": {
-        "departmentName": "Název oddělení",
-        "shortName": "Krátký název",
-        "ranksAndPositions": "Přidružené hodnosti/pozice",
-        "addRank": "Přidat hodnost",
-        "removeRank": "Odebrat hodnost",
-        "rankName": "Název hodnosti",
-        "rankColor": "Kosmetická barva hodnosti",
-        "rankIcon": "Kosmetická ikona hodnosti",
-        "rankImg": "Kosmetický obrázek hodnosti",
-        "cmsPermissions": "Oprávnění CMS",
-        "formPermissions": "Oprávnění formuláře",
-        "rosterPermissions": "Oprávnění seznamu",
-        "calendarPermissions": "Oprávnění kalendáře",
-        "serverPermissions": "Oprávnění serveru",
-        "profileFieldPermissions": "Oprávnění profilových polí",
-        "navigationPermissions": "Oprávnění navigace",
-        "rankPower": "Síla",
-        "rankPowerDesc": "Síla hodnosti je spojena s tím, na koho můžete zkusit systémové akce a jak se budete řadit v seznamech. Například nemůžete vykopnout někoho, kdo má stejnou nebo vyšší sílu hodnosti než vy.",
-        "limitsHit": "Byl dosažen maximální počet oddělení!",
-        "departmentType": "Typ oddělení",
-        "typeOptions": {
-            "leadership": "Vedení komunity",
-            "primary": "Primární oddělení",
-            "reserve": "Sekundární oddělení",
-            "cwidesub": "Pododdělení celé komunity"
-        },
-        "addToRoster": "Vytvořit řádek",
-        "saveMemberOnRoster": "Uložit řádek",
-        "removeMemberFromRoster": "Odebrat ze seznamu",
-        "duplicateRank": "Duplikovat hodnost",
-        "markRankPrimary": "Označit hodnost pouze pro primární použití",
-        "markRankSecondary": "Označit hodnost pouze pro sekundární použití",
-        "copyPermissions": "Kopírovat oprávnění",
-        "pastePermissions": "Vložit oprávnění",
-        "removeConfirm": "Opravdu chcete odstranit toto oddělení?",
-        "toggleAllPermissions": "Přepnout všechna oprávnění",
-        "copyRankIdToClipboard": "Kopírovat ID do schránky",
-        "copySuccess": "Zkopírováno do schránky!",
-        "defaultPermissions": "Výchozí oprávnění oddělení",
-        "pagePermissions": "Oprávnění stránky"
-    },
-    "customization": {
-        "inputs": {
-            "discoveryEnable": "Povolit objevování komunity",
-            "discoverySelectForm": "Výchozí formulář pro nové členy",
-            "bumpDiscovery": "Obnovit objevování",
-            "discoveryTags": "Vyhledávací štítky",
-            "logo": "Logo komunity",
-            "banner": "Obrázek banneru komunity"
-        },
-        "tooltips": {
-            "discoveryEnable": "Toto povolí/zakáže komunitu pro systém objevování komunit Sonoran CMS.",
-            "discoverySelectForm": "Tento formulář se automaticky zobrazí pro odeslání, pokud se uživatel připojí ke komunitě prostřednictvím systému objevování komunit Sonoran CMS. Formulář musí být typu \"Přihláška nového člena\".",
-            "enableDiscoveryFirst": "Pro použití této funkce musí být povoleno objevování komunity",
-            "hoursUntilNextBump": "Máte jednu hodinu, než můžete znovu obnovit | Máte {hours} hodin, než můžete znovu obnovit",
-            "canBumpDiscovery": "Přiveďte svou komunitu na vrchol stránky objevování!"
-        }
-    },
-    "formManagement": {
-        "pending": "Čeká na vyřízení",
-        "approve": "Schválit",
-        "approved": "Schváleno",
-        "denied": "Zamítnuto",
-        "submitter": "Odesílatel",
-        "status": "Stav"
-    },
-    "calendar": {
-        "viewEvents": "Zobrazit události",
-        "createEvents": "Vytvořit události",
-        "removeEvents": "Odstranit události",
-        "editOtherEvents": "Upravit jiné události",
-        "createEvent": "Vytvořit událost - Kategorie",
-        "eventNotFound": "Událost nenalezena/nepřístupná",
-        "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit."
-    },
-    "limits": {
-        "version": "Verze",
-        "departments": "Oddělení",
-        "driveStorage": "Úložiště disku",
-        "idPrefix": "ID:",
-        "versionPrefix": "Úroveň:",
-        "expiresPrefix": "Vyprší: ",
-        "goProToday": "Přejděte na Pro dnes"
-    },
-    "roster": {
-        "addPrimary": "Přidat řádek",
-        "addSecondary": "Přidat řádek",
-        "editingMember": "Upravit řádek"
-    },
-    "templateManagement": {
-        "creationDescription": "Tento dialog pro vytvoření vám pomůže vytvořit šablonu komunity Sonoran CMS z prvků vaší komunity, můžete tuto šablonu aktualizovat a odstranit kdykoli po dokončení vytvoření.",
-        "previewImages": "Náhledové obrázky šablony",
-        "creationSelectionDescription": "Tento dialog pro vytvoření vám pomůže vybrat, které komponenty vaší komunity chcete zahrnout do šablony. Po dokončení vytvoření můžete komponenty v této šabloně aktualizovat a odstraňovat.",
-        "manageDescription": "Tento dialog pro správu vám umožní přidávat, odstraňovat a aktualizovat prvky a informace vaší šablony. Jakmile uložíte jakékoli změny, bude potřeba je znovu přezkoumat týmem vývoje Sonoran CMS.",
-        "manageImages": "Správa náhledových obrázků šablony"
-    },
-    "profileFieldsEditor": {
-        "errors": {
-            "onGetAll": "Při získávání všech profilových polí došlo k chybě. Chyba: {error}",
-            "noSelectOptions": "Typ profilového pole 'SELECT' vyžaduje alespoň jednu možnost.",
-            "onSave": "Při ukládání nového profilového pole došlo k chybě. Chyba: {error}",
-            "noFindField": "Nebyla nalezena žádná pole z toho, co je vybráno."
-        }
-    },
+    "tooltips": {
+      "discoveryEnable": "Toto povolí/zakáže komunitu pro systém objevování komunit Sonoran CMS.",
+      "discoverySelectForm": "Tento formulář se automaticky zobrazí pro odeslání, pokud se uživatel připojí ke komunitě prostřednictvím systému objevování komunit Sonoran CMS. Formulář musí být typu \"Přihláška nového člena\".",
+      "enableDiscoveryFirst": "Pro použití této funkce musí být povoleno objevování komunity",
+      "hoursUntilNextBump": "Máte jednu hodinu, než můžete znovu obnovit | Máte {hours} hodin, než můžete znovu obnovit",
+      "canBumpDiscovery": "Přiveďte svou komunitu na vrchol stránky objevování!"
+    }
+  },
+  "formManagement": {
+    "pending": "Čeká na vyřízení",
+    "approve": "Schválit",
+    "approved": "Schváleno",
+    "denied": "Zamítnuto",
+    "submitter": "Odesílatel",
+    "status": "Stav"
+  },
+  "calendar": {
+    "viewEvents": "Zobrazit události",
+    "createEvents": "Vytvořit události",
+    "removeEvents": "Odstranit události",
+    "editOtherEvents": "Upravit jiné události",
+    "createEvent": "Vytvořit událost - Kategorie",
+    "eventNotFound": "Událost nenalezena/nepřístupná",
+    "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit."
+  },
+  "limits": {
+    "version": "Verze",
+    "departments": "Oddělení",
+    "driveStorage": "Úložiště disku",
+    "idPrefix": "ID:",
+    "versionPrefix": "Úroveň:",
+    "expiresPrefix": "Vyprší: ",
+    "goProToday": "Přejděte na Pro dnes"
+  },
+  "roster": {
+    "addPrimary": "Přidat řádek",
+    "addSecondary": "Přidat řádek",
+    "editingMember": "Upravit řádek"
+  },
+  "templateManagement": {
+    "creationDescription": "Tento dialog pro vytvoření vám pomůže vytvořit šablonu komunity Sonoran CMS z prvků vaší komunity, můžete tuto šablonu aktualizovat a odstranit kdykoli po dokončení vytvoření.",
+    "previewImages": "Náhledové obrázky šablony",
+    "creationSelectionDescription": "Tento dialog pro vytvoření vám pomůže vybrat, které komponenty vaší komunity chcete zahrnout do šablony. Po dokončení vytvoření můžete komponenty v této šabloně aktualizovat a odstraňovat.",
+    "manageDescription": "Tento dialog pro správu vám umožní přidávat, odstraňovat a aktualizovat prvky a informace vaší šablony. Jakmile uložíte jakékoli změny, bude potřeba je znovu přezkoumat týmem vývoje Sonoran CMS.",
+    "manageImages": "Správa náhledových obrázků šablony"
+  },
+  "profileFieldsEditor": {
+    "errors": {
+      "onGetAll": "Při získávání všech profilových polí došlo k chybě. Chyba: {error}",
+      "noSelectOptions": "Typ profilového pole 'SELECT' vyžaduje alespoň jednu možnost.",
+      "onSave": "Při ukládání nového profilového pole došlo k chybě. Chyba: {error}",
+      "noFindField": "Nebyla nalezena žádná pole z toho, co je vybráno."
+    }
+  },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "Sonoran Shield Network Defense",
     "poweredByPath": "Díky Path.net, náš panel s plným přístupem jednou provždy ukončuje síťové útoky.",
@@ -630,7 +630,10 @@
     "vpnDetection": "Detekce VPN",
     "displayVpnDetectionFlagsOnlyForUsersWho": "Zobrazit příznaky detekce VPN pouze pro uživatele, kteří čekají, což znamená, že se připojili, ale nemají žádné hodnosti CMS.",
     "altDetection": "Detekce Alt",
-    "ignoreAlternateAccountDetectionFlags": "Ignorovat příznaky detekce alternativního účtu pro uživatele, kteří ještě nejsou v komunitě. Zobrazit příznak pouze tehdy, když se podezřelý alternativní účet připojí ke komunitě."
+    "ignoreAlternateAccountDetectionFlags": "Ignorovat příznaky detekce alternativního účtu pro uživatele, kteří ještě nejsou v komunitě. Zobrazit příznak pouze tehdy, když se podezřelý alternativní účet připojí ke komunitě.",
+    "lastWeek": "Minulý týden",
+    "lastMonth": "Minulý měsíc",
+    "allTime": "Po celou dobu"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -1838,7 +1841,8 @@
     "errorFileTypeeMessage": "Typ souboru není podporován. Nahrajte prosím pouze obrázky.",
     "errorDuplicateMessage": "Tento soubor již byl nahrán.",
     "errorMaxTotalSizeMessage": "Celková velikost souborů překračuje maximální povolený limit 100MB.",
-    "errorDefaultMessage": "Při nahrávání došlo k neočekávané chybě. Zkuste to prosím znovu. Pokud problém přetrvává, kontaktujte podporu pro pomoc."
+    "errorDefaultMessage": "Při nahrávání došlo k neočekávané chybě. Zkuste to prosím znovu. Pokud problém přetrvává, kontaktujte podporu pro pomoc.",
+    "errorImageErrored": "Při načítání obrázku došlo k chybě."
   },
   "whatYouSeeEditor": {
     "updateMessage": "Textový obsah byl převeden ze starého editoru. Prosím, zkontrolujte a aktualizujte podle potřeby."

@@ -1,323 +1,323 @@
 {
   "config": {
-      "displayName": "العربية",
-      "path": "ar"
+    "displayName": "العربية",
+    "path": "ar"
   },
   "iconImageHandler": {
-      "icon": "أيقونة",
-      "image": "صورة"
+    "icon": "أيقونة",
+    "image": "صورة"
   },
   "helpButtonComponent": {
-      "viewTutorialVideo": "مشاهدة فيديو الشرح",
-      "documentation": "التوثيق",
-      "close": "إغلاق",
-      "videoTutorialComingSoon": "فيديو الشرح قادم قريبًا"
+    "viewTutorialVideo": "مشاهدة فيديو الشرح",
+    "documentation": "التوثيق",
+    "close": "إغلاق",
+    "videoTutorialComingSoon": "فيديو الشرح قادم قريبًا"
   },
   "searchEngineEditor": {
-      "seoSettings": "إعدادات السيو",
-      "pageSEOSettings": "إعدادات السيو للصفحة",
-      "pageDesciption": "وصف الصفحة"
+    "seoSettings": "إعدادات السيو",
+    "pageSEOSettings": "إعدادات السيو للصفحة",
+    "pageDesciption": "وصف الصفحة"
   },
   "common": {
-      "support": "الدعم",
-      "needHelp": "تحتاج مساعدة؟",
-      "noResults": "لا توجد نتائج",
-      "add": "إضافة",
-      "dupDept": "تكرار القسم",
-      "remove": "إزالة",
-      "save": "حفظ",
-      "cancel": "إلغاء",
-      "view": "عرض",
-      "close": "إغلاق",
-      "image": "صورة",
-      "description": "وصف",
-      "templateDetails": "تفاصيل القالب",
-      "information": "معلومات",
-      "recPlan": "الخطة الموصى بها",
-      "totalDepts": "إجمالي الأقسام",
-      "totalRanks": "إجمالي الرتب",
-      "totalRosters": "إجمالي القوائم",
-      "totalForms": "إجمالي النماذج",
-      "totalStages": "إجمالي المراحل",
-      "totalStageGroups": "إجمالي مجموعات المراحل",
-      "calCates": "فئات التقويم",
-      "departments": "الأقسام",
-      "rosters": "القوائم",
-      "forms": "النماذج",
-      "calendars": "التقاويم",
-      "previewTempDepartmentDetails": "تفاصيل قسم القالب",
-      "previewTempRosterDetails": "تفاصيل قائمة القالب",
-      "previewTempFormDetails": "تفاصيل نموذج القالب",
-      "previewTempPageDetails": "تفاصيل صفحة القالب",
-      "previewTempToolbarDetails": "تفاصيل شريط أدوات القالب",
-      "filter": "تصفية",
-      "no": "لا",
-      "stages": "المراحل",
-      "stageGroups": "مجموعات المراحل",
-      "pages": "الصفحات",
-      "toolbar": "شريط الأدوات",
-      "toolbarItems": "عناصر شريط الأدوات",
-      "manage": "إدارة",
-      "return": "عودة",
-      "learnMore": "تعرف على المزيد",
-      "previewTempStageGroupDetails": "معاينة تفاصيل مجموعة المراحل"
+    "support": "الدعم",
+    "needHelp": "تحتاج مساعدة؟",
+    "noResults": "لا توجد نتائج",
+    "add": "إضافة",
+    "dupDept": "تكرار القسم",
+    "remove": "إزالة",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "view": "عرض",
+    "close": "إغلاق",
+    "image": "صورة",
+    "description": "وصف",
+    "templateDetails": "تفاصيل القالب",
+    "information": "معلومات",
+    "recPlan": "الخطة الموصى بها",
+    "totalDepts": "إجمالي الأقسام",
+    "totalRanks": "إجمالي الرتب",
+    "totalRosters": "إجمالي القوائم",
+    "totalForms": "إجمالي النماذج",
+    "totalStages": "إجمالي المراحل",
+    "totalStageGroups": "إجمالي مجموعات المراحل",
+    "calCates": "فئات التقويم",
+    "departments": "الأقسام",
+    "rosters": "القوائم",
+    "forms": "النماذج",
+    "calendars": "التقاويم",
+    "previewTempDepartmentDetails": "تفاصيل قسم القالب",
+    "previewTempRosterDetails": "تفاصيل قائمة القالب",
+    "previewTempFormDetails": "تفاصيل نموذج القالب",
+    "previewTempPageDetails": "تفاصيل صفحة القالب",
+    "previewTempToolbarDetails": "تفاصيل شريط أدوات القالب",
+    "filter": "تصفية",
+    "no": "لا",
+    "stages": "المراحل",
+    "stageGroups": "مجموعات المراحل",
+    "pages": "الصفحات",
+    "toolbar": "شريط الأدوات",
+    "toolbarItems": "عناصر شريط الأدوات",
+    "manage": "إدارة",
+    "return": "عودة",
+    "learnMore": "تعرف على المزيد",
+    "previewTempStageGroupDetails": "معاينة تفاصيل مجموعة المراحل"
   },
   "permissions": {
-      "kickUser": "طرد المستخدمين",
-      "banUser": "حظر المستخدمين",
-      "archiveUser": "أرشفة المستخدم",
-      "changePermissions": "تغيير الأذونات",
-      "modifyComInfo": "تعديل تخصيص المجتمع",
-      "modifyComDepts": "تعديل الأقسام عبر المدير",
-      "modifyComForms": "تعديل النماذج المخصصة عبر المحرر",
-      "modifyComRosters": "تعديل القوائم المخصصة عبر المحرر",
-      "modifyDiscordHooks": "تعديل روابط تسجيل الدخول لديسكورد",
-      "modifyIntegration": "تعديل تكامل API",
-      "tooltips": {
-          "system": {
-              "kickUserExplanation": "منح هذا الإذن سيسمح للمستخدم الذي يحمل هذه الرتبة بطرد مستخدم آخر من المجتمع.",
-              "banUserExplanation": "منح هذا الإذن سيسمح للمستخدم الذي يحمل هذه الرتبة بحظر مستخدم آخر من المجتمع.",
-              "archiveUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بأرشفة مستخدم آخر من المجتمع.",
-              "changePermissionsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتعديل أذونات وتفاصيل حساب مستخدم آخر من المجتمع.",
-              "modifyComInfoExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص جوانب من منصة Sonoran CMS مثل الاسم، الصورة، تنسيق الاسم/المعرف، إلخ.",
-              "modifyComFormsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص قوالب النماذج المخصصة التي تُستخدم عند تقديم المستخدمين للنماذج.",
-              "modifyComDeptsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص الأقسام والرتب كما تفعل الآن.",
-              "modifyComRostersExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص قوالب القائمة التي تُستخدم لعرض بيانات قائمة المجتمع.",
-              "modifyDiscordHooksExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص إعدادات Discord webhook للمجتمع.",
-              "modifyIntegrationExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص واسترجاع بيانات اعتماد API.",
-              "modifyToolbarExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتخصيص إعدادات شريط الأدوات للمجتمع.",
-              "modifyPagesExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتخصيص الصفحات للمجتمع.",
-              "modifyDocumentsExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بإدارة جميع المستندات داخل محرك مجتمع Sonoran CMS.",
-              "clockInOutExplanation": "منح هذا الإذن سيسمح للمستخدم بتسجيل الدخول والخروج.",
-              "modifyTeamSpeakExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات تكامل TeamSpeak.",
-              "modifyShieldExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات Sonoran Shield."
-          },
-          "navigation": {
-              "viewDashboardBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر لوحة التحكم في شريط التنقل الجانبي.",
-              "viewDriveBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر المحرك في شريط التنقل الجانبي (إذا تم منح إذن 'تعديل جميع المستندات (المحرك)' فهذا موروث بالفعل).",
-              "viewCalendarBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر التقويم في شريط التنقل الجانبي.",
-              "viewRostersBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية أزرار القوائم في شريط التنقل الجانبي.",
-              "viewProfileBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر الملف الشخصي للمجتمع في شريط التنقل الجانبي."
-          },
-          "forms": {
-              "viewSubmittedExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بعرض جميع النماذج المقدمة من هذا النوع.",
-              "editOwnExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتحرير تقديماتهم لهذا النوع من النماذج.",
-              "changeStagesExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتغيير مرحلة النموذج المقدم من هذا النوع.",
-              "modifyReplySettingsExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتغيير إعدادات الرد لنموذج مقدم من هذا النوع.",
-              "replyExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية.",
-              "replyModExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية أو ردود المشرفين.",
-              "replyAdminExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية، ردود المشرفين، أو ردود المسؤولين.",
-              "submitExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتقديم نموذج من هذا النوع.",
-              "adminDeleteExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بحذف تقديم نموذج بالكامل.",
-              "modifyStageSettings": "Modify Stage Settings",
-              "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
-          },
-          "rosters": {
-              "viewExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض هذه القائمة.",
-              "addPrimaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإضافة مستخدم إلى القائمة كصف أساسي (يتم ترتيبه في البداية قبل الصفوف الثانوية).",
-              "addSecondaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإضافة مستخدم إلى القائمة كصف ثانوي (يتم ترتيبه بعد الصفوف الأساسية).",
-              "editPrimaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير صف أساسي في هذه القائمة.",
-              "editSecondaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير صف ثانوي في هذه القائمة.",
-              "removePrimaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة صف أساسي من القائمة.",
-              "removeSecondaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة صف ثانوي من القائمة.",
-              "viewModColumnExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض أعمدة القائمة التي تم تحديدها كمخصصة للمشرفين فقط.",
-              "viewAdminColumnExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض أعمدة القائمة التي تم تحديدها كإدارة فقط."
-          },
-          "calendars": {
-              "viewExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض الأحداث ضمن هذه الفئة من التقويم.",
-              "createExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإنشاء أحداث ضمن هذه الفئة من التقويم.",
-              "removeExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة الأحداث ضمن هذه الفئة من التقويم.",
-              "editOtherExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير الأحداث ضمن هذه الفئة من التقويم."
-          },
-          "servers": {
-              "allowWhitelistExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بأن يُسمح له من خلال القائمة البيضاء لواجهة برمجة التطبيقات (إذا كان المستخدم يحمل إذن الحظر لهذا الخادم فسيتم حظره لأن الحظر له الأولوية).",
-              "blockWhitelistExplanation": "منح هذا الإذن سيمنع مستخدمًا بهذا الرتبة من أن يُسمح له من خلال القائمة البيضاء لواجهة برمجة التطبيقات (إذا كان المستخدم يحمل إذن السماح لهذا الخادم فسيظل محظورًا لأن الحظر له الأولوية)."
-          },
-          "profileFields": {
-              "attachExplanation": "منح هذا الإذن سيربط حقل الملف الشخصي هذا بجميع ملفات الأعضاء الذين يحملون هذه الرتبة. سيسمح هذا لأي شخص يشاهد ملفك الشخصي برؤيته ما لم يتم تطبيق أي من الإذنين التاليين.",
-              "hideFromOwnerExplanation": "منح هذا الإذن سيخفي الحقل من ملف العضو الذي يحمل هذه الرتبة.",
-              "requireModToViewExplanation": "منح هذا الإذن سيتطلب من العضو الحصول على \"عرض الحقل في ملفات الأعضاء الأخرى - قوة المشرف\" لعرض الحقل في ملف شخصي.",
-              "requireAdminToViewExplanation": "منح هذا الإذن سيتطلب من العضو الحصول على \"عرض الحقل في ملفات الأعضاء الأخرى - قوة المدير\" لعرض الحقل في ملف شخصي.",
-              "viewModPowerExplanation": "منح هذا الإذن سيسمح للعضو بعرض هذا الحقل في ملف شخصي مع مراعاة \"قوة المشرف\". انظر الأذونات أعلاه للارتباط.",
-              "viewAdminPowerExplanation": "منح هذا الإذن سيسمح للعضو بعرض هذا الحقل في ملف شخصي مع مراعاة \"قوة المدير\". انظر الأذونات أعلاه للارتباط.",
-              "allowOwnerToEditExplanation": "منح هذا الإذن سيسمح للعضو الذي يحمل هذه الرتبة بتحرير هذا الحقل في ملفه الشخصي. إذا تم منح إذن \"إخفاء الحقل من مالك الملف الشخصي\" فسيتجاهل هذا الإذن لأنه لن يكون مرئيًا.",
-              "editOthersExplanation": "منح هذا الإذن سيسمح للعضو الذي يحمل هذه الرتبة بتحرير هذا الحقل في أي ملفات أعضاء يمكنهم عرضها."
-          },
-          "pages": {
-              "viewExplanation": "منح هذه الأذونات سيسمح للعضو الذي يحمل هذه الرتبة بعرض هذه الصفحة حيث تم تعيين الصفحة على خاص."
-          }
+    "kickUser": "طرد المستخدمين",
+    "banUser": "حظر المستخدمين",
+    "archiveUser": "أرشفة المستخدم",
+    "changePermissions": "تغيير الأذونات",
+    "modifyComInfo": "تعديل تخصيص المجتمع",
+    "modifyComDepts": "تعديل الأقسام عبر المدير",
+    "modifyComForms": "تعديل النماذج المخصصة عبر المحرر",
+    "modifyComRosters": "تعديل القوائم المخصصة عبر المحرر",
+    "modifyDiscordHooks": "تعديل روابط تسجيل الدخول لديسكورد",
+    "modifyIntegration": "تعديل تكامل API",
+    "tooltips": {
+      "system": {
+        "kickUserExplanation": "منح هذا الإذن سيسمح للمستخدم الذي يحمل هذه الرتبة بطرد مستخدم آخر من المجتمع.",
+        "banUserExplanation": "منح هذا الإذن سيسمح للمستخدم الذي يحمل هذه الرتبة بحظر مستخدم آخر من المجتمع.",
+        "archiveUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بأرشفة مستخدم آخر من المجتمع.",
+        "changePermissionsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتعديل أذونات وتفاصيل حساب مستخدم آخر من المجتمع.",
+        "modifyComInfoExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص جوانب من منصة Sonoran CMS مثل الاسم، الصورة، تنسيق الاسم/المعرف، إلخ.",
+        "modifyComFormsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص قوالب النماذج المخصصة التي تُستخدم عند تقديم المستخدمين للنماذج.",
+        "modifyComDeptsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص الأقسام والرتب كما تفعل الآن.",
+        "modifyComRostersExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص قوالب القائمة التي تُستخدم لعرض بيانات قائمة المجتمع.",
+        "modifyDiscordHooksExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص إعدادات Discord webhook للمجتمع.",
+        "modifyIntegrationExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتخصيص واسترجاع بيانات اعتماد API.",
+        "modifyToolbarExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتخصيص إعدادات شريط الأدوات للمجتمع.",
+        "modifyPagesExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتخصيص الصفحات للمجتمع.",
+        "modifyDocumentsExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بإدارة جميع المستندات داخل محرك مجتمع Sonoran CMS.",
+        "clockInOutExplanation": "منح هذا الإذن سيسمح للمستخدم بتسجيل الدخول والخروج.",
+        "modifyTeamSpeakExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات تكامل TeamSpeak.",
+        "modifyShieldExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات Sonoran Shield."
       },
-      "disciplinaryPanel": "اللجنة التأديبية",
-      "changePermissionsHigher": "تغيير الأذونات الأعلى"
+      "navigation": {
+        "viewDashboardBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر لوحة التحكم في شريط التنقل الجانبي.",
+        "viewDriveBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر المحرك في شريط التنقل الجانبي (إذا تم منح إذن 'تعديل جميع المستندات (المحرك)' فهذا موروث بالفعل).",
+        "viewCalendarBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر التقويم في شريط التنقل الجانبي.",
+        "viewRostersBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية أزرار القوائم في شريط التنقل الجانبي.",
+        "viewProfileBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر الملف الشخصي للمجتمع في شريط التنقل الجانبي."
+      },
+      "forms": {
+        "viewSubmittedExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بعرض جميع النماذج المقدمة من هذا النوع.",
+        "editOwnExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتحرير تقديماتهم لهذا النوع من النماذج.",
+        "changeStagesExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتغيير مرحلة النموذج المقدم من هذا النوع.",
+        "modifyReplySettingsExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بتغيير إعدادات الرد لنموذج مقدم من هذا النوع.",
+        "replyExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية.",
+        "replyModExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية أو ردود المشرفين.",
+        "replyAdminExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بالرد على نموذج مقدم من هذا النوع إذا كانت إعدادات الرد تسمح بالردود الأساسية، ردود المشرفين، أو ردود المسؤولين.",
+        "submitExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتقديم نموذج من هذا النوع.",
+        "adminDeleteExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بحذف تقديم نموذج بالكامل.",
+        "modifyStageSettings": "Modify Stage Settings",
+        "allowsMembersToChangeStageSettings": "Allows members to change stage settings for this form."
+      },
+      "rosters": {
+        "viewExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض هذه القائمة.",
+        "addPrimaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإضافة مستخدم إلى القائمة كصف أساسي (يتم ترتيبه في البداية قبل الصفوف الثانوية).",
+        "addSecondaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإضافة مستخدم إلى القائمة كصف ثانوي (يتم ترتيبه بعد الصفوف الأساسية).",
+        "editPrimaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير صف أساسي في هذه القائمة.",
+        "editSecondaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير صف ثانوي في هذه القائمة.",
+        "removePrimaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة صف أساسي من القائمة.",
+        "removeSecondaryUserExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة صف ثانوي من القائمة.",
+        "viewModColumnExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض أعمدة القائمة التي تم تحديدها كمخصصة للمشرفين فقط.",
+        "viewAdminColumnExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض أعمدة القائمة التي تم تحديدها كإدارة فقط."
+      },
+      "calendars": {
+        "viewExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض الأحداث ضمن هذه الفئة من التقويم.",
+        "createExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإنشاء أحداث ضمن هذه الفئة من التقويم.",
+        "removeExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة الأحداث ضمن هذه الفئة من التقويم.",
+        "editOtherExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير الأحداث ضمن هذه الفئة من التقويم."
+      },
+      "servers": {
+        "allowWhitelistExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بأن يُسمح له من خلال القائمة البيضاء لواجهة برمجة التطبيقات (إذا كان المستخدم يحمل إذن الحظر لهذا الخادم فسيتم حظره لأن الحظر له الأولوية).",
+        "blockWhitelistExplanation": "منح هذا الإذن سيمنع مستخدمًا بهذا الرتبة من أن يُسمح له من خلال القائمة البيضاء لواجهة برمجة التطبيقات (إذا كان المستخدم يحمل إذن السماح لهذا الخادم فسيظل محظورًا لأن الحظر له الأولوية)."
+      },
+      "profileFields": {
+        "attachExplanation": "منح هذا الإذن سيربط حقل الملف الشخصي هذا بجميع ملفات الأعضاء الذين يحملون هذه الرتبة. سيسمح هذا لأي شخص يشاهد ملفك الشخصي برؤيته ما لم يتم تطبيق أي من الإذنين التاليين.",
+        "hideFromOwnerExplanation": "منح هذا الإذن سيخفي الحقل من ملف العضو الذي يحمل هذه الرتبة.",
+        "requireModToViewExplanation": "منح هذا الإذن سيتطلب من العضو الحصول على \"عرض الحقل في ملفات الأعضاء الأخرى - قوة المشرف\" لعرض الحقل في ملف شخصي.",
+        "requireAdminToViewExplanation": "منح هذا الإذن سيتطلب من العضو الحصول على \"عرض الحقل في ملفات الأعضاء الأخرى - قوة المدير\" لعرض الحقل في ملف شخصي.",
+        "viewModPowerExplanation": "منح هذا الإذن سيسمح للعضو بعرض هذا الحقل في ملف شخصي مع مراعاة \"قوة المشرف\". انظر الأذونات أعلاه للارتباط.",
+        "viewAdminPowerExplanation": "منح هذا الإذن سيسمح للعضو بعرض هذا الحقل في ملف شخصي مع مراعاة \"قوة المدير\". انظر الأذونات أعلاه للارتباط.",
+        "allowOwnerToEditExplanation": "منح هذا الإذن سيسمح للعضو الذي يحمل هذه الرتبة بتحرير هذا الحقل في ملفه الشخصي. إذا تم منح إذن \"إخفاء الحقل من مالك الملف الشخصي\" فسيتجاهل هذا الإذن لأنه لن يكون مرئيًا.",
+        "editOthersExplanation": "منح هذا الإذن سيسمح للعضو الذي يحمل هذه الرتبة بتحرير هذا الحقل في أي ملفات أعضاء يمكنهم عرضها."
+      },
+      "pages": {
+        "viewExplanation": "منح هذه الأذونات سيسمح للعضو الذي يحمل هذه الرتبة بعرض هذه الصفحة حيث تم تعيين الصفحة على خاص."
+      }
+    },
+    "disciplinaryPanel": "اللجنة التأديبية",
+    "changePermissionsHigher": "تغيير الأذونات الأعلى"
   },
   "growth": {
-      "ERRORED": "خطأ",
-      "thereWasNotEnoughDataForThisCommmunityToDetermine": "لم تكن هناك بيانات كافية لهذا المجتمع لتحديد",
-      "fastestGrowing": "الأسرع نمواً",
-      "fastestGrowingCommunityInTheLast7DaysComparedTo": "المجتمع الأسرع نمواً في الأيام السبعة الماضية مقارنةً بـ"
+    "ERRORED": "خطأ",
+    "thereWasNotEnoughDataForThisCommmunityToDetermine": "لم تكن هناك بيانات كافية لهذا المجتمع لتحديد",
+    "fastestGrowing": "الأسرع نمواً",
+    "fastestGrowingCommunityInTheLast7DaysComparedTo": "المجتمع الأسرع نمواً في الأيام السبعة الماضية مقارنةً بـ"
   },
   "menu": {
-      "join": "انضم إلى مجتمع",
-      "togDefaultCom": "تبديل مجتمع CMS الافتراضي",
-      "leaveCommunity": "مغادرة المجتمع",
-      "leaveCommunityTitle": "تأكيد مغادرة المجتمع",
-      "leaveCommunityMessage": "هل أنت متأكد أنك تريد مغادرة هذا المجتمع؟ لن تتمكن بعد الآن من الوصول إلى أي من محتويات المجتمع."
+    "join": "انضم إلى مجتمع",
+    "togDefaultCom": "تبديل مجتمع CMS الافتراضي",
+    "leaveCommunity": "مغادرة المجتمع",
+    "leaveCommunityTitle": "تأكيد مغادرة المجتمع",
+    "leaveCommunityMessage": "هل أنت متأكد أنك تريد مغادرة هذا المجتمع؟ لن تتمكن بعد الآن من الوصول إلى أي من محتويات المجتمع."
   },
   "forms": {
-      "templateTypes": {
-          "newmemberapp": "طلب عضو جديد",
-          "reserveapp": "طلب ثانوي",
-          "plog": "سجل الوقت",
-          "commend": "ثناء",
-          "complaint": "شكوى",
-          "comform": "نموذج المجتمع",
-          "disciplinary": "إجراء تأديبي",
-          "training": "تاريخ التدريب",
-          "generalapp": "General Form"
-      },
-      "formDeleteConfirm": "هل أنت متأكد أنك تريد حذف \"{formName}\"؟",
-      "secFieldsHeader": "الحقول",
-      "stageCreate": "إنشاء مرحلة",
-      "stageUpdate": "تحديث مرحلة",
-      "stageActionTypes": {
-          "autoReply": "رد تلقائي على النموذج",
-          "notifySubmitterNotification": "إخطار عبر الإشعار",
-          "notifySubmitterEmail": "إخطار عبر البريد الإلكتروني",
-          "disableEnableReplies": "تعطيل/تمكين الردود",
-          "changeDepartmentSlashRank": "تعديل الرتبة/الرتب",
-          "modifyCommunityStatus": "تعديل حالة المجتمع",
-          "executeDiscordWebhook": "تنفيذ Webhook على Discord",
-          "executeDiscordDm": "إرسال رسالة خاصة على Discord",
-          "applyDisciplinaryPoints": "Apply Disciplinary Points"
-      },
-      "appSubmit": "تقديم طلب/نموذج",
-      "editOwn": "تعديل النموذج الخاص",
-      "changeStages": "تغيير مرحلة النموذج",
-      "toggleReplies": "تمكين/تعطيل الردود",
-      "appReply": "وصول أساسي للرد",
-      "appReplyMod": "وصول للرد للمشرفين",
-      "appReplyAdmin": "وصول للرد للمسؤولين",
-      "viewSubmitted": "عرض المقدم",
-      "archiveOwn": "أرشفة النموذج الخاص",
-      "archiveForm": "أرشفة النموذج",
-      "unarchiveOwn": "إلغاء أرشفة النموذج الخاص",
-      "unarchiveForm": "إلغاء أرشفة النموذج",
-      "adminDelete": "حذف المسؤول",
-      "apply": {
-          "availableForms": "النماذج المتاحة",
-          "myForms": "نماذجي",
-          "apply": "إرسال"
-      },
-      "noAdditional": "لا توجد حقول إضافية",
-      "premadeSections": "الأقسام الجاهزة",
-      "fields": "الحقول",
-      "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية",
-      "modifyStageSettings": "تعديل إعدادات المرحلة"
+    "templateTypes": {
+      "newmemberapp": "طلب عضو جديد",
+      "reserveapp": "طلب ثانوي",
+      "plog": "سجل الوقت",
+      "commend": "ثناء",
+      "complaint": "شكوى",
+      "comform": "نموذج المجتمع",
+      "disciplinary": "إجراء تأديبي",
+      "training": "تاريخ التدريب",
+      "generalapp": "General Form"
+    },
+    "formDeleteConfirm": "هل أنت متأكد أنك تريد حذف \"{formName}\"؟",
+    "secFieldsHeader": "الحقول",
+    "stageCreate": "إنشاء مرحلة",
+    "stageUpdate": "تحديث مرحلة",
+    "stageActionTypes": {
+      "autoReply": "رد تلقائي على النموذج",
+      "notifySubmitterNotification": "إخطار عبر الإشعار",
+      "notifySubmitterEmail": "إخطار عبر البريد الإلكتروني",
+      "disableEnableReplies": "تعطيل/تمكين الردود",
+      "changeDepartmentSlashRank": "تعديل الرتبة/الرتب",
+      "modifyCommunityStatus": "تعديل حالة المجتمع",
+      "executeDiscordWebhook": "تنفيذ Webhook على Discord",
+      "executeDiscordDm": "إرسال رسالة خاصة على Discord",
+      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+    },
+    "appSubmit": "تقديم طلب/نموذج",
+    "editOwn": "تعديل النموذج الخاص",
+    "changeStages": "تغيير مرحلة النموذج",
+    "toggleReplies": "تمكين/تعطيل الردود",
+    "appReply": "وصول أساسي للرد",
+    "appReplyMod": "وصول للرد للمشرفين",
+    "appReplyAdmin": "وصول للرد للمسؤولين",
+    "viewSubmitted": "عرض المقدم",
+    "archiveOwn": "أرشفة النموذج الخاص",
+    "archiveForm": "أرشفة النموذج",
+    "unarchiveOwn": "إلغاء أرشفة النموذج الخاص",
+    "unarchiveForm": "إلغاء أرشفة النموذج",
+    "adminDelete": "حذف المسؤول",
+    "apply": {
+      "availableForms": "النماذج المتاحة",
+      "myForms": "نماذجي",
+      "apply": "إرسال"
+    },
+    "noAdditional": "لا توجد حقول إضافية",
+    "premadeSections": "الأقسام الجاهزة",
+    "fields": "الحقول",
+    "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية",
+    "modifyStageSettings": "تعديل إعدادات المرحلة"
   },
   "departments": {
-      "departmentName": "اسم القسم",
-      "shortName": "الاسم المختصر",
-      "ranksAndPositions": "الرتب/المناصب المرتبطة",
-      "addRank": "إضافة رتبة",
-      "removeRank": "إزالة رتبة",
-      "rankName": "اسم الرتبة",
-      "rankColor": "لون الرتبة التجميلي",
-      "rankIcon": "أيقونة الرتبة التجميلية",
-      "rankImg": "صورة الرتبة التجميلية",
-      "cmsPermissions": "أذونات نظام إدارة المحتوى",
-      "formPermissions": "أذونات النموذج",
-      "rosterPermissions": "أذونات القائمة",
-      "calendarPermissions": "أذونات التقويم",
-      "serverPermissions": "أذونات الخادم",
-      "profileFieldPermissions": "أذونات حقول الملف الشخصي",
-      "navigationPermissions": "أذونات التنقل",
-      "rankPower": "القوة",
-      "rankPowerDesc": "قوة الرتبة مرتبطة بمن يمكنك محاولة تنفيذ الإجراءات النظامية عليهم وكيفية ترتيبك في القوائم. على سبيل المثال لا يمكنك طرد شخص لديه نفس قوة الرتبة أو أعلى منك.",
-      "limitsHit": "تم الوصول إلى الحد الأقصى لعدد الأقسام!",
-      "departmentType": "نوع القسم",
-      "typeOptions": {
-          "leadership": "قيادة المجتمع",
-          "primary": "القسم الأساسي",
-          "reserve": "القسم الثانوي",
-          "cwidesub": "القسم الفرعي على مستوى المجتمع"
-      },
-      "addToRoster": "إنشاء صف",
-      "saveMemberOnRoster": "حفظ الصف",
-      "removeMemberFromRoster": "إزالة من القائمة",
-      "duplicateRank": "تكرار الرتبة",
-      "markRankPrimary": "تحديد استخدام الرتبة الأساسي فقط",
-      "markRankSecondary": "تحديد استخدام الرتبة الثانوي فقط",
-      "copyPermissions": "نسخ الأذونات",
-      "pastePermissions": "لصق الأذونات",
-      "removeConfirm": "هل أنت متأكد أنك تريد إزالة هذا القسم؟",
-      "toggleAllPermissions": "تبديل جميع الأذونات",
-      "copyRankIdToClipboard": "نسخ المعرف إلى الحافظة",
-      "copySuccess": "تم النسخ إلى الحافظة!",
-      "defaultPermissions": "أذونات القسم الافتراضية",
-      "pagePermissions": "أذونات الصفحة"
+    "departmentName": "اسم القسم",
+    "shortName": "الاسم المختصر",
+    "ranksAndPositions": "الرتب/المناصب المرتبطة",
+    "addRank": "إضافة رتبة",
+    "removeRank": "إزالة رتبة",
+    "rankName": "اسم الرتبة",
+    "rankColor": "لون الرتبة التجميلي",
+    "rankIcon": "أيقونة الرتبة التجميلية",
+    "rankImg": "صورة الرتبة التجميلية",
+    "cmsPermissions": "أذونات نظام إدارة المحتوى",
+    "formPermissions": "أذونات النموذج",
+    "rosterPermissions": "أذونات القائمة",
+    "calendarPermissions": "أذونات التقويم",
+    "serverPermissions": "أذونات الخادم",
+    "profileFieldPermissions": "أذونات حقول الملف الشخصي",
+    "navigationPermissions": "أذونات التنقل",
+    "rankPower": "القوة",
+    "rankPowerDesc": "قوة الرتبة مرتبطة بمن يمكنك محاولة تنفيذ الإجراءات النظامية عليهم وكيفية ترتيبك في القوائم. على سبيل المثال لا يمكنك طرد شخص لديه نفس قوة الرتبة أو أعلى منك.",
+    "limitsHit": "تم الوصول إلى الحد الأقصى لعدد الأقسام!",
+    "departmentType": "نوع القسم",
+    "typeOptions": {
+      "leadership": "قيادة المجتمع",
+      "primary": "القسم الأساسي",
+      "reserve": "القسم الثانوي",
+      "cwidesub": "القسم الفرعي على مستوى المجتمع"
+    },
+    "addToRoster": "إنشاء صف",
+    "saveMemberOnRoster": "حفظ الصف",
+    "removeMemberFromRoster": "إزالة من القائمة",
+    "duplicateRank": "تكرار الرتبة",
+    "markRankPrimary": "تحديد استخدام الرتبة الأساسي فقط",
+    "markRankSecondary": "تحديد استخدام الرتبة الثانوي فقط",
+    "copyPermissions": "نسخ الأذونات",
+    "pastePermissions": "لصق الأذونات",
+    "removeConfirm": "هل أنت متأكد أنك تريد إزالة هذا القسم؟",
+    "toggleAllPermissions": "تبديل جميع الأذونات",
+    "copyRankIdToClipboard": "نسخ المعرف إلى الحافظة",
+    "copySuccess": "تم النسخ إلى الحافظة!",
+    "defaultPermissions": "أذونات القسم الافتراضية",
+    "pagePermissions": "أذونات الصفحة"
   },
   "customization": {
-      "inputs": {
-          "discoveryEnable": "تمكين اكتشاف المجتمع",
-          "discoverySelectForm": "نموذج العضو الجديد الافتراضي",
-          "bumpDiscovery": "رفع الاكتشاف",
-          "discoveryTags": "علامات البحث",
-          "logo": "شعار المجتمع",
-          "banner": "صورة لافتة المجتمع"
-      },
-      "tooltips": {
-          "discoveryEnable": "هذا يمكن/يعطل المجتمع لنظام اكتشاف المجتمع في Sonoran CMS.",
-          "discoverySelectForm": "سيظهر هذا النموذج تلقائيًا للتقديم إذا انضم مستخدم إلى المجتمع من خلال نظام اكتشاف المجتمع في Sonoran CMS. يجب أن يكون النموذج من نوع \"طلب عضو جديد\".",
-          "enableDiscoveryFirst": "يجب تمكين اكتشاف المجتمع لاستخدام هذا",
-          "hoursUntilNextBump": "لديك ساعة واحدة متبقية قبل أن تتمكن من الرفع مرة أخرى | لديك {hours} ساعات متبقية قبل أن تتمكن من الرفع مرة أخرى",
-          "canBumpDiscovery": "اجعل مجتمعك في قمة صفحة الاكتشاف!"
-      }
+    "inputs": {
+      "discoveryEnable": "تمكين اكتشاف المجتمع",
+      "discoverySelectForm": "نموذج العضو الجديد الافتراضي",
+      "bumpDiscovery": "رفع الاكتشاف",
+      "discoveryTags": "علامات البحث",
+      "logo": "شعار المجتمع",
+      "banner": "صورة لافتة المجتمع"
+    },
+    "tooltips": {
+      "discoveryEnable": "هذا يمكن/يعطل المجتمع لنظام اكتشاف المجتمع في Sonoran CMS.",
+      "discoverySelectForm": "سيظهر هذا النموذج تلقائيًا للتقديم إذا انضم مستخدم إلى المجتمع من خلال نظام اكتشاف المجتمع في Sonoran CMS. يجب أن يكون النموذج من نوع \"طلب عضو جديد\".",
+      "enableDiscoveryFirst": "يجب تمكين اكتشاف المجتمع لاستخدام هذا",
+      "hoursUntilNextBump": "لديك ساعة واحدة متبقية قبل أن تتمكن من الرفع مرة أخرى | لديك {hours} ساعات متبقية قبل أن تتمكن من الرفع مرة أخرى",
+      "canBumpDiscovery": "اجعل مجتمعك في قمة صفحة الاكتشاف!"
+    }
   },
   "formManagement": {
-      "pending": "قيد الانتظار",
-      "approve": "الموافقة",
-      "approved": "تمت الموافقة",
-      "denied": "مرفوض",
-      "submitter": "المقدم",
-      "status": "الحالة"
+    "pending": "قيد الانتظار",
+    "approve": "الموافقة",
+    "approved": "تمت الموافقة",
+    "denied": "مرفوض",
+    "submitter": "المقدم",
+    "status": "الحالة"
   },
   "calendar": {
-      "viewEvents": "عرض الأحداث",
-      "createEvents": "إنشاء أحداث",
-      "removeEvents": "إزالة الأحداث",
-      "editOtherEvents": "تحرير أحداث أخرى",
-      "createEvent": "إنشاء حدث - الفئة",
-      "eventNotFound": "الحدث غير موجود/غير قابل للوصول",
-      "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة."
+    "viewEvents": "عرض الأحداث",
+    "createEvents": "إنشاء أحداث",
+    "removeEvents": "إزالة الأحداث",
+    "editOtherEvents": "تحرير أحداث أخرى",
+    "createEvent": "إنشاء حدث - الفئة",
+    "eventNotFound": "الحدث غير موجود/غير قابل للوصول",
+    "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة."
   },
   "limits": {
-      "version": "الإصدار",
-      "departments": "الأقسام",
-      "driveStorage": "تخزين القيادة",
-      "idPrefix": "المعرف:",
-      "versionPrefix": "الطبقة:",
-      "expiresPrefix": "تنتهي في:",
-      "goProToday": "احصل على النسخة الاحترافية اليوم"
+    "version": "الإصدار",
+    "departments": "الأقسام",
+    "driveStorage": "تخزين القيادة",
+    "idPrefix": "المعرف:",
+    "versionPrefix": "الطبقة:",
+    "expiresPrefix": "تنتهي في:",
+    "goProToday": "احصل على النسخة الاحترافية اليوم"
   },
   "roster": {
-      "addPrimary": "إضافة صف",
-      "addSecondary": "إضافة صف",
-      "editingMember": "تحرير صف"
+    "addPrimary": "إضافة صف",
+    "addSecondary": "إضافة صف",
+    "editingMember": "تحرير صف"
   },
   "templateManagement": {
-      "creationDescription": "سيساعدك هذا الحوار في إنشاء قالب مجتمع Sonoran CMS من عناصر من مجتمعك، يمكنك تحديث وإزالة هذا القالب في أي وقت بعد اكتمال الإنشاء.",
-      "previewImages": "معاينة صور القالب",
-      "creationSelectionDescription": "ستساعدك هذه النافذة في اختيار المكونات التي ترغب في تضمينها في القالب الخاص بمجتمعك، يمكنك تحديث وإزالة المكونات من هذا القالب بعد اكتمال الإنشاء.",
-      "manageDescription": "ستتيح لك هذه النافذة إدارة إضافة، إزالة وتحديث العناصر والمعلومات في القالب الخاص بك. بمجرد حفظ أي تغييرات، ستحتاج إلى إعادة مراجعتها من قبل فريق تطوير Sonoran CMS.",
-      "manageImages": "إدارة معاينة صور القالب"
+    "creationDescription": "سيساعدك هذا الحوار في إنشاء قالب مجتمع Sonoran CMS من عناصر من مجتمعك، يمكنك تحديث وإزالة هذا القالب في أي وقت بعد اكتمال الإنشاء.",
+    "previewImages": "معاينة صور القالب",
+    "creationSelectionDescription": "ستساعدك هذه النافذة في اختيار المكونات التي ترغب في تضمينها في القالب الخاص بمجتمعك، يمكنك تحديث وإزالة المكونات من هذا القالب بعد اكتمال الإنشاء.",
+    "manageDescription": "ستتيح لك هذه النافذة إدارة إضافة، إزالة وتحديث العناصر والمعلومات في القالب الخاص بك. بمجرد حفظ أي تغييرات، ستحتاج إلى إعادة مراجعتها من قبل فريق تطوير Sonoran CMS.",
+    "manageImages": "إدارة معاينة صور القالب"
   },
   "profileFieldsEditor": {
-      "errors": {
-          "onGetAll": "حدث خطأ أثناء الحصول على جميع حقول الملف الشخصي. خطأ: {error}",
-          "noSelectOptions": "نوع حقل الملف الشخصي 'SELECT' يتطلب على الأقل خيار واحد.",
-          "onSave": "حدث خطأ أثناء حفظ حقل ملف شخصي جديد. خطأ: {error}",
-          "noFindField": "لم يتم العثور على أي حقل مما تم اختياره."
-      }
+    "errors": {
+      "onGetAll": "حدث خطأ أثناء الحصول على جميع حقول الملف الشخصي. خطأ: {error}",
+      "noSelectOptions": "نوع حقل الملف الشخصي 'SELECT' يتطلب على الأقل خيار واحد.",
+      "onSave": "حدث خطأ أثناء حفظ حقل ملف شخصي جديد. خطأ: {error}",
+      "noFindField": "لم يتم العثور على أي حقل مما تم اختياره."
+    }
   },
   "shieldPanel": {
     "sonoranShieldNetworkDefense": "دفاع شبكة Sonoran Shield",
@@ -630,7 +630,10 @@
     "vpnDetection": "اكتشاف VPN",
     "displayVpnDetectionFlagsOnlyForUsersWho": "عرض إشارات اكتشاف VPN فقط للمستخدمين المعلقين، بمعنى أولئك الذين انضموا ولكن ليس لديهم أي رتب في CMS.",
     "altDetection": "الكشف عن الغش",
-    "ignoreAlternateAccountDetectionFlags": "تجاهل علامات اكتشاف حساب بديل للمستخدمين الذين لم ينضموا بعد إلى المجتمع. عرض العلامة فقط عند انضمام الحساب البديل المشتبه فيه إلى المجتمع."
+    "ignoreAlternateAccountDetectionFlags": "تجاهل علامات اكتشاف حساب بديل للمستخدمين الذين لم ينضموا بعد إلى المجتمع. عرض العلامة فقط عند انضمام الحساب البديل المشتبه فيه إلى المجتمع.",
+    "lastWeek": "الأسبوع الماضي",
+    "lastMonth": "الشهر الماضي",
+    "allTime": "طوال الوقت"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -1838,7 +1841,8 @@
     "errorFileTypeeMessage": "نوع الملف غير مدعوم. يرجى رفع الصور فقط.",
     "errorDuplicateMessage": "تم رفع هذا الملف بالفعل.",
     "errorMaxTotalSizeMessage": "إجمالي حجم الملفات يتجاوز الحد الأقصى المسموح به وهو 100 ميجابايت.",
-    "errorDefaultMessage": "حدث خطأ غير متوقع أثناء الرفع. يرجى المحاولة مرة أخرى. إذا استمرت المشكلة، اتصل بالدعم للحصول على المساعدة."
+    "errorDefaultMessage": "حدث خطأ غير متوقع أثناء الرفع. يرجى المحاولة مرة أخرى. إذا استمرت المشكلة، اتصل بالدعم للحصول على المساعدة.",
+    "errorImageErrored": "كان هناك خطأ في تحميل الصورة."
   },
   "whatYouSeeEditor": {
     "updateMessage": "تم تحويل محتوى النص من المحرر القديم. يرجى المراجعة والتحديث حسب الحاجة."
