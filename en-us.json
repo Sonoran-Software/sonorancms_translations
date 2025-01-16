@@ -4335,6 +4335,6 @@
     "profileFieldRange": "Profile Field Range"
   },
   "accountSearchFilter": {
-    "searchTooltip": "Search by column"
+    "searchTooltip": "Search by "
   }
 }
