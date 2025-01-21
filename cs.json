@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Konfigurace Sonoran CAD",
     "cadApiCredentials": "Přihlašovací údaje API CAD",
     "cadSyncOptions": "Možnosti synchronizace CAD",
-    "cadPermissionsSelector": "Selektor oprávnění CAD"
+    "cadPermissionsSelector": "Selektor oprávnění CAD",
+    "banEnabled": "Synchronizace banů",
+    "kickEnabled": "Vyhodit synchronizaci",
+    "syncEnabled": "Synchronizace oprávnění",
+    "joinSyncEnabled": "Připojit synchronizaci",
+    "apiIdSyncEnabled": "Synchronizace API ID",
+    "banEnabledDescription": "Zákaz uživatele v CMS ho zablokuje v komunitě Sonoran CAD.",
+    "kickEnabledDescription": "Když je uživatel vyhozen z CMS, je vyhozen i z komunity Sonoran CAD.",
+    "syncEnabledDescription": "Synchronizujte oprávnění z uživatelských účtů Sonoran CMS na jejich komunitní účet Sonoran CAD.",
+    "joinSyncEnabledDescription": "Automaticky připojit všechny uživatelské účty v CMS ke komunitě Sonoran CAD.",
+    "apiIdSyncEnabledDescription": "Automaticky přidejte ID uživatelského API ze Sonoran CMS k jejich účtu komunity v Sonoran CAD.",
+    "cadSyncNotEnabled": "Povolte synchronizaci oprávnění pro konfiguraci oprávnění."
   },
   "imageInn": {
     "dropArea": "Oblast pro přetažení"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "hodnosti k odstranění",
     "noRanksSelectedToBeRemovedFromAccounts": "Nebyla vybrána žádná hodnost k odstranění z účtů",
     "sonoranBotEncounteredAnIssue": "sonoranBotSeSetkalSProblémem",
-    "banConfiguration": "Konfigurace banu"
+    "banConfiguration": "Konfigurace banu",
+    "ranksToAdd": "Hodnosti k přidání"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinární body",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Členové komunity se automaticky připojí k Sonoran Radio, když se připojí k CMS",
     "communityMembersAutomaticallyKickSonoran": "Členové komunity se automaticky odpojí nebo jsou vykopnuti ze Sonoran Radio, když opustí CMS",
     "title": "Konfigurace Sonoran Radio",
-    "nameSync": "Název synchronizace"
+    "nameSync": "Název synchronizace",
+    "nameSyncDescription": "Automaticky synchronizovat zobrazovaná jména ze Sonoran CMS na jejich komunitní účet Sonoran Radio."
   },
   "RadioPermSelector": {
     "setRadio": "nastavitRadio"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "hodnosti k přidání Přidávání hodností",
     "noRanksSelectedToBeAddedOnToAccounts": "Žádné hodnosti nebyly vybrány k přidání k účtům",
     "sonoranBotEncounteredAnIssue": "sonoranBot narazil na problém",
-    "banConfiguration": "konfiguraceBanu"
+    "banConfiguration": "konfiguraceBanu",
+    "ranksToAdd": "Hodnosti k přidání"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Žádný server.",

@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Sonoran CAD Configuraties",
     "cadApiCredentials": "CAD API Referenties",
     "cadSyncOptions": "CAD Synchronisatie Opties",
-    "cadPermissionsSelector": "CAD Permissies Selector"
+    "cadPermissionsSelector": "CAD Permissies Selector",
+    "banEnabled": "Ban Synchronisatie",
+    "kickEnabled": "Kick synchronisatie",
+    "syncEnabled": "Machtiging Synchronisatie",
+    "joinSyncEnabled": "Deelnemen aan Synchronisatie",
+    "apiIdSyncEnabled": "API ID Synchronisatie",
+    "banEnabledDescription": "Een gebruiker verbannen uit de CMS verbant hen uit de Sonoran CAD-gemeenschap.",
+    "kickEnabledDescription": "Het verwijderen van een gebruiker uit de CMS verwijdert hen uit de Sonoran CAD-community.",
+    "syncEnabledDescription": "Synchroniseer permissies van Sonoran CMS-gebruikersaccounts naar hun Sonoran CAD-gemeenschapsaccount.",
+    "joinSyncEnabledDescription": "Verbind automatisch alle gebruikersaccounts in de CMS met de Sonoran CAD-gemeenschap.",
+    "apiIdSyncEnabledDescription": "Automatisch gebruikers-API-ID's van Sonoran CMS toevoegen aan hun Sonoran CAD community-account.",
+    "cadSyncNotEnabled": "Schakel Machtigingsynchronisatie in om machtigingen te configureren."
   },
   "imageInn": {
     "dropArea": "Drop Gebied"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "rangenOmTeVerwijderen",
     "noRanksSelectedToBeRemovedFromAccounts": "Geen rangen geselecteerd om van accounts te verwijderen",
     "sonoranBotEncounteredAnIssue": "sonoranBotHeeftEenProbleemOndervonden",
-    "banConfiguration": "Banconfiguratie"
+    "banConfiguration": "Banconfiguratie",
+    "ranksToAdd": "Rangen Om Toe Te Voegen"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinairepunten",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Community-leden worden automatisch lid van Sonoran Radio wanneer ze lid worden van CMS",
     "communityMembersAutomaticallyKickSonoran": "Communityleden verlaten/worden automatisch verwijderd uit Sonoran Radio wanneer ze CMS verlaten",
     "title": "Sonoran Radio-configuraties",
-    "nameSync": "Naam Synchronisatie"
+    "nameSync": "Naam Synchronisatie",
+    "nameSyncDescription": "Synchroniseer automatisch weergavenamen van Sonoran CMS naar hun Sonoran Radio-communityaccount."
   },
   "RadioPermSelector": {
     "setRadio": "instellenRadio"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "Rangen toe te voegen",
     "noRanksSelectedToBeAddedOnToAccounts": "er zijn geen rangen geselecteerd om aan accounts toe te voegen",
     "sonoranBotEncounteredAnIssue": "sonoranBot heeft een probleem ondervonden",
-    "banConfiguration": "banConfiguratie"
+    "banConfiguration": "banConfiguratie",
+    "ranksToAdd": "Rangen om toe te voegen"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Geen servers gekoppeld",

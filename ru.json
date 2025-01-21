@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Учетные данные API CAD",
     "cadApiCredentials": "Параметры синхронизации CAD",
     "cadSyncOptions": "Селектор разрешений CAD",
-    "cadPermissionsSelector": "Область для перетаскивания"
+    "cadPermissionsSelector": "Область для перетаскивания",
+    "banEnabled": "Синхронизация банов",
+    "kickEnabled": "Синхронизация кика",
+    "syncEnabled": "Синхронизация разрешений",
+    "joinSyncEnabled": "Присоединение к синхронизации",
+    "apiIdSyncEnabled": "Синхронизация ID API",
+    "banEnabledDescription": "Запрет пользователя в CMS заблокирует его в сообществе Sonoran CAD.",
+    "kickEnabledDescription": "Исключение пользователя из CMS исключает его из сообщества Sonoran CAD.",
+    "syncEnabledDescription": "Синхронизируйте разрешения из учетных записей пользователей Sonoran CMS с их учетной записью сообщества Sonoran CAD.",
+    "joinSyncEnabledDescription": "Автоматически присоединить все пользовательские аккаунты в CMS к сообществу Sonoran CAD.",
+    "apiIdSyncEnabledDescription": "Автоматически добавляйте пользовательские API идентификаторы из Sonoran CMS в их учетную запись сообщества Sonoran CAD.",
+    "cadSyncNotEnabled": "Включите синхронизацию разрешений для настройки разрешений."
   },
   "imageInn": {
     "dropArea": "Нажмите, чтобы загрузить изображение"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "рангиДляУдаления",
     "noRanksSelectedToBeRemovedFromAccounts": "не выбрано званий для удаления из учетных записей",
     "sonoranBotEncounteredAnIssue": "SonoranBot столкнулся с проблемой",
-    "banConfiguration": "Настройка бана"
+    "banConfiguration": "Настройка бана",
+    "ranksToAdd": "Звания для добавления"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "дисциплинарныеБаллы",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Участники сообщества автоматически присоединяются к Sonoran Radio, когда они присоединяются к CMS",
     "communityMembersAutomaticallyKickSonoran": "Члены сообщества автоматически выходят/исключаются из Sonoran Radio, когда выходят из CMS",
     "title": "Конфигурации Sonoran Radio",
-    "nameSync": "Синхронизация Имени"
+    "nameSync": "Синхронизация Имени",
+    "nameSyncDescription": "Автоматически синхронизировать отображаемые имена из Sonoran CMS с учетной записью их сообщества в Sonoran Radio."
   },
   "RadioPermSelector": {
     "setRadio": "установить Радио"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "рангиДляДобавленияДобавлениеРангов",
     "noRanksSelectedToBeAddedOnToAccounts": "не выбраны ранги для добавления к учетным записям",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot столкнулся с проблемой",
-    "banConfiguration": "конфигурацияБана"
+    "banConfiguration": "конфигурацияБана",
+    "ranksToAdd": "Звания для добавления"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Отсутствуют доступные серверы для отображения резерва.",

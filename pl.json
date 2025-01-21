@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Konfiguracje Sonoran CAD",
     "cadApiCredentials": "Poświadczenia API CAD",
     "cadSyncOptions": "Opcje synchronizacji CAD",
-    "cadPermissionsSelector": "Selektor uprawnień CAD"
+    "cadPermissionsSelector": "Selektor uprawnień CAD",
+    "banEnabled": "Synchronizacja banów",
+    "kickEnabled": "Synchronizacja wyrzucenia",
+    "syncEnabled": "Synchronizacja uprawnień",
+    "joinSyncEnabled": "Dołącz synchronizację",
+    "apiIdSyncEnabled": "Synchronizacja ID API",
+    "banEnabledDescription": "Zbanowanie użytkownika w CMS oznacza zbanowanie go w społeczności Sonoran CAD.",
+    "kickEnabledDescription": "Usunięcie użytkownika z CMS usuwa go ze społeczności Sonoran CAD.",
+    "syncEnabledDescription": "Zsynchronizuj uprawnienia z kont użytkowników Sonoran CMS z ich kontem społecznościowym Sonoran CAD.",
+    "joinSyncEnabledDescription": "Automatycznie dołącz wszystkie konta użytkowników w CMS do społeczności Sonoran CAD.",
+    "apiIdSyncEnabledDescription": "Automatycznie dodawaj identyfikatory użytkowników API z Sonoran CMS do ich konta społecznościowego Sonoran CAD.",
+    "cadSyncNotEnabled": "Włącz synchronizację uprawnień, aby skonfigurować uprawnienia."
   },
   "imageInn": {
     "dropArea": "Obszar upuszczania"
@@ -4140,7 +4151,8 @@
     "ranksToRemove": "rangiDoUsunięcia",
     "noRanksSelectedToBeRemovedFromAccounts": "Nie wybrano żadnych rang do usunięcia z kont",
     "sonoranBotEncounteredAnIssue": "SonoranBot napotkał problem",
-    "banConfiguration": "Konfiguracja Banów"
+    "banConfiguration": "Konfiguracja Banów",
+    "ranksToAdd": "Rangi do dodania"
   },
   "permissionToggleGroup": {
     "inherited": "odziedziczony"
@@ -4172,7 +4184,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Członkowie społeczności automatycznie dołączają do Sonoran Radio, gdy dołączają do CMS",
     "communityMembersAutomaticallyKickSonoran": "Członkowie społeczności automatycznie opuszczają/zostają wyrzuceni z Sonoran Radio, gdy opuszczają CMS",
     "title": "Konfiguracje Sonoran Radio",
-    "nameSync": "Synchronizacja nazwy"
+    "nameSync": "Synchronizacja nazwy",
+    "nameSyncDescription": "Automatycznie synchronizuj wyświetlane nazwy z Sonoran CMS z kontem społecznościowym Sonoran Radio."
   },
   "permNames": {
     "allowsMembersToRemoveOtherMembersFromThe": "umożliwia członkom usuwanie innych członków z",
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "rangiDoDodaniaDodawanieRang",
     "noRanksSelectedToBeAddedOnToAccounts": "Nie wybrano stopni do dodania na konta",
     "sonoranBotEncounteredAnIssue": "sonoranBot napotkał problem",
-    "banConfiguration": "konfiguracjaBana"
+    "banConfiguration": "konfiguracjaBana",
+    "ranksToAdd": "Rangi do dodania"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Brak serwera do wyświetlenia listy.",

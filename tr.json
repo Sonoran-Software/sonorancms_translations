@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Sonoran CAD Yapılandırmaları",
     "cadApiCredentials": "CAD API Kimlik Bilgileri",
     "cadSyncOptions": "CAD Senkronizasyon Seçenekleri",
-    "cadPermissionsSelector": "CAD İzin Seçici"
+    "cadPermissionsSelector": "CAD İzin Seçici",
+    "banEnabled": "Yasak Senkronizasyonu",
+    "kickEnabled": "Kick Senkronizasyonu",
+    "syncEnabled": "İzin Senkronizasyonu",
+    "joinSyncEnabled": "Eşitlemeye Katıl",
+    "apiIdSyncEnabled": "API Kimlik Senkronizasyonu",
+    "banEnabledDescription": "Sonoran CMS'den bir kullanıcıyı yasaklamak, onları Sonoran CAD topluluğundan da yasaklar.",
+    "kickEnabledDescription": "CMS'den bir kullanıcıyı atmak, onları Sonoran CAD topluluğundan da atar.",
+    "syncEnabledDescription": "Sonoran CMS kullanıcı hesaplarından Sonoran CAD topluluk hesaplarına izinleri senkronize et.",
+    "joinSyncEnabledDescription": "CMS'deki tüm kullanıcı hesaplarını otomatik olarak Sonoran CAD topluluğuna katın.",
+    "apiIdSyncEnabledDescription": "Sonoran CMS kullanıcı API kimliklerini otomatik olarak Sonoran CAD topluluk hesaplarına ekleyin.",
+    "cadSyncNotEnabled": "İzinleri yapılandırmak için İzin Senkronizasyonunu Etkinleştirin."
   },
   "imageInn": {
     "dropArea": "Bırakma Alanı"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "Kaldırılacak Rütbeler",
     "noRanksSelectedToBeRemovedFromAccounts": "Hesaplardan kaldırılacak rütbe seçilmedi",
     "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı",
-    "banConfiguration": "Yasaklama Yapılandırması"
+    "banConfiguration": "Yasaklama Yapılandırması",
+    "ranksToAdd": "Eklenecek Dereceler"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinPuanları",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "CMS'ye katıldıklarında topluluk üyeleri otomatik olarak Sonoran Radio'ya katılırlar",
     "communityMembersAutomaticallyKickSonoran": "CMS'den ayrıldıklarında topluluk üyeleri otomatik olarak Sonoran Radyo'dan ayrılır/atılır",
     "title": "Sonoran Radyo Yapılandırmaları",
-    "nameSync": "Ad Senkronizasyonu"
+    "nameSync": "Ad Senkronizasyonu",
+    "nameSyncDescription": "Sonoran CMS'ten Sonoran Radio topluluk hesaplarına isimleri otomatik olarak senkronize et."
   },
   "RadioPermSelector": {
     "setRadio": "radyoAyarlama"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "Rütbe Eklemek İçin Eklenen Rütbeler",
     "noRanksSelectedToBeAddedOnToAccounts": "Hesaplara eklenecek rütbe seçilmedi",
     "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı",
-    "banConfiguration": "yasakKonfigürasyonu"
+    "banConfiguration": "yasakKonfigürasyonu",
+    "ranksToAdd": "Eklenecek Rütbeler"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Sunucu yok",

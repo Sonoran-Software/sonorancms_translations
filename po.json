@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Konfiguracje Sonoran CAD",
     "cadApiCredentials": "Poświadczenia API CAD",
     "cadSyncOptions": "Opcje synchronizacji CAD",
-    "cadPermissionsSelector": "Selektor uprawnień CAD"
+    "cadPermissionsSelector": "Selektor uprawnień CAD",
+    "banEnabled": "Bant Senkronizasyonu",
+    "kickEnabled": "Икик синхронизациясы",
+    "syncEnabled": "Synchronizacja uprawnień",
+    "joinSyncEnabled": "Synchronizare participare",
+    "apiIdSyncEnabled": "Synchronizzazione ID API",
+    "banEnabledDescription": "إبعاد مستخدم من نظام الإدارة يؤدي إلى إبعاده من مجتمع Sonoran CAD.",
+    "kickEnabledDescription": "Vyhozením uživatele z CMS ho vyhodíte z komunity Sonoran CAD.",
+    "syncEnabledDescription": "Synchronizovat oprávnění z uživatelských účtů Sonoran CMS na jejich účet komunity Sonoran CAD.",
+    "joinSyncEnabledDescription": "Automáticamente unirse a todas las cuentas de usuario en el CMS a la comunidad de Sonoran CAD.",
+    "apiIdSyncEnabledDescription": "Dodaj automatycznie identyfikatory API użytkowników z Sonoran CMS do ich kont w społeczności Sonoran CAD.",
+    "cadSyncNotEnabled": "Włącz synchronizację uprawnień, aby skonfigurować uprawnienia."
   },
   "imageInn": {
     "dropArea": "Obszar upuszczania"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "rangiDoUsunięcia",
     "noRanksSelectedToBeRemovedFromAccounts": "Brak wybranych rang do usunięcia z kont.",
     "sonoranBotEncounteredAnIssue": "SonoranBot encontrou um problema",
-    "banConfiguration": "Konfiguracja banów"
+    "banConfiguration": "Konfiguracja banów",
+    "ranksToAdd": "Rangas a Añadir"
   },
   "RadioIntegration": {
     "remove": "usuń",
@@ -4300,7 +4312,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Członkowie społeczności automatycznie dołączają do Sonoran Radio, gdy dołączają do CMS",
     "communityMembersAutomaticallyKickSonoran": "Członkowie społeczności automatycznie wychodzą/zostają wyrzuceni z Sonoran Radio, gdy opuszczają CMS",
     "title": "Konfigurimet e Radios Sonoran",
-    "nameSync": "Nome Sincronizado"
+    "nameSync": "Nome Sincronizado",
+    "nameSyncDescription": "Zsynchronizuj automatycznie wyświetlane nazwy z Sonoran CMS z ich kontem społecznościowym w Sonoran Radio."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "punkty dyscyplinarne",
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "Dodavanje činova",
     "noRanksSelectedToBeAddedOnToAccounts": "Žádné hodnosti nebyly vybrány k přidání na účty.",
     "sonoranBotEncounteredAnIssue": "sonoranBot encontró un problema",
-    "banConfiguration": "KonfiguracjaBanów"
+    "banConfiguration": "KonfiguracjaBanów",
+    "ranksToAdd": "Rangi do dodania"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Nie ma serwera",

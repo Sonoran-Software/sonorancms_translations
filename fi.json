@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Sonoran CAD -kokoonpanot",
     "cadApiCredentials": "CAD API -tunnukset",
     "cadSyncOptions": "CAD-synkronointiasetukset",
-    "cadPermissionsSelector": "CAD-oikeuksien valitsin"
+    "cadPermissionsSelector": "CAD-oikeuksien valitsin",
+    "banEnabled": "Ban-synkronointi",
+    "kickEnabled": "Potkun synkronointi",
+    "syncEnabled": "Lupien synkronointi",
+    "joinSyncEnabled": "Liity synkronointiin",
+    "apiIdSyncEnabled": "API ID-synkronointi",
+    "banEnabledDescription": "Kun käyttäjä kielletään CMS:stä, se kieltää heidät myös Sonoran CAD-yhteisöstä.",
+    "kickEnabledDescription": "Potkun antaminen käyttäjälle CMS:stä antaa hänelle potkut Sonoran CAD -yhteisöstä.",
+    "syncEnabledDescription": "Synkronoi oikeudet Sonoran CMS -käyttäjätileiltä heidän Sonoran CAD -yhteisötililleen.",
+    "joinSyncEnabledDescription": "Liitä kaikki CMS-käyttäjätilit automaattisesti Sonoran CAD -yhteisöön.",
+    "apiIdSyncEnabledDescription": "Lisää käyttäjien API-tunnukset automaattisesti Sonoran CMS:stä heidän Sonoran CAD -yhteisötililleen.",
+    "cadSyncNotEnabled": "Ota käyttöön oikeuksien synkronointi määrittääksesi oikeudet."
   },
   "imageInn": {
     "dropArea": "Pudotusalue"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "arvotPoistettavaksi",
     "noRanksSelectedToBeRemovedFromAccounts": "mitään arvoja ei valittu poistettavaksi tileiltä",
     "sonoranBotEncounteredAnIssue": "sonoranBotilla ilmeni ongelma",
-    "banConfiguration": "Määräys asetukset"
+    "banConfiguration": "Määräys asetukset",
+    "ranksToAdd": "Arvot lisättäväksi"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "kurinpidollisetPisteet",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Yhteisön jäsenet liittyvät automaattisesti Sonoran Radioon, kun he liittyvät CMS:ään",
     "communityMembersAutomaticallyKickSonoran": "Yhteisön jäsenet poistuvat automaattisesti tai heidät poistetaan Sonoran Radiosta, kun he lähtevät CMS:stä",
     "title": "Sonoran Radion asetukset",
-    "nameSync": "Nimen synkronointi"
+    "nameSync": "Nimen synkronointi",
+    "nameSyncDescription": "Synkronoi näyttönimet automaattisesti Sonoran CMS:stä Sonoran Radio -yhteisötilille."
   },
   "RadioPermSelector": {
     "setRadio": "asetaRadio"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "arvoja lisätessä",
     "noRanksSelectedToBeAddedOnToAccounts": "Ei rankkeja valittuna lisättäväksi tileille",
     "sonoranBotEncounteredAnIssue": "sonoranBot kohtasi ongelman",
-    "banConfiguration": "kieltoasetukset"
+    "banConfiguration": "kieltoasetukset",
+    "ranksToAdd": "Lisättävät arvot"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Ei palvelinta saatavilla.",

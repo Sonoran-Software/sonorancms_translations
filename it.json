@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Configurazioni Sonoran CAD",
     "cadApiCredentials": "Credenziali API CAD",
     "cadSyncOptions": "Opzioni di sincronizzazione CAD",
-    "cadPermissionsSelector": "Selettore dei permessi CAD"
+    "cadPermissionsSelector": "Selettore dei permessi CAD",
+    "banEnabled": "Sincronizzazione Ban",
+    "kickEnabled": "Sincronizzazione espulsione",
+    "syncEnabled": "Sincronizzazione delle autorizzazioni",
+    "joinSyncEnabled": "Unisci Sincronizzazione",
+    "apiIdSyncEnabled": "Sincronizzazione ID API",
+    "banEnabledDescription": "Vietare un utente dal CMS lo esclude dalla comunità Sonoran CAD.",
+    "kickEnabledDescription": "Espellere un utente dal CMS lo espelle dalla comunità di Sonoran CAD.",
+    "syncEnabledDescription": "Sincronizza le autorizzazioni dai conti utente Sonoran CMS al loro conto comunitario Sonoran CAD.",
+    "joinSyncEnabledDescription": "Unisci automaticamente tutti gli account utente nel CMS alla comunità Sonoran CAD.",
+    "apiIdSyncEnabledDescription": "Aggiungi automaticamente gli ID API utente da Sonoran CMS al loro account di comunità Sonoran CAD.",
+    "cadSyncNotEnabled": "Abilita Sincronizzazione Permessi per configurare i permessi."
   },
   "imageInn": {
     "dropArea": "Area di rilascio"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "gradiDaRimuovere",
     "noRanksSelectedToBeRemovedFromAccounts": "Nessun Grado Selezionato da Rimuovere dagli Account",
     "sonoranBotEncounteredAnIssue": "sonoranBot ha riscontrato un problema",
-    "banConfiguration": "Configurazione del Ban"
+    "banConfiguration": "Configurazione del Ban",
+    "ranksToAdd": "Gradi da aggiungere"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "punti disciplinari",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "I membri della comunità si uniscono automaticamente a Sonoran Radio quando si uniscono a CMS",
     "communityMembersAutomaticallyKickSonoran": "I membri della community lasciano/sono espulsi automaticamente da Sonoran Radio quando lasciano CMS",
     "title": "Configurazioni di Sonoran Radio",
-    "nameSync": "Sincronizzazione Nome"
+    "nameSync": "Sincronizzazione Nome",
+    "nameSyncDescription": "Sincronizza automaticamente i nomi visualizzati da Sonoran CMS con il loro account comunitario Sonoran Radio."
   },
   "RadioPermSelector": {
     "setRadio": "impostaRadio"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "Gradi da aggiungere",
     "noRanksSelectedToBeAddedOnToAccounts": "Nessun grado selezionato da aggiungere agli account",
     "sonoranBotEncounteredAnIssue": "SonoranBot ha riscontrato un problema",
-    "banConfiguration": "ConfigurazioneBan"
+    "banConfiguration": "ConfigurazioneBan",
+    "ranksToAdd": "Gradi Da Aggiungere"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Visualizzazione elenco nessun server",

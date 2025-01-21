@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "CAD API 資格情報",
     "cadApiCredentials": "CAD 同期オプション",
     "cadSyncOptions": "CAD 権限セレクター",
-    "cadPermissionsSelector": "ドロップエリア"
+    "cadPermissionsSelector": "ドロップエリア",
+    "banEnabled": "Ban同期",
+    "kickEnabled": "キック同期",
+    "syncEnabled": "権限同期",
+    "joinSyncEnabled": "参加同期",
+    "apiIdSyncEnabled": "API ID 同期",
+    "banEnabledDescription": "CMSからユーザーを禁止することは、彼らをSonoran CADコミュニティから禁止することになります。",
+    "kickEnabledDescription": "CMSからユーザーを追放すると、Sonoran CADコミュニティからも追放されます。",
+    "syncEnabledDescription": "Sonoran CMSのユーザーアカウントからSonoran CADのコミュニティアカウントに権限を同期します。",
+    "joinSyncEnabledDescription": "すべてのユーザーアカウントをCMSでSonoran CADコミュニティに自動的に参加させる。",
+    "apiIdSyncEnabledDescription": "Sonoran CMSからユーザーのAPI IDを自動的にSonoran CADコミュニティアカウントに追加します。",
+    "cadSyncNotEnabled": "権限を設定するために権限の同期を有効にする。"
   },
   "imageInn": {
     "dropArea": "画像をアップロードするにはクリックしてください"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "削除するランク",
     "noRanksSelectedToBeRemovedFromAccounts": "アカウントから削除されるランクが選択されていません",
     "sonoranBotEncounteredAnIssue": "SonoranBotに問題が発生しました",
-    "banConfiguration": "禁止設定"
+    "banConfiguration": "禁止設定",
+    "ranksToAdd": "追加するランク"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "懲戒点数",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "コミュニティメンバーはCMSに参加すると自動的にSonoran Radioに参加します",
     "communityMembersAutomaticallyKickSonoran": "コミュニティメンバーはCMSを離れたときに自動的にSonoran Radioから退出/キックされます",
     "title": "ソノランラジオの設定",
-    "nameSync": "名前の同期"
+    "nameSync": "名前の同期",
+    "nameSyncDescription": "Sonoran CMSからSonoran Radioコミュニティアカウントに表示名を自動的に同期します。"
   },
   "RadioPermSelector": {
     "setRadio": "無線を設定"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "ランクを追加",
     "noRanksSelectedToBeAddedOnToAccounts": "アカウントに追加するランクが選択されていません",
     "sonoranBotEncounteredAnIssue": "SonoranBotが問題に遭遇しました",
-    "banConfiguration": "禁止設定"
+    "banConfiguration": "禁止設定",
+    "ranksToAdd": "追加するランク"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "サーバーがありません",

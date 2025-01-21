@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "CAD 동기화 옵션",
     "cadApiCredentials": "CAD 권한 선택기",
     "cadSyncOptions": "드롭 영역",
-    "cadPermissionsSelector": "이미지를 업로드하려면 클릭하세요"
+    "cadPermissionsSelector": "이미지를 업로드하려면 클릭하세요",
+    "banEnabled": "밴 동기화",
+    "kickEnabled": "킥 동기화",
+    "syncEnabled": "권한 동기화",
+    "joinSyncEnabled": "동기화 참여",
+    "apiIdSyncEnabled": "API ID 동기화",
+    "banEnabledDescription": "CMS에서 사용자를 차단하면 Sonoran CAD 커뮤니티에서도 차단됩니다.",
+    "kickEnabledDescription": "CMS에서 사용자를 추방하면 Sonoran CAD 커뮤니티에서 추방됩니다.",
+    "syncEnabledDescription": "Sonoran CMS 사용자 계정의 권한을 Sonoran CAD 커뮤니티 계정에 동기화합니다.",
+    "joinSyncEnabledDescription": "CMS의 모든 사용자 계정을 Sonoran CAD 커뮤니티에 자동으로 가입시킵니다.",
+    "apiIdSyncEnabledDescription": "Sonoran CMS에서 사용자 API ID를 Sonoran CAD 커뮤니티 계정에 자동으로 추가합니다.",
+    "cadSyncNotEnabled": "권한을 구성하려면 권한 동기화를 활성화하세요."
   },
   "imageInn": {
     "dropArea": "이 필드에 데이터가 없습니다. 가장 가능성 있는 문제는 서버의 Sonoran CMS Core 플러그인이 오래되었기 때문입니다."
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "제거할 등급",
     "noRanksSelectedToBeRemovedFromAccounts": "계정에서 제거할 계급이 선택되지 않았습니다",
     "sonoranBotEncounteredAnIssue": "SonoranBot에 문제가 발생했습니다.",
-    "banConfiguration": "밴 구성"
+    "banConfiguration": "밴 구성",
+    "ranksToAdd": "추가할 계급"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "징계 점수",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "커뮤니티 회원은 CMS에 가입할 때 자동으로 Sonoran Radio에 가입합니다",
     "communityMembersAutomaticallyKickSonoran": "커뮤니티 구성원이 CMS를 떠나면 Sonoran Radio에서 자동으로 나가거나 강제 퇴장됩니다.",
     "title": "Sonoran 라디오 구성",
-    "nameSync": "이름 동기화"
+    "nameSync": "이름 동기화",
+    "nameSyncDescription": "Sonoran CMS에서 Sonoran Radio 커뮤니티 계정으로 디스플레이 이름을 자동으로 동기화합니다."
   },
   "RadioPermSelector": {
     "setRadio": "라디오 설정"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "추가할 계급",
     "noRanksSelectedToBeAddedOnToAccounts": "계정에 추가할 등급이 선택되지 않음",
     "sonoranBotEncounteredAnIssue": "SonoranBot이 문제를 발견했습니다.",
-    "banConfiguration": "차단 설정"
+    "banConfiguration": "차단 설정",
+    "ranksToAdd": "추가할 등급"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "서버가 없습니다.",
