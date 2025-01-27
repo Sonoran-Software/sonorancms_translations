@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Sonoran CAD Konfigurationer",
     "cadApiCredentials": "CAD API Legitimationer",
     "cadSyncOptions": "CAD Synkroniseringsmuligheder",
-    "cadPermissionsSelector": "CAD Tilladelsesvælger"
+    "cadPermissionsSelector": "CAD Tilladelsesvælger",
+    "banEnabled": "Ban Sync",
+    "kickEnabled": "Kick Sync",
+    "syncEnabled": "Tilladelsessynkronisering",
+    "joinSyncEnabled": "Deltag i synkronisering",
+    "apiIdSyncEnabled": "API ID-synkronisering",
+    "banEnabledDescription": "At udelukke en bruger fra CMS udelukker dem fra Sonoran CAD-fællesskabet.",
+    "kickEnabledDescription": "At sparke en bruger fra CMS sparker dem ud af Sonoran CAD-fællesskabet.",
+    "syncEnabledDescription": "Synkroniser tilladelser fra Sonoran CMS-brugerkonti til deres Sonoran CAD-fællesskabskonto.",
+    "joinSyncEnabledDescription": "Tilføj automatisk alle brugerkonti i CMS til Sonoran CAD-fællesskabet.",
+    "apiIdSyncEnabledDescription": "Tilføj automatisk bruger-API-ID'er fra Sonoran CMS til deres Sonoran CAD-community-konto.",
+    "cadSyncNotEnabled": "Aktivér Tilladelsessynkronisering for at konfigurere tilladelser."
   },
   "imageInn": {
     "dropArea": "Drop Område"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "rækker, der skal fjernes",
     "noRanksSelectedToBeRemovedFromAccounts": "Ingen rækker valgt til at blive fjernet fra konti",
     "sonoranBotEncounteredAnIssue": "sonoranBotStødtePåEtProblem",
-    "banConfiguration": "Ban Konfiguration"
+    "banConfiguration": "Ban Konfiguration",
+    "ranksToAdd": "Rækker at tilføje"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinærePoint",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Medlemmer af fællesskabet tilslutter sig automatisk Sonoran Radio, når de tilslutter sig CMS",
     "communityMembersAutomaticallyKickSonoran": "Fællesskabsmedlemmer forlader automatisk/bliver fjernet fra Sonoran Radio, når de forlader CMS",
     "title": "Sonoran Radio konfigurationer",
-    "nameSync": "Navnesynkronisering"
+    "nameSync": "Navnesynkronisering",
+    "nameSyncDescription": "Synkroniser automatisk visningsnavne fra Sonoran CMS til deres Sonoran Radio-fællesskabskonto."
   },
   "RadioPermSelector": {
     "setRadio": "sætRadio"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "rækker at tilføje",
     "noRanksSelectedToBeAddedOnToAccounts": "ingenRangerValgtTilAtBliveTilføjetTilKonti",
     "sonoranBotEncounteredAnIssue": "sonoranBot stødte på et problem",
-    "banConfiguration": "banKonfiguration"
+    "banConfiguration": "banKonfiguration",
+    "ranksToAdd": "Rækker at tilføje"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Rostervisning er ikke tilknyttet nogen server",

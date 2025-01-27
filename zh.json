@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Sonoran CAD 配置",
     "cadApiCredentials": "CAD API 凭证",
     "cadSyncOptions": "CAD 同步选项",
-    "cadPermissionsSelector": "CAD 权限选择器"
+    "cadPermissionsSelector": "CAD 权限选择器",
+    "banEnabled": "禁令同步",
+    "kickEnabled": "踢出同步",
+    "syncEnabled": "权限同步",
+    "joinSyncEnabled": "加入同步",
+    "apiIdSyncEnabled": "API ID 同步",
+    "banEnabledDescription": "将用户从 CMS 禁止访问会禁止他们进入 Sonoran CAD 社区。",
+    "kickEnabledDescription": "从CMS中踢出用户会将他们从Sonoran CAD社区中移除。",
+    "syncEnabledDescription": "将权限从 Sonoran CMS 用户账户同步到他们的 Sonoran CAD 社区账户。",
+    "joinSyncEnabledDescription": "自动将 CMS 中的所有用户帐户加入到 Sonoran CAD 社区。",
+    "apiIdSyncEnabledDescription": "自动将用户 API ID 从 Sonoran CMS 添加到他们的 Sonoran CAD 社区账户。",
+    "cadSyncNotEnabled": "启用权限同步以配置权限。"
   },
   "imageInn": {
     "dropArea": "拖放区域"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "要删除的级别",
     "noRanksSelectedToBeRemovedFromAccounts": "未选择要从帐户中删除的等级",
     "sonoranBotEncounteredAnIssue": "SonoranBot遇到了一个问题",
-    "banConfiguration": "禁令配置"
+    "banConfiguration": "禁令配置",
+    "ranksToAdd": "要添加的等级"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "处分分数",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "社区成员在加入 CMS 时会自动加入 Sonoran Radio",
     "communityMembersAutomaticallyKickSonoran": "社区成员离开 CMS 时会自动离开/被踢出 Sonoran Radio",
     "title": "Sonoran Radio 配置",
-    "nameSync": "名称同步"
+    "nameSync": "名称同步",
+    "nameSyncDescription": "自动将显示名称从 Sonoran CMS 同步到其 Sonoran Radio 社区账户。"
   },
   "RadioPermSelector": {
     "setRadio": "设置广播"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "添加的等级",
     "noRanksSelectedToBeAddedOnToAccounts": "未选择要添加到帐户的等级",
     "sonoranBotEncounteredAnIssue": "SonoranBot遇到问题",
-    "banConfiguration": "禁止配置"
+    "banConfiguration": "禁止配置",
+    "ranksToAdd": "要添加的等级"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "未找到 Sonoran 服务器插件或所属服务器。",

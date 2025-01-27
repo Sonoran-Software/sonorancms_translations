@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "Sonoran CAD-konfigurationer",
     "cadApiCredentials": "CAD API-referenser",
     "cadSyncOptions": "CAD-synkroniseringsalternativ",
-    "cadPermissionsSelector": "CAD-behörighetsväljare"
+    "cadPermissionsSelector": "CAD-behörighetsväljare",
+    "banEnabled": "Bannsynkronisering",
+    "kickEnabled": "Kick Synk",
+    "syncEnabled": "Behörighetssynkronisering",
+    "joinSyncEnabled": "Anslut synkronisering",
+    "apiIdSyncEnabled": "API-ID-synkronisering",
+    "banEnabledDescription": "Att stänga av en användare från CMS spärrar dem från Sonoran CAD-samhället.",
+    "kickEnabledDescription": "Att sparka en användare från CMS sparkar dem från Sonoran CAD-gemenskapen.",
+    "syncEnabledDescription": "Synka behörigheter från Sonoran CMS-användarkonton till deras Sonoran CAD-gemenskapkonto.",
+    "joinSyncEnabledDescription": "Anslut automatiskt alla användarkonton i CMS till Sonoran CAD-gemenskapen.",
+    "apiIdSyncEnabledDescription": "Lägg automatiskt till användarens API-ID från Sonoran CMS till deras Sonoran CAD-communitykonto.",
+    "cadSyncNotEnabled": "Aktivera behörighetssynkronisering för att konfigurera behörigheter."
   },
   "imageInn": {
     "dropArea": "Släppområde"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "graderAttTaBort",
     "noRanksSelectedToBeRemovedFromAccounts": "ingaRangValdaAttTasBortFrånKonton",
     "sonoranBotEncounteredAnIssue": "sonoranBotStöttePåEttProblem",
-    "banConfiguration": "Konfigurationsalternativ för avstängning"
+    "banConfiguration": "Konfigurationsalternativ för avstängning",
+    "ranksToAdd": "Rangordningar att lägga till"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinäraPoäng",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "Community-medlemmar går automatiskt med i Sonoran Radio när de går med i CMS",
     "communityMembersAutomaticallyKickSonoran": "Community-medlemmar lämnar/avvisas automatiskt från Sonoran Radio när de lämnar CMS",
     "title": "Sonoran Radio-konfigurationer",
-    "nameSync": "Namnsynkronisering"
+    "nameSync": "Namnsynkronisering",
+    "nameSyncDescription": "Synkronisera visningsnamn automatiskt från Sonoran CMS till deras Sonoran Radio-communitykonto."
   },
   "RadioPermSelector": {
     "setRadio": "setRadio"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "rankerAttLäggTillLäggTillRanker",
     "noRanksSelectedToBeAddedOnToAccounts": "ingaRangValdaSkaLäggasTillPåKonton",
     "sonoranBotEncounteredAnIssue": "sonoranBot stötte på ett problem",
-    "banConfiguration": "konfigurationsförbud"
+    "banConfiguration": "konfigurationsförbud",
+    "ranksToAdd": "Grader att lägga till"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "Inga servrar tillagda",

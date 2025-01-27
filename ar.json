@@ -4099,7 +4099,18 @@
     "sonoranCadConfigurations": "تكوينات Sonoran CAD",
     "cadApiCredentials": "بيانات اعتماد API لـ CAD",
     "cadSyncOptions": "خيارات مزامنة CAD",
-    "cadPermissionsSelector": "محدد أذونات CAD"
+    "cadPermissionsSelector": "محدد أذونات CAD",
+    "banEnabled": "مزامنة الحظر",
+    "kickEnabled": "مزامنة الطرد",
+    "syncEnabled": "مزامنة الأذونات",
+    "joinSyncEnabled": "الانضمام إلى المزامنة",
+    "apiIdSyncEnabled": "مزامنة معرف API",
+    "banEnabledDescription": "حظر المستخدم من نظام إدارة المحتوى يحظرهم من مجتمع Sonoran CAD.",
+    "kickEnabledDescription": "طرد مستخدم من نظام الإدارة يطرده من مجتمع Sonoran CAD.",
+    "syncEnabledDescription": "زامن الأذونات من حسابات المستخدمين في Sonoran CMS إلى حساب المجتمع في Sonoran CAD.",
+    "joinSyncEnabledDescription": "انضم تلقائيًا إلى جميع حسابات المستخدمين في CMS إلى مجتمع Sonoran CAD.",
+    "apiIdSyncEnabledDescription": "إضافة معرفات API لمستخدم من Sonoran CMS تلقائيًا إلى حساب مجتمع Sonoran CAD الخاص بهم.",
+    "cadSyncNotEnabled": "قم بتمكين مزامنة الأذونات لتكوين الأذونات."
   },
   "imageInn": {
     "dropArea": "منطقة الإسقاط"
@@ -4279,7 +4290,8 @@
     "ranksToRemove": "الرتب لإزالتها",
     "noRanksSelectedToBeRemovedFromAccounts": "لم يتم تحديد الرتب لإزالتها من الحسابات",
     "sonoranBotEncounteredAnIssue": "واجه SonoranBot مشكلة",
-    "banConfiguration": "تكوين الحظر"
+    "banConfiguration": "تكوين الحظر",
+    "ranksToAdd": "الرتب المطلوب إضافتها"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "النقاط التأديبية",
@@ -4305,7 +4317,8 @@
     "communityMembersAutomaticallyJoinSonoran": "أعضاء المجتمع ينضمون تلقائيًا إلى Sonoran Radio عندما ينضمون إلى CMS",
     "communityMembersAutomaticallyKickSonoran": "يغادر أعضاء المجتمع تلقائيًا / يتم طردهم من Sonoran Radio عند ترك النظام.",
     "title": "تكوينات Sonoran Radio",
-    "nameSync": "مزامنة الاسم"
+    "nameSync": "مزامنة الاسم",
+    "nameSyncDescription": "قم بمزامنة الأسماء المعروضة تلقائيًا من Sonoran CMS إلى حساب مجتمع Sonoran Radio الخاص بهم."
   },
   "RadioPermSelector": {
     "setRadio": "تعيين الراديو"
@@ -4339,7 +4352,8 @@
     "ranksToAddAddingRanks": "الرتب لإضافتها إضافة الرتب",
     "noRanksSelectedToBeAddedOnToAccounts": "لم يتم تحديد أي رتب ليتم إضافتها على الحسابات",
     "sonoranBotEncounteredAnIssue": "واجه Sonoran Bot مشكلة",
-    "banConfiguration": "تكوين الحظر"
+    "banConfiguration": "تكوين الحظر",
+    "ranksToAdd": "الرتب المراد إضافتها"
   },
   "PFActivityHoursView": {
     "rosterviewnoserver": "%! لم يتم ضبط أي خادم ",
