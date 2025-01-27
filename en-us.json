@@ -3677,7 +3677,7 @@
     "notSetupFollowStepsBelow": "Not setup, follow steps below",
     "notWithinGuildInviteSonoranbot": "Not within guild, invite SonoranBot",
     "errorFetchingSonoranBotGuildsDataTookToo": "Error: Fetching Sonoran Bot guilds data took too long, try again later.",
-    "ranksToAdd":"Ranks To Add",
+    "ranksToAdd": "Ranks To Add",
     "noRanksSelectedToBeAddedOnToAccounts": "No ranks selected to be set on to accounts...",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
     "banConfiguration": "Ban Configuration"
@@ -3925,6 +3925,12 @@
     "clone": "Clone",
     "delete": "Delete",
     "close": "Close"
+  },
+  "accountCard": {
+    "communityProfile": "Community Profile",
+    "communityRank": "Community Rank",
+    "communityAvatar": "Community Avatar",
+    "communityName": "Community Name"
   },
   "navigationBar": {
     "target": "Target",
