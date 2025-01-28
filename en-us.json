@@ -201,7 +201,7 @@
     "unarchiveOwn": "Unarchive Own Form",
     "unarchiveForm": "Unarchive Form",
     "adminDelete": "Admin Delete",
-    "blacklist": "Blacklist",
+    "blacklist": "Blacklist Rank",
     "apply": {
       "availableForms": "Available Forms",
       "myForms": "My Forms",
@@ -4225,7 +4225,7 @@
     "allowsMembersToSubmitAFormOfThisTemplate": "Allows members to submit a form of this template within their Available Forms.",
     "allowsMembersToSubmitAFormOfThisTemplate8": "Allows members to submit a form of this template on behalf of another account within their Available Forms or Community Profile.",
     "allowsMembersToForcefullyRemoveASubmissi": "Allows members to forcefully remove a submission in the Form Submissions viewer.",
-    "allowsMembersToBlackList": "Allows members to blacklist community memmbers from submitting this form.",
+    "allowsMembersToBlackList": "Blocks member from submitting this form template.",
     "view": "View",
     "allowsMembersToViewThisRoster": "Allows members to view this roster.",
     "addRosterRow": "Add Roster Row",
