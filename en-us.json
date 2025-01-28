@@ -201,6 +201,7 @@
     "unarchiveOwn": "Unarchive Own Form",
     "unarchiveForm": "Unarchive Form",
     "adminDelete": "Admin Delete",
+    "blacklist": "Blacklist",
     "apply": {
       "availableForms": "Available Forms",
       "myForms": "My Forms",
@@ -2277,7 +2278,8 @@
     "1IgnoreSubmissionDateChecks": "-1 = ignore submission date checks",
     "daysPrior": "days prior",
     "total": "Total",
-    "cooldown": "Cooldown"
+    "cooldown": "Cooldown",
+    "permissions": "Permissions"
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rank Expiration: Enabled",
@@ -4223,6 +4225,7 @@
     "allowsMembersToSubmitAFormOfThisTemplate": "Allows members to submit a form of this template within their Available Forms.",
     "allowsMembersToSubmitAFormOfThisTemplate8": "Allows members to submit a form of this template on behalf of another account within their Available Forms or Community Profile.",
     "allowsMembersToForcefullyRemoveASubmissi": "Allows members to forcefully remove a submission in the Form Submissions viewer.",
+    "allowsMembersToBlackList": "Allows members to blacklist community memmbers from submitting this form.",
     "view": "View",
     "allowsMembersToViewThisRoster": "Allows members to view this roster.",
     "addRosterRow": "Add Roster Row",
