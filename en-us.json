@@ -2279,7 +2279,8 @@
     "daysPrior": "days prior",
     "total": "Total",
     "cooldown": "Cooldown",
-    "permissions": "Permissions"
+    "permissions": "Permissions",
+    "formPermissions": "Limit what ranks can submit this form in the rank manager."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rank Expiration: Enabled",
