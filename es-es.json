@@ -212,7 +212,8 @@
     "premadeSections": "Secciones Prediseñadas",
     "fields": "Campos",
     "appThirdPartySubmit": "Enviar solicitud/formulario de terceros",
-    "modifyStageSettings": "Configurar Etapa"
+    "modifyStageSettings": "Configurar Etapa",
+    "blacklist": "Rango de la lista negra"
   },
   "departments": {
     "departmentName": "Nombre del Departamento",
@@ -2281,7 +2282,9 @@
     "daysPrior": "días antes",
     "total": "Total",
     "cooldown": "Tiempo de Espera",
-    "limitSubTotal": "Ajuste la ventana de tiempo a la que se aplica este límite."
+    "limitSubTotal": "Ajuste la ventana de tiempo a la que se aplica este límite.",
+    "permissions": "Permisos",
+    "formPermissions": "Limite qué rangos pueden enviar este formulario en el gestor de rangos."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Expiración de Rango: Habilitada",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Error: Ocurrió un problema al guardar el formulario. ERR:",
     "formSettings": "Configuración del Formulario",
     "newMemberFormTypeExplaination": "Permite a los usuarios pendientes enviar",
-    "customizeGeneralApplication": "Personalizar formulario general"
+    "customizeGeneralApplication": "Personalizar formulario general",
+    "submissionTitle": "Título de Envío"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocurrió un error al guardar la página:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Permite a los miembros editar URL cortas en el Gestor de URL Cortas.",
     "removeShortener": "Eliminar URL cortos",
     "removeShortenerDesc": "Permite a los miembros eliminar URL cortas en el Administrador de URL Cortas.",
-    "manageDomainsDesc": "Permite a los miembros gestionar dominios en el Administrador de URL Cortas."
+    "manageDomainsDesc": "Permite a los miembros gestionar dominios en el Administrador de URL Cortas.",
+    "allowsMembersToBlackList": "Impide que el miembro envíe esta plantilla de formulario."
   },
   "permissionToggleGroup": {
     "inherited": "heredado"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Consejo de búsqueda"
+  },
+  "accountCard": {
+    "communityProfile": "perfilDeComunidad",
+    "communityRank": "rangoComunitario",
+    "communityAvatar": "avatarDeLaComunidad",
+    "communityName": "nombreComunidad"
   }
 }

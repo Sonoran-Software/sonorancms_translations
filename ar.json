@@ -212,7 +212,8 @@
     "premadeSections": "الأقسام الجاهزة",
     "fields": "الحقول",
     "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية",
-    "modifyStageSettings": "تعديل إعدادات المرحلة"
+    "modifyStageSettings": "تعديل إعدادات المرحلة",
+    "blacklist": "رتبة القائمة السوداء"
   },
   "departments": {
     "departmentName": "اسم القسم",
@@ -2281,7 +2282,9 @@
     "daysPrior": "أيام قبل",
     "total": "الإجمالي",
     "cooldown": "فترة التهدئة",
-    "limitSubTotal": "قم بضبط نافذة الوقت التي ينطبق عليها هذا الحد."
+    "limitSubTotal": "قم بضبط نافذة الوقت التي ينطبق عليها هذا الحد.",
+    "permissions": "الصلاحيات",
+    "formPermissions": "حدد أي الرتب يمكنها تقديم هذا النموذج في مدير الرتب."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "انتهاء صلاحية الرتبة: مفعّل",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "خطأ: حدثت مشكلة أثناء حفظ النموذج. ERR:",
     "formSettings": "إعدادات النموذج",
     "newMemberFormTypeExplaination": "يتيح للمستخدمين المعلقين التقديم",
-    "customizeGeneralApplication": "تخصيص النموذج العام"
+    "customizeGeneralApplication": "تخصيص النموذج العام",
+    "submissionTitle": "عنوان الإرسال"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "حدث خطأ أثناء حفظ الصفحة:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "يسمح للأعضاء بتحرير الروابط القصيرة في مدير الروابط القصيرة.",
     "removeShortener": "إزالة الروابط القصيرة",
     "removeShortenerDesc": "يسمح للأعضاء بحذف الروابط القصيرة في مدير الروابط القصيرة.",
-    "manageDomainsDesc": "يسمح للأعضاء بإدارة النطاقات في مدير الروابط القصيرة."
+    "manageDomainsDesc": "يسمح للأعضاء بإدارة النطاقات في مدير الروابط القصيرة.",
+    "allowsMembersToBlackList": "يمنع العضو من إرسال نموذج الطلب هذا."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "تلميح البحث"
+  },
+  "accountCard": {
+    "communityProfile": "ملف المجتمع الشخصي",
+    "communityRank": "رتبة المجتمع",
+    "communityAvatar": "أفاتار المجتمع",
+    "communityName": "اسم المجتمع"
   }
 }

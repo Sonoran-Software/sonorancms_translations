@@ -212,7 +212,8 @@
     "premadeSections": "Gotowe Sekcje",
     "fields": "Pola",
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
-    "modifyStageSettings": "Modyfikuj ustawienia sceny"
+    "modifyStageSettings": "Modyfikuj ustawienia sceny",
+    "blacklist": "Rango de la Lista Negra"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dni wcześniej",
     "total": "Łącznie",
     "cooldown": "Czas Oczekiwania",
-    "limitSubTotal": "Dostosuj przedział czasowy, do którego ma zastosowanie to ograniczenie."
+    "limitSubTotal": "Dostosuj przedział czasowy, do którego ma zastosowanie to ograniczenie.",
+    "permissions": "Uprawnienia",
+    "formPermissions": "Ogranicz, jakie stopnie mogą przesyłać ten formularz w menedżerze stopni."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Wygaśnięcie Rangi: Włączone",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Błąd: Wystąpił problem podczas zapisywania formularza. ERR:",
     "formSettings": "Ustawienia Formularza",
     "newMemberFormTypeExplaination": "Umožňuje čekajícím uživatelům odesílat",
-    "customizeGeneralApplication": "Dostosuj formularz ogólny"
+    "customizeGeneralApplication": "Dostosuj formularz ogólny",
+    "submissionTitle": "Título de envío"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Pozwala członkom edytować krótkie URL-e w Menedżerze Krótkich URL-i.",
     "removeShortener": "Quitar URLs cortas",
     "removeShortenerDesc": "Zezwala członkom na usuwanie krótkich adresów URL w Menedżerze krótkich adresów URL.",
-    "manageDomainsDesc": "Permite que los miembros gestionen dominios en el Administrador de URL cortas."
+    "manageDomainsDesc": "Permite que los miembros gestionen dominios en el Administrador de URL cortas.",
+    "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "wyszukiwanieTooltip"
+  },
+  "accountCard": {
+    "communityProfile": "আইনি প্রোফাইল",
+    "communityRank": "rangoComunitario",
+    "communityAvatar": "لوگوی جامعه",
+    "communityName": "nazwaSpołeczności"
   }
 }

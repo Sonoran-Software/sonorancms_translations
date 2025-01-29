@@ -636,7 +636,7 @@
   },
   "Dashboard": {
     "resync": "Resync",
-    "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status with CAD, Radio, and TeamSpeak.",
+    "syncYourPermissionsAndAccountStatus": "Sync your permissions and account status with CAD, Radio, Discord, and TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
     "radioDesc": "Automate Sonoran Radio permissions with Sonoran CMS!",

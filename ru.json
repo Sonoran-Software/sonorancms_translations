@@ -212,7 +212,8 @@
     "premadeSections": "Готовые Разделы",
     "fields": "Поля",
     "appThirdPartySubmit": "Отправить стороннее приложение/форму",
-    "modifyStageSettings": "Изменить настройки этапа"
+    "modifyStageSettings": "Изменить настройки этапа",
+    "blacklist": "Чёрный список - Ранг"
   },
   "departments": {
     "departmentName": "Название Отдела",
@@ -2281,7 +2282,9 @@
     "daysPrior": "Всего",
     "total": "Период Ожидания",
     "cooldown": "Временное Окно",
-    "limitSubTotal": "Измените временной интервал, к которому применяется это ограничение."
+    "limitSubTotal": "Измените временной интервал, к которому применяется это ограничение.",
+    "permissions": "Разрешения",
+    "formPermissions": "Ограничьте, какие звания могут отправлять эту форму в менеджере званий."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Истечение Ранга: Отключено",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Настройки формы",
     "formSettings": "Произошла ошибка при сохранении страницы:",
     "newMemberFormTypeExplaination": "Разрешает отправку пользователями, ожидающими одобрения",
-    "customizeGeneralApplication": "Настроить Общую Форму"
+    "customizeGeneralApplication": "Настроить Общую Форму",
+    "submissionTitle": "Название отправки"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Страница успешно сохранена!",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Позволяет участникам редактировать короткие URL в менеджере коротких URL.",
     "removeShortener": "Удалить короткие URL-адреса",
     "removeShortenerDesc": "Позволяет участникам удалять короткие URL в менеджере коротких URL.",
-    "manageDomainsDesc": "Позволяет участникам управлять доменами в менеджере коротких URL."
+    "manageDomainsDesc": "Позволяет участникам управлять доменами в менеджере коротких URL.",
+    "allowsMembersToBlackList": "Блокирует участника от отправки этого шаблона формы."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Поиск"
+  },
+  "accountCard": {
+    "communityProfile": "профиль сообщества",
+    "communityRank": "сообществоРанг",
+    "communityAvatar": "сообществоАватар",
+    "communityName": "имя сообщества"
   }
 }

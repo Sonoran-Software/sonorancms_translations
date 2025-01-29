@@ -212,7 +212,8 @@
     "premadeSections": "Sections Prédéfinies",
     "fields": "Champs",
     "appThirdPartySubmit": "Soumettre une application/formulaire tiers",
-    "modifyStageSettings": "Modifier les paramètres de l'étape"
+    "modifyStageSettings": "Modifier les paramètres de l'étape",
+    "blacklist": "Rang de la liste noire"
   },
   "departments": {
     "departmentName": "Nom du Département",
@@ -2281,7 +2282,9 @@
     "daysPrior": "jours avant",
     "total": "Total",
     "cooldown": "Délai de Récupération",
-    "limitSubTotal": "Ajustez la fenêtre temporelle à laquelle cette limite s'applique."
+    "limitSubTotal": "Ajustez la fenêtre temporelle à laquelle cette limite s'applique.",
+    "permissions": "Autorisations",
+    "formPermissions": "Limitez les grades pouvant soumettre ce formulaire dans le gestionnaire de grades."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Expiration du Rang : Activée",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Erreur : Un problème est survenu lors de l'enregistrement du formulaire. ERR:",
     "formSettings": "Paramètres du Formulaire",
     "newMemberFormTypeExplaination": "Permet aux utilisateurs en attente de soumettre",
-    "customizeGeneralApplication": "Personnaliser le formulaire général"
+    "customizeGeneralApplication": "Personnaliser le formulaire général",
+    "submissionTitle": "Titre de soumission"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Une erreur est survenue lors de l'enregistrement de la page :",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Permet aux membres de modifier les URL courtes dans le Gestionnaire des URL courtes.",
     "removeShortener": "Supprimer les URL courtes",
     "removeShortenerDesc": "Permet aux membres de supprimer les URLs courtes dans le Gestionnaire de URLs courtes.",
-    "manageDomainsDesc": "Permet aux membres de gérer les domaines dans le Gestionnaire de URL courtes."
+    "manageDomainsDesc": "Permet aux membres de gérer les domaines dans le Gestionnaire de URL courtes.",
+    "allowsMembersToBlackList": "Empêche le membre de soumettre ce modèle de formulaire."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Info-bulle de recherche"
+  },
+  "accountCard": {
+    "communityProfile": "profilCommunauté",
+    "communityRank": "rangCommunautaire",
+    "communityAvatar": "avatarCommunautaire",
+    "communityName": "nom de la communauté"
   }
 }

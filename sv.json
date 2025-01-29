@@ -212,7 +212,8 @@
     "premadeSections": "Förgjorda Sektioner",
     "fields": "Fält",
     "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part",
-    "modifyStageSettings": "Ändra sceninställningar"
+    "modifyStageSettings": "Ändra sceninställningar",
+    "blacklist": "Svartlistningsrankning"
   },
   "departments": {
     "departmentName": "Avdelningsnamn",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dagar före",
     "total": "Totalt",
     "cooldown": "Väntetid",
-    "limitSubTotal": "Justera den tidsram som denna gräns gäller för."
+    "limitSubTotal": "Justera den tidsram som denna gräns gäller för.",
+    "permissions": "Behörigheter",
+    "formPermissions": "Begränsa vilka rangordningar som kan lämna in detta formulär i rankhanteraren."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rankningens utgång: Aktiverad",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Fel: Ett problem uppstod vid sparande av formulär. FEL:",
     "formSettings": "Formulärinställningar",
     "newMemberFormTypeExplaination": "Låter väntande användare skicka in",
-    "customizeGeneralApplication": "Anpassa allmän blankett"
+    "customizeGeneralApplication": "Anpassa allmän blankett",
+    "submissionTitle": "Inlämningsrubrik"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fel uppstod vid sparande av sida:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Tillåter medlemmar att redigera korta URL:er i hanteraren för korta URL:er.",
     "removeShortener": "Ta bort korta URL:er",
     "removeShortenerDesc": "Tillåter medlemmar att ta bort korta URL:er i hanteraren för korta URL:er.",
-    "manageDomainsDesc": "Låter medlemmar hantera domäner i Kort-URL-hanteraren."
+    "manageDomainsDesc": "Låter medlemmar hantera domäner i Kort-URL-hanteraren.",
+    "allowsMembersToBlackList": "Hindrar medlem från att skicka in denna formulärmall."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "sökverktygstips"
+  },
+  "accountCard": {
+    "communityProfile": "gemenskapsprofil",
+    "communityRank": "communityRank",
+    "communityAvatar": "gemenskapsavatar",
+    "communityName": "communityNamn"
   }
 }

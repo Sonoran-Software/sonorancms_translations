@@ -212,7 +212,8 @@
     "premadeSections": "Seções Prontas",
     "fields": "Campos",
     "appThirdPartySubmit": "Enviar Aplicação/Formulário de Terceiros",
-    "modifyStageSettings": "Modificar configurações do estágio"
+    "modifyStageSettings": "Modificar configurações do estágio",
+    "blacklist": "Rancho da Lista Negra"
   },
   "departments": {
     "departmentName": "Nome do Departamento",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dias antes",
     "total": "Total",
     "cooldown": "Intervalo",
-    "limitSubTotal": "Ajuste a janela de tempo à qual esse limite se aplica."
+    "limitSubTotal": "Ajuste a janela de tempo à qual esse limite se aplica.",
+    "permissions": "Permissões",
+    "formPermissions": "Limite quais cargos podem enviar este formulário no gerenciador de cargos."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Expiração de Classificação: Ativada",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Erro: Ocorreu um problema ao salvar o formulário. ERR:",
     "formSettings": "Configurações do Formulário",
     "newMemberFormTypeExplaination": "Permite que usuários pendentes enviem",
-    "customizeGeneralApplication": "Personalizar Formulário Geral"
+    "customizeGeneralApplication": "Personalizar Formulário Geral",
+    "submissionTitle": "Título da Submissão"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocorreu um erro ao salvar a página:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Permite que os membros editem URLs curtas no Gerenciador de URLs Curtas.",
     "removeShortener": "Remover URLs Curtas",
     "removeShortenerDesc": "Permite que os membros removam URLs curtas no Gerenciador de URLs Curtas.",
-    "manageDomainsDesc": "Permite que os membros gerenciem domínios no Gerenciador de URL Curta."
+    "manageDomainsDesc": "Permite que os membros gerenciem domínios no Gerenciador de URL Curta.",
+    "allowsMembersToBlackList": "Impede que o membro envie este modelo de formulário."
   },
   "permissionToggleGroup": {
     "inherited": "herdado"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Dica de pesquisa"
+  },
+  "accountCard": {
+    "communityProfile": "perfilDaComunidade",
+    "communityRank": "classificaçãoDaComunidade",
+    "communityAvatar": "avatarComunidade",
+    "communityName": "nomeDaComunidade"
   }
 }

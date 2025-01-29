@@ -212,7 +212,8 @@
     "premadeSections": "Gotowe Sekcje",
     "fields": "Pola",
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
-    "modifyStageSettings": "Modyfikuj ustawienia sceny"
+    "modifyStageSettings": "Modyfikuj ustawienia sceny",
+    "blacklist": "Ranga czarnej listy"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dni wcześniej",
     "total": "Łącznie",
     "cooldown": "Czas Oczekiwania",
-    "limitSubTotal": "Dostosuj ramy czasowe, do których odnosi się ten limit."
+    "limitSubTotal": "Dostosuj ramy czasowe, do których odnosi się ten limit.",
+    "permissions": "Uprawnienia",
+    "formPermissions": "Ogranicz, które rangi mogą przesyłać ten formularz w menedżerze rang."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Wygaśnięcie Rangi: Włączone",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Błąd: Wystąpił problem podczas zapisywania formularza. ERR:",
     "formSettings": "Ustawienia Formularza",
     "newMemberFormTypeExplaination": "Pozwala oczekującym użytkownikom na przesyłanie",
-    "customizeGeneralApplication": "Dostosuj formularz ogólny"
+    "customizeGeneralApplication": "Dostosuj formularz ogólny",
+    "submissionTitle": "Tytuł zgłoszenia"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -4318,7 +4322,8 @@
     "editShortenerDesc": "Pozwala członkom edytować krótkie adresy URL w Menedżerze Krótkich URL-i.",
     "removeShortener": "Usuń krótkie URL-e",
     "removeShortenerDesc": "Pozwala członkom usuwać krótkie URL-e w Menedżerze Krótkich URL-i.",
-    "manageDomainsDesc": "Pozwala członkom zarządzać domenami w Menedżerze Skróconych URL."
+    "manageDomainsDesc": "Pozwala członkom zarządzać domenami w Menedżerze Skróconych URL.",
+    "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Wyszukaj porady"
+  },
+  "accountCard": {
+    "communityProfile": "profilSpołecznościowy",
+    "communityRank": "ranga społeczności",
+    "communityAvatar": "awatarSpołeczności",
+    "communityName": "nazwaSpołeczności"
   }
 }

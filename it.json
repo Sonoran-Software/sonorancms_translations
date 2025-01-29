@@ -212,7 +212,8 @@
     "premadeSections": "Sezioni Predefinite",
     "fields": "Campi",
     "appThirdPartySubmit": "Invia domanda/modulo di terze parti",
-    "modifyStageSettings": "Modifica Impostazioni del Palco"
+    "modifyStageSettings": "Modifica Impostazioni del Palco",
+    "blacklist": "Rango di blacklist"
   },
   "departments": {
     "departmentName": "Nome del Dipartimento",
@@ -2281,7 +2282,9 @@
     "daysPrior": "giorni prima",
     "total": "Totale",
     "cooldown": "Tempo di Attesa",
-    "limitSubTotal": "Regola il periodo di tempo a cui si applica questo limite."
+    "limitSubTotal": "Regola il periodo di tempo a cui si applica questo limite.",
+    "permissions": "Permessi",
+    "formPermissions": "Limita quali ranghi possono inviare questo modulo nel gestore dei ranghi."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Scadenza del Grado: Abilitata",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Errore: Si è verificato un problema durante il salvataggio del modulo. ERR:",
     "formSettings": "Impostazioni del Modulo",
     "newMemberFormTypeExplaination": "Consente agli utenti in attesa di inviare",
-    "customizeGeneralApplication": "Personalizza Modulo Generale"
+    "customizeGeneralApplication": "Personalizza Modulo Generale",
+    "submissionTitle": "Titolo della presentazione"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Si è verificato un errore durante il salvataggio della pagina:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Consente ai membri di modificare gli URL brevi nel Gestore URL brevi.",
     "removeShortener": "Rimuovi gli URL brevi",
     "removeShortenerDesc": "Consente ai membri di rimuovere URL brevi nel Gestore URL Brevi.",
-    "manageDomainsDesc": "Consente ai membri di gestire i domini nel Gestore degli URL brevi."
+    "manageDomainsDesc": "Consente ai membri di gestire i domini nel Gestore degli URL brevi.",
+    "allowsMembersToBlackList": "Blocca il membro dall'inviare questo modello di modulo."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Suggerisci invio di un suggerimento di ricerca usando il mandato di barra di comando nel tuo server di Discord: \"/log search\""
+  },
+  "accountCard": {
+    "communityProfile": "ProfiloDellaComunità",
+    "communityRank": "gradoCommunity",
+    "communityAvatar": "avatarDellaComunità",
+    "communityName": "nomeDellaComunità"
   }
 }

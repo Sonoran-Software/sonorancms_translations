@@ -212,7 +212,8 @@
     "premadeSections": "Hazır Bölümler",
     "fields": "Alanlar",
     "appThirdPartySubmit": "Üçüncü Taraf Başvurusunu/Formunu Gönder",
-    "modifyStageSettings": "Aşama Ayarlarını Düzenle"
+    "modifyStageSettings": "Aşama Ayarlarını Düzenle",
+    "blacklist": "Kara Liste Rütbesi"
   },
   "departments": {
     "departmentName": "Departman Adı",
@@ -2281,7 +2282,9 @@
     "daysPrior": "önceki günler",
     "total": "Toplam",
     "cooldown": "Bekleme Süresi",
-    "limitSubTotal": "Bu sınırlamanın uygulandığı zaman aralığını ayarlayın."
+    "limitSubTotal": "Bu sınırlamanın uygulandığı zaman aralığını ayarlayın.",
+    "permissions": "İzinler",
+    "formPermissions": "Rütbe yöneticisinde hangi rütbelerin bu formu gönderebileceğini sınırlayın."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rütbe Süresi: Etkin",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Hata: Form kaydedilirken bir sorun oluştu. HATA:",
     "formSettings": "Form Ayarları",
     "newMemberFormTypeExplaination": "Bekleyen kullanıcıların göndermesine izin verir",
-    "customizeGeneralApplication": "Genel Formu Özelleştir"
+    "customizeGeneralApplication": "Genel Formu Özelleştir",
+    "submissionTitle": "Gönderi Başlığı"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sayfa kaydedilirken hata oluştu:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Üyelere Kısa URL Yöneticisi'nde kısa URL'leri düzenleme izni verir.",
     "removeShortener": "Kısa URL'leri Kaldır",
     "removeShortenerDesc": "Kısa URL Yöneticisi'nde üyelerin kısa URL'leri kaldırmasına izin verir.",
-    "manageDomainsDesc": "Kısa URL Yöneticisi'nde üyelerin alan adlarını yönetmesine izin verir."
+    "manageDomainsDesc": "Kısa URL Yöneticisi'nde üyelerin alan adlarını yönetmesine izin verir.",
+    "allowsMembersToBlackList": "Bu form şablonunu göndermesini üyenin engeller."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "arama ipucu"
+  },
+  "accountCard": {
+    "communityProfile": "toplulukProfili",
+    "communityRank": "toplulukRütbesi",
+    "communityAvatar": "toplulukAvatarı",
+    "communityName": "toplulukAdı"
   }
 }

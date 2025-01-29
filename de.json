@@ -212,7 +212,8 @@
     "premadeSections": "Vorgefertigte Abschnitte",
     "fields": "Felder",
     "appThirdPartySubmit": "Drittanbieterantrag/Formular einreichen",
-    "modifyStageSettings": "Bühnen Einstellungen bearbeiten"
+    "modifyStageSettings": "Bühnen Einstellungen bearbeiten",
+    "blacklist": "Schwarze Liste Rang"
   },
   "departments": {
     "departmentName": "Abteilungsname",
@@ -2281,7 +2282,9 @@
     "daysPrior": "Tage vorher",
     "total": "Gesamt",
     "cooldown": "Abkühlzeit",
-    "limitSubTotal": "Passen Sie das Zeitfenster an, auf das dieses Limit angewendet wird."
+    "limitSubTotal": "Passen Sie das Zeitfenster an, auf das dieses Limit angewendet wird.",
+    "permissions": "Berechtigungen",
+    "formPermissions": "Begrenzen Sie, welche Ränge dieses Formular im Rang-Manager einreichen können."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rangablauf: Aktiviert",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Fehler: Ein Problem trat beim Speichern des Formulars auf. ERR:",
     "formSettings": "Formulareinstellungen",
     "newMemberFormTypeExplaination": "Ermöglicht es wartenden Benutzern einzureichen",
-    "customizeGeneralApplication": "Allgemeines Formular anpassen"
+    "customizeGeneralApplication": "Allgemeines Formular anpassen",
+    "submissionTitle": "Einsendungsüberschrift"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fehler beim Speichern der Seite aufgetreten:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Ermöglicht Mitgliedern das Bearbeiten von Kurz-URLs im Kurz-URL-Manager.",
     "removeShortener": "Kurze URLs entfernen",
     "removeShortenerDesc": "Ermöglicht es Mitgliedern, kurze URLs im Short-URL-Manager zu entfernen.",
-    "manageDomainsDesc": "Ermöglicht Mitgliedern, Domains im Short-URL-Manager zu verwalten."
+    "manageDomainsDesc": "Ermöglicht Mitgliedern, Domains im Short-URL-Manager zu verwalten.",
+    "allowsMembersToBlackList": "Verhindert, dass das Mitglied diese Formularvorlage einreicht."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Suche Tooltip"
+  },
+  "accountCard": {
+    "communityProfile": "Community-Profil",
+    "communityRank": "Community-Rang",
+    "communityAvatar": "Community-Avatar",
+    "communityName": "Community-Name"
   }
 }

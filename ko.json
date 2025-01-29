@@ -212,7 +212,8 @@
     "premadeSections": "미리 만들어진 섹션",
     "fields": "필드",
     "appThirdPartySubmit": "타사 애플리케이션/양식 제출",
-    "modifyStageSettings": "단계 설정 수정"
+    "modifyStageSettings": "단계 설정 수정",
+    "blacklist": "블랙리스트 등급"
   },
   "departments": {
     "departmentName": "부서 이름",
@@ -2281,7 +2282,9 @@
     "daysPrior": "총계",
     "total": "쿨다운",
     "cooldown": "시간 창",
-    "limitSubTotal": "이 제한이 적용되는 시간 창을 조정하십시오."
+    "limitSubTotal": "이 제한이 적용되는 시간 창을 조정하십시오.",
+    "permissions": "권한",
+    "formPermissions": "랭크 관리자가 이 양식을 제출할 수 있는 랭크를 제한합니다."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "순위 만료: 비활성화됨",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "페이지를 저장하는 동안 오류가 발생했습니다:",
     "formSettings": "페이지가 성공적으로 저장되었습니다!",
     "newMemberFormTypeExplaination": "보류 중인 사용자가 제출할 수 있도록 허용",
-    "customizeGeneralApplication": "일반 양식 사용자 정의"
+    "customizeGeneralApplication": "일반 양식 사용자 정의",
+    "submissionTitle": "제출 제목"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "페이지를 저장하는 데 문제가 발생했습니다",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "멤버가 단축 URL 관리자에서 단축 URL을 편집할 수 있도록 허용합니다.",
     "removeShortener": "짧은 URL 제거",
     "removeShortenerDesc": "회원이 짧은 URL 관리에서 짧은 URL을 제거할 수 있도록 허용합니다.",
-    "manageDomainsDesc": "단축 URL 관리에서 도메인을 관리할 수 있도록 허용합니다."
+    "manageDomainsDesc": "단축 URL 관리에서 도메인을 관리할 수 있도록 허용합니다.",
+    "allowsMembersToBlackList": "이 양식 템플릿을 제출하는 것을 회원이 차단합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "검색 툴팁"
+  },
+  "accountCard": {
+    "communityProfile": "커뮤니티 프로필",
+    "communityRank": "커뮤니티 순위",
+    "communityAvatar": "커뮤니티 아바타",
+    "communityName": "커뮤니티 이름"
   }
 }

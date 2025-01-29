@@ -212,7 +212,8 @@
     "premadeSections": "Předpřipravené sekce",
     "fields": "Pole",
     "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany",
-    "modifyStageSettings": "Upravit nastavení stupně"
+    "modifyStageSettings": "Upravit nastavení stupně",
+    "blacklist": "Černá listina hodnosti"
   },
   "departments": {
     "departmentName": "Název oddělení",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dny před",
     "total": "Celkem",
     "cooldown": "Čekací doba",
-    "limitSubTotal": "Upravte časové okno, na které se tento limit vztahuje."
+    "limitSubTotal": "Upravte časové okno, na které se tento limit vztahuje.",
+    "permissions": "Oprávnění",
+    "formPermissions": "Omezit, které hodnosti mohou tento formulář odeslat ve správci hodností."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Vypršení hodnosti: Povoleno",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Chyba: Došlo k problému při ukládání formuláře. CHYBA:",
     "formSettings": "Nastavení formuláře",
     "newMemberFormTypeExplaination": "Umožňuje čekajícím uživatelům odesílat",
-    "customizeGeneralApplication": "Přizpůsobit obecný formulář"
+    "customizeGeneralApplication": "Přizpůsobit obecný formulář",
+    "submissionTitle": "Název podání"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Došlo k chybě při ukládání stránky:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Umožňuje členům upravovat krátké URL v správci krátkých URL.",
     "removeShortener": "Odebrat krátké adresy URL",
     "removeShortenerDesc": "Umožňuje členům odstranit krátké URL v položce Správce krátkých URL.",
-    "manageDomainsDesc": "Umožňuje členům spravovat domény ve správci krátkých URL."
+    "manageDomainsDesc": "Umožňuje členům spravovat domény ve správci krátkých URL.",
+    "allowsMembersToBlackList": "Zabrání členovi odeslat tuto šablonu formuláře."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "vyhledávacíNástroj"
+  },
+  "accountCard": {
+    "communityProfile": "profil komunity",
+    "communityRank": "hodnostKomunity",
+    "communityAvatar": "avatarKomunity",
+    "communityName": "název komunity"
   }
 }

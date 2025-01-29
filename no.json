@@ -212,7 +212,8 @@
     "premadeSections": "Ferdiglagde Seksjoner",
     "fields": "Felt",
     "appThirdPartySubmit": "Send inn tredjeparts søknad/skjema",
-    "modifyStageSettings": "Endre Scenesinnstillinger"
+    "modifyStageSettings": "Endre Scenesinnstillinger",
+    "blacklist": "Svarteliste Rang"
   },
   "departments": {
     "departmentName": "Avdelingsnavn",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dager før",
     "total": "Totalt",
     "cooldown": "Ventetid",
-    "limitSubTotal": "Juster tidsvinduet som denne grensen gjelder for."
+    "limitSubTotal": "Juster tidsvinduet som denne grensen gjelder for.",
+    "permissions": "Tillatelser",
+    "formPermissions": "Begrens hvilke ranger som kan sende inn dette skjemaet i rangbehandleren."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rangering Utløp: Aktivert",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Feil: Det oppsto et problem under lagring av skjema. FEIL:",
     "formSettings": "Skjemainnstillinger",
     "newMemberFormTypeExplaination": "Tillater brukere å sende inn ventende forespørsler",
-    "customizeGeneralApplication": "Tilpass generell skjema"
+    "customizeGeneralApplication": "Tilpass generell skjema",
+    "submissionTitle": "Innsendingstittel"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Det oppsto en feil under lagring av siden:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Lar medlemmene redigere korte URL-er i Short URL Manager.",
     "removeShortener": "Fjern korte URL-er",
     "removeShortenerDesc": "Lar medlemmer fjerne korte URLer i kort URL-lederen.",
-    "manageDomainsDesc": "Lar medlemmene administrere domener i Short URL Manager."
+    "manageDomainsDesc": "Lar medlemmene administrere domener i Short URL Manager.",
+    "allowsMembersToBlackList": "Blokkerer medlem fra å sende inn dette skjemaet."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "søk verktøytips"
+  },
+  "accountCard": {
+    "communityProfile": "samfunnsprofil",
+    "communityRank": "samfunnRank",
+    "communityAvatar": "samfunnsAvatar",
+    "communityName": "felleskapsnavn"
   }
 }

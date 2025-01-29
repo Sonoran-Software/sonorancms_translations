@@ -212,7 +212,8 @@
     "premadeSections": "Vooraf Gemaakte Secties",
     "fields": "Velden",
     "appThirdPartySubmit": "Verzend applicatie/formulier van derden",
-    "modifyStageSettings": "Wijzig Podiuminstellingen"
+    "modifyStageSettings": "Wijzig Podiuminstellingen",
+    "blacklist": "Zwarte lijst rang"
   },
   "departments": {
     "departmentName": "Afdelingsnaam",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dagen eerder",
     "total": "Totaal",
     "cooldown": "Wachttijd",
-    "limitSubTotal": "Pas het tijdsvenster aan waarop deze limiet van toepassing is."
+    "limitSubTotal": "Pas het tijdsvenster aan waarop deze limiet van toepassing is.",
+    "permissions": "Machtigingen",
+    "formPermissions": "Beperk welke rangen dit formulier kunnen indienen in de rangbeheerder."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rangverval: Ingeschakeld",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Fout: Er is een probleem opgetreden bij het opslaan van het formulier. ERR:",
     "formSettings": "Formulierinstellingen",
     "newMemberFormTypeExplaination": "Hiermee kunnen wachtende gebruikers indienen",
-    "customizeGeneralApplication": "Algemeen formulier aanpassen"
+    "customizeGeneralApplication": "Algemeen formulier aanpassen",
+    "submissionTitle": "Indieningstitel"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Er is een fout opgetreden bij het opslaan van de pagina:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Staat leden toe om korte URL's te bewerken in de Korte URL Manager.",
     "removeShortener": "Korte URL's verwijderen",
     "removeShortenerDesc": "Staat leden toe korte URL's te verwijderen in de Korte URL Manager.",
-    "manageDomainsDesc": "Hiermee kunnen leden domeinen beheren in de Korte URL Beheerder."
+    "manageDomainsDesc": "Hiermee kunnen leden domeinen beheren in de Korte URL Beheerder.",
+    "allowsMembersToBlackList": "Blokkeert lid van het indienen van deze formulier sjabloon."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "zoektooltip"
+  },
+  "accountCard": {
+    "communityProfile": "gemeenschapsprofiel",
+    "communityRank": "communityRang",
+    "communityAvatar": "communityAvatar",
+    "communityName": "gemeenschapsnaam"
   }
 }

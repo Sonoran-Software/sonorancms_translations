@@ -212,7 +212,8 @@
     "premadeSections": "Forudlavede Sektioner",
     "fields": "Felter",
     "appThirdPartySubmit": "Indsend tredjepartsansøgning/formular",
-    "modifyStageSettings": "Rediger scenens indstillinger"
+    "modifyStageSettings": "Rediger scenens indstillinger",
+    "blacklist": "Sortslisten Rang"
   },
   "departments": {
     "departmentName": "Afdelingsnavn",
@@ -2281,7 +2282,9 @@
     "daysPrior": "dage før",
     "total": "Total",
     "cooldown": "Ventetid",
-    "limitSubTotal": "Juster det tidsvindue, som denne grænse gælder for."
+    "limitSubTotal": "Juster det tidsvindue, som denne grænse gælder for.",
+    "permissions": "Tilladelser",
+    "formPermissions": "Begræns hvilke rangeringer der kan indsende denne formular i rangadministratoren."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Rang Udløb: Aktiveret",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Fejl: Der opstod et problem under lagring af formular. FEJL:",
     "formSettings": "Formularindstillinger",
     "newMemberFormTypeExplaination": "Tillader ventende brugere at indsende",
-    "customizeGeneralApplication": "Tilpas generel formular"
+    "customizeGeneralApplication": "Tilpas generel formular",
+    "submissionTitle": "Indsendelsestitel"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Der opstod en fejl under lagring af siden:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Giver medlemmer mulighed for at redigere korte URL'er i Short URL Manager.",
     "removeShortener": "Fjern korte URL'er",
     "removeShortenerDesc": "Tillader medlemmer at fjerne korte URL'er i Short URL Manager.",
-    "manageDomainsDesc": "Giver medlemmer mulighed for at administrere domæner i Short URL Manager."
+    "manageDomainsDesc": "Giver medlemmer mulighed for at administrere domæner i Short URL Manager.",
+    "allowsMembersToBlackList": "Blokerer medlem fra at indsende denne skabelon."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "søgeværktøjstip"
+  },
+  "accountCard": {
+    "communityProfile": "fællesskabsprofil",
+    "communityRank": "samfundsplacering",
+    "communityAvatar": "fællesskabsavatar",
+    "communityName": "fællesskabsnavn"
   }
 }

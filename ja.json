@@ -212,7 +212,8 @@
     "premadeSections": "事前作成されたセクション",
     "fields": "フィールド",
     "appThirdPartySubmit": "サードパーティのアプリケーション/フォームを提出",
-    "modifyStageSettings": "ステージ設定を変更"
+    "modifyStageSettings": "ステージ設定を変更",
+    "blacklist": "ブラックリストランク"
   },
   "departments": {
     "departmentName": "部門名",
@@ -2281,7 +2282,9 @@
     "daysPrior": "合計",
     "total": "クールダウン",
     "cooldown": "時間枠",
-    "limitSubTotal": "この制限が適用される時間枠を調整します。"
+    "limitSubTotal": "この制限が適用される時間枠を調整します。",
+    "permissions": "権限",
+    "formPermissions": "このフォームをランクマネージャーで送信できるランクを制限します。"
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "ランク有効期限: 無効",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "フォーム設定",
     "formSettings": "ページの保存中にエラーが発生しました:",
     "newMemberFormTypeExplaination": "保留中のユーザーが送信できるようにします",
-    "customizeGeneralApplication": "一般フォームのカスタマイズ"
+    "customizeGeneralApplication": "一般フォームのカスタマイズ",
+    "submissionTitle": "提出タイトル"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "ページが正常に保存されました！",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "メンバーがショートURLマネージャーでショートURLを編集できるようにします。",
     "removeShortener": "短縮URLを削除",
     "removeShortenerDesc": "短縮URLマネージャーでメンバーが短縮URLを削除できるようにします。",
-    "manageDomainsDesc": "メンバーがショートURLマネージャーでドメインを管理できるようにします。"
+    "manageDomainsDesc": "メンバーがショートURLマネージャーでドメインを管理できるようにします。",
+    "allowsMembersToBlackList": "このフォームテンプレートを提出することからメンバーをブロックします。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "検索ツールチップ"
+  },
+  "accountCard": {
+    "communityProfile": "コミュニティプロファイル",
+    "communityRank": "コミュニティランク",
+    "communityAvatar": "コミュニティアバター",
+    "communityName": "コミュニティ名"
   }
 }

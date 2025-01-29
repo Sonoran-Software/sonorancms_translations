@@ -212,7 +212,8 @@
     "premadeSections": "预制部分",
     "fields": "字段",
     "appThirdPartySubmit": "提交第三方申请/表格",
-    "modifyStageSettings": "修改阶段设置"
+    "modifyStageSettings": "修改阶段设置",
+    "blacklist": "黑名单等级"
   },
   "departments": {
     "departmentName": "部门名称",
@@ -2281,7 +2282,9 @@
     "daysPrior": "天前",
     "total": "总计",
     "cooldown": "冷却时间",
-    "limitSubTotal": "调整该限制适用的时间窗口。"
+    "limitSubTotal": "调整该限制适用的时间窗口。",
+    "permissions": "权限",
+    "formPermissions": "限制可以在职级管理器中提交此表单的职级。"
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "排名过期：已启用",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "错误：保存表单时发生问题。错误：",
     "formSettings": "表单设置",
     "newMemberFormTypeExplaination": "允许待处理用户提交",
-    "customizeGeneralApplication": "自定义常规表单"
+    "customizeGeneralApplication": "自定义常规表单",
+    "submissionTitle": "提交标题"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "保存页面时发生错误：",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "允许成员在短网址管理器中编辑短网址。",
     "removeShortener": "移除短网址",
     "removeShortenerDesc": "允许成员在短网址管理器中删除短网址。",
-    "manageDomainsDesc": "允许成员在短网址管理器中管理域名。"
+    "manageDomainsDesc": "允许成员在短网址管理器中管理域名。",
+    "allowsMembersToBlackList": "阻止成员提交此表单模板。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "搜索提示"
+  },
+  "accountCard": {
+    "communityProfile": "社区资料",
+    "communityRank": "社区排名",
+    "communityAvatar": "社区头像",
+    "communityName": "社区名称"
   }
 }

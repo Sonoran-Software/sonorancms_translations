@@ -212,7 +212,8 @@
     "premadeSections": "Valmiit osiot",
     "fields": "Kentät",
     "appThirdPartySubmit": "Lähetä kolmannen osapuolen hakemus/lomake",
-    "modifyStageSettings": "Muokkaa vaiheen asetuksia"
+    "modifyStageSettings": "Muokkaa vaiheen asetuksia",
+    "blacklist": "Musta lista -rangaistusaste"
   },
   "departments": {
     "departmentName": "Osaston nimi",
@@ -2281,7 +2282,9 @@
     "daysPrior": "päivää ennen",
     "total": "Yhteensä",
     "cooldown": "Viive",
-    "limitSubTotal": "Säädä aikajaksoa, johon tämä raja koskee."
+    "limitSubTotal": "Säädä aikajaksoa, johon tämä raja koskee.",
+    "permissions": "Oikeudet",
+    "formPermissions": "Rajoita, mitkä arvot voivat lähettää tämän lomakkeen arvojen hallinnassa."
   },
   "FormStageEditorDialog": {
     "rankExpirationEnabled": "Sijoituksen Vanheneminen: Käytössä",
@@ -3069,7 +3072,8 @@
     "errorAnIssueOccuredWhileSavingFormErr": "Virhe: Lomakkeen tallentamisessa tapahtui ongelma. VIRHE:",
     "formSettings": "Lomakkeen asetukset",
     "newMemberFormTypeExplaination": "Antaa odottavien käyttäjien lähettää",
-    "customizeGeneralApplication": "Mukauta yleinen lomake"
+    "customizeGeneralApplication": "Mukauta yleinen lomake",
+    "submissionTitle": "Lähetyksen otsikko"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sivun tallentamisessa tapahtui virhe:",
@@ -4255,7 +4259,8 @@
     "editShortenerDesc": "Antaa jäsenten muokata lyhytlinkkejä Lyhytlinkkihallinnassa.",
     "removeShortener": "Poista lyhyet URL-osoitteet",
     "removeShortenerDesc": "Antaa jäsenten poistaa lyhyitä URL-osoitteita Lyhyt URL-osoitteiden hallinnassa.",
-    "manageDomainsDesc": "Mahdollistaa jäsenten hallita verkkotunnuksia lyhyen URL-osoitteen hallinnassa."
+    "manageDomainsDesc": "Mahdollistaa jäsenten hallita verkkotunnuksia lyhyen URL-osoitteen hallinnassa.",
+    "allowsMembersToBlackList": "Estää jäsentä lähettämästä tätä lomakepohjaa."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"
@@ -4365,5 +4370,11 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "hakutyökalu"
+  },
+  "accountCard": {
+    "communityProfile": "yhteisöprofiili",
+    "communityRank": "yhteisön sijoitus",
+    "communityAvatar": "yhteisöAvatar",
+    "communityName": "yhteisönNimi"
   }
 }
