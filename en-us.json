@@ -3643,24 +3643,24 @@
     "formNameLabel": "Form Name",
     "formNameDescription": "Inserts the name of the form.",
     "userSubmissionLinkLabel": "User Submission Link",
-    "userSubmissionLinkDescription": "Inserts the link to the user's form submission.",
-    "submissionLinkLabel": "Submission Link",
-    "submissionLinkDescription": "Inserts the general link to the submission.",
+    "userSubmissionLinkDescription": "Inserts the link for the user to view their own submission.",
+    "submissionLinkLabel": "Admin Submission Link",
+    "submissionLinkDescription": "Inserts a link to view the submission in the admin panel.",
     "submitterCommunityNameLabel": "Submitter Community Name",
-    "submitterCommunityNameDescription": "Inserts the community name of the submitter.",
+    "submitterCommunityNameDescription": "Inserts the community display name of the submitter.",
     "submitterUsernameLabel": "Submitter Username",
-    "submitterUsernameDescription": "Inserts the username of the submitter.",
+    "submitterUsernameDescription": "Inserts the account username of the submitter.",
     "submitterDiscordPingLabel": "Submitter Discord Ping",
     "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter."
   },
   "PointThresholdActionEditor": {
-    "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the following {variables} button to have dynamic data within the notification content.",
-    "emailContentDescription": "This action will automatically send a email to the user when the point threshold is met. You can utilize the following template {variables} button to have dynamic data within the email content.",
+    "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
+    "emailContentDescription": "This action will automatically send a email to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the email.",
     "modifyCommunityStatus": "Modify Community Status",
     "modifyCommunityStatusDescription": "This action will automatically will modify the user's status, kick or ban when the point threshold is met.",
     "modifyCommunityRanksDescription": "This action will automatically change/set the user's ranks when the point threshold is met.",
-    "discordWebhookContentDescription": "This action will automatically execute a Discord webhook when the point threshold is met. You can utilize the following {variables} button to have dynamic data within the notification content.",
-    "discordMessageContentDescription": "This action will automatically send the user a Discord DM when the point threshold is met. You can utilize the following {variables} button to have dynamic data within the notification content.",
+    "discordWebhookContentDescription": "This action will automatically execute a Discord webhook when the point threshold is met. You can utilize the variables button to have dynamic data within the webhook.",
+    "discordMessageContentDescription": "This action will automatically send the user a Discord DM when the point threshold is met. You can utilize the variables button to have dynamic data within the direct message.",
     "notificationContent": "Notification Content",
     "emailContent": "Email Content",
     "selectRanks": "Select Ranks",
@@ -3668,6 +3668,11 @@
     "active": "Active",
     "kick": "Kick",
     "ban": "Ban",
+    "modifyRanks": "Modify Ranks",
+    "modifyStatus": "Modify Status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Notification",
     "archive": "Archive",
     "webhookChannel": "Webhook Channel",
     "webhookEmbedContent": "Embed Content",
@@ -4374,12 +4379,12 @@
   "disciplinaryConfig": {
     "variables": "Variables",
     "com_name": {
-      "label": "Community Name",
-      "description": "Inserts the community name."
+      "label": "Community Display Name",
+      "description": "Inserts the user's community display name."
     },
     "username": {
       "label": "Username",
-      "description": "Inserts the username."
+      "description": "Inserts the account username."
     },
     "point_reason": {
       "label": "Point Reason",
@@ -4387,7 +4392,7 @@
     },
     "discord_ping": {
       "label": "Discord Ping",
-      "description": "Inserts a Discord ping."
+      "description": "Pings the user in Discord."
     }
   },
   "variables": {
