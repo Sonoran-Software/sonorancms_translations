@@ -3594,6 +3594,7 @@
     "home": "Home"
   },
   "StageActionEditor": {
+    "tooltip": "You can utilize the following [VARIABLES BUTTON] to have dynamic data within your reply.",
     "formsstageautoformreplydescription": "The stage \"auto-form reply\" action will automatically enter a reply when the form's stage changes to the stage part you copy and paste in the editor",
     "formsstagenotifysubmitternotificationdes": "The stage \"notify user via notification\" action will automatically send a notification to the user when the form's stage changes to the stage part you copy and paste in the editor",
     "formsstagenotifysubmitteremaildescriptio": "The stage \"notify user via email\" action will automatically send a email to the user when the form's stage changes to the stage part you copy and paste in the editor",
@@ -3665,7 +3666,21 @@
     "ranksToRemove": "Ranks To Remove",
     "noRanksSelectedToBeRemovedFromAccounts": "No ranks selected to be removed from accounts...",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
-    "banConfiguration": "Ban Configuration"
+    "banConfiguration": "Ban Configuration",
+    "stageNameLabel": "Stage Name",
+    "stageNameDescription": "Inserts the form's current stage name.",
+    "formNameLabel": "Form Name",
+    "formNameDescription": "Inserts the name of the form.",
+    "userSubmissionLinkLabel": "User Submission Link",
+    "userSubmissionLinkDescription": "Inserts the link to the user's form submission.",
+    "submissionLinkLabel": "Submission Link",
+    "submissionLinkDescription": "Inserts the general link to the submission.",
+    "submitterCommunityNameLabel": "Submitter Community Name",
+    "submitterCommunityNameDescription": "Inserts the community name of the submitter.",
+    "submitterUsernameLabel": "Submitter Username",
+    "submitterUsernameDescription": "Inserts the username of the submitter.",
+    "submitterDiscordPingLabel": "Submitter Discord Ping",
+    "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter."
   },
   "OnJoinActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the notification content.",
@@ -4357,6 +4372,22 @@
     "searchTooltip": "Search by "
   },
   "disciplinaryConfig": {
-    "variables": "Variables"
+    "variables": "Variables",
+    "com_name": {
+      "label": "Community Name",
+      "description": "Inserts the community name."
+    },
+    "username": {
+      "label": "Username",
+      "description": "Inserts the username."
+    },
+    "point_reason": {
+      "label": "Point Reason",
+      "description": "Inserts the reason for disciplinary points."
+    },
+    "discord_ping": {
+      "label": "Discord Ping",
+      "description": "Inserts a Discord ping."
+    }
   }
 }
