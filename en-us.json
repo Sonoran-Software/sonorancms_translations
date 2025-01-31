@@ -4389,5 +4389,8 @@
       "label": "Discord Ping",
       "description": "Inserts a Discord ping."
     }
+  },
+  "variables": {
+    "title": "Variables"
   }
 }
