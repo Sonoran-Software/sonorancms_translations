@@ -3635,7 +3635,8 @@
     "applyFixedPoints": "Apply a fixed number of points",
     "current": "Current:",
     "clickTo": "Click to:",
-    "banConfiguration": "Ban Configuration"
+    "banConfiguration": "Ban Configuration",
+    "variables": "Variables"
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the following template strings: {'{com_name}'}, {'{username}'}, and {'{point_reason}'} to have dynamic data within the notification content.",
@@ -4354,5 +4355,8 @@
   },
   "accountSearchFilter": {
     "searchTooltip": "Search by "
+  },
+  "disciplinaryConfig": {
+    "variables": "Variables"
   }
 }
