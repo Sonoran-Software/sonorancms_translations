@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Назначить фиксированное количество очков",
     "current": "Текущий:",
     "clickTo": "Нажмите, чтобы:",
-    "banConfiguration": "Конфигурация запрета"
+    "banConfiguration": "Конфигурация запрета",
+    "tooltip": "Вы можете использовать следующую [VARIABLES BUTTON], чтобы добавить динамические данные в ваш ответ.",
+    "variables": "Переменные",
+    "stageNameLabel": "Сценическое имя",
+    "stageNameDescription": "Вставляет название текущего этапа формы.",
+    "formNameLabel": "Название формы",
+    "formNameDescription": "Вставляет название формы.",
+    "userSubmissionLinkLabel": "Ссылка на отправку пользователя",
+    "userSubmissionLinkDescription": "Вставляет ссылку, чтобы пользователь мог просмотреть свою собственную отправку.",
+    "submissionLinkLabel": "Ссылка на отправку для администратора",
+    "submissionLinkDescription": "Вставляет ссылку для просмотра отправки в панели администратора.",
+    "submitterCommunityNameLabel": "Имя сообщества отправителя",
+    "submitterCommunityNameDescription": "Вставляет отображаемое имя сообщества отправителя.",
+    "submitterUsernameLabel": "Имя пользователя отправителя",
+    "submitterUsernameDescription": "Вставляет имя пользователя учетной записи отправителя.",
+    "submitterDiscordPingLabel": "Отправитель Discord Ping",
+    "submitterDiscordPingDescription": "Вставляет упоминание Discord для отправителя."
   },
   "FormSectionEditor": {
     "required": "Заголовок раздела",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "не выбрано званий для удаления из учетных записей",
     "sonoranBotEncounteredAnIssue": "SonoranBot столкнулся с проблемой",
     "banConfiguration": "Настройка бана",
-    "ranksToAdd": "Звания для добавления"
+    "ranksToAdd": "Звания для добавления",
+    "modifyRanks": "Изменить ранги",
+    "modifyStatus": "Изменить статус",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord ЛС",
+    "notification": "Уведомление"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "дисциплинарныеБаллы",
@@ -4376,5 +4397,15 @@
     "communityRank": "сообществоРанг",
     "communityAvatar": "сообществоАватар",
     "communityName": "имя сообщества"
+  },
+  "disciplinaryConfig": {
+    "variables": "переменные",
+    "com_name": "имя компании",
+    "username": "пользовательское имя",
+    "point_reason": "причина точки",
+    "discord_ping": "пинг в Discord"
+  },
+  "variables": {
+    "title": "заголовок"
   }
 }

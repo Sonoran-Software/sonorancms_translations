@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Pas een vast aantal punten toe",
     "current": "Huidig:",
     "clickTo": "Klik om te:",
-    "banConfiguration": "Banconfiguratie"
+    "banConfiguration": "Banconfiguratie",
+    "tooltip": "Je kunt de volgende [VARIABLES BUTTON] gebruiken om dynamische gegevens in je antwoord te hebben.",
+    "variables": "Variabelen",
+    "stageNameLabel": "Artiestennaam",
+    "stageNameDescription": "Voegt de huidige fasenaam van het formulier in.",
+    "formNameLabel": "Formuliernaam",
+    "formNameDescription": "Voegt de naam van het formulier in.",
+    "userSubmissionLinkLabel": "Gebruikersinzendingslink",
+    "userSubmissionLinkDescription": "Voegt de link in waarmee de gebruiker zijn eigen inzending kan bekijken.",
+    "submissionLinkLabel": "Beheerdersindieningslink",
+    "submissionLinkDescription": "Voegt een link in om de inzending in het beheerderspaneel te bekijken.",
+    "submitterCommunityNameLabel": "Indienende Communitynaam",
+    "submitterCommunityNameDescription": "Voegt de communityweergavenaam van de indiener in.",
+    "submitterUsernameLabel": "Inzender Gebruikersnaam",
+    "submitterUsernameDescription": "Voegt de accountgebruikersnaam van de indiener in.",
+    "submitterDiscordPingLabel": "Indiener Discord Ping",
+    "submitterDiscordPingDescription": "Voegt een Discord-ping toe voor de indiener."
   },
   "FormSectionEditor": {
     "required": "Vereist",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Geen rangen geselecteerd om van accounts te verwijderen",
     "sonoranBotEncounteredAnIssue": "sonoranBotHeeftEenProbleemOndervonden",
     "banConfiguration": "Banconfiguratie",
-    "ranksToAdd": "Rangen Om Toe Te Voegen"
+    "ranksToAdd": "Rangen Om Toe Te Voegen",
+    "modifyRanks": "Wijzig rangen",
+    "modifyStatus": "Status Wijzigen",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Kennisgeving"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinairepunten",
@@ -4376,5 +4397,15 @@
     "communityRank": "communityRang",
     "communityAvatar": "communityAvatar",
     "communityName": "gemeenschapsnaam"
+  },
+  "disciplinaryConfig": {
+    "variables": "variabelen",
+    "com_name": "Bedrijfsnaam",
+    "username": "gebruikersnaam",
+    "point_reason": "reden voor aanwijzing",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "titel"
   }
 }

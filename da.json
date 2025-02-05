@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Anvend et fast antal point",
     "current": "Nuværende:",
     "clickTo": "Klik for at:",
-    "banConfiguration": "Ban Konfiguration"
+    "banConfiguration": "Ban Konfiguration",
+    "tooltip": "Du kan bruge følgende [VARIABLES BUTTON] til at have dynamiske data i dit svar.",
+    "variables": "Variabler",
+    "stageNameLabel": "Scenenavn",
+    "stageNameDescription": "Indsætter formularens nuværende stagenavn.",
+    "formNameLabel": "Formularnavn",
+    "formNameDescription": "Indsætter navnet på formularen.",
+    "userSubmissionLinkLabel": "Brugerindsendelseslink",
+    "userSubmissionLinkDescription": "Indsætter linket, så brugeren kan se sin egen indsendelse.",
+    "submissionLinkLabel": "Admin Indsendelseslink",
+    "submissionLinkDescription": "Indsætter et link til at se indsendelsen i adminpanelet.",
+    "submitterCommunityNameLabel": "Indsenderens fællesskabsnavn",
+    "submitterCommunityNameDescription": "Indsætter afsenderens fællesskabsvisningsnavn.",
+    "submitterUsernameLabel": "Indsenders brugernavn",
+    "submitterUsernameDescription": "Indsætter afsenderens kontobrugernavn.",
+    "submitterDiscordPingLabel": "Indsender Discord Ping",
+    "submitterDiscordPingDescription": "Indsætter en Discord-ping for indsenderen."
   },
   "FormSectionEditor": {
     "required": "Påkrævet",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Ingen rækker valgt til at blive fjernet fra konti",
     "sonoranBotEncounteredAnIssue": "sonoranBotStødtePåEtProblem",
     "banConfiguration": "Ban Konfiguration",
-    "ranksToAdd": "Rækker at tilføje"
+    "ranksToAdd": "Rækker at tilføje",
+    "modifyRanks": "Rediger Rækker",
+    "modifyStatus": "Rediger status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Notifikation"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinærePoint",
@@ -4376,5 +4397,15 @@
     "communityRank": "samfundsplacering",
     "communityAvatar": "fællesskabsavatar",
     "communityName": "fællesskabsnavn"
+  },
+  "disciplinaryConfig": {
+    "variables": "variabler",
+    "com_name": "kommandonavn",
+    "username": "brugernavn",
+    "point_reason": "point_grund",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "titel"
   }
 }

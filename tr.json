@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Belirli bir sayıda puan uygulayın",
     "current": "Mevcut:",
     "clickTo": "Tıklamak için:",
-    "banConfiguration": "Ban Yapılandırması"
+    "banConfiguration": "Ban Yapılandırması",
+    "tooltip": "Cevabınızda dinamik veri bulundurmak için aşağıdaki [DEĞİŞKENLER DÜĞMESİ]i kullanabilirsiniz.",
+    "variables": "Değişkenler",
+    "stageNameLabel": "Aşama Adı",
+    "stageNameDescription": "Formun mevcut aşama adını ekler.",
+    "formNameLabel": "Form Adı",
+    "formNameDescription": "Formun adını ekler.",
+    "userSubmissionLinkLabel": "Kullanıcı Gönderim Bağlantısı",
+    "userSubmissionLinkDescription": "Kullanıcının kendi gönderisini görmesi için bağlantıyı ekler.",
+    "submissionLinkLabel": "Yönetici Başvuru Bağlantısı",
+    "submissionLinkDescription": "Yönetici panelinde gönderimi görüntülemek için bir bağlantı ekler.",
+    "submitterCommunityNameLabel": "Gönderen Topluluğu Adı",
+    "submitterCommunityNameDescription": "Göndericinin topluluk görüntüleme adını ekler.",
+    "submitterUsernameLabel": "Gönderen Kullanıcı Adı",
+    "submitterUsernameDescription": "Gönderenin hesap kullanıcı adını ekler.",
+    "submitterDiscordPingLabel": "Gönderen Discord Ping'i",
+    "submitterDiscordPingDescription": "Gönderici için bir Discord bildirimi ekler."
   },
   "FormSectionEditor": {
     "required": "Gerekli",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Hesaplardan kaldırılacak rütbe seçilmedi",
     "sonoranBotEncounteredAnIssue": "SonoranBot bir sorunla karşılaştı",
     "banConfiguration": "Yasaklama Yapılandırması",
-    "ranksToAdd": "Eklenecek Dereceler"
+    "ranksToAdd": "Eklenecek Dereceler",
+    "modifyRanks": "Rütbeleri Değiştir",
+    "modifyStatus": "Durumu Değiştir",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Bildirim"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinPuanları",
@@ -4376,5 +4397,15 @@
     "communityRank": "toplulukRütbesi",
     "communityAvatar": "toplulukAvatarı",
     "communityName": "toplulukAdı"
+  },
+  "disciplinaryConfig": {
+    "variables": "Değişkenler",
+    "com_name": "şirket adı",
+    "username": "kullanıcı adı",
+    "point_reason": "puan_nedeni",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "başlık"
   }
 }

@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Zastosuj stałą liczbę punktów",
     "current": "Bieżący:",
     "clickTo": "Kliknij, aby:",
-    "banConfiguration": "Konfiguracja bana"
+    "banConfiguration": "Konfiguracja bana",
+    "tooltip": "Możesz użyć następującego [VARIABLES BUTTON], aby umieścić dynamiczne dane w swojej odpowiedzi.",
+    "variables": "Zmienne",
+    "stageNameLabel": "Nazwa sceniczna",
+    "stageNameDescription": "Wstawia nazwę bieżącego etapu formularza.",
+    "formNameLabel": "Nazwa formularza",
+    "formNameDescription": "Wstawia nazwę formularza.",
+    "userSubmissionLinkLabel": "Link do zgłoszenia użytkownika",
+    "userSubmissionLinkDescription": "Wstawia link, aby użytkownik mógł zobaczyć swoje zgłoszenie.",
+    "submissionLinkLabel": "Link do zgłoszeń administracyjnych",
+    "submissionLinkDescription": "Wstawia link do wyświetlenia zgłoszenia w panelu administracyjnym.",
+    "submitterCommunityNameLabel": "Nazwa społeczności zgłaszającej",
+    "submitterCommunityNameDescription": "Wstawia nazwę wyświetlaną społeczności zgłaszającego.",
+    "submitterUsernameLabel": "Nazwa użytkownika osoby zgłaszającej",
+    "submitterUsernameDescription": "Wstawia nazwę użytkownika konta wnioskodawcy.",
+    "submitterDiscordPingLabel": "Discord przesyłającego ping",
+    "submitterDiscordPingDescription": "Wstawia ping Discord dla osoby składającej wniosek."
   },
   "FormSectionEditor": {
     "required": "Wymagane",
@@ -4156,7 +4172,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Nie wybrano żadnych rang do usunięcia z kont",
     "sonoranBotEncounteredAnIssue": "SonoranBot napotkał problem",
     "banConfiguration": "Konfiguracja Banów",
-    "ranksToAdd": "Rangi do dodania"
+    "ranksToAdd": "Rangi do dodania",
+    "modifyRanks": "Modyfikuj rangi",
+    "modifyStatus": "Modyfikuj status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Powiadomienie"
   },
   "permissionToggleGroup": {
     "inherited": "odziedziczony"
@@ -4376,5 +4397,15 @@
     "communityRank": "ranga społeczności",
     "communityAvatar": "awatarSpołeczności",
     "communityName": "nazwaSpołeczności"
+  },
+  "disciplinaryConfig": {
+    "variables": "zmienne",
+    "com_name": "nazwa firmy",
+    "username": "nazwa użytkownika",
+    "point_reason": "powód punktu",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "tytuł"
   }
 }

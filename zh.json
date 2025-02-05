@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "应用固定点数",
     "current": "当前：",
     "clickTo": "点击：",
-    "banConfiguration": "禁令配置"
+    "banConfiguration": "禁令配置",
+    "tooltip": "您可以使用以下[VARIABLES BUTTON]在您的回复中包含动态数据。",
+    "variables": "变量",
+    "stageNameLabel": "艺名",
+    "stageNameDescription": "插入表单的当前阶段名称。",
+    "formNameLabel": "表单名称",
+    "formNameDescription": "插入表单的名称。",
+    "userSubmissionLinkLabel": "用户提交链接",
+    "userSubmissionLinkDescription": "插入用户查看自己提交内容的链接。",
+    "submissionLinkLabel": "管理员提交链接",
+    "submissionLinkDescription": "在管理面板中插入一个查看提交的链接。",
+    "submitterCommunityNameLabel": "提交者社区名称",
+    "submitterCommunityNameDescription": "插入提交者的社区显示名称。",
+    "submitterUsernameLabel": "提交者用户名",
+    "submitterUsernameDescription": "插入提交者的账户用户名。",
+    "submitterDiscordPingLabel": "提交者 Discord 提及",
+    "submitterDiscordPingDescription": "为提交者插入一个Discord提醒。"
   },
   "FormSectionEditor": {
     "required": "必需的",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "未选择要从帐户中删除的等级",
     "sonoranBotEncounteredAnIssue": "SonoranBot遇到了一个问题",
     "banConfiguration": "禁令配置",
-    "ranksToAdd": "要添加的等级"
+    "ranksToAdd": "要添加的等级",
+    "modifyRanks": "修改等级",
+    "modifyStatus": "修改状态",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord私信",
+    "notification": "通知"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "处分分数",
@@ -4376,5 +4397,15 @@
     "communityRank": "社区排名",
     "communityAvatar": "社区头像",
     "communityName": "社区名称"
+  },
+  "disciplinaryConfig": {
+    "variables": "变量",
+    "com_name": "公司名称",
+    "username": "用户名",
+    "point_reason": "积分原因",
+    "discord_ping": "Discord 提及"
+  },
+  "variables": {
+    "title": "标题"
   }
 }

@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "تطبيق عدد ثابت من النقاط",
     "current": "الحالي:",
     "clickTo": "اضغط ل:",
-    "banConfiguration": "تكوين الحظر"
+    "banConfiguration": "تكوين الحظر",
+    "tooltip": "يمكنك استخدام [VARIABLES BUTTON] التالية للحصول على بيانات ديناميكية داخل ردك.",
+    "variables": "المتغيرات",
+    "stageNameLabel": "اسم المسرح",
+    "stageNameDescription": "يقوم بإدراج اسم المرحلة الحالية للنموذج.",
+    "formNameLabel": "اسم النموذج",
+    "formNameDescription": "يُدرج اسم النموذج.",
+    "userSubmissionLinkLabel": "رابط تقديم المستخدم",
+    "userSubmissionLinkDescription": "يقوم بإدراج الرابط للمستخدم لعرض تقديمه الخاص.",
+    "submissionLinkLabel": "رابط إرسال المشرف",
+    "submissionLinkDescription": "يقوم بإدراج رابط لعرض الإرسال في لوحة الإدارة.",
+    "submitterCommunityNameLabel": "اسم المجتمع المرسل",
+    "submitterCommunityNameDescription": "يدرج اسم العرض الخاص بمقدم الطلب في المجتمع.",
+    "submitterUsernameLabel": "اسم المستخدم الذي أرسل",
+    "submitterUsernameDescription": "يدرج اسم المستخدم لحساب المرسل.",
+    "submitterDiscordPingLabel": "منشن ديسكورد المرسل",
+    "submitterDiscordPingDescription": "يُدرج تذكير Discord للمقدم."
   },
   "FormSectionEditor": {
     "required": "مطلوب",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "لم يتم تحديد الرتب لإزالتها من الحسابات",
     "sonoranBotEncounteredAnIssue": "واجه SonoranBot مشكلة",
     "banConfiguration": "تكوين الحظر",
-    "ranksToAdd": "الرتب المطلوب إضافتها"
+    "ranksToAdd": "الرتب المطلوب إضافتها",
+    "modifyRanks": "تعديل الرتب",
+    "modifyStatus": "تعديل الحالة",
+    "discordWebhook": "Webhook Discord",
+    "discordDM": "رسالة خاصة على Discord",
+    "notification": "إشعار"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "النقاط التأديبية",
@@ -4376,5 +4397,15 @@
     "communityRank": "رتبة المجتمع",
     "communityAvatar": "أفاتار المجتمع",
     "communityName": "اسم المجتمع"
+  },
+  "disciplinaryConfig": {
+    "variables": "المتغيرات",
+    "com_name": "اسم المجتمع",
+    "username": "اسم المستخدم",
+    "point_reason": "سبب النقاط",
+    "discord_ping": "بينغ ديسكورد"
+  },
+  "variables": {
+    "title": "العنوان"
   }
 }

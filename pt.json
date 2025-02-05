@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Aplicar um número fixo de pontos",
     "current": "Atual:",
     "clickTo": "Clique para:",
-    "banConfiguration": "Configuração de Banimento"
+    "banConfiguration": "Configuração de Banimento",
+    "tooltip": "Você pode utilizar o seguinte [VARIABLES BUTTON] para ter dados dinâmicos em sua resposta.",
+    "variables": "Variáveis",
+    "stageNameLabel": "Nome da Fase",
+    "stageNameDescription": "Insere o nome da etapa atual do formulário.",
+    "formNameLabel": "Nome do Formulário",
+    "formNameDescription": "Insere o nome do formulário.",
+    "userSubmissionLinkLabel": "Link de Envio do Usuário",
+    "userSubmissionLinkDescription": "Insere o link para o usuário visualizar sua própria inscrição.",
+    "submissionLinkLabel": "Link de Envio do Admin",
+    "submissionLinkDescription": "Insere um link para visualizar a submissão no painel de administração.",
+    "submitterCommunityNameLabel": "Nome da Comunidade do Remetente",
+    "submitterCommunityNameDescription": "Insere o nome de exibição da comunidade do remetente.",
+    "submitterUsernameLabel": "Nome de Usuário do Enviador",
+    "submitterUsernameDescription": "Insere o nome de usuário da conta do remetente.",
+    "submitterDiscordPingLabel": "Ping do Discord do Remetente",
+    "submitterDiscordPingDescription": "Insere uma menção no Discord para o remetente."
   },
   "FormSectionEditor": {
     "required": "Obrigatório",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Nenhuma classificação selecionada para ser removida das contas",
     "sonoranBotEncounteredAnIssue": "o SonoranBot encontrou um problema",
     "banConfiguration": "Configuração de Banimento",
-    "ranksToAdd": "Patentes Para Adicionar"
+    "ranksToAdd": "Patentes Para Adicionar",
+    "modifyRanks": "Modificar Patentes",
+    "modifyStatus": "Modificar Status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Notificação"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "pontos disciplinares",
@@ -4376,5 +4397,15 @@
     "communityRank": "classificaçãoDaComunidade",
     "communityAvatar": "avatarComunidade",
     "communityName": "nomeDaComunidade"
+  },
+  "disciplinaryConfig": {
+    "variables": "variáveis",
+    "com_name": "nome_completo",
+    "username": "usuário",
+    "point_reason": "Motivo dos pontos",
+    "discord_ping": "@ menção do Discord"
+  },
+  "variables": {
+    "title": "título"
   }
 }

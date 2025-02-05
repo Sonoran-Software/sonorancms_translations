@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Applica un numero fisso di punti",
     "current": "Attuale:",
     "clickTo": "Fai clic per:",
-    "banConfiguration": "Configurazione del Ban"
+    "banConfiguration": "Configurazione del Ban",
+    "tooltip": "Puoi utilizzare il seguente [VARIABLES BUTTON] per avere dati dinamici all'interno della tua risposta.",
+    "variables": "Variabili",
+    "stageNameLabel": "Nome del palcoscenico",
+    "stageNameDescription": "Inserisce il nome della fase attuale del modulo.",
+    "formNameLabel": "Nome del Modulo",
+    "formNameDescription": "Inserisce il nome del modulo.",
+    "userSubmissionLinkLabel": "Link di invio utente",
+    "userSubmissionLinkDescription": "Inserisce il link per l'utente per visualizzare la propria presentazione.",
+    "submissionLinkLabel": "Link di Invio Admin",
+    "submissionLinkDescription": "Inserisce un link per visualizzare l'invio nel pannello di amministrazione.",
+    "submitterCommunityNameLabel": "Nome della Comunità del Mittente",
+    "submitterCommunityNameDescription": "Inserisce il nome visualizzato della comunità del mittente.",
+    "submitterUsernameLabel": "Nome utente del mittente",
+    "submitterUsernameDescription": "Inserisce il nome utente dell'account del mittente.",
+    "submitterDiscordPingLabel": "Menzionamento Discord di chi ha inviato",
+    "submitterDiscordPingDescription": "Inserisce un ping di Discord per il mittente."
   },
   "FormSectionEditor": {
     "required": "Richiesto",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Nessun Grado Selezionato da Rimuovere dagli Account",
     "sonoranBotEncounteredAnIssue": "sonoranBot ha riscontrato un problema",
     "banConfiguration": "Configurazione del Ban",
-    "ranksToAdd": "Gradi da aggiungere"
+    "ranksToAdd": "Gradi da aggiungere",
+    "modifyRanks": "Modifica Gradi",
+    "modifyStatus": "Modifica stato",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Messaggio diretto di Discord",
+    "notification": "Notifica"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "punti disciplinari",
@@ -4376,5 +4397,15 @@
     "communityRank": "gradoCommunity",
     "communityAvatar": "avatarDellaComunità",
     "communityName": "nomeDellaComunità"
+  },
+  "disciplinaryConfig": {
+    "variables": "variabili",
+    "com_name": "Nome azienda",
+    "username": "nome utente",
+    "point_reason": "motivo del punto",
+    "discord_ping": "ping Discord"
+  },
+  "variables": {
+    "title": "titolo"
   }
 }

@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Przyznaj stałą liczbę punktów",
     "current": "Bieżące:",
     "clickTo": "Kliknij, aby:",
-    "banConfiguration": "Konfiguracja bana"
+    "banConfiguration": "Konfiguracja bana",
+    "tooltip": "Vous pouvez utiliser le bouton [VARIABLES BUTTON] suivant pour avoir des données dynamiques dans votre réponse.",
+    "variables": "Zmienne",
+    "stageNameLabel": "Nome Artístico",
+    "stageNameDescription": "Inserta el nombre actual de la etapa del formulario.",
+    "formNameLabel": "Nome do Formulário",
+    "formNameDescription": "Inserta el nombre del formulario.",
+    "userSubmissionLinkLabel": "Link de Envío de Usuario",
+    "userSubmissionLinkDescription": "Wstawia link, aby użytkownik mógł zobaczyć swoje własne zgłoszenie.",
+    "submissionLinkLabel": "Link pro podání správci",
+    "submissionLinkDescription": "Insere um link para visualizar a submissão no painel de administração.",
+    "submitterCommunityNameLabel": "Nazwę społeczności składającego",
+    "submitterCommunityNameDescription": "Inserta el nombre para mostrar de la comunidad del remitente.",
+    "submitterUsernameLabel": "Nombre de usuario del remitente",
+    "submitterUsernameDescription": "Inserta el nombre de usuario de la cuenta del remitente.",
+    "submitterDiscordPingLabel": "Öneriyi Yapanın Discord Etiketi",
+    "submitterDiscordPingDescription": "Inserta un ping de Discord para el remitente."
   },
   "FormSectionEditor": {
     "required": "Wymagane",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Brak wybranych rang do usunięcia z kont.",
     "sonoranBotEncounteredAnIssue": "SonoranBot encontrou um problema",
     "banConfiguration": "Konfiguracja banów",
-    "ranksToAdd": "Rangas a Añadir"
+    "ranksToAdd": "Rangas a Añadir",
+    "modifyRanks": "Zmień rangi",
+    "modifyStatus": "Modyfikuj status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Powiadomienie"
   },
   "RadioIntegration": {
     "remove": "usuń",
@@ -4376,5 +4397,15 @@
     "communityRank": "rangoComunitario",
     "communityAvatar": "لوگوی جامعه",
     "communityName": "nazwaSpołeczności"
+  },
+  "disciplinaryConfig": {
+    "variables": "zmienne",
+    "com_name": "com_nombre",
+    "username": "nombre de usuario",
+    "point_reason": "powód punktu",
+    "discord_ping": "ping Discord"
+  },
+  "variables": {
+    "title": "título"
   }
 }

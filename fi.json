@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Sovella kiinteä määrä pisteitä",
     "current": "Nykyinen:",
     "clickTo": "Klikkaa:",
-    "banConfiguration": "Määritysten kieltäminen"
+    "banConfiguration": "Määritysten kieltäminen",
+    "tooltip": "Voit käyttää seuraavaa [VARIABLES BUTTON] saadaksesi dynaamisia tietoja vastaukseesi.",
+    "variables": "Muuttujat",
+    "stageNameLabel": "Vaihenimi",
+    "stageNameDescription": "Lisää lomakkeen nykyisen vaiheen nimen.",
+    "formNameLabel": "Lomakkeen nimi",
+    "formNameDescription": "Lisää lomakkeen nimen.",
+    "userSubmissionLinkLabel": "Käyttäjän lähetyslinkki",
+    "userSubmissionLinkDescription": "Lisää linkin, josta käyttäjä voi tarkastella omaa lähettämäänsä sisältöä.",
+    "submissionLinkLabel": "Järjestelmänvalvojan lähetyslinkki",
+    "submissionLinkDescription": "Lisää linkin, josta voi tarkastella lähetystä hallintapaneelissa.",
+    "submitterCommunityNameLabel": "Lähettäjän yhteisön nimi",
+    "submitterCommunityNameDescription": "Lisää lähettäjän yhteisön näyttönimen.",
+    "submitterUsernameLabel": "Esittäjän käyttäjänimi",
+    "submitterUsernameDescription": "Lisää lähettäjän tilin käyttäjänimen.",
+    "submitterDiscordPingLabel": "Lähettäjän Discord Ping",
+    "submitterDiscordPingDescription": "Lisää Discord-pingin lähettäjälle."
   },
   "FormSectionEditor": {
     "required": "Vaadittu",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "mitään arvoja ei valittu poistettavaksi tileiltä",
     "sonoranBotEncounteredAnIssue": "sonoranBotilla ilmeni ongelma",
     "banConfiguration": "Määräys asetukset",
-    "ranksToAdd": "Arvot lisättäväksi"
+    "ranksToAdd": "Arvot lisättäväksi",
+    "modifyRanks": "Muokkaa arvonimiä",
+    "modifyStatus": "Muokkaa tilaa",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Ilmoitus"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "kurinpidollisetPisteet",
@@ -4376,5 +4397,15 @@
     "communityRank": "yhteisön sijoitus",
     "communityAvatar": "yhteisöAvatar",
     "communityName": "yhteisönNimi"
+  },
+  "disciplinaryConfig": {
+    "variables": "muuttujat",
+    "com_name": "Yhteisön nimi",
+    "username": "käyttäjänimi",
+    "point_reason": "pisteen_syys",
+    "discord_ping": "discord-pingaus"
+  },
+  "variables": {
+    "title": "otsikko"
   }
 }

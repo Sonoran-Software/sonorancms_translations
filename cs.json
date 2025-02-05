@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Použít pevný počet bodů",
     "current": "Aktuální:",
     "clickTo": "Klikněte na:",
-    "banConfiguration": "Konfigurace zákazu"
+    "banConfiguration": "Konfigurace zákazu",
+    "tooltip": "Můžete použít následující [VARIABLES BUTTON] k tomu, abyste měli ve své odpovědi dynamická data.",
+    "variables": "Proměnné",
+    "stageNameLabel": "Název scény",
+    "stageNameDescription": "Vloží název aktuální fáze formuláře.",
+    "formNameLabel": "Název formuláře",
+    "formNameDescription": "Vloží název formuláře.",
+    "userSubmissionLinkLabel": "Odkaz na odeslání uživatele",
+    "userSubmissionLinkDescription": "Vloží odkaz pro uživatele, aby mohl zobrazit svůj vlastní příspěvek.",
+    "submissionLinkLabel": "Odkaz pro podání administrátora",
+    "submissionLinkDescription": "Vloží odkaz pro zobrazení odevzdání v administračním panelu.",
+    "submitterCommunityNameLabel": "Název komunity odesílatele",
+    "submitterCommunityNameDescription": "Vloží zobrazované jméno komunity odesílatele.",
+    "submitterUsernameLabel": "Zasílatelské uživatelské jméno",
+    "submitterUsernameDescription": "Vloží uživatelské jméno účtu odesílatele.",
+    "submitterDiscordPingLabel": "Odesílatel Discord Ping",
+    "submitterDiscordPingDescription": "Vloží ping na Discord pro odesílatele."
   },
   "FormSectionEditor": {
     "required": "Povinné",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Nebyla vybrána žádná hodnost k odstranění z účtů",
     "sonoranBotEncounteredAnIssue": "sonoranBotSeSetkalSProblémem",
     "banConfiguration": "Konfigurace banu",
-    "ranksToAdd": "Hodnosti k přidání"
+    "ranksToAdd": "Hodnosti k přidání",
+    "modifyRanks": "Upravit hodnosti",
+    "modifyStatus": "Upravit stav",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Upozornění"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinární body",
@@ -4376,5 +4397,15 @@
     "communityRank": "hodnostKomunity",
     "communityAvatar": "avatarKomunity",
     "communityName": "název komunity"
+  },
+  "disciplinaryConfig": {
+    "variables": "proměnné",
+    "com_name": "název společnosti",
+    "username": "uživatelské jméno",
+    "point_reason": "důvod bodů",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "název"
   }
 }

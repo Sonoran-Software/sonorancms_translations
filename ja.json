@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "固定ポイント数を適用",
     "current": "現在:",
     "clickTo": "クリックして:",
-    "banConfiguration": "禁止設定"
+    "banConfiguration": "禁止設定",
+    "tooltip": "返信内で動的なデータを持つために、次の[VARIABLESボタン]を利用できます。",
+    "variables": "変数",
+    "stageNameLabel": "ステージ名",
+    "stageNameDescription": "フォームの現在のステージ名を挿入します。",
+    "formNameLabel": "フォーム名",
+    "formNameDescription": "フォームの名前を挿入します",
+    "userSubmissionLinkLabel": "ユーザー提出リンク",
+    "userSubmissionLinkDescription": "ユーザーが自分の提出物を確認するためのリンクを挿入します。",
+    "submissionLinkLabel": "管理者提出リンク",
+    "submissionLinkDescription": "管理パネルで提出物を表示するリンクを挿入します。",
+    "submitterCommunityNameLabel": "提出者のコミュニティ名",
+    "submitterCommunityNameDescription": "送信者のコミュニティ表示名を挿入します。",
+    "submitterUsernameLabel": "送信者のユーザー名",
+    "submitterUsernameDescription": "提出者のアカウントユーザー名を挿入します。",
+    "submitterDiscordPingLabel": "送信者のDiscordピン",
+    "submitterDiscordPingDescription": "送信者のためにDiscordの通知を挿入します。"
   },
   "FormSectionEditor": {
     "required": "セクションヘッダー",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "アカウントから削除されるランクが選択されていません",
     "sonoranBotEncounteredAnIssue": "SonoranBotに問題が発生しました",
     "banConfiguration": "禁止設定",
-    "ranksToAdd": "追加するランク"
+    "ranksToAdd": "追加するランク",
+    "modifyRanks": "ランクを変更",
+    "modifyStatus": "ステータスを変更する",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "通知"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "懲戒点数",
@@ -4376,5 +4397,15 @@
     "communityRank": "コミュニティランク",
     "communityAvatar": "コミュニティアバター",
     "communityName": "コミュニティ名"
+  },
+  "disciplinaryConfig": {
+    "variables": "変数",
+    "com_name": "コミュニティ名",
+    "username": "ユーザー名",
+    "point_reason": "ポイント理由",
+    "discord_ping": "ディスコードの通知"
+  },
+  "variables": {
+    "title": "タイトル"
   }
 }

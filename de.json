@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Eine feste Anzahl von Punkten vergeben",
     "current": "Aktuell:",
     "clickTo": "Klicken Sie auf:",
-    "banConfiguration": "Bann-Konfiguration"
+    "banConfiguration": "Bann-Konfiguration",
+    "tooltip": "Du kannst die folgenden [VARIABLES BUTTON] verwenden, um dynamische Daten in deine Antwort einzufügen.",
+    "variables": "Variablen",
+    "stageNameLabel": "Bühnenname",
+    "stageNameDescription": "Fügt den aktuellen Stufennamen des Formulars ein.",
+    "formNameLabel": "Formularname",
+    "formNameDescription": "Fügt den Namen des Formulars ein.",
+    "userSubmissionLinkLabel": "Benutzerübermittlungslink",
+    "userSubmissionLinkDescription": "Fügt den Link ein, damit der Benutzer seine eigene Einsendung anzeigen kann.",
+    "submissionLinkLabel": "Admin-Einreichungslink",
+    "submissionLinkDescription": "Fügt einen Link ein, um die Einreichung im Admin-Panel anzusehen.",
+    "submitterCommunityNameLabel": "Einreicher-Community-Name",
+    "submitterCommunityNameDescription": "Fügt den Community-Anzeigenamen des Einreichers ein.",
+    "submitterUsernameLabel": "Absender Benutzername",
+    "submitterUsernameDescription": "Fügt den Benutzernamen des Einreichers ein.",
+    "submitterDiscordPingLabel": "Einreicher Discord-Ping",
+    "submitterDiscordPingDescription": "Fügt einen Discord-Ping für den Absender ein."
   },
   "FormSectionEditor": {
     "required": "Erforderlich",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Keine Ränge ausgewählt, die von Konten entfernt werden sollen",
     "sonoranBotEncounteredAnIssue": "SonoranBot hat ein Problem festgestellt",
     "banConfiguration": "Bannkonfiguration",
-    "ranksToAdd": "Ränge zum Hinzufügen"
+    "ranksToAdd": "Ränge zum Hinzufügen",
+    "modifyRanks": "Ränge ändern",
+    "modifyStatus": "Status ändern",
+    "discordWebhook": "Discord-Webhook",
+    "discordDM": "Discord-Nachricht",
+    "notification": "Benachrichtigung"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "Disziplinarpunkte",
@@ -4376,5 +4397,15 @@
     "communityRank": "Community-Rang",
     "communityAvatar": "Community-Avatar",
     "communityName": "Community-Name"
+  },
+  "disciplinaryConfig": {
+    "variables": "Variablen",
+    "com_name": "Community-Name",
+    "username": "Benutzername",
+    "point_reason": "Punktgrund",
+    "discord_ping": "Discord-Ping"
+  },
+  "variables": {
+    "title": "Titel"
   }
 }

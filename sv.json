@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Applicera ett fast antal poäng",
     "current": "Nuvarande:",
     "clickTo": "Klicka för att:",
-    "banConfiguration": "Ban-konfiguration"
+    "banConfiguration": "Ban-konfiguration",
+    "tooltip": "Du kan använda följande [VARIABLES BUTTON] för att ha dynamiska data i ditt svar.",
+    "variables": "Variabler",
+    "stageNameLabel": "Scennamn",
+    "stageNameDescription": "Infogar formens aktuella stegnamn.",
+    "formNameLabel": "Formulärnamn",
+    "formNameDescription": "Infogar namnet på formuläret.",
+    "userSubmissionLinkLabel": "Användarinlämningslänk",
+    "userSubmissionLinkDescription": "Infogar länken för användaren att se sin egen inlämning.",
+    "submissionLinkLabel": "Administratörens inlämningslänk",
+    "submissionLinkDescription": "Infogar en länk för att se inskickningen i adminpanelen.",
+    "submitterCommunityNameLabel": "Inskickande gemenskapens namn",
+    "submitterCommunityNameDescription": "Infogar gemenskapens visningsnamn för inlämnaren.",
+    "submitterUsernameLabel": "Inskickarens användarnamn",
+    "submitterUsernameDescription": "Infogar kontoanvändarnamnet för inlämnaren.",
+    "submitterDiscordPingLabel": "Inskickares Discord-ping",
+    "submitterDiscordPingDescription": "Infogar en Discord-ping för inlämnaren."
   },
   "FormSectionEditor": {
     "required": "Obligatorisk",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "ingaRangValdaAttTasBortFrånKonton",
     "sonoranBotEncounteredAnIssue": "sonoranBotStöttePåEttProblem",
     "banConfiguration": "Konfigurationsalternativ för avstängning",
-    "ranksToAdd": "Rangordningar att lägga till"
+    "ranksToAdd": "Rangordningar att lägga till",
+    "modifyRanks": "Modifiera Ranks",
+    "modifyStatus": "Ändra status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Avisering"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinäraPoäng",
@@ -4376,5 +4397,15 @@
     "communityRank": "communityRank",
     "communityAvatar": "gemenskapsavatar",
     "communityName": "communityNamn"
+  },
+  "disciplinaryConfig": {
+    "variables": "variabler",
+    "com_name": "Uppdragsnamn",
+    "username": "användarnamn",
+    "point_reason": "poängorsak",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "titel"
   }
 }

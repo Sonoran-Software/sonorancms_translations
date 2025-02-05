@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "고정된 포인트 수 적용",
     "current": "현재:",
     "clickTo": "클릭하여:",
-    "banConfiguration": "차단 구성"
+    "banConfiguration": "차단 구성",
+    "tooltip": "다음 [VARIABLES BUTTON]을(를) 활용하여 응답 내에 동적 데이터를 포함할 수 있습니다.",
+    "variables": "변수",
+    "stageNameLabel": "무대 이름",
+    "stageNameDescription": "양식의 현재 단계 이름을 삽입합니다.",
+    "formNameLabel": "폼 이름",
+    "formNameDescription": "양식의 이름을 삽입합니다.",
+    "userSubmissionLinkLabel": "사용자 제출 링크",
+    "userSubmissionLinkDescription": "사용자가 자신의 제출물을 볼 수 있는 링크를 삽입합니다.",
+    "submissionLinkLabel": "관리자 제출 링크",
+    "submissionLinkDescription": "관리자 패널에서 제출물을 볼 수 있는 링크를 삽입합니다.",
+    "submitterCommunityNameLabel": "제출자 커뮤니티 이름",
+    "submitterCommunityNameDescription": "제출자의 커뮤니티 표시 이름을 삽입합니다.",
+    "submitterUsernameLabel": "제출자 사용자 이름",
+    "submitterUsernameDescription": "제출자의 계정 사용자 이름을 삽입합니다.",
+    "submitterDiscordPingLabel": "제출자 디스코드 핑",
+    "submitterDiscordPingDescription": "제출자를 위한 디스코드 핑을 삽입합니다."
   },
   "FormSectionEditor": {
     "required": "조건부",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "계정에서 제거할 계급이 선택되지 않았습니다",
     "sonoranBotEncounteredAnIssue": "SonoranBot에 문제가 발생했습니다.",
     "banConfiguration": "밴 구성",
-    "ranksToAdd": "추가할 계급"
+    "ranksToAdd": "추가할 계급",
+    "modifyRanks": "계급 수정",
+    "modifyStatus": "상태 수정",
+    "discordWebhook": "Discord 웹훅",
+    "discordDM": "디스코드 DM",
+    "notification": "알림"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "징계 점수",
@@ -4376,5 +4397,15 @@
     "communityRank": "커뮤니티 순위",
     "communityAvatar": "커뮤니티 아바타",
     "communityName": "커뮤니티 이름"
+  },
+  "disciplinaryConfig": {
+    "variables": "변수",
+    "com_name": "커뮤니티 이름",
+    "username": "사용자 이름",
+    "point_reason": "포인트 이유",
+    "discord_ping": "디스코드 핑"
+  },
+  "variables": {
+    "title": "제목"
   }
 }

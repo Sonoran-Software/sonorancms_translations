@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Bruk et fast antall poeng",
     "current": "Nåværende:",
     "clickTo": "Klikk for:",
-    "banConfiguration": "Ban Konfigurasjon"
+    "banConfiguration": "Ban Konfigurasjon",
+    "tooltip": "Du kan bruke følgende [VARIABLES BUTTON] for å ha dynamiske data i svaret ditt.",
+    "variables": "Variabler",
+    "stageNameLabel": "Scenenavn",
+    "stageNameDescription": "Setter inn skjemaets nåværende trinnnavn.",
+    "formNameLabel": "Skjema navn",
+    "formNameDescription": "Setter inn navnet på skjemaet.",
+    "userSubmissionLinkLabel": "Brukerinnsendelseslink",
+    "userSubmissionLinkDescription": "Setter inn lenken slik at brukeren kan se sin egen innsending.",
+    "submissionLinkLabel": "Administrasjonsinnsendingslenke",
+    "submissionLinkDescription": "Setter inn en lenke for å se innsendingen i administrasjonspanelet.",
+    "submitterCommunityNameLabel": "Senderens samfunnsnavn",
+    "submitterCommunityNameDescription": "Setter inn visningsnavnet for innsendingens avsender.",
+    "submitterUsernameLabel": "Innsender brukernavn",
+    "submitterUsernameDescription": "Setter inn kontonavnet til innsenderen.",
+    "submitterDiscordPingLabel": "Innsenders Discord-ping",
+    "submitterDiscordPingDescription": "Setter inn en Discord-ping for innsenderen."
   },
   "FormSectionEditor": {
     "required": "Påkrevd",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Ingen rangering valgt for å fjernes fra kontoer",
     "sonoranBotEncounteredAnIssue": "sonoranBotHarStøttPåEtProblem",
     "banConfiguration": "Utestengingskonfigurasjon",
-    "ranksToAdd": "Rangering å legge til"
+    "ranksToAdd": "Rangering å legge til",
+    "modifyRanks": "Endre rekker",
+    "modifyStatus": "Endre Status",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Discord DM",
+    "notification": "Varsel"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinpoeng",
@@ -4376,5 +4397,15 @@
     "communityRank": "samfunnRank",
     "communityAvatar": "samfunnsAvatar",
     "communityName": "felleskapsnavn"
+  },
+  "disciplinaryConfig": {
+    "variables": "variabler",
+    "com_name": "firmanavn",
+    "username": "brukernavn",
+    "point_reason": "poeng_årsak",
+    "discord_ping": "discord_ping"
+  },
+  "variables": {
+    "title": "tittel"
   }
 }

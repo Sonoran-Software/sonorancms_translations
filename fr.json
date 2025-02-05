@@ -3650,7 +3650,23 @@
     "applyFixedPoints": "Appliquer un nombre fixe de points",
     "current": "Actuel :",
     "clickTo": "Cliquez pour :",
-    "banConfiguration": "Configuration de bannissement"
+    "banConfiguration": "Configuration de bannissement",
+    "tooltip": "Vous pouvez utiliser le bouton [VARIABLES BUTTON] suivant pour avoir des données dynamiques dans votre réponse.",
+    "variables": "Variables",
+    "stageNameLabel": "Nom de scène",
+    "stageNameDescription": "Insère le nom actuel de l'étape du formulaire.",
+    "formNameLabel": "Nom du formulaire",
+    "formNameDescription": "Insère le nom du formulaire.",
+    "userSubmissionLinkLabel": "Lien de soumission de l'utilisateur",
+    "userSubmissionLinkDescription": "Insère le lien pour que l'utilisateur puisse voir sa propre soumission.",
+    "submissionLinkLabel": "Lien de soumission admin",
+    "submissionLinkDescription": "Insère un lien pour voir la soumission dans le panneau d'administration.",
+    "submitterCommunityNameLabel": "Nom de la communauté du soumissionnaire",
+    "submitterCommunityNameDescription": "Insère le nom d'affichage de la communauté du soumetteur.",
+    "submitterUsernameLabel": "Nom d'utilisateur de l'expéditeur",
+    "submitterUsernameDescription": "Insère le nom d'utilisateur du compte de l'expéditeur.",
+    "submitterDiscordPingLabel": "Pseudonyme Discord du Soumetteur",
+    "submitterDiscordPingDescription": "Insère une notification Discord pour le soumissionnaire."
   },
   "FormSectionEditor": {
     "required": "Requis",
@@ -4296,7 +4312,12 @@
     "noRanksSelectedToBeRemovedFromAccounts": "Aucun rang sélectionné à supprimer des comptes",
     "sonoranBotEncounteredAnIssue": "SonoranBot a rencontré un problème",
     "banConfiguration": "Configuration de bannissement",
-    "ranksToAdd": "Rangs à ajouter"
+    "ranksToAdd": "Rangs à ajouter",
+    "modifyRanks": "Modifier les grades",
+    "modifyStatus": "Modifier le statut",
+    "discordWebhook": "Discord Webhook",
+    "discordDM": "Message privé Discord",
+    "notification": "Notification"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "points disciplinaires",
@@ -4376,5 +4397,15 @@
     "communityRank": "rangCommunautaire",
     "communityAvatar": "avatarCommunautaire",
     "communityName": "nom de la communauté"
+  },
+  "disciplinaryConfig": {
+    "variables": "variables",
+    "com_name": "Nom de la communauté",
+    "username": "nom d'utilisateur",
+    "point_reason": "raison_du_point",
+    "discord_ping": "ping_discord"
+  },
+  "variables": {
+    "title": "titre"
   }
 }
