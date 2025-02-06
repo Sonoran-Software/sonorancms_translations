@@ -788,6 +788,7 @@
     "na": "N/A"
   },
   "AccountViewer": {
+    "kickedMembers": "Kicked Members",
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
     "userAcccountsTutorial": "User Acccounts Tutorial",
     "learnHowToUseUserAccounts": "Learn how to use User Accounts",
