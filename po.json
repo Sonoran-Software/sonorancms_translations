@@ -939,7 +939,8 @@
     "permanent": "Stały",
     "temporary": "Tijdelijk",
     "previousMembers": "Miembros anteriores",
-    "unban": "Rozbanuj"
+    "unban": "Rozbanuj",
+    "kickedMembers": "Expulsos"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",

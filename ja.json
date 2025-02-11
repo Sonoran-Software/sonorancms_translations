@@ -939,7 +939,8 @@
     "permanent": "永久",
     "temporary": "一時的",
     "previousMembers": "以前のメンバー",
-    "unban": "解除禁止"
+    "unban": "解除禁止",
+    "kickedMembers": "追放されたメンバー"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",

@@ -939,7 +939,8 @@
     "permanent": "Permanent",
     "temporary": "Midlertidig",
     "previousMembers": "Tidligere medlemmer",
-    "unban": "Ophæv forbud"
+    "unban": "Ophæv forbud",
+    "kickedMembers": "Udelte medlemmer"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",

@@ -939,7 +939,8 @@
     "permanent": "Permanent",
     "temporary": "Tillfällig",
     "previousMembers": "Tidigare medlemmar",
-    "unban": "Upphäv avstängning"
+    "unban": "Upphäv avstängning",
+    "kickedMembers": "Utsparkade medlemmar"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
