@@ -939,7 +939,8 @@
     "permanent": "Permanent",
     "temporary": "Tijdelijk",
     "previousMembers": "Vorige Leden",
-    "unban": "Deblokkeren "
+    "unban": "Deblokkeren ",
+    "kickedMembers": "Gekickte leden"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",

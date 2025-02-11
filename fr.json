@@ -939,7 +939,8 @@
     "permanent": "Permanent",
     "temporary": "Temporaire",
     "previousMembers": "Anciens membres",
-    "unban": "Débannir"
+    "unban": "Débannir",
+    "kickedMembers": "Membres expulés"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutoriel API de la communauté",

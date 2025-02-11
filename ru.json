@@ -939,7 +939,8 @@
     "permanent": "Постоянный",
     "temporary": "Временный",
     "previousMembers": "Предыдущие участники",
-    "unban": "Разбанить"
+    "unban": "Разбанить",
+    "kickedMembers": "Исключенные участники"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",

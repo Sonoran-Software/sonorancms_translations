@@ -939,7 +939,8 @@
     "permanent": "Trvalý",
     "temporary": "Dočasný",
     "previousMembers": "Předchozí členové",
-    "unban": "Odbanovat"
+    "unban": "Odbanovat",
+    "kickedMembers": "Vykopnutí členové"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
