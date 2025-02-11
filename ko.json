@@ -939,7 +939,8 @@
     "permanent": "영구",
     "temporary": "임시",
     "previousMembers": "이전 회원들",
-    "unban": "언밴"
+    "unban": "언밴",
+    "kickedMembers": "추방된 회원"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",

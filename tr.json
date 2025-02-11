@@ -939,7 +939,8 @@
     "permanent": "Kalıcı",
     "temporary": "Geçici",
     "previousMembers": "Önceki Üyeler",
-    "unban": "Yasağı Kaldır"
+    "unban": "Yasağı Kaldır",
+    "kickedMembers": "Atılan Üyeler"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",

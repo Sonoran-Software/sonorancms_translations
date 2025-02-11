@@ -939,7 +939,8 @@
     "permanent": "Pysyvä",
     "temporary": "Väliaikainen",
     "previousMembers": "Edelliset jäsenet",
-    "unban": "Unbannaa"
+    "unban": "Unbannaa",
+    "kickedMembers": "Potkut Saaneet Jäsenet"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",

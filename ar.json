@@ -939,7 +939,8 @@
     "permanent": "دائم",
     "temporary": "مؤقت",
     "previousMembers": "الأعضاء السابقون",
-    "unban": "رفع الحظر"
+    "unban": "رفع الحظر",
+    "kickedMembers": "المستخدمون المطرودون"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
