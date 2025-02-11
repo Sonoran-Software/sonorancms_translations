@@ -2191,6 +2191,7 @@
   },
   "FormManagement": {
     "search": "Search",
+    "form": "Form",
     "settings": "Settings",
     "deleteForm": "Delete Form",
     "newStage": "New Stage",
