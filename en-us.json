@@ -3004,6 +3004,16 @@
     "editProfileField": "Edit Profile Field"
   },
   "FormWizard": {
+    "fieldResponse": "Field Response",
+    "fieldResponseDescription": "Inserts the submission text from a copied field using {FIELD_ID}. Some field types may not be able to be copied.",
+    "userName": "Username",
+    "userNameDescription": "Inserts the submitter's username.",
+    "uniqueID": "Unique ID",
+    "uniqueIdDescription": "Inserts the submitter's unique ID.",
+    "communityName": "Community Name",
+    "communityNameDescription": "Inserts the submitter's community name.",
+    "discordUsername": "Discord Username",
+    "discordDescription": "Inserts the submitter's Discord username.",
     "customFormsTutorial": "Custom Forms Tutorial",
     "learnAboutCustomForms": "Learn about Custom Forms",
     "customFormsDocuments": "Custom Forms Documents",
