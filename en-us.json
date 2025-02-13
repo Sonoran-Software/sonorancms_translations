@@ -3004,8 +3004,8 @@
     "editProfileField": "Edit Profile Field"
   },
   "FormWizard": {
-    "fieldResponse": "Field Response",
-    "fieldResponseDescription": "Inserts the submission text from a copied field using {FIELD_ID}. Some field types may not be able to be copied.",
+    "fieldResponse": "Question Response",
+    "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
     "userName": "Username",
     "userNameDescription": "Inserts the submitter's username.",
     "uniqueID": "Unique ID",
@@ -4408,6 +4408,7 @@
     }
   },
   "variables": {
-    "title": "Variables"
+    "title": "Variables",
+    "tooltip": "Click to copy variable"
   }
 }
