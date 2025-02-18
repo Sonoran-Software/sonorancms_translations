@@ -2213,7 +2213,8 @@
     "reorderStages": "Omordna Etapper",
     "unableToUpdateStagesOrderingError": "Kunde inte uppdatera etappers ordning, fel:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Ett fel inträffade vid omordning av etapper, försök igen.",
-    "anErrorOccuredWhileQueryingForms": "Ett fel inträffade vid förfrågan av formulär..."
+    "anErrorOccuredWhileQueryingForms": "Ett fel inträffade vid förfrågan av formulär...",
+    "form": "Formulär"
   },
   "accountAvatar": {
     "visit": "Besök",
@@ -3074,7 +3075,17 @@
     "formSettings": "Formulärinställningar",
     "newMemberFormTypeExplaination": "Låter väntande användare skicka in",
     "customizeGeneralApplication": "Anpassa allmän blankett",
-    "submissionTitle": "Inlämningsrubrik"
+    "submissionTitle": "Inlämningsrubrik",
+    "fieldResponse": "Svarsfråga",
+    "fieldResponseDescription": "Infogar inskicksordningen från en fråga. Vissa frågetyper kan kanske inte kopieras.",
+    "userName": "Användarnamn",
+    "userNameDescription": "Infogar insändarens användarnamn.",
+    "uniqueID": "Unik ID",
+    "uniqueIdDescription": "Infogar insändarens unika ID.",
+    "communityName": "Communitynamn",
+    "communityNameDescription": "Sätter in inlämnarens gemenskapsnamn.",
+    "discordUsername": "Discord-användarnamn",
+    "discordDescription": "Sätter in inlämnarens Discord-användarnamn."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fel uppstod vid sparande av sida:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "titel"
+    "title": "titel",
+    "tooltip": "Klicka för att kopiera variabeln"
   }
 }

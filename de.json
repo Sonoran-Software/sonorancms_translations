@@ -2213,7 +2213,8 @@
     "reorderStages": "Stufen neu ordnen",
     "unableToUpdateStagesOrderingError": "Stufenreihenfolge konnte nicht aktualisiert werden, Fehler:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Ein Fehler ist beim Neuordnen der Stufen aufgetreten, bitte versuchen Sie es erneut.",
-    "anErrorOccuredWhileQueryingForms": "Ein Fehler ist beim Abfragen der Formulare aufgetreten..."
+    "anErrorOccuredWhileQueryingForms": "Ein Fehler ist beim Abfragen der Formulare aufgetreten...",
+    "form": "Formular"
   },
   "accountAvatar": {
     "visit": "Besuchen",
@@ -3074,7 +3075,17 @@
     "formSettings": "Formulareinstellungen",
     "newMemberFormTypeExplaination": "Ermöglicht es wartenden Benutzern einzureichen",
     "customizeGeneralApplication": "Allgemeines Formular anpassen",
-    "submissionTitle": "Einsendungsüberschrift"
+    "submissionTitle": "Einsendungsüberschrift",
+    "fieldResponse": "Frageantwort",
+    "fieldResponseDescription": "Setzt den Einsendungstext einer Frage ein. Einige Fragetypen können möglicherweise nicht kopiert werden.",
+    "userName": "Benutzername",
+    "userNameDescription": "Fügt den Benutzernamen des Einreichenden ein.",
+    "uniqueID": "Eindeutige ID",
+    "uniqueIdDescription": "Fügt die eindeutige ID des Einreichers ein.",
+    "communityName": "Community-Name",
+    "communityNameDescription": "Fügt den Gemeinschaftsnamen des Einsenders ein.",
+    "discordUsername": "Discord-Benutzername",
+    "discordDescription": "Fügt den Discord-Benutzernamen des Einreichers ein."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fehler beim Speichern der Seite aufgetreten:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "Discord-Ping"
   },
   "variables": {
-    "title": "Titel"
+    "title": "Titel",
+    "tooltip": "Klicken, um Variable zu kopieren"
   }
 }

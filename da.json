@@ -2213,7 +2213,8 @@
     "reorderStages": "Omarranger Faser",
     "unableToUpdateStagesOrderingError": "Kan ikke opdatere faseordning, fejl:",
     "anErrorOccuredWhileReorderingStagesTryAg": "En fejl opstod under omarrangering af faser, prøv igen.",
-    "anErrorOccuredWhileQueryingForms": "En fejl opstod under forespørgsel af formularer..."
+    "anErrorOccuredWhileQueryingForms": "En fejl opstod under forespørgsel af formularer...",
+    "form": "Formular"
   },
   "accountAvatar": {
     "visit": "Besøg",
@@ -3074,7 +3075,17 @@
     "formSettings": "Formularindstillinger",
     "newMemberFormTypeExplaination": "Tillader ventende brugere at indsende",
     "customizeGeneralApplication": "Tilpas generel formular",
-    "submissionTitle": "Indsendelsestitel"
+    "submissionTitle": "Indsendelsestitel",
+    "fieldResponse": "Spørgsmålsvar",
+    "fieldResponseDescription": "Indsætter indsendelsesteksten fra et spørgsmål. Nogle spørgsmålstyper kan muligvis ikke kopieres.",
+    "userName": "Brugernavn",
+    "userNameDescription": "Indsætter registrantens brugernavn.",
+    "uniqueID": "Unik ID",
+    "uniqueIdDescription": "Indsætter indsenderens unikke ID.",
+    "communityName": "Fællesskabsnavn",
+    "communityNameDescription": "Indsætter indsenderens fællesskabsnavn.",
+    "discordUsername": "Discord Brugernavn",
+    "discordDescription": "Indsætter indsenderens Discord-brugernavn."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Der opstod en fejl under lagring af siden:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "titel"
+    "title": "titel",
+    "tooltip": "Klik for at kopiere variabel"
   }
 }

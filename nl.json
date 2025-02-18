@@ -2213,7 +2213,8 @@
     "reorderStages": "Fases Hersorteren",
     "unableToUpdateStagesOrderingError": "Kan fases volgorde niet bijwerken, fout:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Er is een fout opgetreden bij het herschikken van fases, probeer het opnieuw.",
-    "anErrorOccuredWhileQueryingForms": "Er is een fout opgetreden bij het opvragen van formulieren..."
+    "anErrorOccuredWhileQueryingForms": "Er is een fout opgetreden bij het opvragen van formulieren...",
+    "form": "Formulier"
   },
   "accountAvatar": {
     "visit": "Bezoek",
@@ -3074,7 +3075,17 @@
     "formSettings": "Formulierinstellingen",
     "newMemberFormTypeExplaination": "Hiermee kunnen wachtende gebruikers indienen",
     "customizeGeneralApplication": "Algemeen formulier aanpassen",
-    "submissionTitle": "Indieningstitel"
+    "submissionTitle": "Indieningstitel",
+    "fieldResponse": "Antwoord op vraag",
+    "fieldResponseDescription": "Voegt de inzendingstekst van een vraag in. Sommige vraagtypes kunnen mogelijk niet worden gekopieerd.",
+    "userName": "Gebruikersnaam",
+    "userNameDescription": "Voegt de gebruikersnaam van de indiener in.",
+    "uniqueID": "Unieke ID",
+    "uniqueIdDescription": "Voegt het unieke ID van de indiener in.",
+    "communityName": "Gemeenschapsnaam",
+    "communityNameDescription": "Voegt de naam van de gemeenschap van de inzender in.",
+    "discordUsername": "Discord Gebruikersnaam",
+    "discordDescription": "Voegt de Discord-gebruikersnaam van de inzender in."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Er is een fout opgetreden bij het opslaan van de pagina:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "titel"
+    "title": "titel",
+    "tooltip": "Klik om variabele te kopiëren"
   }
 }

@@ -2213,7 +2213,8 @@
     "reorderStages": "Riordina Fasi",
     "unableToUpdateStagesOrderingError": "Impossibile aggiornare l'ordinamento delle fasi, errore:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Si è verificato un errore durante il riordino delle fasi, riprova.",
-    "anErrorOccuredWhileQueryingForms": "Si è verificato un errore durante l'interrogazione dei moduli..."
+    "anErrorOccuredWhileQueryingForms": "Si è verificato un errore durante l'interrogazione dei moduli...",
+    "form": "Modulo"
   },
   "accountAvatar": {
     "visit": "Visita",
@@ -3074,7 +3075,17 @@
     "formSettings": "Impostazioni del Modulo",
     "newMemberFormTypeExplaination": "Consente agli utenti in attesa di inviare",
     "customizeGeneralApplication": "Personalizza Modulo Generale",
-    "submissionTitle": "Titolo della presentazione"
+    "submissionTitle": "Titolo della presentazione",
+    "fieldResponse": "Risposta alla domanda",
+    "fieldResponseDescription": "Inserisce il testo della risposta da una domanda. Alcuni tipi di domande potrebbero non essere copiabili.",
+    "userName": "Nome utente",
+    "userNameDescription": "Inserisce il nome utente dell'inserente.",
+    "uniqueID": "ID univoco",
+    "uniqueIdDescription": "Inserisce l'ID univoco del mittente.",
+    "communityName": "Nome della Comunità",
+    "communityNameDescription": "Inserisce il nome della comunità dell'inserente.",
+    "discordUsername": "Nome utente Discord",
+    "discordDescription": "Inserisce il nome utente Discord dell'inseritore."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Si è verificato un errore durante il salvataggio della pagina:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "ping Discord"
   },
   "variables": {
-    "title": "titolo"
+    "title": "titolo",
+    "tooltip": "Clicca per copiare la variabile"
   }
 }

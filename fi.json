@@ -2213,7 +2213,8 @@
     "reorderStages": "Järjestä vaiheet uudelleen",
     "unableToUpdateStagesOrderingError": "Vaiheiden järjestyksen päivittäminen epäonnistui, virhe:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Virhe vaiheiden uudelleenjärjestelyssä, yritä uudelleen.",
-    "anErrorOccuredWhileQueryingForms": "Virhe lomakkeiden kyselyssä..."
+    "anErrorOccuredWhileQueryingForms": "Virhe lomakkeiden kyselyssä...",
+    "form": "Lomake"
   },
   "accountAvatar": {
     "visit": "Käy",
@@ -3074,7 +3075,17 @@
     "formSettings": "Lomakkeen asetukset",
     "newMemberFormTypeExplaination": "Antaa odottavien käyttäjien lähettää",
     "customizeGeneralApplication": "Mukauta yleinen lomake",
-    "submissionTitle": "Lähetyksen otsikko"
+    "submissionTitle": "Lähetyksen otsikko",
+    "fieldResponse": "Kysymysvastaus",
+    "fieldResponseDescription": "Lisää kysymyksen lähettämistekstin. Joitain kysymystyyppejä ei ehkä voi kopioida.",
+    "userName": "Käyttäjänimi",
+    "userNameDescription": "Lisää lähettäjän käyttäjänimen.",
+    "uniqueID": "Ainutlaatuinen tunnus",
+    "uniqueIdDescription": "Lisää lähettäjän yksilöllinen tunniste.",
+    "communityName": "Yhteisön nimi",
+    "communityNameDescription": "Lisää lähettäjän yhteisön nimen.",
+    "discordUsername": "Discord-käyttäjänimi",
+    "discordDescription": "Lisää lähettäjän Discord-käyttäjänimen."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sivun tallentamisessa tapahtui virhe:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord-pingaus"
   },
   "variables": {
-    "title": "otsikko"
+    "title": "otsikko",
+    "tooltip": "Napsauta kopioidaksesi muuttuja"
   }
 }

@@ -2213,7 +2213,8 @@
     "reorderStages": "Reordenar Etapas",
     "unableToUpdateStagesOrderingError": "No se pudo actualizar el orden de las etapas, error:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Ocurrió un error al reordenar las etapas, inténtalo de nuevo.",
-    "anErrorOccuredWhileQueryingForms": "Ocurrió un error al consultar los formularios..."
+    "anErrorOccuredWhileQueryingForms": "Ocurrió un error al consultar los formularios...",
+    "form": "Formulario"
   },
   "accountAvatar": {
     "visit": "Visitar",
@@ -3074,7 +3075,17 @@
     "formSettings": "Configuración del Formulario",
     "newMemberFormTypeExplaination": "Permite a los usuarios pendientes enviar",
     "customizeGeneralApplication": "Personalizar formulario general",
-    "submissionTitle": "Título de Envío"
+    "submissionTitle": "Título de Envío",
+    "fieldResponse": "Respuesta de la pregunta",
+    "fieldResponseDescription": "Inserta el texto de la respuesta de una pregunta. Algunos tipos de preguntas pueden no poder copiarse.",
+    "userName": "Nombre de usuario",
+    "userNameDescription": "Inserta el nombre de usuario del remitente.",
+    "uniqueID": "ID único",
+    "uniqueIdDescription": "Inserta la ID única del remitente.",
+    "communityName": "Nombre de la Comunidad",
+    "communityNameDescription": "Inserta el nombre de la comunidad del remitente.",
+    "discordUsername": "Nombre de usuario de Discord",
+    "discordDescription": "Inserta el nombre de usuario de Discord del remitente."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocurrió un error al guardar la página:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "Discord ping"
   },
   "variables": {
-    "title": "título"
+    "title": "título",
+    "tooltip": "Haz clic para copiar variable"
   }
 }

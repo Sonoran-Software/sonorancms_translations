@@ -2213,7 +2213,8 @@
     "reorderStages": "Přeřadit fáze",
     "unableToUpdateStagesOrderingError": "Nelze aktualizovat pořadí fází, chyba:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Došlo k chybě při přeřazování fází, zkuste to znovu.",
-    "anErrorOccuredWhileQueryingForms": "Došlo k chybě při dotazování formulářů..."
+    "anErrorOccuredWhileQueryingForms": "Došlo k chybě při dotazování formulářů...",
+    "form": "Formulář"
   },
   "accountAvatar": {
     "visit": "Navštívit",
@@ -3074,7 +3075,17 @@
     "formSettings": "Nastavení formuláře",
     "newMemberFormTypeExplaination": "Umožňuje čekajícím uživatelům odesílat",
     "customizeGeneralApplication": "Přizpůsobit obecný formulář",
-    "submissionTitle": "Název podání"
+    "submissionTitle": "Název podání",
+    "fieldResponse": "Odpověď na otázku",
+    "fieldResponseDescription": "Vloží text odpovědi z otázky. Některé typy otázek nemusí být možné zkopírovat.",
+    "userName": "Uživatelské jméno",
+    "userNameDescription": "Vloží uživatelské jméno odesílatele.",
+    "uniqueID": "Jedinečné ID",
+    "uniqueIdDescription": "Vloží jedinečné ID předkladatele.",
+    "communityName": "Název komunity",
+    "communityNameDescription": "Vloží název komunity odesílatele.",
+    "discordUsername": "Uživatelské jméno na Discordu",
+    "discordDescription": "Vloží discordové uživatelské jméno odesílatele."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Došlo k chybě při ukládání stránky:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "název"
+    "title": "název",
+    "tooltip": "Kliknutím zkopírujte proměnnou"
   }
 }

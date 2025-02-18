@@ -2213,7 +2213,8 @@
     "reorderStages": "إعادة ترتيب المراحل",
     "unableToUpdateStagesOrderingError": "تعذر تحديث ترتيب المراحل، خطأ:",
     "anErrorOccuredWhileReorderingStagesTryAg": "حدث خطأ أثناء إعادة ترتيب المراحل، حاول مرة أخرى.",
-    "anErrorOccuredWhileQueryingForms": "حدث خطأ أثناء استعلام النماذج..."
+    "anErrorOccuredWhileQueryingForms": "حدث خطأ أثناء استعلام النماذج...",
+    "form": "نموذج"
   },
   "accountAvatar": {
     "visit": "زيارة",
@@ -3074,7 +3075,17 @@
     "formSettings": "إعدادات النموذج",
     "newMemberFormTypeExplaination": "يتيح للمستخدمين المعلقين التقديم",
     "customizeGeneralApplication": "تخصيص النموذج العام",
-    "submissionTitle": "عنوان الإرسال"
+    "submissionTitle": "عنوان الإرسال",
+    "fieldResponse": "استجابة السؤال",
+    "fieldResponseDescription": "يقوم بإدراج نص الإجابة من سؤال. قد لا يمكن نسخ بعض أنواع الأسئلة.",
+    "userName": "اسم المستخدم",
+    "userNameDescription": "يدرج اسم مستخدم المُرسِل.",
+    "uniqueID": "معرف فريد",
+    "uniqueIdDescription": "يدرج المعرف الفريد للمقدم.",
+    "communityName": "اسم المجتمع",
+    "communityNameDescription": "يدرج اسم مجتمع المرسل.",
+    "discordUsername": "اسم مستخدم Discord",
+    "discordDescription": "يدرج اسم مستخدم Discord للمقدم."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "حدث خطأ أثناء حفظ الصفحة:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "بينغ ديسكورد"
   },
   "variables": {
-    "title": "العنوان"
+    "title": "العنوان",
+    "tooltip": "انقر لنسخ المتغير"
   }
 }

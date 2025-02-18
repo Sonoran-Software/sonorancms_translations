@@ -2213,7 +2213,8 @@
     "reorderStages": "Aşamaları Yeniden Sırala",
     "unableToUpdateStagesOrderingError": "Aşamaların sıralaması güncellenemedi, hata:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Aşamaları yeniden sıralarken bir hata oluştu, tekrar deneyin.",
-    "anErrorOccuredWhileQueryingForms": "Formları sorgularken bir hata oluştu..."
+    "anErrorOccuredWhileQueryingForms": "Formları sorgularken bir hata oluştu...",
+    "form": "Form"
   },
   "accountAvatar": {
     "visit": "Ziyaret",
@@ -3074,7 +3075,17 @@
     "formSettings": "Form Ayarları",
     "newMemberFormTypeExplaination": "Bekleyen kullanıcıların göndermesine izin verir",
     "customizeGeneralApplication": "Genel Formu Özelleştir",
-    "submissionTitle": "Gönderi Başlığı"
+    "submissionTitle": "Gönderi Başlığı",
+    "fieldResponse": "Soru Yanıtı",
+    "fieldResponseDescription": "Bir sorunun gönderi metnini ekler. Bazı soru türleri kopyalanamayabilir.",
+    "userName": "Kullanıcı Adı",
+    "userNameDescription": "Gönderenin kullanıcı adını ekler.",
+    "uniqueID": "Benzersiz Kimlik",
+    "uniqueIdDescription": "Gönderenin benzersiz kimliğini ekler.",
+    "communityName": "Topluluk Adı",
+    "communityNameDescription": "Gönderenin topluluk adını ekler.",
+    "discordUsername": "Discord Kullanıcı Adı",
+    "discordDescription": "Gönderenin Discord kullanıcı adını ekler."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sayfa kaydedilirken hata oluştu:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "başlık"
+    "title": "başlık",
+    "tooltip": "Değişkeni kopyalamak için tıkla"
   }
 }

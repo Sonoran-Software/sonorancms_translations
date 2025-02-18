@@ -2213,7 +2213,8 @@
     "reorderStages": "Omorganiser etapper",
     "unableToUpdateStagesOrderingError": "Kan ikke oppdatere etappebestilling, feil:",
     "anErrorOccuredWhileReorderingStagesTryAg": "En feil oppstod under omorganisering av etapper, prøv igjen.",
-    "anErrorOccuredWhileQueryingForms": "En feil oppstod under henting av skjemaer..."
+    "anErrorOccuredWhileQueryingForms": "En feil oppstod under henting av skjemaer...",
+    "form": "Skjema"
   },
   "accountAvatar": {
     "visit": "Besøk",
@@ -3074,7 +3075,17 @@
     "formSettings": "Skjemainnstillinger",
     "newMemberFormTypeExplaination": "Tillater brukere å sende inn ventende forespørsler",
     "customizeGeneralApplication": "Tilpass generell skjema",
-    "submissionTitle": "Innsendingstittel"
+    "submissionTitle": "Innsendingstittel",
+    "fieldResponse": "Spørsmålssvar",
+    "fieldResponseDescription": "Setter inn innsendelsesteksten fra et spørsmål. Noen spørsmålstyper kan kanskje ikke kopieres.",
+    "userName": "Brukernavn",
+    "userNameDescription": "Setter inn innsendarens brukernavn.",
+    "uniqueID": "Unik ID",
+    "uniqueIdDescription": "Setter inn innsenders unike ID.",
+    "communityName": "Navn på fellesskap",
+    "communityNameDescription": "Setter inn navnet til innsenderens fellesskap.",
+    "discordUsername": "Discord Brukernavn",
+    "discordDescription": "Setter inn innsenderens Discord-brukernavn."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Det oppsto en feil under lagring av siden:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "tittel"
+    "title": "tittel",
+    "tooltip": "Klikk for å kopiere variabelen"
   }
 }

@@ -2213,7 +2213,8 @@
     "reorderStages": "エラー: ステージを保存できませんでした エラー:",
     "unableToUpdateStagesOrderingError": "ステージの並べ替え中にエラーが発生しました。もう一度お試しください。",
     "anErrorOccuredWhileReorderingStagesTryAg": "フォームのクエリ中にエラーが発生しました...",
-    "anErrorOccuredWhileQueryingForms": "訪問"
+    "anErrorOccuredWhileQueryingForms": "訪問",
+    "form": "フォーム"
   },
   "accountAvatar": {
     "visit": "プロフィール",
@@ -3074,7 +3075,17 @@
     "formSettings": "ページの保存中にエラーが発生しました:",
     "newMemberFormTypeExplaination": "保留中のユーザーが送信できるようにします",
     "customizeGeneralApplication": "一般フォームのカスタマイズ",
-    "submissionTitle": "提出タイトル"
+    "submissionTitle": "提出タイトル",
+    "fieldResponse": "質問の回答",
+    "fieldResponseDescription": "質問の提出テキストを挿入します。一部の質問タイプはコピーできない場合があります。",
+    "userName": "ユーザー名",
+    "userNameDescription": "送信者のユーザー名を挿入します。",
+    "uniqueID": "ユニークID",
+    "uniqueIdDescription": "送信者のユニークIDを挿入します。",
+    "communityName": "コミュニティ名",
+    "communityNameDescription": "送信者のコミュニティ名を挿入します。",
+    "discordUsername": "Discordユーザー名",
+    "discordDescription": "提出者のDiscordユーザー名を挿入します。"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "ページが正常に保存されました！",
@@ -4407,6 +4418,7 @@
     "discord_ping": "ディスコードの通知"
   },
   "variables": {
-    "title": "タイトル"
+    "title": "タイトル",
+    "tooltip": "変数をコピーするにはクリック"
   }
 }

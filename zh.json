@@ -2213,7 +2213,8 @@
     "reorderStages": "重新排序阶段",
     "unableToUpdateStagesOrderingError": "无法更新阶段排序，错误：",
     "anErrorOccuredWhileReorderingStagesTryAg": "重新排序阶段时发生错误，请重试。",
-    "anErrorOccuredWhileQueryingForms": "查询表单时发生错误..."
+    "anErrorOccuredWhileQueryingForms": "查询表单时发生错误...",
+    "form": "表单"
   },
   "accountAvatar": {
     "visit": "访问",
@@ -3074,7 +3075,17 @@
     "formSettings": "表单设置",
     "newMemberFormTypeExplaination": "允许待处理用户提交",
     "customizeGeneralApplication": "自定义常规表单",
-    "submissionTitle": "提交标题"
+    "submissionTitle": "提交标题",
+    "fieldResponse": "问题回复",
+    "fieldResponseDescription": "从问题中插入提交文本。某些问题类型可能无法复制。",
+    "userName": "用户名",
+    "userNameDescription": "插入提交者的用户名。",
+    "uniqueID": "唯一标识符",
+    "uniqueIdDescription": "插入提交者的唯一 ID。",
+    "communityName": "社区名称",
+    "communityNameDescription": "插入提交者的社区名称。",
+    "discordUsername": "Discord 用户名",
+    "discordDescription": "插入提交者的Discord用户名。"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "保存页面时发生错误：",
@@ -4407,6 +4418,7 @@
     "discord_ping": "Discord 提及"
   },
   "variables": {
-    "title": "标题"
+    "title": "标题",
+    "tooltip": "单击以复制变量"
   }
 }

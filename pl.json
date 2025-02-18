@@ -2213,7 +2213,8 @@
     "reorderStages": "Uporządkuj Etapy",
     "unableToUpdateStagesOrderingError": "Nie można zaktualizować kolejności etapów, błąd:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Wystąpił błąd podczas porządkowania etapów, spróbuj ponownie.",
-    "anErrorOccuredWhileQueryingForms": "Wystąpił błąd podczas zapytania o formularze..."
+    "anErrorOccuredWhileQueryingForms": "Wystąpił błąd podczas zapytania o formularze...",
+    "form": "Formularz"
   },
   "accountAvatar": {
     "visit": "Odwiedź",
@@ -3074,7 +3075,17 @@
     "formSettings": "Ustawienia Formularza",
     "newMemberFormTypeExplaination": "Pozwala oczekującym użytkownikom na przesyłanie",
     "customizeGeneralApplication": "Dostosuj formularz ogólny",
-    "submissionTitle": "Tytuł zgłoszenia"
+    "submissionTitle": "Tytuł zgłoszenia",
+    "fieldResponse": "Odpowiedź na pytanie",
+    "fieldResponseDescription": "Wstawia tekst z pytania do zgłoszenia. Niektóre typy pytań mogą nie dać się skopiować.",
+    "userName": "Nazwa użytkownika",
+    "userNameDescription": "Wstawia nazwę użytkownika osoby przesyłającej.",
+    "uniqueID": "Unikalny ID",
+    "uniqueIdDescription": "Wstawia unikalny identyfikator składającego.",
+    "communityName": "Nazwa społeczności",
+    "communityNameDescription": "Wstawia nazwę społeczności zgłaszającego.",
+    "discordUsername": "Nazwa użytkownika Discord",
+    "discordDescription": "Wstawia nazwę użytkownika Discord zgłaszającego."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "discord_ping"
   },
   "variables": {
-    "title": "tytuł"
+    "title": "tytuł",
+    "tooltip": "Kliknij, aby skopiować zmienną"
   }
 }

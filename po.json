@@ -2213,7 +2213,8 @@
     "reorderStages": "Uporządkuj Etapy",
     "unableToUpdateStagesOrderingError": "Nie można zaktualizować kolejności etapów, błąd:",
     "anErrorOccuredWhileReorderingStagesTryAg": "Wystąpił błąd podczas porządkowania etapów, spróbuj ponownie.",
-    "anErrorOccuredWhileQueryingForms": "Wystąpił błąd podczas zapytania o formularze..."
+    "anErrorOccuredWhileQueryingForms": "Wystąpił błąd podczas zapytania o formularze...",
+    "form": "فورم"
   },
   "accountAvatar": {
     "visit": "Odwiedź",
@@ -3074,7 +3075,17 @@
     "formSettings": "Ustawienia Formularza",
     "newMemberFormTypeExplaination": "Umožňuje čekajícím uživatelům odesílat",
     "customizeGeneralApplication": "Dostosuj formularz ogólny",
-    "submissionTitle": "Título de envío"
+    "submissionTitle": "Título de envío",
+    "fieldResponse": "Odpowiedź na pytanie",
+    "fieldResponseDescription": "Inserta el texto de la respuesta de una pregunta. Algunos tipos de preguntas pueden no poder ser copiados.",
+    "userName": "Nome de usuário",
+    "userNameDescription": "Inserta el nombre de usuario del remitente.",
+    "uniqueID": "ID único",
+    "uniqueIdDescription": "Wstawia unikalny identyfikator nadawcy.",
+    "communityName": "Nome da Comunidade",
+    "communityNameDescription": "Inserta el nombre de la comunidad del remitente.",
+    "discordUsername": "Nome de usuário do Discord",
+    "discordDescription": "Inserta el nombre de usuario de Discord del remitente."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -4407,6 +4418,7 @@
     "discord_ping": "ping Discord"
   },
   "variables": {
-    "title": "título"
+    "title": "título",
+    "tooltip": "Cliquez pour copier la variable"
   }
 }

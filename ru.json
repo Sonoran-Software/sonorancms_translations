@@ -2213,7 +2213,8 @@
     "reorderStages": "Ошибка: не удалось сохранить этап, ошибка:",
     "unableToUpdateStagesOrderingError": "Произошла ошибка при переупорядочивании этапов, попробуйте снова.",
     "anErrorOccuredWhileReorderingStagesTryAg": "Произошла ошибка при запросе форм...",
-    "anErrorOccuredWhileQueryingForms": "Посетить"
+    "anErrorOccuredWhileQueryingForms": "Посетить",
+    "form": "Форма"
   },
   "accountAvatar": {
     "visit": "профиль",
@@ -3074,7 +3075,17 @@
     "formSettings": "Произошла ошибка при сохранении страницы:",
     "newMemberFormTypeExplaination": "Разрешает отправку пользователями, ожидающими одобрения",
     "customizeGeneralApplication": "Настроить Общую Форму",
-    "submissionTitle": "Название отправки"
+    "submissionTitle": "Название отправки",
+    "fieldResponse": "Ответ на вопрос",
+    "fieldResponseDescription": "Вставляет текст ответа из вопроса. Некоторые типы вопросов могут быть не скопированы.",
+    "userName": "Имя пользователя",
+    "userNameDescription": "Вставляет имя пользователя отправителя.",
+    "uniqueID": "Уникальный ID",
+    "uniqueIdDescription": "Вставляет уникальный идентификатор отправителя.",
+    "communityName": "Название сообщества",
+    "communityNameDescription": "Вставляет название сообщества отправителя.",
+    "discordUsername": "Имя пользователя Discord",
+    "discordDescription": "Вставляет имя пользователя отправителя в Discord."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Страница успешно сохранена!",
@@ -4407,6 +4418,7 @@
     "discord_ping": "пинг в Discord"
   },
   "variables": {
-    "title": "заголовок"
+    "title": "заголовок",
+    "tooltip": "Нажмите, чтобы скопировать переменную"
   }
 }

@@ -2213,7 +2213,8 @@
     "reorderStages": "오류: 단계를 저장할 수 없습니다. 오류:",
     "unableToUpdateStagesOrderingError": "단계를 재정렬하는 동안 오류가 발생했습니다. 다시 시도하세요.",
     "anErrorOccuredWhileReorderingStagesTryAg": "양식을 쿼리하는 동안 오류가 발생했습니다...",
-    "anErrorOccuredWhileQueryingForms": "방문"
+    "anErrorOccuredWhileQueryingForms": "방문",
+    "form": "형식"
   },
   "accountAvatar": {
     "visit": "프로필",
@@ -3074,7 +3075,17 @@
     "formSettings": "페이지가 성공적으로 저장되었습니다!",
     "newMemberFormTypeExplaination": "보류 중인 사용자가 제출할 수 있도록 허용",
     "customizeGeneralApplication": "일반 양식 사용자 정의",
-    "submissionTitle": "제출 제목"
+    "submissionTitle": "제출 제목",
+    "fieldResponse": "질문 응답",
+    "fieldResponseDescription": "질문에서 제출 텍스트를 삽입합니다. 일부 질문 유형은 복사할 수 없습니다.",
+    "userName": "사용자 이름",
+    "userNameDescription": "제출자의 사용자 이름을 삽입합니다.",
+    "uniqueID": "고유 ID",
+    "uniqueIdDescription": "제출자의 고유 ID를 삽입합니다.",
+    "communityName": "커뮤니티 이름",
+    "communityNameDescription": "제출자의 커뮤니티 이름을 삽입합니다.",
+    "discordUsername": "Discord 사용자 이름",
+    "discordDescription": "제출자의 Discord 사용자 이름을 삽입합니다."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "페이지를 저장하는 데 문제가 발생했습니다",
@@ -4407,6 +4418,7 @@
     "discord_ping": "디스코드 핑"
   },
   "variables": {
-    "title": "제목"
+    "title": "제목",
+    "tooltip": "변수를 복사하려면 클릭하십시오"
   }
 }

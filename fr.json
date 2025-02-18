@@ -2213,7 +2213,8 @@
     "reorderStages": "Réorganiser les étapes",
     "unableToUpdateStagesOrderingError": "Impossible de mettre à jour l'ordre des étapes, erreur :",
     "anErrorOccuredWhileReorderingStagesTryAg": "Une erreur s'est produite lors de la réorganisation des étapes, réessayez.",
-    "anErrorOccuredWhileQueryingForms": "Une erreur s'est produite lors de la requête des formulaires..."
+    "anErrorOccuredWhileQueryingForms": "Une erreur s'est produite lors de la requête des formulaires...",
+    "form": "Formulaire"
   },
   "accountAvatar": {
     "visit": "Visiter",
@@ -3074,7 +3075,17 @@
     "formSettings": "Paramètres du Formulaire",
     "newMemberFormTypeExplaination": "Permet aux utilisateurs en attente de soumettre",
     "customizeGeneralApplication": "Personnaliser le formulaire général",
-    "submissionTitle": "Titre de soumission"
+    "submissionTitle": "Titre de soumission",
+    "fieldResponse": "Réponse à la question",
+    "fieldResponseDescription": "Insère le texte de soumission d'une question. Certains types de questions peuvent ne pas être copiés.",
+    "userName": "Nom d'utilisateur",
+    "userNameDescription": "Insère le nom d'utilisateur du soumetteur.",
+    "uniqueID": "Identifiant unique",
+    "uniqueIdDescription": "Insère l'ID unique de l'expéditeur.",
+    "communityName": "Nom de la communauté",
+    "communityNameDescription": "Insère le nom de la communauté du soumissionnaire.",
+    "discordUsername": "Nom d'utilisateur Discord",
+    "discordDescription": "Insère le nom d'utilisateur Discord de l'expéditeur."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Une erreur est survenue lors de l'enregistrement de la page :",
@@ -4407,6 +4418,7 @@
     "discord_ping": "ping_discord"
   },
   "variables": {
-    "title": "titre"
+    "title": "titre",
+    "tooltip": "Cliquez pour copier la variable"
   }
 }
