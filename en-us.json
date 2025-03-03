@@ -618,6 +618,7 @@
     "management": "Management",
     "server": "Server",
     "qbCore": "QB Core",
+    "qbox": "QBox",
     "ensureSonorancms": "ensure [sonorancms]",
     "ensureSonorancmsNoBracket": "ensure sonorancms",
     "servercfg": "server.cfg",
