@@ -3755,6 +3755,7 @@
     "conditional": "Conditional",
     "conditionalQuestion": "Conditional Question",
     "valuesCommaseparated": "Values (comma,separated)",
+    "enterValues": "Enter Values",
     "aCommaSeparatedListOfValuesThatWillShowT": "A comma separated list of values that will show this section",
     "false": "False",
     "selectValues": "Select values",
