@@ -3753,6 +3753,7 @@
     "removeSection": "Remove Section",
     "required": "Required",
     "conditional": "Conditional",
+    "conditionalQuestion": "Conditional Question",
     "valuesCommaseparated": "Values (comma,separated)",
     "aCommaSeparatedListOfValuesThatWillShowT": "A comma separated list of values that will show this section",
     "false": "False",
