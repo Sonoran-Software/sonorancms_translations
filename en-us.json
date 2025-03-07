@@ -3831,7 +3831,8 @@
     "formSubmitter": "Form Submitter",
     "anErrorOccuredWhileUploadingAudio": "An error occured while uploading audio: ",
     "noFieldsourceSelected": "*No Field/Source Selected",
-    "cloneField": "Clone Field"
+    "cloneField": "Clone Field",
+    "enterAValueAndPressEnter": "Enter a value and press enter"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
