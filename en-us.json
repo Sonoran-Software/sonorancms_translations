@@ -3663,7 +3663,21 @@
     "submitterUsernameLabel": "Submitter Username",
     "submitterUsernameDescription": "Inserts the account username of the submitter.",
     "submitterDiscordPingLabel": "Submitter Discord Ping",
-    "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter."
+    "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter.",
+    "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
+    "conditionalQuestionStartExplaination": "This action will execute"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "if the question",
+    "Is": "is",
+    "Has": "has",
+    "Or": "or",
+    "IsEqualTo": "is equal to",
+    "Checked": "checked",
+    "Unchecked": "unchecked",
+    "Selected": "selected",
+    "SelectAtLeastOneValue": "Select at least one value.",
+    "enterAValueAndPressEnter": "Enter a value and press enter."
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
@@ -3832,7 +3846,7 @@
     "anErrorOccuredWhileUploadingAudio": "An error occured while uploading audio: ",
     "noFieldsourceSelected": "*No Field/Source Selected",
     "cloneField": "Clone Field",
-    "enterAValueAndPressEnter": "Enter a value and press enter"
+    "conditionalQuestionStartExplaination": "This section will be visible"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
