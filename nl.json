@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Inzender Gebruikersnaam",
     "submitterUsernameDescription": "Voegt de accountgebruikersnaam van de indiener in.",
     "submitterDiscordPingLabel": "Indiener Discord Ping",
-    "submitterDiscordPingDescription": "Voegt een Discord-ping toe voor de indiener."
+    "submitterDiscordPingDescription": "Voegt een Discord-ping toe voor de indiener.",
+    "conditionalQuestionEnable": "Schakel in om deze actie te beperken tot een specifieke vraagrespons",
+    "conditionalQuestionStartExplaination": "Deze actie zal worden uitgevoerd"
   },
   "FormSectionEditor": {
     "required": "Vereist",
@@ -3790,7 +3792,10 @@
     "cloneField": "Veld Klonen",
     "number": "Nummer",
     "automemberDiscordId": "Auto-Lid Discord ID",
-    "communityMemberDiscordIdElement": "Communitylid Discord-ID-element"
+    "communityMemberDiscordIdElement": "Communitylid Discord-ID-element",
+    "conditionalQuestion": "Voorwaardelijke Vraag",
+    "enterValues": "Voer waarden in",
+    "conditionalQuestionStartExplaination": "Deze sectie zal zichtbaar zijn"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "titel",
     "tooltip": "Klik om variabele te kopiëren"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "AlsDeVraag",
+    "Is": "Is",
+    "Has": "Heeft",
+    "Or": "Of",
+    "IsEqualTo": "IsGelijkAan",
+    "Checked": "Gecontroleerd",
+    "Unchecked": "Ongemarkeerd",
+    "Selected": "Geselecteerd",
+    "SelectAtLeastOneValue": "Selecteer ten minste één waarde",
+    "enterAValueAndPressEnter": "VoerEenWaardeInEnDrukOpEnter"
   }
 }

@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "اسم المستخدم الذي أرسل",
     "submitterUsernameDescription": "يدرج اسم المستخدم لحساب المرسل.",
     "submitterDiscordPingLabel": "منشن ديسكورد المرسل",
-    "submitterDiscordPingDescription": "يُدرج تذكير Discord للمقدم."
+    "submitterDiscordPingDescription": "يُدرج تذكير Discord للمقدم.",
+    "conditionalQuestionEnable": "قم بتمكين لتقييد هذا الإجراء على استجابة سؤال محددة",
+    "conditionalQuestionStartExplaination": "هذا الإجراء سينفذ"
   },
   "FormSectionEditor": {
     "required": "مطلوب",
@@ -3790,7 +3792,10 @@
     "cloneField": "استنساخ الحقل",
     "number": "رقم",
     "automemberDiscordId": "معرف ديسكورد عضو تلقائي",
-    "communityMemberDiscordIdElement": "معرّف مستخدم Discord لعضو المجتمع"
+    "communityMemberDiscordIdElement": "معرّف مستخدم Discord لعضو المجتمع",
+    "conditionalQuestion": "سؤال شرطي",
+    "enterValues": "أدخل القيم",
+    "conditionalQuestionStartExplaination": "هذه القسم ستكون مرئية"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "العنوان",
     "tooltip": "انقر لنسخ المتغير"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "إذا كان السؤال",
+    "Is": "هو",
+    "Has": "يمتلك",
+    "Or": "أو",
+    "IsEqualTo": "يساوي",
+    "Checked": "تم التحقق",
+    "Unchecked": "غير محدد",
+    "Selected": "محدد",
+    "SelectAtLeastOneValue": "يرجى اختيار قيمة واحدة على الأقل",
+    "enterAValueAndPressEnter": "ادخل قيمة واضغط إدخال"
   }
 }

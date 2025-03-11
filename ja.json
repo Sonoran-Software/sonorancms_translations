@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "送信者のユーザー名",
     "submitterUsernameDescription": "提出者のアカウントユーザー名を挿入します。",
     "submitterDiscordPingLabel": "送信者のDiscordピン",
-    "submitterDiscordPingDescription": "送信者のためにDiscordの通知を挿入します。"
+    "submitterDiscordPingDescription": "送信者のためにDiscordの通知を挿入します。",
+    "conditionalQuestionEnable": "特定の質問の回答にこのアクションを制限するために有効にする",
+    "conditionalQuestionStartExplaination": "このアクションは実行されます"
   },
   "FormSectionEditor": {
     "required": "セクションヘッダー",
@@ -3790,7 +3792,10 @@
     "cloneField": "名簿を選択",
     "number": "番号",
     "automemberDiscordId": "オートメンバー Discord ID",
-    "communityMemberDiscordIdElement": "コミュニティメンバーDiscord ID要素"
+    "communityMemberDiscordIdElement": "コミュニティメンバーDiscord ID要素",
+    "conditionalQuestion": "条件付き質問",
+    "enterValues": "値を入力",
+    "conditionalQuestionStartExplaination": "このセクションは表示されます"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "タイトル",
     "tooltip": "変数をコピーするにはクリック"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "質問の場合",
+    "Is": "は",
+    "Has": "持っています",
+    "Or": "または",
+    "IsEqualTo": "等しい",
+    "Checked": "確認済み",
+    "Unchecked": "未確認",
+    "Selected": "選択済み",
+    "SelectAtLeastOneValue": "少なくとも1つの値を選択してください",
+    "enterAValueAndPressEnter": "値を入力してEnterキーを押してください"
   }
 }

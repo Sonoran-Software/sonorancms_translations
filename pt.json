@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Nome de Usuário do Enviador",
     "submitterUsernameDescription": "Insere o nome de usuário da conta do remetente.",
     "submitterDiscordPingLabel": "Ping do Discord do Remetente",
-    "submitterDiscordPingDescription": "Insere uma menção no Discord para o remetente."
+    "submitterDiscordPingDescription": "Insere uma menção no Discord para o remetente.",
+    "conditionalQuestionEnable": "Habilitar para restringir esta ação a uma resposta específica da pergunta",
+    "conditionalQuestionStartExplaination": "Esta ação será executada"
   },
   "FormSectionEditor": {
     "required": "Obrigatório",
@@ -3790,7 +3792,10 @@
     "cloneField": "Clonar Campo",
     "number": "Número",
     "automemberDiscordId": "ID do Discord do Membro Automático",
-    "communityMemberDiscordIdElement": "Elemento de ID do Discord do membro da comunidade"
+    "communityMemberDiscordIdElement": "Elemento de ID do Discord do membro da comunidade",
+    "conditionalQuestion": "Pergunta Condicional",
+    "enterValues": "Digite Valores",
+    "conditionalQuestionStartExplaination": "Esta seção estará visível"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "título",
     "tooltip": "Clique para copiar variável"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "SeAQuestão",
+    "Is": "É",
+    "Has": "Tem",
+    "Or": "Ou",
+    "IsEqualTo": "Igual a",
+    "Checked": "Verificado",
+    "Unchecked": "Desmarcado",
+    "Selected": "Selecionado",
+    "SelectAtLeastOneValue": "SelecionePeloMenosUmValor",
+    "enterAValueAndPressEnter": "insiraUmValorEPressioneEnter"
   }
 }

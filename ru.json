@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Имя пользователя отправителя",
     "submitterUsernameDescription": "Вставляет имя пользователя учетной записи отправителя.",
     "submitterDiscordPingLabel": "Отправитель Discord Ping",
-    "submitterDiscordPingDescription": "Вставляет упоминание Discord для отправителя."
+    "submitterDiscordPingDescription": "Вставляет упоминание Discord для отправителя.",
+    "conditionalQuestionEnable": "Включить, чтобы ограничить это действие конкретным ответом на вопрос",
+    "conditionalQuestionStartExplaination": "Это действие будет выполнено"
   },
   "FormSectionEditor": {
     "required": "Заголовок раздела",
@@ -3790,7 +3792,10 @@
     "cloneField": "Выбрать список",
     "number": "Число",
     "automemberDiscordId": "Авто-участник Discord ID",
-    "communityMemberDiscordIdElement": "Элемент Discord ID участника сообщества"
+    "communityMemberDiscordIdElement": "Элемент Discord ID участника сообщества",
+    "conditionalQuestion": "Условный вопрос",
+    "enterValues": "Введите значения",
+    "conditionalQuestionStartExplaination": "Этот раздел будет видимым"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "заголовок",
     "tooltip": "Нажмите, чтобы скопировать переменную"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "ЕслиВопрос",
+    "Is": "является",
+    "Has": "Имеет",
+    "Or": "Или",
+    "IsEqualTo": "Равно",
+    "Checked": "Проверено",
+    "Unchecked": "Непроверенный",
+    "Selected": "Выбрано",
+    "SelectAtLeastOneValue": "Выберите хотя бы одно значение",
+    "enterAValueAndPressEnter": "Введите значение и нажмите Enter"
   }
 }

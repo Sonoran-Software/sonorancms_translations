@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Nombre de usuario del remitente",
     "submitterUsernameDescription": "Inserta el nombre de usuario de la cuenta del remitente.",
     "submitterDiscordPingLabel": "Öneriyi Yapanın Discord Etiketi",
-    "submitterDiscordPingDescription": "Inserta un ping de Discord para el remitente."
+    "submitterDiscordPingDescription": "Inserta un ping de Discord para el remitente.",
+    "conditionalQuestionEnable": "Omogućite da ograničite ovu radnju na konkretan odgovor na pitanje",
+    "conditionalQuestionStartExplaination": "Esta acción se ejecutará"
   },
   "FormSectionEditor": {
     "required": "Wymagane",
@@ -3790,7 +3792,10 @@
     "cloneField": "Klonuj pole",
     "number": "Número",
     "automemberDiscordId": "Automaattinen jäsen Discord-ID",
-    "communityMemberDiscordIdElement": "สมาชิกชุมชน Discord ID องค์ประกอบ"
+    "communityMemberDiscordIdElement": "สมาชิกชุมชน Discord ID องค์ประกอบ",
+    "conditionalQuestion": "Warunkowe Pytanie",
+    "enterValues": "Wprowadź wartości",
+    "conditionalQuestionStartExplaination": "Esta seção estará visível"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "título",
     "tooltip": "Cliquez pour copier la variable"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "Ako pitanje",
+    "Is": "jest",
+    "Has": "Ma",
+    "Or": "Ili",
+    "IsEqualTo": "Równy",
+    "Checked": "Sprawdzone",
+    "Unchecked": "Desmarcado",
+    "Selected": "Selecionado",
+    "SelectAtLeastOneValue": "Odaberite barem jednu vrijednost",
+    "enterAValueAndPressEnter": "बैल्यू डालें और एंटर दबाएँ"
   }
 }

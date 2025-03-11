@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "提交者用户名",
     "submitterUsernameDescription": "插入提交者的账户用户名。",
     "submitterDiscordPingLabel": "提交者 Discord 提及",
-    "submitterDiscordPingDescription": "为提交者插入一个Discord提醒。"
+    "submitterDiscordPingDescription": "为提交者插入一个Discord提醒。",
+    "conditionalQuestionEnable": "启用以将此操作限制为特定的问题响应",
+    "conditionalQuestionStartExplaination": "此操作将执行"
   },
   "FormSectionEditor": {
     "required": "必需的",
@@ -3790,7 +3792,10 @@
     "cloneField": "克隆字段",
     "number": "号码",
     "automemberDiscordId": "自动成员 Discord ID",
-    "communityMemberDiscordIdElement": "社区成员 Discord ID 元素"
+    "communityMemberDiscordIdElement": "社区成员 Discord ID 元素",
+    "conditionalQuestion": "条件问题",
+    "enterValues": "输入值",
+    "conditionalQuestionStartExplaination": "此部分将可见"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "标题",
     "tooltip": "单击以复制变量"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "如果问题",
+    "Is": "是",
+    "Has": "有",
+    "Or": "或者",
+    "IsEqualTo": "等于",
+    "Checked": "已检查",
+    "Unchecked": "未选中",
+    "Selected": "已选择",
+    "SelectAtLeastOneValue": "选择至少一个值",
+    "enterAValueAndPressEnter": "输入一个值并按 Enter"
   }
 }

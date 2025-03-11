@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Gönderen Kullanıcı Adı",
     "submitterUsernameDescription": "Gönderenin hesap kullanıcı adını ekler.",
     "submitterDiscordPingLabel": "Gönderen Discord Ping'i",
-    "submitterDiscordPingDescription": "Gönderici için bir Discord bildirimi ekler."
+    "submitterDiscordPingDescription": "Gönderici için bir Discord bildirimi ekler.",
+    "conditionalQuestionEnable": "Bu eylemi belirli bir soru yanıtıyla sınırlamak için etkinleştirin",
+    "conditionalQuestionStartExplaination": "Bu eylem yürütülecek"
   },
   "FormSectionEditor": {
     "required": "Gerekli",
@@ -3790,7 +3792,10 @@
     "cloneField": "Alanı Kopyala",
     "number": "Numara",
     "automemberDiscordId": "Otomatik Üye Discord ID'si",
-    "communityMemberDiscordIdElement": "Topluluk üyesi Discord ID öğesi"
+    "communityMemberDiscordIdElement": "Topluluk üyesi Discord ID öğesi",
+    "conditionalQuestion": "Koşullu Soru",
+    "enterValues": "Değerleri Girin",
+    "conditionalQuestionStartExplaination": "Bu bölüm görülebilir olacak"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "başlık",
     "tooltip": "Değişkeni kopyalamak için tıkla"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "Sorubir Durumda",
+    "Is": "dır",
+    "Has": "Sahip",
+    "Or": "Veya",
+    "IsEqualTo": "Eşittir",
+    "Checked": "Kontrol edildi",
+    "Unchecked": "İşaretlenmemiş",
+    "Selected": "Seçildi",
+    "SelectAtLeastOneValue": "En az bir değer seçin",
+    "enterAValueAndPressEnter": "Bir değer girin ve Enter'a basın"
   }
 }

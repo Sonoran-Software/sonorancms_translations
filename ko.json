@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "제출자 사용자 이름",
     "submitterUsernameDescription": "제출자의 계정 사용자 이름을 삽입합니다.",
     "submitterDiscordPingLabel": "제출자 디스코드 핑",
-    "submitterDiscordPingDescription": "제출자를 위한 디스코드 핑을 삽입합니다."
+    "submitterDiscordPingDescription": "제출자를 위한 디스코드 핑을 삽입합니다.",
+    "conditionalQuestionEnable": "이 작업을 특정 질문 응답으로 제한하도록 활성화하려면",
+    "conditionalQuestionStartExplaination": "이 작업이 실행됩니다"
   },
   "FormSectionEditor": {
     "required": "조건부",
@@ -3790,7 +3792,10 @@
     "cloneField": "커뮤니티 페이지 선택",
     "number": "숫자",
     "automemberDiscordId": "자동 회원 Discord ID",
-    "communityMemberDiscordIdElement": "커뮤니티 멤버 Discord ID 요소"
+    "communityMemberDiscordIdElement": "커뮤니티 멤버 Discord ID 요소",
+    "conditionalQuestion": "조건부 질문",
+    "enterValues": "값 입력",
+    "conditionalQuestionStartExplaination": "이 섹션이 보이게 됩니다."
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "제목",
     "tooltip": "변수를 복사하려면 클릭하십시오"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "만약질문이",
+    "Is": "입니다",
+    "Has": "가지고 있습니다",
+    "Or": "또는",
+    "IsEqualTo": "동일하다",
+    "Checked": "확인됨",
+    "Unchecked": "체크되지 않음",
+    "Selected": "선택됨",
+    "SelectAtLeastOneValue": "값을 하나 이상 선택하세요",
+    "enterAValueAndPressEnter": "값을 입력하고 Enter를 누르세요"
   }
 }

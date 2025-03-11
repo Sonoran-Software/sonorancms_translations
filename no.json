@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Innsender brukernavn",
     "submitterUsernameDescription": "Setter inn kontonavnet til innsenderen.",
     "submitterDiscordPingLabel": "Innsenders Discord-ping",
-    "submitterDiscordPingDescription": "Setter inn en Discord-ping for innsenderen."
+    "submitterDiscordPingDescription": "Setter inn en Discord-ping for innsenderen.",
+    "conditionalQuestionEnable": "Aktiver for å begrense denne handlingen til et bestemt svar på spørsmålet",
+    "conditionalQuestionStartExplaination": "Denne handlingen vil bli utført"
   },
   "FormSectionEditor": {
     "required": "Påkrevd",
@@ -3790,7 +3792,10 @@
     "cloneField": "Klon Felt",
     "number": "Nummer",
     "automemberDiscordId": "Automatisk-medlem Discord-ID",
-    "communityMemberDiscordIdElement": "Discord-ID-element for fellesskapsmedlem"
+    "communityMemberDiscordIdElement": "Discord-ID-element for fellesskapsmedlem",
+    "conditionalQuestion": "Betinget spørsmål",
+    "enterValues": "Angi verdier",
+    "conditionalQuestionStartExplaination": "Denne delen vil være synlig"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "tittel",
     "tooltip": "Klikk for å kopiere variabelen"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "HvisSpørsmålet",
+    "Is": "Er",
+    "Has": "Har",
+    "Or": "Eller",
+    "IsEqualTo": "LikMed",
+    "Checked": "Sjekket",
+    "Unchecked": "Umerket",
+    "Selected": "Valgt",
+    "SelectAtLeastOneValue": "Velg minst én verdi",
+    "enterAValueAndPressEnter": "Skriv inn en verdi og trykk Enter"
   }
 }

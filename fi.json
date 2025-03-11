@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Esittäjän käyttäjänimi",
     "submitterUsernameDescription": "Lisää lähettäjän tilin käyttäjänimen.",
     "submitterDiscordPingLabel": "Lähettäjän Discord Ping",
-    "submitterDiscordPingDescription": "Lisää Discord-pingin lähettäjälle."
+    "submitterDiscordPingDescription": "Lisää Discord-pingin lähettäjälle.",
+    "conditionalQuestionEnable": "Ota käyttöön rajoittaaksesi tämän toiminnon tiettyyn kysymykseen vastaamiseen",
+    "conditionalQuestionStartExplaination": "Tämä toiminto suoritetaan"
   },
   "FormSectionEditor": {
     "required": "Vaadittu",
@@ -3790,7 +3792,10 @@
     "cloneField": "Kloonaa kenttä",
     "number": "Numero",
     "automemberDiscordId": "Automaattijäsenen Discord ID",
-    "communityMemberDiscordIdElement": "Yhteisön jäsenen Discord ID -elementti"
+    "communityMemberDiscordIdElement": "Yhteisön jäsenen Discord ID -elementti",
+    "conditionalQuestion": "Ehdollinen kysymys",
+    "enterValues": "Syötä arvot",
+    "conditionalQuestionStartExplaination": "Tämä osio on näkyvissä"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "otsikko",
     "tooltip": "Napsauta kopioidaksesi muuttuja"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "JosKysymys",
+    "Is": "On",
+    "Has": "On",
+    "Or": "Tai",
+    "IsEqualTo": "Yhtä kuin",
+    "Checked": "Tarkistettu",
+    "Unchecked": "Poistettu valinta",
+    "Selected": "Valittu",
+    "SelectAtLeastOneValue": "Valitse vähintään yksi arvo",
+    "enterAValueAndPressEnter": "Syötä arvo ja paina Enter-näppäintä"
   }
 }

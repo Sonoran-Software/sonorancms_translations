@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Zasílatelské uživatelské jméno",
     "submitterUsernameDescription": "Vloží uživatelské jméno účtu odesílatele.",
     "submitterDiscordPingLabel": "Odesílatel Discord Ping",
-    "submitterDiscordPingDescription": "Vloží ping na Discord pro odesílatele."
+    "submitterDiscordPingDescription": "Vloží ping na Discord pro odesílatele.",
+    "conditionalQuestionEnable": "Povolte omezení této akce na konkrétní odpověď na otázku",
+    "conditionalQuestionStartExplaination": "Tato akce se provede"
   },
   "FormSectionEditor": {
     "required": "Povinné",
@@ -3790,7 +3792,10 @@
     "cloneField": "Klonovat pole",
     "number": "Číslo",
     "automemberDiscordId": "Automaticky přidávané Discord ID člena",
-    "communityMemberDiscordIdElement": "Prvek ID uživatele Discord člena komunity"
+    "communityMemberDiscordIdElement": "Prvek ID uživatele Discord člena komunity",
+    "conditionalQuestion": "Podmíněná otázka",
+    "enterValues": "Zadejte hodnoty",
+    "conditionalQuestionStartExplaination": "Tato sekce bude viditelná"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "název",
     "tooltip": "Kliknutím zkopírujte proměnnou"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "PokudOtázka",
+    "Is": "Je",
+    "Has": "Má",
+    "Or": "Nebo",
+    "IsEqualTo": "Je rovno",
+    "Checked": "Zkontrolováno",
+    "Unchecked": "Nepřekontrolováno",
+    "Selected": "Vybráno",
+    "SelectAtLeastOneValue": "Vyberte alespoň jednu hodnotu",
+    "enterAValueAndPressEnter": "zadejteHodnotuAStiskněteEnter"
   }
 }

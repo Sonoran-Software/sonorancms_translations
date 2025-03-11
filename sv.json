@@ -3678,7 +3678,9 @@
     "submitterUsernameLabel": "Inskickarens användarnamn",
     "submitterUsernameDescription": "Infogar kontoanvändarnamnet för inlämnaren.",
     "submitterDiscordPingLabel": "Inskickares Discord-ping",
-    "submitterDiscordPingDescription": "Infogar en Discord-ping för inlämnaren."
+    "submitterDiscordPingDescription": "Infogar en Discord-ping för inlämnaren.",
+    "conditionalQuestionEnable": "Aktivera för att begränsa denna åtgärd till ett specifikt frågesvar",
+    "conditionalQuestionStartExplaination": "Denna åtgärd kommer att utföras"
   },
   "FormSectionEditor": {
     "required": "Obligatorisk",
@@ -3790,7 +3792,10 @@
     "cloneField": "Klona Fält",
     "number": "Nummer",
     "automemberDiscordId": "Auto-Medlem Discord ID",
-    "communityMemberDiscordIdElement": "Discord-ID för communitymedlem"
+    "communityMemberDiscordIdElement": "Discord-ID för communitymedlem",
+    "conditionalQuestion": "Villkorlig fråga",
+    "enterValues": "Ange värden",
+    "conditionalQuestionStartExplaination": "Den här sektionen kommer att vara synlig"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -4420,5 +4425,17 @@
   "variables": {
     "title": "titel",
     "tooltip": "Klicka för att kopiera variabeln"
+  },
+  "ConditionalFormSectionUI": {
+    "IfTheQuestion": "OmFrågan",
+    "Is": "Är",
+    "Has": "Har",
+    "Or": "Eller",
+    "IsEqualTo": "Lika med",
+    "Checked": "Kontrollerad",
+    "Unchecked": "Omarkerad",
+    "Selected": "Vald",
+    "SelectAtLeastOneValue": "Välj minst ett värde",
+    "enterAValueAndPressEnter": "angeEttVärdeOchTryckEnter"
   }
 }
