@@ -570,6 +570,7 @@
     "name": "Name",
     "addServer": "Add Server",
     "qbcorePanelDocumentation": "QBCore Panel Documentation",
+    "qboxPanelDocumentation": "QBox Panel Documentation",
     "dashboard": "Dashboard",
     "players": "Players",
     "vehicles": "Vehicles",
@@ -2647,6 +2648,7 @@
   },
   "Items": {
     "qbcoreItems": "QBCore Items",
+    "qboxItems": "QBox Items",
     "itemsPerPage": "Items per page:",
     "addItem": "Add Item",
     "item": "Item",
@@ -2688,6 +2690,7 @@
     "weight": "Weight",
     "usable": "Usable",
     "withinYourQbcoreForThisItemToBeUseable": "within your QBCore for this item to be useable.",
+    "withinYourQBoxForThisItemToBeUseable": "within your QBox for this item to be useable.",
     "ensureYouCreateThe": "Ensure you create the",
     "itemOptions": "Item Options",
     "editItem": "Edit Item",
@@ -2724,6 +2727,7 @@
   },
   "Characters": {
     "qbcoreCharacters": "QBCore Characters",
+    "qboxCharacters": "QBox Characters",
     "db": "DB",
     "live": "Live",
     "search": "Search",
