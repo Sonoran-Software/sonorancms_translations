@@ -202,6 +202,7 @@
     "unarchiveForm": "Unarchive Form",
     "adminDelete": "Admin Delete",
     "blacklist": "Blacklist Rank",
+    "modifyTemplate": "Modify Form Template",
     "apply": {
       "availableForms": "Available Forms",
       "myForms": "My Forms",
@@ -569,6 +570,7 @@
     "name": "Name",
     "addServer": "Add Server",
     "qbcorePanelDocumentation": "QBCore Panel Documentation",
+    "qboxPanelDocumentation": "QBox Panel Documentation",
     "dashboard": "Dashboard",
     "players": "Players",
     "vehicles": "Vehicles",
@@ -618,6 +620,7 @@
     "management": "Management",
     "server": "Server",
     "qbCore": "QB Core",
+    "qbox": "QBox",
     "ensureSonorancms": "ensure [sonorancms]",
     "ensureSonorancmsNoBracket": "ensure sonorancms",
     "servercfg": "server.cfg",
@@ -1902,6 +1905,8 @@
     "guild": "Guild"
   },
   "DiscordRoleMappingEditor": {
+    "oneToOneMapping": "One-to-One Mapping",
+    "categoryMapping": "Category Mapping",
     "role": "Role",
     "roleId": "Role ID:",
     "selectRank": "Select Rank",
@@ -2645,6 +2650,7 @@
   },
   "Items": {
     "qbcoreItems": "QBCore Items",
+    "qboxItems": "QBox Items",
     "itemsPerPage": "Items per page:",
     "addItem": "Add Item",
     "item": "Item",
@@ -2686,6 +2692,7 @@
     "weight": "Weight",
     "usable": "Usable",
     "withinYourQbcoreForThisItemToBeUseable": "within your QBCore for this item to be useable.",
+    "withinYourQBoxForThisItemToBeUseable": "within your QBox for this item to be useable.",
     "ensureYouCreateThe": "Ensure you create the",
     "itemOptions": "Item Options",
     "editItem": "Edit Item",
@@ -2722,6 +2729,7 @@
   },
   "Characters": {
     "qbcoreCharacters": "QBCore Characters",
+    "qboxCharacters": "QBox Characters",
     "db": "DB",
     "live": "Live",
     "search": "Search",
@@ -4278,6 +4286,7 @@
     "allowsMembersToSubmitAFormOfThisTemplate8": "Allows members to submit a form of this template on behalf of another account within their Available Forms or Community Profile.",
     "allowsMembersToForcefullyRemoveASubmissi": "Allows members to forcefully remove a submission in the Form Submissions viewer.",
     "allowsMembersToBlackList": "Blocks member from submitting this form template.",
+    "allowsMembersToModifyTemplate": "Allows members to modify this form template in the Forms Builder.",
     "view": "View",
     "allowsMembersToViewThisRoster": "Allows members to view this roster.",
     "addRosterRow": "Add Roster Row",
