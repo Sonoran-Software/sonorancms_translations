@@ -213,7 +213,8 @@
     "fields": "Pole",
     "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany",
     "modifyStageSettings": "Upravit nastavení stupně",
-    "blacklist": "Černá listina hodnosti"
+    "blacklist": "Černá listina hodnosti",
+    "modifyTemplate": "Upravit šablonu formuláře"
   },
   "departments": {
     "departmentName": "Název oddělení",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignorovat příznaky detekce alternativního účtu pro uživatele, kteří ještě nejsou v komunitě. Zobrazit příznak pouze tehdy, když se podezřelý alternativní účet připojí ke komunitě.",
     "lastWeek": "Minulý týden",
     "lastMonth": "Minulý měsíc",
-    "allTime": "Po celou dobu"
+    "allTime": "Po celou dobu",
+    "qboxPanelDocumentation": "Dokumentace panelu QBox",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Odstranit vše",
     "willRemove": "odstraní",
     "havingNoneOf": "Nemít žádné",
-    "doNotManuallyApply": "Neaplikujte ručně"
+    "doNotManuallyApply": "Neaplikujte ručně",
+    "oneToOneMapping": "Jedno k jedné mapování",
+    "categoryMapping": "Mapování kategorií"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Cech:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Možnosti předmětu",
     "editItem": "Upravit předmět",
     "loadingData": "Načítání dat",
-    "combineOptions": "Možnosti kombinace"
+    "combineOptions": "Možnosti kombinace",
+    "qboxItems": "QBox předměty",
+    "withinYourQBoxForThisItemToBeUseable": "ve vašem QBoxu, aby byla tato položka použitelná."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Herní server musí být restartován, než se tato změna načte do běhu.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Chyba: Při načítání dat ze serveru došlo k chybě.",
     "na": "N/A",
     "online": "Online",
-    "loadingData": "Načítání dat"
+    "loadingData": "Načítání dat",
+    "qboxCharacters": "QBox Znaky"
   },
   "ForumTopic": {
     "actions": "Akce",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Odebrat krátké adresy URL",
     "removeShortenerDesc": "Umožňuje členům odstranit krátké URL v položce Správce krátkých URL.",
     "manageDomainsDesc": "Umožňuje členům spravovat domény ve správci krátkých URL.",
-    "allowsMembersToBlackList": "Zabrání členovi odeslat tuto šablonu formuláře."
+    "allowsMembersToBlackList": "Zabrání členovi odeslat tuto šablonu formuláře.",
+    "allowsMembersToModifyTemplate": "Umožňuje členům upravit tuto šablonu formuláře v Návrháři formulářů."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"

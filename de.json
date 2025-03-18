@@ -213,7 +213,8 @@
     "fields": "Felder",
     "appThirdPartySubmit": "Drittanbieterantrag/Formular einreichen",
     "modifyStageSettings": "Bühnen Einstellungen bearbeiten",
-    "blacklist": "Schwarze Liste Rang"
+    "blacklist": "Schwarze Liste Rang",
+    "modifyTemplate": "Formularvorlage ändern"
   },
   "departments": {
     "departmentName": "Abteilungsname",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignoriere die Erkennungsmarkierungen für alternative Konten bei Benutzern, die noch nicht in der Community sind. Zeige die Markierung nur an, wenn das vermutete alternative Konto der Community beitritt.",
     "lastWeek": "Letzte Woche",
     "lastMonth": "Letzten Monat",
-    "allTime": "Alle Zeiten"
+    "allTime": "Alle Zeiten",
+    "qboxPanelDocumentation": "QBox Panel Dokumentation",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Alle entfernen",
     "willRemove": "wird entfernen",
     "havingNoneOf": "Keins von beidem haben",
-    "doNotManuallyApply": "Nicht manuell anwenden"
+    "doNotManuallyApply": "Nicht manuell anwenden",
+    "oneToOneMapping": "Eins-zu-Eins-Zuordnung",
+    "categoryMapping": "Kategoriezuteilung"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Artikeloptionen",
     "editItem": "Artikel bearbeiten",
     "loadingData": "Lade Daten",
-    "combineOptions": "Kombinationsoptionen"
+    "combineOptions": "Kombinationsoptionen",
+    "qboxItems": "QBox-Artikel",
+    "withinYourQBoxForThisItemToBeUseable": "innerhalb Ihres QBox, damit dieser Artikel verwendbar ist."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Der Spielserver muss neu gestartet werden, bevor diese Änderung zur Laufzeit geladen wird.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Fehler: Beim Abrufen der Serverdaten ist ein Fehler aufgetreten.",
     "na": "N/V",
     "online": "Online",
-    "loadingData": "Daten werden geladen"
+    "loadingData": "Daten werden geladen",
+    "qboxCharacters": "QBox-Charaktere"
   },
   "ForumTopic": {
     "actions": "Aktionen",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Kurze URLs entfernen",
     "removeShortenerDesc": "Ermöglicht es Mitgliedern, kurze URLs im Short-URL-Manager zu entfernen.",
     "manageDomainsDesc": "Ermöglicht Mitgliedern, Domains im Short-URL-Manager zu verwalten.",
-    "allowsMembersToBlackList": "Verhindert, dass das Mitglied diese Formularvorlage einreicht."
+    "allowsMembersToBlackList": "Verhindert, dass das Mitglied diese Formularvorlage einreicht.",
+    "allowsMembersToModifyTemplate": "Ermöglicht Mitgliedern, diese Formularvorlage im Formular-Builder zu bearbeiten."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"

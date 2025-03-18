@@ -213,7 +213,8 @@
     "fields": "Campi",
     "appThirdPartySubmit": "Invia domanda/modulo di terze parti",
     "modifyStageSettings": "Modifica Impostazioni del Palco",
-    "blacklist": "Rango di blacklist"
+    "blacklist": "Rango di blacklist",
+    "modifyTemplate": "Modifica modello modulo"
   },
   "departments": {
     "departmentName": "Nome del Dipartimento",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignora i rilevamenti degli account alternativi per gli utenti che non sono ancora nella comunità. Visualizza il flag solo quando l'account alternativo sospetto si unisce alla comunità.",
     "lastWeek": "Scorsa Settimana",
     "lastMonth": "Lo scorso mese",
-    "allTime": "Tutto il tempo"
+    "allTime": "Tutto il tempo",
+    "qboxPanelDocumentation": "Documentazione del pannello QBox",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Sicurezza - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Rimuovi Tutto",
     "willRemove": "rimuoverà",
     "havingNoneOf": "Non avere alcuno di",
-    "doNotManuallyApply": "Non applicare manualmente"
+    "doNotManuallyApply": "Non applicare manualmente",
+    "oneToOneMapping": "Mappatura Uno-a-Uno",
+    "categoryMapping": "Mappatura delle categorie"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilda:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Opzioni dell'Oggetto",
     "editItem": "Modifica Oggetto",
     "loadingData": "Caricamento Dati",
-    "combineOptions": "Opzioni di Combinazione"
+    "combineOptions": "Opzioni di Combinazione",
+    "qboxItems": "Oggetti QBox",
+    "withinYourQBoxForThisItemToBeUseable": "all'interno del tuo QBox affinché questo elemento sia utilizzabile."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Il server di gioco deve essere riavviato prima che questa modifica venga caricata in runtime.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Errore: Si è verificato un errore durante il recupero dei dati del server.",
     "na": "N/D",
     "online": "Online",
-    "loadingData": "Caricamento Dati"
+    "loadingData": "Caricamento Dati",
+    "qboxCharacters": "QBox Caratteri"
   },
   "ForumTopic": {
     "actions": "Azioni",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Rimuovi gli URL brevi",
     "removeShortenerDesc": "Consente ai membri di rimuovere URL brevi nel Gestore URL Brevi.",
     "manageDomainsDesc": "Consente ai membri di gestire i domini nel Gestore degli URL brevi.",
-    "allowsMembersToBlackList": "Blocca il membro dall'inviare questo modello di modulo."
+    "allowsMembersToBlackList": "Blocca il membro dall'inviare questo modello di modulo.",
+    "allowsMembersToModifyTemplate": "Consente ai membri di modificare questo modello di modulo nel Costruttore di Moduli."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"

@@ -213,7 +213,8 @@
     "fields": "字段",
     "appThirdPartySubmit": "提交第三方申请/表格",
     "modifyStageSettings": "修改阶段设置",
-    "blacklist": "黑名单等级"
+    "blacklist": "黑名单等级",
+    "modifyTemplate": "修改表单模板"
   },
   "departments": {
     "departmentName": "部门名称",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "对尚未进入社区的用户忽略替代帐户检测标志。仅当怀疑的替代帐户加入社区时才显示标志。",
     "lastWeek": "上周",
     "lastMonth": "上个月",
-    "allTime": "所有时间"
+    "allTime": "所有时间",
+    "qboxPanelDocumentation": "QBox 面板文档",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -1924,7 +1927,9 @@
     "removeAll": "移除所有",
     "willRemove": "将移除",
     "havingNoneOf": "没有",
-    "doNotManuallyApply": "请勿手动申请"
+    "doNotManuallyApply": "请勿手动申请",
+    "oneToOneMapping": "一对一映射",
+    "categoryMapping": "类别映射"
   },
   "DiscordRoleMultiSelector": {
     "guild": "公会："
@@ -2694,7 +2699,9 @@
     "itemOptions": "物品选项",
     "editItem": "编辑物品",
     "loadingData": "加载数据",
-    "combineOptions": "组合选项"
+    "combineOptions": "组合选项",
+    "qboxItems": "QBox 项目",
+    "withinYourQBoxForThisItemToBeUseable": "在您的 QBox 中以便该项目可用。"
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "游戏服务器必须重启才能加载此更改到运行时。",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "错误：获取服务器数据时发生错误。",
     "na": "不适用",
     "online": "在线",
-    "loadingData": "加载数据"
+    "loadingData": "加载数据",
+    "qboxCharacters": "QBox 角色"
   },
   "ForumTopic": {
     "actions": "操作",
@@ -4293,7 +4301,8 @@
     "removeShortener": "移除短网址",
     "removeShortenerDesc": "允许成员在短网址管理器中删除短网址。",
     "manageDomainsDesc": "允许成员在短网址管理器中管理域名。",
-    "allowsMembersToBlackList": "阻止成员提交此表单模板。"
+    "allowsMembersToBlackList": "阻止成员提交此表单模板。",
+    "allowsMembersToModifyTemplate": "允许成员在表单构建器中修改此表单模板。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"

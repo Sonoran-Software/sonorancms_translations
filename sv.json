@@ -213,7 +213,8 @@
     "fields": "Fält",
     "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part",
     "modifyStageSettings": "Ändra sceninställningar",
-    "blacklist": "Svartlistningsrankning"
+    "blacklist": "Svartlistningsrankning",
+    "modifyTemplate": "Ändra formulärmall"
   },
   "departments": {
     "departmentName": "Avdelningsnamn",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignorera alternativa kontodetekteringsflaggor för användare som ännu inte är i gemenskapen. Visa flaggan endast när det misstänkta alternativa kontot går med i gemenskapen.",
     "lastWeek": "Förra veckan",
     "lastMonth": "Förra månaden",
-    "allTime": "Alltid"
+    "allTime": "Alltid",
+    "qboxPanelDocumentation": "QBox Panel Dokumentation",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Ta bort alla",
     "willRemove": "kommer att ta bort",
     "havingNoneOf": "Har inget av",
-    "doNotManuallyApply": "Använd inte manuellt"
+    "doNotManuallyApply": "Använd inte manuellt",
+    "oneToOneMapping": "En-till-en mappning",
+    "categoryMapping": "Kategorimappning"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Föremålsalternativ",
     "editItem": "Redigera föremål",
     "loadingData": "Laddar data",
-    "combineOptions": "Kombinationsalternativ"
+    "combineOptions": "Kombinationsalternativ",
+    "qboxItems": "QBox-objekt",
+    "withinYourQBoxForThisItemToBeUseable": "i din QBox för att denna artikel ska kunna användas."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Spelservern måste startas om innan denna ändring laddas in i runtime.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Fel: Ett fel inträffade vid hämtning av serverdata.",
     "na": "N/A",
     "online": "Online",
-    "loadingData": "Laddar Data"
+    "loadingData": "Laddar Data",
+    "qboxCharacters": "QBox-tecken"
   },
   "ForumTopic": {
     "actions": "Åtgärder",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Ta bort korta URL:er",
     "removeShortenerDesc": "Tillåter medlemmar att ta bort korta URL:er i hanteraren för korta URL:er.",
     "manageDomainsDesc": "Låter medlemmar hantera domäner i Kort-URL-hanteraren.",
-    "allowsMembersToBlackList": "Hindrar medlem från att skicka in denna formulärmall."
+    "allowsMembersToBlackList": "Hindrar medlem från att skicka in denna formulärmall.",
+    "allowsMembersToModifyTemplate": "Tillåter medlemmar att ändra denna formmall i formulärbyggaren."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"

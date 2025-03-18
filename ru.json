@@ -213,7 +213,8 @@
     "fields": "Поля",
     "appThirdPartySubmit": "Отправить стороннее приложение/форму",
     "modifyStageSettings": "Изменить настройки этапа",
-    "blacklist": "Чёрный список - Ранг"
+    "blacklist": "Чёрный список - Ранг",
+    "modifyTemplate": "Изменить шаблон формы"
   },
   "departments": {
     "departmentName": "Название Отдела",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Игнорировать флаги обнаружения альтернативных аккаунтов для пользователей, которые еще не в сообществе. Отображать флаг только тогда, когда предполагаемый альтернативный аккаунт присоединится к сообществу.",
     "lastWeek": "На прошлой неделе",
     "lastMonth": "Прошлый месяц",
-    "allTime": "Все время"
+    "allTime": "Все время",
+    "qboxPanelDocumentation": "Документация панели QBox",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -1924,7 +1927,9 @@
     "removeAll": "удалит",
     "willRemove": "Гильдия:",
     "havingNoneOf": "Не имея",
-    "doNotManuallyApply": "Не применяйте вручную"
+    "doNotManuallyApply": "Не применяйте вручную",
+    "oneToOneMapping": "Одно-к-одному отображение",
+    "categoryMapping": "Сопоставление категорий"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Гильдия:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Редактировать элемент",
     "editItem": "Загрузка данных",
     "loadingData": "Параметры комбинирования",
-    "combineOptions": "Игровой сервер должен быть перезапущен, прежде чем это изменение будет загружено в runtime."
+    "combineOptions": "Игровой сервер должен быть перезапущен, прежде чем это изменение будет загружено в runtime.",
+    "qboxItems": "QBox предметы",
+    "withinYourQBoxForThisItemToBeUseable": "в вашем QBox, чтобы этот элемент был доступен."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Сохранить",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Н/Д",
     "na": "Онлайн",
     "online": "Загрузка данных",
-    "loadingData": "Действия"
+    "loadingData": "Действия",
+    "qboxCharacters": "Персонажи QBox"
   },
   "ForumTopic": {
     "actions": "Разблокировать",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Удалить короткие URL-адреса",
     "removeShortenerDesc": "Позволяет участникам удалять короткие URL в менеджере коротких URL.",
     "manageDomainsDesc": "Позволяет участникам управлять доменами в менеджере коротких URL.",
-    "allowsMembersToBlackList": "Блокирует участника от отправки этого шаблона формы."
+    "allowsMembersToBlackList": "Блокирует участника от отправки этого шаблона формы.",
+    "allowsMembersToModifyTemplate": "Позволяет участникам изменять этот шаблон формы в Конструкторе форм."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"

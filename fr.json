@@ -213,7 +213,8 @@
     "fields": "Champs",
     "appThirdPartySubmit": "Soumettre une application/formulaire tiers",
     "modifyStageSettings": "Modifier les paramètres de l'étape",
-    "blacklist": "Rang de la liste noire"
+    "blacklist": "Rang de la liste noire",
+    "modifyTemplate": "Modifier le modèle de formulaire"
   },
   "departments": {
     "departmentName": "Nom du Département",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignorer les drapeaux de détection de compte alternatif pour les utilisateurs pas encore dans la communauté. Afficher le drapeau uniquement lorsque le compte alternatif suspecté rejoint la communauté.",
     "lastWeek": "La semaine dernière",
     "lastMonth": "Mois dernier",
-    "allTime": "Tout le temps"
+    "allTime": "Tout le temps",
+    "qboxPanelDocumentation": "Documentation de QBox Panel",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Sécurité - Tableau de bord",
@@ -1924,7 +1927,9 @@
     "removeAll": "Tout supprimer",
     "willRemove": "supprimera",
     "havingNoneOf": "N'ayant aucun de",
-    "doNotManuallyApply": "Ne pas appliquer manuellement"
+    "doNotManuallyApply": "Ne pas appliquer manuellement",
+    "oneToOneMapping": "Correspondance Un-à-Un",
+    "categoryMapping": "Mappage de Catégorie"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guilde :"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Options d'article",
     "editItem": "Modifier l'article",
     "loadingData": "Chargement des données",
-    "combineOptions": "Options de combinaison"
+    "combineOptions": "Options de combinaison",
+    "qboxItems": "Articles QBox",
+    "withinYourQBoxForThisItemToBeUseable": "dans votre QBox pour que cet article soit utilisable."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Le serveur de jeu doit être redémarré avant que ce changement ne soit chargé en temps réel.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Erreur : Une erreur s'est produite lors de la récupération des données du serveur.",
     "na": "N/A",
     "online": "En ligne",
-    "loadingData": "Chargement des données"
+    "loadingData": "Chargement des données",
+    "qboxCharacters": "Personnages QBox"
   },
   "ForumTopic": {
     "actions": "Actions",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Supprimer les URL courtes",
     "removeShortenerDesc": "Permet aux membres de supprimer les URLs courtes dans le Gestionnaire de URLs courtes.",
     "manageDomainsDesc": "Permet aux membres de gérer les domaines dans le Gestionnaire de URL courtes.",
-    "allowsMembersToBlackList": "Empêche le membre de soumettre ce modèle de formulaire."
+    "allowsMembersToBlackList": "Empêche le membre de soumettre ce modèle de formulaire.",
+    "allowsMembersToModifyTemplate": "Permet aux membres de modifier ce modèle de formulaire dans le Form Builder."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"

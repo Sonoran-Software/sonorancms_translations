@@ -213,7 +213,8 @@
     "fields": "Kentät",
     "appThirdPartySubmit": "Lähetä kolmannen osapuolen hakemus/lomake",
     "modifyStageSettings": "Muokkaa vaiheen asetuksia",
-    "blacklist": "Musta lista -rangaistusaste"
+    "blacklist": "Musta lista -rangaistusaste",
+    "modifyTemplate": "Muokkaa lomakepohjaa"
   },
   "departments": {
     "departmentName": "Osaston nimi",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ohita vaihtoehtoisen tilin tunnistusliput käyttäjille, jotka eivät vielä ole yhteisössä. Näytä lippu vain, kun epäilty vaihtoehtoinen tili liittyy yhteisöön.",
     "lastWeek": "Viime viikolla",
     "lastMonth": "Viime kuussa",
-    "allTime": "Kaikkien aikojen"
+    "allTime": "Kaikkien aikojen",
+    "qboxPanelDocumentation": "QBox-paneelin dokumentaatio",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -1924,7 +1927,9 @@
     "removeAll": "Poista kaikki",
     "willRemove": "poistaa",
     "havingNoneOf": "Ei yhtään",
-    "doNotManuallyApply": "Älä käytä manuaalisesti"
+    "doNotManuallyApply": "Älä käytä manuaalisesti",
+    "oneToOneMapping": "Yhden suhde yhteen -kartoitus",
+    "categoryMapping": "Kategorian Mappaus"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Yhteisö:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Esineen asetukset",
     "editItem": "Muokkaa esinettä",
     "loadingData": "Ladataan tietoja",
-    "combineOptions": "Yhdistämisasetukset"
+    "combineOptions": "Yhdistämisasetukset",
+    "qboxItems": "QBox-esineet",
+    "withinYourQBoxForThisItemToBeUseable": "tehdäksesi tämän kohteen käyttökelpoiseksi QBoxissasi."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Peli palvelin on käynnistettävä uudelleen ennen kuin tämä muutos ladataan käyttöön.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Virhe: Virhe tapahtui haettaessa palvelimen tietoja.",
     "na": "Ei saatavilla",
     "online": "Online",
-    "loadingData": "Ladataan tietoja"
+    "loadingData": "Ladataan tietoja",
+    "qboxCharacters": "QBox-hahmot"
   },
   "ForumTopic": {
     "actions": "Toiminnot",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Poista lyhyet URL-osoitteet",
     "removeShortenerDesc": "Antaa jäsenten poistaa lyhyitä URL-osoitteita Lyhyt URL-osoitteiden hallinnassa.",
     "manageDomainsDesc": "Mahdollistaa jäsenten hallita verkkotunnuksia lyhyen URL-osoitteen hallinnassa.",
-    "allowsMembersToBlackList": "Estää jäsentä lähettämästä tätä lomakepohjaa."
+    "allowsMembersToBlackList": "Estää jäsentä lähettämästä tätä lomakepohjaa.",
+    "allowsMembersToModifyTemplate": "Sallii jäsenten muokata tätä lomakepohjaa Lomakkeen rakentajassa."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"

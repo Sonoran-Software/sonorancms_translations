@@ -213,7 +213,8 @@
     "fields": "الحقول",
     "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية",
     "modifyStageSettings": "تعديل إعدادات المرحلة",
-    "blacklist": "رتبة القائمة السوداء"
+    "blacklist": "رتبة القائمة السوداء",
+    "modifyTemplate": "تعديل قالب النموذج"
   },
   "departments": {
     "departmentName": "اسم القسم",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "تجاهل علامات اكتشاف حساب بديل للمستخدمين الذين لم ينضموا بعد إلى المجتمع. عرض العلامة فقط عند انضمام الحساب البديل المشتبه فيه إلى المجتمع.",
     "lastWeek": "الأسبوع الماضي",
     "lastMonth": "الشهر الماضي",
-    "allTime": "طوال الوقت"
+    "allTime": "طوال الوقت",
+    "qboxPanelDocumentation": "وثائق لوحة QBox",
+    "qbox": "كيوبوكس"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -1924,7 +1927,9 @@
     "removeAll": "إزالة الكل",
     "willRemove": "سيتم إزالة",
     "havingNoneOf": "لا شيء من",
-    "doNotManuallyApply": "لا تقم بالتطبيق يدويًا"
+    "doNotManuallyApply": "لا تقم بالتطبيق يدويًا",
+    "oneToOneMapping": "تخطيط واحد لواحد",
+    "categoryMapping": "تعيين الفئة"
   },
   "DiscordRoleMultiSelector": {
     "guild": "النقابة:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "خيارات العنصر",
     "editItem": "تحرير العنصر",
     "loadingData": "جارٍ تحميل البيانات",
-    "combineOptions": "خيارات الدمج"
+    "combineOptions": "خيارات الدمج",
+    "qboxItems": "عناصر QBox",
+    "withinYourQBoxForThisItemToBeUseable": "داخل QBox الخاص بك حتى يمكن استخدام هذا العنصر."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "يجب إعادة تشغيل خادم اللعبة قبل تحميل هذا التغيير في وقت التشغيل.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "خطأ: حدث خطأ أثناء جلب بيانات الخادم.",
     "na": "غير متاح",
     "online": "متصل",
-    "loadingData": "جارٍ تحميل البيانات"
+    "loadingData": "جارٍ تحميل البيانات",
+    "qboxCharacters": "شخصيات QBox"
   },
   "ForumTopic": {
     "actions": "إجراءات",
@@ -4293,7 +4301,8 @@
     "removeShortener": "إزالة الروابط القصيرة",
     "removeShortenerDesc": "يسمح للأعضاء بحذف الروابط القصيرة في مدير الروابط القصيرة.",
     "manageDomainsDesc": "يسمح للأعضاء بإدارة النطاقات في مدير الروابط القصيرة.",
-    "allowsMembersToBlackList": "يمنع العضو من إرسال نموذج الطلب هذا."
+    "allowsMembersToBlackList": "يمنع العضو من إرسال نموذج الطلب هذا.",
+    "allowsMembersToModifyTemplate": "يسمح للأعضاء بتعديل قالب النموذج هذا في مُنشئ النماذج."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"

@@ -213,7 +213,8 @@
     "fields": "Velden",
     "appThirdPartySubmit": "Verzend applicatie/formulier van derden",
     "modifyStageSettings": "Wijzig Podiuminstellingen",
-    "blacklist": "Zwarte lijst rang"
+    "blacklist": "Zwarte lijst rang",
+    "modifyTemplate": "Formuliersjabloon wijzigen"
   },
   "departments": {
     "departmentName": "Afdelingsnaam",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Negeer alternatieve accountdetectievlaggen voor gebruikers die nog niet in de gemeenschap zijn. Toon de vlag alleen wanneer het vermoede alternatieve account zich bij de gemeenschap voegt.",
     "lastWeek": "Vorige week",
     "lastMonth": "Vorige maand",
-    "allTime": "Alle Tijd"
+    "allTime": "Alle Tijd",
+    "qboxPanelDocumentation": "QBox Paneel Documentatie",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Verwijder Alles",
     "willRemove": "zal verwijderen",
     "havingNoneOf": "Geen van",
-    "doNotManuallyApply": "Niet handmatig toepassen"
+    "doNotManuallyApply": "Niet handmatig toepassen",
+    "oneToOneMapping": "Een-op-Een Mapping",
+    "categoryMapping": "Categorie Mapping"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Itemopties",
     "editItem": "Item bewerken",
     "loadingData": "Gegevens laden",
-    "combineOptions": "Combinatieopties"
+    "combineOptions": "Combinatieopties",
+    "qboxItems": "QBox Items",
+    "withinYourQBoxForThisItemToBeUseable": "binnen uw QBox om dit item bruikbaar te maken."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "De game server moet opnieuw worden gestart voordat deze wijziging in runtime wordt geladen.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Fout: Er is een fout opgetreden bij het ophalen van servergegevens.",
     "na": "N/B",
     "online": "Online",
-    "loadingData": "Gegevens Laden"
+    "loadingData": "Gegevens Laden",
+    "qboxCharacters": "QBox-personages"
   },
   "ForumTopic": {
     "actions": "Acties",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Korte URL's verwijderen",
     "removeShortenerDesc": "Staat leden toe korte URL's te verwijderen in de Korte URL Manager.",
     "manageDomainsDesc": "Hiermee kunnen leden domeinen beheren in de Korte URL Beheerder.",
-    "allowsMembersToBlackList": "Blokkeert lid van het indienen van deze formulier sjabloon."
+    "allowsMembersToBlackList": "Blokkeert lid van het indienen van deze formulier sjabloon.",
+    "allowsMembersToModifyTemplate": "Staat leden toe om deze formulier template te wijzigen in de Formulier Builder."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"

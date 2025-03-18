@@ -213,7 +213,8 @@
     "fields": "Felter",
     "appThirdPartySubmit": "Indsend tredjepartsansøgning/formular",
     "modifyStageSettings": "Rediger scenens indstillinger",
-    "blacklist": "Sortslisten Rang"
+    "blacklist": "Sortslisten Rang",
+    "modifyTemplate": "Rediger formularskabelon"
   },
   "departments": {
     "departmentName": "Afdelingsnavn",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignorér alternative kontodetektionsflag for brugere, der endnu ikke er i fællesskabet. Vis kun flaget, når den mistænkte alternative konto tilslutter sig fællesskabet.",
     "lastWeek": "Sidste uge",
     "lastMonth": "Sidste måned",
-    "allTime": "Alle Tider"
+    "allTime": "Alle Tider",
+    "qboxPanelDocumentation": "QBox Panel Dokumentation",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Fjern alle",
     "willRemove": "vil fjerne",
     "havingNoneOf": "Har ingen af",
-    "doNotManuallyApply": "Anvend ikke manuelt"
+    "doNotManuallyApply": "Anvend ikke manuelt",
+    "oneToOneMapping": "Én-til-én-tilknytning",
+    "categoryMapping": "Kategori Kortlægning"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Genstandsindstillinger",
     "editItem": "Rediger genstand",
     "loadingData": "Indlæser data",
-    "combineOptions": "Kombineringsmuligheder"
+    "combineOptions": "Kombineringsmuligheder",
+    "qboxItems": "QBox Genstande",
+    "withinYourQBoxForThisItemToBeUseable": "inden for din QBox for at denne genstand kan bruges."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Spilserveren skal genstartes, før denne ændring vil blive indlæst i runtime.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Fejl: Der opstod en fejl under hentning af serverdata.",
     "na": "N/A",
     "online": "Online",
-    "loadingData": "Indlæser data"
+    "loadingData": "Indlæser data",
+    "qboxCharacters": "QBox Tegn"
   },
   "ForumTopic": {
     "actions": "Handlinger",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Fjern korte URL'er",
     "removeShortenerDesc": "Tillader medlemmer at fjerne korte URL'er i Short URL Manager.",
     "manageDomainsDesc": "Giver medlemmer mulighed for at administrere domæner i Short URL Manager.",
-    "allowsMembersToBlackList": "Blokerer medlem fra at indsende denne skabelon."
+    "allowsMembersToBlackList": "Blokerer medlem fra at indsende denne skabelon.",
+    "allowsMembersToModifyTemplate": "Giver medlemmer mulighed for at ændre denne formularskabelon i Formularopretteren."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

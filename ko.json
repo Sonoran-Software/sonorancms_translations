@@ -213,7 +213,8 @@
     "fields": "필드",
     "appThirdPartySubmit": "타사 애플리케이션/양식 제출",
     "modifyStageSettings": "단계 설정 수정",
-    "blacklist": "블랙리스트 등급"
+    "blacklist": "블랙리스트 등급",
+    "modifyTemplate": "양식 템플릿 수정"
   },
   "departments": {
     "departmentName": "부서 이름",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "커뮤니티에 아직 가입하지 않은 사용자의 경우 대체 계정 감지 플래그를 무시합니다. 의심되는 대체 계정이 커뮤니티에 가입할 때만 플래그를 표시합니다.",
     "lastWeek": "지난주",
     "lastMonth": "지난달",
-    "allTime": "전체 시간"
+    "allTime": "전체 시간",
+    "qboxPanelDocumentation": "큐박스 패널 문서",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -1924,7 +1927,9 @@
     "removeAll": "제거됩니다",
     "willRemove": "길드:",
     "havingNoneOf": "없음",
-    "doNotManuallyApply": "수동으로 적용하지 마십시오"
+    "doNotManuallyApply": "수동으로 적용하지 마십시오",
+    "oneToOneMapping": "일대일 매핑",
+    "categoryMapping": "카테고리 매핑"
   },
   "DiscordRoleMultiSelector": {
     "guild": "길드:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "아이템 편집",
     "editItem": "데이터 로딩 중",
     "loadingData": "결합 옵션",
-    "combineOptions": "이 변경 사항이 런타임에 로드되려면 게임 서버를 재시작해야 합니다."
+    "combineOptions": "이 변경 사항이 런타임에 로드되려면 게임 서버를 재시작해야 합니다.",
+    "qboxItems": "QBox 항목",
+    "withinYourQBoxForThisItemToBeUseable": "해당 항목을 사용하려면 QBox 내에 있어야 합니다."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "저장",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "해당 없음",
     "na": "온라인",
     "online": "데이터 로딩 중",
-    "loadingData": "작업"
+    "loadingData": "작업",
+    "qboxCharacters": "큐박스 캐릭터"
   },
   "ForumTopic": {
     "actions": "잠금 해제",
@@ -4293,7 +4301,8 @@
     "removeShortener": "짧은 URL 제거",
     "removeShortenerDesc": "회원이 짧은 URL 관리에서 짧은 URL을 제거할 수 있도록 허용합니다.",
     "manageDomainsDesc": "단축 URL 관리에서 도메인을 관리할 수 있도록 허용합니다.",
-    "allowsMembersToBlackList": "이 양식 템플릿을 제출하는 것을 회원이 차단합니다."
+    "allowsMembersToBlackList": "이 양식 템플릿을 제출하는 것을 회원이 차단합니다.",
+    "allowsMembersToModifyTemplate": "폼 빌더에서 이 양식 템플릿을 수정할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된"

@@ -213,7 +213,8 @@
     "fields": "Pola",
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
-    "blacklist": "Ranga czarnej listy"
+    "blacklist": "Ranga czarnej listy",
+    "modifyTemplate": "Zmodyfikuj szablon formularza"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignoruj flagi wykrywania alternatywnych kont dla użytkowników, którzy jeszcze nie są w społeczności. Wyświetlaj flagę tylko wtedy, gdy podejrzewane alternatywne konto dołączy do społeczności.",
     "lastWeek": "Zeszły tydzień",
     "lastMonth": "Zeszły miesiąc",
-    "allTime": "Cały czas"
+    "allTime": "Cały czas",
+    "qboxPanelDocumentation": "Dokumentacja Panelu QBox",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -1924,7 +1927,9 @@
     "removeAll": "Usuń wszystko",
     "willRemove": "usunie",
     "havingNoneOf": "Nie mając żadnego z",
-    "doNotManuallyApply": "Nie stosuj ręcznie"
+    "doNotManuallyApply": "Nie stosuj ręcznie",
+    "oneToOneMapping": "Jedno-na-jedno mapowanie",
+    "categoryMapping": "Mapowanie Kategorii"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Opcje przedmiotu",
     "editItem": "Edytuj przedmiot",
     "loadingData": "Ładowanie danych",
-    "combineOptions": "Opcje łączenia"
+    "combineOptions": "Opcje łączenia",
+    "qboxItems": "Przedmioty QBox",
+    "withinYourQBoxForThisItemToBeUseable": "w ​​Twoim QBoxie, aby ten element był użyteczny."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Serwer gry musi zostać zrestartowany, zanim ta zmiana zostanie załadowana do czasu wykonywania.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Błąd: Wystąpił błąd podczas pobierania danych z serwera.",
     "na": "N/D",
     "online": "Online",
-    "loadingData": "Ładowanie danych"
+    "loadingData": "Ładowanie danych",
+    "qboxCharacters": "QBox Postacie"
   },
   "ForumTopic": {
     "actions": "Akcje",
@@ -4361,7 +4369,8 @@
     "removeShortener": "Usuń krótkie URL-e",
     "removeShortenerDesc": "Pozwala członkom usuwać krótkie URL-e w Menedżerze Krótkich URL-i.",
     "manageDomainsDesc": "Pozwala członkom zarządzać domenami w Menedżerze Skróconych URL.",
-    "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza."
+    "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
+    "allowsMembersToModifyTemplate": "Umożliwia członkom modyfikację tego szablonu formularza w Form Builder."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

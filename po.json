@@ -213,7 +213,8 @@
     "fields": "Pola",
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
-    "blacklist": "Rango de la Lista Negra"
+    "blacklist": "Rango de la Lista Negra",
+    "modifyTemplate": "Modyfikuj szablon formularza"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignoruj oznaki wykrycia alternatywnego konta dla użytkowników, którzy jeszcze nie są w społeczności. Wyświetl flagę tylko wtedy, gdy podejrzane alternatywne konto dołączy do społeczności.",
     "lastWeek": "Viime viikko",
     "lastMonth": "Mês Passado",
-    "allTime": "Aller tider"
+    "allTime": "Aller tider",
+    "qboxPanelDocumentation": "QBox Panel Dokumentacija",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -1924,7 +1927,9 @@
     "removeAll": "Usuń wszystko",
     "willRemove": "usunie",
     "havingNoneOf": "Nie mając żadnego z",
-    "doNotManuallyApply": "Nie stosuj ręcznie"
+    "doNotManuallyApply": "Nie stosuj ręcznie",
+    "oneToOneMapping": "Tək-tək xəritələşdirmə",
+    "categoryMapping": "Mapeo de categoría"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Opcje przedmiotu",
     "editItem": "Edytuj przedmiot",
     "loadingData": "Ładowanie danych",
-    "combineOptions": "Opcje łączenia"
+    "combineOptions": "Opcje łączenia",
+    "qboxItems": "Elementos QBox",
+    "withinYourQBoxForThisItemToBeUseable": "dentro de tu QBox para que este elemento sea utilizable."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Serwer gry musi zostać zrestartowany, zanim ta zmiana zostanie załadowana do czasu wykonywania.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Błąd: Wystąpił błąd podczas pobierania danych z serwera.",
     "na": "N/D",
     "online": "Online",
-    "loadingData": "Ładowanie danych"
+    "loadingData": "Ładowanie danych",
+    "qboxCharacters": "QBox Postacie"
   },
   "ForumTopic": {
     "actions": "Akcje",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Quitar URLs cortas",
     "removeShortenerDesc": "Zezwala członkom na usuwanie krótkich adresów URL w Menedżerze krótkich adresów URL.",
     "manageDomainsDesc": "Permite que los miembros gestionen dominios en el Administrador de URL cortas.",
-    "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza."
+    "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
+    "allowsMembersToModifyTemplate": "Permite aos membros modificar este modelo de formulário no Construtor de Formulários."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"

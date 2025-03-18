@@ -213,7 +213,8 @@
     "fields": "Felt",
     "appThirdPartySubmit": "Send inn tredjeparts søknad/skjema",
     "modifyStageSettings": "Endre Scenesinnstillinger",
-    "blacklist": "Svarteliste Rang"
+    "blacklist": "Svarteliste Rang",
+    "modifyTemplate": "Endre skjemamal"
   },
   "departments": {
     "departmentName": "Avdelingsnavn",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "Ignorer varsler for alternative kontoer for brukere som ennå ikke er i samfunnet. Vis varselet kun når den mistenkte alternative kontoen blir med i samfunnet.",
     "lastWeek": "Forrige uke",
     "lastMonth": "Forrige måned",
-    "allTime": "Alle Tider"
+    "allTime": "Alle Tider",
+    "qboxPanelDocumentation": "QBox Panel Dokumentasjon",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -1924,7 +1927,9 @@
     "removeAll": "Fjern alle",
     "willRemove": "vil fjerne",
     "havingNoneOf": "Ingen av",
-    "doNotManuallyApply": "Ikke bruk manuelt"
+    "doNotManuallyApply": "Ikke bruk manuelt",
+    "oneToOneMapping": "Én-til-én-tilordning",
+    "categoryMapping": "Kategori Mapping"
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -2694,7 +2699,9 @@
     "itemOptions": "Gjenstandsvalg",
     "editItem": "Rediger gjenstand",
     "loadingData": "Laster data",
-    "combineOptions": "Kombineringsvalg"
+    "combineOptions": "Kombineringsvalg",
+    "qboxItems": "QBox-varer",
+    "withinYourQBoxForThisItemToBeUseable": "innenfor QBox-en din for at dette elementet skal kunne brukes."
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "Spillserveren må startes på nytt før denne endringen vil bli lastet inn i kjøring.",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Feil: En feil oppstod under henting av serverdata.",
     "na": "N/A",
     "online": "Pålogget",
-    "loadingData": "Laster data"
+    "loadingData": "Laster data",
+    "qboxCharacters": "QBox Tegn"
   },
   "ForumTopic": {
     "actions": "Handlinger",
@@ -4293,7 +4301,8 @@
     "removeShortener": "Fjern korte URL-er",
     "removeShortenerDesc": "Lar medlemmer fjerne korte URLer i kort URL-lederen.",
     "manageDomainsDesc": "Lar medlemmene administrere domener i Short URL Manager.",
-    "allowsMembersToBlackList": "Blokkerer medlem fra å sende inn dette skjemaet."
+    "allowsMembersToBlackList": "Blokkerer medlem fra å sende inn dette skjemaet.",
+    "allowsMembersToModifyTemplate": "Lar medlemmene endre denne skjema malen i Skjemabyggeren."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

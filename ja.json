@@ -213,7 +213,8 @@
     "fields": "フィールド",
     "appThirdPartySubmit": "サードパーティのアプリケーション/フォームを提出",
     "modifyStageSettings": "ステージ設定を変更",
-    "blacklist": "ブラックリストランク"
+    "blacklist": "ブラックリストランク",
+    "modifyTemplate": "フォームテンプレートを変更"
   },
   "departments": {
     "departmentName": "部門名",
@@ -634,7 +635,9 @@
     "ignoreAlternateAccountDetectionFlags": "コミュニティにまだ参加していないユーザーの代替アカウント検出フラグを無視します。疑わしい代替アカウントがコミュニティに参加したときにのみフラグを表示します。",
     "lastWeek": "先週",
     "lastMonth": "先月",
-    "allTime": "オールタイム"
+    "allTime": "オールタイム",
+    "qboxPanelDocumentation": "QBoxパネルドキュメント",
+    "qbox": "QBox"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -1924,7 +1927,9 @@
     "removeAll": "削除されます",
     "willRemove": "ギルド：",
     "havingNoneOf": "を持っていない",
-    "doNotManuallyApply": "手動で適用しない"
+    "doNotManuallyApply": "手動で適用しない",
+    "oneToOneMapping": "一対一対応",
+    "categoryMapping": "カテゴリーマッピング"
   },
   "DiscordRoleMultiSelector": {
     "guild": "ギルド："
@@ -2694,7 +2699,9 @@
     "itemOptions": "アイテムを編集",
     "editItem": "データを読み込み中",
     "loadingData": "組み合わせオプション",
-    "combineOptions": "この変更を反映するにはゲームサーバーを再起動する必要があります。"
+    "combineOptions": "この変更を反映するにはゲームサーバーを再起動する必要があります。",
+    "qboxItems": "QBoxアイテム",
+    "withinYourQBoxForThisItemToBeUseable": "QBox内で、このアイテムを使用可能にしてください。"
   },
   "Gangs": {
     "theGameServerMustBeRestartedBeforeThisCh": "保存",
@@ -2740,7 +2747,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "該当なし",
     "na": "オンライン",
     "online": "データを読み込み中",
-    "loadingData": "アクション"
+    "loadingData": "アクション",
+    "qboxCharacters": "QBox文字"
   },
   "ForumTopic": {
     "actions": "ロック解除",
@@ -4293,7 +4301,8 @@
     "removeShortener": "短縮URLを削除",
     "removeShortenerDesc": "短縮URLマネージャーでメンバーが短縮URLを削除できるようにします。",
     "manageDomainsDesc": "メンバーがショートURLマネージャーでドメインを管理できるようにします。",
-    "allowsMembersToBlackList": "このフォームテンプレートを提出することからメンバーをブロックします。"
+    "allowsMembersToBlackList": "このフォームテンプレートを提出することからメンバーをブロックします。",
+    "allowsMembersToModifyTemplate": "フォームビルダーでこのフォームテンプレートをメンバーが修正できるようにします。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"
