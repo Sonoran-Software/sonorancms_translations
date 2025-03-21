@@ -127,7 +127,7 @@
         "viewExplanation": "Granting this permission will allow a user with this rank to view events within this calendar category.",
         "createExplanation": "Granting this permisison will allow a user with this rank to create events within this calendar category.",
         "removeExplanation": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
-        "editOtherExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Granting this permission will allow a user with this rank to be allowed through the API whitelist (if a user holds the block permission for this server they'll be blocked as block takes precedence).",
@@ -278,7 +278,7 @@
     "viewEvents": "View Events",
     "createEvents": "Create Events",
     "removeEvents": "Remove Events",
-    "editOtherEvents": "Edit Other Events",
+    "editEvents": "Edit Events",
     "createEvent": "Create an Event - Category",
     "eventNotFound": "Event Not Found/Accessible",
     "eventNotFoundDesc": "Either the event does not exist or you do not have permission to view this event directly."
@@ -3329,7 +3329,7 @@
     "permissionstooltipscalendarscreateexplan": "Granting this permisison will allow a user with this rank to create events within this calendar category.",
     "calendarremoveevents": "Remove Events",
     "permissionstooltipscalendarsremoveexplan": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
-    "calendareditotherevents": "Edit Other Events",
+    "calendareditevents": "Edit Events",
     "categorySelection": "Category Selection",
     "commmunityCalendarTutorial": "Commmunity Calendar Tutorial",
     "learnAboutYourCommmunityCalendar": "Learn about Your Commmunity Calendar",
@@ -4287,7 +4287,7 @@
     "allowsMembersToViewEventsThatAreCreatedI": "Allows members to view events that are created in this category.",
     "allowsMembersToCreateEventsWithinThisCat": "Allows members to create events within this category.",
     "allowsMembersToRemoveEventsWithinThisCat": "Allows members to remove events within this category.",
-    "allowsMembersToEditOtherMembersEventsInT": "Allows members to edit other members events in this category.",
+    "allowsMembersToEditMembersEventsInT": "Allows members to edit events in this category.",
     "restrictVisibility": "Restrict Visibility",
     "membersWithThisPermissionWillHaveThisPro": "Members with this permission will have this profile field on their Community Profile.",
     "allowEditing": "Allow Editing",
