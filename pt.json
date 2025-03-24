@@ -127,7 +127,8 @@
         "viewExplanation": "Conceder esta permissão permitirá que um usuário com este cargo visualize eventos dentro desta categoria de calendário.",
         "createExplanation": "Conceder esta permissão permitirá que um usuário com este cargo crie eventos dentro desta categoria de calendário.",
         "removeExplanation": "Conceder esta permissão permitirá que um usuário com este cargo remova eventos dentro desta categoria de calendário.",
-        "editOtherExplanation": "Conceder esta permissão permitirá que um usuário com este cargo edite eventos dentro desta categoria de calendário."
+        "editOtherExplanation": "Conceder esta permissão permitirá que um usuário com este cargo edite eventos dentro desta categoria de calendário.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Conceder esta permissão permitirá que um usuário com este cargo seja permitido através da lista branca da API (se um usuário tiver a permissão de bloqueio para este servidor, ele será bloqueado, pois o bloqueio tem precedência).",
@@ -173,7 +174,9 @@
       "comform": "Formulário da Comunidade",
       "disciplinary": "Ação Disciplinar",
       "training": "Histórico de Treinamento",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Tem certeza de que deseja excluir \"{formName}\"?",
     "secFieldsHeader": "Campos",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Editar Outros Eventos",
     "createEvent": "Criar um Evento - Categoria",
     "eventNotFound": "Evento Não Encontrado/Acessível",
-    "eventNotFoundDesc": "Ou o evento não existe ou você não tem permissão para visualizar este evento diretamente."
+    "eventNotFoundDesc": "Ou o evento não existe ou você não tem permissão para visualizar este evento diretamente.",
+    "editEvents": "Editar Eventos"
   },
   "limits": {
     "version": "Versão",
@@ -3093,7 +3097,10 @@
     "communityName": "Nome da Comunidade",
     "communityNameDescription": "Insere o nome da comunidade do remetente.",
     "discordUsername": "Nome de Usuário do Discord",
-    "discordDescription": "Insere o nome de usuário do Discord do remetente."
+    "discordDescription": "Insere o nome de usuário do Discord do remetente.",
+    "submissionsSelector": "Submissões",
+    "anyoneCanSubmitTypeExplaination": "Qualquer pessoa pode enviar este formulário, nenhuma permissão é necessária.",
+    "rankRestricted": "Apenas as patentes com permissão para enviar este formulário podem enviá-lo."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocorreu um erro ao salvar a página:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Ninguém confirmou presença ainda...",
     "unsuccessfullyRemovedCommunityEvent": "Não foi possível remover o evento da comunidade:",
     "error": "Erro:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "Erro: Detalhes do evento não foram salvos devido a um erro interno"
+    "errorUnsuccessfullySavedEventDetailsDueT": "Erro: Detalhes do evento não foram salvos devido a um erro interno",
+    "calendareditevents": "Edite Eventos"
   },
   "dashboardView": {
     "pending": "PENDENTE",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Permite que os membros removam URLs curtas no Gerenciador de URLs Curtas.",
     "manageDomainsDesc": "Permite que os membros gerenciem domínios no Gerenciador de URL Curta.",
     "allowsMembersToBlackList": "Impede que o membro envie este modelo de formulário.",
-    "allowsMembersToModifyTemplate": "Permite que os membros modifiquem este modelo de formulário no Construtor de Formulários."
+    "allowsMembersToModifyTemplate": "Permite que os membros modifiquem este modelo de formulário no Construtor de Formulários.",
+    "allowsMembersToEditMembersEventsInT": "Permite que os membros editem eventos nesta categoria."
   },
   "permissionToggleGroup": {
     "inherited": "herdado"

@@ -127,7 +127,8 @@
         "viewExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを表示できるようになります。",
         "createExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内でイベントを作成できるようになります。",
         "removeExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを削除できるようになります。",
-        "editOtherExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを編集できるようになります。"
+        "editOtherExplanation": "この権限を付与すると、このランクのユーザーはこのカレンダーカテゴリ内のイベントを編集できるようになります。",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "この権限を付与すると、このランクのユーザーはAPIホワイトリストを通過できるようになります（このサーバーのブロック権限を持っている場合、ブロックが優先されるためブロックされます）。",
@@ -173,7 +174,9 @@
       "comform": "コミュニティフォーム",
       "disciplinary": "懲戒処分",
       "training": "トレーニング履歴",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "本当に「{formName}」を削除しますか？",
     "secFieldsHeader": "フィールド",
@@ -290,7 +293,8 @@
     "editOtherEvents": "他のイベントを編集する",
     "createEvent": "イベントを作成する - カテゴリー",
     "eventNotFound": "イベントが見つからない/アクセスできない",
-    "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。"
+    "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。",
+    "editEvents": "イベントを編集"
   },
   "limits": {
     "version": "バージョン",
@@ -3093,7 +3097,10 @@
     "communityName": "コミュニティ名",
     "communityNameDescription": "送信者のコミュニティ名を挿入します。",
     "discordUsername": "Discordユーザー名",
-    "discordDescription": "提出者のDiscordユーザー名を挿入します。"
+    "discordDescription": "提出者のDiscordユーザー名を挿入します。",
+    "submissionsSelector": "提出物",
+    "anyoneCanSubmitTypeExplaination": "フォームは誰でも提出できます。権限は必要ありません。",
+    "rankRestricted": "このフォームを提出する権限を与えられたランクのみが提出できます。"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "ページが正常に保存されました！",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "イベントを正常に削除しました：",
     "unsuccessfullyRemovedCommunityEvent": "エラー：",
     "error": "イベントを正常に保存しました：",
-    "errorUnsuccessfullySavedEventDetailsDueT": "保留中"
+    "errorUnsuccessfullySavedEventDetailsDueT": "保留中",
+    "calendareditevents": "イベントを編集"
   },
   "dashboardView": {
     "pending": "利用可能なフォームページ",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "短縮URLマネージャーでメンバーが短縮URLを削除できるようにします。",
     "manageDomainsDesc": "メンバーがショートURLマネージャーでドメインを管理できるようにします。",
     "allowsMembersToBlackList": "このフォームテンプレートを提出することからメンバーをブロックします。",
-    "allowsMembersToModifyTemplate": "フォームビルダーでこのフォームテンプレートをメンバーが修正できるようにします。"
+    "allowsMembersToModifyTemplate": "フォームビルダーでこのフォームテンプレートをメンバーが修正できるようにします。",
+    "allowsMembersToEditMembersEventsInT": "このカテゴリのイベントを編集するメンバーを許可します。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"

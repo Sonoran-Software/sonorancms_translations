@@ -127,7 +127,8 @@
         "viewExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om evenementen binnen deze kalendercategorie te bekijken.",
         "createExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om evenementen binnen deze kalendercategorie te maken.",
         "removeExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om evenementen binnen deze kalendercategorie te verwijderen.",
-        "editOtherExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om evenementen binnen deze kalendercategorie te bewerken."
+        "editOtherExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om evenementen binnen deze kalendercategorie te bewerken.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om door de API-witte lijst te worden toegelaten (als een gebruiker de blokkeerrechten voor deze server heeft, worden ze geblokkeerd omdat blokkeren voorrang heeft).",
@@ -173,7 +174,9 @@
       "comform": "Gemeenschapsformulier",
       "disciplinary": "Disciplinaire Actie",
       "training": "Trainingsgeschiedenis",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Weet je zeker dat je \"{formName}\" wilt verwijderen?",
     "secFieldsHeader": "Velden",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Bewerk Andere Evenementen",
     "createEvent": "Maak een Evenement - Categorie",
     "eventNotFound": "Evenement Niet Gevonden/Toegankelijk",
-    "eventNotFoundDesc": "Het evenement bestaat niet of je hebt geen toestemming om dit evenement direct te bekijken."
+    "eventNotFoundDesc": "Het evenement bestaat niet of je hebt geen toestemming om dit evenement direct te bekijken.",
+    "editEvents": "Bewerk evenementen"
   },
   "limits": {
     "version": "Versie",
@@ -3093,7 +3097,10 @@
     "communityName": "Gemeenschapsnaam",
     "communityNameDescription": "Voegt de naam van de gemeenschap van de inzender in.",
     "discordUsername": "Discord Gebruikersnaam",
-    "discordDescription": "Voegt de Discord-gebruikersnaam van de inzender in."
+    "discordDescription": "Voegt de Discord-gebruikersnaam van de inzender in.",
+    "submissionsSelector": "Inzendingen",
+    "anyoneCanSubmitTypeExplaination": "Iedereen kan dit formulier indienen, geen toestemming vereist.",
+    "rankRestricted": "Alleen rangen met toestemming om dit formulier in te dienen, kunnen het indienen."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Er is een fout opgetreden bij het opslaan van de pagina:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Nog niemand heeft zich aangemeld...",
     "unsuccessfullyRemovedCommunityEvent": "Community-evenement niet succesvol verwijderd:",
     "error": "Fout:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Fout: Evenementdetails niet succesvol opgeslagen vanwege een interne fout`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Fout: Evenementdetails niet succesvol opgeslagen vanwege een interne fout`",
+    "calendareditevents": "Bewerk Evenementen"
   },
   "dashboardView": {
     "pending": "IN AFWACHTING",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Staat leden toe korte URL's te verwijderen in de Korte URL Manager.",
     "manageDomainsDesc": "Hiermee kunnen leden domeinen beheren in de Korte URL Beheerder.",
     "allowsMembersToBlackList": "Blokkeert lid van het indienen van deze formulier sjabloon.",
-    "allowsMembersToModifyTemplate": "Staat leden toe om deze formulier template te wijzigen in de Formulier Builder."
+    "allowsMembersToModifyTemplate": "Staat leden toe om deze formulier template te wijzigen in de Formulier Builder.",
+    "allowsMembersToEditMembersEventsInT": "Hiermee kunnen leden evenementen in deze categorie bewerken."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"

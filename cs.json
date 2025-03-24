@@ -127,7 +127,8 @@
         "viewExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností zobrazit události v této kategorii kalendáře.",
         "createExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností vytvářet události v této kategorii kalendáře.",
         "removeExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností odstraňovat události v této kategorii kalendáře.",
-        "editOtherExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravovat události v této kategorii kalendáře."
+        "editOtherExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností upravovat události v této kategorii kalendáře.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností být povolen prostřednictvím whitelistu API (pokud má uživatel blokovací oprávnění pro tento server, bude zablokován, protože blokování má přednost).",
@@ -173,7 +174,9 @@
       "comform": "Formulář komunity",
       "disciplinary": "Kárné opatření",
       "training": "Historie školení",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Jste si jisti, že chcete smazat \"{formName}\"?",
     "secFieldsHeader": "Položky",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Upravit jiné události",
     "createEvent": "Vytvořit událost - Kategorie",
     "eventNotFound": "Událost nenalezena/nepřístupná",
-    "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit."
+    "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit.",
+    "editEvents": "Upravit události"
   },
   "limits": {
     "version": "Verze",
@@ -3093,7 +3097,10 @@
     "communityName": "Název komunity",
     "communityNameDescription": "Vloží název komunity odesílatele.",
     "discordUsername": "Uživatelské jméno na Discordu",
-    "discordDescription": "Vloží discordové uživatelské jméno odesílatele."
+    "discordDescription": "Vloží discordové uživatelské jméno odesílatele.",
+    "submissionsSelector": "Podání",
+    "anyoneCanSubmitTypeExplaination": "Kdokoli může tento formulář odeslat, nejsou potřebná žádná oprávnění.",
+    "rankRestricted": "Pouze hodnosti s oprávněním k odeslání tohoto formuláře mohou odesílat."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Došlo k chybě při ukládání stránky:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Nikdo se zatím nepřihlásil...",
     "unsuccessfullyRemovedCommunityEvent": "Komunitní událost nebyla úspěšně odstraněna:",
     "error": "Chyba:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Chyba: Podrobnosti události nebyly úspěšně uloženy kvůli interní chybě`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Chyba: Podrobnosti události nebyly úspěšně uloženy kvůli interní chybě`",
+    "calendareditevents": "Upravit události"
   },
   "dashboardView": {
     "pending": "ČEKÁ",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Umožňuje členům odstranit krátké URL v položce Správce krátkých URL.",
     "manageDomainsDesc": "Umožňuje členům spravovat domény ve správci krátkých URL.",
     "allowsMembersToBlackList": "Zabrání členovi odeslat tuto šablonu formuláře.",
-    "allowsMembersToModifyTemplate": "Umožňuje členům upravit tuto šablonu formuláře v Návrháři formulářů."
+    "allowsMembersToModifyTemplate": "Umožňuje členům upravit tuto šablonu formuláře v Návrháři formulářů.",
+    "allowsMembersToEditMembersEventsInT": "Umožňuje členům upravovat události v této kategorii."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"

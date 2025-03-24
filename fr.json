@@ -127,7 +127,8 @@
         "viewExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de voir les événements dans cette catégorie de calendrier.",
         "createExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de créer des événements dans cette catégorie de calendrier.",
         "removeExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer des événements dans cette catégorie de calendrier.",
-        "editOtherExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier des événements dans cette catégorie de calendrier."
+        "editOtherExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de modifier des événements dans cette catégorie de calendrier.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang d'être autorisé via la liste blanche de l'API (si un utilisateur détient la permission de blocage pour ce serveur, il sera bloqué car le blocage a la priorité).",
@@ -173,7 +174,9 @@
       "comform": "Formulaire de communauté",
       "disciplinary": "Action disciplinaire",
       "training": "Historique de formation",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Êtes-vous sûr de vouloir supprimer \"{formName}\" ?",
     "secFieldsHeader": "Champs",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Modifier d'Autres Événements",
     "createEvent": "Créer un Événement - Catégorie",
     "eventNotFound": "Événement Non Trouvé/Accessible",
-    "eventNotFoundDesc": "Soit l'événement n'existe pas, soit vous n'avez pas la permission de voir cet événement directement."
+    "eventNotFoundDesc": "Soit l'événement n'existe pas, soit vous n'avez pas la permission de voir cet événement directement.",
+    "editEvents": "Modifier les événements"
   },
   "limits": {
     "version": "Version",
@@ -3093,7 +3097,10 @@
     "communityName": "Nom de la communauté",
     "communityNameDescription": "Insère le nom de la communauté du soumissionnaire.",
     "discordUsername": "Nom d'utilisateur Discord",
-    "discordDescription": "Insère le nom d'utilisateur Discord de l'expéditeur."
+    "discordDescription": "Insère le nom d'utilisateur Discord de l'expéditeur.",
+    "submissionsSelector": "Soumissions",
+    "anyoneCanSubmitTypeExplaination": "N'importe qui peut soumettre ce formulaire, aucune autorisation requise.",
+    "rankRestricted": "Seuls les grades ayant la permission de soumettre ce formulaire peuvent le soumettre."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Une erreur est survenue lors de l'enregistrement de la page :",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Personne n'a encore répondu...",
     "unsuccessfullyRemovedCommunityEvent": "Événement communautaire non supprimé :",
     "error": "Erreur :",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Erreur : Détails de l'événement non enregistrés en raison d'une erreur interne`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Erreur : Détails de l'événement non enregistrés en raison d'une erreur interne`",
+    "calendareditevents": "Modifier les événements"
   },
   "dashboardView": {
     "pending": "EN ATTENTE",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Permet aux membres de supprimer les URLs courtes dans le Gestionnaire de URLs courtes.",
     "manageDomainsDesc": "Permet aux membres de gérer les domaines dans le Gestionnaire de URL courtes.",
     "allowsMembersToBlackList": "Empêche le membre de soumettre ce modèle de formulaire.",
-    "allowsMembersToModifyTemplate": "Permet aux membres de modifier ce modèle de formulaire dans le Form Builder."
+    "allowsMembersToModifyTemplate": "Permet aux membres de modifier ce modèle de formulaire dans le Form Builder.",
+    "allowsMembersToEditMembersEventsInT": "Permet aux membres de modifier les événements dans cette catégorie."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"

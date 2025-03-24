@@ -127,7 +127,8 @@
         "viewExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att se händelser inom denna kalenderkategori.",
         "createExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att skapa händelser inom denna kalenderkategori.",
         "removeExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att ta bort händelser inom denna kalenderkategori.",
-        "editOtherExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera händelser inom denna kalenderkategori."
+        "editOtherExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att redigera händelser inom denna kalenderkategori.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att tillåtas genom API-whitelist (om en användare har blockbehörigheten för denna server kommer de att blockeras eftersom blockeringen har företräde).",
@@ -173,7 +174,9 @@
       "comform": "Gemenskapsformulär",
       "disciplinary": "Disciplinär åtgärd",
       "training": "Träningshistorik",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Är du säker på att du vill radera \"{formName}\"?",
     "secFieldsHeader": "Fält",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Redigera Andra Evenemang",
     "createEvent": "Skapa ett Evenemang - Kategori",
     "eventNotFound": "Evenemang Ej Hittat/Tillgängligt",
-    "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt."
+    "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt.",
+    "editEvents": "Redigera händelser"
   },
   "limits": {
     "version": "Version",
@@ -3093,7 +3097,10 @@
     "communityName": "Communitynamn",
     "communityNameDescription": "Sätter in inlämnarens gemenskapsnamn.",
     "discordUsername": "Discord-användarnamn",
-    "discordDescription": "Sätter in inlämnarens Discord-användarnamn."
+    "discordDescription": "Sätter in inlämnarens Discord-användarnamn.",
+    "submissionsSelector": "Inlämningar",
+    "anyoneCanSubmitTypeExplaination": "Vem som helst kan skicka in detta formulär, inga behörigheter krävs.",
+    "rankRestricted": "Endast rang som har fått behörighet att skicka in detta formulär kan skicka in."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fel uppstod vid sparande av sida:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Ingen har RSVPd ännu...",
     "unsuccessfullyRemovedCommunityEvent": "Kunde inte ta bort community-evenemang:",
     "error": "Fel:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Fel: Kunde inte spara evenemangsdetaljer på grund av ett internt fel`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Fel: Kunde inte spara evenemangsdetaljer på grund av ett internt fel`",
+    "calendareditevents": "Redigera händelser"
   },
   "dashboardView": {
     "pending": "PÅGÅENDE",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Tillåter medlemmar att ta bort korta URL:er i hanteraren för korta URL:er.",
     "manageDomainsDesc": "Låter medlemmar hantera domäner i Kort-URL-hanteraren.",
     "allowsMembersToBlackList": "Hindrar medlem från att skicka in denna formulärmall.",
-    "allowsMembersToModifyTemplate": "Tillåter medlemmar att ändra denna formmall i formulärbyggaren."
+    "allowsMembersToModifyTemplate": "Tillåter medlemmar att ändra denna formmall i formulärbyggaren.",
+    "allowsMembersToEditMembersEventsInT": "Tillåter medlemmar att redigera händelser i denna kategori."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"

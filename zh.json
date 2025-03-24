@@ -127,7 +127,8 @@
         "viewExplanation": "授予此权限将允许具有此等级的用户查看此日历类别中的事件。",
         "createExplanation": "授予此权限将允许具有此等级的用户在此日历类别中创建事件。",
         "removeExplanation": "授予此权限将允许具有此等级的用户删除此日历类别中的事件。",
-        "editOtherExplanation": "授予此权限将允许具有此等级的用户编辑此日历类别中的事件。"
+        "editOtherExplanation": "授予此权限将允许具有此等级的用户编辑此日历类别中的事件。",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "授予此权限将允许具有此等级的用户通过API白名单（如果用户持有此服务器的阻止权限，他们将被阻止，因为阻止优先）。",
@@ -173,7 +174,9 @@
       "comform": "社区表单",
       "disciplinary": "纪律处分",
       "training": "培训历史",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "您确定要删除 \"{formName}\" 吗？",
     "secFieldsHeader": "字段",
@@ -290,7 +293,8 @@
     "editOtherEvents": "编辑其他事件",
     "createEvent": "创建事件 - 类别",
     "eventNotFound": "未找到/无法访问事件",
-    "eventNotFoundDesc": "事件不存在或你没有权限直接查看此事件。"
+    "eventNotFoundDesc": "事件不存在或你没有权限直接查看此事件。",
+    "editEvents": "编辑活动"
   },
   "limits": {
     "version": "版本",
@@ -3093,7 +3097,10 @@
     "communityName": "社区名称",
     "communityNameDescription": "插入提交者的社区名称。",
     "discordUsername": "Discord 用户名",
-    "discordDescription": "插入提交者的Discord用户名。"
+    "discordDescription": "插入提交者的Discord用户名。",
+    "submissionsSelector": "提交",
+    "anyoneCanSubmitTypeExplaination": "任何人都可以提交此表单，无需权限。",
+    "rankRestricted": "只有被授予权限的级别才能提交此表单。"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "保存页面时发生错误：",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "还没有人RSVP...",
     "unsuccessfullyRemovedCommunityEvent": "未能成功移除社区事件：",
     "error": "错误：",
-    "errorUnsuccessfullySavedEventDetailsDueT": "错误：由于内部错误未能成功保存事件详情"
+    "errorUnsuccessfullySavedEventDetailsDueT": "错误：由于内部错误未能成功保存事件详情",
+    "calendareditevents": "编辑事件"
   },
   "dashboardView": {
     "pending": "待定",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "允许成员在短网址管理器中删除短网址。",
     "manageDomainsDesc": "允许成员在短网址管理器中管理域名。",
     "allowsMembersToBlackList": "阻止成员提交此表单模板。",
-    "allowsMembersToModifyTemplate": "允许成员在表单构建器中修改此表单模板。"
+    "allowsMembersToModifyTemplate": "允许成员在表单构建器中修改此表单模板。",
+    "allowsMembersToEditMembersEventsInT": "允许成员编辑此类别中的事件。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"

@@ -127,7 +127,8 @@
         "viewExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بعرض الأحداث ضمن هذه الفئة من التقويم.",
         "createExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإنشاء أحداث ضمن هذه الفئة من التقويم.",
         "removeExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بإزالة الأحداث ضمن هذه الفئة من التقويم.",
-        "editOtherExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير الأحداث ضمن هذه الفئة من التقويم."
+        "editOtherExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتحرير الأحداث ضمن هذه الفئة من التقويم.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بأن يُسمح له من خلال القائمة البيضاء لواجهة برمجة التطبيقات (إذا كان المستخدم يحمل إذن الحظر لهذا الخادم فسيتم حظره لأن الحظر له الأولوية).",
@@ -173,7 +174,9 @@
       "comform": "نموذج المجتمع",
       "disciplinary": "إجراء تأديبي",
       "training": "تاريخ التدريب",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "هل أنت متأكد أنك تريد حذف \"{formName}\"؟",
     "secFieldsHeader": "الحقول",
@@ -290,7 +293,8 @@
     "editOtherEvents": "تحرير أحداث أخرى",
     "createEvent": "إنشاء حدث - الفئة",
     "eventNotFound": "الحدث غير موجود/غير قابل للوصول",
-    "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة."
+    "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة.",
+    "editEvents": "تحرير الأحداث"
   },
   "limits": {
     "version": "الإصدار",
@@ -3093,7 +3097,10 @@
     "communityName": "اسم المجتمع",
     "communityNameDescription": "يدرج اسم مجتمع المرسل.",
     "discordUsername": "اسم مستخدم Discord",
-    "discordDescription": "يدرج اسم مستخدم Discord للمقدم."
+    "discordDescription": "يدرج اسم مستخدم Discord للمقدم.",
+    "submissionsSelector": "التقديمات",
+    "anyoneCanSubmitTypeExplaination": "أي شخص يمكنه إرسال هذا النموذج، لا يتطلب أذونات.",
+    "rankRestricted": "فقط الرتب التي حصلت على إذن بتقديم هذا النموذج يمكنها التقديم."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "حدث خطأ أثناء حفظ الصفحة:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "لم يقم أحد بالحضور بعد...",
     "unsuccessfullyRemovedCommunityEvent": "لم يتم إزالة حدث المجتمع بنجاح:",
     "error": "خطأ:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "خطأ: لم يتم حفظ تفاصيل الحدث بنجاح بسبب خطأ داخلي"
+    "errorUnsuccessfullySavedEventDetailsDueT": "خطأ: لم يتم حفظ تفاصيل الحدث بنجاح بسبب خطأ داخلي",
+    "calendareditevents": "تعديل الأحداث"
   },
   "dashboardView": {
     "pending": "قيد الانتظار",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "يسمح للأعضاء بحذف الروابط القصيرة في مدير الروابط القصيرة.",
     "manageDomainsDesc": "يسمح للأعضاء بإدارة النطاقات في مدير الروابط القصيرة.",
     "allowsMembersToBlackList": "يمنع العضو من إرسال نموذج الطلب هذا.",
-    "allowsMembersToModifyTemplate": "يسمح للأعضاء بتعديل قالب النموذج هذا في مُنشئ النماذج."
+    "allowsMembersToModifyTemplate": "يسمح للأعضاء بتعديل قالب النموذج هذا في مُنشئ النماذج.",
+    "allowsMembersToEditMembersEventsInT": "يسمح للأعضاء بتحرير الفعاليات في هذه الفئة."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"

@@ -127,7 +127,8 @@
         "viewExplanation": "At give denne tilladelse vil give en bruger med denne rang mulighed for at se begivenheder inden for denne kalenderkategori.",
         "createExplanation": "At give denne tilladelse vil give en bruger med denne rang mulighed for at oprette begivenheder inden for denne kalenderkategori.",
         "removeExplanation": "At give denne tilladelse vil give en bruger med denne rang mulighed for at fjerne begivenheder inden for denne kalenderkategori.",
-        "editOtherExplanation": "At give denne tilladelse vil give en bruger med denne rang mulighed for at redigere begivenheder inden for denne kalenderkategori."
+        "editOtherExplanation": "At give denne tilladelse vil give en bruger med denne rang mulighed for at redigere begivenheder inden for denne kalenderkategori.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "At give denne tilladelse vil give en bruger med denne rang mulighed for at blive tilladt gennem API-whitelist (hvis en bruger har blokeringstilladelsen for denne server, vil de blive blokeret, da blokering har forrang).",
@@ -173,7 +174,9 @@
       "comform": "Fællesskabsformular",
       "disciplinary": "Disciplinær handling",
       "training": "Træningshistorik",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Er du sikker på, at du vil slette \"{formName}\"?",
     "secFieldsHeader": "Felter",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Rediger Andre Begivenheder",
     "createEvent": "Opret en Begivenhed - Kategori",
     "eventNotFound": "Begivenhed Ikke Fundet/Tilgængelig",
-    "eventNotFoundDesc": "Enten eksisterer begivenheden ikke, eller du har ikke tilladelse til at se denne begivenhed direkte."
+    "eventNotFoundDesc": "Enten eksisterer begivenheden ikke, eller du har ikke tilladelse til at se denne begivenhed direkte.",
+    "editEvents": "Rediger begivenheder"
   },
   "limits": {
     "version": "Version",
@@ -3093,7 +3097,10 @@
     "communityName": "Fællesskabsnavn",
     "communityNameDescription": "Indsætter indsenderens fællesskabsnavn.",
     "discordUsername": "Discord Brugernavn",
-    "discordDescription": "Indsætter indsenderens Discord-brugernavn."
+    "discordDescription": "Indsætter indsenderens Discord-brugernavn.",
+    "submissionsSelector": "Indsendelser",
+    "anyoneCanSubmitTypeExplaination": "Enhver kan indsende denne formular, ingen tilladelser kræves.",
+    "rankRestricted": "Kun rangeringer, der har tilladelse til at indsende denne formular, kan indsende."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Der opstod en fejl under lagring af siden:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Ingen har RSVPd endnu...",
     "unsuccessfullyRemovedCommunityEvent": "Kunne ikke fjerne fællesskabsbegivenhed:",
     "error": "Fejl:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Fejl: Begivenhedsdetaljer blev ikke gemt på grund af en intern fejl`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Fejl: Begivenhedsdetaljer blev ikke gemt på grund af en intern fejl`",
+    "calendareditevents": "Rediger begivenheder"
   },
   "dashboardView": {
     "pending": "AFVENTER",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Tillader medlemmer at fjerne korte URL'er i Short URL Manager.",
     "manageDomainsDesc": "Giver medlemmer mulighed for at administrere domæner i Short URL Manager.",
     "allowsMembersToBlackList": "Blokerer medlem fra at indsende denne skabelon.",
-    "allowsMembersToModifyTemplate": "Giver medlemmer mulighed for at ændre denne formularskabelon i Formularopretteren."
+    "allowsMembersToModifyTemplate": "Giver medlemmer mulighed for at ændre denne formularskabelon i Formularopretteren.",
+    "allowsMembersToEditMembersEventsInT": "Tillader medlemmer at redigere begivenheder i denne kategori."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

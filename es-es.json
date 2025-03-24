@@ -127,7 +127,8 @@
         "viewExplanation": "Conceder este permiso permitirá a un usuario con este rango ver eventos dentro de esta categoría de calendario.",
         "createExplanation": "Conceder este permiso permitirá a un usuario con este rango crear eventos dentro de esta categoría de calendario.",
         "removeExplanation": "Conceder este permiso permitirá a un usuario con este rango eliminar eventos dentro de esta categoría de calendario.",
-        "editOtherExplanation": "Conceder este permiso permitirá a un usuario con este rango editar eventos dentro de esta categoría de calendario."
+        "editOtherExplanation": "Conceder este permiso permitirá a un usuario con este rango editar eventos dentro de esta categoría de calendario.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Conceder este permiso permitirá a un usuario con este rango ser permitido a través de la lista blanca de la API (si un usuario tiene el permiso de bloqueo para este servidor, será bloqueado ya que el bloqueo tiene prioridad).",
@@ -173,7 +174,9 @@
       "comform": "Formulario de la Comunidad",
       "disciplinary": "Acción Disciplinaria",
       "training": "Historial de Entrenamiento",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "¿Estás seguro de que quieres eliminar \"{formName}\"?",
     "secFieldsHeader": "Campos",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Editar Otros Eventos",
     "createEvent": "Crear un Evento - Categoría",
     "eventNotFound": "Evento No Encontrado/Accesible",
-    "eventNotFoundDesc": "O el evento no existe o no tienes permiso para ver este evento directamente."
+    "eventNotFoundDesc": "O el evento no existe o no tienes permiso para ver este evento directamente.",
+    "editEvents": "Editar eventos"
   },
   "limits": {
     "version": "Versión",
@@ -3093,7 +3097,10 @@
     "communityName": "Nombre de la Comunidad",
     "communityNameDescription": "Inserta el nombre de la comunidad del remitente.",
     "discordUsername": "Nombre de usuario de Discord",
-    "discordDescription": "Inserta el nombre de usuario de Discord del remitente."
+    "discordDescription": "Inserta el nombre de usuario de Discord del remitente.",
+    "submissionsSelector": "Envíos",
+    "anyoneCanSubmitTypeExplaination": "Cualquiera puede enviar este formulario, no se requieren permisos.",
+    "rankRestricted": "Solo los rangos con permiso para enviar este formulario pueden enviarlo."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocurrió un error al guardar la página:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Nadie ha confirmado su asistencia aún...",
     "unsuccessfullyRemovedCommunityEvent": "Evento de la comunidad no eliminado exitosamente:",
     "error": "Error:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Error: Detalles del evento no guardados exitosamente debido a un error interno`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Error: Detalles del evento no guardados exitosamente debido a un error interno`",
+    "calendareditevents": "Editar eventos"
   },
   "dashboardView": {
     "pending": "PENDIENTE",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Permite a los miembros eliminar URL cortas en el Administrador de URL Cortas.",
     "manageDomainsDesc": "Permite a los miembros gestionar dominios en el Administrador de URL Cortas.",
     "allowsMembersToBlackList": "Impide que el miembro envíe esta plantilla de formulario.",
-    "allowsMembersToModifyTemplate": "Permite a los miembros modificar esta plantilla de formulario en el Constructor de Formularios."
+    "allowsMembersToModifyTemplate": "Permite a los miembros modificar esta plantilla de formulario en el Constructor de Formularios.",
+    "allowsMembersToEditMembersEventsInT": "Permite a los miembros editar eventos en esta categoría."
   },
   "permissionToggleGroup": {
     "inherited": "heredado"

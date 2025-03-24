@@ -127,7 +127,8 @@
         "viewExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na przeglądanie wydarzeń w tej kategorii kalendarza.",
         "createExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na tworzenie wydarzeń w tej kategorii kalendarza.",
         "removeExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na usuwanie wydarzeń w tej kategorii kalendarza.",
-        "editOtherExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na edytowanie wydarzeń w tej kategorii kalendarza."
+        "editOtherExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na edytowanie wydarzeń w tej kategorii kalendarza.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na dostęp przez białą listę API (jeśli użytkownik ma uprawnienie blokowania dla tego serwera, będzie zablokowany, ponieważ blokowanie ma pierwszeństwo).",
@@ -173,7 +174,9 @@
       "comform": "Formularz społeczności",
       "disciplinary": "Działanie dyscyplinarne",
       "training": "Historia szkoleń",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Czy na pewno chcesz usunąć \"{formName}\"?",
     "secFieldsHeader": "Pola",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Edytuj Inne Wydarzenia",
     "createEvent": "Utwórz Wydarzenie - Kategoria",
     "eventNotFound": "Wydarzenie Nie Znalezione/Niedostępne",
-    "eventNotFoundDesc": "Albo wydarzenie nie istnieje, albo nie masz uprawnień do bezpośredniego przeglądania tego wydarzenia."
+    "eventNotFoundDesc": "Albo wydarzenie nie istnieje, albo nie masz uprawnień do bezpośredniego przeglądania tego wydarzenia.",
+    "editEvents": "Edytuj wydarzenia"
   },
   "limits": {
     "version": "Wersja",
@@ -3093,7 +3097,10 @@
     "communityName": "Nazwa społeczności",
     "communityNameDescription": "Wstawia nazwę społeczności zgłaszającego.",
     "discordUsername": "Nazwa użytkownika Discord",
-    "discordDescription": "Wstawia nazwę użytkownika Discord zgłaszającego."
+    "discordDescription": "Wstawia nazwę użytkownika Discord zgłaszającego.",
+    "submissionsSelector": "Zgłoszenia",
+    "anyoneCanSubmitTypeExplaination": "Każdy może przesłać ten formularz, nie są wymagane żadne uprawnienia.",
+    "rankRestricted": "Tylko stopnie posiadające uprawnienia do przesyłania tego formularza mogą go przesłać."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Nikt jeszcze nie odpowiedział na RSVP...",
     "unsuccessfullyRemovedCommunityEvent": "Nie udało się usunąć wydarzenia społecznościowego:",
     "error": "Błąd:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Błąd: Nie udało się zapisać szczegółów wydarzenia z powodu błędu wewnętrznego`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Błąd: Nie udało się zapisać szczegółów wydarzenia z powodu błędu wewnętrznego`",
+    "calendareditevents": "Edytuj wydarzenia"
   },
   "dashboardView": {
     "pending": "OCZEKUJĄCE",
@@ -4370,7 +4378,8 @@
     "removeShortenerDesc": "Pozwala członkom usuwać krótkie URL-e w Menedżerze Krótkich URL-i.",
     "manageDomainsDesc": "Pozwala członkom zarządzać domenami w Menedżerze Skróconych URL.",
     "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
-    "allowsMembersToModifyTemplate": "Umożliwia członkom modyfikację tego szablonu formularza w Form Builder."
+    "allowsMembersToModifyTemplate": "Umożliwia członkom modyfikację tego szablonu formularza w Form Builder.",
+    "allowsMembersToEditMembersEventsInT": "Pozwala członkom edytować wydarzenia w tej kategorii."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

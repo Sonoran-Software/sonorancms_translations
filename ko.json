@@ -127,7 +127,8 @@
         "viewExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 달력 카테고리 내의 이벤트를 볼 수 있습니다.",
         "createExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 달력 카테고리 내에서 이벤트를 생성할 수 있습니다.",
         "removeExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 달력 카테고리 내의 이벤트를 제거할 수 있습니다.",
-        "editOtherExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 달력 카테고리 내의 이벤트를 편집할 수 있습니다."
+        "editOtherExplanation": "이 권한을 부여하면 이 등급의 사용자가 이 달력 카테고리 내의 이벤트를 편집할 수 있습니다.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "이 권한을 부여하면 이 등급의 사용자가 API 화이트리스트를 통해 허용됩니다 (이 서버에 대한 차단 권한을 가진 사용자는 차단이 우선되므로 차단됩니다).",
@@ -173,7 +174,9 @@
       "comform": "커뮤니티 양식",
       "disciplinary": "징계 조치",
       "training": "훈련 이력",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "\"{formName}\"을(를) 정말로 삭제하시겠습니까?",
     "secFieldsHeader": "필드",
@@ -290,7 +293,8 @@
     "editOtherEvents": "다른 이벤트 수정",
     "createEvent": "이벤트 생성 - 카테고리",
     "eventNotFound": "이벤트를 찾을 수 없음/접근 불가",
-    "eventNotFoundDesc": "이벤트가 존재하지 않거나 이 이벤트를 직접 볼 수 있는 권한이 없습니다."
+    "eventNotFoundDesc": "이벤트가 존재하지 않거나 이 이벤트를 직접 볼 수 있는 권한이 없습니다.",
+    "editEvents": "이벤트 편집"
   },
   "limits": {
     "version": "버전",
@@ -3093,7 +3097,10 @@
     "communityName": "커뮤니티 이름",
     "communityNameDescription": "제출자의 커뮤니티 이름을 삽입합니다.",
     "discordUsername": "Discord 사용자 이름",
-    "discordDescription": "제출자의 Discord 사용자 이름을 삽입합니다."
+    "discordDescription": "제출자의 Discord 사용자 이름을 삽입합니다.",
+    "submissionsSelector": "제출물",
+    "anyoneCanSubmitTypeExplaination": "누구나 이 양식을 제출할 수 있으며, 권한이 필요하지 않습니다.",
+    "rankRestricted": "이 양식을 제출할 권한이 부여된 계급만 제출할 수 있습니다."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "페이지를 저장하는 데 문제가 발생했습니다",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "커뮤니티 이벤트를 제거하지 못했습니다:",
     "unsuccessfullyRemovedCommunityEvent": "이벤트가 성공적으로 저장되었습니다:",
     "error": "`오류: 내부 오류로 인해 이벤트 세부 정보를 저장하지 못했습니다`",
-    "errorUnsuccessfullySavedEventDetailsDueT": "사용 가능한 양식 페이지"
+    "errorUnsuccessfullySavedEventDetailsDueT": "사용 가능한 양식 페이지",
+    "calendareditevents": "이벤트 편집"
   },
   "dashboardView": {
     "pending": "신청서 제출",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "회원이 짧은 URL 관리에서 짧은 URL을 제거할 수 있도록 허용합니다.",
     "manageDomainsDesc": "단축 URL 관리에서 도메인을 관리할 수 있도록 허용합니다.",
     "allowsMembersToBlackList": "이 양식 템플릿을 제출하는 것을 회원이 차단합니다.",
-    "allowsMembersToModifyTemplate": "폼 빌더에서 이 양식 템플릿을 수정할 수 있도록 허용합니다."
+    "allowsMembersToModifyTemplate": "폼 빌더에서 이 양식 템플릿을 수정할 수 있도록 허용합니다.",
+    "allowsMembersToEditMembersEventsInT": "이 범주의 이벤트를 편집할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된"

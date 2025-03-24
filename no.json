@@ -127,7 +127,8 @@
         "viewExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å se hendelser innenfor denne kalenderkategorien.",
         "createExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å opprette hendelser innenfor denne kalenderkategorien.",
         "removeExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å fjerne hendelser innenfor denne kalenderkategorien.",
-        "editOtherExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å redigere hendelser innenfor denne kalenderkategorien."
+        "editOtherExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å redigere hendelser innenfor denne kalenderkategorien.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Å gi denne tillatelsen vil tillate en bruker med denne rangeringen å bli tillatt gjennom API-whitelisten (hvis en bruker har blokkeringstillatelsen for denne serveren, vil de bli blokkert da blokkering har forrang).",
@@ -173,7 +174,9 @@
       "comform": "Fellesskapsskjema",
       "disciplinary": "Disiplinærtiltak",
       "training": "Opplæringshistorikk",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Er du sikker på at du vil slette \"{formName}\"?",
     "secFieldsHeader": "Felt",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Rediger Andre Hendelser",
     "createEvent": "Opprett en Hendelse - Kategori",
     "eventNotFound": "Hendelse Ikke Funnet/Tilgjengelig",
-    "eventNotFoundDesc": "Enten eksisterer ikke hendelsen eller du har ikke tillatelse til å se denne hendelsen direkte."
+    "eventNotFoundDesc": "Enten eksisterer ikke hendelsen eller du har ikke tillatelse til å se denne hendelsen direkte.",
+    "editEvents": "Rediger hendelser"
   },
   "limits": {
     "version": "Versjon",
@@ -3093,7 +3097,10 @@
     "communityName": "Navn på fellesskap",
     "communityNameDescription": "Setter inn navnet til innsenderens fellesskap.",
     "discordUsername": "Discord Brukernavn",
-    "discordDescription": "Setter inn innsenderens Discord-brukernavn."
+    "discordDescription": "Setter inn innsenderens Discord-brukernavn.",
+    "submissionsSelector": "Innsendinger",
+    "anyoneCanSubmitTypeExplaination": "Hvem som helst kan sende inn dette skjemaet, ingen tillatelser kreves.",
+    "rankRestricted": "Bare grader som har fått tillatelse til å sende inn dette skjemaet kan sende inn."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Det oppsto en feil under lagring av siden:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Ingen har RSVPd ennå...",
     "unsuccessfullyRemovedCommunityEvent": "Kunne ikke fjerne fellesskapshendelse:",
     "error": "Feil:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Feil: Kunne ikke lagre hendelsesdetaljer på grunn av en intern feil`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Feil: Kunne ikke lagre hendelsesdetaljer på grunn av en intern feil`",
+    "calendareditevents": "Rediger hendelser"
   },
   "dashboardView": {
     "pending": "VENTER",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Lar medlemmer fjerne korte URLer i kort URL-lederen.",
     "manageDomainsDesc": "Lar medlemmene administrere domener i Short URL Manager.",
     "allowsMembersToBlackList": "Blokkerer medlem fra å sende inn dette skjemaet.",
-    "allowsMembersToModifyTemplate": "Lar medlemmene endre denne skjema malen i Skjemabyggeren."
+    "allowsMembersToModifyTemplate": "Lar medlemmene endre denne skjema malen i Skjemabyggeren.",
+    "allowsMembersToEditMembersEventsInT": "Lar medlemmer redigere arrangementer i denne kategorien."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

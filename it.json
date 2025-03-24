@@ -127,7 +127,8 @@
         "viewExplanation": "Concedere questo permesso permetterà a un utente con questo grado di visualizzare gli eventi all'interno di questa categoria di calendario.",
         "createExplanation": "Concedere questo permesso permetterà a un utente con questo grado di creare eventi all'interno di questa categoria di calendario.",
         "removeExplanation": "Concedere questo permesso permetterà a un utente con questo grado di rimuovere eventi all'interno di questa categoria di calendario.",
-        "editOtherExplanation": "Concedere questo permesso permetterà a un utente con questo grado di modificare eventi all'interno di questa categoria di calendario."
+        "editOtherExplanation": "Concedere questo permesso permetterà a un utente con questo grado di modificare eventi all'interno di questa categoria di calendario.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Concedere questo permesso permetterà a un utente con questo grado di essere autorizzato tramite la whitelist API (se un utente ha il permesso di blocco per questo server, sarà bloccato poiché il blocco ha la precedenza).",
@@ -173,7 +174,9 @@
       "comform": "Modulo della Comunità",
       "disciplinary": "Azione Disciplinare",
       "training": "Storia della Formazione",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Sei sicuro di voler eliminare \"{formName}\"?",
     "secFieldsHeader": "Campi",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Modifica Altri Eventi",
     "createEvent": "Crea un Evento - Categoria",
     "eventNotFound": "Evento Non Trovato/Accessibile",
-    "eventNotFoundDesc": "O l'evento non esiste o non hai il permesso di visualizzare direttamente questo evento."
+    "eventNotFoundDesc": "O l'evento non esiste o non hai il permesso di visualizzare direttamente questo evento.",
+    "editEvents": "Modifica Eventi"
   },
   "limits": {
     "version": "Versione",
@@ -3093,7 +3097,10 @@
     "communityName": "Nome della Comunità",
     "communityNameDescription": "Inserisce il nome della comunità dell'inserente.",
     "discordUsername": "Nome utente Discord",
-    "discordDescription": "Inserisce il nome utente Discord dell'inseritore."
+    "discordDescription": "Inserisce il nome utente Discord dell'inseritore.",
+    "submissionsSelector": "Invii",
+    "anyoneCanSubmitTypeExplaination": "Chiunque può inviare questo modulo, nessun permesso richiesto.",
+    "rankRestricted": "Solo i gradi con il permesso di inviare questo modulo possono inviare."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Si è verificato un errore durante il salvataggio della pagina:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Nessuno ha ancora risposto...",
     "unsuccessfullyRemovedCommunityEvent": "Rimozione dell'evento della comunità non riuscita:",
     "error": "Errore:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "Errore: Dettagli dell'evento non salvati con successo a causa di un errore interno"
+    "errorUnsuccessfullySavedEventDetailsDueT": "Errore: Dettagli dell'evento non salvati con successo a causa di un errore interno",
+    "calendareditevents": "Modifica eventi"
   },
   "dashboardView": {
     "pending": "IN ATTESA",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Consente ai membri di rimuovere URL brevi nel Gestore URL Brevi.",
     "manageDomainsDesc": "Consente ai membri di gestire i domini nel Gestore degli URL brevi.",
     "allowsMembersToBlackList": "Blocca il membro dall'inviare questo modello di modulo.",
-    "allowsMembersToModifyTemplate": "Consente ai membri di modificare questo modello di modulo nel Costruttore di Moduli."
+    "allowsMembersToModifyTemplate": "Consente ai membri di modificare questo modello di modulo nel Costruttore di Moduli.",
+    "allowsMembersToEditMembersEventsInT": "Consente ai membri di modificare gli eventi in questa categoria."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"

@@ -127,7 +127,8 @@
         "viewExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän tarkastella tapahtumia tässä kalenterikategoriassa.",
         "createExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän luoda tapahtumia tässä kalenterikategoriassa.",
         "removeExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän poistaa tapahtumia tässä kalenterikategoriassa.",
-        "editOtherExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän muokata tapahtumia tässä kalenterikategoriassa."
+        "editOtherExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän muokata tapahtumia tässä kalenterikategoriassa.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän päästä API:n sallittujen listalle (jos käyttäjällä on estolupa tälle palvelimelle, hänet estetään, koska esto on etusijalla).",
@@ -173,7 +174,9 @@
       "comform": "Yhteisön lomake",
       "disciplinary": "Kurinpitorangaistus",
       "training": "Koulutushistoria",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Oletko varma, että haluat poistaa \"{formName}\"?",
     "secFieldsHeader": "Kentät",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Muokkaa muita tapahtumia",
     "createEvent": "Luo tapahtuma - Kategoria",
     "eventNotFound": "Tapahtumaa ei löydy/ei ole käytettävissä",
-    "eventNotFoundDesc": "Joko tapahtumaa ei ole olemassa tai sinulla ei ole oikeuksia nähdä tätä tapahtumaa suoraan."
+    "eventNotFoundDesc": "Joko tapahtumaa ei ole olemassa tai sinulla ei ole oikeuksia nähdä tätä tapahtumaa suoraan.",
+    "editEvents": "Muokkaa tapahtumia"
   },
   "limits": {
     "version": "Versio",
@@ -3093,7 +3097,10 @@
     "communityName": "Yhteisön nimi",
     "communityNameDescription": "Lisää lähettäjän yhteisön nimen.",
     "discordUsername": "Discord-käyttäjänimi",
-    "discordDescription": "Lisää lähettäjän Discord-käyttäjänimen."
+    "discordDescription": "Lisää lähettäjän Discord-käyttäjänimen.",
+    "submissionsSelector": "Lähetykset",
+    "anyoneCanSubmitTypeExplaination": "Kuka tahansa voi lähettää tämän lomakkeen, ei vaadita oikeuksia.",
+    "rankRestricted": "Vain luvat saaneet arvot voivat lähettää tämän lomakkeen."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sivun tallentamisessa tapahtui virhe:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Kukaan ei ole vielä RSVP:ttänyt...",
     "unsuccessfullyRemovedCommunityEvent": "Yhteisön tapahtuman poistaminen epäonnistui:",
     "error": "Virhe:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Virhe: Tapahtuman tietojen tallentaminen epäonnistui sisäisen virheen vuoksi`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Virhe: Tapahtuman tietojen tallentaminen epäonnistui sisäisen virheen vuoksi`",
+    "calendareditevents": "Muokkaa tapahtumia"
   },
   "dashboardView": {
     "pending": "ODOTTAA",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Antaa jäsenten poistaa lyhyitä URL-osoitteita Lyhyt URL-osoitteiden hallinnassa.",
     "manageDomainsDesc": "Mahdollistaa jäsenten hallita verkkotunnuksia lyhyen URL-osoitteen hallinnassa.",
     "allowsMembersToBlackList": "Estää jäsentä lähettämästä tätä lomakepohjaa.",
-    "allowsMembersToModifyTemplate": "Sallii jäsenten muokata tätä lomakepohjaa Lomakkeen rakentajassa."
+    "allowsMembersToModifyTemplate": "Sallii jäsenten muokata tätä lomakepohjaa Lomakkeen rakentajassa.",
+    "allowsMembersToEditMembersEventsInT": "Sallii jäsenten muokata tämän kategorian tapahtumia."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"

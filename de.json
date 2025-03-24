@@ -127,7 +127,8 @@
         "viewExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu sehen.",
         "createExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu erstellen.",
         "removeExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu entfernen.",
-        "editOtherExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu bearbeiten."
+        "editOtherExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Ereignisse innerhalb dieser Kalenderkategorie zu bearbeiten.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, durch die API-Whitelist zugelassen zu werden (wenn ein Benutzer die Blockierberechtigung für diesen Server hat, wird er blockiert, da die Blockierung Vorrang hat).",
@@ -173,7 +174,9 @@
       "comform": "Gemeinschaftsformular",
       "disciplinary": "Disziplinarmaßnahme",
       "training": "Schulungshistorie",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "Sind Sie sicher, dass Sie \"{formName}\" löschen möchten?",
     "secFieldsHeader": "Felder",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Andere Veranstaltungen bearbeiten",
     "createEvent": "Eine Veranstaltung erstellen - Kategorie",
     "eventNotFound": "Veranstaltung nicht gefunden/nicht zugänglich",
-    "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen."
+    "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen.",
+    "editEvents": "Veranstaltungen bearbeiten"
   },
   "limits": {
     "version": "Version",
@@ -3093,7 +3097,10 @@
     "communityName": "Community-Name",
     "communityNameDescription": "Fügt den Gemeinschaftsnamen des Einsenders ein.",
     "discordUsername": "Discord-Benutzername",
-    "discordDescription": "Fügt den Discord-Benutzernamen des Einreichers ein."
+    "discordDescription": "Fügt den Discord-Benutzernamen des Einreichers ein.",
+    "submissionsSelector": "Einsendungen",
+    "anyoneCanSubmitTypeExplaination": "Jeder kann dieses Formular einreichen, es sind keine Berechtigungen erforderlich.",
+    "rankRestricted": "Nur Ränge mit der Berechtigung, dieses Formular einzureichen, können es einreichen."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fehler beim Speichern der Seite aufgetreten:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Noch hat niemand geantwortet...",
     "unsuccessfullyRemovedCommunityEvent": "Community-Ereignis nicht erfolgreich entfernt:",
     "error": "Fehler:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Fehler: Ereignisdetails aufgrund eines internen Fehlers nicht erfolgreich gespeichert`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Fehler: Ereignisdetails aufgrund eines internen Fehlers nicht erfolgreich gespeichert`",
+    "calendareditevents": "Veranstaltungen bearbeiten"
   },
   "dashboardView": {
     "pending": "AUSSTEHEND",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Ermöglicht es Mitgliedern, kurze URLs im Short-URL-Manager zu entfernen.",
     "manageDomainsDesc": "Ermöglicht Mitgliedern, Domains im Short-URL-Manager zu verwalten.",
     "allowsMembersToBlackList": "Verhindert, dass das Mitglied diese Formularvorlage einreicht.",
-    "allowsMembersToModifyTemplate": "Ermöglicht Mitgliedern, diese Formularvorlage im Formular-Builder zu bearbeiten."
+    "allowsMembersToModifyTemplate": "Ermöglicht Mitgliedern, diese Formularvorlage im Formular-Builder zu bearbeiten.",
+    "allowsMembersToEditMembersEventsInT": "Ermöglicht Mitgliedern, Ereignisse in dieser Kategorie zu bearbeiten."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"

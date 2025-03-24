@@ -127,7 +127,8 @@
         "viewExplanation": "Granting this permission will allow a user with this rank to view events within this calendar category.",
         "createExplanation": "Granting this permisison will allow a user with this rank to create events within this calendar category.",
         "removeExplanation": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
-        "editOtherExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
+        "editOtherExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category.",
+        "editExplanation": "Granting this permission will allow a user with this rank to edit events within this calendar category."
       },
       "servers": {
         "allowWhitelistExplanation": "Granting this permission will allow a user with this rank to be allowed through the API whitelist (if a user holds the block permission for this server they'll be blocked as block takes precedence).",
@@ -173,7 +174,9 @@
       "comform": "Topluluk Formu",
       "disciplinary": "Disiplin Cezası",
       "training": "Eğitim Geçmişi",
-      "generalapp": "General Form"
+      "generalapp": "General Form",
+      "anyoneCanSubmit": "Anyone Can Submit",
+      "rankRestricted": "Rank Restricted"
     },
     "formDeleteConfirm": "\"{formName}\" adlı formu silmek istediğinizden emin misiniz?",
     "secFieldsHeader": "Alanlar",
@@ -290,7 +293,8 @@
     "editOtherEvents": "Diğer Etkinlikleri Düzenle",
     "createEvent": "Bir Etkinlik Oluştur - Kategori",
     "eventNotFound": "Etkinlik Bulunamadı/Erişilemedi",
-    "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok."
+    "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok.",
+    "editEvents": "Etkinlikleri Düzenle"
   },
   "limits": {
     "version": "Sürüm",
@@ -3093,7 +3097,10 @@
     "communityName": "Topluluk Adı",
     "communityNameDescription": "Gönderenin topluluk adını ekler.",
     "discordUsername": "Discord Kullanıcı Adı",
-    "discordDescription": "Gönderenin Discord kullanıcı adını ekler."
+    "discordDescription": "Gönderenin Discord kullanıcı adını ekler.",
+    "submissionsSelector": "Gönderimler",
+    "anyoneCanSubmitTypeExplaination": "Bu formu herkes gönderebilir, izin gerekmiyor.",
+    "rankRestricted": "Yalnızca bu formu göndermeye izin verilen dereceler gönderebilir."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sayfa kaydedilirken hata oluştu:",
@@ -3410,7 +3417,8 @@
     "noOneHasRsvpdYet": "Henüz kimse RSVP yapmadı...",
     "unsuccessfullyRemovedCommunityEvent": "Topluluk etkinliği kaldırılamadı:",
     "error": "Hata:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "Hata: Etkinlik detayları dahili bir hata nedeniyle kaydedilemedi"
+    "errorUnsuccessfullySavedEventDetailsDueT": "Hata: Etkinlik detayları dahili bir hata nedeniyle kaydedilemedi",
+    "calendareditevents": "Etkinlikleri Düzenle"
   },
   "dashboardView": {
     "pending": "BEKLEMEDE",
@@ -4302,7 +4310,8 @@
     "removeShortenerDesc": "Kısa URL Yöneticisi'nde üyelerin kısa URL'leri kaldırmasına izin verir.",
     "manageDomainsDesc": "Kısa URL Yöneticisi'nde üyelerin alan adlarını yönetmesine izin verir.",
     "allowsMembersToBlackList": "Bu form şablonunu göndermesini üyenin engeller.",
-    "allowsMembersToModifyTemplate": "Üyelerin Formlar Oluşturucusu'nda bu form şablonunu değiştirmesine izin verir."
+    "allowsMembersToModifyTemplate": "Üyelerin Formlar Oluşturucusu'nda bu form şablonunu değiştirmesine izin verir.",
+    "allowsMembersToEditMembersEventsInT": "Bu kategorideki etkinlikleri düzenlemelerine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan"
