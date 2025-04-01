@@ -547,6 +547,8 @@
     "selectServer": "Select Server...",
     "selectedServer": "Selected Server",
     "sonoranServers": "Sonoran Servers",
+    "fivemHosting": "FiveM Hosting",
+    "serverHostingInfo": "Get your FiveM server hosted today!",
     "hostAServerOnSonoranServersToday": "Host a Server on Sonoran Servers Today!",
     "showRawData": "Show Raw Data",
     "onlyDataThatHasBeenFetchedAndCached": "Only data that has been fetched and cached",
