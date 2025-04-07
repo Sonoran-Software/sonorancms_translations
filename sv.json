@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part",
     "modifyStageSettings": "Ändra sceninställningar",
     "blacklist": "Svartlistningsrankning",
-    "modifyTemplate": "Ändra formulärmall"
+    "modifyTemplate": "Ändra formulärmall",
+    "privateComments": "Åtkomst till privata kommentarer"
   },
   "departments": {
     "departmentName": "Avdelningsnamn",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ett oväntat fel inträffade vid användning av en blank mall, om detta kvarstår kontakta support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ett oväntat fel inträffade vid användning av en mall, om detta kvarstår kontakta support.",
     "anErrorOccuredWhileSavingTryAgain": "Ett fel inträffade vid sparning, försök igen.",
-    "nameFormat": "Namnformat"
+    "nameFormat": "Namnformat",
+    "formatKeys": "Formateringsnycklar",
+    "disabledNameCustomizations": "Namnformat inaktiverat på grund av Discord-namnsynkronisering"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-förkortare handledning",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Låter medlemmar hantera domäner i Kort-URL-hanteraren.",
     "allowsMembersToBlackList": "Hindrar medlem från att skicka in denna formulärmall.",
     "allowsMembersToModifyTemplate": "Tillåter medlemmar att ändra denna formmall i formulärbyggaren.",
-    "allowsMembersToEditMembersEventsInT": "Tillåter medlemmar att redigera händelser i denna kategori."
+    "allowsMembersToEditMembersEventsInT": "Tillåter medlemmar att redigera händelser i denna kategori.",
+    "allowMembersToPrivateComments": "Tillåter medlemmar att komma åt och skicka privata kommentarer på inlämningar av denna formulärmall."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"

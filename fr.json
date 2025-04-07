@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Soumettre une application/formulaire tiers",
     "modifyStageSettings": "Modifier les paramètres de l'étape",
     "blacklist": "Rang de la liste noire",
-    "modifyTemplate": "Modifier le modèle de formulaire"
+    "modifyTemplate": "Modifier le modèle de formulaire",
+    "privateComments": "Accéder aux commentaires privés"
   },
   "departments": {
     "departmentName": "Nom du Département",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Une erreur inattendue s'est produite lors de l'utilisation d'un modèle vierge, si cela persiste, contactez le support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Une erreur inattendue s'est produite lors de l'utilisation d'un modèle, si cela persiste, contactez le support.",
     "anErrorOccuredWhileSavingTryAgain": "Une erreur s'est produite lors de l'enregistrement, veuillez réessayer.",
-    "nameFormat": "Format de nom"
+    "nameFormat": "Format de nom",
+    "formatKeys": "Clés de formatage",
+    "disabledNameCustomizations": "Format de Nom Désactivé en raison de la Synchronisation de Nom Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutoriel de raccourcisseur d'URL",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Permet aux membres de gérer les domaines dans le Gestionnaire de URL courtes.",
     "allowsMembersToBlackList": "Empêche le membre de soumettre ce modèle de formulaire.",
     "allowsMembersToModifyTemplate": "Permet aux membres de modifier ce modèle de formulaire dans le Form Builder.",
-    "allowsMembersToEditMembersEventsInT": "Permet aux membres de modifier les événements dans cette catégorie."
+    "allowsMembersToEditMembersEventsInT": "Permet aux membres de modifier les événements dans cette catégorie.",
+    "allowMembersToPrivateComments": "Permet aux membres d'accéder et d'envoyer des commentaires privés sur les soumissions de ce modèle de formulaire."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"

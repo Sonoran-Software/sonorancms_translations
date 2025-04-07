@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Lähetä kolmannen osapuolen hakemus/lomake",
     "modifyStageSettings": "Muokkaa vaiheen asetuksia",
     "blacklist": "Musta lista -rangaistusaste",
-    "modifyTemplate": "Muokkaa lomakepohjaa"
+    "modifyTemplate": "Muokkaa lomakepohjaa",
+    "privateComments": "Pääsy yksityisiin kommentteihin"
   },
   "departments": {
     "departmentName": "Osaston nimi",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Odottamaton virhe tapahtui tyhjää mallia käytettäessä, jos tämä jatkuu, ota yhteyttä tukeen.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Odottamaton virhe tapahtui mallia käytettäessä, jos tämä jatkuu, ota yhteyttä tukeen.",
     "anErrorOccuredWhileSavingTryAgain": "Tapahtui virhe tallennettaessa, yritä uudelleen.",
-    "nameFormat": "Nimen muoto"
+    "nameFormat": "Nimen muoto",
+    "formatKeys": "Muotoile avaimet",
+    "disabledNameCustomizations": "Nimen muoto poistettu käytöstä Discord-nimen synkronoinnin vuoksi"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-lyhentimen opas",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Mahdollistaa jäsenten hallita verkkotunnuksia lyhyen URL-osoitteen hallinnassa.",
     "allowsMembersToBlackList": "Estää jäsentä lähettämästä tätä lomakepohjaa.",
     "allowsMembersToModifyTemplate": "Sallii jäsenten muokata tätä lomakepohjaa Lomakkeen rakentajassa.",
-    "allowsMembersToEditMembersEventsInT": "Sallii jäsenten muokata tämän kategorian tapahtumia."
+    "allowsMembersToEditMembersEventsInT": "Sallii jäsenten muokata tämän kategorian tapahtumia.",
+    "allowMembersToPrivateComments": "Mahdollistaa jäsenille pääsyn ja yksityisten kommenttien lähettämisen tämän lomakepohjan lähetyksiin."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"

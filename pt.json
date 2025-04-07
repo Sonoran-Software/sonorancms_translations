@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Enviar Aplicação/Formulário de Terceiros",
     "modifyStageSettings": "Modificar configurações do estágio",
     "blacklist": "Rancho da Lista Negra",
-    "modifyTemplate": "Modificar Modelo de Formulário"
+    "modifyTemplate": "Modificar Modelo de Formulário",
+    "privateComments": "Acessar Comentários Privados"
   },
   "departments": {
     "departmentName": "Nome do Departamento",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ocorreu um erro inesperado ao usar um modelo em branco, se isso persistir entre em contato com o suporte.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ocorreu um erro inesperado ao usar um modelo, se isso persistir entre em contato com o suporte.",
     "anErrorOccuredWhileSavingTryAgain": "Ocorreu um erro ao salvar, tente novamente.",
-    "nameFormat": "Formato do Nome"
+    "nameFormat": "Formato do Nome",
+    "formatKeys": "Formatar Chaves",
+    "disabledNameCustomizations": "Formato de Nome Desativado devido à Sincronização de Nome do Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Encurtador de URL",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Permite que os membros gerenciem domínios no Gerenciador de URL Curta.",
     "allowsMembersToBlackList": "Impede que o membro envie este modelo de formulário.",
     "allowsMembersToModifyTemplate": "Permite que os membros modifiquem este modelo de formulário no Construtor de Formulários.",
-    "allowsMembersToEditMembersEventsInT": "Permite que os membros editem eventos nesta categoria."
+    "allowsMembersToEditMembersEventsInT": "Permite que os membros editem eventos nesta categoria.",
+    "allowMembersToPrivateComments": "Permite que os membros acessem e enviem comentários privados nas submissões deste modelo de formulário."
   },
   "permissionToggleGroup": {
     "inherited": "herdado"

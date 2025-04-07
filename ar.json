@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية",
     "modifyStageSettings": "تعديل إعدادات المرحلة",
     "blacklist": "رتبة القائمة السوداء",
-    "modifyTemplate": "تعديل قالب النموذج"
+    "modifyTemplate": "تعديل قالب النموذج",
+    "privateComments": "الوصول إلى التعليقات الخاصة"
   },
   "departments": {
     "departmentName": "اسم القسم",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "حدث خطأ غير متوقع أثناء استخدام قالب فارغ، إذا استمر هذا فاتصل بالدعم.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "حدث خطأ غير متوقع أثناء استخدام قالب، إذا استمر هذا فاتصل بالدعم.",
     "anErrorOccuredWhileSavingTryAgain": "حدث خطأ أثناء الحفظ، حاول مرة أخرى.",
-    "nameFormat": "تنسيق الاسم"
+    "nameFormat": "تنسيق الاسم",
+    "formatKeys": "تنسيق المفاتيح",
+    "disabledNameCustomizations": "تم تعطيل تنسيق الاسم بسبب مزامنة اسم Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "دليل تقصير الروابط",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "يسمح للأعضاء بإدارة النطاقات في مدير الروابط القصيرة.",
     "allowsMembersToBlackList": "يمنع العضو من إرسال نموذج الطلب هذا.",
     "allowsMembersToModifyTemplate": "يسمح للأعضاء بتعديل قالب النموذج هذا في مُنشئ النماذج.",
-    "allowsMembersToEditMembersEventsInT": "يسمح للأعضاء بتحرير الفعاليات في هذه الفئة."
+    "allowsMembersToEditMembersEventsInT": "يسمح للأعضاء بتحرير الفعاليات في هذه الفئة.",
+    "allowMembersToPrivateComments": "يسمح للأعضاء بالوصول إلى التعليقات الخاصة وإرسالها على الإرساليات لهذا النموذج التمهيدي."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"

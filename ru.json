@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Отправить стороннее приложение/форму",
     "modifyStageSettings": "Изменить настройки этапа",
     "blacklist": "Чёрный список - Ранг",
-    "modifyTemplate": "Изменить шаблон формы"
+    "modifyTemplate": "Изменить шаблон формы",
+    "privateComments": "Доступ к приватным комментариям"
   },
   "departments": {
     "departmentName": "Название Отдела",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Произошла неожиданная ошибка при использовании шаблона, если это повторится, свяжитесь с поддержкой.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Произошла ошибка при сохранении, попробуйте еще раз.",
     "anErrorOccuredWhileSavingTryAgain": "Учебник по сокращению URL",
-    "nameFormat": "Формат имени"
+    "nameFormat": "Формат имени",
+    "formatKeys": "Формат ключей",
+    "disabledNameCustomizations": "Формат имени отключен из-за синхронизации имен Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Узнайте, как создавать короткие URL для вашего сообщества",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Позволяет участникам управлять доменами в менеджере коротких URL.",
     "allowsMembersToBlackList": "Блокирует участника от отправки этого шаблона формы.",
     "allowsMembersToModifyTemplate": "Позволяет участникам изменять этот шаблон формы в Конструкторе форм.",
-    "allowsMembersToEditMembersEventsInT": "Позволяет участникам редактировать события в этой категории."
+    "allowsMembersToEditMembersEventsInT": "Позволяет участникам редактировать события в этой категории.",
+    "allowMembersToPrivateComments": "Позволяет пользователям получать доступ и отправлять личные комментарии к отправкам этого шаблона формы."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"

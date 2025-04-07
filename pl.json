@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "blacklist": "Ranga czarnej listy",
-    "modifyTemplate": "Zmodyfikuj szablon formularza"
+    "modifyTemplate": "Zmodyfikuj szablon formularza",
+    "privateComments": "Uzyskaj dostęp do prywatnych komentarzy"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Wystąpił nieoczekiwany błąd podczas używania pustego szablonu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Wystąpił nieoczekiwany błąd podczas używania szablonu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "anErrorOccuredWhileSavingTryAgain": "Wystąpił błąd podczas zapisywania, spróbuj ponownie.",
-    "nameFormat": "Format Nazwy"
+    "nameFormat": "Format Nazwy",
+    "formatKeys": "Formatuj klucze",
+    "disabledNameCustomizations": "Format imienia wyłączony z powodu synchronizacji nazw Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Samouczek skracacza URL",
@@ -4379,7 +4382,8 @@
     "manageDomainsDesc": "Pozwala członkom zarządzać domenami w Menedżerze Skróconych URL.",
     "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
     "allowsMembersToModifyTemplate": "Umożliwia członkom modyfikację tego szablonu formularza w Form Builder.",
-    "allowsMembersToEditMembersEventsInT": "Pozwala członkom edytować wydarzenia w tej kategorii."
+    "allowsMembersToEditMembersEventsInT": "Pozwala członkom edytować wydarzenia w tej kategorii.",
+    "allowMembersToPrivateComments": "Pozwala członkom uzyskiwać dostęp i przesyłać prywatne komentarze do zgłoszeń tego szablonu formularza."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

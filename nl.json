@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Verzend applicatie/formulier van derden",
     "modifyStageSettings": "Wijzig Podiuminstellingen",
     "blacklist": "Zwarte lijst rang",
-    "modifyTemplate": "Formuliersjabloon wijzigen"
+    "modifyTemplate": "Formuliersjabloon wijzigen",
+    "privateComments": "Toegang tot privé-opmerkingen"
   },
   "departments": {
     "departmentName": "Afdelingsnaam",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Er is een onverwachte fout opgetreden bij het gebruik van een lege sjabloon, neem contact op met de ondersteuning als dit aanhoudt.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Er is een onverwachte fout opgetreden bij het gebruik van een sjabloon, neem contact op met de ondersteuning als dit aanhoudt.",
     "anErrorOccuredWhileSavingTryAgain": "Er is een fout opgetreden tijdens het opslaan, probeer het opnieuw.",
-    "nameFormat": "Naamformaat"
+    "nameFormat": "Naamformaat",
+    "formatKeys": "Formaatsleutels",
+    "disabledNameCustomizations": "Naamformaat uitgeschakeld vanwege Discord-namesynchronisatie"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-verkorter Tutorial",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Hiermee kunnen leden domeinen beheren in de Korte URL Beheerder.",
     "allowsMembersToBlackList": "Blokkeert lid van het indienen van deze formulier sjabloon.",
     "allowsMembersToModifyTemplate": "Staat leden toe om deze formulier template te wijzigen in de Formulier Builder.",
-    "allowsMembersToEditMembersEventsInT": "Hiermee kunnen leden evenementen in deze categorie bewerken."
+    "allowsMembersToEditMembersEventsInT": "Hiermee kunnen leden evenementen in deze categorie bewerken.",
+    "allowMembersToPrivateComments": "Maakt het voor leden mogelijk om privéopmerkingen te bekijken en te verzenden over inzendingen van deze formulier sjabloon."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"

@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Invia domanda/modulo di terze parti",
     "modifyStageSettings": "Modifica Impostazioni del Palco",
     "blacklist": "Rango di blacklist",
-    "modifyTemplate": "Modifica modello modulo"
+    "modifyTemplate": "Modifica modello modulo",
+    "privateComments": "Accedi ai commenti privati"
   },
   "departments": {
     "departmentName": "Nome del Dipartimento",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Si è verificato un errore imprevisto durante l'utilizzo di un modello vuoto, se il problema persiste contatta il supporto.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Si è verificato un errore imprevisto durante l'utilizzo di un modello, se il problema persiste contatta il supporto.",
     "anErrorOccuredWhileSavingTryAgain": "Si è verificato un errore durante il salvataggio, riprova.",
-    "nameFormat": "Formato Nome"
+    "nameFormat": "Formato Nome",
+    "formatKeys": "Chiavi del formato",
+    "disabledNameCustomizations": "Nome formato disabilitato a causa della sincronizzazione del nome di Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial per l'Accorciatore di URL",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Consente ai membri di gestire i domini nel Gestore degli URL brevi.",
     "allowsMembersToBlackList": "Blocca il membro dall'inviare questo modello di modulo.",
     "allowsMembersToModifyTemplate": "Consente ai membri di modificare questo modello di modulo nel Costruttore di Moduli.",
-    "allowsMembersToEditMembersEventsInT": "Consente ai membri di modificare gli eventi in questa categoria."
+    "allowsMembersToEditMembersEventsInT": "Consente ai membri di modificare gli eventi in questa categoria.",
+    "allowMembersToPrivateComments": "Consente ai membri di accedere e inviare commenti privati sulle presentazioni di questo modello di modulo."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"

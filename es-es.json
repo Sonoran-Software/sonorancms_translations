@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Enviar solicitud/formulario de terceros",
     "modifyStageSettings": "Configurar Etapa",
     "blacklist": "Rango de la lista negra",
-    "modifyTemplate": "Modificar la plantilla del formulario"
+    "modifyTemplate": "Modificar la plantilla del formulario",
+    "privateComments": "Acceder a comentarios privados"
   },
   "departments": {
     "departmentName": "Nombre del Departamento",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ha ocurrido un error inesperado al usar una plantilla en blanco, si esto persiste contacta al soporte.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ha ocurrido un error inesperado al usar una plantilla, si esto persiste contacta al soporte.",
     "anErrorOccuredWhileSavingTryAgain": "Ocurrió un error al guardar, intenta de nuevo.",
-    "nameFormat": "Formato de Nombre"
+    "nameFormat": "Formato de Nombre",
+    "formatKeys": "Formatos de Claves",
+    "disabledNameCustomizations": "Formato de nombre desactivado debido a la sincronización de nombres de Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Acortador de URL",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Permite a los miembros gestionar dominios en el Administrador de URL Cortas.",
     "allowsMembersToBlackList": "Impide que el miembro envíe esta plantilla de formulario.",
     "allowsMembersToModifyTemplate": "Permite a los miembros modificar esta plantilla de formulario en el Constructor de Formularios.",
-    "allowsMembersToEditMembersEventsInT": "Permite a los miembros editar eventos en esta categoría."
+    "allowsMembersToEditMembersEventsInT": "Permite a los miembros editar eventos en esta categoría.",
+    "allowMembersToPrivateComments": "Permite a los miembros acceder y enviar comentarios privados sobre las presentaciones de esta plantilla de formulario."
   },
   "permissionToggleGroup": {
     "inherited": "heredado"

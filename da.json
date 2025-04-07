@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Indsend tredjepartsansøgning/formular",
     "modifyStageSettings": "Rediger scenens indstillinger",
     "blacklist": "Sortslisten Rang",
-    "modifyTemplate": "Rediger formularskabelon"
+    "modifyTemplate": "Rediger formularskabelon",
+    "privateComments": "Adgang til private kommentarer"
   },
   "departments": {
     "departmentName": "Afdelingsnavn",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "En uventet fejl opstod under brug af en blank skabelon, hvis dette fortsætter, kontakt support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "En uventet fejl opstod under brug af en skabelon, hvis dette fortsætter, kontakt support.",
     "anErrorOccuredWhileSavingTryAgain": "Der opstod en fejl under lagring, prøv igen.",
-    "nameFormat": "Navneformat"
+    "nameFormat": "Navneformat",
+    "formatKeys": "Formateringsnøgler",
+    "disabledNameCustomizations": "Navneformat deaktiveret på grund af synkronisering af Discord-navn"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Forkorter Vejledning",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Giver medlemmer mulighed for at administrere domæner i Short URL Manager.",
     "allowsMembersToBlackList": "Blokerer medlem fra at indsende denne skabelon.",
     "allowsMembersToModifyTemplate": "Giver medlemmer mulighed for at ændre denne formularskabelon i Formularopretteren.",
-    "allowsMembersToEditMembersEventsInT": "Tillader medlemmer at redigere begivenheder i denne kategori."
+    "allowsMembersToEditMembersEventsInT": "Tillader medlemmer at redigere begivenheder i denne kategori.",
+    "allowMembersToPrivateComments": "Giver medlemmer mulighed for at få adgang til og sende private kommentarer til indsendelser af denne skabelon."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "타사 애플리케이션/양식 제출",
     "modifyStageSettings": "단계 설정 수정",
     "blacklist": "블랙리스트 등급",
-    "modifyTemplate": "양식 템플릿 수정"
+    "modifyTemplate": "양식 템플릿 수정",
+    "privateComments": "비공개 댓글에 액세스"
   },
   "departments": {
     "departmentName": "부서 이름",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "템플릿을 사용하는 동안 예상치 못한 오류가 발생했습니다. 이 문제가 지속되면 지원팀에 문의하세요.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "저장 중 오류가 발생했습니다. 다시 시도하세요.",
     "anErrorOccuredWhileSavingTryAgain": "URL 단축기 튜토리얼",
-    "nameFormat": "이름 형식"
+    "nameFormat": "이름 형식",
+    "formatKeys": "형식 키",
+    "disabledNameCustomizations": "디스코드 이름 동기화로 인해 이름 형식 사용 안 함"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "단축 URL 관리에서 도메인을 관리할 수 있도록 허용합니다.",
     "allowsMembersToBlackList": "이 양식 템플릿을 제출하는 것을 회원이 차단합니다.",
     "allowsMembersToModifyTemplate": "폼 빌더에서 이 양식 템플릿을 수정할 수 있도록 허용합니다.",
-    "allowsMembersToEditMembersEventsInT": "이 범주의 이벤트를 편집할 수 있도록 허용합니다."
+    "allowsMembersToEditMembersEventsInT": "이 범주의 이벤트를 편집할 수 있도록 허용합니다.",
+    "allowMembersToPrivateComments": "이 템플릿 양식의 제출물에 대해 회원이 비공개 댓글에 접근하고 보낼 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된"

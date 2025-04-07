@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Drittanbieterantrag/Formular einreichen",
     "modifyStageSettings": "Bühnen Einstellungen bearbeiten",
     "blacklist": "Schwarze Liste Rang",
-    "modifyTemplate": "Formularvorlage ändern"
+    "modifyTemplate": "Formularvorlage ändern",
+    "privateComments": "Zugriff auf private Kommentare"
   },
   "departments": {
     "departmentName": "Abteilungsname",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Ein unerwarteter Fehler ist beim Verwenden einer leeren Vorlage aufgetreten, wenn dies weiterhin besteht, kontaktieren Sie den Support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Ein unerwarteter Fehler ist beim Verwenden einer Vorlage aufgetreten, wenn dies weiterhin besteht, kontaktieren Sie den Support.",
     "anErrorOccuredWhileSavingTryAgain": "Beim Speichern ist ein Fehler aufgetreten, bitte versuchen Sie es erneut.",
-    "nameFormat": "Namensformat"
+    "nameFormat": "Namensformat",
+    "formatKeys": "Formatschlüssel",
+    "disabledNameCustomizations": "Namensformat wegen Discord-Namensabgleich deaktiviert"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-Verkürzer-Tutorial",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Ermöglicht Mitgliedern, Domains im Short-URL-Manager zu verwalten.",
     "allowsMembersToBlackList": "Verhindert, dass das Mitglied diese Formularvorlage einreicht.",
     "allowsMembersToModifyTemplate": "Ermöglicht Mitgliedern, diese Formularvorlage im Formular-Builder zu bearbeiten.",
-    "allowsMembersToEditMembersEventsInT": "Ermöglicht Mitgliedern, Ereignisse in dieser Kategorie zu bearbeiten."
+    "allowsMembersToEditMembersEventsInT": "Ermöglicht Mitgliedern, Ereignisse in dieser Kategorie zu bearbeiten.",
+    "allowMembersToPrivateComments": "Ermöglicht es Mitgliedern, private Kommentare zu Einsendungen dieser Formularvorlage zuzugreifen und zu senden."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"

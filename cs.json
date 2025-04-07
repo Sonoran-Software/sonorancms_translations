@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany",
     "modifyStageSettings": "Upravit nastavení stupně",
     "blacklist": "Černá listina hodnosti",
-    "modifyTemplate": "Upravit šablonu formuláře"
+    "modifyTemplate": "Upravit šablonu formuláře",
+    "privateComments": "Přístup k soukromým komentářům"
   },
   "departments": {
     "departmentName": "Název oddělení",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Došlo k neočekávané chybě při použití prázdné šablony, pokud problém přetrvává, kontaktujte podporu.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Došlo k neočekávané chybě při použití šablony, pokud problém přetrvává, kontaktujte podporu.",
     "anErrorOccuredWhileSavingTryAgain": "Při ukládání došlo k chybě, zkuste to znovu.",
-    "nameFormat": "Formát jména"
+    "nameFormat": "Formát jména",
+    "formatKeys": "Formátovací klíče",
+    "disabledNameCustomizations": "Formát jména zakázán kvůli synchronizaci jména na Discordu"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Návod na zkracovač URL",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Umožňuje členům spravovat domény ve správci krátkých URL.",
     "allowsMembersToBlackList": "Zabrání členovi odeslat tuto šablonu formuláře.",
     "allowsMembersToModifyTemplate": "Umožňuje členům upravit tuto šablonu formuláře v Návrháři formulářů.",
-    "allowsMembersToEditMembersEventsInT": "Umožňuje členům upravovat události v této kategorii."
+    "allowsMembersToEditMembersEventsInT": "Umožňuje členům upravovat události v této kategorii.",
+    "allowMembersToPrivateComments": "Umožňuje členům přistupovat a odesílat soukromé komentáře k podáním této šablony formuláře."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"

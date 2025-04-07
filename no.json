@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Send inn tredjeparts søknad/skjema",
     "modifyStageSettings": "Endre Scenesinnstillinger",
     "blacklist": "Svarteliste Rang",
-    "modifyTemplate": "Endre skjemamal"
+    "modifyTemplate": "Endre skjemamal",
+    "privateComments": "Tilgang til private kommentarer"
   },
   "departments": {
     "departmentName": "Avdelingsnavn",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "En uventet feil oppstod ved bruk av en tom mal, kontakt support hvis dette vedvarer.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "En uventet feil oppstod ved bruk av en mal, kontakt support hvis dette vedvarer.",
     "anErrorOccuredWhileSavingTryAgain": "En feil oppstod under lagring, prøv igjen.",
-    "nameFormat": "Navneformat"
+    "nameFormat": "Navneformat",
+    "formatKeys": "Formateringsnøkler",
+    "disabledNameCustomizations": "Navneformat deaktivert på grunn av Discord-navnesynkronisering"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-forkorter Veiledning",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Lar medlemmene administrere domener i Short URL Manager.",
     "allowsMembersToBlackList": "Blokkerer medlem fra å sende inn dette skjemaet.",
     "allowsMembersToModifyTemplate": "Lar medlemmene endre denne skjema malen i Skjemabyggeren.",
-    "allowsMembersToEditMembersEventsInT": "Lar medlemmer redigere arrangementer i denne kategorien."
+    "allowsMembersToEditMembersEventsInT": "Lar medlemmer redigere arrangementer i denne kategorien.",
+    "allowMembersToPrivateComments": "Lar medlemmene få tilgang til og sende private kommentarer på sendinger av denne skjema malen."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

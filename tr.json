@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Üçüncü Taraf Başvurusunu/Formunu Gönder",
     "modifyStageSettings": "Aşama Ayarlarını Düzenle",
     "blacklist": "Kara Liste Rütbesi",
-    "modifyTemplate": "Form Şablonunu Değiştir"
+    "modifyTemplate": "Form Şablonunu Değiştir",
+    "privateComments": "Özel Yorumlara Eriş"
   },
   "departments": {
     "departmentName": "Departman Adı",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Boş şablon kullanılırken beklenmeyen bir hata oluştu, bu durum devam ederse destekle iletişime geçin.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Şablon kullanılırken beklenmeyen bir hata oluştu, bu durum devam ederse destekle iletişime geçin.",
     "anErrorOccuredWhileSavingTryAgain": "Kaydedilirken bir hata oluştu, tekrar deneyin.",
-    "nameFormat": "İsim Formatı"
+    "nameFormat": "İsim Formatı",
+    "formatKeys": "Anahtarları Biçimlendir",
+    "disabledNameCustomizations": "Discord Adı Senkronizasyonu Nedeniyle İsim Formatı Devre Dışı Bırakıldı"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Kısaltıcı Eğitimi",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Kısa URL Yöneticisi'nde üyelerin alan adlarını yönetmesine izin verir.",
     "allowsMembersToBlackList": "Bu form şablonunu göndermesini üyenin engeller.",
     "allowsMembersToModifyTemplate": "Üyelerin Formlar Oluşturucusu'nda bu form şablonunu değiştirmesine izin verir.",
-    "allowsMembersToEditMembersEventsInT": "Bu kategorideki etkinlikleri düzenlemelerine izin verir."
+    "allowsMembersToEditMembersEventsInT": "Bu kategorideki etkinlikleri düzenlemelerine izin verir.",
+    "allowMembersToPrivateComments": "Bu form şablonunun gönderimleri üzerinde üyelerin özel yorumlara erişmesine ve göndermesine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan"

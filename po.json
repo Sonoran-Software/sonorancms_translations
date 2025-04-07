@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "blacklist": "Rango de la Lista Negra",
-    "modifyTemplate": "Modyfikuj szablon formularza"
+    "modifyTemplate": "Modyfikuj szablon formularza",
+    "privateComments": "Nantu Pribadong Komentaro"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "Wystąpił nieoczekiwany błąd podczas używania pustego szablonu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "Wystąpił nieoczekiwany błąd podczas używania szablonu, jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną.",
     "anErrorOccuredWhileSavingTryAgain": "Wystąpił błąd podczas zapisywania, spróbuj ponownie.",
-    "nameFormat": "Format Nazwiska"
+    "nameFormat": "Format Nazwiska",
+    "formatKeys": "Phím định dạng",
+    "disabledNameCustomizations": "Nome Formato desativado devido à sincronização de nome do Discord"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Samouczek skracacza URL",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "Permite que los miembros gestionen dominios en el Administrador de URL cortas.",
     "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
     "allowsMembersToModifyTemplate": "Permite aos membros modificar este modelo de formulário no Construtor de Formulários.",
-    "allowsMembersToEditMembersEventsInT": "Dozwala członkom edytować wydarzenia w tej kategorii."
+    "allowsMembersToEditMembersEventsInT": "Dozwala członkom edytować wydarzenia w tej kategorii.",
+    "allowMembersToPrivateComments": "Dopuszcza członków do dostępu i wysyłania prywatnych komentarzy do zgłoszeń tego szablonu formularza."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"

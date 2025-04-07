@@ -217,7 +217,8 @@
     "appThirdPartySubmit": "提交第三方申请/表格",
     "modifyStageSettings": "修改阶段设置",
     "blacklist": "黑名单等级",
-    "modifyTemplate": "修改表单模板"
+    "modifyTemplate": "修改表单模板",
+    "privateComments": "访问私人评论"
   },
   "departments": {
     "departmentName": "部门名称",
@@ -1100,7 +1101,9 @@
     "anUnexpectedErrorHasOccurredWhileUsingAB": "使用空白模板时发生意外错误，如果问题持续请联系支持。",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "使用模板时发生意外错误，如果问题持续请联系支持。",
     "anErrorOccuredWhileSavingTryAgain": "保存时发生错误，请重试。",
-    "nameFormat": "名称格式"
+    "nameFormat": "名称格式",
+    "formatKeys": "格式键",
+    "disabledNameCustomizations": "由于 Discord 名称同步，名称格式已禁用"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL 缩短器教程",
@@ -4311,7 +4314,8 @@
     "manageDomainsDesc": "允许成员在短网址管理器中管理域名。",
     "allowsMembersToBlackList": "阻止成员提交此表单模板。",
     "allowsMembersToModifyTemplate": "允许成员在表单构建器中修改此表单模板。",
-    "allowsMembersToEditMembersEventsInT": "允许成员编辑此类别中的事件。"
+    "allowsMembersToEditMembersEventsInT": "允许成员编辑此类别中的事件。",
+    "allowMembersToPrivateComments": "允许成员访问并发送对此表单模板提交的私密评论。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"
