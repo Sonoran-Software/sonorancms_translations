@@ -617,6 +617,7 @@
     "qbox": "QBox",
     "ensureSonorancms": "ensure [sonorancms]",
     "ensureSonorancmsNoBracket": "ensure sonorancms",
+    "exec": "exec @sonorancms/sonorancms.cfg",
     "servercfg": "server.cfg",
     "PermissionsForSonorancmsAutoupdaterRequi": "# permissions for SonoranCMS auto-updater (REQUIRED)",
     "addaceResourcesonorancmsCommandAllow": "add_ace resource.sonorancms command allow",
