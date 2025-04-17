@@ -630,7 +630,8 @@
     "vpnDetection": "VPN Detection",
     "displayVpnDetectionFlagsOnlyForUsersWho": "Display VPN detection flags only for users who are pending, meaning those who have joined but do not have any CMS ranks.",
     "altDetection": "Alt Detection",
-    "ignoreAlternateAccountDetectionFlags": "Ignore alternate account detection flags for users not yet in the community. Display the flag only when the suspected alternate account joins the community."
+    "ignoreAlternateAccountDetectionFlags": "Ignore alternate account detection flags for users not yet in the community. Display the flag only when the suspected alternate account joins the community.",
+    "fivemHosting": "FiveM Hosting"
   },
   "Dashboard": {
     "resync": "Resync",
