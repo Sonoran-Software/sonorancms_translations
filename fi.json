@@ -642,7 +642,9 @@
     "lastMonth": "Viime kuussa",
     "allTime": "Kaikkien aikojen",
     "qboxPanelDocumentation": "QBox-paneelin dokumentaatio",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "FiveM-isännöinti"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",

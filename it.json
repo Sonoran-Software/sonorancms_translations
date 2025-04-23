@@ -642,7 +642,9 @@
     "lastMonth": "Lo scorso mese",
     "allTime": "Tutto il tempo",
     "qboxPanelDocumentation": "Documentazione del pannello QBox",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "FiveM Hosting"
   },
   "Dashboard": {
     "securityDashboard": "Sicurezza - Dashboard",

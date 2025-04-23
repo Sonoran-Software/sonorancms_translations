@@ -642,7 +642,9 @@
     "lastMonth": "上个月",
     "allTime": "所有时间",
     "qboxPanelDocumentation": "QBox 面板文档",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "FiveM托管"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",

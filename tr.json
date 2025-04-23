@@ -642,7 +642,9 @@
     "lastMonth": "Geçen Ay",
     "allTime": "Tüm Zamanlar",
     "qboxPanelDocumentation": "QBox Panel Belgeleri",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "FiveM Barındırma"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",

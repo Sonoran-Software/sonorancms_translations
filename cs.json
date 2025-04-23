@@ -642,7 +642,9 @@
     "lastMonth": "Minulý měsíc",
     "allTime": "Po celou dobu",
     "qboxPanelDocumentation": "Dokumentace panelu QBox",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "FiveM Hosting"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",

@@ -642,7 +642,9 @@
     "lastMonth": "Прошлый месяц",
     "allTime": "Все время",
     "qboxPanelDocumentation": "Документация панели QBox",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "Хостинг FiveM"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",

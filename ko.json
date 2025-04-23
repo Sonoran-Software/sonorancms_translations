@@ -642,7 +642,9 @@
     "lastMonth": "지난달",
     "allTime": "전체 시간",
     "qboxPanelDocumentation": "큐박스 패널 문서",
-    "qbox": "QBox"
+    "qbox": "QBox",
+    "exec": "exec @sonorancms/sonorancms.cfg",
+    "fivemHosting": "FiveM 호스팅"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
