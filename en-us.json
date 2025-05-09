@@ -369,6 +369,8 @@
     "learnHowToCreateRosters": "Learn how to Create Rosters",
     "creatingRostersDocumentation": "Creating Rosters Documentation",
     "rosterLabel": "Roster Label",
+    "rosterSlug": "Roster URL Slug",
+    "copyRosterUrl": "Copy Roster URL",
     "rosterDepartment": "Roster Department",
     "manageRanksShown": "Manage Ranks Shown",
     "invalid": "Invalid",
