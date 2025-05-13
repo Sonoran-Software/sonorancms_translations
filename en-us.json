@@ -2190,7 +2190,7 @@
     "failedSavingMemberData": "failed saving member data",
     "invalidWsqueryRes": "invalid wsQuery res",
     "notSet": "NOT SET",
-    "rosterDoesNotExist": "roster does not exist",
+    "rosterDoesNotExist": "Roster does not exist",
     "couldNotGetRosterRows": "could not get roster rows",
     "automaticallyGeneratedRosterRow": "Automatically Generated Roster Row"
   },
