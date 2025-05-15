@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "IDでロスターが見つかりません：",
     "columnTypes": "列タイプ",
     "editRosterDetails": "ロスター詳細を編集",
-    "orderShownWithinRoster": "ロスター内の表示順序"
+    "orderShownWithinRoster": "ロスター内の表示順序",
+    "rosterSlug": "名簿URLスラッグ",
+    "copyRosterUrl": "名簿のURLをコピー"
   },
   "Index": {
     "creatingRostersTutorial": "ロスター作成チュートリアル",

@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "لا يمكن العثور على القائمة بالمعرف:",
     "columnTypes": "أنواع الأعمدة",
     "editRosterDetails": "تحرير تفاصيل القائمة",
-    "orderShownWithinRoster": "الترتيب المعروض داخل القائمة"
+    "orderShownWithinRoster": "الترتيب المعروض داخل القائمة",
+    "rosterSlug": "عنوان URL للفرقة",
+    "copyRosterUrl": "انسخ رابط القائمة"
   },
   "Index": {
     "creatingRostersTutorial": "دليل إنشاء القوائم",

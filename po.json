@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "nie można znaleźć składu o id:",
     "columnTypes": "Typy kolumn",
     "editRosterDetails": "Edytuj szczegóły składu",
-    "orderShownWithinRoster": "Kolejność wyświetlania w składzie"
+    "orderShownWithinRoster": "Kolejność wyświetlania w składzie",
+    "rosterSlug": "Enlace URL de la lista",
+    "copyRosterUrl": "Kopieer rooster-URL"
   },
   "Index": {
     "creatingRostersTutorial": "Samouczek tworzenia składów",

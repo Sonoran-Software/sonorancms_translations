@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "impossible de trouver la liste avec l'id :",
     "columnTypes": "Types de colonnes",
     "editRosterDetails": "Modifier les détails de la liste",
-    "orderShownWithinRoster": "Ordre affiché dans la liste"
+    "orderShownWithinRoster": "Ordre affiché dans la liste",
+    "rosterSlug": "Slug de l'URL de la liste",
+    "copyRosterUrl": "Copier l'URL de l'effectif"
   },
   "Index": {
     "creatingRostersTutorial": "Tutoriel de création de listes",

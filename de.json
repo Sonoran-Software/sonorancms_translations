@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "Roster mit ID nicht gefunden:",
     "columnTypes": "Spaltentypen",
     "editRosterDetails": "Roster-Details bearbeiten",
-    "orderShownWithinRoster": "Angezeigte Reihenfolge im Roster"
+    "orderShownWithinRoster": "Angezeigte Reihenfolge im Roster",
+    "rosterSlug": "Roster-URL-Slug",
+    "copyRosterUrl": "Roster-URL kopieren"
   },
   "Index": {
     "creatingRostersTutorial": "Tutorial zur Erstellung von Rostern",

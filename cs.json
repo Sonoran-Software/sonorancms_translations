@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "nelze najít seznam s id:",
     "columnTypes": "Typy sloupců",
     "editRosterDetails": "Upravit podrobnosti seznamu",
-    "orderShownWithinRoster": "Pořadí zobrazené v seznamu"
+    "orderShownWithinRoster": "Pořadí zobrazené v seznamu",
+    "rosterSlug": "Adresa URL seznamu",
+    "copyRosterUrl": "Zkopírovat adresu URL seznamu"
   },
   "Index": {
     "creatingRostersTutorial": "Výukový program pro vytváření seznamů",

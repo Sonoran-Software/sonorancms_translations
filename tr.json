@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "id ile kadro bulunamıyor:",
     "columnTypes": "Sütun Türleri",
     "editRosterDetails": "Kadro Detaylarını Düzenle",
-    "orderShownWithinRoster": "Kadro İçinde Gösterilen Sıra"
+    "orderShownWithinRoster": "Kadro İçinde Gösterilen Sıra",
+    "rosterSlug": "Liste URL Sümüklü Adı",
+    "copyRosterUrl": "Liste URL'sini kopyala"
   },
   "Index": {
     "creatingRostersTutorial": "Kadro Oluşturma Eğitimi",

@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "impossibile trovare il roster con id:",
     "columnTypes": "Tipi di colonne",
     "editRosterDetails": "Modifica dettagli del roster",
-    "orderShownWithinRoster": "Ordine mostrato nel roster"
+    "orderShownWithinRoster": "Ordine mostrato nel roster",
+    "rosterSlug": "URL Slug della Roster",
+    "copyRosterUrl": "Copia l'URL dell'elenco"
   },
   "Index": {
     "creatingRostersTutorial": "Tutorial per la creazione di roster",

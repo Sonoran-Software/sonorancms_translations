@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "ei löydy kokoonpanoa ID:llä:",
     "columnTypes": "Saraketyypit",
     "editRosterDetails": "Muokkaa kokoonpanon tietoja",
-    "orderShownWithinRoster": "Järjestys kokoonpanossa"
+    "orderShownWithinRoster": "Järjestys kokoonpanossa",
+    "rosterSlug": "Roster URL -koodi",
+    "copyRosterUrl": "Kopioi kokoonpanon URL"
   },
   "Index": {
     "creatingRostersTutorial": "Kokoonpanojen luomisen opas",

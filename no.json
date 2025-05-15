@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "kan ikke finne roster med id:",
     "columnTypes": "Kolonnetyper",
     "editRosterDetails": "Rediger Roster Detaljer",
-    "orderShownWithinRoster": "Rekkefølge Vist i Roster"
+    "orderShownWithinRoster": "Rekkefølge Vist i Roster",
+    "rosterSlug": "URL-slug for vaktliste",
+    "copyRosterUrl": "Kopier oppstillings-URL"
   },
   "Index": {
     "creatingRostersTutorial": "Opprette Rostere Veiledning",

@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "ID로 명단을 찾을 수 없습니다:",
     "columnTypes": "열 유형",
     "editRosterDetails": "명단 세부 정보 편집",
-    "orderShownWithinRoster": "명단 내 표시 순서"
+    "orderShownWithinRoster": "명단 내 표시 순서",
+    "rosterSlug": "로스터 URL 슬러그",
+    "copyRosterUrl": "명단 URL 복사"
   },
   "Index": {
     "creatingRostersTutorial": "명단 생성 튜토리얼",

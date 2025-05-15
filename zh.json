@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "找不到ID为：的名单",
     "columnTypes": "列类型",
     "editRosterDetails": "编辑名单详情",
-    "orderShownWithinRoster": "名单内显示顺序"
+    "orderShownWithinRoster": "名单内显示顺序",
+    "rosterSlug": "花名册网址别名",
+    "copyRosterUrl": "复制名单网址"
   },
   "Index": {
     "creatingRostersTutorial": "创建名单教程",

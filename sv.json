@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "kan inte hitta roster med id:",
     "columnTypes": "Kolumntyper",
     "editRosterDetails": "Redigera Roster Detaljer",
-    "orderShownWithinRoster": "Ordning Visad inom Roster"
+    "orderShownWithinRoster": "Ordning Visad inom Roster",
+    "rosterSlug": "Roster URL-slug",
+    "copyRosterUrl": "Kopiera Roster-URL"
   },
   "Index": {
     "creatingRostersTutorial": "Skapa Roster Tutorial",

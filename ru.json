@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "не удается найти список с id:",
     "columnTypes": "Типы столбцов",
     "editRosterDetails": "Редактировать детали списка",
-    "orderShownWithinRoster": "Порядок отображения в списке"
+    "orderShownWithinRoster": "Порядок отображения в списке",
+    "rosterSlug": "URL-идентификатор списка",
+    "copyRosterUrl": "Скопировать URL-адрес списка"
   },
   "Index": {
     "creatingRostersTutorial": "Учебник по созданию списков",

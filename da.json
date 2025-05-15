@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "kan ikke finde roster med id:",
     "columnTypes": "Kolonne Typer",
     "editRosterDetails": "Rediger Roster Detaljer",
-    "orderShownWithinRoster": "Rækkefølge Vist i Roster"
+    "orderShownWithinRoster": "Rækkefølge Vist i Roster",
+    "rosterSlug": "Roster URL Slug",
+    "copyRosterUrl": "Kopier liste-URL"
   },
   "Index": {
     "creatingRostersTutorial": "Oprettelse af Roster Vejledning",

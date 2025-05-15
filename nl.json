@@ -420,7 +420,9 @@
     "cannotFindRosterWithId": "kan geen roster vinden met id:",
     "columnTypes": "Kolomtypen",
     "editRosterDetails": "Roster Details Bewerken",
-    "orderShownWithinRoster": "Volgorde Weergegeven binnen Roster"
+    "orderShownWithinRoster": "Volgorde Weergegeven binnen Roster",
+    "rosterSlug": "Roster URL-slug",
+    "copyRosterUrl": "Roster-URL kopiëren"
   },
   "Index": {
     "creatingRostersTutorial": "Rosters Maken Tutorial",
