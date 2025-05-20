@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "Documentación de QBox Panel",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "Alojamiento FiveM"
+    "fivemHosting": "Alojamiento FiveM",
+    "activity": "Actividad",
+    "automation": "Automatización",
+    "permissions": "Permisos",
+    "actions": "Acciones"
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -995,7 +999,9 @@
     "name": "Nombre",
     "areYouSureYouWantToEnableDiscordBotInteg": "¿Estás seguro de que quieres habilitar la Integración del Bot de Discord?",
     "continue": "Continuar",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "type": "Tipo",
+    "erlcApiKey": "Clave API de ERLC"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "No tienes permiso para acceder a esta página."

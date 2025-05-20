@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "큐박스 패널 문서",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM 호스팅"
+    "fivemHosting": "FiveM 호스팅",
+    "activity": "활동",
+    "automation": "자동화",
+    "permissions": "권한",
+    "actions": "작업"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -995,7 +999,9 @@
     "name": "디스코드 봇 통합을 활성화하시겠습니까?",
     "areYouSureYouWantToEnableDiscordBotInteg": "계속",
     "continue": "취소",
-    "cancel": "이 페이지에 접근할 권한이 없습니다."
+    "cancel": "이 페이지에 접근할 권한이 없습니다.",
+    "type": "유형",
+    "erlcApiKey": "ERLC API 키"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "맞춤 도메인 튜토리얼"

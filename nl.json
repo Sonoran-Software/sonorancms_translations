@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "QBox Paneel Documentatie",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM Hosting"
+    "fivemHosting": "FiveM Hosting",
+    "activity": "Activiteit",
+    "automation": "Automatisering",
+    "permissions": "Machtigingen",
+    "actions": "Acties"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -995,7 +999,9 @@
     "name": "Naam",
     "areYouSureYouWantToEnableDiscordBotInteg": "Weet je zeker dat je de Discord Bot-integratie wilt inschakelen?",
     "continue": "Doorgaan",
-    "cancel": "Annuleren"
+    "cancel": "Annuleren",
+    "type": "Type",
+    "erlcApiKey": "ERLC API-sleutel"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "Je hebt geen toestemming om deze pagina te openen."

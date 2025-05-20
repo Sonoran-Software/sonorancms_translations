@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "QBox-paneelin dokumentaatio",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM-isännöinti"
+    "fivemHosting": "FiveM-isännöinti",
+    "activity": "Toiminta",
+    "automation": "Automaatio",
+    "permissions": "Oikeudet",
+    "actions": "Toimintaa"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -995,7 +999,9 @@
     "name": "Nimi",
     "areYouSureYouWantToEnableDiscordBotInteg": "Oletko varma, että haluat ottaa Discord Bot -integraation käyttöön?",
     "continue": "Jatka",
-    "cancel": "Peruuta"
+    "cancel": "Peruuta",
+    "type": "Tyyppi",
+    "erlcApiKey": "ERLC API-avain"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "Sinulla ei ole oikeutta käyttää tätä sivua."

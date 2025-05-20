@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "QBox 面板文档",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM托管"
+    "fivemHosting": "FiveM托管",
+    "activity": "活动",
+    "automation": "自动化",
+    "permissions": "权限",
+    "actions": "操作"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -995,7 +999,9 @@
     "name": "名称",
     "areYouSureYouWantToEnableDiscordBotInteg": "您确定要启用Discord机器人集成吗？",
     "continue": "继续",
-    "cancel": "取消"
+    "cancel": "取消",
+    "type": "类型",
+    "erlcApiKey": "ERLC API 密钥"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "您没有权限访问此页面。"

@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "QBox Panel Dokumentation",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM Hosting"
+    "fivemHosting": "FiveM Hosting",
+    "activity": "Aktivitet",
+    "automation": "Automatisering",
+    "permissions": "Tilladelser",
+    "actions": "Handlinger"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -995,7 +999,9 @@
     "name": "Navn",
     "areYouSureYouWantToEnableDiscordBotInteg": "Er du sikker på, at du vil aktivere Discord Bot Integration?",
     "continue": "Fortsæt",
-    "cancel": "Annuller"
+    "cancel": "Annuller",
+    "type": "Type",
+    "erlcApiKey": "ERLC API-nøgle"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "Du har ikke tilladelse til at få adgang til denne side."

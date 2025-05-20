@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "Документация панели QBox",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "Хостинг FiveM"
+    "fivemHosting": "Хостинг FiveM",
+    "activity": "Активность",
+    "automation": "Автоматизация",
+    "permissions": "Разрешения",
+    "actions": "Действия"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -995,7 +999,9 @@
     "name": "Вы уверены, что хотите включить интеграцию с Discord ботом?",
     "areYouSureYouWantToEnableDiscordBotInteg": "Продолжить",
     "continue": "Отмена",
-    "cancel": "У вас нет прав для доступа к этой странице."
+    "cancel": "У вас нет прав для доступа к этой странице.",
+    "type": "Тип",
+    "erlcApiKey": "Ключ API ERLC"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "Учебник по пользовательскому домену"

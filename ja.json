@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "QBoxパネルドキュメント",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveMホスティング"
+    "fivemHosting": "FiveMホスティング",
+    "activity": "アクティビティ",
+    "automation": "オートメーション",
+    "permissions": "権限",
+    "actions": "アクション"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -995,7 +999,9 @@
     "name": "Discordボット統合を有効にしてもよろしいですか？",
     "areYouSureYouWantToEnableDiscordBotInteg": "続行",
     "continue": "キャンセル",
-    "cancel": "このページにアクセスする権限がありません。"
+    "cancel": "このページにアクセスする権限がありません。",
+    "type": "タイプ",
+    "erlcApiKey": "ERLC APIキー"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "カスタムドメインチュートリアル"

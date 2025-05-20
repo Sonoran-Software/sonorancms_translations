@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "QBox Panel Belgeleri",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM Barındırma"
+    "fivemHosting": "FiveM Barındırma",
+    "activity": "Etkinlik",
+    "automation": "Otomasyon",
+    "permissions": "İzinler",
+    "actions": "Eylemler"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -995,7 +999,9 @@
     "name": "Ad",
     "areYouSureYouWantToEnableDiscordBotInteg": "Discord Bot Entegrasyonunu etkinleştirmek istediğinizden emin misiniz?",
     "continue": "Devam Et",
-    "cancel": "İptal"
+    "cancel": "İptal",
+    "type": "Türü",
+    "erlcApiKey": "ERLC API Anahtarı"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "Bu sayfaya erişim izniniz yok."

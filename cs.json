@@ -646,7 +646,11 @@
     "qboxPanelDocumentation": "Dokumentace panelu QBox",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
-    "fivemHosting": "FiveM Hosting"
+    "fivemHosting": "FiveM Hosting",
+    "activity": "Aktivita",
+    "automation": "Automatizace",
+    "permissions": "Oprávnění",
+    "actions": "Akce"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -995,7 +999,9 @@
     "name": "Název",
     "areYouSureYouWantToEnableDiscordBotInteg": "Opravdu chcete povolit integraci Discord Bota?",
     "continue": "Pokračovat",
-    "cancel": "Zrušit"
+    "cancel": "Zrušit",
+    "type": "Typ",
+    "erlcApiKey": "ERLC API klíč"
   },
   "CADIntegration": {
     "youDoNotHavePermissionToAccessThisPage": "Nemáte oprávnění k přístupu na tuto stránku."
