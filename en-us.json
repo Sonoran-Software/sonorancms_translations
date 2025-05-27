@@ -206,7 +206,8 @@
     "premadeSections": "Premade Sections",
     "fields": "Fields",
     "modifyStageSettings": "Modify Stage Settings",
-    "appThirdPartySubmit": "Third Party Submit"
+    "appThirdPartySubmit": "Third Party Submit",
+    "manageOtherComments": "Manage Other Comments"
   },
   "departments": {
     "departmentName": "Department Name",
