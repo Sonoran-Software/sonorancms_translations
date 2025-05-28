@@ -4378,7 +4378,8 @@
     "editShortenerDesc": "Allows members to edit short URLs in the Short URL Manager.",
     "removeShortener": "Remove Short URLs",
     "removeShortenerDesc": "Allows members to remove short URLs in the Short URL Manager.",
-    "manageDomainsDesc": "Allows members to manage domains in the Short URL Manager."
+    "manageDomainsDesc": "Allows members to manage domains in the Short URL Manager.",
+    "allowMembersToManageOtherComments": "Allows members to manage other members' comments on submissions of this form template."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
