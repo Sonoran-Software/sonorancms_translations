@@ -218,7 +218,8 @@
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "blacklist": "Rango de la Lista Negra",
     "modifyTemplate": "Modyfikuj szablon formularza",
-    "privateComments": "Nantu Pribadong Komentaro"
+    "privateComments": "Nantu Pribadong Komentaro",
+    "manageOtherComments": "Altri commenti di gestione"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -650,7 +651,8 @@
     "activity": "Aktivitet",
     "automation": "Automatyzacja",
     "permissions": "Permisos",
-    "actions": "Aksiyonlar"
+    "actions": "Aksiyonlar",
+    "settings": "Nastavitve"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
     "allowsMembersToModifyTemplate": "Permite aos membros modificar este modelo de formulário no Construtor de Formulários.",
     "allowsMembersToEditMembersEventsInT": "Dozwala członkom edytować wydarzenia w tej kategorii.",
-    "allowMembersToPrivateComments": "Dopuszcza członków do dostępu i wysyłania prywatnych komentarzy do zgłoszeń tego szablonu formularza."
+    "allowMembersToPrivateComments": "Dopuszcza członków do dostępu i wysyłania prywatnych komentarzy do zgłoszeń tego szablonu formularza.",
+    "allowMembersToManageOtherComments": "Ermöglicht es Mitgliedern, die Kommentare anderer Mitglieder zu den Einreichungen dieser Formularvorlage zu verwalten."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"

@@ -218,7 +218,8 @@
     "modifyStageSettings": "Rediger scenens indstillinger",
     "blacklist": "Sortslisten Rang",
     "modifyTemplate": "Rediger formularskabelon",
-    "privateComments": "Adgang til private kommentarer"
+    "privateComments": "Adgang til private kommentarer",
+    "manageOtherComments": "Administrer andre kommentarer"
   },
   "departments": {
     "departmentName": "Afdelingsnavn",
@@ -650,7 +651,8 @@
     "activity": "Aktivitet",
     "automation": "Automatisering",
     "permissions": "Tilladelser",
-    "actions": "Handlinger"
+    "actions": "Handlinger",
+    "settings": "Indstillinger"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Blokerer medlem fra at indsende denne skabelon.",
     "allowsMembersToModifyTemplate": "Giver medlemmer mulighed for at ændre denne formularskabelon i Formularopretteren.",
     "allowsMembersToEditMembersEventsInT": "Tillader medlemmer at redigere begivenheder i denne kategori.",
-    "allowMembersToPrivateComments": "Giver medlemmer mulighed for at få adgang til og sende private kommentarer til indsendelser af denne skabelon."
+    "allowMembersToPrivateComments": "Giver medlemmer mulighed for at få adgang til og sende private kommentarer til indsendelser af denne skabelon.",
+    "allowMembersToManageOtherComments": "Giver medlemmer mulighed for at administrere andre medlemmers kommentarer til indsendelser af denne skabelon."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

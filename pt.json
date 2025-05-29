@@ -218,7 +218,8 @@
     "modifyStageSettings": "Modificar configurações do estágio",
     "blacklist": "Rancho da Lista Negra",
     "modifyTemplate": "Modificar Modelo de Formulário",
-    "privateComments": "Acessar Comentários Privados"
+    "privateComments": "Acessar Comentários Privados",
+    "manageOtherComments": "Gerenciar Outros Comentários"
   },
   "departments": {
     "departmentName": "Nome do Departamento",
@@ -650,7 +651,8 @@
     "activity": "Atividade",
     "automation": "Automação",
     "permissions": "Permissões",
-    "actions": "Ações"
+    "actions": "Ações",
+    "settings": "Configurações"
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Impede que o membro envie este modelo de formulário.",
     "allowsMembersToModifyTemplate": "Permite que os membros modifiquem este modelo de formulário no Construtor de Formulários.",
     "allowsMembersToEditMembersEventsInT": "Permite que os membros editem eventos nesta categoria.",
-    "allowMembersToPrivateComments": "Permite que os membros acessem e enviem comentários privados nas submissões deste modelo de formulário."
+    "allowMembersToPrivateComments": "Permite que os membros acessem e enviem comentários privados nas submissões deste modelo de formulário.",
+    "allowMembersToManageOtherComments": "Permite que os membros gerenciem os comentários de outros membros nas submissões deste modelo de formulário."
   },
   "permissionToggleGroup": {
     "inherited": "herdado"

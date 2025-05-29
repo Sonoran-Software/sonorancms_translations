@@ -218,7 +218,8 @@
     "modifyStageSettings": "Endre Scenesinnstillinger",
     "blacklist": "Svarteliste Rang",
     "modifyTemplate": "Endre skjemamal",
-    "privateComments": "Tilgang til private kommentarer"
+    "privateComments": "Tilgang til private kommentarer",
+    "manageOtherComments": "Administrer andre kommentarer"
   },
   "departments": {
     "departmentName": "Avdelingsnavn",
@@ -650,7 +651,8 @@
     "activity": "Aktivitet",
     "automation": "Automatisering",
     "permissions": "Tillatelser",
-    "actions": "Handlinger"
+    "actions": "Handlinger",
+    "settings": "Innstillinger"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Blokkerer medlem fra å sende inn dette skjemaet.",
     "allowsMembersToModifyTemplate": "Lar medlemmene endre denne skjema malen i Skjemabyggeren.",
     "allowsMembersToEditMembersEventsInT": "Lar medlemmer redigere arrangementer i denne kategorien.",
-    "allowMembersToPrivateComments": "Lar medlemmene få tilgang til og sende private kommentarer på sendinger av denne skjema malen."
+    "allowMembersToPrivateComments": "Lar medlemmene få tilgang til og sende private kommentarer på sendinger av denne skjema malen.",
+    "allowMembersToManageOtherComments": "Tillater medlemmer å administrere andre medlemmers kommentarer på innsendinger av denne skjemamalen."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

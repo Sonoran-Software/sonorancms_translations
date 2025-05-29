@@ -218,7 +218,8 @@
     "modifyStageSettings": "Изменить настройки этапа",
     "blacklist": "Чёрный список - Ранг",
     "modifyTemplate": "Изменить шаблон формы",
-    "privateComments": "Доступ к приватным комментариям"
+    "privateComments": "Доступ к приватным комментариям",
+    "manageOtherComments": "Управление другими комментариями"
   },
   "departments": {
     "departmentName": "Название Отдела",
@@ -650,7 +651,8 @@
     "activity": "Активность",
     "automation": "Автоматизация",
     "permissions": "Разрешения",
-    "actions": "Действия"
+    "actions": "Действия",
+    "settings": "Настройки"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Блокирует участника от отправки этого шаблона формы.",
     "allowsMembersToModifyTemplate": "Позволяет участникам изменять этот шаблон формы в Конструкторе форм.",
     "allowsMembersToEditMembersEventsInT": "Позволяет участникам редактировать события в этой категории.",
-    "allowMembersToPrivateComments": "Позволяет пользователям получать доступ и отправлять личные комментарии к отправкам этого шаблона формы."
+    "allowMembersToPrivateComments": "Позволяет пользователям получать доступ и отправлять личные комментарии к отправкам этого шаблона формы.",
+    "allowMembersToManageOtherComments": "Позволяет участникам управлять комментариями других участников по отправкам этого шаблона формы."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"

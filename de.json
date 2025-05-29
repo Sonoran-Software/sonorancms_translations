@@ -218,7 +218,8 @@
     "modifyStageSettings": "Bühnen Einstellungen bearbeiten",
     "blacklist": "Schwarze Liste Rang",
     "modifyTemplate": "Formularvorlage ändern",
-    "privateComments": "Zugriff auf private Kommentare"
+    "privateComments": "Zugriff auf private Kommentare",
+    "manageOtherComments": "Andere Kommentare verwalten"
   },
   "departments": {
     "departmentName": "Abteilungsname",
@@ -650,7 +651,8 @@
     "activity": "Aktivität",
     "automation": "Automatisierung",
     "permissions": "Berechtigungen",
-    "actions": "Aktionen"
+    "actions": "Aktionen",
+    "settings": "Einstellungen"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Verhindert, dass das Mitglied diese Formularvorlage einreicht.",
     "allowsMembersToModifyTemplate": "Ermöglicht Mitgliedern, diese Formularvorlage im Formular-Builder zu bearbeiten.",
     "allowsMembersToEditMembersEventsInT": "Ermöglicht Mitgliedern, Ereignisse in dieser Kategorie zu bearbeiten.",
-    "allowMembersToPrivateComments": "Ermöglicht es Mitgliedern, private Kommentare zu Einsendungen dieser Formularvorlage zuzugreifen und zu senden."
+    "allowMembersToPrivateComments": "Ermöglicht es Mitgliedern, private Kommentare zu Einsendungen dieser Formularvorlage zuzugreifen und zu senden.",
+    "allowMembersToManageOtherComments": "Ermöglicht Mitgliedern, die Kommentare anderer Mitglieder zu Einreichungen dieser Formularvorlage zu verwalten."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"

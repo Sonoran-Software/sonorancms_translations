@@ -218,7 +218,8 @@
     "modifyStageSettings": "Ändra sceninställningar",
     "blacklist": "Svartlistningsrankning",
     "modifyTemplate": "Ändra formulärmall",
-    "privateComments": "Åtkomst till privata kommentarer"
+    "privateComments": "Åtkomst till privata kommentarer",
+    "manageOtherComments": "Hantera Andra Kommentarer"
   },
   "departments": {
     "departmentName": "Avdelningsnamn",
@@ -650,7 +651,8 @@
     "activity": "Aktivitet",
     "automation": "Automatisering",
     "permissions": "Behörigheter",
-    "actions": "Åtgärder"
+    "actions": "Åtgärder",
+    "settings": "Inställningar"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Hindrar medlem från att skicka in denna formulärmall.",
     "allowsMembersToModifyTemplate": "Tillåter medlemmar att ändra denna formmall i formulärbyggaren.",
     "allowsMembersToEditMembersEventsInT": "Tillåter medlemmar att redigera händelser i denna kategori.",
-    "allowMembersToPrivateComments": "Tillåter medlemmar att komma åt och skicka privata kommentarer på inlämningar av denna formulärmall."
+    "allowMembersToPrivateComments": "Tillåter medlemmar att komma åt och skicka privata kommentarer på inlämningar av denna formulärmall.",
+    "allowMembersToManageOtherComments": "Tillåter medlemmar att hantera andra medlemmars kommentarer på inlagor av denna formulärmall."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"

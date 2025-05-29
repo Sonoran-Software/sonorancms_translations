@@ -218,7 +218,8 @@
     "modifyStageSettings": "Configurar Etapa",
     "blacklist": "Rango de la lista negra",
     "modifyTemplate": "Modificar la plantilla del formulario",
-    "privateComments": "Acceder a comentarios privados"
+    "privateComments": "Acceder a comentarios privados",
+    "manageOtherComments": "Administrar Otros Comentarios"
   },
   "departments": {
     "departmentName": "Nombre del Departamento",
@@ -650,7 +651,8 @@
     "activity": "Actividad",
     "automation": "Automatización",
     "permissions": "Permisos",
-    "actions": "Acciones"
+    "actions": "Acciones",
+    "settings": "Configuración"
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Impide que el miembro envíe esta plantilla de formulario.",
     "allowsMembersToModifyTemplate": "Permite a los miembros modificar esta plantilla de formulario en el Constructor de Formularios.",
     "allowsMembersToEditMembersEventsInT": "Permite a los miembros editar eventos en esta categoría.",
-    "allowMembersToPrivateComments": "Permite a los miembros acceder y enviar comentarios privados sobre las presentaciones de esta plantilla de formulario."
+    "allowMembersToPrivateComments": "Permite a los miembros acceder y enviar comentarios privados sobre las presentaciones de esta plantilla de formulario.",
+    "allowMembersToManageOtherComments": "Permite a los miembros gestionar los comentarios de otros miembros en las presentaciones de esta plantilla de formulario."
   },
   "permissionToggleGroup": {
     "inherited": "heredado"

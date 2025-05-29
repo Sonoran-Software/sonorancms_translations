@@ -218,7 +218,8 @@
     "modifyStageSettings": "Modifier les paramètres de l'étape",
     "blacklist": "Rang de la liste noire",
     "modifyTemplate": "Modifier le modèle de formulaire",
-    "privateComments": "Accéder aux commentaires privés"
+    "privateComments": "Accéder aux commentaires privés",
+    "manageOtherComments": "Gérer d'autres commentaires"
   },
   "departments": {
     "departmentName": "Nom du Département",
@@ -650,7 +651,8 @@
     "activity": "Activité",
     "automation": "Automatisation",
     "permissions": "Autorisations",
-    "actions": "Actions"
+    "actions": "Actions",
+    "settings": "Paramètres"
   },
   "Dashboard": {
     "securityDashboard": "Sécurité - Tableau de bord",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Empêche le membre de soumettre ce modèle de formulaire.",
     "allowsMembersToModifyTemplate": "Permet aux membres de modifier ce modèle de formulaire dans le Form Builder.",
     "allowsMembersToEditMembersEventsInT": "Permet aux membres de modifier les événements dans cette catégorie.",
-    "allowMembersToPrivateComments": "Permet aux membres d'accéder et d'envoyer des commentaires privés sur les soumissions de ce modèle de formulaire."
+    "allowMembersToPrivateComments": "Permet aux membres d'accéder et d'envoyer des commentaires privés sur les soumissions de ce modèle de formulaire.",
+    "allowMembersToManageOtherComments": "Permet aux membres de gérer les commentaires d'autres membres sur les soumissions de ce modèle de formulaire."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"

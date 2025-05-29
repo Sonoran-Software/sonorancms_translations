@@ -218,7 +218,8 @@
     "modifyStageSettings": "Aşama Ayarlarını Düzenle",
     "blacklist": "Kara Liste Rütbesi",
     "modifyTemplate": "Form Şablonunu Değiştir",
-    "privateComments": "Özel Yorumlara Eriş"
+    "privateComments": "Özel Yorumlara Eriş",
+    "manageOtherComments": "Diğer Yorumları Yönet"
   },
   "departments": {
     "departmentName": "Departman Adı",
@@ -650,7 +651,8 @@
     "activity": "Etkinlik",
     "automation": "Otomasyon",
     "permissions": "İzinler",
-    "actions": "Eylemler"
+    "actions": "Eylemler",
+    "settings": "Ayarlar"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Bu form şablonunu göndermesini üyenin engeller.",
     "allowsMembersToModifyTemplate": "Üyelerin Formlar Oluşturucusu'nda bu form şablonunu değiştirmesine izin verir.",
     "allowsMembersToEditMembersEventsInT": "Bu kategorideki etkinlikleri düzenlemelerine izin verir.",
-    "allowMembersToPrivateComments": "Bu form şablonunun gönderimleri üzerinde üyelerin özel yorumlara erişmesine ve göndermesine izin verir."
+    "allowMembersToPrivateComments": "Bu form şablonunun gönderimleri üzerinde üyelerin özel yorumlara erişmesine ve göndermesine izin verir.",
+    "allowMembersToManageOtherComments": "Bu form şablonundaki gönderimler üzerindeki yorumları diğer üyelerin yönetmesine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan"

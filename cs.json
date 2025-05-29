@@ -218,7 +218,8 @@
     "modifyStageSettings": "Upravit nastavení stupně",
     "blacklist": "Černá listina hodnosti",
     "modifyTemplate": "Upravit šablonu formuláře",
-    "privateComments": "Přístup k soukromým komentářům"
+    "privateComments": "Přístup k soukromým komentářům",
+    "manageOtherComments": "Spravovat jiné komentáře"
   },
   "departments": {
     "departmentName": "Název oddělení",
@@ -650,7 +651,8 @@
     "activity": "Aktivita",
     "automation": "Automatizace",
     "permissions": "Oprávnění",
-    "actions": "Akce"
+    "actions": "Akce",
+    "settings": "Nastavení"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Zabrání členovi odeslat tuto šablonu formuláře.",
     "allowsMembersToModifyTemplate": "Umožňuje členům upravit tuto šablonu formuláře v Návrháři formulářů.",
     "allowsMembersToEditMembersEventsInT": "Umožňuje členům upravovat události v této kategorii.",
-    "allowMembersToPrivateComments": "Umožňuje členům přistupovat a odesílat soukromé komentáře k podáním této šablony formuláře."
+    "allowMembersToPrivateComments": "Umožňuje členům přistupovat a odesílat soukromé komentáře k podáním této šablony formuláře.",
+    "allowMembersToManageOtherComments": "Umožňuje členům spravovat komentáře ostatních členů k odesláním této šablony formuláře."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"

@@ -218,7 +218,8 @@
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "blacklist": "Ranga czarnej listy",
     "modifyTemplate": "Zmodyfikuj szablon formularza",
-    "privateComments": "Uzyskaj dostęp do prywatnych komentarzy"
+    "privateComments": "Uzyskaj dostęp do prywatnych komentarzy",
+    "manageOtherComments": "Zarządzaj innymi komentarzami"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -650,7 +651,8 @@
     "activity": "Aktywność",
     "automation": "Automatyzacja",
     "permissions": "Uprawnienia",
-    "actions": "Akcje"
+    "actions": "Akcje",
+    "settings": "Ustawienia"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -4393,7 +4395,8 @@
     "allowsMembersToBlackList": "Blokuje członka przed przesłaniem tego szablonu formularza.",
     "allowsMembersToModifyTemplate": "Umożliwia członkom modyfikację tego szablonu formularza w Form Builder.",
     "allowsMembersToEditMembersEventsInT": "Pozwala członkom edytować wydarzenia w tej kategorii.",
-    "allowMembersToPrivateComments": "Pozwala członkom uzyskiwać dostęp i przesyłać prywatne komentarze do zgłoszeń tego szablonu formularza."
+    "allowMembersToPrivateComments": "Pozwala członkom uzyskiwać dostęp i przesyłać prywatne komentarze do zgłoszeń tego szablonu formularza.",
+    "allowMembersToManageOtherComments": "Umożliwia członkom zarządzanie komentarzami innych członków dotyczącymi zgłoszeń w tym szablonie formularza."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

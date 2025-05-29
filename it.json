@@ -218,7 +218,8 @@
     "modifyStageSettings": "Modifica Impostazioni del Palco",
     "blacklist": "Rango di blacklist",
     "modifyTemplate": "Modifica modello modulo",
-    "privateComments": "Accedi ai commenti privati"
+    "privateComments": "Accedi ai commenti privati",
+    "manageOtherComments": "Gestisci Altri Commenti"
   },
   "departments": {
     "departmentName": "Nome del Dipartimento",
@@ -650,7 +651,8 @@
     "activity": "Attività",
     "automation": "Automazione",
     "permissions": "Permessi",
-    "actions": "Azioni"
+    "actions": "Azioni",
+    "settings": "Impostazioni"
   },
   "Dashboard": {
     "securityDashboard": "Sicurezza - Dashboard",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Blocca il membro dall'inviare questo modello di modulo.",
     "allowsMembersToModifyTemplate": "Consente ai membri di modificare questo modello di modulo nel Costruttore di Moduli.",
     "allowsMembersToEditMembersEventsInT": "Consente ai membri di modificare gli eventi in questa categoria.",
-    "allowMembersToPrivateComments": "Consente ai membri di accedere e inviare commenti privati sulle presentazioni di questo modello di modulo."
+    "allowMembersToPrivateComments": "Consente ai membri di accedere e inviare commenti privati sulle presentazioni di questo modello di modulo.",
+    "allowMembersToManageOtherComments": "Consente ai membri di gestire i commenti di altri membri sulle invii di questo modello di modulo."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"

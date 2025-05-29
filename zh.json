@@ -218,7 +218,8 @@
     "modifyStageSettings": "修改阶段设置",
     "blacklist": "黑名单等级",
     "modifyTemplate": "修改表单模板",
-    "privateComments": "访问私人评论"
+    "privateComments": "访问私人评论",
+    "manageOtherComments": "管理其他评论"
   },
   "departments": {
     "departmentName": "部门名称",
@@ -650,7 +651,8 @@
     "activity": "活动",
     "automation": "自动化",
     "permissions": "权限",
-    "actions": "操作"
+    "actions": "操作",
+    "settings": "设置"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "阻止成员提交此表单模板。",
     "allowsMembersToModifyTemplate": "允许成员在表单构建器中修改此表单模板。",
     "allowsMembersToEditMembersEventsInT": "允许成员编辑此类别中的事件。",
-    "allowMembersToPrivateComments": "允许成员访问并发送对此表单模板提交的私密评论。"
+    "allowMembersToPrivateComments": "允许成员访问并发送对此表单模板提交的私密评论。",
+    "allowMembersToManageOtherComments": "允许成员管理其他成员在此表单模板提交中的评论。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"

@@ -218,7 +218,8 @@
     "modifyStageSettings": "ステージ設定を変更",
     "blacklist": "ブラックリストランク",
     "modifyTemplate": "フォームテンプレートを変更",
-    "privateComments": "プライベートコメントにアクセス"
+    "privateComments": "プライベートコメントにアクセス",
+    "manageOtherComments": "他のコメントを管理する"
   },
   "departments": {
     "departmentName": "部門名",
@@ -650,7 +651,8 @@
     "activity": "アクティビティ",
     "automation": "オートメーション",
     "permissions": "権限",
-    "actions": "アクション"
+    "actions": "アクション",
+    "settings": "設定"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "このフォームテンプレートを提出することからメンバーをブロックします。",
     "allowsMembersToModifyTemplate": "フォームビルダーでこのフォームテンプレートをメンバーが修正できるようにします。",
     "allowsMembersToEditMembersEventsInT": "このカテゴリのイベントを編集するメンバーを許可します。",
-    "allowMembersToPrivateComments": "このフォームテンプレートの提出に対するプライベートコメントへのアクセスと送信をメンバーに許可します。"
+    "allowMembersToPrivateComments": "このフォームテンプレートの提出に対するプライベートコメントへのアクセスと送信をメンバーに許可します。",
+    "allowMembersToManageOtherComments": "このフォームテンプレートの提出物に対する他のメンバーのコメントを管理することができます。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"

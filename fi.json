@@ -218,7 +218,8 @@
     "modifyStageSettings": "Muokkaa vaiheen asetuksia",
     "blacklist": "Musta lista -rangaistusaste",
     "modifyTemplate": "Muokkaa lomakepohjaa",
-    "privateComments": "Pääsy yksityisiin kommentteihin"
+    "privateComments": "Pääsy yksityisiin kommentteihin",
+    "manageOtherComments": "Hallitse muita kommentteja"
   },
   "departments": {
     "departmentName": "Osaston nimi",
@@ -650,7 +651,8 @@
     "activity": "Toiminta",
     "automation": "Automaatio",
     "permissions": "Oikeudet",
-    "actions": "Toimintaa"
+    "actions": "Toimintaa",
+    "settings": "Asetukset"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "Estää jäsentä lähettämästä tätä lomakepohjaa.",
     "allowsMembersToModifyTemplate": "Sallii jäsenten muokata tätä lomakepohjaa Lomakkeen rakentajassa.",
     "allowsMembersToEditMembersEventsInT": "Sallii jäsenten muokata tämän kategorian tapahtumia.",
-    "allowMembersToPrivateComments": "Mahdollistaa jäsenille pääsyn ja yksityisten kommenttien lähettämisen tämän lomakepohjan lähetyksiin."
+    "allowMembersToPrivateComments": "Mahdollistaa jäsenille pääsyn ja yksityisten kommenttien lähettämisen tämän lomakepohjan lähetyksiin.",
+    "allowMembersToManageOtherComments": "Mahdollistaa jäsenten hallita muiden jäsenten kommentteja tämän lomakepohjan palautuksista."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"

@@ -218,7 +218,8 @@
     "modifyStageSettings": "تعديل إعدادات المرحلة",
     "blacklist": "رتبة القائمة السوداء",
     "modifyTemplate": "تعديل قالب النموذج",
-    "privateComments": "الوصول إلى التعليقات الخاصة"
+    "privateComments": "الوصول إلى التعليقات الخاصة",
+    "manageOtherComments": "إدارة تعليقات أخرى"
   },
   "departments": {
     "departmentName": "اسم القسم",
@@ -650,7 +651,8 @@
     "activity": "النشاط",
     "automation": "أتمتة",
     "permissions": "الأذونات",
-    "actions": "الإجراءات"
+    "actions": "الإجراءات",
+    "settings": "إعدادات"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -4325,7 +4327,8 @@
     "allowsMembersToBlackList": "يمنع العضو من إرسال نموذج الطلب هذا.",
     "allowsMembersToModifyTemplate": "يسمح للأعضاء بتعديل قالب النموذج هذا في مُنشئ النماذج.",
     "allowsMembersToEditMembersEventsInT": "يسمح للأعضاء بتحرير الفعاليات في هذه الفئة.",
-    "allowMembersToPrivateComments": "يسمح للأعضاء بالوصول إلى التعليقات الخاصة وإرسالها على الإرساليات لهذا النموذج التمهيدي."
+    "allowMembersToPrivateComments": "يسمح للأعضاء بالوصول إلى التعليقات الخاصة وإرسالها على الإرساليات لهذا النموذج التمهيدي.",
+    "allowMembersToManageOtherComments": "يسمح للأعضاء بإدارة تعليقات الأعضاء الآخرين على تقديمات قالب النموذج هذا."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"
