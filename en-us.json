@@ -1703,7 +1703,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "End:",
-    "noServer": "No server name"
+    "noServer": "No server name",
+    "downloadRosterCsv": "Download Full Roster as CSV",
+    "errorDownloadingRosterCSV": "Error downloading roster CSV, contact support if this persists.",
+    "errorDownloadingRosterCSVDueToBrowser": "Error downloading roster CSV due to browser permissions."
   },
   "ToolbarLinks": {
     "button": "Button",
@@ -4382,7 +4385,9 @@
     "removeShortener": "Remove Short URLs",
     "removeShortenerDesc": "Allows members to remove short URLs in the Short URL Manager.",
     "manageDomainsDesc": "Allows members to manage domains in the Short URL Manager.",
-    "allowMembersToManageOtherComments": "Allows members to manage other members' comments on submissions of this form template."
+    "allowMembersToManageOtherComments": "Allows members to manage other members' comments on submissions of this form template.",
+    "downloadRosterCSV": "Download Full Roster CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Allows members to download the full roster as a CSV file."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited"
