@@ -3976,7 +3976,9 @@
     "theBackgroundImageWithOutAnyStyling": "The background image with out any styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elements cannot be dropped into a forum section",
     "addSection": "Add Section",
-    "backgroundOptions": "Background Options"
+    "backgroundOptions": "Background Options",
+    "triggerAnimations": "Trigger Animations",
+    "triggerAnimationsToPlay": "Trigger all animations to play on this page."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lock item to this section",
