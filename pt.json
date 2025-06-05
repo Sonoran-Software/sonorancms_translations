@@ -1718,7 +1718,10 @@
     "server": "Servidor:",
     "start": "Iniciar:",
     "end": "Fim:",
-    "noServer": "Sem nome de servidor"
+    "noServer": "Sem nome de servidor",
+    "downloadRosterCsv": "Baixar Lista Completa como CSV",
+    "errorDownloadingRosterCSV": "Erro ao baixar o CSV da lista, entre em contato com o suporte se isso persistir.",
+    "errorDownloadingRosterCSVDueToBrowser": "Erro ao baixar o CSV do quadro devido às permissões do navegador."
   },
   "ToolbarLinks": {
     "button": "Botão",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "A imagem de fundo sem qualquer estilo",
     "elementsCannotBeDroppedIntoAForumSection": "Elementos não podem ser soltos em uma seção de fórum",
     "addSection": "Adicionar Seção",
-    "backgroundOptions": "Opções de Fundo"
+    "backgroundOptions": "Opções de Fundo",
+    "triggerAnimations": "Acionar Animações",
+    "triggerAnimationsToPlay": "Ative todas as animações para serem executadas nesta página."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Travar item nesta seção",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Permite que os membros modifiquem este modelo de formulário no Construtor de Formulários.",
     "allowsMembersToEditMembersEventsInT": "Permite que os membros editem eventos nesta categoria.",
     "allowMembersToPrivateComments": "Permite que os membros acessem e enviem comentários privados nas submissões deste modelo de formulário.",
-    "allowMembersToManageOtherComments": "Permite que os membros gerenciem os comentários de outros membros nas submissões deste modelo de formulário."
+    "allowMembersToManageOtherComments": "Permite que os membros gerenciem os comentários de outros membros nas submissões deste modelo de formulário.",
+    "downloadRosterCSV": "Baixar CSV Completo da Lista",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite aos membros baixar a lista completa como um arquivo CSV."
   },
   "permissionToggleGroup": {
     "inherited": "herdado"

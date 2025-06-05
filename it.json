@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Inizia:",
     "end": "Fine:",
-    "noServer": "Nessun nome del server"
+    "noServer": "Nessun nome del server",
+    "downloadRosterCsv": "Scarica l'elenco completo come CSV",
+    "errorDownloadingRosterCSV": "Errore nel download del CSV del roster, contatta il supporto se persiste.",
+    "errorDownloadingRosterCSVDueToBrowser": "Errore nel download del CSV della lista a causa delle autorizzazioni del browser."
   },
   "ToolbarLinks": {
     "button": "Pulsante",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "L'immagine di sfondo senza alcuno stile",
     "elementsCannotBeDroppedIntoAForumSection": "Gli elementi non possono essere trascinati in una sezione del forum",
     "addSection": "Aggiungi Sezione",
-    "backgroundOptions": "Opzioni di Sfondo"
+    "backgroundOptions": "Opzioni di Sfondo",
+    "triggerAnimations": "Attiva animazioni",
+    "triggerAnimationsToPlay": "Fai partire tutte le animazioni su questa pagina."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Blocca elemento a questa sezione",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Consente ai membri di modificare questo modello di modulo nel Costruttore di Moduli.",
     "allowsMembersToEditMembersEventsInT": "Consente ai membri di modificare gli eventi in questa categoria.",
     "allowMembersToPrivateComments": "Consente ai membri di accedere e inviare commenti privati sulle presentazioni di questo modello di modulo.",
-    "allowMembersToManageOtherComments": "Consente ai membri di gestire i commenti di altri membri sulle invii di questo modello di modulo."
+    "allowMembersToManageOtherComments": "Consente ai membri di gestire i commenti di altri membri sulle invii di questo modello di modulo.",
+    "downloadRosterCSV": "Scarica il CSV del Roster Completo",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permette ai membri di scaricare l'elenco completo come file CSV."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato"

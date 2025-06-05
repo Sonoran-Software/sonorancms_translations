@@ -1718,7 +1718,10 @@
     "server": "Serveur :",
     "start": "Commencer:",
     "end": "Fin:",
-    "noServer": "Pas de nom de serveur"
+    "noServer": "Pas de nom de serveur",
+    "downloadRosterCsv": "Télécharger la liste complète au format CSV",
+    "errorDownloadingRosterCSV": "Erreur lors du téléchargement du fichier CSV de la liste, contactez le support si cela persiste.",
+    "errorDownloadingRosterCSVDueToBrowser": "Erreur de téléchargement du CSV de l'effectif en raison des autorisations du navigateur."
   },
   "ToolbarLinks": {
     "button": "Bouton",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "L'image de fond sans aucun style",
     "elementsCannotBeDroppedIntoAForumSection": "Les éléments ne peuvent pas être déposés dans une section de forum",
     "addSection": "Ajouter une section",
-    "backgroundOptions": "Options de fond"
+    "backgroundOptions": "Options de fond",
+    "triggerAnimations": "Déclencher des animations",
+    "triggerAnimationsToPlay": "Déclencher toutes les animations pour qu'elles se déclenchent sur cette page."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Verrouiller l'élément à cette section",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Permet aux membres de modifier ce modèle de formulaire dans le Form Builder.",
     "allowsMembersToEditMembersEventsInT": "Permet aux membres de modifier les événements dans cette catégorie.",
     "allowMembersToPrivateComments": "Permet aux membres d'accéder et d'envoyer des commentaires privés sur les soumissions de ce modèle de formulaire.",
-    "allowMembersToManageOtherComments": "Permet aux membres de gérer les commentaires d'autres membres sur les soumissions de ce modèle de formulaire."
+    "allowMembersToManageOtherComments": "Permet aux membres de gérer les commentaires d'autres membres sur les soumissions de ce modèle de formulaire.",
+    "downloadRosterCSV": "Télécharger le fichier CSV du roster complet",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permet aux membres de télécharger l'intégralité de la liste sous forme de fichier CSV."
   },
   "permissionToggleGroup": {
     "inherited": "hérité"

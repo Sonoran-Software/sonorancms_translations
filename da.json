@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "Slut:",
-    "noServer": "Intet servernavn"
+    "noServer": "Intet servernavn",
+    "downloadRosterCsv": "Download fuld liste som CSV",
+    "errorDownloadingRosterCSV": "Fejl ved download af roster CSV, kontakt support, hvis dette fortsætter.",
+    "errorDownloadingRosterCSVDueToBrowser": "Fejl ved download af CSV-oversigt på grund af browser-tilladelser."
   },
   "ToolbarLinks": {
     "button": "Knap",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Baggrundsbilledet uden nogen styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elementer kan ikke droppes i en forumsektion",
     "addSection": "Tilføj Sektion",
-    "backgroundOptions": "Baggrundsindstillinger"
+    "backgroundOptions": "Baggrundsindstillinger",
+    "triggerAnimations": "Udløs animationer",
+    "triggerAnimationsToPlay": "Afspil alle animationer på denne side."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås element til denne sektion",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Giver medlemmer mulighed for at ændre denne formularskabelon i Formularopretteren.",
     "allowsMembersToEditMembersEventsInT": "Tillader medlemmer at redigere begivenheder i denne kategori.",
     "allowMembersToPrivateComments": "Giver medlemmer mulighed for at få adgang til og sende private kommentarer til indsendelser af denne skabelon.",
-    "allowMembersToManageOtherComments": "Giver medlemmer mulighed for at administrere andre medlemmers kommentarer til indsendelser af denne skabelon."
+    "allowMembersToManageOtherComments": "Giver medlemmer mulighed for at administrere andre medlemmers kommentarer til indsendelser af denne skabelon.",
+    "downloadRosterCSV": "Download fuld liste CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Giver medlemmer mulighed for at downloade den fulde liste som en CSV-fil."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

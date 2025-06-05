@@ -1718,7 +1718,10 @@
     "server": "서버:",
     "start": "시작:",
     "end": "종료:",
-    "noServer": "서버 이름 없음"
+    "noServer": "서버 이름 없음",
+    "downloadRosterCsv": "전체 명단을 CSV로 다운로드",
+    "errorDownloadingRosterCSV": "로스터 CSV를 다운로드하는 중 오류가 발생했습니다. 문제가 계속되면 지원 팀에 문의하세요.",
+    "errorDownloadingRosterCSVDueToBrowser": "브라우저 권한으로 인해 명단 CSV 다운로드 오류."
   },
   "ToolbarLinks": {
     "button": "드롭다운",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "섹션 추가",
     "elementsCannotBeDroppedIntoAForumSection": "배경 옵션",
     "addSection": "이 섹션에 항목 잠금",
-    "backgroundOptions": "이미지 채우기"
+    "backgroundOptions": "이미지 채우기",
+    "triggerAnimations": "애니메이션 트리거",
+    "triggerAnimationsToPlay": "이 페이지에서 모든 애니메이션 재생을 트리거합니다."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "잠금을 해제하여 다른 섹션으로 항목 드래그",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "폼 빌더에서 이 양식 템플릿을 수정할 수 있도록 허용합니다.",
     "allowsMembersToEditMembersEventsInT": "이 범주의 이벤트를 편집할 수 있도록 허용합니다.",
     "allowMembersToPrivateComments": "이 템플릿 양식의 제출물에 대해 회원이 비공개 댓글에 접근하고 보낼 수 있도록 허용합니다.",
-    "allowMembersToManageOtherComments": "이 양식 템플릿의 제출물에 대한 다른 회원의 댓글을 관리할 수 있습니다."
+    "allowMembersToManageOtherComments": "이 양식 템플릿의 제출물에 대한 다른 회원의 댓글을 관리할 수 있습니다.",
+    "downloadRosterCSV": "전체 명단 CSV 다운로드",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "회원이 전체 명단을 CSV 파일로 다운로드할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된"

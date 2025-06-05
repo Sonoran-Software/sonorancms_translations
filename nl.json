@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "Einde",
-    "noServer": "Geen servernaam"
+    "noServer": "Geen servernaam",
+    "downloadRosterCsv": "Download volledige lijst als CSV",
+    "errorDownloadingRosterCSV": "Fout bij het downloaden van de lijst-CSV, neem contact op met support als dit aanhoudt.",
+    "errorDownloadingRosterCSVDueToBrowser": "Fout bij het downloaden van de roster CSV door browserrechten."
   },
   "ToolbarLinks": {
     "button": "Knop",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "De achtergrondafbeelding zonder enige styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elementen kunnen niet in een forumsectie worden gedropt",
     "addSection": "Sectie toevoegen",
-    "backgroundOptions": "Achtergrondopties"
+    "backgroundOptions": "Achtergrondopties",
+    "triggerAnimations": "Activeren animaties",
+    "triggerAnimationsToPlay": "Voer alle animaties op deze pagina uit."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Vergrendel item aan deze sectie",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Staat leden toe om deze formulier template te wijzigen in de Formulier Builder.",
     "allowsMembersToEditMembersEventsInT": "Hiermee kunnen leden evenementen in deze categorie bewerken.",
     "allowMembersToPrivateComments": "Maakt het voor leden mogelijk om privéopmerkingen te bekijken en te verzenden over inzendingen van deze formulier sjabloon.",
-    "allowMembersToManageOtherComments": "Hiermee kunnen leden opmerkingen van andere leden beheren over inzendingen van deze formulier sjabloon."
+    "allowMembersToManageOtherComments": "Hiermee kunnen leden opmerkingen van andere leden beheren over inzendingen van deze formulier sjabloon.",
+    "downloadRosterCSV": "Volledige Roster CSV downloaden",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Staat leden toe om het volledige rooster als een CSV-bestand te downloaden."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd"

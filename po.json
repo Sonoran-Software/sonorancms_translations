@@ -1718,7 +1718,10 @@
     "server": "Serwer:",
     "start": "Começar:",
     "end": "Ende",
-    "noServer": "Brak nazwy serwera"
+    "noServer": "Brak nazwy serwera",
+    "downloadRosterCsv": "Descargar lista completa como CSV",
+    "errorDownloadingRosterCSV": "Błąd pobierania pliku CSV z listą, skontaktuj się z obsługą, jeśli problem będzie się powtarzał.",
+    "errorDownloadingRosterCSVDueToBrowser": "Napaka pri prenosu CSV razporeda zaradi dovoljenj brskalnika."
   },
   "ToolbarLinks": {
     "button": "Przycisk",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Obraz tła bez żadnego stylu",
     "elementsCannotBeDroppedIntoAForumSection": "Elementy nie mogą być upuszczane w sekcji forum",
     "addSection": "Dodaj Sekcję",
-    "backgroundOptions": "Opcje Tła"
+    "backgroundOptions": "Opcje Tła",
+    "triggerAnimations": "Activar Animaciones",
+    "triggerAnimationsToPlay": "Wyzwól wszystkie animacje do odtworzenia na tej stronie."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Zablokuj element do tej sekcji",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Permite aos membros modificar este modelo de formulário no Construtor de Formulários.",
     "allowsMembersToEditMembersEventsInT": "Dozwala członkom edytować wydarzenia w tej kategorii.",
     "allowMembersToPrivateComments": "Dopuszcza członków do dostępu i wysyłania prywatnych komentarzy do zgłoszeń tego szablonu formularza.",
-    "allowMembersToManageOtherComments": "Ermöglicht es Mitgliedern, die Kommentare anderer Mitglieder zu den Einreichungen dieser Formularvorlage zu verwalten."
+    "allowMembersToManageOtherComments": "Ermöglicht es Mitgliedern, die Kommentare anderer Mitglieder zu den Einreichungen dieser Formularvorlage zu verwalten.",
+    "downloadRosterCSV": "Descargar CSV de toda la lista",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite que los miembros descarguen la lista completa como un archivo CSV."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone"

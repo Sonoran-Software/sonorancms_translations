@@ -1718,7 +1718,10 @@
     "server": "Palvelin:",
     "start": "Aloita:",
     "end": "Loppu",
-    "noServer": "Ei palvelimen nimeä"
+    "noServer": "Ei palvelimen nimeä",
+    "downloadRosterCsv": "Lataa täydellinen kokoonpano CSV-muodossa",
+    "errorDownloadingRosterCSV": "Virhe ladattaessa kokoonpanon CSV-tiedostoa, ota yhteyttä tukeen, jos ongelma jatkuu.",
+    "errorDownloadingRosterCSVDueToBrowser": "Virhe ladatessa CSV-luetteloa selaimen oikeuksien vuoksi."
   },
   "ToolbarLinks": {
     "button": "Painike",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Taustakuva ilman mitään tyylittelyä",
     "elementsCannotBeDroppedIntoAForumSection": "Elementtejä ei voi pudottaa foorumiosioon",
     "addSection": "Lisää osio",
-    "backgroundOptions": "Tausta-asetukset"
+    "backgroundOptions": "Tausta-asetukset",
+    "triggerAnimations": "Laukaise Animaatiot",
+    "triggerAnimationsToPlay": "Käynnistä kaikki animaatiot tälle sivulle."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lukitse kohde tähän osioon",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Sallii jäsenten muokata tätä lomakepohjaa Lomakkeen rakentajassa.",
     "allowsMembersToEditMembersEventsInT": "Sallii jäsenten muokata tämän kategorian tapahtumia.",
     "allowMembersToPrivateComments": "Mahdollistaa jäsenille pääsyn ja yksityisten kommenttien lähettämisen tämän lomakepohjan lähetyksiin.",
-    "allowMembersToManageOtherComments": "Mahdollistaa jäsenten hallita muiden jäsenten kommentteja tämän lomakepohjan palautuksista."
+    "allowMembersToManageOtherComments": "Mahdollistaa jäsenten hallita muiden jäsenten kommentteja tämän lomakepohjan palautuksista.",
+    "downloadRosterCSV": "Lataa koko joukkueen CSV-tiedosto",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Sallii jäsenten ladata täydellisen jäsenluettelon CSV-tiedostona."
   },
   "permissionToggleGroup": {
     "inherited": "peritty"

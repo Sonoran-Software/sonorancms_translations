@@ -1718,7 +1718,10 @@
     "server": "Serwer:",
     "start": "Start:",
     "end": "Koniec",
-    "noServer": "Brak nazwy serwera"
+    "noServer": "Brak nazwy serwera",
+    "downloadRosterCsv": "Pobierz pełną listę jako CSV",
+    "errorDownloadingRosterCSV": "Błąd pobierania pliku CSV rosteru, skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzać.",
+    "errorDownloadingRosterCSVDueToBrowser": "Błąd podczas pobierania pliku CSV listy z powodu uprawnień przeglądarki."
   },
   "ToolbarLinks": {
     "button": "Przycisk",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Obraz tła bez żadnego stylu",
     "elementsCannotBeDroppedIntoAForumSection": "Elementy nie mogą być upuszczane w sekcji forum",
     "addSection": "Dodaj Sekcję",
-    "backgroundOptions": "Opcje Tła"
+    "backgroundOptions": "Opcje Tła",
+    "triggerAnimations": "Uruchom animacje",
+    "triggerAnimationsToPlay": "Uruchom wszystkie animacje na tej stronie."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Zablokuj element do tej sekcji",
@@ -4396,7 +4401,9 @@
     "allowsMembersToModifyTemplate": "Umożliwia członkom modyfikację tego szablonu formularza w Form Builder.",
     "allowsMembersToEditMembersEventsInT": "Pozwala członkom edytować wydarzenia w tej kategorii.",
     "allowMembersToPrivateComments": "Pozwala członkom uzyskiwać dostęp i przesyłać prywatne komentarze do zgłoszeń tego szablonu formularza.",
-    "allowMembersToManageOtherComments": "Umożliwia członkom zarządzanie komentarzami innych członków dotyczącymi zgłoszeń w tym szablonie formularza."
+    "allowMembersToManageOtherComments": "Umożliwia członkom zarządzanie komentarzami innych członków dotyczącymi zgłoszeń w tym szablonie formularza.",
+    "downloadRosterCSV": "Pobierz pełny arkusz CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Pozwala członkom pobrać pełną listę w formacie pliku CSV."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

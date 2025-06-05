@@ -1718,7 +1718,10 @@
     "server": "الخادم:",
     "start": "ابدأ",
     "end": "النهاية",
-    "noServer": "لا يوجد اسم خادم"
+    "noServer": "لا يوجد اسم خادم",
+    "downloadRosterCsv": "قم بتنزيل القائمة الكاملة بتنسيق CSV",
+    "errorDownloadingRosterCSV": "حدث خطأ أثناء تنزيل قائمة CSV، اتصل بالدعم إذا استمر هذا.",
+    "errorDownloadingRosterCSVDueToBrowser": "خطأ في تنزيل قائمة CSV بسبب أذونات المتصفح."
   },
   "ToolbarLinks": {
     "button": "زر",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "صورة الخلفية بدون أي تنسيق",
     "elementsCannotBeDroppedIntoAForumSection": "لا يمكن إسقاط العناصر في قسم المنتدى",
     "addSection": "إضافة قسم",
-    "backgroundOptions": "خيارات الخلفية"
+    "backgroundOptions": "خيارات الخلفية",
+    "triggerAnimations": "تشغيل الحركات",
+    "triggerAnimationsToPlay": "قم بتشغيل جميع الرسوم المتحركة على هذه الصفحة."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "قفل العنصر في هذا القسم",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "يسمح للأعضاء بتعديل قالب النموذج هذا في مُنشئ النماذج.",
     "allowsMembersToEditMembersEventsInT": "يسمح للأعضاء بتحرير الفعاليات في هذه الفئة.",
     "allowMembersToPrivateComments": "يسمح للأعضاء بالوصول إلى التعليقات الخاصة وإرسالها على الإرساليات لهذا النموذج التمهيدي.",
-    "allowMembersToManageOtherComments": "يسمح للأعضاء بإدارة تعليقات الأعضاء الآخرين على تقديمات قالب النموذج هذا."
+    "allowMembersToManageOtherComments": "يسمح للأعضاء بإدارة تعليقات الأعضاء الآخرين على تقديمات قالب النموذج هذا.",
+    "downloadRosterCSV": "تنزيل ملف CSV الكامل للقائمة",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "يسمح للأعضاء بتحميل القائمة الكاملة كملف CSV."
   },
   "permissionToggleGroup": {
     "inherited": "موروث"

@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "Slutt",
-    "noServer": "Ingen servernavn"
+    "noServer": "Ingen servernavn",
+    "downloadRosterCsv": "Last ned hele listen som CSV",
+    "errorDownloadingRosterCSV": "Feil ved nedlasting av CSV for roster. Kontakt support hvis dette vedvarer.",
+    "errorDownloadingRosterCSVDueToBrowser": "Feil ved nedlasting av CSV for mannskapsliste på grunn av nettlesertillatelser."
   },
   "ToolbarLinks": {
     "button": "Knapp",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Bakgrunnsbildet uten noen styling",
     "elementsCannotBeDroppedIntoAForumSection": "Elementer kan ikke slippes inn i en forumseksjon",
     "addSection": "Legg til seksjon",
-    "backgroundOptions": "Bakgrunnsvalg"
+    "backgroundOptions": "Bakgrunnsvalg",
+    "triggerAnimations": "Utløs animasjoner",
+    "triggerAnimationsToPlay": "Utløs alle animasjoner til å spille av på denne siden."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås element til denne seksjonen",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Lar medlemmene endre denne skjema malen i Skjemabyggeren.",
     "allowsMembersToEditMembersEventsInT": "Lar medlemmer redigere arrangementer i denne kategorien.",
     "allowMembersToPrivateComments": "Lar medlemmene få tilgang til og sende private kommentarer på sendinger av denne skjema malen.",
-    "allowMembersToManageOtherComments": "Tillater medlemmer å administrere andre medlemmers kommentarer på innsendinger av denne skjemamalen."
+    "allowMembersToManageOtherComments": "Tillater medlemmer å administrere andre medlemmers kommentarer på innsendinger av denne skjemamalen.",
+    "downloadRosterCSV": "Last ned hele medlemslisten CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Lar medlemmene laste ned hele oversikten som en CSV-fil."
   },
   "permissionToggleGroup": {
     "inherited": "arvet"

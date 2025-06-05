@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "Slut:",
-    "noServer": "Inget servernamn"
+    "noServer": "Inget servernamn",
+    "downloadRosterCsv": "Ladda ner komplett lista som CSV",
+    "errorDownloadingRosterCSV": "Fel vid nedladdning av roster CSV, kontakta support om detta kvarstår.",
+    "errorDownloadingRosterCSVDueToBrowser": "Fel vid hämtning av CSV-lista på grund av webbläsarens behörigheter."
   },
   "ToolbarLinks": {
     "button": "Knapp",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Bakgrundsbilden utan någon styling",
     "elementsCannotBeDroppedIntoAForumSection": "Element kan inte släppas i en forumsektion",
     "addSection": "Lägg till sektion",
-    "backgroundOptions": "Bakgrundsalternativ"
+    "backgroundOptions": "Bakgrundsalternativ",
+    "triggerAnimations": "Utlös animationer",
+    "triggerAnimationsToPlay": "Aktivera alla animationer på denna sida."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås objekt till denna sektion",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Tillåter medlemmar att ändra denna formmall i formulärbyggaren.",
     "allowsMembersToEditMembersEventsInT": "Tillåter medlemmar att redigera händelser i denna kategori.",
     "allowMembersToPrivateComments": "Tillåter medlemmar att komma åt och skicka privata kommentarer på inlämningar av denna formulärmall.",
-    "allowMembersToManageOtherComments": "Tillåter medlemmar att hantera andra medlemmars kommentarer på inlagor av denna formulärmall."
+    "allowMembersToManageOtherComments": "Tillåter medlemmar att hantera andra medlemmars kommentarer på inlagor av denna formulärmall.",
+    "downloadRosterCSV": "Ladda ner fullständig lista CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Tillåter medlemmar att ladda ner hela listan som en CSV-fil."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt"

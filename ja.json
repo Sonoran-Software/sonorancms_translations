@@ -1718,7 +1718,10 @@
     "server": "サーバー:",
     "start": "開始:",
     "end": "終わり",
-    "noServer": "サーバー名なし"
+    "noServer": "サーバー名なし",
+    "downloadRosterCsv": "CSVとして完全な名簿をダウンロード",
+    "errorDownloadingRosterCSV": "名簿CSVのダウンロード中にエラーが発生しました。これが続く場合はサポートに連絡してください。",
+    "errorDownloadingRosterCSVDueToBrowser": "ブラウザの権限により、名簿CSVのダウンロードエラーが発生しました。"
   },
   "ToolbarLinks": {
     "button": "ドロップダウン",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "要素をフォーラムセクションにドロップすることはできません",
     "elementsCannotBeDroppedIntoAForumSection": "セクションを追加",
     "addSection": "背景オプション",
-    "backgroundOptions": "このセクションにアイテムをロック"
+    "backgroundOptions": "このセクションにアイテムをロック",
+    "triggerAnimations": "アニメーションをトリガー",
+    "triggerAnimationsToPlay": "このページですべてのアニメーションを再生するトリガー。"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "画像を埋める",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "フォームビルダーでこのフォームテンプレートをメンバーが修正できるようにします。",
     "allowsMembersToEditMembersEventsInT": "このカテゴリのイベントを編集するメンバーを許可します。",
     "allowMembersToPrivateComments": "このフォームテンプレートの提出に対するプライベートコメントへのアクセスと送信をメンバーに許可します。",
-    "allowMembersToManageOtherComments": "このフォームテンプレートの提出物に対する他のメンバーのコメントを管理することができます。"
+    "allowMembersToManageOtherComments": "このフォームテンプレートの提出物に対する他のメンバーのコメントを管理することができます。",
+    "downloadRosterCSV": "完全な名簿のCSVをダウンロード",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "メンバーがフルロスターをCSVファイルとしてダウンロードできるようにします。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された"

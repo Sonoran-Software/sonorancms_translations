@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "Ende",
-    "noServer": "Kein Servername"
+    "noServer": "Kein Servername",
+    "downloadRosterCsv": "Laden Sie die vollständige Liste als CSV herunter",
+    "errorDownloadingRosterCSV": "Ein Fehler ist beim Herunterladen der Roster-CSV aufgetreten. Wenden Sie sich an den Support, wenn dieses Problem weiterhin besteht.",
+    "errorDownloadingRosterCSVDueToBrowser": "Fehler beim Herunterladen der Dienstplan-CSV aufgrund von Browserberechtigungen."
   },
   "ToolbarLinks": {
     "button": "Knopf",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Das Hintergrundbild ohne jegliche Stilierung",
     "elementsCannotBeDroppedIntoAForumSection": "Elemente können nicht in einen Forenabschnitt gezogen werden",
     "addSection": "Abschnitt hinzufügen",
-    "backgroundOptions": "Hintergrundoptionen"
+    "backgroundOptions": "Hintergrundoptionen",
+    "triggerAnimations": "Animationen auslösen",
+    "triggerAnimationsToPlay": "Alle Animationen auf dieser Seite abspielen."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Element in diesem Abschnitt sperren",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Ermöglicht Mitgliedern, diese Formularvorlage im Formular-Builder zu bearbeiten.",
     "allowsMembersToEditMembersEventsInT": "Ermöglicht Mitgliedern, Ereignisse in dieser Kategorie zu bearbeiten.",
     "allowMembersToPrivateComments": "Ermöglicht es Mitgliedern, private Kommentare zu Einsendungen dieser Formularvorlage zuzugreifen und zu senden.",
-    "allowMembersToManageOtherComments": "Ermöglicht Mitgliedern, die Kommentare anderer Mitglieder zu Einreichungen dieser Formularvorlage zu verwalten."
+    "allowMembersToManageOtherComments": "Ermöglicht Mitgliedern, die Kommentare anderer Mitglieder zu Einreichungen dieser Formularvorlage zu verwalten.",
+    "downloadRosterCSV": "CSV der vollständigen Besetzung herunterladen",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Ermöglicht es Mitgliedern, die vollständige Liste als CSV-Datei herunterzuladen."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt"

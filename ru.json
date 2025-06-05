@@ -1718,7 +1718,10 @@
     "server": "Сервер:",
     "start": "Начать:",
     "end": "Конец",
-    "noServer": "Нет имени сервера"
+    "noServer": "Нет имени сервера",
+    "downloadRosterCsv": "Скачать полный список в формате CSV",
+    "errorDownloadingRosterCSV": "Ошибка при загрузке CSV-списка, если это повторится, свяжитесь с поддержкой.",
+    "errorDownloadingRosterCSVDueToBrowser": "Ошибка загрузки CSV-списка из-за разрешений браузера."
   },
   "ToolbarLinks": {
     "button": "Выпадающее меню",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Элементы нельзя перемещать в раздел форума",
     "elementsCannotBeDroppedIntoAForumSection": "Добавить раздел",
     "addSection": "Параметры фона",
-    "backgroundOptions": "Закрепить элемент в этом разделе"
+    "backgroundOptions": "Закрепить элемент в этом разделе",
+    "triggerAnimations": "Запустить анимации",
+    "triggerAnimationsToPlay": "Запустить все анимации на этой странице."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Заполнить изображение",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Позволяет участникам изменять этот шаблон формы в Конструкторе форм.",
     "allowsMembersToEditMembersEventsInT": "Позволяет участникам редактировать события в этой категории.",
     "allowMembersToPrivateComments": "Позволяет пользователям получать доступ и отправлять личные комментарии к отправкам этого шаблона формы.",
-    "allowMembersToManageOtherComments": "Позволяет участникам управлять комментариями других участников по отправкам этого шаблона формы."
+    "allowMembersToManageOtherComments": "Позволяет участникам управлять комментариями других участников по отправкам этого шаблона формы.",
+    "downloadRosterCSV": "Скачать полный состав в формате CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Позволяет участникам загружать полный список в виде CSV-файла."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный"

@@ -1718,7 +1718,10 @@
     "server": "Servidor:",
     "start": "Inicio:",
     "end": "Fin",
-    "noServer": "Sin nombre de servidor"
+    "noServer": "Sin nombre de servidor",
+    "downloadRosterCsv": "Descargar lista completa en CSV",
+    "errorDownloadingRosterCSV": "Error al descargar el CSV de la lista, contacte con soporte si este problema persiste.",
+    "errorDownloadingRosterCSVDueToBrowser": "Error al descargar el CSV de la lista debido a los permisos del navegador."
   },
   "ToolbarLinks": {
     "button": "Botón",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "La imagen de fondo sin ningún estilo",
     "elementsCannotBeDroppedIntoAForumSection": "Los elementos no se pueden soltar en una sección del foro",
     "addSection": "Agregar Sección",
-    "backgroundOptions": "Opciones de Fondo"
+    "backgroundOptions": "Opciones de Fondo",
+    "triggerAnimations": "Accionar Animaciones",
+    "triggerAnimationsToPlay": "Activar todas las animaciones para que se reproduzcan en esta página."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Bloquear elemento a esta sección",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Permite a los miembros modificar esta plantilla de formulario en el Constructor de Formularios.",
     "allowsMembersToEditMembersEventsInT": "Permite a los miembros editar eventos en esta categoría.",
     "allowMembersToPrivateComments": "Permite a los miembros acceder y enviar comentarios privados sobre las presentaciones de esta plantilla de formulario.",
-    "allowMembersToManageOtherComments": "Permite a los miembros gestionar los comentarios de otros miembros en las presentaciones de esta plantilla de formulario."
+    "allowMembersToManageOtherComments": "Permite a los miembros gestionar los comentarios de otros miembros en las presentaciones de esta plantilla de formulario.",
+    "downloadRosterCSV": "Descargar CSV completo del elenco",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite a los miembros descargar la lista completa como un archivo CSV."
   },
   "permissionToggleGroup": {
     "inherited": "heredado"

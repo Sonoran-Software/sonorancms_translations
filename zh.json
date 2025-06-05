@@ -1718,7 +1718,10 @@
     "server": "服务器:",
     "start": "开始:",
     "end": "结束:",
-    "noServer": "没有服务器名称"
+    "noServer": "没有服务器名称",
+    "downloadRosterCsv": "下载完整名单为CSV文件",
+    "errorDownloadingRosterCSV": "下载名单 CSV 时出错，如果问题仍然存在，请联系支持。",
+    "errorDownloadingRosterCSVDueToBrowser": "由于浏览器权限，下载名单 CSV 时出错。"
   },
   "ToolbarLinks": {
     "button": "按钮",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "没有任何样式的背景图像",
     "elementsCannotBeDroppedIntoAForumSection": "元素不能被拖放到论坛部分",
     "addSection": "添加部分",
-    "backgroundOptions": "背景选项"
+    "backgroundOptions": "背景选项",
+    "triggerAnimations": "触发动画",
+    "triggerAnimationsToPlay": "在此页面上触发所有动画播放。"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "将项目锁定到此部分",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "允许成员在表单构建器中修改此表单模板。",
     "allowsMembersToEditMembersEventsInT": "允许成员编辑此类别中的事件。",
     "allowMembersToPrivateComments": "允许成员访问并发送对此表单模板提交的私密评论。",
-    "allowMembersToManageOtherComments": "允许成员管理其他成员在此表单模板提交中的评论。"
+    "allowMembersToManageOtherComments": "允许成员管理其他成员在此表单模板提交中的评论。",
+    "downloadRosterCSV": "下载完整名册 CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "允许成员将完整名单下载为CSV文件。"
   },
   "permissionToggleGroup": {
     "inherited": "继承"

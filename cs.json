@@ -1718,7 +1718,10 @@
     "server": "Server:",
     "start": "Start:",
     "end": "Konec",
-    "noServer": "Žádný název serveru"
+    "noServer": "Žádný název serveru",
+    "downloadRosterCsv": "Stáhnout kompletní seznam jako CSV",
+    "errorDownloadingRosterCSV": "Chyba při stahování CSV soupisek, pokud problém přetrvává, kontaktujte podporu.",
+    "errorDownloadingRosterCSVDueToBrowser": "Chyba při stahování CSV sestavy kvůli oprávněním prohlížeče."
   },
   "ToolbarLinks": {
     "button": "Tlačítko",
@@ -3946,7 +3949,9 @@
     "theBackgroundImageWithOutAnyStyling": "Pozadí obrázku bez jakéhokoli stylování",
     "elementsCannotBeDroppedIntoAForumSection": "Elementy nelze vložit do sekce fóra",
     "addSection": "Přidat sekci",
-    "backgroundOptions": "Možnosti pozadí"
+    "backgroundOptions": "Možnosti pozadí",
+    "triggerAnimations": "Spustit animace",
+    "triggerAnimationsToPlay": "Spusťte všechny animace na této stránce."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Uzamknout položku do této sekce",
@@ -4328,7 +4333,9 @@
     "allowsMembersToModifyTemplate": "Umožňuje členům upravit tuto šablonu formuláře v Návrháři formulářů.",
     "allowsMembersToEditMembersEventsInT": "Umožňuje členům upravovat události v této kategorii.",
     "allowMembersToPrivateComments": "Umožňuje členům přistupovat a odesílat soukromé komentáře k podáním této šablony formuláře.",
-    "allowMembersToManageOtherComments": "Umožňuje členům spravovat komentáře ostatních členů k odesláním této šablony formuláře."
+    "allowMembersToManageOtherComments": "Umožňuje členům spravovat komentáře ostatních členů k odesláním této šablony formuláře.",
+    "downloadRosterCSV": "Stáhnout celý soupis CSV",
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Umožňuje členům stáhnout si plnou sestavu jako soubor CSV."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné"
