@@ -4243,7 +4243,11 @@
     "dropArea": "Drop Area"
   },
   "ImageForm": {
-    "clickToUploadAnImage": "Click to upload an image"
+    "clickToUploadAnImage": "Click to upload an image",
+    "targetUrl": "URL",
+    "targetForm": "Form",
+    "targetPage": "Custom Page",
+    "targetNone": "None"
   },
   "InputRUI": {
     "thisFieldHasNoDataTheMostProbableIssueIs": "This field has no data. The most probable issue is that your servers Sonoran CMS Core plugin is outdated."
