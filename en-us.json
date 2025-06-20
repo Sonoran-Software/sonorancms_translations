@@ -4394,7 +4394,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Allows members to download the full roster as a CSV file."
   },
   "permissionToggleGroup": {
-    "inherited": "Inherited"
+    "inherited": "Inherited",
+    "blocksThisActionOverridesGrants": "Blocks this action, overrides grants",
+    "deny": "Deny",
+    "unset": "Unset",
+    "noExplicitAllowOrDeny": "No explicit allow or deny",
+    "grant": "Grant",
+    "allowsThisAction": "Allows this action",
+    "toggleUnset": "Toggle Unset",
+    "toggleGrant": "Toggle Grant",
+    "toggleDeny": "Toggle Deny"
   },
   "permissionExpansionGroup": {
     "noOptions": "No options"
