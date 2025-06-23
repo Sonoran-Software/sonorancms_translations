@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Üyelerin tam kadroyu CSV dosyası olarak indirmesine olanak tanır."
   },
   "permissionToggleGroup": {
-    "inherited": "miras alınan"
+    "inherited": "miras alınan",
+    "blocksThisActionOverridesGrants": "Bu eylemi engeller, izinleri geçersiz kılar",
+    "deny": "Reddet",
+    "unset": "Kaldır",
+    "noExplicitAllowOrDeny": "Açık bir izin veya reddetme yok",
+    "grant": "Yetki Ver",
+    "allowsThisAction": "Bu eyleme izin verir",
+    "toggleUnset": "Açmayı Kaldır",
+    "toggleGrant": "Geçiş İzni",
+    "toggleDeny": "Reddetmeyi Değiştir"
   },
   "permissionExpansionGroup": {
     "noOptions": "seçenek yok"

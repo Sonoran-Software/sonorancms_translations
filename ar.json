@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "يسمح للأعضاء بتحميل القائمة الكاملة كملف CSV."
   },
   "permissionToggleGroup": {
-    "inherited": "موروث"
+    "inherited": "موروث",
+    "blocksThisActionOverridesGrants": "يحظر هذا الإجراء ، يتجاوز المنح",
+    "deny": "رفض",
+    "unset": "إلغاء التعيين",
+    "noExplicitAllowOrDeny": "لا يوجد إذن صريح أو رفض",
+    "grant": "منح",
+    "allowsThisAction": "يسمح بهذا الإجراء",
+    "toggleUnset": "تبديل غير مضبوط",
+    "toggleGrant": "تبديل المنحة",
+    "toggleDeny": "تبديل الرفض"
   },
   "permissionExpansionGroup": {
     "noOptions": "لا توجد خيارات"

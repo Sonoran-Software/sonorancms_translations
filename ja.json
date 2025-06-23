@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "メンバーがフルロスターをCSVファイルとしてダウンロードできるようにします。"
   },
   "permissionToggleGroup": {
-    "inherited": "継承された"
+    "inherited": "継承された",
+    "blocksThisActionOverridesGrants": "このアクションをブロックし、付与をオーバーライドします",
+    "deny": "拒否",
+    "unset": "未設定",
+    "noExplicitAllowOrDeny": "明示的な許可または禁止はありません",
+    "grant": "許可します",
+    "allowsThisAction": "このアクションを許可します",
+    "toggleUnset": "トグル未設定",
+    "toggleGrant": "トグル付与",
+    "toggleDeny": "拒否を切り替え"
   },
   "permissionExpansionGroup": {
     "noOptions": "オプションなし"

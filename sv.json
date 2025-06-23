@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Tillåter medlemmar att ladda ner hela listan som en CSV-fil."
   },
   "permissionToggleGroup": {
-    "inherited": "ärvt"
+    "inherited": "ärvt",
+    "blocksThisActionOverridesGrants": "Blockerar denna åtgärd, åsidosätter beviljanden",
+    "deny": "Neka",
+    "unset": "Återställ",
+    "noExplicitAllowOrDeny": "Ingen uttrycklig tillåtelse eller förbud",
+    "grant": "Bevilja",
+    "allowsThisAction": "Tillåter denna åtgärd",
+    "toggleUnset": "Växla Oinställd",
+    "toggleGrant": "Växla Bevilja",
+    "toggleDeny": "Växla neka"
   },
   "permissionExpansionGroup": {
     "noOptions": "inga alternativ"

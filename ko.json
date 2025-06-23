@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "회원이 전체 명단을 CSV 파일로 다운로드할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
-    "inherited": "상속된"
+    "inherited": "상속된",
+    "blocksThisActionOverridesGrants": "이 작업을 차단하고 부여를 재정의합니다.",
+    "deny": "거부",
+    "unset": "설정 해제",
+    "noExplicitAllowOrDeny": "명시적 허용 또는 거부 없음",
+    "grant": "부여",
+    "allowsThisAction": "이 작업을 허용합니다.",
+    "toggleUnset": "토글 해제",
+    "toggleGrant": "권한 전환",
+    "toggleDeny": "거부 전환"
   },
   "permissionExpansionGroup": {
     "noOptions": "옵션 없음"

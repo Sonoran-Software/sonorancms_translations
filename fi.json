@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Sallii jäsenten ladata täydellisen jäsenluettelon CSV-tiedostona."
   },
   "permissionToggleGroup": {
-    "inherited": "peritty"
+    "inherited": "peritty",
+    "blocksThisActionOverridesGrants": "Estää tämän toiminnon, ohittaa myönnytykset",
+    "deny": "Hylkää",
+    "unset": "Tyhjennä",
+    "noExplicitAllowOrDeny": "Ei erillistä sallimista tai kieltämistä",
+    "grant": "Myönnä",
+    "allowsThisAction": "Mahdollistaa tämän toiminnon",
+    "toggleUnset": "Vaihda pois päältä",
+    "toggleGrant": "Kytke myöntäminen päälle/pois",
+    "toggleDeny": "Vaihda kiellon tila"
   },
   "permissionExpansionGroup": {
     "noOptions": "ei vaihtoehtoja"

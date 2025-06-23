@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Lar medlemmene laste ned hele oversikten som en CSV-fil."
   },
   "permissionToggleGroup": {
-    "inherited": "arvet"
+    "inherited": "arvet",
+    "blocksThisActionOverridesGrants": "Blokkerer denne handlingen, overstyrer innvilgninger",
+    "deny": "Avslå",
+    "unset": "Fjern innstilling",
+    "noExplicitAllowOrDeny": "Ingen eksplisitt tillatelse eller avvisning",
+    "grant": "Innvilge",
+    "allowsThisAction": "Tillater denne handlingen",
+    "toggleUnset": "Veksle Ikke satt",
+    "toggleGrant": "Veksle tildeling",
+    "toggleDeny": "Veksle Avslå"
   },
   "permissionExpansionGroup": {
     "noOptions": "ingen alternativer"

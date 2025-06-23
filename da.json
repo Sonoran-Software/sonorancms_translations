@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Giver medlemmer mulighed for at downloade den fulde liste som en CSV-fil."
   },
   "permissionToggleGroup": {
-    "inherited": "arvet"
+    "inherited": "arvet",
+    "blocksThisActionOverridesGrants": "Blokerer denne handling, tilsidesætter tilladelser",
+    "deny": "Afvis",
+    "unset": "Ubestemt",
+    "noExplicitAllowOrDeny": "Ingen eksplicit tilladelse eller afvisning",
+    "grant": "Tildel",
+    "allowsThisAction": "Muliggør denne handling",
+    "toggleUnset": "Skift til/fra Ikke indstillet",
+    "toggleGrant": "Skift til tilskud",
+    "toggleDeny": "Skift afvis"
   },
   "permissionExpansionGroup": {
     "noOptions": "ingenValg"

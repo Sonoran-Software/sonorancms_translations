@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Staat leden toe om het volledige rooster als een CSV-bestand te downloaden."
   },
   "permissionToggleGroup": {
-    "inherited": "geërfd"
+    "inherited": "geërfd",
+    "blocksThisActionOverridesGrants": "Blokkeert deze actie, overschrijft rechten",
+    "deny": "Weigeren",
+    "unset": "Ongedaan maken",
+    "noExplicitAllowOrDeny": "Geen expliciete toestaan of weigeren",
+    "grant": "Verlenen",
+    "allowsThisAction": "Staat deze actie toe",
+    "toggleUnset": "Schakel ongedefinieerd uit",
+    "toggleGrant": "Wissel Toestaan",
+    "toggleDeny": "Schakelen Weigeren"
   },
   "permissionExpansionGroup": {
     "noOptions": "geenOpties"

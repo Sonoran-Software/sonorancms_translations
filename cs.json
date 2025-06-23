@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Umožňuje členům stáhnout si plnou sestavu jako soubor CSV."
   },
   "permissionToggleGroup": {
-    "inherited": "zděděné"
+    "inherited": "zděděné",
+    "blocksThisActionOverridesGrants": "Blokuje tuto akci, přepisuje udělení",
+    "deny": "Odmítnout",
+    "unset": "Nenastaveno",
+    "noExplicitAllowOrDeny": "Žádné výslovné povolení ani zamítnutí",
+    "grant": "Udělit",
+    "allowsThisAction": "Povolí tuto akci",
+    "toggleUnset": "Přepnout nezadáno",
+    "toggleGrant": "Přepnout udělení",
+    "toggleDeny": "Přepnout zamítnutí"
   },
   "permissionExpansionGroup": {
     "noOptions": "žádné možnosti"

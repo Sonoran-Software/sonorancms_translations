@@ -4237,7 +4237,16 @@
     "notification": "Powiadomienie"
   },
   "permissionToggleGroup": {
-    "inherited": "odziedziczony"
+    "inherited": "odziedziczony",
+    "blocksThisActionOverridesGrants": "Blokuje tę akcję, nadpisuje przyznania",
+    "deny": "Odmów",
+    "unset": "Nieustawiony",
+    "noExplicitAllowOrDeny": "Brak wyraźnego zezwolenia ani odmowy",
+    "grant": "Przyznaj",
+    "allowsThisAction": "Pozwala na tę akcję",
+    "toggleUnset": "Przełącz brak ustawień",
+    "toggleGrant": "Przełącz nadanie",
+    "toggleDeny": "Przełącz Odebranie"
   },
   "permissionExpansionGroup": {
     "noOptions": "brakOpcji"

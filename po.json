@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite que los miembros descarguen la lista completa como un archivo CSV."
   },
   "permissionToggleGroup": {
-    "inherited": "dziedziczone"
+    "inherited": "dziedziczone",
+    "blocksThisActionOverridesGrants": "Bloqueia esta ação, substitui concessões",
+    "deny": "Odmítnout",
+    "unset": "Nie ustawiono",
+    "noExplicitAllowOrDeny": "Bez wyraźnego zezwolenia lub odmowy",
+    "grant": "Przyznać",
+    "allowsThisAction": "Pozwala na tę akcję",
+    "toggleUnset": "Przełącznie Rozłączanie",
+    "toggleGrant": "Włącz przyznanie",
+    "toggleDeny": "Przełącz Odmów"
   },
   "permissionExpansionGroup": {
     "noOptions": "brak opcji"

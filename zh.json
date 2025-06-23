@@ -4342,7 +4342,16 @@
     "allowsMembersToDownloadTheFullRosterAsACSVFile": "允许成员将完整名单下载为CSV文件。"
   },
   "permissionToggleGroup": {
-    "inherited": "继承"
+    "inherited": "继承",
+    "blocksThisActionOverridesGrants": "阻止此操作，覆盖授予",
+    "deny": "拒绝",
+    "unset": "取消设置",
+    "noExplicitAllowOrDeny": "没有明确允许或拒绝",
+    "grant": "授予",
+    "allowsThisAction": "允许此操作",
+    "toggleUnset": "切换未设置",
+    "toggleGrant": "切换授权",
+    "toggleDeny": "切换拒绝"
   },
   "permissionExpansionGroup": {
     "noOptions": "没有选项"
