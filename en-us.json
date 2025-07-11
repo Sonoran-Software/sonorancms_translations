@@ -4397,6 +4397,7 @@
   },
   "permissionToggleGroup": {
     "inherited": "Inherited",
+    "inheritedTooltip": "This permission was toggled at the department level and can't be changed here. Update the department to modify it.",
     "blocksThisActionOverridesGrants": "Blocks this action, overrides grants",
     "deny": "Deny",
     "unset": "Unset",
