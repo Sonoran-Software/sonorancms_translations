@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Tervetuloa Sonoran CMS:ään!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS hallinnoi yhteisösi verkkosivustoa, asiakirjoja, valkoinen listausta, pelinsisäisiä oikeuksia ja paljon muuta!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lue lisää siitä, miten Sonoran CMS voi olla yhteisösi ainoa hallintapiste.",
-    "profile": "Profiili"
+    "profile": "Profiili",
+    "linkRoblox": "Linkitä Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Tämä yhteisö käyttää Roblox-integraatiota! Linkitä Roblox-tilisi integroitumisen varmistamiseksi."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Yhteisön löytämisestä saadut yksilölliset katselukerrat",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Mahdollistaa tämän toiminnon",
     "toggleUnset": "Vaihda pois päältä",
     "toggleGrant": "Kytke myöntäminen päälle/pois",
-    "toggleDeny": "Vaihda kiellon tila"
+    "toggleDeny": "Vaihda kiellon tila",
+    "inheritedTooltip": "Tämä lupa on kytketty osastotasolla eikä sitä voi muuttaa täällä. Päivitä osasto muokataksesi sitä."
   },
   "permissionExpansionGroup": {
     "noOptions": "ei vaihtoehtoja"

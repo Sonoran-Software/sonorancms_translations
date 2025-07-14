@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "مرحبًا بك في Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "يدير Sonoran CMS موقع مجتمعك على الويب، المستندات، القائمة البيضاء، الأذونات داخل اللعبة، والمزيد!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "تعرف على المزيد حول كيفية أن يكون Sonoran CMS نقطة الإدارة الوحيدة لمجتمعك.",
-    "profile": "الملف الشخصي"
+    "profile": "الملف الشخصي",
+    "linkRoblox": "رابط Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "هذه المجتمع يستخدم تكامل Roblox! يرجى ربط حساب Roblox الخاص بك لاستخدام التكامل بشكل صحيح."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "عدد المشاهدات الفريدة من اكتشاف المجتمع",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "يسمح بهذا الإجراء",
     "toggleUnset": "تبديل غير مضبوط",
     "toggleGrant": "تبديل المنحة",
-    "toggleDeny": "تبديل الرفض"
+    "toggleDeny": "تبديل الرفض",
+    "inheritedTooltip": "تم تبديل هذا الإذن على مستوى القسم ولا يمكن تغييره هنا. قم بتحديث القسم لتعديله."
   },
   "permissionExpansionGroup": {
     "noOptions": "لا توجد خيارات"

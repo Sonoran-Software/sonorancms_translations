@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Välkommen till Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS hanterar din gemenskaps webbplats, dokument, vitlistning, spelbehörigheter och mer!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lär dig mer om hur Sonoran CMS kan vara din gemenskaps enda hanteringspunkt.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Länka Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Denna gemenskap använder Roblox-integration! Vänligen länka din Roblox för korrekt användning av integrationen."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antal unika visningar från Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Tillåter denna åtgärd",
     "toggleUnset": "Växla Oinställd",
     "toggleGrant": "Växla Bevilja",
-    "toggleDeny": "Växla neka"
+    "toggleDeny": "Växla neka",
+    "inheritedTooltip": "Denna behörighet aktiverades på avdelningsnivå och kan inte ändras här. Uppdatera avdelningen för att ändra den."
   },
   "permissionExpansionGroup": {
     "noOptions": "inga alternativ"

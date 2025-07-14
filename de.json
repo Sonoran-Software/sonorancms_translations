@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Willkommen bei Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS verwaltet die Website, Dokumente, Whitelisting, In-Game-Berechtigungen und mehr Ihrer Community!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Erfahren Sie mehr darüber, wie Sonoran CMS der zentrale Verwaltungspunkt Ihrer Community sein kann.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Roblox verknüpfen",
+    "thisCommunityUsesRobloxIntegrationPleas": "Diese Community verwendet die Roblox-Integration! Bitte verknüpfen Sie Ihr Roblox für eine ordnungsgemäße Integration."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Anzahl der eindeutigen Aufrufe von Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Erlaubt diese Aktion",
     "toggleUnset": "Umschalten Zurücksetzen",
     "toggleGrant": "Umschalten Gewähren",
-    "toggleDeny": "Umschalten verweigern"
+    "toggleDeny": "Umschalten verweigern",
+    "inheritedTooltip": "Diese Berechtigung wurde auf Abteilungsebene umgeschaltet und kann hier nicht geändert werden. Aktualisieren Sie die Abteilung, um sie zu ändern."
   },
   "permissionExpansionGroup": {
     "noOptions": "keine Optionen"

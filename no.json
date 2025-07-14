@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Velkommen til Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS administrerer nettsiden, dokumentene, hvitelisting, spilltillatelser og mer for ditt samfunn!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lær mer om hvordan Sonoran CMS kan være ditt samfunns eneste administrasjonspunkt.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Link Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Dette samfunnet bruker Roblox-integrasjon! Vennligst lenk Roblox-kontoen din for riktig bruk av integrasjon."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antall unike visninger fra Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Tillater denne handlingen",
     "toggleUnset": "Veksle Ikke satt",
     "toggleGrant": "Veksle tildeling",
-    "toggleDeny": "Veksle Avslå"
+    "toggleDeny": "Veksle Avslå",
+    "inheritedTooltip": "Denne tillatelsen ble slått på avdelingsnivå og kan ikke endres her. Oppdater avdelingen for å endre den."
   },
   "permissionExpansionGroup": {
     "noOptions": "ingen alternativer"

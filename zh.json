@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "欢迎来到 Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS 管理您的社区网站、文档、白名单、游戏内权限等！",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "了解更多关于 Sonoran CMS 如何成为您社区的单一管理点的信息。",
-    "profile": "个人资料"
+    "profile": "个人资料",
+    "linkRoblox": "链接 Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "该社区使用Roblox集成！请链接您的Roblox以正确使用集成。"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "来自社区发现的独特浏览次数",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "允许此操作",
     "toggleUnset": "切换未设置",
     "toggleGrant": "切换授权",
-    "toggleDeny": "切换拒绝"
+    "toggleDeny": "切换拒绝",
+    "inheritedTooltip": "此权限已在部门级别切换，无法在此更改。请更新部门以修改它。"
   },
   "permissionExpansionGroup": {
     "noOptions": "没有选项"

@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Benvenuto in Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS gestisce il sito web della tua comunità, i documenti, la whitelist, i permessi in-game e altro ancora!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Scopri di più su come Sonoran CMS può essere il punto unico di gestione della tua comunità.",
-    "profile": "Profilo"
+    "profile": "Profilo",
+    "linkRoblox": "Collega Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Questa comunità utilizza l'integrazione Roblox! Si prega di collegare il proprio Roblox per un corretto utilizzo dell'integrazione."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Numero di visualizzazioni uniche da Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Consente questa azione",
     "toggleUnset": "Attiva/Disattiva Non impostato",
     "toggleGrant": "Attiva Concessione",
-    "toggleDeny": "Attiva/Rifiuta"
+    "toggleDeny": "Attiva/Rifiuta",
+    "inheritedTooltip": "Questa autorizzazione è stata attivata a livello di dipartimento e non può essere modificata qui. Aggiorna il dipartimento per modificarla."
   },
   "permissionExpansionGroup": {
     "noOptions": "nessuna opzione"

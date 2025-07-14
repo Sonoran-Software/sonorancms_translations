@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Bienvenue sur Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS gère le site web de votre communauté, les documents, la liste blanche, les permissions en jeu, et plus encore !",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "En savoir plus sur la façon dont Sonoran CMS peut être le point de gestion unique de votre communauté.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Lier Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Cette communauté utilise l'intégration Roblox ! Veuillez lier votre Roblox pour une utilisation correcte de l'intégration."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Nombre de vues uniques depuis la Découverte de la Communauté",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Permet cette action",
     "toggleUnset": "Basculer Non Défini",
     "toggleGrant": "Activer Accorder",
-    "toggleDeny": "Basculer Refuser"
+    "toggleDeny": "Basculer Refuser",
+    "inheritedTooltip": "Cette autorisation a été activée au niveau du département et ne peut pas être modifiée ici. Mettez à jour le département pour la modifier."
   },
   "permissionExpansionGroup": {
     "noOptions": "aucune option"

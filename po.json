@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Witamy w Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS zarządza stroną internetową Twojej społeczności, dokumentami, białą listą, uprawnieniami w grze i nie tylko!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Dowiedz się więcej o tym, jak Sonoran CMS może być jedynym punktem zarządzania Twoją społecznością.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Roblox Bağla",
+    "thisCommunityUsesRobloxIntegrationPleas": "Esta comunidad utiliza la integración de Roblox. Por favor, enlaza tu Roblox para un uso adecuado de la integración."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Liczba unikalnych wyświetleń z Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Pozwala na tę akcję",
     "toggleUnset": "Przełącznie Rozłączanie",
     "toggleGrant": "Włącz przyznanie",
-    "toggleDeny": "Przełącz Odmów"
+    "toggleDeny": "Przełącz Odmów",
+    "inheritedTooltip": "Ta uprawnienia zostały zmienione na poziomie działu i nie można ich tutaj zmienić. Zaktualizuj dział, aby je zmodyfikować."
   },
   "permissionExpansionGroup": {
     "noOptions": "brak opcji"

@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Witamy w Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS zarządza stroną internetową Twojej społeczności, dokumentami, białą listą, uprawnieniami w grze i nie tylko!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Dowiedz się więcej o tym, jak Sonoran CMS może być jedynym punktem zarządzania Twoją społecznością.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Połącz Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Ta społeczność używa integracji Roblox! Proszę połącz swoje konto Roblox, aby poprawnie korzystać z integracji."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Liczba unikalnych wyświetleń z Community Discovery",
@@ -4246,7 +4248,8 @@
     "allowsThisAction": "Pozwala na tę akcję",
     "toggleUnset": "Przełącz brak ustawień",
     "toggleGrant": "Przełącz nadanie",
-    "toggleDeny": "Przełącz Odebranie"
+    "toggleDeny": "Przełącz Odebranie",
+    "inheritedTooltip": "Ta zgoda została zmieniona na poziomie departamentu i nie może być zmieniona tutaj. Zaktualizuj departament, aby ją zmodyfikować."
   },
   "permissionExpansionGroup": {
     "noOptions": "brakOpcji"

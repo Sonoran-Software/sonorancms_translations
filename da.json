@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Velkommen til Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS administrerer din fællesskabs hjemmeside, dokumenter, whitelisting, spil-tilladelser og mere!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lær mere om, hvordan Sonoran CMS kan være dit fællesskabs eneste administrationspunkt.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Link Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Denne community bruger Roblox-integration! Venligst tilknyt din Roblox for korrekt integrationsbrug."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antal unikke visninger fra Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Muliggør denne handling",
     "toggleUnset": "Skift til/fra Ikke indstillet",
     "toggleGrant": "Skift til tilskud",
-    "toggleDeny": "Skift afvis"
+    "toggleDeny": "Skift afvis",
+    "inheritedTooltip": "Denne tilladelse blev slået til på afdelingsniveau og kan ikke ændres her. Opdater afdelingen for at ændre den."
   },
   "permissionExpansionGroup": {
     "noOptions": "ingenValg"

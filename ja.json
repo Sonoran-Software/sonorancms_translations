@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Sonoran CMSは、コミュニティのウェブサイト、ドキュメント、ホワイトリスト、ゲーム内の権限などを管理します！",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMSがどのようにしてコミュニティの一元管理ポイントになれるかについて詳しく学びましょう。",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "プロフィール",
-    "profile": "コミュニティディスカバリーからのユニークビュー数"
+    "profile": "コミュニティディスカバリーからのユニークビュー数",
+    "linkRoblox": "Robloxをリンク",
+    "thisCommunityUsesRobloxIntegrationPleas": "このコミュニティはRoblox統合を使用しています！適切な統合使用のためにあなたのRobloxをリンクしてください。"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "コミュニティディスカバリーからコミュニティページを訪れたユニークユーザー数",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "このアクションを許可します",
     "toggleUnset": "トグル未設定",
     "toggleGrant": "トグル付与",
-    "toggleDeny": "拒否を切り替え"
+    "toggleDeny": "拒否を切り替え",
+    "inheritedTooltip": "この権限は部門レベルで切り替えられており、ここでは変更できません。変更するには部門を更新してください。"
   },
   "permissionExpansionGroup": {
     "noOptions": "オプションなし"

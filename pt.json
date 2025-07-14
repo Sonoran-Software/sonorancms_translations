@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Bem-vindo ao Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "O Sonoran CMS gerencia o site da sua comunidade, documentos, lista de permissões, permissões no jogo e muito mais!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Saiba mais sobre como o Sonoran CMS pode ser o ponto único de gerenciamento da sua comunidade.",
-    "profile": "Perfil"
+    "profile": "Perfil",
+    "linkRoblox": "Linkar Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Esta comunidade usa a Integração do Roblox! Por favor, vincule seu Roblox para o uso adequado da integração."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Número de visualizações únicas da Descoberta da Comunidade",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Permite esta ação",
     "toggleUnset": "Alternar Desmarcar",
     "toggleGrant": "Alternar Concessão",
-    "toggleDeny": "Alternar Negar"
+    "toggleDeny": "Alternar Negar",
+    "inheritedTooltip": "Esta permissão foi ativada/desativada no nível do departamento e não pode ser alterada aqui. Atualize o departamento para modificá-la."
   },
   "permissionExpansionGroup": {
     "noOptions": "semOpções"

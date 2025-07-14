@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Sonoran CMS управляет веб-сайтом вашего сообщества, документами, белыми списками, игровыми разрешениями и многим другим!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Узнайте больше о том, как Sonoran CMS может стать единой точкой управления для вашего сообщества.",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Профиль",
-    "profile": "Количество уникальных просмотров из Community Discovery"
+    "profile": "Количество уникальных просмотров из Community Discovery",
+    "linkRoblox": "Связать Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Это сообщество использует интеграцию с Roblox! Пожалуйста, подключите ваш аккаунт Roblox для корректного использования интеграции."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Количество уникальных пользователей, посетивших страницу сообщества из Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Разрешает это действие",
     "toggleUnset": "Переключить Нет",
     "toggleGrant": "Переключить предоставление",
-    "toggleDeny": "Переключить отказ"
+    "toggleDeny": "Переключить отказ",
+    "inheritedTooltip": "Эта разрешение было изменено на уровне отдела и не может быть изменено здесь. Обновите отдел, чтобы изменить его."
   },
   "permissionExpansionGroup": {
     "noOptions": "нет вариантов"

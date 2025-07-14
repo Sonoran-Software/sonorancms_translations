@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Sonoran CMS'e Hoş Geldiniz!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS, topluluğunuzun web sitesini, belgelerini, beyaz listeye almayı, oyun içi izinleri ve daha fazlasını yönetir!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Sonoran CMS'in topluluğunuzun tek yönetim noktası olabileceği hakkında daha fazla bilgi edinin.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Roblox'u Bağla",
+    "thisCommunityUsesRobloxIntegrationPleas": "Bu topluluk Roblox Entegrasyonu kullanıyor! Doğru entegrasyon kullanımı için lütfen Roblox hesabınızı bağlayın."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Topluluk Keşfi'nden gelen benzersiz görüntüleme sayısı",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Bu eyleme izin verir",
     "toggleUnset": "Açmayı Kaldır",
     "toggleGrant": "Geçiş İzni",
-    "toggleDeny": "Reddetmeyi Değiştir"
+    "toggleDeny": "Reddetmeyi Değiştir",
+    "inheritedTooltip": "Bu izin, departman düzeyinde değiştirildi ve burada değiştirilemez. Güncellemek için departmanı düzenleyin."
   },
   "permissionExpansionGroup": {
     "noOptions": "seçenek yok"

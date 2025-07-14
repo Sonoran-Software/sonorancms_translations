@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Welkom bij Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS beheert de website, documenten, whitelisting, in-game permissies en meer van uw community!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Leer meer over hoe Sonoran CMS het enige beheerpunt van uw community kan zijn.",
-    "profile": "Profiel"
+    "profile": "Profiel",
+    "linkRoblox": "Link Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Deze community gebruikt Roblox-integratie! Koppel je Roblox voor correct gebruik van de integratie."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Aantal unieke weergaven van Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Staat deze actie toe",
     "toggleUnset": "Schakel ongedefinieerd uit",
     "toggleGrant": "Wissel Toestaan",
-    "toggleDeny": "Schakelen Weigeren"
+    "toggleDeny": "Schakelen Weigeren",
+    "inheritedTooltip": "Deze toestemming is op afdelingsniveau ingesteld en kan hier niet worden gewijzigd. Werk de afdeling bij om deze te wijzigen."
   },
   "permissionExpansionGroup": {
     "noOptions": "geenOpties"

@@ -1788,7 +1788,9 @@
     "welcomeToSonoranCms": "Vítejte v Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS spravuje webové stránky vaší komunity, dokumenty, whitelistování, herní oprávnění a další!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Zjistěte více o tom, jak může být Sonoran CMS jediným bodem správy vaší komunity.",
-    "profile": "Profil"
+    "profile": "Profil",
+    "linkRoblox": "Propojit Roblox",
+    "thisCommunityUsesRobloxIntegrationPleas": "Tato komunita používá integraci Roblox! Pro správné využití integrace prosím propojte svůj Roblox."
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Počet unikátních zobrazení z Community Discovery",
@@ -4351,7 +4353,8 @@
     "allowsThisAction": "Povolí tuto akci",
     "toggleUnset": "Přepnout nezadáno",
     "toggleGrant": "Přepnout udělení",
-    "toggleDeny": "Přepnout zamítnutí"
+    "toggleDeny": "Přepnout zamítnutí",
+    "inheritedTooltip": "Toto oprávnění bylo přepnuto na úrovni oddělení a nelze jej zde změnit. Aktualizujte oddělení, abyste jej mohli upravit."
   },
   "permissionExpansionGroup": {
     "noOptions": "žádné možnosti"
