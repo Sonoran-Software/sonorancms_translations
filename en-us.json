@@ -615,6 +615,7 @@
     "thePublicIpAddressUsedToDirectConnectToY": "The public IP address used to direct connect to your game server.",
     "theOpenPortYourGameServerIsRunningOnUsed": "The open port your game server is running on, used to direct connect to your game server.",
     "noServersConfigured": "No Servers Configured",
+    "erlcApiKey": "ERLC API Key",
     "thereAreNoServerConfiguredWithYourSonora": "There are no server configured with your Sonoran CMS, provide details below set one up.",
     "extraLinks": "Extra Links",
     "vps": "VPS",
