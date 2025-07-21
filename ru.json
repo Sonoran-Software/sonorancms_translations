@@ -652,7 +652,8 @@
     "automation": "Автоматизация",
     "permissions": "Разрешения",
     "actions": "Действия",
-    "settings": "Настройки"
+    "settings": "Настройки",
+    "erlcApiKey": "Ключ API ERLC"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",

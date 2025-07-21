@@ -652,7 +652,8 @@
     "automation": "Otomasyon",
     "permissions": "İzinler",
     "actions": "Eylemler",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "erlcApiKey": "ERLC API Anahtarı"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",

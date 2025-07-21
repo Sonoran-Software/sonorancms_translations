@@ -652,7 +652,8 @@
     "automation": "자동화",
     "permissions": "권한",
     "actions": "작업",
-    "settings": "설정"
+    "settings": "설정",
+    "erlcApiKey": "ERLC API 키"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",

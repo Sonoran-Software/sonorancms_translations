@@ -652,7 +652,8 @@
     "automation": "Automaatio",
     "permissions": "Oikeudet",
     "actions": "Toimintaa",
-    "settings": "Asetukset"
+    "settings": "Asetukset",
+    "erlcApiKey": "ERLC API-avain"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",

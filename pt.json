@@ -652,7 +652,8 @@
     "automation": "Automação",
     "permissions": "Permissões",
     "actions": "Ações",
-    "settings": "Configurações"
+    "settings": "Configurações",
+    "erlcApiKey": "Chave da API ERLC"
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",

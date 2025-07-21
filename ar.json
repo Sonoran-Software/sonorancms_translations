@@ -652,7 +652,8 @@
     "automation": "أتمتة",
     "permissions": "الأذونات",
     "actions": "الإجراءات",
-    "settings": "إعدادات"
+    "settings": "إعدادات",
+    "erlcApiKey": "مفتاح API لـ ERLC"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",

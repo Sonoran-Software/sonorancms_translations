@@ -652,7 +652,8 @@
     "automation": "オートメーション",
     "permissions": "権限",
     "actions": "アクション",
-    "settings": "設定"
+    "settings": "設定",
+    "erlcApiKey": "ERLC APIキー"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",

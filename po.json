@@ -652,7 +652,8 @@
     "automation": "Automatyzacja",
     "permissions": "Permisos",
     "actions": "Aksiyonlar",
-    "settings": "Nastavitve"
+    "settings": "Nastavitve",
+    "erlcApiKey": "Clave API de ERLC"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",

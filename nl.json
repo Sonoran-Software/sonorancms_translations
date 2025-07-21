@@ -652,7 +652,8 @@
     "automation": "Automatisering",
     "permissions": "Machtigingen",
     "actions": "Acties",
-    "settings": "Instellingen"
+    "settings": "Instellingen",
+    "erlcApiKey": "ERLC API-sleutel"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",

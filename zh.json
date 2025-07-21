@@ -652,7 +652,8 @@
     "automation": "自动化",
     "permissions": "权限",
     "actions": "操作",
-    "settings": "设置"
+    "settings": "设置",
+    "erlcApiKey": "ERLC API 密钥"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",

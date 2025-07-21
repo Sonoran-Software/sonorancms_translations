@@ -652,7 +652,8 @@
     "automation": "Automatizace",
     "permissions": "Oprávnění",
     "actions": "Akce",
-    "settings": "Nastavení"
+    "settings": "Nastavení",
+    "erlcApiKey": "ERLC API klíč"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",

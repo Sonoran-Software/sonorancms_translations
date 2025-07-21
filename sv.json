@@ -652,7 +652,8 @@
     "automation": "Automatisering",
     "permissions": "Behörigheter",
     "actions": "Åtgärder",
-    "settings": "Inställningar"
+    "settings": "Inställningar",
+    "erlcApiKey": "ERLC API-nyckel"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
