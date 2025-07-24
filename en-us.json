@@ -1707,7 +1707,8 @@
     "noServer": "No server name",
     "downloadRosterCsv": "Download Full Roster as CSV",
     "errorDownloadingRosterCSV": "Error downloading roster CSV, contact support if this persists.",
-    "errorDownloadingRosterCSVDueToBrowser": "Error downloading roster CSV due to browser permissions."
+    "errorDownloadingRosterCSVDueToBrowser": "Error downloading roster CSV due to browser permissions.",
+    "filter": "Filter"
   },
   "ToolbarLinks": {
     "button": "Button",
@@ -3141,6 +3142,8 @@
     "submissionRemovalMentions": "Submission Removal - Mentions",
     "stageChangeChannel": "Stage Change - Channel",
     "submissionStageChangeMentions": "Submission Stage Change - Mentions",
+    "hideBlankFormFields": "Form fields that are blank are not shown in the webhook",
+    "showBlankFormFields": "Form fields that are blank will be shown as \"Blank\" in the webhook",
     "anyRosterRowAdditionChannel": "Any Roster Row Addition - Channel",
     "anyRosterRowAdditionMentions": "Any Roster Row Addition - Mentions",
     "anyRosterRowEditChannel": "Any Roster Row Edit - Channel",
@@ -3783,6 +3786,7 @@
     "removeSection": "Remove Section",
     "required": "Required",
     "conditional": "Conditional",
+    "conditionalRanks": "Conditional Rank(s)",
     "conditionalQuestion": "Conditional Question",
     "valuesCommaseparated": "Values (comma,separated)",
     "enterValues": "Enter Values",
