@@ -4046,7 +4046,8 @@
     "dropdownOptionImage": "Dropdown option Image",
     "newLinkHere": "New Link Here",
     "areYouSureYouWantToDeleteThisItem": "Are you sure you want to delete this item?",
-    "exampleDropdown": "Example Dropdown"
+    "exampleDropdown": "Example Dropdown",
+    "erlcGamePanel": "ERLC Game Panel"
   },
   "ForumForm": {
     "selectCategory": "Select Category",
@@ -4398,7 +4399,15 @@
     "manageDomainsDesc": "Allows members to manage domains in the Short URL Manager.",
     "allowMembersToManageOtherComments": "Allows members to manage other members' comments on submissions of this form template.",
     "downloadRosterCSV": "Download Full Roster CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Allows members to download the full roster as a CSV file."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Allows members to download the full roster as a CSV file.",
+    "banPlayer": "Ban Player",
+    "allowsMembersToBanPlayersInTheGamePanel": "Allows members to ban players in the Game Panel for this server.",
+    "runAdminCommand": "Run Admin Command",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Allows members to run admin commands in the Game Panel for this server.",
+    "runModCommand": "Run Mod Command",
+    "allowsMembersToRunModCommandsInTheGamePan": "Allows members to run mod commands in the Game Panel for this server.",
+    "runRpCommand": "Run RP Command",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Allows members to run RP commands in the Game Panel for this server."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited",
