@@ -1722,7 +1722,8 @@
     "noServer": "Žádný název serveru",
     "downloadRosterCsv": "Stáhnout kompletní seznam jako CSV",
     "errorDownloadingRosterCSV": "Chyba při stahování CSV soupisek, pokud problém přetrvává, kontaktujte podporu.",
-    "errorDownloadingRosterCSVDueToBrowser": "Chyba při stahování CSV sestavy kvůli oprávněním prohlížeče."
+    "errorDownloadingRosterCSVDueToBrowser": "Chyba při stahování CSV sestavy kvůli oprávněním prohlížeče.",
+    "filter": "Filtr"
   },
   "ToolbarLinks": {
     "button": "Tlačítko",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synchronizujte kalendářní události a RSVP CMS s vašimi Discord Guild(s)",
     "calendarSync": "Synchronizace kalendáře",
     "thisMayTakeAFewMomentsPleaseWait": "To může chvíli trvat, prosím, čekejte.",
-    "linkedGuilds": "Propojené guildy"
+    "linkedGuilds": "Propojené guildy",
+    "hideBlankFormFields": "Formulářová pole, která jsou prázdná, nejsou zobrazena ve webhooku",
+    "showBlankFormFields": "Formulářová pole, která jsou prázdná, budou ve webhooku zobrazena jako \"Prázdná\"."
   },
   "DepartmentEditor": {
     "departmentManager": "Manažer oddělení",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Prvek ID uživatele Discord člena komunity",
     "conditionalQuestion": "Podmíněná otázka",
     "enterValues": "Zadejte hodnoty",
-    "conditionalQuestionStartExplaination": "Tato sekce bude viditelná"
+    "conditionalQuestionStartExplaination": "Tato sekce bude viditelná",
+    "conditionalRanks": "Podmínková hodnost(i)"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Obrázek možnosti rozbalovacího seznamu",
     "newLinkHere": "Nový odkaz zde",
     "areYouSureYouWantToDeleteThisItem": "Opravdu chcete tuto položku smazat?",
-    "exampleDropdown": "Příklad rozbalovacího seznamu"
+    "exampleDropdown": "Příklad rozbalovacího seznamu",
+    "erlcGamePanel": "ERLC Herní Panel"
   },
   "ForumForm": {
     "selectCategory": "Vybrat kategorii",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Umožňuje členům přistupovat a odesílat soukromé komentáře k podáním této šablony formuláře.",
     "allowMembersToManageOtherComments": "Umožňuje členům spravovat komentáře ostatních členů k odesláním této šablony formuláře.",
     "downloadRosterCSV": "Stáhnout celý soupis CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Umožňuje členům stáhnout si plnou sestavu jako soubor CSV."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Umožňuje členům stáhnout si plnou sestavu jako soubor CSV.",
+    "banPlayer": "Zakázat hráče",
+    "allowsMembersToBanPlayersInTheGamePanel": "Umožňuje členům zakázat hráče v herním panelu pro tento server.",
+    "runAdminCommand": "Spustit administrátorský příkaz",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Umožňuje členům spouštět administrátorské příkazy v ovládacím panelu hry pro tento server.",
+    "runModCommand": "Spustit mod příkaz",
+    "allowsMembersToRunModCommandsInTheGamePan": "Umožňuje členům spouštět modifikační příkazy v herním panelu pro tento server.",
+    "runRpCommand": "Spustit ​​RP příkaz",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Umožňuje členům spouštět RP příkazy v herním panelu pro tento server."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",

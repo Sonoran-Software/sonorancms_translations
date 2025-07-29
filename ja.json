@@ -1722,7 +1722,8 @@
     "noServer": "サーバー名なし",
     "downloadRosterCsv": "CSVとして完全な名簿をダウンロード",
     "errorDownloadingRosterCSV": "名簿CSVのダウンロード中にエラーが発生しました。これが続く場合はサポートに連絡してください。",
-    "errorDownloadingRosterCSVDueToBrowser": "ブラウザの権限により、名簿CSVのダウンロードエラーが発生しました。"
+    "errorDownloadingRosterCSVDueToBrowser": "ブラウザの権限により、名簿CSVのダウンロードエラーが発生しました。",
+    "filter": "フィルター"
   },
   "ToolbarLinks": {
     "button": "ドロップダウン",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "カレンダーの同期",
     "calendarSync": "少々お待ちください。",
     "thisMayTakeAFewMomentsPleaseWait": "リンクされたギルド",
-    "linkedGuilds": "部門マネージャー"
+    "linkedGuilds": "部門マネージャー",
+    "hideBlankFormFields": "Webhookには空白のフォームフィールドは表示されません",
+    "showBlankFormFields": "Webhookで空白のフォームフィールドは「空白」と表示されます。"
   },
   "DepartmentEditor": {
     "departmentManager": "プロファイルフィールドが作成されていません... カスタマイズのプロファイルフィールドエディタでプロファイルフィールドを作成してください",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "コミュニティメンバーDiscord ID要素",
     "conditionalQuestion": "条件付き質問",
     "enterValues": "値を入力",
-    "conditionalQuestionStartExplaination": "このセクションは表示されます"
+    "conditionalQuestionStartExplaination": "このセクションは表示されます",
+    "conditionalRanks": "条件付きランク"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "新しいリンクはこちら",
     "newLinkHere": "このアイテムを削除してもよろしいですか？",
     "areYouSureYouWantToDeleteThisItem": "例のドロップダウン",
-    "exampleDropdown": "カテゴリを選択"
+    "exampleDropdown": "カテゴリを選択",
+    "erlcGamePanel": "ERLCゲームパネル"
   },
   "ForumForm": {
     "selectCategory": "編集",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "このフォームテンプレートの提出に対するプライベートコメントへのアクセスと送信をメンバーに許可します。",
     "allowMembersToManageOtherComments": "このフォームテンプレートの提出物に対する他のメンバーのコメントを管理することができます。",
     "downloadRosterCSV": "完全な名簿のCSVをダウンロード",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "メンバーがフルロスターをCSVファイルとしてダウンロードできるようにします。"
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "メンバーがフルロスターをCSVファイルとしてダウンロードできるようにします。",
+    "banPlayer": "プレイヤーを禁止",
+    "allowsMembersToBanPlayersInTheGamePanel": "このサーバーのゲームパネルでメンバーがプレイヤーを禁止することを許可します。",
+    "runAdminCommand": "管理コマンドを実行",
+    "allowsMembersToRunAdminCommandsInTheGameP": "このサーバーのゲームパネルでメンバーが管理コマンドを実行できるようにします。",
+    "runModCommand": "コマンドを実行",
+    "allowsMembersToRunModCommandsInTheGamePan": "このサーバーのゲームパネルでメンバーがモッドコマンドを実行することを許可します。",
+    "runRpCommand": "RPコマンドを実行する",
+    "allowsMembersToRunRpCommandsInTheGamePan": "このサーバーのゲームパネルでメンバーがRPコマンドを実行できるようにします。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された",

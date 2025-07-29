@@ -1722,7 +1722,8 @@
     "noServer": "Sem nome de servidor",
     "downloadRosterCsv": "Baixar Lista Completa como CSV",
     "errorDownloadingRosterCSV": "Erro ao baixar o CSV da lista, entre em contato com o suporte se isso persistir.",
-    "errorDownloadingRosterCSVDueToBrowser": "Erro ao baixar o CSV do quadro devido às permissões do navegador."
+    "errorDownloadingRosterCSVDueToBrowser": "Erro ao baixar o CSV do quadro devido às permissões do navegador.",
+    "filter": "Filtro"
   },
   "ToolbarLinks": {
     "button": "Botão",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Sincronizar eventos do calendário do CMS e RSVPs com seu(s) Discord Guild(s)",
     "calendarSync": "Sincronização de Calendário",
     "thisMayTakeAFewMomentsPleaseWait": "Isso pode levar alguns momentos, por favor, aguarde.",
-    "linkedGuilds": "Guildas Vinculadas"
+    "linkedGuilds": "Guildas Vinculadas",
+    "hideBlankFormFields": "Campos de formulário que estão em branco não são exibidos no webhook",
+    "showBlankFormFields": "Os campos do formulário que estão em branco serão exibidos como \"Em branco\" no webhook"
   },
   "DepartmentEditor": {
     "departmentManager": "Gerente de Departamento",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Elemento de ID do Discord do membro da comunidade",
     "conditionalQuestion": "Pergunta Condicional",
     "enterValues": "Digite Valores",
-    "conditionalQuestionStartExplaination": "Esta seção estará visível"
+    "conditionalQuestionStartExplaination": "Esta seção estará visível",
+    "conditionalRanks": "Patente(s) Condicional(is)"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Imagem da opção de menu suspenso",
     "newLinkHere": "Novo Link Aqui",
     "areYouSureYouWantToDeleteThisItem": "Tem certeza de que deseja excluir este item?",
-    "exampleDropdown": "Menu Suspenso de Exemplo"
+    "exampleDropdown": "Menu Suspenso de Exemplo",
+    "erlcGamePanel": "Painel de Jogo ERLC"
   },
   "ForumForm": {
     "selectCategory": "Selecionar Categoria",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Permite que os membros acessem e enviem comentários privados nas submissões deste modelo de formulário.",
     "allowMembersToManageOtherComments": "Permite que os membros gerenciem os comentários de outros membros nas submissões deste modelo de formulário.",
     "downloadRosterCSV": "Baixar CSV Completo da Lista",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite aos membros baixar a lista completa como um arquivo CSV."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite aos membros baixar a lista completa como um arquivo CSV.",
+    "banPlayer": "Banir Jogador",
+    "allowsMembersToBanPlayersInTheGamePanel": "Permite que os membros baniam jogadores no Painel do Jogo para este servidor.",
+    "runAdminCommand": "Executar Comando de Administrador",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Permite que os membros executem comandos de administrador no Painel de Jogo para este servidor.",
+    "runModCommand": "Executar Comando de Modificação",
+    "allowsMembersToRunModCommandsInTheGamePan": "Permite que os membros executem comandos de moderação no Painel de Jogo para este servidor.",
+    "runRpCommand": "Executar Comando RP",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Permite que os membros executem comandos de RP no Painel de Jogo para este servidor."
   },
   "permissionToggleGroup": {
     "inherited": "herdado",

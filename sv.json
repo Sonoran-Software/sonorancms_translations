@@ -1722,7 +1722,8 @@
     "noServer": "Inget servernamn",
     "downloadRosterCsv": "Ladda ner komplett lista som CSV",
     "errorDownloadingRosterCSV": "Fel vid nedladdning av roster CSV, kontakta support om detta kvarstår.",
-    "errorDownloadingRosterCSVDueToBrowser": "Fel vid hämtning av CSV-lista på grund av webbläsarens behörigheter."
+    "errorDownloadingRosterCSVDueToBrowser": "Fel vid hämtning av CSV-lista på grund av webbläsarens behörigheter.",
+    "filter": "Filtrera"
   },
   "ToolbarLinks": {
     "button": "Knapp",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synkronisera CMS-kalenderhändelser och RSVP:er till dina Discord Guild(s)",
     "calendarSync": "Kalendersynk",
     "thisMayTakeAFewMomentsPleaseWait": "Detta kan ta några ögonblick, vänligen vänta.",
-    "linkedGuilds": "Länkade Guilds"
+    "linkedGuilds": "Länkade Guilds",
+    "hideBlankFormFields": "Formulärfält som är tomma visas inte i webhooken",
+    "showBlankFormFields": "Formulärfält som är tomma visas som \"Tom\" i webhooken"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelningschef",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Discord-ID för communitymedlem",
     "conditionalQuestion": "Villkorlig fråga",
     "enterValues": "Ange värden",
-    "conditionalQuestionStartExplaination": "Den här sektionen kommer att vara synlig"
+    "conditionalQuestionStartExplaination": "Den här sektionen kommer att vara synlig",
+    "conditionalRanks": "Villkorlig(a) rang(er)"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Rullgardinsalternativ bild",
     "newLinkHere": "Ny länk här",
     "areYouSureYouWantToDeleteThisItem": "Är du säker på att du vill radera detta objekt?",
-    "exampleDropdown": "Exempel rullgardin"
+    "exampleDropdown": "Exempel rullgardin",
+    "erlcGamePanel": "ERLC Spelpanel"
   },
   "ForumForm": {
     "selectCategory": "Välj kategori",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Tillåter medlemmar att komma åt och skicka privata kommentarer på inlämningar av denna formulärmall.",
     "allowMembersToManageOtherComments": "Tillåter medlemmar att hantera andra medlemmars kommentarer på inlagor av denna formulärmall.",
     "downloadRosterCSV": "Ladda ner fullständig lista CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Tillåter medlemmar att ladda ner hela listan som en CSV-fil."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Tillåter medlemmar att ladda ner hela listan som en CSV-fil.",
+    "banPlayer": "Spärra spelare",
+    "allowsMembersToBanPlayersInTheGamePanel": "Låter medlemmar banna spelare i spelpanelen för denna server.",
+    "runAdminCommand": "Kör administratörskommando",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Tillåter medlemmar att köra adminkommandon i spelpanelen för denna server.",
+    "runModCommand": "Kör modkommando",
+    "allowsMembersToRunModCommandsInTheGamePan": "Tillåter medlemmar att köra modkommandon i spelpanelen för denna server.",
+    "runRpCommand": "Kör RP-kommandot",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Låter medlemmar köra RP-kommandon i spelpanelen för denna server."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",

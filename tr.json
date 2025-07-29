@@ -1722,7 +1722,8 @@
     "noServer": "Sunucu adı yok",
     "downloadRosterCsv": "Tam Listeyi CSV Olarak İndir",
     "errorDownloadingRosterCSV": "Roster CSV'si indirilirken hata oluştu, devam ederse destek ekibiyle iletişime geçin.",
-    "errorDownloadingRosterCSVDueToBrowser": "Tarayıcı izinleri nedeniyle kadro CSV'si indirilemedi."
+    "errorDownloadingRosterCSVDueToBrowser": "Tarayıcı izinleri nedeniyle kadro CSV'si indirilemedi.",
+    "filter": "Filtre"
   },
   "ToolbarLinks": {
     "button": "Düğme",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "CMS takvim etkinliklerini ve RSVP'leri Discord Sunucularınıza senkronize edin",
     "calendarSync": "Takvim Senkronizasyonu",
     "thisMayTakeAFewMomentsPleaseWait": "Bu birkaç dakika sürebilir, lütfen bekleyin.",
-    "linkedGuilds": "Bağlı Sunucular"
+    "linkedGuilds": "Bağlı Sunucular",
+    "hideBlankFormFields": "Webhook'ta boş olan form alanları gösterilmez.",
+    "showBlankFormFields": "Webhook'ta boş olan form alanları \"Boş\" olarak gösterilecektir."
   },
   "DepartmentEditor": {
     "departmentManager": "Departman Yöneticisi",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Topluluk üyesi Discord ID öğesi",
     "conditionalQuestion": "Koşullu Soru",
     "enterValues": "Değerleri Girin",
-    "conditionalQuestionStartExplaination": "Bu bölüm görülebilir olacak"
+    "conditionalQuestionStartExplaination": "Bu bölüm görülebilir olacak",
+    "conditionalRanks": "Koşullu Rütbe(ler)"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Açılır menü seçeneği Görüntüsü",
     "newLinkHere": "Yeni Bağlantı Buraya",
     "areYouSureYouWantToDeleteThisItem": "Bu öğeyi silmek istediğinizden emin misiniz?",
-    "exampleDropdown": "Örnek Açılır Menü"
+    "exampleDropdown": "Örnek Açılır Menü",
+    "erlcGamePanel": "ERLC Oyun Paneli"
   },
   "ForumForm": {
     "selectCategory": "Kategori Seç",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Bu form şablonunun gönderimleri üzerinde üyelerin özel yorumlara erişmesine ve göndermesine izin verir.",
     "allowMembersToManageOtherComments": "Bu form şablonundaki gönderimler üzerindeki yorumları diğer üyelerin yönetmesine izin verir.",
     "downloadRosterCSV": "Tam Kadro CSV'sini İndir",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Üyelerin tam kadroyu CSV dosyası olarak indirmesine olanak tanır."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Üyelerin tam kadroyu CSV dosyası olarak indirmesine olanak tanır.",
+    "banPlayer": "Oyuncuyu Yasakla",
+    "allowsMembersToBanPlayersInTheGamePanel": "Bu sunucu için Oyun Panelinde oyuncuları yasaklamasına izin verir.",
+    "runAdminCommand": "Yönetici Komutunu Çalıştır",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Bu sunucu için Oyun Panelinde üyelerin yönetici komutlarını çalıştırmasına izin verir.",
+    "runModCommand": "Mod Komutunu Çalıştır",
+    "allowsMembersToRunModCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde mod komutlarını çalıştırmasına izin verir.",
+    "runRpCommand": "RP Komutunu Çalıştır",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde RP komutlarını çalıştırmalarına olanak tanır."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",

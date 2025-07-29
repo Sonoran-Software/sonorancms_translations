@@ -1722,7 +1722,8 @@
     "noServer": "Brak nazwy serwera",
     "downloadRosterCsv": "Descargar lista completa como CSV",
     "errorDownloadingRosterCSV": "Błąd pobierania pliku CSV z listą, skontaktuj się z obsługą, jeśli problem będzie się powtarzał.",
-    "errorDownloadingRosterCSVDueToBrowser": "Napaka pri prenosu CSV razporeda zaradi dovoljenj brskalnika."
+    "errorDownloadingRosterCSVDueToBrowser": "Napaka pri prenosu CSV razporeda zaradi dovoljenj brskalnika.",
+    "filter": "Фильтр"
   },
   "ToolbarLinks": {
     "button": "Przycisk",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synchronizuj wydarzenia kalendarza CMS i RSVP z twoimi Discord Guild(s)",
     "calendarSync": "Synchronizacja kalendarza",
     "thisMayTakeAFewMomentsPleaseWait": "To może chwilę potrwać, proszę czekać.",
-    "linkedGuilds": "Połączone Gildie"
+    "linkedGuilds": "Połączone Gildie",
+    "hideBlankFormFields": "Los campos de formulario que están en blanco no se muestran en el webhook",
+    "showBlankFormFields": "Os campos do formulário que estiverem em branco serão mostrados como \"Em branco\" no webhook"
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "สมาชิกชุมชน Discord ID องค์ประกอบ",
     "conditionalQuestion": "Warunkowe Pytanie",
     "enterValues": "Wprowadź wartości",
-    "conditionalQuestionStartExplaination": "Esta seção estará visível"
+    "conditionalQuestionStartExplaination": "Esta seção estará visível",
+    "conditionalRanks": "Rango(s) condicional(es)"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Obraz opcji rozwijanej",
     "newLinkHere": "Nowy Link Tutaj",
     "areYouSureYouWantToDeleteThisItem": "Czy na pewno chcesz usunąć ten element?",
-    "exampleDropdown": "Przykładowa Lista Rozwijana"
+    "exampleDropdown": "Przykładowa Lista Rozwijana",
+    "erlcGamePanel": "ERLC खेल पैनल"
   },
   "ForumForm": {
     "selectCategory": "Wybierz Kategorię",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Dopuszcza członków do dostępu i wysyłania prywatnych komentarzy do zgłoszeń tego szablonu formularza.",
     "allowMembersToManageOtherComments": "Ermöglicht es Mitgliedern, die Kommentare anderer Mitglieder zu den Einreichungen dieser Formularvorlage zu verwalten.",
     "downloadRosterCSV": "Descargar CSV de toda la lista",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite que los miembros descarguen la lista completa como un archivo CSV."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Permite que los miembros descarguen la lista completa como un archivo CSV.",
+    "banPlayer": "Забанить игрока",
+    "allowsMembersToBanPlayersInTheGamePanel": "Permite a los miembros prohibir a los jugadores en el Panel de Juego de este servidor.",
+    "runAdminCommand": "Wykonaj polecenie administratora",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Permite a los miembros ejecutar comandos de administrador en el Panel de Juego para este servidor.",
+    "runModCommand": "Uruchom polecenie moda",
+    "allowsMembersToRunModCommandsInTheGamePan": "Pozwala członkom uruchamiać polecenia moderatora w panelu gry dla tego serwera.",
+    "runRpCommand": "Lancez la commande RP",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Permite que os membros executem comandos RP no Painel de Jogo para este servidor."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone",

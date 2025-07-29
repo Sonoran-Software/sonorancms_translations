@@ -1722,7 +1722,8 @@
     "noServer": "Ingen servernavn",
     "downloadRosterCsv": "Last ned hele listen som CSV",
     "errorDownloadingRosterCSV": "Feil ved nedlasting av CSV for roster. Kontakt support hvis dette vedvarer.",
-    "errorDownloadingRosterCSVDueToBrowser": "Feil ved nedlasting av CSV for mannskapsliste på grunn av nettlesertillatelser."
+    "errorDownloadingRosterCSVDueToBrowser": "Feil ved nedlasting av CSV for mannskapsliste på grunn av nettlesertillatelser.",
+    "filter": "Filter"
   },
   "ToolbarLinks": {
     "button": "Knapp",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synkroniser CMS-kalenderhendelser og RSVPer til dine Discord Guild(s)",
     "calendarSync": "Kalendersynkronisering",
     "thisMayTakeAFewMomentsPleaseWait": "Dette kan ta noen øyeblikk, vennligst vent.",
-    "linkedGuilds": "Koblede Guilds"
+    "linkedGuilds": "Koblede Guilds",
+    "hideBlankFormFields": "Formfelter som er tomme vises ikke i webhooken",
+    "showBlankFormFields": "Skjemafelt som er tomme, blir vist som \"Tom\" i webhooken"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelingsleder",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Discord-ID-element for fellesskapsmedlem",
     "conditionalQuestion": "Betinget spørsmål",
     "enterValues": "Angi verdier",
-    "conditionalQuestionStartExplaination": "Denne delen vil være synlig"
+    "conditionalQuestionStartExplaination": "Denne delen vil være synlig",
+    "conditionalRanks": "Betinget rang(er)"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Nedtrekksvalg bilde",
     "newLinkHere": "Ny lenke her",
     "areYouSureYouWantToDeleteThisItem": "Er du sikker på at du vil slette dette elementet?",
-    "exampleDropdown": "Eksempel nedtrekk"
+    "exampleDropdown": "Eksempel nedtrekk",
+    "erlcGamePanel": "ERLC Spillpanel"
   },
   "ForumForm": {
     "selectCategory": "Velg kategori",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Lar medlemmene få tilgang til og sende private kommentarer på sendinger av denne skjema malen.",
     "allowMembersToManageOtherComments": "Tillater medlemmer å administrere andre medlemmers kommentarer på innsendinger av denne skjemamalen.",
     "downloadRosterCSV": "Last ned hele medlemslisten CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Lar medlemmene laste ned hele oversikten som en CSV-fil."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Lar medlemmene laste ned hele oversikten som en CSV-fil.",
+    "banPlayer": "Utesteng spiller",
+    "allowsMembersToBanPlayersInTheGamePanel": "Tillater medlemmer å utestenge spillere i spillpanelet for denne serveren.",
+    "runAdminCommand": "Kjør administrator kommando",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Lar medlemmene kjøre admin-kommandoer i spillpanelet for denne serveren.",
+    "runModCommand": "Kjør Mod-kommando",
+    "allowsMembersToRunModCommandsInTheGamePan": "Lar medlemmene kjøre mod-kommandoer i spillpanelet for denne serveren.",
+    "runRpCommand": "Kjør RP-kommando",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Lar medlemmene kjøre RP-kommandoer i spillpanelet for denne serveren."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",

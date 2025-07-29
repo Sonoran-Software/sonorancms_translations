@@ -1722,7 +1722,8 @@
     "noServer": "لا يوجد اسم خادم",
     "downloadRosterCsv": "قم بتنزيل القائمة الكاملة بتنسيق CSV",
     "errorDownloadingRosterCSV": "حدث خطأ أثناء تنزيل قائمة CSV، اتصل بالدعم إذا استمر هذا.",
-    "errorDownloadingRosterCSVDueToBrowser": "خطأ في تنزيل قائمة CSV بسبب أذونات المتصفح."
+    "errorDownloadingRosterCSVDueToBrowser": "خطأ في تنزيل قائمة CSV بسبب أذونات المتصفح.",
+    "filter": "تصفية"
   },
   "ToolbarLinks": {
     "button": "زر",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "مزامنة أحداث تقويم نظام إدارة المحتوى وRSVPs مع خادم Discord الخاص بك",
     "calendarSync": "مزامنة التقويم",
     "thisMayTakeAFewMomentsPleaseWait": "قد يستغرق هذا بضع لحظات، يرجى الانتظار.",
-    "linkedGuilds": "الخوادم المرتبطة"
+    "linkedGuilds": "الخوادم المرتبطة",
+    "hideBlankFormFields": "النماذج الفارغة لا تظهر في الوابهوك",
+    "showBlankFormFields": "سيتم عرض حقول النموذج التي تترك فارغة على أنها \"فارغ\" في الويب هوك"
   },
   "DepartmentEditor": {
     "departmentManager": "مدير القسم",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "معرّف مستخدم Discord لعضو المجتمع",
     "conditionalQuestion": "سؤال شرطي",
     "enterValues": "أدخل القيم",
-    "conditionalQuestionStartExplaination": "هذه القسم ستكون مرئية"
+    "conditionalQuestionStartExplaination": "هذه القسم ستكون مرئية",
+    "conditionalRanks": "رتبة (رتب) شرطية"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "صورة خيار القائمة المنسدلة",
     "newLinkHere": "رابط جديد هنا",
     "areYouSureYouWantToDeleteThisItem": "هل أنت متأكد أنك تريد حذف هذا العنصر؟",
-    "exampleDropdown": "قائمة منسدلة مثال"
+    "exampleDropdown": "قائمة منسدلة مثال",
+    "erlcGamePanel": "لوحة تحكم لعبة ERLC"
   },
   "ForumForm": {
     "selectCategory": "اختر الفئة",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "يسمح للأعضاء بالوصول إلى التعليقات الخاصة وإرسالها على الإرساليات لهذا النموذج التمهيدي.",
     "allowMembersToManageOtherComments": "يسمح للأعضاء بإدارة تعليقات الأعضاء الآخرين على تقديمات قالب النموذج هذا.",
     "downloadRosterCSV": "تنزيل ملف CSV الكامل للقائمة",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "يسمح للأعضاء بتحميل القائمة الكاملة كملف CSV."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "يسمح للأعضاء بتحميل القائمة الكاملة كملف CSV.",
+    "banPlayer": "حظر اللاعب",
+    "allowsMembersToBanPlayersInTheGamePanel": "يسمح للأعضاء بحظر اللاعبين في لوحة اللعبة لهذا الخادم.",
+    "runAdminCommand": "تشغيل أمر المسؤول",
+    "allowsMembersToRunAdminCommandsInTheGameP": "السماح للأعضاء بتشغيل أوامر الإدارة في لوحة اللعبة لهذا الخادم.",
+    "runModCommand": "تشغيل أمر المود",
+    "allowsMembersToRunModCommandsInTheGamePan": "يتيح للأعضاء تشغيل أوامر التعديل في لوحة اللعبة لهذا الخادم.",
+    "runRpCommand": "تشغيل أمر RP",
+    "allowsMembersToRunRpCommandsInTheGamePan": "يسمح للأعضاء بتشغيل أوامر RP في لوحة اللعبة لهذا الخادم."
   },
   "permissionToggleGroup": {
     "inherited": "موروث",

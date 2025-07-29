@@ -1722,7 +1722,8 @@
     "noServer": "Нет имени сервера",
     "downloadRosterCsv": "Скачать полный список в формате CSV",
     "errorDownloadingRosterCSV": "Ошибка при загрузке CSV-списка, если это повторится, свяжитесь с поддержкой.",
-    "errorDownloadingRosterCSVDueToBrowser": "Ошибка загрузки CSV-списка из-за разрешений браузера."
+    "errorDownloadingRosterCSVDueToBrowser": "Ошибка загрузки CSV-списка из-за разрешений браузера.",
+    "filter": "Фильтр"
   },
   "ToolbarLinks": {
     "button": "Выпадающее меню",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Синхронизация календаря",
     "calendarSync": "Это может занять несколько минут, пожалуйста, подождите.",
     "thisMayTakeAFewMomentsPleaseWait": "Связанные гильдии",
-    "linkedGuilds": "Менеджер отдела"
+    "linkedGuilds": "Менеджер отдела",
+    "hideBlankFormFields": "Поля формы, которые пусты, не отображаются в вебхуке.",
+    "showBlankFormFields": "Поля формы, которые пусты, будут отображаться как «Пусто» в вебхуке"
   },
   "DepartmentEditor": {
     "departmentManager": "Поля профиля не созданы... Создайте поля профиля в редакторе полей профиля в разделе Настройка",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Элемент Discord ID участника сообщества",
     "conditionalQuestion": "Условный вопрос",
     "enterValues": "Введите значения",
-    "conditionalQuestionStartExplaination": "Этот раздел будет видимым"
+    "conditionalQuestionStartExplaination": "Этот раздел будет видимым",
+    "conditionalRanks": "Условные звание(я)"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Новая ссылка здесь",
     "newLinkHere": "Вы уверены, что хотите удалить этот элемент?",
     "areYouSureYouWantToDeleteThisItem": "Пример выпадающего списка",
-    "exampleDropdown": "Выбрать категорию"
+    "exampleDropdown": "Выбрать категорию",
+    "erlcGamePanel": "ERLC Игровая Панель"
   },
   "ForumForm": {
     "selectCategory": "Редактировать",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Позволяет пользователям получать доступ и отправлять личные комментарии к отправкам этого шаблона формы.",
     "allowMembersToManageOtherComments": "Позволяет участникам управлять комментариями других участников по отправкам этого шаблона формы.",
     "downloadRosterCSV": "Скачать полный состав в формате CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Позволяет участникам загружать полный список в виде CSV-файла."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Позволяет участникам загружать полный список в виде CSV-файла.",
+    "banPlayer": "Заблокировать игрока",
+    "allowsMembersToBanPlayersInTheGamePanel": "Позволяет участникам блокировать игроков в Игровой Панели для этого сервера.",
+    "runAdminCommand": "Запустить команду администратора",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Позволяет участникам выполнять администраторские команды в игровом панели для этого сервера.",
+    "runModCommand": "Выполнить команду модератора",
+    "allowsMembersToRunModCommandsInTheGamePan": "Позволяет участникам выполнять модераторские команды в панели управления игрой для этого сервера.",
+    "runRpCommand": "Запустить RP команду",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Позволяет участникам выполнять RP команды в игровом панели для этого сервера."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",

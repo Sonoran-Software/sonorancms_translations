@@ -1722,7 +1722,8 @@
     "noServer": "Geen servernaam",
     "downloadRosterCsv": "Download volledige lijst als CSV",
     "errorDownloadingRosterCSV": "Fout bij het downloaden van de lijst-CSV, neem contact op met support als dit aanhoudt.",
-    "errorDownloadingRosterCSVDueToBrowser": "Fout bij het downloaden van de roster CSV door browserrechten."
+    "errorDownloadingRosterCSVDueToBrowser": "Fout bij het downloaden van de roster CSV door browserrechten.",
+    "filter": "Filter"
   },
   "ToolbarLinks": {
     "button": "Knop",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synchroniseer CMS-kalenderevenementen en RSVPs met je Discord Guild(s)",
     "calendarSync": "Kalender Synchronisatie",
     "thisMayTakeAFewMomentsPleaseWait": "Dit kan een paar momenten duren, even geduld alstublieft.",
-    "linkedGuilds": "Gekoppelde Guilds"
+    "linkedGuilds": "Gekoppelde Guilds",
+    "hideBlankFormFields": "Formuliervelden die leeg zijn, worden niet weergegeven in de webhook",
+    "showBlankFormFields": "Formuliervelden die leeg zijn, worden in de webhook als \"Leeg\" weergegeven"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsmanager",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Communitylid Discord-ID-element",
     "conditionalQuestion": "Voorwaardelijke Vraag",
     "enterValues": "Voer waarden in",
-    "conditionalQuestionStartExplaination": "Deze sectie zal zichtbaar zijn"
+    "conditionalQuestionStartExplaination": "Deze sectie zal zichtbaar zijn",
+    "conditionalRanks": "Voorwaardelijke Rang(en)"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Keuzelijstoptie-afbeelding",
     "newLinkHere": "Nieuwe link hier",
     "areYouSureYouWantToDeleteThisItem": "Weet u zeker dat u dit item wilt verwijderen?",
-    "exampleDropdown": "Voorbeeld keuzelijst"
+    "exampleDropdown": "Voorbeeld keuzelijst",
+    "erlcGamePanel": "ERLC Spelpaneel"
   },
   "ForumForm": {
     "selectCategory": "Selecteer categorie",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Maakt het voor leden mogelijk om privéopmerkingen te bekijken en te verzenden over inzendingen van deze formulier sjabloon.",
     "allowMembersToManageOtherComments": "Hiermee kunnen leden opmerkingen van andere leden beheren over inzendingen van deze formulier sjabloon.",
     "downloadRosterCSV": "Volledige Roster CSV downloaden",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Staat leden toe om het volledige rooster als een CSV-bestand te downloaden."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Staat leden toe om het volledige rooster als een CSV-bestand te downloaden.",
+    "banPlayer": "Speler verbannen",
+    "allowsMembersToBanPlayersInTheGamePanel": "Hiermee kunnen leden spelers verbannen in het Spel Paneel voor deze server.",
+    "runAdminCommand": "Voer beheerdersopdracht uit",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Stelt leden in staat om beheerdersopdrachten uit te voeren in het Spelpaneel voor deze server.",
+    "runModCommand": "Voer Mod Commando uit",
+    "allowsMembersToRunModCommandsInTheGamePan": "Staat leden toe om modcommando's uit te voeren in het Game Paneel voor deze server.",
+    "runRpCommand": "Voer RP-opdracht uit",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Staat leden toe om RP-commando's uit te voeren in het Gamepaneel voor deze server."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",

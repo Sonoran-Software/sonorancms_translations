@@ -1722,7 +1722,8 @@
     "noServer": "Kein Servername",
     "downloadRosterCsv": "Laden Sie die vollständige Liste als CSV herunter",
     "errorDownloadingRosterCSV": "Ein Fehler ist beim Herunterladen der Roster-CSV aufgetreten. Wenden Sie sich an den Support, wenn dieses Problem weiterhin besteht.",
-    "errorDownloadingRosterCSVDueToBrowser": "Fehler beim Herunterladen der Dienstplan-CSV aufgrund von Browserberechtigungen."
+    "errorDownloadingRosterCSVDueToBrowser": "Fehler beim Herunterladen der Dienstplan-CSV aufgrund von Browserberechtigungen.",
+    "filter": "Filtern"
   },
   "ToolbarLinks": {
     "button": "Knopf",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synchronisiere CMS-Kalenderereignisse und Zusagen mit deinen Discord-Gilden",
     "calendarSync": "Kalendersynchronisation",
     "thisMayTakeAFewMomentsPleaseWait": "Dies kann einige Momente dauern, bitte warten.",
-    "linkedGuilds": "Verknüpfte Gilden"
+    "linkedGuilds": "Verknüpfte Gilden",
+    "hideBlankFormFields": "Formularfelder, die leer sind, werden im Webhook nicht angezeigt",
+    "showBlankFormFields": "Formularfelder, die leer sind, werden im Webhook als \"Leer\" angezeigt."
   },
   "DepartmentEditor": {
     "departmentManager": "Abteilungsleiter",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Community-Mitglieds-Discord-ID-Element",
     "conditionalQuestion": "Bedingte Frage",
     "enterValues": "Werte eingeben",
-    "conditionalQuestionStartExplaination": "Dieser Abschnitt wird sichtbar sein"
+    "conditionalQuestionStartExplaination": "Dieser Abschnitt wird sichtbar sein",
+    "conditionalRanks": "Bedingte(r) Rang/Ränge"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Dropdown-Optionsbild",
     "newLinkHere": "Neuer Link hier",
     "areYouSureYouWantToDeleteThisItem": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
-    "exampleDropdown": "Beispiel-Dropdown"
+    "exampleDropdown": "Beispiel-Dropdown",
+    "erlcGamePanel": "ERLC-Spielübersicht"
   },
   "ForumForm": {
     "selectCategory": "Kategorie auswählen",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Ermöglicht es Mitgliedern, private Kommentare zu Einsendungen dieser Formularvorlage zuzugreifen und zu senden.",
     "allowMembersToManageOtherComments": "Ermöglicht Mitgliedern, die Kommentare anderer Mitglieder zu Einreichungen dieser Formularvorlage zu verwalten.",
     "downloadRosterCSV": "CSV der vollständigen Besetzung herunterladen",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Ermöglicht es Mitgliedern, die vollständige Liste als CSV-Datei herunterzuladen."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Ermöglicht es Mitgliedern, die vollständige Liste als CSV-Datei herunterzuladen.",
+    "banPlayer": "Spieler sperren",
+    "allowsMembersToBanPlayersInTheGamePanel": "Ermöglicht Mitgliedern, Spieler im Spiel-Panel für diesen Server zu sperren.",
+    "runAdminCommand": "Admin-Befehl ausführen",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Ermöglicht es Mitgliedern, Admin-Befehle im Game Panel für diesen Server auszuführen.",
+    "runModCommand": "Mod-Befehl ausführen",
+    "allowsMembersToRunModCommandsInTheGamePan": "Ermöglicht Mitgliedern, Mod-Befehle im Game Panel für diesen Server auszuführen.",
+    "runRpCommand": "Führe RP-Befehl aus",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Ermöglicht Mitgliedern, RP-Befehle im Spielepanel für diesen Server auszuführen."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",

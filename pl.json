@@ -1722,7 +1722,8 @@
     "noServer": "Brak nazwy serwera",
     "downloadRosterCsv": "Pobierz pełną listę jako CSV",
     "errorDownloadingRosterCSV": "Błąd pobierania pliku CSV rosteru, skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzać.",
-    "errorDownloadingRosterCSVDueToBrowser": "Błąd podczas pobierania pliku CSV listy z powodu uprawnień przeglądarki."
+    "errorDownloadingRosterCSVDueToBrowser": "Błąd podczas pobierania pliku CSV listy z powodu uprawnień przeglądarki.",
+    "filter": "Filtr"
   },
   "ToolbarLinks": {
     "button": "Przycisk",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synchronizuj wydarzenia kalendarza CMS i RSVP z twoimi Discord Guild(s)",
     "calendarSync": "Synchronizacja kalendarza",
     "thisMayTakeAFewMomentsPleaseWait": "To może chwilę potrwać, proszę czekać.",
-    "linkedGuilds": "Połączone Gildie"
+    "linkedGuilds": "Połączone Gildie",
+    "hideBlankFormFields": "Pola formularzy, które są puste, nie są wyświetlane w webhooku",
+    "showBlankFormFields": "Pola formularza, które są puste, zostaną pokazane jako \"Puste\" w webhooku"
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Element Discord ID członka społeczności",
     "conditionalQuestion": "Warunkowe pytanie",
     "enterValues": "Wprowadź wartości",
-    "conditionalQuestionStartExplaination": "Ta sekcja będzie widoczna"
+    "conditionalQuestionStartExplaination": "Ta sekcja będzie widoczna",
+    "conditionalRanks": "Warunkowe Stanowisko(-a)"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Obraz opcji rozwijanej",
     "newLinkHere": "Nowy Link Tutaj",
     "areYouSureYouWantToDeleteThisItem": "Czy na pewno chcesz usunąć ten element?",
-    "exampleDropdown": "Przykładowa Lista Rozwijana"
+    "exampleDropdown": "Przykładowa Lista Rozwijana",
+    "erlcGamePanel": "ERLC Panel Gry"
   },
   "ForumForm": {
     "selectCategory": "Wybierz Kategorię",
@@ -4420,7 +4425,15 @@
     "allowMembersToPrivateComments": "Pozwala członkom uzyskiwać dostęp i przesyłać prywatne komentarze do zgłoszeń tego szablonu formularza.",
     "allowMembersToManageOtherComments": "Umożliwia członkom zarządzanie komentarzami innych członków dotyczącymi zgłoszeń w tym szablonie formularza.",
     "downloadRosterCSV": "Pobierz pełny arkusz CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Pozwala członkom pobrać pełną listę w formacie pliku CSV."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Pozwala członkom pobrać pełną listę w formacie pliku CSV.",
+    "banPlayer": "Zbanuj Gracza",
+    "allowsMembersToBanPlayersInTheGamePanel": "Pozwala członkom na banowanie graczy w Panelu Gry dla tego serwera.",
+    "runAdminCommand": "Wykonaj polecenie administracyjne",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Pozwala członkom na uruchamianie poleceń administracyjnych w Panelu Gry dla tego serwera.",
+    "runModCommand": "Uruchom polecenie moda",
+    "allowsMembersToRunModCommandsInTheGamePan": "Umożliwia członkom uruchamianie poleceń moderatora w panelu gry dla tego serwera.",
+    "runRpCommand": "Uruchom polecenie RP",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Pozwala członkom uruchamiać komendy RP w panelu gry dla tego serwera."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

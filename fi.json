@@ -1722,7 +1722,8 @@
     "noServer": "Ei palvelimen nimeä",
     "downloadRosterCsv": "Lataa täydellinen kokoonpano CSV-muodossa",
     "errorDownloadingRosterCSV": "Virhe ladattaessa kokoonpanon CSV-tiedostoa, ota yhteyttä tukeen, jos ongelma jatkuu.",
-    "errorDownloadingRosterCSVDueToBrowser": "Virhe ladatessa CSV-luetteloa selaimen oikeuksien vuoksi."
+    "errorDownloadingRosterCSVDueToBrowser": "Virhe ladatessa CSV-luetteloa selaimen oikeuksien vuoksi.",
+    "filter": "Suodatin"
   },
   "ToolbarLinks": {
     "button": "Painike",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Synkronoi CMS-kalenteritapahtumat ja RSVP:t Discord-kiltaasi",
     "calendarSync": "Kalenterin synkronointi",
     "thisMayTakeAFewMomentsPleaseWait": "Tämä saattaa kestää hetken, ole hyvä ja odota.",
-    "linkedGuilds": "Linkitetyt killat"
+    "linkedGuilds": "Linkitetyt killat",
+    "hideBlankFormFields": "Lomakekentät, jotka ovat tyhjiä, eivät näy webhookissa",
+    "showBlankFormFields": "Lomakekentät, jotka ovat tyhjiä, näytetään webhookissa sanalla \"Tyhjä\""
   },
   "DepartmentEditor": {
     "departmentManager": "Osaston johtaja",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "Yhteisön jäsenen Discord ID -elementti",
     "conditionalQuestion": "Ehdollinen kysymys",
     "enterValues": "Syötä arvot",
-    "conditionalQuestionStartExplaination": "Tämä osio on näkyvissä"
+    "conditionalQuestionStartExplaination": "Tämä osio on näkyvissä",
+    "conditionalRanks": "Ehdollinen Arvo(t)"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "Pudotusvalikon vaihtoehdon kuva",
     "newLinkHere": "Uusi linkki tähän",
     "areYouSureYouWantToDeleteThisItem": "Oletko varma, että haluat poistaa tämän kohteen?",
-    "exampleDropdown": "Esimerkkipudotusvalikko"
+    "exampleDropdown": "Esimerkkipudotusvalikko",
+    "erlcGamePanel": "ERLC-pelipaneeli"
   },
   "ForumForm": {
     "selectCategory": "Valitse kategoria",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "Mahdollistaa jäsenille pääsyn ja yksityisten kommenttien lähettämisen tämän lomakepohjan lähetyksiin.",
     "allowMembersToManageOtherComments": "Mahdollistaa jäsenten hallita muiden jäsenten kommentteja tämän lomakepohjan palautuksista.",
     "downloadRosterCSV": "Lataa koko joukkueen CSV-tiedosto",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Sallii jäsenten ladata täydellisen jäsenluettelon CSV-tiedostona."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "Sallii jäsenten ladata täydellisen jäsenluettelon CSV-tiedostona.",
+    "banPlayer": "Kiellä pelaaja",
+    "allowsMembersToBanPlayersInTheGamePanel": "Sallii jäsenien estää pelaajia pelipaneelissa tällä palvelimella.",
+    "runAdminCommand": "Suorita ylläpitäjän komento",
+    "allowsMembersToRunAdminCommandsInTheGameP": "Mahdollistaa jäsenille admin-komentojen suorittamisen tämän palvelimen pelipaneelissa.",
+    "runModCommand": "Suorita mod-komento",
+    "allowsMembersToRunModCommandsInTheGamePan": "Sallii jäsenille mod-komentojen suorittamisen pelipaneelissa tällä palvelimella.",
+    "runRpCommand": "Suorita RP-komento",
+    "allowsMembersToRunRpCommandsInTheGamePan": "Antaa jäsenille mahdollisuuden suorittaa RP-komentoja pelipaneelissa tälle palvelimelle."
   },
   "permissionToggleGroup": {
     "inherited": "peritty",

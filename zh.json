@@ -1722,7 +1722,8 @@
     "noServer": "没有服务器名称",
     "downloadRosterCsv": "下载完整名单为CSV文件",
     "errorDownloadingRosterCSV": "下载名单 CSV 时出错，如果问题仍然存在，请联系支持。",
-    "errorDownloadingRosterCSVDueToBrowser": "由于浏览器权限，下载名单 CSV 时出错。"
+    "errorDownloadingRosterCSVDueToBrowser": "由于浏览器权限，下载名单 CSV 时出错。",
+    "filter": "过滤器"
   },
   "ToolbarLinks": {
     "button": "按钮",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "将CMS日历事件和RSVP同步到您的Discord公会",
     "calendarSync": "日历同步",
     "thisMayTakeAFewMomentsPleaseWait": "这可能需要几分钟，请稍候。",
-    "linkedGuilds": "已链接的公会"
+    "linkedGuilds": "已链接的公会",
+    "hideBlankFormFields": "在 webhook 中未显示的表单字段为空",
+    "showBlankFormFields": "在 webhook 中显示为 \"空白\" 的表单字段将为空白。"
   },
   "DepartmentEditor": {
     "departmentManager": "部门经理",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "社区成员 Discord ID 元素",
     "conditionalQuestion": "条件问题",
     "enterValues": "输入值",
-    "conditionalQuestionStartExplaination": "此部分将可见"
+    "conditionalQuestionStartExplaination": "此部分将可见",
+    "conditionalRanks": "条件级别"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "下拉选项图像",
     "newLinkHere": "在此添加新链接",
     "areYouSureYouWantToDeleteThisItem": "您确定要删除此项目吗？",
-    "exampleDropdown": "示例下拉菜单"
+    "exampleDropdown": "示例下拉菜单",
+    "erlcGamePanel": "ERLC 游戏面板"
   },
   "ForumForm": {
     "selectCategory": "选择类别",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "允许成员访问并发送对此表单模板提交的私密评论。",
     "allowMembersToManageOtherComments": "允许成员管理其他成员在此表单模板提交中的评论。",
     "downloadRosterCSV": "下载完整名册 CSV",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "允许成员将完整名单下载为CSV文件。"
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "允许成员将完整名单下载为CSV文件。",
+    "banPlayer": "禁用玩家",
+    "allowsMembersToBanPlayersInTheGamePanel": "允许成员在此服务器的游戏面板中禁止玩家。",
+    "runAdminCommand": "运行管理员命令",
+    "allowsMembersToRunAdminCommandsInTheGameP": "允许成员在该服务器的游戏平台中运行管理命令。",
+    "runModCommand": "运行模组命令",
+    "allowsMembersToRunModCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行模组命令。",
+    "runRpCommand": "运行RP命令",
+    "allowsMembersToRunRpCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行 RP 命令。"
   },
   "permissionToggleGroup": {
     "inherited": "继承",

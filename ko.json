@@ -1722,7 +1722,8 @@
     "noServer": "서버 이름 없음",
     "downloadRosterCsv": "전체 명단을 CSV로 다운로드",
     "errorDownloadingRosterCSV": "로스터 CSV를 다운로드하는 중 오류가 발생했습니다. 문제가 계속되면 지원 팀에 문의하세요.",
-    "errorDownloadingRosterCSVDueToBrowser": "브라우저 권한으로 인해 명단 CSV 다운로드 오류."
+    "errorDownloadingRosterCSVDueToBrowser": "브라우저 권한으로 인해 명단 CSV 다운로드 오류.",
+    "filter": "필터"
   },
   "ToolbarLinks": {
     "button": "드롭다운",
@@ -3285,7 +3286,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "잠시만 기다려 주세요.",
     "calendarSync": "연결된 길드",
     "thisMayTakeAFewMomentsPleaseWait": "부서 관리자",
-    "linkedGuilds": "생성된 프로필 필드가 없습니다... 사용자 정의 프로필 필드 편집기에서 프로필 필드를 생성하세요."
+    "linkedGuilds": "생성된 프로필 필드가 없습니다... 사용자 정의 프로필 필드 편집기에서 프로필 필드를 생성하세요.",
+    "hideBlankFormFields": "웹훅에 표시되지 않는 빈 양식 필드",
+    "showBlankFormFields": "웹훅에서 \"공백\"으로 표시됩니다."
   },
   "DepartmentEditor": {
     "departmentManager": "생성된 비공개 페이지가 없습니다. 비공개 보기 유형으로 설정된 페이지에 대해서만 권한을 관리할 수 있습니다.",
@@ -3832,7 +3835,8 @@
     "communityMemberDiscordIdElement": "커뮤니티 멤버 Discord ID 요소",
     "conditionalQuestion": "조건부 질문",
     "enterValues": "값 입력",
-    "conditionalQuestionStartExplaination": "이 섹션이 보이게 됩니다."
+    "conditionalQuestionStartExplaination": "이 섹션이 보이게 됩니다.",
+    "conditionalRanks": "조건부 계급"
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -4006,7 +4010,8 @@
     "dropdownOptionImage": "이 항목을 삭제하시겠습니까?",
     "newLinkHere": "예제 드롭다운",
     "areYouSureYouWantToDeleteThisItem": "카테고리 선택",
-    "exampleDropdown": "편집"
+    "exampleDropdown": "편집",
+    "erlcGamePanel": "ERLC 게임 패널"
   },
   "ForumForm": {
     "selectCategory": "생성",
@@ -4342,7 +4347,15 @@
     "allowMembersToPrivateComments": "이 템플릿 양식의 제출물에 대해 회원이 비공개 댓글에 접근하고 보낼 수 있도록 허용합니다.",
     "allowMembersToManageOtherComments": "이 양식 템플릿의 제출물에 대한 다른 회원의 댓글을 관리할 수 있습니다.",
     "downloadRosterCSV": "전체 명단 CSV 다운로드",
-    "allowsMembersToDownloadTheFullRosterAsACSVFile": "회원이 전체 명단을 CSV 파일로 다운로드할 수 있도록 허용합니다."
+    "allowsMembersToDownloadTheFullRosterAsACSVFile": "회원이 전체 명단을 CSV 파일로 다운로드할 수 있도록 허용합니다.",
+    "banPlayer": "플레이어 차단",
+    "allowsMembersToBanPlayersInTheGamePanel": "이 서버의 게임 패널에서 회원들이 플레이어를 차단할 수 있도록 허용합니다.",
+    "runAdminCommand": "관리 명령 실행",
+    "allowsMembersToRunAdminCommandsInTheGameP": "이 서버에 대한 게임 패널에서 관리 명령을 실행할 수 있도록 합니다.",
+    "runModCommand": "모드 명령 실행",
+    "allowsMembersToRunModCommandsInTheGamePan": "이 서버의 게임 패널에서 멤버가 모드 명령어를 실행할 수 있습니다.",
+    "runRpCommand": "RP 명령 실행",
+    "allowsMembersToRunRpCommandsInTheGamePan": "회원이 이 서버에 대한 게임 패널에서 RP 명령을 실행할 수 있습니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된",
