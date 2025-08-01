@@ -582,6 +582,8 @@
     "gangs": "Gangs",
     "jobSync": "Job Sync",
     "activity": "Activity",
+    "runCommand": "Run Command",
+    "moderation": "Moderation",
     "automation": "Automation",
     "permissions": "Permissions",
     "actions": "Actions",
