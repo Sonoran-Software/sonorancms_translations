@@ -423,7 +423,8 @@
     "editRosterDetails": "Rediger Roster Detaljer",
     "orderShownWithinRoster": "Rekkefølge Vist i Roster",
     "rosterSlug": "URL-slug for vaktliste",
-    "copyRosterUrl": "Kopier oppstillings-URL"
+    "copyRosterUrl": "Kopier oppstillings-URL",
+    "memberDisciplinaryPoints": "Disiplinærpoeng for medlem"
   },
   "Index": {
     "creatingRostersTutorial": "Opprette Rostere Veiledning",
@@ -653,7 +654,9 @@
     "permissions": "Tillatelser",
     "actions": "Handlinger",
     "settings": "Innstillinger",
-    "erlcApiKey": "ERLC API-nøkkel"
+    "erlcApiKey": "ERLC API-nøkkel",
+    "runCommand": "Kjør kommando",
+    "moderation": "Moderering"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Innsenders Discord-ping",
     "submitterDiscordPingDescription": "Setter inn en Discord-ping for innsenderen.",
     "conditionalQuestionEnable": "Aktiver for å begrense denne handlingen til et bestemt svar på spørsmålet",
-    "conditionalQuestionStartExplaination": "Denne handlingen vil bli utført"
+    "conditionalQuestionStartExplaination": "Denne handlingen vil bli utført",
+    "fieldResponseLabel": "Spørsmålssvar",
+    "fieldResponseDescription": "Setter inn innsendelsesteksten fra et spørsmål. Noen spørsmålstyper kan kanskje ikke kopieres."
   },
   "FormSectionEditor": {
     "required": "Påkrevd",

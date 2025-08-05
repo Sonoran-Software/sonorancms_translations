@@ -423,7 +423,8 @@
     "editRosterDetails": "Redigera Roster Detaljer",
     "orderShownWithinRoster": "Ordning Visad inom Roster",
     "rosterSlug": "Roster URL-slug",
-    "copyRosterUrl": "Kopiera Roster-URL"
+    "copyRosterUrl": "Kopiera Roster-URL",
+    "memberDisciplinaryPoints": "Medlemsdisciplinära poäng"
   },
   "Index": {
     "creatingRostersTutorial": "Skapa Roster Tutorial",
@@ -653,7 +654,9 @@
     "permissions": "Behörigheter",
     "actions": "Åtgärder",
     "settings": "Inställningar",
-    "erlcApiKey": "ERLC API-nyckel"
+    "erlcApiKey": "ERLC API-nyckel",
+    "runCommand": "Kör kommando",
+    "moderation": "Moderering"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Inskickares Discord-ping",
     "submitterDiscordPingDescription": "Infogar en Discord-ping för inlämnaren.",
     "conditionalQuestionEnable": "Aktivera för att begränsa denna åtgärd till ett specifikt frågesvar",
-    "conditionalQuestionStartExplaination": "Denna åtgärd kommer att utföras"
+    "conditionalQuestionStartExplaination": "Denna åtgärd kommer att utföras",
+    "fieldResponseLabel": "Svarsfråga",
+    "fieldResponseDescription": "Infogar inlämningstexten från en fråga. Vissa frågetyper kanske inte kan kopieras."
   },
   "FormSectionEditor": {
     "required": "Obligatorisk",

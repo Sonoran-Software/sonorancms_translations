@@ -423,7 +423,8 @@
     "editRosterDetails": "Редактировать детали списка",
     "orderShownWithinRoster": "Порядок отображения в списке",
     "rosterSlug": "URL-идентификатор списка",
-    "copyRosterUrl": "Скопировать URL-адрес списка"
+    "copyRosterUrl": "Скопировать URL-адрес списка",
+    "memberDisciplinaryPoints": "Очки дисциплинарного воздействия участника"
   },
   "Index": {
     "creatingRostersTutorial": "Учебник по созданию списков",
@@ -653,7 +654,9 @@
     "permissions": "Разрешения",
     "actions": "Действия",
     "settings": "Настройки",
-    "erlcApiKey": "Ключ API ERLC"
+    "erlcApiKey": "Ключ API ERLC",
+    "runCommand": "Запустить команду",
+    "moderation": "Модерация"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Отправитель Discord Ping",
     "submitterDiscordPingDescription": "Вставляет упоминание Discord для отправителя.",
     "conditionalQuestionEnable": "Включить, чтобы ограничить это действие конкретным ответом на вопрос",
-    "conditionalQuestionStartExplaination": "Это действие будет выполнено"
+    "conditionalQuestionStartExplaination": "Это действие будет выполнено",
+    "fieldResponseLabel": "Ответ на вопрос",
+    "fieldResponseDescription": "Вставляет текст ответа из вопроса. Некоторые типы вопросов могут не подлежать копированию."
   },
   "FormSectionEditor": {
     "required": "Заголовок раздела",

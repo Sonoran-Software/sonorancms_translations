@@ -423,7 +423,8 @@
     "editRosterDetails": "명단 세부 정보 편집",
     "orderShownWithinRoster": "명단 내 표시 순서",
     "rosterSlug": "로스터 URL 슬러그",
-    "copyRosterUrl": "명단 URL 복사"
+    "copyRosterUrl": "명단 URL 복사",
+    "memberDisciplinaryPoints": "회원 징계 점수"
   },
   "Index": {
     "creatingRostersTutorial": "명단 생성 튜토리얼",
@@ -653,7 +654,9 @@
     "permissions": "권한",
     "actions": "작업",
     "settings": "설정",
-    "erlcApiKey": "ERLC API 키"
+    "erlcApiKey": "ERLC API 키",
+    "runCommand": "명령 실행",
+    "moderation": "모더레이션"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "제출자 디스코드 핑",
     "submitterDiscordPingDescription": "제출자를 위한 디스코드 핑을 삽입합니다.",
     "conditionalQuestionEnable": "이 작업을 특정 질문 응답으로 제한하도록 활성화하려면",
-    "conditionalQuestionStartExplaination": "이 작업이 실행됩니다"
+    "conditionalQuestionStartExplaination": "이 작업이 실행됩니다",
+    "fieldResponseLabel": "질문 응답",
+    "fieldResponseDescription": "질문에서 제출 텍스트를 삽입합니다. 일부 질문 유형은 복사할 수 없을 수도 있습니다."
   },
   "FormSectionEditor": {
     "required": "조건부",

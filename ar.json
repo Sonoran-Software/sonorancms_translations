@@ -423,7 +423,8 @@
     "editRosterDetails": "تحرير تفاصيل القائمة",
     "orderShownWithinRoster": "الترتيب المعروض داخل القائمة",
     "rosterSlug": "عنوان URL للفرقة",
-    "copyRosterUrl": "انسخ رابط القائمة"
+    "copyRosterUrl": "انسخ رابط القائمة",
+    "memberDisciplinaryPoints": "نقاط الانضباط للعضو"
   },
   "Index": {
     "creatingRostersTutorial": "دليل إنشاء القوائم",
@@ -653,7 +654,9 @@
     "permissions": "الأذونات",
     "actions": "الإجراءات",
     "settings": "إعدادات",
-    "erlcApiKey": "مفتاح API لـ ERLC"
+    "erlcApiKey": "مفتاح API لـ ERLC",
+    "runCommand": "تشغيل الأمر",
+    "moderation": "الإشراف"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "منشن ديسكورد المرسل",
     "submitterDiscordPingDescription": "يُدرج تذكير Discord للمقدم.",
     "conditionalQuestionEnable": "قم بتمكين لتقييد هذا الإجراء على استجابة سؤال محددة",
-    "conditionalQuestionStartExplaination": "هذا الإجراء سينفذ"
+    "conditionalQuestionStartExplaination": "هذا الإجراء سينفذ",
+    "fieldResponseLabel": "استجابة السؤال",
+    "fieldResponseDescription": "يدرج نص التقديم من سؤال. قد لا يمكن نسخ بعض أنواع الأسئلة."
   },
   "FormSectionEditor": {
     "required": "مطلوب",

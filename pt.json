@@ -423,7 +423,8 @@
     "editRosterDetails": "Editar Detalhes do Roster",
     "orderShownWithinRoster": "Ordem Mostrada no Roster",
     "rosterSlug": "Slug do URL da Lista",
-    "copyRosterUrl": "Copiar URL da Lista"
+    "copyRosterUrl": "Copiar URL da Lista",
+    "memberDisciplinaryPoints": "Pontos Disciplinares de Membro"
   },
   "Index": {
     "creatingRostersTutorial": "Tutorial de Criação de Rosters",
@@ -653,7 +654,9 @@
     "permissions": "Permissões",
     "actions": "Ações",
     "settings": "Configurações",
-    "erlcApiKey": "Chave da API ERLC"
+    "erlcApiKey": "Chave da API ERLC",
+    "runCommand": "Executar Comando",
+    "moderation": "Moderação"
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Ping do Discord do Remetente",
     "submitterDiscordPingDescription": "Insere uma menção no Discord para o remetente.",
     "conditionalQuestionEnable": "Habilitar para restringir esta ação a uma resposta específica da pergunta",
-    "conditionalQuestionStartExplaination": "Esta ação será executada"
+    "conditionalQuestionStartExplaination": "Esta ação será executada",
+    "fieldResponseLabel": "Resposta à Pergunta",
+    "fieldResponseDescription": "Insere o texto da submissão de uma pergunta. Alguns tipos de perguntas podem não ser copiados."
   },
   "FormSectionEditor": {
     "required": "Obrigatório",

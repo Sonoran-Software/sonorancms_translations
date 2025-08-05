@@ -423,7 +423,8 @@
     "editRosterDetails": "Roster Details Bewerken",
     "orderShownWithinRoster": "Volgorde Weergegeven binnen Roster",
     "rosterSlug": "Roster URL-slug",
-    "copyRosterUrl": "Roster-URL kopiëren"
+    "copyRosterUrl": "Roster-URL kopiëren",
+    "memberDisciplinaryPoints": "Leden Disciplinaire Punten"
   },
   "Index": {
     "creatingRostersTutorial": "Rosters Maken Tutorial",
@@ -653,7 +654,9 @@
     "permissions": "Machtigingen",
     "actions": "Acties",
     "settings": "Instellingen",
-    "erlcApiKey": "ERLC API-sleutel"
+    "erlcApiKey": "ERLC API-sleutel",
+    "runCommand": "Voer commando uit",
+    "moderation": "Moderatie"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Indiener Discord Ping",
     "submitterDiscordPingDescription": "Voegt een Discord-ping toe voor de indiener.",
     "conditionalQuestionEnable": "Schakel in om deze actie te beperken tot een specifieke vraagrespons",
-    "conditionalQuestionStartExplaination": "Deze actie zal worden uitgevoerd"
+    "conditionalQuestionStartExplaination": "Deze actie zal worden uitgevoerd",
+    "fieldResponseLabel": "Antwoord op de vraag",
+    "fieldResponseDescription": "Voegt de inzendingstekst van een vraag in. Sommige vraagtypen kunnen mogelijk niet worden gekopieerd."
   },
   "FormSectionEditor": {
     "required": "Vereist",

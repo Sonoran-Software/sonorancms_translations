@@ -423,7 +423,8 @@
     "editRosterDetails": "Rediger Roster Detaljer",
     "orderShownWithinRoster": "Rækkefølge Vist i Roster",
     "rosterSlug": "Roster URL Slug",
-    "copyRosterUrl": "Kopier liste-URL"
+    "copyRosterUrl": "Kopier liste-URL",
+    "memberDisciplinaryPoints": "Medlemsdisciplinære point"
   },
   "Index": {
     "creatingRostersTutorial": "Oprettelse af Roster Vejledning",
@@ -653,7 +654,9 @@
     "permissions": "Tilladelser",
     "actions": "Handlinger",
     "settings": "Indstillinger",
-    "erlcApiKey": "ERLC API-nøgle"
+    "erlcApiKey": "ERLC API-nøgle",
+    "runCommand": "Kør kommando",
+    "moderation": "Moderation"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Indsender Discord Ping",
     "submitterDiscordPingDescription": "Indsætter en Discord-ping for indsenderen.",
     "conditionalQuestionEnable": "Aktiver for at begrænse denne handling til et specifikt spørgsmålssvar",
-    "conditionalQuestionStartExplaination": "Denne handling vil blive udført"
+    "conditionalQuestionStartExplaination": "Denne handling vil blive udført",
+    "fieldResponseLabel": "Spørgsmålsrespons",
+    "fieldResponseDescription": "Indsætter besvarelsesteksten fra et spørgsmål. Nogle spørgsmålstyper kan muligvis ikke kopieres."
   },
   "FormSectionEditor": {
     "required": "Påkrævet",

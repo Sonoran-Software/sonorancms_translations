@@ -423,7 +423,8 @@
     "editRosterDetails": "Kadro Detaylarını Düzenle",
     "orderShownWithinRoster": "Kadro İçinde Gösterilen Sıra",
     "rosterSlug": "Liste URL Sümüklü Adı",
-    "copyRosterUrl": "Liste URL'sini kopyala"
+    "copyRosterUrl": "Liste URL'sini kopyala",
+    "memberDisciplinaryPoints": "Üye Disiplin Puanları"
   },
   "Index": {
     "creatingRostersTutorial": "Kadro Oluşturma Eğitimi",
@@ -653,7 +654,9 @@
     "permissions": "İzinler",
     "actions": "Eylemler",
     "settings": "Ayarlar",
-    "erlcApiKey": "ERLC API Anahtarı"
+    "erlcApiKey": "ERLC API Anahtarı",
+    "runCommand": "Komutu Çalıştır",
+    "moderation": "Moderatörlük"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Gönderen Discord Ping'i",
     "submitterDiscordPingDescription": "Gönderici için bir Discord bildirimi ekler.",
     "conditionalQuestionEnable": "Bu eylemi belirli bir soru yanıtıyla sınırlamak için etkinleştirin",
-    "conditionalQuestionStartExplaination": "Bu eylem yürütülecek"
+    "conditionalQuestionStartExplaination": "Bu eylem yürütülecek",
+    "fieldResponseLabel": "Soru Yanıtı",
+    "fieldResponseDescription": "Bir sorudan gönderi metnini ekler. Bazı soru türleri kopyalanamayabilir."
   },
   "FormSectionEditor": {
     "required": "Gerekli",

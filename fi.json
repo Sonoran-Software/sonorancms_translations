@@ -423,7 +423,8 @@
     "editRosterDetails": "Muokkaa kokoonpanon tietoja",
     "orderShownWithinRoster": "Järjestys kokoonpanossa",
     "rosterSlug": "Roster URL -koodi",
-    "copyRosterUrl": "Kopioi kokoonpanon URL"
+    "copyRosterUrl": "Kopioi kokoonpanon URL",
+    "memberDisciplinaryPoints": "Jäsenen kurinpidolliset pisteet"
   },
   "Index": {
     "creatingRostersTutorial": "Kokoonpanojen luomisen opas",
@@ -653,7 +654,9 @@
     "permissions": "Oikeudet",
     "actions": "Toimintaa",
     "settings": "Asetukset",
-    "erlcApiKey": "ERLC API-avain"
+    "erlcApiKey": "ERLC API-avain",
+    "runCommand": "Suorita komento",
+    "moderation": "Moderointi"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Lähettäjän Discord Ping",
     "submitterDiscordPingDescription": "Lisää Discord-pingin lähettäjälle.",
     "conditionalQuestionEnable": "Ota käyttöön rajoittaaksesi tämän toiminnon tiettyyn kysymykseen vastaamiseen",
-    "conditionalQuestionStartExplaination": "Tämä toiminto suoritetaan"
+    "conditionalQuestionStartExplaination": "Tämä toiminto suoritetaan",
+    "fieldResponseLabel": "Kysymysvastaus",
+    "fieldResponseDescription": "Lisää kysymyksen vastaustekstin. Jotkin kysymystyypit eivät ehkä ole kopioitavissa."
   },
   "FormSectionEditor": {
     "required": "Vaadittu",

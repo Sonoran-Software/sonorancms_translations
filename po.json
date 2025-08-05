@@ -423,7 +423,8 @@
     "editRosterDetails": "Edytuj szczegóły składu",
     "orderShownWithinRoster": "Kolejność wyświetlania w składzie",
     "rosterSlug": "Enlace URL de la lista",
-    "copyRosterUrl": "Kopieer rooster-URL"
+    "copyRosterUrl": "Kopieer rooster-URL",
+    "memberDisciplinaryPoints": "Punkty Dyscyplinarne Członka"
   },
   "Index": {
     "creatingRostersTutorial": "Samouczek tworzenia składów",
@@ -653,7 +654,9 @@
     "permissions": "Permisos",
     "actions": "Aksiyonlar",
     "settings": "Nastavitve",
-    "erlcApiKey": "Clave API de ERLC"
+    "erlcApiKey": "Clave API de ERLC",
+    "runCommand": "Uruchom polecenie",
+    "moderation": "Moderación"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Öneriyi Yapanın Discord Etiketi",
     "submitterDiscordPingDescription": "Inserta un ping de Discord para el remitente.",
     "conditionalQuestionEnable": "Omogućite da ograničite ovu radnju na konkretan odgovor na pitanje",
-    "conditionalQuestionStartExplaination": "Esta acción se ejecutará"
+    "conditionalQuestionStartExplaination": "Esta acción se ejecutará",
+    "fieldResponseLabel": "תגובה לשאלה",
+    "fieldResponseDescription": "Wstawia tekst z pytania. Niektóre typy pytań mogą nie być możliwe do skopiowania."
   },
   "FormSectionEditor": {
     "required": "Wymagane",

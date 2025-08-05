@@ -423,7 +423,8 @@
     "editRosterDetails": "编辑名单详情",
     "orderShownWithinRoster": "名单内显示顺序",
     "rosterSlug": "花名册网址别名",
-    "copyRosterUrl": "复制名单网址"
+    "copyRosterUrl": "复制名单网址",
+    "memberDisciplinaryPoints": "成员纪律点数"
   },
   "Index": {
     "creatingRostersTutorial": "创建名单教程",
@@ -653,7 +654,9 @@
     "permissions": "权限",
     "actions": "操作",
     "settings": "设置",
-    "erlcApiKey": "ERLC API 密钥"
+    "erlcApiKey": "ERLC API 密钥",
+    "runCommand": "运行命令",
+    "moderation": "管理"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "提交者 Discord 提及",
     "submitterDiscordPingDescription": "为提交者插入一个Discord提醒。",
     "conditionalQuestionEnable": "启用以将此操作限制为特定的问题响应",
-    "conditionalQuestionStartExplaination": "此操作将执行"
+    "conditionalQuestionStartExplaination": "此操作将执行",
+    "fieldResponseLabel": "问题响应",
+    "fieldResponseDescription": "从问题中插入提交文本。某些问题类型可能无法复制。"
   },
   "FormSectionEditor": {
     "required": "必需的",

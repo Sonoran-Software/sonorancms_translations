@@ -423,7 +423,8 @@
     "editRosterDetails": "Upravit podrobnosti seznamu",
     "orderShownWithinRoster": "Pořadí zobrazené v seznamu",
     "rosterSlug": "Adresa URL seznamu",
-    "copyRosterUrl": "Zkopírovat adresu URL seznamu"
+    "copyRosterUrl": "Zkopírovat adresu URL seznamu",
+    "memberDisciplinaryPoints": "Členské disciplinární body"
   },
   "Index": {
     "creatingRostersTutorial": "Výukový program pro vytváření seznamů",
@@ -653,7 +654,9 @@
     "permissions": "Oprávnění",
     "actions": "Akce",
     "settings": "Nastavení",
-    "erlcApiKey": "ERLC API klíč"
+    "erlcApiKey": "ERLC API klíč",
+    "runCommand": "Spustit příkaz",
+    "moderation": "Moderování"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Odesílatel Discord Ping",
     "submitterDiscordPingDescription": "Vloží ping na Discord pro odesílatele.",
     "conditionalQuestionEnable": "Povolte omezení této akce na konkrétní odpověď na otázku",
-    "conditionalQuestionStartExplaination": "Tato akce se provede"
+    "conditionalQuestionStartExplaination": "Tato akce se provede",
+    "fieldResponseLabel": "Odpověď na otázku",
+    "fieldResponseDescription": "Vloží text odpovědi z otázky. Některé typy otázek nemusí být možné zkopírovat."
   },
   "FormSectionEditor": {
     "required": "Povinné",

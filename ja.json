@@ -423,7 +423,8 @@
     "editRosterDetails": "ロスター詳細を編集",
     "orderShownWithinRoster": "ロスター内の表示順序",
     "rosterSlug": "名簿URLスラッグ",
-    "copyRosterUrl": "名簿のURLをコピー"
+    "copyRosterUrl": "名簿のURLをコピー",
+    "memberDisciplinaryPoints": "メンバー懲戒ポイント"
   },
   "Index": {
     "creatingRostersTutorial": "ロスター作成チュートリアル",
@@ -653,7 +654,9 @@
     "permissions": "権限",
     "actions": "アクション",
     "settings": "設定",
-    "erlcApiKey": "ERLC APIキー"
+    "erlcApiKey": "ERLC APIキー",
+    "runCommand": "コマンドを実行",
+    "moderation": "モデレーション"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "送信者のDiscordピン",
     "submitterDiscordPingDescription": "送信者のためにDiscordの通知を挿入します。",
     "conditionalQuestionEnable": "特定の質問の回答にこのアクションを制限するために有効にする",
-    "conditionalQuestionStartExplaination": "このアクションは実行されます"
+    "conditionalQuestionStartExplaination": "このアクションは実行されます",
+    "fieldResponseLabel": "質問応答",
+    "fieldResponseDescription": "質問から送信テキストを挿入します。一部の質問タイプはコピーできない場合があります。"
   },
   "FormSectionEditor": {
     "required": "セクションヘッダー",

@@ -423,7 +423,8 @@
     "editRosterDetails": "Edytuj szczegóły składu",
     "orderShownWithinRoster": "Kolejność wyświetlania w składzie",
     "rosterSlug": "Ślimak adresu URL listy",
-    "copyRosterUrl": "Skopiuj adres URL rosteru"
+    "copyRosterUrl": "Skopiuj adres URL rosteru",
+    "memberDisciplinaryPoints": "Punkty Dyscyplinarne Członka"
   },
   "Index": {
     "creatingRostersTutorial": "Samouczek tworzenia składów",
@@ -653,7 +654,9 @@
     "permissions": "Uprawnienia",
     "actions": "Akcje",
     "settings": "Ustawienia",
-    "erlcApiKey": "Klucz API ERLC"
+    "erlcApiKey": "Klucz API ERLC",
+    "runCommand": "Uruchom polecenie",
+    "moderation": "Moderacja"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -3720,7 +3723,9 @@
     "submitterDiscordPingLabel": "Discord przesyłającego ping",
     "submitterDiscordPingDescription": "Wstawia ping Discord dla osoby składającej wniosek.",
     "conditionalQuestionEnable": "Włącz, aby ograniczyć to działanie do konkretnej odpowiedzi na pytanie",
-    "conditionalQuestionStartExplaination": "To działanie zostanie wykonane"
+    "conditionalQuestionStartExplaination": "To działanie zostanie wykonane",
+    "fieldResponseLabel": "Odpowiedź na pytanie",
+    "fieldResponseDescription": "Wstawia tekst zgłoszenia z pytania. Niektóre typy pytań mogą być niemożliwe do skopiowania."
   },
   "FormSectionEditor": {
     "required": "Wymagane",
