@@ -405,6 +405,7 @@
     "memberId": "Member ID",
     "memberName": "Member Name",
     "memberRank": "Member Rank",
+    "memberDisciplinaryPoints": "Member Disciplinary Points",
     "timeLogHours": "Time Log Hours",
     "lastActive": "Last Active",
     "cannotFindRosterWithId": "cannot find roster with id:",
@@ -3685,6 +3686,8 @@
     "submitterUsernameDescription": "Inserts the account username of the submitter.",
     "submitterDiscordPingLabel": "Submitter Discord Ping",
     "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter.",
+    "fieldResponseLabel": "Question Response",
+    "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
     "conditionalQuestionStartExplaination": "This action will execute"
   },
