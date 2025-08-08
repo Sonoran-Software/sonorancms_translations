@@ -3712,7 +3712,10 @@
     "erlcNoti": "ERLC Notification",
     "erlcHint": "ERLC Hint",
     "erlcNotiContent": "ERLC Notification Content",
-    "erlcHintContent": "ERLC Hint Content"
+    "erlcHintContent": "ERLC Hint Content",
+    "webhookChannel": "Webhook Channel",
+    "webhookEmbedContent": "Embed Content",
+    "webhookContentHint": "Message sent with the Discord Embed"
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
