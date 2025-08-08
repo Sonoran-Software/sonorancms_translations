@@ -2468,7 +2468,8 @@
     "advancedcustomdomainlabel": "Custom Domain",
     "advancedcustomdomainpagelabel": "Custom Domain Settings",
     "communityDiscoveryDisabled": "Community Discovery Disabled",
-    "disciplinary": "Disciplinary"
+    "disciplinary": "Disciplinary",
+    "actions": "Actions"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "All selected ranks will be able to access this server",
@@ -3702,6 +3703,16 @@
     "Selected": "selected",
     "SelectAtLeastOneValue": "Select at least one value.",
     "enterAValueAndPressEnter": "Enter a value and press enter."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "This action will automatically send a ERLC notification to the desired ERLC server every X minutes.",
+    "erlcHintContentDescription": "This action will automatically send a ERLC hint to the desired ERLC server every X minutes.",
+    "discordWebhookContentDescription": "This action will automatically execute a Discord webhook every X minutes.",
+    "discordWebhook": "Discord Webhook",
+    "erlcNoti": "ERLC Notification",
+    "erlcHint": "ERLC Hint",
+    "erlcNotiContent": "ERLC Notification Content",
+    "erlcHintContent": "ERLC Hint Content"
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
