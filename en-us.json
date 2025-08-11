@@ -643,7 +643,9 @@
     "altDetection": "Alt Detection",
     "ignoreAlternateAccountDetectionFlags": "Ignore alternate account detection flags for users not yet in the community. Display the flag only when the suspected alternate account joins the community.",
     "fivemHosting": "FiveM Hosting",
-    "settings": "Settings"
+    "settings": "Settings",
+    "anErrorOccuredWhileVerifyingUsernameTr": "An error occured while verifying username: ",
+    "usernamePassedVerificationTr": "Username passed verification!"
   },
   "Dashboard": {
     "resync": "Resync",
