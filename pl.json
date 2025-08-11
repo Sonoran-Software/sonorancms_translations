@@ -656,7 +656,9 @@
     "settings": "Ustawienia",
     "erlcApiKey": "Klucz API ERLC",
     "runCommand": "Uruchom polecenie",
-    "moderation": "Moderacja"
+    "moderation": "Moderacja",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Wystąpił błąd podczas weryfikacji nazwy użytkownika:",
+    "usernamePassedVerificationTr": "Nazwa użytkownika przeszła weryfikację!"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Domena niestandardowa",
     "advancedcustomdomainpagelabel": "Ustawienia domeny niestandardowej",
     "communityDiscoveryDisabled": "Odkrywanie Społeczności Wyłączone",
-    "disciplinary": "Dyscyplinarny"
+    "disciplinary": "Dyscyplinarny",
+    "actions": "Działania"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Wszystkie wybrane rangi będą miały dostęp do tego serwera",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "alternatywny opis niedostępny",
     "ClickToToggleOption": "Kliknij, aby przełączyć opcję",
     "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Zaktualizuj konfigurację webhooków dla Emergency Response: Liberty County.",
+    "erlcHintContentDescription": "Opis zawartości wskazówki ERLC",
+    "discordWebhookContentDescription": "Zawartość Opisu Webhook Discord",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "Wskazówka ERLC",
+    "erlcNotiContent": "Zostałeś przypisany do ERLC!",
+    "erlcHintContent": "Zainstaluj wtyczkę Monitoring Studio, aby włączyć monitorowanie w ER:LC.",
+    "webhookChannel": "kanał webhook",
+    "webhookEmbedContent": "TreśćOsadzeniaWebhooka",
+    "webhookContentHint": "Zawartość Webhooku"
   }
 }

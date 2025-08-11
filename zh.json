@@ -656,7 +656,9 @@
     "settings": "设置",
     "erlcApiKey": "ERLC API 密钥",
     "runCommand": "运行命令",
-    "moderation": "管理"
+    "moderation": "管理",
+    "anErrorOccuredWhileVerifyingUsernameTr": "用户名验证时发生错误：",
+    "usernamePassedVerificationTr": "用户名已通过验证！"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "自定义域",
     "advancedcustomdomainpagelabel": "自定义域设置",
     "communityDiscoveryDisabled": "社区发现已禁用",
-    "disciplinary": "纪律处分"
+    "disciplinary": "纪律处分",
+    "actions": "操作"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "所有选定的等级将能够访问此服务器",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "没有可用的替代说明",
     "ClickToToggleOption": "单击以切换选项",
     "errorAnErrorOccuredWhileFetchingServerDa": "获取服务器数据时发生错误"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "您有一條新的緊急通知",
+    "erlcHintContentDescription": "用于支持 ER:LC 模式的插件，将帮助您将所有这些信息推送到游戏中。",
+    "discordWebhookContentDescription": "Discord Webhook 内容描述",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlc通知",
+    "erlcHint": "erlc提示",
+    "erlcNotiContent": "erlc通知内容",
+    "erlcHintContent": "erlc提示内容",
+    "webhookChannel": "Webhook频道",
+    "webhookEmbedContent": "webhook嵌入内容",
+    "webhookContentHint": "Webhook 内容提示"
   }
 }

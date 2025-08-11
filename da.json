@@ -656,7 +656,9 @@
     "settings": "Indstillinger",
     "erlcApiKey": "ERLC API-nøgle",
     "runCommand": "Kør kommando",
-    "moderation": "Moderation"
+    "moderation": "Moderation",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Der opstod en fejl under verificeringen af brugernavn:",
+    "usernamePassedVerificationTr": "Brugernavn bestod verifikation!"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Brugerdefineret domæne",
     "advancedcustomdomainpagelabel": "Indstillinger for brugerdefineret domæne",
     "communityDiscoveryDisabled": "Fællesskabsopdagelse Deaktiveret",
-    "disciplinary": "Disciplinær"
+    "disciplinary": "Disciplinær",
+    "actions": "Handlinger"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle valgte rækker vil kunne få adgang til denne server",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "ingenAlternativBeskrivelseTilgængelig",
     "ClickToToggleOption": "Klik for at skifte indstilling",
     "errorAnErrorOccuredWhileFetchingServerDa": "Der opstod en fejl under hentning af serverdata"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "erlcNotiIndholdsBeskrivelse",
+    "erlcHintContentDescription": "Beskrivelsen af indholdet til ERLC-hint.",
+    "discordWebhookContentDescription": "Discord webhook indhold beskrivelse",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcHint",
+    "erlcNotiContent": "erlcNotiIndhold",
+    "erlcHintContent": "Ems serveren ved hjælp af Sonoran CMS til at begynde at se dine ansvarsområder på direkte.",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webhookIndlejringIndhold",
+    "webhookContentHint": "webhookindholdstip"
   }
 }

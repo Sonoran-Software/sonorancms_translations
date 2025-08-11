@@ -656,7 +656,9 @@
     "settings": "Inställningar",
     "erlcApiKey": "ERLC API-nyckel",
     "runCommand": "Kör kommando",
-    "moderation": "Moderering"
+    "moderation": "Moderering",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Ett fel inträffade vid verifiering av användarnamn:",
+    "usernamePassedVerificationTr": "Användarnamnet godkändes vid verifiering!"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Anpassad domän",
     "advancedcustomdomainpagelabel": "Inställningar för anpassad domän",
     "communityDiscoveryDisabled": "Samhällsupptäckt inaktiverad",
-    "disciplinary": "Disciplinära"
+    "disciplinary": "Disciplinära",
+    "actions": "Åtgärder"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alla valda rangordningar kommer att kunna få tillgång till denna server",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "ingenAlternativBeskrivningTillgänglig",
     "ClickToToggleOption": "```Klicka för att växla alternativ```",
     "errorAnErrorOccuredWhileFetchingServerDa": "Ett fel inträffade vid hämtning av serverdata"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Författaren har använt \"Skicka ER:LC-innehåll\"",
+    "erlcHintContentDescription": "ER:LC-sonensensade innehållsbeskrivning",
+    "discordWebhookContentDescription": "discordWebhookInnehållBeskrivning",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcTips",
+    "erlcNotiContent": "erlcNotiInnehåll",
+    "erlcHintContent": "erlcHintContent",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webhookInbäddatInnehåll",
+    "webhookContentHint": "webhookInnehållTips"
   }
 }

@@ -656,7 +656,9 @@
     "settings": "Nastavitve",
     "erlcApiKey": "Clave API de ERLC",
     "runCommand": "Uruchom polecenie",
-    "moderation": "Moderación"
+    "moderation": "Moderación",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Wystąpił błąd podczas weryfikacji nazwy użytkownika:",
+    "usernamePassedVerificationTr": "Nome de usuário passou na verificação!"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Domena niestandardowa",
     "advancedcustomdomainpagelabel": "Ustawienia domeny niestandardowej",
     "communityDiscoveryDisabled": "Odkrywanie Społeczności Wyłączone",
-    "disciplinary": "Dyscyplinarny"
+    "disciplinary": "Dyscyplinarny",
+    "actions": "Ações"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Wszystkie wybrane rangi będą miały dostęp do tego serwera",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "aceit an eus ar gael",
     "ClickToToggleOption": "Haz clic para cambiar la opción",
     "errorAnErrorOccuredWhileFetchingServerDa": "Ocurrió un error al obtener los datos del servidor"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "BLIP notifikasi ERLC tampilan dan isi dapat disesuaikan di pengaturan.",
+    "erlcHintContentDescription": "Pista del contenido del menú del juego ",
+    "discordWebhookContentDescription": "Opis zawartości webhooka Discord",
+    "discordWebhook": "شبکەی وێبەکەی discord",
+    "erlcNoti": "Powiadomienia ER:LC",
+    "erlcHint": "sugestãoERLC",
+    "erlcNotiContent": "Zawiadomiłem graczy na serwerze ER:LC za Ciebie!",
+    "erlcHintContent": "Treść podpowiedzi ERLC",
+    "webhookChannel": "kanałWebhook",
+    "webhookEmbedContent": "Zawartość osadzenia webhooka",
+    "webhookContentHint": "Suggerimento contenuto webhook"
   }
 }

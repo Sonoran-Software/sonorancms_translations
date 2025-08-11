@@ -656,7 +656,9 @@
     "settings": "Instellingen",
     "erlcApiKey": "ERLC API-sleutel",
     "runCommand": "Voer commando uit",
-    "moderation": "Moderatie"
+    "moderation": "Moderatie",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Er is een fout opgetreden bij het verifiëren van de gebruikersnaam: ",
+    "usernamePassedVerificationTr": "Gebruikersnaam is geslaagd voor verificatie!"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Aangepast domein",
     "advancedcustomdomainpagelabel": "Instellingen voor aangepast domein",
     "communityDiscoveryDisabled": "Community-ontdekking uitgeschakeld",
-    "disciplinary": "Disciplinaire"
+    "disciplinary": "Disciplinaire",
+    "actions": "Acties"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle geselecteerde rangen hebben toegang tot deze server",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "geenAlternatieveBeschrijvingBeschikbaar",
     "ClickToToggleOption": "KlikOmOptieTeWisselen",
     "errorAnErrorOccuredWhileFetchingServerDa": "Er is een fout opgetreden bij het ophalen van servergegevens."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "ERLC serveraankondigingen instellen en ontvangen in dit menu.",
+    "erlcHintContentDescription": "Beschrijving van de inhoud提示",
+    "discordWebhookContentDescription": "Discord webhookinhoud beschrijving",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcHint",
+    "erlcNotiContent": "erlcNotiInhoud",
+    "erlcHintContent": "Er zijn momenteel geen servers geregistreerd met deze ervaring in ons systeem. ",
+    "webhookChannel": "webhookKanaal",
+    "webhookEmbedContent": "webhookEmbedInhoud",
+    "webhookContentHint": "webhookinhoudhint"
   }
 }

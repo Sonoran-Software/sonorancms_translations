@@ -656,7 +656,9 @@
     "settings": "Nastavení",
     "erlcApiKey": "ERLC API klíč",
     "runCommand": "Spustit příkaz",
-    "moderation": "Moderování"
+    "moderation": "Moderování",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Při ověřování uživatelského jména došlo k chybě:",
+    "usernamePassedVerificationTr": "Uživatelské jméno prošlo ověřením!"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Vlastní doména",
     "advancedcustomdomainpagelabel": "Nastavení vlastní domény",
     "communityDiscoveryDisabled": "Objevování komunit zakázáno",
-    "disciplinary": "Kárné"
+    "disciplinary": "Kárné",
+    "actions": "Akce"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Všechny vybrané hodnosti budou mít přístup k tomuto serveru",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "není k dispozici žádný alternativní popis",
     "ClickToToggleOption": "Kliknutím přepnete možnost",
     "errorAnErrorOccuredWhileFetchingServerDa": "Došlo k chybě při získávání dat serveru."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Popis oznámení ERLC",
+    "erlcHintContentDescription": "Výchozí text, který se automaticky zobrazí, pokud je možnost aktivní a není poskytnuto žádné vlastní vysvětlení.",
+    "discordWebhookContentDescription": "obsah webhooku Discordu",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcTip",
+    "erlcNotiContent": "erlcNotiObsah",
+    "erlcHintContent": "Zkontrolujte prosím svůj webhooks v Sonoran CMS a ujistěte se, že jsou správně nakonfigurovány pro server ER:LC.",
+    "webhookChannel": "webhookový kanál",
+    "webhookEmbedContent": "webhookVloženýObsah",
+    "webhookContentHint": "Obsah webhooku"
   }
 }

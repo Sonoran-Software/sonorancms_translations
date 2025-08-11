@@ -656,7 +656,9 @@
     "settings": "Asetukset",
     "erlcApiKey": "ERLC API-avain",
     "runCommand": "Suorita komento",
-    "moderation": "Moderointi"
+    "moderation": "Moderointi",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Virhe tapahtui käyttäjänimen vahvistamisen aikana:",
+    "usernamePassedVerificationTr": "Käyttäjänimi läpäisi tarkistuksen!"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Mukautettu verkkotunnus",
     "advancedcustomdomainpagelabel": "Mukautetun verkkotunnuksen asetukset",
     "communityDiscoveryDisabled": "Yhteisön löytäminen on poistettu käytöstä",
-    "disciplinary": "Kurinpito"
+    "disciplinary": "Kurinpito",
+    "actions": "Toiminnot"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Kaikki valitut arvot voivat käyttää tätä palvelinta",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "vaihtoehtoista kuvausta ei ole saatavilla",
     "ClickToToggleOption": "NapsautaVaihtoehdonVaihtamiseksi",
     "errorAnErrorOccuredWhileFetchingServerDa": "Virhe: Tapahtui virhe haettaessa palvelimen tietoja"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "erlcNotiSisaellyskuvaseloste",
+    "erlcHintContentDescription": "\"Entä jos lisäät ER:LC-käyttäjänimen profiiliisi?\"",
+    "discordWebhookContentDescription": "Discord-verkkokoukun sisällön kuvaus",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcVihje",
+    "erlcNotiContent": "erlcNotiSisältö",
+    "erlcHintContent": "erlc-vihje-sisältö",
+    "webhookChannel": "webhook-kanava",
+    "webhookEmbedContent": "webhookUpotusSisältö",
+    "webhookContentHint": "webhookin sisällön vihje"
   }
 }

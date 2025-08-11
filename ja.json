@@ -656,7 +656,9 @@
     "settings": "設定",
     "erlcApiKey": "ERLC APIキー",
     "runCommand": "コマンドを実行",
-    "moderation": "モデレーション"
+    "moderation": "モデレーション",
+    "anErrorOccuredWhileVerifyingUsernameTr": "ユーザー名の確認中にエラーが発生しました。",
+    "usernamePassedVerificationTr": "ユーザー名が確認されました！"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "カスタムドメイン設定",
     "advancedcustomdomainpagelabel": "選択されたすべてのランクはこのサーバーにアクセスできます",
     "communityDiscoveryDisabled": "コミュニティディスカバリー無効",
-    "disciplinary": "懲戒"
+    "disciplinary": "懲戒",
+    "actions": "アクション"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "許可リスト",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "利用可能な代替説明はありません",
     "ClickToToggleOption": "クリックしてオプションを切り替える",
     "errorAnErrorOccuredWhileFetchingServerDa": "サーバーデータの取得中にエラーが発生しました"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "ERLC通知コンテンツの説明",
+    "erlcHintContentDescription": "ER:LCでSonoran CMSを使用して機能を統合および自動化しましょう",
+    "discordWebhookContentDescription": "Discord Webhook コンテンツの説明",
+    "discordWebhook": "Discordウェブフック",
+    "erlcNoti": "ER:LCのお知らせ",
+    "erlcHint": "ER:LCヒント",
+    "erlcNotiContent": "erlcNotiContent",
+    "erlcHintContent": "erlcヒントコンテンツ",
+    "webhookChannel": "webhookチャンネル",
+    "webhookEmbedContent": "webhook埋め込みコンテンツ",
+    "webhookContentHint": "Webhookコンテンツのヒント"
   }
 }

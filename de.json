@@ -656,7 +656,9 @@
     "settings": "Einstellungen",
     "erlcApiKey": "ERLC API-Schlüssel",
     "runCommand": "Befehl ausführen",
-    "moderation": "Moderation"
+    "moderation": "Moderation",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Beim Überprüfen des Benutzernamens ist ein Fehler aufgetreten:",
+    "usernamePassedVerificationTr": "Benutzername hat die Überprüfung bestanden!"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Eigene Domain",
     "advancedcustomdomainpagelabel": "Einstellungen für eigene Domain",
     "communityDiscoveryDisabled": "Community-Erkennung deaktiviert",
-    "disciplinary": "Disziplinarisch"
+    "disciplinary": "Disziplinarisch",
+    "actions": "Aktionen"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle ausgewählten Ränge haben Zugriff auf diesen Server",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "keine alternative Beschreibung verfügbar",
     "ClickToToggleOption": "Klicken Sie, um die Option umzuschalten",
     "errorAnErrorOccuredWhileFetchingServerDa": "Beim Abrufen der Serverdaten ist ein Fehler aufgetreten."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Du hast einen neuen Erlc-Notruf erhalten: {{callType}}.",
+    "erlcHintContentDescription": "Spielen Sie in der Roblox-Community Emergency Response: Liberty County? Warum verbinden Sie Ihr in Spieldienstzeiten und erhalten exklusive Vorteile!",
+    "discordWebhookContentDescription": "Discord-Webhook-Inhaltsbeschreibung",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcHinweis",
+    "erlcNotiContent": "erlcNotiInhalt",
+    "erlcHintContent": "erlcHinweisInhalt",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webhook-Embed-Inhalt",
+    "webhookContentHint": "Webhook-Inhaltstipp"
   }
 }

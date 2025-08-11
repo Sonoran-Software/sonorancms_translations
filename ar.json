@@ -656,7 +656,9 @@
     "settings": "إعدادات",
     "erlcApiKey": "مفتاح API لـ ERLC",
     "runCommand": "تشغيل الأمر",
-    "moderation": "الإشراف"
+    "moderation": "الإشراف",
+    "anErrorOccuredWhileVerifyingUsernameTr": "حدث خطأ أثناء التحقق من اسم المستخدم:",
+    "usernamePassedVerificationTr": "!اسم المستخدم اجتاز التحقق"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "النطاق المخصص",
     "advancedcustomdomainpagelabel": "إعدادات النطاق المخصص",
     "communityDiscoveryDisabled": "تم تعطيل اكتشاف المجتمع",
-    "disciplinary": "تأديبي"
+    "disciplinary": "تأديبي",
+    "actions": "إجراءات"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "جميع الرتب المحددة ستكون قادرة على الوصول إلى هذا الخادم",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "لا يوجد وصف بديل متاح",
     "ClickToToggleOption": "انقر للتبديل الخيار",
     "errorAnErrorOccuredWhileFetchingServerDa": "حدث خطأ أثناء جلب بيانات الخادم"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "وصف المحتوى المرسل",
+    "erlcHintContentDescription": "وصف المحتوى تلميح ERLC",
+    "discordWebhookContentDescription": "وصف محتوى الويب هوك ديسكورد",
+    "discordWebhook": "ديسكورد ويب هوك",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "تلميح ERLC",
+    "erlcNotiContent": "مراقبة لعبة ER:LC الخاصة بك.",
+    "erlcHintContent": "محتوى تلميح ERLC",
+    "webhookChannel": "webhookChannel",
+    "webhookEmbedContent": "محتوى تضمين الويب هوك",
+    "webhookContentHint": "إدراج محتوى بنص أو JSON لمعالجة الطلب الخاص بك"
   }
 }

@@ -656,7 +656,9 @@
     "settings": "Ayarlar",
     "erlcApiKey": "ERLC API Anahtarı",
     "runCommand": "Komutu Çalıştır",
-    "moderation": "Moderatörlük"
+    "moderation": "Moderatörlük",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Kullanıcı adı doğrulanırken bir hata oluştu:",
+    "usernamePassedVerificationTr": "Kullanıcı adı doğrulamayı geçti!"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Özel Alan Adı",
     "advancedcustomdomainpagelabel": "Özel Alan Adı Ayarları",
     "communityDiscoveryDisabled": "Topluluk Keşfi Devre Dışı",
-    "disciplinary": "Disiplin"
+    "disciplinary": "Disiplin",
+    "actions": "Eylemler"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Seçilen tüm rütbeler bu sunucuya erişebilecek",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "Alternatif Açıklama Bulunamadı",
     "ClickToToggleOption": "SeçeneğiDeğiştirmekİçinTıklayın",
     "errorAnErrorOccuredWhileFetchingServerDa": "Sunucu verileri alınırken bir hata oluştu."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Duyurularla ilgili içerik hakkında bilgi almak için Sonoran CMS bildirim sistemini kullanın.",
+    "erlcHintContentDescription": "erlc İçerik Açıklaması",
+    "discordWebhookContentDescription": "Discord webhook içeriği açıklaması",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "Oyun içi kimliğiniz Discord hesabınıza bağlı değildir. Discord'unuzun bağlı olduğundan emin olun.",
+    "erlcHint": "erlcİpucu",
+    "erlcNotiContent": "erlcNotiİçerik",
+    "erlcHintContent": "erlcİpucuİçerik",
+    "webhookChannel": "webhookKanal",
+    "webhookEmbedContent": "webhookGömülüİçerik",
+    "webhookContentHint": "Webhook içeriği önerisi"
   }
 }

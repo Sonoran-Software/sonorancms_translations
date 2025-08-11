@@ -656,7 +656,9 @@
     "settings": "설정",
     "erlcApiKey": "ERLC API 키",
     "runCommand": "명령 실행",
-    "moderation": "모더레이션"
+    "moderation": "모더레이션",
+    "anErrorOccuredWhileVerifyingUsernameTr": "사용자 이름을 확인하는 동안 오류가 발생했습니다: ",
+    "usernamePassedVerificationTr": "사용자 이름이 검증을 통과했습니다!"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "맞춤 도메인 설정",
     "advancedcustomdomainpagelabel": "선택한 모든 계급은 이 서버에 접근할 수 있습니다",
     "communityDiscoveryDisabled": "커뮤니티 검색 비활성화됨",
-    "disciplinary": "징계"
+    "disciplinary": "징계",
+    "actions": "작업"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "허용 목록",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "대체 설명을 사용할 수 없음",
     "ClickToToggleOption": "옵션 전환을 클릭하세요",
     "errorAnErrorOccuredWhileFetchingServerDa": "서버 데이터를 가져오는 동안 오류가 발생했습니다."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "erlcNotiContentDescription",
+    "erlcHintContentDescription": "ER:LC 서버에 Sonoran CMS를 사용하여 사용 정보를 수집하고 게임 내에서 보고 시스템 및 메뉴관리가 가능합니다.",
+    "discordWebhookContentDescription": "디스코드 웹훅 콘텐츠 설명",
+    "discordWebhook": "디스코드 웹훅",
+    "erlcNoti": "erlc알림",
+    "erlcHint": "erlc 힌트",
+    "erlcNotiContent": "erlcNotiContent",
+    "erlcHintContent": "ER:LC 접속에 문제가 있는 경우 설정에서 Discord에 연결했는지 확인하세요.",
+    "webhookChannel": "웹훅 채널",
+    "webhookEmbedContent": "웹훅 임베드 내용",
+    "webhookContentHint": "웹훅 콘텐츠 힌트"
   }
 }

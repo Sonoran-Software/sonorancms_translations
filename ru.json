@@ -656,7 +656,9 @@
     "settings": "Настройки",
     "erlcApiKey": "Ключ API ERLC",
     "runCommand": "Запустить команду",
-    "moderation": "Модерация"
+    "moderation": "Модерация",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Произошла ошибка при проверке имени пользователя: ",
+    "usernamePassedVerificationTr": "Имя пользователя прошло проверку!"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Настройки пользовательского домена",
     "advancedcustomdomainpagelabel": "Все выбранные ранги смогут получить доступ к этому серверу",
     "communityDiscoveryDisabled": "Сообщество Отключено",
-    "disciplinary": "Дисциплинарный"
+    "disciplinary": "Дисциплинарный",
+    "actions": "Действия"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Список разрешений",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "нет доступного альтернативного описания",
     "ClickToToggleOption": "НажмитеЧтобыПереключитьОпцию",
     "errorAnErrorOccuredWhileFetchingServerDa": "Произошла ошибка при получении данных сервера"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Описание уведомления ERLC",
+    "erlcHintContentDescription": "Описание содержания подсказки ERLC",
+    "discordWebhookContentDescription": "Описание содержимого вебхука Discord",
+    "discordWebhook": "дискордВебхук",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "намекERLC",
+    "erlcNotiContent": "erlcNotiContent",
+    "erlcHintContent": "Содержимое подсказки ERLC",
+    "webhookChannel": "webhook-канал",
+    "webhookEmbedContent": "вебхукСодержимоеВстраивания",
+    "webhookContentHint": "Подсказка содержимого вебхука"
   }
 }

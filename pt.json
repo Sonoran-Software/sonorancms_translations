@@ -656,7 +656,9 @@
     "settings": "Configurações",
     "erlcApiKey": "Chave da API ERLC",
     "runCommand": "Executar Comando",
-    "moderation": "Moderação"
+    "moderation": "Moderação",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Um erro ocorreu ao verificar o nome de usuário:",
+    "usernamePassedVerificationTr": "Nome de usuário passou na verificação!"
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Domínio Personalizado",
     "advancedcustomdomainpagelabel": "Configurações de Domínio Personalizado",
     "communityDiscoveryDisabled": "Descoberta da Comunidade Desativada",
-    "disciplinary": "Disciplinar"
+    "disciplinary": "Disciplinar",
+    "actions": "Ações"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Todas as patentes selecionadas poderão acessar este servidor",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "```plaintext\nnenhumaDescriçãoAlternativaDisponível\n```",
     "ClickToToggleOption": "Clique para alternar a opção",
     "errorAnErrorOccuredWhileFetchingServerDa": "Ocorreu um erro ao buscar os dados do servidor"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Descrição do Conteúdo da Notificação ERLC",
+    "erlcHintContentDescription": "Descrição do Conteúdo de Dica ERLC",
+    "discordWebhookContentDescription": "Descrição do Conteúdo do Webhook do Discord",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "Dica Erlc",
+    "erlcNotiContent": "Conteúdo de erlcNoti",
+    "erlcHintContent": "Conteúdo de dica para ERLC",
+    "webhookChannel": "canalWebhook",
+    "webhookEmbedContent": "conteúdoIncorporadoDoWebhook",
+    "webhookContentHint": "Sugestão de conteúdo do webhook"
   }
 }

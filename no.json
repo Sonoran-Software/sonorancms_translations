@@ -656,7 +656,9 @@
     "settings": "Innstillinger",
     "erlcApiKey": "ERLC API-nøkkel",
     "runCommand": "Kjør kommando",
-    "moderation": "Moderering"
+    "moderation": "Moderering",
+    "anErrorOccuredWhileVerifyingUsernameTr": "En feil oppstod under verifisering av brukernavn:",
+    "usernamePassedVerificationTr": "Brukernavn bestod verifikasjonen!"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Egendefinert domene",
     "advancedcustomdomainpagelabel": "Innstillinger for egendefinert domene",
     "communityDiscoveryDisabled": "Fellesskapsoppdagelse deaktivert",
-    "disciplinary": "Disiplinær"
+    "disciplinary": "Disiplinær",
+    "actions": "Handlinger"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Alle valgte ranger vil kunne få tilgang til denne serveren",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "ingenAlternativBeskrivelseTilgjengelig",
     "ClickToToggleOption": "Klikk for å veksle alternativ",
     "errorAnErrorOccuredWhileFetchingServerDa": "Det oppstod en feil under henting av serverdata."
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Mottak én varsling per melding for hver vedtakelse (navn, verdi, konsekvens, utført av, team).",
+    "erlcHintContentDescription": "Beskrivelse av innhold-Hint",
+    "discordWebhookContentDescription": "Innholdet i Discord-webhook-beskrivelsen",
+    "discordWebhook": "discordWebhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "erlcTips",
+    "erlcNotiContent": "ER:LC partnersøknader er nå åpne!",
+    "erlcHintContent": "koble kontoen din til ER:LC ved å bruke MC-lenken din.",
+    "webhookChannel": "webhookKanalen",
+    "webhookEmbedContent": "webhookEmbedInnhold",
+    "webhookContentHint": "webhookInnholdsHint"
   }
 }

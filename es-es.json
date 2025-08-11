@@ -656,7 +656,9 @@
     "settings": "Configuración",
     "erlcApiKey": "Clave de API de ERLC",
     "runCommand": "Ejecutar comando",
-    "moderation": "Moderación"
+    "moderation": "Moderación",
+    "anErrorOccuredWhileVerifyingUsernameTr": "Se produjo un error al verificar el nombre de usuario:",
+    "usernamePassedVerificationTr": "¡El nombre de usuario pasó la verificación!"
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -2483,7 +2485,8 @@
     "advancedcustomdomainlabel": "Dominio Personalizado",
     "advancedcustomdomainpagelabel": "Configuración de Dominio Personalizado",
     "communityDiscoveryDisabled": "Descubrimiento de la Comunidad Deshabilitado",
-    "disciplinary": "Disciplinario"
+    "disciplinary": "Disciplinario",
+    "actions": "Acciones"
   },
   "Whitelist": {
     "allSelectedRanksWillBeAbleToAccessThisSe": "Todos los rangos seleccionados podrán acceder a este servidor",
@@ -4567,5 +4570,18 @@
     "noAlternativeDescriptionAvailable": "no hay descripción alternativa disponible",
     "ClickToToggleOption": "Haga clic para alternar la opción",
     "errorAnErrorOccuredWhileFetchingServerDa": "i18n key: es-es.json, phrase: errorAnErrorOccuredWhileFetchingServerDa"
+  },
+  "AutomatedActionEditor": {
+    "erlcNotiContentDescription": "Descripción del contenido de notificación de ERLC",
+    "erlcHintContentDescription": "Descripción del contenido del consejo de ERLC",
+    "discordWebhookContentDescription": "Descripción del contenido del webhook de Discord",
+    "discordWebhook": "Discord Webhook",
+    "erlcNoti": "erlcNoti",
+    "erlcHint": "Consejo ERLC",
+    "erlcNotiContent": "Contenido de notificación ERLC",
+    "erlcHintContent": "Contenido de pista ERLC",
+    "webhookChannel": "canalWebhook",
+    "webhookEmbedContent": "Contenido del embed del webhook",
+    "webhookContentHint": "Sugerencia de contenido del webhook"
   }
 }
