@@ -1219,7 +1219,9 @@
     "permissions": "Permissions",
     "cancel": "Cancel",
     "save": "Save",
-    "unknownRule": "Unknown Rule"
+    "unknownRule": "Unknown Rule",
+    "hasRanks": "Has Rank(s)",
+    "doesNotHaveRanks": "Does Not Have Rank(s)"
   },
   "FormEditSelector": {
     "Ok": "Ok",
@@ -1506,7 +1508,17 @@
     "expiresAt": "Expires at:",
     "communityRank": "Community Rank",
     "rankExpirationSettings": "Rank Expiration Settings",
-    "expirationTypes": "Expiration Types"
+    "expirationTypes": "Expiration Types",
+    "addedAfter": "Added After {length} {unit}",
+    "addedAtSpecificTime": "Added on a specific date based on form question answer",
+    "removedAfter": "Removed After {length} {unit}",
+    "removedAtSpecificTime": "Removed on a specific date based on form question answer",
+    "addRank": "Add Rank",
+    "removeRank": "Remove Rank",
+    "afterASetPeriod": "After a set period",
+    "afterASpecificDate": "After a specific date",
+    "basedOnADateFromAFormSubmission": "Based on a date from a form question",
+    "selectADateQuestion": "Select a date question"
   },
   "RankList": {
     "filterRanks": "Filter Ranks"
