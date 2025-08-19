@@ -1515,8 +1515,8 @@
     "removedAtSpecificTime": "Removed on a specific date based on form question answer",
     "addRank": "Add Rank",
     "removeRank": "Remove Rank",
-    "afterASetPeriod": "On a specific date",
-    "afterASpecificDate": "After a specific date",
+    "afterASetPeriod": "After Set Delay",
+    "afterASpecificDate": "On Form Date",
     "basedOnADateFromAFormSubmission": "Based on a date from a form question",
     "selectADateQuestion": "Select a date question"
   },
