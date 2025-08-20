@@ -1794,7 +1794,9 @@
     "welcomeToSonoranCms": "Welcome to Sonoran CMS!",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS manages your community's website, documents, whitelisting, in-game permissions, and more!",
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Learn more about how Sonoran CMS can be your community's single point of management.",
-    "profile": "Profile"
+    "profile": "Profile",
+    "disciplinaryAction": "ELRC Automatic Action",
+    "erlcAction": "ELRC Automatic Action"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Number of unique views from Community Discovery",
@@ -3705,6 +3707,11 @@
     "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
     "conditionalQuestionStartExplaination": "This action will execute"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "Ranks to Notify",
+    "rankNotificationMessage": "Notification Message",
+    "disciplinaryReason": "Disciplinary Reason"
   },
   "ConditionalFormSectionUI": {
     "IfTheQuestion": "if the question",
