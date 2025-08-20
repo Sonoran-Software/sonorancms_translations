@@ -1796,7 +1796,8 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Learn more about how Sonoran CMS can be your community's single point of management.",
     "profile": "Profile",
     "disciplinaryAction": "ELRC Automatic Action",
-    "erlcAction": "ELRC Automatic Action"
+    "erlcAction": "ELRC Automatic Action",
+    "communityDeletion": "Community Deletion"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Number of unique views from Community Discovery",
