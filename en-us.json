@@ -1202,6 +1202,7 @@
     "dateRangeParameter": "Date Range Parameter",
     "invalidRosterColumnDataContactSupport": "Invalid Roster Column Data - Contact Support",
     "sourceServer": "Source Server",
+    "teams": "Team(s)",
     "discordGuildWhereNicknamesWillBePulledFr": "DISCORD GUILD WHERE NICKNAMES WILL BE PULLED FROM",
     "guildDataFetchInprogress": "GUILD DATA FETCH IN-PROGRESS",
     "ruleBuilder": "Rule Builder",
