@@ -1736,7 +1736,7 @@
     "lostConnection": "You have lost connection to the server.",
     "noLocalStorageSupport": "Your browser doesn't support local storage or it may be disabled.",
     "DevelopmentTestingVersionNotForProductio": "⚠️ Development Testing Version - Not for Production Use ⚠️",
-    "downloadNewDesktopApp": "Download the new Sonoran CMS desktop app!",
+    "downloadSonoranCmsDesktopApp": "Download the Sonoran CMS desktop app!",
     "download": "Download",
     "communityMenu": "Community Menu",
     "createCommunity": "Create Community",
