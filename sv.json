@@ -658,7 +658,9 @@
     "runCommand": "Kör kommando",
     "moderation": "Moderering",
     "anErrorOccuredWhileVerifyingUsernameTr": "Ett fel inträffade vid verifiering av användarnamn:",
-    "usernamePassedVerificationTr": "Användarnamnet godkändes vid verifiering!"
+    "usernamePassedVerificationTr": "Användarnamnet godkändes vid verifiering!",
+    "addedRanks": "Tillagda Ranks",
+    "removedRanks": "Borttagna Ranks"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Synkronisera dina behörigheter och kontostatus med CAD, Radio och TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
-    "radioDesc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!"
+    "radioDesc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!",
+    "communityNotFound": "Community hittades inte",
+    "errorAnErrorOccuredWhileExecuting": "Fel: Ett fel inträffade under körning"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -964,7 +968,8 @@
     "temporary": "Tillfällig",
     "previousMembers": "Tidigare medlemmar",
     "unban": "Upphäv avstängning",
-    "kickedMembers": "Utsparkade medlemmar"
+    "kickedMembers": "Utsparkade medlemmar",
+    "unarchive": "Arkivera upp"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -1234,7 +1239,10 @@
     "month": "Månad",
     "quarter": "Kvartal",
     "year": "År",
-    "current": "Nuvarande"
+    "current": "Nuvarande",
+    "teams": "Lag(en)",
+    "hasRanks": "Har rank(er)",
+    "doesNotHaveRanks": "Har Ingen Rang(er)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Detta formulär är upplåst för nya Inlämningar",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Upphör vid:",
     "communityRank": "Community-rang",
     "rankExpirationSettings": "Inställningar för rangens utgång",
-    "expirationTypes": "Utgångstyper"
+    "expirationTypes": "Utgångstyper",
+    "addedAfter": "Lades till efter {length} {unit}",
+    "addedAtSpecificTime": "Tillagd på ett specifikt datum baserat på frågesvarets svar",
+    "removedAfter": "Tas bort efter {length} {unit}",
+    "removedAtSpecificTime": "Avlägsnades på ett specifikt datum baserat på formulärfrågesvar",
+    "addRank": "Lägg till rank",
+    "removeRank": "Ta bort rang",
+    "afterASetPeriod": "Efter inställd fördröjning",
+    "afterASpecificDate": "På formulärdatum",
+    "basedOnADateFromAFormSubmission": "Baserat på ett datum från en formulärfråga",
+    "selectADateQuestion": "Välj en datumsfråga",
+    "noExpiration": "Ingen utgångsdatum"
   },
   "RankList": {
     "filterRanks": "Filtrera rangordningar"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lär dig mer om hur Sonoran CMS kan vara din gemenskaps enda hanteringspunkt.",
     "profile": "Profil",
     "linkRoblox": "Länka Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Denna gemenskap använder Roblox-integration! Vänligen länka din Roblox för korrekt användning av integrationen."
+    "thisCommunityUsesRobloxIntegrationPleas": "Denna gemenskap använder Roblox-integration! Vänligen länka din Roblox för korrekt användning av integrationen.",
+    "downloadSonoranCmsDesktopApp": "Ladda ner Sonoran CMS-skrivbordsappen!",
+    "download": "Ladda ner",
+    "disciplinaryAction": "ELRC Automatisk Åtgärd",
+    "erlcAction": "ELRC Automatisk Åtgärd",
+    "communityDeletion": "Gemenskapsradering"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antal unika visningar från Community Discovery",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Avdelningsbehörigheter",
     "newDepartment": "Ny Avdelning",
     "permissions": "Behörigheter",
-    "cosmetics": "Kosmetika"
+    "cosmetics": "Kosmetika",
+    "editGroup": "Redigera grupp",
+    "newGroup": "Ny Grupp",
+    "addANewGroup": "Lägg till en ny grupp",
+    "groupName": "Gruppnamn",
+    "newGroupName": "Nytt gruppnamn",
+    "groupPermissions": "Gruppbehörigheter"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfält Tutorial",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Detta kan ta några ögonblick, vänligen vänta.",
     "linkedGuilds": "Länkade Guilds",
     "hideBlankFormFields": "Formulärfält som är tomma visas inte i webhooken",
-    "showBlankFormFields": "Formulärfält som är tomma visas som \"Tom\" i webhooken"
+    "showBlankFormFields": "Formulärfält som är tomma visas som \"Tom\" i webhooken",
+    "accountKickedChannel": "Kontotsparkad - Kanal",
+    "accountKickedMentions": "Konto sparkat - Omtalanden",
+    "accountBannedChannel": "Kontoavstängt - Kanal",
+    "accountBannedMentions": "Konto avstängt - Nämnder"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelningschef",
@@ -3966,7 +4000,9 @@
     "addSection": "Lägg till sektion",
     "backgroundOptions": "Bakgrundsalternativ",
     "triggerAnimations": "Utlös animationer",
-    "triggerAnimationsToPlay": "Aktivera alla animationer på denna sida."
+    "triggerAnimationsToPlay": "Aktivera alla animationer på denna sida.",
+    "elementsCannotBeMovedIntoARosterSection": "Element kan inte flyttas till en listsektion",
+    "elementsCannotBeDroppedIntoARosterSection": "Element kan inte placeras i ett avsnittsregister"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås objekt till denna sektion",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Exempel titel",
     "exampleButton": "Exempel knapp",
     "header": "Rubrik",
-    "description": "Beskrivning"
+    "description": "Beskrivning",
+    "exampleContent": "Exempel Innehåll"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Knappgruppstilar",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Kopierade serverbehörigheter",
     "pasteServerPermissions": "Klistra in serverbehörigheter",
     "copiedGameServerPermissions": "Kopierade spelserverbehörigheter",
-    "pasteGameServerPermissions": "Klistra in spelserverbehörigheter"
+    "pasteGameServerPermissions": "Klistra in spelserverbehörigheter",
+    "copiedERLCPermissions": "Kopierade ERLC-behörigheter",
+    "pasteERLCPermissions": "Klistra in ERLC-behörigheter"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Länka konto",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhookInbäddatInnehåll",
     "webhookContentHint": "webhookInnehållTips"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "rankMeddelandeRanker",
+    "rankNotificationMessage": "rankNotifikationsMeddelande",
+    "disciplinaryReason": "disciplinär orsak"
   }
 }

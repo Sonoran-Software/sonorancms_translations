@@ -658,7 +658,9 @@
     "runCommand": "コマンドを実行",
     "moderation": "モデレーション",
     "anErrorOccuredWhileVerifyingUsernameTr": "ユーザー名の確認中にエラーが発生しました。",
-    "usernamePassedVerificationTr": "ユーザー名が確認されました！"
+    "usernamePassedVerificationTr": "ユーザー名が確認されました！",
+    "addedRanks": "ランクを追加しました",
+    "removedRanks": "削除されたランク"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "CAD、Radio、TeamSpeakと権限およびアカウントステータスを同期します。",
     "SonoranRadio": "Sonoran Radio",
     "radio": "ラジオ",
-    "radioDesc": "Sonoran CMSでSonoran Radioの権限を自動化！"
+    "radioDesc": "Sonoran CMSでSonoran Radioの権限を自動化！",
+    "communityNotFound": "コミュニティが見つかりません",
+    "errorAnErrorOccuredWhileExecuting": "エラー: 実行中にエラーが発生しました"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -964,7 +968,8 @@
     "temporary": "一時的",
     "previousMembers": "以前のメンバー",
     "unban": "解除禁止",
-    "kickedMembers": "追放されたメンバー"
+    "kickedMembers": "追放されたメンバー",
+    "unarchive": "アーカイブ解除"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -1234,7 +1239,10 @@
     "month": "月",
     "quarter": "四半期",
     "year": "年",
-    "current": "現在"
+    "current": "現在",
+    "teams": "チーム",
+    "hasRanks": "ランクがあります",
+    "doesNotHaveRanks": "ランクがありません"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "このフォームは新しい提出からロックされています",
@@ -1521,7 +1529,18 @@
     "expiresAt": "コミュニティランク",
     "communityRank": "ランクの有効期限設定",
     "rankExpirationSettings": "有効期限の種類",
-    "expirationTypes": "ランクをフィルタ"
+    "expirationTypes": "ランクをフィルタ",
+    "addedAfter": "{length}{unit}後に追加",
+    "addedAtSpecificTime": "特定の日付にフォームの質問回答に基づいて追加されました",
+    "removedAfter": "{length} {unit} 後に削除されました",
+    "removedAtSpecificTime": "フォーム質問の回答に基づいて特定の日付に削除されました",
+    "addRank": "ランクを追加",
+    "removeRank": "ランクを削除",
+    "afterASetPeriod": "設定後の遅延",
+    "afterASpecificDate": "フォームの日付に",
+    "basedOnADateFromAFormSubmission": "フォームの質問の日付に基づく",
+    "selectADateQuestion": "日付の質問を選択",
+    "noExpiration": "有効期限なし"
   },
   "RankList": {
     "filterRanks": "閉じる"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "プロフィール",
     "profile": "コミュニティディスカバリーからのユニークビュー数",
     "linkRoblox": "Robloxをリンク",
-    "thisCommunityUsesRobloxIntegrationPleas": "このコミュニティはRoblox統合を使用しています！適切な統合使用のためにあなたのRobloxをリンクしてください。"
+    "thisCommunityUsesRobloxIntegrationPleas": "このコミュニティはRoblox統合を使用しています！適切な統合使用のためにあなたのRobloxをリンクしてください。",
+    "downloadSonoranCmsDesktopApp": "Sonoran CMSデスクトップアプリをダウンロード！",
+    "download": "ダウンロード",
+    "disciplinaryAction": "ELRC自動アクション",
+    "erlcAction": "ELRC自動アクション",
+    "communityDeletion": "コミュニティの削除"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "コミュニティディスカバリーからコミュニティページを訪れたユニークユーザー数",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "新しい部門",
     "newDepartment": "権限",
     "permissions": "化粧品",
-    "cosmetics": "プロフィールフィールドのチュートリアル"
+    "cosmetics": "プロフィールフィールドのチュートリアル",
+    "editGroup": "グループを編集",
+    "newGroup": "新しいグループ",
+    "addANewGroup": "新しいグループを追加",
+    "groupName": "グループ名",
+    "newGroupName": "新しいグループ名",
+    "groupPermissions": "グループ権限"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "プロフィールフィールドの使い方を学ぶ",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "リンクされたギルド",
     "linkedGuilds": "部門マネージャー",
     "hideBlankFormFields": "Webhookには空白のフォームフィールドは表示されません",
-    "showBlankFormFields": "Webhookで空白のフォームフィールドは「空白」と表示されます。"
+    "showBlankFormFields": "Webhookで空白のフォームフィールドは「空白」と表示されます。",
+    "accountKickedChannel": "アカウントがキックされました - チャネル",
+    "accountKickedMentions": "アカウントがキックされました - メンション",
+    "accountBannedChannel": "アカウントが禁止されている - チャンネル",
+    "accountBannedMentions": "アカウントが禁止されています - メンション"
   },
   "DepartmentEditor": {
     "departmentManager": "プロファイルフィールドが作成されていません... カスタマイズのプロファイルフィールドエディタでプロファイルフィールドを作成してください",
@@ -3966,7 +4000,9 @@
     "addSection": "背景オプション",
     "backgroundOptions": "このセクションにアイテムをロック",
     "triggerAnimations": "アニメーションをトリガー",
-    "triggerAnimationsToPlay": "このページですべてのアニメーションを再生するトリガー。"
+    "triggerAnimationsToPlay": "このページですべてのアニメーションを再生するトリガー。",
+    "elementsCannotBeMovedIntoARosterSection": "ロスターセクションに要素を移動することはできません",
+    "elementsCannotBeDroppedIntoARosterSection": "要素は名簿セクションにドロップできません"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "画像を埋める",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "例のボタン",
     "exampleButton": "ヘッダー",
     "header": "説明",
-    "description": "ボタングループスタイル"
+    "description": "ボタングループスタイル",
+    "exampleContent": "サンプルコンテンツ"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "ボタンカラー",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "サーバー権限を貼り付け",
     "pasteServerPermissions": "ゲームサーバー権限をコピーしました",
     "copiedGameServerPermissions": "ゲームサーバー権限を貼り付け",
-    "pasteGameServerPermissions": "Sonoran Servers - アカウントをリンク"
+    "pasteGameServerPermissions": "Sonoran Servers - アカウントをリンク",
+    "copiedERLCPermissions": "コピーされたERLC権限",
+    "pasteERLCPermissions": "ERLC 権限を貼り付ける"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "閉じる",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookチャンネル",
     "webhookEmbedContent": "webhook埋め込みコンテンツ",
     "webhookContentHint": "Webhookコンテンツのヒント"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "ランクの通知ランク",
+    "rankNotificationMessage": "階級通知メッセージ",
+    "disciplinaryReason": "懲戒理由"
   }
 }

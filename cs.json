@@ -658,7 +658,9 @@
     "runCommand": "Spustit příkaz",
     "moderation": "Moderování",
     "anErrorOccuredWhileVerifyingUsernameTr": "Při ověřování uživatelského jména došlo k chybě:",
-    "usernamePassedVerificationTr": "Uživatelské jméno prošlo ověřením!"
+    "usernamePassedVerificationTr": "Uživatelské jméno prošlo ověřením!",
+    "addedRanks": "Přidané hodnosti",
+    "removedRanks": "Odebrané hodnosti"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Synchronizujte svá oprávnění a stav účtu s CAD, rádiem a TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Rádio",
-    "radioDesc": "Automatizujte oprávnění Sonoran Radio pomocí Sonoran CMS!"
+    "radioDesc": "Automatizujte oprávnění Sonoran Radio pomocí Sonoran CMS!",
+    "communityNotFound": "Společenství nenalezeno",
+    "errorAnErrorOccuredWhileExecuting": "Chyba: Došlo k chybě při provádění"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -964,7 +968,8 @@
     "temporary": "Dočasný",
     "previousMembers": "Předchozí členové",
     "unban": "Odbanovat",
-    "kickedMembers": "Vykopnutí členové"
+    "kickedMembers": "Vykopnutí členové",
+    "unarchive": "Rozbalit archiv"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -1234,7 +1239,10 @@
     "month": "Měsíc",
     "quarter": "Čtvrtletí",
     "year": "Rok",
-    "current": "Aktuální"
+    "current": "Aktuální",
+    "teams": "Tým(y)",
+    "hasRanks": "Má hodnost(i)",
+    "doesNotHaveRanks": "Nemá hodnost(i)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tento formulář je odemčen pro nové příspěvky",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Vyprší v:",
     "communityRank": "Komunitní hodnost",
     "rankExpirationSettings": "Nastavení vypršení hodnosti",
-    "expirationTypes": "Typy vypršení"
+    "expirationTypes": "Typy vypršení",
+    "addedAfter": "Přidáno po {length} {unit}",
+    "addedAtSpecificTime": "Přidáno k určitému datu na základě odpovědi na otázku formuláře",
+    "removedAfter": "Odstraněno po {length} {unit}",
+    "removedAtSpecificTime": "Odstraněno ke konkrétnímu datu na základě odpovědi na otázku formuláře",
+    "addRank": "Přidat hodnost",
+    "removeRank": "Odebrat hodnost",
+    "afterASetPeriod": "Po nastavení zpoždění",
+    "afterASpecificDate": "Na formuláři datum",
+    "basedOnADateFromAFormSubmission": "Na základě data z otázky ve formuláři",
+    "selectADateQuestion": "Vyberte otázku s datem",
+    "noExpiration": "Bez expirace"
   },
   "RankList": {
     "filterRanks": "Filtrovat hodnosti"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Zjistěte více o tom, jak může být Sonoran CMS jediným bodem správy vaší komunity.",
     "profile": "Profil",
     "linkRoblox": "Propojit Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Tato komunita používá integraci Roblox! Pro správné využití integrace prosím propojte svůj Roblox."
+    "thisCommunityUsesRobloxIntegrationPleas": "Tato komunita používá integraci Roblox! Pro správné využití integrace prosím propojte svůj Roblox.",
+    "downloadSonoranCmsDesktopApp": "Stáhněte si desktopovou aplikaci Sonoran CMS!",
+    "download": "Stáhnout",
+    "disciplinaryAction": "ELRC Automatická akce",
+    "erlcAction": "ELRC Automatická Akce",
+    "communityDeletion": "Smazání komunity"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Počet unikátních zobrazení z Community Discovery",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Oprávnění oddělení",
     "newDepartment": "Nové oddělení",
     "permissions": "Oprávnění",
-    "cosmetics": "Kosmetika"
+    "cosmetics": "Kosmetika",
+    "editGroup": "Upravit skupinu",
+    "newGroup": "Nová skupina",
+    "addANewGroup": "Přidat novou skupinu",
+    "groupName": "Název skupiny",
+    "newGroupName": "Nový Název Skupiny",
+    "groupPermissions": "Skupinová oprávnění"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Návod na pole profilu",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "To může chvíli trvat, prosím, čekejte.",
     "linkedGuilds": "Propojené guildy",
     "hideBlankFormFields": "Formulářová pole, která jsou prázdná, nejsou zobrazena ve webhooku",
-    "showBlankFormFields": "Formulářová pole, která jsou prázdná, budou ve webhooku zobrazena jako \"Prázdná\"."
+    "showBlankFormFields": "Formulářová pole, která jsou prázdná, budou ve webhooku zobrazena jako \"Prázdná\".",
+    "accountKickedChannel": "Účet Vykopnut - Kanál",
+    "accountKickedMentions": "Účet vykopnut - Zmínky",
+    "accountBannedChannel": "Účet zablokován - Kanál",
+    "accountBannedMentions": "Účet zablokován - Zmínky"
   },
   "DepartmentEditor": {
     "departmentManager": "Manažer oddělení",
@@ -3966,7 +4000,9 @@
     "addSection": "Přidat sekci",
     "backgroundOptions": "Možnosti pozadí",
     "triggerAnimations": "Spustit animace",
-    "triggerAnimationsToPlay": "Spusťte všechny animace na této stránce."
+    "triggerAnimationsToPlay": "Spusťte všechny animace na této stránce.",
+    "elementsCannotBeMovedIntoARosterSection": "Prvky nelze přesunout do části seznamu",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementy nelze umístit do části seznamu"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Uzamknout položku do této sekce",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Příklad názvu",
     "exampleButton": "Příklad tlačítka",
     "header": "Záhlaví",
-    "description": "Popis"
+    "description": "Popis",
+    "exampleContent": "Příklad obsahu"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Styly skupiny tlačítek",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Zkopírovaná oprávnění serveru",
     "pasteServerPermissions": "Vložit oprávnění serveru",
     "copiedGameServerPermissions": "Zkopírovaná oprávnění herního serveru",
-    "pasteGameServerPermissions": "Vložit oprávnění herního serveru"
+    "pasteGameServerPermissions": "Vložit oprávnění herního serveru",
+    "copiedERLCPermissions": "Zkopírovaná oprávnění ERLC",
+    "pasteERLCPermissions": "Vložte oprávnění ERLC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Propojit účet",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookový kanál",
     "webhookEmbedContent": "webhookVloženýObsah",
     "webhookContentHint": "Obsah webhooku"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "hodnostní oznámení hodnosti",
+    "rankNotificationMessage": "Uživatel aktualizoval váš hodnocení!",
+    "disciplinaryReason": "disciplinární důvod"
   }
 }

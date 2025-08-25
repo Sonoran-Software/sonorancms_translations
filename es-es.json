@@ -658,7 +658,9 @@
     "runCommand": "Ejecutar comando",
     "moderation": "Moderación",
     "anErrorOccuredWhileVerifyingUsernameTr": "Se produjo un error al verificar el nombre de usuario:",
-    "usernamePassedVerificationTr": "¡El nombre de usuario pasó la verificación!"
+    "usernamePassedVerificationTr": "¡El nombre de usuario pasó la verificación!",
+    "addedRanks": "Rangos añadidos",
+    "removedRanks": "Rangos eliminados"
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Sincroniza tus permisos y el estado de tu cuenta con CAD, Radio y TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
-    "radioDesc": "¡Automatiza los permisos de Sonoran Radio con Sonoran CMS!"
+    "radioDesc": "¡Automatiza los permisos de Sonoran Radio con Sonoran CMS!",
+    "communityNotFound": "Comunidad no encontrada",
+    "errorAnErrorOccuredWhileExecuting": "Error: Ocurrió un error al ejecutar"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Cuentas de Usuario",
@@ -964,7 +968,8 @@
     "temporary": "Temporal",
     "previousMembers": "Miembros anteriores",
     "unban": "Desbloquear",
-    "kickedMembers": "Miembros Expulsados"
+    "kickedMembers": "Miembros Expulsados",
+    "unarchive": "Desarchivar"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial de API de la Comunidad",
@@ -1234,7 +1239,10 @@
     "month": "Mes",
     "quarter": "Trimestre",
     "year": "Año",
-    "current": "Actual"
+    "current": "Actual",
+    "teams": "Equipo(s)",
+    "hasRanks": "Tiene Rango(s)",
+    "doesNotHaveRanks": "No tiene rango(s)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Este formulario está desbloqueado para nuevas presentaciones",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Expira en:",
     "communityRank": "Rango de la Comunidad",
     "rankExpirationSettings": "Configuración de Expiración de Rango",
-    "expirationTypes": "Tipos de Expiración"
+    "expirationTypes": "Tipos de Expiración",
+    "addedAfter": "Agregado después de {length} {unit}",
+    "addedAtSpecificTime": "Agregado en una fecha específica según la respuesta de una pregunta del formulario",
+    "removedAfter": "Eliminado después de {length} {unit}",
+    "removedAtSpecificTime": "Eliminado en una fecha específica según la respuesta de la pregunta del formulario",
+    "addRank": "Agregar rango",
+    "removeRank": "Eliminar Rango",
+    "afterASetPeriod": "Después del retraso establecido",
+    "afterASpecificDate": "Fecha en formulario",
+    "basedOnADateFromAFormSubmission": "Basado en una fecha de una pregunta de formulario",
+    "selectADateQuestion": "Selecciona una pregunta de fecha",
+    "noExpiration": "Sin vencimiento"
   },
   "RankList": {
     "filterRanks": "Filtrar Rangos"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Aprende más sobre cómo Sonoran CMS puede ser el punto único de gestión de tu comunidad.",
     "profile": "Perfil",
     "linkRoblox": "Vincular Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Esta comunidad utiliza la integración de Roblox. Por favor, vincule su cuenta de Roblox para el uso adecuado de la integración."
+    "thisCommunityUsesRobloxIntegrationPleas": "Esta comunidad utiliza la integración de Roblox. Por favor, vincule su cuenta de Roblox para el uso adecuado de la integración.",
+    "downloadSonoranCmsDesktopApp": "¡Descarga la aplicación de escritorio de Sonoran CMS!",
+    "download": "Descargar",
+    "disciplinaryAction": "Acción Automática de ELRC",
+    "erlcAction": "Acción automática de ELRC",
+    "communityDeletion": "Eliminación de la comunidad"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Número de vistas únicas desde Community Discovery",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Permisos del Departamento",
     "newDepartment": "Nuevo Departamento",
     "permissions": "Permisos",
-    "cosmetics": "Cosméticos"
+    "cosmetics": "Cosméticos",
+    "editGroup": "Editar Grupo",
+    "newGroup": "Nuevo Grupo",
+    "addANewGroup": "Añadir un nuevo grupo",
+    "groupName": "Nombre del Grupo",
+    "newGroupName": "Nuevo Nombre del Grupo",
+    "groupPermissions": "Permisos de Grupo"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial de Campos de Perfil",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Esto puede tardar unos momentos, por favor espera.",
     "linkedGuilds": "Guilds vinculados",
     "hideBlankFormFields": "Los campos del formulario que están en blanco no se muestran en el webhook",
-    "showBlankFormFields": "Los campos del formulario que estén en blanco se mostrarán como \"Blank\" en el webhook"
+    "showBlankFormFields": "Los campos del formulario que estén en blanco se mostrarán como \"Blank\" en el webhook",
+    "accountKickedChannel": "Cuenta expulsada - Canal",
+    "accountKickedMentions": "Cuenta expulsada - Menciones",
+    "accountBannedChannel": "Cuenta suspendida - Canal",
+    "accountBannedMentions": "Cuenta prohibida - Menciones"
   },
   "DepartmentEditor": {
     "departmentManager": "Gerente de departamento",
@@ -3966,7 +4000,9 @@
     "addSection": "Agregar Sección",
     "backgroundOptions": "Opciones de Fondo",
     "triggerAnimations": "Accionar Animaciones",
-    "triggerAnimationsToPlay": "Activar todas las animaciones para que se reproduzcan en esta página."
+    "triggerAnimationsToPlay": "Activar todas las animaciones para que se reproduzcan en esta página.",
+    "elementsCannotBeMovedIntoARosterSection": "Elementos no se pueden mover a una sección del listado.",
+    "elementsCannotBeDroppedIntoARosterSection": "No se pueden soltar elementos en una sección de la lista"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Bloquear elemento a esta sección",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Título de ejemplo",
     "exampleButton": "Botón de ejemplo",
     "header": "Encabezado",
-    "description": "Descripción"
+    "description": "Descripción",
+    "exampleContent": "Contenido de ejemplo"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Estilos del Grupo de Botones",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Permisos del Servidor Copiados",
     "pasteServerPermissions": "Pegar Permisos del Servidor",
     "copiedGameServerPermissions": "Permisos del Servidor de Juegos Copiados",
-    "pasteGameServerPermissions": "Pegar Permisos del Servidor de Juegos"
+    "pasteGameServerPermissions": "Pegar Permisos del Servidor de Juegos",
+    "copiedERLCPermissions": "Copiado permisos de ERLC",
+    "pasteERLCPermissions": "Pegar permisos de ERLC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Vincular Cuenta",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "canalWebhook",
     "webhookEmbedContent": "Contenido del embed del webhook",
     "webhookContentHint": "Sugerencia de contenido del webhook"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "notificaciónDeRangos",
+    "rankNotificationMessage": "mensajeDeNotificaciónDeRango",
+    "disciplinaryReason": "motivo disciplinario"
   }
 }

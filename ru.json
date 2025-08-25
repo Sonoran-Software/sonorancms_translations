@@ -658,7 +658,9 @@
     "runCommand": "Запустить команду",
     "moderation": "Модерация",
     "anErrorOccuredWhileVerifyingUsernameTr": "Произошла ошибка при проверке имени пользователя: ",
-    "usernamePassedVerificationTr": "Имя пользователя прошло проверку!"
+    "usernamePassedVerificationTr": "Имя пользователя прошло проверку!",
+    "addedRanks": "Добавленные звания",
+    "removedRanks": "Удаленные ранги"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Синхронизируйте свои разрешения и статус учетной записи с CAD, Radio и TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Радио",
-    "radioDesc": "Автоматизируйте разрешения Sonoran Radio с помощью Sonoran CMS!"
+    "radioDesc": "Автоматизируйте разрешения Sonoran Radio с помощью Sonoran CMS!",
+    "communityNotFound": "Сообщество не найдено",
+    "errorAnErrorOccuredWhileExecuting": "Ошибка: Произошла ошибка при выполнении"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -964,7 +968,8 @@
     "temporary": "Временный",
     "previousMembers": "Предыдущие участники",
     "unban": "Разбанить",
-    "kickedMembers": "Исключенные участники"
+    "kickedMembers": "Исключенные участники",
+    "unarchive": "Разархивировать"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -1234,7 +1239,10 @@
     "month": "Месяц",
     "quarter": "Квартал",
     "year": "Год",
-    "current": "Текущий"
+    "current": "Текущий",
+    "teams": "Команда(ы)",
+    "hasRanks": "Имеет звание(я)",
+    "doesNotHaveRanks": "Не имеет ранга(ов)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Эта форма заблокирована для новых отправок",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Ранг сообщества",
     "communityRank": "Настройки истечения срока ранга",
     "rankExpirationSettings": "Типы истечения срока",
-    "expirationTypes": "Фильтр рангов"
+    "expirationTypes": "Фильтр рангов",
+    "addedAfter": "Добавлено через {length} {unit}",
+    "addedAtSpecificTime": "Добавлено на определенную дату на основе ответа на вопрос формы",
+    "removedAfter": "Удалено через {length} {unit}",
+    "removedAtSpecificTime": "Удалено на определённую дату в зависимости от ответа на вопрос формы",
+    "addRank": "Добавить ранг",
+    "removeRank": "Удалить Ранг",
+    "afterASetPeriod": "После установленной задержки",
+    "afterASpecificDate": "На форме даты",
+    "basedOnADateFromAFormSubmission": "На основе даты из вопроса формы",
+    "selectADateQuestion": "Выберите вопрос с датой",
+    "noExpiration": "Без срока действия"
   },
   "RankList": {
     "filterRanks": "Закрыть"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Профиль",
     "profile": "Количество уникальных просмотров из Community Discovery",
     "linkRoblox": "Связать Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Это сообщество использует интеграцию с Roblox! Пожалуйста, подключите ваш аккаунт Roblox для корректного использования интеграции."
+    "thisCommunityUsesRobloxIntegrationPleas": "Это сообщество использует интеграцию с Roblox! Пожалуйста, подключите ваш аккаунт Roblox для корректного использования интеграции.",
+    "downloadSonoranCmsDesktopApp": "Скачайте настольное приложение Sonoran CMS!",
+    "download": "Скачать",
+    "disciplinaryAction": "ELRC Автоматическое Действие",
+    "erlcAction": "ELRC Автоматическое Действие",
+    "communityDeletion": "Удаление сообщества"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Количество уникальных пользователей, посетивших страницу сообщества из Community Discovery",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Новый отдел",
     "newDepartment": "Разрешения",
     "permissions": "Косметика",
-    "cosmetics": "Учебник по полям профиля"
+    "cosmetics": "Учебник по полям профиля",
+    "editGroup": "Редактировать группу",
+    "newGroup": "Новая группа",
+    "addANewGroup": "Добавить новую группу",
+    "groupName": "Название группы",
+    "newGroupName": "Новое имя группы",
+    "groupPermissions": "Групповые разрешения"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Узнайте, как использовать поля профиля",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Связанные гильдии",
     "linkedGuilds": "Менеджер отдела",
     "hideBlankFormFields": "Поля формы, которые пусты, не отображаются в вебхуке.",
-    "showBlankFormFields": "Поля формы, которые пусты, будут отображаться как «Пусто» в вебхуке"
+    "showBlankFormFields": "Поля формы, которые пусты, будут отображаться как «Пусто» в вебхуке",
+    "accountKickedChannel": "Аккаунт исключён - канал",
+    "accountKickedMentions": "Аккаунт выгнан - Упоминания",
+    "accountBannedChannel": "Аккаунт заблокирован - Канал",
+    "accountBannedMentions": "Учетная запись заблокирована - Упоминания"
   },
   "DepartmentEditor": {
     "departmentManager": "Поля профиля не созданы... Создайте поля профиля в редакторе полей профиля в разделе Настройка",
@@ -3966,7 +4000,9 @@
     "addSection": "Параметры фона",
     "backgroundOptions": "Закрепить элемент в этом разделе",
     "triggerAnimations": "Запустить анимации",
-    "triggerAnimationsToPlay": "Запустить все анимации на этой странице."
+    "triggerAnimationsToPlay": "Запустить все анимации на этой странице.",
+    "elementsCannotBeMovedIntoARosterSection": "Элементы не могут быть перемещены в раздел перечня",
+    "elementsCannotBeDroppedIntoARosterSection": "Элементы нельзя перемещать в раздел списка"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Заполнить изображение",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Пример кнопки",
     "exampleButton": "Заголовок",
     "header": "Описание",
-    "description": "Стили группы кнопок"
+    "description": "Стили группы кнопок",
+    "exampleContent": "Пример содержимого"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Цвет кнопки",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Вставить серверные разрешения",
     "pasteServerPermissions": "Скопированные разрешения игрового сервера",
     "copiedGameServerPermissions": "Вставить разрешения игрового сервера",
-    "pasteGameServerPermissions": "Sonoran Servers - Привязать аккаунт"
+    "pasteGameServerPermissions": "Sonoran Servers - Привязать аккаунт",
+    "copiedERLCPermissions": "Скопированные разрешения ERLC",
+    "pasteERLCPermissions": "Вставить разрешения ERLC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Закрыть",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhook-канал",
     "webhookEmbedContent": "вебхукСодержимоеВстраивания",
     "webhookContentHint": "Подсказка содержимого вебхука"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "Уведомления о ранге",
+    "rankNotificationMessage": "уведомление о ранге",
+    "disciplinaryReason": "дисциплинарная причина"
   }
 }

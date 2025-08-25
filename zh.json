@@ -658,7 +658,9 @@
     "runCommand": "运行命令",
     "moderation": "管理",
     "anErrorOccuredWhileVerifyingUsernameTr": "用户名验证时发生错误：",
-    "usernamePassedVerificationTr": "用户名已通过验证！"
+    "usernamePassedVerificationTr": "用户名已通过验证！",
+    "addedRanks": "添加的职级",
+    "removedRanks": "已移除的职级"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "将您的权限和账户状态与 CAD、无线电和 TeamSpeak 同步。",
     "SonoranRadio": "Sonoran Radio",
     "radio": "广播",
-    "radioDesc": "使用 Sonoran CMS 自动化 Sonoran Radio 权限！"
+    "radioDesc": "使用 Sonoran CMS 自动化 Sonoran Radio 权限！",
+    "communityNotFound": "未找到社区",
+    "errorAnErrorOccuredWhileExecuting": "错误：执行时发生错误"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -964,7 +968,8 @@
     "temporary": "临时",
     "previousMembers": "以前的成员",
     "unban": "解除封禁",
-    "kickedMembers": "被踢出的成员"
+    "kickedMembers": "被踢出的成员",
+    "unarchive": "取消存档"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -1234,7 +1239,10 @@
     "month": "月份",
     "quarter": "季度",
     "year": "年",
-    "current": "当前"
+    "current": "当前",
+    "teams": "团队",
+    "hasRanks": "具有等级",
+    "doesNotHaveRanks": "没有等级"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "此表单已解锁，可进行新提交",
@@ -1521,7 +1529,18 @@
     "expiresAt": "过期时间：",
     "communityRank": "社区等级",
     "rankExpirationSettings": "等级过期设置",
-    "expirationTypes": "过期类型"
+    "expirationTypes": "过期类型",
+    "addedAfter": "在{length}{unit}后添加",
+    "addedAtSpecificTime": "根据表单问题答案在特定日期添加",
+    "removedAfter": "在 {length} {unit} 后移除",
+    "removedAtSpecificTime": "根据表单问题答案在特定日期移除",
+    "addRank": "添加等级",
+    "removeRank": "删除等级",
+    "afterASetPeriod": "设置延迟后",
+    "afterASpecificDate": "表单日期",
+    "basedOnADateFromAFormSubmission": "根据表单问题的日期",
+    "selectADateQuestion": "选择日期问题",
+    "noExpiration": "无到期"
   },
   "RankList": {
     "filterRanks": "筛选等级"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "了解更多关于 Sonoran CMS 如何成为您社区的单一管理点的信息。",
     "profile": "个人资料",
     "linkRoblox": "链接 Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "该社区使用Roblox集成！请链接您的Roblox以正确使用集成。"
+    "thisCommunityUsesRobloxIntegrationPleas": "该社区使用Roblox集成！请链接您的Roblox以正确使用集成。",
+    "downloadSonoranCmsDesktopApp": "下载 Sonoran CMS 桌面应用程序！",
+    "download": "下载",
+    "disciplinaryAction": "自动执行ELRC操作",
+    "erlcAction": "ELRC 自动操作",
+    "communityDeletion": "社区删除"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "来自社区发现的独特浏览次数",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "部门权限",
     "newDepartment": "新部门",
     "permissions": "权限",
-    "cosmetics": "装饰品"
+    "cosmetics": "装饰品",
+    "editGroup": "编辑组",
+    "newGroup": "新组",
+    "addANewGroup": "添加新组",
+    "groupName": "组名",
+    "newGroupName": "新组名称",
+    "groupPermissions": "组权限"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "个人资料字段教程",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "这可能需要几分钟，请稍候。",
     "linkedGuilds": "已链接的公会",
     "hideBlankFormFields": "在 webhook 中未显示的表单字段为空",
-    "showBlankFormFields": "在 webhook 中显示为 \"空白\" 的表单字段将为空白。"
+    "showBlankFormFields": "在 webhook 中显示为 \"空白\" 的表单字段将为空白。",
+    "accountKickedChannel": "账户已踢出 - 频道",
+    "accountKickedMentions": "帐户被踢出 - 提及",
+    "accountBannedChannel": "帐号已禁用 - 频道",
+    "accountBannedMentions": "帐户已封禁 - 提及"
   },
   "DepartmentEditor": {
     "departmentManager": "部门经理",
@@ -3966,7 +4000,9 @@
     "addSection": "添加部分",
     "backgroundOptions": "背景选项",
     "triggerAnimations": "触发动画",
-    "triggerAnimationsToPlay": "在此页面上触发所有动画播放。"
+    "triggerAnimationsToPlay": "在此页面上触发所有动画播放。",
+    "elementsCannotBeMovedIntoARosterSection": "元素无法移动到名册部分",
+    "elementsCannotBeDroppedIntoARosterSection": "元素无法放入花名册部分"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "将项目锁定到此部分",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "示例标题",
     "exampleButton": "示例按钮",
     "header": "页眉",
-    "description": "描述"
+    "description": "描述",
+    "exampleContent": "示例内容"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "按钮组样式",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "复制的服务器权限",
     "pasteServerPermissions": "粘贴服务器权限",
     "copiedGameServerPermissions": "复制的游戏服务器权限",
-    "pasteGameServerPermissions": "粘贴游戏服务器权限"
+    "pasteGameServerPermissions": "粘贴游戏服务器权限",
+    "copiedERLCPermissions": "复制的ERLC权限",
+    "pasteERLCPermissions": "粘贴ERLC权限"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran 服务器 - 关联账户",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "Webhook频道",
     "webhookEmbedContent": "webhook嵌入内容",
     "webhookContentHint": "Webhook 内容提示"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "等级通知等级",
+    "rankNotificationMessage": "排名通知消息",
+    "disciplinaryReason": "纪律原因"
   }
 }

@@ -658,7 +658,9 @@
     "runCommand": "Voer commando uit",
     "moderation": "Moderatie",
     "anErrorOccuredWhileVerifyingUsernameTr": "Er is een fout opgetreden bij het verifiëren van de gebruikersnaam: ",
-    "usernamePassedVerificationTr": "Gebruikersnaam is geslaagd voor verificatie!"
+    "usernamePassedVerificationTr": "Gebruikersnaam is geslaagd voor verificatie!",
+    "addedRanks": "Toegevoegde rangen",
+    "removedRanks": "Verwijderde rangen"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Synchroniseer je permissies en accountstatus met CAD, Radio en TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
-    "radioDesc": "Automatiseer Sonoran Radio-machtigingen met Sonoran CMS!"
+    "radioDesc": "Automatiseer Sonoran Radio-machtigingen met Sonoran CMS!",
+    "communityNotFound": "Community Niet Gevonden",
+    "errorAnErrorOccuredWhileExecuting": "Fout: Er is een fout opgetreden tijdens het uitvoeren"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -964,7 +968,8 @@
     "temporary": "Tijdelijk",
     "previousMembers": "Vorige Leden",
     "unban": "Deblokkeren ",
-    "kickedMembers": "Gekickte leden"
+    "kickedMembers": "Gekickte leden",
+    "unarchive": "Uit archief halen"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1234,7 +1239,10 @@
     "month": "Maand",
     "quarter": "Kwartaal",
     "year": "Jaar",
-    "current": "Huidig"
+    "current": "Huidig",
+    "teams": "Team(s)",
+    "hasRanks": "Heeft rang(en)",
+    "doesNotHaveRanks": "Heeft Geen Rang(en)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dit formulier is ontgrendeld voor nieuwe inzendingen",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Verloopt op:",
     "communityRank": "Gemeenschapsrang",
     "rankExpirationSettings": "Rang Verloopinstellingen",
-    "expirationTypes": "Verlooptypes"
+    "expirationTypes": "Verlooptypes",
+    "addedAfter": "Toegevoegd Na {length} {unit}",
+    "addedAtSpecificTime": "Toegevoegd op een specifieke datum op basis van antwoord op formulier vraag",
+    "removedAfter": "Verwijderd na {length} {unit}",
+    "removedAtSpecificTime": "Verwijderd op een specifieke datum op basis van het antwoord op de formulier vraag",
+    "addRank": "Rang toevoegen",
+    "removeRank": "Rang verwijderen",
+    "afterASetPeriod": "Na ingestelde vertraging",
+    "afterASpecificDate": "Op formulierdatum",
+    "basedOnADateFromAFormSubmission": "Gebaseerd op een datum van een formulier vraag",
+    "selectADateQuestion": "Een datumvraag selecteren",
+    "noExpiration": "Geen vervaldatum"
   },
   "RankList": {
     "filterRanks": "Filter Rangen"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Leer meer over hoe Sonoran CMS het enige beheerpunt van uw community kan zijn.",
     "profile": "Profiel",
     "linkRoblox": "Link Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Deze community gebruikt Roblox-integratie! Koppel je Roblox voor correct gebruik van de integratie."
+    "thisCommunityUsesRobloxIntegrationPleas": "Deze community gebruikt Roblox-integratie! Koppel je Roblox voor correct gebruik van de integratie.",
+    "downloadSonoranCmsDesktopApp": "Download de Sonoran CMS desktop app!",
+    "download": "Downloaden",
+    "disciplinaryAction": "ELRC Automatische Actie",
+    "erlcAction": "ELRC Automatische Actie",
+    "communityDeletion": "Gemeenschapsverwijdering"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Aantal unieke weergaven van Community Discovery",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Afdelingsmachtigingen",
     "newDepartment": "Nieuwe Afdeling",
     "permissions": "Machtigingen",
-    "cosmetics": "Cosmetica"
+    "cosmetics": "Cosmetica",
+    "editGroup": "Groep bewerken",
+    "newGroup": "Nieuwe Groep",
+    "addANewGroup": "Een nieuwe groep toevoegen",
+    "groupName": "Groepsnaam",
+    "newGroupName": "Nieuwe Groepsnaam",
+    "groupPermissions": "Groepsmachtigingen"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profielvelden Tutorial",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Dit kan een paar momenten duren, even geduld alstublieft.",
     "linkedGuilds": "Gekoppelde Guilds",
     "hideBlankFormFields": "Formuliervelden die leeg zijn, worden niet weergegeven in de webhook",
-    "showBlankFormFields": "Formuliervelden die leeg zijn, worden in de webhook als \"Leeg\" weergegeven"
+    "showBlankFormFields": "Formuliervelden die leeg zijn, worden in de webhook als \"Leeg\" weergegeven",
+    "accountKickedChannel": "Account Gekicked - Kanaal",
+    "accountKickedMentions": "Account Geschopt - Meldingen",
+    "accountBannedChannel": "Account Verboden - Kanaal",
+    "accountBannedMentions": "Account verbannen - Vermeldingen"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsmanager",
@@ -3966,7 +4000,9 @@
     "addSection": "Sectie toevoegen",
     "backgroundOptions": "Achtergrondopties",
     "triggerAnimations": "Activeren animaties",
-    "triggerAnimationsToPlay": "Voer alle animaties op deze pagina uit."
+    "triggerAnimationsToPlay": "Voer alle animaties op deze pagina uit.",
+    "elementsCannotBeMovedIntoARosterSection": "Elementen kunnen niet worden verplaatst naar een roostersectie",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementen kunnen niet in een roostersectie worden geplaatst"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Vergrendel item aan deze sectie",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Voorbeeld titel",
     "exampleButton": "Voorbeeld knop",
     "header": "Koptekst",
-    "description": "Beschrijving"
+    "description": "Beschrijving",
+    "exampleContent": "Voorbeeldinhoud"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Knop Groep Stijlen",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Gekopieerde Serverrechten",
     "pasteServerPermissions": "Plak Serverrechten",
     "copiedGameServerPermissions": "Gekopieerde Spelserverrechten",
-    "pasteGameServerPermissions": "Plak Spelserverrechten"
+    "pasteGameServerPermissions": "Plak Spelserverrechten",
+    "copiedERLCPermissions": "Gekopieerde ERLC-machtigingen",
+    "pasteERLCPermissions": "Plak ERLC Machtigingen"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Account Koppelen",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookKanaal",
     "webhookEmbedContent": "webhookEmbedInhoud",
     "webhookContentHint": "webhookinhoudhint"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "rangschikking\\[ \\\n",
+    "rankNotificationMessage": "rangmeldingsbericht",
+    "disciplinaryReason": "disciplinairReden"
   }
 }

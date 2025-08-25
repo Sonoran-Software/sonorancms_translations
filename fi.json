@@ -658,7 +658,9 @@
     "runCommand": "Suorita komento",
     "moderation": "Moderointi",
     "anErrorOccuredWhileVerifyingUsernameTr": "Virhe tapahtui käyttäjänimen vahvistamisen aikana:",
-    "usernamePassedVerificationTr": "Käyttäjänimi läpäisi tarkistuksen!"
+    "usernamePassedVerificationTr": "Käyttäjänimi läpäisi tarkistuksen!",
+    "addedRanks": "Lisätyt arvot",
+    "removedRanks": "Poistetut arvot"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Synkronoi käyttöoikeudet ja tilisi tila CAD:n, radion ja TeamSpeakin kanssa.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
-    "radioDesc": "Automatisoi Sonoran Radion käyttöoikeudet Sonoran CMS:llä!"
+    "radioDesc": "Automatisoi Sonoran Radion käyttöoikeudet Sonoran CMS:llä!",
+    "communityNotFound": "Yhteisöä ei löytynyt",
+    "errorAnErrorOccuredWhileExecuting": "Virhe: Suorittamisen aikana tapahtui virhe"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -964,7 +968,8 @@
     "temporary": "Väliaikainen",
     "previousMembers": "Edelliset jäsenet",
     "unban": "Unbannaa",
-    "kickedMembers": "Potkut Saaneet Jäsenet"
+    "kickedMembers": "Potkut Saaneet Jäsenet",
+    "unarchive": "Arkistoi"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -1234,7 +1239,10 @@
     "month": "Kuukausi",
     "quarter": "Vuosineljännes",
     "year": "Vuosi",
-    "current": "Nykyinen"
+    "current": "Nykyinen",
+    "teams": "Joukkue(et)",
+    "hasRanks": "On arvossa/arvoissa",
+    "doesNotHaveRanks": "Ei ole arvostelu(ja)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tämä lomake on avoinna uusille lähetyksille",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Vanhentuu:",
     "communityRank": "Yhteisön arvo",
     "rankExpirationSettings": "Arvon vanhentumisasetukset",
-    "expirationTypes": "Vanhentumistyypit"
+    "expirationTypes": "Vanhentumistyypit",
+    "addedAfter": "Lisätty {length} {unit} jälkeen",
+    "addedAtSpecificTime": "Lisätty tietynä päivämääränä lomakkeen kysymykseen annetun vastauksen perusteella",
+    "removedAfter": "Poistettiin {length} {unit} jälkeen",
+    "removedAtSpecificTime": "Poistettu tiettynä päivänä lomakkeen vastausten perusteella",
+    "addRank": "Lisää arvo",
+    "removeRank": "Poista arvo",
+    "afterASetPeriod": "Viiveen jälkeen asetettu",
+    "afterASpecificDate": "Lomakkeen päivämäärä",
+    "basedOnADateFromAFormSubmission": "Perustuu lomakekysymyksen päivämäärään",
+    "selectADateQuestion": "Valitse päivämääräkysymys",
+    "noExpiration": "Ei vanhene"
   },
   "RankList": {
     "filterRanks": "Suodata arvot"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lue lisää siitä, miten Sonoran CMS voi olla yhteisösi ainoa hallintapiste.",
     "profile": "Profiili",
     "linkRoblox": "Linkitä Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Tämä yhteisö käyttää Roblox-integraatiota! Linkitä Roblox-tilisi integroitumisen varmistamiseksi."
+    "thisCommunityUsesRobloxIntegrationPleas": "Tämä yhteisö käyttää Roblox-integraatiota! Linkitä Roblox-tilisi integroitumisen varmistamiseksi.",
+    "downloadSonoranCmsDesktopApp": "Lataa Sonoran CMS -työpöytäsovellus!",
+    "download": "Lataa",
+    "disciplinaryAction": "ELRC Automaattinen Toiminta",
+    "erlcAction": "ELRC Automaattinen Toiminto",
+    "communityDeletion": "Yhteisön poistaminen"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Yhteisön löytämisestä saadut yksilölliset katselukerrat",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Osaston oikeudet",
     "newDepartment": "Uusi osasto",
     "permissions": "Oikeudet",
-    "cosmetics": "Kosmetiikka"
+    "cosmetics": "Kosmetiikka",
+    "editGroup": "Muokkaa ryhmää",
+    "newGroup": "Uusi ryhmä",
+    "addANewGroup": "Lisää uusi ryhmä",
+    "groupName": "Ryhmä nimi",
+    "newGroupName": "Uuden ryhmän nimi",
+    "groupPermissions": "Ryhmän käyttöoikeudet"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profiilikenttien opas",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Tämä saattaa kestää hetken, ole hyvä ja odota.",
     "linkedGuilds": "Linkitetyt killat",
     "hideBlankFormFields": "Lomakekentät, jotka ovat tyhjiä, eivät näy webhookissa",
-    "showBlankFormFields": "Lomakekentät, jotka ovat tyhjiä, näytetään webhookissa sanalla \"Tyhjä\""
+    "showBlankFormFields": "Lomakekentät, jotka ovat tyhjiä, näytetään webhookissa sanalla \"Tyhjä\"",
+    "accountKickedChannel": "Tili poistettu - Kanava",
+    "accountKickedMentions": "Tili potkaistu - Maininnat",
+    "accountBannedChannel": "Tilin esto - Kanava",
+    "accountBannedMentions": "Aiheeseen liittyvät tilit estetty"
   },
   "DepartmentEditor": {
     "departmentManager": "Osaston johtaja",
@@ -3966,7 +4000,9 @@
     "addSection": "Lisää osio",
     "backgroundOptions": "Tausta-asetukset",
     "triggerAnimations": "Laukaise Animaatiot",
-    "triggerAnimationsToPlay": "Käynnistä kaikki animaatiot tälle sivulle."
+    "triggerAnimationsToPlay": "Käynnistä kaikki animaatiot tälle sivulle.",
+    "elementsCannotBeMovedIntoARosterSection": "Elementtejä ei voida siirtää ryhmäsarakkeeseen",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementtejä ei voi pudottaa kokoonpanokohtaan"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lukitse kohde tähän osioon",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Esimerkkiotsikko",
     "exampleButton": "Esimerkkipainike",
     "header": "Ylätunniste",
-    "description": "Kuvaus"
+    "description": "Kuvaus",
+    "exampleContent": "Esimerkkisisältö"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Painikeryhmän tyylit",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Kopioidut palvelinoikeudet",
     "pasteServerPermissions": "Liitä palvelinoikeudet",
     "copiedGameServerPermissions": "Kopioidut pelipalvelinoikeudet",
-    "pasteGameServerPermissions": "Liitä pelipalvelinoikeudet"
+    "pasteGameServerPermissions": "Liitä pelipalvelinoikeudet",
+    "copiedERLCPermissions": "Kopioitu ERLC-oikeudet",
+    "pasteERLCPermissions": "Liitä ERLC-käyttöoikeudet"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Linkitä tili",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhook-kanava",
     "webhookEmbedContent": "webhookUpotusSisältö",
     "webhookContentHint": "webhookin sisällön vihje"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "Rankat",
+    "rankNotificationMessage": "asemaviesti",
+    "disciplinaryReason": "kurinpidollinen syy"
   }
 }

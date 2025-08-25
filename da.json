@@ -658,7 +658,9 @@
     "runCommand": "Kør kommando",
     "moderation": "Moderation",
     "anErrorOccuredWhileVerifyingUsernameTr": "Der opstod en fejl under verificeringen af brugernavn:",
-    "usernamePassedVerificationTr": "Brugernavn bestod verifikation!"
+    "usernamePassedVerificationTr": "Brugernavn bestod verifikation!",
+    "addedRanks": "Tilføjede rangordninger",
+    "removedRanks": "Fjernede Rangeringer"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "Synkroniser dine tilladelser og kontostatus med CAD, Radio og TeamSpeak.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "Radio",
-    "radioDesc": "Automatiser Sonoran Radio tilladelser med Sonoran CMS!"
+    "radioDesc": "Automatiser Sonoran Radio tilladelser med Sonoran CMS!",
+    "communityNotFound": "Fællesskab ikke fundet",
+    "errorAnErrorOccuredWhileExecuting": "Fejl: Der opstod en fejl under udførelsen"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brugerkonti Vejledning",
@@ -964,7 +968,8 @@
     "temporary": "Midlertidig",
     "previousMembers": "Tidligere medlemmer",
     "unban": "Ophæv forbud",
-    "kickedMembers": "Udelte medlemmer"
+    "kickedMembers": "Udelte medlemmer",
+    "unarchive": "Hent fra arkiv"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1234,7 +1239,10 @@
     "month": "Måned",
     "quarter": "Kvartal",
     "year": "År",
-    "current": "Nuværende"
+    "current": "Nuværende",
+    "teams": "Hold(s)",
+    "hasRanks": "Har rang(er)",
+    "doesNotHaveRanks": "Har Ikke Rang(er)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Denne formular er ulåst for nye indsendelser",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Udløber på:",
     "communityRank": "Fællesskabsrang",
     "rankExpirationSettings": "Rangudløbsindstillinger",
-    "expirationTypes": "Udløbstyper"
+    "expirationTypes": "Udløbstyper",
+    "addedAfter": "Tilføjet efter {length} {unit}",
+    "addedAtSpecificTime": "Tilføjet på en bestemt dato baseret på svar på formularspørgsmålet",
+    "removedAfter": "Fjernet efter {length} {unit}",
+    "removedAtSpecificTime": "Fjernet på en bestemt dato baseret på svaret på formularspørgsmålet",
+    "addRank": "Tilføj Rang",
+    "removeRank": "Fjern Rang",
+    "afterASetPeriod": "Efter indstillet forsinkelse",
+    "afterASpecificDate": "På formularens dato",
+    "basedOnADateFromAFormSubmission": "Baseret på en dato fra et formularspørgsmål",
+    "selectADateQuestion": "Vælg et datospørgsmål",
+    "noExpiration": "Ingen udløbsdato"
   },
   "RankList": {
     "filterRanks": "Filtrer rangeringer"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Lær mere om, hvordan Sonoran CMS kan være dit fællesskabs eneste administrationspunkt.",
     "profile": "Profil",
     "linkRoblox": "Link Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "Denne community bruger Roblox-integration! Venligst tilknyt din Roblox for korrekt integrationsbrug."
+    "thisCommunityUsesRobloxIntegrationPleas": "Denne community bruger Roblox-integration! Venligst tilknyt din Roblox for korrekt integrationsbrug.",
+    "downloadSonoranCmsDesktopApp": "Download Sonoran CMS desktop app!",
+    "download": "Download",
+    "disciplinaryAction": "ELRC Automatisk Handling",
+    "erlcAction": "ELRC automatisk handling",
+    "communityDeletion": "Fællesskab Sletning"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antal unikke visninger fra Community Discovery",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Afdelings Tilladelser",
     "newDepartment": "Ny Afdeling",
     "permissions": "Tilladelser",
-    "cosmetics": "Kosmetik"
+    "cosmetics": "Kosmetik",
+    "editGroup": "Rediger Gruppe",
+    "newGroup": "Ny gruppe",
+    "addANewGroup": "Tilføj en ny gruppe",
+    "groupName": "Gruppenavn",
+    "newGroupName": "Nyt gruppenavn",
+    "groupPermissions": "Gruppe Tilladelser"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Felter Vejledning",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Dette kan tage et par øjeblikke, vent venligst.",
     "linkedGuilds": "Linkede Guilds",
     "hideBlankFormFields": "Formularfelter, der er tomme, vises ikke i webhooken",
-    "showBlankFormFields": "Formularfelter, der er tomme, vil blive vist som \"Blank\" i webhooken"
+    "showBlankFormFields": "Formularfelter, der er tomme, vil blive vist som \"Blank\" i webhooken",
+    "accountKickedChannel": "Konto smidt ud - Kanal",
+    "accountKickedMentions": "Konto sparket - mentions",
+    "accountBannedChannel": "Konto Bannet - Kanal",
+    "accountBannedMentions": "Konto udelukket - Omtaler"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsleder",
@@ -3966,7 +4000,9 @@
     "addSection": "Tilføj Sektion",
     "backgroundOptions": "Baggrundsindstillinger",
     "triggerAnimations": "Udløs animationer",
-    "triggerAnimationsToPlay": "Afspil alle animationer på denne side."
+    "triggerAnimationsToPlay": "Afspil alle animationer på denne side.",
+    "elementsCannotBeMovedIntoARosterSection": "Elementer kan ikke flyttes til en liste sektion",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementer kan ikke droppes i en roster-sektion"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Lås element til denne sektion",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Eksempel titel",
     "exampleButton": "Eksempel knap",
     "header": "Header",
-    "description": "Beskrivelse"
+    "description": "Beskrivelse",
+    "exampleContent": "Eksempelindhold"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Knapgruppe Stile",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Kopierede Servertilladelser",
     "pasteServerPermissions": "Indsæt Servertilladelser",
     "copiedGameServerPermissions": "Kopierede Spilservertilladelser",
-    "pasteGameServerPermissions": "Indsæt Spilservertilladelser"
+    "pasteGameServerPermissions": "Indsæt Spilservertilladelser",
+    "copiedERLCPermissions": "Kopierede ERLC-tilladelser",
+    "pasteERLCPermissions": "Indsæt ERLC-tilladelser"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Link Konto",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhookIndlejringIndhold",
     "webhookContentHint": "webhookindholdstip"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "Rangmeddelelsesrækker",
+    "rankNotificationMessage": "rangadvarselsmeddelelse",
+    "disciplinaryReason": "disciplinær grund"
   }
 }

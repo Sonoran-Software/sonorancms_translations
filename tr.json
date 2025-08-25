@@ -658,7 +658,9 @@
     "runCommand": "Komutu Çalıştır",
     "moderation": "Moderatörlük",
     "anErrorOccuredWhileVerifyingUsernameTr": "Kullanıcı adı doğrulanırken bir hata oluştu:",
-    "usernamePassedVerificationTr": "Kullanıcı adı doğrulamayı geçti!"
+    "usernamePassedVerificationTr": "Kullanıcı adı doğrulamayı geçti!",
+    "addedRanks": "Eklenen Rütbeler",
+    "removedRanks": "Kaldırılan Rütbeler"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "CAD, Radyo ve TeamSpeak ile izinlerinizi ve hesap durumunuzu senkronize edin.",
     "SonoranRadio": "Sonoran Radyo",
     "radio": "Radyo",
-    "radioDesc": "Sonoran Radio izinlerini Sonoran CMS ile otomatikleştirin!"
+    "radioDesc": "Sonoran Radio izinlerini Sonoran CMS ile otomatikleştirin!",
+    "communityNotFound": "Topluluk Bulunamadı",
+    "errorAnErrorOccuredWhileExecuting": "Hata: Yürütme sırasında bir hata oluştu"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -964,7 +968,8 @@
     "temporary": "Geçici",
     "previousMembers": "Önceki Üyeler",
     "unban": "Yasağı Kaldır",
-    "kickedMembers": "Atılan Üyeler"
+    "kickedMembers": "Atılan Üyeler",
+    "unarchive": "Arşivden çıkar"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -1234,7 +1239,10 @@
     "month": "Ay",
     "quarter": "Çeyrek",
     "year": "Yıl",
-    "current": "Güncel"
+    "current": "Güncel",
+    "teams": "Takım(lar)",
+    "hasRanks": "Rütbesi Var",
+    "doesNotHaveRanks": "Rütbesi Yok"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Bu form yeni gönderimler için kilidi açılmıştır",
@@ -1521,7 +1529,18 @@
     "expiresAt": "Sona Erme Tarihi:",
     "communityRank": "Topluluk Rütbesi",
     "rankExpirationSettings": "Rütbe Sona Erme Ayarları",
-    "expirationTypes": "Sona Erme Türleri"
+    "expirationTypes": "Sona Erme Türleri",
+    "addedAfter": "{length} {unit} sonra eklendi",
+    "addedAtSpecificTime": "Belirli bir tarihte form sorusu yanıtına göre eklendi",
+    "removedAfter": "{length} {unit} sonra kaldırıldı",
+    "removedAtSpecificTime": "Form yanıtına göre belirli bir tarihte kaldırıldı",
+    "addRank": "Rütbe Ekle",
+    "removeRank": "Rütbeyi Kaldır",
+    "afterASetPeriod": "Gecikmeden Sonra Ayarla",
+    "afterASpecificDate": "Form Tarihi Üzerinde",
+    "basedOnADateFromAFormSubmission": "Bir form sorusundan alınan tarihe göre",
+    "selectADateQuestion": "Bir tarih sorusu seçin",
+    "noExpiration": "Süresiz"
   },
   "RankList": {
     "filterRanks": "Rütbeleri Filtrele"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "Sonoran CMS'in topluluğunuzun tek yönetim noktası olabileceği hakkında daha fazla bilgi edinin.",
     "profile": "Profil",
     "linkRoblox": "Roblox'u Bağla",
-    "thisCommunityUsesRobloxIntegrationPleas": "Bu topluluk Roblox Entegrasyonu kullanıyor! Doğru entegrasyon kullanımı için lütfen Roblox hesabınızı bağlayın."
+    "thisCommunityUsesRobloxIntegrationPleas": "Bu topluluk Roblox Entegrasyonu kullanıyor! Doğru entegrasyon kullanımı için lütfen Roblox hesabınızı bağlayın.",
+    "downloadSonoranCmsDesktopApp": "Sonoran CMS masaüstü uygulamasını indirin!",
+    "download": "İndir",
+    "disciplinaryAction": "ELRC Otomatik Eylem",
+    "erlcAction": "ELRC Otomatik İşlem",
+    "communityDeletion": "Topluluk Silme"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Topluluk Keşfi'nden gelen benzersiz görüntüleme sayısı",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "Departman İzinleri",
     "newDepartment": "Yeni Departman",
     "permissions": "İzinler",
-    "cosmetics": "Kozmetikler"
+    "cosmetics": "Kozmetikler",
+    "editGroup": "Grubu Düzenle",
+    "newGroup": "Yeni Grup",
+    "addANewGroup": "Yeni bir grup ekle",
+    "groupName": "Grup Adı",
+    "newGroupName": "Yeni Grup Adı",
+    "groupPermissions": "Grup İzinleri"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Alanları Eğitimi",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "Bu birkaç dakika sürebilir, lütfen bekleyin.",
     "linkedGuilds": "Bağlı Sunucular",
     "hideBlankFormFields": "Webhook'ta boş olan form alanları gösterilmez.",
-    "showBlankFormFields": "Webhook'ta boş olan form alanları \"Boş\" olarak gösterilecektir."
+    "showBlankFormFields": "Webhook'ta boş olan form alanları \"Boş\" olarak gösterilecektir.",
+    "accountKickedChannel": "Hesap Atıldı - Kanal",
+    "accountKickedMentions": "Hesap Atıldı - Bahisler",
+    "accountBannedChannel": "Hesap Yasaklandı - Kanal",
+    "accountBannedMentions": "Hesap Yasaklandı - Bahisler"
   },
   "DepartmentEditor": {
     "departmentManager": "Departman Yöneticisi",
@@ -3966,7 +4000,9 @@
     "addSection": "Bölüm Ekle",
     "backgroundOptions": "Arka Plan Seçenekleri",
     "triggerAnimations": "Animasyonları Tetikle",
-    "triggerAnimationsToPlay": "Bu sayfadaki tüm animasyonları tetikle."
+    "triggerAnimationsToPlay": "Bu sayfadaki tüm animasyonları tetikle.",
+    "elementsCannotBeMovedIntoARosterSection": "Öğeler bir kadro bölümüne taşınamaz.",
+    "elementsCannotBeDroppedIntoARosterSection": "Öğeler bir kadro bölümüne bırakılamaz"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Öğeyi bu bölüme kilitle",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "Örnek başlık",
     "exampleButton": "Örnek buton",
     "header": "Başlık",
-    "description": "Açıklama"
+    "description": "Açıklama",
+    "exampleContent": "Örnek İçerik"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Buton Grubu Stilleri",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "Sunucu İzinleri Kopyalandı",
     "pasteServerPermissions": "Sunucu İzinlerini Yapıştır",
     "copiedGameServerPermissions": "Oyun Sunucusu İzinleri Kopyalandı",
-    "pasteGameServerPermissions": "Oyun Sunucusu İzinlerini Yapıştır"
+    "pasteGameServerPermissions": "Oyun Sunucusu İzinlerini Yapıştır",
+    "copiedERLCPermissions": "ERLC İzinleri Kopyalandı",
+    "pasteERLCPermissions": "ERLC İzinlerini Yapıştır"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Sunucuları - Hesap Bağla",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhookGömülüİçerik",
     "webhookContentHint": "Webhook içeriği önerisi"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "Rütbe Bildirim Rütbeleri",
+    "rankNotificationMessage": "Rütbe bildirimi mesajı",
+    "disciplinaryReason": "Disiplin Nedeni"
   }
 }

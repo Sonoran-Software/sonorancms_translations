@@ -658,7 +658,9 @@
     "runCommand": "명령 실행",
     "moderation": "모더레이션",
     "anErrorOccuredWhileVerifyingUsernameTr": "사용자 이름을 확인하는 동안 오류가 발생했습니다: ",
-    "usernamePassedVerificationTr": "사용자 이름이 검증을 통과했습니다!"
+    "usernamePassedVerificationTr": "사용자 이름이 검증을 통과했습니다!",
+    "addedRanks": "계급 추가됨",
+    "removedRanks": "제거된 등급"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "CAD, 라디오 및 TeamSpeak과(와) 권한 및 계정 상태를 동기화하세요.",
     "SonoranRadio": "Sonoran Radio",
     "radio": "라디오",
-    "radioDesc": "Sonoran CMS로 Sonoran Radio 권한을 자동화하세요!"
+    "radioDesc": "Sonoran CMS로 Sonoran Radio 권한을 자동화하세요!",
+    "communityNotFound": "커뮤니티를 찾을 수 없습니다.",
+    "errorAnErrorOccuredWhileExecuting": "오류: 실행 중 오류가 발생했습니다."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "사용자 계정 사용 방법 배우기",
@@ -964,7 +968,8 @@
     "temporary": "임시",
     "previousMembers": "이전 회원들",
     "unban": "언밴",
-    "kickedMembers": "추방된 회원"
+    "kickedMembers": "추방된 회원",
+    "unarchive": "보관 해제"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -1234,7 +1239,10 @@
     "month": "월",
     "quarter": "분기",
     "year": "연도",
-    "current": "현재"
+    "current": "현재",
+    "teams": "팀",
+    "hasRanks": "등급 있음",
+    "doesNotHaveRanks": "등급 없음"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "이 양식은 새로운 제출이 불가능합니다",
@@ -1521,7 +1529,18 @@
     "expiresAt": "커뮤니티 랭크",
     "communityRank": "랭크 만료 설정",
     "rankExpirationSettings": "만료 유형",
-    "expirationTypes": "랭크 필터"
+    "expirationTypes": "랭크 필터",
+    "addedAfter": "{length} {unit} 후에 추가됨",
+    "addedAtSpecificTime": "양식 질문 응답을 기준으로 특정 날짜에 추가됨",
+    "removedAfter": "{length} {unit} 후 제거됨",
+    "removedAtSpecificTime": "양식 질문 응답에 따라 특정 날짜에 제거됨",
+    "addRank": "계급 추가",
+    "removeRank": "계급 제거",
+    "afterASetPeriod": "설정 후 지연",
+    "afterASpecificDate": "양식 날짜에",
+    "basedOnADateFromAFormSubmission": "양식 질문의 날짜를 기준으로",
+    "selectADateQuestion": "날짜 질문 선택",
+    "noExpiration": "만료되지 않음"
   },
   "RankList": {
     "filterRanks": "닫기"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "프로필",
     "profile": "커뮤니티 디스커버리에서의 고유 조회수",
     "linkRoblox": "로블록스 연결",
-    "thisCommunityUsesRobloxIntegrationPleas": "이 커뮤니티는 Roblox 통합을 사용합니다! 적절한 통합 사용을 위해 Roblox를 연결해 주세요."
+    "thisCommunityUsesRobloxIntegrationPleas": "이 커뮤니티는 Roblox 통합을 사용합니다! 적절한 통합 사용을 위해 Roblox를 연결해 주세요.",
+    "downloadSonoranCmsDesktopApp": "소노란 CMS 데스크톱 앱을 다운로드하세요!",
+    "download": "다운로드",
+    "disciplinaryAction": "ELRC 자동 작업",
+    "erlcAction": "ELRC 자동 조치",
+    "communityDeletion": "커뮤니티 삭제"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "커뮤니티 디스커버리에서 커뮤니티 페이지를 방문한 고유 사용자 수",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "권한",
     "newDepartment": "화장품",
     "permissions": "프로필 필드 튜토리얼",
-    "cosmetics": "프로필 필드 사용 방법 배우기"
+    "cosmetics": "프로필 필드 사용 방법 배우기",
+    "editGroup": "그룹 편집",
+    "newGroup": "새 그룹",
+    "addANewGroup": "새 그룹 추가",
+    "groupName": "그룹 이름",
+    "newGroupName": "새 그룹 이름",
+    "groupPermissions": "그룹 권한"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "프로필 필드 문서",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "부서 관리자",
     "linkedGuilds": "생성된 프로필 필드가 없습니다... 사용자 정의 프로필 필드 편집기에서 프로필 필드를 생성하세요.",
     "hideBlankFormFields": "웹훅에 표시되지 않는 빈 양식 필드",
-    "showBlankFormFields": "웹훅에서 \"공백\"으로 표시됩니다."
+    "showBlankFormFields": "웹훅에서 \"공백\"으로 표시됩니다.",
+    "accountKickedChannel": "계정 강퇴 - 채널",
+    "accountKickedMentions": "계정 강제 퇴장 - 언급",
+    "accountBannedChannel": "계정 차단 - 채널",
+    "accountBannedMentions": "계정 금지 - 언급"
   },
   "DepartmentEditor": {
     "departmentManager": "생성된 비공개 페이지가 없습니다. 비공개 보기 유형으로 설정된 페이지에 대해서만 권한을 관리할 수 있습니다.",
@@ -3966,7 +4000,9 @@
     "addSection": "이 섹션에 항목 잠금",
     "backgroundOptions": "이미지 채우기",
     "triggerAnimations": "애니메이션 트리거",
-    "triggerAnimationsToPlay": "이 페이지에서 모든 애니메이션 재생을 트리거합니다."
+    "triggerAnimationsToPlay": "이 페이지에서 모든 애니메이션 재생을 트리거합니다.",
+    "elementsCannotBeMovedIntoARosterSection": "요소를 명단 섹션으로 이동할 수 없습니다",
+    "elementsCannotBeDroppedIntoARosterSection": "요소는 명단 섹션에 드롭할 수 없습니다."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "잠금을 해제하여 다른 섹션으로 항목 드래그",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "헤더",
     "exampleButton": "설명",
     "header": "버튼 그룹 스타일",
-    "description": "버튼 색상"
+    "description": "버튼 색상",
+    "exampleContent": "예시 콘텐츠"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "텍스트 색상",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "게임 서버 권한 복사됨",
     "pasteServerPermissions": "게임 서버 권한 붙여넣기",
     "copiedGameServerPermissions": "Sonoran 서버 - 계정 연결",
-    "pasteGameServerPermissions": "닫기"
+    "pasteGameServerPermissions": "닫기",
+    "copiedERLCPermissions": "ERLC 권한 복사됨",
+    "pasteERLCPermissions": "ERLC 권한 붙여넣기"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "이메일",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "웹훅 채널",
     "webhookEmbedContent": "웹훅 임베드 내용",
     "webhookContentHint": "웹훅 콘텐츠 힌트"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "랭크",
+    "rankNotificationMessage": "랭크 알림 메시지",
+    "disciplinaryReason": "징계 사유"
   }
 }

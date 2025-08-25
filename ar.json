@@ -658,7 +658,9 @@
     "runCommand": "تشغيل الأمر",
     "moderation": "الإشراف",
     "anErrorOccuredWhileVerifyingUsernameTr": "حدث خطأ أثناء التحقق من اسم المستخدم:",
-    "usernamePassedVerificationTr": "!اسم المستخدم اجتاز التحقق"
+    "usernamePassedVerificationTr": "!اسم المستخدم اجتاز التحقق",
+    "addedRanks": "الرتب المضافة",
+    "removedRanks": "الرتب المحذوفة"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -811,7 +813,9 @@
     "syncYourPermissionsAndAccountStatus": "زامن صلاحياتك وحالة حسابك مع نظام إدارة الطلبات، والراديو، وTeamSpeak.",
     "SonoranRadio": "سونوران راديو",
     "radio": "راديو",
-    "radioDesc": "أتمت أذونات Sonoran Radio باستخدام Sonoran CMS!"
+    "radioDesc": "أتمت أذونات Sonoran Radio باستخدام Sonoran CMS!",
+    "communityNotFound": "المجتمع غير موجود",
+    "errorAnErrorOccuredWhileExecuting": "خطأ: حدث خطأ أثناء التنفيذ"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -964,7 +968,8 @@
     "temporary": "مؤقت",
     "previousMembers": "الأعضاء السابقون",
     "unban": "رفع الحظر",
-    "kickedMembers": "المستخدمون المطرودون"
+    "kickedMembers": "المستخدمون المطرودون",
+    "unarchive": "إلغاء الأرشفة"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -1234,7 +1239,10 @@
     "month": "شهر",
     "quarter": "ربع",
     "year": "سنة",
-    "current": "الحالي"
+    "current": "الحالي",
+    "teams": "فريق(فرق)",
+    "hasRanks": "يوجد رتبة (رتب)",
+    "doesNotHaveRanks": "لا يمتلك رتبة/رتب"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "هذا النموذج مفتوح لتقديمات جديدة",
@@ -1521,7 +1529,18 @@
     "expiresAt": "ينتهي في:",
     "communityRank": "رتبة المجتمع",
     "rankExpirationSettings": "إعدادات انتهاء صلاحية الرتبة",
-    "expirationTypes": "أنواع انتهاء الصلاحية"
+    "expirationTypes": "أنواع انتهاء الصلاحية",
+    "addedAfter": "تضاف بعد {length} {unit}",
+    "addedAtSpecificTime": "تمت الإضافة في تاريخ محدد بناءً على إجابة سؤال النموذج",
+    "removedAfter": "تمت الإزالة بعد {length} {unit}",
+    "removedAtSpecificTime": "تمت إزالته في تاريخ محدد بناءً على إجابة سؤال النموذج",
+    "addRank": "إضافة رتبة",
+    "removeRank": "إزالة الرتبة",
+    "afterASetPeriod": "بعد تعيين التأخير",
+    "afterASpecificDate": "تاريخ الاستمارة",
+    "basedOnADateFromAFormSubmission": "استنادًا إلى تاريخ من سؤال نموذج",
+    "selectADateQuestion": "اختر سؤال التاريخ",
+    "noExpiration": "لا انتهاء"
   },
   "RankList": {
     "filterRanks": "تصفية الرتب"
@@ -1797,7 +1816,12 @@
     "learnMoreAboutHowSonoranCmsCanBeYourComm": "تعرف على المزيد حول كيفية أن يكون Sonoran CMS نقطة الإدارة الوحيدة لمجتمعك.",
     "profile": "الملف الشخصي",
     "linkRoblox": "رابط Roblox",
-    "thisCommunityUsesRobloxIntegrationPleas": "هذه المجتمع يستخدم تكامل Roblox! يرجى ربط حساب Roblox الخاص بك لاستخدام التكامل بشكل صحيح."
+    "thisCommunityUsesRobloxIntegrationPleas": "هذه المجتمع يستخدم تكامل Roblox! يرجى ربط حساب Roblox الخاص بك لاستخدام التكامل بشكل صحيح.",
+    "downloadSonoranCmsDesktopApp": "قم بتنزيل تطبيق سطح المكتب Sonoran CMS!",
+    "download": "تحميل",
+    "disciplinaryAction": "إجراء تلقائي ELRC",
+    "erlcAction": "الإجراء التلقائي ELRC",
+    "communityDeletion": "حذف المجتمع"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "عدد المشاهدات الفريدة من اكتشاف المجتمع",
@@ -3016,7 +3040,13 @@
     "departmentPermissions": "أذونات القسم",
     "newDepartment": "قسم جديد",
     "permissions": "الأذونات",
-    "cosmetics": "مستحضرات التجميل"
+    "cosmetics": "مستحضرات التجميل",
+    "editGroup": "تحرير المجموعة",
+    "newGroup": "مجموعة جديدة",
+    "addANewGroup": "أضف مجموعة جديدة",
+    "groupName": "اسم المجموعة",
+    "newGroupName": "اسم المجموعة الجديدة",
+    "groupPermissions": "أذونات المجموعة"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "دليل حقول الملف الشخصي",
@@ -3294,7 +3324,11 @@
     "thisMayTakeAFewMomentsPleaseWait": "قد يستغرق هذا بضع لحظات، يرجى الانتظار.",
     "linkedGuilds": "الخوادم المرتبطة",
     "hideBlankFormFields": "النماذج الفارغة لا تظهر في الوابهوك",
-    "showBlankFormFields": "سيتم عرض حقول النموذج التي تترك فارغة على أنها \"فارغ\" في الويب هوك"
+    "showBlankFormFields": "سيتم عرض حقول النموذج التي تترك فارغة على أنها \"فارغ\" في الويب هوك",
+    "accountKickedChannel": "الحساب طُرِد - قناة",
+    "accountKickedMentions": "الحساب مطرود - الإشعارات",
+    "accountBannedChannel": "حساب محظور - القناة",
+    "accountBannedMentions": "الحساب محظور - الإشعارات"
   },
   "DepartmentEditor": {
     "departmentManager": "مدير القسم",
@@ -3966,7 +4000,9 @@
     "addSection": "إضافة قسم",
     "backgroundOptions": "خيارات الخلفية",
     "triggerAnimations": "تشغيل الحركات",
-    "triggerAnimationsToPlay": "قم بتشغيل جميع الرسوم المتحركة على هذه الصفحة."
+    "triggerAnimationsToPlay": "قم بتشغيل جميع الرسوم المتحركة على هذه الصفحة.",
+    "elementsCannotBeMovedIntoARosterSection": "لا يمكن نقل العناصر إلى قسم الجدول",
+    "elementsCannotBeDroppedIntoARosterSection": "لا يمكن إسقاط العناصر في قسم القائمة"
   },
   "ElementWrapper": {
     "lockItemToThisSection": "قفل العنصر في هذا القسم",
@@ -4107,7 +4143,8 @@
     "exampleTitle": "عنوان المثال",
     "exampleButton": "زر المثال",
     "header": "رأس",
-    "description": "وصف"
+    "description": "وصف",
+    "exampleContent": "مثال على المحتوى"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "أنماط مجموعة الأزرار",
@@ -4153,7 +4190,9 @@
     "copiedServerPermissions": "نسخ أذونات الخادم",
     "pasteServerPermissions": "لصق أذونات الخادم",
     "copiedGameServerPermissions": "نسخ أذونات خادم اللعبة",
-    "pasteGameServerPermissions": "لصق أذونات خادم اللعبة"
+    "pasteGameServerPermissions": "لصق أذونات خادم اللعبة",
+    "copiedERLCPermissions": "نسخ الأذونات ERLC",
+    "pasteERLCPermissions": "الصق أذونات ERLC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "خوادم سونوران - ربط الحساب",
@@ -4583,5 +4622,10 @@
     "webhookChannel": "webhookChannel",
     "webhookEmbedContent": "محتوى تضمين الويب هوك",
     "webhookContentHint": "إدراج محتوى بنص أو JSON لمعالجة الطلب الخاص بك"
+  },
+  "ERLCActionEditor": {
+    "rankNotificationRanks": "رتب الإشعارات",
+    "rankNotificationMessage": "رسالة إشعار الرتبة",
+    "disciplinaryReason": "سبب تأديبي"
   }
 }
