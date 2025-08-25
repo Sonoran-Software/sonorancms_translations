@@ -1227,9 +1227,11 @@
   "FormEditSelector": {
     "Ok": "Ok",
     "Cancel": "Cancel",
+    "foldersTitle": "Folders",
+    "formsTitle": "Forms",
     "thisFormIsUnlockedForNewSubmissions": "This form is unlocked for new Submissions",
     "thisFormIsLockedFromNewSubmissions": "This form is locked from new submissions",
-    "addANewForm": "Add a New Form",
+    "addANewForm": "Add New Form",
     "delete": "Delete",
     "rename": "Rename",
     "duplicate": "Duplicate",
