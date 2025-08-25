@@ -2494,10 +2494,10 @@
     "actions": "Actions"
   },
   "Whitelist": {
-    "allSelectedRanksWillBeAbleToAccessThisSe": "All selected ranks will be able to access this server",
+    "allSelectedRanksWillBeAbleToAccessThisSe": "All selected ranks will be able to access this server.",
     "allowList": "Allow List",
     "theRanksSelectedHereWillNotBeAllowedToAc": "The ranks selected here will not be allowed to access this server.",
-    "thisListTakesPrecedenceOverTheAllowList": "This list takes precedence over the allow list",
+    "thisListTakesPrecedenceOverTheAllowList": "This list takes precedence over the allow list.",
     "sonoranCmsCoreResourceIsOutofdatePleaseU": "Sonoran CMS Core resource is out-of-date, please update it immediately through auto-updating or manually downloading the latest version. This portion of the panel is unusable with the current running version.",
     "loadingData": "Loading Data",
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data."
@@ -3024,6 +3024,7 @@
     "someonewhoHasHigherRankPower": "someonewho has higher rank power.",
     "edit": "Edit",
     "departmentPermissions": "Department Permissions",
+    "groupPermissions": "Group Permissions",
     "newDepartment": "New Department",
     "permissions": "Permissions",
     "cosmetics": "Cosmetics"
