@@ -645,7 +645,9 @@
     "fivemHosting": "FiveM Hosting",
     "settings": "Settings",
     "anErrorOccuredWhileVerifyingUsernameTr": "An error occured while verifying username: ",
-    "usernamePassedVerificationTr": "Username passed verification!"
+    "usernamePassedVerificationTr": "Username passed verification!",
+    "addedRanks": "Added Ranks",
+    "removedRanks": "Removed Ranks"
   },
   "Dashboard": {
     "resync": "Resync",
