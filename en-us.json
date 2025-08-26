@@ -191,11 +191,18 @@
     "unarchiveOwn": "Unarchive Own Form",
     "unarchiveForm": "Unarchive Form",
     "adminDelete": "Admin Delete",
+    "modifyTemplate": "Modify Form Template",
+    "privateComments": "Access Private Comments",
     "apply": {
       "availableForms": "Available Forms",
       "myForms": "My Forms",
       "apply": "Submit"
     },
+    "noAdditional": "No Additional Fields",
+    "premadeSections": "Premade Sections",
+    "modifyStageSettings": "Modify Stage Settings",
+    "appThirdPartySubmit": "Third Party Submit",
+    "manageOtherComments": "Manage Other Comments",
     "fields": "Fields"
   },
   "departments": {
@@ -261,6 +268,7 @@
     "viewEvents": "View Events",
     "createEvents": "Create Events",
     "removeEvents": "Remove Events",
+    "editEvents": "Edit Events",
     "createEvent": "Create an Event - Category",
     "eventNotFound": "Event Not Found/Accessible",
     "eventNotFoundDesc": "Either the event does not exist or you do not have permission to view this event directly.",
