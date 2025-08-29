@@ -414,6 +414,8 @@
     "orderShownWithinRoster": "Order Shown within Roster"
   },
   "Index": {
+    "aiSearch": "AI Search",
+    "searchStarting": "Search Starting...",
     "creatingRostersTutorial": "Creating Rosters Tutorial",
     "learnHowToCreateRosters": "Learn how to Create Rosters",
     "creatingRostersDocumentation": "Creating Rosters Documentation",
