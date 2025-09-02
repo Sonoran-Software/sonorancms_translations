@@ -3733,6 +3733,7 @@
   "ERLCActionEditor": {
     "rankNotificationRanks": "Ranks to Notify",
     "rankNotificationMessage": "Notification Message",
+    "disciplinaryPoints": "Disciplinary Points",
     "disciplinaryReason": "Disciplinary Reason",
     "notificationContent": "Notification Content",
     "webhookChannel": "Webhook Channel",
