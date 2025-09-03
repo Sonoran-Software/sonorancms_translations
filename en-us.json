@@ -415,6 +415,7 @@
   },
   "Index": {
     "aiSearch": "AI Search",
+    "askAiAQuestion": "Ask AI a question to search in the logs...",
     "searchStarting": "Search Starting...",
     "creatingRostersTutorial": "Creating Rosters Tutorial",
     "learnHowToCreateRosters": "Learn how to Create Rosters",
