@@ -206,7 +206,12 @@
       "myForms": "Moje Formularze",
       "apply": "Zatwierdź"
     },
-    "fields": "Pola"
+    "fields": "Pola",
+    "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
+    "modifyStageSettings": "Modyfikuj ustawienia sceny",
+    "modifyTemplate": "Modyfikuj szablon formularza",
+    "privateComments": "Nantu Pribadong Komentaro",
+    "manageOtherComments": "Altri commenti di gestione"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -610,11 +615,14 @@
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Barındırma",
     "activity": "Aktivitet",
+    "settings": "Nastavitve",
     "erlcApiKey": "Clave API de ERLC",
     "runCommand": "Uruchom polecenie",
     "moderation": "Moderación",
     "anErrorOccuredWhileVerifyingUsernameTr": "Wystąpił błąd podczas weryfikacji nazwy użytkownika:",
     "usernamePassedVerificationTr": "Nome de usuário passou na verificação!",
+    "aiSearch": "Søk med AI",
+    "searchStarting": "Rechercher le démarrage...",
     "addedRanks": "Classificações Adicionadas",
     "removedRanks": "Rangy usunięte"
   },
@@ -765,7 +773,7 @@
     "radio": "Radio",
     "radioDesc": "¡Automatiza los permisos de Sonoran Radio con Sonoran CMS!",
     "communityNotFound": "Społeczność nie znaleziona",
-    "errorAnErrorOccuredWhileExecuting": "Greška: Došlo je do pogreške prilikom izvršavanja"
+    "errorAnErrorOccuredWhileExecuting": "Błąd: Wystąpił błąd podczas wykonywania"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -912,7 +920,7 @@
     "temporary": "Tijdelijk",
     "previousMembers": "Miembros anteriores",
     "unban": "Rozbanuj",
-    "unarchive": "আর্কাইভ ছাড়ুন"
+    "unarchive": "Desarquivar"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -1177,7 +1185,7 @@
     "current": "Jetzt",
     "teams": "Equipo(s)",
     "hasRanks": "Tiene rango(s)",
-    "doesNotHaveRanks": "Nie ma rangi/stopni"
+    "doesNotHaveRanks": "Não Tem Patente(s)"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Ten formularz jest odblokowany dla nowych zgłoszeń",
@@ -1193,7 +1201,6 @@
     "formEditor": "Edytor Formularzy",
     "goToSubmissions": "Przejdź do Zgłoszeń",
     "selectAFormToEditOrCreateANewOneToGetSta": "Wybierz formularz do edycji lub utwórz nowy, aby rozpocząć!",
-    "addNewItem": "Dodaj Nowy Element",
     "addNewFolder": "Dodaj Nowy Folder",
     "addFolder": "Dodaj Folder",
     "thereWasAnIssueReorderingForms": "Wystąpił problem z przestawianiem formularzy",
@@ -1208,7 +1215,6 @@
     "newFolderName": "Nowa nazwa folderu",
     "thereWasAnIssueRenamingThisFormFolder": "Wystąpił problem ze zmianą nazwy tego folderu formularza",
     "thereWasAnIssueDuplicatingThisForm": "Wystąpił problem z duplikowaniem tego formularza",
-    "customForm": "Formularz niestandardowy",
     "folder": "Folder",
     "anErrorOccuredWhiledMovingFile": "Wystąpił błąd podczas przenoszenia pliku.",
     "anErrorOccuredWhileMovingFolderError": "Wystąpił błąd podczas przenoszenia folderu. Błąd:",
@@ -1217,7 +1223,9 @@
     "folderLabel": "Etykieta folderu",
     "avatar": "Awatar",
     "Ok": "Ok",
-    "Cancel": "Anuluj"
+    "Cancel": "Anuluj",
+    "foldersTitle": "Ordner",
+    "formsTitle": "Formularze"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Zablokowane przed nowymi zgłoszeniami",
@@ -1227,7 +1235,6 @@
     "submitForm": "Prześlij formularz",
     "folder": "Folder",
     "viewFormsSubmissions": "Zobacz zgłoszenia formularzy",
-    "viewSubmittedForm": "Zobacz przesłany formularz",
     "commonclose": "Zamknij",
     "formsapplyapply": "Prześlij",
     "commonupdate": "Aktualizuj",
@@ -1269,7 +1276,8 @@
     "actions": "Działania",
     "stage": "Etap",
     "goToSubmissions": "Przejdź do zgłoszeń",
-    "formstemplatetypesgeneral": "Ogólny formularz"
+    "formstemplatetypesgeneral": "Ogólny formularz",
+    "openFolder": "Öffnen Ordner"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Ten formularz jest zablokowany i nie przyjmuje nowych zgłoszeń",
@@ -1460,16 +1468,16 @@
     "rankExpirationSettings": "Ustawienia Wygaśnięcia Rangi",
     "expirationTypes": "Typy Wygaśnięcia",
     "addedAfter": "Dodano po {length} {unit}",
-    "addedAtSpecificTime": "Añadido en una fecha específica basada en la respuesta a la pregunta del formulario",
-    "removedAfter": "Eliminado después de {length} {unit}",
-    "removedAtSpecificTime": "Retirado en una fecha específica basada en la respuesta a la pregunta del formulario",
-    "addRank": "Dodaj Rang",
-    "removeRank": "Rank verwijderen",
-    "afterASetPeriod": "Después de establecer el retraso",
-    "afterASpecificDate": "Na Formularzowej Dacie",
+    "addedAtSpecificTime": "Dodano na określoną datę na podstawie odpowiedzi na pytanie formularza",
+    "removedAfter": "Retirado após {length} {unit}",
+    "removedAtSpecificTime": "Eliminado en una fecha específica según la respuesta a la pregunta del formulario",
+    "addRank": "Añadir Rango",
+    "removeRank": "Rango de quitar",
+    "afterASetPeriod": "Efter angivet tidsforsinkelse",
+    "afterASpecificDate": "Na formulário Data",
     "basedOnADateFromAFormSubmission": "Basado en una fecha de una pregunta del formulario",
-    "selectADateQuestion": "Velg et datospørsmål",
-    "noExpiration": "Bez daty wygaśnięcia"
+    "selectADateQuestion": "Wybierz pytanie dotyczące daty",
+    "noExpiration": "Bez wygaśnięcia"
   },
   "RankList": {
     "filterRanks": "Filtruj Rangi"
@@ -1743,9 +1751,9 @@
     "thisCommunityUsesRobloxIntegrationPleas": "Esta comunidad utiliza la integración de Roblox. Por favor, enlaza tu Roblox para un uso adecuado de la integración.",
     "downloadSonoranCmsDesktopApp": "Pobierz aplikację desktopową Sonoran CMS!",
     "download": "Pobierz",
-    "disciplinaryAction": "Ação Automática ELRC",
-    "erlcAction": "Ação Automática ELRC",
-    "communityDeletion": "Supresión de la comunidad"
+    "disciplinaryAction": "ELRC Otomatik Eylem",
+    "erlcAction": "Acción Automática ELRC",
+    "communityDeletion": "Usunięcie społeczności"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Liczba unikalnych wyświetleń z Community Discovery",
@@ -2900,11 +2908,11 @@
     "permissions": "Uprawnienia",
     "cosmetics": "Kosmetyki",
     "editGroup": "Edytuj grupę",
-    "newGroup": "Nowa grupa",
-    "addANewGroup": "Dodaj nową grupę",
-    "groupName": "Nazwa grupy",
-    "newGroupName": "Nome do Novo Grupo",
-    "groupPermissions": "İzin Grubu"
+    "newGroup": "Nowa Grupa",
+    "addANewGroup": "Adicionar um novo grupo",
+    "groupName": "اسم المجموعة",
+    "newGroupName": "Nombre del Nuevo Grupo",
+    "groupPermissions": "Toestemming voor groepen"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Samouczek Pól Profilu",
@@ -3018,7 +3026,6 @@
     "forumWebhooks": "Webhooki Forum",
     "adminWebhooks": "Webhooki Administratora",
     "guildLogging": "Logowanie Gildii",
-    "guildLoggingGuilds": "Logowanie Gildii - Gildie",
     "general": "Ogólne",
     "anyFormSubmissionChannel": "Każde Zgłoszenie Formularza - Kanał",
     "anyFormSubmissionMentions": "Każde Zgłoszenie Formularza - Wzmianki",
@@ -3066,7 +3073,6 @@
     "replyCreated": "Utworzenie Odpowiedzi",
     "replyCreatedMentions": "Utworzenie Odpowiedzi - Wzmianki",
     "forms": "Formularze",
-    "formChange": "Zmiana Formularza",
     "department": "Dział",
     "roster": "Lista",
     "calendar": "Kalendarz",
@@ -3108,18 +3114,11 @@
     "areYouSureYouWantToRemoveTheLinkWithThis": "Czy na pewno chcesz usunąć link z tą gildią? Mapowania ról dla gildii również zostaną usunięte.",
     "removalConfirmation": "Potwierdzenie usunięcia",
     "guildRemoved": "Gildia usunięta!",
-    "unknownRole": "NIEZNANA ROLA",
-    "thisMappingDoesntExistRefresh": "To mapowanie nie istnieje, odśwież.",
     "configurationSavedResyncMayTakeUpTo60Sec": "Konfiguracja zapisana. Ponowna synchronizacja może potrwać do 60 sekund.",
     "confirmDeletion": "Potwierdź usunięcie",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Czy na pewno chcesz usunąć to mapowanie rangi - ról?",
-    "notASingleValidRoleHasBeenSelected": "Nie wybrano ani jednej prawidłowej roli.",
-    "notASingleValidRankHasBeenSelected": "Nie wybrano ani jednej prawidłowej rangi.",
-    "anErrorOccuredWhileAddingRoleMappingTryA": "Wystąpił błąd podczas dodawania mapowania ról, spróbuj ponownie później.",
-    "anErrorOccuredWhileRemovingRoleFromMappi": "Wystąpił błąd podczas usuwania roli z mapowania, spróbuj ponownie później.",
     "anErrorOccuredWhileRemovingMappingTryAga": "Wystąpił błąd podczas usuwania mapowania, spróbuj ponownie później.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "Wystąpił błąd podczas oceny mapowań przed zatwierdzeniem, spróbuj ponownie.",
-    "exampleRank": "Przykładowa Ranga",
     "fetchingGuilds": "Pobieranie Gildii",
     "notSetupFollowStepsBelow": "Nie skonfigurowano, postępuj zgodnie z poniższymi krokami",
     "notWithinGuildInviteSonoranbot": "Nie w gildii, zaproś SonoranBota",
@@ -3128,9 +3127,6 @@
     "noGuildFoundToSetLoggingChannelRefresh": "Nie znaleziono gildii do ustawienia kanału logowania, odśwież.",
     "loggingChannelSaved": "Kanał logowania zapisany!",
     "unknownGuild": "Nieznana Gildia",
-    "discordBotIntegration": "Integracja z Discord Botem",
-    "areYouSureYouWantToDisableDiscordBotInte": "Czy na pewno chcesz wyłączyć integrację z Discord Botem?",
-    "yes": "Tak",
     "no": "Nie",
     "errorAnErrorOccuredWhileSaving": "Błąd: Wystąpił błąd podczas zapisywania",
     "discordWebhooks": "Webhooki Discorda!",
@@ -3138,16 +3134,9 @@
     "fetchingChannelsAndRolesFor": "Pobieranie kanałów i ról dla",
     "found": "Znaleziono",
     "guildsFetchingRoleMappings": "gildii, pobieranie mapowań ról",
-    "errorCause": "Przyczyna błędu:",
     "anErrorOccuredWhileRemovingGuild": "Wystąpił błąd podczas usuwania gildii:",
-    "willGrantEachDiscordRoleInThisMappingGra": "przyzna każdą rolę Discorda w tym mapowaniu. Przyznanie którejkolwiek z mapowanych ról Discorda przyzna rangę CMS i pozostałe role Discorda.",
-    "RoleIsGrantedToTheUserIfTheyHaveAnyOfThe": "rola jest przyznawana użytkownikowi, jeśli ma którąkolwiek z rang CMS w tym mapowaniu. Przyznanie tej roli Discorda nic nie zrobi.",
-    "the": "The",
-    "theDiscord": "The Discord",
     "kickDiscordGuildMembersWhenTheyLeaveTheC": "Wyrzuć członków gildii Discorda, gdy opuszczą społeczność CMS",
     "kickOnLeave": "Wyrzuć przy opuszczeniu",
-    "stripDiscordGuildRolesFromUsersThatAreNo": "Usuń role Discord Guild od użytkowników, które nie są przypisane w CMS",
-    "stripUnmapped": "Usuń nieprzypisane",
     "syncCmsDiscordGuildBansWithYourCommunity": "Synchronizuj bany CMS i Discord Guild z twoją społecznością",
     "banSync": "Synchronizacja banów",
     "utilizeTheCmsClockInoutSystemWithDiscord": "Wykorzystaj system zegarów CMS do rejestrowania czasu za pomocą komend Discord",
@@ -3160,10 +3149,13 @@
     "linkedGuilds": "Połączone Gildie",
     "hideBlankFormFields": "Los campos de formulario que están en blanco no se muestran en el webhook",
     "showBlankFormFields": "Os campos do formulário que estiverem em branco serão mostrados como \"Em branco\" no webhook",
-    "accountKickedChannel": "Cuenta expulsada - Canal",
-    "accountKickedMentions": "Conta Expulsa - Menções",
-    "accountBannedChannel": "Konto Zablokowane - Kanał",
-    "accountBannedMentions": "Cuenta suspendida - Menciones"
+    "allForms": "Όλες οι Φόρμες",
+    "allRosters": "Wszystkie listy",
+    "allCalendars": "Todos os Calendários",
+    "accountKickedChannel": "Compte Expulsé - Canal",
+    "accountKickedMentions": "Cuenta expulsada - Menciones",
+    "accountBannedChannel": "Cuenta Baneada - Canal",
+    "accountBannedMentions": "Konto zablokowane - Wzmianki"
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3775,8 +3767,8 @@
     "backgroundOptions": "Opcje Tła",
     "triggerAnimations": "Activar Animaciones",
     "triggerAnimationsToPlay": "Wyzwól wszystkie animacje do odtworzenia na tej stronie.",
-    "elementsCannotBeMovedIntoARosterSection": "Elemente können nicht in einen Kaderabschnitt verschoben werden",
-    "elementsCannotBeDroppedIntoARosterSection": "Elemento ne mogu biti stavljeni u odeljak sa spiskom"
+    "elementsCannotBeMovedIntoARosterSection": "Elementy nie mogą być przenoszone do sekcji rosteru",
+    "elementsCannotBeDroppedIntoARosterSection": "Elementy nie mogą być upuszczane na sekcję listy."
   },
   "ElementWrapper": {
     "lockItemToThisSection": "Zablokuj element do tej sekcji",
@@ -3914,7 +3906,7 @@
     "exampleButton": "Przykładowy przycisk",
     "header": "Nagłówek",
     "description": "Opis",
-    "exampleContent": "Przykładowa zawartość"
+    "exampleContent": "Contenido de ejemplo"
   },
   "ButtonGroupForm": {
     "buttonGroupStyles": "Style Grupy Przycisków",
@@ -3961,8 +3953,8 @@
     "pasteServerPermissions": "Wklej uprawnienia serwera",
     "copiedGameServerPermissions": "Skopiowane uprawnienia serwera gry",
     "pasteGameServerPermissions": "Wklej uprawnienia serwera gry",
-    "copiedERLCPermissions": "Скопировано ERLC Разрешения",
-    "pasteERLCPermissions": "Wklej uprawnienia ERLC"
+    "copiedERLCPermissions": "Kopiou ER:LC Uprawnienia",
+    "pasteERLCPermissions": "Wklej uprawnienia ER:LC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Połącz konto",
@@ -4283,7 +4275,6 @@
     "communityName": "nazwaSpołeczności"
   },
   "disciplinaryConfig": {
-    "variables": "zmienne",
     "com_name": "com_nombre",
     "username": "nombre de usuario",
     "point_reason": "powód punktu",
@@ -4372,8 +4363,162 @@
     "webhookContentHint": "Suggerimento contenuto webhook"
   },
   "ERLCActionEditor": {
-    "rankNotificationRanks": "rankNotificationJabatan",
-    "rankNotificationMessage": "Powiadomienie o randze",
-    "disciplinaryReason": "powód dyscyplinarny"
+    "rankNotificationRanks": "aboneBildirimRütbeleri",
+    "rankNotificationMessage": "Rango de notificación mensaje",
+    "disciplinaryPoints": "puntosDisciplinarios",
+    "disciplinaryReason": "motivo disciplinario",
+    "notificationContent": "zawartośćPowiadomienia",
+    "webhookChannel": "kanałWebhook",
+    "embedContent": "내용 포함",
+    "messageSentWithTheDiscordEmbed": " NachrichtMitDerDiscordEinbettungGesendet",
+    "robloxUsername": "roblokuzytkownik",
+    "thePlayersRobloxUsername": "graczaNazwaużytkownikaRoblox",
+    "robloxUserId": "RobloxKullanıcıId",
+    "thePlayersRobloxUserId": "graczaRobloxowyIdUżytkownika",
+    "cmsUsername": "nombreUsuarioCMS",
+    "thePlayersCmsUsernameIfApplicable": "i giocatori Cms nome utente, se applicabile",
+    "erlcTeam": "equipoErlc",
+    "thePlayersCurrentErlcTeamIfApplicable": "igračevaTrenutnaErlcEkipaAkoJePrimjenjivo",
+    "erlcVehicle": "Pojazd ERLC",
+    "thePlayersCurrentErlcVehicleIfApplicable": "graczeAktualnyPojazdErlcJeśliDotyczy",
+    "notSetupFollowStepsBelow": "Nije postavljeno, pratite korake u nastavku",
+    "notWithinGuildInviteSonoranbot": "Nie jesteś w gildii umożliwiającej zaproszenie Sonoranbot.",
+    "sonoranBotEncounteredAnIssue": "Sonoran Bot ha incontrato un problema",
+    "errorFetchingSonoranBotGuildsDataTookToo": "Błąd podczas pobierania danych Sonoran Bot Guilds — trwało to zbyt długo.",
+    "thisErlcRestrictionActionWillSendAErlcSe": "このERLC制限アクションにより、ERLCが送信されます。",
+    "thisErlcRestrictionActionWillSendAErlcPl": "estaAcaoDeRestriçãoErlcEnviaráUmPlanoErlc",
+    "thisErlcRestrictionActionWillKickThePlay": "このERLC制限アクションはプレイヤーをキックします",
+    "thisErlcRestrictionActionWillSendADiscor": "ta akcja ograniczenia ERLC wyśle wiadomość na Discordzie",
+    "thisErlcRestrictionActionWillSendIssueDi": "estaAcciónDeRestricciónEnErlcEnviaráProblemaDi",
+    "thisErlcRestrictionActionWillIssueAWante": "estaAcciónDeRestricciónErlcEmitiráUnBuscado",
+    "thisErlcRestrictionActionWillSendACmsNot": "estaRestricciónErlcAccionesEnviaránUnaNotificaciónCms"
+  },
+  "ERLCActivity": {
+    "filter": "фильтр",
+    "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera",
+    "latestActivity": "última actividad"
+  },
+  "ERLCEnvironment": {
+    "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu ayrıntıları eklenirken bir hata oluştu.",
+    "locationForSyncronization": "lokacijaZaSinhronizaciju",
+    "environmentSync": "średowiskoSync",
+    "selectALocationToSyncGameWeatherAndTime": "בחר מיקום לסנכרון מזג האוויר והזמן במשחק",
+    "setALocationOnTheMapForTheWeatherAndorTi": "Définir un emplacement sur la carte pour la météo et/ou l'heure",
+    "syncWeather": "sincronizarClima",
+    "syncTime": "czasSynchronizacji"
+  },
+  "ERLCModeration": {
+    "usernameModeration": "Moderación de nombre de usuario",
+    "enforceUsernameStandards": "egzekvovatStandardyUživatelskýchJmén",
+    "kickUsersWithAllothersInUsername": "Вигнати користувачів з усіма іншими в імені користувача",
+    "kickUsersWithInappropriateUsernames": "expulsarUsuariosConNombresDeUsuarioInapropiados",
+    "sensitivityThresholdMinimumCertaintyBefo": "Følsomhedstærskel Minimum sikkerhed før",
+    "sexual": "seksual",
+    "harassment": "molestowanie",
+    "hate": "odio",
+    "illicit": "nedozvoljeno",
+    "selfharm": "autoagressão",
+    "violence": "geweld",
+    "username": "użytkownik",
+    "contains": "contém",
+    "aiEnforcedRules": "ReglasImpuestasPorAI",
+    "automaticallyEnforceServerRules": "automatycznieWymuszajZasadySerwera",
+    "comingSoon": "נפתח בקרוב"
+  },
+  "ERLCPlayers": {
+    "playersIngame": "игрокиВигре",
+    "playersInQueue": "gallwyrChwaraewyr",
+    "filter": "filtr",
+    "teams": "equipas",
+    "noPlayersConnected": "Sin jugadores conectados"
+  },
+  "ERLCWhitelist": {
+    "denyList": "قاعدة الرفض",
+    "teamRestrictions": "OgraniczeniaDrużyny",
+    "restrictAccessToTeams": "محدود کردن دسترسی به تیم‌ها",
+    "police": "policja",
+    "allowedRanksForPoliceTeam": "dozwoloneRangiDlaEkipyPolicji",
+    "actions": "acciones",
+    "sheriff": "szeryf",
+    "fire": "vuur",
+    "allowedRanksForFireTeam": "rangosPermitidosParaEquipoDeIncendios",
+    "dot": "kropka",
+    "vehicleRestrictions": "OgraniczeniaPojazdów",
+    "restrictAccessToVehicles": "ogranicitiPristupVozilima",
+    "vehicle": "pojazd",
+    "allowedRanksFor": "rangosPermitidosPara",
+    "addNewVehicleRestriction": "Dodaj nowy limit pojazdu",
+    "liveryRestrictions": "restriçõesDeLiberação",
+    "restrictAccessToLiveries": "Ograniči pristup livrejama",
+    "livery": "livrée",
+    "addNewVehicleLiveryRestriction": "Dodaj nową restrykcję odnośnie malowania pojazdów",
+    "restrictionActions": "accionesDeRestricción",
+    "allowList": "pozwolListę",
+    "allSelectedRanksWillBeAbleToAccessThisSe": "wszystkie wybrane rangi będą miały dostęp do tej sekcji",
+    "theRanksSelectedHereWillNotBeAllowedToAc": "Wybrane tutaj rangi nie będą mogły uzyskać dostępu do",
+    "thisListTakesPrecedenceOverTheAllowList": "istaListaImaPrednostNadListomDozvola",
+    "allowedRanksForSheriffTeam": "dopuszczoneRangiDlaZespołuSzeryfa",
+    "allowedRanksForDotTeam": "Dopušteni činovi za DOT tim",
+    "sendErlcHintServerwide": "Wyślij wskazówkę ERLC na cały serwer",
+    "sendErlcPlayerMessage": "Wyślij wiadomość do gracza ERLC",
+    "sendErlcKick": "Wyślij kopnięcie ERLC",
+    "sendDiscordWebhook": "Enviar Discord Webhook",
+    "sendErlcKickOffTeam": "EnviarErlcSacarDelEquipo",
+    "addDisciplinaryPoints": "Dodaj punkty dyscyplinarne",
+    "sendNotificationToRanks": "wyślijPowiadomienieDoRang",
+    "unknownAction": "acciónDesconocida",
+    "anErrorOccuredWhileAddingServerDetailsTr": "Servidor eklerken bir hata oluştu."
+  },
+  "ERLCActivityLog": {
+    "kickedAction": "AzioneEspulsa",
+    "kickedBy": "expulsadoPor",
+    "kickedReason": "powód wyrzucenia",
+    "disciplinaryPoints": "punkty dyscyplinarne",
+    "unknown": "desconocido",
+    "delete": "usuń",
+    "noDescription": "brak opisu",
+    "joinedTheGame": "unidoAlJuego",
+    "leftTheGame": "saiuDoJogo",
+    "requestedAModerator": "moderatora zatraženo",
+    "wasKickedFromTheGame": "被踢出游戏",
+    "unknownActivityLog": "desconocidoRegistroDeActividades",
+    "unknownTime": "tiempoDesconocido",
+    "unknownError": "Nieznany błąd",
+    "killed": "ушљтени",
+    "usedTheCommand": "comandoUsado",
+    "wasKickedFromTheGameFor": "Został wyrzucony z gry za",
+    "for": "par",
+    "wasBannedFromTheGame": "został zbanowany z gry",
+    "received": "받음",
+    "disciplinaryPointsFor": "puntosDisciplinariosPara",
+    "by": "por",
+    "reason": "powód",
+    "points": "punten",
+    "issuedBy": "Üretildiği Kişi"
+  },
+  "ERLCPlayerPopup": {
+    "disciplinary": "disciplinario",
+    "missingPermissionSystemDisciplinaryPanel": "Brakujące uprawnienie: System panelu dyscyplinarnego",
+    "missingPermissionErlcKickPlayer": "NedostajućaDozvolaErlcIzbacivanjeIgrača",
+    "missingPermissionErlcBanPlayer": "Permiso faltante para prohibir jugador en ERLC",
+    "openRobloxProfile": "otvoriteRobloxProfil",
+    "removalReason": "powód usunięcia",
+    "activity": "atividade",
+    "noVehicle": "nie pojazdu",
+    "with": "con",
+    "without": "sin",
+    "noActionSelected": "Brak wybranej akcji",
+    "unknown": "अज्ञात",
+    "police": "policija",
+    "fire": "fuego",
+    "sheriff": "Szeryf",
+    "dot": "kropka",
+    "civilian": "pliki cywilne",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Wystąpił błąd podczas dodawania punktu dyscyplinarnego",
+    "kickPlayer": "ШитийСпилириґи",
+    "banPlayer": "プレイヤーを禁止する",
+    "playerIsNotDrivingAVehicle": "プレイヤーは車両を運転していません",
+    "isDrivingA": "prowadziA",
+    "vehicleInfo": "informaçãoDoVeículo"
   }
 }
