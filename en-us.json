@@ -398,6 +398,7 @@
   },
   "Index": {
     "aiSearch": "AI Search",
+    "askAiAQuestion": "Ask AI a question...",
     "searchStarting": "Search Starting...",
     "creatingRostersTutorial": "Creating Rosters Tutorial",
     "learnHowToCreateRosters": "Learn how to Create Rosters",
