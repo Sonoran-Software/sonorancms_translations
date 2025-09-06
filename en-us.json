@@ -2274,6 +2274,8 @@
     "icon": "Icon",
     "stageLabel": "Stage Label",
     "AIProcessing": "AI Processing",
+    "Weight": "Weight",
+    "addCriteria": "Add Criteria",
     "AIProcessingSectionDescriptions": "Instruct the AI how to score each section of this form.",
     "ScoringInstructions": "Scoring Instructions",
     "minScore": "Min Score",
