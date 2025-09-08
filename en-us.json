@@ -203,8 +203,7 @@
     "fields": "Fields",
     "modifyStageSettings": "Modify Stage Settings",
     "appThirdPartySubmit": "Third Party Submit",
-    "manageOtherComments": "Manage Other Comments",
-    "fields": "Fields"
+    "manageOtherComments": "Manage Other Comments"
   },
   "departments": {
     "departmentName": "Department Name",
@@ -919,7 +918,9 @@
     "sonoranCadSyncThereWasAnIssueWithSyncing": "Sonoran CAD Sync: There was an issue with syncing to your Sonoran CAD community.",
     "permanent": "Permanent",
     "temporary": "Temporary",
-    "unarchive": "Unarchive"
+    "unarchive": "Unarchive",
+    "userPermissions": "User Permissions:",
+    "debugPermissions": "Debug Permissions"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Commmunity API Tutorial",
