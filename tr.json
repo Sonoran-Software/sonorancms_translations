@@ -279,7 +279,8 @@
     "editOtherEvents": "Diğer Etkinlikleri Düzenle",
     "createEvent": "Bir Etkinlik Oluştur - Kategori",
     "eventNotFound": "Etkinlik Bulunamadı/Erişilemedi",
-    "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok."
+    "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok.",
+    "editEvents": "Etkinlikleri Düzenle"
   },
   "limits": {
     "version": "Sürüm",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Kadro İçinde Gösterilen Sıra",
     "rosterSlug": "Liste URL Sümüklü Adı",
     "copyRosterUrl": "Liste URL'sini kopyala",
-    "memberDisciplinaryPoints": "Üye Disiplin Puanları"
+    "memberDisciplinaryPoints": "Üye Disiplin Puanları",
+    "robloxId": "Roblox Kimliği"
   },
   "Index": {
     "creatingRostersTutorial": "Kadro Oluşturma Eğitimi",
@@ -624,7 +626,8 @@
     "aiSearch": "AI Arama",
     "searchStarting": "Arama Başlatılıyor...",
     "addedRanks": "Eklenen Rütbeler",
-    "removedRanks": "Kaldırılan Rütbeler"
+    "removedRanks": "Kaldırılan Rütbeler",
+    "askAiAQuestion": "AI'ye bir soru sorun..."
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -920,7 +923,12 @@
     "temporary": "Geçici",
     "previousMembers": "Önceki Üyeler",
     "unban": "Yasağı Kaldır",
-    "unarchive": "Arşivden Çıkar"
+    "unarchive": "Arşivden Çıkar",
+    "copyRobloxId": "Roblox Kimliğini Kopyala",
+    "userHasNotConnectedTheirRoblox": "Kullanıcı Roblox hesaplarını bağlamamış.",
+    "robloxIdCopiedToClipboard": "Roblox Kimliği Panoya Kopyalandı.",
+    "userPermissions": "Kullanıcı İzinleri:",
+    "debugPermissions": "Hata Ayıklama İzinleri"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -1952,7 +1960,8 @@
     "community": "TOPLULUK",
     "entire": "TAMAMEN",
     "managesYour": "YÖNETİR",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI Günlük Arama"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Kimlik doğrulama bilgileri mevcut değil, destek ile iletişime geçin.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Koşullu Soru",
     "enterValues": "Değerleri Girin",
     "conditionalQuestionStartExplaination": "Bu bölüm görülebilir olacak",
-    "conditionalRanks": "Koşullu Rütbe(ler)"
+    "conditionalRanks": "Koşullu Rütbe(ler)",
+    "automemberRobloxId": "Otomatik Üye Roblox Kimliği",
+    "communityMemberRobloxIdElement": "Topluluk üyesi Roblox Kimliği öğesi"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"

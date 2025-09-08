@@ -198,8 +198,6 @@
       "myForms": "My Forms",
       "apply": "Submit"
     },
-    "noAdditional": "No Additional Fields",
-    "premadeSections": "Premade Sections",
     "fields": "Fields",
     "modifyStageSettings": "Modify Stage Settings",
     "appThirdPartySubmit": "Third Party Submit",
@@ -1952,7 +1950,8 @@
     "community": "COMMUNITY",
     "entire": "ENTIRE",
     "managesYour": "MANAGES YOUR",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI Log Search"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "No auth credentials present, contact support.",
@@ -2275,16 +2274,6 @@
   "StageEditorCard": {
     "icon": "Icon",
     "stageLabel": "Stage Label",
-    "AIProcessing": "AI Processing",
-    "Weight": "Weight",
-    "addCriteria": "Add Criteria",
-    "AIProcessingSectionDescriptions": "Instruct the AI how to score each section of this form.",
-    "ScoringInstructions": "Scoring Instructions",
-    "minScore": "Min Score",
-    "maxScore": "Max Score",
-    "addRule": "Add Rule",
-    "addSection": "Add Section",
-    "formSection": "Form Section",
     "color": "Color",
     "formsstagedescinput": "Stage Description",
     "commonareyousure": "Are you sure?",

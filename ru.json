@@ -279,7 +279,8 @@
     "editOtherEvents": "Редактирование других событий",
     "createEvent": "Создать событие - Категория",
     "eventNotFound": "Событие не найдено/недоступно",
-    "eventNotFoundDesc": "Либо событие не существует, либо у вас нет разрешения на просмотр этого события напрямую."
+    "eventNotFoundDesc": "Либо событие не существует, либо у вас нет разрешения на просмотр этого события напрямую.",
+    "editEvents": "Изменить события"
   },
   "limits": {
     "version": "Версия",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Порядок отображения в списке",
     "rosterSlug": "URL-идентификатор списка",
     "copyRosterUrl": "Скопировать URL-адрес списка",
-    "memberDisciplinaryPoints": "Очки дисциплинарного воздействия участника"
+    "memberDisciplinaryPoints": "Очки дисциплинарного воздействия участника",
+    "robloxId": "Roblox ID"
   },
   "Index": {
     "creatingRostersTutorial": "Учебник по созданию списков",
@@ -624,7 +626,8 @@
     "aiSearch": "Поиск AI",
     "searchStarting": "Поиск начинается...",
     "addedRanks": "Добавленные звания",
-    "removedRanks": "Удаленные ранги"
+    "removedRanks": "Удаленные ранги",
+    "askAiAQuestion": "Задайте вопрос ИИ..."
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -920,7 +923,12 @@
     "temporary": "Временный",
     "previousMembers": "Предыдущие участники",
     "unban": "Разбанить",
-    "unarchive": "Распаковать"
+    "unarchive": "Распаковать",
+    "copyRobloxId": "Копировать Roblox ID",
+    "userHasNotConnectedTheirRoblox": "Пользователь не подключил свой Roblox.",
+    "robloxIdCopiedToClipboard": "Roblox ID скопирован в буфер обмена.",
+    "userPermissions": "Права пользователя:",
+    "debugPermissions": "Отладка разрешений"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -1952,7 +1960,8 @@
     "community": "ВСЕ",
     "entire": "УПРАВЛЯЕТ ВАШИМ",
     "managesYour": "CMS",
-    "cms": "Нет учетных данных для авторизации, свяжитесь с поддержкой."
+    "cms": "Нет учетных данных для авторизации, свяжитесь с поддержкой.",
+    "aiLogSearch": "Поиск по AI логам"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Отклонить",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Условный вопрос",
     "enterValues": "Введите значения",
     "conditionalQuestionStartExplaination": "Этот раздел будет видимым",
-    "conditionalRanks": "Условные звание(я)"
+    "conditionalRanks": "Условные звание(я)",
+    "automemberRobloxId": "Автоматический участник Roblox ID",
+    "communityMemberRobloxIdElement": "Элемент ID участника сообщества Roblox"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"

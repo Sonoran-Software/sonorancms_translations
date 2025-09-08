@@ -279,7 +279,8 @@
     "editOtherEvents": "Editar Outros Eventos",
     "createEvent": "Criar um Evento - Categoria",
     "eventNotFound": "Evento Não Encontrado/Acessível",
-    "eventNotFoundDesc": "Ou o evento não existe ou você não tem permissão para visualizar este evento diretamente."
+    "eventNotFoundDesc": "Ou o evento não existe ou você não tem permissão para visualizar este evento diretamente.",
+    "editEvents": "Editar Eventos"
   },
   "limits": {
     "version": "Versão",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Ordem Mostrada no Roster",
     "rosterSlug": "Slug do URL da Lista",
     "copyRosterUrl": "Copiar URL da Lista",
-    "memberDisciplinaryPoints": "Pontos Disciplinares de Membro"
+    "memberDisciplinaryPoints": "Pontos Disciplinares de Membro",
+    "robloxId": "ID do Roblox"
   },
   "Index": {
     "creatingRostersTutorial": "Tutorial de Criação de Rosters",
@@ -624,7 +626,8 @@
     "aiSearch": "Pesquisa AI",
     "searchStarting": "Iniciando Pesquisa...",
     "addedRanks": "Classificações Adicionadas",
-    "removedRanks": "Patentes Removidas"
+    "removedRanks": "Patentes Removidas",
+    "askAiAQuestion": "Faça uma pergunta à IA..."
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -920,7 +923,12 @@
     "temporary": "Temporário",
     "previousMembers": "Membros Anteriores",
     "unban": "Desbanir",
-    "unarchive": "Desarquivar"
+    "unarchive": "Desarquivar",
+    "copyRobloxId": "Copiar ID do Roblox",
+    "userHasNotConnectedTheirRoblox": "Usuário não conectou seu Roblox.",
+    "robloxIdCopiedToClipboard": "ID do Roblox copiado para a área de transferência.",
+    "userPermissions": "Permissões do Usuário:",
+    "debugPermissions": "Depurar Permissões"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial da API da Comunidade",
@@ -1952,7 +1960,8 @@
     "community": "COMUNIDADE",
     "entire": "INTEIRA",
     "managesYour": "GERENCIA SUA",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "Pesquisa de Logs de IA"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Nenhuma credencial de autenticação presente, contate o suporte.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Pergunta Condicional",
     "enterValues": "Digite Valores",
     "conditionalQuestionStartExplaination": "Esta seção estará visível",
-    "conditionalRanks": "Patente(s) Condicional(is)"
+    "conditionalRanks": "Patente(s) Condicional(is)",
+    "automemberRobloxId": "ID Roblox Auto-Membro",
+    "communityMemberRobloxIdElement": "Elemento de ID do Roblox do membro da comunidade"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"

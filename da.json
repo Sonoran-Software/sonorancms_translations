@@ -279,7 +279,8 @@
     "editOtherEvents": "Rediger Andre Begivenheder",
     "createEvent": "Opret en Begivenhed - Kategori",
     "eventNotFound": "Begivenhed Ikke Fundet/Tilgængelig",
-    "eventNotFoundDesc": "Enten eksisterer begivenheden ikke, eller du har ikke tilladelse til at se denne begivenhed direkte."
+    "eventNotFoundDesc": "Enten eksisterer begivenheden ikke, eller du har ikke tilladelse til at se denne begivenhed direkte.",
+    "editEvents": "Rediger begivenheder"
   },
   "limits": {
     "version": "Version",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Rækkefølge Vist i Roster",
     "rosterSlug": "Roster URL Slug",
     "copyRosterUrl": "Kopier liste-URL",
-    "memberDisciplinaryPoints": "Medlemsdisciplinære point"
+    "memberDisciplinaryPoints": "Medlemsdisciplinære point",
+    "robloxId": "Roblox-ID"
   },
   "Index": {
     "creatingRostersTutorial": "Oprettelse af Roster Vejledning",
@@ -624,7 +626,8 @@
     "aiSearch": "AI-søgning",
     "searchStarting": "Søgning starter...",
     "addedRanks": "Tilføjede rangordninger",
-    "removedRanks": "Fjernede Rangeringer"
+    "removedRanks": "Fjernede Rangeringer",
+    "askAiAQuestion": "Stil AI et spørgsmål..."
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -920,7 +923,12 @@
     "temporary": "Midlertidig",
     "previousMembers": "Tidligere medlemmer",
     "unban": "Ophæv forbud",
-    "unarchive": "Arkiver igen"
+    "unarchive": "Arkiver igen",
+    "copyRobloxId": "Kopier Roblox-ID",
+    "userHasNotConnectedTheirRoblox": "Bruger har ikke tilsluttet deres Roblox.",
+    "robloxIdCopiedToClipboard": "Roblox-id kopieret til udklipsholder.",
+    "userPermissions": "Brugertilladelser:",
+    "debugPermissions": "Fejlfindingsrettigheder"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1952,7 +1960,8 @@
     "community": "FÆLLESSKAB",
     "entire": "HELE",
     "managesYour": "ADMINISTRERER DIT",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI Log Søgning"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Ingen godkendelsesoplysninger til stede, kontakt support.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Betinget spørgsmål",
     "enterValues": "Indtast værdier",
     "conditionalQuestionStartExplaination": "Denne sektion vil være synlig",
-    "conditionalRanks": "Betinget rang(er)"
+    "conditionalRanks": "Betinget rang(er)",
+    "automemberRobloxId": "Auto-medlems Roblox-ID",
+    "communityMemberRobloxIdElement": "Fællesskabsmedlem Roblox ID-element"
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"

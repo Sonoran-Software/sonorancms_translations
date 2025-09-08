@@ -279,7 +279,8 @@
     "editOtherEvents": "他のイベントを編集する",
     "createEvent": "イベントを作成する - カテゴリー",
     "eventNotFound": "イベントが見つからない/アクセスできない",
-    "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。"
+    "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。",
+    "editEvents": "イベントを編集"
   },
   "limits": {
     "version": "バージョン",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "ロスター内の表示順序",
     "rosterSlug": "名簿URLスラッグ",
     "copyRosterUrl": "名簿のURLをコピー",
-    "memberDisciplinaryPoints": "メンバー懲戒ポイント"
+    "memberDisciplinaryPoints": "メンバー懲戒ポイント",
+    "robloxId": "Roblox ID"
   },
   "Index": {
     "creatingRostersTutorial": "ロスター作成チュートリアル",
@@ -624,7 +626,8 @@
     "aiSearch": "AI検索",
     "searchStarting": "検索を開始しています...",
     "addedRanks": "ランクを追加しました",
-    "removedRanks": "削除されたランク"
+    "removedRanks": "削除されたランク",
+    "askAiAQuestion": "AIに質問をする…"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -920,7 +923,12 @@
     "temporary": "一時的",
     "previousMembers": "以前のメンバー",
     "unban": "解除禁止",
-    "unarchive": "アンアーカイブ"
+    "unarchive": "アンアーカイブ",
+    "copyRobloxId": "ロブロックスIDをコピー",
+    "userHasNotConnectedTheirRoblox": "ユーザーはRobloxを接続していません。",
+    "robloxIdCopiedToClipboard": "クリップボードにRoblox IDがコピーされました。",
+    "userPermissions": "ユーザー権限:",
+    "debugPermissions": "デバッグ権限"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -1952,7 +1960,8 @@
     "community": "全体",
     "entire": "管理します",
     "managesYour": "CMS",
-    "cms": "認証資格情報がありません。サポートに連絡してください。"
+    "cms": "認証資格情報がありません。サポートに連絡してください。",
+    "aiLogSearch": "AIログ検索"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "閉じる",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "条件付き質問",
     "enterValues": "値を入力",
     "conditionalQuestionStartExplaination": "このセクションは表示されます",
-    "conditionalRanks": "条件付きランク"
+    "conditionalRanks": "条件付きランク",
+    "automemberRobloxId": "自動メンバー Roblox ID",
+    "communityMemberRobloxIdElement": "コミュニティメンバーロブロックスID要素"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"

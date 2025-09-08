@@ -279,7 +279,8 @@
     "editOtherEvents": "Bewerk Andere Evenementen",
     "createEvent": "Maak een Evenement - Categorie",
     "eventNotFound": "Evenement Niet Gevonden/Toegankelijk",
-    "eventNotFoundDesc": "Het evenement bestaat niet of je hebt geen toestemming om dit evenement direct te bekijken."
+    "eventNotFoundDesc": "Het evenement bestaat niet of je hebt geen toestemming om dit evenement direct te bekijken.",
+    "editEvents": "Bewerk evenementen"
   },
   "limits": {
     "version": "Versie",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Volgorde Weergegeven binnen Roster",
     "rosterSlug": "Roster URL-slug",
     "copyRosterUrl": "Roster-URL kopiëren",
-    "memberDisciplinaryPoints": "Leden Disciplinaire Punten"
+    "memberDisciplinaryPoints": "Leden Disciplinaire Punten",
+    "robloxId": "Roblox-ID"
   },
   "Index": {
     "creatingRostersTutorial": "Rosters Maken Tutorial",
@@ -624,7 +626,8 @@
     "aiSearch": "AI Zoeken",
     "searchStarting": "Zoeken starten...",
     "addedRanks": "Toegevoegde rangen",
-    "removedRanks": "Verwijderde rangen"
+    "removedRanks": "Verwijderde rangen",
+    "askAiAQuestion": "Stel AI een vraag..."
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -920,7 +923,12 @@
     "temporary": "Tijdelijk",
     "previousMembers": "Vorige Leden",
     "unban": "Deblokkeren ",
-    "unarchive": "Dearchiveren"
+    "unarchive": "Dearchiveren",
+    "copyRobloxId": "Kopieer Roblox-ID",
+    "userHasNotConnectedTheirRoblox": "Gebruiker heeft zijn Roblox niet gekoppeld.",
+    "robloxIdCopiedToClipboard": "Roblox-ID naar klembord gekopieerd.",
+    "userPermissions": "Gebruikersrechten:",
+    "debugPermissions": "Debug Machtigingen"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1952,7 +1960,8 @@
     "community": "GEMEENSCHAP",
     "entire": "GEHELE",
     "managesYour": "BEHEERT JE",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI-log zoekopdracht"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Geen authenticatiegegevens aanwezig, neem contact op met ondersteuning.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Voorwaardelijke Vraag",
     "enterValues": "Voer waarden in",
     "conditionalQuestionStartExplaination": "Deze sectie zal zichtbaar zijn",
-    "conditionalRanks": "Voorwaardelijke Rang(en)"
+    "conditionalRanks": "Voorwaardelijke Rang(en)",
+    "automemberRobloxId": "Auto-lid Roblox-ID",
+    "communityMemberRobloxIdElement": "Gemeenschapslid Roblox-ID-element"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"

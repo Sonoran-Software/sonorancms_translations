@@ -279,7 +279,8 @@
     "editOtherEvents": "Upravit jiné události",
     "createEvent": "Vytvořit událost - Kategorie",
     "eventNotFound": "Událost nenalezena/nepřístupná",
-    "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit."
+    "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit.",
+    "editEvents": "Upravit události"
   },
   "limits": {
     "version": "Verze",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Pořadí zobrazené v seznamu",
     "rosterSlug": "Adresa URL seznamu",
     "copyRosterUrl": "Zkopírovat adresu URL seznamu",
-    "memberDisciplinaryPoints": "Členské disciplinární body"
+    "memberDisciplinaryPoints": "Členské disciplinární body",
+    "robloxId": "Roblox ID"
   },
   "Index": {
     "creatingRostersTutorial": "Výukový program pro vytváření seznamů",
@@ -622,7 +624,10 @@
     "anErrorOccuredWhileVerifyingUsernameTr": "Při ověřování uživatelského jména došlo k chybě:",
     "usernamePassedVerificationTr": "Uživatelské jméno prošlo ověřením!",
     "aiSearch": "AI vyhledávání",
-    "searchStarting": "Vyhledávání začíná..."
+    "searchStarting": "Vyhledávání začíná...",
+    "askAiAQuestion": "Zeptejte se AI na otázku...",
+    "addedRanks": "Přidané hodnosti",
+    "removedRanks": "Odstraněné hodnosti"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -918,7 +923,12 @@
     "temporary": "Dočasný",
     "previousMembers": "Předchozí členové",
     "unban": "Odbanovat",
-    "unarchive": "Rozbalit"
+    "unarchive": "Rozbalit",
+    "copyRobloxId": "Kopírovat Roblox ID",
+    "userHasNotConnectedTheirRoblox": "Uživatel nepřipojil svůj Roblox.",
+    "robloxIdCopiedToClipboard": "ID Roblox zkopírováno do schránky.",
+    "userPermissions": "Uživatelská oprávnění:",
+    "debugPermissions": "Ladicí oprávnění"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -1950,7 +1960,8 @@
     "community": "KOMUNITA",
     "entire": "CELÁ",
     "managesYour": "SPRAVUJE VAŠI",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "Vyhledávání AI logů"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Nejsou přítomny žádné autentizační údaje, kontaktujte podporu.",
@@ -3642,7 +3653,9 @@
     "conditionalQuestion": "Podmíněná otázka",
     "enterValues": "Zadejte hodnoty",
     "conditionalQuestionStartExplaination": "Tato sekce bude viditelná",
-    "conditionalRanks": "Podmínková hodnost(i)"
+    "conditionalRanks": "Podmínková hodnost(i)",
+    "automemberRobloxId": "Automatické členství Roblox ID",
+    "communityMemberRobloxIdElement": "ID uživatele Roblox ve vaší komunitě"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"

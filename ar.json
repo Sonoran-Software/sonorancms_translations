@@ -279,7 +279,8 @@
     "editOtherEvents": "تحرير أحداث أخرى",
     "createEvent": "إنشاء حدث - الفئة",
     "eventNotFound": "الحدث غير موجود/غير قابل للوصول",
-    "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة."
+    "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة.",
+    "editEvents": "تعديل الفعاليات"
   },
   "limits": {
     "version": "الإصدار",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "الترتيب المعروض داخل القائمة",
     "rosterSlug": "عنوان URL للفرقة",
     "copyRosterUrl": "انسخ رابط القائمة",
-    "memberDisciplinaryPoints": "نقاط الانضباط للعضو"
+    "memberDisciplinaryPoints": "نقاط الانضباط للعضو",
+    "robloxId": "معرف Roblox"
   },
   "Index": {
     "creatingRostersTutorial": "دليل إنشاء القوائم",
@@ -624,7 +626,8 @@
     "addedRanks": "الرتب المضافة",
     "removedRanks": "الرتب المحذوفة",
     "aiSearch": "البحث بالذكاء الاصطناعي",
-    "searchStarting": "البحث يبدأ..."
+    "searchStarting": "البحث يبدأ...",
+    "askAiAQuestion": "اطرح سؤالاً على AI..."
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -920,7 +923,12 @@
     "temporary": "مؤقت",
     "previousMembers": "الأعضاء السابقون",
     "unban": "رفع الحظر",
-    "unarchive": "إلغاء الأرشفة"
+    "unarchive": "إلغاء الأرشفة",
+    "copyRobloxId": "انسخ معرف Roblox",
+    "userHasNotConnectedTheirRoblox": "لم يقم المستخدم بتوصيل حساب Roblox الخاص به.",
+    "robloxIdCopiedToClipboard": "تم نسخ معرّف Roblox إلى الحافظة.",
+    "userPermissions": "أذونات المستخدم:",
+    "debugPermissions": "تصحيح الأذونات"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -1952,7 +1960,8 @@
     "community": "المجتمع",
     "entire": "كامل",
     "managesYour": "يدير",
-    "cms": "نظام إدارة المحتوى"
+    "cms": "نظام إدارة المحتوى",
+    "aiLogSearch": "البحث في سجل الذكاء الاصطناعي"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "لا توجد بيانات اعتماد مصادقة، اتصل بالدعم.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "سؤال شرطي",
     "enterValues": "أدخل القيم",
     "conditionalQuestionStartExplaination": "هذه القسم ستكون مرئية",
-    "conditionalRanks": "رتبة (رتب) شرطية"
+    "conditionalRanks": "رتبة (رتب) شرطية",
+    "automemberRobloxId": "معرف Roblox للعضو تلقائيًا",
+    "communityMemberRobloxIdElement": "عنصر معرف Roblox لعضو المجتمع"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"

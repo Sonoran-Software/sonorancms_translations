@@ -279,7 +279,8 @@
     "editOtherEvents": "Andere Veranstaltungen bearbeiten",
     "createEvent": "Eine Veranstaltung erstellen - Kategorie",
     "eventNotFound": "Veranstaltung nicht gefunden/nicht zugänglich",
-    "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen."
+    "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen.",
+    "editEvents": "Veranstaltungen bearbeiten"
   },
   "limits": {
     "version": "Version",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Angezeigte Reihenfolge im Roster",
     "rosterSlug": "Roster-URL-Slug",
     "copyRosterUrl": "Roster-URL kopieren",
-    "memberDisciplinaryPoints": "Mitglied Disziplinarische Punkte"
+    "memberDisciplinaryPoints": "Mitglied Disziplinarische Punkte",
+    "robloxId": "Roblox-ID"
   },
   "Index": {
     "creatingRostersTutorial": "Tutorial zur Erstellung von Rostern",
@@ -624,7 +626,8 @@
     "aiSearch": "KI-Suche",
     "searchStarting": "Suche startet...",
     "addedRanks": "Hinzugefügte Ränge",
-    "removedRanks": "Entfernte Ränge"
+    "removedRanks": "Entfernte Ränge",
+    "askAiAQuestion": "Eine Frage an die KI stellen..."
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -920,7 +923,12 @@
     "temporary": "Vorübergehend",
     "previousMembers": "Vorherige Mitglieder",
     "unban": "Entsperren",
-    "unarchive": "Wiederherstellen"
+    "unarchive": "Wiederherstellen",
+    "copyRobloxId": "Roblox-ID kopieren",
+    "userHasNotConnectedTheirRoblox": "Benutzer hat sein Roblox nicht verbunden.",
+    "robloxIdCopiedToClipboard": "Roblox-ID in die Zwischenablage kopiert.",
+    "userPermissions": "Benutzerberechtigungen:",
+    "debugPermissions": "Debug-Berechtigungen"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -1952,7 +1960,8 @@
     "community": "COMMUNITY",
     "entire": "GESAMT",
     "managesYour": "VERWALTET IHRE",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "KI-Protokollsuche"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Keine Authentifizierungsdaten vorhanden, Support kontaktieren.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Bedingte Frage",
     "enterValues": "Werte eingeben",
     "conditionalQuestionStartExplaination": "Dieser Abschnitt wird sichtbar sein",
-    "conditionalRanks": "Bedingte(r) Rang/Ränge"
+    "conditionalRanks": "Bedingte(r) Rang/Ränge",
+    "automemberRobloxId": "Auto-Mitglied Roblox-ID",
+    "communityMemberRobloxIdElement": "Community-Mitglied Roblox-ID-Element"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"

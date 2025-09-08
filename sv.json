@@ -279,7 +279,8 @@
     "editOtherEvents": "Redigera Andra Evenemang",
     "createEvent": "Skapa ett Evenemang - Kategori",
     "eventNotFound": "Evenemang Ej Hittat/Tillgängligt",
-    "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt."
+    "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt.",
+    "editEvents": "Redigera evenemang"
   },
   "limits": {
     "version": "Version",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Ordning Visad inom Roster",
     "rosterSlug": "Roster URL-slug",
     "copyRosterUrl": "Kopiera Roster-URL",
-    "memberDisciplinaryPoints": "Medlemsdisciplinära poäng"
+    "memberDisciplinaryPoints": "Medlemsdisciplinära poäng",
+    "robloxId": "Roblox-ID"
   },
   "Index": {
     "creatingRostersTutorial": "Skapa Roster Tutorial",
@@ -624,7 +626,8 @@
     "aiSearch": "AI-sökning",
     "searchStarting": "Sökning Startar...",
     "addedRanks": "Tillagda Ranks",
-    "removedRanks": "Borttagna Ranks"
+    "removedRanks": "Borttagna Ranks",
+    "askAiAQuestion": "Ställ en fråga till AI..."
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -920,7 +923,12 @@
     "temporary": "Tillfällig",
     "previousMembers": "Tidigare medlemmar",
     "unban": "Upphäv avstängning",
-    "unarchive": "Återställ från arkiv"
+    "unarchive": "Återställ från arkiv",
+    "copyRobloxId": "Kopiera Roblox-ID",
+    "userHasNotConnectedTheirRoblox": "Användaren har inte kopplat sitt Roblox-konto.",
+    "robloxIdCopiedToClipboard": "Roblox-ID kopierat till urklipp.",
+    "userPermissions": "Användarbehörigheter:",
+    "debugPermissions": "Felsökningsbehörigheter"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -1952,7 +1960,8 @@
     "community": "GEMENSKAP",
     "entire": "HELA",
     "managesYour": "HANTERAR DIN",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI Loggsökning"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Inga autentiseringsuppgifter finns, kontakta support.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Villkorlig fråga",
     "enterValues": "Ange värden",
     "conditionalQuestionStartExplaination": "Den här sektionen kommer att vara synlig",
-    "conditionalRanks": "Villkorlig(a) rang(er)"
+    "conditionalRanks": "Villkorlig(a) rang(er)",
+    "automemberRobloxId": "Auto-Medlem Roblox ID",
+    "communityMemberRobloxIdElement": "Community member Roblox ID-element"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"

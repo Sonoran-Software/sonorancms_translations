@@ -279,7 +279,8 @@
     "editOtherEvents": "Rediger Andre Hendelser",
     "createEvent": "Opprett en Hendelse - Kategori",
     "eventNotFound": "Hendelse Ikke Funnet/Tilgjengelig",
-    "eventNotFoundDesc": "Enten eksisterer ikke hendelsen eller du har ikke tillatelse til å se denne hendelsen direkte."
+    "eventNotFoundDesc": "Enten eksisterer ikke hendelsen eller du har ikke tillatelse til å se denne hendelsen direkte.",
+    "editEvents": "Rediger hendelser"
   },
   "limits": {
     "version": "Versjon",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Rekkefølge Vist i Roster",
     "rosterSlug": "URL-slug for vaktliste",
     "copyRosterUrl": "Kopier oppstillings-URL",
-    "memberDisciplinaryPoints": "Disiplinærpoeng for medlem"
+    "memberDisciplinaryPoints": "Disiplinærpoeng for medlem",
+    "robloxId": "Roblox-ID"
   },
   "Index": {
     "creatingRostersTutorial": "Opprette Rostere Veiledning",
@@ -624,7 +626,8 @@
     "aiSearch": "AI-søk",
     "searchStarting": "Søket starter...",
     "addedRanks": "Lagt til rader",
-    "removedRanks": "Fjernet Rangeringer"
+    "removedRanks": "Fjernet Rangeringer",
+    "askAiAQuestion": "Still AI et spørsmål..."
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -920,7 +923,12 @@
     "temporary": "Midlertidig",
     "previousMembers": "Tidligere medlemmer",
     "unban": "Opphev utestenging",
-    "unarchive": "Avarkivere"
+    "unarchive": "Avarkivere",
+    "copyRobloxId": "Kopier Roblox-ID",
+    "userHasNotConnectedTheirRoblox": "Brukeren har ikke koblet sin Roblox.",
+    "robloxIdCopiedToClipboard": "Roblox-ID kopiert til utklippstavle.",
+    "userPermissions": "Brukertillatelser:",
+    "debugPermissions": "Feilsøk Tillatelser"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Veiledning",
@@ -1952,7 +1960,8 @@
     "community": "FELLESSKAP",
     "entire": "HELE",
     "managesYour": "ADMINISTRERER DITT",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI Loggsøk"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Ingen autentiseringsopplysninger til stede, kontakt support.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Betinget spørsmål",
     "enterValues": "Angi verdier",
     "conditionalQuestionStartExplaination": "Denne delen vil være synlig",
-    "conditionalRanks": "Betinget rang(er)"
+    "conditionalRanks": "Betinget rang(er)",
+    "automemberRobloxId": "Auto-Medlem Roblox-ID",
+    "communityMemberRobloxIdElement": "Fellesskapsmedlem Roblox ID-element"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"

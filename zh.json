@@ -279,7 +279,8 @@
     "editOtherEvents": "编辑其他事件",
     "createEvent": "创建事件 - 类别",
     "eventNotFound": "未找到/无法访问事件",
-    "eventNotFoundDesc": "事件不存在或你没有权限直接查看此事件。"
+    "eventNotFoundDesc": "事件不存在或你没有权限直接查看此事件。",
+    "editEvents": "编辑事件"
   },
   "limits": {
     "version": "版本",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "名单内显示顺序",
     "rosterSlug": "花名册网址别名",
     "copyRosterUrl": "复制名单网址",
-    "memberDisciplinaryPoints": "成员纪律点数"
+    "memberDisciplinaryPoints": "成员纪律点数",
+    "robloxId": "Roblox ID"
   },
   "Index": {
     "creatingRostersTutorial": "创建名单教程",
@@ -624,7 +626,8 @@
     "aiSearch": "AI搜索",
     "searchStarting": "搜索开始...",
     "addedRanks": "添加的职级",
-    "removedRanks": "已移除的职级"
+    "removedRanks": "已移除的职级",
+    "askAiAQuestion": "向 AI 提问..."
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -920,7 +923,12 @@
     "temporary": "临时",
     "previousMembers": "以前的成员",
     "unban": "解除封禁",
-    "unarchive": "取消归档"
+    "unarchive": "取消归档",
+    "copyRobloxId": "复制 Roblox ID",
+    "userHasNotConnectedTheirRoblox": "用户尚未连接他们的Roblox。",
+    "robloxIdCopiedToClipboard": "Roblox ID 已复制到剪贴板。",
+    "userPermissions": "用户权限：",
+    "debugPermissions": "调试权限"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -1952,7 +1960,8 @@
     "community": "社区",
     "entire": "整个",
     "managesYour": "管理您的",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI日志搜索"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "没有认证凭据，请联系支持。",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "条件问题",
     "enterValues": "输入值",
     "conditionalQuestionStartExplaination": "此部分将可见",
-    "conditionalRanks": "条件级别"
+    "conditionalRanks": "条件级别",
+    "automemberRobloxId": "自动成员 Roblox ID",
+    "communityMemberRobloxIdElement": "社区成员 Roblox ID 元素"
   },
   "selectRoster": {
     "selectRoster": "选择名册"

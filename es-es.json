@@ -279,7 +279,8 @@
     "editOtherEvents": "Editar Otros Eventos",
     "createEvent": "Crear un Evento - Categoría",
     "eventNotFound": "Evento No Encontrado/Accesible",
-    "eventNotFoundDesc": "O el evento no existe o no tienes permiso para ver este evento directamente."
+    "eventNotFoundDesc": "O el evento no existe o no tienes permiso para ver este evento directamente.",
+    "editEvents": "Editar eventos"
   },
   "limits": {
     "version": "Versión",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Orden Mostrado dentro del Roster",
     "rosterSlug": "Slug de URL del Roster",
     "copyRosterUrl": "Copiar URL del Roster",
-    "memberDisciplinaryPoints": "Puntos Disciplinarios del Miembro"
+    "memberDisciplinaryPoints": "Puntos Disciplinarios del Miembro",
+    "robloxId": "ID de Roblox"
   },
   "Index": {
     "creatingRostersTutorial": "Tutorial de Creación de Rosters",
@@ -624,7 +626,8 @@
     "aiSearch": "Búsqueda de IA",
     "searchStarting": "Buscando...",
     "addedRanks": "Rangos añadidos",
-    "removedRanks": "Rangos eliminados"
+    "removedRanks": "Rangos eliminados",
+    "askAiAQuestion": "Hacer una pregunta a la IA..."
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -920,7 +923,12 @@
     "temporary": "Temporal",
     "previousMembers": "Miembros anteriores",
     "unban": "Desbloquear",
-    "unarchive": "Desarchivar"
+    "unarchive": "Desarchivar",
+    "copyRobloxId": "Copiar ID de Roblox",
+    "userHasNotConnectedTheirRoblox": "El usuario no ha conectado su Roblox.",
+    "robloxIdCopiedToClipboard": "ID de Roblox copiado al portapapeles.",
+    "userPermissions": "Permisos de usuario:",
+    "debugPermissions": "Permisos de depuración"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial de API de la Comunidad",
@@ -1952,7 +1960,8 @@
     "community": "COMUNIDAD",
     "entire": "ENTERA",
     "managesYour": "GESTIONA TU",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "Búsqueda de Registro de IA"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "No hay credenciales de autenticación presentes, contacta soporte.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Pregunta condicional",
     "enterValues": "Ingrese valores",
     "conditionalQuestionStartExplaination": "Esta sección será visible",
-    "conditionalRanks": "Rango(s) condicional(es)"
+    "conditionalRanks": "Rango(s) condicional(es)",
+    "automemberRobloxId": "ID de Roblox de Auto-Miembro",
+    "communityMemberRobloxIdElement": "Elemento de ID de Roblox del miembro de la comunidad"
   },
   "selectRoster": {
     "selectRoster": "Seleccionar Lista"

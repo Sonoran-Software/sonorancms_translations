@@ -279,7 +279,8 @@
     "editOtherEvents": "Edytuj Inne Wydarzenia",
     "createEvent": "Utwórz Wydarzenie - Kategoria",
     "eventNotFound": "Wydarzenie Nie Znalezione/Niedostępne",
-    "eventNotFoundDesc": "Albo wydarzenie nie istnieje, albo nie masz uprawnień do bezpośredniego przeglądania tego wydarzenia."
+    "eventNotFoundDesc": "Albo wydarzenie nie istnieje, albo nie masz uprawnień do bezpośredniego przeglądania tego wydarzenia.",
+    "editEvents": "Edytuj wydarzenia"
   },
   "limits": {
     "version": "Wersja",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Kolejność wyświetlania w składzie",
     "rosterSlug": "Enlace URL de la lista",
     "copyRosterUrl": "Kopieer rooster-URL",
-    "memberDisciplinaryPoints": "Punkty Dyscyplinarne Członka"
+    "memberDisciplinaryPoints": "Punkty Dyscyplinarne Członka",
+    "robloxId": "ID Roblox"
   },
   "Index": {
     "creatingRostersTutorial": "Samouczek tworzenia składów",
@@ -624,7 +626,8 @@
     "aiSearch": "Søk med AI",
     "searchStarting": "Rechercher le démarrage...",
     "addedRanks": "Classificações Adicionadas",
-    "removedRanks": "Rangy usunięte"
+    "removedRanks": "Rangy usunięte",
+    "askAiAQuestion": "Zadaj AI pytanie..."
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -920,7 +923,12 @@
     "temporary": "Tijdelijk",
     "previousMembers": "Miembros anteriores",
     "unban": "Rozbanuj",
-    "unarchive": "Desarquivar"
+    "unarchive": "Desarquivar",
+    "copyRobloxId": "Skopiuj ID Roblox",
+    "userHasNotConnectedTheirRoblox": "Użytkownik nie połączył swojego konta Roblox.",
+    "robloxIdCopiedToClipboard": "Copied el Roblox ID en el portapapeles.",
+    "userPermissions": "Uprawnienia użytkownika:",
+    "debugPermissions": "Depurar Permisos"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -1952,7 +1960,8 @@
     "community": "SPOŁECZNOŚĆ",
     "entire": "CAŁA",
     "managesYour": "ZARZĄDZA TWOJĄ",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI Dziennik Wyszukiwania"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Brak danych uwierzytelniających, skontaktuj się z pomocą techniczną.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Warunkowe Pytanie",
     "enterValues": "Wprowadź wartości",
     "conditionalQuestionStartExplaination": "Esta seção estará visível",
-    "conditionalRanks": "Rango(s) condicional(es)"
+    "conditionalRanks": "Rango(s) condicional(es)",
+    "automemberRobloxId": "Auto-membre Roblox ID",
+    "communityMemberRobloxIdElement": "Elemento de ID de Roblox de miembro de la comunidad"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"

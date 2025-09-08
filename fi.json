@@ -279,7 +279,8 @@
     "editOtherEvents": "Muokkaa muita tapahtumia",
     "createEvent": "Luo tapahtuma - Kategoria",
     "eventNotFound": "Tapahtumaa ei löydy/ei ole käytettävissä",
-    "eventNotFoundDesc": "Joko tapahtumaa ei ole olemassa tai sinulla ei ole oikeuksia nähdä tätä tapahtumaa suoraan."
+    "eventNotFoundDesc": "Joko tapahtumaa ei ole olemassa tai sinulla ei ole oikeuksia nähdä tätä tapahtumaa suoraan.",
+    "editEvents": "Muokkaa tapahtumia"
   },
   "limits": {
     "version": "Versio",
@@ -400,7 +401,8 @@
     "orderShownWithinRoster": "Järjestys kokoonpanossa",
     "rosterSlug": "Roster URL -koodi",
     "copyRosterUrl": "Kopioi kokoonpanon URL",
-    "memberDisciplinaryPoints": "Jäsenen kurinpidolliset pisteet"
+    "memberDisciplinaryPoints": "Jäsenen kurinpidolliset pisteet",
+    "robloxId": "Roblox-tunnus"
   },
   "Index": {
     "creatingRostersTutorial": "Kokoonpanojen luomisen opas",
@@ -624,7 +626,8 @@
     "aiSearch": "AI-haku",
     "searchStarting": "Hakua aloitetaan...",
     "addedRanks": "Lisätyt arvot",
-    "removedRanks": "Poistetut arvot"
+    "removedRanks": "Poistetut arvot",
+    "askAiAQuestion": "Kysy tekoälyltä kysymys..."
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -920,7 +923,12 @@
     "temporary": "Väliaikainen",
     "previousMembers": "Edelliset jäsenet",
     "unban": "Unbannaa",
-    "unarchive": "Poista arkistointi"
+    "unarchive": "Poista arkistointi",
+    "copyRobloxId": "Kopioi Roblox-tunnus",
+    "userHasNotConnectedTheirRoblox": "Käyttäjä ei ole liittänyt Roblox-tiliään.",
+    "robloxIdCopiedToClipboard": "Roblox-tunnus kopioitu leikepöydälle.",
+    "userPermissions": "User-oikeudet:",
+    "debugPermissions": "Virheenkorjausluvat"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -1952,7 +1960,8 @@
     "community": "YHTEISÖ",
     "entire": "KOKO",
     "managesYour": "HALLITSEE SINUN",
-    "cms": "CMS"
+    "cms": "CMS",
+    "aiLogSearch": "AI-lokihaku"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Ei todennustietoja, ota yhteyttä tukeen.",
@@ -3644,7 +3653,9 @@
     "conditionalQuestion": "Ehdollinen kysymys",
     "enterValues": "Syötä arvot",
     "conditionalQuestionStartExplaination": "Tämä osio on näkyvissä",
-    "conditionalRanks": "Ehdollinen Arvo(t)"
+    "conditionalRanks": "Ehdollinen Arvo(t)",
+    "automemberRobloxId": "Automaatiojäsen Roblox ID",
+    "communityMemberRobloxIdElement": "Yhteisön jäsenen Roblox ID -elementti"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
