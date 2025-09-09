@@ -2290,7 +2290,20 @@
     "Info": "Info",
     "Actions": "Actions",
     "stageIcon": "Stage icon",
-    "noLabel": "No Label"
+    "noLabel": "No Label",
+    "AIProcessing": "AI Processing",
+    "AIProcessingSectionDescriptions": "Instruct the AI on how to score each section of this form.",
+    "Weight": "Weight",
+    "formSection": "Form Section",
+    "addCriteria": "Add Criteria",
+    "required": "Required",
+    "addSection": "Add Section",
+    "addRule":"Add Rule",
+    "IfAnyRequiredFieldFails": "If any required criteria does not match, move to:",
+    "stage": "Stage",
+    "minScore": "Min Score",
+    "maxScore": "Max Score",
+    "IfScoreIsBetween": "If score is between:"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
