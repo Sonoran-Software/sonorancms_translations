@@ -2292,7 +2292,7 @@
     "stageIcon": "Stage icon",
     "noLabel": "No Label",
     "AIProcessing": "AI Processing",
-    "AIProcessingSectionDescriptions": "Instruct the AI on how to score each section of this form.",
+    "AIProcessingSectionDescriptions": "When a form gets to this stage, instruct the AI on how to score each section of this form.",
     "Weight": "Weight",
     "formSection": "Form Section",
     "addCriteria": "Add Criteria",
