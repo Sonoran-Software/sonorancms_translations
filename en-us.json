@@ -2303,7 +2303,10 @@
     "stage": "Stage",
     "minScore": "Min Score",
     "maxScore": "Max Score",
-    "IfScoreIsBetween": "If score is between:"
+    "IfScoreIsBetween": "If score is between:",
+    "AdvancedOptions": "Advanced Options",
+    "MaximumNumberOfAccountFlags": "Maximum Number of Account Flags",
+    "MaximumNumberOfDisciplinaryPoints": "Maximum Number of Disciplinary Points"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
