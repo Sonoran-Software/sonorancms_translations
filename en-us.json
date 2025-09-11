@@ -1951,7 +1951,8 @@
     "entire": "ENTIRE",
     "managesYour": "MANAGES YOUR",
     "cms": "CMS",
-    "aiLogSearch": "AI Log Search"
+    "aiLogSearch": "AI Log Search",
+    "aiFormProcessing": "AI Form Processing"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "No auth credentials present, contact support.",
