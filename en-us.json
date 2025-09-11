@@ -2306,7 +2306,10 @@
     "IfScoreIsBetween": "If score is between:",
     "AdvancedOptions": "Advanced Options",
     "MaximumNumberOfAccountFlags": "Maximum Number of Account Flags",
-    "MaximumNumberOfDisciplinaryPoints": "Maximum Number of Disciplinary Points"
+    "MaximumNumberOfDisciplinaryPoints": "Maximum Number of Disciplinary Points",
+    "WeightsMustTotal100": "Section weights must total 100% combined",
+    "WeightMustBeBetween": "Weight must be between 0 and 100%",
+    "RuleStageRequired": "Stage is required"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
