@@ -2746,8 +2746,9 @@
     "id": "ID:"
   },
   "forumExpandableRanks": {
-    "showMoreRanks": "Show {count} more ranks",
-    "showLessRanks": "Show {count} less ranks"
+    "show": "Show",
+    "moreRanks": "more ranks",
+    "lessRanks": "less ranks"
   },
   "ViewFormSubmission": {
     "shareLink": "Share Link",
@@ -4538,7 +4539,19 @@
     "by": "by",
     "reason": "Reason:",
     "points": "Points:",
-    "issuedBy": "Issued By:"
+    "issuedBy": "Issued By:",
+    "teleportedTo": "teleported to",
+    "sentAPrivateMessageTo": "sent a private message to",
+    "wasAdmined": "was given admin",
+    "wasUnadmined": "was removed from admin",
+    "wasModerated": "was given moderator",
+    "wasUnmoderated": "was removed from moderator",
+    "wasRefreshed": "was refreshed",
+    "wasRespawned": "was respawned",
+    "wasJailed": "was jailed",
+    "wasHealed": "was healed",
+    "wasWanted": "was set to wanted",
+    "wasUnwanted": "was set to unwanted"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disciplinary",
