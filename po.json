@@ -1961,7 +1961,8 @@
     "entire": "CAŁA",
     "managesYour": "ZARZĄDZA TWOJĄ",
     "cms": "CMS",
-    "aiLogSearch": "AI Dziennik Wyszukiwania"
+    "aiLogSearch": "AI Dziennik Wyszukiwania",
+    "aiFormProcessing": "Procesamiento de Formularios AI"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Brak danych uwierzytelniających, skontaktuj się z pomocą techniczną.",
@@ -2300,7 +2301,26 @@
     "Actions": "Działania",
     "stageIcon": "Ikona etapu",
     "noLabel": "Brak Etykiety",
-    "formsstageactiontypesapplydisciplinaryp": "Nałóż punkty dyscyplinarne"
+    "formsstageactiontypesapplydisciplinaryp": "Nałóż punkty dyscyplinarne",
+    "AIProcessing": "Przetwarzanie AI",
+    "AIProcessingSectionDescriptions": "Kiedy formularz dotrze do tego etapu, poinstruuj AI, jak ocenić każdą sekcję tego formularza.",
+    "Weight": "Peso",
+    "formSection": "Sección del Formulario",
+    "addCriteria": "Kriteria Ekle",
+    "required": "Obavezno",
+    "addSection": "Dodaj dział",
+    "addRule": "Dodaj zasadu",
+    "IfAnyRequiredFieldFails": "Ako bilo koji od potrebnih kriterija ne odgovara, pređite na:",
+    "stage": "Escenario",
+    "minScore": "अधिकतम स्कोर",
+    "maxScore": "Puntuación máxima",
+    "IfScoreIsBetween": "Hvis score er mellem:",
+    "AdvancedOptions": "Avancerede indstillinger",
+    "MaximumNumberOfAccountFlags": "Maksymalna liczba flag konta",
+    "MaximumNumberOfDisciplinaryPoints": "Nombre máximo de puntos disciplinarios",
+    "WeightsMustTotal100": "Sekcja wagi musi wynosić łącznie 100%",
+    "WeightMustBeBetween": "Waga musi być między 0 a 100%",
+    "RuleStageRequired": "Etap jest wymagany"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Przełącznie Rozłączanie",
     "toggleGrant": "Włącz przyznanie",
     "toggleDeny": "Przełącz Odmów",
-    "inheritedTooltip": "Ta uprawnienia zostały zmienione na poziomie działu i nie można ich tutaj zmienić. Zaktualizuj dział, aby je zmodyfikować."
+    "inheritedTooltip": "Ta uprawnienia zostały zmienione na poziomie działu i nie można ich tutaj zmienić. Zaktualizuj dział, aby je zmodyfikować.",
+    "reasoning": "推理",
+    "ownerPrivileges": "Privileges du propriétaire",
+    "groupsAllowing": "Grupos Permitiendo",
+    "groupsDenying": "Grupos negando",
+    "ranksAllowing": "Grados permitidos",
+    "ranksDenying": "Odmowy stopni"
   },
   "permissionExpansionGroup": {
     "noOptions": "brak opcji"
@@ -4434,7 +4460,9 @@
     "contains": "contém",
     "aiEnforcedRules": "ReglasImpuestasPorAI",
     "automaticallyEnforceServerRules": "automatycznieWymuszajZasadySerwera",
-    "comingSoon": "נפתח בקרוב"
+    "comingSoon": "נפתח בקרוב",
+    "priorityPlayerList": "Lista de Jugadores Prioritarios",
+    "priorityPlayerListDescription": "Wybierz, które rangi będą wyświetlane jako pierwsze w menu aktywnych graczy."
   },
   "ERLCPlayers": {
     "playersIngame": "игрокиВигре",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "AzioneEspulsa",
-    "kickedBy": "expulsadoPor",
     "kickedReason": "powód wyrzucenia",
     "disciplinaryPoints": "punkty dyscyplinarne",
     "unknown": "desconocido",
@@ -4505,7 +4532,21 @@
     "by": "por",
     "reason": "powód",
     "points": "punten",
-    "issuedBy": "Üretildiği Kişi"
+    "issuedBy": "Üretildiği Kişi",
+    "kickedByCMS": "Сторонній користувач CMS вилучено:",
+    "kickedByRoblox": "Expulsado por el usuario de Roblox asociado:",
+    "teleportedTo": "teleportował do",
+    "sentAPrivateMessageTo": "wysłał prywatną wiadomość do",
+    "wasAdmined": "​받은 관리자",
+    "wasUnadmined": "fue removido del administrador",
+    "wasModerated": "recibió moderador",
+    "wasUnmoderated": "odstraněn z moderátora",
+    "wasRefreshed": "foi atualizado",
+    "wasRespawned": "został odrodzony",
+    "wasJailed": "został uwięziony",
+    "wasHealed": "wurde geheilt",
+    "wasWanted": "estaba marcado como buscado",
+    "wasUnwanted": "uweer gewild gemaak"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinario",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "プレイヤーは車両を運転していません",
     "isDrivingA": "prowadziA",
     "vehicleInfo": "informaçãoDoVeículo"
+  },
+  "forumExpandableRanks": {
+    "show": "pokaż",
+    "moreRanks": "więcej rang",
+    "lessRanks": "mniej rang"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "em linha por"
   }
 }

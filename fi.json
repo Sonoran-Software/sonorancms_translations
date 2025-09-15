@@ -1961,7 +1961,8 @@
     "entire": "KOKO",
     "managesYour": "HALLITSEE SINUN",
     "cms": "CMS",
-    "aiLogSearch": "AI-lokihaku"
+    "aiLogSearch": "AI-lokihaku",
+    "aiFormProcessing": "AI-lomakkeiden käsittely"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Ei todennustietoja, ota yhteyttä tukeen.",
@@ -2300,7 +2301,26 @@
     "Actions": "Toiminnot",
     "stageIcon": "Vaiheen ikoni",
     "noLabel": "Ei nimeä",
-    "formsstageactiontypesapplydisciplinaryp": "Sovella kurinpitopisteet"
+    "formsstageactiontypesapplydisciplinaryp": "Sovella kurinpitopisteet",
+    "AIProcessing": "AI-käsittely",
+    "AIProcessingSectionDescriptions": "Kun lomake saavuttaa tämän vaiheen, ohjeista tekoälyä, kuinka arvioida kunkin osion tätä lomaketta.",
+    "Weight": "Paino",
+    "formSection": "Lomakkeen osio",
+    "addCriteria": "Lisää kriteeri",
+    "required": "Vaadittu",
+    "addSection": "Lisää osio",
+    "addRule": "Lisää sääntö",
+    "IfAnyRequiredFieldFails": "Jos jokin vaadittu kriteeri ei täsmää, siirry:",
+    "stage": "Vaihe",
+    "minScore": "Minimiarvo",
+    "maxScore": "Maksimipisteet",
+    "IfScoreIsBetween": "Jos pistemäärä on välillä:",
+    "AdvancedOptions": "Edistyneet asetukset",
+    "MaximumNumberOfAccountFlags": "Tilien liputusten enimmäismäärä",
+    "MaximumNumberOfDisciplinaryPoints": "Enimmäismäärä kurinpitopisteitä",
+    "WeightsMustTotal100": "Osioiden painojen on muodostettava yhteensä 100 %",
+    "WeightMustBeBetween": "Painon on oltava 0 ja 100 % välillä",
+    "RuleStageRequired": "Vaihe on pakollinen"
   },
   "StageReorderDialog": {
     "newStage": "Uusi vaihe",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Vaihda pois päältä",
     "toggleGrant": "Kytke myöntäminen päälle/pois",
     "toggleDeny": "Vaihda kiellon tila",
-    "inheritedTooltip": "Tämä lupa on kytketty osastotasolla eikä sitä voi muuttaa täällä. Päivitä osasto muokataksesi sitä."
+    "inheritedTooltip": "Tämä lupa on kytketty osastotasolla eikä sitä voi muuttaa täällä. Päivitä osasto muokataksesi sitä.",
+    "reasoning": "Päättely",
+    "ownerPrivileges": "Omistajan oikeudet",
+    "groupsAllowing": "Sallivat ryhmät",
+    "groupsDenying": "Ryhmät Kieltävät",
+    "ranksAllowing": "Sallittavat arvot",
+    "ranksDenying": "Arvojen hylkääminen"
   },
   "permissionExpansionGroup": {
     "noOptions": "ei vaihtoehtoja"
@@ -4434,7 +4460,9 @@
     "contains": "sisältää",
     "aiEnforcedRules": "AI: n valvomat säännöt",
     "automaticallyEnforceServerRules": "toteutaPalvelimenSäännötAutomaattisesti",
-    "comingSoon": "tulossa pian"
+    "comingSoon": "tulossa pian",
+    "priorityPlayerList": "Prioriteettipelaajaluettelo",
+    "priorityPlayerListDescription": "Valitse, mitkä arvot näytetään ensin aktiivisten pelaajien valikossa."
   },
   "ERLCPlayers": {
     "playersIngame": "pelaajat pelissä",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "potkittuToiminta",
-    "kickedBy": "potkittu käyttäjän toimesta",
     "kickedReason": "potkujen syy",
     "disciplinaryPoints": "kurinpidolliset pisteet",
     "unknown": "tuntematon",
@@ -4505,7 +4532,21 @@
     "by": "mennessä",
     "reason": "Syy",
     "points": "pisteet",
-    "issuedBy": "myöntäjä"
+    "issuedBy": "myöntäjä",
+    "kickedByCMS": "Poistettu CMS-käyttäjän toimesta:",
+    "kickedByRoblox": "Potkittu yhdistetyn Roblox-käyttäjän toimesta:",
+    "teleportedTo": "teleportattu kohteeseen",
+    "sentAPrivateMessageTo": "lähetti yksityisviestin henkilölle",
+    "wasAdmined": "annettiin järjestelmänvalvojan oikeudet",
+    "wasUnadmined": "poistettiin ylläpidosta",
+    "wasModerated": "annettiin moderaattori",
+    "wasUnmoderated": "poistettiin moderaattorista",
+    "wasRefreshed": "päivitettiin",
+    "wasRespawned": "elvytettiin uudestaan",
+    "wasJailed": "oli vangittu",
+    "wasHealed": "parani",
+    "wasWanted": "oli asetettu etsintäkuulutetuksi",
+    "wasUnwanted": "asetettiin ei-toivotuksi"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "kurinpidollinen",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "pelaajaEiAjaAjoneuvoa",
     "isDrivingA": "ajaa A:ta",
     "vehicleInfo": "ajoneuvotiedot"
+  },
+  "forumExpandableRanks": {
+    "show": "näytä",
+    "moreRanks": "lisääArvoja",
+    "lessRanks": "vähemmän Rivejä"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "verkossa varten"
   }
 }

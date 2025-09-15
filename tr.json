@@ -1961,7 +1961,8 @@
     "entire": "TAMAMEN",
     "managesYour": "YÖNETİR",
     "cms": "CMS",
-    "aiLogSearch": "AI Günlük Arama"
+    "aiLogSearch": "AI Günlük Arama",
+    "aiFormProcessing": "Yapay Zeka Form İşleme"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Kimlik doğrulama bilgileri mevcut değil, destek ile iletişime geçin.",
@@ -2300,7 +2301,26 @@
     "Actions": "Eylemler",
     "stageIcon": "Aşama simgesi",
     "noLabel": "Etiket Yok",
-    "formsstageactiontypesapplydisciplinaryp": "Disiplin Puanları Uygula"
+    "formsstageactiontypesapplydisciplinaryp": "Disiplin Puanları Uygula",
+    "AIProcessing": "AI İşleme",
+    "AIProcessingSectionDescriptions": "Bir form bu aşamaya geldiğinde, AI'ı bu formun her bölümünü nasıl puanlayacağı konusunda bilgilendirin.",
+    "Weight": "Ağırlık",
+    "formSection": "Form Bölümü",
+    "addCriteria": "Kriter Ekle",
+    "required": "Gerekli",
+    "addSection": "Bölüm Ekle",
+    "addRule": "Kural Ekle",
+    "IfAnyRequiredFieldFails": "Eğer gerekli kriterlerden herhangi biri uyuşmuyorsa, şu yere taşı:",
+    "stage": "Sahne",
+    "minScore": "Min Skor",
+    "maxScore": "Maksimum Puan",
+    "IfScoreIsBetween": "Skor arasındaysa:",
+    "AdvancedOptions": "Gelişmiş Seçenekler",
+    "MaximumNumberOfAccountFlags": "Hesap Bayraklarının Maksimum Sayısı",
+    "MaximumNumberOfDisciplinaryPoints": "Disiplin Puanlarının Maksimum Sayısı",
+    "WeightsMustTotal100": "Bölüm ağırlıkları toplamda %100 olmalıdır",
+    "WeightMustBeBetween": "Ağırlık %0 ile %100 arasında olmalıdır.",
+    "RuleStageRequired": "Aşama gereklidir"
   },
   "StageReorderDialog": {
     "newStage": "Yeni Aşama",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Açmayı Kaldır",
     "toggleGrant": "Geçiş İzni",
     "toggleDeny": "Reddetmeyi Değiştir",
-    "inheritedTooltip": "Bu izin, departman düzeyinde değiştirildi ve burada değiştirilemez. Güncellemek için departmanı düzenleyin."
+    "inheritedTooltip": "Bu izin, departman düzeyinde değiştirildi ve burada değiştirilemez. Güncellemek için departmanı düzenleyin.",
+    "reasoning": "Muhakeme",
+    "ownerPrivileges": "Sahip Ayrıcalıkları",
+    "groupsAllowing": "Gruplara İzin Verme",
+    "groupsDenying": "Gruplar Reddediyor",
+    "ranksAllowing": "Rütbelere İzin Veriliyor",
+    "ranksDenying": "Rütbeler Reddediyor"
   },
   "permissionExpansionGroup": {
     "noOptions": "seçenek yok"
@@ -4434,7 +4460,9 @@
     "contains": "içerir",
     "aiEnforcedRules": "AI Tarafından Uygulanan Kurallar",
     "automaticallyEnforceServerRules": "Sunucu Kurallarını Otomatik Olarak Uygula",
-    "comingSoon": "Çok yakında"
+    "comingSoon": "Çok yakında",
+    "priorityPlayerList": "Öncelikli Oyuncu Listesi",
+    "priorityPlayerListDescription": "Hangi rütbelerin aktif oyuncular menüsünde önce görüneceğini seçin."
   },
   "ERLCPlayers": {
     "playersIngame": "oyuncularOyunda",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "kovulmaAksiyonu",
-    "kickedBy": "tarafından atıldı",
     "kickedReason": "Atılma Nedeni",
     "disciplinaryPoints": "disiplin puanları",
     "unknown": "bilinmeyen",
@@ -4505,7 +4532,21 @@
     "by": "tarafından",
     "reason": "neden",
     "points": "puanlar",
-    "issuedBy": "tarafından verildi"
+    "issuedBy": "tarafından verildi",
+    "kickedByCMS": "CMS Kullanıcısı Tarafından Atıldı:",
+    "kickedByRoblox": "İlgili Roblox Kullanıcısı Tarafından Atıldı:",
+    "teleportedTo": "teleport edildi",
+    "sentAPrivateMessageTo": "özel bir mesaj gönderdi",
+    "wasAdmined": "yönetici verildi",
+    "wasUnadmined": "admin'den kaldırıldı",
+    "wasModerated": "moderatör verildi",
+    "wasUnmoderated": "moderator tarafından kaldırıldı",
+    "wasRefreshed": "yenilendi",
+    "wasRespawned": "yeniden doğdu",
+    "wasJailed": "hapisteydi",
+    "wasHealed": "iyileştirildi",
+    "wasWanted": "aranan kişi olarak ayarlandı",
+    "wasUnwanted": "istenmeyene ayarlandı"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disiplin cezası",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "OyuncuBirAraçSürmüyor",
     "isDrivingA": "sürüyor mu?",
     "vehicleInfo": "araçBilgisi"
+  },
+  "forumExpandableRanks": {
+    "show": "göster",
+    "moreRanks": "dahaFazlaRütbe",
+    "lessRanks": "az rütbe"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "Çevrimiçi Süresi"
   }
 }

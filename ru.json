@@ -1961,7 +1961,8 @@
     "entire": "УПРАВЛЯЕТ ВАШИМ",
     "managesYour": "CMS",
     "cms": "Нет учетных данных для авторизации, свяжитесь с поддержкой.",
-    "aiLogSearch": "Поиск по AI логам"
+    "aiLogSearch": "Поиск по AI логам",
+    "aiFormProcessing": "Обработка форм ИИ"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Отклонить",
@@ -2300,7 +2301,26 @@
     "Actions": "Иконка этапа",
     "stageIcon": "Без метки",
     "noLabel": "Новый этап",
-    "formsstageactiontypesapplydisciplinaryp": "Применить дисциплинарные очки"
+    "formsstageactiontypesapplydisciplinaryp": "Применить дисциплинарные очки",
+    "AIProcessing": "Обработка ИИ",
+    "AIProcessingSectionDescriptions": "Когда форма достигает этой стадии, укажите ИИ, как оценивать каждый раздел этой формы.",
+    "Weight": "Вес",
+    "formSection": "Секция формы",
+    "addCriteria": "Добавить Критерий",
+    "required": "Обязательный",
+    "addSection": "Добавить секцию",
+    "addRule": "Добавить правило",
+    "IfAnyRequiredFieldFails": "Если какие-либо обязательные критерии не совпадают, перейдите к:",
+    "stage": "Стадия",
+    "minScore": "Минимальный счет",
+    "maxScore": "Максимальный счет",
+    "IfScoreIsBetween": "Если результат находится между:",
+    "AdvancedOptions": "Дополнительные параметры",
+    "MaximumNumberOfAccountFlags": "Максимальное количество флагов аккаунта",
+    "MaximumNumberOfDisciplinaryPoints": "Максимальное количество дисциплинарных очков",
+    "WeightsMustTotal100": "Разделы должны составлять в сумме 100%",
+    "WeightMustBeBetween": "Вес должен быть между 0 и 100%",
+    "RuleStageRequired": "Этап обязателен"
   },
   "StageReorderDialog": {
     "newStage": "Закрыть",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Переключить Нет",
     "toggleGrant": "Переключить предоставление",
     "toggleDeny": "Переключить отказ",
-    "inheritedTooltip": "Эта разрешение было изменено на уровне отдела и не может быть изменено здесь. Обновите отдел, чтобы изменить его."
+    "inheritedTooltip": "Эта разрешение было изменено на уровне отдела и не может быть изменено здесь. Обновите отдел, чтобы изменить его.",
+    "reasoning": "Логическое мышление",
+    "ownerPrivileges": "Привилегии владельца",
+    "groupsAllowing": "Разрешённые группы",
+    "groupsDenying": "Группы, отклоняющие",
+    "ranksAllowing": "Разрешение званий",
+    "ranksDenying": "Отклонение рангов"
   },
   "permissionExpansionGroup": {
     "noOptions": "нет вариантов"
@@ -4434,7 +4460,9 @@
     "contains": "содержит",
     "aiEnforcedRules": "автоматически применяемые правила",
     "automaticallyEnforceServerRules": "автоматически применять правила сервера",
-    "comingSoon": "скоро будет"
+    "comingSoon": "скоро будет",
+    "priorityPlayerList": "Список приоритетных игроков",
+    "priorityPlayerListDescription": "Выберите, какие ранги будут отображаться первыми в меню активных игроков."
   },
   "ERLCPlayers": {
     "playersIngame": "игроки в игре",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "```удален```",
-    "kickedBy": "выгнан",
     "kickedReason": "причина исключения",
     "disciplinaryPoints": "дисциплинарные баллы",
     "unknown": "неизвестно",
@@ -4505,7 +4532,21 @@
     "by": "от",
     "reason": "причина",
     "points": "очки",
-    "issuedBy": "выдано"
+    "issuedBy": "выдано",
+    "kickedByCMS": "Исключен пользователем CMS:",
+    "kickedByRoblox": "Исключен связанный пользователь Roblox:",
+    "teleportedTo": "телепортирован в",
+    "sentAPrivateMessageTo": "отправил личное сообщение для",
+    "wasAdmined": "было предоставлено администраторские права",
+    "wasUnadmined": "был снят с должности администратора",
+    "wasModerated": "был назначен модератором",
+    "wasUnmoderated": "был удалён из модераторов",
+    "wasRefreshed": "было обновлено",
+    "wasRespawned": "переродился",
+    "wasJailed": "был заключён в тюрьму",
+    "wasHealed": "был вылечен",
+    "wasWanted": "был объявлен в розыск",
+    "wasUnwanted": "было установлено как нежелательное"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "дисциплинарный",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "игрок не управляет транспортным средством",
     "isDrivingA": "Вождение A",
     "vehicleInfo": "Информация о транспортном средстве"
+  },
+  "forumExpandableRanks": {
+    "show": "показать",
+    "moreRanks": "большеРангов",
+    "lessRanks": "меньше рангов"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "онлайн в течение"
   }
 }

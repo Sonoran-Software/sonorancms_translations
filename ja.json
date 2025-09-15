@@ -1961,7 +1961,8 @@
     "entire": "管理します",
     "managesYour": "CMS",
     "cms": "認証資格情報がありません。サポートに連絡してください。",
-    "aiLogSearch": "AIログ検索"
+    "aiLogSearch": "AIログ検索",
+    "aiFormProcessing": "AIフォーム処理"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "閉じる",
@@ -2300,7 +2301,26 @@
     "Actions": "ステージアイコン",
     "stageIcon": "ラベルなし",
     "noLabel": "新しいステージ",
-    "formsstageactiontypesapplydisciplinaryp": "懲戒ポイントを適用"
+    "formsstageactiontypesapplydisciplinaryp": "懲戒ポイントを適用",
+    "AIProcessing": "AI処理",
+    "AIProcessingSectionDescriptions": "フォームがこの段階に達したときに、AIにこのフォームの各セクションをどのように採点するかを指示します。",
+    "Weight": "重さ",
+    "formSection": "フォームセクション",
+    "addCriteria": "条件を追加",
+    "required": "必須",
+    "addSection": "セクションを追加",
+    "addRule": "ルールを追加",
+    "IfAnyRequiredFieldFails": "一致しない必須条件がある場合、移動先:",
+    "stage": "ステージ",
+    "minScore": "最低スコア",
+    "maxScore": "最大スコア",
+    "IfScoreIsBetween": "スコアが次の範囲内の場合:",
+    "AdvancedOptions": "詳細オプション",
+    "MaximumNumberOfAccountFlags": "アカウントフラグの最大数",
+    "MaximumNumberOfDisciplinaryPoints": "懲戒ポイントの最大数",
+    "WeightsMustTotal100": "セクションの重みの合計は100％でなければなりません",
+    "WeightMustBeBetween": "重量は0〜100％の間でなければなりません",
+    "RuleStageRequired": "ステージが必要です"
   },
   "StageReorderDialog": {
     "newStage": "閉じる",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "トグル未設定",
     "toggleGrant": "トグル付与",
     "toggleDeny": "拒否を切り替え",
-    "inheritedTooltip": "この権限は部門レベルで切り替えられており、ここでは変更できません。変更するには部門を更新してください。"
+    "inheritedTooltip": "この権限は部門レベルで切り替えられており、ここでは変更できません。変更するには部門を更新してください。",
+    "reasoning": "理由付け",
+    "ownerPrivileges": "所有者特権",
+    "groupsAllowing": "グループの許可",
+    "groupsDenying": "拒否しているグループ",
+    "ranksAllowing": "ランク許可",
+    "ranksDenying": "ランク拒否"
   },
   "permissionExpansionGroup": {
     "noOptions": "オプションなし"
@@ -4434,7 +4460,9 @@
     "contains": "含む",
     "aiEnforcedRules": "ルールのAIによる施行",
     "automaticallyEnforceServerRules": "サーバールールを自動的に施行する",
-    "comingSoon": "近日公開"
+    "comingSoon": "近日公開",
+    "priorityPlayerList": "優先プレイヤーリスト",
+    "priorityPlayerListDescription": "アクティブプレイヤーメニューに最初に表示されるランクを選択してください。"
   },
   "ERLCPlayers": {
     "playersIngame": "ゲーム内のプレイヤー",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "キック",
-    "kickedBy": "キックしたユーザー",
     "kickedReason": "キックされた理由",
     "disciplinaryPoints": "懲戒ポイント",
     "unknown": "不明",
@@ -4505,7 +4532,21 @@
     "by": "によって",
     "reason": "理由",
     "points": "ポイント",
-    "issuedBy": "発行者"
+    "issuedBy": "発行者",
+    "kickedByCMS": "CMSユーザーによってキックされました:",
+    "kickedByRoblox": "関連するRobloxユーザーによってキックされました:",
+    "teleportedTo": "テレポートされました",
+    "sentAPrivateMessageTo": "にプライベートメッセージを送信しました",
+    "wasAdmined": "管理者権限を与えられました",
+    "wasUnadmined": "管理者から削除されました",
+    "wasModerated": "モデレーターを与えられました",
+    "wasUnmoderated": "モデレーターから削除されました",
+    "wasRefreshed": "更新されました",
+    "wasRespawned": "リスポーンしました",
+    "wasJailed": "投獄された",
+    "wasHealed": "治癒されました",
+    "wasWanted": "指名手配に設定されました",
+    "wasUnwanted": "望ましくない設定がされました"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "懲戒",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "プレイヤーが車両を運転していません",
     "isDrivingA": "運転中のユーザー",
     "vehicleInfo": "車両情報"
+  },
+  "forumExpandableRanks": {
+    "show": "表示",
+    "moreRanks": "さらなるランク",
+    "lessRanks": "ランクなし"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "オンライン時間"
   }
 }

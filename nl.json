@@ -1961,7 +1961,8 @@
     "entire": "GEHELE",
     "managesYour": "BEHEERT JE",
     "cms": "CMS",
-    "aiLogSearch": "AI-log zoekopdracht"
+    "aiLogSearch": "AI-log zoekopdracht",
+    "aiFormProcessing": "AI-formulierverwerking"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Geen authenticatiegegevens aanwezig, neem contact op met ondersteuning.",
@@ -2300,7 +2301,26 @@
     "Actions": "Acties",
     "stageIcon": "Fase icoon",
     "noLabel": "Geen Label",
-    "formsstageactiontypesapplydisciplinaryp": "Disciplin punten toekennen"
+    "formsstageactiontypesapplydisciplinaryp": "Disciplin punten toekennen",
+    "AIProcessing": "AI-verwerking",
+    "AIProcessingSectionDescriptions": "Wanneer een formulier dit stadium bereikt, geef de AI instructies over hoe elk onderdeel van dit formulier moet worden gescoord.",
+    "Weight": "Gewicht",
+    "formSection": "Formulier Sectie",
+    "addCriteria": "Criteria toevoegen",
+    "required": "Vereist",
+    "addSection": "Sectie toevoegen",
+    "addRule": "Regel toevoegen",
+    "IfAnyRequiredFieldFails": "Als er niet aan een vereist criterium wordt voldaan, ga naar:",
+    "stage": "Fase",
+    "minScore": "Minimale Score",
+    "maxScore": "Max Punten",
+    "IfScoreIsBetween": "Als score is tussen:",
+    "AdvancedOptions": "Geavanceerde opties",
+    "MaximumNumberOfAccountFlags": "Maximaal aantal accountvlaggen",
+    "MaximumNumberOfDisciplinaryPoints": "Maximaal Aantal Disciplinaire Punten",
+    "WeightsMustTotal100": "De sectiegewichten moeten samen 100% bedragen",
+    "WeightMustBeBetween": "Het gewicht moet tussen 0 en 100% zijn",
+    "RuleStageRequired": "Stage is vereist"
   },
   "StageReorderDialog": {
     "newStage": "Nieuwe Fase",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Schakel ongedefinieerd uit",
     "toggleGrant": "Wissel Toestaan",
     "toggleDeny": "Schakelen Weigeren",
-    "inheritedTooltip": "Deze toestemming is op afdelingsniveau ingesteld en kan hier niet worden gewijzigd. Werk de afdeling bij om deze te wijzigen."
+    "inheritedTooltip": "Deze toestemming is op afdelingsniveau ingesteld en kan hier niet worden gewijzigd. Werk de afdeling bij om deze te wijzigen.",
+    "reasoning": "Redenering",
+    "ownerPrivileges": "Eigenaar Privileges",
+    "groupsAllowing": "Groepen Toestaan",
+    "groupsDenying": "Groepen weigeren",
+    "ranksAllowing": "Rangen Toestaan",
+    "ranksDenying": "Rangen Weigeren"
   },
   "permissionExpansionGroup": {
     "noOptions": "geenOpties"
@@ -4434,7 +4460,9 @@
     "contains": "bevat",
     "aiEnforcedRules": "aiAfgedwongenRegels",
     "automaticallyEnforceServerRules": "serversregels automatisch handhaven",
-    "comingSoon": "Binnenkort beschikbaar"
+    "comingSoon": "Binnenkort beschikbaar",
+    "priorityPlayerList": "Prioritaire Spelerslijst",
+    "priorityPlayerListDescription": "Kies welke rangen als eerste worden weergegeven in het menu actieve spelers."
   },
   "ERLCPlayers": {
     "playersIngame": "spelers in-game",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "geweigerdActie",
-    "kickedBy": "verwijderd door",
     "kickedReason": "geschopteredenen",
     "disciplinaryPoints": "disciplinaire punten",
     "unknown": "onbekend",
@@ -4505,7 +4532,21 @@
     "by": "door",
     "reason": "reden",
     "points": "punten",
-    "issuedBy": "uitgegeven door"
+    "issuedBy": "uitgegeven door",
+    "kickedByCMS": "Verwijderd door CMS-gebruiker:",
+    "kickedByRoblox": "Gekickt door geassocieerde Roblox-gebruiker:",
+    "teleportedTo": "geteleporteerd naar",
+    "sentAPrivateMessageTo": "stuurde een privébericht naar",
+    "wasAdmined": "kreeg adminrechten",
+    "wasUnadmined": "werd verwijderd uit de administratie",
+    "wasModerated": "kreeg moderatorrechten",
+    "wasUnmoderated": "werd verwijderd als moderator",
+    "wasRefreshed": "werd vernieuwd",
+    "wasRespawned": "werd opnieuw gespawned",
+    "wasJailed": "werd gevangengezet",
+    "wasHealed": "werd geheeld",
+    "wasWanted": "werd op gezocht gezet",
+    "wasUnwanted": "werd ingesteld op ongewenst"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinaire",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "spelerRijdtNietInEenVoertuig",
     "isDrivingA": "is Rijden A",
     "vehicleInfo": "voertuiginformatie"
+  },
+  "forumExpandableRanks": {
+    "show": "tonen",
+    "moreRanks": "meerRangen",
+    "lessRanks": "minderRangen"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "online voor"
   }
 }

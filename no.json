@@ -1961,7 +1961,8 @@
     "entire": "HELE",
     "managesYour": "ADMINISTRERER DITT",
     "cms": "CMS",
-    "aiLogSearch": "AI Loggsøk"
+    "aiLogSearch": "AI Loggsøk",
+    "aiFormProcessing": "AI skjemabehandling"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Ingen autentiseringsopplysninger til stede, kontakt support.",
@@ -2300,7 +2301,26 @@
     "Actions": "Handlinger",
     "stageIcon": "Etappeikon",
     "noLabel": "Ingen Etikett",
-    "formsstageactiontypesapplydisciplinaryp": "Søk Disiplinære Poeng"
+    "formsstageactiontypesapplydisciplinaryp": "Søk Disiplinære Poeng",
+    "AIProcessing": "AI-behandling",
+    "AIProcessingSectionDescriptions": "Når et skjema når dette stadiet, instruer AI-en om hvordan man skal vurdere hver seksjon av dette skjemaet.",
+    "Weight": "Vekt",
+    "formSection": "Skjema Seksjon",
+    "addCriteria": "Legg til kriterier",
+    "required": "Påkrevd",
+    "addSection": "Legg til seksjon",
+    "addRule": "Legg til regel",
+    "IfAnyRequiredFieldFails": "Hvis noen av de nødvendige kriteriene ikke samsvarer, flytt til:",
+    "stage": "Scene",
+    "minScore": "Minste poengsum",
+    "maxScore": "Maksimal poengsum",
+    "IfScoreIsBetween": "Hvis poengsummen er mellom:",
+    "AdvancedOptions": "Avanserte alternativer",
+    "MaximumNumberOfAccountFlags": "Maksimalt antall kontoflagg",
+    "MaximumNumberOfDisciplinaryPoints": "Maksimalt antall disiplinære poeng",
+    "WeightsMustTotal100": "Seksjonsvekter må til sammen utgjøre 100%",
+    "WeightMustBeBetween": "Vekten må være mellom 0 og 100 %",
+    "RuleStageRequired": "Feltet er påkrevd"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etappe",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Veksle Ikke satt",
     "toggleGrant": "Veksle tildeling",
     "toggleDeny": "Veksle Avslå",
-    "inheritedTooltip": "Denne tillatelsen ble slått på avdelingsnivå og kan ikke endres her. Oppdater avdelingen for å endre den."
+    "inheritedTooltip": "Denne tillatelsen ble slått på avdelingsnivå og kan ikke endres her. Oppdater avdelingen for å endre den.",
+    "reasoning": "Resonnement",
+    "ownerPrivileges": "Eierrettigheter",
+    "groupsAllowing": "Grupper Tillater",
+    "groupsDenying": "Grupper som avslår",
+    "ranksAllowing": "Tillater rangeringer",
+    "ranksDenying": "Rangene avslår"
   },
   "permissionExpansionGroup": {
     "noOptions": "ingen alternativer"
@@ -4434,7 +4460,9 @@
     "contains": "inneholder",
     "aiEnforcedRules": "AI håndhevede regler",
     "automaticallyEnforceServerRules": "håndhev automatisk serverregler",
-    "comingSoon": "kommer snart"
+    "comingSoon": "kommer snart",
+    "priorityPlayerList": "Prioritert spillerliste",
+    "priorityPlayerListDescription": "Velg hvilke ranger som vises først i menyen for aktive spillere."
   },
   "ERLCPlayers": {
     "playersIngame": "spillereIspillet",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "sparketHandling",
-    "kickedBy": "sparket av",
     "kickedReason": "sparket grunn",
     "disciplinaryPoints": "disiplinærpoeng",
     "unknown": "ukjent",
@@ -4505,7 +4532,21 @@
     "by": "av",
     "reason": "årsak",
     "points": "poeng",
-    "issuedBy": "utstedtAv"
+    "issuedBy": "utstedtAv",
+    "kickedByCMS": "Sparket av CMS-bruker:",
+    "kickedByRoblox": "Sparket av tilknyttet Roblox-bruker:",
+    "teleportedTo": "teleportert til",
+    "sentAPrivateMessageTo": "sendte en privat melding til",
+    "wasAdmined": "fikk administratorrettigheter",
+    "wasUnadmined": "ble fjernet fra admin",
+    "wasModerated": "ble gitt moderator",
+    "wasUnmoderated": "ble fjernet fra moderator",
+    "wasRefreshed": "ble oppdatert",
+    "wasRespawned": "ble oppstått på nytt",
+    "wasJailed": "ble arrestert",
+    "wasHealed": "ble ble \n\n",
+    "wasWanted": "ble satt til ønsket",
+    "wasUnwanted": "ble satt uønsket"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disiplinær",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "Spilleren kjører ikke et kjøretøy",
     "isDrivingA": "kjører en",
     "vehicleInfo": "kjøretøyinformasjon"
+  },
+  "forumExpandableRanks": {
+    "show": "vis ",
+    "moreRanks": "flere ranger",
+    "lessRanks": "mindreRanger"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "online i"
   }
 }

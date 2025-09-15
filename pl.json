@@ -1961,7 +1961,8 @@
     "entire": "CAŁA",
     "managesYour": "ZARZĄDZA TWOJĄ",
     "cms": "CMS",
-    "aiLogSearch": "Wyszukiwanie dzienników AI"
+    "aiLogSearch": "Wyszukiwanie dzienników AI",
+    "aiFormProcessing": "Przetwarzanie formularzy AI"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Brak danych uwierzytelniających, skontaktuj się z pomocą techniczną.",
@@ -2300,7 +2301,26 @@
     "Actions": "Działania",
     "stageIcon": "Ikona etapu",
     "noLabel": "Brak Etykiety",
-    "formsstageactiontypesapplydisciplinaryp": "Zastosuj punkty dyscyplinarne"
+    "formsstageactiontypesapplydisciplinaryp": "Zastosuj punkty dyscyplinarne",
+    "AIProcessing": "Przetwarzanie AI",
+    "AIProcessingSectionDescriptions": "Kiedy formularz osiągnie ten etap, poinstruuj AI, jak oceniać każdą sekcję tego formularza.",
+    "Weight": "Waga",
+    "formSection": "Sekcja formularza",
+    "addCriteria": "Dodaj Kryteria",
+    "required": "Wymagane",
+    "addSection": "Dodaj sekcję",
+    "addRule": "Dodaj zasadę",
+    "IfAnyRequiredFieldFails": "Jeśli jakiekolwiek wymagane kryteria się nie zgadzają, przejdź do:",
+    "stage": "Etap",
+    "minScore": "Min. wynik",
+    "maxScore": "Maksymalny wynik",
+    "IfScoreIsBetween": "Jeśli wynik mieści się pomiędzy:",
+    "AdvancedOptions": "Zaawansowane opcje",
+    "MaximumNumberOfAccountFlags": "Maksymalna liczba flag konta",
+    "MaximumNumberOfDisciplinaryPoints": "Maksymalna liczba punktów karnych",
+    "WeightsMustTotal100": "Sekcje muszą łącznie stanowić 100%",
+    "WeightMustBeBetween": "Waga musi mieścić się między 0 a 100%",
+    "RuleStageRequired": "Etap jest wymagany"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -4056,7 +4076,13 @@
     "toggleUnset": "Przełącz brak ustawień",
     "toggleGrant": "Przełącz nadanie",
     "toggleDeny": "Przełącz Odebranie",
-    "inheritedTooltip": "Ta zgoda została zmieniona na poziomie departamentu i nie może być zmieniona tutaj. Zaktualizuj departament, aby ją zmodyfikować."
+    "inheritedTooltip": "Ta zgoda została zmieniona na poziomie departamentu i nie może być zmieniona tutaj. Zaktualizuj departament, aby ją zmodyfikować.",
+    "reasoning": "Rozumowanie",
+    "ownerPrivileges": "Przywileje właściciela",
+    "groupsAllowing": "Zezwalanie grupom",
+    "groupsDenying": "Grupy odrzucające",
+    "ranksAllowing": "Pozwolenia Rangi",
+    "ranksDenying": "Rangi Odrzucające"
   },
   "permissionExpansionGroup": {
     "noOptions": "brakOpcji"
@@ -4434,7 +4460,9 @@
     "contains": "zawiera",
     "aiEnforcedRules": "Zasady wymuszane przez AI",
     "automaticallyEnforceServerRules": "automatycznie egzekwuj zasady serwera",
-    "comingSoon": "Wkrótce dostępne"
+    "comingSoon": "Wkrótce dostępne",
+    "priorityPlayerList": "Lista priorytetowych graczy",
+    "priorityPlayerListDescription": "Wybierz, które stopnie będą wyświetlane jako pierwsze w menu aktywnych graczy."
   },
   "ERLCPlayers": {
     "playersIngame": "gracze w grze",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "akcjaWyrzucenia",
-    "kickedBy": "wyrzuconyPrzez",
     "kickedReason": "powód wyrzucenia",
     "disciplinaryPoints": "punkty dyscyplinarne",
     "unknown": "nieznany",
@@ -4505,7 +4532,21 @@
     "by": "przez",
     "reason": "powód",
     "points": "punkty",
-    "issuedBy": "wystawiony przez"
+    "issuedBy": "wystawiony przez",
+    "kickedByCMS": "Wyrzucony przez użytkownika CMS:",
+    "kickedByRoblox": "Wyrzucony przez powiązanego użytkownika Roblox:",
+    "teleportedTo": "teleportowany do",
+    "sentAPrivateMessageTo": "wysłał prywatną wiadomość do",
+    "wasAdmined": "został administratorem",
+    "wasUnadmined": "został usunięty z administratorów",
+    "wasModerated": "przyznano moderatora",
+    "wasUnmoderated": "został usunięty z moderatora",
+    "wasRefreshed": "została odświeżona",
+    "wasRespawned": "został respawnowany",
+    "wasJailed": "został aresztowany",
+    "wasHealed": "został wyleczony",
+    "wasWanted": "został ustawiony jako poszukiwany",
+    "wasUnwanted": "zostało ustawione na niepożądane"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "dyscyplinarny",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "gracz nie prowadzi pojazdu",
     "isDrivingA": "prowadzi pojazd",
     "vehicleInfo": "Informacje o pojeździe"
+  },
+  "forumExpandableRanks": {
+    "show": "pokaż",
+    "moreRanks": "więcej rang",
+    "lessRanks": "mniejRang"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "Online przez"
   }
 }

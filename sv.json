@@ -1961,7 +1961,8 @@
     "entire": "HELA",
     "managesYour": "HANTERAR DIN",
     "cms": "CMS",
-    "aiLogSearch": "AI Loggsökning"
+    "aiLogSearch": "AI Loggsökning",
+    "aiFormProcessing": "AI-formulärbehandling"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Inga autentiseringsuppgifter finns, kontakta support.",
@@ -2300,7 +2301,26 @@
     "Actions": "Åtgärder",
     "stageIcon": "Etapp ikon",
     "noLabel": "Ingen Etikett",
-    "formsstageactiontypesapplydisciplinaryp": "Tillämpa disciplinära poäng"
+    "formsstageactiontypesapplydisciplinaryp": "Tillämpa disciplinära poäng",
+    "AIProcessing": "AI-behandling",
+    "AIProcessingSectionDescriptions": "När ett formulär når detta steg, instruera AI:n om hur varje del av detta formulär ska poängsättas.",
+    "Weight": "Vikt",
+    "formSection": "Formulärsektion",
+    "addCriteria": "Lägg till kriterier",
+    "required": "Obligatorisk",
+    "addSection": "Lägg till sektion",
+    "addRule": "Lägg till regel",
+    "IfAnyRequiredFieldFails": "Om något av de nödvändiga kriterierna inte matchar, flytta till:",
+    "stage": "Steg",
+    "minScore": "Minsta poäng",
+    "maxScore": "Maxpoäng",
+    "IfScoreIsBetween": "Om poängen är mellan:",
+    "AdvancedOptions": "Avancerade alternativ",
+    "MaximumNumberOfAccountFlags": "Maximalt antal kontoflaggor",
+    "MaximumNumberOfDisciplinaryPoints": "Maximalt antal disciplinpoäng",
+    "WeightsMustTotal100": "Avsnittsvikter måste totalt vara 100% tillsammans",
+    "WeightMustBeBetween": "Vikten måste vara mellan 0 och 100%",
+    "RuleStageRequired": "Scenen är obligatorisk"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etapp",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Växla Oinställd",
     "toggleGrant": "Växla Bevilja",
     "toggleDeny": "Växla neka",
-    "inheritedTooltip": "Denna behörighet aktiverades på avdelningsnivå och kan inte ändras här. Uppdatera avdelningen för att ändra den."
+    "inheritedTooltip": "Denna behörighet aktiverades på avdelningsnivå och kan inte ändras här. Uppdatera avdelningen för att ändra den.",
+    "reasoning": "Resonemang",
+    "ownerPrivileges": "Ägarprivilegier",
+    "groupsAllowing": "Grupper tillåter",
+    "groupsDenying": "Grupper som nekas",
+    "ranksAllowing": "Tillåtna Rangordningar",
+    "ranksDenying": "Rang Neka"
   },
   "permissionExpansionGroup": {
     "noOptions": "inga alternativ"
@@ -4434,7 +4460,9 @@
     "contains": "innehåller",
     "aiEnforcedRules": "AI-efterlevda regler",
     "automaticallyEnforceServerRules": "tillämpa serverregler automatiskt",
-    "comingSoon": "Kommer snart"
+    "comingSoon": "Kommer snart",
+    "priorityPlayerList": "Prioriterad Spelarlista",
+    "priorityPlayerListDescription": "Välj vilka grader som ska visas först i menyn för aktiva spelare."
   },
   "ERLCPlayers": {
     "playersIngame": "spelareIgång",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "sparkadÅtgärd",
-    "kickedBy": "kickad_av",
     "kickedReason": "sparkad anledning",
     "disciplinaryPoints": "disciplinära poäng",
     "unknown": "okänd",
@@ -4505,7 +4532,21 @@
     "by": "av",
     "reason": "anledning",
     "points": "poäng",
-    "issuedBy": "utfärdad av"
+    "issuedBy": "utfärdad av",
+    "kickedByCMS": "Sparkad av CMS-användare:",
+    "kickedByRoblox": "Sparkad av associerad Roblox-användare:",
+    "teleportedTo": "teleporterad till",
+    "sentAPrivateMessageTo": "skickade ett privat meddelande till",
+    "wasAdmined": "fick administratörsbehörighet",
+    "wasUnadmined": "tog bort från admin",
+    "wasModerated": "fick moderatorrollen",
+    "wasUnmoderated": "togs bort från moderator",
+    "wasRefreshed": "uppdaterades",
+    "wasRespawned": "återupplivades",
+    "wasJailed": "blev fängslad",
+    "wasHealed": "läktes",
+    "wasWanted": "ställdes till efterlyst",
+    "wasUnwanted": "var inställd på oönskat"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinär",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "spelarenKörInteEttFordon",
     "isDrivingA": "kör en",
     "vehicleInfo": "fordonsinformation"
+  },
+  "forumExpandableRanks": {
+    "show": "visa",
+    "moreRanks": "flerRanger",
+    "lessRanks": "färreRanker"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "online i"
   }
 }

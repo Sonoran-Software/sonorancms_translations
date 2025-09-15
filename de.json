@@ -1961,7 +1961,8 @@
     "entire": "GESAMT",
     "managesYour": "VERWALTET IHRE",
     "cms": "CMS",
-    "aiLogSearch": "KI-Protokollsuche"
+    "aiLogSearch": "KI-Protokollsuche",
+    "aiFormProcessing": "KI-Formularverarbeitung"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Keine Authentifizierungsdaten vorhanden, Support kontaktieren.",
@@ -2300,7 +2301,26 @@
     "Actions": "Aktionen",
     "stageIcon": "Stufensymbol",
     "noLabel": "Kein Label",
-    "formsstageactiontypesapplydisciplinaryp": "Disziplinarpunkte anwenden"
+    "formsstageactiontypesapplydisciplinaryp": "Disziplinarpunkte anwenden",
+    "AIProcessing": "KI-Verarbeitung",
+    "AIProcessingSectionDescriptions": "Wenn ein Formular diesen Abschnitt erreicht, weisen Sie die KI an, wie sie jeden Abschnitt dieses Formulars bewerten soll.",
+    "Weight": "Gewicht",
+    "formSection": "Formularabschnitt",
+    "addCriteria": "Kriterien hinzufügen",
+    "required": "Erforderlich",
+    "addSection": "Abschnitt hinzufügen",
+    "addRule": "Regel hinzufügen",
+    "IfAnyRequiredFieldFails": "Wenn ein erforderliches Kriterium nicht übereinstimmt, weiter zu:",
+    "stage": "Bühne",
+    "minScore": "Min Punktzahl",
+    "maxScore": "Maximalpunktzahl",
+    "IfScoreIsBetween": "Wenn der Punktestand zwischen:",
+    "AdvancedOptions": "Erweiterte Optionen",
+    "MaximumNumberOfAccountFlags": "Maximale Anzahl an Konto-Markierungen",
+    "MaximumNumberOfDisciplinaryPoints": "Maximale Anzahl von Disziplinarpunkten",
+    "WeightsMustTotal100": "Abschnittsgewichte müssen insgesamt 100% ergeben",
+    "WeightMustBeBetween": "Das Gewicht muss zwischen 0 und 100% liegen.",
+    "RuleStageRequired": "Bühne ist erforderlich"
   },
   "StageReorderDialog": {
     "newStage": "Neue Stufe",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Umschalten Zurücksetzen",
     "toggleGrant": "Umschalten Gewähren",
     "toggleDeny": "Umschalten verweigern",
-    "inheritedTooltip": "Diese Berechtigung wurde auf Abteilungsebene umgeschaltet und kann hier nicht geändert werden. Aktualisieren Sie die Abteilung, um sie zu ändern."
+    "inheritedTooltip": "Diese Berechtigung wurde auf Abteilungsebene umgeschaltet und kann hier nicht geändert werden. Aktualisieren Sie die Abteilung, um sie zu ändern.",
+    "reasoning": "Begründung",
+    "ownerPrivileges": "Eigentümerrechte",
+    "groupsAllowing": "Gruppen erlauben",
+    "groupsDenying": "Gruppenverweigerung",
+    "ranksAllowing": "Ränge erlauben",
+    "ranksDenying": "Ränge Verweigern"
   },
   "permissionExpansionGroup": {
     "noOptions": "keine Optionen"
@@ -4434,7 +4460,9 @@
     "contains": "enthält",
     "aiEnforcedRules": "AI-erzwungene Regeln",
     "automaticallyEnforceServerRules": "Serverregeln automatisch durchsetzen",
-    "comingSoon": "Demnächst verfügbar"
+    "comingSoon": "Demnächst verfügbar",
+    "priorityPlayerList": "Prioritätsspielerliste",
+    "priorityPlayerListDescription": "Wählen Sie aus, welche Ränge zuerst im Menü der aktiven Spieler angezeigt werden."
   },
   "ERLCPlayers": {
     "playersIngame": "SpielerImSpiel",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "Gekickt-Aktion",
-    "kickedBy": "rausgeworfen von",
     "kickedReason": "GekicktGrund",
     "disciplinaryPoints": "Disziplinarpunkte",
     "unknown": "Unbekannt",
@@ -4505,7 +4532,21 @@
     "by": "von",
     "reason": "Grund",
     "points": "Punkte",
-    "issuedBy": "ausgestellt von"
+    "issuedBy": "ausgestellt von",
+    "kickedByCMS": "Vom CMS-Benutzer gekickt:",
+    "kickedByRoblox": "Vom verbundenen Roblox-Benutzer entfernt:",
+    "teleportedTo": "teleportiert zu",
+    "sentAPrivateMessageTo": "eine private Nachricht gesendet an",
+    "wasAdmined": "wurde Administrator",
+    "wasUnadmined": "wurde aus der Verwaltung entfernt",
+    "wasModerated": "wurde Moderator vergeben",
+    "wasUnmoderated": "wurde als Moderator entfernt",
+    "wasRefreshed": "wurde aktualisiert",
+    "wasRespawned": "wurde respawned",
+    "wasJailed": "wurde eingesperrt",
+    "wasHealed": "wurde geheilt",
+    "wasWanted": "wurde zur Fahndung ausgeschrieben",
+    "wasUnwanted": "wurde auf unerwünscht gesetzt"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disziplinarisch",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "Der Spieler fährt kein Fahrzeug",
     "isDrivingA": "fährt ein A",
     "vehicleInfo": "Fahrzeuginformationen"
+  },
+  "forumExpandableRanks": {
+    "show": "anzeigen",
+    "moreRanks": "Mehr Ränge",
+    "lessRanks": "wenigerRänge"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "online seit"
   }
 }

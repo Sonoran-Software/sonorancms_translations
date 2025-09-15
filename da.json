@@ -1961,7 +1961,8 @@
     "entire": "HELE",
     "managesYour": "ADMINISTRERER DIT",
     "cms": "CMS",
-    "aiLogSearch": "AI Log Søgning"
+    "aiLogSearch": "AI Log Søgning",
+    "aiFormProcessing": "AI Formularbehandling"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Ingen godkendelsesoplysninger til stede, kontakt support.",
@@ -2300,7 +2301,26 @@
     "Actions": "Handlinger",
     "stageIcon": "Etapeikon",
     "noLabel": "Ingen Etiket",
-    "formsstageactiontypesapplydisciplinaryp": "Anvend disciplinære point"
+    "formsstageactiontypesapplydisciplinaryp": "Anvend disciplinære point",
+    "AIProcessing": "AI-behandling",
+    "AIProcessingSectionDescriptions": "Når en formular når dette stadie, skal du instruere AI'en i, hvordan hver sektion af denne formular skal bedømmes.",
+    "Weight": "Vægt",
+    "formSection": "Formularsektion",
+    "addCriteria": "Tilføj kriterier",
+    "required": "Påkrævet",
+    "addSection": "Tilføj sektion",
+    "addRule": "Tilføj regel",
+    "IfAnyRequiredFieldFails": "Hvis et eller flere påkrævede kriterier ikke matcher, flyt til:",
+    "stage": "Scene",
+    "minScore": "Min Score",
+    "maxScore": "Maksimal score",
+    "IfScoreIsBetween": "Hvis scoren er mellem:",
+    "AdvancedOptions": "Avancerede muligheder",
+    "MaximumNumberOfAccountFlags": "Maksimalt antal kontomærker",
+    "MaximumNumberOfDisciplinaryPoints": "Maksimalt antal disciplinære point",
+    "WeightsMustTotal100": "Sektionernes vægt skal tilsammen udgøre 100%",
+    "WeightMustBeBetween": "Vægten skal være mellem 0 og 100%",
+    "RuleStageRequired": "Scenen er påkrævet"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etape",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Skift til/fra Ikke indstillet",
     "toggleGrant": "Skift til tilskud",
     "toggleDeny": "Skift afvis",
-    "inheritedTooltip": "Denne tilladelse blev slået til på afdelingsniveau og kan ikke ændres her. Opdater afdelingen for at ændre den."
+    "inheritedTooltip": "Denne tilladelse blev slået til på afdelingsniveau og kan ikke ændres her. Opdater afdelingen for at ændre den.",
+    "reasoning": "Begrundelse",
+    "ownerPrivileges": "Ejerprivilegier",
+    "groupsAllowing": "Grupper Tillader",
+    "groupsDenying": "Grupper Afslår",
+    "ranksAllowing": "Tilladelser for rangs",
+    "ranksDenying": "Rang nægter"
   },
   "permissionExpansionGroup": {
     "noOptions": "ingenValg"
@@ -4434,7 +4460,9 @@
     "contains": "indeholder",
     "aiEnforcedRules": "AI håndhævede regler",
     "automaticallyEnforceServerRules": "automatiskHåndhævServerRegler",
-    "comingSoon": "Kommer snart"
+    "comingSoon": "Kommer snart",
+    "priorityPlayerList": "Prioriteret spillerliste",
+    "priorityPlayerListDescription": "Vælg hvilke rangeringer, der skal vises først i menuen for aktive spillere."
   },
   "ERLCPlayers": {
     "playersIngame": "spillereIspillet",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "udelukkelseshandling",
-    "kickedBy": "smidt ud af",
     "kickedReason": "sparket grund",
     "disciplinaryPoints": "disciplinærePoints",
     "unknown": "ukendt",
@@ -4505,7 +4532,21 @@
     "by": "af",
     "reason": "grund",
     "points": "point",
-    "issuedBy": "udstedtAf"
+    "issuedBy": "udstedtAf",
+    "kickedByCMS": "Udelukket af CMS-bruger:",
+    "kickedByRoblox": "Smidt af tilknyttet Roblox-bruger:",
+    "teleportedTo": "teleporteret til",
+    "sentAPrivateMessageTo": "sendte en privat besked til",
+    "wasAdmined": "fik administratorrolle",
+    "wasUnadmined": "blev fjernet fra admin",
+    "wasModerated": "fik moderatorrollen",
+    "wasUnmoderated": "blev fjernet fra moderator",
+    "wasRefreshed": "blev opdateret",
+    "wasRespawned": "blev genoplivet",
+    "wasJailed": "blev fængslet",
+    "wasHealed": "blev helbredt",
+    "wasWanted": "blev sat til ønsket",
+    "wasUnwanted": "blev sat til uønsket"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinær",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "spillerenKørerIkkeEtKøretøj",
     "isDrivingA": "kører en",
     "vehicleInfo": "køretøjsinfo"
+  },
+  "forumExpandableRanks": {
+    "show": "vise",
+    "moreRanks": "flereRækker",
+    "lessRanks": "mindre rækker"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "online i"
   }
 }

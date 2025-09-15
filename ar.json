@@ -1961,7 +1961,8 @@
     "entire": "كامل",
     "managesYour": "يدير",
     "cms": "نظام إدارة المحتوى",
-    "aiLogSearch": "البحث في سجل الذكاء الاصطناعي"
+    "aiLogSearch": "البحث في سجل الذكاء الاصطناعي",
+    "aiFormProcessing": "معالجة النماذج بالذكاء الاصطناعي"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "لا توجد بيانات اعتماد مصادقة، اتصل بالدعم.",
@@ -2300,7 +2301,26 @@
     "Actions": "إجراءات",
     "stageIcon": "أيقونة المرحلة",
     "noLabel": "لا تسمية",
-    "formsstageactiontypesapplydisciplinaryp": "تطبيق النقاط التأديبية"
+    "formsstageactiontypesapplydisciplinaryp": "تطبيق النقاط التأديبية",
+    "AIProcessing": "المعالجة الذكية",
+    "AIProcessingSectionDescriptions": "عندما يصل النموذج إلى هذه المرحلة، وجه الذكاء الاصطناعي حول كيفية تقييم كل قسم من هذا النموذج.",
+    "Weight": "وزن",
+    "formSection": "قسم النموذج",
+    "addCriteria": "أضف معايير",
+    "required": "مطلوب",
+    "addSection": "أضف قسمًا",
+    "addRule": "إضافة قاعدة",
+    "IfAnyRequiredFieldFails": "إذا لم يتطابق أي من المعايير المطلوبة، انتقل إلى:",
+    "stage": "مسرح",
+    "minScore": "الحد الأدنى للنقاط",
+    "maxScore": "الحد الأقصى للنقاط",
+    "IfScoreIsBetween": "إذا كانت النتيجة بين:",
+    "AdvancedOptions": "خيارات متقدمة",
+    "MaximumNumberOfAccountFlags": "الحد الأقصى لعدد العلامات على الحسابات",
+    "MaximumNumberOfDisciplinaryPoints": "الحد الأقصى لعدد النقاط التأديبية",
+    "WeightsMustTotal100": "يجب أن يكون إجمالي أوزان الأقسام 100% مجتمعة",
+    "WeightMustBeBetween": "الوزن يجب أن يكون بين 0 و 100٪",
+    "RuleStageRequired": "المرحلة مطلوبة"
   },
   "StageReorderDialog": {
     "newStage": "مرحلة جديدة",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "تبديل غير مضبوط",
     "toggleGrant": "تبديل المنحة",
     "toggleDeny": "تبديل الرفض",
-    "inheritedTooltip": "تم تبديل هذا الإذن على مستوى القسم ولا يمكن تغييره هنا. قم بتحديث القسم لتعديله."
+    "inheritedTooltip": "تم تبديل هذا الإذن على مستوى القسم ولا يمكن تغييره هنا. قم بتحديث القسم لتعديله.",
+    "reasoning": "السبب",
+    "ownerPrivileges": "امتيازات المالك",
+    "groupsAllowing": "السماح للمجموعات",
+    "groupsDenying": "رفض المجموعات",
+    "ranksAllowing": "رتب السماح",
+    "ranksDenying": "الرتب المرفوضة"
   },
   "permissionExpansionGroup": {
     "noOptions": "لا توجد خيارات"
@@ -4434,7 +4460,9 @@
     "contains": "يحتوي",
     "aiEnforcedRules": "قواعد مفروضة بالذكاء الاصطناعي",
     "automaticallyEnforceServerRules": "تنفيذ قواعد الخادم تلقائيًا",
-    "comingSoon": "قريباً"
+    "comingSoon": "قريباً",
+    "priorityPlayerList": "قائمة اللاعبين المميزين",
+    "priorityPlayerListDescription": "اختر الرتب التي ستظهر أولاً في قائمة اللاعبين النشطين."
   },
   "ERLCPlayers": {
     "playersIngame": "اللاعبون في اللعبة",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "تم طرده",
-    "kickedBy": "تم الطرد بواسطة",
     "kickedReason": "سبب الطرد",
     "disciplinaryPoints": "النقاط التأديبية",
     "unknown": "غير معروف",
@@ -4505,7 +4532,21 @@
     "by": "بواسطة",
     "reason": "السبب",
     "points": "النقاط",
-    "issuedBy": "صادر عن"
+    "issuedBy": "صادر عن",
+    "kickedByCMS": "مطرود بواسطة مستخدم CMS:",
+    "kickedByRoblox": "تم الطرد بواسطة مستخدم Roblox المرتبط:",
+    "teleportedTo": "نُقل إلى",
+    "sentAPrivateMessageTo": "أرسل رسالة خاصة إلى",
+    "wasAdmined": "تم إعطاؤه صلاحيات المدير",
+    "wasUnadmined": "تمت إزالته من المسؤول",
+    "wasModerated": "تم منحه مشرف",
+    "wasUnmoderated": "أزيل من المشرف",
+    "wasRefreshed": "تم التحديث",
+    "wasRespawned": "تم إحياؤه من جديد",
+    "wasJailed": "تم سجنه",
+    "wasHealed": "تم الشفاء",
+    "wasWanted": "تم تعيينه كـ \"مطلوب\"",
+    "wasUnwanted": "تم تعيينه على غير مرغوب فيه"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "تأديبي",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "اللاعب لا يقود مركبة",
     "isDrivingA": "يقود أ",
     "vehicleInfo": "معلومات المركبة"
+  },
+  "forumExpandableRanks": {
+    "show": "عرض",
+    "moreRanks": "المزيد من الرتب",
+    "lessRanks": "رتب أقل"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "عبر الإنترنت لمدة"
   }
 }

@@ -1961,7 +1961,8 @@
     "entire": "CELÁ",
     "managesYour": "SPRAVUJE VAŠI",
     "cms": "CMS",
-    "aiLogSearch": "Vyhledávání AI logů"
+    "aiLogSearch": "Vyhledávání AI logů",
+    "aiFormProcessing": "Zpracování formulářů AI"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "Nejsou přítomny žádné autentizační údaje, kontaktujte podporu.",
@@ -2300,7 +2301,26 @@
     "Actions": "Akce",
     "stageIcon": "Ikona fáze",
     "noLabel": "Bez štítku",
-    "formsstageactiontypesapplydisciplinaryp": "Přidat disciplinární body"
+    "formsstageactiontypesapplydisciplinaryp": "Přidat disciplinární body",
+    "AIProcessing": "Zpracování AI",
+    "AIProcessingSectionDescriptions": "Když se formulář dostane do této fáze, poučte AI, jak hodnotit jednotlivé části tohoto formuláře.",
+    "Weight": "Váha",
+    "formSection": "Sekce formuláře",
+    "addCriteria": "Přidat kritéria",
+    "required": "Požadované",
+    "addSection": "Přidat sekci",
+    "addRule": "Přidat pravidlo",
+    "IfAnyRequiredFieldFails": "Pokud se žádná z požadovaných kritérií neshoduje, přejděte na:",
+    "stage": "Fáze",
+    "minScore": "Minimální skóre",
+    "maxScore": "Maximální skóre",
+    "IfScoreIsBetween": "Pokud je skóre mezi:",
+    "AdvancedOptions": "Pokročilé možnosti",
+    "MaximumNumberOfAccountFlags": "Maximální počet uživatelských označení",
+    "MaximumNumberOfDisciplinaryPoints": "Maximální počet disciplinárních bodů",
+    "WeightsMustTotal100": "Váhy sekcí musí dohromady tvořit 100 %",
+    "WeightMustBeBetween": "Hmotnost musí být mezi 0 a 100 %",
+    "RuleStageRequired": "Fáze je povinná"
   },
   "StageReorderDialog": {
     "newStage": "Nová fáze",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "Přepnout nezadáno",
     "toggleGrant": "Přepnout udělení",
     "toggleDeny": "Přepnout zamítnutí",
-    "inheritedTooltip": "Toto oprávnění bylo přepnuto na úrovni oddělení a nelze jej zde změnit. Aktualizujte oddělení, abyste jej mohli upravit."
+    "inheritedTooltip": "Toto oprávnění bylo přepnuto na úrovni oddělení a nelze jej zde změnit. Aktualizujte oddělení, abyste jej mohli upravit.",
+    "reasoning": "Úvaha",
+    "ownerPrivileges": "Vlastnická práva",
+    "groupsAllowing": "Povolení skupin",
+    "groupsDenying": "Skupiny odmítající",
+    "ranksAllowing": "Povolující hodnosti",
+    "ranksDenying": "Hodnosti Zamítání"
   },
   "permissionExpansionGroup": {
     "noOptions": "žádné možnosti"
@@ -4434,7 +4460,9 @@
     "contains": "obsahuje",
     "aiEnforcedRules": "AI vynucená pravidla",
     "automaticallyEnforceServerRules": "automaticky prosazovat pravidla serveru",
-    "comingSoon": "Již brzy"
+    "comingSoon": "Již brzy",
+    "priorityPlayerList": "Seznam prioritních hráčů",
+    "priorityPlayerListDescription": "Vyberte, které hodnosti se budou zobrazovat jako první v nabídce aktivních hráčů."
   },
   "ERLCPlayers": {
     "playersIngame": "hráči ve hře",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "vykopnutoAction",
-    "kickedBy": "vykopnutýkým",
     "kickedReason": "důvod vykopnutí",
     "disciplinaryPoints": "disciplinární body",
     "unknown": "neznámý",
@@ -4505,7 +4532,21 @@
     "by": "podle",
     "reason": "důvod",
     "points": "body",
-    "issuedBy": "vydáno uživatelem"
+    "issuedBy": "vydáno uživatelem",
+    "kickedByCMS": "Vykopnut uživatelem CMS:",
+    "kickedByRoblox": "Vykopnut souvisejícím uživatelem Roblox:",
+    "teleportedTo": "teleportován do",
+    "sentAPrivateMessageTo": "poslal soukromou zprávu uživateli",
+    "wasAdmined": "byla udělena administrativa",
+    "wasUnadmined": "byl odebrán z administrace",
+    "wasModerated": "byl udělen moderátor",
+    "wasUnmoderated": "byl odebrán z moderátora",
+    "wasRefreshed": "byl obnoven",
+    "wasRespawned": "byl znovu oživen",
+    "wasJailed": "byl uvězněn",
+    "wasHealed": "byl vyléčen",
+    "wasWanted": "byl nastaven na hledaný",
+    "wasUnwanted": "nastaveno na nežádoucí"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinární",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "hráčNeřídíVozidlo",
     "isDrivingA": "řídí vozidlo",
     "vehicleInfo": "Informace o vozidle"
+  },
+  "forumExpandableRanks": {
+    "show": "zobrazit",
+    "moreRanks": "víceHodností",
+    "lessRanks": "méněHodnosti"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "online po dobu"
   }
 }

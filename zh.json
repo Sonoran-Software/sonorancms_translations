@@ -1961,7 +1961,8 @@
     "entire": "整个",
     "managesYour": "管理您的",
     "cms": "CMS",
-    "aiLogSearch": "AI日志搜索"
+    "aiLogSearch": "AI日志搜索",
+    "aiFormProcessing": "AI 表单处理"
   },
   "oauth": {
     "noAuthCredentialsPresentContactSupport": "没有认证凭据，请联系支持。",
@@ -2300,7 +2301,26 @@
     "Actions": "操作",
     "stageIcon": "阶段图标",
     "noLabel": "无标签",
-    "formsstageactiontypesapplydisciplinaryp": "申请纪律分"
+    "formsstageactiontypesapplydisciplinaryp": "申请纪律分",
+    "AIProcessing": "AI 处理",
+    "AIProcessingSectionDescriptions": "当表单达到此阶段时，指导AI如何对表单的每个部分进行评分。",
+    "Weight": "重量",
+    "formSection": "表单部分",
+    "addCriteria": "添加标准",
+    "required": "必填",
+    "addSection": "添加部分",
+    "addRule": "添加规则",
+    "IfAnyRequiredFieldFails": "如果任何所需条件不匹配，移动到：",
+    "stage": "阶段",
+    "minScore": "最低分数",
+    "maxScore": "最大得分",
+    "IfScoreIsBetween": "如果得分介于：",
+    "AdvancedOptions": "高级选项",
+    "MaximumNumberOfAccountFlags": "帐户标志的最大数量",
+    "MaximumNumberOfDisciplinaryPoints": "纪律点数最大值",
+    "WeightsMustTotal100": "部分权重的总和必须为100%",
+    "WeightMustBeBetween": "重量必须在 0 到 100% 之间",
+    "RuleStageRequired": "阶段是必需的"
   },
   "StageReorderDialog": {
     "newStage": "新阶段",
@@ -4172,7 +4192,13 @@
     "toggleUnset": "切换未设置",
     "toggleGrant": "切换授权",
     "toggleDeny": "切换拒绝",
-    "inheritedTooltip": "此权限已在部门级别切换，无法在此更改。请更新部门以修改它。"
+    "inheritedTooltip": "此权限已在部门级别切换，无法在此更改。请更新部门以修改它。",
+    "reasoning": "推理",
+    "ownerPrivileges": "所有者权限",
+    "groupsAllowing": "允许的组",
+    "groupsDenying": "组拒绝",
+    "ranksAllowing": "允许的等级",
+    "ranksDenying": "等级拒绝"
   },
   "permissionExpansionGroup": {
     "noOptions": "没有选项"
@@ -4434,7 +4460,9 @@
     "contains": "包含",
     "aiEnforcedRules": "AI强制实施的规则",
     "automaticallyEnforceServerRules": "自动执行服务器规则",
-    "comingSoon": "即将推出"
+    "comingSoon": "即将推出",
+    "priorityPlayerList": "优先玩家列表",
+    "priorityPlayerListDescription": "选择哪些等级将在活跃玩家菜单中首先显示。"
   },
   "ERLCPlayers": {
     "playersIngame": "玩家在游戏中",
@@ -4482,7 +4510,6 @@
   },
   "ERLCActivityLog": {
     "kickedAction": "踢出操作",
-    "kickedBy": "踢出者",
     "kickedReason": "被踢原因",
     "disciplinaryPoints": "纪律点数",
     "unknown": "未知",
@@ -4505,7 +4532,21 @@
     "by": "由",
     "reason": "原因",
     "points": "积分",
-    "issuedBy": "颁发者"
+    "issuedBy": "颁发者",
+    "kickedByCMS": "由 CMS 用户踢出：",
+    "kickedByRoblox": "由关联的Roblox用户踢出：",
+    "teleportedTo": "传送到",
+    "sentAPrivateMessageTo": "发送了私人消息给",
+    "wasAdmined": "被授予管理员权限",
+    "wasUnadmined": "已从管理员中移除",
+    "wasModerated": "被授予版主",
+    "wasUnmoderated": "从主持人中被移除",
+    "wasRefreshed": "已刷新",
+    "wasRespawned": "被重生",
+    "wasJailed": "被监禁",
+    "wasHealed": "被治疗",
+    "wasWanted": "被设为通缉状态",
+    "wasUnwanted": "被设置为不需要的"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "纪律处分",
@@ -4531,5 +4572,13 @@
     "playerIsNotDrivingAVehicle": "玩家没有驾驶车辆",
     "isDrivingA": "正在驾驶A",
     "vehicleInfo": "车辆信息"
+  },
+  "forumExpandableRanks": {
+    "show": "显示",
+    "moreRanks": "更多等级",
+    "lessRanks": "较少职位"
+  },
+  "ERLCPlayerInfo": {
+    "onlineFor": "在线时长"
   }
 }
