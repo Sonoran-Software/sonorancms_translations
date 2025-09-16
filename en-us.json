@@ -1335,6 +1335,7 @@
     "errorTheSpecifiedCommunityIdSpecifiedIsA": "Error: The specified community ID specified is already in use, please use another one.",
     "errorAnErrorOccuredWhileInitiatingCommun": "Error: An error occured while initiating community transfer. ERR:",
     "userSelected": "User selected",
+    "formsPer24Hours": "Forms per 24 hours",
     "isAdditionalStorage": "is Additional Storage",
     "isTierStorage": "is Tier Storage"
   },
