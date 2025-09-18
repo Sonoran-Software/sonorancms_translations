@@ -4554,7 +4554,8 @@
     "wasJailed": "was jailed",
     "wasHealed": "was healed",
     "wasWanted": "was set to wanted",
-    "wasUnwanted": "was set to unwanted"
+    "wasUnwanted": "was set to unwanted",
+    "noteAdded": "Note added"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disciplinary",
@@ -4579,9 +4580,25 @@
     "banPlayer": "Ban Player",
     "playerIsNotDrivingAVehicle": "Player is not driving a vehicle.",
     "isDrivingA": "is driving a",
-    "vehicleInfo": "Vehicle Info"
+    "vehicleInfo": "Vehicle Info",
+    "openDiscordInfo": "Open Discord Info"
   },
   "ERLCPlayerInfo": {
     "onlineFor": "Online for"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Create New Record",
+    "users": "User(s)",
+    "noPlayersOnline": "No Players Online",
+    "recordType": "Record Type",
+    "points": "Points",
+    "numberOfPointsToAdd": "Number of points to add...",
+    "enterYourReasonForRecord": "Enter your reason for record...",
+    "createRecord": "Create Record",
+    "disciplinaryPoints": "Disciplinary Points",
+    "note": "Note",
+    "kick": "Kick",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "An error occured while adding disciplinary points: ",
+    "enterUsernames": "Enter Username(s)"
   }
 }
