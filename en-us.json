@@ -3074,6 +3074,8 @@
     "submissionStageChangeMentions": "Submission Stage Change - Mentions",
     "hideBlankFormFields": "Form fields that are blank are not shown in the webhook",
     "showBlankFormFields": "Form fields that are blank will be shown as \"Blank\" in the webhook",
+    "hideFormDropdown": "The dropdown to change a form stage is not shown",
+    "showFormDropdown": "The dropdown to change a form stage is shown on the webhook",
     "anyRosterRowAdditionChannel": "Any Roster Row Addition - Channel",
     "anyRosterRowAdditionMentions": "Any Roster Row Addition - Mentions",
     "anyRosterRowEditChannel": "Any Roster Row Edit - Channel",
