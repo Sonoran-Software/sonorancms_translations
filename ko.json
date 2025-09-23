@@ -206,7 +206,6 @@
       "myForms": "내 양식",
       "apply": "제출"
     },
-    "fields": "필드",
     "appThirdPartySubmit": "타사 애플리케이션/양식 제출",
     "modifyStageSettings": "단계 설정 수정",
     "modifyTemplate": "양식 템플릿 수정",
@@ -1123,7 +1122,6 @@
     "font": "정렬",
     "align": "텍스트 색상",
     "textColor": "헤더 색상",
-    "headerColor": "예제 셀",
     "exampleCell": "셀 색상",
     "cellColor": "역 마스크 전환",
     "toggleReverseMask": "작업",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "사용자가 선택됨",
     "userSelected": "시민 ID",
     "isAdditionalStorage": "추가 저장소입니다",
-    "isTierStorage": "계층 저장소입니다"
+    "isTierStorage": "계층 저장소입니다",
+    "formsPer24Hours": "24시간당 양식 수"
   },
   "EditCharacterCard": {
     "citizenId": "이름",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "닫기",
     "close": "해당 없음",
     "na": "수평",
-    "horizontal": "수직",
-    "vertical": "셀",
-    "cell": "없음",
-    "none": "회원 정보를 저장하지 못했습니다",
     "failedToSaveMemberInfo": "유효하지 않은 날짜",
     "invalidDate": "조건부 형식 값을 재정의하는 것을 비활성화하려면 클릭하세요",
     "clickToDisableConditionalFormatValueBein": "조건부 형식 값을 재정의하려면 클릭하세요",
@@ -2176,57 +2171,6 @@
     "profile": "활성 보안 플래그",
     "activeSecurityFlags": "커뮤니티 식별자",
     "activeDisciplinaryPoints": "활성 징계 포인트"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "명단 튜토리얼",
-    "rosterTutorial": "명단 사용 방법 배우기",
-    "learnHowToUseRosters": "명단 문서",
-    "rostersDocuments": "명단 관리자",
-    "rosterManager": "기존 사용자 정의 명단",
-    "rostereditorexistingcomrosters": "⚠️ 현재 구독 계획 한도로 인해 비활성화됨. ⚠️",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "사용자 정의 명단 편집기",
-    "rostereditorrostereditor": "새로운",
-    "commonnew": "부서 명단",
-    "rostereditorrostertypesdepartment": "사용자 정의 명단",
-    "rostereditorrostertypescustom": "저장",
-    "commonsave": "가져오기",
-    "commonimport": "취소",
-    "commoncancel": "명단 이름",
-    "rostereditorrostername": "명단 유형",
-    "rostereditorrostertype": "명단과 관련된 부서",
-    "rostereditordepartmentselector": "열 추가",
-    "rostereditoraddcolumn": "시간 기록 시간",
-    "rostereditorploghours": "상태 선택기",
-    "rostereditorstatusselector": "제거",
-    "commonremove": "열을 중재자 숨김으로 표시",
-    "rostereditormarkmodhidden": "열을 관리자 숨김으로 표시",
-    "rostereditormarkadminhidden": "해당 없음",
-    "na": "사용 가능한 시간 기록",
-    "rostereditoravailableplogforms": "시간을 계산할 시간 기록을 결정합니다.",
-    "determinesWhatTimeLogToCalculateHoursFro": "시간을 계산할 시작 시점을 결정합니다.",
-    "rostereditordetermineshours": "닫기",
-    "close": "명단 뷰어",
-    "rostereditorrosterviewer": "부서 명단",
-    "rostereditorrostertypesmain": "하위 부서 명단",
-    "rostereditorrostertypessub": "커뮤니티 명단",
-    "rostereditorrostertypescom": "커뮤니티 명단",
-    "rostereditorrostertypescommunity": "작업",
-    "commonactions": "라벨",
-    "commonlabel": "유형",
-    "commontype": "추가 설정",
-    "commonaddsettings": "새 명단",
-    "newRoster": "커뮤니티 이름",
-    "communityName": "커뮤니티 순위",
-    "communityRank": "가져오기",
-    "dataimport": "JSON 내용을 붙여넣기",
-    "dataimportprompt": "새 열",
-    "newColumn": "총 시간",
-    "totalHours": "새 명단 저장됨: ",
-    "rostereditoraddnewroster": "명단 저장됨: ",
-    "rostereditorsaveroster": "명단 삭제 중:",
-    "whileDeletingRoster": "오류가 발생했습니다. 콘솔을 확인하고 지원팀에 문의하세요.",
-    "thereWasAnErrorCheckConsoleAndContactSup": "명단 삭제됨:",
-    "deletedRoster": "지정된 시간 내에 사용자당 허용되는 최대 제출 수를 제한합니다."
   },
   "FormLimitsDialog": {
     "allowSubmissions": "지정된 시간 내에 제출 간 필수 대기 기간을 지정합니다.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "계정 강제 종료 - 채널",
     "accountKickedMentions": "계정 강제 퇴장 - 멘션",
     "accountBannedChannel": "계정 차단 - 채널",
-    "accountBannedMentions": "계정 차단됨 - 언급"
+    "accountBannedMentions": "계정 차단됨 - 언급",
+    "hideFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 표시되지 않습니다",
+    "showFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 웹훅에 표시됩니다"
   },
   "DepartmentEditor": {
     "departmentManager": "생성된 비공개 페이지가 없습니다. 비공개 보기 유형으로 설정된 페이지에 대해서만 권한을 관리할 수 있습니다.",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "이 작업을 특정 질문 응답으로 제한하도록 활성화하려면",
     "conditionalQuestionStartExplaination": "이 작업이 실행됩니다",
     "fieldResponseLabel": "질문 응답",
-    "fieldResponseDescription": "질문에서 제출 텍스트를 삽입합니다. 일부 질문 유형은 복사할 수 없을 수도 있습니다."
+    "fieldResponseDescription": "질문에서 제출 텍스트를 삽입합니다. 일부 질문 유형은 복사할 수 없을 수도 있습니다.",
+    "formAIResponseLabel": "양식 AI 처리 응답",
+    "formAIResponseDescription": "적용 가능한 경우 제출물에 대한 AI 생성 응답을 삽입합니다."
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "필터",
     "errorAnErrorOccuredWhileFetchingServerDa": "서버 데이터를 가져오는 중 오류가 발생했습니다.",
-    "latestActivity": "최신 활동"
+    "latestActivity": "최신 활동",
+    "showingAllLogs": "모든 로그 표시",
+    "showingPlayerRecords": "플레이어 기록 표시"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "서버 세부 정보를 추가하는 동안 오류가 발생했습니다",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "사용자 이름 기준 적용",
     "kickUsersWithAllothersInUsername": "사용자 이름에 다른 모든 것이 포함된 사용자 강퇴",
     "kickUsersWithInappropriateUsernames": "부적절한 사용자 이름의 사용자 킥",
-    "sensitivityThresholdMinimumCertaintyBefo": "최소 확신 임계값 전",
     "sexual": "성적인",
     "harassment": "괴롭힘",
     "hate": "혐오",
@@ -4546,7 +4495,8 @@
     "wasJailed": "투옥되었습니다.",
     "wasHealed": "치료를 받았습니다",
     "wasWanted": "수배로 설정됨",
-    "wasUnwanted": "원하지 않는 것으로 설정되었습니다."
+    "wasUnwanted": "원하지 않는 것으로 설정되었습니다.",
+    "noteAdded": "메모 추가됨"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "징계",
@@ -4571,7 +4521,9 @@
     "banPlayer": "플레이어 금지",
     "playerIsNotDrivingAVehicle": "플레이어가 차량을 운전하고 있지 않습니다.",
     "isDrivingA": "운전 중입니까?",
-    "vehicleInfo": "차량 정보"
+    "vehicleInfo": "차량 정보",
+    "openDiscordInfo": "Discord 정보 열기",
+    "anErrorOccuredWhileAdding": "추가 중 오류가 발생했습니다"
   },
   "forumExpandableRanks": {
     "show": "보여주기",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "온라인 동안"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "새 기록 생성",
+    "users": "사용자",
+    "noPlayersOnline": "온라인 플레이어 없음",
+    "recordType": "기록 유형",
+    "points": "포인트",
+    "numberOfPointsToAdd": "추가할 포인트 수...",
+    "enterYourReasonForRecord": "기록 사유를 입력하세요...",
+    "createRecord": "기록 생성",
+    "disciplinaryPoints": "징계 포인트",
+    "note": "메모",
+    "kick": "추방",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "징계 포인트 추가 중 오류가 발생했습니다:",
+    "enterUsernames": "사용자 이름 입력"
   }
 }

@@ -206,7 +206,6 @@
       "myForms": "Formlarım",
       "apply": "Gönder"
     },
-    "fields": "Alanlar",
     "appThirdPartySubmit": "Üçüncü Taraf Başvurusunu/Formunu Gönder",
     "modifyStageSettings": "Aşama Ayarlarını Düzenle",
     "modifyTemplate": "Form Şablonunu Değiştir",
@@ -1123,7 +1122,6 @@
     "font": "Yazı Tipi",
     "align": "Hizala",
     "textColor": "Metin Rengi",
-    "headerColor": "Başlık Rengi",
     "exampleCell": "Örnek Hücre",
     "cellColor": "Hücre Rengi",
     "toggleReverseMask": "Ters Maske Değiştir",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Hata: Topluluk transferi başlatılırken bir hata oluştu. HATA:",
     "userSelected": "Kullanıcı seçildi",
     "isAdditionalStorage": "ek Depolama",
-    "isTierStorage": "Katman Deposu"
+    "isTierStorage": "Katman Deposu",
+    "formsPer24Hours": "24 saat başına formlar"
   },
   "EditCharacterCard": {
     "citizenId": "Vatandaş Kimliği",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Sayfa başına üye:",
     "close": "Kapat",
     "na": "Yok",
-    "horizontal": "Yatay",
-    "vertical": "Dikey",
-    "cell": "Hücre",
-    "none": "Hiçbiri",
     "failedToSaveMemberInfo": "Üye bilgileri kaydedilemedi",
     "invalidDate": "Geçersiz Tarih",
     "clickToDisableConditionalFormatValueBein": "Koşullu format değerinin geçersiz kılınmasını devre dışı bırakmak için tıklayın",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktif Güvenlik Bayrakları",
     "activeDisciplinaryPoints": "Aktif Disiplin Puanları"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Topluluk Tanımlayıcısı",
-    "rosterTutorial": "Liste Eğitimi",
-    "learnHowToUseRosters": "Listelerin nasıl kullanılacağını öğrenin",
-    "rostersDocuments": "Listeler Belgeleri",
-    "rosterManager": "Liste Yöneticisi",
-    "rostereditorexistingcomrosters": "Mevcut Özel Listeler",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Mevcut abonelik planı sınırları nedeniyle devre dışı bırakıldı. ⚠️",
-    "rostereditorrostereditor": "Özel Liste Düzenleyici",
-    "commonnew": "Yeni",
-    "rostereditorrostertypesdepartment": "Departman Listesi",
-    "rostereditorrostertypescustom": "Özel Liste",
-    "commonsave": "Kaydet",
-    "commonimport": "İçe Aktar",
-    "commoncancel": "İptal",
-    "rostereditorrostername": "Liste Adı",
-    "rostereditorrostertype": "Liste Türü",
-    "rostereditordepartmentselector": "Liste ile İlişkili Departman",
-    "rostereditoraddcolumn": "Sütun Ekle",
-    "rostereditorploghours": "Zaman Kayıt Saatleri",
-    "rostereditorstatusselector": "Durum Seçici",
-    "commonremove": "Kaldır",
-    "rostereditormarkmodhidden": "Sütunu Moderatör Gizli Olarak İşaretle",
-    "rostereditormarkadminhidden": "Sütunu Yönetici Gizli Olarak İşaretle",
-    "na": "Yok",
-    "rostereditoravailableplogforms": "Mevcut Zaman Kayıtları",
-    "determinesWhatTimeLogToCalculateHoursFro": "Hangi Zaman Kaydından saat hesaplanacağını belirler.",
-    "rostereditordetermineshours": "Saatlerin ne zamandan itibaren hesaplanacağını belirler.",
-    "close": "Kapat",
-    "rostereditorrosterviewer": "Kadroları Görüntüleyici",
-    "rostereditorrostertypesmain": "Departman Kadrosu",
-    "rostereditorrostertypessub": "Alt Departman Kadrosu",
-    "rostereditorrostertypescom": "Topluluk Kadrosu",
-    "rostereditorrostertypescommunity": "Topluluk Kadrosu",
-    "commonactions": "Eylemler",
-    "commonlabel": "Etiket",
-    "commontype": "Tür",
-    "commonaddsettings": "Ek Ayarlar",
-    "newRoster": "Yeni Kadro",
-    "communityName": "Topluluk Adı",
-    "communityRank": "Topluluk Rütbesi",
-    "dataimport": "İçe Aktar",
-    "dataimportprompt": "JSON içeriğini yapıştırın",
-    "newColumn": "Yeni Sütun",
-    "totalHours": "Toplam Saat",
-    "rostereditoraddnewroster": "Yeni kadro kaydedildi: ",
-    "rostereditorsaveroster": "Kadro kaydedildi: ",
-    "whileDeletingRoster": "Kadro silinirken:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "bir hata oluştu, konsolu kontrol edin ve destek ile iletişime geçin.",
-    "deletedRoster": "Kadro silindi:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Belirtilen zaman diliminde kullanıcı başına izin verilen maksimum gönderi sayısını sınırlayın.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Hesap Atıldı - Kanal",
     "accountKickedMentions": "Hesap Atıldı - Bahsedenler",
     "accountBannedChannel": "Hesap Yasaklandı - Kanal",
-    "accountBannedMentions": "Hesap Yasaklandı - Bahsetmeler"
+    "accountBannedMentions": "Hesap Yasaklandı - Bahsetmeler",
+    "hideFormDropdown": "Form aşamasını değiştirmek için açılır menü gösterilmiyor",
+    "showFormDropdown": "Form aşamasını değiştirmek için açılır menü webhook'ta gösterilir"
   },
   "DepartmentEditor": {
     "departmentManager": "Departman Yöneticisi",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Bu eylemi belirli bir soru yanıtıyla sınırlamak için etkinleştirin",
     "conditionalQuestionStartExplaination": "Bu eylem yürütülecek",
     "fieldResponseLabel": "Soru Yanıtı",
-    "fieldResponseDescription": "Bir sorudan gönderi metnini ekler. Bazı soru türleri kopyalanamayabilir."
+    "fieldResponseDescription": "Bir sorudan gönderi metnini ekler. Bazı soru türleri kopyalanamayabilir.",
+    "formAIResponseLabel": "Form AI İşleme Yanıtı",
+    "formAIResponseDescription": "Uygun olduğunda gönderim için AI tarafından üretilen yanıtı ekler."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filtre",
     "errorAnErrorOccuredWhileFetchingServerDa": "Sunucu verileri alınırken bir hata oluştu.",
-    "latestActivity": "son etkinlik"
+    "latestActivity": "son etkinlik",
+    "showingAllLogs": "Tüm günlükler gösteriliyor",
+    "showingPlayerRecords": "Oyuncu kayıtları gösteriliyor"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu ayrıntıları eklenirken bir hata oluştu.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "kullanıcıAdıStandartlarınıZorla",
     "kickUsersWithAllothersInUsername": "kullanıcıAdındaAllothersOlanKullanıcılarıAt",
     "kickUsersWithInappropriateUsernames": "uygunsuzKullanıcıAdlarınaSahipKullanıcılarıAt",
-    "sensitivityThresholdMinimumCertaintyBefo": "duyarlılıkEşiğiMinimumKesinlikÖncesi",
     "sexual": "cinsel",
     "harassment": "taciz",
     "hate": "nefret",
@@ -4546,7 +4495,8 @@
     "wasJailed": "hapisteydi",
     "wasHealed": "iyileştirildi",
     "wasWanted": "aranan kişi olarak ayarlandı",
-    "wasUnwanted": "istenmeyene ayarlandı"
+    "wasUnwanted": "istenmeyene ayarlandı",
+    "noteAdded": "Not eklendi"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disiplin cezası",
@@ -4571,7 +4521,9 @@
     "banPlayer": "oyuncuyuYasakla",
     "playerIsNotDrivingAVehicle": "OyuncuBirAraçSürmüyor",
     "isDrivingA": "sürüyor mu?",
-    "vehicleInfo": "araçBilgisi"
+    "vehicleInfo": "araçBilgisi",
+    "openDiscordInfo": "Discord Bilgilerini Aç",
+    "anErrorOccuredWhileAdding": "Eklerken bir hata oluştu"
   },
   "forumExpandableRanks": {
     "show": "göster",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "Çevrimiçi Süresi"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Yeni Kayıt Oluştur",
+    "users": "Kullanıcı(lar)",
+    "noPlayersOnline": "Çevrimiçi Oyuncu Yok",
+    "recordType": "Kayıt Türü",
+    "points": "Puanlar",
+    "numberOfPointsToAdd": "Eklenecek puan sayısı...",
+    "enterYourReasonForRecord": "Kayıt için nedeninizi girin...",
+    "createRecord": "Kayıt Oluştur",
+    "disciplinaryPoints": "Disiplin Puanları",
+    "note": "Not",
+    "kick": "At",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Disiplin puanları eklerken bir hata oluştu:",
+    "enterUsernames": "Kullanıcı Ad(lar)ını Girin"
   }
 }

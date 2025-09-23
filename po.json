@@ -206,7 +206,6 @@
       "myForms": "Moje Formularze",
       "apply": "Zatwierdź"
     },
-    "fields": "Pola",
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "modifyTemplate": "Modyfikuj szablon formularza",
@@ -1123,7 +1122,6 @@
     "font": "Czcionka",
     "align": "Wyrównaj",
     "textColor": "Kolor tekstu",
-    "headerColor": "Kolor nagłówka",
     "exampleCell": "Przykładowa komórka",
     "cellColor": "Kolor komórki",
     "toggleReverseMask": "Przełącz odwrotną maskę",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Błąd: Wystąpił błąd podczas inicjowania transferu społeczności. ERR:",
     "userSelected": "Użytkownik wybrany",
     "isAdditionalStorage": "jest dodatkowe miejsce na dysku",
-    "isTierStorage": "é Armazenamento de Nível"
+    "isTierStorage": "é Armazenamento de Nível",
+    "formsPer24Hours": "Formulários por 24 horas"
   },
   "EditCharacterCard": {
     "citizenId": "ID obywatela",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Członkowie na stronę:",
     "close": "Zamknij",
     "na": "N/D",
-    "horizontal": "Poziomo",
-    "vertical": "Pionowo",
-    "cell": "Komórka",
-    "none": "Brak",
     "failedToSaveMemberInfo": "Nie udało się zapisać informacji o członku",
     "invalidDate": "Nieprawidłowa data",
     "clickToDisableConditionalFormatValueBein": "Kliknij, aby wyłączyć nadpisywanie wartości formatu warunkowego",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktywne Flagi Bezpieczeństwa",
     "activeDisciplinaryPoints": "Aktywne punkty dyscyplinarne"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Identyfikator Społeczności",
-    "rosterTutorial": "Samouczek Listy",
-    "learnHowToUseRosters": "Dowiedz się, jak korzystać z List",
-    "rostersDocuments": "Dokumenty Listy",
-    "rosterManager": "Menedżer Listy",
-    "rostereditorexistingcomrosters": "Istniejące Niestandardowe Listy",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Wyłączone z powodu ograniczeń bieżącego planu subskrypcji. ⚠️",
-    "rostereditorrostereditor": "Edytor Niestandardowej Listy",
-    "commonnew": "Nowy",
-    "rostereditorrostertypesdepartment": "Lista Wydziału",
-    "rostereditorrostertypescustom": "Niestandardowa Lista",
-    "commonsave": "Zapisz",
-    "commonimport": "Importuj",
-    "commoncancel": "Anuluj",
-    "rostereditorrostername": "Nazwa Listy",
-    "rostereditorrostertype": "Typ Listy",
-    "rostereditordepartmentselector": "Wydział Powiązany z Listą",
-    "rostereditoraddcolumn": "Dodaj Kolumnę",
-    "rostereditorploghours": "Rejestr Czasu Godzin",
-    "rostereditorstatusselector": "Selektor Statusu",
-    "commonremove": "Usuń",
-    "rostereditormarkmodhidden": "Oznacz Kolumnę jako Ukrytą dla Moderatora",
-    "rostereditormarkadminhidden": "Oznacz Kolumnę jako Ukrytą dla Administratora",
-    "na": "N/D",
-    "rostereditoravailableplogforms": "Dostępne Rejestry Czasu",
-    "determinesWhatTimeLogToCalculateHoursFro": "Określa, z którego Rejestru Czasu obliczać godziny.",
-    "rostereditordetermineshours": "Określa, od kiedy obliczać godziny.",
-    "close": "Zamknij",
-    "rostereditorrosterviewer": "Przeglądarka Listy",
-    "rostereditorrostertypesmain": "Lista Działu",
-    "rostereditorrostertypessub": "Lista Poddziału",
-    "rostereditorrostertypescom": "Lista Społeczności",
-    "rostereditorrostertypescommunity": "Lista Społeczności",
-    "commonactions": "Akcje",
-    "commonlabel": "Etykieta",
-    "commontype": "Typ",
-    "commonaddsettings": "Dodatkowe Ustawienia",
-    "newRoster": "Nowa Lista",
-    "communityName": "Nazwa Społeczności",
-    "communityRank": "Ranga Społeczności",
-    "dataimport": "Importuj",
-    "dataimportprompt": "Wklej zawartość JSON",
-    "newColumn": "Nowa Kolumna",
-    "totalHours": "Łączna Liczba Godzin",
-    "rostereditoraddnewroster": "Zapisano nową listę: ",
-    "rostereditorsaveroster": "Zapisano listę: ",
-    "whileDeletingRoster": "Podczas usuwania listy:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "wystąpił błąd, sprawdź konsolę i skontaktuj się z pomocą techniczną.",
-    "deletedRoster": "Usunięto listę: "
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Ogranicz maksymalną liczbę zgłoszeń dozwolonych na użytkownika w określonym przedziale czasowym.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Compte Expulsé - Canal",
     "accountKickedMentions": "Cuenta expulsada - Menciones",
     "accountBannedChannel": "Cuenta Baneada - Canal",
-    "accountBannedMentions": "Konto zablokowane - Wzmianki"
+    "accountBannedMentions": "Konto zablokowane - Wzmianki",
+    "hideFormDropdown": "A lista suspensa para alterar um estágio de formulário não é mostrada",
+    "showFormDropdown": "A lista suspensa para alterar um estágio de formulário é mostrada no webhook"
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Omogućite da ograničite ovu radnju na konkretan odgovor na pitanje",
     "conditionalQuestionStartExplaination": "Esta acción se ejecutará",
     "fieldResponseLabel": "תגובה לשאלה",
-    "fieldResponseDescription": "Wstawia tekst z pytania. Niektóre typy pytań mogą nie być możliwe do skopiowania."
+    "fieldResponseDescription": "Wstawia tekst z pytania. Niektóre typy pytań mogą nie być możliwe do skopiowania.",
+    "formAIResponseLabel": "Resposta de Processamento de Formulário por IA",
+    "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "фильтр",
     "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera",
-    "latestActivity": "última actividad"
+    "latestActivity": "última actividad",
+    "showingAllLogs": "Mostrando todos os registros",
+    "showingPlayerRecords": "Mostrando registros de jogadores"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu ayrıntıları eklenirken bir hata oluştu.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "egzekvovatStandardyUživatelskýchJmén",
     "kickUsersWithAllothersInUsername": "Вигнати користувачів з усіма іншими в імені користувача",
     "kickUsersWithInappropriateUsernames": "expulsarUsuariosConNombresDeUsuarioInapropiados",
-    "sensitivityThresholdMinimumCertaintyBefo": "Følsomhedstærskel Minimum sikkerhed før",
     "sexual": "seksual",
     "harassment": "molestowanie",
     "hate": "odio",
@@ -4546,7 +4495,8 @@
     "wasJailed": "został uwięziony",
     "wasHealed": "wurde geheilt",
     "wasWanted": "estaba marcado como buscado",
-    "wasUnwanted": "uweer gewild gemaak"
+    "wasUnwanted": "uweer gewild gemaak",
+    "noteAdded": "Nota adicionada"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinario",
@@ -4571,7 +4521,9 @@
     "banPlayer": "プレイヤーを禁止する",
     "playerIsNotDrivingAVehicle": "プレイヤーは車両を運転していません",
     "isDrivingA": "prowadziA",
-    "vehicleInfo": "informaçãoDoVeículo"
+    "vehicleInfo": "informaçãoDoVeículo",
+    "openDiscordInfo": "Abrir informações do Discord",
+    "anErrorOccuredWhileAdding": "Ocorreu um erro ao adicionar"
   },
   "forumExpandableRanks": {
     "show": "pokaż",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "em linha por"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Criar novo registro",
+    "users": "Usuário(s)",
+    "noPlayersOnline": "Nenhum jogador online",
+    "recordType": "Tipo de registro",
+    "points": "Pontos",
+    "numberOfPointsToAdd": "Número de pontos a adicionar...",
+    "enterYourReasonForRecord": "Digite seu motivo para o registro...",
+    "createRecord": "Criar registro",
+    "disciplinaryPoints": "Pontos disciplinares",
+    "note": "Nota",
+    "kick": "Expulsar",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Ocorreu um erro ao adicionar pontos disciplinares:",
+    "enterUsernames": "Digite o(s) nome(s) de usuário(s)"
   }
 }

@@ -206,7 +206,6 @@
       "myForms": "我的表单",
       "apply": "提交"
     },
-    "fields": "字段",
     "appThirdPartySubmit": "提交第三方申请/表格",
     "modifyStageSettings": "修改阶段设置",
     "modifyTemplate": "修改表单模板",
@@ -1123,7 +1122,6 @@
     "font": "字体",
     "align": "对齐",
     "textColor": "文字颜色",
-    "headerColor": "标题颜色",
     "exampleCell": "示例单元格",
     "cellColor": "单元格颜色",
     "toggleReverseMask": "切换反向掩码",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "错误：在启动社区转移时发生错误。错误：",
     "userSelected": "用户已选择",
     "isAdditionalStorage": "是额外存储",
-    "isTierStorage": "是层级存储"
+    "isTierStorage": "是层级存储",
+    "formsPer24Hours": "每 24 小时表单数量"
   },
   "EditCharacterCard": {
     "citizenId": "公民ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "每页成员数：",
     "close": "关闭",
     "na": "不适用",
-    "horizontal": "水平",
-    "vertical": "垂直",
-    "cell": "单元格",
-    "none": "无",
     "failedToSaveMemberInfo": "保存成员信息失败",
     "invalidDate": "无效日期",
     "clickToDisableConditionalFormatValueBein": "点击以禁用条件格式值被覆盖",
@@ -2176,57 +2171,6 @@
     "profile": "个人资料",
     "activeSecurityFlags": "活动安全标志",
     "activeDisciplinaryPoints": "活跃的纪律点"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "社区标识符",
-    "rosterTutorial": "名册教程",
-    "learnHowToUseRosters": "了解如何使用名册",
-    "rostersDocuments": "名册文档",
-    "rosterManager": "名册管理器",
-    "rostereditorexistingcomrosters": "现有自定义名册",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ 由于当前订阅计划限制已禁用。⚠️",
-    "rostereditorrostereditor": "自定义名册编辑器",
-    "commonnew": "新建",
-    "rostereditorrostertypesdepartment": "部门名册",
-    "rostereditorrostertypescustom": "自定义名册",
-    "commonsave": "保存",
-    "commonimport": "导入",
-    "commoncancel": "取消",
-    "rostereditorrostername": "名册名称",
-    "rostereditorrostertype": "名册类型",
-    "rostereditordepartmentselector": "与名册关联的部门",
-    "rostereditoraddcolumn": "添加列",
-    "rostereditorploghours": "时间日志小时",
-    "rostereditorstatusselector": "状态选择器",
-    "commonremove": "移除",
-    "rostereditormarkmodhidden": "标记列为版主隐藏",
-    "rostereditormarkadminhidden": "标记列为管理员隐藏",
-    "na": "不适用",
-    "rostereditoravailableplogforms": "可用时间日志",
-    "determinesWhatTimeLogToCalculateHoursFro": "确定从哪个时间日志计算小时。",
-    "rostereditordetermineshours": "确定从何时开始计算小时。",
-    "close": "关闭",
-    "rostereditorrosterviewer": "名单查看器",
-    "rostereditorrostertypesmain": "部门名单",
-    "rostereditorrostertypessub": "子部门名单",
-    "rostereditorrostertypescom": "社区名单",
-    "rostereditorrostertypescommunity": "社区名单",
-    "commonactions": "操作",
-    "commonlabel": "标签",
-    "commontype": "类型",
-    "commonaddsettings": "附加设置",
-    "newRoster": "新名单",
-    "communityName": "社区名称",
-    "communityRank": "社区排名",
-    "dataimport": "导入",
-    "dataimportprompt": "粘贴JSON内容",
-    "newColumn": "新列",
-    "totalHours": "总小时数",
-    "rostereditoraddnewroster": "已保存新名单：",
-    "rostereditorsaveroster": "已保存名单：",
-    "whileDeletingRoster": "删除名单时：",
-    "thereWasAnErrorCheckConsoleAndContactSup": "发生错误，请检查控制台并联系支持。",
-    "deletedRoster": "已删除名单："
   },
   "FormLimitsDialog": {
     "allowSubmissions": "限制在指定时间窗口内每个用户允许的最大提交次数。",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "帐户已踢 - 频道",
     "accountKickedMentions": "账户已踢出 - 提及",
     "accountBannedChannel": "账户封禁 - 频道",
-    "accountBannedMentions": "帐户已封禁 - 提及"
+    "accountBannedMentions": "帐户已封禁 - 提及",
+    "hideFormDropdown": "用于更改表单阶段的下拉菜单未显示",
+    "showFormDropdown": "用于更改表单阶段的下拉菜单显示在 webhook 上"
   },
   "DepartmentEditor": {
     "departmentManager": "部门经理",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "启用以将此操作限制为特定的问题响应",
     "conditionalQuestionStartExplaination": "此操作将执行",
     "fieldResponseLabel": "问题响应",
-    "fieldResponseDescription": "从问题中插入提交文本。某些问题类型可能无法复制。"
+    "fieldResponseDescription": "从问题中插入提交文本。某些问题类型可能无法复制。",
+    "formAIResponseLabel": "表单 AI 处理响应",
+    "formAIResponseDescription": "如果适用，插入 AI 生成的提交响应。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "过滤器",
     "errorAnErrorOccuredWhileFetchingServerDa": "获取服务器数据时发生错误",
-    "latestActivity": "最新活动"
+    "latestActivity": "最新活动",
+    "showingAllLogs": "显示所有日志",
+    "showingPlayerRecords": "显示玩家记录"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "添加服务器详细信息时发生错误",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "执行用户名标准",
     "kickUsersWithAllothersInUsername": "踢出用户名中包含其他所有者的用户",
     "kickUsersWithInappropriateUsernames": "踢出用户名不当的用户",
-    "sensitivityThresholdMinimumCertaintyBefo": "敏感性阈值最低确定性前",
     "sexual": "性别的",
     "harassment": "骚扰",
     "hate": "讨厌",
@@ -4546,7 +4495,8 @@
     "wasJailed": "被监禁",
     "wasHealed": "被治疗",
     "wasWanted": "被设为通缉状态",
-    "wasUnwanted": "被设置为不需要的"
+    "wasUnwanted": "被设置为不需要的",
+    "noteAdded": "笔记已添加"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "纪律处分",
@@ -4571,7 +4521,9 @@
     "banPlayer": "禁用玩家",
     "playerIsNotDrivingAVehicle": "玩家没有驾驶车辆",
     "isDrivingA": "正在驾驶A",
-    "vehicleInfo": "车辆信息"
+    "vehicleInfo": "车辆信息",
+    "openDiscordInfo": "打开 Discord 信息",
+    "anErrorOccuredWhileAdding": "添加时发生错误"
   },
   "forumExpandableRanks": {
     "show": "显示",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "在线时长"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "创建新记录",
+    "users": "用户",
+    "noPlayersOnline": "没有玩家在线",
+    "recordType": "记录类型",
+    "points": "积分",
+    "numberOfPointsToAdd": "要添加的积分数...",
+    "enterYourReasonForRecord": "输入您记录的原因...",
+    "createRecord": "创建记录",
+    "disciplinaryPoints": "纪律积分",
+    "note": "笔记",
+    "kick": "踢出",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "添加纪律积分时发生错误：",
+    "enterUsernames": "输入用户名"
   }
 }

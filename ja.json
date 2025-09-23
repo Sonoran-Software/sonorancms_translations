@@ -206,7 +206,6 @@
       "myForms": "私のフォーム",
       "apply": "送信"
     },
-    "fields": "フィールド",
     "appThirdPartySubmit": "サードパーティのアプリケーション/フォームを提出",
     "modifyStageSettings": "ステージ設定を変更",
     "modifyTemplate": "フォームテンプレートを変更",
@@ -1123,7 +1122,6 @@
     "font": "整列",
     "align": "テキストカラー",
     "textColor": "ヘッダーカラー",
-    "headerColor": "サンプルセル",
     "exampleCell": "セルカラー",
     "cellColor": "リバースマスクを切り替え",
     "toggleReverseMask": "アクション",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "ユーザーが選択されました",
     "userSelected": "市民ID",
     "isAdditionalStorage": "追加ストレージ",
-    "isTierStorage": "階層ストレージです"
+    "isTierStorage": "階層ストレージです",
+    "formsPer24Hours": "24時間ごとのフォーム"
   },
   "EditCharacterCard": {
     "citizenId": "名",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "閉じる",
     "close": "該当なし",
     "na": "水平",
-    "horizontal": "垂直",
-    "vertical": "セル",
-    "cell": "なし",
-    "none": "メンバー情報の保存に失敗しました",
     "failedToSaveMemberInfo": "無効な日付",
     "invalidDate": "条件付きフォーマット値の上書きを無効にするにはクリック",
     "clickToDisableConditionalFormatValueBein": "条件付きフォーマット値を上書きするにはクリック",
@@ -2176,57 +2171,6 @@
     "profile": "アクティブなセキュリティフラグ",
     "activeSecurityFlags": "コミュニティ識別子",
     "activeDisciplinaryPoints": "アクティブ懲戒ポイント"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "ロスターチュートリアル",
-    "rosterTutorial": "ロスターの使い方を学ぶ",
-    "learnHowToUseRosters": "ロスタードキュメント",
-    "rostersDocuments": "ロスターマネージャー",
-    "rosterManager": "既存のカスタムロスター",
-    "rostereditorexistingcomrosters": "⚠️ 現在のサブスクリプションプランの制限により無効になっています。 ⚠️",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "カスタムロスターエディター",
-    "rostereditorrostereditor": "新規",
-    "commonnew": "部門ロスター",
-    "rostereditorrostertypesdepartment": "カスタムロスター",
-    "rostereditorrostertypescustom": "保存",
-    "commonsave": "インポート",
-    "commonimport": "キャンセル",
-    "commoncancel": "ロスター名",
-    "rostereditorrostername": "ロスタータイプ",
-    "rostereditorrostertype": "ロスターに関連する部門",
-    "rostereditordepartmentselector": "列を追加",
-    "rostereditoraddcolumn": "タイムログ時間",
-    "rostereditorploghours": "ステータスセレクター",
-    "rostereditorstatusselector": "削除",
-    "commonremove": "列をモデレータ非表示にする",
-    "rostereditormarkmodhidden": "列を管理者非表示にする",
-    "rostereditormarkadminhidden": "該当なし",
-    "na": "利用可能なタイムログ",
-    "rostereditoravailableplogforms": "どのタイムログから時間を計算するかを決定します。",
-    "determinesWhatTimeLogToCalculateHoursFro": "いつから時間を計算するかを決定します。",
-    "rostereditordetermineshours": "閉じる",
-    "close": "名簿ビューア",
-    "rostereditorrosterviewer": "部門名簿",
-    "rostereditorrostertypesmain": "サブ部門名簿",
-    "rostereditorrostertypessub": "コミュニティ名簿",
-    "rostereditorrostertypescom": "コミュニティ名簿",
-    "rostereditorrostertypescommunity": "アクション",
-    "commonactions": "ラベル",
-    "commonlabel": "タイプ",
-    "commontype": "追加設定",
-    "commonaddsettings": "新しい名簿",
-    "newRoster": "コミュニティ名",
-    "communityName": "コミュニティランク",
-    "communityRank": "インポート",
-    "dataimport": "JSONコンテンツを貼り付け",
-    "dataimportprompt": "新しい列",
-    "newColumn": "総時間",
-    "totalHours": "新しい名簿を保存しました: ",
-    "rostereditoraddnewroster": "名簿を保存しました: ",
-    "rostereditorsaveroster": "名簿を削除中:",
-    "whileDeletingRoster": "エラーが発生しました。コンソールを確認し、サポートに連絡してください。",
-    "thereWasAnErrorCheckConsoleAndContactSup": "名簿を削除しました:",
-    "deletedRoster": "指定された時間枠内でユーザーごとに許可される最大提出数を制限します。"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "指定された時間枠内で提出間の必須待機期間を指定します。",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "アカウントがキックされました - チャンネル",
     "accountKickedMentions": "アカウントがキックされました - メンション",
     "accountBannedChannel": "アカウント停止 - チャンネル",
-    "accountBannedMentions": "アカウントが停止されました - メンション"
+    "accountBannedMentions": "アカウントが停止されました - メンション",
+    "hideFormDropdown": "フォームステージを変更するためのドロップダウンは表示されません",
+    "showFormDropdown": "フォームステージを変更するためのドロップダウンがWebhookで表示されます"
   },
   "DepartmentEditor": {
     "departmentManager": "プロファイルフィールドが作成されていません... カスタマイズのプロファイルフィールドエディタでプロファイルフィールドを作成してください",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "特定の質問の回答にこのアクションを制限するために有効にする",
     "conditionalQuestionStartExplaination": "このアクションは実行されます",
     "fieldResponseLabel": "質問応答",
-    "fieldResponseDescription": "質問から送信テキストを挿入します。一部の質問タイプはコピーできない場合があります。"
+    "fieldResponseDescription": "質問から送信テキストを挿入します。一部の質問タイプはコピーできない場合があります。",
+    "formAIResponseLabel": "フォームAI処理応答",
+    "formAIResponseDescription": "該当する場合、提出物に対するAI生成応答を挿入します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "フィルター",
     "errorAnErrorOccuredWhileFetchingServerDa": "サーバーデータの取得中にエラーが発生しました",
-    "latestActivity": "最新の活動"
+    "latestActivity": "最新の活動",
+    "showingAllLogs": "すべてのログを表示中",
+    "showingPlayerRecords": "プレイヤー記録を表示中"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "サーバー詳細の追加中にエラーが発生しました",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "ユーザ名基準を強制する",
     "kickUsersWithAllothersInUsername": "ユーザー名が他のすべてを含むユーザーをキック",
     "kickUsersWithInappropriateUsernames": "不適切なユーザー名のユーザーをキックする",
-    "sensitivityThresholdMinimumCertaintyBefo": "感度しきい値最低確実性前",
     "sexual": "性的",
     "harassment": "嫌がらせ",
     "hate": "嫌い",
@@ -4546,7 +4495,8 @@
     "wasJailed": "投獄された",
     "wasHealed": "治癒されました",
     "wasWanted": "指名手配に設定されました",
-    "wasUnwanted": "望ましくない設定がされました"
+    "wasUnwanted": "望ましくない設定がされました",
+    "noteAdded": "メモが追加されました"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "懲戒",
@@ -4571,7 +4521,9 @@
     "banPlayer": "プレイヤーを禁止する",
     "playerIsNotDrivingAVehicle": "プレイヤーが車両を運転していません",
     "isDrivingA": "運転中のユーザー",
-    "vehicleInfo": "車両情報"
+    "vehicleInfo": "車両情報",
+    "openDiscordInfo": "Discord情報を開く",
+    "anErrorOccuredWhileAdding": "追加中にエラーが発生しました"
   },
   "forumExpandableRanks": {
     "show": "表示",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "オンライン時間"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "新しい記録を作成",
+    "users": "ユーザー",
+    "noPlayersOnline": "オンラインプレイヤーなし",
+    "recordType": "記録タイプ",
+    "points": "ポイント",
+    "numberOfPointsToAdd": "追加するポイント数...",
+    "enterYourReasonForRecord": "記録の理由を入力してください...",
+    "createRecord": "記録を作成",
+    "disciplinaryPoints": "懲戒ポイント",
+    "note": "メモ",
+    "kick": "追放",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "懲戒ポイントの追加中にエラーが発生しました：",
+    "enterUsernames": "ユーザー名を入力してください"
   }
 }

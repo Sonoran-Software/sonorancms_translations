@@ -206,7 +206,6 @@
       "myForms": "Mijn Formulieren",
       "apply": "Indienen"
     },
-    "fields": "Velden",
     "appThirdPartySubmit": "Verzend applicatie/formulier van derden",
     "modifyStageSettings": "Wijzig Podiuminstellingen",
     "modifyTemplate": "Formuliersjabloon wijzigen",
@@ -1123,7 +1122,6 @@
     "font": "Lettertype",
     "align": "Uitlijnen",
     "textColor": "Tekstkleur",
-    "headerColor": "Koptekstkleur",
     "exampleCell": "Voorbeeldcel",
     "cellColor": "Cel Kleur",
     "toggleReverseMask": "Schakel Omgekeerd Masker in",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Fout: Er is een fout opgetreden bij het initiëren van de community-overdracht. FOUT:",
     "userSelected": "Gebruiker geselecteerd",
     "isAdditionalStorage": "is Extra Opslag",
-    "isTierStorage": "is Tieropslag"
+    "isTierStorage": "is Tieropslag",
+    "formsPer24Hours": "Formulieren per 24 uur"
   },
   "EditCharacterCard": {
     "citizenId": "Burger-ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Leden per pagina:",
     "close": "Sluiten",
     "na": "N.V.T.",
-    "horizontal": "Horizontaal",
-    "vertical": "Verticaal",
-    "cell": "Cel",
-    "none": "Geen",
     "failedToSaveMemberInfo": "Het opslaan van de ledendata is mislukt",
     "invalidDate": "Ongeldige datum",
     "clickToDisableConditionalFormatValueBein": "Klik om voorwaardelijke opmaakwaarde te deactiveren",
@@ -2176,57 +2171,6 @@
     "profile": "profiel",
     "activeSecurityFlags": "Actieve Beveiligingsvlaggen",
     "activeDisciplinaryPoints": "Actieve disciplinaire punten"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Gemeenschapsidentificatie",
-    "rosterTutorial": "Rooster Tutorial",
-    "learnHowToUseRosters": "Leer hoe je Roosters gebruikt",
-    "rostersDocuments": "Roosters Documenten",
-    "rosterManager": "Roosterbeheerder",
-    "rostereditorexistingcomrosters": "Bestaande Aangepaste Roosters",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Uitgeschakeld vanwege huidige abonnementsplanlimieten. ⚠️",
-    "rostereditorrostereditor": "Aangepaste Rooster Editor",
-    "commonnew": "Nieuw",
-    "rostereditorrostertypesdepartment": "Afdelingsrooster",
-    "rostereditorrostertypescustom": "Aangepast Rooster",
-    "commonsave": "Opslaan",
-    "commonimport": "Importeren",
-    "commoncancel": "Annuleren",
-    "rostereditorrostername": "Rooster Naam",
-    "rostereditorrostertype": "Rooster Type",
-    "rostereditordepartmentselector": "Afdeling Geassocieerd met Rooster",
-    "rostereditoraddcolumn": "Kolom Toevoegen",
-    "rostereditorploghours": "Tijdlog Uren",
-    "rostereditorstatusselector": "Status Selector",
-    "commonremove": "Verwijderen",
-    "rostereditormarkmodhidden": "Markeer Kolom Moderator Verborgen",
-    "rostereditormarkadminhidden": "Markeer Kolom Beheerder Verborgen",
-    "na": "N.v.t.",
-    "rostereditoravailableplogforms": "Beschikbare Tijdlogs",
-    "determinesWhatTimeLogToCalculateHoursFro": "Bepaalt van welke Tijdlog de uren berekend moeten worden.",
-    "rostereditordetermineshours": "Bepaalt vanaf wanneer de uren berekend moeten worden.",
-    "close": "Sluiten",
-    "rostereditorrosterviewer": "Rooster Viewer",
-    "rostereditorrostertypesmain": "Afdelingsrooster",
-    "rostereditorrostertypessub": "Subafdelingsrooster",
-    "rostereditorrostertypescom": "Gemeenschapsrooster",
-    "rostereditorrostertypescommunity": "Gemeenschapsrooster",
-    "commonactions": "Acties",
-    "commonlabel": "Label",
-    "commontype": "Type",
-    "commonaddsettings": "Aanvullende Instellingen",
-    "newRoster": "Nieuw Rooster",
-    "communityName": "Gemeenschapsnaam",
-    "communityRank": "Gemeenschapsrang",
-    "dataimport": "Importeren",
-    "dataimportprompt": "Plak de JSON-inhoud",
-    "newColumn": "Nieuwe Kolom",
-    "totalHours": "Totale Uren",
-    "rostereditoraddnewroster": "Nieuw rooster opgeslagen: ",
-    "rostereditorsaveroster": "Rooster opgeslagen: ",
-    "whileDeletingRoster": "Bij het verwijderen van rooster:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "er was een fout, controleer de console en neem contact op met de ondersteuning.",
-    "deletedRoster": "Rooster verwijderd:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Beperk het maximaal aantal inzendingen per gebruiker binnen het opgegeven tijdsvenster.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Account Gekickt - Kanaal",
     "accountKickedMentions": "Account Gekickt - Vermeldingen",
     "accountBannedChannel": "Account verbannen - Kanaal",
-    "accountBannedMentions": "Account verbannen - Vermeldingen"
+    "accountBannedMentions": "Account verbannen - Vermeldingen",
+    "hideFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt niet getoond",
+    "showFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt op de webhook getoond"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsmanager",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Schakel in om deze actie te beperken tot een specifieke vraagrespons",
     "conditionalQuestionStartExplaination": "Deze actie zal worden uitgevoerd",
     "fieldResponseLabel": "Antwoord op de vraag",
-    "fieldResponseDescription": "Voegt de inzendingstekst van een vraag in. Sommige vraagtypen kunnen mogelijk niet worden gekopieerd."
+    "fieldResponseDescription": "Voegt de inzendingstekst van een vraag in. Sommige vraagtypen kunnen mogelijk niet worden gekopieerd.",
+    "formAIResponseLabel": "Formulier AI-verwerkingsreactie",
+    "formAIResponseDescription": "Voegt de door AI gegenereerde reactie voor de inzending toe indien van toepassing."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filter",
     "errorAnErrorOccuredWhileFetchingServerDa": "Er is een fout opgetreden bij het ophalen van servergegevens",
-    "latestActivity": "laatsteActiviteit"
+    "latestActivity": "laatsteActiviteit",
+    "showingAllLogs": "Alle logs weergeven",
+    "showingPlayerRecords": "Spelerrecords weergeven"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Er is een fout opgetreden bij het toevoegen van serverdetails",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "handhaafGebruikersnaamNormen",
     "kickUsersWithAllothersInUsername": "gebruikersKickenMetAlleanderenInGebruikersnaam",
     "kickUsersWithInappropriateUsernames": "gebruikersMetInappropriatNamenVerwijderen",
-    "sensitivityThresholdMinimumCertaintyBefo": "gevoeligheidsdrempelMinimaleZekerheidVóór",
     "sexual": "seksueel",
     "harassment": "intimidatie",
     "hate": "haat",
@@ -4546,7 +4495,8 @@
     "wasJailed": "werd gevangengezet",
     "wasHealed": "werd geheeld",
     "wasWanted": "werd op gezocht gezet",
-    "wasUnwanted": "werd ingesteld op ongewenst"
+    "wasUnwanted": "werd ingesteld op ongewenst",
+    "noteAdded": "Notitie toegevoegd"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinaire",
@@ -4571,7 +4521,9 @@
     "banPlayer": "speler verbannen",
     "playerIsNotDrivingAVehicle": "spelerRijdtNietInEenVoertuig",
     "isDrivingA": "is Rijden A",
-    "vehicleInfo": "voertuiginformatie"
+    "vehicleInfo": "voertuiginformatie",
+    "openDiscordInfo": "Discord-info openen",
+    "anErrorOccuredWhileAdding": "Er is een fout opgetreden tijdens het toevoegen"
   },
   "forumExpandableRanks": {
     "show": "tonen",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online voor"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Nieuw record maken",
+    "users": "Gebruiker(s)",
+    "noPlayersOnline": "Geen spelers online",
+    "recordType": "Soort record",
+    "points": "Punten",
+    "numberOfPointsToAdd": "Aantal punten om toe te voegen...",
+    "enterYourReasonForRecord": "Voer uw reden voor het record in...",
+    "createRecord": "Record maken",
+    "disciplinaryPoints": "Disciplinaire punten",
+    "note": "Notitie",
+    "kick": "Schoppen",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Er is een fout opgetreden bij het toevoegen van disciplinaire punten:",
+    "enterUsernames": "Voer gebruikersnaam/namen in"
   }
 }

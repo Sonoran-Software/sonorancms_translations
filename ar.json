@@ -206,7 +206,6 @@
       "myForms": "نماذجي",
       "apply": "إرسال"
     },
-    "fields": "الحقول",
     "appThirdPartySubmit": "إرسال طلب/نموذج من جهة خارجية",
     "modifyStageSettings": "تعديل إعدادات المرحلة",
     "modifyTemplate": "تعديل قالب النموذج",
@@ -1123,7 +1122,6 @@
     "font": "الخط",
     "align": "محاذاة",
     "textColor": "لون النص",
-    "headerColor": "لون العنوان",
     "exampleCell": "خلية مثال",
     "cellColor": "لون الخلية",
     "toggleReverseMask": "تبديل القناع العكسي",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "خطأ: حدث خطأ أثناء بدء نقل المجتمع. ERR:",
     "userSelected": "المستخدم المحدد",
     "isAdditionalStorage": "مساحة تخزين إضافية",
-    "isTierStorage": "هو تخزين الطبقات"
+    "isTierStorage": "هو تخزين الطبقات",
+    "formsPer24Hours": "النماذج لكل 24 ساعة"
   },
   "EditCharacterCard": {
     "citizenId": "معرف المواطن",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "الأعضاء لكل صفحة:",
     "close": "إغلاق",
     "na": "غير متاح",
-    "horizontal": "أفقي",
-    "vertical": "عمودي",
-    "cell": "خلية",
-    "none": "لا شيء",
     "failedToSaveMemberInfo": "فشل في حفظ معلومات العضو",
     "invalidDate": "تاريخ غير صالح",
     "clickToDisableConditionalFormatValueBein": "انقر لتعطيل تجاوز قيمة التنسيق الشرطي",
@@ -2176,57 +2171,6 @@
     "profile": "الملف الشخصي",
     "activeSecurityFlags": "علامات الأمان النشطة",
     "activeDisciplinaryPoints": "النقاط التأديبية النشطة"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "معرف المجتمع",
-    "rosterTutorial": "دليل القائمة",
-    "learnHowToUseRosters": "تعلم كيفية استخدام القوائم",
-    "rostersDocuments": "مستندات القوائم",
-    "rosterManager": "مدير القائمة",
-    "rostereditorexistingcomrosters": "القوائم المخصصة الحالية",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ معطل بسبب حدود خطة الاشتراك الحالية. ⚠️",
-    "rostereditorrostereditor": "محرر القائمة المخصصة",
-    "commonnew": "جديد",
-    "rostereditorrostertypesdepartment": "قائمة القسم",
-    "rostereditorrostertypescustom": "قائمة مخصصة",
-    "commonsave": "حفظ",
-    "commonimport": "استيراد",
-    "commoncancel": "إلغاء",
-    "rostereditorrostername": "اسم القائمة",
-    "rostereditorrostertype": "نوع القائمة",
-    "rostereditordepartmentselector": "القسم المرتبط بالقائمة",
-    "rostereditoraddcolumn": "إضافة عمود",
-    "rostereditorploghours": "سجل ساعات العمل",
-    "rostereditorstatusselector": "محدد الحالة",
-    "commonremove": "إزالة",
-    "rostereditormarkmodhidden": "إخفاء العمود للمشرف",
-    "rostereditormarkadminhidden": "إخفاء العمود للمدير",
-    "na": "غير متاح",
-    "rostereditoravailableplogforms": "سجلات الوقت المتاحة",
-    "determinesWhatTimeLogToCalculateHoursFro": "يحدد أي سجل وقت لحساب الساعات منه.",
-    "rostereditordetermineshours": "يحدد من متى لحساب الساعات.",
-    "close": "إغلاق",
-    "rostereditorrosterviewer": "عارض القائمة",
-    "rostereditorrostertypesmain": "قائمة القسم",
-    "rostereditorrostertypessub": "قائمة الفرع",
-    "rostereditorrostertypescom": "قائمة المجتمع",
-    "rostereditorrostertypescommunity": "قائمة المجتمع",
-    "commonactions": "الإجراءات",
-    "commonlabel": "التسمية",
-    "commontype": "النوع",
-    "commonaddsettings": "إعدادات إضافية",
-    "newRoster": "قائمة جديدة",
-    "communityName": "اسم المجتمع",
-    "communityRank": "رتبة المجتمع",
-    "dataimport": "استيراد",
-    "dataimportprompt": "الصق محتوى JSON",
-    "newColumn": "عمود جديد",
-    "totalHours": "إجمالي الساعات",
-    "rostereditoraddnewroster": "تم حفظ القائمة الجديدة: ",
-    "rostereditorsaveroster": "تم حفظ القائمة: ",
-    "whileDeletingRoster": "أثناء حذف القائمة:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "حدث خطأ، تحقق من وحدة التحكم واتصل بالدعم.",
-    "deletedRoster": "تم حذف القائمة:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "حدد الحد الأقصى لعدد الإرسالات المسموح بها لكل مستخدم ضمن النافذة الزمنية المحددة.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "الحساب مطرود - القناة",
     "accountKickedMentions": "تم طرد الحساب - الإشارات",
     "accountBannedChannel": "القناة - الحساب محظور",
-    "accountBannedMentions": "الحساب محظور - الإشعارات"
+    "accountBannedMentions": "الحساب محظور - الإشعارات",
+    "hideFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج غير معروضة",
+    "showFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج معروضة في الواب هوك"
   },
   "DepartmentEditor": {
     "departmentManager": "مدير القسم",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "قم بتمكين لتقييد هذا الإجراء على استجابة سؤال محددة",
     "conditionalQuestionStartExplaination": "هذا الإجراء سينفذ",
     "fieldResponseLabel": "استجابة السؤال",
-    "fieldResponseDescription": "يدرج نص التقديم من سؤال. قد لا يمكن نسخ بعض أنواع الأسئلة."
+    "fieldResponseDescription": "يدرج نص التقديم من سؤال. قد لا يمكن نسخ بعض أنواع الأسئلة.",
+    "formAIResponseLabel": "استجابة معالجة الذكاء الاصطناعي للنموذج",
+    "formAIResponseDescription": "إدراج الاستجابة المولدة بواسطة الذكاء الاصطناعي للإرسال إذا كان ذلك ممكنًا."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "تصفية",
     "errorAnErrorOccuredWhileFetchingServerDa": "حدث خطأ أثناء استرجاع بيانات الخادم",
-    "latestActivity": "النشاط الأخير"
+    "latestActivity": "النشاط الأخير",
+    "showingAllLogs": "عرض جميع السجلات",
+    "showingPlayerRecords": "عرض سجلات اللاعبين"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "حدث خطأ أثناء إضافة تفاصيل الخادم",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "فرض معايير اسم المستخدم",
     "kickUsersWithAllothersInUsername": "طرد المستخدمين الذين لديهم \"الآخرين\" في الاسم المستخدم",
     "kickUsersWithInappropriateUsernames": "طرد المستخدمين بأسماء غير لائقة",
-    "sensitivityThresholdMinimumCertaintyBefo": "الحد الأدنى من الحساسية ومستوى اليقين قبل",
     "sexual": "جنسي",
     "harassment": "المضايقة",
     "hate": "كراهية",
@@ -4546,7 +4495,8 @@
     "wasJailed": "تم سجنه",
     "wasHealed": "تم الشفاء",
     "wasWanted": "تم تعيينه كـ \"مطلوب\"",
-    "wasUnwanted": "تم تعيينه على غير مرغوب فيه"
+    "wasUnwanted": "تم تعيينه على غير مرغوب فيه",
+    "noteAdded": "تمت إضافة ملاحظة"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "تأديبي",
@@ -4571,7 +4521,9 @@
     "banPlayer": "حظر اللاعب",
     "playerIsNotDrivingAVehicle": "اللاعب لا يقود مركبة",
     "isDrivingA": "يقود أ",
-    "vehicleInfo": "معلومات المركبة"
+    "vehicleInfo": "معلومات المركبة",
+    "openDiscordInfo": "فتح معلومات Discord",
+    "anErrorOccuredWhileAdding": "حدث خطأ أثناء الإضافة"
   },
   "forumExpandableRanks": {
     "show": "عرض",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "عبر الإنترنت لمدة"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "إنشاء سجل جديد",
+    "users": "المستخدم(ون)",
+    "noPlayersOnline": "لا يوجد لاعبين متصلين",
+    "recordType": "نوع السجل",
+    "points": "نقاط",
+    "numberOfPointsToAdd": "عدد النقاط المراد إضافتها...",
+    "enterYourReasonForRecord": "أدخل سببك للسجل...",
+    "createRecord": "إنشاء سجل",
+    "disciplinaryPoints": "نقاط تأديبية",
+    "note": "ملاحظة",
+    "kick": "طرد",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "حدث خطأ أثناء إضافة النقاط التأديبية: ",
+    "enterUsernames": "أدخل اسم(اء) المستخدم"
   }
 }

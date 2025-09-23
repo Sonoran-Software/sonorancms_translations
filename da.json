@@ -206,7 +206,6 @@
       "myForms": "Mine Formularer",
       "apply": "Indsend"
     },
-    "fields": "Felter",
     "appThirdPartySubmit": "Indsend tredjepartsansøgning/formular",
     "modifyStageSettings": "Rediger scenens indstillinger",
     "modifyTemplate": "Rediger formularskabelon",
@@ -1123,7 +1122,6 @@
     "font": "Skrifttype",
     "align": "Justér",
     "textColor": "Tekstfarve",
-    "headerColor": "Header Farve",
     "exampleCell": "Eksempel Celle",
     "cellColor": "Celle Farve",
     "toggleReverseMask": "Skift Omvendt Maske",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Fejl: Der opstod en fejl under initiering af fællesskabsoverførsel. FEJL:",
     "userSelected": "Bruger valgt",
     "isAdditionalStorage": "er yderligere lagerplads",
-    "isTierStorage": "er-niveau-lagering"
+    "isTierStorage": "er-niveau-lagering",
+    "formsPer24Hours": "Formularer pr. 24 timer"
   },
   "EditCharacterCard": {
     "citizenId": "Borger-ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Medlemmer pr. side:",
     "close": "Luk",
     "na": "N/A",
-    "horizontal": "Horisontal",
-    "vertical": "Vertikal",
-    "cell": "Celle",
-    "none": "Ingen",
     "failedToSaveMemberInfo": "Kunne ikke gemme medlemsoplysninger",
     "invalidDate": "Ugyldig dato",
     "clickToDisableConditionalFormatValueBein": "Klik for at deaktivere betinget formatværdi, der bliver overskrevet",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktive Sikkerhedsflag",
     "activeDisciplinaryPoints": "Aktive Disciplinære Point"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Fællesskabsidentifikator",
-    "rosterTutorial": "Rulleliste Tutorial",
-    "learnHowToUseRosters": "Lær hvordan man bruger Rullelister",
-    "rostersDocuments": "Rullelister Dokumenter",
-    "rosterManager": "Rulleliste Manager",
-    "rostereditorexistingcomrosters": "Eksisterende Tilpassede Rullelister",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Deaktiveret på grund af nuværende abonnementsplan grænser. ⚠️",
-    "rostereditorrostereditor": "Tilpasset Rulleliste Editor",
-    "commonnew": "Ny",
-    "rostereditorrostertypesdepartment": "Afdelingsrulleliste",
-    "rostereditorrostertypescustom": "Tilpasset Rulleliste",
-    "commonsave": "Gem",
-    "commonimport": "Importér",
-    "commoncancel": "Annuller",
-    "rostereditorrostername": "Rullelistenavn",
-    "rostereditorrostertype": "Rullelistetype",
-    "rostereditordepartmentselector": "Afdeling Tilknyttet Rulleliste",
-    "rostereditoraddcolumn": "Tilføj Kolonne",
-    "rostereditorploghours": "Tidslog Timer",
-    "rostereditorstatusselector": "Status Vælger",
-    "commonremove": "Fjern",
-    "rostereditormarkmodhidden": "Markér Kolonne Moderator Skjult",
-    "rostereditormarkadminhidden": "Markér Kolonne Administrator Skjult",
-    "na": "N/A",
-    "rostereditoravailableplogforms": "Tilgængelige Tidslogge",
-    "determinesWhatTimeLogToCalculateHoursFro": "Bestemmer hvilken Tidslog der skal beregnes timer fra.",
-    "rostereditordetermineshours": "Bestemmer fra hvornår timer skal beregnes fra.",
-    "close": "Luk",
-    "rostereditorrosterviewer": "Rullevindue for Medarbejdere",
-    "rostereditorrostertypesmain": "Afdelingsrullevindue",
-    "rostereditorrostertypessub": "Underafdelingsrullevindue",
-    "rostereditorrostertypescom": "Fællesskabsrullevindue",
-    "rostereditorrostertypescommunity": "Fællesskabsrullevindue",
-    "commonactions": "Handlinger",
-    "commonlabel": "Etiket",
-    "commontype": "Type",
-    "commonaddsettings": "Yderligere Indstillinger",
-    "newRoster": "Nyt Rullevindue",
-    "communityName": "Fællesskabsnavn",
-    "communityRank": "Fællesskabsrang",
-    "dataimport": "Importér",
-    "dataimportprompt": "Indsæt JSON-indholdet",
-    "newColumn": "Ny Kolonne",
-    "totalHours": "Samlede Timer",
-    "rostereditoraddnewroster": "Gemte nyt rullevindue: ",
-    "rostereditorsaveroster": "Gemte rullevindue: ",
-    "whileDeletingRoster": "Ved sletning af rullevindue:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "der opstod en fejl, tjek konsollen og kontakt support.",
-    "deletedRoster": "Slettede rullevindue:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Begræns det maksimale antal indsendelser tilladt pr. bruger inden for det angivne tidsvindue.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Konto smidt ud - Kanal",
     "accountKickedMentions": "Konto smidt ud - Omnævnelser",
     "accountBannedChannel": "Konto Bannet - Kanal",
-    "accountBannedMentions": "Konto udelukket - Omtaler"
+    "accountBannedMentions": "Konto udelukket - Omtaler",
+    "hideFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises ikke",
+    "showFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises på webhooken"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsleder",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Aktiver for at begrænse denne handling til et specifikt spørgsmålssvar",
     "conditionalQuestionStartExplaination": "Denne handling vil blive udført",
     "fieldResponseLabel": "Spørgsmålsrespons",
-    "fieldResponseDescription": "Indsætter besvarelsesteksten fra et spørgsmål. Nogle spørgsmålstyper kan muligvis ikke kopieres."
+    "fieldResponseDescription": "Indsætter besvarelsesteksten fra et spørgsmål. Nogle spørgsmålstyper kan muligvis ikke kopieres.",
+    "formAIResponseLabel": "AI-behandlingssvar for formular",
+    "formAIResponseDescription": "Indsætter det AI-genererede svar for indsendelsen, hvis det er relevant."
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filter",
     "errorAnErrorOccuredWhileFetchingServerDa": "Der opstod en fejl under hentning af serverdata",
-    "latestActivity": "senesteAktivitet"
+    "latestActivity": "senesteAktivitet",
+    "showingAllLogs": "Viser alle logs",
+    "showingPlayerRecords": "Viser spilleroptegnelser"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Der opstod en fejl under tilføjelse af serveroplysninger.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "<|ipynb_marker|>Denne standarder for brugernavn",
     "kickUsersWithAllothersInUsername": "Spark brugere med \"allothers\" i brugernavnet",
     "kickUsersWithInappropriateUsernames": "banBrugereMedUpassendeBrugernavne",
-    "sensitivityThresholdMinimumCertaintyBefo": "Følsomhedstærskel minimum sikkerhed før",
     "sexual": "seksuel",
     "harassment": "chikane",
     "hate": "had",
@@ -4546,7 +4495,8 @@
     "wasJailed": "blev fængslet",
     "wasHealed": "blev helbredt",
     "wasWanted": "blev sat til ønsket",
-    "wasUnwanted": "blev sat til uønsket"
+    "wasUnwanted": "blev sat til uønsket",
+    "noteAdded": "Notat tilføjet"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinær",
@@ -4571,7 +4521,9 @@
     "banPlayer": "banSpiller",
     "playerIsNotDrivingAVehicle": "spillerenKørerIkkeEtKøretøj",
     "isDrivingA": "kører en",
-    "vehicleInfo": "køretøjsinfo"
+    "vehicleInfo": "køretøjsinfo",
+    "openDiscordInfo": "Åbn Discord-info",
+    "anErrorOccuredWhileAdding": "Der opstod en fejl under tilføjelsen"
   },
   "forumExpandableRanks": {
     "show": "vise",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online i"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Opret ny optegnelse",
+    "users": "Bruger(e)",
+    "noPlayersOnline": "Ingen spillere online",
+    "recordType": "Optegnelsestype",
+    "points": "Point",
+    "numberOfPointsToAdd": "Antal point at tilføje...",
+    "enterYourReasonForRecord": "Indtast din grund til optegnelse...",
+    "createRecord": "Opret optegnelse",
+    "disciplinaryPoints": "Disciplinære point",
+    "note": "Notat",
+    "kick": "Smut",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Der opstod en fejl under tilføjelse af disciplinære point: ",
+    "enterUsernames": "Indtast brugernavne"
   }
 }

@@ -206,7 +206,6 @@
       "myForms": "Mes Formulaires",
       "apply": "Soumettre"
     },
-    "fields": "Champs",
     "appThirdPartySubmit": "Soumettre une application/formulaire tiers",
     "modifyStageSettings": "Modifier les paramètres de l'étape",
     "modifyTemplate": "Modifier le modèle de formulaire",
@@ -1123,7 +1122,6 @@
     "font": "Police",
     "align": "Aligner",
     "textColor": "Couleur du texte",
-    "headerColor": "Couleur de l'en-tête",
     "exampleCell": "Exemple de cellule",
     "cellColor": "Couleur de la cellule",
     "toggleReverseMask": "Basculer le masque inversé",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Erreur : Une erreur s'est produite lors de l'initiation du transfert de communauté. ERR :",
     "userSelected": "Utilisateur sélectionné",
     "isAdditionalStorage": "est Stockage Supplémentaire",
-    "isTierStorage": "est Stockage par Niveau"
+    "isTierStorage": "est Stockage par Niveau",
+    "formsPer24Hours": "Formulaires par 24 heures"
   },
   "EditCharacterCard": {
     "citizenId": "ID du citoyen",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Membres par page :",
     "close": "Fermer",
     "na": "N/A",
-    "horizontal": "Horizontal",
-    "vertical": "Vertical",
-    "cell": "Cellule",
-    "none": "Aucun",
     "failedToSaveMemberInfo": "Échec de l'enregistrement des informations du membre",
     "invalidDate": "Date invalide",
     "clickToDisableConditionalFormatValueBein": "Cliquez pour désactiver la valeur de format conditionnel remplacée",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Drapeaux de sécurité actifs",
     "activeDisciplinaryPoints": "Points disciplinaires actifs"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Identifiant communautaire",
-    "rosterTutorial": "Tutoriel sur le registre",
-    "learnHowToUseRosters": "Apprenez à utiliser les registres",
-    "rostersDocuments": "Documents des registres",
-    "rosterManager": "Gestionnaire de registre",
-    "rostereditorexistingcomrosters": "Registres personnalisés existants",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Désactivé en raison des limites du plan d'abonnement actuel. ⚠️",
-    "rostereditorrostereditor": "Éditeur de registre personnalisé",
-    "commonnew": "Nouveau",
-    "rostereditorrostertypesdepartment": "Registre de département",
-    "rostereditorrostertypescustom": "Registre personnalisé",
-    "commonsave": "Enregistrer",
-    "commonimport": "Importer",
-    "commoncancel": "Annuler",
-    "rostereditorrostername": "Nom du registre",
-    "rostereditorrostertype": "Type de registre",
-    "rostereditordepartmentselector": "Département associé au registre",
-    "rostereditoraddcolumn": "Ajouter une colonne",
-    "rostereditorploghours": "Heures de journal de temps",
-    "rostereditorstatusselector": "Sélecteur de statut",
-    "commonremove": "Supprimer",
-    "rostereditormarkmodhidden": "Marquer la colonne comme cachée pour le modérateur",
-    "rostereditormarkadminhidden": "Marquer la colonne comme cachée pour l'administrateur",
-    "na": "N/A",
-    "rostereditoravailableplogforms": "Journaux de temps disponibles",
-    "determinesWhatTimeLogToCalculateHoursFro": "Détermine quel journal de temps utiliser pour calculer les heures.",
-    "rostereditordetermineshours": "Détermine à partir de quand calculer les heures.",
-    "close": "Fermer",
-    "rostereditorrosterviewer": "Visualiseur de Liste",
-    "rostereditorrostertypesmain": "Liste du Département",
-    "rostereditorrostertypessub": "Liste du Sous-département",
-    "rostereditorrostertypescom": "Liste de la Communauté",
-    "rostereditorrostertypescommunity": "Liste de la Communauté",
-    "commonactions": "Actions",
-    "commonlabel": "Étiquette",
-    "commontype": "Type",
-    "commonaddsettings": "Paramètres supplémentaires",
-    "newRoster": "Nouvelle Liste",
-    "communityName": "Nom de la Communauté",
-    "communityRank": "Rang de la Communauté",
-    "dataimport": "Importer",
-    "dataimportprompt": "Collez le contenu JSON",
-    "newColumn": "Nouvelle Colonne",
-    "totalHours": "Total des Heures",
-    "rostereditoraddnewroster": "Nouvelle liste enregistrée : ",
-    "rostereditorsaveroster": "Liste enregistrée : ",
-    "whileDeletingRoster": "Lors de la suppression de la liste :",
-    "thereWasAnErrorCheckConsoleAndContactSup": "il y a eu une erreur, vérifiez la console et contactez le support.",
-    "deletedRoster": "Liste supprimée :"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Limitez le nombre maximum de soumissions autorisées par utilisateur dans la fenêtre de temps spécifiée.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Compte Expulsé - Canal",
     "accountKickedMentions": "Compte Expulsé - Mentions",
     "accountBannedChannel": "Compte banni - Canal",
-    "accountBannedMentions": "Compte banni - Mentions"
+    "accountBannedMentions": "Compte banni - Mentions",
+    "hideFormDropdown": "Le menu déroulant pour changer l'étape d'un formulaire n'est pas affiché",
+    "showFormDropdown": "Le menu déroulant pour changer l'étape d'un formulaire est affiché sur le webhook"
   },
   "DepartmentEditor": {
     "departmentManager": "Responsable de département",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Activer pour restreindre cette action à une réponse de question spécifique",
     "conditionalQuestionStartExplaination": "Cette action sera exécutée",
     "fieldResponseLabel": "Réponse à la question",
-    "fieldResponseDescription": "Insère le texte de soumission d'une question. Certains types de questions peuvent ne pas être copiés."
+    "fieldResponseDescription": "Insère le texte de soumission d'une question. Certains types de questions peuvent ne pas être copiés.",
+    "formAIResponseLabel": "Réponse de traitement de l'IA du formulaire",
+    "formAIResponseDescription": "Insère la réponse générée par l'IA pour la soumission si applicable."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filtrer",
     "errorAnErrorOccuredWhileFetchingServerDa": "Une erreur est survenue lors de la récupération des données du serveur.",
-    "latestActivity": "Dernière activité"
+    "latestActivity": "Dernière activité",
+    "showingAllLogs": "Affichage de tous les journaux",
+    "showingPlayerRecords": "Affichage des dossiers des joueurs"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Une erreur s'est produite lors de l'ajout des détails du serveur.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "appliquerLesNormesDeNomD'utilisateur",
     "kickUsersWithAllothersInUsername": "expulserLesUtilisateursAvecTousLesAutresDansLeNomDUtilisateur",
     "kickUsersWithInappropriateUsernames": "expulserLesUtilisateursAvecDesNomsDUtilisateurInappropriés",
-    "sensitivityThresholdMinimumCertaintyBefo": "Seuil de sensibilité de certitude minimum avant",
     "sexual": "sexuel",
     "harassment": "harcèlement",
     "hate": "haine",
@@ -4546,7 +4495,8 @@
     "wasJailed": "a été emprisonné",
     "wasHealed": "a été guéri",
     "wasWanted": "a été défini comme recherché",
-    "wasUnwanted": "a été défini sur indésirable"
+    "wasUnwanted": "a été défini sur indésirable",
+    "noteAdded": "Note ajoutée"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinaires",
@@ -4571,7 +4521,9 @@
     "banPlayer": "bannirJoueur",
     "playerIsNotDrivingAVehicle": "Le joueur ne conduit pas de véhicule",
     "isDrivingA": "estConduireA",
-    "vehicleInfo": "informations sur le véhicule"
+    "vehicleInfo": "informations sur le véhicule",
+    "openDiscordInfo": "Ouvrir les infos Discord",
+    "anErrorOccuredWhileAdding": "Une erreur est survenue lors de l'ajout"
   },
   "forumExpandableRanks": {
     "show": "afficher",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "en ligne depuis"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Créer un nouveau dossier",
+    "users": "Utilisateur(s)",
+    "noPlayersOnline": "Aucun joueur en ligne",
+    "recordType": "Type de dossier",
+    "points": "Points",
+    "numberOfPointsToAdd": "Nombre de points à ajouter...",
+    "enterYourReasonForRecord": "Entrez votre raison pour le dossier...",
+    "createRecord": "Créer un dossier",
+    "disciplinaryPoints": "Points disciplinaires",
+    "note": "Note",
+    "kick": "Expulser",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Une erreur est survenue lors de l'ajout de points disciplinaires :",
+    "enterUsernames": "Entrez le(s) nom(s) d'utilisateur"
   }
 }

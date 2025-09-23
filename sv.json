@@ -206,7 +206,6 @@
       "myForms": "Mina Formulär",
       "apply": "Skicka"
     },
-    "fields": "Fält",
     "appThirdPartySubmit": "Skicka in ansökan/blankett från tredje part",
     "modifyStageSettings": "Ändra sceninställningar",
     "modifyTemplate": "Ändra formulärmall",
@@ -1123,7 +1122,6 @@
     "font": "Teckensnitt",
     "align": "Justera",
     "textColor": "Textfärg",
-    "headerColor": "Rubrikfärg",
     "exampleCell": "Exempelcell",
     "cellColor": "Cellfärg",
     "toggleReverseMask": "Växla omvänd mask",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Fel: Ett fel inträffade vid initiering av community-överföring. FEL:",
     "userSelected": "Användare vald",
     "isAdditionalStorage": "är Ytterligare Lagring",
-    "isTierStorage": "är nivålagring"
+    "isTierStorage": "är nivålagring",
+    "formsPer24Hours": "Formulär per 24 timmar"
   },
   "EditCharacterCard": {
     "citizenId": "Medborgar-ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Medlemmar per sida:",
     "close": "Stäng",
     "na": "N/A",
-    "horizontal": "Horisontell",
-    "vertical": "Vertikal",
-    "cell": "Cell",
-    "none": "Ingen",
     "failedToSaveMemberInfo": "Misslyckades med att spara medlemsinformation",
     "invalidDate": "Ogiltigt datum",
     "clickToDisableConditionalFormatValueBein": "Klicka för att inaktivera villkorligt formatvärde som åsidosätts",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktiva Säkerhetsflaggor",
     "activeDisciplinaryPoints": "Aktiva Disciplinpoäng"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Gemenskapsidentifierare",
-    "rosterTutorial": "Roster Tutorial",
-    "learnHowToUseRosters": "Lär dig hur du använder Roster",
-    "rostersDocuments": "Roster Dokument",
-    "rosterManager": "Roster Manager",
-    "rostereditorexistingcomrosters": "Befintliga Anpassade Roster",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Inaktiverad på grund av nuvarande abonnemangsplanens gränser. ⚠️",
-    "rostereditorrostereditor": "Anpassad Roster Editor",
-    "commonnew": "Ny",
-    "rostereditorrostertypesdepartment": "Avdelnings Roster",
-    "rostereditorrostertypescustom": "Anpassad Roster",
-    "commonsave": "Spara",
-    "commonimport": "Importera",
-    "commoncancel": "Avbryt",
-    "rostereditorrostername": "Roster Namn",
-    "rostereditorrostertype": "Roster Typ",
-    "rostereditordepartmentselector": "Avdelning Associerad med Roster",
-    "rostereditoraddcolumn": "Lägg till Kolumn",
-    "rostereditorploghours": "Tid Logg Timmar",
-    "rostereditorstatusselector": "Status Väljare",
-    "commonremove": "Ta bort",
-    "rostereditormarkmodhidden": "Markera Kolumn Moderator Dold",
-    "rostereditormarkadminhidden": "Markera Kolumn Administratör Dold",
-    "na": "N/A",
-    "rostereditoravailableplogforms": "Tillgängliga Tid Loggar",
-    "determinesWhatTimeLogToCalculateHoursFro": "Bestämmer vilken Tid Logg att beräkna timmar från.",
-    "rostereditordetermineshours": "Bestämmer från när att beräkna timmar från.",
-    "close": "Stäng",
-    "rostereditorrosterviewer": "Roster Viewer",
-    "rostereditorrostertypesmain": "Avdelningslista",
-    "rostereditorrostertypessub": "Underavdelningslista",
-    "rostereditorrostertypescom": "Gemenskapslista",
-    "rostereditorrostertypescommunity": "Gemenskapslista",
-    "commonactions": "Åtgärder",
-    "commonlabel": "Etikett",
-    "commontype": "Typ",
-    "commonaddsettings": "Ytterligare inställningar",
-    "newRoster": "Ny lista",
-    "communityName": "Gemenskapsnamn",
-    "communityRank": "Gemenskapsrankning",
-    "dataimport": "Importera",
-    "dataimportprompt": "Klistra in JSON-innehållet",
-    "newColumn": "Ny kolumn",
-    "totalHours": "Totala timmar",
-    "rostereditoraddnewroster": "Sparade ny lista: ",
-    "rostereditorsaveroster": "Sparade lista: ",
-    "whileDeletingRoster": "Vid radering av lista:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "det uppstod ett fel, kontrollera konsolen och kontakta supporten.",
-    "deletedRoster": "Raderade lista:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Begränsa det maximala antalet inlämningar som tillåts per användare inom den angivna tidsramen.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Konto sparkat - Kanal",
     "accountKickedMentions": "Konto sparkat - Markeringar",
     "accountBannedChannel": "Konto Avstängt - Kanal",
-    "accountBannedMentions": "Kontot är förbjudet - Nämner"
+    "accountBannedMentions": "Kontot är förbjudet - Nämner",
+    "hideFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas inte",
+    "showFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas på webhooken"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelningschef",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Aktivera för att begränsa denna åtgärd till ett specifikt frågesvar",
     "conditionalQuestionStartExplaination": "Denna åtgärd kommer att utföras",
     "fieldResponseLabel": "Svarsfråga",
-    "fieldResponseDescription": "Infogar inlämningstexten från en fråga. Vissa frågetyper kanske inte kan kopieras."
+    "fieldResponseDescription": "Infogar inlämningstexten från en fråga. Vissa frågetyper kanske inte kan kopieras.",
+    "formAIResponseLabel": "Formulär AI Bearbetningssvar",
+    "formAIResponseDescription": "Infogar det AI-genererade svaret för inskickningen om tillämpligt."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filter",
     "errorAnErrorOccuredWhileFetchingServerDa": "Ett fel inträffade vid hämtning av serverdata",
-    "latestActivity": "senasteAktivitet"
+    "latestActivity": "senasteAktivitet",
+    "showingAllLogs": "Visar alla loggar",
+    "showingPlayerRecords": "Visar spelarens poster"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Ett fel inträffade när serverdetaljer lades till",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "upprätthåll användarnamnstandarder",
     "kickUsersWithAllothersInUsername": "sparka användare med \"alla andra\" i användarnamnet",
     "kickUsersWithInappropriateUsernames": "sparkaAnvändareMedOlämpligaAnvändarnamn",
-    "sensitivityThresholdMinimumCertaintyBefo": "Känslighetströskel Lägsta säkerhet innan",
     "sexual": "sexuell",
     "harassment": "trakasserier",
     "hate": "hatа",
@@ -4546,7 +4495,8 @@
     "wasJailed": "blev fängslad",
     "wasHealed": "läktes",
     "wasWanted": "ställdes till efterlyst",
-    "wasUnwanted": "var inställd på oönskat"
+    "wasUnwanted": "var inställd på oönskat",
+    "noteAdded": "Notering tillagd"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinär",
@@ -4571,7 +4521,9 @@
     "banPlayer": "banna spelare",
     "playerIsNotDrivingAVehicle": "spelarenKörInteEttFordon",
     "isDrivingA": "kör en",
-    "vehicleInfo": "fordonsinformation"
+    "vehicleInfo": "fordonsinformation",
+    "openDiscordInfo": "Öppna Discord Info",
+    "anErrorOccuredWhileAdding": "Ett fel inträffade vid tillägg"
   },
   "forumExpandableRanks": {
     "show": "visa",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online i"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Skapa Ny Post",
+    "users": "Användare",
+    "noPlayersOnline": "Inga spelare online",
+    "recordType": "Typ av post",
+    "points": "Poäng",
+    "numberOfPointsToAdd": "Antal poäng att lägga till...",
+    "enterYourReasonForRecord": "Ange din anledning för posten...",
+    "createRecord": "Skapa Post",
+    "disciplinaryPoints": "Disciplinära Poäng",
+    "note": "Notering",
+    "kick": "Sparka",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Ett fel inträffade vid tillägg av disciplinära poäng: ",
+    "enterUsernames": "Ange Användarnamn"
   }
 }

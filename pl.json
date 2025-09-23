@@ -206,7 +206,6 @@
       "myForms": "Moje Formularze",
       "apply": "Zatwierdź"
     },
-    "fields": "Pola",
     "appThirdPartySubmit": "Składać Wniosek/Formularz Od Strony Trzeciej",
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "modifyTemplate": "Zmodyfikuj szablon formularza",
@@ -1123,7 +1122,6 @@
     "font": "Czcionka",
     "align": "Wyrównaj",
     "textColor": "Kolor tekstu",
-    "headerColor": "Kolor nagłówka",
     "exampleCell": "Przykładowa komórka",
     "cellColor": "Kolor komórki",
     "toggleReverseMask": "Przełącz odwrotną maskę",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Błąd: Wystąpił błąd podczas inicjowania transferu społeczności. ERR:",
     "userSelected": "Użytkownik wybrany",
     "isAdditionalStorage": "jest dodatkowe miejsce na dysku",
-    "isTierStorage": "é Armazenamento de Nível"
+    "isTierStorage": "é Armazenamento de Nível",
+    "formsPer24Hours": "Formularze na 24 godziny"
   },
   "EditCharacterCard": {
     "citizenId": "ID obywatela",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Członkowie na stronę:",
     "close": "Zamknij",
     "na": "N/D",
-    "horizontal": "Poziomo",
-    "vertical": "Pionowo",
-    "cell": "Komórka",
-    "none": "Brak",
     "failedToSaveMemberInfo": "Nie udało się zapisać informacji o członku",
     "invalidDate": "Nieprawidłowa data",
     "clickToDisableConditionalFormatValueBein": "Kliknij, aby wyłączyć nadpisywanie wartości formatu warunkowego",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktywne Flagi Bezpieczeństwa",
     "activeDisciplinaryPoints": "Aktywne Punkty Dyscyplinarne"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Identyfikator Społeczności",
-    "rosterTutorial": "Samouczek Listy",
-    "learnHowToUseRosters": "Dowiedz się, jak korzystać z List",
-    "rostersDocuments": "Dokumenty Listy",
-    "rosterManager": "Menedżer Listy",
-    "rostereditorexistingcomrosters": "Istniejące Niestandardowe Listy",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Wyłączone z powodu ograniczeń bieżącego planu subskrypcji. ⚠️",
-    "rostereditorrostereditor": "Edytor Niestandardowej Listy",
-    "commonnew": "Nowy",
-    "rostereditorrostertypesdepartment": "Lista Wydziału",
-    "rostereditorrostertypescustom": "Niestandardowa Lista",
-    "commonsave": "Zapisz",
-    "commonimport": "Importuj",
-    "commoncancel": "Anuluj",
-    "rostereditorrostername": "Nazwa Listy",
-    "rostereditorrostertype": "Typ Listy",
-    "rostereditordepartmentselector": "Wydział Powiązany z Listą",
-    "rostereditoraddcolumn": "Dodaj Kolumnę",
-    "rostereditorploghours": "Rejestr Czasu Godzin",
-    "rostereditorstatusselector": "Selektor Statusu",
-    "commonremove": "Usuń",
-    "rostereditormarkmodhidden": "Oznacz Kolumnę jako Ukrytą dla Moderatora",
-    "rostereditormarkadminhidden": "Oznacz Kolumnę jako Ukrytą dla Administratora",
-    "na": "N/D",
-    "rostereditoravailableplogforms": "Dostępne Rejestry Czasu",
-    "determinesWhatTimeLogToCalculateHoursFro": "Określa, z którego Rejestru Czasu obliczać godziny.",
-    "rostereditordetermineshours": "Określa, od kiedy obliczać godziny.",
-    "close": "Zamknij",
-    "rostereditorrosterviewer": "Przeglądarka Listy",
-    "rostereditorrostertypesmain": "Lista Działu",
-    "rostereditorrostertypessub": "Lista Poddziału",
-    "rostereditorrostertypescom": "Lista Społeczności",
-    "rostereditorrostertypescommunity": "Lista Społeczności",
-    "commonactions": "Akcje",
-    "commonlabel": "Etykieta",
-    "commontype": "Typ",
-    "commonaddsettings": "Dodatkowe Ustawienia",
-    "newRoster": "Nowa Lista",
-    "communityName": "Nazwa Społeczności",
-    "communityRank": "Ranga Społeczności",
-    "dataimport": "Importuj",
-    "dataimportprompt": "Wklej zawartość JSON",
-    "newColumn": "Nowa Kolumna",
-    "totalHours": "Łączna Liczba Godzin",
-    "rostereditoraddnewroster": "Zapisano nową listę: ",
-    "rostereditorsaveroster": "Zapisano listę: ",
-    "whileDeletingRoster": "Podczas usuwania listy:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "wystąpił błąd, sprawdź konsolę i skontaktuj się z pomocą techniczną.",
-    "deletedRoster": "Usunięto listę: "
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Ogranicz maksymalną liczbę zgłoszeń dozwolonych na użytkownika w określonym przedziale czasowym.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Konto wyrzucone - Kanał",
     "accountKickedMentions": "Konto Wyrzucone - Wzmianki",
     "accountBannedChannel": "Konto zabanowane - Kanał",
-    "accountBannedMentions": "Konto zablokowane - Wzmianki"
+    "accountBannedMentions": "Konto zablokowane - Wzmianki",
+    "hideFormDropdown": "Lista rozwijana do zmiany etapu formularza nie jest pokazana",
+    "showFormDropdown": "Lista rozwijana do zmiany etapu formularza jest pokazana na webhooku"
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Włącz, aby ograniczyć to działanie do konkretnej odpowiedzi na pytanie",
     "conditionalQuestionStartExplaination": "To działanie zostanie wykonane",
     "fieldResponseLabel": "Odpowiedź na pytanie",
-    "fieldResponseDescription": "Wstawia tekst zgłoszenia z pytania. Niektóre typy pytań mogą być niemożliwe do skopiowania."
+    "fieldResponseDescription": "Wstawia tekst zgłoszenia z pytania. Niektóre typy pytań mogą być niemożliwe do skopiowania.",
+    "formAIResponseLabel": "Odpowiedź przetwarzania AI formularza",
+    "formAIResponseDescription": "Wstawia odpowiedź wygenerowaną przez AI dla zgłoszenia, jeśli ma zastosowanie."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filtr",
     "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera",
-    "latestActivity": "najnowszaAktywność"
+    "latestActivity": "najnowszaAktywność",
+    "showingAllLogs": "Wyświetlanie wszystkich dzienników",
+    "showingPlayerRecords": "Wyświetlanie rejestrów graczy"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Wystąpił błąd podczas dodawania szczegółów serwera",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "wymuszNormyNazwUżytkowników",
     "kickUsersWithAllothersInUsername": "wykopUżytkownikówZGłowąHwanychWImieniuUżytkownika",
     "kickUsersWithInappropriateUsernames": "Wyrzuć użytkowników z nieodpowiednimi nazwami użytkowników",
-    "sensitivityThresholdMinimumCertaintyBefo": "minimalny próg pewności dopasowania",
     "sexual": "seksualny",
     "harassment": "nękanie",
     "hate": "nienawiść",
@@ -4546,7 +4495,8 @@
     "wasJailed": "został aresztowany",
     "wasHealed": "został wyleczony",
     "wasWanted": "został ustawiony jako poszukiwany",
-    "wasUnwanted": "zostało ustawione na niepożądane"
+    "wasUnwanted": "zostało ustawione na niepożądane",
+    "noteAdded": "Dodano notatkę"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "dyscyplinarny",
@@ -4571,7 +4521,9 @@
     "banPlayer": "zablokujGracza",
     "playerIsNotDrivingAVehicle": "gracz nie prowadzi pojazdu",
     "isDrivingA": "prowadzi pojazd",
-    "vehicleInfo": "Informacje o pojeździe"
+    "vehicleInfo": "Informacje o pojeździe",
+    "openDiscordInfo": "Otwórz informacje o Discord",
+    "anErrorOccuredWhileAdding": "Wystąpił błąd podczas dodawania"
   },
   "forumExpandableRanks": {
     "show": "pokaż",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "Online przez"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Utwórz nowy rekord",
+    "users": "Użytkownik(i)",
+    "noPlayersOnline": "Brak graczy online",
+    "recordType": "Typ rekordu",
+    "points": "Punkty",
+    "numberOfPointsToAdd": "Liczba punktów do dodania...",
+    "enterYourReasonForRecord": "Wprowadź powód dla rekordu...",
+    "createRecord": "Utwórz rekord",
+    "disciplinaryPoints": "Punkty dyscyplinarne",
+    "note": "Notatka",
+    "kick": "Wyrzuć",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Wystąpił błąd podczas dodawania punktów dyscyplinarnych: ",
+    "enterUsernames": "Wprowadź nazwę użytkownika/użytkowników"
   }
 }

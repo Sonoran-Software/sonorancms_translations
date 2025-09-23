@@ -206,7 +206,6 @@
       "myForms": "Мои Формы",
       "apply": "Отправить"
     },
-    "fields": "Поля",
     "appThirdPartySubmit": "Отправить стороннее приложение/форму",
     "modifyStageSettings": "Изменить настройки этапа",
     "modifyTemplate": "Изменить шаблон формы",
@@ -1123,7 +1122,6 @@
     "font": "Выравнивание",
     "align": "Цвет текста",
     "textColor": "Цвет заголовка",
-    "headerColor": "Пример ячейки",
     "exampleCell": "Цвет ячейки",
     "cellColor": "Переключить обратную маску",
     "toggleReverseMask": "Действия",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Пользователь выбран",
     "userSelected": "ID гражданина",
     "isAdditionalStorage": "дополнительное хранилище",
-    "isTierStorage": "это уровень хранения"
+    "isTierStorage": "это уровень хранения",
+    "formsPer24Hours": "Форм за 24 часа"
   },
   "EditCharacterCard": {
     "citizenId": "Имя",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Закрыть",
     "close": "Н/Д",
     "na": "Горизонтально",
-    "horizontal": "Вертикально",
-    "vertical": "Ячейка",
-    "cell": "Нет",
-    "none": "Не удалось сохранить информацию о члене",
     "failedToSaveMemberInfo": "Неверная дата",
     "invalidDate": "Нажмите, чтобы отключить переопределение условного значения",
     "clickToDisableConditionalFormatValueBein": "Нажмите, чтобы переопределить условное значение",
@@ -2176,57 +2171,6 @@
     "profile": "Активные флаги безопасности",
     "activeSecurityFlags": "Идентификатор сообщества",
     "activeDisciplinaryPoints": "Активные дисциплинарные баллы"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Учебник по списку",
-    "rosterTutorial": "Узнайте, как использовать списки",
-    "learnHowToUseRosters": "Документы по спискам",
-    "rostersDocuments": "Менеджер списков",
-    "rosterManager": "Существующие пользовательские списки",
-    "rostereditorexistingcomrosters": "⚠️ Отключено из-за ограничений текущего плана подписки. ⚠️",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "Редактор пользовательских списков",
-    "rostereditorrostereditor": "Новый",
-    "commonnew": "Список отдела",
-    "rostereditorrostertypesdepartment": "Пользовательский список",
-    "rostereditorrostertypescustom": "Сохранить",
-    "commonsave": "Импортировать",
-    "commonimport": "Отмена",
-    "commoncancel": "Название списка",
-    "rostereditorrostername": "Тип списка",
-    "rostereditorrostertype": "Отдел, связанный со списком",
-    "rostereditordepartmentselector": "Добавить столбец",
-    "rostereditoraddcolumn": "Часы журнала времени",
-    "rostereditorploghours": "Селектор статуса",
-    "rostereditorstatusselector": "Удалить",
-    "commonremove": "Отметить столбец скрытым для модератора",
-    "rostereditormarkmodhidden": "Отметить столбец скрытым для администратора",
-    "rostereditormarkadminhidden": "Н/Д",
-    "na": "Доступные журналы времени",
-    "rostereditoravailableplogforms": "Определяет, из какого журнала времени рассчитывать часы.",
-    "determinesWhatTimeLogToCalculateHoursFro": "Определяет, с какого момента рассчитывать часы.",
-    "rostereditordetermineshours": "Закрыть",
-    "close": "Просмотр Списка",
-    "rostereditorrosterviewer": "Список Отдела",
-    "rostereditorrostertypesmain": "Список Подотдела",
-    "rostereditorrostertypessub": "Список Сообщества",
-    "rostereditorrostertypescom": "Список Сообщества",
-    "rostereditorrostertypescommunity": "Действия",
-    "commonactions": "Метка",
-    "commonlabel": "Тип",
-    "commontype": "Дополнительные Настройки",
-    "commonaddsettings": "Новый Список",
-    "newRoster": "Название Сообщества",
-    "communityName": "Ранг Сообщества",
-    "communityRank": "Импорт",
-    "dataimport": "Вставьте содержимое JSON",
-    "dataimportprompt": "Новая Колонка",
-    "newColumn": "Всего Часов",
-    "totalHours": "Сохранен новый список: ",
-    "rostereditoraddnewroster": "Сохранен список: ",
-    "rostereditorsaveroster": "При удалении списка:",
-    "whileDeletingRoster": "произошла ошибка, проверьте консоль и свяжитесь с поддержкой.",
-    "thereWasAnErrorCheckConsoleAndContactSup": "Удален список:",
-    "deletedRoster": "Ограничьте максимальное количество отправок, разрешенных пользователю в указанное временное окно."
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Укажите обязательный период ожидания между отправками в указанное временное окно.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Аккаунт выгнан - Канал",
     "accountKickedMentions": "Аккаунт выгнан - Упоминания",
     "accountBannedChannel": "Аккаунт забанен - Канал",
-    "accountBannedMentions": "Учетная запись заблокирована - Упоминания"
+    "accountBannedMentions": "Учетная запись заблокирована - Упоминания",
+    "hideFormDropdown": "Выпадающее меню для изменения этапа формы не показано",
+    "showFormDropdown": "Выпадающее меню для изменения этапа формы показано на вебхуке"
   },
   "DepartmentEditor": {
     "departmentManager": "Поля профиля не созданы... Создайте поля профиля в редакторе полей профиля в разделе Настройка",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Включить, чтобы ограничить это действие конкретным ответом на вопрос",
     "conditionalQuestionStartExplaination": "Это действие будет выполнено",
     "fieldResponseLabel": "Ответ на вопрос",
-    "fieldResponseDescription": "Вставляет текст ответа из вопроса. Некоторые типы вопросов могут не подлежать копированию."
+    "fieldResponseDescription": "Вставляет текст ответа из вопроса. Некоторые типы вопросов могут не подлежать копированию.",
+    "formAIResponseLabel": "Ответ обработки формы ИИ",
+    "formAIResponseDescription": "Вставляет ответ, сгенерированный ИИ для подачи, если применимо."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "Фильтр",
     "errorAnErrorOccuredWhileFetchingServerDa": "Произошла ошибка при получении данных сервера",
-    "latestActivity": "Последняя активность"
+    "latestActivity": "Последняя активность",
+    "showingAllLogs": "Показ всех логов",
+    "showingPlayerRecords": "Показ записей игроков"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Произошла ошибка при добавлении информации о сервере",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "применятьСтандартыИменПользователей",
     "kickUsersWithAllothersInUsername": "кикатьПользователейССообществаВИмениПользователя",
     "kickUsersWithInappropriateUsernames": "Забанить пользователей с неподобающими именами пользователя",
-    "sensitivityThresholdMinimumCertaintyBefo": "Минимальная чувствительность порога перед уверенностью",
     "sexual": "сексуальный",
     "harassment": "преследование",
     "hate": "ненависть",
@@ -4546,7 +4495,8 @@
     "wasJailed": "был заключён в тюрьму",
     "wasHealed": "был вылечен",
     "wasWanted": "был объявлен в розыск",
-    "wasUnwanted": "было установлено как нежелательное"
+    "wasUnwanted": "было установлено как нежелательное",
+    "noteAdded": "Добавлена заметка"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "дисциплинарный",
@@ -4571,7 +4521,9 @@
     "banPlayer": "Игрока забанить",
     "playerIsNotDrivingAVehicle": "игрок не управляет транспортным средством",
     "isDrivingA": "Вождение A",
-    "vehicleInfo": "Информация о транспортном средстве"
+    "vehicleInfo": "Информация о транспортном средстве",
+    "openDiscordInfo": "Открыть информацию Discord",
+    "anErrorOccuredWhileAdding": "Произошла ошибка при добавлении"
   },
   "forumExpandableRanks": {
     "show": "показать",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "онлайн в течение"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Создать новую запись",
+    "users": "Пользователь(и)",
+    "noPlayersOnline": "Нет игроков в сети",
+    "recordType": "Тип записи",
+    "points": "Очки",
+    "numberOfPointsToAdd": "Количество очков для добавления...",
+    "enterYourReasonForRecord": "Введите вашу причину для записи...",
+    "createRecord": "Создать запись",
+    "disciplinaryPoints": "Дисциплинарные очки",
+    "note": "Заметка",
+    "kick": "Выгнать",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Произошла ошибка при добавлении дисциплинарных очков:",
+    "enterUsernames": "Введите имя(я) пользователя"
   }
 }

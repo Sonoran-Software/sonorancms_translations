@@ -206,7 +206,6 @@
       "myForms": "Meine Formulare",
       "apply": "Absenden"
     },
-    "fields": "Felder",
     "appThirdPartySubmit": "Drittanbieterantrag/Formular einreichen",
     "modifyStageSettings": "Bühnen Einstellungen bearbeiten",
     "modifyTemplate": "Formularvorlage ändern",
@@ -1123,7 +1122,6 @@
     "font": "Schriftart",
     "align": "Ausrichten",
     "textColor": "Textfarbe",
-    "headerColor": "Header-Farbe",
     "exampleCell": "Beispielzelle",
     "cellColor": "Zellenfarbe",
     "toggleReverseMask": "Umgekehrte Maske umschalten",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Fehler: Ein Fehler ist beim Starten der Community-Übertragung aufgetreten. ERR:",
     "userSelected": "Benutzer ausgewählt",
     "isAdditionalStorage": "ist zusätzlicher Speicher",
-    "isTierStorage": "ist Tier-Speicher"
+    "isTierStorage": "ist Tier-Speicher",
+    "formsPer24Hours": "Formulare pro 24 Stunden"
   },
   "EditCharacterCard": {
     "citizenId": "Bürger-ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Mitglieder pro Seite:",
     "close": "Schließen",
     "na": "N/V",
-    "horizontal": "Horizontal",
-    "vertical": "Vertikal",
-    "cell": "Zelle",
-    "none": "Keine",
     "failedToSaveMemberInfo": "Mitgliederinformationen konnten nicht gespeichert werden",
     "invalidDate": "Ungültiges Datum",
     "clickToDisableConditionalFormatValueBein": "Klicken, um das Überschreiben des bedingten Formatwerts zu deaktivieren",
@@ -2176,57 +2171,6 @@
     "profile": "Profil",
     "activeSecurityFlags": "Aktive Sicherheitsflaggen",
     "activeDisciplinaryPoints": "Aktive Disziplinarpunkte"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Community-Kennung",
-    "rosterTutorial": "Roster-Tutorial",
-    "learnHowToUseRosters": "Erfahren Sie, wie Sie Roster verwenden",
-    "rostersDocuments": "Roster-Dokumente",
-    "rosterManager": "Roster-Manager",
-    "rostereditorexistingcomrosters": "Vorhandene benutzerdefinierte Roster",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Deaktiviert aufgrund der aktuellen Abonnementplan-Grenzen. ⚠️",
-    "rostereditorrostereditor": "Benutzerdefinierter Roster-Editor",
-    "commonnew": "Neu",
-    "rostereditorrostertypesdepartment": "Abteilungs-Roster",
-    "rostereditorrostertypescustom": "Benutzerdefinierter Roster",
-    "commonsave": "Speichern",
-    "commonimport": "Importieren",
-    "commoncancel": "Abbrechen",
-    "rostereditorrostername": "Roster-Name",
-    "rostereditorrostertype": "Roster-Typ",
-    "rostereditordepartmentselector": "Abteilung, die dem Roster zugeordnet ist",
-    "rostereditoraddcolumn": "Spalte hinzufügen",
-    "rostereditorploghours": "Zeitprotokollstunden",
-    "rostereditorstatusselector": "Statusauswahl",
-    "commonremove": "Entfernen",
-    "rostereditormarkmodhidden": "Spalte als Moderator verstecken",
-    "rostereditormarkadminhidden": "Spalte als Administrator verstecken",
-    "na": "N/V",
-    "rostereditoravailableplogforms": "Verfügbare Zeitprotokolle",
-    "determinesWhatTimeLogToCalculateHoursFro": "Bestimmt, welches Zeitprotokoll zur Berechnung der Stunden verwendet wird.",
-    "rostereditordetermineshours": "Bestimmt, ab wann die Stunden berechnet werden.",
-    "close": "Schließen",
-    "rostereditorrosterviewer": "Roster-Viewer",
-    "rostereditorrostertypesmain": "Abteilungs-Roster",
-    "rostereditorrostertypessub": "Unterabteilungs-Roster",
-    "rostereditorrostertypescom": "Community-Roster",
-    "rostereditorrostertypescommunity": "Community-Roster",
-    "commonactions": "Aktionen",
-    "commonlabel": "Bezeichnung",
-    "commontype": "Typ",
-    "commonaddsettings": "Zusätzliche Einstellungen",
-    "newRoster": "Neues Roster",
-    "communityName": "Community-Name",
-    "communityRank": "Community-Rang",
-    "dataimport": "Importieren",
-    "dataimportprompt": "Fügen Sie den JSON-Inhalt ein",
-    "newColumn": "Neue Spalte",
-    "totalHours": "Gesamtstunden",
-    "rostereditoraddnewroster": "Neues Roster gespeichert: ",
-    "rostereditorsaveroster": "Roster gespeichert: ",
-    "whileDeletingRoster": "Beim Löschen des Rosters:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "Es gab einen Fehler, überprüfen Sie die Konsole und kontaktieren Sie den Support.",
-    "deletedRoster": "Roster gelöscht: "
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Begrenzen Sie die maximale Anzahl der Einreichungen pro Benutzer innerhalb des angegebenen Zeitfensters.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Konto gekickt - Kanal",
     "accountKickedMentions": "Konto gekickt - Erwähnungen",
     "accountBannedChannel": "Konto gesperrt - Kanal",
-    "accountBannedMentions": "Konto gesperrt - Erwähnungen"
+    "accountBannedMentions": "Konto gesperrt - Erwähnungen",
+    "hideFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird nicht angezeigt",
+    "showFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird im Webhook angezeigt"
   },
   "DepartmentEditor": {
     "departmentManager": "Abteilungsleiter",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Aktivieren, um diese Aktion auf eine bestimmte Antwort der Frage zu beschränken",
     "conditionalQuestionStartExplaination": "Diese Aktion wird ausgeführt",
     "fieldResponseLabel": "Antwort auf die Frage",
-    "fieldResponseDescription": "Fügt den Antworttext aus einer Frage ein. Einige Fragetypen können möglicherweise nicht kopiert werden."
+    "fieldResponseDescription": "Fügt den Antworttext aus einer Frage ein. Einige Fragetypen können möglicherweise nicht kopiert werden.",
+    "formAIResponseLabel": "Formular-AI-Verarbeitungsantwort",
+    "formAIResponseDescription": "Fügt die AI-generierte Antwort für die Übermittlung ein, falls zutreffend."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "Filter",
     "errorAnErrorOccuredWhileFetchingServerDa": "Beim Abrufen der Serverdaten ist ein Fehler aufgetreten.",
-    "latestActivity": "Neueste Aktivität"
+    "latestActivity": "Neueste Aktivität",
+    "showingAllLogs": "Alle Protokolle anzeigen",
+    "showingPlayerRecords": "Spieleraufzeichnungen anzeigen"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Beim Hinzufügen der Serverdetails ist ein Fehler aufgetreten.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "Benutzernamenstandards durchsetzen",
     "kickUsersWithAllothersInUsername": "Benutzer mit \"allothers\" im Benutzernamen kicken",
     "kickUsersWithInappropriateUsernames": "Benutzer mit unangemessenen Benutzernamen entfernen",
-    "sensitivityThresholdMinimumCertaintyBefo": "EmpfindlichkeitsschwelleMindestgewissheitVor",
     "sexual": "sexuell",
     "harassment": "Belästigung",
     "hate": "Hass",
@@ -4546,7 +4495,8 @@
     "wasJailed": "wurde eingesperrt",
     "wasHealed": "wurde geheilt",
     "wasWanted": "wurde zur Fahndung ausgeschrieben",
-    "wasUnwanted": "wurde auf unerwünscht gesetzt"
+    "wasUnwanted": "wurde auf unerwünscht gesetzt",
+    "noteAdded": "Notiz hinzugefügt"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disziplinarisch",
@@ -4571,7 +4521,9 @@
     "banPlayer": "Spieler sperren",
     "playerIsNotDrivingAVehicle": "Der Spieler fährt kein Fahrzeug",
     "isDrivingA": "fährt ein A",
-    "vehicleInfo": "Fahrzeuginformationen"
+    "vehicleInfo": "Fahrzeuginformationen",
+    "openDiscordInfo": "Discord-Info öffnen",
+    "anErrorOccuredWhileAdding": "Ein Fehler ist beim Hinzufügen aufgetreten"
   },
   "forumExpandableRanks": {
     "show": "anzeigen",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online seit"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Neuen Datensatz erstellen",
+    "users": "Benutzer",
+    "noPlayersOnline": "Keine Spieler online",
+    "recordType": "Datensatztyp",
+    "points": "Punkte",
+    "numberOfPointsToAdd": "Anzahl der hinzuzufügenden Punkte...",
+    "enterYourReasonForRecord": "Geben Sie Ihren Grund für den Datensatz ein...",
+    "createRecord": "Datensatz erstellen",
+    "disciplinaryPoints": "Disziplinarpunkte",
+    "note": "Notiz",
+    "kick": "Kick",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Ein Fehler ist beim Hinzufügen der Disziplinarpunkte aufgetreten:",
+    "enterUsernames": "Benutzernamen eingeben"
   }
 }

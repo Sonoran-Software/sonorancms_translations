@@ -206,7 +206,6 @@
       "myForms": "Mine Skjemaer",
       "apply": "Send inn"
     },
-    "fields": "Felt",
     "appThirdPartySubmit": "Send inn tredjeparts søknad/skjema",
     "modifyStageSettings": "Endre Scenesinnstillinger",
     "modifyTemplate": "Endre skjemamal",
@@ -1123,7 +1122,6 @@
     "font": "Skrift",
     "align": "Juster",
     "textColor": "Tekstfarge",
-    "headerColor": "Overskriftsfarge",
     "exampleCell": "Eksempel Celle",
     "cellColor": "Cellefarge",
     "toggleReverseMask": "Veksle Revers Maske",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Feil: En feil oppstod under initiering av fellesskapsoverføring. FEIL:",
     "userSelected": "Bruker valgt",
     "isAdditionalStorage": "er Tilleggslagring",
-    "isTierStorage": "er Lagermetoden"
+    "isTierStorage": "er Lagermetoden",
+    "formsPer24Hours": "Skjemaer per 24 timer"
   },
   "EditCharacterCard": {
     "citizenId": "Borger-ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Medlemmer per side:",
     "close": "Lukk",
     "na": "N/A",
-    "horizontal": "Horisontal",
-    "vertical": "Vertikal",
-    "cell": "Celle",
-    "none": "Ingen",
     "failedToSaveMemberInfo": "Kunne ikke lagre medlemsinformasjon",
     "invalidDate": "Ugyldig dato",
     "clickToDisableConditionalFormatValueBein": "Klikk for å deaktivere betinget formatverdi som blir overstyrt",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktive sikkerhetsflagg",
     "activeDisciplinaryPoints": "Aktive Disiplinære Poeng"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Fellesskapsidentifikator",
-    "rosterTutorial": "Rulleopplæring",
-    "learnHowToUseRosters": "Lær hvordan du bruker ruller",
-    "rostersDocuments": "Rulledokumenter",
-    "rosterManager": "Rulleadministrator",
-    "rostereditorexistingcomrosters": "Eksisterende tilpassede ruller",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Deaktivert på grunn av gjeldende abonnementsplanbegrensninger. ⚠️",
-    "rostereditorrostereditor": "Tilpasset rulleeditor",
-    "commonnew": "Ny",
-    "rostereditorrostertypesdepartment": "Avdelingsrulle",
-    "rostereditorrostertypescustom": "Tilpasset rulle",
-    "commonsave": "Lagre",
-    "commonimport": "Importer",
-    "commoncancel": "Avbryt",
-    "rostereditorrostername": "Rullenavn",
-    "rostereditorrostertype": "Rulletype",
-    "rostereditordepartmentselector": "Avdeling tilknyttet rulle",
-    "rostereditoraddcolumn": "Legg til kolonne",
-    "rostereditorploghours": "Tidsloggtimer",
-    "rostereditorstatusselector": "Statusvelger",
-    "commonremove": "Fjern",
-    "rostereditormarkmodhidden": "Merk kolonne som skjult for moderator",
-    "rostereditormarkadminhidden": "Merk kolonne som skjult for administrator",
-    "na": "N/A",
-    "rostereditoravailableplogforms": "Tilgjengelige tidslogger",
-    "determinesWhatTimeLogToCalculateHoursFro": "Bestemmer hvilken tidslogg som skal brukes til å beregne timer fra.",
-    "rostereditordetermineshours": "Bestemmer fra når timer skal beregnes fra.",
-    "close": "Lukk",
-    "rostereditorrosterviewer": "Rolleoversikt",
-    "rostereditorrostertypesmain": "Avdelingsoversikt",
-    "rostereditorrostertypessub": "Underavdelingsoversikt",
-    "rostereditorrostertypescom": "Fellesskapsoversikt",
-    "rostereditorrostertypescommunity": "Fellesskapsoversikt",
-    "commonactions": "Handlinger",
-    "commonlabel": "Etikett",
-    "commontype": "Type",
-    "commonaddsettings": "Tilleggsinnstillinger",
-    "newRoster": "Ny Rolleoversikt",
-    "communityName": "Fellesskapsnavn",
-    "communityRank": "Fellesskapsrangering",
-    "dataimport": "Importer",
-    "dataimportprompt": "Lim inn JSON-innholdet",
-    "newColumn": "Ny Kolonne",
-    "totalHours": "Totale Timer",
-    "rostereditoraddnewroster": "Lagret ny rolleoversikt: ",
-    "rostereditorsaveroster": "Lagret rolleoversikt: ",
-    "whileDeletingRoster": "Ved sletting av rolleoversikt:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "det oppstod en feil, sjekk konsollen og kontakt support.",
-    "deletedRoster": "Slettet rolleoversikt:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Begrens maksimalt antall innleveringer tillatt per bruker innenfor det angitte tidsvinduet.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Konto sparket - kanal",
     "accountKickedMentions": "Konto sparket - Omtaler",
     "accountBannedChannel": "Konto utestengt - Kanal",
-    "accountBannedMentions": "Konto utestengt - Områder"
+    "accountBannedMentions": "Konto utestengt - Områder",
+    "hideFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises ikke",
+    "showFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises på webhooken"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelingsleder",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Aktiver for å begrense denne handlingen til et bestemt svar på spørsmålet",
     "conditionalQuestionStartExplaination": "Denne handlingen vil bli utført",
     "fieldResponseLabel": "Spørsmålssvar",
-    "fieldResponseDescription": "Setter inn innsendelsesteksten fra et spørsmål. Noen spørsmålstyper kan kanskje ikke kopieres."
+    "fieldResponseDescription": "Setter inn innsendelsesteksten fra et spørsmål. Noen spørsmålstyper kan kanskje ikke kopieres.",
+    "formAIResponseLabel": "Skjema AI-behandlingssvar",
+    "formAIResponseDescription": "Setter inn det AI-genererte svaret for innsendingen hvis aktuelt."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filter",
     "errorAnErrorOccuredWhileFetchingServerDa": "Det oppstod en feil under henting av serverdata.",
-    "latestActivity": "Siste aktivitet"
+    "latestActivity": "Siste aktivitet",
+    "showingAllLogs": "Viser alle logger",
+    "showingPlayerRecords": "Viser spilleroppføringer"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Det oppsto en feil under legge til serverdetaljer.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "håndheveBrukernavnStandarder",
     "kickUsersWithAllothersInUsername": "spark brukere med \"alle andre\" i brukernavnet",
     "kickUsersWithInappropriateUsernames": "spark brukere med upassende brukernavn",
-    "sensitivityThresholdMinimumCertaintyBefo": "følsomhetsterskelMinimumSikkerhetFør",
     "sexual": "seksuell",
     "harassment": "trakassering",
     "hate": "hat",
@@ -4546,7 +4495,8 @@
     "wasJailed": "ble arrestert",
     "wasHealed": "ble ble \n\n",
     "wasWanted": "ble satt til ønsket",
-    "wasUnwanted": "ble satt uønsket"
+    "wasUnwanted": "ble satt uønsket",
+    "noteAdded": "Notat lagt til"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disiplinær",
@@ -4571,7 +4521,9 @@
     "banPlayer": "Utesteng spilleren",
     "playerIsNotDrivingAVehicle": "Spilleren kjører ikke et kjøretøy",
     "isDrivingA": "kjører en",
-    "vehicleInfo": "kjøretøyinformasjon"
+    "vehicleInfo": "kjøretøyinformasjon",
+    "openDiscordInfo": "Åpne Discord informasjon",
+    "anErrorOccuredWhileAdding": "En feil oppstod under tillegging"
   },
   "forumExpandableRanks": {
     "show": "vis ",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online i"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Opprett ny oppføring",
+    "users": "Bruker(e)",
+    "noPlayersOnline": "Ingen spillere online",
+    "recordType": "Oppføringstype",
+    "points": "Poeng",
+    "numberOfPointsToAdd": "Antall poeng som skal legges til...",
+    "enterYourReasonForRecord": "Angi din grunn for oppføringen...",
+    "createRecord": "Opprett oppføring",
+    "disciplinaryPoints": "Disiplinærpoeng",
+    "note": "Notat",
+    "kick": "Sparke",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "En feil oppstod under tillegging av disiplinærpoeng:",
+    "enterUsernames": "Angi brukernavn"
   }
 }

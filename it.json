@@ -206,7 +206,6 @@
       "myForms": "I Miei Moduli",
       "apply": "Invia"
     },
-    "fields": "Campi",
     "appThirdPartySubmit": "Invia domanda/modulo di terze parti",
     "modifyStageSettings": "Modifica Impostazioni del Palco",
     "modifyTemplate": "Modifica modello modulo",
@@ -1123,7 +1122,6 @@
     "font": "Font",
     "align": "Allinea",
     "textColor": "Colore del Testo",
-    "headerColor": "Colore dell'Intestazione",
     "exampleCell": "Esempio di Cella",
     "cellColor": "Colore della Cella",
     "toggleReverseMask": "Attiva/Disattiva Maschera Inversa",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Errore: Si è verificato un errore durante l'inizio del trasferimento della comunità. ERR:",
     "userSelected": "Utente selezionato",
     "isAdditionalStorage": "è Archiviazione aggiuntiva",
-    "isTierStorage": "è Archiviazione a Livelli"
+    "isTierStorage": "è Archiviazione a Livelli",
+    "formsPer24Hours": "Moduli per 24 ore"
   },
   "EditCharacterCard": {
     "citizenId": "ID Cittadino",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Membri per pagina:",
     "close": "Chiudi",
     "na": "N/D",
-    "horizontal": "Orizzontale",
-    "vertical": "Verticale",
-    "cell": "Cella",
-    "none": "Nessuno",
     "failedToSaveMemberInfo": "Impossibile salvare le informazioni del membro",
     "invalidDate": "Data non valida",
     "clickToDisableConditionalFormatValueBein": "Clicca per disabilitare il valore del formato condizionale sovrascritto",
@@ -2176,57 +2171,6 @@
     "profile": "profilo",
     "activeSecurityFlags": "Flag di Sicurezza Attivi",
     "activeDisciplinaryPoints": "Punti Disciplinari Attivi"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Identificatore della Comunità",
-    "rosterTutorial": "Tutorial del Registro",
-    "learnHowToUseRosters": "Scopri come usare i Registri",
-    "rostersDocuments": "Documenti dei Registri",
-    "rosterManager": "Gestore del Registro",
-    "rostereditorexistingcomrosters": "Registri Personalizzati Esistenti",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Disabilitato a causa dei limiti del piano di abbonamento attuale. ⚠️",
-    "rostereditorrostereditor": "Editor del Registro Personalizzato",
-    "commonnew": "Nuovo",
-    "rostereditorrostertypesdepartment": "Registro del Dipartimento",
-    "rostereditorrostertypescustom": "Registro Personalizzato",
-    "commonsave": "Salva",
-    "commonimport": "Importa",
-    "commoncancel": "Annulla",
-    "rostereditorrostername": "Nome del Registro",
-    "rostereditorrostertype": "Tipo di Registro",
-    "rostereditordepartmentselector": "Dipartimento Associato al Registro",
-    "rostereditoraddcolumn": "Aggiungi Colonna",
-    "rostereditorploghours": "Ore di Registrazione del Tempo",
-    "rostereditorstatusselector": "Selettore di Stato",
-    "commonremove": "Rimuovi",
-    "rostereditormarkmodhidden": "Segna Colonna Nascosta dal Moderatore",
-    "rostereditormarkadminhidden": "Segna Colonna Nascosta dall'Amministratore",
-    "na": "N/D",
-    "rostereditoravailableplogforms": "Registri del Tempo Disponibili",
-    "determinesWhatTimeLogToCalculateHoursFro": "Determina quale Registro del Tempo calcolare le ore da.",
-    "rostereditordetermineshours": "Determina da quando calcolare le ore da.",
-    "close": "Chiudi",
-    "rostereditorrosterviewer": "Visualizzatore Elenco",
-    "rostereditorrostertypesmain": "Elenco Dipartimento",
-    "rostereditorrostertypessub": "Elenco Sottodipartimento",
-    "rostereditorrostertypescom": "Elenco Comunità",
-    "rostereditorrostertypescommunity": "Elenco Comunità",
-    "commonactions": "Azioni",
-    "commonlabel": "Etichetta",
-    "commontype": "Tipo",
-    "commonaddsettings": "Impostazioni Aggiuntive",
-    "newRoster": "Nuovo Elenco",
-    "communityName": "Nome della Comunità",
-    "communityRank": "Grado della Comunità",
-    "dataimport": "Importa",
-    "dataimportprompt": "Incolla il contenuto JSON",
-    "newColumn": "Nuova Colonna",
-    "totalHours": "Ore Totali",
-    "rostereditoraddnewroster": "Nuovo elenco salvato: ",
-    "rostereditorsaveroster": "Elenco salvato: ",
-    "whileDeletingRoster": "Durante l'eliminazione dell'elenco:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "si è verificato un errore, controlla la console e contatta il supporto.",
-    "deletedRoster": "Elenco eliminato:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Limita il numero massimo di invii consentiti per utente entro il periodo di tempo specificato.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Canale - Account Espulso",
     "accountKickedMentions": "Account Kicked - Menzioni",
     "accountBannedChannel": "Canale Account Bannato",
-    "accountBannedMentions": "Account bloccato - Menzioni"
+    "accountBannedMentions": "Account bloccato - Menzioni",
+    "hideFormDropdown": "Il menu a discesa per cambiare una fase del modulo non è mostrato",
+    "showFormDropdown": "Il menu a discesa per cambiare una fase del modulo è mostrato sul webhook"
   },
   "DepartmentEditor": {
     "departmentManager": "Responsabile del dipartimento",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Abilita per limitare questa azione a una risposta a una domanda specifica",
     "conditionalQuestionStartExplaination": "Questa azione verrà eseguita",
     "fieldResponseLabel": "Risposta alla domanda",
-    "fieldResponseDescription": "Inserisce il testo della risposta da una domanda. Alcuni tipi di domande potrebbero non essere copiabili."
+    "fieldResponseDescription": "Inserisce il testo della risposta da una domanda. Alcuni tipi di domande potrebbero non essere copiabili.",
+    "formAIResponseLabel": "Risposta di elaborazione AI modulo",
+    "formAIResponseDescription": "Inserisce la risposta generata dall'AI per l'invio, se applicabile."
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "Filtro",
     "errorAnErrorOccuredWhileFetchingServerDa": "Si è verificato un errore durante il recupero dei dati del server",
-    "latestActivity": "ultimaAttività"
+    "latestActivity": "ultimaAttività",
+    "showingAllLogs": "Mostra tutti i log",
+    "showingPlayerRecords": "Mostra i record dei giocatori"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Si è verificato un errore durante l'aggiunta dei dettagli del server.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "applicaStandardNomeUtente",
     "kickUsersWithAllothersInUsername": "calcia gli utenti con \"allothers\" nel nome utente",
     "kickUsersWithInappropriateUsernames": "Espelli utenti con nomi utente inappropriati",
-    "sensitivityThresholdMinimumCertaintyBefo": "Soglia di sensibilità Minima certezza prima",
     "sexual": "sessuale",
     "harassment": "molestia",
     "hate": "odio",
@@ -4546,7 +4495,8 @@
     "wasJailed": "è stato incarcerato",
     "wasHealed": "è stato curato",
     "wasWanted": "era impostato su ricercato",
-    "wasUnwanted": "è stato impostato su indesiderato"
+    "wasUnwanted": "è stato impostato su indesiderato",
+    "noteAdded": "Nota aggiunta"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinare",
@@ -4571,7 +4521,9 @@
     "banPlayer": "bannaGiocatore",
     "playerIsNotDrivingAVehicle": "Il giocatore non sta guidando un veicolo",
     "isDrivingA": "sta guidando un",
-    "vehicleInfo": "informazioniVeicolo"
+    "vehicleInfo": "informazioniVeicolo",
+    "openDiscordInfo": "Apri informazioni Discord",
+    "anErrorOccuredWhileAdding": "Si è verificato un errore durante l'aggiunta"
   },
   "forumExpandableRanks": {
     "show": "mostra",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online per"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Crea nuovo record",
+    "users": "Utente/i",
+    "noPlayersOnline": "Nessun giocatore online",
+    "recordType": "Tipo di record",
+    "points": "Punti",
+    "numberOfPointsToAdd": "Numero di punti da aggiungere...",
+    "enterYourReasonForRecord": "Inserisci il motivo del record...",
+    "createRecord": "Crea record",
+    "disciplinaryPoints": "Punti disciplinari",
+    "note": "Nota",
+    "kick": "Espelli",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Si è verificato un errore durante l'aggiunta dei punti disciplinari:",
+    "enterUsernames": "Inserisci i nomi utente"
   }
 }

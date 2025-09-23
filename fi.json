@@ -206,7 +206,6 @@
       "myForms": "Omat lomakkeet",
       "apply": "Lähetä"
     },
-    "fields": "Kentät",
     "appThirdPartySubmit": "Lähetä kolmannen osapuolen hakemus/lomake",
     "modifyStageSettings": "Muokkaa vaiheen asetuksia",
     "modifyTemplate": "Muokkaa lomakepohjaa",
@@ -1123,7 +1122,6 @@
     "font": "Fontti",
     "align": "Tasaa",
     "textColor": "Tekstin väri",
-    "headerColor": "Otsikon väri",
     "exampleCell": "Esimerkkisolu",
     "cellColor": "Solun väri",
     "toggleReverseMask": "Vaihda käänteinen maski",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Virhe: Virhe tapahtui yhteisön siirron aloittamisen aikana. VIRHE:",
     "userSelected": "Käyttäjä valittu",
     "isAdditionalStorage": "lisämuisti",
-    "isTierStorage": "on tason tallennus"
+    "isTierStorage": "on tason tallennus",
+    "formsPer24Hours": "Lomakkeet 24 tunnin aikana"
   },
   "EditCharacterCard": {
     "citizenId": "Kansalais ID",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Jäseniä per sivu:",
     "close": "Sulje",
     "na": "Ei sovellettavissa",
-    "horizontal": "Vaakasuora",
-    "vertical": "Pystysuora",
-    "cell": "Solu",
-    "none": "Ei mitään",
     "failedToSaveMemberInfo": "Jäsenen tietojen tallentaminen epäonnistui",
     "invalidDate": "Virheellinen päivämäärä",
     "clickToDisableConditionalFormatValueBein": "Klikkaa poistaaksesi ehdollisen muotoiluarvon ohituksen",
@@ -2176,57 +2171,6 @@
     "profile": "profiili",
     "activeSecurityFlags": "Aktiiviset turvaliput",
     "activeDisciplinaryPoints": "Aktiiviset kurinpidolliset pisteet"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Yhteisön tunniste",
-    "rosterTutorial": "Rosteri-opas",
-    "learnHowToUseRosters": "Opi käyttämään rosteria",
-    "rostersDocuments": "Rosterin asiakirjat",
-    "rosterManager": "Rosterin hallinta",
-    "rostereditorexistingcomrosters": "Olemassa olevat mukautetut rosterit",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Poistettu käytöstä nykyisen tilauspaketin rajoitusten vuoksi. ⚠️",
-    "rostereditorrostereditor": "Mukautettu rosterieditori",
-    "commonnew": "Uusi",
-    "rostereditorrostertypesdepartment": "Osaston rosteri",
-    "rostereditorrostertypescustom": "Mukautettu rosteri",
-    "commonsave": "Tallenna",
-    "commonimport": "Tuo",
-    "commoncancel": "Peruuta",
-    "rostereditorrostername": "Rosterin nimi",
-    "rostereditorrostertype": "Rosterin tyyppi",
-    "rostereditordepartmentselector": "Osasto, johon rosteri liittyy",
-    "rostereditoraddcolumn": "Lisää sarake",
-    "rostereditorploghours": "Aikakirjaustunnit",
-    "rostereditorstatusselector": "Tilan valitsin",
-    "commonremove": "Poista",
-    "rostereditormarkmodhidden": "Merkitse sarake moderaattorin piilottamaksi",
-    "rostereditormarkadminhidden": "Merkitse sarake ylläpitäjän piilottamaksi",
-    "na": "Ei sovellettavissa",
-    "rostereditoravailableplogforms": "Saatavilla olevat aikakirjaukset",
-    "determinesWhatTimeLogToCalculateHoursFro": "Määrittää, mistä aikakirjauksesta tunnit lasketaan.",
-    "rostereditordetermineshours": "Määrittää, mistä ajankohdasta tunnit lasketaan.",
-    "close": "Sulje",
-    "rostereditorrosterviewer": "Rosteri Katselija",
-    "rostereditorrostertypesmain": "Osaston Rosteri",
-    "rostereditorrostertypessub": "Alajaoston Rosteri",
-    "rostereditorrostertypescom": "Yhteisön Rosteri",
-    "rostereditorrostertypescommunity": "Yhteisön Rosteri",
-    "commonactions": "Toiminnot",
-    "commonlabel": "Tunniste",
-    "commontype": "Tyyppi",
-    "commonaddsettings": "Lisäasetukset",
-    "newRoster": "Uusi Rosteri",
-    "communityName": "Yhteisön Nimi",
-    "communityRank": "Yhteisön Sijoitus",
-    "dataimport": "Tuo",
-    "dataimportprompt": "Liitä JSON-sisältö",
-    "newColumn": "Uusi Sarake",
-    "totalHours": "Kokonais Tunnit",
-    "rostereditoraddnewroster": "Tallennettu uusi rosteri: ",
-    "rostereditorsaveroster": "Tallennettu rosteri: ",
-    "whileDeletingRoster": "Rosterin poistamisen aikana:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "tapahtui virhe, tarkista konsoli ja ota yhteyttä tukeen.",
-    "deletedRoster": "Poistettu rosteri:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Rajoita käyttäjän sallittujen lähetyksien enimmäismäärää määritetyn aikajakson aikana.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Tili potkittu - Kanava",
     "accountKickedMentions": "Tili potkittu - Maininnat",
     "accountBannedChannel": "Tilin Kieltolista - Kanava",
-    "accountBannedMentions": "Tili estetty - Maininnat"
+    "accountBannedMentions": "Tili estetty - Maininnat",
+    "hideFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen ei ole näkyvissä",
+    "showFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen näkyy webhookissa"
   },
   "DepartmentEditor": {
     "departmentManager": "Osaston johtaja",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Ota käyttöön rajoittaaksesi tämän toiminnon tiettyyn kysymykseen vastaamiseen",
     "conditionalQuestionStartExplaination": "Tämä toiminto suoritetaan",
     "fieldResponseLabel": "Kysymysvastaus",
-    "fieldResponseDescription": "Lisää kysymyksen vastaustekstin. Jotkin kysymystyypit eivät ehkä ole kopioitavissa."
+    "fieldResponseDescription": "Lisää kysymyksen vastaustekstin. Jotkin kysymystyypit eivät ehkä ole kopioitavissa.",
+    "formAIResponseLabel": "Lomakkeen AI-käsittelyn vastaus",
+    "formAIResponseDescription": "Lisää AI:n luoman vastauksen lähetykselle, jos sovellettavissa."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "suodatin",
     "errorAnErrorOccuredWhileFetchingServerDa": "Tapahtui virhe haettaessa palvelintietoja",
-    "latestActivity": "viimeisinAktiviteetti"
+    "latestActivity": "viimeisinAktiviteetti",
+    "showingAllLogs": "Näytetään kaikki lokit",
+    "showingPlayerRecords": "Näytetään pelaajien tiedot"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Virhe lisättäessä palvelimen tietoja",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "noudata käyttäjänimien normeja",
     "kickUsersWithAllothersInUsername": "potkiKaikkiKäyttäjätJoidenNimessäOnMuut",
     "kickUsersWithInappropriateUsernames": "potkaiseKäyttäjiäSopimattomillaKäyttäjänimillä",
-    "sensitivityThresholdMinimumCertaintyBefo": "varmuuskynnyksen vähimmäisvarmuus ennen",
     "sexual": "sukupuolinen",
     "harassment": "häirintä",
     "hate": "viha",
@@ -4546,7 +4495,8 @@
     "wasJailed": "oli vangittu",
     "wasHealed": "parani",
     "wasWanted": "oli asetettu etsintäkuulutetuksi",
-    "wasUnwanted": "asetettiin ei-toivotuksi"
+    "wasUnwanted": "asetettiin ei-toivotuksi",
+    "noteAdded": "Merkintä lisätty"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "kurinpidollinen",
@@ -4571,7 +4521,9 @@
     "banPlayer": "pelaajan estäminen",
     "playerIsNotDrivingAVehicle": "pelaajaEiAjaAjoneuvoa",
     "isDrivingA": "ajaa A:ta",
-    "vehicleInfo": "ajoneuvotiedot"
+    "vehicleInfo": "ajoneuvotiedot",
+    "openDiscordInfo": "Avaa Discord-tiedot",
+    "anErrorOccuredWhileAdding": "Virhe tapahtui lisättäessä"
   },
   "forumExpandableRanks": {
     "show": "näytä",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "verkossa varten"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Luo uusi merkintä",
+    "users": "Käyttäjä(t)",
+    "noPlayersOnline": "Ei pelaajia verkossa",
+    "recordType": "Merkinnän tyyppi",
+    "points": "Pisteet",
+    "numberOfPointsToAdd": "Lisättävien pisteiden määrä...",
+    "enterYourReasonForRecord": "Anna syy merkinnälle...",
+    "createRecord": "Luo merkintä",
+    "disciplinaryPoints": "Kurinpito pisteet",
+    "note": "Huomautus",
+    "kick": "Potku",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Virhe tapahtui lisättäessä kurinpitopisteitä:",
+    "enterUsernames": "Anna käyttäjänimi(t)"
   }
 }

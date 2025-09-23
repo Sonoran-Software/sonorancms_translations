@@ -206,7 +206,6 @@
       "myForms": "Moje formuláře",
       "apply": "Odeslat"
     },
-    "fields": "Pole",
     "appThirdPartySubmit": "Odeslat aplikaci/formulář třetí strany",
     "modifyStageSettings": "Upravit nastavení stupně",
     "modifyTemplate": "Upravit šablonu formuláře",
@@ -1123,7 +1122,6 @@
     "font": "Písmo",
     "align": "Zarovnat",
     "textColor": "Barva textu",
-    "headerColor": "Barva záhlaví",
     "exampleCell": "Příklad buňky",
     "cellColor": "Barva buňky",
     "toggleReverseMask": "Přepnout reverzní masku",
@@ -1346,7 +1344,8 @@
     "errorAnErrorOccuredWhileInitiatingCommun": "Chyba: Došlo k chybě při zahájení převodu komunity. CHYBA:",
     "userSelected": "Uživatel vybrán",
     "isAdditionalStorage": "je Dodatečné úložiště",
-    "isTierStorage": "je úroveň úložiště"
+    "isTierStorage": "je úroveň úložiště",
+    "formsPer24Hours": "Formuláře za 24 hodin"
   },
   "EditCharacterCard": {
     "citizenId": "Občanský průkaz",
@@ -1673,10 +1672,6 @@
     "membersPerPage": "Členů na stránku:",
     "close": "Zavřít",
     "na": "N/A",
-    "horizontal": "Horizontální",
-    "vertical": "Vertikální",
-    "cell": "Buňka",
-    "none": "Žádný",
     "failedToSaveMemberInfo": "Nepodařilo se uložit informace o členovi",
     "invalidDate": "Neplatné datum",
     "clickToDisableConditionalFormatValueBein": "Klikněte pro deaktivaci přepsání podmíněné hodnoty formátu",
@@ -2176,57 +2171,6 @@
     "profile": "profil",
     "activeSecurityFlags": "Aktivní bezpečnostní příznaky",
     "activeDisciplinaryPoints": "Aktivní disciplinární body"
-  },
-  "RosterEditor": {
-    "communityIdentifier": "Identifikátor komunity",
-    "rosterTutorial": "Návod na seznam",
-    "learnHowToUseRosters": "Naučte se používat seznamy",
-    "rostersDocuments": "Dokumenty seznamů",
-    "rosterManager": "Správce seznamů",
-    "rostereditorexistingcomrosters": "Existující vlastní seznamy",
-    "DisabledDueToCurrentSubscriptionPlanLimi": "⚠️ Zakázáno kvůli omezením aktuálního plánu předplatného. ⚠️",
-    "rostereditorrostereditor": "Editor vlastních seznamů",
-    "commonnew": "Nový",
-    "rostereditorrostertypesdepartment": "Seznam oddělení",
-    "rostereditorrostertypescustom": "Vlastní seznam",
-    "commonsave": "Uložit",
-    "commonimport": "Importovat",
-    "commoncancel": "Zrušit",
-    "rostereditorrostername": "Název seznamu",
-    "rostereditorrostertype": "Typ seznamu",
-    "rostereditordepartmentselector": "Oddělení spojené se seznamem",
-    "rostereditoraddcolumn": "Přidat sloupec",
-    "rostereditorploghours": "Časový záznam hodin",
-    "rostereditorstatusselector": "Výběr stavu",
-    "commonremove": "Odstranit",
-    "rostereditormarkmodhidden": "Označit sloupec jako skrytý moderátorem",
-    "rostereditormarkadminhidden": "Označit sloupec jako skrytý administrátorem",
-    "na": "N/A",
-    "rostereditoravailableplogforms": "Dostupné časové záznamy",
-    "determinesWhatTimeLogToCalculateHoursFro": "Určuje, z jakého časového záznamu počítat hodiny.",
-    "rostereditordetermineshours": "Určuje, od kdy počítat hodiny.",
-    "close": "Zavřít",
-    "rostereditorrosterviewer": "Prohlížeč seznamu",
-    "rostereditorrostertypesmain": "Seznam oddělení",
-    "rostereditorrostertypessub": "Seznam pododdělení",
-    "rostereditorrostertypescom": "Seznam komunity",
-    "rostereditorrostertypescommunity": "Seznam komunity",
-    "commonactions": "Akce",
-    "commonlabel": "Štítek",
-    "commontype": "Typ",
-    "commonaddsettings": "Další nastavení",
-    "newRoster": "Nový seznam",
-    "communityName": "Název komunity",
-    "communityRank": "Hodnost v komunitě",
-    "dataimport": "Importovat",
-    "dataimportprompt": "Vložte obsah JSON",
-    "newColumn": "Nový sloupec",
-    "totalHours": "Celkové hodiny",
-    "rostereditoraddnewroster": "Uložen nový seznam: ",
-    "rostereditorsaveroster": "Uložen seznam: ",
-    "whileDeletingRoster": "Při mazání seznamu:",
-    "thereWasAnErrorCheckConsoleAndContactSup": "došlo k chybě, zkontrolujte konzoli a kontaktujte podporu.",
-    "deletedRoster": "Smazán seznam:"
   },
   "FormLimitsDialog": {
     "allowSubmissions": "Omezte maximální počet povolených podání na uživatele v rámci stanoveného časového okna.",
@@ -3184,7 +3128,9 @@
     "accountKickedChannel": "Účet vykopnut - Kanál",
     "accountKickedMentions": "Účet vykopnut - Zmínky",
     "accountBannedChannel": "Účet zablokován - Kanál",
-    "accountBannedMentions": "Účet zablokován - Zmínky"
+    "accountBannedMentions": "Účet zablokován - Zmínky",
+    "hideFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře není zobrazena",
+    "showFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře je zobrazena na webhooku"
   },
   "DepartmentEditor": {
     "departmentManager": "Manažer oddělení",
@@ -3589,7 +3535,9 @@
     "conditionalQuestionEnable": "Povolte omezení této akce na konkrétní odpověď na otázku",
     "conditionalQuestionStartExplaination": "Tato akce se provede",
     "fieldResponseLabel": "Odpověď na otázku",
-    "fieldResponseDescription": "Vloží text odpovědi z otázky. Některé typy otázek nemusí být možné zkopírovat."
+    "fieldResponseDescription": "Vloží text odpovědi z otázky. Některé typy otázek nemusí být možné zkopírovat.",
+    "formAIResponseLabel": "Odpověď AI zpracování formuláře",
+    "formAIResponseDescription": "Vloží odpověď generovanou AI pro podání, pokud je to použitelné."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",
@@ -4433,7 +4381,9 @@
   "ERLCActivity": {
     "filter": "filtr",
     "errorAnErrorOccuredWhileFetchingServerDa": "Při načítání dat serveru došlo k chybě",
-    "latestActivity": "nejnovější aktivita"
+    "latestActivity": "nejnovější aktivita",
+    "showingAllLogs": "Zobrazení všech protokolů",
+    "showingPlayerRecords": "Zobrazení záznamů hráče"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Při přidávání detailů serveru došlo k chybě.",
@@ -4449,7 +4399,6 @@
     "enforceUsernameStandards": "enforceUsernameStandards",
     "kickUsersWithAllothersInUsername": "vykopnoutUživateleSek všemiZnakVUživatelskémJménu",
     "kickUsersWithInappropriateUsernames": "vykopnoutUživateleSNepříslušnýmiUživatelskýmiJmény",
-    "sensitivityThresholdMinimumCertaintyBefo": "Práh citlivosti Minimální jistota před",
     "sexual": "sexuální",
     "harassment": "obtěžování",
     "hate": "nenávist",
@@ -4546,7 +4495,8 @@
     "wasJailed": "byl uvězněn",
     "wasHealed": "byl vyléčen",
     "wasWanted": "byl nastaven na hledaný",
-    "wasUnwanted": "nastaveno na nežádoucí"
+    "wasUnwanted": "nastaveno na nežádoucí",
+    "noteAdded": "Poznámka přidána"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinární",
@@ -4571,7 +4521,9 @@
     "banPlayer": "Zabanovat hráče",
     "playerIsNotDrivingAVehicle": "hráčNeřídíVozidlo",
     "isDrivingA": "řídí vozidlo",
-    "vehicleInfo": "Informace o vozidle"
+    "vehicleInfo": "Informace o vozidle",
+    "openDiscordInfo": "Otevřít informace o Discordu",
+    "anErrorOccuredWhileAdding": "Při přidávání došlo k chybě"
   },
   "forumExpandableRanks": {
     "show": "zobrazit",
@@ -4580,5 +4532,20 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online po dobu"
+  },
+  "ERLCNewRecords": {
+    "createNewRecord": "Vytvořit nový záznam",
+    "users": "Uživatel(é)",
+    "noPlayersOnline": "Žádní hráči online",
+    "recordType": "Typ záznamu",
+    "points": "Body",
+    "numberOfPointsToAdd": "Počet bodů k přidání...",
+    "enterYourReasonForRecord": "Zadejte svůj důvod pro záznam...",
+    "createRecord": "Vytvořit záznam",
+    "disciplinaryPoints": "Disciplinární body",
+    "note": "Poznámka",
+    "kick": "Vyhodit",
+    "anErrorOccuredWhileAddingDisciplinaryPoi": "Při přidávání disciplinárních bodů došlo k chybě:",
+    "enterUsernames": "Zadejte uživatelské jména"
   }
 }
