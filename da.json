@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Navn",
     "addServer": "Tilføj Server",
-    "qbcorePanelDocumentation": "QBCore Panel Dokumentation",
     "dashboard": "Dashboard",
     "players": "Spillere",
     "vehicles": "Køretøjer",
@@ -593,8 +592,6 @@
     "gameServer": "spilserver.",
     "thePublicIpAddressUsedToDirectConnectToY": "Den offentlige IP-adresse, der bruges til direkte forbindelse til din spilserver.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Den åbne port, som din spilserver kører på, bruges til direkte forbindelse til din spilserver.",
-    "noServersConfigured": "Ingen servere konfigureret",
-    "thereAreNoServerConfiguredWithYourSonora": "Der er ingen servere konfigureret med din Sonoran CMS, angiv detaljer nedenfor for at opsætte en.",
     "extraLinks": "Ekstra links",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Sidste uge",
     "lastMonth": "Sidste måned",
     "allTime": "Alle Tider",
-    "qboxPanelDocumentation": "QBox Panel Dokumentation",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Søgning starter...",
     "addedRanks": "Tilføjede rangordninger",
     "removedRanks": "Fjernede Rangeringer",
-    "askAiAQuestion": "Stil AI et spørgsmål..."
+    "askAiAQuestion": "Stil AI et spørgsmål...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
+    "erlcPanelDocumentation": "ER:LC Panel Dokumentation"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Kør Mod-kommando",
     "allowsMembersToRunModCommandsInTheGamePan": "Giver medlemmer mulighed for at køre mod-kommandoer i spilpanelet for denne server.",
     "runRpCommand": "Kør RP-kommando",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Tillader medlemmer at køre RP-kommandoer i Spilpanelet for denne server."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Tillader medlemmer at køre RP-kommandoer i Spilpanelet for denne server.",
+    "allowMembersToViewHiddenStages": "Tillad medlemmer at se trin detaljer for skjulte trin under Mine Formularer"
   },
   "permissionToggleGroup": {
     "inherited": "arvet",

@@ -551,7 +551,6 @@
     "port": "端口",
     "name": "名称",
     "addServer": "添加服务器",
-    "qbcorePanelDocumentation": "QBCore 面板文档",
     "dashboard": "仪表板",
     "players": "玩家",
     "vehicles": "车辆",
@@ -593,8 +592,6 @@
     "gameServer": "游戏服务器。",
     "thePublicIpAddressUsedToDirectConnectToY": "用于直接连接到您的游戏服务器的公共IP地址。",
     "theOpenPortYourGameServerIsRunningOnUsed": "您的游戏服务器正在运行的开放端口，用于直接连接到您的游戏服务器。",
-    "noServersConfigured": "未配置服务器",
-    "thereAreNoServerConfiguredWithYourSonora": "您的Sonoran CMS没有配置服务器，请在下方提供详细信息以进行设置。",
     "extraLinks": "额外链接",
     "server": "服务器",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "上周",
     "lastMonth": "上个月",
     "allTime": "所有时间",
-    "qboxPanelDocumentation": "QBox 面板文档",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM托管",
@@ -626,7 +622,9 @@
     "searchStarting": "搜索开始...",
     "addedRanks": "添加的职级",
     "removedRanks": "已移除的职级",
-    "askAiAQuestion": "向 AI 提问..."
+    "askAiAQuestion": "向 AI 提问...",
+    "qbcoreQboxPanelDocumentation": "QBCore 和 QBox 面板文档",
+    "erlcPanelDocumentation": "ER:LC 面板文档"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -4127,7 +4125,8 @@
     "runModCommand": "运行模组命令",
     "allowsMembersToRunModCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行模组命令。",
     "runRpCommand": "运行RP命令",
-    "allowsMembersToRunRpCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行 RP 命令。"
+    "allowsMembersToRunRpCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行 RP 命令。",
+    "allowMembersToViewHiddenStages": "允许成员查看“我的表单”中隐藏阶段的阶段详情"
   },
   "permissionToggleGroup": {
     "inherited": "继承",

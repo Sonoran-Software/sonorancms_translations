@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Nazwa",
     "addServer": "Dodaj serwer",
-    "qbcorePanelDocumentation": "Dokumentacja QBCore Panel",
     "dashboard": "Panel sterowania",
     "players": "Gracze",
     "vehicles": "Pojazdy",
@@ -593,8 +592,6 @@
     "gameServer": "serwer gry.",
     "thePublicIpAddressUsedToDirectConnectToY": "Publiczny adres IP używany do bezpośredniego połączenia z twoim serwerem gry.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Otwarty port, na którym działa twój serwer gry, używany do bezpośredniego połączenia z twoim serwerem gry.",
-    "noServersConfigured": "Brak skonfigurowanych serwerów",
-    "thereAreNoServerConfiguredWithYourSonora": "Nie ma skonfigurowanych serwerów z twoim Sonoran CMS, podaj poniżej szczegóły, aby skonfigurować jeden.",
     "extraLinks": "Dodatkowe linki",
     "server": "Serwer",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Zeszły tydzień",
     "lastMonth": "Zeszły miesiąc",
     "allTime": "Cały czas",
-    "qboxPanelDocumentation": "Dokumentacja Panelu QBox",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "Hosting FiveM",
@@ -626,7 +622,9 @@
     "searchStarting": "Rozpoczynanie wyszukiwania...",
     "addedRanks": "Dodane Rangi",
     "removedRanks": "Usunięte Stopnie",
-    "askAiAQuestion": "Zadaj AI pytanie..."
+    "askAiAQuestion": "Zadaj AI pytanie...",
+    "qbcoreQboxPanelDocumentation": "Dokumentacja panelu QBCore i QBox",
+    "erlcPanelDocumentation": "Dokumentacja panelu ER:LC"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -4207,7 +4205,8 @@
     "runModCommand": "Uruchom polecenie moda",
     "allowsMembersToRunModCommandsInTheGamePan": "Umożliwia członkom uruchamianie poleceń moderatora w panelu gry dla tego serwera.",
     "runRpCommand": "Uruchom polecenie RP",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Pozwala członkom uruchamiać komendy RP w panelu gry dla tego serwera."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Pozwala członkom uruchamiać komendy RP w panelu gry dla tego serwera.",
+    "allowMembersToViewHiddenStages": "Zezwalaj członkom na przeglądanie szczegółów etapów ukrytych w Moje formularze"
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"

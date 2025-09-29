@@ -551,7 +551,6 @@
     "port": "이름",
     "name": "서버 추가",
     "addServer": "QBCore 패널 문서",
-    "qbcorePanelDocumentation": "대시보드",
     "dashboard": "플레이어",
     "players": "차량",
     "vehicles": "환경",
@@ -593,8 +592,6 @@
     "gameServer": "게임 서버에 직접 연결하기 위해 사용되는 공용 IP 주소입니다.",
     "thePublicIpAddressUsedToDirectConnectToY": "게임 서버가 실행 중인 열린 포트로, 게임 서버에 직접 연결하는 데 사용됩니다.",
     "theOpenPortYourGameServerIsRunningOnUsed": "구성된 서버 없음",
-    "noServersConfigured": "Sonoran CMS에 구성된 서버가 없습니다. 아래에 세부 정보를 제공하여 설정하세요.",
-    "thereAreNoServerConfiguredWithYourSonora": "추가 링크",
     "extraLinks": "VPS",
     "server": "QB Core",
     "qbCore": "[sonorancms] 보장",
@@ -611,7 +608,6 @@
     "lastWeek": "지난주",
     "lastMonth": "지난달",
     "allTime": "전체 시간",
-    "qboxPanelDocumentation": "큐박스 패널 문서",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM 호스팅",
@@ -626,7 +622,9 @@
     "searchStarting": "검색 시작...",
     "addedRanks": "계급 추가됨",
     "removedRanks": "제거된 등급",
-    "askAiAQuestion": "AI에게 질문해보세요..."
+    "askAiAQuestion": "AI에게 질문해보세요...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox 패널 설명서",
+    "erlcPanelDocumentation": "ER:LC 패널 설명서"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -4127,7 +4125,8 @@
     "runModCommand": "모드 명령 실행",
     "allowsMembersToRunModCommandsInTheGamePan": "이 서버의 게임 패널에서 멤버가 모드 명령어를 실행할 수 있습니다.",
     "runRpCommand": "RP 명령 실행",
-    "allowsMembersToRunRpCommandsInTheGamePan": "회원이 이 서버에 대한 게임 패널에서 RP 명령을 실행할 수 있습니다."
+    "allowsMembersToRunRpCommandsInTheGamePan": "회원이 이 서버에 대한 게임 패널에서 RP 명령을 실행할 수 있습니다.",
+    "allowMembersToViewHiddenStages": "사용자가 내 양식의 숨겨진 단계의 세부 정보를 볼 수 있도록 허용"
   },
   "permissionToggleGroup": {
     "inherited": "상속된",

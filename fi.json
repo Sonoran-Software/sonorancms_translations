@@ -551,7 +551,6 @@
     "port": "Portti",
     "name": "Nimi",
     "addServer": "Lisää palvelin",
-    "qbcorePanelDocumentation": "QBCore-paneelin dokumentaatio",
     "dashboard": "Hallintapaneeli",
     "players": "Pelaajat",
     "vehicles": "Ajoneuvot",
@@ -593,8 +592,6 @@
     "gameServer": "pelipalvelin.",
     "thePublicIpAddressUsedToDirectConnectToY": "Julkinen IP-osoite, jota käytetään suoraan yhteyteen pelipalvelimeesi.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Avoin portti, jolla pelipalvelimesi toimii, käytetään suoraan yhteyteen pelipalvelimeesi.",
-    "noServersConfigured": "Ei palvelimia määritetty",
-    "thereAreNoServerConfiguredWithYourSonora": "Sonoran CMS:ään ei ole määritetty palvelimia, anna alla olevat tiedot asettaaksesi yhden.",
     "extraLinks": "Lisälinkit",
     "server": "Palvelin",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Viime viikolla",
     "lastMonth": "Viime kuussa",
     "allTime": "Kaikkien aikojen",
-    "qboxPanelDocumentation": "QBox-paneelin dokumentaatio",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM-isännöinti",
@@ -626,7 +622,9 @@
     "searchStarting": "Hakua aloitetaan...",
     "addedRanks": "Lisätyt arvot",
     "removedRanks": "Poistetut arvot",
-    "askAiAQuestion": "Kysy tekoälyltä kysymys..."
+    "askAiAQuestion": "Kysy tekoälyltä kysymys...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox-paneelin dokumentaatio",
+    "erlcPanelDocumentation": "ER:LC-paneelin dokumentaatio"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Suorita mod-komento",
     "allowsMembersToRunModCommandsInTheGamePan": "Sallii jäsenille mod-komentojen suorittamisen pelipaneelissa tällä palvelimella.",
     "runRpCommand": "Suorita RP-komento",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Antaa jäsenille mahdollisuuden suorittaa RP-komentoja pelipaneelissa tälle palvelimelle."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Antaa jäsenille mahdollisuuden suorittaa RP-komentoja pelipaneelissa tälle palvelimelle.",
+    "allowMembersToViewHiddenStages": "Salli jäsenten nähdä piilotettujen vaiheiden vaiheiden yksityiskohdat kohdassa Omat lomakkeet"
   },
   "permissionToggleGroup": {
     "inherited": "peritty",

@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Navn",
     "addServer": "Legg til Server",
-    "qbcorePanelDocumentation": "QBCore Panel Dokumentasjon",
     "dashboard": "Dashbord",
     "players": "Spillere",
     "vehicles": "Kjøretøy",
@@ -593,8 +592,6 @@
     "gameServer": "spillserver.",
     "thePublicIpAddressUsedToDirectConnectToY": "Den offentlige IP-adressen som brukes til å koble direkte til spillserveren din.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Den åpne porten spillserveren din kjører på, brukt til å koble direkte til spillserveren din.",
-    "noServersConfigured": "Ingen servere konfigurert",
-    "thereAreNoServerConfiguredWithYourSonora": "Det er ingen servere konfigurert med din Sonoran CMS, oppgi detaljer nedenfor for å sette opp en.",
     "extraLinks": "Ekstra lenker",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Forrige uke",
     "lastMonth": "Forrige måned",
     "allTime": "Alle Tider",
-    "qboxPanelDocumentation": "QBox Panel Dokumentasjon",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Søket starter...",
     "addedRanks": "Lagt til rader",
     "removedRanks": "Fjernet Rangeringer",
-    "askAiAQuestion": "Still AI et spørsmål..."
+    "askAiAQuestion": "Still AI et spørsmål...",
+    "qbcoreQboxPanelDocumentation": "QBCore- og QBox-paneldokumentasjon",
+    "erlcPanelDocumentation": "ER:LC-paneldokumentasjon"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Kjør Mod-kommando",
     "allowsMembersToRunModCommandsInTheGamePan": "Lar medlemmene kjøre mod-kommandoer i spillpanelet for denne serveren.",
     "runRpCommand": "Kjør RP-kommando",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Lar medlemmene kjøre RP-kommandoer i spillpanelet for denne serveren."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Lar medlemmene kjøre RP-kommandoer i spillpanelet for denne serveren.",
+    "allowMembersToViewHiddenStages": "Tillat medlemmer å se detaljene i skjulte trinn under Mine skjemaer"
   },
   "permissionToggleGroup": {
     "inherited": "arvet",

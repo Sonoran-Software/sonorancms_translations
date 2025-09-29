@@ -551,7 +551,6 @@
     "port": "Poort",
     "name": "Naam",
     "addServer": "Server Toevoegen",
-    "qbcorePanelDocumentation": "QBCore Paneel Documentatie",
     "dashboard": "Dashboard",
     "players": "Spelers",
     "vehicles": "Voertuigen",
@@ -593,8 +592,6 @@
     "gameServer": "game server.",
     "thePublicIpAddressUsedToDirectConnectToY": "Het openbare IP-adres dat wordt gebruikt om direct verbinding te maken met je game server.",
     "theOpenPortYourGameServerIsRunningOnUsed": "De open poort waarop je game server draait, gebruikt om direct verbinding te maken met je game server.",
-    "noServersConfigured": "Geen servers geconfigureerd",
-    "thereAreNoServerConfiguredWithYourSonora": "Er zijn geen servers geconfigureerd met je Sonoran CMS, geef hieronder details om er een in te stellen.",
     "extraLinks": "Extra Links",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Vorige week",
     "lastMonth": "Vorige maand",
     "allTime": "Alle Tijd",
-    "qboxPanelDocumentation": "QBox Paneel Documentatie",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Zoeken starten...",
     "addedRanks": "Toegevoegde rangen",
     "removedRanks": "Verwijderde rangen",
-    "askAiAQuestion": "Stel AI een vraag..."
+    "askAiAQuestion": "Stel AI een vraag...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox Paneeldocumentatie",
+    "erlcPanelDocumentation": "ER:LC Paneeldocumentatie"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Voer Mod Commando uit",
     "allowsMembersToRunModCommandsInTheGamePan": "Staat leden toe om modcommando's uit te voeren in het Game Paneel voor deze server.",
     "runRpCommand": "Voer RP-opdracht uit",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Staat leden toe om RP-commando's uit te voeren in het Gamepaneel voor deze server."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Staat leden toe om RP-commando's uit te voeren in het Gamepaneel voor deze server.",
+    "allowMembersToViewHiddenStages": "Leden toestaan om stadiumdetails van verborgen stadia onder Mijn Formulieren te bekijken"
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",

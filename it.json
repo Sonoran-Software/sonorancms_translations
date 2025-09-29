@@ -551,7 +551,6 @@
     "port": "Porta",
     "name": "Nome",
     "addServer": "Aggiungi Server",
-    "qbcorePanelDocumentation": "Documentazione del Pannello QBCore",
     "dashboard": "Dashboard",
     "players": "Giocatori",
     "vehicles": "Veicoli",
@@ -593,8 +592,6 @@
     "gameServer": "server di gioco.",
     "thePublicIpAddressUsedToDirectConnectToY": "L'indirizzo IP pubblico utilizzato per connettersi direttamente al tuo server di gioco.",
     "theOpenPortYourGameServerIsRunningOnUsed": "La porta aperta su cui è in esecuzione il tuo server di gioco, utilizzata per connettersi direttamente al tuo server di gioco.",
-    "noServersConfigured": "Nessun server configurato",
-    "thereAreNoServerConfiguredWithYourSonora": "Non ci sono server configurati con il tuo Sonoran CMS, fornisci i dettagli qui sotto per configurarne uno.",
     "extraLinks": "Link Extra",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Scorsa Settimana",
     "lastMonth": "Lo scorso mese",
     "allTime": "Tutto il tempo",
-    "qboxPanelDocumentation": "Documentazione del pannello QBox",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Ricerca in corso...",
     "addedRanks": "Aggiunti Gradi",
     "removedRanks": "Gradi rimossi",
-    "askAiAQuestion": "Fai una domanda all'AI..."
+    "askAiAQuestion": "Fai una domanda all'AI...",
+    "qbcoreQboxPanelDocumentation": "Documentazione pannello QBCore & QBox",
+    "erlcPanelDocumentation": "Documentazione pannello ER:LC"
   },
   "Dashboard": {
     "securityDashboard": "Sicurezza - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Esegui Comando Mod",
     "allowsMembersToRunModCommandsInTheGamePan": "Consente ai membri di eseguire comandi mod nel Pannello di Gioco per questo server.",
     "runRpCommand": "Esegui comando RP",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Consente ai membri di eseguire comandi RP nel Pannello di Gioco per questo server."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Consente ai membri di eseguire comandi RP nel Pannello di Gioco per questo server.",
+    "allowMembersToViewHiddenStages": "Consenti ai membri di visualizzare i dettagli delle fasi nascoste in Le mie schede"
   },
   "permissionToggleGroup": {
     "inherited": "ereditato",

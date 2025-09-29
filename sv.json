@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Namn",
     "addServer": "Lägg till Server",
-    "qbcorePanelDocumentation": "QBCore Panel Dokumentation",
     "dashboard": "Instrumentpanel",
     "players": "Spelare",
     "vehicles": "Fordon",
@@ -593,8 +592,6 @@
     "gameServer": "spelserver.",
     "thePublicIpAddressUsedToDirectConnectToY": "Den offentliga IP-adressen som används för att direktansluta till din spelserver.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Den öppna porten som din spelserver körs på, används för att direktansluta till din spelserver.",
-    "noServersConfigured": "Inga servrar konfigurerade",
-    "thereAreNoServerConfiguredWithYourSonora": "Det finns inga servrar konfigurerade med din Sonoran CMS, ange detaljer nedan för att ställa in en.",
     "extraLinks": "Extra länkar",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Förra veckan",
     "lastMonth": "Förra månaden",
     "allTime": "Alltid",
-    "qboxPanelDocumentation": "QBox Panel Dokumentation",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Sökning Startar...",
     "addedRanks": "Tillagda Ranks",
     "removedRanks": "Borttagna Ranks",
-    "askAiAQuestion": "Ställ en fråga till AI..."
+    "askAiAQuestion": "Ställ en fråga till AI...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
+    "erlcPanelDocumentation": "ER:LC Panel Dokumentation"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Kör modkommando",
     "allowsMembersToRunModCommandsInTheGamePan": "Tillåter medlemmar att köra modkommandon i spelpanelen för denna server.",
     "runRpCommand": "Kör RP-kommandot",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Låter medlemmar köra RP-kommandon i spelpanelen för denna server."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Låter medlemmar köra RP-kommandon i spelpanelen för denna server.",
+    "allowMembersToViewHiddenStages": "Tillåt medlemmar att se stadiens detaljer för dolda steg under Mina formulär"
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",

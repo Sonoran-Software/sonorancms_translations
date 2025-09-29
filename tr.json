@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Ad",
     "addServer": "Sunucu Ekle",
-    "qbcorePanelDocumentation": "QBCore Panel Belgeleri",
     "dashboard": "Kontrol Paneli",
     "players": "Oyuncular",
     "vehicles": "Araçlar",
@@ -593,8 +592,6 @@
     "gameServer": "oyun sunucusu.",
     "thePublicIpAddressUsedToDirectConnectToY": "Oyun sunucunuza doğrudan bağlanmak için kullanılan genel IP adresi.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Oyun sunucunuzun çalıştığı açık port, oyun sunucunuza doğrudan bağlanmak için kullanılır.",
-    "noServersConfigured": "Sunucu Yapılandırılmadı",
-    "thereAreNoServerConfiguredWithYourSonora": "Sonoran CMS'inizle yapılandırılmış sunucu yok, aşağıda ayrıntıları sağlayarak bir tane kurun.",
     "extraLinks": "Ekstra Bağlantılar",
     "server": "Sunucu",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Geçen Hafta",
     "lastMonth": "Geçen Ay",
     "allTime": "Tüm Zamanlar",
-    "qboxPanelDocumentation": "QBox Panel Belgeleri",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Barındırma",
@@ -626,7 +622,9 @@
     "searchStarting": "Arama Başlatılıyor...",
     "addedRanks": "Eklenen Rütbeler",
     "removedRanks": "Kaldırılan Rütbeler",
-    "askAiAQuestion": "AI'ye bir soru sorun..."
+    "askAiAQuestion": "AI'ye bir soru sorun...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dökümantasyonu",
+    "erlcPanelDocumentation": "ER:LC Panel Dökümantasyonu"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Mod Komutunu Çalıştır",
     "allowsMembersToRunModCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde mod komutlarını çalıştırmasına izin verir.",
     "runRpCommand": "RP Komutunu Çalıştır",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde RP komutlarını çalıştırmalarına olanak tanır."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde RP komutlarını çalıştırmalarına olanak tanır.",
+    "allowMembersToViewHiddenStages": "Üyelerin Formlarım altında gizli aşamaların aşama ayrıntılarını görüntülemesine izin ver"
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",

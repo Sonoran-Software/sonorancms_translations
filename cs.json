@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Název",
     "addServer": "Přidat server",
-    "qbcorePanelDocumentation": "QBCore Panel Dokumentace",
     "dashboard": "Dashboard",
     "players": "Hráči",
     "vehicles": "Vozidla",
@@ -593,8 +592,6 @@
     "gameServer": "herní server.",
     "thePublicIpAddressUsedToDirectConnectToY": "Veřejná IP adresa používaná k přímému připojení k vašemu hernímu serveru.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Otevřený port, na kterém běží váš herní server, používaný k přímému připojení k vašemu hernímu serveru.",
-    "noServersConfigured": "Žádné servery nejsou nakonfigurovány",
-    "thereAreNoServerConfiguredWithYourSonora": "Žádné servery nejsou nakonfigurovány s vaším Sonoran CMS, poskytněte níže uvedené údaje a nastavte jeden.",
     "extraLinks": "Další odkazy",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Minulý týden",
     "lastMonth": "Minulý měsíc",
     "allTime": "Po celou dobu",
-    "qboxPanelDocumentation": "Dokumentace panelu QBox",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Vyhledávání začíná...",
     "askAiAQuestion": "Zeptejte se AI na otázku...",
     "addedRanks": "Přidané hodnosti",
-    "removedRanks": "Odstraněné hodnosti"
+    "removedRanks": "Odstraněné hodnosti",
+    "qbcoreQboxPanelDocumentation": "Dokumentace panelu QBCore & QBox",
+    "erlcPanelDocumentation": "Dokumentace panelu ER:LC"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Spustit mod příkaz",
     "allowsMembersToRunModCommandsInTheGamePan": "Umožňuje členům spouštět modifikační příkazy v herním panelu pro tento server.",
     "runRpCommand": "Spustit ​​RP příkaz",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Umožňuje členům spouštět RP příkazy v herním panelu pro tento server."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Umožňuje členům spouštět RP příkazy v herním panelu pro tento server.",
+    "allowMembersToViewHiddenStages": "Povolit členům zobrazit podrobnosti o fázích skrytých fází v Mých formulářích"
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",

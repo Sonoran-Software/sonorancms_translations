@@ -551,7 +551,6 @@
     "port": "Port",
     "name": "Name",
     "addServer": "Server hinzufügen",
-    "qbcorePanelDocumentation": "QBCore Panel Dokumentation",
     "dashboard": "Dashboard",
     "players": "Spieler",
     "vehicles": "Fahrzeuge",
@@ -593,8 +592,6 @@
     "gameServer": "Spielserver.",
     "thePublicIpAddressUsedToDirectConnectToY": "Die öffentliche IP-Adresse, die verwendet wird, um direkt zu Ihrem Spielserver zu verbinden.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Der offene Port, auf dem Ihr Spielserver läuft, wird verwendet, um direkt zu Ihrem Spielserver zu verbinden.",
-    "noServersConfigured": "Keine Server konfiguriert",
-    "thereAreNoServerConfiguredWithYourSonora": "Es sind keine Server mit Ihrem Sonoran CMS konfiguriert, geben Sie unten Details ein, um einen einzurichten.",
     "extraLinks": "Zusätzliche Links",
     "server": "Server",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "Letzte Woche",
     "lastMonth": "Letzten Monat",
     "allTime": "Alle Zeiten",
-    "qboxPanelDocumentation": "QBox Panel Dokumentation",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "FiveM-Hosting",
@@ -626,7 +622,9 @@
     "searchStarting": "Suche startet...",
     "addedRanks": "Hinzugefügte Ränge",
     "removedRanks": "Entfernte Ränge",
-    "askAiAQuestion": "Eine Frage an die KI stellen..."
+    "askAiAQuestion": "Eine Frage an die KI stellen...",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
+    "erlcPanelDocumentation": "ER:LC Panel Dokumentation"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Mod-Befehl ausführen",
     "allowsMembersToRunModCommandsInTheGamePan": "Ermöglicht Mitgliedern, Mod-Befehle im Game Panel für diesen Server auszuführen.",
     "runRpCommand": "Führe RP-Befehl aus",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Ermöglicht Mitgliedern, RP-Befehle im Spielepanel für diesen Server auszuführen."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Ermöglicht Mitgliedern, RP-Befehle im Spielepanel für diesen Server auszuführen.",
+    "allowMembersToViewHiddenStages": "Erlauben Sie Mitgliedern, Stufendetails versteckter Stufen unter Meine Formulare anzuzeigen"
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",

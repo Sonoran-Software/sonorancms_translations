@@ -551,7 +551,6 @@
     "port": "المنفذ",
     "name": "الاسم",
     "addServer": "إضافة خادم",
-    "qbcorePanelDocumentation": "وثائق لوحة QBCore",
     "dashboard": "لوحة التحكم",
     "players": "اللاعبون",
     "vehicles": "المركبات",
@@ -593,8 +592,6 @@
     "gameServer": "خادم اللعبة.",
     "thePublicIpAddressUsedToDirectConnectToY": "عنوان IP العام المستخدم للاتصال المباشر بخادم اللعبة الخاص بك.",
     "theOpenPortYourGameServerIsRunningOnUsed": "المنفذ المفتوح الذي يعمل عليه خادم اللعبة الخاص بك، المستخدم للاتصال المباشر بخادم اللعبة الخاص بك.",
-    "noServersConfigured": "لا توجد خوادم مكونة",
-    "thereAreNoServerConfiguredWithYourSonora": "لا توجد خوادم مكونة مع Sonoran CMS الخاص بك، قدم التفاصيل أدناه لإعداد واحد.",
     "extraLinks": "روابط إضافية",
     "server": "الخادم",
     "qbCore": "QB Core",
@@ -611,7 +608,6 @@
     "lastWeek": "الأسبوع الماضي",
     "lastMonth": "الشهر الماضي",
     "allTime": "طوال الوقت",
-    "qboxPanelDocumentation": "وثائق لوحة QBox",
     "qbox": "كيوبوكس",
     "exec": "تنفيذ @sonorancms/sonorancms.cfg",
     "fivemHosting": "استضافة FiveM",
@@ -626,7 +622,9 @@
     "removedRanks": "الرتب المحذوفة",
     "aiSearch": "البحث بالذكاء الاصطناعي",
     "searchStarting": "البحث يبدأ...",
-    "askAiAQuestion": "اطرح سؤالاً على AI..."
+    "askAiAQuestion": "اطرح سؤالاً على AI...",
+    "qbcoreQboxPanelDocumentation": "وثائق لوحة QBCore و QBox",
+    "erlcPanelDocumentation": "وثائق لوحة ER:LC"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -4127,7 +4125,8 @@
     "runModCommand": "تشغيل أمر المود",
     "allowsMembersToRunModCommandsInTheGamePan": "يتيح للأعضاء تشغيل أوامر التعديل في لوحة اللعبة لهذا الخادم.",
     "runRpCommand": "تشغيل أمر RP",
-    "allowsMembersToRunRpCommandsInTheGamePan": "يسمح للأعضاء بتشغيل أوامر RP في لوحة اللعبة لهذا الخادم."
+    "allowsMembersToRunRpCommandsInTheGamePan": "يسمح للأعضاء بتشغيل أوامر RP في لوحة اللعبة لهذا الخادم.",
+    "allowMembersToViewHiddenStages": "السماح للأعضاء بعرض تفاصيل المراحل المخفية تحت النماذج الخاصة بي"
   },
   "permissionToggleGroup": {
     "inherited": "موروث",

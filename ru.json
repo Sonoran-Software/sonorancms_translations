@@ -551,7 +551,6 @@
     "port": "Порт",
     "name": "Имя",
     "addServer": "Добавить сервер",
-    "qbcorePanelDocumentation": "Документация панели QBCore",
     "dashboard": "Панель управления",
     "players": "Игроки",
     "vehicles": "Транспортные средства",
@@ -593,8 +592,6 @@
     "gameServer": "Публичный IP-адрес, используемый для прямого подключения к вашему игровому серверу.",
     "thePublicIpAddressUsedToDirectConnectToY": "Открытый порт, на котором работает ваш игровой сервер, используемый для прямого подключения к вашему игровому серверу.",
     "theOpenPortYourGameServerIsRunningOnUsed": "Серверы не настроены",
-    "noServersConfigured": "Серверы не настроены в вашем Sonoran CMS, предоставьте данные ниже, чтобы настроить один из них.",
-    "thereAreNoServerConfiguredWithYourSonora": "Дополнительные ссылки",
     "extraLinks": "VPS",
     "server": "QB Core",
     "qbCore": "убедитесь [sonorancms]",
@@ -611,7 +608,6 @@
     "lastWeek": "На прошлой неделе",
     "lastMonth": "Прошлый месяц",
     "allTime": "Все время",
-    "qboxPanelDocumentation": "Документация панели QBox",
     "qbox": "QBox",
     "exec": "exec @sonorancms/sonorancms.cfg",
     "fivemHosting": "Хостинг FiveM",
@@ -626,7 +622,9 @@
     "searchStarting": "Поиск начинается...",
     "addedRanks": "Добавленные звания",
     "removedRanks": "Удаленные ранги",
-    "askAiAQuestion": "Задайте вопрос ИИ..."
+    "askAiAQuestion": "Задайте вопрос ИИ...",
+    "qbcoreQboxPanelDocumentation": "Документация панели QBCore и QBox",
+    "erlcPanelDocumentation": "Документация панели ER:LC"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -4127,7 +4125,8 @@
     "runModCommand": "Выполнить команду модератора",
     "allowsMembersToRunModCommandsInTheGamePan": "Позволяет участникам выполнять модераторские команды в панели управления игрой для этого сервера.",
     "runRpCommand": "Запустить RP команду",
-    "allowsMembersToRunRpCommandsInTheGamePan": "Позволяет участникам выполнять RP команды в игровом панели для этого сервера."
+    "allowsMembersToRunRpCommandsInTheGamePan": "Позволяет участникам выполнять RP команды в игровом панели для этого сервера.",
+    "allowMembersToViewHiddenStages": "Разрешить участникам просматривать детали этапов скрытых стадий в Моих формах"
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",

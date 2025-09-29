@@ -200,8 +200,7 @@
     },
     "modifyStageSettings": "Modify Stage Settings",
     "appThirdPartySubmit": "Third Party Submit",
-    "manageOtherComments": "Manage Other Comments",
-    "viewHiddenStages": "View Hidden Stages"
+    "manageOtherComments": "Manage Other Comments"
   },
   "departments": {
     "departmentName": "Department Name",
@@ -549,8 +548,8 @@
     "port": "Port",
     "name": "Name",
     "addServer": "Add Server",
-    "qbcorePanelDocumentation": "QBCore Panel Documentation",
-    "qboxPanelDocumentation": "QBox Panel Documentation",
+    "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Documentation",
+    "erlcPanelDocumentation": "ER:LC Panel Documentation",
     "dashboard": "Dashboard",
     "players": "Players",
     "vehicles": "Vehicles",
@@ -595,9 +594,7 @@
     "gameServer": "game server.",
     "thePublicIpAddressUsedToDirectConnectToY": "The public IP address used to direct connect to your game server.",
     "theOpenPortYourGameServerIsRunningOnUsed": "The open port your game server is running on, used to direct connect to your game server.",
-    "noServersConfigured": "No Servers Configured",
     "erlcApiKey": "ERLC API Key",
-    "thereAreNoServerConfiguredWithYourSonora": "There are no server configured with your Sonoran CMS, provide details below set one up.",
     "extraLinks": "Extra Links",
     "server": "Server",
     "qbCore": "QB Core",
@@ -2255,9 +2252,7 @@
     "MaximumNumberOfDisciplinaryPoints": "Maximum Number of Disciplinary Points",
     "WeightsMustTotal100": "Section weights must total 100% combined",
     "WeightMustBeBetween": "Weight must be between 0 and 100%",
-    "RuleStageRequired": "Stage is required",
-    "stageHidden": "Hidden stage: Stage label and icon visible only to submitters with permissions",
-    "stagePublic": "Public stage: Stage label and icon visible to all submitters"
+    "RuleStageRequired": "Stage is required"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
@@ -3728,8 +3723,7 @@
     "anErrorOccuredWhileUploadingAudio": "An error occured while uploading audio: ",
     "noFieldsourceSelected": "*No Field/Source Selected",
     "cloneField": "Clone Field",
-    "conditionalQuestionStartExplaination": "This section will be visible",
-    "stageHidden": "Hidden Stage"
+    "conditionalQuestionStartExplaination": "This section will be visible"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
