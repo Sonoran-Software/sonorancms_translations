@@ -200,7 +200,8 @@
     },
     "modifyStageSettings": "Modify Stage Settings",
     "appThirdPartySubmit": "Third Party Submit",
-    "manageOtherComments": "Manage Other Comments"
+    "manageOtherComments": "Manage Other Comments",
+    "viewHiddenStages": "View Hidden Stages"
   },
   "departments": {
     "departmentName": "Department Name",
@@ -1271,7 +1272,8 @@
     "label": "Label",
     "actions": "Actions",
     "stage": "Stage",
-    "goToSubmissions": "Go to submissions"
+    "goToSubmissions": "Go to submissions",
+    "stageHidden": "This form is in a hidden stage that requires permissions to view"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "This form is locked and not accepting new submissions",
@@ -2252,7 +2254,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maximum Number of Disciplinary Points",
     "WeightsMustTotal100": "Section weights must total 100% combined",
     "WeightMustBeBetween": "Weight must be between 0 and 100%",
-    "RuleStageRequired": "Stage is required"
+    "RuleStageRequired": "Stage is required",
+    "stageHidden": "Stage label and icon visible only to submitters with permissions",
+    "stagePublic": "Stage label and icon visible to all submitters"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
@@ -3723,7 +3727,8 @@
     "anErrorOccuredWhileUploadingAudio": "An error occured while uploading audio: ",
     "noFieldsourceSelected": "*No Field/Source Selected",
     "cloneField": "Clone Field",
-    "conditionalQuestionStartExplaination": "This section will be visible"
+    "conditionalQuestionStartExplaination": "This section will be visible",
+    "stageHidden": "Hidden Stage"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
