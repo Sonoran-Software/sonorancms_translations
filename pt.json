@@ -210,7 +210,8 @@
     "modifyStageSettings": "Modificar configurações do estágio",
     "modifyTemplate": "Modificar Modelo de Formulário",
     "privateComments": "Acessar Comentários Privados",
-    "manageOtherComments": "Gerenciar Outros Comentários"
+    "manageOtherComments": "Gerenciar Outros Comentários",
+    "viewHiddenStages": "Ver Estágios Ocultos"
   },
   "departments": {
     "departmentName": "Nome do Departamento",
@@ -1281,7 +1282,8 @@
     "stage": "Etapa",
     "goToSubmissions": "Ir para submissões",
     "formstemplatetypesgeneral": "Formulário Geral",
-    "openFolder": "Abrir Pasta"
+    "openFolder": "Abrir Pasta",
+    "stageHidden": "Este formulário está em um estágio oculto que requer permissões para visualizar"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Este formulário está bloqueado e não está aceitando novas submissões",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Número Máximo de Pontos Disciplinares",
     "WeightsMustTotal100": "As pesagens das seções devem totalizar 100% combinadas",
     "WeightMustBeBetween": "O peso deve estar entre 0 e 100%",
-    "RuleStageRequired": "Etapa é obrigatória"
+    "RuleStageRequired": "Etapa é obrigatória",
+    "stageHidden": "Rótulo e ícone do estágio visíveis apenas para enviadores com permissões",
+    "stagePublic": "Rótulo e ícone do estágio visíveis para todos os enviadores"
   },
   "StageReorderDialog": {
     "newStage": "Nova Etapa",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Esta seção estará visível",
     "conditionalRanks": "Patente(s) Condicional(is)",
     "automemberRobloxId": "ID Roblox Auto-Membro",
-    "communityMemberRobloxIdElement": "Elemento de ID do Roblox do membro da comunidade"
+    "communityMemberRobloxIdElement": "Elemento de ID do Roblox do membro da comunidade",
+    "stageHidden": "Estágio Oculto"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"

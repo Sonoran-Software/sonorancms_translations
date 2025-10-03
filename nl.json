@@ -210,7 +210,8 @@
     "modifyStageSettings": "Wijzig Podiuminstellingen",
     "modifyTemplate": "Formuliersjabloon wijzigen",
     "privateComments": "Toegang tot privé-opmerkingen",
-    "manageOtherComments": "Beheer andere opmerkingen"
+    "manageOtherComments": "Beheer andere opmerkingen",
+    "viewHiddenStages": "Verborgen Stadia Weergeven"
   },
   "departments": {
     "departmentName": "Afdelingsnaam",
@@ -1281,7 +1282,8 @@
     "stage": "Fase",
     "goToSubmissions": "Ga naar inzendingen",
     "formstemplatetypesgeneral": "Algemeen Formulier",
-    "openFolder": "Map openen"
+    "openFolder": "Map openen",
+    "stageHidden": "Dit formulier bevindt zich in een verborgen stadium dat toestemming vereist om te bekijken"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Dit formulier is vergrendeld en accepteert geen nieuwe inzendingen",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maximaal Aantal Disciplinaire Punten",
     "WeightsMustTotal100": "De sectiegewichten moeten samen 100% bedragen",
     "WeightMustBeBetween": "Het gewicht moet tussen 0 en 100% zijn",
-    "RuleStageRequired": "Stage is vereist"
+    "RuleStageRequired": "Stage is vereist",
+    "stageHidden": "Stadiumlabel en pictogram alleen zichtbaar voor indieners met toestemming",
+    "stagePublic": "Stadiumlabel en pictogram zichtbaar voor alle indieners"
   },
   "StageReorderDialog": {
     "newStage": "Nieuwe Fase",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Deze sectie zal zichtbaar zijn",
     "conditionalRanks": "Voorwaardelijke Rang(en)",
     "automemberRobloxId": "Auto-lid Roblox-ID",
-    "communityMemberRobloxIdElement": "Gemeenschapslid Roblox-ID-element"
+    "communityMemberRobloxIdElement": "Gemeenschapslid Roblox-ID-element",
+    "stageHidden": "Verborgen Stadium"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"

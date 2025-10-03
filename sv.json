@@ -210,7 +210,8 @@
     "modifyStageSettings": "Ändra sceninställningar",
     "modifyTemplate": "Ändra formulärmall",
     "privateComments": "Åtkomst till privata kommentarer",
-    "manageOtherComments": "Hantera Andra Kommentarer"
+    "manageOtherComments": "Hantera Andra Kommentarer",
+    "viewHiddenStages": "Visa dolda etapper"
   },
   "departments": {
     "departmentName": "Avdelningsnamn",
@@ -1281,7 +1282,8 @@
     "stage": "Etapp",
     "goToSubmissions": "Gå till inlämningar",
     "formstemplatetypesgeneral": "Allmän blankett",
-    "openFolder": "Öppna mapp"
+    "openFolder": "Öppna mapp",
+    "stageHidden": "Denna formulär är i en dold etapp som kräver behörigheter för att visas"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Detta formulär är låst och accepterar inte nya inlämningar",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maximalt antal disciplinpoäng",
     "WeightsMustTotal100": "Avsnittsvikter måste totalt vara 100% tillsammans",
     "WeightMustBeBetween": "Vikten måste vara mellan 0 och 100%",
-    "RuleStageRequired": "Scenen är obligatorisk"
+    "RuleStageRequired": "Scenen är obligatorisk",
+    "stageHidden": "Etikett och ikon för etapp synlig endast för inlämnare med behörigheter",
+    "stagePublic": "Etikett och ikon för etapp synlig för alla inlämnare"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etapp",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Den här sektionen kommer att vara synlig",
     "conditionalRanks": "Villkorlig(a) rang(er)",
     "automemberRobloxId": "Auto-Medlem Roblox ID",
-    "communityMemberRobloxIdElement": "Community member Roblox ID-element"
+    "communityMemberRobloxIdElement": "Community member Roblox ID-element",
+    "stageHidden": "Dold etapp"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"

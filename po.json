@@ -210,7 +210,8 @@
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "modifyTemplate": "Modyfikuj szablon formularza",
     "privateComments": "Nantu Pribadong Komentaro",
-    "manageOtherComments": "Altri commenti di gestione"
+    "manageOtherComments": "Altri commenti di gestione",
+    "viewHiddenStages": "Tente Hidden Stages"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -1281,7 +1282,8 @@
     "stage": "Etap",
     "goToSubmissions": "Przejdź do zgłoszeń",
     "formstemplatetypesgeneral": "Ogólny formularz",
-    "openFolder": "Öffnen Ordner"
+    "openFolder": "Öffnen Ordner",
+    "stageHidden": "Este formulário está em um estágio oculto que requer permissões para visualizar"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Ten formularz jest zablokowany i nie przyjmuje nowych zgłoszeń",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Nombre máximo de puntos disciplinarios",
     "WeightsMustTotal100": "Sekcja wagi musi wynosić łącznie 100%",
     "WeightMustBeBetween": "Waga musi być między 0 a 100%",
-    "RuleStageRequired": "Etap jest wymagany"
+    "RuleStageRequired": "Etap jest wymagany",
+    "stageHidden": "Etiqueta e ícone do estágio visíveis apenas para os remetentes com permissões",
+    "stagePublic": "Etiqueta e ícone do estágio visíveis para todos os remetentes"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Esta seção estará visível",
     "conditionalRanks": "Rango(s) condicional(es)",
     "automemberRobloxId": "Auto-membre Roblox ID",
-    "communityMemberRobloxIdElement": "Elemento de ID de Roblox de miembro de la comunidad"
+    "communityMemberRobloxIdElement": "Elemento de ID de Roblox de miembro de la comunidad",
+    "stageHidden": "Estágio Oculto"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"

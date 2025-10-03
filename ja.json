@@ -210,7 +210,8 @@
     "modifyStageSettings": "ステージ設定を変更",
     "modifyTemplate": "フォームテンプレートを変更",
     "privateComments": "プライベートコメントにアクセス",
-    "manageOtherComments": "他のコメントを管理する"
+    "manageOtherComments": "他のコメントを管理する",
+    "viewHiddenStages": "非表示ステージを表示"
   },
   "departments": {
     "departmentName": "部門名",
@@ -1281,7 +1282,8 @@
     "stage": "提出物へ移動",
     "goToSubmissions": "このフォームはロックされており、新しい提出物を受け付けていません",
     "formstemplatetypesgeneral": "一般フォーム",
-    "openFolder": "フォルダを開く"
+    "openFolder": "フォルダを開く",
+    "stageHidden": "このフォームは許可が必要な非表示ステージにあります"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "フォーム添付ファイル",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "懲戒ポイントの最大数",
     "WeightsMustTotal100": "セクションの重みの合計は100％でなければなりません",
     "WeightMustBeBetween": "重量は0〜100％の間でなければなりません",
-    "RuleStageRequired": "ステージが必要です"
+    "RuleStageRequired": "ステージが必要です",
+    "stageHidden": "ステージラベルとアイコンは許可を持つ送信者にのみ表示されます",
+    "stagePublic": "ステージラベルとアイコンはすべての送信者に表示されます"
   },
   "StageReorderDialog": {
     "newStage": "閉じる",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "このセクションは表示されます",
     "conditionalRanks": "条件付きランク",
     "automemberRobloxId": "自動メンバー Roblox ID",
-    "communityMemberRobloxIdElement": "コミュニティメンバーロブロックスID要素"
+    "communityMemberRobloxIdElement": "コミュニティメンバーロブロックスID要素",
+    "stageHidden": "非表示ステージ"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"

@@ -210,7 +210,8 @@
     "modifyStageSettings": "Изменить настройки этапа",
     "modifyTemplate": "Изменить шаблон формы",
     "privateComments": "Доступ к приватным комментариям",
-    "manageOtherComments": "Управление другими комментариями"
+    "manageOtherComments": "Управление другими комментариями",
+    "viewHiddenStages": "Просмотр скрытых этапов"
   },
   "departments": {
     "departmentName": "Название Отдела",
@@ -1281,7 +1282,8 @@
     "stage": "Перейти к отправкам",
     "goToSubmissions": "Эта форма заблокирована и не принимает новые отправки",
     "formstemplatetypesgeneral": "Общая форма",
-    "openFolder": "Открыть папку"
+    "openFolder": "Открыть папку",
+    "stageHidden": "Эта форма находится на скрытом этапе, для просмотра которого требуются разрешения"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Вложения формы",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Максимальное количество дисциплинарных очков",
     "WeightsMustTotal100": "Разделы должны составлять в сумме 100%",
     "WeightMustBeBetween": "Вес должен быть между 0 и 100%",
-    "RuleStageRequired": "Этап обязателен"
+    "RuleStageRequired": "Этап обязателен",
+    "stageHidden": "Метка и значок этапа видны только отправителям с разрешениями",
+    "stagePublic": "Метка и значок этапа видны всем отправителям"
   },
   "StageReorderDialog": {
     "newStage": "Закрыть",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Этот раздел будет видимым",
     "conditionalRanks": "Условные звание(я)",
     "automemberRobloxId": "Автоматический участник Roblox ID",
-    "communityMemberRobloxIdElement": "Элемент ID участника сообщества Roblox"
+    "communityMemberRobloxIdElement": "Элемент ID участника сообщества Roblox",
+    "stageHidden": "Скрытый этап"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"

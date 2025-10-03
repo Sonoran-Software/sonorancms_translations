@@ -210,7 +210,8 @@
     "modifyStageSettings": "Rediger scenens indstillinger",
     "modifyTemplate": "Rediger formularskabelon",
     "privateComments": "Adgang til private kommentarer",
-    "manageOtherComments": "Administrer andre kommentarer"
+    "manageOtherComments": "Administrer andre kommentarer",
+    "viewHiddenStages": "Vis skjulte stadier"
   },
   "departments": {
     "departmentName": "Afdelingsnavn",
@@ -1281,7 +1282,8 @@
     "stage": "Fase",
     "goToSubmissions": "Gå til indsendelser",
     "formstemplatetypesgeneral": "Generel formular",
-    "openFolder": "Åbn mappe"
+    "openFolder": "Åbn mappe",
+    "stageHidden": "Denne formular er i et skjult stadie, der kræver tilladelser for at se"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Denne formular er låst og accepterer ikke nye indsendelser",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maksimalt antal disciplinære point",
     "WeightsMustTotal100": "Sektionernes vægt skal tilsammen udgøre 100%",
     "WeightMustBeBetween": "Vægten skal være mellem 0 og 100%",
-    "RuleStageRequired": "Scenen er påkrævet"
+    "RuleStageRequired": "Scenen er påkrævet",
+    "stageHidden": "Stadie etiket og ikon synlig kun for indsendere med tilladelser",
+    "stagePublic": "Stadie etiket og ikon synlig for alle indsendere"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etape",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Denne sektion vil være synlig",
     "conditionalRanks": "Betinget rang(er)",
     "automemberRobloxId": "Auto-medlems Roblox-ID",
-    "communityMemberRobloxIdElement": "Fællesskabsmedlem Roblox ID-element"
+    "communityMemberRobloxIdElement": "Fællesskabsmedlem Roblox ID-element",
+    "stageHidden": "Skjult stadie"
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"

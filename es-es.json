@@ -210,7 +210,8 @@
     "modifyStageSettings": "Configurar Etapa",
     "modifyTemplate": "Modificar la plantilla del formulario",
     "privateComments": "Acceder a comentarios privados",
-    "manageOtherComments": "Administrar Otros Comentarios"
+    "manageOtherComments": "Administrar Otros Comentarios",
+    "viewHiddenStages": "Ver etapas ocultas"
   },
   "departments": {
     "departmentName": "Nombre del Departamento",
@@ -1281,7 +1282,8 @@
     "stage": "Etapa",
     "goToSubmissions": "Ir a las presentaciones",
     "formstemplatetypesgeneral": "Formulario general",
-    "openFolder": "Abrir carpeta"
+    "openFolder": "Abrir carpeta",
+    "stageHidden": "Este formulario está en una etapa oculta que requiere permisos para ver"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Este formulario está bloqueado y no acepta nuevas presentaciones",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Máximo número de puntos disciplinarios",
     "WeightsMustTotal100": "Los pesos de las secciones deben sumar el 100% en total",
     "WeightMustBeBetween": "El peso debe estar entre 0 y 100%",
-    "RuleStageRequired": "Se requiere escenario"
+    "RuleStageRequired": "Se requiere escenario",
+    "stageHidden": "Etiqueta e icono de etapa visibles solo para remitentes con permisos",
+    "stagePublic": "Etiqueta e icono de etapa visibles para todos los remitentes"
   },
   "StageReorderDialog": {
     "newStage": "Nueva Etapa",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Esta sección será visible",
     "conditionalRanks": "Rango(s) condicional(es)",
     "automemberRobloxId": "ID de Roblox de Auto-Miembro",
-    "communityMemberRobloxIdElement": "Elemento de ID de Roblox del miembro de la comunidad"
+    "communityMemberRobloxIdElement": "Elemento de ID de Roblox del miembro de la comunidad",
+    "stageHidden": "Etapa oculta"
   },
   "selectRoster": {
     "selectRoster": "Seleccionar Lista"

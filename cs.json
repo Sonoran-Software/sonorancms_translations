@@ -210,7 +210,8 @@
     "modifyStageSettings": "Upravit nastavení stupně",
     "modifyTemplate": "Upravit šablonu formuláře",
     "privateComments": "Přístup k soukromým komentářům",
-    "manageOtherComments": "Spravovat jiné komentáře"
+    "manageOtherComments": "Spravovat jiné komentáře",
+    "viewHiddenStages": "Zobrazit skryté etapy"
   },
   "departments": {
     "departmentName": "Název oddělení",
@@ -1281,7 +1282,8 @@
     "stage": "Fáze",
     "goToSubmissions": "Přejít na odeslané žádosti",
     "formstemplatetypesgeneral": "Obecný formulář",
-    "openFolder": "Otevřít složku"
+    "openFolder": "Otevřít složku",
+    "stageHidden": "Tento formulář je ve skryté etapě, která vyžaduje oprávnění k zobrazení"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Tento formulář je uzamčen a nepřijímá nové odeslání",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maximální počet disciplinárních bodů",
     "WeightsMustTotal100": "Váhy sekcí musí dohromady tvořit 100 %",
     "WeightMustBeBetween": "Hmotnost musí být mezi 0 a 100 %",
-    "RuleStageRequired": "Fáze je povinná"
+    "RuleStageRequired": "Fáze je povinná",
+    "stageHidden": "Štítek a ikona etapy viditelné pouze pro odesílatele s oprávněním",
+    "stagePublic": "Štítek a ikona etapy viditelné pro všechny odesílatele"
   },
   "StageReorderDialog": {
     "newStage": "Nová fáze",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Tato sekce bude viditelná",
     "conditionalRanks": "Podmínková hodnost(i)",
     "automemberRobloxId": "Automatické členství Roblox ID",
-    "communityMemberRobloxIdElement": "ID uživatele Roblox ve vaší komunitě"
+    "communityMemberRobloxIdElement": "ID uživatele Roblox ve vaší komunitě",
+    "stageHidden": "Skrytá etapa"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"

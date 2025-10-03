@@ -210,7 +210,8 @@
     "modifyStageSettings": "Modyfikuj ustawienia sceny",
     "modifyTemplate": "Zmodyfikuj szablon formularza",
     "privateComments": "Uzyskaj dostęp do prywatnych komentarzy",
-    "manageOtherComments": "Zarządzaj innymi komentarzami"
+    "manageOtherComments": "Zarządzaj innymi komentarzami",
+    "viewHiddenStages": "Wyświetl Ukryte Etapy"
   },
   "departments": {
     "departmentName": "Nazwa Działu",
@@ -1281,7 +1282,8 @@
     "stage": "Etap",
     "goToSubmissions": "Przejdź do zgłoszeń",
     "formstemplatetypesgeneral": "Formularz ogólny",
-    "openFolder": "Otwórz folder"
+    "openFolder": "Otwórz folder",
+    "stageHidden": "Ten formularz znajduje się na ukrytym etapie, który wymaga uprawnień do wyświetlenia"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Ten formularz jest zablokowany i nie przyjmuje nowych zgłoszeń",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maksymalna liczba punktów karnych",
     "WeightsMustTotal100": "Sekcje muszą łącznie stanowić 100%",
     "WeightMustBeBetween": "Waga musi mieścić się między 0 a 100%",
-    "RuleStageRequired": "Etap jest wymagany"
+    "RuleStageRequired": "Etap jest wymagany",
+    "stageHidden": "Etykieta i ikona etapu widoczne tylko dla zgłaszających z uprawnieniami",
+    "stagePublic": "Etykieta i ikona etapu widoczne dla wszystkich zgłaszających"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Ta sekcja będzie widoczna",
     "conditionalRanks": "Warunkowe Stanowisko(-a)",
     "automemberRobloxId": "Auto-członek Roblox ID",
-    "communityMemberRobloxIdElement": "Element ID Roblox członka społeczności"
+    "communityMemberRobloxIdElement": "Element ID Roblox członka społeczności",
+    "stageHidden": "Ukryty Etap"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"

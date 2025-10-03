@@ -210,7 +210,8 @@
     "modifyStageSettings": "단계 설정 수정",
     "modifyTemplate": "양식 템플릿 수정",
     "privateComments": "비공개 댓글에 액세스",
-    "manageOtherComments": "다른 댓글 관리"
+    "manageOtherComments": "다른 댓글 관리",
+    "viewHiddenStages": "숨겨진 단계 보기"
   },
   "departments": {
     "departmentName": "부서 이름",
@@ -1281,7 +1282,8 @@
     "stage": "제출물로 이동",
     "goToSubmissions": "이 양식은 잠겨 있으며 새로운 제출을 받지 않습니다",
     "formstemplatetypesgeneral": "일반 양식",
-    "openFolder": "폴더 열기"
+    "openFolder": "폴더 열기",
+    "stageHidden": "이 양식은 권한이 필요한 숨겨진 단계에 있습니다"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "양식 첨부 파일",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "최대 징계 포인트 수",
     "WeightsMustTotal100": "섹션 가중치의 합계는 총 100%여야 합니다.",
     "WeightMustBeBetween": "무게는 0%와 100% 사이여야 합니다.",
-    "RuleStageRequired": "단계 필수 항목입니다."
+    "RuleStageRequired": "단계 필수 항목입니다.",
+    "stageHidden": "단계 라벨과 아이콘은 권한 있는 제출자에게만 표시됩니다",
+    "stagePublic": "단계 라벨과 아이콘은 모든 제출자에게 표시됩니다"
   },
   "StageReorderDialog": {
     "newStage": "닫기",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "이 섹션이 보이게 됩니다.",
     "conditionalRanks": "조건부 계급",
     "automemberRobloxId": "자동 맴버 Roblox ID",
-    "communityMemberRobloxIdElement": "커뮤니티 멤버 Roblox ID 요소"
+    "communityMemberRobloxIdElement": "커뮤니티 멤버 Roblox ID 요소",
+    "stageHidden": "숨겨진 단계"
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."

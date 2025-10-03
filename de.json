@@ -210,7 +210,8 @@
     "modifyStageSettings": "Bühnen Einstellungen bearbeiten",
     "modifyTemplate": "Formularvorlage ändern",
     "privateComments": "Zugriff auf private Kommentare",
-    "manageOtherComments": "Andere Kommentare verwalten"
+    "manageOtherComments": "Andere Kommentare verwalten",
+    "viewHiddenStages": "Verborgene Stufen anzeigen"
   },
   "departments": {
     "departmentName": "Abteilungsname",
@@ -1281,7 +1282,8 @@
     "stage": "Phase",
     "goToSubmissions": "Zu den Einreichungen gehen",
     "formstemplatetypesgeneral": "Allgemeines Formular",
-    "openFolder": "Ordner öffnen"
+    "openFolder": "Ordner öffnen",
+    "stageHidden": "Dieses Formular befindet sich in einer verborgenen Stufe, die Berechtigungen erfordert, um angezeigt zu werden"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Dieses Formular ist gesperrt und akzeptiert keine neuen Einreichungen",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maximale Anzahl von Disziplinarpunkten",
     "WeightsMustTotal100": "Abschnittsgewichte müssen insgesamt 100% ergeben",
     "WeightMustBeBetween": "Das Gewicht muss zwischen 0 und 100% liegen.",
-    "RuleStageRequired": "Bühne ist erforderlich"
+    "RuleStageRequired": "Bühne ist erforderlich",
+    "stageHidden": "Stufenbeschriftung und -symbol sind nur für Absender mit Berechtigungen sichtbar",
+    "stagePublic": "Stufenbeschriftung und -symbol sind für alle Absender sichtbar"
   },
   "StageReorderDialog": {
     "newStage": "Neue Stufe",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Dieser Abschnitt wird sichtbar sein",
     "conditionalRanks": "Bedingte(r) Rang/Ränge",
     "automemberRobloxId": "Auto-Mitglied Roblox-ID",
-    "communityMemberRobloxIdElement": "Community-Mitglied Roblox-ID-Element"
+    "communityMemberRobloxIdElement": "Community-Mitglied Roblox-ID-Element",
+    "stageHidden": "Verborgene Stufe"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"

@@ -210,7 +210,8 @@
     "modifyStageSettings": "Modifier les paramètres de l'étape",
     "modifyTemplate": "Modifier le modèle de formulaire",
     "privateComments": "Accéder aux commentaires privés",
-    "manageOtherComments": "Gérer d'autres commentaires"
+    "manageOtherComments": "Gérer d'autres commentaires",
+    "viewHiddenStages": "Voir les étapes cachées"
   },
   "departments": {
     "departmentName": "Nom du Département",
@@ -1281,7 +1282,8 @@
     "stage": "Étape",
     "goToSubmissions": "Aller aux soumissions",
     "formstemplatetypesgeneral": "Formulaire Général",
-    "openFolder": "Ouvrir le dossier"
+    "openFolder": "Ouvrir le dossier",
+    "stageHidden": "Ce formulaire est dans une étape cachée qui nécessite des autorisations pour être affichée"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Ce formulaire est verrouillé et n'accepte pas de nouvelles soumissions",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Nombre maximal de points disciplinaires",
     "WeightsMustTotal100": "Les poids des sections doivent totaliser 100 % ensemble",
     "WeightMustBeBetween": "Le poids doit être compris entre 0 et 100 %.",
-    "RuleStageRequired": "Le stade est requis"
+    "RuleStageRequired": "Le stade est requis",
+    "stageHidden": "Étiquette et icône d'étape visibles uniquement pour les soumissionnaires avec des autorisations",
+    "stagePublic": "Étiquette et icône d'étape visibles pour tous les soumissionnaires"
   },
   "StageReorderDialog": {
     "newStage": "Nouvelle Étape",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Cette section sera visible",
     "conditionalRanks": "Grade(s) conditionnel(s)",
     "automemberRobloxId": "ID Roblox Membre Auto",
-    "communityMemberRobloxIdElement": "Élément d'identification Roblox du membre de la communauté"
+    "communityMemberRobloxIdElement": "Élément d'identification Roblox du membre de la communauté",
+    "stageHidden": "Étape cachée"
   },
   "selectRoster": {
     "selectRoster": "Sélectionner la Liste"

@@ -210,7 +210,8 @@
     "modifyStageSettings": "Muokkaa vaiheen asetuksia",
     "modifyTemplate": "Muokkaa lomakepohjaa",
     "privateComments": "Pääsy yksityisiin kommentteihin",
-    "manageOtherComments": "Hallitse muita kommentteja"
+    "manageOtherComments": "Hallitse muita kommentteja",
+    "viewHiddenStages": "Näytä piilotetut vaiheet"
   },
   "departments": {
     "departmentName": "Osaston nimi",
@@ -1281,7 +1282,8 @@
     "stage": "Vaihe",
     "goToSubmissions": "Siirry lähetyksiin",
     "formstemplatetypesgeneral": "Yleinen Lomake",
-    "openFolder": "Avaa kansio"
+    "openFolder": "Avaa kansio",
+    "stageHidden": "Tämä lomake on piilotetussa vaiheessa, joka vaatii katsomisoikeudet"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Tämä lomake on lukittu eikä hyväksy uusia lähetyksiä",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Enimmäismäärä kurinpitopisteitä",
     "WeightsMustTotal100": "Osioiden painojen on muodostettava yhteensä 100 %",
     "WeightMustBeBetween": "Painon on oltava 0 ja 100 % välillä",
-    "RuleStageRequired": "Vaihe on pakollinen"
+    "RuleStageRequired": "Vaihe on pakollinen",
+    "stageHidden": "Vaiheen etiketti ja kuvake näkyvät vain oikeudet omaaville lähettäjille",
+    "stagePublic": "Vaiheen etiketti ja kuvake näkyvät kaikille lähettäjille"
   },
   "StageReorderDialog": {
     "newStage": "Uusi vaihe",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Tämä osio on näkyvissä",
     "conditionalRanks": "Ehdollinen Arvo(t)",
     "automemberRobloxId": "Automaatiojäsen Roblox ID",
-    "communityMemberRobloxIdElement": "Yhteisön jäsenen Roblox ID -elementti"
+    "communityMemberRobloxIdElement": "Yhteisön jäsenen Roblox ID -elementti",
+    "stageHidden": "Piilotettu vaihe"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"

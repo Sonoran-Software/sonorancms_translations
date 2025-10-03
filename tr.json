@@ -210,7 +210,8 @@
     "modifyStageSettings": "Aşama Ayarlarını Düzenle",
     "modifyTemplate": "Form Şablonunu Değiştir",
     "privateComments": "Özel Yorumlara Eriş",
-    "manageOtherComments": "Diğer Yorumları Yönet"
+    "manageOtherComments": "Diğer Yorumları Yönet",
+    "viewHiddenStages": "Gizli Aşamaları Görüntüle"
   },
   "departments": {
     "departmentName": "Departman Adı",
@@ -1281,7 +1282,8 @@
     "stage": "Aşama",
     "goToSubmissions": "Gönderimlere git",
     "formstemplatetypesgeneral": "Genel Form",
-    "openFolder": "Klasörü Aç"
+    "openFolder": "Klasörü Aç",
+    "stageHidden": "Bu form, görüntülemek için izin gerektiren gizli bir aşamadadır"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Bu form kilitli ve yeni gönderimleri kabul etmiyor",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Disiplin Puanlarının Maksimum Sayısı",
     "WeightsMustTotal100": "Bölüm ağırlıkları toplamda %100 olmalıdır",
     "WeightMustBeBetween": "Ağırlık %0 ile %100 arasında olmalıdır.",
-    "RuleStageRequired": "Aşama gereklidir"
+    "RuleStageRequired": "Aşama gereklidir",
+    "stageHidden": "Aşama etiketi ve simgesi yalnızca izinli göndericilere görünür",
+    "stagePublic": "Aşama etiketi ve simgesi tüm göndericilere görünür"
   },
   "StageReorderDialog": {
     "newStage": "Yeni Aşama",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Bu bölüm görülebilir olacak",
     "conditionalRanks": "Koşullu Rütbe(ler)",
     "automemberRobloxId": "Otomatik Üye Roblox Kimliği",
-    "communityMemberRobloxIdElement": "Topluluk üyesi Roblox Kimliği öğesi"
+    "communityMemberRobloxIdElement": "Topluluk üyesi Roblox Kimliği öğesi",
+    "stageHidden": "Gizli Aşama"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"

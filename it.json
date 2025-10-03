@@ -210,7 +210,8 @@
     "modifyStageSettings": "Modifica Impostazioni del Palco",
     "modifyTemplate": "Modifica modello modulo",
     "privateComments": "Accedi ai commenti privati",
-    "manageOtherComments": "Gestisci Altri Commenti"
+    "manageOtherComments": "Gestisci Altri Commenti",
+    "viewHiddenStages": "Visualizza fasi nascoste"
   },
   "departments": {
     "departmentName": "Nome del Dipartimento",
@@ -1281,7 +1282,8 @@
     "stage": "Fase",
     "goToSubmissions": "Vai agli invii",
     "formstemplatetypesgeneral": "Modulo Generale",
-    "openFolder": "Apri cartella"
+    "openFolder": "Apri cartella",
+    "stageHidden": "Questo modulo è in una fase nascosta che richiede autorizzazioni per essere visualizzato"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Questo modulo è bloccato e non accetta nuovi invii",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Numero massimo di punti disciplinari",
     "WeightsMustTotal100": "Le percentuali delle sezioni devono totalizzare il 100% complessivamente",
     "WeightMustBeBetween": "Il peso deve essere compreso tra 0 e 100%",
-    "RuleStageRequired": "Il palco è richiesto"
+    "RuleStageRequired": "Il palco è richiesto",
+    "stageHidden": "Etichetta e icona della fase visibili solo ai presentatori con autorizzazioni",
+    "stagePublic": "Etichetta e icona della fase visibili a tutti i presentatori"
   },
   "StageReorderDialog": {
     "newStage": "Nuova Fase",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Questa sezione sarà visibile",
     "conditionalRanks": "Grado Condizionale/i",
     "automemberRobloxId": "ID Roblox Automatico Membri",
-    "communityMemberRobloxIdElement": "Elemento ID Roblox membro della community"
+    "communityMemberRobloxIdElement": "Elemento ID Roblox membro della community",
+    "stageHidden": "Fase nascosta"
   },
   "selectRoster": {
     "selectRoster": "Seleziona Elenco"

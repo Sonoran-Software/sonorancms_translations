@@ -210,7 +210,8 @@
     "modifyStageSettings": "Endre Scenesinnstillinger",
     "modifyTemplate": "Endre skjemamal",
     "privateComments": "Tilgang til private kommentarer",
-    "manageOtherComments": "Administrer andre kommentarer"
+    "manageOtherComments": "Administrer andre kommentarer",
+    "viewHiddenStages": "Vis skjulte trinn"
   },
   "departments": {
     "departmentName": "Avdelingsnavn",
@@ -1281,7 +1282,8 @@
     "stage": "Fase",
     "goToSubmissions": "Gå til innsendinger",
     "formstemplatetypesgeneral": "Generelt skjema",
-    "openFolder": "Åpne mappe"
+    "openFolder": "Åpne mappe",
+    "stageHidden": "Dette skjemaet er i et skjult trinn som krever tillatelser for å vises"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "Dette skjemaet er låst og godtar ikke nye innsendinger",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "Maksimalt antall disiplinære poeng",
     "WeightsMustTotal100": "Seksjonsvekter må til sammen utgjøre 100%",
     "WeightMustBeBetween": "Vekten må være mellom 0 og 100 %",
-    "RuleStageRequired": "Feltet er påkrevd"
+    "RuleStageRequired": "Feltet er påkrevd",
+    "stageHidden": "Trinnetikett og ikon synlig kun for innsendere med tillatelser",
+    "stagePublic": "Trinnetikett og ikon synlig for alle innsendere"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etappe",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "Denne delen vil være synlig",
     "conditionalRanks": "Betinget rang(er)",
     "automemberRobloxId": "Auto-Medlem Roblox-ID",
-    "communityMemberRobloxIdElement": "Fellesskapsmedlem Roblox ID-element"
+    "communityMemberRobloxIdElement": "Fellesskapsmedlem Roblox ID-element",
+    "stageHidden": "Skjult trinn"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"

@@ -210,7 +210,8 @@
     "modifyStageSettings": "تعديل إعدادات المرحلة",
     "modifyTemplate": "تعديل قالب النموذج",
     "privateComments": "الوصول إلى التعليقات الخاصة",
-    "manageOtherComments": "إدارة تعليقات أخرى"
+    "manageOtherComments": "إدارة تعليقات أخرى",
+    "viewHiddenStages": "عرض المراحل المخفية"
   },
   "departments": {
     "departmentName": "اسم القسم",
@@ -1281,7 +1282,8 @@
     "stage": "المرحلة",
     "goToSubmissions": "اذهب إلى الإرسالات",
     "formstemplatetypesgeneral": "النموذج العام",
-    "openFolder": "فتح المجلد"
+    "openFolder": "فتح المجلد",
+    "stageHidden": "هذا النموذج في مرحلة مخفية تتطلب أذونات للمشاهدة"
   },
   "applicationViewer": {
     "thisFormIsLockedAndNotAcceptingNewSubmis": "هذا النموذج مغلق ولا يقبل إرسالات جديدة",
@@ -2262,7 +2264,9 @@
     "MaximumNumberOfDisciplinaryPoints": "الحد الأقصى لعدد النقاط التأديبية",
     "WeightsMustTotal100": "يجب أن يكون إجمالي أوزان الأقسام 100% مجتمعة",
     "WeightMustBeBetween": "الوزن يجب أن يكون بين 0 و 100٪",
-    "RuleStageRequired": "المرحلة مطلوبة"
+    "RuleStageRequired": "المرحلة مطلوبة",
+    "stageHidden": "تسميات المرحلة والرموز مرئية فقط للمقدمين الحاصلين على الأذونات",
+    "stagePublic": "تسميات المرحلة والرموز مرئية لجميع المقدمين"
   },
   "StageReorderDialog": {
     "newStage": "مرحلة جديدة",
@@ -3621,7 +3625,8 @@
     "conditionalQuestionStartExplaination": "هذه القسم ستكون مرئية",
     "conditionalRanks": "رتبة (رتب) شرطية",
     "automemberRobloxId": "معرف Roblox للعضو تلقائيًا",
-    "communityMemberRobloxIdElement": "عنصر معرف Roblox لعضو المجتمع"
+    "communityMemberRobloxIdElement": "عنصر معرف Roblox لعضو المجتمع",
+    "stageHidden": "مرحلة مخفية"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
