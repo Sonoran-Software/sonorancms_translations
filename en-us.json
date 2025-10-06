@@ -4550,6 +4550,9 @@
     "note": "Note",
     "kick": "Kick",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "An error occured while adding disciplinary points: ",
-    "enterUsernames": "Enter Username(s)"
+    "enterUsernames": "Enter Username(s)",
+    "ban": "Ban",
+    "kickExecuteWarning": "This record type will kick the user(s) from the server",
+    "banExecuteWarning": "This record type will ban the user(s) from the server"
   }
 }
