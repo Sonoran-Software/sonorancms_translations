@@ -4550,6 +4550,9 @@
     "note": "Notitie",
     "kick": "Schoppen",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Er is een fout opgetreden bij het toevoegen van disciplinaire punten:",
-    "enterUsernames": "Voer gebruikersnaam/namen in"
+    "enterUsernames": "Voer gebruikersnaam/namen in",
+    "ban": "Verbannen",
+    "kickExecuteWarning": "Dit recordtype zal de gebruiker(s) van de server schoppen",
+    "banExecuteWarning": "Dit recordtype zal de gebruiker(s) van de server verbannen"
   }
 }

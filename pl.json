@@ -4550,6 +4550,9 @@
     "note": "Notatka",
     "kick": "Wyrzuć",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Wystąpił błąd podczas dodawania punktów dyscyplinarnych: ",
-    "enterUsernames": "Wprowadź nazwę użytkownika/użytkowników"
+    "enterUsernames": "Wprowadź nazwę użytkownika/użytkowników",
+    "ban": "Zakaz",
+    "kickExecuteWarning": "Ten typ rekordu wyrzuci użytkownika(ów) z serwera",
+    "banExecuteWarning": "Ten typ rekordu zablokuje użytkownika(ów) na serwerze"
   }
 }

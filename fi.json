@@ -4550,6 +4550,9 @@
     "note": "Huomautus",
     "kick": "Potku",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Virhe tapahtui lisättäessä kurinpitopisteitä:",
-    "enterUsernames": "Anna käyttäjänimi(t)"
+    "enterUsernames": "Anna käyttäjänimi(t)",
+    "ban": "Kielto",
+    "kickExecuteWarning": "Tämä tietuetyyppi potkaisee käyttäjät palvelimelta",
+    "banExecuteWarning": "Tämä tietuetyyppi kieltää käyttäjät palvelimelta"
   }
 }

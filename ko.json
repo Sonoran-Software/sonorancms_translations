@@ -4550,6 +4550,9 @@
     "note": "메모",
     "kick": "추방",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "징계 포인트 추가 중 오류가 발생했습니다:",
-    "enterUsernames": "사용자 이름 입력"
+    "enterUsernames": "사용자 이름 입력",
+    "ban": "차단",
+    "kickExecuteWarning": "이 기록 유형은 사용자를 서버에서 추방합니다",
+    "banExecuteWarning": "이 기록 유형은 사용자를 서버에서 차단합니다"
   }
 }

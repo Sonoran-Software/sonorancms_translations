@@ -4550,6 +4550,9 @@
     "note": "Notiz",
     "kick": "Kick",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Ein Fehler ist beim Hinzufügen der Disziplinarpunkte aufgetreten:",
-    "enterUsernames": "Benutzernamen eingeben"
+    "enterUsernames": "Benutzernamen eingeben",
+    "ban": "Verbot",
+    "kickExecuteWarning": "Dieser Aufzeichnungstyp wird den/die Benutzer aus dem Server entfernen",
+    "banExecuteWarning": "Dieser Aufzeichnungstyp wird den/die Benutzer auf dem Server sperren"
   }
 }

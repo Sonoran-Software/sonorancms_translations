@@ -4550,6 +4550,9 @@
     "note": "Poznámka",
     "kick": "Vyhodit",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Při přidávání disciplinárních bodů došlo k chybě:",
-    "enterUsernames": "Zadejte uživatelské jména"
+    "enterUsernames": "Zadejte uživatelské jména",
+    "ban": "Zákaz",
+    "kickExecuteWarning": "Tento typ záznamu vykopne uživatele ze serveru",
+    "banExecuteWarning": "Tento typ záznamu zakáže uživatele ze serveru"
   }
 }

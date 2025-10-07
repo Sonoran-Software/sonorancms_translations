@@ -4550,6 +4550,9 @@
     "note": "Nota",
     "kick": "Expulsar",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Ocurrió un error al añadir puntos disciplinarios:",
-    "enterUsernames": "Introduce Nombre(s) de Usuario"
+    "enterUsernames": "Introduce Nombre(s) de Usuario",
+    "ban": "Prohibición",
+    "kickExecuteWarning": "Este tipo de registro expulsará al/los usuario(s) del servidor",
+    "banExecuteWarning": "Este tipo de registro prohibirá al/los usuario(s) del servidor"
   }
 }

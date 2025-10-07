@@ -4550,6 +4550,9 @@
     "note": "Not",
     "kick": "At",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Disiplin puanları eklerken bir hata oluştu:",
-    "enterUsernames": "Kullanıcı Ad(lar)ını Girin"
+    "enterUsernames": "Kullanıcı Ad(lar)ını Girin",
+    "ban": "Yasakla",
+    "kickExecuteWarning": "Bu kayıt türü kullanıcıları sunucudan atacak",
+    "banExecuteWarning": "Bu kayıt türü kullanıcıları sunucudan yasaklayacak"
   }
 }

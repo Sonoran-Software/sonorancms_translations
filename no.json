@@ -4550,6 +4550,9 @@
     "note": "Notat",
     "kick": "Sparke",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "En feil oppstod under tillegging av disiplinærpoeng:",
-    "enterUsernames": "Angi brukernavn"
+    "enterUsernames": "Angi brukernavn",
+    "ban": "Utestengelse",
+    "kickExecuteWarning": "Denne posttypen vil sparke brukeren(e) fra serveren",
+    "banExecuteWarning": "Denne posttypen vil utestenge brukeren(e) fra serveren"
   }
 }

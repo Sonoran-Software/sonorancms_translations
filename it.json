@@ -4550,6 +4550,9 @@
     "note": "Nota",
     "kick": "Espelli",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Si è verificato un errore durante l'aggiunta dei punti disciplinari:",
-    "enterUsernames": "Inserisci i nomi utente"
+    "enterUsernames": "Inserisci i nomi utente",
+    "ban": "Divieto",
+    "kickExecuteWarning": "Questo tipo di record espellerà l'utente/gli utenti dal server",
+    "banExecuteWarning": "Questo tipo di record bandirà l'utente/gli utenti dal server"
   }
 }

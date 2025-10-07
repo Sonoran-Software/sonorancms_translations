@@ -4550,6 +4550,9 @@
     "note": "メモ",
     "kick": "追放",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "懲戒ポイントの追加中にエラーが発生しました：",
-    "enterUsernames": "ユーザー名を入力してください"
+    "enterUsernames": "ユーザー名を入力してください",
+    "ban": "禁止",
+    "kickExecuteWarning": "この記録タイプはユーザーをサーバーからキックします",
+    "banExecuteWarning": "この記録タイプはユーザーをサーバーから禁止します"
   }
 }

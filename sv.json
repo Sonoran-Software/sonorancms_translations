@@ -4550,6 +4550,9 @@
     "note": "Notering",
     "kick": "Sparka",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Ett fel inträffade vid tillägg av disciplinära poäng: ",
-    "enterUsernames": "Ange Användarnamn"
+    "enterUsernames": "Ange Användarnamn",
+    "ban": "Avstängning",
+    "kickExecuteWarning": "Denna rekordtyp kommer att sparka användaren/användarna från servern",
+    "banExecuteWarning": "Denna rekordtyp kommer att stänga av användaren/användarna från servern"
   }
 }

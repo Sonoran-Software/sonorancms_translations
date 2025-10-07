@@ -4550,6 +4550,9 @@
     "note": "笔记",
     "kick": "踢出",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "添加纪律积分时发生错误：",
-    "enterUsernames": "输入用户名"
+    "enterUsernames": "输入用户名",
+    "ban": "禁止",
+    "kickExecuteWarning": "此记录类型将把用户从服务器中踢出",
+    "banExecuteWarning": "此记录类型将把用户从服务器中禁止"
   }
 }

@@ -4550,6 +4550,9 @@
     "note": "Notat",
     "kick": "Smut",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "Der opstod en fejl under tilføjelse af disciplinære point: ",
-    "enterUsernames": "Indtast brugernavne"
+    "enterUsernames": "Indtast brugernavne",
+    "ban": "Forbyd",
+    "kickExecuteWarning": "Denne posttype vil sparke brugeren/brugerene fra serveren",
+    "banExecuteWarning": "Denne posttype vil forbyde brugeren/brugerene fra serveren"
   }
 }

@@ -4550,6 +4550,9 @@
     "note": "ملاحظة",
     "kick": "طرد",
     "anErrorOccuredWhileAddingDisciplinaryPoi": "حدث خطأ أثناء إضافة النقاط التأديبية: ",
-    "enterUsernames": "أدخل اسم(اء) المستخدم"
+    "enterUsernames": "أدخل اسم(اء) المستخدم",
+    "ban": "حظر",
+    "kickExecuteWarning": "سيؤدي هذا النوع من السجل إلى طرد المستخدم(ين) من الخادم",
+    "banExecuteWarning": "سيؤدي هذا النوع من السجل إلى حظر المستخدم(ين) من الخادم"
   }
 }
