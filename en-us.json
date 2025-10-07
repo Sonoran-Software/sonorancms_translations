@@ -4375,6 +4375,7 @@
     "jail": "Jail",
     "unjail": "Unjail",
     "sendsThePlayerToJailFor5Minutes": "Sends the player to jail for 5 minutes",
+    "unjailsThePlayerFromJail": "Unjails the player from jail",
     "priority": "Priority",
     "wanted": "Wanted",
     "unwanted": "Unwanted",
