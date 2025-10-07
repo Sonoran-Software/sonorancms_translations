@@ -4464,7 +4464,15 @@
     "addDisciplinaryPoints": "Add Disciplinary Points",
     "sendNotificationToRanks": "Send Notification to Rank(s)",
     "unknownAction": "Unknown Action",
-    "anErrorOccuredWhileAddingServerDetailsTr": "An error occured while adding server details, try again and contact support if issue persists."
+    "anErrorOccuredWhileAddingServerDetailsTr": "An error occured while adding server details, try again and contact support if issue persists.",
+    "socialRequirements": "Social Requirements",
+    "requireSocialLinkedAccounts": "Require Social Linked to Associated CMS Account",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Requires that the Roblox account is linked to a CMS account within the community",
+    "requireDiscordLinkTooltip": "Requires that the CMS account associated to the Roblox account has a linked Discord account",
+    "requireRobloxLinkActionsTooltip": "Actions that execute when the Roblox account doesn't have an associated CMS account",
+    "requireDiscordLinkActionsTooltip": "Actions that execute when the associated CMS account doesn't have a Discord account linked"
   },
   "ERLCActivityLog": {
     "kickedAction": "Kicked Action",
