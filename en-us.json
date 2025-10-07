@@ -4373,6 +4373,7 @@
     "peacetime": "Peacetime",
     "displaysASetTimerNotificationToAllPlayer": "Displays a set timer notification to all players at the bottom left of their screen, above their minimap, until the timer has run out, while also preventing any and all PVP damage conflicts between players",
     "jail": "Jail",
+    "unjail": "Unjail",
     "sendsThePlayerToJailFor5Minutes": "Sends the player to jail for 5 minutes",
     "priority": "Priority",
     "wanted": "Wanted",
@@ -4385,7 +4386,11 @@
     "stopAnyAndAllOngoingFires": "Stop any and all on-going fires",
     "noAlternativeDescriptionAvailable": "No alternative description available",
     "ClickToToggleOption": " (click to toggle option)",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data."
+    "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
+    "helper": "Helper",
+    "unhelper": "Unhelper",
+    "setThePlayerAsAnIngameHelper": "Set the player as an in-game helper",
+    "removeThePlayerAsAnIngameHelper": "Remove the player as in-game helper"
   },
   "ERLCActivity": {
     "filter": "Filter",
