@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "Остановить любые текущие пожары",
     "noAlternativeDescriptionAvailable": "нет доступного альтернативного описания",
     "ClickToToggleOption": "НажмитеЧтобыПереключитьОпцию",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Произошла ошибка при получении данных сервера"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Произошла ошибка при получении данных сервера",
+    "unjail": "Освободить из тюрьмы",
+    "unjailsThePlayerFromJail": "Освобождает игрока из тюрьмы",
+    "helper": "Помощник",
+    "unhelper": "Не помощник",
+    "setThePlayerAsAnIngameHelper": "Назначить игрока игровым помощником",
+    "removeThePlayerAsAnIngameHelper": "Убрать игрока из помощников в игре"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Описание уведомления ERLC",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "Добавить дисциплинарные очки",
     "sendNotificationToRanks": "Отправить уведомление на ранги",
     "unknownAction": "НеизвестноеДействие",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Произошла ошибка при добавлении деталей сервера"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Произошла ошибка при добавлении деталей сервера",
+    "socialRequirements": "Социальные требования",
+    "requireSocialLinkedAccounts": "Требовать привязку социальных сетей к связанному аккаунту CMS",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Требуется, чтобы аккаунт Roblox был связан с аккаунтом CMS в сообществе",
+    "requireDiscordLinkTooltip": "Требуется, чтобы связанный с Roblox аккаунт CMS имел привязанный аккаунт Discord",
+    "requireRobloxLinkActionsTooltip": "Действия, выполняемые, когда аккаунт Roblox не связан с аккаунтом CMS",
+    "requireDiscordLinkActionsTooltip": "Действия, выполняемые, когда связанный аккаунт CMS не имеет привязанного аккаунта Discord"
   },
   "ERLCActivityLog": {
     "kickedAction": "```удален```",

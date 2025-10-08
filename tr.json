@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "devamEdenTümYangınlarıDurdur",
     "noAlternativeDescriptionAvailable": "Alternatif Açıklama Bulunamadı",
     "ClickToToggleOption": "SeçeneğiDeğiştirmekİçinTıklayın",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Sunucu verileri alınırken bir hata oluştu."
+    "errorAnErrorOccuredWhileFetchingServerDa": "Sunucu verileri alınırken bir hata oluştu.",
+    "unjail": "Hapisten çıkar",
+    "unjailsThePlayerFromJail": "Oyuncuyu hapisten çıkarır",
+    "helper": "Yardımcı",
+    "unhelper": "Yardımcıyı kaldır",
+    "setThePlayerAsAnIngameHelper": "Oyuncuyu oyun içi yardımcı olarak ayarla",
+    "removeThePlayerAsAnIngameHelper": "Oyuncuyu oyun içi yardımcı olarak kaldır"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Duyurularla ilgili içerik hakkında bilgi almak için Sonoran CMS bildirim sistemini kullanın.",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "disiplinPuanlarıEkle",
     "sendNotificationToRanks": "RütbelereBildirimGönder",
     "unknownAction": "Bilinmeyen İşlem",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu bilgileri eklenirken bir hata oluştu."
+    "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu bilgileri eklenirken bir hata oluştu.",
+    "socialRequirements": "Sosyal Gereksinimler",
+    "requireSocialLinkedAccounts": "İlgili CMS Hesabına Sosyal Bağlantı Gerektir",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Roblox hesabının topluluk içinde bir CMS hesabına bağlı olmasını gerektirir",
+    "requireDiscordLinkTooltip": "Roblox hesabına bağlı CMS hesabının bir Discord hesabına bağlantılı olmasını gerektirir",
+    "requireRobloxLinkActionsTooltip": "Roblox hesabının bir CMS hesabına bağlı olmadığı durumda yürütülecek işlemler",
+    "requireDiscordLinkActionsTooltip": "İlgili CMS hesabının bir Discord hesabına bağlı olmadığı durumda yürütülecek işlemler"
   },
   "ERLCActivityLog": {
     "kickedAction": "kovulmaAksiyonu",

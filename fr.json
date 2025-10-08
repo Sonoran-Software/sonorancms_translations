@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "arrêter tous les incendies en cours",
     "noAlternativeDescriptionAvailable": "aucune description alternative disponible",
     "ClickToToggleOption": "Cliquez pour basculer l'option",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Une erreur s'est produite lors de la récupération des données du serveur"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Une erreur s'est produite lors de la récupération des données du serveur",
+    "unjail": "Libérer",
+    "unjailsThePlayerFromJail": "Libère le joueur de la prison",
+    "helper": "Assistant",
+    "unhelper": "Désassigner comme assistant",
+    "setThePlayerAsAnIngameHelper": "Définir le joueur comme assistant en jeu",
+    "removeThePlayerAsAnIngameHelper": "Retirer le joueur comme assistant en jeu"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Description du contenu de notification ERLC",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "Ajouter des points disciplinaires",
     "sendNotificationToRanks": "envoyerNotificationAuxRangs",
     "unknownAction": "actionInconnue",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Une erreur s'est produite lors de l'ajout des détails du serveur."
+    "anErrorOccuredWhileAddingServerDetailsTr": "Une erreur s'est produite lors de l'ajout des détails du serveur.",
+    "socialRequirements": "Exigences sociales",
+    "requireSocialLinkedAccounts": "Exiger les comptes sociaux liés au compte CMS associé",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Exige que le compte Roblox soit lié à un compte CMS au sein de la communauté",
+    "requireDiscordLinkTooltip": "Exige que le compte CMS associé au compte Roblox ait un compte Discord lié",
+    "requireRobloxLinkActionsTooltip": "Actions qui s'exécutent lorsque le compte Roblox n'a pas de compte CMS associé",
+    "requireDiscordLinkActionsTooltip": "Actions qui s'exécutent lorsque le compte CMS associé n'a pas de compte Discord lié"
   },
   "ERLCActivityLog": {
     "kickedAction": "expulséAction",

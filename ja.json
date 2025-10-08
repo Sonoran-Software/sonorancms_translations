@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "進行中のすべての火災を停止",
     "noAlternativeDescriptionAvailable": "利用可能な代替説明はありません",
     "ClickToToggleOption": "クリックしてオプションを切り替える",
-    "errorAnErrorOccuredWhileFetchingServerDa": "サーバーデータの取得中にエラーが発生しました"
+    "errorAnErrorOccuredWhileFetchingServerDa": "サーバーデータの取得中にエラーが発生しました",
+    "unjail": "解除する",
+    "unjailsThePlayerFromJail": "プレイヤーを刑務所から解除します",
+    "helper": "ヘルパー",
+    "unhelper": "ヘルパー解除",
+    "setThePlayerAsAnIngameHelper": "プレイヤーをゲーム内のヘルパーとして設定します",
+    "removeThePlayerAsAnIngameHelper": "ゲーム内のヘルパーとしてプレイヤーを削除します"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "ERLC通知コンテンツの説明",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "懲戒ポイントを追加",
     "sendNotificationToRanks": "ランクに通知を送信",
     "unknownAction": "不明なアクション",
-    "anErrorOccuredWhileAddingServerDetailsTr": "サーバーの詳細を追加中にエラーが発生しました"
+    "anErrorOccuredWhileAddingServerDetailsTr": "サーバーの詳細を追加中にエラーが発生しました",
+    "socialRequirements": "ソーシャル要件",
+    "requireSocialLinkedAccounts": "関連するCMSアカウントにソーシャル連携を要求",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Robloxアカウントがコミュニティ内のCMSアカウントにリンクされている必要があります",
+    "requireDiscordLinkTooltip": "Robloxアカウントに関連付けられたCMSアカウントにリンクされたDiscordアカウントがある必要があります",
+    "requireRobloxLinkActionsTooltip": "Robloxアカウントに関連付けられたCMSアカウントがない場合に実行されるアクション",
+    "requireDiscordLinkActionsTooltip": "関連するCMSアカウントにDiscordアカウントがリンクされていない場合に実行されるアクション"
   },
   "ERLCActivityLog": {
     "kickedAction": "キック",

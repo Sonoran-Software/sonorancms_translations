@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "Stoppen Sie jegliche laufende Feuer",
     "noAlternativeDescriptionAvailable": "keine alternative Beschreibung verfügbar",
     "ClickToToggleOption": "Klicken Sie, um die Option umzuschalten",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Beim Abrufen der Serverdaten ist ein Fehler aufgetreten."
+    "errorAnErrorOccuredWhileFetchingServerDa": "Beim Abrufen der Serverdaten ist ein Fehler aufgetreten.",
+    "unjail": "Aus dem Gefängnis entlassen",
+    "unjailsThePlayerFromJail": "Entlässt den Spieler aus dem Gefängnis",
+    "helper": "Helfer",
+    "unhelper": "Nicht-Helfer",
+    "setThePlayerAsAnIngameHelper": "Setze den Spieler als In-Game-Helfer",
+    "removeThePlayerAsAnIngameHelper": "Entferne den Spieler als In-Game-Helfer"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Du hast einen neuen Erlc-Notruf erhalten: {{callType}}.",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "Disziplinarpunkte hinzufügen",
     "sendNotificationToRanks": "Benachrichtigung an Ränge senden",
     "unknownAction": "unbekannte Aktion",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Beim Hinzufügen der Serverdetails ist ein Fehler aufgetreten."
+    "anErrorOccuredWhileAddingServerDetailsTr": "Beim Hinzufügen der Serverdetails ist ein Fehler aufgetreten.",
+    "socialRequirements": "Soziale Anforderungen",
+    "requireSocialLinkedAccounts": "Erfordert verknüpfte soziale Konten mit dem zugehörigen CMS-Konto",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Erfordert, dass das Roblox-Konto mit einem CMS-Konto innerhalb der Community verknüpft ist",
+    "requireDiscordLinkTooltip": "Erfordert, dass das CMS-Konto, das mit dem Roblox-Konto verknüpft ist, ein verknüpftes Discord-Konto hat",
+    "requireRobloxLinkActionsTooltip": "Aktionen, die ausgeführt werden, wenn das Roblox-Konto kein zugehöriges CMS-Konto hat",
+    "requireDiscordLinkActionsTooltip": "Aktionen, die ausgeführt werden, wenn das zugehörige CMS-Konto kein verknüpftes Discord-Konto hat"
   },
   "ERLCActivityLog": {
     "kickedAction": "Gekickt-Aktion",

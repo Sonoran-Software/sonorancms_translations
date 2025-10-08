@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "أوقف جميع الحرائق الجارية",
     "noAlternativeDescriptionAvailable": "لا يوجد وصف بديل متاح",
     "ClickToToggleOption": "انقر للتبديل الخيار",
-    "errorAnErrorOccuredWhileFetchingServerDa": "حدث خطأ أثناء جلب بيانات الخادم"
+    "errorAnErrorOccuredWhileFetchingServerDa": "حدث خطأ أثناء جلب بيانات الخادم",
+    "unjail": "إخراج من السجن",
+    "unjailsThePlayerFromJail": "يخرج اللاعب من السجن",
+    "helper": "مساعد",
+    "unhelper": "إزالة مساعدة",
+    "setThePlayerAsAnIngameHelper": "تعيين اللاعب كمساعد في اللعبة",
+    "removeThePlayerAsAnIngameHelper": "إزالة اللاعب كمساعد في اللعبة"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "وصف المحتوى المرسل",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "إضافة نقاط تأديبية",
     "sendNotificationToRanks": "إرسال إشعار إلى الرتب",
     "unknownAction": "إجراء غير معروف",
-    "anErrorOccuredWhileAddingServerDetailsTr": "حدث خطأ أثناء إضافة تفاصيل الخادم."
+    "anErrorOccuredWhileAddingServerDetailsTr": "حدث خطأ أثناء إضافة تفاصيل الخادم.",
+    "socialRequirements": "متطلبات اجتماعية",
+    "requireSocialLinkedAccounts": "يتطلب حسابات اجتماعية مرتبطة بحساب CMS ذو الصلة",
+    "roblox": "روبلكس",
+    "discord": "ديسكورد",
+    "requireRobloxLinkTooltip": "يتطلب أن يكون حساب روبلكس مرتبطًا بحساب CMS داخل المجتمع",
+    "requireDiscordLinkTooltip": "يتطلب أن يكون حساب CMS المرتبط بحساب روبلكس مرتبطًا بحساب ديسكورد",
+    "requireRobloxLinkActionsTooltip": "الإجراءات التي تنفذ عندما لا يحتوي حساب روبلكس على حساب CMS مرتبط",
+    "requireDiscordLinkActionsTooltip": "الإجراءات التي تنفذ عندما لا يحتوي حساب CMS ذو الصلة على حساب ديسكورد مرتبط"
   },
   "ERLCActivityLog": {
     "kickedAction": "تم طرده",

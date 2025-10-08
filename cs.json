@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "zastavit všechny probíhající požáry",
     "noAlternativeDescriptionAvailable": "není k dispozici žádný alternativní popis",
     "ClickToToggleOption": "Kliknutím přepnete možnost",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Došlo k chybě při získávání dat serveru."
+    "errorAnErrorOccuredWhileFetchingServerDa": "Došlo k chybě při získávání dat serveru.",
+    "unjail": "Propustit z vězení",
+    "unjailsThePlayerFromJail": "Propustí hráče z vězení",
+    "helper": "Pomocník",
+    "unhelper": "Odebrat pomocníka",
+    "setThePlayerAsAnIngameHelper": "Nastavit hráče jako herního pomocníka",
+    "removeThePlayerAsAnIngameHelper": "Odebrat hráče jako herního pomocníka"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Popis oznámení ERLC",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "přidat disciplinární body",
     "sendNotificationToRanks": "odeslatOznámeníNaHodnosti",
     "unknownAction": "neznámá akce",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Při přidávání podrobností o serveru došlo k chybě"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Při přidávání podrobností o serveru došlo k chybě",
+    "socialRequirements": "Sociální požadavky",
+    "requireSocialLinkedAccounts": "Vyžadovat propojení sociálních účtů s asociovaným účtem CMS",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Vyžaduje, aby byl účet Roblox propojen s účtem CMS v rámci komunity",
+    "requireDiscordLinkTooltip": "Vyžaduje, aby účet CMS asociovaný k účtu Roblox měl propojený účet Discord",
+    "requireRobloxLinkActionsTooltip": "Akce, které se spustí, když účet Roblox nemá asociovaný účet CMS",
+    "requireDiscordLinkActionsTooltip": "Akce, které se spustí, když asociovaný účet CMS nemá propojený účet Discord"
   },
   "ERLCActivityLog": {
     "kickedAction": "vykopnutoAction",

@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "停止任何及所有正在进行的火灾",
     "noAlternativeDescriptionAvailable": "没有可用的替代说明",
     "ClickToToggleOption": "单击以切换选项",
-    "errorAnErrorOccuredWhileFetchingServerDa": "获取服务器数据时发生错误"
+    "errorAnErrorOccuredWhileFetchingServerDa": "获取服务器数据时发生错误",
+    "unjail": "解除监禁",
+    "unjailsThePlayerFromJail": "将玩家从监狱中释放",
+    "helper": "助手",
+    "unhelper": "解除助手",
+    "setThePlayerAsAnIngameHelper": "将玩家设置为游戏助理",
+    "removeThePlayerAsAnIngameHelper": "取消玩家的游戏助理身份"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "您有一條新的緊急通知",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "添加纪律点数",
     "sendNotificationToRanks": "向等级发送通知",
     "unknownAction": "未知操作",
-    "anErrorOccuredWhileAddingServerDetailsTr": "在添加服务器详细信息时发生错误"
+    "anErrorOccuredWhileAddingServerDetailsTr": "在添加服务器详细信息时发生错误",
+    "socialRequirements": "社交要求",
+    "requireSocialLinkedAccounts": "需要将社交账号与CMS账户关联",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "需要将Roblox帐户链接到社区内的CMS帐户",
+    "requireDiscordLinkTooltip": "要求与Roblox帐户关联的CMS帐户具有已链接的Discord帐户",
+    "requireRobloxLinkActionsTooltip": "当Roblox帐户没有关联的CMS帐户时执行的操作",
+    "requireDiscordLinkActionsTooltip": "当关联的CMS帐户没有链接的Discord帐户时执行的操作"
   },
   "ERLCActivityLog": {
     "kickedAction": "踢出操作",

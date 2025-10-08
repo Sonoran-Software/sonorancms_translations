@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "pareQualquerEFogoEmAndamento",
     "noAlternativeDescriptionAvailable": "```plaintext\nnenhumaDescriçãoAlternativaDisponível\n```",
     "ClickToToggleOption": "Clique para alternar a opção",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Ocorreu um erro ao buscar os dados do servidor"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Ocorreu um erro ao buscar os dados do servidor",
+    "unjail": "Desencarcerar",
+    "unjailsThePlayerFromJail": "Liberta o jogador da prisão",
+    "helper": "Assistente",
+    "unhelper": "Remover Assistente",
+    "setThePlayerAsAnIngameHelper": "Defina o jogador como assistente no jogo",
+    "removeThePlayerAsAnIngameHelper": "Remover o jogador como assistente no jogo"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Descrição do Conteúdo da Notificação ERLC",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "adicionarPontosDisciplinares",
     "sendNotificationToRanks": "enviarNotificaçãoParaPatentes",
     "unknownAction": "açãoDesconhecida",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Ocorreu um erro ao adicionar detalhes do servidor"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Ocorreu um erro ao adicionar detalhes do servidor",
+    "socialRequirements": "Requisitos Sociais",
+    "requireSocialLinkedAccounts": "Requer contas sociais vinculadas à conta CMS associada",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Requer que a conta Roblox esteja vinculada a uma conta CMS na comunidade",
+    "requireDiscordLinkTooltip": "Requer que a conta CMS associada à conta Roblox tenha uma conta Discord vinculada",
+    "requireRobloxLinkActionsTooltip": "Ações que são executadas quando a conta Roblox não tem uma conta CMS associada",
+    "requireDiscordLinkActionsTooltip": "Ações que são executadas quando a conta CMS associada não tem uma conta Discord vinculada"
   },
   "ERLCActivityLog": {
     "kickedAction": "açãoExpulsar",

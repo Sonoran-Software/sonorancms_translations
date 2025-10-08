@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "pysäytäKaikkiJaKaikkiMeneilläänOlevatTulipalot",
     "noAlternativeDescriptionAvailable": "vaihtoehtoista kuvausta ei ole saatavilla",
     "ClickToToggleOption": "NapsautaVaihtoehdonVaihtamiseksi",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Virhe: Tapahtui virhe haettaessa palvelimen tietoja"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Virhe: Tapahtui virhe haettaessa palvelimen tietoja",
+    "unjail": "Vapauta vankilasta",
+    "unjailsThePlayerFromJail": "Vapauttaa pelaajan vankilasta",
+    "helper": "Avustaja",
+    "unhelper": "Poista avustaja",
+    "setThePlayerAsAnIngameHelper": "Aseta pelaaja pelin sisäiseksi avustajaksi",
+    "removeThePlayerAsAnIngameHelper": "Poista pelaaja pelin sisäisenä avustajana"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "erlcNotiSisaellyskuvaseloste",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "lisääKuripisteitä",
     "sendNotificationToRanks": "lähetäIlmoitusAsemiin",
     "unknownAction": "tuntematonToiminto",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Palvelimen tietojen lisäämisen aikana tapahtui virhe."
+    "anErrorOccuredWhileAddingServerDetailsTr": "Palvelimen tietojen lisäämisen aikana tapahtui virhe.",
+    "socialRequirements": "Sosiaalivaatimukset",
+    "requireSocialLinkedAccounts": "Vaadi yhdistettyjä sosiaalisia tilejä liittyneeksi CMS-tiliin",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Vaatii, että Roblox-tili on yhdistetty yhteisön CMS-tiliin",
+    "requireDiscordLinkTooltip": "Vaatii, että Roblox-tiliin liitetty CMS-tili on yhdistetty Discord-tiliin",
+    "requireRobloxLinkActionsTooltip": "Toiminnot, jotka suoritetaan, kun Roblox-tilillä ei ole yhdistettyä CMS-tiliä",
+    "requireDiscordLinkActionsTooltip": "Toiminnot, jotka suoritetaan, kun yhdistetyllä CMS-tilillä ei ole yhdistettyä Discord-tiliä"
   },
   "ERLCActivityLog": {
     "kickedAction": "potkittuToiminta",

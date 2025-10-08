@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "stopAllePågåendeBrande",
     "noAlternativeDescriptionAvailable": "ingenAlternativBeskrivelseTilgængelig",
     "ClickToToggleOption": "Klik for at skifte indstilling",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Der opstod en fejl under hentning af serverdata"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Der opstod en fejl under hentning af serverdata",
+    "unjail": "Fjern fra fængsel",
+    "unjailsThePlayerFromJail": "Fjerner spilleren fra fængslet",
+    "helper": "Hjælper",
+    "unhelper": "Ikke hjælper",
+    "setThePlayerAsAnIngameHelper": "Indstil spilleren som en in-game hjælper",
+    "removeThePlayerAsAnIngameHelper": "Fjern spilleren som in-game hjælper"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "erlcNotiIndholdsBeskrivelse",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "TilføjDisciplinærePoint",
     "sendNotificationToRanks": "send besked til rækker",
     "unknownAction": "ukendtHandling",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Der opstod en fejl under tilføjelse af serverdetaljer"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Der opstod en fejl under tilføjelse af serverdetaljer",
+    "socialRequirements": "Sociale krav",
+    "requireSocialLinkedAccounts": "Kræver sociale links tilknyttet tilhørende CMS-konto",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Kræver, at Roblox-kontoen er knyttet til en CMS-konto inden for fællesskabet",
+    "requireDiscordLinkTooltip": "Kræver, at den CMS-konto, der er tilknyttet Roblox-kontoen, har en Discord-konto knyttet",
+    "requireRobloxLinkActionsTooltip": "Handlinger, der udføres, når Roblox-kontoen ikke har en tilknyttet CMS-konto",
+    "requireDiscordLinkActionsTooltip": "Handlinger, der udføres, når den tilknyttede CMS-konto ikke har en Discord-konto knyttet"
   },
   "ERLCActivityLog": {
     "kickedAction": "udelukkelseshandling",

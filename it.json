@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "ferma tutti gli incendi in corso",
     "noAlternativeDescriptionAvailable": "nessuna descrizione alternativa disponibile",
     "ClickToToggleOption": "Fare clic per attivare l'opzione",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Si è verificato un errore durante il recupero dei dati del server"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Si è verificato un errore durante il recupero dei dati del server",
+    "unjail": "Libera",
+    "unjailsThePlayerFromJail": "Libera il giocatore dalla prigione",
+    "helper": "Assistente",
+    "unhelper": "Rimuovi assistente",
+    "setThePlayerAsAnIngameHelper": "Imposta il giocatore come assistente in-game",
+    "removeThePlayerAsAnIngameHelper": "Rimuovi il giocatore come assistente in-game"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Descrizione del contenuto delle notifiche ERLC",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "aggiungiPuntiDisciplinari",
     "sendNotificationToRanks": "invioNotificaAiGradi",
     "unknownAction": "azioneSconosciuta",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Si è verificato un errore durante l'aggiunta dei dettagli del server"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Si è verificato un errore durante l'aggiunta dei dettagli del server",
+    "socialRequirements": "Requisiti sociali",
+    "requireSocialLinkedAccounts": "Richiedi social collegato all'account CMS associato",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Richiede che l'account Roblox sia collegato a un account CMS all'interno della comunità",
+    "requireDiscordLinkTooltip": "Richiede che l'account CMS associato all'account Roblox abbia un account Discord collegato",
+    "requireRobloxLinkActionsTooltip": "Azioni che vengono eseguite quando l'account Roblox non ha un account CMS associato",
+    "requireDiscordLinkActionsTooltip": "Azioni che vengono eseguite quando l'account CMS associato non ha un account Discord collegato"
   },
   "ERLCActivityLog": {
     "kickedAction": "azioneEspulso",

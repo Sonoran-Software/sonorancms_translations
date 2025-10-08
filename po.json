@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "detenerCualquierIncendioDeFuegoActivos",
     "noAlternativeDescriptionAvailable": "aceit an eus ar gael",
     "ClickToToggleOption": "Haz clic para cambiar la opción",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Ocurrió un error al obtener los datos del servidor"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Ocurrió un error al obtener los datos del servidor",
+    "unjail": "Desprender",
+    "unjailsThePlayerFromJail": "Desprende o jogador da prisão",
+    "helper": "Ajudante",
+    "unhelper": "Desajudante",
+    "setThePlayerAsAnIngameHelper": "Define o jogador como ajudante no jogo",
+    "removeThePlayerAsAnIngameHelper": "Remove o jogador como ajudante no jogo"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "BLIP notifikasi ERLC tampilan dan isi dapat disesuaikan di pengaturan.",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "Dodaj punkty dyscyplinarne",
     "sendNotificationToRanks": "wyślijPowiadomienieDoRang",
     "unknownAction": "acciónDesconocida",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Servidor eklerken bir hata oluştu."
+    "anErrorOccuredWhileAddingServerDetailsTr": "Servidor eklerken bir hata oluştu.",
+    "socialRequirements": "Requisitos Sociais",
+    "requireSocialLinkedAccounts": "Exigir contas sociais vinculadas à conta associada do CMS",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Requer que a conta do Roblox esteja vinculada a uma conta CMS dentro da comunidade",
+    "requireDiscordLinkTooltip": "Requer que a conta CMS associada à conta do Roblox tenha uma conta do Discord vinculada",
+    "requireRobloxLinkActionsTooltip": "Ações que executam quando a conta do Roblox não tem uma conta CMS associada",
+    "requireDiscordLinkActionsTooltip": "Ações que executam quando a conta CMS associada não tem uma conta do Discord vinculada"
   },
   "ERLCActivityLog": {
     "kickedAction": "AzioneEspulsa",

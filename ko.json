@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "모든 진행 중인 화재 중지",
     "noAlternativeDescriptionAvailable": "대체 설명을 사용할 수 없음",
     "ClickToToggleOption": "옵션 전환을 클릭하세요",
-    "errorAnErrorOccuredWhileFetchingServerDa": "서버 데이터를 가져오는 동안 오류가 발생했습니다."
+    "errorAnErrorOccuredWhileFetchingServerDa": "서버 데이터를 가져오는 동안 오류가 발생했습니다.",
+    "unjail": "출소",
+    "unjailsThePlayerFromJail": "플레이어를 감옥에서 출소시킵니다",
+    "helper": "도우미",
+    "unhelper": "도우미 해제",
+    "setThePlayerAsAnIngameHelper": "플레이어를 게임 내 도우미로 설정",
+    "removeThePlayerAsAnIngameHelper": "플레이어를 게임 내 도우미에서 제거"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "erlcNotiContentDescription",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "징계 포인트 추가",
     "sendNotificationToRanks": "랭크에 알림 보내기",
     "unknownAction": "알 수 없는 동작",
-    "anErrorOccuredWhileAddingServerDetailsTr": "서버 세부 정보를 추가하는 동안 오류가 발생했습니다."
+    "anErrorOccuredWhileAddingServerDetailsTr": "서버 세부 정보를 추가하는 동안 오류가 발생했습니다.",
+    "socialRequirements": "소셜 요구 사항",
+    "requireSocialLinkedAccounts": "연결된 소셜 계정이 CMS 계정에 필요",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Roblox 계정이 커뮤니티 내 CMS 계정에 연결되어야 합니다",
+    "requireDiscordLinkTooltip": "CMS 계정이 Roblox 계정과 연결된 Discord 계정을 가져야 합니다",
+    "requireRobloxLinkActionsTooltip": "Roblox 계정에 연결된 CMS 계정이 없을 때 실행되는 작업",
+    "requireDiscordLinkActionsTooltip": "연결된 Discord 계정이 없는 CMS 계정이 있을 때 실행되는 작업"
   },
   "ERLCActivityLog": {
     "kickedAction": "추방됨",

@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "zatrzymajWszystkieTrwającePożary",
     "noAlternativeDescriptionAvailable": "alternatywny opis niedostępny",
     "ClickToToggleOption": "Kliknij, aby przełączyć opcję",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera",
+    "unjail": "Uwolnij",
+    "unjailsThePlayerFromJail": "Uwolnienie gracza z więzienia",
+    "helper": "Pomocnik",
+    "unhelper": "Usuń pomocnika",
+    "setThePlayerAsAnIngameHelper": "Ustaw gracza jako pomocnik w grze",
+    "removeThePlayerAsAnIngameHelper": "Usuń gracza jako pomocnika w grze"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Zaktualizuj konfigurację webhooków dla Emergency Response: Liberty County.",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "dodajPunktyDyscyplinarne",
     "sendNotificationToRanks": "wyślijPowiadomienieDoStopni",
     "unknownAction": "nieznanaAkcja",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Wystąpił błąd podczas dodawania szczegółów serwera"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Wystąpił błąd podczas dodawania szczegółów serwera",
+    "socialRequirements": "Wymagania społecznościowe",
+    "requireSocialLinkedAccounts": "Wymaga połączenia społecznościowego z powiązanym kontem CMS",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Wymaga, aby konto Roblox było połączone z kontem CMS w społeczności",
+    "requireDiscordLinkTooltip": "Wymaga, aby konto CMS powiązane z kontem Roblox miało połączone konto Discord",
+    "requireRobloxLinkActionsTooltip": "Akcje wykonywane, gdy konto Roblox nie ma powiązanego konta CMS",
+    "requireDiscordLinkActionsTooltip": "Akcje wykonywane, gdy powiązane konto CMS nie ma połączonego konta Discord"
   },
   "ERLCActivityLog": {
     "kickedAction": "akcjaWyrzucenia",

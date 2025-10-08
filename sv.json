@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "stoppaAllaOchAllaPågåendeBränderna",
     "noAlternativeDescriptionAvailable": "ingenAlternativBeskrivningTillgänglig",
     "ClickToToggleOption": "```Klicka för att växla alternativ```",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Ett fel inträffade vid hämtning av serverdata"
+    "errorAnErrorOccuredWhileFetchingServerDa": "Ett fel inträffade vid hämtning av serverdata",
+    "unjail": "Ta ut ur fängelse",
+    "unjailsThePlayerFromJail": "Tar spelaren ut ur fängelse",
+    "helper": "Hjälpare",
+    "unhelper": "Ta bort hjälpare",
+    "setThePlayerAsAnIngameHelper": "Ställ in spelaren som en i-spel hjälpare",
+    "removeThePlayerAsAnIngameHelper": "Ta bort spelaren som i-spel hjälpare"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Författaren har använt \"Skicka ER:LC-innehåll\"",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "lägg till disciplinära poäng",
     "sendNotificationToRanks": "skickaNotifikationTillRangerna",
     "unknownAction": "okänd åtgärd",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Ett fel uppstod vid tillägg av serverdetaljer"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Ett fel uppstod vid tillägg av serverdetaljer",
+    "socialRequirements": "Sociala krav",
+    "requireSocialLinkedAccounts": "Kräv Social länkad till associerad CMSkonto",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Kräver att Roblox-kontot är länkat till ett CMS-konto inom communityn",
+    "requireDiscordLinkTooltip": "Kräver att CMS-kontot associerat med Roblox-kontot har ett länkat Discord-konto",
+    "requireRobloxLinkActionsTooltip": "Åtgärder som utförs när Roblox-kontot inte har ett associerat CMS-konto",
+    "requireDiscordLinkActionsTooltip": "Åtgärder som utförs när det associerade CMS-kontot inte har ett länkat Discord-konto"
   },
   "ERLCActivityLog": {
     "kickedAction": "sparkadÅtgärd",

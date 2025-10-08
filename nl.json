@@ -4336,7 +4336,13 @@
     "stopAnyAndAllOngoingFires": "stop alle lopende branden",
     "noAlternativeDescriptionAvailable": "geenAlternatieveBeschrijvingBeschikbaar",
     "ClickToToggleOption": "KlikOmOptieTeWisselen",
-    "errorAnErrorOccuredWhileFetchingServerDa": "Er is een fout opgetreden bij het ophalen van servergegevens."
+    "errorAnErrorOccuredWhileFetchingServerDa": "Er is een fout opgetreden bij het ophalen van servergegevens.",
+    "unjail": "Uit de gevangenis halen",
+    "unjailsThePlayerFromJail": "Haalt de speler uit de gevangenis",
+    "helper": "Helper",
+    "unhelper": "Verwijder als helper",
+    "setThePlayerAsAnIngameHelper": "Stel de speler in als in-game helper",
+    "removeThePlayerAsAnIngameHelper": "Verwijder de speler als in-game helper"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "ERLC serveraankondigingen instellen en ontvangen in dit menu.",
@@ -4459,7 +4465,15 @@
     "addDisciplinaryPoints": "Voeg Disciplinaire Punten Toe",
     "sendNotificationToRanks": "stuurMeldingNaarRangen",
     "unknownAction": "onbekendeActie",
-    "anErrorOccuredWhileAddingServerDetailsTr": "Er is een fout opgetreden bij het toevoegen van serverdetails"
+    "anErrorOccuredWhileAddingServerDetailsTr": "Er is een fout opgetreden bij het toevoegen van serverdetails",
+    "socialRequirements": "Sociale vereisten",
+    "requireSocialLinkedAccounts": "Vereist sociale gekoppelde accounts aan het CMS-account",
+    "roblox": "Roblox",
+    "discord": "Discord",
+    "requireRobloxLinkTooltip": "Vereist dat het Roblox-account is gekoppeld aan een CMS-account binnen de community",
+    "requireDiscordLinkTooltip": "Vereist dat het CMS-account dat aan het Roblox-account is gekoppeld ook een gekoppeld Discord-account heeft",
+    "requireRobloxLinkActionsTooltip": "Acties die worden uitgevoerd wanneer het Roblox-account geen gekoppeld CMS-account heeft",
+    "requireDiscordLinkActionsTooltip": "Acties die worden uitgevoerd wanneer het gekoppelde CMS-account geen Discord-account heeft gekoppeld"
   },
   "ERLCActivityLog": {
     "kickedAction": "geweigerdActie",
