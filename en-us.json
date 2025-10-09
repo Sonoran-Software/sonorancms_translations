@@ -3622,7 +3622,11 @@
     "ranksToRemove": "Ranks To Remove",
     "noRanksSelectedToBeRemovedFromAccounts": "No ranks selected to be removed from accounts...",
     "sonoranBotEncounteredAnIssue": "Sonoran Bot encountered an issue:",
-    "banConfiguration": "Ban Configuration"
+    "banConfiguration": "Ban Configuration",
+    "erlcKick": "ER:LC Kick",
+    "erlcKickContentDescription": "This action will automatically kick the user from the ER:LC server with a reason if provided.",
+    "erlcBan": "ER:LC Ban",
+    "erlcBanContentDescription": "This action will automatically ban the user from the ER:LC server with a reason if provided."
   },
   "OnJoinActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when they join the community. You can utilize the following template strings: {'{com_name}'}, {'{username}'} to have dynamic data within the notification content.",
@@ -4567,6 +4571,13 @@
     "enterUsernames": "Enter Username(s)",
     "ban": "Ban",
     "kickExecuteWarning": "This record type will kick the user(s) from the server",
-    "banExecuteWarning": "This record type will ban the user(s) from the server"
+    "banExecuteWarning": "This record type will ban the user(s) from the server",
+    "editExistingRecord": "Edit Existing Record",
+    "saveChanges": "Save Changes",
+    "anErrorOccuredWhileSaving": "An error occured while saving: ",
+    "editedTheRecords": "edited the record's",
+    "pointsFrom": "points from",
+    "to": "to",
+    "reasonFrom": "reason from"
   }
 }
