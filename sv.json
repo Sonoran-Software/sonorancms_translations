@@ -60,7 +60,9 @@
     "manage": "Hantera",
     "return": "Återvänd",
     "learnMore": "Läs mer",
-    "previewTempStageGroupDetails": "Förhandsgranska steggruppsdetaljer"
+    "previewTempStageGroupDetails": "Förhandsgranska steggruppsdetaljer",
+    "days": "Dagar",
+    "search": "Sök"
   },
   "permissions": {
     "kickUser": "Sparka användare",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Konfigurera din DNS-post",
     "chooseYourDomainName": "Välj ditt domännamn",
     "saveYourCommunitesCustomDomain": "Spara din communities anpassade domän",
-    "customCommunityDomain": "Anpassad Community-domän"
+    "customCommunityDomain": "Anpassad Community-domän",
+    "freeVanityDescription": "Varje gemenskap har en gratis vanity-URL baserad på ditt gemenskaps-ID.",
+    "ownDomainDescription": "Äger du din egen domän? Använd en helt anpassad domän för din gemenskap!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Community-anpassningstutorial",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Ett fel inträffade vid sparning, försök igen.",
     "nameFormat": "Namnformat",
     "formatKeys": "Formateringsnycklar",
-    "disabledNameCustomizations": "Namnformat inaktiverat på grund av Discord-namnsynkronisering"
+    "disabledNameCustomizations": "Namnformat inaktiverat på grund av Discord-namnsynkronisering",
+    "onJoinActions": "Vid Gå Med-Åtgärder"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-förkortare handledning",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Lägg till nytt länkförkortare-subdomän",
     "saveYourCommunitesLinkSubdomain": "Spara ny länkens subdomän",
     "vanityCustomLong": "Vanity/Anpassad/Lång",
-    "learnHowToCreateShortenerForYourCommunit": "Lär dig hur du skapar korta URL:er för din community"
+    "learnHowToCreateShortenerForYourCommunit": "Lär dig hur du skapar korta URL:er för din community",
+    "createDescription": "Skapa korta URL:er med din gemenskaps anpassade domän, anpassade subdomän eller din gratis vanity-URL.",
+    "domain": "Domän",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Redigera rosterkolumn",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Ändra status",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Avisering"
+    "notification": "Avisering",
+    "erlcKick": "ER:LC Sparka",
+    "erlcKickContentDescription": "Denna åtgärd kommer automatiskt att sparka användaren från ER:LC-servern med en anledning om angiven.",
+    "erlcBan": "ER:LC Bannlys",
+    "erlcBanContentDescription": "Denna åtgärd kommer automatiskt att bannlysa användaren från ER:LC-servern med en anledning om angiven."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinäraPoäng",
     "noActiveDisciplinaryPoints": "inga aktiva disciplinära poäng",
-    "addDisciplinaryPoints": "lägg till disciplinära poäng"
+    "addDisciplinaryPoints": "lägg till disciplinära poäng",
+    "configureActions": "Konfigurera Åtgärder",
+    "accountLabel": "Konto",
+    "noRobloxAccountLinked": "Inget Roblox-konto Länkat",
+    "pointsLabel": "Poäng",
+    "reasonLabel": "Anledning"
   },
   "RadioIntegration": {
     "remove": "ta bort",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "Detta ERLC-begränsningsåtgärd kommer att skicka en Discord",
     "thisErlcRestrictionActionWillSendIssueDi": "dennaERLCRestriktionsåtgärdkommerattskickautärendeDi",
     "thisErlcRestrictionActionWillIssueAWante": "dennaErlcBegränsningsåtgärdKommerUtfärdaEnEfterlysning",
-    "thisErlcRestrictionActionWillSendACmsNot": "dennErlcBegränsningsÅtgärdenKommerSkickaEnCmsNot"
+    "thisErlcRestrictionActionWillSendACmsNot": "dennErlcBegränsningsÅtgärdenKommerSkickaEnCmsNot",
+    "sourceServer": "Källserver"
   },
   "ERLCActivity": {
     "filter": "filter",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Ange Användarnamn",
     "ban": "Avstängning",
     "kickExecuteWarning": "Denna rekordtyp kommer att sparka användaren/användarna från servern",
-    "banExecuteWarning": "Denna rekordtyp kommer att stänga av användaren/användarna från servern"
+    "banExecuteWarning": "Denna rekordtyp kommer att stänga av användaren/användarna från servern",
+    "editExistingRecord": "Redigera Befintlig Post",
+    "saveChanges": "Spara Ändringar",
+    "anErrorOccuredWhileSaving": "Ett fel uppstod vid sparande:",
+    "editedTheRecords": "redigerade postens",
+    "pointsFrom": "poäng från",
+    "to": "till",
+    "reasonFrom": "orsak från"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Ange hur lång tid det tar innan poäng förfaller.",
+    "clickEnableExpiring": "Klicka för att aktivera poängförfall",
+    "clickDisableExpiring": "Klicka för att inaktivera poängförfall",
+    "automatedActions": "Automatiserade Åtgärder",
+    "performAutomatedActions": "Utför automatiserade åtgärder när en användare når en viss poänggräns.",
+    "pointThreshold": "Poänggräns",
+    "points": "Poäng",
+    "accounts": "Konton",
+    "actions": "Konfiguration",
+    "pointExpiration": "Poängförfall"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Tillåtna Inloggningsmetoder",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Automatiserade Åtgärder",
+    "subtitle": "Schemalägg rutinåtgärder som ska utföras med regelbundna intervaller.",
+    "everyMinutes": "Varje {minutes} Minuter",
+    "manualTrigger": "Manuellt Utlös Åtgärd",
+    "enabled": "Aktiverad",
+    "disabled": "Inaktiverad",
+    "executeEveryMinutes": "Utför Varje X Minuter",
+    "minimumIntervalValidation": "Måste vara mer än 5 minuter",
+    "unknownAction": "Okänd Åtgärd",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC Tips",
+    "erlcNotification": "ERLC Meddelande"
+  },
+  "integrationsPortal": {
+    "title": "Officiella Integrationer",
+    "subtitle": "Saknar du något du vill ha?",
+    "suggestIntegration": "Föreslå en integration!",
+    "comingSoon": "Kommer Snart!",
+    "noPermissionTooltip": "{integration} - Ingen Behörighet",
+    "newBadge": "NY"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Modifiera Ranks",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Meddelande",
+    "email": "E-post"
   }
 }

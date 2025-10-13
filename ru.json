@@ -60,7 +60,9 @@
     "manage": "Управление",
     "return": "Вернуться",
     "learnMore": "Узнать больше",
-    "previewTempStageGroupDetails": "Предварительный просмотр деталей группы этапов"
+    "previewTempStageGroupDetails": "Предварительный просмотр деталей группы этапов",
+    "days": "Дни",
+    "search": "Поиск"
   },
   "permissions": {
     "kickUser": "Выгнать пользователей",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Выберите свое доменное имя",
     "chooseYourDomainName": "Сохраните пользовательский домен вашего сообщества",
     "saveYourCommunitesCustomDomain": "Пользовательский домен сообщества",
-    "customCommunityDomain": "Учебник по настройке сообщества"
+    "customCommunityDomain": "Учебник по настройке сообщества",
+    "freeVanityDescription": "У каждой сообщества есть бесплатный персонализированный URL на основе вашего ID сообщества.",
+    "ownDomainDescription": "Есть собственный домен? Используйте полностью индивидуальный домен для вашего сообщества!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Узнайте, как настроить свое сообщество",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Учебник по сокращению URL",
     "nameFormat": "Формат имени",
     "formatKeys": "Формат ключей",
-    "disabledNameCustomizations": "Формат имени отключен из-за синхронизации имен Discord"
+    "disabledNameCustomizations": "Формат имени отключен из-за синхронизации имен Discord",
+    "onJoinActions": "Действия при присоединении"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Узнайте, как создавать короткие URL для вашего сообщества",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Добавить новый субдомен сокращения ссылок",
     "saveYourCommunitesLinkSubdomain": "Сохранить новый субдомен ссылки",
     "vanityCustomLong": "Индивидуальный/Кастомный/Длинный",
-    "learnHowToCreateShortenerForYourCommunit": "Узнайте, как создавать короткие URL для вашего сообщества"
+    "learnHowToCreateShortenerForYourCommunit": "Узнайте, как создавать короткие URL для вашего сообщества",
+    "createDescription": "Создавайте короткие URL с индивидуальным доменом вашего сообщества, субдоменом или вашим бесплатным персонализированным URL.",
+    "domain": "Домен",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Удалить",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Изменить статус",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord ЛС",
-    "notification": "Уведомление"
+    "notification": "Уведомление",
+    "erlcKick": "ER:LC выгон",
+    "erlcKickContentDescription": "Это действие автоматически исключит пользователя с сервера ER:LC с указанием причины, если она указана.",
+    "erlcBan": "ER:LC бан",
+    "erlcBanContentDescription": "Это действие автоматически забанит пользователя на сервере ER:LC с указанием причины, если она указана."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "дисциплинарныеБаллы",
     "noActiveDisciplinaryPoints": "нет активных дисциплинарных пунктов",
-    "addDisciplinaryPoints": "добавить дисциплинарные баллы"
+    "addDisciplinaryPoints": "добавить дисциплинарные баллы",
+    "configureActions": "Настройка действий",
+    "accountLabel": "Аккаунт",
+    "noRobloxAccountLinked": "Roblox аккаунт не привязан",
+    "pointsLabel": "Баллы",
+    "reasonLabel": "Причина"
   },
   "RadioIntegration": {
     "remove": "удалить",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "Это действие ограничения ERLC отправит сообщение в Discord.",
     "thisErlcRestrictionActionWillSendIssueDi": "Это действие ограничения ERLC отправит вопрос на рассмотрение",
     "thisErlcRestrictionActionWillIssueAWante": "Это действие ограничения в ERLC выдаст ордер",
-    "thisErlcRestrictionActionWillSendACmsNot": "Это действие ограничения ERLC отправит уведомление CMS"
+    "thisErlcRestrictionActionWillSendACmsNot": "Это действие ограничения ERLC отправит уведомление CMS",
+    "sourceServer": "Исходный сервер"
   },
   "ERLCActivity": {
     "filter": "Фильтр",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Введите имя(я) пользователя",
     "ban": "Бан",
     "kickExecuteWarning": "Этот тип записи выгонит пользователя(ей) с сервера",
-    "banExecuteWarning": "Этот тип записи забанит пользователя(ей) на сервере"
+    "banExecuteWarning": "Этот тип записи забанит пользователя(ей) на сервере",
+    "editExistingRecord": "Редактировать существующую запись",
+    "saveChanges": "Сохранить изменения",
+    "anErrorOccuredWhileSaving": "Произошла ошибка при сохранении:",
+    "editedTheRecords": "отредактировал записи",
+    "pointsFrom": "баллы из",
+    "to": "в",
+    "reasonFrom": "причина от"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Укажите время, за которое истекают баллы.",
+    "clickEnableExpiring": "Нажмите для включения истечения баллов",
+    "clickDisableExpiring": "Нажмите для отключения истечения баллов",
+    "automatedActions": "Автоматизированные действия",
+    "performAutomatedActions": "Выполнять автоматизированные действия, когда пользователь достигает определенного порога баллов.",
+    "pointThreshold": "Порог баллов",
+    "points": "Баллы",
+    "accounts": "Аккаунты",
+    "actions": "Конфигурация",
+    "pointExpiration": "Истечение баллов"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Разрешенные методы входа",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Автоматизированные действия",
+    "subtitle": "Планируйте регулярные действия для выполнения через определенные интервалы.",
+    "everyMinutes": "Каждые {minutes} минут",
+    "manualTrigger": "Запуск действия вручную",
+    "enabled": "Включено",
+    "disabled": "Отключено",
+    "executeEveryMinutes": "Выполнять каждые X минут",
+    "minimumIntervalValidation": "Должно быть больше 5 минут",
+    "unknownAction": "Неизвестное действие",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "Подсказка ERLC",
+    "erlcNotification": "Уведомление ERLC"
+  },
+  "integrationsPortal": {
+    "title": "Официальные интеграции",
+    "subtitle": "Отсутствует то, что вам нужно?",
+    "suggestIntegration": "Предложите интеграцию!",
+    "comingSoon": "Скоро в продаже!",
+    "noPermissionTooltip": "{integration} - Нет разрешения",
+    "newBadge": "НОВОЕ"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Изменить ранги",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Уведомление",
+    "email": "Электронная почта"
   }
 }

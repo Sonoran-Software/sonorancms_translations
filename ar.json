@@ -60,7 +60,9 @@
     "manage": "إدارة",
     "return": "عودة",
     "learnMore": "تعرف على المزيد",
-    "previewTempStageGroupDetails": "معاينة تفاصيل مجموعة المراحل"
+    "previewTempStageGroupDetails": "معاينة تفاصيل مجموعة المراحل",
+    "days": "أيام",
+    "search": "بحث"
   },
   "permissions": {
     "kickUser": "طرد المستخدمين",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "قم بتكوين سجل DNS الخاص بك",
     "chooseYourDomainName": "اختر اسم النطاق الخاص بك",
     "saveYourCommunitesCustomDomain": "احفظ النطاق المخصص لمجتمعك",
-    "customCommunityDomain": "نطاق المجتمع المخصص"
+    "customCommunityDomain": "نطاق المجتمع المخصص",
+    "freeVanityDescription": "كل مجتمع لديه رابط فاخر مجاني بناءً على معرف المجتمع الخاص بك.",
+    "ownDomainDescription": "هل تمتلك النطاق الخاص بك؟ استخدم نطاقًا مخصصًا تمامًا لمجتمعك!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "دليل تخصيص المجتمع",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "حدث خطأ أثناء الحفظ، حاول مرة أخرى.",
     "nameFormat": "تنسيق الاسم",
     "formatKeys": "تنسيق المفاتيح",
-    "disabledNameCustomizations": "تم تعطيل تنسيق الاسم بسبب مزامنة اسم Discord"
+    "disabledNameCustomizations": "تم تعطيل تنسيق الاسم بسبب مزامنة اسم Discord",
+    "onJoinActions": "إجراءات عند الانضمام"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "دليل تقصير الروابط",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "إضافة نطاق فرعي جديد لاختصار الروابط",
     "saveYourCommunitesLinkSubdomain": "احفظ رابط النطاق الفرعي الجديد",
     "vanityCustomLong": "فانيتي/مخصص/طويل",
-    "learnHowToCreateShortenerForYourCommunit": "تعلم كيفية إنشاء روابط قصيرة لمجتمعك"
+    "learnHowToCreateShortenerForYourCommunit": "تعلم كيفية إنشاء روابط قصيرة لمجتمعك",
+    "createDescription": "أنشئ روابط قصيرة باستخدام نطاق المجتمع المخصص الخاص بك، النطاق الفرعي المخصص، أو الرابط الفاخر المجاني الخاص بك.",
+    "domain": "نطاق",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "تعديل عمود القائمة",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "تعديل الحالة",
     "discordWebhook": "Webhook Discord",
     "discordDM": "رسالة خاصة على Discord",
-    "notification": "إشعار"
+    "notification": "إشعار",
+    "erlcKick": "ركلة ER:LC",
+    "erlcKickContentDescription": "سيقوم هذا الإجراء تلقائيًا بطرد المستخدم من خادم ER:LC مع سبب إذا تم توفيره.",
+    "erlcBan": "حظر ER:LC",
+    "erlcBanContentDescription": "سيقوم هذا الإجراء تلقائيًا بحظر المستخدم من خادم ER:LC مع سبب إذا تم توفيره."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "النقاط التأديبية",
     "noActiveDisciplinaryPoints": "لا توجد نقاط تأديبية نشطة",
-    "addDisciplinaryPoints": "إضافة نقاط تأديبية"
+    "addDisciplinaryPoints": "إضافة نقاط تأديبية",
+    "configureActions": "تكوين الإجراءات",
+    "accountLabel": "حساب",
+    "noRobloxAccountLinked": "لا يوجد حساب Roblox مرتبط",
+    "pointsLabel": "نقاط",
+    "reasonLabel": "السبب"
   },
   "RadioIntegration": {
     "remove": "إزالة",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "هذهالإجراءاتتقييدErlcسوفيرسالإشعارإلىDiscord",
     "thisErlcRestrictionActionWillSendIssueDi": "هذه الإجراء لتقييد ERLC سيرسل إصدارًا م",
     "thisErlcRestrictionActionWillIssueAWante": "سيصدر هذا الإجراء تقييدًا لـ ERLC مطلوبة",
-    "thisErlcRestrictionActionWillSendACmsNot": "سيؤدي هذا الإجراء التقييدي لإرسال إشعار CMS"
+    "thisErlcRestrictionActionWillSendACmsNot": "سيؤدي هذا الإجراء التقييدي لإرسال إشعار CMS",
+    "sourceServer": "الخادم المصدر"
   },
   "ERLCActivity": {
     "filter": "تصفية",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "أدخل اسم(اء) المستخدم",
     "ban": "حظر",
     "kickExecuteWarning": "سيؤدي هذا النوع من السجل إلى طرد المستخدم(ين) من الخادم",
-    "banExecuteWarning": "سيؤدي هذا النوع من السجل إلى حظر المستخدم(ين) من الخادم"
+    "banExecuteWarning": "سيؤدي هذا النوع من السجل إلى حظر المستخدم(ين) من الخادم",
+    "editExistingRecord": "تحرير السجل الموجود",
+    "saveChanges": "حفظ التغييرات",
+    "anErrorOccuredWhileSaving": "حدث خطأ أثناء الحفظ: ",
+    "editedTheRecords": "تم تحرير السجل",
+    "pointsFrom": "نقاط من",
+    "to": "إلى",
+    "reasonFrom": "السبب من"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "حدد مقدار الوقت الذي يستغرقه انتهاء النقاط.",
+    "clickEnableExpiring": "انقر لتمكين انتهاء النقاط",
+    "clickDisableExpiring": "انقر لتعطيل انتهاء النقاط",
+    "automatedActions": "إجراءات آلية",
+    "performAutomatedActions": "قم بتنفيذ الإجراءات الآلية عندما يصل المستخدم إلى عتبة معينة من النقاط.",
+    "pointThreshold": "عتبة النقاط",
+    "points": "نقاط",
+    "accounts": "حسابات",
+    "actions": "إعدادات",
+    "pointExpiration": "انتهاء النقاط"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "طرق تسجيل الدخول المسموح بها",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "إجراءات آلية",
+    "subtitle": "جدولة الإجراءات الروتينية لتُنفذ على فترات متقطعة بانتظام.",
+    "everyMinutes": "كل {minutes} دقيقة",
+    "manualTrigger": "تفعيل الإجراء يدويًا",
+    "enabled": "ممكّن",
+    "disabled": "معطل",
+    "executeEveryMinutes": "تنفيذ كل X دقيقة",
+    "minimumIntervalValidation": "يجب أن تكون أكثر من ٥ دقائق",
+    "unknownAction": "إجراء غير معروف",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "إشارة ERLC",
+    "erlcNotification": "تنبيه ERLC"
+  },
+  "integrationsPortal": {
+    "title": "التكاملات الرسمية",
+    "subtitle": "هل تفتقد شيئًا تريده؟",
+    "suggestIntegration": "اقترح تكاملًا!",
+    "comingSoon": "قريبًا!",
+    "noPermissionTooltip": "{integration} - لا يوجد إذن",
+    "newBadge": "جديد"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "تعديل الرتب",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "رسالة مباشرة على Discord",
+    "notification": "تنبيه",
+    "email": "بريد إلكتروني"
   }
 }

@@ -60,7 +60,9 @@
     "manage": "Spravovat",
     "return": "Vrátit se",
     "learnMore": "Zjistit více",
-    "previewTempStageGroupDetails": "Náhled podrobností skupiny fází"
+    "previewTempStageGroupDetails": "Náhled podrobností skupiny fází",
+    "days": "Dny",
+    "search": "Hledat"
   },
   "permissions": {
     "kickUser": "Vyhodit uživatele",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Nakonfigurujte svůj DNS záznam",
     "chooseYourDomainName": "Vyberte své doménové jméno",
     "saveYourCommunitesCustomDomain": "Uložte vlastní doménu své komunity",
-    "customCommunityDomain": "Vlastní doména komunity"
+    "customCommunityDomain": "Vlastní doména komunity",
+    "freeVanityDescription": "Každá komunita má zdarma vanity URL založenou na vašem ID komunity.",
+    "ownDomainDescription": "Vlastníte svou vlastní doménu? Použijte zcela vlastní doménu pro svou komunitu!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Návod na přizpůsobení komunity",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Při ukládání došlo k chybě, zkuste to znovu.",
     "nameFormat": "Formát jména",
     "formatKeys": "Formátovací klíče",
-    "disabledNameCustomizations": "Formát jména zakázán kvůli synchronizaci jména na Discordu"
+    "disabledNameCustomizations": "Formát jména zakázán kvůli synchronizaci jména na Discordu",
+    "onJoinActions": "Akce při připojení"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Návod na zkracovač URL",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Přidat novou subdoménu zkracovače odkazů",
     "saveYourCommunitesLinkSubdomain": "Uložit novou subdoménu odkazu",
     "vanityCustomLong": "Marnost/Vlastní/Dlouhý",
-    "learnHowToCreateShortenerForYourCommunit": "Naučte se, jak vytvářet krátké URL pro vaši komunitu"
+    "learnHowToCreateShortenerForYourCommunit": "Naučte se, jak vytvářet krátké URL pro vaši komunitu",
+    "createDescription": "Vytvářejte krátké URL pomocí vlastní domény vaší komunity, vlastního subdomény nebo vaší bezplatné vanity URL.",
+    "domain": "Doména",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Upravit sloupec seznamu",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Upravit stav",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Upozornění"
+    "notification": "Upozornění",
+    "erlcKick": "ER:LC Kick",
+    "erlcKickContentDescription": "Tato akce automaticky vyhodí uživatele ze serveru ER:LC s uvedením důvodu, pokud je zadán.",
+    "erlcBan": "ER:LC Ban",
+    "erlcBanContentDescription": "Tato akce automaticky zablokuje uživatele na serveru ER:LC s uvedením důvodu, pokud je zadán."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinární body",
     "noActiveDisciplinaryPoints": "žádné aktivní disciplinární body",
-    "addDisciplinaryPoints": "přidat-kárné-body"
+    "addDisciplinaryPoints": "přidat-kárné-body",
+    "configureActions": "Nastavit akce",
+    "accountLabel": "Účet",
+    "noRobloxAccountLinked": "Žádný propojený Roblox účet",
+    "pointsLabel": "Body",
+    "reasonLabel": "Důvod"
   },
   "RadioIntegration": {
     "remove": "odstranit",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "tato akce omezení ERLC odešle Discord",
     "thisErlcRestrictionActionWillSendIssueDi": "Tato akce omezení ERLC odešle zprávu",
     "thisErlcRestrictionActionWillIssueAWante": "Tuto akci omezení ERLC vydá hledanou osobu",
-    "thisErlcRestrictionActionWillSendACmsNot": "tato akce omezení ERLC odešle oznámení CMS"
+    "thisErlcRestrictionActionWillSendACmsNot": "tato akce omezení ERLC odešle oznámení CMS",
+    "sourceServer": "Zdrojový server"
   },
   "ERLCActivity": {
     "filter": "filtr",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Zadejte uživatelské jména",
     "ban": "Zákaz",
     "kickExecuteWarning": "Tento typ záznamu vykopne uživatele ze serveru",
-    "banExecuteWarning": "Tento typ záznamu zakáže uživatele ze serveru"
+    "banExecuteWarning": "Tento typ záznamu zakáže uživatele ze serveru",
+    "editExistingRecord": "Upravit existující záznam",
+    "saveChanges": "Uložit změny",
+    "anErrorOccuredWhileSaving": "Při ukládání došlo k chybě:",
+    "editedTheRecords": "upravil záznamy",
+    "pointsFrom": "body od",
+    "to": "do",
+    "reasonFrom": "důvod od"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Určete, za jak dlouho body vyprší.",
+    "clickEnableExpiring": "Klikněte pro povolení vypršení bodů",
+    "clickDisableExpiring": "Klikněte pro zakázání vypršení bodů",
+    "automatedActions": "Automatizované akce",
+    "performAutomatedActions": "Provádějte automatizované akce, když uživatel dosáhne určitého prahového bodu.",
+    "pointThreshold": "Prahová hodnota bodů",
+    "points": "Body",
+    "accounts": "Účty",
+    "actions": "Konfigurace",
+    "pointExpiration": "Vypršení bodů"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Povolené způsoby přihlášení",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Automatizované akce",
+    "subtitle": "Naplánujte rutinní akce, které budou prováděny v pravidelných intervalech.",
+    "everyMinutes": "Každých {minutes} minut",
+    "manualTrigger": "Ruční spuštění akce",
+    "enabled": "Povoleno",
+    "disabled": "Zakázáno",
+    "executeEveryMinutes": "Provádět každých X minut",
+    "minimumIntervalValidation": "Musí být více než 5 minut",
+    "unknownAction": "Neznámá akce",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC Tip",
+    "erlcNotification": "ERLC Notifikace"
+  },
+  "integrationsPortal": {
+    "title": "Oficiální integrace",
+    "subtitle": "Chybí něco, co chcete?",
+    "suggestIntegration": "Navrhněte integraci!",
+    "comingSoon": "Již brzy!",
+    "noPermissionTooltip": "{integration} - Bez oprávnění",
+    "newBadge": "NOVÉ"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Upravit hodnosti",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Notifikace",
+    "email": "Email"
   }
 }

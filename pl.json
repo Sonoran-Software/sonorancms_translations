@@ -60,7 +60,9 @@
     "manage": "Zarządzaj",
     "return": "Powrót",
     "learnMore": "Dowiedz się więcej",
-    "previewTempStageGroupDetails": "Podgląd szczegółów grupy etapów"
+    "previewTempStageGroupDetails": "Podgląd szczegółów grupy etapów",
+    "days": "Dni",
+    "search": "Szukaj"
   },
   "permissions": {
     "kickUser": "Wyrzuć użytkowników",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Skonfiguruj swój rekord DNS",
     "chooseYourDomainName": "Wybierz swoją nazwę domeny",
     "saveYourCommunitesCustomDomain": "Zapisz niestandardową domenę swojej społeczności",
-    "customCommunityDomain": "Niestandardowa domena społeczności"
+    "customCommunityDomain": "Niestandardowa domena społeczności",
+    "freeVanityDescription": "Każda społeczność ma darmowy alias URL na podstawie Twojego ID społeczności.",
+    "ownDomainDescription": "Posiadasz własną domenę? Użyj całkowicie niestandardowej domeny dla swojej społeczności!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Samouczek dostosowywania społeczności",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Wystąpił błąd podczas zapisywania, spróbuj ponownie.",
     "nameFormat": "Format Nazwy",
     "formatKeys": "Formatuj klucze",
-    "disabledNameCustomizations": "Format imienia wyłączony z powodu synchronizacji nazw Discord"
+    "disabledNameCustomizations": "Format imienia wyłączony z powodu synchronizacji nazw Discord",
+    "onJoinActions": "Akcje przy dołączeniu"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Samouczek skracacza URL",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Dodaj nową subdomenę skracacza linków",
     "saveYourCommunitesLinkSubdomain": "Zapisz nowy subdomen linku",
     "vanityCustomLong": "Stylizacja/Niestandardowy/Długi",
-    "learnHowToCreateShortenerForYourCommunit": "Dowiedz się, jak tworzyć krótkie adresy URL dla swojej społeczności"
+    "learnHowToCreateShortenerForYourCommunit": "Dowiedz się, jak tworzyć krótkie adresy URL dla swojej społeczności",
+    "createDescription": "Twórz krótkie adresy URL z niestandardową domeną Twojej społeczności, subdomeną lub darmowym adresem vanity URL.",
+    "domain": "Domena",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Edytuj kolumnę listy",
@@ -4014,7 +4025,11 @@
     "modifyStatus": "Modyfikuj status",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Powiadomienie"
+    "notification": "Powiadomienie",
+    "erlcKick": "ER:LC Kopniak",
+    "erlcKickContentDescription": "Ta akcja automatycznie wyrzuci użytkownika z serwera ER:LC z podaniem powodu, jeśli zostanie podany.",
+    "erlcBan": "ER:LC Zakaz",
+    "erlcBanContentDescription": "Ta akcja automatycznie banuje użytkownika z serwera ER:LC z podaniem powodu, jeśli zostanie podany."
   },
   "permissionToggleGroup": {
     "inherited": "odziedziczony",
@@ -4041,7 +4056,12 @@
   "disciplinaryAccounts": {
     "disciplinaryPoints": "punkty dyscyplinarne",
     "noActiveDisciplinaryPoints": "brakAktywnychPunktówDyscyplinarnych",
-    "addDisciplinaryPoints": "dodajPunktyDyscyplinarne"
+    "addDisciplinaryPoints": "dodajPunktyDyscyplinarne",
+    "configureActions": "Konfiguruj Akcje",
+    "accountLabel": "Konto",
+    "noRobloxAccountLinked": "Brak Połączonego Konta Roblox",
+    "pointsLabel": "Punkty",
+    "reasonLabel": "Powód"
   },
   "RadioIntegration": {
     "remove": "usuń",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "Ta akcja ograniczenia ERLC wyśle Discord",
     "thisErlcRestrictionActionWillSendIssueDi": "toOgraniczenieErlcWyśleProblem",
     "thisErlcRestrictionActionWillIssueAWante": "Ta akcja ograniczenia ERLC wyda list gończy.",
-    "thisErlcRestrictionActionWillSendACmsNot": "Ta akcja ograniczeń ERLC wyśle powiadomienie CMS."
+    "thisErlcRestrictionActionWillSendACmsNot": "Ta akcja ograniczeń ERLC wyśle powiadomienie CMS.",
+    "sourceServer": "Serwer Źródłowy"
   },
   "ERLCActivity": {
     "filter": "filtr",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Wprowadź nazwę użytkownika/użytkowników",
     "ban": "Zakaz",
     "kickExecuteWarning": "Ten typ rekordu wyrzuci użytkownika(ów) z serwera",
-    "banExecuteWarning": "Ten typ rekordu zablokuje użytkownika(ów) na serwerze"
+    "banExecuteWarning": "Ten typ rekordu zablokuje użytkownika(ów) na serwerze",
+    "editExistingRecord": "Edytuj Istniejący Rekord",
+    "saveChanges": "Zapisz Zmiany",
+    "anErrorOccuredWhileSaving": "Wystąpił błąd podczas zapisywania:",
+    "editedTheRecords": "edytował rekordy",
+    "pointsFrom": "punkty z",
+    "to": "do",
+    "reasonFrom": "powód z"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Określ ilość czasu, po jakim punkty wygasają.",
+    "clickEnableExpiring": "Kliknij, aby włączyć wygasanie punktów",
+    "clickDisableExpiring": "Kliknij, aby wyłączyć wygasanie punktów",
+    "automatedActions": "Zautomatyzowane Akcje",
+    "performAutomatedActions": "Wykonaj zautomatyzowane akcje, gdy użytkownik osiągnie określony próg punktowy.",
+    "pointThreshold": "Próg Punktowy",
+    "points": "Punkty",
+    "accounts": "Konta",
+    "actions": "Konfiguracja",
+    "pointExpiration": "Wygasanie Punktów"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Dozwolone Metody Logowania",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Zautomatyzowane Akcje",
+    "subtitle": "Zaplanuj rutynowe akcje do wykonania w regularnych odstępach czasu.",
+    "everyMinutes": "Co {minutes} Minut",
+    "manualTrigger": "Ręczne Wywołanie Akcji",
+    "enabled": "Włączone",
+    "disabled": "Wyłączone",
+    "executeEveryMinutes": "Wykonuj Co X Minut",
+    "minimumIntervalValidation": "Musi być większy niż 5 minut",
+    "unknownAction": "Nieznana Akcja",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC Wskazówka",
+    "erlcNotification": "ERLC Powiadomienie"
+  },
+  "integrationsPortal": {
+    "title": "Oficjalne Integracje",
+    "subtitle": "Brak czegoś, czego chcesz?",
+    "suggestIntegration": "Zaproponuj integrację!",
+    "comingSoon": "Wkrótce!",
+    "noPermissionTooltip": "{integration} - Brak uprawnień",
+    "newBadge": "NOWE"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Modyfikuj Rangi",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Powiadomienie",
+    "email": "Email"
   }
 }

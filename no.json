@@ -60,7 +60,9 @@
     "manage": "Administrer",
     "return": "Tilbake",
     "learnMore": "Lær mer",
-    "previewTempStageGroupDetails": "Forhåndsvis stadiegruppedetaljer"
+    "previewTempStageGroupDetails": "Forhåndsvis stadiegruppedetaljer",
+    "days": "Dager",
+    "search": "Søk"
   },
   "permissions": {
     "kickUser": "Spark brukere",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Konfigurer din DNS-post",
     "chooseYourDomainName": "Velg ditt domenenavn",
     "saveYourCommunitesCustomDomain": "Lagre ditt fellesskaps egendefinerte domene",
-    "customCommunityDomain": "Egendefinert fellesskapsdomene"
+    "customCommunityDomain": "Egendefinert fellesskapsdomene",
+    "freeVanityDescription": "Hver community har en gratis vanity URL basert på din community ID.",
+    "ownDomainDescription": "Eier du ditt eget domene? Bruk et fullstendig tilpasset domene for ditt community!",
+    "placeholderExampleDomain": "cms.eksempel.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Veiledning for tilpasning av fellesskap",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "En feil oppstod under lagring, prøv igjen.",
     "nameFormat": "Navneformat",
     "formatKeys": "Formateringsnøkler",
-    "disabledNameCustomizations": "Navneformat deaktivert på grunn av Discord-navnesynkronisering"
+    "disabledNameCustomizations": "Navneformat deaktivert på grunn av Discord-navnesynkronisering",
+    "onJoinActions": "Ved innmelding handlinger"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-forkorter Veiledning",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Legg til nytt lenkeforkortelse underdomene",
     "saveYourCommunitesLinkSubdomain": "Lagre nytt lenke-underområde",
     "vanityCustomLong": "Forfengelig/Egendefinert/Lang",
-    "learnHowToCreateShortenerForYourCommunit": "Lær hvordan du lager korte URL-er for fellesskapet ditt"
+    "learnHowToCreateShortenerForYourCommunit": "Lær hvordan du lager korte URL-er for fellesskapet ditt",
+    "createDescription": "Opprett korte URL-er med ditt communitys tilpassede domene, tilpassede subdomene eller din gratis vanity URL.",
+    "domain": "Domene",
+    "newDomainPlaceholder": "lenker.eksempel.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Rediger roster kolonne",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Endre Status",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Varsel"
+    "notification": "Varsel",
+    "erlcKick": "ER:LC spark",
+    "erlcKickContentDescription": "Denne handlingen vil automatisk sparke brukeren fra ER:LC serveren med en grunn hvis oppgitt.",
+    "erlcBan": "ER:LC utestenging",
+    "erlcBanContentDescription": "Denne handlingen vil automatisk utestenge brukeren fra ER:LC serveren med en grunn hvis oppgitt."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinpoeng",
     "noActiveDisciplinaryPoints": "ingen aktive disiplinære poeng",
-    "addDisciplinaryPoints": "legg til disiplinærpoeng"
+    "addDisciplinaryPoints": "legg til disiplinærpoeng",
+    "configureActions": "Konfigurer handlinger",
+    "accountLabel": "Konto",
+    "noRobloxAccountLinked": "Ingen Roblox-konto koblet",
+    "pointsLabel": "Poeng",
+    "reasonLabel": "Grunn"
   },
   "RadioIntegration": {
     "remove": "fjern",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "Dette ERLC-begrensningshandlingen vil sende en Discord",
     "thisErlcRestrictionActionWillSendIssueDi": "denneErlcRestriksjonsHandlingenVilSendeUtstedeDi",
     "thisErlcRestrictionActionWillIssueAWante": "denne ERLC-restriksjonshandlingen vil utstede en etterlysning",
-    "thisErlcRestrictionActionWillSendACmsNot": "denneErlcBegrensningshandlingenVilSendeEtCmsNot"
+    "thisErlcRestrictionActionWillSendACmsNot": "denneErlcBegrensningshandlingenVilSendeEtCmsNot",
+    "sourceServer": "Kildeserver"
   },
   "ERLCActivity": {
     "filter": "filter",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Angi brukernavn",
     "ban": "Utestengelse",
     "kickExecuteWarning": "Denne posttypen vil sparke brukeren(e) fra serveren",
-    "banExecuteWarning": "Denne posttypen vil utestenge brukeren(e) fra serveren"
+    "banExecuteWarning": "Denne posttypen vil utestenge brukeren(e) fra serveren",
+    "editExistingRecord": "Rediger eksisterende post",
+    "saveChanges": "Lagre endringer",
+    "anErrorOccuredWhileSaving": "En feil oppstod under lagring: ",
+    "editedTheRecords": "redigerte postens",
+    "pointsFrom": "poeng fra",
+    "to": "til",
+    "reasonFrom": "grunn fra"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Angi hvor lang tid det tar før poeng utløper.",
+    "clickEnableExpiring": "Klikk for å aktivere poengutløp",
+    "clickDisableExpiring": "Klikk for å deaktivere poengutløp",
+    "automatedActions": "Automatiserte handlinger",
+    "performAutomatedActions": "Utfør automatiserte handlinger når en bruker når en bestemt poenggrense.",
+    "pointThreshold": "Poenggrense",
+    "points": "Poeng",
+    "accounts": "Kontoer",
+    "actions": "Konfigurasjon",
+    "pointExpiration": "Poengutløp"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Tillatte innloggingsmetoder",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Automatiserte handlinger",
+    "subtitle": "Planlegg rutinemessige handlinger som utføres regelmessig.",
+    "everyMinutes": "Hver {minutes} minutter",
+    "manualTrigger": "Manuelt utløse handling",
+    "enabled": "Aktivert",
+    "disabled": "Deaktivert",
+    "executeEveryMinutes": "Utfør hvert X minutter",
+    "minimumIntervalValidation": "Må være mer enn 5 minutter",
+    "unknownAction": "Ukjent handling",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC hint",
+    "erlcNotification": "ERLC varsling"
+  },
+  "integrationsPortal": {
+    "title": "Offisielle integrasjoner",
+    "subtitle": "Mangler noe du ønsker?",
+    "suggestIntegration": "Foreslå en integrasjon!",
+    "comingSoon": "Kommer snart!",
+    "noPermissionTooltip": "{integration} - Ingen tillatelse",
+    "newBadge": "NY"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Endre rekker",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Varsling",
+    "email": "E-post"
   }
 }

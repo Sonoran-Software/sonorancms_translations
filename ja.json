@@ -60,7 +60,9 @@
     "manage": "管理",
     "return": "戻る",
     "learnMore": "詳細を学ぶ",
-    "previewTempStageGroupDetails": "ステージグループの詳細をプレビュー"
+    "previewTempStageGroupDetails": "ステージグループの詳細をプレビュー",
+    "days": "日",
+    "search": "検索"
   },
   "permissions": {
     "kickUser": "ユーザーをキック",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "ドメイン名を選択する",
     "chooseYourDomainName": "コミュニティのカスタムドメインを保存する",
     "saveYourCommunitesCustomDomain": "カスタムコミュニティドメイン",
-    "customCommunityDomain": "コミュニティカスタマイズチュートリアル"
+    "customCommunityDomain": "コミュニティカスタマイズチュートリアル",
+    "freeVanityDescription": "すべてのコミュニティには、コミュニティIDに基づく無料のカスタムURLがあります。",
+    "ownDomainDescription": "独自のドメインを所有していますか？コミュニティのための完全にカスタムなドメインを使用しましょう！",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "コミュニティのカスタマイズ方法を学ぶ",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "URL短縮ツールチュートリアル",
     "nameFormat": "名前の形式",
     "formatKeys": "フォーマットキー",
-    "disabledNameCustomizations": "ディスコード名前の同期のため名前フォーマットが無効になっています"
+    "disabledNameCustomizations": "ディスコード名前の同期のため名前フォーマットが無効になっています",
+    "onJoinActions": "参加時のアクション"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "コミュニティのために短いURLを作成する方法を学ぶ",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "新しいリンク短縮サブドメインを追加",
     "saveYourCommunitesLinkSubdomain": "新しいリンクサブドメインを保存",
     "vanityCustomLong": "バニティ/カスタム/ロング",
-    "learnHowToCreateShortenerForYourCommunit": "コミュニティ用の短縮URLの作り方を学ぶ"
+    "learnHowToCreateShortenerForYourCommunit": "コミュニティ用の短縮URLの作り方を学ぶ",
+    "createDescription": "コミュニティのカスタムドメイン、カスタムサブドメイン、または無料のカスタムURLで短縮URLを作成します。",
+    "domain": "ドメイン",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "削除",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "ステータスを変更する",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "通知"
+    "notification": "通知",
+    "erlcKick": "ER:LC キック",
+    "erlcKickContentDescription": "このアクションは、理由が提供されていれば、その理由でER:LCサーバーからユーザーを自動的にキックします。",
+    "erlcBan": "ER:LC バン",
+    "erlcBanContentDescription": "このアクションは、理由が提供されていれば、その理由でER:LCサーバーからユーザーを自動的にバンします。"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "懲戒点数",
     "noActiveDisciplinaryPoints": "アクティブな懲戒ポイントはありません",
-    "addDisciplinaryPoints": "懲戒ポイントを追加"
+    "addDisciplinaryPoints": "懲戒ポイントを追加",
+    "configureActions": "アクションを構成",
+    "accountLabel": "アカウント",
+    "noRobloxAccountLinked": "Robloxアカウントがリンクされていません",
+    "pointsLabel": "ポイント",
+    "reasonLabel": "理由"
   },
   "RadioIntegration": {
     "remove": "削除",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "このERLC制限アクションはDiscordに送信されます",
     "thisErlcRestrictionActionWillSendIssueDi": "このERLC制限アクションは問題報告を送信します",
     "thisErlcRestrictionActionWillIssueAWante": "このERLC制限アクションは指名手配を発行します",
-    "thisErlcRestrictionActionWillSendACmsNot": "このERLC制限アクションはCMS通知を送信します。"
+    "thisErlcRestrictionActionWillSendACmsNot": "このERLC制限アクションはCMS通知を送信します。",
+    "sourceServer": "ソースサーバー"
   },
   "ERLCActivity": {
     "filter": "フィルター",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "ユーザー名を入力してください",
     "ban": "禁止",
     "kickExecuteWarning": "この記録タイプはユーザーをサーバーからキックします",
-    "banExecuteWarning": "この記録タイプはユーザーをサーバーから禁止します"
+    "banExecuteWarning": "この記録タイプはユーザーをサーバーから禁止します",
+    "editExistingRecord": "既存のレコードを編集",
+    "saveChanges": "変更を保存",
+    "anErrorOccuredWhileSaving": "保存中にエラーが発生しました:",
+    "editedTheRecords": "レコードを編集しました",
+    "pointsFrom": "ポイント元",
+    "to": "から",
+    "reasonFrom": "理由元"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "ポイントの有効期限の時間を指定します。",
+    "clickEnableExpiring": "ポイントの有効期限を有効にするにはクリックしてください",
+    "clickDisableExpiring": "ポイントの有効期限を無効にするにはクリックしてください",
+    "automatedActions": "自動アクション",
+    "performAutomatedActions": "ユーザーが特定のポイント閾値に達したときに自動アクションを実行します。",
+    "pointThreshold": "ポイント閾値",
+    "points": "ポイント",
+    "accounts": "アカウント",
+    "actions": "構成",
+    "pointExpiration": "ポイントの有効期限"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "許可されたログイン方法",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "自動アクション",
+    "subtitle": "定期的に実行されるルーチンアクションをスケジュールします。",
+    "everyMinutes": "毎{minutes}分",
+    "manualTrigger": "手動でアクションをトリガー",
+    "enabled": "有効",
+    "disabled": "無効",
+    "executeEveryMinutes": "毎X分ごとに実行",
+    "minimumIntervalValidation": "5分以上でなければなりません",
+    "unknownAction": "不明なアクション",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLCヒント",
+    "erlcNotification": "ERLC通知"
+  },
+  "integrationsPortal": {
+    "title": "公式統合",
+    "subtitle": "欲しいものが足りないですか？",
+    "suggestIntegration": "統合を提案する！",
+    "comingSoon": "近日公開！",
+    "noPermissionTooltip": "{integration} - 許可なし",
+    "newBadge": "NEW"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "ランクを変更する",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "通知",
+    "email": "メール"
   }
 }

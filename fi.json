@@ -60,7 +60,9 @@
     "manage": "Hallitse",
     "return": "Palaa",
     "learnMore": "Lue lisää",
-    "previewTempStageGroupDetails": "Esikatsele vaihe-ryhmän tiedot"
+    "previewTempStageGroupDetails": "Esikatsele vaihe-ryhmän tiedot",
+    "days": "Päivät",
+    "search": "Haku"
   },
   "permissions": {
     "kickUser": "Potki käyttäjiä",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Määritä DNS-tietueesi",
     "chooseYourDomainName": "Valitse verkkotunnuksesi nimi",
     "saveYourCommunitesCustomDomain": "Tallenna yhteisösi mukautettu verkkotunnus",
-    "customCommunityDomain": "Mukautettu yhteisön verkkotunnus"
+    "customCommunityDomain": "Mukautettu yhteisön verkkotunnus",
+    "freeVanityDescription": "Jokaisella yhteisöllä on ilmainen erikoisosoite yhteisötunnuksesi perusteella.",
+    "ownDomainDescription": "Omistatko oman verkkotunnuksen? Käytä täysin mukautettua verkkotunnusta yhteisöllesi!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Yhteisön mukautusopas",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Tapahtui virhe tallennettaessa, yritä uudelleen.",
     "nameFormat": "Nimen muoto",
     "formatKeys": "Muotoile avaimet",
-    "disabledNameCustomizations": "Nimen muoto poistettu käytöstä Discord-nimen synkronoinnin vuoksi"
+    "disabledNameCustomizations": "Nimen muoto poistettu käytöstä Discord-nimen synkronoinnin vuoksi",
+    "onJoinActions": "Liittymiset toimet"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-lyhentimen opas",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Lisää uusi linkin lyhennyspalvelun alidomain",
     "saveYourCommunitesLinkSubdomain": "Tallenna uusi linkin aliverkkotunnus",
     "vanityCustomLong": "Turhamaisuus/Räätälöity/Pitkä",
-    "learnHowToCreateShortenerForYourCommunit": "Opi luomaan lyhyitä URL-osoitteita yhteisöllesi"
+    "learnHowToCreateShortenerForYourCommunit": "Opi luomaan lyhyitä URL-osoitteita yhteisöllesi",
+    "createDescription": "Luo lyhyitä URL-osoitteita yhteisösi mukautetulla verkkotunnuksella, ali-verkkotunnuksella tai ilmaisella erikoisosoitteella.",
+    "domain": "Verkkotunnus",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Muokkaa luettelon saraketta",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Muokkaa tilaa",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Ilmoitus"
+    "notification": "Ilmoitus",
+    "erlcKick": "ER:LC Potku",
+    "erlcKickContentDescription": "Tämä toimi potkaisee käyttäjän automaattisesti ER:LC-palvelimelta syyn kanssa, jos annettu.",
+    "erlcBan": "ER:LC Panna",
+    "erlcBanContentDescription": "Tämä toimi karkottaa käyttäjän automaattisesti ER:LC-palvelimelta syyn kanssa, jos annettu."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "kurinpidollisetPisteet",
     "noActiveDisciplinaryPoints": "ei aktiivisia kurinpidollisia pisteitä",
-    "addDisciplinaryPoints": "lisääKurinpisteitä"
+    "addDisciplinaryPoints": "lisääKurinpisteitä",
+    "configureActions": "Määritä toimet",
+    "accountLabel": "Tili",
+    "noRobloxAccountLinked": "Ei linkitettyä Roblox-tiliä",
+    "pointsLabel": "Pisteet",
+    "reasonLabel": "Syy"
   },
   "RadioIntegration": {
     "remove": "poistaa",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "Tämä ERLC-rajoitustoiminto lähettää Discordin",
     "thisErlcRestrictionActionWillSendIssueDi": "tämäRajoitustoimintoLähettääIssueDi",
     "thisErlcRestrictionActionWillIssueAWante": "tämä ERLC-rajoitusedi aiheuttaa etsintäkuulutuksen",
-    "thisErlcRestrictionActionWillSendACmsNot": "tämäErlcRajoitustoimintoLähettääCmsIlmoituksen"
+    "thisErlcRestrictionActionWillSendACmsNot": "tämäErlcRajoitustoimintoLähettääCmsIlmoituksen",
+    "sourceServer": "Lähdeserveri"
   },
   "ERLCActivity": {
     "filter": "suodatin",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Anna käyttäjänimi(t)",
     "ban": "Kielto",
     "kickExecuteWarning": "Tämä tietuetyyppi potkaisee käyttäjät palvelimelta",
-    "banExecuteWarning": "Tämä tietuetyyppi kieltää käyttäjät palvelimelta"
+    "banExecuteWarning": "Tämä tietuetyyppi kieltää käyttäjät palvelimelta",
+    "editExistingRecord": "Muokkaa olemassa olevaa tietuetta",
+    "saveChanges": "Tallenna muutokset",
+    "anErrorOccuredWhileSaving": "Tapahtui virhe tallennettaessa:",
+    "editedTheRecords": "muokkasi tietuetta",
+    "pointsFrom": "pisteistä alkaen",
+    "to": "asti",
+    "reasonFrom": "syy alkaen"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Määritä aika, jonka kuluttua pisteet vanhenevat.",
+    "clickEnableExpiring": "Napsauta ottaaksesi käyttöön pisteiden vanheneminen",
+    "clickDisableExpiring": "Napsauta poistaaksesi käytöstä pisteiden vanheneminen",
+    "automatedActions": "Automaattiset toimet",
+    "performAutomatedActions": "Suorita automaattiset toimet, kun käyttäjä saavuttaa tietyn pistemäärän.",
+    "pointThreshold": "Pisteraja",
+    "points": "Pisteet",
+    "accounts": "Tilit",
+    "actions": "Konfiguraatio",
+    "pointExpiration": "Pisteiden vanheneminen"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Sallitut kirjautumistavat",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Automaattiset toimet",
+    "subtitle": "Ajoita säännöllisesti suoritettavat rutiinitoimet.",
+    "everyMinutes": "Joka {minutes} minuutti",
+    "manualTrigger": "Käynnistä toimi manuaalisesti",
+    "enabled": "Käytössä",
+    "disabled": "Pois käytöstä",
+    "executeEveryMinutes": "Suorita joka X minuutti",
+    "minimumIntervalValidation": "Pitää olla yli 5 minuuttia",
+    "unknownAction": "Tuntematon toimi",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC Vinkki",
+    "erlcNotification": "ERLC Ilmoitus"
+  },
+  "integrationsPortal": {
+    "title": "Viralliset integraatiot",
+    "subtitle": "Puuttuuko jotain mitä haluat?",
+    "suggestIntegration": "Ehdota integraatiota!",
+    "comingSoon": "Tulossa pian!",
+    "noPermissionTooltip": "{integration} - Ei oikeuksia",
+    "newBadge": "UUSI"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Muokkaa arvoja",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Ilmoitus",
+    "email": "Sähköposti"
   }
 }

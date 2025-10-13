@@ -60,7 +60,9 @@
     "manage": "管理",
     "return": "返回",
     "learnMore": "了解更多",
-    "previewTempStageGroupDetails": "预览阶段组详情"
+    "previewTempStageGroupDetails": "预览阶段组详情",
+    "days": "天",
+    "search": "搜索"
   },
   "permissions": {
     "kickUser": "踢出用户",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "配置您的DNS记录",
     "chooseYourDomainName": "选择您的域名",
     "saveYourCommunitesCustomDomain": "保存您的社区自定义域名",
-    "customCommunityDomain": "自定义社区域名"
+    "customCommunityDomain": "自定义社区域名",
+    "freeVanityDescription": "每个社区都有一个基于您的社区ID的免费个性化URL。",
+    "ownDomainDescription": "拥有您自己的域名？为您的社区使用一个完全自定义的域名！",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "社区自定义教程",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "保存时发生错误，请重试。",
     "nameFormat": "名称格式",
     "formatKeys": "格式键",
-    "disabledNameCustomizations": "由于 Discord 名称同步，名称格式已禁用"
+    "disabledNameCustomizations": "由于 Discord 名称同步，名称格式已禁用",
+    "onJoinActions": "加入时的操作"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL 缩短器教程",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "添加新的链接缩短子域名",
     "saveYourCommunitesLinkSubdomain": "保存新链接子域名",
     "vanityCustomLong": "虚荣/自定义/长",
-    "learnHowToCreateShortenerForYourCommunit": "了解如何为您的社区创建短网址"
+    "learnHowToCreateShortenerForYourCommunit": "了解如何为您的社区创建短网址",
+    "createDescription": "使用您的社区自定义域名、自定义子域或免费个性化URL创建短网址。",
+    "domain": "域名",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "编辑名单列",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "修改状态",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord私信",
-    "notification": "通知"
+    "notification": "通知",
+    "erlcKick": "ER:LC踢出",
+    "erlcKickContentDescription": "此操作将自动将用户从ER:LC服务器踢出，并提供原因（如果提供）。",
+    "erlcBan": "ER:LC禁令",
+    "erlcBanContentDescription": "此操作将自动将用户从ER:LC服务器禁言，并提供原因（如果提供）。"
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "处分分数",
     "noActiveDisciplinaryPoints": "没有有效的纪律点",
-    "addDisciplinaryPoints": "添加纪律点"
+    "addDisciplinaryPoints": "添加纪律点",
+    "configureActions": "配置操作",
+    "accountLabel": "账户",
+    "noRobloxAccountLinked": "未链接Roblox账户",
+    "pointsLabel": "积分",
+    "reasonLabel": "原因"
   },
   "RadioIntegration": {
     "remove": "移除",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "此ERLC限制操作将发送一个Discord",
     "thisErlcRestrictionActionWillSendIssueDi": "此 ERLC 限制操作将发送问题反迪",
     "thisErlcRestrictionActionWillIssueAWante": "此 ERLC 限制操作将发出通缉令",
-    "thisErlcRestrictionActionWillSendACmsNot": "此ERLC限制操作将发送CMS通知"
+    "thisErlcRestrictionActionWillSendACmsNot": "此ERLC限制操作将发送CMS通知",
+    "sourceServer": "来源服务器"
   },
   "ERLCActivity": {
     "filter": "过滤器",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "输入用户名",
     "ban": "禁止",
     "kickExecuteWarning": "此记录类型将把用户从服务器中踢出",
-    "banExecuteWarning": "此记录类型将把用户从服务器中禁止"
+    "banExecuteWarning": "此记录类型将把用户从服务器中禁止",
+    "editExistingRecord": "编辑现有记录",
+    "saveChanges": "保存更改",
+    "anErrorOccuredWhileSaving": "保存时发生错误：",
+    "editedTheRecords": "编辑了记录",
+    "pointsFrom": "积分从",
+    "to": "到",
+    "reasonFrom": "原因从"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "指定积分过期的时间。",
+    "clickEnableExpiring": "点击启用积分过期",
+    "clickDisableExpiring": "点击禁用积分过期",
+    "automatedActions": "自动操作",
+    "performAutomatedActions": "当用户达到一定积分阈值时执行自动操作。",
+    "pointThreshold": "积分阈值",
+    "points": "积分",
+    "accounts": "账户",
+    "actions": "配置",
+    "pointExpiration": "积分过期"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "允许的登录方法",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "自动操作",
+    "subtitle": "安排定期执行的例行操作。",
+    "everyMinutes": "每{minutes}分钟",
+    "manualTrigger": "手动触发动作",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "executeEveryMinutes": "每X分钟执行",
+    "minimumIntervalValidation": "必须大于5分钟",
+    "unknownAction": "未知操作",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC提示",
+    "erlcNotification": "ERLC通知"
+  },
+  "integrationsPortal": {
+    "title": "官方集成",
+    "subtitle": "想念您想要的东西？",
+    "suggestIntegration": "建议一个集成！",
+    "comingSoon": "即将到来！",
+    "noPermissionTooltip": "{integration} - 无权限",
+    "newBadge": "新"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "修改等级",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "通知",
+    "email": "电子邮件"
   }
 }

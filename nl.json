@@ -60,7 +60,9 @@
     "manage": "Beheren",
     "return": "Terugkeren",
     "learnMore": "Meer Leren",
-    "previewTempStageGroupDetails": "Voorbeeld Stadiagroepdetails"
+    "previewTempStageGroupDetails": "Voorbeeld Stadiagroepdetails",
+    "days": "Dagen",
+    "search": "Zoeken"
   },
   "permissions": {
     "kickUser": "Gebruikers Verwijderen",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "Configureer je DNS-record",
     "chooseYourDomainName": "Kies je domeinnaam",
     "saveYourCommunitesCustomDomain": "Sla het aangepaste domein van je gemeenschap op",
-    "customCommunityDomain": "Aangepast Gemeenschapsdomein"
+    "customCommunityDomain": "Aangepast Gemeenschapsdomein",
+    "freeVanityDescription": "Elke community heeft een gratis vanity-URL gebaseerd op uw community-ID.",
+    "ownDomainDescription": "Eigen domein? Gebruik een volledig aangepast domein voor uw community!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Gemeenschapsaanpassing Tutorial",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Er is een fout opgetreden tijdens het opslaan, probeer het opnieuw.",
     "nameFormat": "Naamformaat",
     "formatKeys": "Formaatsleutels",
-    "disabledNameCustomizations": "Naamformaat uitgeschakeld vanwege Discord-namesynchronisatie"
+    "disabledNameCustomizations": "Naamformaat uitgeschakeld vanwege Discord-namesynchronisatie",
+    "onJoinActions": "Bij Join-acties"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-verkorter Tutorial",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Voeg nieuw linkverkorter-subdomein toe",
     "saveYourCommunitesLinkSubdomain": "Sla nieuwe link-subdomein op",
     "vanityCustomLong": "Aangepast/Lang",
-    "learnHowToCreateShortenerForYourCommunit": "Leer hoe je korte URL's voor je community kunt maken"
+    "learnHowToCreateShortenerForYourCommunit": "Leer hoe je korte URL's voor je community kunt maken",
+    "createDescription": "Maak korte URL's met het aangepaste domein van uw community, aangepaste subdomein, of uw gratis vanity-URL.",
+    "domain": "Domein",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Bewerk roster kolom",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Status Wijzigen",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Kennisgeving"
+    "notification": "Kennisgeving",
+    "erlcKick": "ER:LC Kick",
+    "erlcKickContentDescription": "Deze actie zal de gebruiker automatisch uit de ER:LC-server schoppen met een reden indien opgegeven.",
+    "erlcBan": "ER:LC Ban",
+    "erlcBanContentDescription": "Deze actie zal de gebruiker automatisch verbannen uit de ER:LC-server met een reden indien opgegeven."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disciplinairepunten",
     "noActiveDisciplinaryPoints": "geenActieveDisciplinairPunten",
-    "addDisciplinaryPoints": "disciplinairepunten toevoegen"
+    "addDisciplinaryPoints": "disciplinairepunten toevoegen",
+    "configureActions": "Acties Configureren",
+    "accountLabel": "Account",
+    "noRobloxAccountLinked": "Geen Roblox Account Gekoppeld",
+    "pointsLabel": "Punten",
+    "reasonLabel": "Reden"
   },
   "RadioIntegration": {
     "remove": "verwijderen",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "dezeErlcBeperkingsactieZalEenDiscòrdberichstVerzenden",
     "thisErlcRestrictionActionWillSendIssueDi": "dezeErlcBeperkingActieZalProbleemIndienenVersturen",
     "thisErlcRestrictionActionWillIssueAWante": "deze Erlc-beperkingsactie zal een opzoeking uitgeven",
-    "thisErlcRestrictionActionWillSendACmsNot": "dezeErlcBeperkingsactieStuurtEenCmsNot"
+    "thisErlcRestrictionActionWillSendACmsNot": "dezeErlcBeperkingsactieStuurtEenCmsNot",
+    "sourceServer": "Bronserver"
   },
   "ERLCActivity": {
     "filter": "filter",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Voer gebruikersnaam/namen in",
     "ban": "Verbannen",
     "kickExecuteWarning": "Dit recordtype zal de gebruiker(s) van de server schoppen",
-    "banExecuteWarning": "Dit recordtype zal de gebruiker(s) van de server verbannen"
+    "banExecuteWarning": "Dit recordtype zal de gebruiker(s) van de server verbannen",
+    "editExistingRecord": "Bestaande Record Bewerk",
+    "saveChanges": "Wijzigingen Opslaan",
+    "anErrorOccuredWhileSaving": "Er is een fout opgetreden bij het opslaan:",
+    "editedTheRecords": "heeft de record's bewerkt",
+    "pointsFrom": "punten van",
+    "to": "naar",
+    "reasonFrom": "reden van"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Geef de tijd aan waarna punten vervallen.",
+    "clickEnableExpiring": "Klik om het vervallen van punten in te schakelen",
+    "clickDisableExpiring": "Klik om het vervallen van punten uit te schakelen",
+    "automatedActions": "Geautomatiseerde Acties",
+    "performAutomatedActions": "Voer geautomatiseerde acties uit wanneer een gebruiker een bepaald puntentotaal bereikt.",
+    "pointThreshold": "Puntendrempel",
+    "points": "Punten",
+    "accounts": "Accounts",
+    "actions": "Configuratie",
+    "pointExpiration": "Punten Verval"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Toegestane Inlogmethoden",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Geautomatiseerde Acties",
+    "subtitle": "Plan routinematige acties die op regelmatige intervallen moeten worden uitgevoerd.",
+    "everyMinutes": "Elke {minutes} Minuten",
+    "manualTrigger": "Handmatig Actie Triggeren",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "executeEveryMinutes": "Voer Uit Elke X Minuten",
+    "minimumIntervalValidation": "Moet groter zijn dan 5 minuten",
+    "unknownAction": "Onbekende Actie",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC Tip",
+    "erlcNotification": "ERLC Kennisgeving"
+  },
+  "integrationsPortal": {
+    "title": "Officiële Integraties",
+    "subtitle": "Mist u iets dat u wilt?",
+    "suggestIntegration": "Stel een integratie voor!",
+    "comingSoon": "Binnenkort Beschikbaar!",
+    "noPermissionTooltip": "{integration} - Geen Toestemming",
+    "newBadge": "NIEUW"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Rangen Aanpassen",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Melding",
+    "email": "E-mail"
   }
 }

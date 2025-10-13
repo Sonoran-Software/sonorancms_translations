@@ -60,7 +60,9 @@
     "manage": "Yönet",
     "return": "Geri Dön",
     "learnMore": "Daha Fazla Bilgi Edinin",
-    "previewTempStageGroupDetails": "Aşama Grubu Detaylarını Önizle"
+    "previewTempStageGroupDetails": "Aşama Grubu Detaylarını Önizle",
+    "days": "Günler",
+    "search": "Ara"
   },
   "permissions": {
     "kickUser": "Kullanıcıları At",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "DNS Kaydınızı Yapılandırın",
     "chooseYourDomainName": "Alan adınızı seçin",
     "saveYourCommunitesCustomDomain": "Topluluğunuzun özel alan adını kaydedin",
-    "customCommunityDomain": "Özel Topluluk Alan Adı"
+    "customCommunityDomain": "Özel Topluluk Alan Adı",
+    "freeVanityDescription": "Her topluluğun, topluluk kimliğinize dayalı ücretsiz bir özel URL'si vardır.",
+    "ownDomainDescription": "Kendi alan adınız mı var? Topluluğunuz için tamamen özel bir alan adı kullanın!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "Topluluk Özelleştirme Eğitimi",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "Kaydedilirken bir hata oluştu, tekrar deneyin.",
     "nameFormat": "İsim Formatı",
     "formatKeys": "Anahtarları Biçimlendir",
-    "disabledNameCustomizations": "Discord Adı Senkronizasyonu Nedeniyle İsim Formatı Devre Dışı Bırakıldı"
+    "disabledNameCustomizations": "Discord Adı Senkronizasyonu Nedeniyle İsim Formatı Devre Dışı Bırakıldı",
+    "onJoinActions": "Katılım Eylemleri"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Kısaltıcı Eğitimi",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "Yeni bağlantı kısaltma alt alanı ekle",
     "saveYourCommunitesLinkSubdomain": "Yeni bağlantı alt alan adını kaydet",
     "vanityCustomLong": "Özel/Özelleştirilmiş/Uzun",
-    "learnHowToCreateShortenerForYourCommunit": "Topluluğunuz için kısa URL'ler oluşturmayı öğrenin"
+    "learnHowToCreateShortenerForYourCommunit": "Topluluğunuz için kısa URL'ler oluşturmayı öğrenin",
+    "createDescription": "Topluluğunuzun özel alan adı, özel alt alan adı veya ücretsiz özel URL'si ile kısa URL'ler oluşturun.",
+    "domain": "Alan Adı",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "Liste sütununu düzenle",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "Durumu Değiştir",
     "discordWebhook": "Discord Webhook",
     "discordDM": "Discord DM",
-    "notification": "Bildirim"
+    "notification": "Bildirim",
+    "erlcKick": "ER:LC At",
+    "erlcKickContentDescription": "Bu eylem, bir sebep sağlanırsa kullanıcıyı otomatik olarak ER:LC sunucusundan atar.",
+    "erlcBan": "ER:LC Yasakla",
+    "erlcBanContentDescription": "Bu eylem, bir sebep sağlanırsa kullanıcıyı otomatik olarak ER:LC sunucusundan yasaklar."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "disiplinPuanları",
     "noActiveDisciplinaryPoints": "Aktif Disiplin Puanı Yok",
-    "addDisciplinaryPoints": "disiplinPuanıEkle"
+    "addDisciplinaryPoints": "disiplinPuanıEkle",
+    "configureActions": "Eylemleri Yapılandır",
+    "accountLabel": "Hesap",
+    "noRobloxAccountLinked": "Roblox Hesabı Bağlı Değil",
+    "pointsLabel": "Puanlar",
+    "reasonLabel": "Sebep"
   },
   "RadioIntegration": {
     "remove": "kaldırmak",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "Bu ERLC kısıtlama eylemi bir Discord gönderecek",
     "thisErlcRestrictionActionWillSendIssueDi": "Bu ERLC kısıtlama eylemi issue di gönderecektir",
     "thisErlcRestrictionActionWillIssueAWante": "bu ERLC kısıtlama eylemi bir arama emri çıkaracaktır",
-    "thisErlcRestrictionActionWillSendACmsNot": "bu ERLC kısıtlama eylemi bir CMS bildirimi gönderecektir"
+    "thisErlcRestrictionActionWillSendACmsNot": "bu ERLC kısıtlama eylemi bir CMS bildirimi gönderecektir",
+    "sourceServer": "Kaynak Sunucu"
   },
   "ERLCActivity": {
     "filter": "filtre",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "Kullanıcı Ad(lar)ını Girin",
     "ban": "Yasakla",
     "kickExecuteWarning": "Bu kayıt türü kullanıcıları sunucudan atacak",
-    "banExecuteWarning": "Bu kayıt türü kullanıcıları sunucudan yasaklayacak"
+    "banExecuteWarning": "Bu kayıt türü kullanıcıları sunucudan yasaklayacak",
+    "editExistingRecord": "Mevcut Kaydı Düzenle",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "anErrorOccuredWhileSaving": "Kaydederken bir hata oluştu:",
+    "editedTheRecords": "kaydı düzenledi",
+    "pointsFrom": "puanlar",
+    "to": "sonra",
+    "reasonFrom": "sebepten"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Puanların süresinin dolması için gereken süreyi belirtin.",
+    "clickEnableExpiring": "Puan dolmasını etkinleştirmek için tıklayın",
+    "clickDisableExpiring": "Puan dolmasını devre dışı bırakmak için tıklayın",
+    "automatedActions": "Otomatik Eylemler",
+    "performAutomatedActions": "Bir kullanıcı belirli bir puan eşiğine ulaştığında otomatik eylemler gerçekleştirin.",
+    "pointThreshold": "Puan Eşiği",
+    "points": "Puanlar",
+    "accounts": "Hesaplar",
+    "actions": "Yapılandırma",
+    "pointExpiration": "Puan Süresi"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "İzin Verilen Giriş Yöntemleri",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "Otomatik Eylemler",
+    "subtitle": "Belirli aralıklarla gerçekleştirilecek rutin eylemleri planlayın.",
+    "everyMinutes": "Her {minutes} Dakika",
+    "manualTrigger": "Eylemi Manuel Tetikle",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "executeEveryMinutes": "Her X Dakikada Bir Yürüt",
+    "minimumIntervalValidation": "5 dakikadan uzun olmalıdır",
+    "unknownAction": "Bilinmeyen Eylem",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC İpucu",
+    "erlcNotification": "ERLC Bildirimi"
+  },
+  "integrationsPortal": {
+    "title": "Resmi Entegrasyonlar",
+    "subtitle": "İstediğiniz bir şey mi eksik?",
+    "suggestIntegration": "Bir entegrasyon önerin!",
+    "comingSoon": "Yakında Gelecek!",
+    "noPermissionTooltip": "{integration} - İzin Yok",
+    "newBadge": "YENİ"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "Rütbeleri Değiştir",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Bildirim",
+    "email": "E-posta"
   }
 }

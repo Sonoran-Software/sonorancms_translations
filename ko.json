@@ -60,7 +60,9 @@
     "manage": "관리",
     "return": "돌아가기",
     "learnMore": "자세히 알아보기",
-    "previewTempStageGroupDetails": "단계 그룹 세부사항 미리보기"
+    "previewTempStageGroupDetails": "단계 그룹 세부사항 미리보기",
+    "days": "일",
+    "search": "검색"
   },
   "permissions": {
     "kickUser": "사용자 추방",
@@ -1002,7 +1004,10 @@
     "configureYourDnsRecord": "도메인 이름을 선택하세요",
     "chooseYourDomainName": "커뮤니티의 사용자 지정 도메인을 저장하세요",
     "saveYourCommunitesCustomDomain": "사용자 지정 커뮤니티 도메인",
-    "customCommunityDomain": "커뮤니티 사용자 지정 튜토리얼"
+    "customCommunityDomain": "커뮤니티 사용자 지정 튜토리얼",
+    "freeVanityDescription": "모든 커뮤니티는 커뮤니티 ID를 기반으로 하는 무료 설명 URL을 제공합니다.",
+    "ownDomainDescription": "자신의 도메인을 소유하고 계십니까? 커뮤니티에 완전히 맞춤화된 도메인을 사용하세요!",
+    "placeholderExampleDomain": "cms.example.com"
   },
   "CustomizationEditor": {
     "commmunityCustomizationTutorial": "커뮤니티를 사용자 지정하는 방법을 배우세요",
@@ -1077,7 +1082,8 @@
     "anErrorOccuredWhileSavingTryAgain": "URL 단축기 튜토리얼",
     "nameFormat": "이름 형식",
     "formatKeys": "형식 키",
-    "disabledNameCustomizations": "디스코드 이름 동기화로 인해 이름 형식 사용 안 함"
+    "disabledNameCustomizations": "디스코드 이름 동기화로 인해 이름 형식 사용 안 함",
+    "onJoinActions": "참가 시 작업"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요",
@@ -1113,7 +1119,12 @@
     "addNewLinkShortenerSubdomain": "새 링크 단축기 하위 도메인 추가",
     "saveYourCommunitesLinkSubdomain": "새 링크 서브도메인 저장",
     "vanityCustomLong": "허영/맞춤형/긴",
-    "learnHowToCreateShortenerForYourCommunit": "당신의 커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요"
+    "learnHowToCreateShortenerForYourCommunit": "당신의 커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요",
+    "createDescription": "커뮤니티의 맞춤 도메인, 맞춤 하위 도메인 또는 무료 설명 URL로 짧은 URL을 만드십시오.",
+    "domain": "도메인",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "editRosterColumn": "삭제",
@@ -4185,12 +4196,21 @@
     "modifyStatus": "상태 수정",
     "discordWebhook": "Discord 웹훅",
     "discordDM": "디스코드 DM",
-    "notification": "알림"
+    "notification": "알림",
+    "erlcKick": "ER:LC 킥",
+    "erlcKickContentDescription": "이 작업은 제공된 이유가 있으면 ER:LC 서버에서 사용자를 자동으로 추방합니다.",
+    "erlcBan": "ER:LC 차단",
+    "erlcBanContentDescription": "이 작업은 제공된 이유가 있으면 ER:LC 서버에서 사용자를 자동으로 차단합니다."
   },
   "disciplinaryAccounts": {
     "disciplinaryPoints": "징계 점수",
     "noActiveDisciplinaryPoints": "활성 징계 포인트 없음",
-    "addDisciplinaryPoints": "징계 포인트 추가"
+    "addDisciplinaryPoints": "징계 포인트 추가",
+    "configureActions": "동작 구성",
+    "accountLabel": "계정",
+    "noRobloxAccountLinked": "연결된 Roblox 계정 없음",
+    "pointsLabel": "포인트",
+    "reasonLabel": "이유"
   },
   "RadioIntegration": {
     "remove": "제거",
@@ -4386,7 +4406,8 @@
     "thisErlcRestrictionActionWillSendADiscor": "이 ERLC 제한 조치는 Discord을(를) 보냅니다",
     "thisErlcRestrictionActionWillSendIssueDi": "이 ERLC 제한 조치는 문제 전송을 수행합니다.",
     "thisErlcRestrictionActionWillIssueAWante": "이 ERLC 제한 조치로 체포 영장이 발부됩니다",
-    "thisErlcRestrictionActionWillSendACmsNot": "이 ERLC 제한 조치는 CMS 알림을 보냅니다."
+    "thisErlcRestrictionActionWillSendACmsNot": "이 ERLC 제한 조치는 CMS 알림을 보냅니다.",
+    "sourceServer": "소스 서버"
   },
   "ERLCActivity": {
     "filter": "필터",
@@ -4567,6 +4588,60 @@
     "enterUsernames": "사용자 이름 입력",
     "ban": "차단",
     "kickExecuteWarning": "이 기록 유형은 사용자를 서버에서 추방합니다",
-    "banExecuteWarning": "이 기록 유형은 사용자를 서버에서 차단합니다"
+    "banExecuteWarning": "이 기록 유형은 사용자를 서버에서 차단합니다",
+    "editExistingRecord": "기존 기록 편집",
+    "saveChanges": "변경 사항 저장",
+    "anErrorOccuredWhileSaving": "저장 중 오류가 발생했습니다: ",
+    "editedTheRecords": "기록을 편집했습니다",
+    "pointsFrom": "포인트에서",
+    "to": "까지",
+    "reasonFrom": "이유에서"
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "포인트가 만료되는 시간을 지정하십시오.",
+    "clickEnableExpiring": "포인트 만료를 활성화하려면 클릭하십시오",
+    "clickDisableExpiring": "포인트 만료를 비활성화하려면 클릭하십시오",
+    "automatedActions": "자동화된 작업",
+    "performAutomatedActions": "사용자가 특정 포인트 임계값에 도달하면 자동화된 작업을 수행합니다.",
+    "pointThreshold": "포인트 임계값",
+    "points": "포인트",
+    "accounts": "계정",
+    "actions": "설정",
+    "pointExpiration": "포인트 만료"
+  },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "허용된 로그인 방법",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
+  "actionsEditor": {
+    "title": "자동화된 작업",
+    "subtitle": "정기적으로 수행할 일정 작업을 예약하세요.",
+    "everyMinutes": "매 {minutes}분마다",
+    "manualTrigger": "작업 수동 트리거",
+    "enabled": "활성화됨",
+    "disabled": "비활성화됨",
+    "executeEveryMinutes": "X분마다 실행",
+    "minimumIntervalValidation": "5분 이상이어야 합니다",
+    "unknownAction": "알 수 없는 작업",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC 힌트",
+    "erlcNotification": "ERLC 알림"
+  },
+  "integrationsPortal": {
+    "title": "공식 통합",
+    "subtitle": "원하시는 것이 없습니까?",
+    "suggestIntegration": "통합을 제안하세요!",
+    "comingSoon": "곧 출시 예정!",
+    "noPermissionTooltip": "{integration} - 권한 없음",
+    "newBadge": "신규"
+  },
+  "AutomatedActions": {
+    "modifyRanks": "계급 수정",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "알림",
+    "email": "이메일"
   }
 }
