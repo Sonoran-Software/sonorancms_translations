@@ -2052,6 +2052,20 @@
     "providerDiscord": "Discord",
     "providerApple": "Apple"
   },
+  "actionsEditor": {
+    "title": "Automated Actions",
+    "subtitle": "Schedule routine actions to be performed at regular intervals.",
+    "everyMinutes": "Every {minutes} Minutes",
+    "manualTrigger": "Manually Trigger Action",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "executeEveryMinutes": "Execute Every X Minutes",
+    "minimumIntervalValidation": "Must be greater than 5 minutes",
+    "unknownAction": "Unknown Action",
+    "discordWebhook": "Discord Webhook",
+    "erlcHint": "ERLC Hint",
+    "erlcNotification": "ERLC Notification"
+  },
   "Event": {
     "goToCommunityCalendar": "Go to Community Calendar",
     "createdBy": "Created by"
