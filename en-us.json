@@ -1508,7 +1508,10 @@
     "clickDisableExpiring": "Click to disable point expiring",
     "automatedActions": "Automated Actions",
     "pointThreshold": "Point Threshold",
-    "points": "Points"
+    "points": "Points",
+    "accounts": "Accounts",
+    "actions": "Configuration",
+    "pointExpiration": "Point Expiration"
   },
   "profileView": {
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
