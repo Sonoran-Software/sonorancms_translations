@@ -1088,6 +1088,7 @@
     "long": "Long",
     "departmentscopysuccess": "Copied to clipboard!",
     "createNewShortLink": "Create New Short Link",
+    "createDescription": "Create short URLs with your community's custom domain, custom subdomain, or your free vanity URL.",
     "editShortenedUrl": "Edit Shortened URL",
     "shortUrl": "Short URL",
     "cancel": "Cancel",
@@ -1109,7 +1110,11 @@
     "communityUuid": "Community UUID",
     "addLinkSubdomain": "Add Link Subdomain",
     "addNewLinkShortenerSubdomain": "Add new link shortener subdomain",
-    "saveYourCommunitesLinkSubdomain": "Save new link subdomain"
+    "saveYourCommunitesLinkSubdomain": "Save new link subdomain",
+    "domain": "Domain",
+    "newDomainPlaceholder": "links.example.com",
+    "cnameRecord": "CNAME",
+    "txtRecord": "TXT"
   },
   "EditColumnCard": {
     "currentParameter": "Current Range Parameters",
