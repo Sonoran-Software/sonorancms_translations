@@ -2045,6 +2045,12 @@
     "errorErrorWhileAttemptingToGetCommunityI": "[ERROR] Error while attempting to get community image due to custom domain!",
     "developerDebugMode": "Developer Debug Mode"
   },
+  "loginRestrictionsConfigurator": {
+    "allowedLoginMethods": "Allowed Login Methods",
+    "providerSonoran": "Sonoran",
+    "providerDiscord": "Discord",
+    "providerApple": "Apple"
+  },
   "Event": {
     "goToCommunityCalendar": "Go to Community Calendar",
     "createdBy": "Created by"
