@@ -2066,6 +2066,14 @@
     "erlcHint": "ERLC Hint",
     "erlcNotification": "ERLC Notification"
   },
+  "integrationsPortal": {
+    "title": "Official Integrations",
+    "subtitle": "Missing something you want?",
+    "suggestIntegration": "Suggest an integration!",
+    "comingSoon": "Coming Soon!",
+    "noPermissionTooltip": "{integration} - No Permission",
+    "newBadge": "NEW"
+  },
   "Event": {
     "goToCommunityCalendar": "Go to Community Calendar",
     "createdBy": "Created by"
