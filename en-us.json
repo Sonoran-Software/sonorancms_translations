@@ -3456,6 +3456,13 @@
     "inheritFromFolder": "Inherit from Folder",
     "inheritShareSettingsFromTheParentFolder": "Inherit share settings from the parent folder"
   },
+  "AutomatedActions": {
+    "modifyRanks": "Modify Ranks",
+    "discordWebhook": "Discord Webhook",
+    "discordDm": "Discord DM",
+    "notification": "Notification",
+    "email": "Email"
+  },
   "DriveContextMenu": {
     "open": "Open",
     "download": "Download",
