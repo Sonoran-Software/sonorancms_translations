@@ -987,6 +987,9 @@
     "successfullySetRemovedCustomDomain": "Successfully set removed custom domain!",
     "unsuccessfullyRemovedCustomDomainContact": "Unsuccessfully removed custom domain, contact support if this persists.",
     "communityOwnersCanSetACustomDomainTheyHa": "Community Owners can set a custom domain they have setup to use with Sonoran CMS.",
+    "freeVanityDescription": "Every community has a free vanity URL based on your community ID.",
+    "ownDomainDescription": "Own your own domain? Use a completely custom domain for your community!",
+    "placeholderExampleDomain": "cms.example.com",
     "ThisFeatureRequiresTheProSubscriptionThe": " This feature requires the Pro subscription. There is also the free vanity URL, which is free to all communities",
     "freeVanityUrl": "Free Vanity URL",
     "customDomain": "Custom Domain",
@@ -1505,10 +1508,11 @@
     "whenADisciplinaryActionNotificationIsTri": "When a disciplinary action notification is triggered you'll be notified through Inbox and other preferences selected."
   },
   "disciplinaryConfiguration": {
-    "specifyTimeExpire": "Specify the amount of time it takes for points to expire",
+    "specifyTimeExpire": "Specify the amount of time it takes for points to expire.",
     "clickEnableExpiring": "Click to enable point expiring",
     "clickDisableExpiring": "Click to disable point expiring",
     "automatedActions": "Automated Actions",
+    "performAutomatedActions": "Perform automated actions when a user reaches a certain point threshold.",
     "pointThreshold": "Point Threshold",
     "points": "Points",
     "accounts": "Accounts",
