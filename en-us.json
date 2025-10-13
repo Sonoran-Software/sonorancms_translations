@@ -30,6 +30,7 @@
     "view": "View",
     "close": "Close",
     "image": "Image",
+    "days": "Days",
     "description": "Description",
     "templateDetails": "Template Details",
     "information": "Information",
@@ -1500,6 +1501,14 @@
     "whenAFormStageActionNotificationIsTrigge": "When a form stage action notification is triggered yo'ull be notified through Inbox and other preferences selected.",
     "disciplinaryActions": "Disciplinary Actions",
     "whenADisciplinaryActionNotificationIsTri": "When a disciplinary action notification is triggered you'll be notified through Inbox and other preferences selected."
+  },
+  "disciplinaryConfiguration": {
+    "specifyTimeExpire": "Specify the amount of time it takes for points to expire",
+    "clickEnableExpiring": "Click to enable point expiring",
+    "clickDisableExpiring": "Click to disable point expiring",
+    "automatedActions": "Automated Actions",
+    "pointThreshold": "Point Threshold",
+    "points": "Points"
   },
   "profileView": {
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
