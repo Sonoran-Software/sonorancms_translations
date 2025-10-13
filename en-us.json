@@ -61,6 +61,7 @@
     "manage": "Manage",
     "return": "Return",
     "learnMore": "Learn More",
+    "search": "Search",
     "previewTempStageGroupDetails": "Preview Stage Group Details"
   },
   "permissions": {
@@ -4302,7 +4303,12 @@
   "disciplinaryAccounts": {
     "disciplinaryPoints": "Disciplinary Points",
     "noActiveDisciplinaryPoints": "No active disciplinary points",
-    "addDisciplinaryPoints": "Add Disciplinary Points"
+    "addDisciplinaryPoints": "Add Disciplinary Points",
+    "configureActions": "Configure Actions",
+    "accountLabel": "Account",
+    "noRobloxAccountLinked": "No Roblox Account Linked",
+    "pointsLabel": "Points",
+    "reasonLabel": "Reason"
   },
   "RadioPermSelector": {
     "setRadio": "Set Radio"
