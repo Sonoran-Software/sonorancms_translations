@@ -4643,5 +4643,16 @@
     "pointsFrom": "points from",
     "to": "to",
     "reasonFrom": "reason from"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Name Customizations",
+    "nameFormatDisabledDueToDiscordNameSync": "Name Format Disabled due to Discord Name Sync",
+    "communityName": "Community Name",
+    "communityNameOfTheMember": "Community Name of the Member",
+    "identifier": "Identifier",
+    "firstIdentifierOfTheMember": "First Identifier of the Member",
+    "uniqueId": "Unique ID",
+    "uniqueIdOfTheMember": "Unique ID of the Member",
+    "anIssueOccuredWhileSavingNameFormat": "An issue occured while saving name format."
   }
 }
