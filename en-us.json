@@ -3178,7 +3178,9 @@
     "syncCmsCalendarEventsAndRsvpsToYourDisco": "Sync CMS calendar events and RSVPs to your Discord Guild(s)",
     "calendarSync": "Calendar Sync",
     "thisMayTakeAFewMomentsPleaseWait": "This may take a few moments, please wait.",
-    "linkedGuilds": "Linked Guilds"
+    "linkedGuilds": "Linked Guilds",
+    "accountRanksChangesChannel": "Account Rank Changes - Channel",
+    "accountRanksChangesMentions": "Account Rank Changes - Mentions"
   },
   "DepartmentEditor": {
     "departmentManager": "Department Manager",
