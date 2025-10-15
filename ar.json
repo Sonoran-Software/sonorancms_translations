@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "القناة - الحساب محظور",
     "accountBannedMentions": "الحساب محظور - الإشعارات",
     "hideFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج غير معروضة",
-    "showFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج معروضة في الواب هوك"
+    "showFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج معروضة في الواب هوك",
+    "accountRanksChangesChannel": "تغييرات رتبة الحساب - القناة",
+    "accountRanksChangesMentions": "تغييرات رتبة الحساب - الإشارات"
   },
   "DepartmentEditor": {
     "departmentManager": "مدير القسم",
@@ -4643,5 +4645,16 @@
     "discordDm": "رسالة مباشرة على Discord",
     "notification": "تنبيه",
     "email": "بريد إلكتروني"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "تخصيصات الاسم",
+    "nameFormatDisabledDueToDiscordNameSync": "تم تعطيل تنسيق الاسم بسبب مزامنة اسم Discord",
+    "communityName": "اسم المجتمع",
+    "communityNameOfTheMember": "اسم مجتمع العضو",
+    "identifier": "المعرف",
+    "firstIdentifierOfTheMember": "المعرف الأول للعضو",
+    "uniqueId": "رقم التعريف الفريد",
+    "uniqueIdOfTheMember": "رقم التعريف الفريد للعضو",
+    "anIssueOccuredWhileSavingNameFormat": "حدثت مشكلة أثناء حفظ تنسيق الاسم."
   }
 }

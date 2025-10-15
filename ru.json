@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Аккаунт забанен - Канал",
     "accountBannedMentions": "Учетная запись заблокирована - Упоминания",
     "hideFormDropdown": "Выпадающее меню для изменения этапа формы не показано",
-    "showFormDropdown": "Выпадающее меню для изменения этапа формы показано на вебхуке"
+    "showFormDropdown": "Выпадающее меню для изменения этапа формы показано на вебхуке",
+    "accountRanksChangesChannel": "Изменения ранга аккаунта - канал",
+    "accountRanksChangesMentions": "Изменения ранга аккаунта - упоминания"
   },
   "DepartmentEditor": {
     "departmentManager": "Поля профиля не созданы... Создайте поля профиля в редакторе полей профиля в разделе Настройка",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Уведомление",
     "email": "Электронная почта"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Настройки имени",
+    "nameFormatDisabledDueToDiscordNameSync": "Формат имени отключен из-за синхронизации имени Discord",
+    "communityName": "Название сообщества",
+    "communityNameOfTheMember": "Название сообщества члена",
+    "identifier": "Идентификатор",
+    "firstIdentifierOfTheMember": "Первый идентификатор члена",
+    "uniqueId": "Уникальный ID",
+    "uniqueIdOfTheMember": "Уникальный ID члена",
+    "anIssueOccuredWhileSavingNameFormat": "Произошла ошибка при сохранении формата имени."
   }
 }

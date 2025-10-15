@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Konto utestengt - Kanal",
     "accountBannedMentions": "Konto utestengt - Områder",
     "hideFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises ikke",
-    "showFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises på webhooken"
+    "showFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises på webhooken",
+    "accountRanksChangesChannel": "Kontorangkendringer - Kanal",
+    "accountRanksChangesMentions": "Kontorangkendringer - Omtaler"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelingsleder",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Varsling",
     "email": "E-post"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Navn Tilpasninger",
+    "nameFormatDisabledDueToDiscordNameSync": "Navneformat deaktivert på grunn av Discord-navnesynkronisering",
+    "communityName": "Fellesskapsnavn",
+    "communityNameOfTheMember": "Fellesskapsnavn til medlemmet",
+    "identifier": "Identifikator",
+    "firstIdentifierOfTheMember": "Første identifikator til medlemmet",
+    "uniqueId": "Unik ID",
+    "uniqueIdOfTheMember": "Unik ID til medlemmet",
+    "anIssueOccuredWhileSavingNameFormat": "En feil oppsto mens navnformatet ble lagret."
   }
 }

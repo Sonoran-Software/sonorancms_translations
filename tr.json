@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Hesap Yasaklandı - Kanal",
     "accountBannedMentions": "Hesap Yasaklandı - Bahsetmeler",
     "hideFormDropdown": "Form aşamasını değiştirmek için açılır menü gösterilmiyor",
-    "showFormDropdown": "Form aşamasını değiştirmek için açılır menü webhook'ta gösterilir"
+    "showFormDropdown": "Form aşamasını değiştirmek için açılır menü webhook'ta gösterilir",
+    "accountRanksChangesChannel": "Hesap Rütbe Değişiklikleri - Kanal",
+    "accountRanksChangesMentions": "Hesap Rütbe Değişiklikleri - Bahsetmeler"
   },
   "DepartmentEditor": {
     "departmentManager": "Departman Yöneticisi",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Bildirim",
     "email": "E-posta"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "İsim Özelleştirmeleri",
+    "nameFormatDisabledDueToDiscordNameSync": "İsim Formatı, Discord İsim Senkronizasyonu Nedeniyle Devre Dışı",
+    "communityName": "Topluluk Adı",
+    "communityNameOfTheMember": "Üyenin Topluluk Adı",
+    "identifier": "Tanımlayıcı",
+    "firstIdentifierOfTheMember": "Üyenin İlk Tanımlayıcısı",
+    "uniqueId": "Benzersiz ID",
+    "uniqueIdOfTheMember": "Üyenin Benzersiz ID'si",
+    "anIssueOccuredWhileSavingNameFormat": "İsim formatı kaydedilirken bir sorun oluştu."
   }
 }

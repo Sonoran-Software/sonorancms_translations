@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Account verbannen - Kanaal",
     "accountBannedMentions": "Account verbannen - Vermeldingen",
     "hideFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt niet getoond",
-    "showFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt op de webhook getoond"
+    "showFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt op de webhook getoond",
+    "accountRanksChangesChannel": "Account Rangwijzigingen - Kanaal",
+    "accountRanksChangesMentions": "Account Rangwijzigingen - Vermeldingen"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsmanager",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Melding",
     "email": "E-mail"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Naam Aanpassingen",
+    "nameFormatDisabledDueToDiscordNameSync": "Naamformaat Gehandicapt vanwege Discord-naam Synchronisatie",
+    "communityName": "Gemeenschapsnaam",
+    "communityNameOfTheMember": "Gemeenschapsnaam van het Lid",
+    "identifier": "Identificator",
+    "firstIdentifierOfTheMember": "Eerste Identificator van het Lid",
+    "uniqueId": "Unieke ID",
+    "uniqueIdOfTheMember": "Unieke ID van het Lid",
+    "anIssueOccuredWhileSavingNameFormat": "Er is een probleem opgetreden bij het opslaan van het naamformaat."
   }
 }

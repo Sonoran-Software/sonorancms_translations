@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "账户封禁 - 频道",
     "accountBannedMentions": "帐户已封禁 - 提及",
     "hideFormDropdown": "用于更改表单阶段的下拉菜单未显示",
-    "showFormDropdown": "用于更改表单阶段的下拉菜单显示在 webhook 上"
+    "showFormDropdown": "用于更改表单阶段的下拉菜单显示在 webhook 上",
+    "accountRanksChangesChannel": "账户等级变更 - 频道",
+    "accountRanksChangesMentions": "账户等级变更 - 提及"
   },
   "DepartmentEditor": {
     "departmentManager": "部门经理",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "通知",
     "email": "电子邮件"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "名称自定义",
+    "nameFormatDisabledDueToDiscordNameSync": "由于Discord名称同步，名称格式已禁用",
+    "communityName": "社区名称",
+    "communityNameOfTheMember": "会员的社区名称",
+    "identifier": "标识符",
+    "firstIdentifierOfTheMember": "会员的第一个标识符",
+    "uniqueId": "唯一ID",
+    "uniqueIdOfTheMember": "会员的唯一ID",
+    "anIssueOccuredWhileSavingNameFormat": "保存名称格式时出现问题"
   }
 }

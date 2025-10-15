@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Tilin Kieltolista - Kanava",
     "accountBannedMentions": "Tili estetty - Maininnat",
     "hideFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen ei ole näkyvissä",
-    "showFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen näkyy webhookissa"
+    "showFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen näkyy webhookissa",
+    "accountRanksChangesChannel": "Tilin tason muutokset - Kanava",
+    "accountRanksChangesMentions": "Tilin tason muutokset - Maininnat"
   },
   "DepartmentEditor": {
     "departmentManager": "Osaston johtaja",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Ilmoitus",
     "email": "Sähköposti"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Nimen mukautukset",
+    "nameFormatDisabledDueToDiscordNameSync": "Nimen muoto on poistettu käytöstä Discord-nimen synkronoinnin vuoksi",
+    "communityName": "Yhteisön nimi",
+    "communityNameOfTheMember": "Jäsenen yhteisön nimi",
+    "identifier": "Tunniste",
+    "firstIdentifierOfTheMember": "Jäsenen ensimmäinen tunniste",
+    "uniqueId": "Yksilöllinen tunniste",
+    "uniqueIdOfTheMember": "Jäsenen yksilöllinen tunniste",
+    "anIssueOccuredWhileSavingNameFormat": "Virhe tapahtui tallennettaessa nimen muotoa."
   }
 }

@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Cuenta Suspendida - Canal",
     "accountBannedMentions": "Cuenta suspendida - Menciones",
     "hideFormDropdown": "El menú desplegable para cambiar una etapa del formulario no se muestra",
-    "showFormDropdown": "El menú desplegable para cambiar una etapa del formulario se muestra en el webhook"
+    "showFormDropdown": "El menú desplegable para cambiar una etapa del formulario se muestra en el webhook",
+    "accountRanksChangesChannel": "Cambios de Rango de Cuenta - Canal",
+    "accountRanksChangesMentions": "Cambios de Rango de Cuenta - Menciones"
   },
   "DepartmentEditor": {
     "departmentManager": "Gerente de departamento",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Notificación",
     "email": "Correo Electrónico"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Personalizaciones de Nombre",
+    "nameFormatDisabledDueToDiscordNameSync": "Formato de Nombre Desactivado debido a la Sincronización de Nombres de Discord",
+    "communityName": "Nombre de la Comunidad",
+    "communityNameOfTheMember": "Nombre de la Comunidad del Miembro",
+    "identifier": "Identificador",
+    "firstIdentifierOfTheMember": "Primer Identificador del Miembro",
+    "uniqueId": "ID Único",
+    "uniqueIdOfTheMember": "ID Único del Miembro",
+    "anIssueOccuredWhileSavingNameFormat": "Se produjo un problema al guardar el formato de nombre."
   }
 }

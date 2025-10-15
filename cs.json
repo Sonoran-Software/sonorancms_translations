@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Účet zablokován - Kanál",
     "accountBannedMentions": "Účet zablokován - Zmínky",
     "hideFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře není zobrazena",
-    "showFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře je zobrazena na webhooku"
+    "showFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře je zobrazena na webhooku",
+    "accountRanksChangesChannel": "Změny hodností účtu - Kanál",
+    "accountRanksChangesMentions": "Změny hodností účtu - Zmínky"
   },
   "DepartmentEditor": {
     "departmentManager": "Manažer oddělení",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Notifikace",
     "email": "Email"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Přizpůsobení jmen",
+    "nameFormatDisabledDueToDiscordNameSync": "Formát jména je vypnutý kvůli synchronizaci jmen na Discordu",
+    "communityName": "Název komunity",
+    "communityNameOfTheMember": "Název komunity člena",
+    "identifier": "Identifikátor",
+    "firstIdentifierOfTheMember": "První identifikátor člena",
+    "uniqueId": "Unikátní ID",
+    "uniqueIdOfTheMember": "Unikátní ID člena",
+    "anIssueOccuredWhileSavingNameFormat": "Při ukládání formátu jména došlo k problému."
   }
 }

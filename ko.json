@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "계정 차단 - 채널",
     "accountBannedMentions": "계정 차단됨 - 언급",
     "hideFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 표시되지 않습니다",
-    "showFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 웹훅에 표시됩니다"
+    "showFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 웹훅에 표시됩니다",
+    "accountRanksChangesChannel": "계정 등급 변경 - 채널",
+    "accountRanksChangesMentions": "계정 등급 변경 - 언급"
   },
   "DepartmentEditor": {
     "departmentManager": "생성된 비공개 페이지가 없습니다. 비공개 보기 유형으로 설정된 페이지에 대해서만 권한을 관리할 수 있습니다.",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "알림",
     "email": "이메일"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "이름 맞춤 설정",
+    "nameFormatDisabledDueToDiscordNameSync": "Discord 이름 동기화로 인해 이름 형식이 비활성화되었습니다",
+    "communityName": "커뮤니티 이름",
+    "communityNameOfTheMember": "회원의 커뮤니티 이름",
+    "identifier": "식별자",
+    "firstIdentifierOfTheMember": "회원의 첫 번째 식별자",
+    "uniqueId": "고유 ID",
+    "uniqueIdOfTheMember": "회원의 고유 ID",
+    "anIssueOccuredWhileSavingNameFormat": "이름 형식을 저장하는 동안 문제가 발생했습니다"
   }
 }

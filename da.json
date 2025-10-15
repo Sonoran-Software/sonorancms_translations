@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Konto Bannet - Kanal",
     "accountBannedMentions": "Konto udelukket - Omtaler",
     "hideFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises ikke",
-    "showFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises på webhooken"
+    "showFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises på webhooken",
+    "accountRanksChangesChannel": "Kontorangsændringer - Kanal",
+    "accountRanksChangesMentions": "Kontorangsændringer - Mentions"
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsleder",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Notifikation",
     "email": "Email"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Navnetilpasninger",
+    "nameFormatDisabledDueToDiscordNameSync": "Navneformat deaktiveret på grund af Discord-navnesynkronisering",
+    "communityName": "Fællesskabsnavn",
+    "communityNameOfTheMember": "Fællesskabsnavn på medlemmet",
+    "identifier": "Identifikator",
+    "firstIdentifierOfTheMember": "Medlemmets første identifikator",
+    "uniqueId": "Unikt ID",
+    "uniqueIdOfTheMember": "Unikt ID for medlemmet",
+    "anIssueOccuredWhileSavingNameFormat": "Der opstod et problem under lagring af navneformatet."
   }
 }

@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "アカウント停止 - チャンネル",
     "accountBannedMentions": "アカウントが停止されました - メンション",
     "hideFormDropdown": "フォームステージを変更するためのドロップダウンは表示されません",
-    "showFormDropdown": "フォームステージを変更するためのドロップダウンがWebhookで表示されます"
+    "showFormDropdown": "フォームステージを変更するためのドロップダウンがWebhookで表示されます",
+    "accountRanksChangesChannel": "アカウントランクの変更 - チャンネル",
+    "accountRanksChangesMentions": "アカウントランクの変更 - メンション"
   },
   "DepartmentEditor": {
     "departmentManager": "プロファイルフィールドが作成されていません... カスタマイズのプロファイルフィールドエディタでプロファイルフィールドを作成してください",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "通知",
     "email": "メール"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "名前のカスタマイズ",
+    "nameFormatDisabledDueToDiscordNameSync": "Discord名同期により名前フォーマットが無効化されています",
+    "communityName": "コミュニティ名",
+    "communityNameOfTheMember": "メンバーのコミュニティ名",
+    "identifier": "識別子",
+    "firstIdentifierOfTheMember": "メンバーの最初の識別子",
+    "uniqueId": "ユニークID",
+    "uniqueIdOfTheMember": "メンバーのユニークID",
+    "anIssueOccuredWhileSavingNameFormat": "名前フォーマットの保存中に問題が発生しました"
   }
 }

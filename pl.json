@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Konto zabanowane - Kanał",
     "accountBannedMentions": "Konto zablokowane - Wzmianki",
     "hideFormDropdown": "Lista rozwijana do zmiany etapu formularza nie jest pokazana",
-    "showFormDropdown": "Lista rozwijana do zmiany etapu formularza jest pokazana na webhooku"
+    "showFormDropdown": "Lista rozwijana do zmiany etapu formularza jest pokazana na webhooku",
+    "accountRanksChangesChannel": "Zmiany rangi konta - Kanał",
+    "accountRanksChangesMentions": "Zmiany rangi konta - Wzmianki"
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Powiadomienie",
     "email": "Email"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Dostosowania nazwy",
+    "nameFormatDisabledDueToDiscordNameSync": "Format nazwy wyłączony z powodu synchronizacji nazw Discord",
+    "communityName": "Nazwa społeczności",
+    "communityNameOfTheMember": "Nazwa społeczności członka",
+    "identifier": "Identyfikator",
+    "firstIdentifierOfTheMember": "Pierwszy identyfikator członka",
+    "uniqueId": "Unikalny identyfikator",
+    "uniqueIdOfTheMember": "Unikalny identyfikator członka",
+    "anIssueOccuredWhileSavingNameFormat": "Wystąpił problem podczas zapisywania formatu nazwy."
   }
 }

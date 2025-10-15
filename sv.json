@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Konto Avstängt - Kanal",
     "accountBannedMentions": "Kontot är förbjudet - Nämner",
     "hideFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas inte",
-    "showFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas på webhooken"
+    "showFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas på webhooken",
+    "accountRanksChangesChannel": "Kontorankändringar - Kanal",
+    "accountRanksChangesMentions": "Kontorankändringar - Nämna"
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelningschef",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Meddelande",
     "email": "E-post"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Namn Anpassningar",
+    "nameFormatDisabledDueToDiscordNameSync": "Namformat inaktiverat på grund av Discord Namn Sync",
+    "communityName": "Gemenskapsnamn",
+    "communityNameOfTheMember": "Gemenskapsnamn för Medlemmen",
+    "identifier": "Identifierare",
+    "firstIdentifierOfTheMember": "Första Identifieraren av Medlemmen",
+    "uniqueId": "Unikt ID",
+    "uniqueIdOfTheMember": "Unikt ID för Medlemmen",
+    "anIssueOccuredWhileSavingNameFormat": "Ett problem uppstod vid sparande av namformat"
   }
 }

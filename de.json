@@ -3143,7 +3143,9 @@
     "accountBannedChannel": "Konto gesperrt - Kanal",
     "accountBannedMentions": "Konto gesperrt - Erwähnungen",
     "hideFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird nicht angezeigt",
-    "showFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird im Webhook angezeigt"
+    "showFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird im Webhook angezeigt",
+    "accountRanksChangesChannel": "Konto Rangänderungen - Kanal",
+    "accountRanksChangesMentions": "Konto Rangänderungen - Erwähnungen"
   },
   "DepartmentEditor": {
     "departmentManager": "Abteilungsleiter",
@@ -4643,5 +4645,16 @@
     "discordDm": "Discord DM",
     "notification": "Benachrichtigung",
     "email": "E-Mail"
+  },
+  "NameFormatConfigurator": {
+    "nameCustomizations": "Namenanpassungen",
+    "nameFormatDisabledDueToDiscordNameSync": "Namensformat deaktiviert aufgrund von Discord-Namenssynchronisation",
+    "communityName": "Gemeinschaftsname",
+    "communityNameOfTheMember": "Gemeinschaftsname des Mitglieds",
+    "identifier": "Kennung",
+    "firstIdentifierOfTheMember": "Erste Kennung des Mitglieds",
+    "uniqueId": "Eindeutige ID",
+    "uniqueIdOfTheMember": "Eindeutige ID des Mitglieds",
+    "anIssueOccuredWhileSavingNameFormat": "Ein Problem ist beim Speichern des Namensformats aufgetreten."
   }
 }
