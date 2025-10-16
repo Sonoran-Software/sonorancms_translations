@@ -3594,7 +3594,8 @@
     "fieldResponseLabel": "Question Response",
     "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
-    "conditionalQuestionStartExplaination": "This action will execute"
+    "conditionalQuestionStartExplaination": "This action will execute",
+    "actionConditions": "Action Conditions"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Ranks to Notify",
