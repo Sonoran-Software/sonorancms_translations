@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "问题响应",
     "fieldResponseDescription": "从问题中插入提交文本。某些问题类型可能无法复制。",
     "formAIResponseLabel": "表单 AI 处理响应",
-    "formAIResponseDescription": "如果适用，插入 AI 生成的提交响应。"
+    "formAIResponseDescription": "如果适用，插入 AI 生成的提交响应。",
+    "actionConditions": "行动条件"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",

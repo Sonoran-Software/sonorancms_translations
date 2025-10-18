@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Svarsfråga",
     "fieldResponseDescription": "Infogar inlämningstexten från en fråga. Vissa frågetyper kanske inte kan kopieras.",
     "formAIResponseLabel": "Formulär AI Bearbetningssvar",
-    "formAIResponseDescription": "Infogar det AI-genererade svaret för inskickningen om tillämpligt."
+    "formAIResponseDescription": "Infogar det AI-genererade svaret för inskickningen om tillämpligt.",
+    "actionConditions": "Åtgärdsvillkor"
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",

@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Resposta à Pergunta",
     "fieldResponseDescription": "Insere o texto da submissão de uma pergunta. Alguns tipos de perguntas podem não ser copiados.",
     "formAIResponseLabel": "Resposta de Processamento por IA do Formulário",
-    "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável."
+    "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável.",
+    "actionConditions": "Condições de Ação"
   },
   "FormRenderer": {
     "dragToReorder": "Arraste para reordenar",

@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Soru Yanıtı",
     "fieldResponseDescription": "Bir sorudan gönderi metnini ekler. Bazı soru türleri kopyalanamayabilir.",
     "formAIResponseLabel": "Form AI İşleme Yanıtı",
-    "formAIResponseDescription": "Uygun olduğunda gönderim için AI tarafından üretilen yanıtı ekler."
+    "formAIResponseDescription": "Uygun olduğunda gönderim için AI tarafından üretilen yanıtı ekler.",
+    "actionConditions": "Eylem Koşulları"
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",

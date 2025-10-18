@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Kysymysvastaus",
     "fieldResponseDescription": "Lisää kysymyksen vastaustekstin. Jotkin kysymystyypit eivät ehkä ole kopioitavissa.",
     "formAIResponseLabel": "Lomakkeen AI-käsittelyn vastaus",
-    "formAIResponseDescription": "Lisää AI:n luoman vastauksen lähetykselle, jos sovellettavissa."
+    "formAIResponseDescription": "Lisää AI:n luoman vastauksen lähetykselle, jos sovellettavissa.",
+    "actionConditions": "Toiminnan ehdot"
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",

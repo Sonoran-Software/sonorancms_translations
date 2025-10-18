@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Risposta alla domanda",
     "fieldResponseDescription": "Inserisce il testo della risposta da una domanda. Alcuni tipi di domande potrebbero non essere copiabili.",
     "formAIResponseLabel": "Risposta di elaborazione AI modulo",
-    "formAIResponseDescription": "Inserisce la risposta generata dall'AI per l'invio, se applicabile."
+    "formAIResponseDescription": "Inserisce la risposta generata dall'AI per l'invio, se applicabile.",
+    "actionConditions": "Condizioni di Azione"
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",

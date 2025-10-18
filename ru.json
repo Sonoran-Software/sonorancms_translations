@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Ответ на вопрос",
     "fieldResponseDescription": "Вставляет текст ответа из вопроса. Некоторые типы вопросов могут не подлежать копированию.",
     "formAIResponseLabel": "Ответ обработки формы ИИ",
-    "formAIResponseDescription": "Вставляет ответ, сгенерированный ИИ для подачи, если применимо."
+    "formAIResponseDescription": "Вставляет ответ, сгенерированный ИИ для подачи, если применимо.",
+    "actionConditions": "Условия действия"
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",

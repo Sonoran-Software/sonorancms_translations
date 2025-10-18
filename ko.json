@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "질문 응답",
     "fieldResponseDescription": "질문에서 제출 텍스트를 삽입합니다. 일부 질문 유형은 복사할 수 없을 수도 있습니다.",
     "formAIResponseLabel": "양식 AI 처리 응답",
-    "formAIResponseDescription": "적용 가능한 경우 제출물에 대한 AI 생성 응답을 삽입합니다."
+    "formAIResponseDescription": "적용 가능한 경우 제출물에 대한 AI 생성 응답을 삽입합니다.",
+    "actionConditions": "작업 조건"
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",

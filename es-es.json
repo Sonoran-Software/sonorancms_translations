@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Respuesta de la pregunta",
     "fieldResponseDescription": "Inserta el texto de la respuesta de una pregunta. Algunos tipos de preguntas pueden no ser copiables.",
     "formAIResponseLabel": "Respuesta de Procesamiento AI del Formulario",
-    "formAIResponseDescription": "Inserta la respuesta generada por AI para la presentación, si es aplicable."
+    "formAIResponseDescription": "Inserta la respuesta generada por AI para la presentación, si es aplicable.",
+    "actionConditions": "Condiciones de acción"
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",

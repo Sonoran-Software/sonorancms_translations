@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "استجابة السؤال",
     "fieldResponseDescription": "يدرج نص التقديم من سؤال. قد لا يمكن نسخ بعض أنواع الأسئلة.",
     "formAIResponseLabel": "استجابة معالجة الذكاء الاصطناعي للنموذج",
-    "formAIResponseDescription": "إدراج الاستجابة المولدة بواسطة الذكاء الاصطناعي للإرسال إذا كان ذلك ممكنًا."
+    "formAIResponseDescription": "إدراج الاستجابة المولدة بواسطة الذكاء الاصطناعي للإرسال إذا كان ذلك ممكنًا.",
+    "actionConditions": "شروط الإجراء"
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",

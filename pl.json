@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Odpowiedź na pytanie",
     "fieldResponseDescription": "Wstawia tekst zgłoszenia z pytania. Niektóre typy pytań mogą być niemożliwe do skopiowania.",
     "formAIResponseLabel": "Odpowiedź przetwarzania AI formularza",
-    "formAIResponseDescription": "Wstawia odpowiedź wygenerowaną przez AI dla zgłoszenia, jeśli ma zastosowanie."
+    "formAIResponseDescription": "Wstawia odpowiedź wygenerowaną przez AI dla zgłoszenia, jeśli ma zastosowanie.",
+    "actionConditions": "Warunki działania"
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",

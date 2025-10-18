@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "質問応答",
     "fieldResponseDescription": "質問から送信テキストを挿入します。一部の質問タイプはコピーできない場合があります。",
     "formAIResponseLabel": "フォームAI処理応答",
-    "formAIResponseDescription": "該当する場合、提出物に対するAI生成応答を挿入します。"
+    "formAIResponseDescription": "該当する場合、提出物に対するAI生成応答を挿入します。",
+    "actionConditions": "アクション条件"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",

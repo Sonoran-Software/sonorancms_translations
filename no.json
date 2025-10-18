@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Spørsmålssvar",
     "fieldResponseDescription": "Setter inn innsendelsesteksten fra et spørsmål. Noen spørsmålstyper kan kanskje ikke kopieres.",
     "formAIResponseLabel": "Skjema AI-behandlingssvar",
-    "formAIResponseDescription": "Setter inn det AI-genererte svaret for innsendingen hvis aktuelt."
+    "formAIResponseDescription": "Setter inn det AI-genererte svaret for innsendingen hvis aktuelt.",
+    "actionConditions": "Handlingsbetingelser"
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",

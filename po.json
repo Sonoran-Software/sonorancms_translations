@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "תגובה לשאלה",
     "fieldResponseDescription": "Wstawia tekst z pytania. Niektóre typy pytań mogą nie być możliwe do skopiowania.",
     "formAIResponseLabel": "Resposta de Processamento de Formulário por IA",
-    "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável."
+    "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável.",
+    "actionConditions": "Ações de Condição"
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",

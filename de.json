@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Antwort auf die Frage",
     "fieldResponseDescription": "Fügt den Antworttext aus einer Frage ein. Einige Fragetypen können möglicherweise nicht kopiert werden.",
     "formAIResponseLabel": "Formular-AI-Verarbeitungsantwort",
-    "formAIResponseDescription": "Fügt die AI-generierte Antwort für die Übermittlung ein, falls zutreffend."
+    "formAIResponseDescription": "Fügt die AI-generierte Antwort für die Übermittlung ein, falls zutreffend.",
+    "actionConditions": "Aktionsbedingungen"
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",

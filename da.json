@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Spørgsmålsrespons",
     "fieldResponseDescription": "Indsætter besvarelsesteksten fra et spørgsmål. Nogle spørgsmålstyper kan muligvis ikke kopieres.",
     "formAIResponseLabel": "AI-behandlingssvar for formular",
-    "formAIResponseDescription": "Indsætter det AI-genererede svar for indsendelsen, hvis det er relevant."
+    "formAIResponseDescription": "Indsætter det AI-genererede svar for indsendelsen, hvis det er relevant.",
+    "actionConditions": "Handlingsbetingelser"
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",

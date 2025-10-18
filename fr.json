@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Réponse à la question",
     "fieldResponseDescription": "Insère le texte de soumission d'une question. Certains types de questions peuvent ne pas être copiés.",
     "formAIResponseLabel": "Réponse de traitement de l'IA du formulaire",
-    "formAIResponseDescription": "Insère la réponse générée par l'IA pour la soumission si applicable."
+    "formAIResponseDescription": "Insère la réponse générée par l'IA pour la soumission si applicable.",
+    "actionConditions": "Conditions d'action"
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",

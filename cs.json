@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Odpověď na otázku",
     "fieldResponseDescription": "Vloží text odpovědi z otázky. Některé typy otázek nemusí být možné zkopírovat.",
     "formAIResponseLabel": "Odpověď AI zpracování formuláře",
-    "formAIResponseDescription": "Vloží odpověď generovanou AI pro podání, pokud je to použitelné."
+    "formAIResponseDescription": "Vloží odpověď generovanou AI pro podání, pokud je to použitelné.",
+    "actionConditions": "Podmínky akce"
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",

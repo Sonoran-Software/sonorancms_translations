@@ -3552,7 +3552,8 @@
     "fieldResponseLabel": "Antwoord op de vraag",
     "fieldResponseDescription": "Voegt de inzendingstekst van een vraag in. Sommige vraagtypen kunnen mogelijk niet worden gekopieerd.",
     "formAIResponseLabel": "Formulier AI-verwerkingsreactie",
-    "formAIResponseDescription": "Voegt de door AI gegenereerde reactie voor de inzending toe indien van toepassing."
+    "formAIResponseDescription": "Voegt de door AI gegenereerde reactie voor de inzending toe indien van toepassing.",
+    "actionConditions": "Actievoorwaarden"
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
