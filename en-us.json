@@ -4620,7 +4620,28 @@
     "anErrorOccuredWhileAdding": "An error occured while adding"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "Online for"
+    "onlineFor": "Online for",
+    "actioned": {
+      "recentlyModded": "Recently modded",
+      "recentlyHealed": "Recently healed",
+      "recentlyJailed": "Recently jailed",
+      "recentlyReceivedNote": "Recently received a note",
+      "recentlyRefreshed": "Recently refreshed",
+      "recentlyRespawned": "Recently respawned",
+      "recentlyAdmined": "Recently admined",
+      "recentlyBanned": "Recently banned",
+      "recentlyUnmodded": "Recently unmodded",
+      "recentlyKicked": "Recently kicked",
+      "recentlyWanted": "Recently wanted",
+      "recentlyWarned": "Recently warned",
+      "recentlyUnadmined": "Recently unadmined",
+      "recentlyTeleportedTo": "Recently teleported to",
+      "recentlyUnbanned": "Recently unbanned",
+      "recentlyUnwanted": "Recently unwanted",
+      "recentlyReceivedDisciplinaryPoints": "Recently received disciplinary points",
+      "recentlyReceivedPrivateMessage": "Recently received a private message",
+      "recentlyJoined": "Recently joined"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Create New Record",
