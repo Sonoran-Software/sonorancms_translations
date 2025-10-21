@@ -4667,7 +4667,11 @@
     "editedTheRecords": "edited the record's",
     "pointsFrom": "points from",
     "to": "to",
-    "reasonFrom": "reason from"
+    "reasonFrom": "reason from",
+    "cancel": "Cancel",
+    "thisRecordCannotBeEditedDueToNoAccount": "This record cannot be edited due to no account association.",
+    "typeFrom": "type from",
+    "and": "and"
   },
   "NameFormatConfigurator": {
     "nameCustomizations": "Name Customizations",
