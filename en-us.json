@@ -3826,6 +3826,7 @@
   },
   "selectPage": {
     "toolbarCustomization": "Toolbar Customization",
+    "searchPages": "Search Pages",
     "communityHomePage": "Community home page",
     "yourCommunityPage": "Your Community Page",
     "anErrorOccuredWhileSelectingPageTemplate": "An error occured while selecting page template, try again.",
