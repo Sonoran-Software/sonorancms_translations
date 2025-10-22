@@ -3668,7 +3668,8 @@
     "dropdown": "Açılır Menü",
     "start": "başla",
     "center": "Merkez",
-    "end": "son"
+    "end": "son",
+    "customizeYourCommunitysNavigationBar": "Topluluğunuzun gezinme çubuğunu özelleştirin."
   },
   "selectPage": {
     "toolbarCustomization": "Araç Çubuğu Özelleştirme",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Ana sayfa güncellendi!",
     "thereWasAProblemSettingThePageAsHomepage": "Sayfa ana sayfa olarak ayarlanırken bir sorun oluştu.",
     "homepageUpdatedButDuringDiscoveryApproval": "Ana sayfa güncellendi, ancak keşif onayı sırasında başarısız oldu ve şu nedenle keşif devre dışı bırakıldı:",
-    "copyPage": "Kopyala"
+    "copyPage": "Kopyala",
+    "searchPages": "Sayfaları Ara",
+    "websitePages": "Web Sitesi Sayfaları",
+    "createCustomPages": "Topluluğunuz için özel web sayfaları oluşturun!",
+    "selectPageTemplate": "Sayfa Şablonu Seçin",
+    "blank": "Boş"
   },
   "SectionEditor": {
     "background": "Arka Plan",
@@ -4573,7 +4579,8 @@
     "lessRanks": "az rütbe"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "Çevrimiçi Süresi"
+    "onlineFor": "Çevrimiçi Süresi",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Yeni Kayıt Oluştur",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "kaydı düzenledi",
     "pointsFrom": "puanlar",
     "to": "sonra",
-    "reasonFrom": "sebepten"
+    "reasonFrom": "sebepten",
+    "cancel": "İptal",
+    "thisRecordCannotBeEditedDueToNoAccount": "Bu kayıt, hesap bağlantısı olmadığından düzenlenemez.",
+    "typeFrom": "türünden",
+    "and": "ve",
+    "createdTheRecord": "kaydı oluşturdu"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Puanların süresinin dolması için gereken süreyi belirtin.",

@@ -3668,7 +3668,8 @@
     "dropdown": "Rullgardinsmeny",
     "start": "start",
     "center": "Centrum",
-    "end": "slut"
+    "end": "slut",
+    "customizeYourCommunitysNavigationBar": "Anpassa din gemenskaps navigeringsfält."
   },
   "selectPage": {
     "toolbarCustomization": "Verktygsfältsanpassning",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Hemsidan uppdaterad!",
     "thereWasAProblemSettingThePageAsHomepage": "Det uppstod ett problem med att ställa in sidan som hemsida.",
     "homepageUpdatedButDuringDiscoveryApproval": "Hemsidan uppdaterad, men under upptäcktsgodkännande misslyckades det och inaktiverade upptäckt på grund av:",
-    "copyPage": "Kopiera"
+    "copyPage": "Kopiera",
+    "searchPages": "Sök sidor",
+    "websitePages": "Webbsidor",
+    "createCustomPages": "Skapa anpassade webbsidor för din gemenskap!",
+    "selectPageTemplate": "Välj sidmall",
+    "blank": "Tom"
   },
   "SectionEditor": {
     "background": "Bakgrund",
@@ -4573,7 +4579,8 @@
     "lessRanks": "färreRanker"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "online i"
+    "onlineFor": "online i",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Skapa Ny Post",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "redigerade postens",
     "pointsFrom": "poäng från",
     "to": "till",
-    "reasonFrom": "orsak från"
+    "reasonFrom": "orsak från",
+    "cancel": "Avbryt",
+    "thisRecordCannotBeEditedDueToNoAccount": "Denna post kan inte redigeras på grund av ingen kontotillhörighet.",
+    "typeFrom": "skriv från",
+    "and": "och",
+    "createdTheRecord": "skapade posten"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Ange hur lång tid det tar innan poäng förfaller.",

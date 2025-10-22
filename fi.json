@@ -3668,7 +3668,8 @@
     "dropdown": "Pudotusvalikko",
     "start": "aloita",
     "center": "Keskusta",
-    "end": "loppu"
+    "end": "loppu",
+    "customizeYourCommunitysNavigationBar": "Muokkaa yhteisösi navigointipalkkia."
   },
   "selectPage": {
     "toolbarCustomization": "Työkalupalkin mukauttaminen",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Kotisivu päivitetty!",
     "thereWasAProblemSettingThePageAsHomepage": "Kotisivun asettamisessa oli ongelma.",
     "homepageUpdatedButDuringDiscoveryApproval": "Etusivu päivitetty, mutta hyväksynnän aikana tapahtui virhe ja haku poista käytöstä seuraavan syyn takia:",
-    "copyPage": "Kopioi"
+    "copyPage": "Kopioi",
+    "searchPages": "Hae sivuja",
+    "websitePages": "Verkkosivuston sivut",
+    "createCustomPages": "Luo mukautettuja verkkosivuja yhteisöllesi!",
+    "selectPageTemplate": "Valitse sivupohja",
+    "blank": "Tyhjä"
   },
   "SectionEditor": {
     "background": "Tausta",
@@ -4573,7 +4579,8 @@
     "lessRanks": "vähemmän Rivejä"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "verkossa varten"
+    "onlineFor": "verkossa varten",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Luo uusi merkintä",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "muokkasi tietuetta",
     "pointsFrom": "pisteistä alkaen",
     "to": "asti",
-    "reasonFrom": "syy alkaen"
+    "reasonFrom": "syy alkaen",
+    "cancel": "Peruuta",
+    "thisRecordCannotBeEditedDueToNoAccount": "Tätä tietuetta ei voi muokata tilin yhdistämisen puutteen vuoksi.",
+    "typeFrom": "tyyppi alkaen",
+    "and": "ja",
+    "createdTheRecord": "loi tietueen"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Määritä aika, jonka kuluttua pisteet vanhenevat.",

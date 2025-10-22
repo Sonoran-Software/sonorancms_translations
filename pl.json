@@ -3668,7 +3668,8 @@
     "dropdown": "Lista rozwijana",
     "start": "start",
     "center": "Środek",
-    "end": "koniec"
+    "end": "koniec",
+    "customizeYourCommunitysNavigationBar": "Dostosuj pasek nawigacyjny swojej społeczności."
   },
   "selectPage": {
     "toolbarCustomization": "Dostosowanie paska narzędzi",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Strona główna zaktualizowana!",
     "thereWasAProblemSettingThePageAsHomepage": "Wystąpił problem z ustawieniem strony jako strony głównej.",
     "homepageUpdatedButDuringDiscoveryApproval": "Strona główna zaktualizowana, ale podczas zatwierdzania odkrycia nie powiodło się i wyłączono odkrycie z powodu:",
-    "copyPage": "Kopiuj"
+    "copyPage": "Kopiuj",
+    "searchPages": "Wyszukaj strony",
+    "websitePages": "Strony internetowe",
+    "createCustomPages": "Utwórz niestandardowe strony internetowe dla swojej społeczności!",
+    "selectPageTemplate": "Wybierz szablon strony",
+    "blank": "Pusty"
   },
   "SectionEditor": {
     "background": "Tło",
@@ -4573,7 +4579,8 @@
     "lessRanks": "mniejRang"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "Online przez"
+    "onlineFor": "Online przez",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Utwórz nowy rekord",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "edytował rekordy",
     "pointsFrom": "punkty z",
     "to": "do",
-    "reasonFrom": "powód z"
+    "reasonFrom": "powód z",
+    "cancel": "Anuluj",
+    "thisRecordCannotBeEditedDueToNoAccount": "Nie można edytować tego rekordu z powodu braku powiązania konta.",
+    "typeFrom": "typ z",
+    "and": "i",
+    "createdTheRecord": "utworzył rekord"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Określ ilość czasu, po jakim punkty wygasają.",

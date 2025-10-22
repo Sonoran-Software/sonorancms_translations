@@ -3668,7 +3668,8 @@
     "dropdown": "Desplegable",
     "start": "inicio",
     "center": "Centro",
-    "end": "fin"
+    "end": "fin",
+    "customizeYourCommunitysNavigationBar": "Personaliza la barra de navegación de tu comunidad."
   },
   "selectPage": {
     "toolbarCustomization": "Personalización de la barra de herramientas",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "¡Página principal actualizada!",
     "thereWasAProblemSettingThePageAsHomepage": "Hubo un problema al configurar la página como página principal.",
     "homepageUpdatedButDuringDiscoveryApproval": "La página principal se actualizó, pero durante la aprobación de descubrimiento falló y deshabilitó el descubrimiento debido a:",
-    "copyPage": "Copiar"
+    "copyPage": "Copiar",
+    "searchPages": "Buscar Páginas",
+    "websitePages": "Páginas del Sitio Web",
+    "createCustomPages": "¡Crea páginas web personalizadas para tu comunidad!",
+    "selectPageTemplate": "Seleccionar Plantilla de Página",
+    "blank": "Blanco"
   },
   "SectionEditor": {
     "background": "Fondo",
@@ -4573,7 +4579,8 @@
     "lessRanks": "menosRangos"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "en línea durante"
+    "onlineFor": "en línea durante",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Crear Nuevo Registro",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "editó los registros",
     "pointsFrom": "puntos de",
     "to": "a",
-    "reasonFrom": "razón de"
+    "reasonFrom": "razón de",
+    "cancel": "Cancelar",
+    "thisRecordCannotBeEditedDueToNoAccount": "Este registro no se puede editar debido a la falta de asociación de cuenta.",
+    "typeFrom": "tipo de",
+    "and": "y",
+    "createdTheRecord": "creó el registro"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Especifica la cantidad de tiempo que tarda en expirar los puntos.",

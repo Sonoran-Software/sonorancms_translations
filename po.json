@@ -3668,7 +3668,8 @@
     "dropdown": "Lista rozwijana",
     "start": "start",
     "center": "Środek",
-    "end": "koniec"
+    "end": "koniec",
+    "customizeYourCommunitysNavigationBar": "Personalize a barra de navegação da sua comunidade."
   },
   "selectPage": {
     "toolbarCustomization": "Dostosowanie paska narzędzi",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Strona główna zaktualizowana!",
     "thereWasAProblemSettingThePageAsHomepage": "Wystąpił problem z ustawieniem strony jako strony głównej.",
     "homepageUpdatedButDuringDiscoveryApproval": "Strona główna zaktualizowana, ale podczas zatwierdzania odkrycia nie powiodło się i wyłączono odkrycie z powodu:",
-    "copyPage": "Kopioida"
+    "copyPage": "Kopioida",
+    "searchPages": "Pesquisar Páginas",
+    "websitePages": "Páginas do Site",
+    "createCustomPages": "Crie páginas personalizadas para sua comunidade!",
+    "selectPageTemplate": "Selecionar Modelo de Página",
+    "blank": "Em branco"
   },
   "SectionEditor": {
     "background": "Tło",
@@ -4573,7 +4579,8 @@
     "lessRanks": "mniej rang"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "em linha por"
+    "onlineFor": "em linha por",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Criar novo registro",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "edytowano rekord",
     "pointsFrom": "punkty z",
     "to": "do",
-    "reasonFrom": "powód z"
+    "reasonFrom": "powód z",
+    "cancel": "Cancelar",
+    "thisRecordCannotBeEditedDueToNoAccount": "Este registro não pode ser editado devido à falta de associação de conta.",
+    "typeFrom": "digite de",
+    "and": "e",
+    "createdTheRecord": "criou o registro"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Określ czas, po jakim punkty wygasają.",

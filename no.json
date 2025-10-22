@@ -3668,7 +3668,8 @@
     "dropdown": "Nedtrekksmeny",
     "start": "start",
     "center": "Senter",
-    "end": "slutt"
+    "end": "slutt",
+    "customizeYourCommunitysNavigationBar": "Tilpass navigasjonslinjen for fellesskapet ditt."
   },
   "selectPage": {
     "toolbarCustomization": "Verktøylinje Tilpasning",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Hjemmeside oppdatert!",
     "thereWasAProblemSettingThePageAsHomepage": "Det oppstod et problem med å sette siden som hjemmeside.",
     "homepageUpdatedButDuringDiscoveryApproval": "Hjemmesiden oppdatert, men under oppdagelsesgodkjenning mislyktes det og deaktiverte oppdagelsen på grunn av:",
-    "copyPage": "Kopier"
+    "copyPage": "Kopier",
+    "searchPages": "Søk i sider",
+    "websitePages": "Nettsidesider",
+    "createCustomPages": "Lag tilpassede nettsider for fellesskapet ditt!",
+    "selectPageTemplate": "Velg sidemal",
+    "blank": "Tomt"
   },
   "SectionEditor": {
     "background": "Bakgrunn",
@@ -4573,7 +4579,8 @@
     "lessRanks": "mindreRanger"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "online i"
+    "onlineFor": "online i",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Opprett ny oppføring",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "redigerte postens",
     "pointsFrom": "poeng fra",
     "to": "til",
-    "reasonFrom": "grunn fra"
+    "reasonFrom": "grunn fra",
+    "cancel": "Avbryt",
+    "thisRecordCannotBeEditedDueToNoAccount": "Denne oppføringen kan ikke redigeres på grunn av manglende kontotilknytning.",
+    "typeFrom": "type fra",
+    "and": "og",
+    "createdTheRecord": "opprettet oppføringen"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Angi hvor lang tid det tar før poeng utløper.",

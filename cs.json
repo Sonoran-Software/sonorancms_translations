@@ -3668,7 +3668,8 @@
     "dropdown": "Rozbalovací nabídka",
     "start": "začátek",
     "center": "Střed",
-    "end": "konec"
+    "end": "konec",
+    "customizeYourCommunitysNavigationBar": "Přizpůsobte navigační panel vaší komunity."
   },
   "selectPage": {
     "toolbarCustomization": "Přizpůsobení nástrojové lišty",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Domovská stránka byla aktualizována!",
     "thereWasAProblemSettingThePageAsHomepage": "Došlo k problému při nastavování stránky jako domovské.",
     "homepageUpdatedButDuringDiscoveryApproval": "Domovská stránka byla aktualizována, ale během schválení objevu se nezdařilo a objev byl deaktivován z důvodu:",
-    "copyPage": "Kopírovat"
+    "copyPage": "Kopírovat",
+    "searchPages": "Hledat stránky",
+    "websitePages": "Webové stránky",
+    "createCustomPages": "Vytvořte si vlastní webové stránky pro vaši komunitu!",
+    "selectPageTemplate": "Vyberte šablonu stránky",
+    "blank": "Prázdný"
   },
   "SectionEditor": {
     "background": "Pozadí",
@@ -4573,7 +4579,8 @@
     "lessRanks": "méněHodnosti"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "online po dobu"
+    "onlineFor": "online po dobu",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Vytvořit nový záznam",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "upravil záznamy",
     "pointsFrom": "body od",
     "to": "do",
-    "reasonFrom": "důvod od"
+    "reasonFrom": "důvod od",
+    "cancel": "Zrušit",
+    "thisRecordCannotBeEditedDueToNoAccount": "Tento záznam nelze upravit kvůli absenci svázaného účtu.",
+    "typeFrom": "typ z",
+    "and": "a",
+    "createdTheRecord": "vytvořil záznam"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Určete, za jak dlouho body vyprší.",

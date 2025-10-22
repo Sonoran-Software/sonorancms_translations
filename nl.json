@@ -3668,7 +3668,8 @@
     "dropdown": "Dropdown",
     "start": "start",
     "center": "Midden",
-    "end": "einde"
+    "end": "einde",
+    "customizeYourCommunitysNavigationBar": "Pas de navigatiebalk van je community aan."
   },
   "selectPage": {
     "toolbarCustomization": "Werkbalkaanpassing",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Startpagina bijgewerkt!",
     "thereWasAProblemSettingThePageAsHomepage": "Er was een probleem bij het instellen van de pagina als startpagina.",
     "homepageUpdatedButDuringDiscoveryApproval": "Homepage bijgewerkt, maar tijdens goedkeuring van ontdekking is het mislukt en is ontdekking uitgeschakeld vanwege:",
-    "copyPage": "Kopieer"
+    "copyPage": "Kopieer",
+    "searchPages": "Zoek Pagina's",
+    "websitePages": "Websitepagina's",
+    "createCustomPages": "Maak aangepaste webpagina's voor je community!",
+    "selectPageTemplate": "Selecteer Paginatemplate",
+    "blank": "Leeg"
   },
   "SectionEditor": {
     "background": "Achtergrond",
@@ -4573,7 +4579,8 @@
     "lessRanks": "minderRangen"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "online voor"
+    "onlineFor": "online voor",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Nieuw record maken",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "heeft de record's bewerkt",
     "pointsFrom": "punten van",
     "to": "naar",
-    "reasonFrom": "reden van"
+    "reasonFrom": "reden van",
+    "cancel": "Annuleren",
+    "thisRecordCannotBeEditedDueToNoAccount": "Dit record kan niet worden bewerkt vanwege geen accountassociatie.",
+    "typeFrom": "type van",
+    "and": "en",
+    "createdTheRecord": "heeft het record gemaakt"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Geef de tijd aan waarna punten vervallen.",

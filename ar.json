@@ -3668,7 +3668,8 @@
     "dropdown": "قائمة منسدلة",
     "start": "ابدأ",
     "center": "الوسط",
-    "end": "النهاية"
+    "end": "النهاية",
+    "customizeYourCommunitysNavigationBar": "خصص شريط التنقل لمجتمعك."
   },
   "selectPage": {
     "toolbarCustomization": "تخصيص شريط الأدوات",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "تم تحديث الصفحة الرئيسية!",
     "thereWasAProblemSettingThePageAsHomepage": "كانت هناك مشكلة في تعيين الصفحة كصفحة رئيسية.",
     "homepageUpdatedButDuringDiscoveryApproval": "تم تحديث الصفحة الرئيسية، ولكن أثناء الموافقة على الاكتشاف فشلت وتم تعطيل الاكتشاف بسبب:",
-    "copyPage": "نسخ"
+    "copyPage": "نسخ",
+    "searchPages": "بحث عن الصفحات",
+    "websitePages": "صفحات الموقع الإلكتروني",
+    "createCustomPages": "قم بإنشاء صفحات ويب مخصصة لمجتمعك!",
+    "selectPageTemplate": "اختر قالب الصفحة",
+    "blank": "فارغ"
   },
   "SectionEditor": {
     "background": "الخلفية",
@@ -4573,7 +4579,8 @@
     "lessRanks": "رتب أقل"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "عبر الإنترنت لمدة"
+    "onlineFor": "عبر الإنترنت لمدة",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "إنشاء سجل جديد",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "تم تحرير السجل",
     "pointsFrom": "نقاط من",
     "to": "إلى",
-    "reasonFrom": "السبب من"
+    "reasonFrom": "السبب من",
+    "cancel": "إلغاء",
+    "thisRecordCannotBeEditedDueToNoAccount": "لا يمكن تعديل هذا السجل لعدم وجود ارتباط بحساب.",
+    "typeFrom": "النوع من",
+    "and": "و",
+    "createdTheRecord": "أنشأ السجل"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "حدد مقدار الوقت الذي يستغرقه انتهاء النقاط.",

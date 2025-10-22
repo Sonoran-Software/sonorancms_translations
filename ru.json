@@ -3668,7 +3668,8 @@
     "dropdown": "начало",
     "start": "Центр",
     "center": "конец",
-    "end": "Настройка панели инструментов"
+    "end": "Настройка панели инструментов",
+    "customizeYourCommunitysNavigationBar": "Настройте панель навигации вашего сообщества."
   },
   "selectPage": {
     "toolbarCustomization": "Главная страница сообщества",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Возникла проблема с установкой страницы в качестве главной.",
     "thereWasAProblemSettingThePageAsHomepage": "Фон",
     "homepageUpdatedButDuringDiscoveryApproval": "Главная страница обновлена, но во время утверждения обнаружения произошел сбой, и обнаружение было отключено из-за:",
-    "copyPage": "Копировать"
+    "copyPage": "Копировать",
+    "searchPages": "Поиск страниц",
+    "websitePages": "Страницы сайта",
+    "createCustomPages": "Создайте пользовательские веб-страницы для вашего сообщества!",
+    "selectPageTemplate": "Выберите шаблон страницы",
+    "blank": "Пустой"
   },
   "SectionEditor": {
     "background": "Редактор",
@@ -4573,7 +4579,8 @@
     "lessRanks": "меньше рангов"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "онлайн в течение"
+    "onlineFor": "онлайн в течение",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Создать новую запись",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "отредактировал записи",
     "pointsFrom": "баллы из",
     "to": "в",
-    "reasonFrom": "причина от"
+    "reasonFrom": "причина от",
+    "cancel": "Отмена",
+    "thisRecordCannotBeEditedDueToNoAccount": "Эту запись нельзя редактировать из-за отсутствия учетной записи.",
+    "typeFrom": "введите из",
+    "and": "и",
+    "createdTheRecord": "создал запись"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Укажите время, за которое истекают баллы.",

@@ -3668,7 +3668,8 @@
     "dropdown": "下拉菜单",
     "start": "开始",
     "center": "居中",
-    "end": "结束"
+    "end": "结束",
+    "customizeYourCommunitysNavigationBar": "自定义您的社区导航栏。"
   },
   "selectPage": {
     "toolbarCustomization": "工具栏定制",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "主页已更新！",
     "thereWasAProblemSettingThePageAsHomepage": "将页面设置为主页时出现问题。",
     "homepageUpdatedButDuringDiscoveryApproval": "主页已更新，但在发现审批过程中失败并由于以下原因禁用发现：",
-    "copyPage": "复制"
+    "copyPage": "复制",
+    "searchPages": "搜索页面",
+    "websitePages": "网站页面",
+    "createCustomPages": "为您的社区创建自定义网页！",
+    "selectPageTemplate": "选择页面模板",
+    "blank": "空白"
   },
   "SectionEditor": {
     "background": "背景",
@@ -4573,7 +4579,8 @@
     "lessRanks": "较少职位"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "在线时长"
+    "onlineFor": "在线时长",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "创建新记录",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "编辑了记录",
     "pointsFrom": "积分从",
     "to": "到",
-    "reasonFrom": "原因从"
+    "reasonFrom": "原因从",
+    "cancel": "取消",
+    "thisRecordCannotBeEditedDueToNoAccount": "由于没有账户关联，此记录无法编辑。",
+    "typeFrom": "输入自",
+    "and": "和",
+    "createdTheRecord": "创建了记录"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "指定积分过期的时间。",

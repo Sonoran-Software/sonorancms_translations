@@ -3668,7 +3668,8 @@
     "dropdown": "Dropdown",
     "start": "start",
     "center": "Center",
-    "end": "slut"
+    "end": "slut",
+    "customizeYourCommunitysNavigationBar": "Tilpas din communities navigationslinje."
   },
   "selectPage": {
     "toolbarCustomization": "Værktøjslinje Tilpasning",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Hjemmeside opdateret!",
     "thereWasAProblemSettingThePageAsHomepage": "Der var et problem med at indstille siden som hjemmeside.",
     "homepageUpdatedButDuringDiscoveryApproval": "Hjemmeside opdateret, men under godkendelse af opdagelse mislykkedes det og deaktiverede opdagelse på grund af:",
-    "copyPage": "Kopiér"
+    "copyPage": "Kopiér",
+    "searchPages": "Søg Sider",
+    "websitePages": "Webside Sider",
+    "createCustomPages": "Opret tilpassede websider til din community!",
+    "selectPageTemplate": "Vælg Sidetemplate",
+    "blank": "Blank"
   },
   "SectionEditor": {
     "background": "Baggrund",
@@ -4573,7 +4579,8 @@
     "lessRanks": "mindre rækker"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "online i"
+    "onlineFor": "online i",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Opret ny optegnelse",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "redigerede posten",
     "pointsFrom": "point fra",
     "to": "til",
-    "reasonFrom": "grund fra"
+    "reasonFrom": "grund fra",
+    "cancel": "Annuller",
+    "thisRecordCannotBeEditedDueToNoAccount": "Denne post kan ikke redigeres på grund af manglende kontotilknytning.",
+    "typeFrom": "type fra",
+    "and": "og",
+    "createdTheRecord": "oprettede posten"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Angiv, hvor lang tid det tager, før point udløber.",

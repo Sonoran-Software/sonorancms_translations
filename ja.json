@@ -3668,7 +3668,8 @@
     "dropdown": "開始",
     "start": "中央",
     "center": "終了",
-    "end": "ツールバーのカスタマイズ"
+    "end": "ツールバーのカスタマイズ",
+    "customizeYourCommunitysNavigationBar": "コミュニティのナビゲーションバーをカスタマイズする。"
   },
   "selectPage": {
     "toolbarCustomization": "コミュニティホームページ",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "ホームページとしてページを設定する際に問題が発生しました。",
     "thereWasAProblemSettingThePageAsHomepage": "背景",
     "homepageUpdatedButDuringDiscoveryApproval": "ホームページが更新されましたが、ディスカバリー承認中に失敗し、次の理由でディスカバリーを無効にしました:",
-    "copyPage": "コピー"
+    "copyPage": "コピー",
+    "searchPages": "ページを検索",
+    "websitePages": "ウェブサイトページ",
+    "createCustomPages": "コミュニティのためにカスタムウェブページを作成する！",
+    "selectPageTemplate": "ページテンプレートを選択",
+    "blank": "空白"
   },
   "SectionEditor": {
     "background": "エディター",
@@ -4573,7 +4579,8 @@
     "lessRanks": "ランクなし"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "オンライン時間"
+    "onlineFor": "オンライン時間",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "新しい記録を作成",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "レコードを編集しました",
     "pointsFrom": "ポイント元",
     "to": "から",
-    "reasonFrom": "理由元"
+    "reasonFrom": "理由元",
+    "cancel": "キャンセル",
+    "thisRecordCannotBeEditedDueToNoAccount": "アカウントが関連付けられていないため、このレコードは編集できません。",
+    "typeFrom": "タイプから",
+    "and": "そして",
+    "createdTheRecord": "レコードを作成しました"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "ポイントの有効期限の時間を指定します。",

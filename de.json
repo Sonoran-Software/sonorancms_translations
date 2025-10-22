@@ -3668,7 +3668,8 @@
     "dropdown": "Dropdown",
     "start": "Start",
     "center": "Mitte",
-    "end": "Ende"
+    "end": "Ende",
+    "customizeYourCommunitysNavigationBar": "Passen Sie die Navigationsleiste Ihrer Community an."
   },
   "selectPage": {
     "toolbarCustomization": "Werkzeugleistenanpassung",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Startseite aktualisiert!",
     "thereWasAProblemSettingThePageAsHomepage": "Es gab ein Problem beim Festlegen der Seite als Startseite.",
     "homepageUpdatedButDuringDiscoveryApproval": "Startseite aktualisiert, aber während der Entdeckungsfreigabe fehlgeschlagen und Entdeckung deaktiviert aufgrund von:",
-    "copyPage": "Kopieren"
+    "copyPage": "Kopieren",
+    "searchPages": "Seiten durchsuchen",
+    "websitePages": "Webseiten",
+    "createCustomPages": "Erstellen Sie benutzerdefinierte Webseiten für Ihre Community!",
+    "selectPageTemplate": "Seitentemplate auswählen",
+    "blank": "Leer"
   },
   "SectionEditor": {
     "background": "Hintergrund",
@@ -4573,7 +4579,8 @@
     "lessRanks": "wenigerRänge"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "online seit"
+    "onlineFor": "online seit",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Neuen Datensatz erstellen",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "hat den Datensatz bearbeitet",
     "pointsFrom": "Punkte von",
     "to": "zu",
-    "reasonFrom": "Grund von"
+    "reasonFrom": "Grund von",
+    "cancel": "Abbrechen",
+    "thisRecordCannotBeEditedDueToNoAccount": "Dieser Eintrag kann nicht bearbeitet werden, da er keinem Konto zugeordnet ist.",
+    "typeFrom": "Typ von",
+    "and": "und",
+    "createdTheRecord": "hat den Eintrag erstellt"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Geben Sie die Zeitspanne an, bis Punkte verfallen.",

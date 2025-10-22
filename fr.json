@@ -3668,7 +3668,8 @@
     "dropdown": "Menu déroulant",
     "start": "début",
     "center": "Centre",
-    "end": "fin"
+    "end": "fin",
+    "customizeYourCommunitysNavigationBar": "Personnalisez la barre de navigation de votre communauté."
   },
   "selectPage": {
     "toolbarCustomization": "Personnalisation de la barre d'outils",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "Page d'accueil mise à jour !",
     "thereWasAProblemSettingThePageAsHomepage": "Il y a eu un problème lors de la définition de la page comme page d'accueil.",
     "homepageUpdatedButDuringDiscoveryApproval": "La page d'accueil a été mise à jour, mais lors de l'approbation de la découverte, elle a échoué et a désactivé la découverte en raison de :",
-    "copyPage": "Copier"
+    "copyPage": "Copier",
+    "searchPages": "Rechercher des pages",
+    "websitePages": "Pages du site Web",
+    "createCustomPages": "Créez des pages Web personnalisées pour votre communauté !",
+    "selectPageTemplate": "Sélectionner le modèle de page",
+    "blank": "Vide"
   },
   "SectionEditor": {
     "background": "Arrière-plan",
@@ -4573,7 +4579,8 @@
     "lessRanks": "moinsGrades"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "en ligne depuis"
+    "onlineFor": "en ligne depuis",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "Créer un nouveau dossier",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "modifié les enregistrements",
     "pointsFrom": "points de",
     "to": "à",
-    "reasonFrom": "raison de"
+    "reasonFrom": "raison de",
+    "cancel": "Annuler",
+    "thisRecordCannotBeEditedDueToNoAccount": "Cet enregistrement ne peut pas être modifié en raison de l'absence d'association de compte.",
+    "typeFrom": "type de",
+    "and": "et",
+    "createdTheRecord": "a créé l'enregistrement"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Spécifiez la durée avant l'expiration des points.",

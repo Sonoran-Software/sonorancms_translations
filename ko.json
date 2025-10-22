@@ -3668,7 +3668,8 @@
     "dropdown": "중앙",
     "start": "끝",
     "center": "도구 모음 사용자 정의",
-    "end": "커뮤니티 홈 페이지"
+    "end": "커뮤니티 홈 페이지",
+    "customizeYourCommunitysNavigationBar": "커뮤니티의 내비게이션 바를 맞춤 설정하세요."
   },
   "selectPage": {
     "toolbarCustomization": "당신의 커뮤니티 페이지",
@@ -3683,7 +3684,12 @@
     "homepageUpdated": "배경",
     "thereWasAProblemSettingThePageAsHomepage": "편집기",
     "homepageUpdatedButDuringDiscoveryApproval": "홈페이지가 업데이트되었지만 검색 승인 중 실패하여 다음 이유로 검색이 비활성화되었습니다:",
-    "copyPage": "복사"
+    "copyPage": "복사",
+    "searchPages": "페이지 검색",
+    "websitePages": "웹사이트 페이지",
+    "createCustomPages": "커뮤니티를 위한 맞춤 웹페이지 생성!",
+    "selectPageTemplate": "페이지 템플릿 선택",
+    "blank": "빈 페이지"
   },
   "SectionEditor": {
     "background": "왼쪽",
@@ -4573,7 +4579,8 @@
     "lessRanks": "적은 계급"
   },
   "ERLCPlayerInfo": {
-    "onlineFor": "온라인 동안"
+    "onlineFor": "온라인 동안",
+    "actioned": "[object Object]"
   },
   "ERLCNewRecords": {
     "createNewRecord": "새 기록 생성",
@@ -4598,7 +4605,12 @@
     "editedTheRecords": "기록을 편집했습니다",
     "pointsFrom": "포인트에서",
     "to": "까지",
-    "reasonFrom": "이유에서"
+    "reasonFrom": "이유에서",
+    "cancel": "취소",
+    "thisRecordCannotBeEditedDueToNoAccount": "계정 연관이 없어 이 기록을 편집할 수 없습니다.",
+    "typeFrom": "유형 시작",
+    "and": "그리고",
+    "createdTheRecord": "기록을 생성하였습니다"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "포인트가 만료되는 시간을 지정하십시오.",
