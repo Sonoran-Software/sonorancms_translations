@@ -3308,6 +3308,7 @@
     "category": "Category",
     "eventEditor": "Event Editor",
     "eventHeader": "Event Header",
+    "copyShareLink": "Copy Share Link",
     "provideRsvpLimit1Unlimited": "Provide RSVP Limit! -1 = Unlimited",
     "noOneHasRsvpdYet": "No one has RSVPd yet...",
     "error": "Error:",
