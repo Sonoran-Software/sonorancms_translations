@@ -3588,6 +3588,8 @@
     "submissionLinkLabel": "Admin Submission Link",
     "formAIResponseLabel": "Form AI Processing Response",
     "formAIResponseDescription": "Inserts the AI generated response for the submission if applicable.",
+    "formAIScoreLabel":"Form AI Processing Score %",
+    "formAIScoreDescription": "Inserts the AI processing score percentage for the submission if applicable.",
     "submissionLinkDescription": "Inserts a link to view the submission in the admin panel.",
     "submitterCommunityNameLabel": "Submitter Community Name",
     "submitterCommunityNameDescription": "Inserts the community display name of the submitter.",
