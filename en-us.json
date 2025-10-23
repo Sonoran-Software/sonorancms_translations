@@ -269,6 +269,7 @@
     "createEvents": "Create Events",
     "removeEvents": "Remove Events",
     "editEvents": "Edit Events",
+    "loginToViewEvent": "Login to View Event",
     "createEvent": "Create an Event - Category",
     "eventNotFound": "Event Not Found/Accessible",
     "eventNotFoundDesc": "Either the event does not exist or you do not have permission to view this event directly.",
