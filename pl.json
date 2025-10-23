@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Użytkownik nie połączył swojego konta Roblox.",
     "robloxIdCopiedToClipboard": "ID Roblox skopiowane do schowka.",
     "userPermissions": "Uprawnienia użytkownika:",
-    "debugPermissions": "Debugowanie uprawnień"
+    "debugPermissions": "Debugowanie uprawnień",
+    "identifierAddEnter": "Identyfikator(y) (Naciśnij Enter, aby zapisać/dodać)",
+    "viewAllPermissions": "Wyświetl wszystkie uprawnienia",
+    "uniqueId": "Unikalny ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Nikt jeszcze nie odpowiedział na RSVP...",
     "error": "Błąd:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Błąd: Nie udało się zapisać szczegółów wydarzenia z powodu błędu wewnętrznego`",
-    "calendareditevents": "Edytuj wydarzenia"
+    "calendareditevents": "Edytuj wydarzenia",
+    "copyShareLink": "Skopiuj link do udostępnienia"
   },
   "dashboardView": {
     "pending": "OCZEKUJĄCE",

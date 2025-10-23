@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Gebruiker heeft zijn Roblox niet gekoppeld.",
     "robloxIdCopiedToClipboard": "Roblox-ID naar klembord gekopieerd.",
     "userPermissions": "Gebruikersrechten:",
-    "debugPermissions": "Debug Machtigingen"
+    "debugPermissions": "Debug Machtigingen",
+    "identifierAddEnter": "Identificator(en) (Enter om op te slaan/toe te voegen)",
+    "viewAllPermissions": "Bekijk alle permissies",
+    "uniqueId": "Unieke ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Nog niemand heeft zich aangemeld...",
     "error": "Fout:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fout: Evenementdetails niet succesvol opgeslagen vanwege een interne fout`",
-    "calendareditevents": "Bewerk Evenementen"
+    "calendareditevents": "Bewerk Evenementen",
+    "copyShareLink": "Kopieer deellink"
   },
   "dashboardView": {
     "pending": "IN AFWACHTING",

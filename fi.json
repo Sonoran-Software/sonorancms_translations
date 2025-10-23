@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Käyttäjä ei ole liittänyt Roblox-tiliään.",
     "robloxIdCopiedToClipboard": "Roblox-tunnus kopioitu leikepöydälle.",
     "userPermissions": "User-oikeudet:",
-    "debugPermissions": "Virheenkorjausluvat"
+    "debugPermissions": "Virheenkorjausluvat",
+    "identifierAddEnter": "Tunniste(et) (Paina Enter tallentaaksesi/lisätäksesi)",
+    "viewAllPermissions": "Näytä kaikki oikeudet",
+    "uniqueId": "Yksilöllinen tunniste"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Kukaan ei ole vielä RSVP:ttänyt...",
     "error": "Virhe:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Virhe: Tapahtuman tietojen tallentaminen epäonnistui sisäisen virheen vuoksi`",
-    "calendareditevents": "Muokkaa tapahtumia"
+    "calendareditevents": "Muokkaa tapahtumia",
+    "copyShareLink": "Kopioi jakolinkki"
   },
   "dashboardView": {
     "pending": "ODOTTAA",

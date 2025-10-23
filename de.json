@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Benutzer hat sein Roblox nicht verbunden.",
     "robloxIdCopiedToClipboard": "Roblox-ID in die Zwischenablage kopiert.",
     "userPermissions": "Benutzerberechtigungen:",
-    "debugPermissions": "Debug-Berechtigungen"
+    "debugPermissions": "Debug-Berechtigungen",
+    "identifierAddEnter": "Bezeichner (Eingabe zum Speichern/Hinzufügen)",
+    "viewAllPermissions": "Alle Berechtigungen anzeigen",
+    "uniqueId": "Eindeutige ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Noch hat niemand geantwortet...",
     "error": "Fehler:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fehler: Ereignisdetails aufgrund eines internen Fehlers nicht erfolgreich gespeichert`",
-    "calendareditevents": "Veranstaltungen bearbeiten"
+    "calendareditevents": "Veranstaltungen bearbeiten",
+    "copyShareLink": "Freigabelink kopieren"
   },
   "dashboardView": {
     "pending": "AUSSTEHEND",

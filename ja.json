@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "ユーザーはRobloxを接続していません。",
     "robloxIdCopiedToClipboard": "クリップボードにRoblox IDがコピーされました。",
     "userPermissions": "ユーザー権限:",
-    "debugPermissions": "デバッグ権限"
+    "debugPermissions": "デバッグ権限",
+    "identifierAddEnter": "識別子（Enterキーで保存/追加）",
+    "viewAllPermissions": "すべての権限を表示",
+    "uniqueId": "ユニークID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "イベントを正常に削除しました：",
     "error": "イベントを正常に保存しました：",
     "errorUnsuccessfullySavedEventDetailsDueT": "保留中",
-    "calendareditevents": "イベントを編集"
+    "calendareditevents": "イベントを編集",
+    "copyShareLink": "共有リンクをコピー"
   },
   "dashboardView": {
     "pending": "利用可能なフォームページ",

@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Användaren har inte kopplat sitt Roblox-konto.",
     "robloxIdCopiedToClipboard": "Roblox-ID kopierat till urklipp.",
     "userPermissions": "Användarbehörigheter:",
-    "debugPermissions": "Felsökningsbehörigheter"
+    "debugPermissions": "Felsökningsbehörigheter",
+    "identifierAddEnter": "Identifier (Tryck enter för att spara/lägga till)",
+    "viewAllPermissions": "Visa alla behörigheter",
+    "uniqueId": "Unikt ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Ingen har RSVPd ännu...",
     "error": "Fel:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fel: Kunde inte spara evenemangsdetaljer på grund av ett internt fel`",
-    "calendareditevents": "Redigera händelser"
+    "calendareditevents": "Redigera händelser",
+    "copyShareLink": "Kopiera delningslänk"
   },
   "dashboardView": {
     "pending": "PÅGÅENDE",

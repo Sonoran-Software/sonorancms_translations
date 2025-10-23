@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Uživatel nepřipojil svůj Roblox.",
     "robloxIdCopiedToClipboard": "ID Roblox zkopírováno do schránky.",
     "userPermissions": "Uživatelská oprávnění:",
-    "debugPermissions": "Ladicí oprávnění"
+    "debugPermissions": "Ladicí oprávnění",
+    "identifierAddEnter": "Identifikátor(y) (Enter pro uložení/přidání)",
+    "viewAllPermissions": "Zobrazit všechna oprávnění",
+    "uniqueId": "Unikátní ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Nikdo se zatím nepřihlásil...",
     "error": "Chyba:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Chyba: Podrobnosti události nebyly úspěšně uloženy kvůli interní chybě`",
-    "calendareditevents": "Upravit události"
+    "calendareditevents": "Upravit události",
+    "copyShareLink": "Kopírovat odkaz ke sdílení"
   },
   "dashboardView": {
     "pending": "ČEKÁ",

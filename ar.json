@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "لم يقم المستخدم بتوصيل حساب Roblox الخاص به.",
     "robloxIdCopiedToClipboard": "تم نسخ معرّف Roblox إلى الحافظة.",
     "userPermissions": "أذونات المستخدم:",
-    "debugPermissions": "تصحيح الأذونات"
+    "debugPermissions": "تصحيح الأذونات",
+    "identifierAddEnter": "المعرفات (اضغط Enter للتخزين/الإضافة)",
+    "viewAllPermissions": "عرض جميع الأذونات",
+    "uniqueId": "معرّف فريد"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "لم يقم أحد بالحضور بعد...",
     "error": "خطأ:",
     "errorUnsuccessfullySavedEventDetailsDueT": "خطأ: لم يتم حفظ تفاصيل الحدث بنجاح بسبب خطأ داخلي",
-    "calendareditevents": "تعديل الأحداث"
+    "calendareditevents": "تعديل الأحداث",
+    "copyShareLink": "نسخ رابط المشاركة"
   },
   "dashboardView": {
     "pending": "قيد الانتظار",

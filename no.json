@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Brukeren har ikke koblet sin Roblox.",
     "robloxIdCopiedToClipboard": "Roblox-ID kopiert til utklippstavle.",
     "userPermissions": "Brukertillatelser:",
-    "debugPermissions": "Feilsøk Tillatelser"
+    "debugPermissions": "Feilsøk Tillatelser",
+    "identifierAddEnter": "Identifikator(er) (Trykk Enter for å lagre/legge til)",
+    "viewAllPermissions": "Vis alle tillatelser",
+    "uniqueId": "Unik ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Veiledning",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Ingen har RSVPd ennå...",
     "error": "Feil:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Feil: Kunne ikke lagre hendelsesdetaljer på grunn av en intern feil`",
-    "calendareditevents": "Rediger hendelser"
+    "calendareditevents": "Rediger hendelser",
+    "copyShareLink": "Kopier delingslenke"
   },
   "dashboardView": {
     "pending": "VENTER",

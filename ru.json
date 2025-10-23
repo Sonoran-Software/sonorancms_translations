@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Пользователь не подключил свой Roblox.",
     "robloxIdCopiedToClipboard": "Roblox ID скопирован в буфер обмена.",
     "userPermissions": "Права пользователя:",
-    "debugPermissions": "Отладка разрешений"
+    "debugPermissions": "Отладка разрешений",
+    "identifierAddEnter": "Идентификатор(ы) (Введите для сохранения/добавления)",
+    "viewAllPermissions": "Просмотр всех разрешений",
+    "uniqueId": "Уникальный идентификатор"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Событие успешно удалено:",
     "error": "Событие успешно сохранено:",
     "errorUnsuccessfullySavedEventDetailsDueT": "В ОЖИДАНИИ",
-    "calendareditevents": "Редактировать события"
+    "calendareditevents": "Редактировать события",
+    "copyShareLink": "Копировать ссылку для общего доступа"
   },
   "dashboardView": {
     "pending": "Страница доступных форм",

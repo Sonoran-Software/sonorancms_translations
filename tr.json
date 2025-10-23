@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Kullanıcı Roblox hesaplarını bağlamamış.",
     "robloxIdCopiedToClipboard": "Roblox Kimliği Panoya Kopyalandı.",
     "userPermissions": "Kullanıcı İzinleri:",
-    "debugPermissions": "Hata Ayıklama İzinleri"
+    "debugPermissions": "Hata Ayıklama İzinleri",
+    "identifierAddEnter": "Tanımlayıcı(lar) (Kaydetmek/Eklemek için Enter'a basın)",
+    "viewAllPermissions": "Tüm İzinleri Görüntüle",
+    "uniqueId": "Benzersiz Kimlik"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Henüz kimse RSVP yapmadı...",
     "error": "Hata:",
     "errorUnsuccessfullySavedEventDetailsDueT": "Hata: Etkinlik detayları dahili bir hata nedeniyle kaydedilemedi",
-    "calendareditevents": "Etkinlikleri Düzenle"
+    "calendareditevents": "Etkinlikleri Düzenle",
+    "copyShareLink": "Paylaşım Bağlantısını Kopyala"
   },
   "dashboardView": {
     "pending": "BEKLEMEDE",

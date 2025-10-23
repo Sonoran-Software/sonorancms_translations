@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "El usuario no ha conectado su Roblox.",
     "robloxIdCopiedToClipboard": "ID de Roblox copiado al portapapeles.",
     "userPermissions": "Permisos de usuario:",
-    "debugPermissions": "Permisos de depuración"
+    "debugPermissions": "Permisos de depuración",
+    "identifierAddEnter": "Identificador(es) (Presiona Enter para Guardar/Añadir)",
+    "viewAllPermissions": "Ver Todos los Permisos",
+    "uniqueId": "ID Único"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial de API de la Comunidad",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Nadie ha confirmado su asistencia aún...",
     "error": "Error:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Error: Detalles del evento no guardados exitosamente debido a un error interno`",
-    "calendareditevents": "Editar eventos"
+    "calendareditevents": "Editar eventos",
+    "copyShareLink": "Copiar Enlace para Compartir"
   },
   "dashboardView": {
     "pending": "PENDIENTE",

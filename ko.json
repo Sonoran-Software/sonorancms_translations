@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "```plaintext\n사용자가 Roblox에 연결되지 않았습니다.\n```",
     "robloxIdCopiedToClipboard": "Roblox ID가 클립보드에 복사되었습니다.",
     "userPermissions": "사용자 권한:",
-    "debugPermissions": "디버그 권한"
+    "debugPermissions": "디버그 권한",
+    "identifierAddEnter": "식별자(엔터 키를 눌러 저장/추가)",
+    "viewAllPermissions": "모든 권한 보기",
+    "uniqueId": "고유 ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "커뮤니티 이벤트를 제거하지 못했습니다:",
     "error": "`오류: 내부 오류로 인해 이벤트 세부 정보를 저장하지 못했습니다`",
     "errorUnsuccessfullySavedEventDetailsDueT": "사용 가능한 양식 페이지",
-    "calendareditevents": "이벤트 편집"
+    "calendareditevents": "이벤트 편집",
+    "copyShareLink": "공유 링크 복사"
   },
   "dashboardView": {
     "pending": "신청서 제출",

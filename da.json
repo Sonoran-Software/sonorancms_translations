@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "Bruger har ikke tilsluttet deres Roblox.",
     "robloxIdCopiedToClipboard": "Roblox-id kopieret til udklipsholder.",
     "userPermissions": "Brugertilladelser:",
-    "debugPermissions": "Fejlfindingsrettigheder"
+    "debugPermissions": "Fejlfindingsrettigheder",
+    "identifierAddEnter": "Identifikator(er) (Enter for at gemme/tilføje)",
+    "viewAllPermissions": "Vis alle tilladelser",
+    "uniqueId": "Unik ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "Ingen har RSVPd endnu...",
     "error": "Fejl:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fejl: Begivenhedsdetaljer blev ikke gemt på grund af en intern fejl`",
-    "calendareditevents": "Rediger begivenheder"
+    "calendareditevents": "Rediger begivenheder",
+    "copyShareLink": "Kopier delingslink"
   },
   "dashboardView": {
     "pending": "AFVENTER",

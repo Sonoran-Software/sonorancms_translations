@@ -928,7 +928,10 @@
     "userHasNotConnectedTheirRoblox": "用户尚未连接他们的Roblox。",
     "robloxIdCopiedToClipboard": "Roblox ID 已复制到剪贴板。",
     "userPermissions": "用户权限：",
-    "debugPermissions": "调试权限"
+    "debugPermissions": "调试权限",
+    "identifierAddEnter": "标识符（按回车保存/添加）",
+    "viewAllPermissions": "查看所有权限",
+    "uniqueId": "唯一 ID"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -3276,7 +3279,8 @@
     "noOneHasRsvpdYet": "还没有人RSVP...",
     "error": "错误：",
     "errorUnsuccessfullySavedEventDetailsDueT": "错误：由于内部错误未能成功保存事件详情",
-    "calendareditevents": "编辑事件"
+    "calendareditevents": "编辑事件",
+    "copyShareLink": "复制共享链接"
   },
   "dashboardView": {
     "pending": "待定",
