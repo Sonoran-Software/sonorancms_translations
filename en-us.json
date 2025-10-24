@@ -795,7 +795,7 @@
     "copyDiscordId": "Copy Discord ID",
     "copyTeamspeakId": "Copy TeamSpeak ID",
     "copyRobloxId": "Copy Roblox ID",
-    "identifierAddEnter":"Identifier(s) (Enter to Save/Add)",
+    "identifierAddEnter": "Identifier(s) (Enter to Save/Add)",
     "accountviewereditaccountinfo": "Edit Account Information",
     "accountviewerviewmemberprofile": "View Member Profile",
     "unban": "Unban",
@@ -803,7 +803,7 @@
     "accountvieweraccount": "Account",
     "accountviewerjoined": "Joined",
     "viewAllPermissions": "View All Permissions",
-    "uniqueId":"Unique ID",
+    "uniqueId": "Unique ID",
     "accountskick": "Kick",
     "accountsban": "Ban",
     "commonarchive": "Archive",
@@ -1922,7 +1922,8 @@
     "thisMappingDoesntExistRefresh": "This mapping doesnt exist, refresh.",
     "anErrorOccuredWhileRemovingMappingTryAga": "An error occured while removing mapping, try again later.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "An error occured while evaluating mappings before commit, try again.",
-    "areYouSureYouWantToRemoveThisRankRolesMa": "Are you sure you want to remove this rank - roles mapping?"
+    "areYouSureYouWantToRemoveThisRankRolesMa": "Are you sure you want to remove this rank - roles mapping?",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "After changes are made it will queue mass-syncs with the bot, which may take some time to not spam the bot."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -3596,7 +3597,7 @@
     "submissionLinkLabel": "Admin Submission Link",
     "formAIResponseLabel": "Form AI Processing Response",
     "formAIResponseDescription": "Inserts the AI generated response for the submission if applicable.",
-    "formAIScoreLabel":"Form AI Processing Score %",
+    "formAIScoreLabel": "Form AI Processing Score %",
     "formAIScoreDescription": "Inserts the AI processing score percentage for the submission if applicable.",
     "submissionLinkDescription": "Inserts a link to view the submission in the admin panel.",
     "submitterCommunityNameLabel": "Submitter Community Name",
