@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Ocurrió un error al evaluar los mapeos antes de confirmar, intente nuevamente.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "¿Está seguro de que desea eliminar este mapeo de rango - roles?",
     "oneToOneMapping": "Mapeo Uno a Uno",
-    "categoryMapping": "Mapeo de Categorías"
+    "categoryMapping": "Mapeo de Categorías",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Después de realizar cambios, se programarán sincronizaciones masivas con el bot, lo cual puede tardar un poco para no saturar al bot."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gremio:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "El menú desplegable para cambiar una etapa del formulario no se muestra",
     "showFormDropdown": "El menú desplegable para cambiar una etapa del formulario se muestra en el webhook",
     "accountRanksChangesChannel": "Cambios de Rango de Cuenta - Canal",
-    "accountRanksChangesMentions": "Cambios de Rango de Cuenta - Menciones"
+    "accountRanksChangesMentions": "Cambios de Rango de Cuenta - Menciones",
+    "bio": "Biografía",
+    "username": "Nombre de usuario",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "¡Personaliza el apodo del bot de Discord, el avatar y más!",
+    "botBranding": "Marca del Bot",
+    "botSettings": "Ajustes del Bot",
+    "toggleDiscordIntegrationFeatures": "Alternar funciones de integración de Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Gerente de departamento",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Inserta el texto de la respuesta de una pregunta. Algunos tipos de preguntas pueden no ser copiables.",
     "formAIResponseLabel": "Respuesta de Procesamiento AI del Formulario",
     "formAIResponseDescription": "Inserta la respuesta generada por AI para la presentación, si es aplicable.",
-    "actionConditions": "Condiciones de acción"
+    "actionConditions": "Condiciones de acción",
+    "formAIScoreLabel": "Puntuación de procesamiento AI del formulario %",
+    "formAIScoreDescription": "Inserta el porcentaje de puntuación de procesamiento AI para la presentación si es aplicable."
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",

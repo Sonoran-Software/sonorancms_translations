@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Beim Auswerten der Zuordnungen vor dem Commit ist ein Fehler aufgetreten, versuchen Sie es erneut.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Sind Sie sicher, dass Sie diese Rang-Rollen-Zuordnung entfernen möchten?",
     "oneToOneMapping": "Eins-zu-Eins-Zuordnung",
-    "categoryMapping": "Kategoriezuteilung"
+    "categoryMapping": "Kategoriezuteilung",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Nachdem Änderungen vorgenommen wurden, wird es Massen-Synchronisierungen mit dem Bot in die Warteschlange stellen, was einige Zeit in Anspruch nehmen kann, um den Bot nicht zu spammen."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird nicht angezeigt",
     "showFormDropdown": "Das Dropdown zum Ändern einer Formularstufe wird im Webhook angezeigt",
     "accountRanksChangesChannel": "Konto Rangänderungen - Kanal",
-    "accountRanksChangesMentions": "Konto Rangänderungen - Erwähnungen"
+    "accountRanksChangesMentions": "Konto Rangänderungen - Erwähnungen",
+    "bio": "Bio",
+    "username": "Benutzername",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Passe den Discord-Bot-Nickname, Avatar und mehr an!",
+    "botBranding": "Bot-Marketing",
+    "botSettings": "Bot-Einstellungen",
+    "toggleDiscordIntegrationFeatures": "Discord-Integrationsfunktionen umschalten."
   },
   "DepartmentEditor": {
     "departmentManager": "Abteilungsleiter",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Fügt den Antworttext aus einer Frage ein. Einige Fragetypen können möglicherweise nicht kopiert werden.",
     "formAIResponseLabel": "Formular-AI-Verarbeitungsantwort",
     "formAIResponseDescription": "Fügt die AI-generierte Antwort für die Übermittlung ein, falls zutreffend.",
-    "actionConditions": "Aktionsbedingungen"
+    "actionConditions": "Aktionsbedingungen",
+    "formAIScoreLabel": "Formular AI-Verarbeitungspunktzahl %",
+    "formAIScoreDescription": "Fügt die AI-Verarbeitungspunktzahl in Prozent für die Einreichung ein, falls zutreffend."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",

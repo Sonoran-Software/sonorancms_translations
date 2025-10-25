@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Ett fel inträffade vid utvärdering av mappningar innan åtagande, försök igen.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Är du säker på att du vill ta bort denna rank - rollmappning?",
     "oneToOneMapping": "En-till-en mappning",
-    "categoryMapping": "Kategorimappning"
+    "categoryMapping": "Kategorimappning",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Efter att ändringar har gjorts kommer det att köa mass-synkroniseringar med boten, vilket kan ta lite tid för att inte spamma boten."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas inte",
     "showFormDropdown": "Rullgardinsmenyn för att ändra formulärstadiet visas på webhooken",
     "accountRanksChangesChannel": "Kontorankändringar - Kanal",
-    "accountRanksChangesMentions": "Kontorankändringar - Nämna"
+    "accountRanksChangesMentions": "Kontorankändringar - Nämna",
+    "bio": "Biografi",
+    "username": "Användarnamn",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Anpassa Discord-botens smeknamn, avatar och mer!",
+    "botBranding": "Botprofilering",
+    "botSettings": "Botinställningar",
+    "toggleDiscordIntegrationFeatures": "Växla Discord-integrationsfunktioner."
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelningschef",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Infogar inlämningstexten från en fråga. Vissa frågetyper kanske inte kan kopieras.",
     "formAIResponseLabel": "Formulär AI Bearbetningssvar",
     "formAIResponseDescription": "Infogar det AI-genererade svaret för inskickningen om tillämpligt.",
-    "actionConditions": "Åtgärdsvillkor"
+    "actionConditions": "Åtgärdsvillkor",
+    "formAIScoreLabel": "Formulär AI Bearbetningspoäng %",
+    "formAIScoreDescription": "Infogar AI-bearbetningspoängen i procent för inlämningen om tillämpligt."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",

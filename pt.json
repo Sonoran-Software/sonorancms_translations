@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Ocorreu um erro ao avaliar os mapeamentos antes de confirmar, tente novamente.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Tem certeza de que deseja remover este mapeamento de patente - funções?",
     "oneToOneMapping": "Mapeamento Um-para-Um",
-    "categoryMapping": "Mapeamento de Categoria"
+    "categoryMapping": "Mapeamento de Categoria",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Após as alterações serem feitas, isso irá enfileirar sincronizações em massa com o bot, o que pode levar algum tempo para não sobrecarregar o bot."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guilda:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "A lista suspensa para mudar o estágio de um formulário não é exibida",
     "showFormDropdown": "A lista suspensa para mudar o estágio de um formulário é mostrada no webhook",
     "accountRanksChangesChannel": "Alterações de Conta - Canal",
-    "accountRanksChangesMentions": "Alterações de Conta - Menções"
+    "accountRanksChangesMentions": "Alterações de Conta - Menções",
+    "bio": "Bio",
+    "username": "Nome de usuário",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Personalize o apelido, avatar e mais do bot do Discord!",
+    "botBranding": "Branding do Bot",
+    "botSettings": "Configurações do Bot",
+    "toggleDiscordIntegrationFeatures": "Alternar recursos de integração do Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Gerente de Departamento",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Insere o texto da submissão de uma pergunta. Alguns tipos de perguntas podem não ser copiados.",
     "formAIResponseLabel": "Resposta de Processamento por IA do Formulário",
     "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável.",
-    "actionConditions": "Condições de Ação"
+    "actionConditions": "Condições de Ação",
+    "formAIScoreLabel": "Pontuação de Processamento de IA do Formulário %",
+    "formAIScoreDescription": "Insere a porcentagem da pontuação de processamento de IA para a submissão, se aplicável."
   },
   "FormRenderer": {
     "dragToReorder": "Arraste para reordenar",

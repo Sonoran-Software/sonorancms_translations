@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Une erreur s'est produite lors de l'évaluation des correspondances avant la validation, réessayez.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Êtes-vous sûr de vouloir supprimer cette correspondance rang - rôles ?",
     "oneToOneMapping": "Correspondance Un-à-Un",
-    "categoryMapping": "Mappage de Catégorie"
+    "categoryMapping": "Mappage de Catégorie",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Après que les modifications ont été apportées, elles seront mises en file d'attente pour des synchronisations massives avec le bot, ce qui peut prendre du temps pour ne pas spammer le bot."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guilde :"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "Le menu déroulant pour changer l'étape d'un formulaire n'est pas affiché",
     "showFormDropdown": "Le menu déroulant pour changer l'étape d'un formulaire est affiché sur le webhook",
     "accountRanksChangesChannel": "Modifications de rangs de compte - Canal",
-    "accountRanksChangesMentions": "Modifications de rangs de compte - Mentions"
+    "accountRanksChangesMentions": "Modifications de rangs de compte - Mentions",
+    "bio": "Bio",
+    "username": "Nom d'utilisateur",
+    "avatar": "Avatar",
+    "banner": "Bannière",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Personnalisez le surnom du bot Discord, l'avatar, et plus encore !",
+    "botBranding": "Branding du Bot",
+    "botSettings": "Paramètres du Bot",
+    "toggleDiscordIntegrationFeatures": "Activer/désactiver les fonctionnalités d'intégration Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Responsable de département",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Insère le texte de soumission d'une question. Certains types de questions peuvent ne pas être copiés.",
     "formAIResponseLabel": "Réponse de traitement de l'IA du formulaire",
     "formAIResponseDescription": "Insère la réponse générée par l'IA pour la soumission si applicable.",
-    "actionConditions": "Conditions d'action"
+    "actionConditions": "Conditions d'action",
+    "formAIScoreLabel": "Score de traitement AI du formulaire %",
+    "formAIScoreDescription": "Insère le pourcentage de score de traitement AI pour la soumission, si applicable."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",

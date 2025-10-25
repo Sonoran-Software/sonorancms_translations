@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "このランク - 役割のマッピングを削除してもよろしいですか？",
     "areYouSureYouWantToRemoveThisRankRolesMa": "依存関係のマッピング - CMSランクはDiscordの役割に同期されます。CMSでランクが追加されるとDiscordに同期されますが、Discordで追加されたランクは追加できません。双方向マッピングに切り替えるにはトグルしてください。",
     "oneToOneMapping": "一対一対応",
-    "categoryMapping": "カテゴリーマッピング"
+    "categoryMapping": "カテゴリーマッピング",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "変更が行われた後、ボットに大量同期がキューに追加されます。ボットをスパムしないように、時間がかかる場合があります。"
   },
   "DiscordRoleMultiSelector": {
     "guild": "ギルド："
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "フォームステージを変更するためのドロップダウンは表示されません",
     "showFormDropdown": "フォームステージを変更するためのドロップダウンがWebhookで表示されます",
     "accountRanksChangesChannel": "アカウントランクの変更 - チャンネル",
-    "accountRanksChangesMentions": "アカウントランクの変更 - メンション"
+    "accountRanksChangesMentions": "アカウントランクの変更 - メンション",
+    "bio": "自己紹介",
+    "username": "ユーザー名",
+    "avatar": "アバター",
+    "banner": "バナー",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Discordボットのニックネーム、アバターなどをカスタマイズ！",
+    "botBranding": "ボットのブランディング",
+    "botSettings": "ボット設定",
+    "toggleDiscordIntegrationFeatures": "Discord統合機能を切り替える。"
   },
   "DepartmentEditor": {
     "departmentManager": "プロファイルフィールドが作成されていません... カスタマイズのプロファイルフィールドエディタでプロファイルフィールドを作成してください",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "質問から送信テキストを挿入します。一部の質問タイプはコピーできない場合があります。",
     "formAIResponseLabel": "フォームAI処理応答",
     "formAIResponseDescription": "該当する場合、提出物に対するAI生成応答を挿入します。",
-    "actionConditions": "アクション条件"
+    "actionConditions": "アクション条件",
+    "formAIScoreLabel": "AI処理スコア %",
+    "formAIScoreDescription": "該当する場合、提出物のAI処理スコアのパーセンテージを挿入します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",

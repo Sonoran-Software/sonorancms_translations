@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Wystąpił błąd podczas oceny mapowań przed zatwierdzeniem, spróbuj ponownie.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Czy na pewno chcesz usunąć to mapowanie rangi - ról?",
     "oneToOneMapping": "Jedno-na-jedno mapowanie",
-    "categoryMapping": "Mapowanie Kategorii"
+    "categoryMapping": "Mapowanie Kategorii",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Po dokonaniu zmian bot ustawi w kolejce masowe synchronizacje, co może zająć trochę czasu, aby nie spamować bota."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "Lista rozwijana do zmiany etapu formularza nie jest pokazana",
     "showFormDropdown": "Lista rozwijana do zmiany etapu formularza jest pokazana na webhooku",
     "accountRanksChangesChannel": "Zmiany rangi konta - Kanał",
-    "accountRanksChangesMentions": "Zmiany rangi konta - Wzmianki"
+    "accountRanksChangesMentions": "Zmiany rangi konta - Wzmianki",
+    "bio": "Bio",
+    "username": "Nazwa użytkownika",
+    "avatar": "Awatar",
+    "banner": "Baner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Dostosuj pseudonim, awatar bota Discord i więcej!",
+    "botBranding": "Marka bota",
+    "botSettings": "Ustawienia bota",
+    "toggleDiscordIntegrationFeatures": "Przełącz funkcje integracji z Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Wstawia tekst zgłoszenia z pytania. Niektóre typy pytań mogą być niemożliwe do skopiowania.",
     "formAIResponseLabel": "Odpowiedź przetwarzania AI formularza",
     "formAIResponseDescription": "Wstawia odpowiedź wygenerowaną przez AI dla zgłoszenia, jeśli ma zastosowanie.",
-    "actionConditions": "Warunki działania"
+    "actionConditions": "Warunki działania",
+    "formAIScoreLabel": "Ocena przetwarzania AI formularza %",
+    "formAIScoreDescription": "Wstawia procent oceny przetwarzania AI dla zgłoszenia, jeśli dotyczy."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",

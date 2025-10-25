@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Wystąpił błąd podczas oceny mapowań przed zatwierdzeniem, spróbuj ponownie.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Czy na pewno chcesz usunąć to mapowanie rangi - ról?",
     "oneToOneMapping": "Tək-tək xəritələşdirmə",
-    "categoryMapping": "Mapeo de categoría"
+    "categoryMapping": "Mapeo de categoría",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Po wprowadzeniu zmian zostaną ustawione masowe synchronizacje z botem, co może zająć trochę czasu, aby nie spamować bota."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "A lista suspensa para alterar um estágio de formulário não é mostrada",
     "showFormDropdown": "A lista suspensa para alterar um estágio de formulário é mostrada no webhook",
     "accountRanksChangesChannel": "Zmiany w rangach kont - Kanał",
-    "accountRanksChangesMentions": "Zmiany w rangach kont - Wzmianki"
+    "accountRanksChangesMentions": "Zmiany w rangach kont - Wzmianki",
+    "bio": "Biografia",
+    "username": "Nazwa użytkownika",
+    "avatar": "Awatar",
+    "banner": "Baner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Dostosuj pseudonim bota Discord, awatara i więcej!",
+    "botBranding": "Branding bota",
+    "botSettings": "Ustawienia bota",
+    "toggleDiscordIntegrationFeatures": "Przełącz funkcje integracji z Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Menedżer Działu",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Wstawia tekst z pytania. Niektóre typy pytań mogą nie być możliwe do skopiowania.",
     "formAIResponseLabel": "Resposta de Processamento de Formulário por IA",
     "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável.",
-    "actionConditions": "Ações de Condição"
+    "actionConditions": "Ações de Condição",
+    "formAIScoreLabel": "Wynik przetwarzania AI formularza %",
+    "formAIScoreDescription": "Wprowadza procentowy wynik przetwarzania AI dla zgłoszenia, jeśli ma zastosowanie."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",

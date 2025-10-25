@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "En feil oppstod under evaluering av kartlegginger før forpliktelse, prøv igjen.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Er du sikker på at du vil fjerne denne rang - rolle-kartleggingen?",
     "oneToOneMapping": "Én-til-én-tilordning",
-    "categoryMapping": "Kategori Mapping"
+    "categoryMapping": "Kategori Mapping",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Etter at endringer er gjort, vil det stille i kø massesynkroniseringer med boten, noe som kan ta litt tid for å unngå å spamme boten."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises ikke",
     "showFormDropdown": "Rullegardinmenyen for å endre et skjema steg vises på webhooken",
     "accountRanksChangesChannel": "Kontorangkendringer - Kanal",
-    "accountRanksChangesMentions": "Kontorangkendringer - Omtaler"
+    "accountRanksChangesMentions": "Kontorangkendringer - Omtaler",
+    "bio": "Bio",
+    "username": "Brukernavn",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Tilpass Discord-botens kallenavn, avatar og mer!",
+    "botBranding": "Bot-profilering",
+    "botSettings": "Bot-innstillinger",
+    "toggleDiscordIntegrationFeatures": "Veksle Discord-integrasjonsfunksjoner."
   },
   "DepartmentEditor": {
     "departmentManager": "Avdelingsleder",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Setter inn innsendelsesteksten fra et spørsmål. Noen spørsmålstyper kan kanskje ikke kopieres.",
     "formAIResponseLabel": "Skjema AI-behandlingssvar",
     "formAIResponseDescription": "Setter inn det AI-genererte svaret for innsendingen hvis aktuelt.",
-    "actionConditions": "Handlingsbetingelser"
+    "actionConditions": "Handlingsbetingelser",
+    "formAIScoreLabel": "Form AI-prosesseringsscore %",
+    "formAIScoreDescription": "Setter inn prosesseringsscoreprosenten for innsendelsen, hvis relevant."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",

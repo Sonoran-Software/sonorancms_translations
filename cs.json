@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Při vyhodnocování mapování před potvrzením došlo k chybě, zkuste to znovu.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Opravdu chcete odstranit toto mapování hodností a rolí?",
     "oneToOneMapping": "Jedno k jedné mapování",
-    "categoryMapping": "Mapování kategorií"
+    "categoryMapping": "Mapování kategorií",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Po provedení změn se zařadí hromadné synchronizace s botem, což může chvíli trvat, aby se bot nepřetěžoval."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Cech:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře není zobrazena",
     "showFormDropdown": "Rozbalovací nabídka pro změnu fáze formuláře je zobrazena na webhooku",
     "accountRanksChangesChannel": "Změny hodností účtu - Kanál",
-    "accountRanksChangesMentions": "Změny hodností účtu - Zmínky"
+    "accountRanksChangesMentions": "Změny hodností účtu - Zmínky",
+    "bio": "Bio",
+    "username": "Uživatelské jméno",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Přizpůsobte přezdívku bota na Discordu, avatar a další!",
+    "botBranding": "Branding bota",
+    "botSettings": "Nastavení bota",
+    "toggleDiscordIntegrationFeatures": "Přepněte funkce integrace Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Manažer oddělení",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "Vloží text odpovědi z otázky. Některé typy otázek nemusí být možné zkopírovat.",
     "formAIResponseLabel": "Odpověď AI zpracování formuláře",
     "formAIResponseDescription": "Vloží odpověď generovanou AI pro podání, pokud je to použitelné.",
-    "actionConditions": "Podmínky akce"
+    "actionConditions": "Podmínky akce",
+    "formAIScoreLabel": "Skóre zpracování AI formuláře %",
+    "formAIScoreDescription": "Vloží procento skóre zpracování AI pro podání, pokud je to relevantní."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",

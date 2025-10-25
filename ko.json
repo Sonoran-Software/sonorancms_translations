@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "이 등급 - 역할 매핑을 제거하시겠습니까?",
     "areYouSureYouWantToRemoveThisRankRolesMa": "종속성 매핑 - CMS 등급이 디스코드 역할에 동기화됩니다. CMS에 등급이 추가되면 디스코드에 동기화되지만, 디스코드에서 추가된 등급은 추가할 수 없습니다. 양방향 매핑으로 전환하려면 토글하세요.",
     "oneToOneMapping": "일대일 매핑",
-    "categoryMapping": "카테고리 매핑"
+    "categoryMapping": "카테고리 매핑",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "변경이 이루어지면 봇과 대량 동기화가 대기열에 오르게 되며, 스팸 방지를 위해 시간이 걸릴 수 있습니다."
   },
   "DiscordRoleMultiSelector": {
     "guild": "길드:"
@@ -3148,7 +3149,15 @@
     "hideFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 표시되지 않습니다",
     "showFormDropdown": "양식 단계를 변경하기 위한 드롭다운이 웹훅에 표시됩니다",
     "accountRanksChangesChannel": "계정 등급 변경 - 채널",
-    "accountRanksChangesMentions": "계정 등급 변경 - 언급"
+    "accountRanksChangesMentions": "계정 등급 변경 - 언급",
+    "bio": "바이오",
+    "username": "사용자 이름",
+    "avatar": "아바타",
+    "banner": "배너",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Discord 봇의 닉네임, 아바타 등을 사용자 지정하세요!",
+    "botBranding": "봇 브랜딩",
+    "botSettings": "봇 설정",
+    "toggleDiscordIntegrationFeatures": "Discord 통합 기능 전환."
   },
   "DepartmentEditor": {
     "departmentManager": "생성된 비공개 페이지가 없습니다. 비공개 보기 유형으로 설정된 페이지에 대해서만 권한을 관리할 수 있습니다.",
@@ -3557,7 +3566,9 @@
     "fieldResponseDescription": "질문에서 제출 텍스트를 삽입합니다. 일부 질문 유형은 복사할 수 없을 수도 있습니다.",
     "formAIResponseLabel": "양식 AI 처리 응답",
     "formAIResponseDescription": "적용 가능한 경우 제출물에 대한 AI 생성 응답을 삽입합니다.",
-    "actionConditions": "작업 조건"
+    "actionConditions": "작업 조건",
+    "formAIScoreLabel": "폼 AI 처리 점수 %",
+    "formAIScoreDescription": "제출 시 해당되는 경우 AI 처리 점수를 백분율로 삽입합니다."
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",
