@@ -3609,6 +3609,8 @@
     "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter.",
     "fieldResponseLabel": "Question Response",
     "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
+    "stageChangerComNameLabel": "Stage Changer Community Name",
+    "stageChangerComNameDescription": "Inserts the commuunity display name of the user who changed the stage.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
     "conditionalQuestionStartExplaination": "This action will execute",
     "actionConditions": "Action Conditions"
