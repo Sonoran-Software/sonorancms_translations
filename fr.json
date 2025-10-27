@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Lien de Partage Copié dans le Presse-papiers !",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Une erreur inattendue s'est produite lors de l'enregistrement des paramètres.",
     "invalidUser17": "Utilisateur Invalide",
-    "submittedOn": "Soumis Le"
+    "submittedOn": "Soumis Le",
+    "activity": "Activité"
   },
   "StageEditorCard": {
     "icon": "Icône",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Insère la réponse générée par l'IA pour la soumission si applicable.",
     "actionConditions": "Conditions d'action",
     "formAIScoreLabel": "Score de traitement AI du formulaire %",
-    "formAIScoreDescription": "Insère le pourcentage de score de traitement AI pour la soumission, si applicable."
+    "formAIScoreDescription": "Insère le pourcentage de score de traitement AI pour la soumission, si applicable.",
+    "stageChangerComNameLabel": "Nom de la communauté du changeur de stade",
+    "stageChangerComNameDescription": "Insère le nom d'affichage de la communauté de l'utilisateur qui a changé de stade."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",

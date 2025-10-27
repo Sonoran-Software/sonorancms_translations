@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "¡Enlace Compartido Copiado al Portapapeles!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Hubo un error inesperado al guardar la configuración.",
     "invalidUser17": "Usuario Inválido",
-    "submittedOn": "Enviado En"
+    "submittedOn": "Enviado En",
+    "activity": "Actividad"
   },
   "StageEditorCard": {
     "icon": "Icono",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Inserta la respuesta generada por AI para la presentación, si es aplicable.",
     "actionConditions": "Condiciones de acción",
     "formAIScoreLabel": "Puntuación de procesamiento AI del formulario %",
-    "formAIScoreDescription": "Inserta el porcentaje de puntuación de procesamiento AI para la presentación si es aplicable."
+    "formAIScoreDescription": "Inserta el porcentaje de puntuación de procesamiento AI para la presentación si es aplicable.",
+    "stageChangerComNameLabel": "Nombre de Comunidad del Cambiador de Etapa",
+    "stageChangerComNameDescription": "Inserta el nombre de visualización de la comunidad del usuario que cambió la etapa."
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",

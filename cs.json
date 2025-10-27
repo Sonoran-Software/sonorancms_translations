@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Odkaz ke sdílení zkopírován do schránky!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Při ukládání nastavení došlo k neočekávané chybě.",
     "invalidUser17": "Neplatný uživatel",
-    "submittedOn": "Odesláno dne"
+    "submittedOn": "Odesláno dne",
+    "activity": "Aktivita"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Vloží odpověď generovanou AI pro podání, pokud je to použitelné.",
     "actionConditions": "Podmínky akce",
     "formAIScoreLabel": "Skóre zpracování AI formuláře %",
-    "formAIScoreDescription": "Vloží procento skóre zpracování AI pro podání, pokud je to relevantní."
+    "formAIScoreDescription": "Vloží procento skóre zpracování AI pro podání, pokud je to relevantní.",
+    "stageChangerComNameLabel": "Název komunity měniče fáze",
+    "stageChangerComNameDescription": "Vloží zobrazované jméno komunity uživatele, který změnil fázi."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",

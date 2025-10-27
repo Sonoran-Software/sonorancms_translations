@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "分享链接已复制到剪贴板！",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "保存设置时发生意外错误。",
     "invalidUser17": "无效用户",
-    "submittedOn": "提交时间"
+    "submittedOn": "提交时间",
+    "activity": "活动"
   },
   "StageEditorCard": {
     "icon": "图标",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "如果适用，插入 AI 生成的提交响应。",
     "actionConditions": "行动条件",
     "formAIScoreLabel": "表单AI处理得分%",
-    "formAIScoreDescription": "如果适用，插入提交的AI处理得分百分比。"
+    "formAIScoreDescription": "如果适用，插入提交的AI处理得分百分比。",
+    "stageChangerComNameLabel": "阶段更改者社区名称",
+    "stageChangerComNameDescription": "插入更改阶段的用户的社区显示名称。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",

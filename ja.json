@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "設定を保存中に予期しないエラーが発生しました。",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "無効なユーザー",
     "invalidUser17": "提出日時",
-    "submittedOn": "アイコン"
+    "submittedOn": "アイコン",
+    "activity": "アクティビティ"
   },
   "StageEditorCard": {
     "icon": "ステージラベル",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "該当する場合、提出物に対するAI生成応答を挿入します。",
     "actionConditions": "アクション条件",
     "formAIScoreLabel": "AI処理スコア %",
-    "formAIScoreDescription": "該当する場合、提出物のAI処理スコアのパーセンテージを挿入します。"
+    "formAIScoreDescription": "該当する場合、提出物のAI処理スコアのパーセンテージを挿入します。",
+    "stageChangerComNameLabel": "ステージチェンジャーコミュニティ名",
+    "stageChangerComNameDescription": "ステージを変更したユーザーのコミュニティ表示名を挿入します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",

@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Произошла непредвиденная ошибка при сохранении настроек.",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Недействительный пользователь",
     "invalidUser17": "Отправлено",
-    "submittedOn": "Иконка"
+    "submittedOn": "Иконка",
+    "activity": "Активность"
   },
   "StageEditorCard": {
     "icon": "Метка этапа",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Вставляет ответ, сгенерированный ИИ для подачи, если применимо.",
     "actionConditions": "Условия действия",
     "formAIScoreLabel": "Форма оценки AI %",
-    "formAIScoreDescription": "Вставляет процент оценки обработки AI для подачи, если применимо."
+    "formAIScoreDescription": "Вставляет процент оценки обработки AI для подачи, если применимо.",
+    "stageChangerComNameLabel": "Изменение этапа - название сообщества",
+    "stageChangerComNameDescription": "Вставляет отображаемое имя сообщества пользователя, который изменил этап."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",

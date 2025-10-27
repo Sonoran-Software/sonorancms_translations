@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Deel Link Gekopieerd naar Klembord!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Er was een onverwachte fout bij het opslaan van de instellingen.",
     "invalidUser17": "Ongeldige Gebruiker",
-    "submittedOn": "Ingediend Op"
+    "submittedOn": "Ingediend Op",
+    "activity": "Activiteit"
   },
   "StageEditorCard": {
     "icon": "Icoon",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Voegt de door AI gegenereerde reactie voor de inzending toe indien van toepassing.",
     "actionConditions": "Actievoorwaarden",
     "formAIScoreLabel": "Formulier AI-verwerkingsscore %",
-    "formAIScoreDescription": "Voegt het AI-verwerkingsscorepercentage in voor de indiening indien van toepassing."
+    "formAIScoreDescription": "Voegt het AI-verwerkingsscorepercentage in voor de indiening indien van toepassing.",
+    "stageChangerComNameLabel": "Gemeenschapsnaam Stadia-Wijziger",
+    "stageChangerComNameDescription": "Voegt de gemeenschapsnaam in van de gebruiker die de fase heeft gewijzigd."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",

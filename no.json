@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Del Link Kopiert til Utklippstavlen!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Det oppstod en uventet feil ved lagring av innstillinger.",
     "invalidUser17": "Ugyldig Bruker",
-    "submittedOn": "Innsendt På"
+    "submittedOn": "Innsendt På",
+    "activity": "Aktivitet"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Setter inn det AI-genererte svaret for innsendingen hvis aktuelt.",
     "actionConditions": "Handlingsbetingelser",
     "formAIScoreLabel": "Form AI-prosesseringsscore %",
-    "formAIScoreDescription": "Setter inn prosesseringsscoreprosenten for innsendelsen, hvis relevant."
+    "formAIScoreDescription": "Setter inn prosesseringsscoreprosenten for innsendelsen, hvis relevant.",
+    "stageChangerComNameLabel": "Scene Endrer Samfunnsnavn",
+    "stageChangerComNameDescription": "Setter inn visningsnavnet til fellesskapet for brukeren som endret scenen."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",

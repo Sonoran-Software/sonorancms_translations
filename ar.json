@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "تم نسخ الرابط إلى الحافظة!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "حدث خطأ غير متوقع عند حفظ الإعدادات.",
     "invalidUser17": "مستخدم غير صالح",
-    "submittedOn": "تم التقديم في"
+    "submittedOn": "تم التقديم في",
+    "activity": "نشاط"
   },
   "StageEditorCard": {
     "icon": "أيقونة",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "إدراج الاستجابة المولدة بواسطة الذكاء الاصطناعي للإرسال إذا كان ذلك ممكنًا.",
     "actionConditions": "شروط الإجراء",
     "formAIScoreLabel": "نسبة معالجة نموذج الذكاء الاصطناعي %",
-    "formAIScoreDescription": "إدراج نسبة معالجة الذكاء الاصطناعي للتقديم إذا كان ذلك ينطبق."
+    "formAIScoreDescription": "إدراج نسبة معالجة الذكاء الاصطناعي للتقديم إذا كان ذلك ينطبق.",
+    "stageChangerComNameLabel": "اسم مجتمع مُغيّر المرحلة",
+    "stageChangerComNameDescription": "يُدرج اسم العرض للمجتمع للمستخدم الذي غيّر المرحلة."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",

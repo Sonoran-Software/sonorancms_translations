@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Link zum Teilen in die Zwischenablage kopiert!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Beim Speichern der Einstellungen ist ein unerwarteter Fehler aufgetreten.",
     "invalidUser17": "Ungültiger Benutzer",
-    "submittedOn": "Eingereicht am"
+    "submittedOn": "Eingereicht am",
+    "activity": "Aktivität"
   },
   "StageEditorCard": {
     "icon": "Symbol",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Fügt die AI-generierte Antwort für die Übermittlung ein, falls zutreffend.",
     "actionConditions": "Aktionsbedingungen",
     "formAIScoreLabel": "Formular AI-Verarbeitungspunktzahl %",
-    "formAIScoreDescription": "Fügt die AI-Verarbeitungspunktzahl in Prozent für die Einreichung ein, falls zutreffend."
+    "formAIScoreDescription": "Fügt die AI-Verarbeitungspunktzahl in Prozent für die Einreichung ein, falls zutreffend.",
+    "stageChangerComNameLabel": "Stufenwechsler Gemeinschaftsname",
+    "stageChangerComNameDescription": "Fügt den Gemeinschaftsanzeigenamen des Benutzers ein, der die Stufe geändert hat."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",

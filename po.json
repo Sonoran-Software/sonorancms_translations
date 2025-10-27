@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Link do Udostępnienia Skopiowany do Schowka!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Wystąpił nieoczekiwany błąd podczas zapisywania ustawień.",
     "invalidUser17": "Nieprawidłowy Użytkownik",
-    "submittedOn": "Przesłano Na"
+    "submittedOn": "Przesłano Na",
+    "activity": "Aktywność"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Insere a resposta gerada por IA para a submissão, se aplicável.",
     "actionConditions": "Ações de Condição",
     "formAIScoreLabel": "Wynik przetwarzania AI formularza %",
-    "formAIScoreDescription": "Wprowadza procentowy wynik przetwarzania AI dla zgłoszenia, jeśli ma zastosowanie."
+    "formAIScoreDescription": "Wprowadza procentowy wynik przetwarzania AI dla zgłoszenia, jeśli ma zastosowanie.",
+    "stageChangerComNameLabel": "Nazwa Społeczności Zmieniacza Etapu",
+    "stageChangerComNameDescription": "Wstawia wyświetlaną nazwę społeczności użytkownika, który zmienił etap."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",

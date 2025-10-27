@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "설정을 저장하는 동안 예상치 못한 오류가 발생했습니다.",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "유효하지 않은 사용자",
     "invalidUser17": "제출된 날짜",
-    "submittedOn": "아이콘"
+    "submittedOn": "아이콘",
+    "activity": "활동"
   },
   "StageEditorCard": {
     "icon": "단계 라벨",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "적용 가능한 경우 제출물에 대한 AI 생성 응답을 삽입합니다.",
     "actionConditions": "작업 조건",
     "formAIScoreLabel": "폼 AI 처리 점수 %",
-    "formAIScoreDescription": "제출 시 해당되는 경우 AI 처리 점수를 백분율로 삽입합니다."
+    "formAIScoreDescription": "제출 시 해당되는 경우 AI 처리 점수를 백분율로 삽입합니다.",
+    "stageChangerComNameLabel": "단계 변경자 커뮤니티 이름",
+    "stageChangerComNameDescription": "단계를 변경한 사용자의 커뮤니티 표시 이름을 삽입합니다."
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",

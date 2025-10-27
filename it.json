@@ -2239,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Link Condiviso Copiato negli Appunti!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Si è verificato un errore imprevisto durante il salvataggio delle impostazioni.",
     "invalidUser17": "Utente Non Valido",
-    "submittedOn": "Inviato il"
+    "submittedOn": "Inviato il",
+    "activity": "Attività"
   },
   "StageEditorCard": {
     "icon": "Icona",
@@ -3568,7 +3569,9 @@
     "formAIResponseDescription": "Inserisce la risposta generata dall'AI per l'invio, se applicabile.",
     "actionConditions": "Condizioni di Azione",
     "formAIScoreLabel": "Elaborazione AI del modulo Punteggio %",
-    "formAIScoreDescription": "Inserisce la percentuale di punteggio di elaborazione AI per l'invio, se applicabile."
+    "formAIScoreDescription": "Inserisce la percentuale di punteggio di elaborazione AI per l'invio, se applicabile.",
+    "stageChangerComNameLabel": "Nome Comunità Modifica Fase",
+    "stageChangerComNameDescription": "Inserisce il nome visualizzato della comunità dell'utente che ha cambiato la fase."
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",
