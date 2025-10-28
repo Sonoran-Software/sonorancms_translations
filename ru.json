@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Вы уверены, что хотите удалить это сопоставление рангов и ролей?",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Сопоставление зависимостей - ранги CMS будут синхронизированы с ролью Discord. Если ранг добавлен в CMS, он будет синхронизирован с Discord, но не может быть добавлен, если он добавлен в Discord. Переключите для перехода на двустороннее сопоставление.",
     "oneToOneMapping": "Одно-к-одному отображение",
-    "categoryMapping": "Сопоставление категорий"
+    "categoryMapping": "Сопоставление категорий",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "После внесения изменений будет запущена массовая синхронизация с ботом, что может занять некоторое время, чтобы не спамить бота."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Гильдия:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Произошла непредвиденная ошибка при сохранении настроек.",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Недействительный пользователь",
     "invalidUser17": "Отправлено",
-    "submittedOn": "Иконка"
+    "submittedOn": "Иконка",
+    "activity": "Активность"
   },
   "StageEditorCard": {
     "icon": "Метка этапа",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "Выпадающее меню для изменения этапа формы не показано",
     "showFormDropdown": "Выпадающее меню для изменения этапа формы показано на вебхуке",
     "accountRanksChangesChannel": "Изменения ранга аккаунта - канал",
-    "accountRanksChangesMentions": "Изменения ранга аккаунта - упоминания"
+    "accountRanksChangesMentions": "Изменения ранга аккаунта - упоминания",
+    "bio": "Биография",
+    "username": "Имя пользователя",
+    "avatar": "Аватар",
+    "banner": "Баннер",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Настройте никнейм, аватар бота Discord и многое другое!",
+    "botBranding": "Брендинг бота",
+    "botSettings": "Настройки бота",
+    "toggleDiscordIntegrationFeatures": "Переключение функций интеграции Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Поля профиля не созданы... Создайте поля профиля в редакторе полей профиля в разделе Настройка",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "Вставляет текст ответа из вопроса. Некоторые типы вопросов могут не подлежать копированию.",
     "formAIResponseLabel": "Ответ обработки формы ИИ",
     "formAIResponseDescription": "Вставляет ответ, сгенерированный ИИ для подачи, если применимо.",
-    "actionConditions": "Условия действия"
+    "actionConditions": "Условия действия",
+    "formAIScoreLabel": "Форма оценки AI %",
+    "formAIScoreDescription": "Вставляет процент оценки обработки AI для подачи, если применимо.",
+    "stageChangerComNameLabel": "Изменение этапа - название сообщества",
+    "stageChangerComNameDescription": "Вставляет отображаемое имя сообщества пользователя, который изменил этап."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",

@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Der opstod en fejl under evaluering af kortlægninger før commit, prøv igen.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Er du sikker på, at du vil fjerne denne rang - roller kortlægning?",
     "oneToOneMapping": "Én-til-én-tilknytning",
-    "categoryMapping": "Kategori Kortlægning"
+    "categoryMapping": "Kategori Kortlægning",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Når ændringer er foretaget, vil det sætte masse-synkroniseringer i kø med botten, hvilket kan tage lidt tid for ikke at spamme botten."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Del Link Kopieret til Udklipsholder!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Der opstod en uventet fejl ved gemning af indstillinger.",
     "invalidUser17": "Ugyldig Bruger",
-    "submittedOn": "Indsendt På"
+    "submittedOn": "Indsendt På",
+    "activity": "Aktivitet"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises ikke",
     "showFormDropdown": "Dropdown-menuen til at ændre et formulartrin vises på webhooken",
     "accountRanksChangesChannel": "Kontorangsændringer - Kanal",
-    "accountRanksChangesMentions": "Kontorangsændringer - Mentions"
+    "accountRanksChangesMentions": "Kontorangsændringer - Mentions",
+    "bio": "Bio",
+    "username": "Brugernavn",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Tilpas Discord botens kaldenavn, avatar og mere!",
+    "botBranding": "Bot Branding",
+    "botSettings": "Botindstillinger",
+    "toggleDiscordIntegrationFeatures": "Slå Discord-integration funktioner til/fra."
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsleder",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "Indsætter besvarelsesteksten fra et spørgsmål. Nogle spørgsmålstyper kan muligvis ikke kopieres.",
     "formAIResponseLabel": "AI-behandlingssvar for formular",
     "formAIResponseDescription": "Indsætter det AI-genererede svar for indsendelsen, hvis det er relevant.",
-    "actionConditions": "Handlingsbetingelser"
+    "actionConditions": "Handlingsbetingelser",
+    "formAIScoreLabel": "AI Behandlingsscore %",
+    "formAIScoreDescription": "Indsætter AI behandlingsscore procenten for indsendelsen, hvis det er relevant.",
+    "stageChangerComNameLabel": "Omskifter af trin Fællesskabsnavn",
+    "stageChangerComNameDescription": "Indsætter visningsnavnet for fællesskabet af brugeren, der ændrede trinnet."
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",

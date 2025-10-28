@@ -796,7 +796,7 @@
     "copyDiscordId": "Copy Discord ID",
     "copyTeamspeakId": "Copy TeamSpeak ID",
     "copyRobloxId": "Copy Roblox ID",
-    "identifierAddEnter":"Identifier(s) (Enter to Save/Add)",
+    "identifierAddEnter": "Identifier(s) (Enter to Save/Add)",
     "accountviewereditaccountinfo": "Edit Account Information",
     "accountviewerviewmemberprofile": "View Member Profile",
     "unban": "Unban",
@@ -804,7 +804,7 @@
     "accountvieweraccount": "Account",
     "accountviewerjoined": "Joined",
     "viewAllPermissions": "View All Permissions",
-    "uniqueId":"Unique ID",
+    "uniqueId": "Unique ID",
     "accountskick": "Kick",
     "accountsban": "Ban",
     "commonarchive": "Archive",
@@ -1923,7 +1923,8 @@
     "thisMappingDoesntExistRefresh": "This mapping doesnt exist, refresh.",
     "anErrorOccuredWhileRemovingMappingTryAga": "An error occured while removing mapping, try again later.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "An error occured while evaluating mappings before commit, try again.",
-    "areYouSureYouWantToRemoveThisRankRolesMa": "Are you sure you want to remove this rank - roles mapping?"
+    "areYouSureYouWantToRemoveThisRankRolesMa": "Are you sure you want to remove this rank - roles mapping?",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "After changes are made it will queue mass-syncs with the bot, which may take some time to not spam the bot."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
@@ -2249,6 +2250,7 @@
     "invalidStage": "Invalid Stage",
     "visible": "Visible",
     "showComments": "Show Comments",
+    "activity": "Activity",
     "shareFormLink": "Share Form link",
     "deleteForm": "Delete Form",
     "save": "Save",
@@ -3184,7 +3186,15 @@
     "thisMayTakeAFewMomentsPleaseWait": "This may take a few moments, please wait.",
     "linkedGuilds": "Linked Guilds",
     "accountRanksChangesChannel": "Account Rank Changes - Channel",
-    "accountRanksChangesMentions": "Account Rank Changes - Mentions"
+    "accountRanksChangesMentions": "Account Rank Changes - Mentions",
+    "bio": "Bio",
+    "username": "Username",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Customize the Discord bot nickname, avatar, and more!",
+    "botBranding": "Bot Branding",
+    "botSettings": "Bot Settings",
+    "toggleDiscordIntegrationFeatures": "Toggle Discord integration features."
   },
   "DepartmentEditor": {
     "departmentManager": "Department Manager",
@@ -3589,7 +3599,7 @@
     "submissionLinkLabel": "Admin Submission Link",
     "formAIResponseLabel": "Form AI Processing Response",
     "formAIResponseDescription": "Inserts the AI generated response for the submission if applicable.",
-    "formAIScoreLabel":"Form AI Processing Score %",
+    "formAIScoreLabel": "Form AI Processing Score %",
     "formAIScoreDescription": "Inserts the AI processing score percentage for the submission if applicable.",
     "submissionLinkDescription": "Inserts a link to view the submission in the admin panel.",
     "submitterCommunityNameLabel": "Submitter Community Name",
@@ -3600,6 +3610,8 @@
     "submitterDiscordPingDescription": "Inserts a Discord ping for the submitter.",
     "fieldResponseLabel": "Question Response",
     "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
+    "stageChangerComNameLabel": "Stage Changer Community Name",
+    "stageChangerComNameDescription": "Inserts the commuunity display name of the user who changed the stage.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
     "conditionalQuestionStartExplaination": "This action will execute",
     "actionConditions": "Action Conditions"

@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Er is een fout opgetreden bij het evalueren van mappings voor commit, probeer het opnieuw.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Weet je zeker dat je deze rang-rolmapping wilt verwijderen?",
     "oneToOneMapping": "Een-op-Een Mapping",
-    "categoryMapping": "Categorie Mapping"
+    "categoryMapping": "Categorie Mapping",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Nadat wijzigingen zijn aangebracht, zal het massale synchronisaties met de bot in de wachtrij plaatsen, wat enige tijd kan duren om de bot niet te overspoelen."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Deel Link Gekopieerd naar Klembord!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Er was een onverwachte fout bij het opslaan van de instellingen.",
     "invalidUser17": "Ongeldige Gebruiker",
-    "submittedOn": "Ingediend Op"
+    "submittedOn": "Ingediend Op",
+    "activity": "Activiteit"
   },
   "StageEditorCard": {
     "icon": "Icoon",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt niet getoond",
     "showFormDropdown": "De vervolgkeuzelijst om een formulierfase te wijzigen wordt op de webhook getoond",
     "accountRanksChangesChannel": "Account Rangwijzigingen - Kanaal",
-    "accountRanksChangesMentions": "Account Rangwijzigingen - Vermeldingen"
+    "accountRanksChangesMentions": "Account Rangwijzigingen - Vermeldingen",
+    "bio": "Biografie",
+    "username": "Gebruikersnaam",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Pas de bijnaam, avatar en meer van de Discord-bot aan!",
+    "botBranding": "Botbranding",
+    "botSettings": "Botinstellingen",
+    "toggleDiscordIntegrationFeatures": "Schakel de Discord-integratiefuncties in of uit."
   },
   "DepartmentEditor": {
     "departmentManager": "Afdelingsmanager",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "Voegt de inzendingstekst van een vraag in. Sommige vraagtypen kunnen mogelijk niet worden gekopieerd.",
     "formAIResponseLabel": "Formulier AI-verwerkingsreactie",
     "formAIResponseDescription": "Voegt de door AI gegenereerde reactie voor de inzending toe indien van toepassing.",
-    "actionConditions": "Actievoorwaarden"
+    "actionConditions": "Actievoorwaarden",
+    "formAIScoreLabel": "Formulier AI-verwerkingsscore %",
+    "formAIScoreDescription": "Voegt het AI-verwerkingsscorepercentage in voor de indiening indien van toepassing.",
+    "stageChangerComNameLabel": "Gemeenschapsnaam Stadia-Wijziger",
+    "stageChangerComNameDescription": "Voegt de gemeenschapsnaam in van de gebruiker die de fase heeft gewijzigd."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",

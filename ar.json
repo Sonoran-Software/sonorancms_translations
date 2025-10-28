@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "حدث خطأ أثناء تقييم التعيينات قبل الالتزام، حاول مرة أخرى.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "هل أنت متأكد أنك تريد إزالة تعيين الرتبة - الأدوار هذا؟",
     "oneToOneMapping": "تخطيط واحد لواحد",
-    "categoryMapping": "تعيين الفئة"
+    "categoryMapping": "تعيين الفئة",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "بعد إجراء التغييرات سيتم وضعها في طابور التزامن الجماعي مع البوت، مما قد يستغرق بعض الوقت لتجنب إزعاج البوت."
   },
   "DiscordRoleMultiSelector": {
     "guild": "النقابة:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "تم نسخ الرابط إلى الحافظة!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "حدث خطأ غير متوقع عند حفظ الإعدادات.",
     "invalidUser17": "مستخدم غير صالح",
-    "submittedOn": "تم التقديم في"
+    "submittedOn": "تم التقديم في",
+    "activity": "نشاط"
   },
   "StageEditorCard": {
     "icon": "أيقونة",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج غير معروضة",
     "showFormDropdown": "القائمة المنسدلة لتغيير مرحلة النموذج معروضة في الواب هوك",
     "accountRanksChangesChannel": "تغييرات رتبة الحساب - القناة",
-    "accountRanksChangesMentions": "تغييرات رتبة الحساب - الإشارات"
+    "accountRanksChangesMentions": "تغييرات رتبة الحساب - الإشارات",
+    "bio": "السيرة الذاتية",
+    "username": "اسم المستخدم",
+    "avatar": "الصورة الرمزية",
+    "banner": "البانر",
+    "customizeTheDiscordBotNicknameAvatarAndM": "تخصيص لقب وصورة الرمزية الخاصة بـ Discord bot، والمزيد!",
+    "botBranding": "الهوية البصرية للبوت",
+    "botSettings": "إعدادات البوت",
+    "toggleDiscordIntegrationFeatures": "تبديل ميزات تكامل Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "مدير القسم",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "يدرج نص التقديم من سؤال. قد لا يمكن نسخ بعض أنواع الأسئلة.",
     "formAIResponseLabel": "استجابة معالجة الذكاء الاصطناعي للنموذج",
     "formAIResponseDescription": "إدراج الاستجابة المولدة بواسطة الذكاء الاصطناعي للإرسال إذا كان ذلك ممكنًا.",
-    "actionConditions": "شروط الإجراء"
+    "actionConditions": "شروط الإجراء",
+    "formAIScoreLabel": "نسبة معالجة نموذج الذكاء الاصطناعي %",
+    "formAIScoreDescription": "إدراج نسبة معالجة الذكاء الاصطناعي للتقديم إذا كان ذلك ينطبق.",
+    "stageChangerComNameLabel": "اسم مجتمع مُغيّر المرحلة",
+    "stageChangerComNameDescription": "يُدرج اسم العرض للمجتمع للمستخدم الذي غيّر المرحلة."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",

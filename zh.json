@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "在提交前评估映射时发生错误，请再试一次。",
     "areYouSureYouWantToRemoveThisRankRolesMa": "你确定要移除这个等级 - 角色映射吗？",
     "oneToOneMapping": "一对一映射",
-    "categoryMapping": "类别映射"
+    "categoryMapping": "类别映射",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "更改完成后，将在机器人中排队进行批量同步，这可能需要一些时间以避免对机器人造成过多请求。"
   },
   "DiscordRoleMultiSelector": {
     "guild": "公会："
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "分享链接已复制到剪贴板！",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "保存设置时发生意外错误。",
     "invalidUser17": "无效用户",
-    "submittedOn": "提交时间"
+    "submittedOn": "提交时间",
+    "activity": "活动"
   },
   "StageEditorCard": {
     "icon": "图标",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "用于更改表单阶段的下拉菜单未显示",
     "showFormDropdown": "用于更改表单阶段的下拉菜单显示在 webhook 上",
     "accountRanksChangesChannel": "账户等级变更 - 频道",
-    "accountRanksChangesMentions": "账户等级变更 - 提及"
+    "accountRanksChangesMentions": "账户等级变更 - 提及",
+    "bio": "简介",
+    "username": "用户名",
+    "avatar": "头像",
+    "banner": "横幅",
+    "customizeTheDiscordBotNicknameAvatarAndM": "自定义Discord机器人的昵称、头像等！",
+    "botBranding": "机器人品牌",
+    "botSettings": "机器人设置",
+    "toggleDiscordIntegrationFeatures": "切换Discord集成功能。"
   },
   "DepartmentEditor": {
     "departmentManager": "部门经理",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "从问题中插入提交文本。某些问题类型可能无法复制。",
     "formAIResponseLabel": "表单 AI 处理响应",
     "formAIResponseDescription": "如果适用，插入 AI 生成的提交响应。",
-    "actionConditions": "行动条件"
+    "actionConditions": "行动条件",
+    "formAIScoreLabel": "表单AI处理得分%",
+    "formAIScoreDescription": "如果适用，插入提交的AI处理得分百分比。",
+    "stageChangerComNameLabel": "阶段更改者社区名称",
+    "stageChangerComNameDescription": "插入更改阶段的用户的社区显示名称。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",

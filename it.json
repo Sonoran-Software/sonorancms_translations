@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Si è verificato un errore durante la valutazione delle mappature prima del commit, riprova.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Sei sicuro di voler rimuovere questa mappatura grado - ruoli?",
     "oneToOneMapping": "Mappatura Uno-a-Uno",
-    "categoryMapping": "Mappatura delle categorie"
+    "categoryMapping": "Mappatura delle categorie",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Dopo aver apportato modifiche, verranno messi in coda dei sincronizzazioni di massa con il bot, il che potrebbe richiedere del tempo per non sovraccaricare il bot."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilda:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Link Condiviso Copiato negli Appunti!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Si è verificato un errore imprevisto durante il salvataggio delle impostazioni.",
     "invalidUser17": "Utente Non Valido",
-    "submittedOn": "Inviato il"
+    "submittedOn": "Inviato il",
+    "activity": "Attività"
   },
   "StageEditorCard": {
     "icon": "Icona",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "Il menu a discesa per cambiare una fase del modulo non è mostrato",
     "showFormDropdown": "Il menu a discesa per cambiare una fase del modulo è mostrato sul webhook",
     "accountRanksChangesChannel": "Modifiche al grado account - Canale",
-    "accountRanksChangesMentions": "Modifiche al grado account - Menzioni"
+    "accountRanksChangesMentions": "Modifiche al grado account - Menzioni",
+    "bio": "Biografia",
+    "username": "Nome utente",
+    "avatar": "Avatar",
+    "banner": "Banner",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Personalizza il nickname, l'avatar del bot di Discord e altro!",
+    "botBranding": "Brand del Bot",
+    "botSettings": "Impostazioni del Bot",
+    "toggleDiscordIntegrationFeatures": "Attiva le funzionalità di integrazione di Discord."
   },
   "DepartmentEditor": {
     "departmentManager": "Responsabile del dipartimento",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "Inserisce il testo della risposta da una domanda. Alcuni tipi di domande potrebbero non essere copiabili.",
     "formAIResponseLabel": "Risposta di elaborazione AI modulo",
     "formAIResponseDescription": "Inserisce la risposta generata dall'AI per l'invio, se applicabile.",
-    "actionConditions": "Condizioni di Azione"
+    "actionConditions": "Condizioni di Azione",
+    "formAIScoreLabel": "Elaborazione AI del modulo Punteggio %",
+    "formAIScoreDescription": "Inserisce la percentuale di punteggio di elaborazione AI per l'invio, se applicabile.",
+    "stageChangerComNameLabel": "Nome Comunità Modifica Fase",
+    "stageChangerComNameDescription": "Inserisce il nome visualizzato della comunità dell'utente che ha cambiato la fase."
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",

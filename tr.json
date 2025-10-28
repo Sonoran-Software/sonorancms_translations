@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Eşlemeler değerlendirilirken bir hata oluştu, tekrar deneyin.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Bu rütbe - rol eşlemesini kaldırmak istediğinizden emin misiniz?",
     "oneToOneMapping": "Birebir Eşleme",
-    "categoryMapping": "Kategori Eşleme"
+    "categoryMapping": "Kategori Eşleme",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Değişiklikler yapıldıktan sonra, botla toplu senkronizasyonları sıraya alacak, bu biraz zaman alabilir, botu spamlamamak için."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Lonca:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Paylaşım Bağlantısı Panoya Kopyalandı!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Ayarları kaydederken beklenmeyen bir hata oluştu.",
     "invalidUser17": "Geçersiz Kullanıcı",
-    "submittedOn": "Gönderildiği Tarih"
+    "submittedOn": "Gönderildiği Tarih",
+    "activity": "Aktivite"
   },
   "StageEditorCard": {
     "icon": "Simge",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "Form aşamasını değiştirmek için açılır menü gösterilmiyor",
     "showFormDropdown": "Form aşamasını değiştirmek için açılır menü webhook'ta gösterilir",
     "accountRanksChangesChannel": "Hesap Rütbe Değişiklikleri - Kanal",
-    "accountRanksChangesMentions": "Hesap Rütbe Değişiklikleri - Bahsetmeler"
+    "accountRanksChangesMentions": "Hesap Rütbe Değişiklikleri - Bahsetmeler",
+    "bio": "Biyografi",
+    "username": "Kullanıcı Adı",
+    "avatar": "Avatar",
+    "banner": "Afiş",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Discord botunun takma adını, avatarını ve daha fazlasını özelleştirin!",
+    "botBranding": "Bot Markalaşması",
+    "botSettings": "Bot Ayarları",
+    "toggleDiscordIntegrationFeatures": "Discord entegrasyon özelliklerini değiştir."
   },
   "DepartmentEditor": {
     "departmentManager": "Departman Yöneticisi",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "Bir sorudan gönderi metnini ekler. Bazı soru türleri kopyalanamayabilir.",
     "formAIResponseLabel": "Form AI İşleme Yanıtı",
     "formAIResponseDescription": "Uygun olduğunda gönderim için AI tarafından üretilen yanıtı ekler.",
-    "actionConditions": "Eylem Koşulları"
+    "actionConditions": "Eylem Koşulları",
+    "formAIScoreLabel": "AI İşleme Skoru %",
+    "formAIScoreDescription": "Başvuru için geçerliyse, AI işleme puanı yüzdesini ekler.",
+    "stageChangerComNameLabel": "Aşama Değiştirici Topluluk Adı",
+    "stageChangerComNameDescription": "Aşamayı değiştiren kullanıcının topluluk gösterim adını ekler."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",

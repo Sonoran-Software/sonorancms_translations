@@ -1920,7 +1920,8 @@
     "anErrorOccuredWhileEvaluatingMappingsBef": "Virhe kartoitusten arvioinnissa ennen sitoutumista, yritä uudelleen.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Oletko varma, että haluat poistaa tämän arvo-roolit kartoituksen?",
     "oneToOneMapping": "Yhden suhde yhteen -kartoitus",
-    "categoryMapping": "Kategorian Mappaus"
+    "categoryMapping": "Kategorian Mappaus",
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Kun muutokset on tehty, se asettaa massasyncit jonoon botin kanssa, mikä voi kestää jonkin aikaa välttääkseen botin spammaamisen."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Yhteisö:"
@@ -2238,7 +2239,8 @@
     "shareLinkCopiedToClipboard": "Jaa linkki kopioitu leikepöydälle!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Asetusten tallentamisessa tapahtui odottamaton virhe.",
     "invalidUser17": "Virheellinen käyttäjä",
-    "submittedOn": "Lähetetty"
+    "submittedOn": "Lähetetty",
+    "activity": "Toiminta"
   },
   "StageEditorCard": {
     "icon": "Ikoni",
@@ -3148,7 +3150,15 @@
     "hideFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen ei ole näkyvissä",
     "showFormDropdown": "Pudotusvalikko lomakevaiheen vaihtamiseen näkyy webhookissa",
     "accountRanksChangesChannel": "Tilin tason muutokset - Kanava",
-    "accountRanksChangesMentions": "Tilin tason muutokset - Maininnat"
+    "accountRanksChangesMentions": "Tilin tason muutokset - Maininnat",
+    "bio": "Bio",
+    "username": "Käyttäjätunnus",
+    "avatar": "Avatar",
+    "banner": "Banderolli",
+    "customizeTheDiscordBotNicknameAvatarAndM": "Muokkaa Discord-botin lempinimeä, avataria ja muuta!",
+    "botBranding": "Botin Brändäys",
+    "botSettings": "Botin Asetukset",
+    "toggleDiscordIntegrationFeatures": "Vaihda Discord-integraatio-ominaisuuksia."
   },
   "DepartmentEditor": {
     "departmentManager": "Osaston johtaja",
@@ -3557,7 +3567,11 @@
     "fieldResponseDescription": "Lisää kysymyksen vastaustekstin. Jotkin kysymystyypit eivät ehkä ole kopioitavissa.",
     "formAIResponseLabel": "Lomakkeen AI-käsittelyn vastaus",
     "formAIResponseDescription": "Lisää AI:n luoman vastauksen lähetykselle, jos sovellettavissa.",
-    "actionConditions": "Toiminnan ehdot"
+    "actionConditions": "Toiminnan ehdot",
+    "formAIScoreLabel": "Lomakkeen AI-käsittelypisteet %",
+    "formAIScoreDescription": "Lisää tekoälyprosessoinnin prosentuaalisen pistemäärän lähetykselle, jos soveltuu.",
+    "stageChangerComNameLabel": "Vaiheenvaihtajan yhteisön nimi",
+    "stageChangerComNameDescription": "Lisää vaiheen vaihtaneen käyttäjän yhteisön näyttönimen."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
