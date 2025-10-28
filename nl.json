@@ -282,7 +282,8 @@
     "createEvent": "Maak een Evenement - Categorie",
     "eventNotFound": "Evenement Niet Gevonden/Toegankelijk",
     "eventNotFoundDesc": "Het evenement bestaat niet of je hebt geen toestemming om dit evenement direct te bekijken.",
-    "editEvents": "Bewerk evenementen"
+    "editEvents": "Bewerk evenementen",
+    "loginToViewEvent": "Inloggen om evenement te bekijken"
   },
   "limits": {
     "version": "Versie",

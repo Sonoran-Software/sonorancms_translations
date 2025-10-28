@@ -282,7 +282,8 @@
     "createEvent": "Opprett en Hendelse - Kategori",
     "eventNotFound": "Hendelse Ikke Funnet/Tilgjengelig",
     "eventNotFoundDesc": "Enten eksisterer ikke hendelsen eller du har ikke tillatelse til å se denne hendelsen direkte.",
-    "editEvents": "Rediger hendelser"
+    "editEvents": "Rediger hendelser",
+    "loginToViewEvent": "Logg inn for å se arrangement"
   },
   "limits": {
     "version": "Versjon",

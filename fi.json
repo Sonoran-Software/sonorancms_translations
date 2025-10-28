@@ -282,7 +282,8 @@
     "createEvent": "Luo tapahtuma - Kategoria",
     "eventNotFound": "Tapahtumaa ei löydy/ei ole käytettävissä",
     "eventNotFoundDesc": "Joko tapahtumaa ei ole olemassa tai sinulla ei ole oikeuksia nähdä tätä tapahtumaa suoraan.",
-    "editEvents": "Muokkaa tapahtumia"
+    "editEvents": "Muokkaa tapahtumia",
+    "loginToViewEvent": "Kirjaudu nähdäksesi tapahtuma"
   },
   "limits": {
     "version": "Versio",

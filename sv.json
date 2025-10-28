@@ -282,7 +282,8 @@
     "createEvent": "Skapa ett Evenemang - Kategori",
     "eventNotFound": "Evenemang Ej Hittat/Tillgängligt",
     "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt.",
-    "editEvents": "Redigera evenemang"
+    "editEvents": "Redigera evenemang",
+    "loginToViewEvent": "Logga in för att se evenemang"
   },
   "limits": {
     "version": "Version",

@@ -282,7 +282,8 @@
     "createEvent": "Crear un Evento - Categoría",
     "eventNotFound": "Evento No Encontrado/Accesible",
     "eventNotFoundDesc": "O el evento no existe o no tienes permiso para ver este evento directamente.",
-    "editEvents": "Editar eventos"
+    "editEvents": "Editar eventos",
+    "loginToViewEvent": "Iniciar sesión para ver el evento"
   },
   "limits": {
     "version": "Versión",

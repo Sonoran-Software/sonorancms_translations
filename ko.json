@@ -282,7 +282,8 @@
     "createEvent": "이벤트 생성 - 카테고리",
     "eventNotFound": "이벤트를 찾을 수 없음/접근 불가",
     "eventNotFoundDesc": "이벤트가 존재하지 않거나 이 이벤트를 직접 볼 수 있는 권한이 없습니다.",
-    "editEvents": "이벤트 편집"
+    "editEvents": "이벤트 편집",
+    "loginToViewEvent": "이벤트를 보기 위해 로그인하십시오"
   },
   "limits": {
     "version": "버전",

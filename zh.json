@@ -282,7 +282,8 @@
     "createEvent": "创建事件 - 类别",
     "eventNotFound": "未找到/无法访问事件",
     "eventNotFoundDesc": "事件不存在或你没有权限直接查看此事件。",
-    "editEvents": "编辑事件"
+    "editEvents": "编辑事件",
+    "loginToViewEvent": "登录以查看活动"
   },
   "limits": {
     "version": "版本",

@@ -282,7 +282,8 @@
     "createEvent": "Bir Etkinlik Oluştur - Kategori",
     "eventNotFound": "Etkinlik Bulunamadı/Erişilemedi",
     "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok.",
-    "editEvents": "Etkinlikleri Düzenle"
+    "editEvents": "Etkinlikleri Düzenle",
+    "loginToViewEvent": "Etkinliği Görmek İçin Giriş Yap"
   },
   "limits": {
     "version": "Sürüm",

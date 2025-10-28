@@ -282,7 +282,8 @@
     "createEvent": "Vytvořit událost - Kategorie",
     "eventNotFound": "Událost nenalezena/nepřístupná",
     "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit.",
-    "editEvents": "Upravit události"
+    "editEvents": "Upravit události",
+    "loginToViewEvent": "Přihlaste se pro zobrazení události"
   },
   "limits": {
     "version": "Verze",

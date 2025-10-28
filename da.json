@@ -282,7 +282,8 @@
     "createEvent": "Opret en Begivenhed - Kategori",
     "eventNotFound": "Begivenhed Ikke Fundet/Tilgængelig",
     "eventNotFoundDesc": "Enten eksisterer begivenheden ikke, eller du har ikke tilladelse til at se denne begivenhed direkte.",
-    "editEvents": "Rediger begivenheder"
+    "editEvents": "Rediger begivenheder",
+    "loginToViewEvent": "Log ind for at se begivenhed"
   },
   "limits": {
     "version": "Version",

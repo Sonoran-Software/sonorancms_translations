@@ -282,7 +282,8 @@
     "createEvent": "イベントを作成する - カテゴリー",
     "eventNotFound": "イベントが見つからない/アクセスできない",
     "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。",
-    "editEvents": "イベントを編集"
+    "editEvents": "イベントを編集",
+    "loginToViewEvent": "イベントを表示するにはログインしてください"
   },
   "limits": {
     "version": "バージョン",
