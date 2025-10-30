@@ -62,7 +62,10 @@
     "learnMore": "Aprender Más",
     "previewTempStageGroupDetails": "Vista Previa de los Detalles del Grupo de Etapas",
     "days": "Días",
-    "search": "Buscar"
+    "search": "Buscar",
+    "selectAccounts": "Seleccionar Cuentas",
+    "duplicate": "Duplicar",
+    "delete": "Eliminar"
   },
   "permissions": {
     "kickUser": "Expulsar Usuarios",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Agregar un nuevo grupo",
     "groupName": "Nombre del grupo",
     "newGroupName": "Nuevo Nombre de Grupo",
-    "groupPermissions": "Permisos del grupo"
+    "groupPermissions": "Permisos del grupo",
+    "ranks": "Rangos",
+    "promotions": "Promociones"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial de Campos de Perfil",
@@ -4688,5 +4693,18 @@
     "uniqueId": "ID Único",
     "uniqueIdOfTheMember": "ID Único del Miembro",
     "anIssueOccuredWhileSavingNameFormat": "Se produjo un problema al guardar el formato de nombre."
+  },
+  "PromotionFlow": {
+    "ranks": "Rangos",
+    "actions": "Acciones",
+    "title": "Flujos de Promoción",
+    "runPromotions": "Ejecutar Promociones",
+    "promotionFlow": "Flujo de Promoción",
+    "subtitle": "Procesar flujos de promoción de rango automatizados para los miembros de su comunidad.",
+    "promote": "Promocionar",
+    "demote": "Degradar",
+    "promoteFrom": "Promocionar Desde",
+    "promoteTo": "Promocionar A",
+    "createNewPromotionFlow": "Crear Nuevo Flujo de Promoción"
   }
 }

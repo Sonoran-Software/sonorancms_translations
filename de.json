@@ -62,7 +62,10 @@
     "learnMore": "Mehr erfahren",
     "previewTempStageGroupDetails": "Stufengruppendetails anzeigen",
     "days": "Tage",
-    "search": "Suche"
+    "search": "Suche",
+    "selectAccounts": "Konten auswählen",
+    "duplicate": "Duplizieren",
+    "delete": "Löschen"
   },
   "permissions": {
     "kickUser": "Benutzer kicken",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Füge eine neue Gruppe hinzu",
     "groupName": "Gruppenname",
     "newGroupName": "Neuer Gruppenname",
-    "groupPermissions": "Gruppenberechtigungen"
+    "groupPermissions": "Gruppenberechtigungen",
+    "ranks": "Ränge",
+    "promotions": "Beförderungen"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfelder-Tutorial",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Eindeutige ID",
     "uniqueIdOfTheMember": "Eindeutige ID des Mitglieds",
     "anIssueOccuredWhileSavingNameFormat": "Ein Problem ist beim Speichern des Namensformats aufgetreten."
+  },
+  "PromotionFlow": {
+    "ranks": "Ränge",
+    "actions": "Aktionen",
+    "title": "Beförderungsabläufe",
+    "runPromotions": "Beförderungen ausführen",
+    "promotionFlow": "Beförderungsablauf",
+    "subtitle": "Verarbeite automatisierte Beförderungsabläufe für deine Community-Mitglieder.",
+    "promote": "Befördern",
+    "demote": "Degradieren",
+    "promoteFrom": "Befördern von",
+    "promoteTo": "Befördern zu",
+    "createNewPromotionFlow": "Neuen Beförderungsablauf erstellen"
   }
 }

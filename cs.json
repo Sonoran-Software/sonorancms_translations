@@ -62,7 +62,10 @@
     "learnMore": "Zjistit více",
     "previewTempStageGroupDetails": "Náhled podrobností skupiny fází",
     "days": "Dny",
-    "search": "Hledat"
+    "search": "Hledat",
+    "selectAccounts": "Vybrat účty",
+    "duplicate": "Duplikovat",
+    "delete": "Smazat"
   },
   "permissions": {
     "kickUser": "Vyhodit uživatele",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Přidat novou skupinu",
     "groupName": "Název skupiny",
     "newGroupName": "Nový název skupiny",
-    "groupPermissions": "Skupinová oprávnění"
+    "groupPermissions": "Skupinová oprávnění",
+    "ranks": "Hodnosti",
+    "promotions": "Propagace"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Návod na pole profilu",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Unikátní ID",
     "uniqueIdOfTheMember": "Unikátní ID člena",
     "anIssueOccuredWhileSavingNameFormat": "Při ukládání formátu jména došlo k problému."
+  },
+  "PromotionFlow": {
+    "ranks": "Hodnosti",
+    "actions": "Akce",
+    "title": "Propagační toky",
+    "runPromotions": "Spustit propagace",
+    "promotionFlow": "Propagační tok",
+    "subtitle": "Provést automatizované propagační toky hodností pro členy vaší komunity.",
+    "promote": "Povýšit",
+    "demote": "Snížit",
+    "promoteFrom": "Povýšit z",
+    "promoteTo": "Povýšit na",
+    "createNewPromotionFlow": "Vytvořit nový propagační tok"
   }
 }

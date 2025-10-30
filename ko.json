@@ -62,7 +62,10 @@
     "learnMore": "자세히 알아보기",
     "previewTempStageGroupDetails": "단계 그룹 세부사항 미리보기",
     "days": "일",
-    "search": "검색"
+    "search": "검색",
+    "selectAccounts": "계정 선택",
+    "duplicate": "복제",
+    "delete": "삭제"
   },
   "permissions": {
     "kickUser": "사용자 추방",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "새 그룹 추가",
     "groupName": "그룹 이름",
     "newGroupName": "새 그룹 이름",
-    "groupPermissions": "그룹 권한"
+    "groupPermissions": "그룹 권한",
+    "ranks": "계급",
+    "promotions": "승진"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "프로필 필드 문서",
@@ -4688,5 +4693,18 @@
     "uniqueId": "고유 ID",
     "uniqueIdOfTheMember": "회원의 고유 ID",
     "anIssueOccuredWhileSavingNameFormat": "이름 형식을 저장하는 동안 문제가 발생했습니다"
+  },
+  "PromotionFlow": {
+    "ranks": "계급",
+    "actions": "작업",
+    "title": "승진 흐름",
+    "runPromotions": "승진 실행",
+    "promotionFlow": "승진 흐름",
+    "subtitle": "커뮤니티 회원을 위한 자동 계급 승진 프로세스를 처리합니다.",
+    "promote": "승진",
+    "demote": "강등",
+    "promoteFrom": "에서 승진",
+    "promoteTo": "로 승진",
+    "createNewPromotionFlow": "새로운 승진 흐름 만들기"
   }
 }

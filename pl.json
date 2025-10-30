@@ -62,7 +62,10 @@
     "learnMore": "Dowiedz się więcej",
     "previewTempStageGroupDetails": "Podgląd szczegółów grupy etapów",
     "days": "Dni",
-    "search": "Szukaj"
+    "search": "Szukaj",
+    "selectAccounts": "Wybierz konta",
+    "duplicate": "Duplikat",
+    "delete": "Usuń"
   },
   "permissions": {
     "kickUser": "Wyrzuć użytkowników",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Dodaj nową grupę",
     "groupName": "Nazwa grupy",
     "newGroupName": "Nowa nazwa grupy",
-    "groupPermissions": "Uprawnienia grupy"
+    "groupPermissions": "Uprawnienia grupy",
+    "ranks": "Rangi",
+    "promotions": "Promocje"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Samouczek Pól Profilu",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Unikalny identyfikator",
     "uniqueIdOfTheMember": "Unikalny identyfikator członka",
     "anIssueOccuredWhileSavingNameFormat": "Wystąpił problem podczas zapisywania formatu nazwy."
+  },
+  "PromotionFlow": {
+    "ranks": "Rangi",
+    "actions": "Akcje",
+    "title": "Procesy awansowe",
+    "runPromotions": "Uruchom promocje",
+    "promotionFlow": "Proces awansowy",
+    "subtitle": "Przetwarzaj zautomatyzowane procesy awansów rang dla członków społeczności.",
+    "promote": "Awansuj",
+    "demote": "Zdegraduj",
+    "promoteFrom": "Awansuj z",
+    "promoteTo": "Awansuj do",
+    "createNewPromotionFlow": "Utwórz nowy proces awansowy"
   }
 }

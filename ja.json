@@ -62,7 +62,10 @@
     "learnMore": "詳細を学ぶ",
     "previewTempStageGroupDetails": "ステージグループの詳細をプレビュー",
     "days": "日",
-    "search": "検索"
+    "search": "検索",
+    "selectAccounts": "アカウントを選択",
+    "duplicate": "重複",
+    "delete": "削除"
   },
   "permissions": {
     "kickUser": "ユーザーをキック",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "新しいグループを追加",
     "groupName": "グループ名",
     "newGroupName": "新しいグループ名",
-    "groupPermissions": "グループ権限"
+    "groupPermissions": "グループ権限",
+    "ranks": "ランク",
+    "promotions": "昇進"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "プロフィールフィールドの使い方を学ぶ",
@@ -4688,5 +4693,18 @@
     "uniqueId": "ユニークID",
     "uniqueIdOfTheMember": "メンバーのユニークID",
     "anIssueOccuredWhileSavingNameFormat": "名前フォーマットの保存中に問題が発生しました"
+  },
+  "PromotionFlow": {
+    "ranks": "ランク",
+    "actions": "操作",
+    "title": "昇進フロー",
+    "runPromotions": "昇進を実行",
+    "promotionFlow": "昇進フロー",
+    "subtitle": "コミュニティメンバーのために自動ランク昇進フローを処理します。",
+    "promote": "昇進",
+    "demote": "降格",
+    "promoteFrom": "から昇進",
+    "promoteTo": "へ昇進",
+    "createNewPromotionFlow": "新しい昇進フローを作成"
   }
 }

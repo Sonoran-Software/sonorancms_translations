@@ -62,7 +62,10 @@
     "learnMore": "En savoir plus",
     "previewTempStageGroupDetails": "Aperçu des détails du groupe d'étapes",
     "days": "Jours",
-    "search": "Rechercher"
+    "search": "Rechercher",
+    "selectAccounts": "Sélectionner des comptes",
+    "duplicate": "Dupliquer",
+    "delete": "Supprimer"
   },
   "permissions": {
     "kickUser": "Expulser les utilisateurs",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Ajouter un nouveau groupe",
     "groupName": "Nom du groupe",
     "newGroupName": "Nouveau nom de groupe",
-    "groupPermissions": "Autorisations de groupe"
+    "groupPermissions": "Autorisations de groupe",
+    "ranks": "Rangs",
+    "promotions": "Promotions"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutoriel sur les champs de profil",
@@ -4688,5 +4693,18 @@
     "uniqueId": "ID unique",
     "uniqueIdOfTheMember": "ID unique du membre",
     "anIssueOccuredWhileSavingNameFormat": "Un problème est survenu lors de l'enregistrement du format de nom."
+  },
+  "PromotionFlow": {
+    "ranks": "Rangs",
+    "actions": "Actions",
+    "title": "Flux de promotions",
+    "runPromotions": "Exécuter les promotions",
+    "promotionFlow": "Flux de promotion",
+    "subtitle": "Traitez les flux de promotion de rang automatisés pour vos membres de la communauté.",
+    "promote": "Promouvoir",
+    "demote": "Rétrograder",
+    "promoteFrom": "Promouvoir depuis",
+    "promoteTo": "Promouvoir vers",
+    "createNewPromotionFlow": "Créer un nouveau flux de promotion"
   }
 }

@@ -62,7 +62,10 @@
     "learnMore": "Läs mer",
     "previewTempStageGroupDetails": "Förhandsgranska steggruppsdetaljer",
     "days": "Dagar",
-    "search": "Sök"
+    "search": "Sök",
+    "selectAccounts": "Välj konton",
+    "duplicate": "Duplicera",
+    "delete": "Radera"
   },
   "permissions": {
     "kickUser": "Sparka användare",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Lägg till en ny grupp",
     "groupName": "Gruppnamn",
     "newGroupName": "Nytt gruppnamn",
-    "groupPermissions": "Grupprättigheter"
+    "groupPermissions": "Grupprättigheter",
+    "ranks": "Ranger",
+    "promotions": "Befordringar"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfält Tutorial",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Unikt ID",
     "uniqueIdOfTheMember": "Unikt ID för Medlemmen",
     "anIssueOccuredWhileSavingNameFormat": "Ett problem uppstod vid sparande av namformat"
+  },
+  "PromotionFlow": {
+    "ranks": "Ranger",
+    "actions": "Åtgärder",
+    "title": "Befordringsflöden",
+    "runPromotions": "Kör befordringar",
+    "promotionFlow": "Befordringsflöde",
+    "subtitle": "Behandla automatiserade rangbefordringsflöden för dina communitymedlemmar.",
+    "promote": "Beforda",
+    "demote": "Nedflytta",
+    "promoteFrom": "Befordra från",
+    "promoteTo": "Befordra till",
+    "createNewPromotionFlow": "Skapa nytt befordringsflöde"
   }
 }

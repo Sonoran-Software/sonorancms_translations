@@ -62,7 +62,10 @@
     "learnMore": "Meer Leren",
     "previewTempStageGroupDetails": "Voorbeeld Stadiagroepdetails",
     "days": "Dagen",
-    "search": "Zoeken"
+    "search": "Zoeken",
+    "selectAccounts": "Selecteer accounts",
+    "duplicate": "Dupliceren",
+    "delete": "Verwijderen"
   },
   "permissions": {
     "kickUser": "Gebruikers Verwijderen",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Een nieuwe groep toevoegen",
     "groupName": "Groepsnaam",
     "newGroupName": "Nieuwe Groepsnaam",
-    "groupPermissions": "Groepsrechten"
+    "groupPermissions": "Groepsrechten",
+    "ranks": "Rangen",
+    "promotions": "Promoties"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profielvelden Tutorial",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Unieke ID",
     "uniqueIdOfTheMember": "Unieke ID van het Lid",
     "anIssueOccuredWhileSavingNameFormat": "Er is een probleem opgetreden bij het opslaan van het naamformaat."
+  },
+  "PromotionFlow": {
+    "ranks": "Rangen",
+    "actions": "Acties",
+    "title": "Promotiestromen",
+    "runPromotions": "Promoties uitvoeren",
+    "promotionFlow": "Promotiestroom",
+    "subtitle": "Voer geautomatiseerde rangpromotiestromen uit voor uw gemeenschap.",
+    "promote": "Promoveren",
+    "demote": "Degraderen",
+    "promoteFrom": "Promoveren van",
+    "promoteTo": "Promoveren naar",
+    "createNewPromotionFlow": "Nieuwe promotiestroom maken"
   }
 }

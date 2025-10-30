@@ -62,7 +62,10 @@
     "learnMore": "Lær mer",
     "previewTempStageGroupDetails": "Forhåndsvis stadiegruppedetaljer",
     "days": "Dager",
-    "search": "Søk"
+    "search": "Søk",
+    "selectAccounts": "Velg kontoer",
+    "duplicate": "Dupliser",
+    "delete": "Slett"
   },
   "permissions": {
     "kickUser": "Spark brukere",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Legg til en ny gruppe",
     "groupName": "Gruppenavn",
     "newGroupName": "Nytt gruppenavn",
-    "groupPermissions": "Grupptillatelser"
+    "groupPermissions": "Grupptillatelser",
+    "ranks": "Ranger",
+    "promotions": "Forfremmelser"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfelt Veiledning",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Unik ID",
     "uniqueIdOfTheMember": "Unik ID til medlemmet",
     "anIssueOccuredWhileSavingNameFormat": "En feil oppsto mens navnformatet ble lagret."
+  },
+  "PromotionFlow": {
+    "ranks": "Ranger",
+    "actions": "Handlinger",
+    "title": "Promotering Strømmer",
+    "runPromotions": "Kjør promoteringer",
+    "promotionFlow": "Promoteringsflyt",
+    "subtitle": "Prosesser automatisk rangeringsfremmingsflyter for medlemmene i communityet ditt.",
+    "promote": "Forfrem",
+    "demote": "Degrader",
+    "promoteFrom": "Forfrem Fra",
+    "promoteTo": "Forfrem Til",
+    "createNewPromotionFlow": "Lag ny promoteringsflyt"
   }
 }

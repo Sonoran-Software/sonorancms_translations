@@ -62,7 +62,10 @@
     "learnMore": "Lue lisää",
     "previewTempStageGroupDetails": "Esikatsele vaihe-ryhmän tiedot",
     "days": "Päivät",
-    "search": "Haku"
+    "search": "Haku",
+    "selectAccounts": "Valitse Tilit",
+    "duplicate": "Kaksoiskappale",
+    "delete": "Poista"
   },
   "permissions": {
     "kickUser": "Potki käyttäjiä",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Lisää uusi ryhmä",
     "groupName": "Ryhmä Nimi",
     "newGroupName": "Uuden ryhmän nimi",
-    "groupPermissions": "Ryhmän luvat"
+    "groupPermissions": "Ryhmän luvat",
+    "ranks": "Arvot",
+    "promotions": "Promootiot"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profiilikenttien opas",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Yksilöllinen tunniste",
     "uniqueIdOfTheMember": "Jäsenen yksilöllinen tunniste",
     "anIssueOccuredWhileSavingNameFormat": "Virhe tapahtui tallennettaessa nimen muotoa."
+  },
+  "PromotionFlow": {
+    "ranks": "Arvot",
+    "actions": "Toiminnot",
+    "title": "Promootio Kierrot",
+    "runPromotions": "Suorita Promootiot",
+    "promotionFlow": "Promootio Kierto",
+    "subtitle": "Suorita automatisoidut arvojen promootiot yhteisösi jäsenille.",
+    "promote": "Promoa",
+    "demote": "Alenna",
+    "promoteFrom": "Promoa Lähtien",
+    "promoteTo": "Promoa Kohtee",
+    "createNewPromotionFlow": "Luo Uusi Promootio Kierto"
   }
 }

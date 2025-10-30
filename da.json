@@ -62,7 +62,10 @@
     "learnMore": "Lær Mere",
     "previewTempStageGroupDetails": "Forhåndsvis Fasegruppe Detaljer",
     "days": "Dage",
-    "search": "Søg"
+    "search": "Søg",
+    "selectAccounts": "Vælg konti",
+    "duplicate": "Duplikér",
+    "delete": "Slet"
   },
   "permissions": {
     "kickUser": "Smid Brugere Ud",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Tilføj en ny gruppe",
     "groupName": "Gruppenavn",
     "newGroupName": "Nyt Gruppe Navn",
-    "groupPermissions": "Gruppetilladelser"
+    "groupPermissions": "Gruppetilladelser",
+    "ranks": "Rækker",
+    "promotions": "Forfremmelser"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Felter Vejledning",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Unikt ID",
     "uniqueIdOfTheMember": "Unikt ID for medlemmet",
     "anIssueOccuredWhileSavingNameFormat": "Der opstod et problem under lagring af navneformatet."
+  },
+  "PromotionFlow": {
+    "ranks": "Rækker",
+    "actions": "Handlinger",
+    "title": "Promoveringsstrømme",
+    "runPromotions": "Kør promoveringer",
+    "promotionFlow": "Promoveringsstrøm",
+    "subtitle": "Behandle automatiserede rangforfremmelsesstrømme for dine fællesskabsmedlemmer.",
+    "promote": "Forfrem",
+    "demote": "Degrader",
+    "promoteFrom": "Forfrem fra",
+    "promoteTo": "Forfrem til",
+    "createNewPromotionFlow": "Opret ny promoveringsstrøm"
   }
 }

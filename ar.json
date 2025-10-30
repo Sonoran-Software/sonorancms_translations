@@ -62,7 +62,10 @@
     "learnMore": "تعرف على المزيد",
     "previewTempStageGroupDetails": "معاينة تفاصيل مجموعة المراحل",
     "days": "أيام",
-    "search": "بحث"
+    "search": "بحث",
+    "selectAccounts": "اختر الحسابات",
+    "duplicate": "نسخة طبق الأصل",
+    "delete": "حذف"
   },
   "permissions": {
     "kickUser": "طرد المستخدمين",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "أضف مجموعة جديدة",
     "groupName": "اسم المجموعة",
     "newGroupName": "اسم المجموعة الجديدة",
-    "groupPermissions": "أذونات المجموعة"
+    "groupPermissions": "أذونات المجموعة",
+    "ranks": "الرتب",
+    "promotions": "الترقيات"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "دليل حقول الملف الشخصي",
@@ -4688,5 +4693,18 @@
     "uniqueId": "رقم التعريف الفريد",
     "uniqueIdOfTheMember": "رقم التعريف الفريد للعضو",
     "anIssueOccuredWhileSavingNameFormat": "حدثت مشكلة أثناء حفظ تنسيق الاسم."
+  },
+  "PromotionFlow": {
+    "ranks": "الرتب",
+    "actions": "الإجراءات",
+    "title": "تدفقات الترقية",
+    "runPromotions": "تشغيل الترقيات",
+    "promotionFlow": "تدفق الترقية",
+    "subtitle": "معالجة تدفقات ترقية الرتب الآلية لأعضاء مجتمعك.",
+    "promote": "ترقي",
+    "demote": "خفض",
+    "promoteFrom": "ترقي من",
+    "promoteTo": "ترقي إلى",
+    "createNewPromotionFlow": "إنشاء تدفق ترقية جديد"
   }
 }

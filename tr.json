@@ -62,7 +62,10 @@
     "learnMore": "Daha Fazla Bilgi Edinin",
     "previewTempStageGroupDetails": "Aşama Grubu Detaylarını Önizle",
     "days": "Günler",
-    "search": "Ara"
+    "search": "Ara",
+    "selectAccounts": "Hesapları Seç",
+    "duplicate": "Çoğalt",
+    "delete": "Sil"
   },
   "permissions": {
     "kickUser": "Kullanıcıları At",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Yeni bir grup ekle",
     "groupName": "Grup Adı",
     "newGroupName": "Yeni Grup Adı",
-    "groupPermissions": "Grup İzinleri"
+    "groupPermissions": "Grup İzinleri",
+    "ranks": "Rütbeler",
+    "promotions": "Terfiler"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Alanları Eğitimi",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Benzersiz ID",
     "uniqueIdOfTheMember": "Üyenin Benzersiz ID'si",
     "anIssueOccuredWhileSavingNameFormat": "İsim formatı kaydedilirken bir sorun oluştu."
+  },
+  "PromotionFlow": {
+    "ranks": "Rütbeler",
+    "actions": "Eylemler",
+    "title": "Terfi Akışları",
+    "runPromotions": "Terfileri Çalıştır",
+    "promotionFlow": "Terfi Akışı",
+    "subtitle": "Topluluk üyeleriniz için otomatik rütbe terfi akışlarını işleyin.",
+    "promote": "Terfi Ettir",
+    "demote": "Düşür",
+    "promoteFrom": "Şu Rütbeden Terfi Ettir",
+    "promoteTo": "Şu Rütbeye Terfi Ettir",
+    "createNewPromotionFlow": "Yeni Terfi Akışı Oluştur"
   }
 }

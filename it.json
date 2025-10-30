@@ -62,7 +62,10 @@
     "learnMore": "Scopri di più",
     "previewTempStageGroupDetails": "Anteprima dei Dettagli del Gruppo di Fasi",
     "days": "Giorni",
-    "search": "Cerca"
+    "search": "Cerca",
+    "selectAccounts": "Seleziona Conti",
+    "duplicate": "Duplica",
+    "delete": "Elimina"
   },
   "permissions": {
     "kickUser": "Espelli Utenti",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Aggiungi un nuovo gruppo",
     "groupName": "Nome del Gruppo",
     "newGroupName": "Nuovo nome del gruppo",
-    "groupPermissions": "Permessi di Gruppo"
+    "groupPermissions": "Permessi di Gruppo",
+    "ranks": "Gradi",
+    "promotions": "Promozioni"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial sui Campi del Profilo",
@@ -4688,5 +4693,18 @@
     "uniqueId": "ID univoco",
     "uniqueIdOfTheMember": "ID univoco del membro",
     "anIssueOccuredWhileSavingNameFormat": "Si è verificato un problema durante il salvataggio del formato del nome"
+  },
+  "PromotionFlow": {
+    "ranks": "Gradi",
+    "actions": "Azioni",
+    "title": "Flussi di Promozione",
+    "runPromotions": "Esegui Promozioni",
+    "promotionFlow": "Flusso di Promozione",
+    "subtitle": "Esegui flussi automatizzati di promozione dei gradi per i membri della tua comunità.",
+    "promote": "Promuovi",
+    "demote": "Retrocedi",
+    "promoteFrom": "Promuovi Da",
+    "promoteTo": "Promuovi A",
+    "createNewPromotionFlow": "Crea Nuovo Flusso di Promozione"
   }
 }

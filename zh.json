@@ -62,7 +62,10 @@
     "learnMore": "了解更多",
     "previewTempStageGroupDetails": "预览阶段组详情",
     "days": "天",
-    "search": "搜索"
+    "search": "搜索",
+    "selectAccounts": "选择账户",
+    "duplicate": "复制",
+    "delete": "删除"
   },
   "permissions": {
     "kickUser": "踢出用户",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "添加新组",
     "groupName": "组名",
     "newGroupName": "新组名称",
-    "groupPermissions": "组权限"
+    "groupPermissions": "组权限",
+    "ranks": "等级",
+    "promotions": "晋升"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "个人资料字段教程",
@@ -4688,5 +4693,18 @@
     "uniqueId": "唯一ID",
     "uniqueIdOfTheMember": "会员的唯一ID",
     "anIssueOccuredWhileSavingNameFormat": "保存名称格式时出现问题"
+  },
+  "PromotionFlow": {
+    "ranks": "等级",
+    "actions": "操作",
+    "title": "晋升流程",
+    "runPromotions": "执行晋升",
+    "promotionFlow": "晋升流程",
+    "subtitle": "为您的社区成员处理自动等级晋升流程。",
+    "promote": "晋升",
+    "demote": "降级",
+    "promoteFrom": "晋升自",
+    "promoteTo": "晋升至",
+    "createNewPromotionFlow": "创建新晋升流程"
   }
 }

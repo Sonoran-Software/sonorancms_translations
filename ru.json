@@ -62,7 +62,10 @@
     "learnMore": "Узнать больше",
     "previewTempStageGroupDetails": "Предварительный просмотр деталей группы этапов",
     "days": "Дни",
-    "search": "Поиск"
+    "search": "Поиск",
+    "selectAccounts": "Выберите учетные записи",
+    "duplicate": "Дублировать",
+    "delete": "Удалить"
   },
   "permissions": {
     "kickUser": "Выгнать пользователей",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Добавить новую группу",
     "groupName": "Название группы",
     "newGroupName": "Новое имя группы",
-    "groupPermissions": "Групповые разрешения"
+    "groupPermissions": "Групповые разрешения",
+    "ranks": "Ранги",
+    "promotions": "Повышения"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Узнайте, как использовать поля профиля",
@@ -4688,5 +4693,18 @@
     "uniqueId": "Уникальный ID",
     "uniqueIdOfTheMember": "Уникальный ID члена",
     "anIssueOccuredWhileSavingNameFormat": "Произошла ошибка при сохранении формата имени."
+  },
+  "PromotionFlow": {
+    "ranks": "Ранги",
+    "actions": "Действия",
+    "title": "Потоки продвижения",
+    "runPromotions": "Запустить продвижения",
+    "promotionFlow": "Поток продвижения",
+    "subtitle": "Обрабатывайте автоматизированные потоки повышений ранга для членов вашего сообщества.",
+    "promote": "Повысить",
+    "demote": "Понизить",
+    "promoteFrom": "Повысить с",
+    "promoteTo": "Повысить до",
+    "createNewPromotionFlow": "Создать новый поток продвижения"
   }
 }

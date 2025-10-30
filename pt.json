@@ -62,7 +62,10 @@
     "learnMore": "Saiba Mais",
     "previewTempStageGroupDetails": "Visualizar Detalhes do Grupo de Etapas",
     "days": "Dias",
-    "search": "Buscar"
+    "search": "Buscar",
+    "selectAccounts": "Selecionar Contas",
+    "duplicate": "Duplicar",
+    "delete": "Excluir"
   },
   "permissions": {
     "kickUser": "Expulsar Usuários",
@@ -2904,7 +2907,9 @@
     "addANewGroup": "Adicione um novo grupo",
     "groupName": "Nome do Grupo",
     "newGroupName": "Novo Nome do Grupo",
-    "groupPermissions": "Permissões do Grupo"
+    "groupPermissions": "Permissões do Grupo",
+    "ranks": "Patentes",
+    "promotions": "Promoções"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial de Campos de Perfil",
@@ -4688,5 +4693,18 @@
     "uniqueId": "ID Único",
     "uniqueIdOfTheMember": "ID Único do Membro",
     "anIssueOccuredWhileSavingNameFormat": "Ocorreu um problema ao salvar o formato do nome."
+  },
+  "PromotionFlow": {
+    "ranks": "Patentes",
+    "actions": "Ações",
+    "title": "Fluxos de Promoção",
+    "runPromotions": "Executar Promoções",
+    "promotionFlow": "Fluxo de Promoção",
+    "subtitle": "Processar fluxos automáticos de promoção de patentes para os membros da sua comunidade.",
+    "promote": "Promover",
+    "demote": "Rebaixar",
+    "promoteFrom": "Promover De",
+    "promoteTo": "Promover Para",
+    "createNewPromotionFlow": "Criar Novo Fluxo de Promoção"
   }
 }
