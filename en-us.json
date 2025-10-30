@@ -29,6 +29,7 @@
     "cancel": "Cancel",
     "view": "View",
     "close": "Close",
+    "selectAccounts": "Select Accounts",
     "image": "Image",
     "days": "Days",
     "duplicate": "Duplicate",
@@ -931,8 +932,12 @@
     "actions": "Actions",
     "title": "Promotion Flows",
     "runPromotions": "Run Promotions",
-    "subtitle": "Define automated rank promotion flows for your community members.",
-    "subtitle2": "Promotions can be ran on users in the account menu or via Discord command.",
+    "promotionFlow": "Promotion Flow",
+    "subtitle": "Process automated rank promotion flows for your community members.",
+    "promote": "Promote",
+    "demote": "Demote",
+    "promoteFrom": "Promote From",
+    "promoteTo": "Promote To",
     "createNewPromotionFlow": "Create New Promotion Flow"
   },
   "ApiIntegration": {
