@@ -31,6 +31,8 @@
     "close": "Close",
     "image": "Image",
     "days": "Days",
+    "duplicate": "Duplicate",
+    "delete": "Delete",
     "description": "Description",
     "templateDetails": "Template Details",
     "information": "Information",
@@ -923,6 +925,15 @@
     "unarchive": "Unarchive",
     "userPermissions": "User Permissions:",
     "debugPermissions": "Debug Permissions"
+  },
+  "PromotionFlow": {
+    "ranks": "Ranks",
+    "actions": "Actions",
+    "title": "Promotion Flows",
+    "runPromotions": "Run Promotions",
+    "subtitle": "Define automated rank promotion flows for your community members.",
+    "subtitle2": "Promotions can be ran on users in the account menu or via Discord command.",
+    "createNewPromotionFlow": "Create New Promotion Flow"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Commmunity API Tutorial",
@@ -2886,6 +2897,8 @@
     "editGroup": "Edit Group",
     "newGroup": "New Group",
     "importDiscordRolesToRanks": "Import Discord Roles to Ranks",
+    "ranks": "Ranks",
+    "promotions": "Promotions",
     "icon": "Icon",
     "rankIcon": "Rank Icon",
     "rankImage": "Rank Image",
