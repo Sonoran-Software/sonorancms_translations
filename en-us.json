@@ -937,6 +937,7 @@
     "failedToUpdatePromotionFlow": "Failed to update promotion flow",
     "failedToDeletePromotionFlow": "Failed to delete promotion flow",
     "failedToTriggerPromotions": "Failed to trigger promotions",
+    "insufficientPermissionsToCreatePromotionFlows": "Insufficient permissions to manage promotion flows",
     "subtitle": "Process automated rank promotion flows for your community members.",
     "promote": "Promote",
     "demote": "Demote",
