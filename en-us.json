@@ -750,6 +750,7 @@
     "teamspeak3": "TeamSpeak 3",
     "yourCommunityUsesTeamspeakSupplyYourUidB": "Your community uses TeamSpeak! Supply your UID below to reap the benefits of automatic role sync",
     "notificationPreferences": "Notification Preferences",
+    "notificationPreferencesDescription": "Manage your notification preferences for various community events and updates.",
     "noClockInNotesCurrently": "No clock in notes currently...",
     "newApi": "New API",
     "previewing": "Previewing",
