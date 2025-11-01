@@ -780,7 +780,8 @@
     "radio": "라디오",
     "radioDesc": "Sonoran CMS로 Sonoran Radio 권한을 자동화하세요!",
     "communityNotFound": "커뮤니티를 찾을 수 없습니다",
-    "errorAnErrorOccuredWhileExecuting": "오류: 실행 중 오류가 발생했습니다"
+    "errorAnErrorOccuredWhileExecuting": "오류: 실행 중 오류가 발생했습니다",
+    "notificationPreferencesDescription": "여러 커뮤니티 이벤트 및 업데이트에 대한 알림 환경설정을 관리하세요."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "사용자 계정 사용 방법 배우기",
@@ -4705,6 +4706,11 @@
     "demote": "강등",
     "promoteFrom": "에서 승진",
     "promoteTo": "로 승진",
-    "createNewPromotionFlow": "새로운 승진 흐름 만들기"
+    "createNewPromotionFlow": "새로운 승진 흐름 만들기",
+    "failedToCreatePromotionFlow": "승진 흐름 생성 실패",
+    "failedToUpdatePromotionFlow": "승진 흐름 업데이트 실패",
+    "failedToDeletePromotionFlow": "승진 흐름 삭제 실패",
+    "failedToTriggerPromotions": "승진 트리거 실패",
+    "insufficientPermissionsToCreatePromotionFlows": "승진 흐름을 관리할 권한이 부족함"
   }
 }

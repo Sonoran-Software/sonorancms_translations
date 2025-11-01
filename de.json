@@ -780,7 +780,8 @@
     "radio": "Funkgerät",
     "radioDesc": "Automatisiere Sonoran Radio-Berechtigungen mit Sonoran CMS!",
     "communityNotFound": "Gemeinschaft nicht gefunden",
-    "errorAnErrorOccuredWhileExecuting": "Fehler: Bei der Ausführung ist ein Fehler aufgetreten"
+    "errorAnErrorOccuredWhileExecuting": "Fehler: Bei der Ausführung ist ein Fehler aufgetreten",
+    "notificationPreferencesDescription": "Verwalten Sie Ihre Benachrichtigungseinstellungen für verschiedene Community-Ereignisse und -Updates."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Benutzerkonten-Tutorial",
@@ -4705,6 +4706,11 @@
     "demote": "Degradieren",
     "promoteFrom": "Befördern von",
     "promoteTo": "Befördern zu",
-    "createNewPromotionFlow": "Neuen Beförderungsablauf erstellen"
+    "createNewPromotionFlow": "Neuen Beförderungsablauf erstellen",
+    "failedToCreatePromotionFlow": "Fehler beim Erstellen des Beförderungsablaufs",
+    "failedToUpdatePromotionFlow": "Fehler beim Aktualisieren des Beförderungsablaufs",
+    "failedToDeletePromotionFlow": "Fehler beim Löschen des Beförderungsablaufs",
+    "failedToTriggerPromotions": "Fehler beim Auslösen von Beförderungen",
+    "insufficientPermissionsToCreatePromotionFlows": "Unzureichende Berechtigungen zur Verwaltung von Beförderungsabläufen"
   }
 }

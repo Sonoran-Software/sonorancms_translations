@@ -780,7 +780,8 @@
     "radio": "ラジオ",
     "radioDesc": "Sonoran CMSでSonoran Radioの権限を自動化！",
     "communityNotFound": "コミュニティが見つかりません",
-    "errorAnErrorOccuredWhileExecuting": "エラー: 実行中にエラーが発生しました"
+    "errorAnErrorOccuredWhileExecuting": "エラー: 実行中にエラーが発生しました",
+    "notificationPreferencesDescription": "さまざまなコミュニティイベントや更新の通知設定を管理します。"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -4705,6 +4706,11 @@
     "demote": "降格",
     "promoteFrom": "から昇進",
     "promoteTo": "へ昇進",
-    "createNewPromotionFlow": "新しい昇進フローを作成"
+    "createNewPromotionFlow": "新しい昇進フローを作成",
+    "failedToCreatePromotionFlow": "昇格フローの作成に失敗しました",
+    "failedToUpdatePromotionFlow": "昇格フローの更新に失敗しました",
+    "failedToDeletePromotionFlow": "昇格フローの削除に失敗しました",
+    "failedToTriggerPromotions": "昇格のトリガーに失敗しました",
+    "insufficientPermissionsToCreatePromotionFlows": "昇格フローを管理する権限が不足しています"
   }
 }

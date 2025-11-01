@@ -780,7 +780,8 @@
     "radio": "راديو",
     "radioDesc": "أتمت أذونات Sonoran Radio باستخدام Sonoran CMS!",
     "communityNotFound": "المجتمع غير موجود",
-    "errorAnErrorOccuredWhileExecuting": "خطأ: حدث خطأ أثناء التنفيذ"
+    "errorAnErrorOccuredWhileExecuting": "خطأ: حدث خطأ أثناء التنفيذ",
+    "notificationPreferencesDescription": "إدارة تفضيلات الإشعارات الخاصة بك للأحداث المجتمعية المختلفة والتحديثات."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -4705,6 +4706,11 @@
     "demote": "خفض",
     "promoteFrom": "ترقي من",
     "promoteTo": "ترقي إلى",
-    "createNewPromotionFlow": "إنشاء تدفق ترقية جديد"
+    "createNewPromotionFlow": "إنشاء تدفق ترقية جديد",
+    "failedToCreatePromotionFlow": "فشل في إنشاء سير الترقيات",
+    "failedToUpdatePromotionFlow": "فشل في تحديث سير الترقيات",
+    "failedToDeletePromotionFlow": "فشل في حذف سير الترقيات",
+    "failedToTriggerPromotions": "فشل في تحفيز الترقيات",
+    "insufficientPermissionsToCreatePromotionFlows": "إذونات غير كافية لإدارة سير الترقيات"
   }
 }

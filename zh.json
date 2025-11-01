@@ -780,7 +780,8 @@
     "radio": "广播",
     "radioDesc": "使用 Sonoran CMS 自动化 Sonoran Radio 权限！",
     "communityNotFound": "未找到社区",
-    "errorAnErrorOccuredWhileExecuting": "错误：执行时发生错误"
+    "errorAnErrorOccuredWhileExecuting": "错误：执行时发生错误",
+    "notificationPreferencesDescription": "管理您对各种社区活动和更新的通知偏好。"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -4705,6 +4706,11 @@
     "demote": "降级",
     "promoteFrom": "晋升自",
     "promoteTo": "晋升至",
-    "createNewPromotionFlow": "创建新晋升流程"
+    "createNewPromotionFlow": "创建新晋升流程",
+    "failedToCreatePromotionFlow": "创建晋升流程失败",
+    "failedToUpdatePromotionFlow": "更新晋升流程失败",
+    "failedToDeletePromotionFlow": "删除晋升流程失败",
+    "failedToTriggerPromotions": "触发晋升失败",
+    "insufficientPermissionsToCreatePromotionFlows": "权限不足，无法管理晋升流程"
   }
 }

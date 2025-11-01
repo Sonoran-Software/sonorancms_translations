@@ -780,7 +780,8 @@
     "radio": "Radyo",
     "radioDesc": "Sonoran Radio izinlerini Sonoran CMS ile otomatikleştirin!",
     "communityNotFound": "Topluluk Bulunamadı",
-    "errorAnErrorOccuredWhileExecuting": "Hata: Yürütülürken bir hata oluştu"
+    "errorAnErrorOccuredWhileExecuting": "Hata: Yürütülürken bir hata oluştu",
+    "notificationPreferencesDescription": "Farklı topluluk etkinlikleri ve güncellemeleri için bildirim tercihlerinizi yönetin."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -4705,6 +4706,11 @@
     "demote": "Düşür",
     "promoteFrom": "Şu Rütbeden Terfi Ettir",
     "promoteTo": "Şu Rütbeye Terfi Ettir",
-    "createNewPromotionFlow": "Yeni Terfi Akışı Oluştur"
+    "createNewPromotionFlow": "Yeni Terfi Akışı Oluştur",
+    "failedToCreatePromotionFlow": "Terfi akışı oluşturulamadı",
+    "failedToUpdatePromotionFlow": "Terfi akışı güncellenemedi",
+    "failedToDeletePromotionFlow": "Terfi akışı silinemedi",
+    "failedToTriggerPromotions": "Terfiyi tetikleme başarısız",
+    "insufficientPermissionsToCreatePromotionFlows": "Terfi akışlarını yönetmek için yetersiz izin"
   }
 }

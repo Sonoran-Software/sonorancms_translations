@@ -780,7 +780,8 @@
     "radio": "Rádio",
     "radioDesc": "Automatizujte oprávnění Sonoran Radio pomocí Sonoran CMS!",
     "communityNotFound": "Komunita nenalezena",
-    "errorAnErrorOccuredWhileExecuting": "Chyba: Při provádění došlo k chybě"
+    "errorAnErrorOccuredWhileExecuting": "Chyba: Při provádění došlo k chybě",
+    "notificationPreferencesDescription": "Spravujte své preference oznámení pro různé komunitní události a aktualizace."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -4705,6 +4706,11 @@
     "demote": "Snížit",
     "promoteFrom": "Povýšit z",
     "promoteTo": "Povýšit na",
-    "createNewPromotionFlow": "Vytvořit nový propagační tok"
+    "createNewPromotionFlow": "Vytvořit nový propagační tok",
+    "failedToCreatePromotionFlow": "Nepodařilo se vytvořit propagační tok",
+    "failedToUpdatePromotionFlow": "Nepodařilo se aktualizovat propagační tok",
+    "failedToDeletePromotionFlow": "Nepodařilo se smazat propagační tok",
+    "failedToTriggerPromotions": "Nepodařilo se spustit propagace",
+    "insufficientPermissionsToCreatePromotionFlows": "Nedostatečná oprávnění k správě propagačních toků"
   }
 }

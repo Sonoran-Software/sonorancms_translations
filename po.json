@@ -780,7 +780,8 @@
     "radio": "Radio",
     "radioDesc": "¡Automatiza los permisos de Sonoran Radio con Sonoran CMS!",
     "communityNotFound": "Społeczność nie znaleziona",
-    "errorAnErrorOccuredWhileExecuting": "Błąd: Wystąpił błąd podczas wykonywania"
+    "errorAnErrorOccuredWhileExecuting": "Błąd: Wystąpił błąd podczas wykonywania",
+    "notificationPreferencesDescription": "Zarządzaj swoimi preferencjami powiadomień dla różnych wydarzeń społecznościowych i aktualizacji."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -4705,6 +4706,11 @@
     "demote": "Rebaixar",
     "promoteFrom": "Promover De",
     "promoteTo": "Promover Para",
-    "createNewPromotionFlow": "Criar Novo Fluxo de Promoção"
+    "createNewPromotionFlow": "Criar Novo Fluxo de Promoção",
+    "failedToCreatePromotionFlow": "Nie udało się utworzyć przepływu promocji",
+    "failedToUpdatePromotionFlow": "Nie udało się zaktualizować przepływu promocji",
+    "failedToDeletePromotionFlow": "Nie udało się usunąć przepływu promocji",
+    "failedToTriggerPromotions": "Nie udało się wywołać promocji",
+    "insufficientPermissionsToCreatePromotionFlows": "Niewystarczające uprawnienia do zarządzania przepływami promocji"
   }
 }

@@ -780,7 +780,8 @@
     "radio": "Radio",
     "radioDesc": "Automatiser tillatelser for Sonoran Radio med Sonoran CMS!",
     "communityNotFound": "Fellesskap ikke funnet",
-    "errorAnErrorOccuredWhileExecuting": "Feil: Det oppstod en feil under utførelsen"
+    "errorAnErrorOccuredWhileExecuting": "Feil: Det oppstod en feil under utførelsen",
+    "notificationPreferencesDescription": "Administrer dine varsler for ulike samfunnshendelser og oppdateringer."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brukerkontoer Veiledning",
@@ -4705,6 +4706,11 @@
     "demote": "Degrader",
     "promoteFrom": "Forfrem Fra",
     "promoteTo": "Forfrem Til",
-    "createNewPromotionFlow": "Lag ny promoteringsflyt"
+    "createNewPromotionFlow": "Lag ny promoteringsflyt",
+    "failedToCreatePromotionFlow": "Kunne ikke opprette forfremmelsesflyt",
+    "failedToUpdatePromotionFlow": "Kunne ikke oppdatere forfremmelsesflyt",
+    "failedToDeletePromotionFlow": "Kunne ikke slette forfremmelsesflyt",
+    "failedToTriggerPromotions": "Kunne ikke utløse forfremmelser",
+    "insufficientPermissionsToCreatePromotionFlows": "Utilstrekkelige tillatelser til å administrere forfremmelsesflyter"
   }
 }

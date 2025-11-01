@@ -780,7 +780,8 @@
     "radio": "Радио",
     "radioDesc": "Автоматизируйте разрешения Sonoran Radio с помощью Sonoran CMS!",
     "communityNotFound": "Сообщество не найдено",
-    "errorAnErrorOccuredWhileExecuting": "Ошибка: Произошла ошибка при выполнении"
+    "errorAnErrorOccuredWhileExecuting": "Ошибка: Произошла ошибка при выполнении",
+    "notificationPreferencesDescription": "Управляйте своими настройками уведомлений для различных событий и обновлений сообщества."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -4705,6 +4706,11 @@
     "demote": "Понизить",
     "promoteFrom": "Повысить с",
     "promoteTo": "Повысить до",
-    "createNewPromotionFlow": "Создать новый поток продвижения"
+    "createNewPromotionFlow": "Создать новый поток продвижения",
+    "failedToCreatePromotionFlow": "Не удалось создать процесс продвижения",
+    "failedToUpdatePromotionFlow": "Не удалось обновить процесс продвижения",
+    "failedToDeletePromotionFlow": "Не удалось удалить процесс продвижения",
+    "failedToTriggerPromotions": "Не удалось запустить продвижения",
+    "insufficientPermissionsToCreatePromotionFlows": "Недостаточно прав для управления процессами продвижения"
   }
 }

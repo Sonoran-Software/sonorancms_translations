@@ -780,7 +780,8 @@
     "radio": "Radio",
     "radioDesc": "Automatisoi Sonoran Radion käyttöoikeudet Sonoran CMS:llä!",
     "communityNotFound": "Yhteisöä ei löydy",
-    "errorAnErrorOccuredWhileExecuting": "Virhe: Virhe tapahtui suorituksen aikana"
+    "errorAnErrorOccuredWhileExecuting": "Virhe: Virhe tapahtui suorituksen aikana",
+    "notificationPreferencesDescription": "Hallitse ilmoitusasetuksiasi eri yhteisötapahtumille ja päivityksille."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -4705,6 +4706,11 @@
     "demote": "Alenna",
     "promoteFrom": "Promoa Lähtien",
     "promoteTo": "Promoa Kohtee",
-    "createNewPromotionFlow": "Luo Uusi Promootio Kierto"
+    "createNewPromotionFlow": "Luo Uusi Promootio Kierto",
+    "failedToCreatePromotionFlow": "Kampanjaprosessin luominen epäonnistui",
+    "failedToUpdatePromotionFlow": "Kampanjaprosessin päivittäminen epäonnistui",
+    "failedToDeletePromotionFlow": "Kampanjaprosessin poistaminen epäonnistui",
+    "failedToTriggerPromotions": "Kampanjoiden käynnistäminen epäonnistui",
+    "insufficientPermissionsToCreatePromotionFlows": "Riittämättömät oikeudet kampanjaprosessien hallintaan"
   }
 }

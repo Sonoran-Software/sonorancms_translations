@@ -780,7 +780,8 @@
     "radio": "Radio",
     "radioDesc": "Automatizza i permessi di Sonoran Radio con Sonoran CMS!",
     "communityNotFound": "Community Non Trovata",
-    "errorAnErrorOccuredWhileExecuting": "Errore: Si è verificato un errore durante l'esecuzione"
+    "errorAnErrorOccuredWhileExecuting": "Errore: Si è verificato un errore durante l'esecuzione",
+    "notificationPreferencesDescription": "Gestisci le preferenze di notifica per vari eventi e aggiornamenti della comunità."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial sugli Account Utente",
@@ -4705,6 +4706,11 @@
     "demote": "Retrocedi",
     "promoteFrom": "Promuovi Da",
     "promoteTo": "Promuovi A",
-    "createNewPromotionFlow": "Crea Nuovo Flusso di Promozione"
+    "createNewPromotionFlow": "Crea Nuovo Flusso di Promozione",
+    "failedToCreatePromotionFlow": "Impossibile creare il flusso promozionale",
+    "failedToUpdatePromotionFlow": "Impossibile aggiornare il flusso promozionale",
+    "failedToDeletePromotionFlow": "Impossibile eliminare il flusso promozionale",
+    "failedToTriggerPromotions": "Impossibile attivare le promozioni",
+    "insufficientPermissionsToCreatePromotionFlows": "Permessi insufficienti per gestire i flussi promozionali"
   }
 }

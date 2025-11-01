@@ -780,7 +780,8 @@
     "radio": "Radio",
     "radioDesc": "Automatiseer Sonoran Radio-machtigingen met Sonoran CMS!",
     "communityNotFound": "Community Niet Gevonden",
-    "errorAnErrorOccuredWhileExecuting": "Fout: Er is een fout opgetreden tijdens het uitvoeren"
+    "errorAnErrorOccuredWhileExecuting": "Fout: Er is een fout opgetreden tijdens het uitvoeren",
+    "notificationPreferencesDescription": "Beheer je meldingsvoorkeuren voor verschillende gemeenschapsevenementen en updates."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -4705,6 +4706,11 @@
     "demote": "Degraderen",
     "promoteFrom": "Promoveren van",
     "promoteTo": "Promoveren naar",
-    "createNewPromotionFlow": "Nieuwe promotiestroom maken"
+    "createNewPromotionFlow": "Nieuwe promotiestroom maken",
+    "failedToCreatePromotionFlow": "Promotieflow aanmaken mislukt",
+    "failedToUpdatePromotionFlow": "Bijwerken van promotieflow mislukt",
+    "failedToDeletePromotionFlow": "Verwijderen van promotieflow mislukt",
+    "failedToTriggerPromotions": "Promoties activeren mislukt",
+    "insufficientPermissionsToCreatePromotionFlows": "Onvoldoende rechten om promotieflows te beheren"
   }
 }

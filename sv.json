@@ -780,7 +780,8 @@
     "radio": "Radio",
     "radioDesc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!",
     "communityNotFound": "Gemenskap ej hittad",
-    "errorAnErrorOccuredWhileExecuting": "Fel: Ett fel uppstod vid körning"
+    "errorAnErrorOccuredWhileExecuting": "Fel: Ett fel uppstod vid körning",
+    "notificationPreferencesDescription": "Hantera dina anpassade inställningar för olika communityevenemang och uppdateringar."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -4705,6 +4706,11 @@
     "demote": "Nedflytta",
     "promoteFrom": "Befordra från",
     "promoteTo": "Befordra till",
-    "createNewPromotionFlow": "Skapa nytt befordringsflöde"
+    "createNewPromotionFlow": "Skapa nytt befordringsflöde",
+    "failedToCreatePromotionFlow": "Det gick inte att skapa befordringsflöde",
+    "failedToUpdatePromotionFlow": "Det gick inte att uppdatera befordringsflöde",
+    "failedToDeletePromotionFlow": "Det gick inte att ta bort befordringsflöde",
+    "failedToTriggerPromotions": "Det gick inte att utlösa befordringar",
+    "insufficientPermissionsToCreatePromotionFlows": "Otillräckliga behörigheter för att hantera befordringsflöden"
   }
 }
