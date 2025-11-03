@@ -2395,7 +2395,8 @@
     "anErrorOccuredWhileGettingDownloadInform": "An error occured while getting download information for file:",
     "successfullyUploadedTheFollowingFiles": "Successfully uploaded the following files:",
     "theFollowingFilesWereNotUploaded": "The following files were not uploaded:",
-    "fileName": "File Name"
+    "fileName": "File Name",
+    "diagram": "Diagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Error: You do not have permission to view",
