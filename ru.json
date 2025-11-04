@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Следующие файлы не были загружены:",
     "theFollowingFilesWereNotUploaded": "Имя файла",
     "fileName": "Ошибка: У вас нет разрешения на просмотр",
-    "newImage": "Новое изображение"
+    "newImage": "Новое изображение",
+    "diagram": "Диаграмма"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Возникла проблема при загрузке страницы",

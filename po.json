@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Pomyślnie przesłano następujące pliki:",
     "theFollowingFilesWereNotUploaded": "Następujące pliki nie zostały przesłane:",
     "fileName": "Nazwa pliku",
-    "newImage": "Nowe zdjęcie"
+    "newImage": "Nowe zdjęcie",
+    "diagram": "Diagrama"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Błąd: Nie masz uprawnień do przeglądania",

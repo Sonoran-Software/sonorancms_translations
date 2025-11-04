@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Seuraavat tiedostot ladattiin onnistuneesti:",
     "theFollowingFilesWereNotUploaded": "Seuraavia tiedostoja ei ladattu:",
     "fileName": "Tiedoston nimi",
-    "newImage": "Uusi kuva"
+    "newImage": "Uusi kuva",
+    "diagram": "Kaavio"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Virhe: Sinulla ei ole oikeutta tarkastella",

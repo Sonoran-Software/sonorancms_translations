@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Följande filer har laddats upp framgångsrikt:",
     "theFollowingFilesWereNotUploaded": "Följande filer laddades inte upp:",
     "fileName": "Filnamn",
-    "newImage": "Ny bild"
+    "newImage": "Ny bild",
+    "diagram": "Diagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fel: Du har inte behörighet att visa",

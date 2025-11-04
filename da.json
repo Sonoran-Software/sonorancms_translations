@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Følgende filer blev uploadet med succes:",
     "theFollowingFilesWereNotUploaded": "Følgende filer blev ikke uploadet:",
     "fileName": "Filnavn",
-    "newImage": "Nyt Billede"
+    "newImage": "Nyt Billede",
+    "diagram": "Diagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fejl: Du har ikke tilladelse til at se",

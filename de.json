@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Die folgenden Dateien wurden erfolgreich hochgeladen:",
     "theFollowingFilesWereNotUploaded": "Die folgenden Dateien wurden nicht hochgeladen:",
     "fileName": "Dateiname",
-    "newImage": "Neues Bild"
+    "newImage": "Neues Bild",
+    "diagram": "Diagramm"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fehler: Sie haben keine Berechtigung, dies anzusehen",

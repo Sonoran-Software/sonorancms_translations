@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Følgende filer ble lastet opp med suksess:",
     "theFollowingFilesWereNotUploaded": "Følgende filer ble ikke lastet opp:",
     "fileName": "Filnavn",
-    "newImage": "Nytt bilde"
+    "newImage": "Nytt bilde",
+    "diagram": "Diagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Feil: Du har ikke tillatelse til å se",

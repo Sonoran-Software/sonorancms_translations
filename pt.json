@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Os seguintes arquivos foram carregados com sucesso:",
     "theFollowingFilesWereNotUploaded": "Os seguintes arquivos não foram carregados:",
     "fileName": "Nome do Arquivo",
-    "newImage": "Nova Imagem"
+    "newImage": "Nova Imagem",
+    "diagram": "Diagrama"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Erro: Você não tem permissão para visualizar",

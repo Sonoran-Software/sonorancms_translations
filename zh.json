@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "成功上传以下文件：",
     "theFollowingFilesWereNotUploaded": "以下文件未上传：",
     "fileName": "文件名",
-    "newImage": "新图片"
+    "newImage": "新图片",
+    "diagram": "图表"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "错误：您没有查看权限",

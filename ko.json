@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "다음 파일은 업로드되지 않았습니다:",
     "theFollowingFilesWereNotUploaded": "파일 이름",
     "fileName": "오류: 보기 권한이 없습니다",
-    "newImage": "새 이미지"
+    "newImage": "새 이미지",
+    "diagram": "다이어그램"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "페이지를 로드하는 중 문제가 발생했습니다",

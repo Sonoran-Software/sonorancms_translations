@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "تم تحميل الملفات التالية بنجاح:",
     "theFollowingFilesWereNotUploaded": "لم يتم تحميل الملفات التالية:",
     "fileName": "اسم الملف",
-    "newImage": "صورة جديدة"
+    "newImage": "صورة جديدة",
+    "diagram": "رسم بياني"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "خطأ: ليس لديك إذن لعرض",

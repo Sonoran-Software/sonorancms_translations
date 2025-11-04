@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Úspěšně nahrány následující soubory:",
     "theFollowingFilesWereNotUploaded": "Následující soubory nebyly nahrány:",
     "fileName": "Název souboru",
-    "newImage": "Nový obrázek"
+    "newImage": "Nový obrázek",
+    "diagram": "Diagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Chyba: Nemáte oprávnění k zobrazení",

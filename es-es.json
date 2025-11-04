@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Se subieron con éxito los siguientes archivos:",
     "theFollowingFilesWereNotUploaded": "Los siguientes archivos no fueron subidos:",
     "fileName": "Nombre del archivo",
-    "newImage": "Nueva Imagen"
+    "newImage": "Nueva Imagen",
+    "diagram": "Diagrama"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Error: No tienes permiso para ver",

@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "De volgende bestanden zijn succesvol geüpload:",
     "theFollowingFilesWereNotUploaded": "De volgende bestanden zijn niet geüpload:",
     "fileName": "Bestandsnaam",
-    "newImage": "Nieuwe afbeelding"
+    "newImage": "Nieuwe afbeelding",
+    "diagram": "Diagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fout: U heeft geen toestemming om dit te bekijken",
