@@ -181,7 +181,7 @@
       "anyoneCanSubmit": "Anyone Can Submit",
       "rankRestricted": "Rank Restricted"
     },
-    "formDeleteConfirm": "Czy na pewno chcesz usunąć \"{formName}\"?",
+    "formDeleteConfirm": "Czy na pewno chcesz usunąć \"{formName}\"? ",
     "stageActionTypes": {
       "autoReply": "Automatyczna odpowiedź formularza",
       "notifySubmitterNotification": "Powiadom przez powiadomienie",
@@ -4310,7 +4310,7 @@
     "profileFieldRange": "ZakresPolaProfilu"
   },
   "accountSearchFilter": {
-    "searchTooltip": "Wyszukaj porady"
+    "searchTooltip": "Wyszukaj porady "
   },
   "accountCard": {
     "communityProfile": "profilSpołecznościowy",
