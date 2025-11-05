@@ -2347,7 +2347,8 @@
     "successfullyUploadedTheFollowingFiles": "Aşağıdaki dosyalar başarıyla yüklendi:",
     "theFollowingFilesWereNotUploaded": "Aşağıdaki dosyalar yüklenmedi:",
     "fileName": "Dosya Adı",
-    "newImage": "Yeni Görüntü"
+    "newImage": "Yeni Görüntü",
+    "diagram": "Diyagram"
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Hata: Görüntüleme izniniz yok",
