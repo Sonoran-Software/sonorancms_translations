@@ -2136,7 +2136,13 @@
     "unknownAction": "Unknown Action",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Hint",
-    "erlcNotification": "ERLC Notification"
+    "erlcNotification": "ERLC Notification",
+    "fixedInterval": "Fixed Interval",
+    "customTrigger": "Custom Trigger",
+    "rowOwnerComNameVariableLabel": "Row Owner Community Name",
+    "rowOwnerComNameVariableDesc": "This will state the community name of the row owner.",
+    "rowColumnValueVariableLabel": "Row Column Value",
+    "rowColumnValueVariableDesc": "This will state the value of the column in the row that the action is being executed on."
   },
   "integrationsPortal": {
     "title": "Official Integrations",
