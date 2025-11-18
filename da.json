@@ -4668,7 +4668,22 @@
     "unknownAction": "Ukendt handling",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tip",
-    "erlcNotification": "ERLC Notifikation"
+    "erlcNotification": "ERLC Notifikation",
+    "fixedInterval": "Fast interval",
+    "customTrigger": "Brugerdefineret udløser",
+    "rowOwnerComNameVariableLabel": "Rækkeejerens community-navn",
+    "rowOwnerComNameVariableDesc": "Dette vil angive navnet på rækkens ejers community.",
+    "rowColumnValueVariableLabel": "Række kolonneværdi",
+    "rowColumnValueVariableDesc": "Dette vil angive værdien af kolonnen i rækken, som handlingen udføres på.",
+    "roster": "Lister",
+    "triggerWhenARowWith": "Udløs når en række med",
+    "is": "Er",
+    "isNot": "Er ikke",
+    "isOneOf": "Er en af",
+    "value": "Værdi",
+    "checked": "Markeret",
+    "unchecked": "Umarkeret",
+    "someValue": "Nogle værdier"
   },
   "integrationsPortal": {
     "title": "Officielle integrationer",

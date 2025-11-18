@@ -4668,7 +4668,22 @@
     "unknownAction": "إجراء غير معروف",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "إشارة ERLC",
-    "erlcNotification": "تنبيه ERLC"
+    "erlcNotification": "تنبيه ERLC",
+    "fixedInterval": "فترة ثابتة",
+    "customTrigger": "مُحَفِّز مخصص",
+    "rowOwnerComNameVariableLabel": "اسم مجتمع صاحب الصف",
+    "rowOwnerComNameVariableDesc": "سيتم بيان اسم مجتمع صاحب الصف.",
+    "rowColumnValueVariableLabel": "قيمة عمود الصف",
+    "rowColumnValueVariableDesc": "سيتم بيان قيمة العمود في الصف الذي يتم تنفيذ الإجراء عليه.",
+    "roster": "قائمة",
+    "triggerWhenARowWith": "مُنَشِّط عند وجود صف به",
+    "is": "هو",
+    "isNot": "ليس",
+    "isOneOf": "هو واحد من",
+    "value": "قيمة",
+    "checked": "تم التحديد",
+    "unchecked": "غير محدد",
+    "someValue": "بعض القيمة"
   },
   "integrationsPortal": {
     "title": "التكاملات الرسمية",

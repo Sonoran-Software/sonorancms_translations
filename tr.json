@@ -4668,7 +4668,22 @@
     "unknownAction": "Bilinmeyen Eylem",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC İpucu",
-    "erlcNotification": "ERLC Bildirimi"
+    "erlcNotification": "ERLC Bildirimi",
+    "fixedInterval": "Sabit Aralık",
+    "customTrigger": "Özel Tetikleyici",
+    "rowOwnerComNameVariableLabel": "Satır Sahibi Topluluk Adı",
+    "rowOwnerComNameVariableDesc": "Bu, satır sahibinin topluluk adını belirtir.",
+    "rowColumnValueVariableLabel": "Satır Sütun Değeri",
+    "rowColumnValueVariableDesc": "Bu, eylemin gerçekleştirildiği satırdaki sütun değerini belirtir.",
+    "roster": "Kadrolar",
+    "triggerWhenARowWith": "Bir satır ile tetikle",
+    "is": "Olarak",
+    "isNot": "Değil",
+    "isOneOf": "Bunlardan Biri",
+    "value": "Değer",
+    "checked": "İşaretli",
+    "unchecked": "İşaretsiz",
+    "someValue": "Bir Değer"
   },
   "integrationsPortal": {
     "title": "Resmi Entegrasyonlar",

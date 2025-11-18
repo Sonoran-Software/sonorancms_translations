@@ -4668,7 +4668,22 @@
     "unknownAction": "Неизвестное действие",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "Подсказка ERLC",
-    "erlcNotification": "Уведомление ERLC"
+    "erlcNotification": "Уведомление ERLC",
+    "fixedInterval": "Фиксированный интервал",
+    "customTrigger": "Пользовательский триггер",
+    "rowOwnerComNameVariableLabel": "Название сообщества владельца строки",
+    "rowOwnerComNameVariableDesc": "Это будет указано название сообщества владельца строки.",
+    "rowColumnValueVariableLabel": "Значение столбца строки",
+    "rowColumnValueVariableDesc": "Это будет указано значение столбца в строке, на которой выполняется действие.",
+    "roster": "Список",
+    "triggerWhenARowWith": "Триггер при наличии строки с",
+    "is": "Есть",
+    "isNot": "Не Есть",
+    "isOneOf": "Является одним из",
+    "value": "Значение",
+    "checked": "Отмечено",
+    "unchecked": "Неотмечено",
+    "someValue": "Некоторое значение"
   },
   "integrationsPortal": {
     "title": "Официальные интеграции",

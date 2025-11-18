@@ -4668,7 +4668,22 @@
     "unknownAction": "Tuntematon toimi",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Vinkki",
-    "erlcNotification": "ERLC Ilmoitus"
+    "erlcNotification": "ERLC Ilmoitus",
+    "fixedInterval": "Kiinteä väli",
+    "customTrigger": "Mukautettu laukaisin",
+    "rowOwnerComNameVariableLabel": "Rivin omistajan yhteisön nimi",
+    "rowOwnerComNameVariableDesc": "Tämä ilmaisee rivin omistajan yhteisön nimen.",
+    "rowColumnValueVariableLabel": "Rivin sarakearvo",
+    "rowColumnValueVariableDesc": "Tämä ilmaisee rivin sarakearvon, johon toimenpide kohdistuu.",
+    "roster": "Ryhmä",
+    "triggerWhenARowWith": "Laukaise, kun rivi sisältää",
+    "is": "On",
+    "isNot": "Ei ole",
+    "isOneOf": "On yksi seuraavista",
+    "value": "Arvo",
+    "checked": "Valittu",
+    "unchecked": "Ei valittu",
+    "someValue": "Jokin arvo"
   },
   "integrationsPortal": {
     "title": "Viralliset integraatiot",

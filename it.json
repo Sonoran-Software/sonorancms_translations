@@ -4668,7 +4668,22 @@
     "unknownAction": "Azione Sconosciuta",
     "discordWebhook": "Webhook Discord",
     "erlcHint": "Suggerimento ERLC",
-    "erlcNotification": "Notifica ERLC"
+    "erlcNotification": "Notifica ERLC",
+    "fixedInterval": "Intervallo fisso",
+    "customTrigger": "Attivatore personalizzato",
+    "rowOwnerComNameVariableLabel": "Nome della comunità del proprietario della riga",
+    "rowOwnerComNameVariableDesc": "Indicherà il nome della comunità del proprietario della riga.",
+    "rowColumnValueVariableLabel": "Valore della colonna della riga",
+    "rowColumnValueVariableDesc": "Indicherà il valore della colonna nella riga su cui è in esecuzione l'azione.",
+    "roster": "Ruolino",
+    "triggerWhenARowWith": "Attiva quando una riga con",
+    "is": "È",
+    "isNot": "Non è",
+    "isOneOf": "È uno di",
+    "value": "Valore",
+    "checked": "Selezionato",
+    "unchecked": "Non selezionato",
+    "someValue": "Alcuni valori"
   },
   "integrationsPortal": {
     "title": "Integrazioni Ufficiali",

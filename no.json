@@ -4668,7 +4668,22 @@
     "unknownAction": "Ukjent handling",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC hint",
-    "erlcNotification": "ERLC varsling"
+    "erlcNotification": "ERLC varsling",
+    "fixedInterval": "Fast intervall",
+    "customTrigger": "Egendefinert utløser",
+    "rowOwnerComNameVariableLabel": "Rekke Eier Fellesskapsnavn",
+    "rowOwnerComNameVariableDesc": "Dette vil angi fellesskapsnavnet til rekke-eieren.",
+    "rowColumnValueVariableLabel": "Rekke Kolonneverdi",
+    "rowColumnValueVariableDesc": "Dette vil angi verdien av kolonnen i raden som handlingen utføres på.",
+    "roster": "Rulleblad",
+    "triggerWhenARowWith": "Utløs når en rad med",
+    "is": "Er",
+    "isNot": "Er Ikke",
+    "isOneOf": "Er En Av",
+    "value": "Verdi",
+    "checked": "Avkrysset",
+    "unchecked": "Ikke avkrysset",
+    "someValue": "Noen Verdi"
   },
   "integrationsPortal": {
     "title": "Offisielle integrasjoner",

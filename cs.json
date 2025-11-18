@@ -4668,7 +4668,22 @@
     "unknownAction": "Neznámá akce",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tip",
-    "erlcNotification": "ERLC Notifikace"
+    "erlcNotification": "ERLC Notifikace",
+    "fixedInterval": "Pevný interval",
+    "customTrigger": "Vlastní spouštěč",
+    "rowOwnerComNameVariableLabel": "Název komunity vlastníka řádku",
+    "rowOwnerComNameVariableDesc": "Toto uvede název komunity vlastníka řádku.",
+    "rowColumnValueVariableLabel": "Hodnota sloupce řádku",
+    "rowColumnValueVariableDesc": "Toto uvede hodnotu sloupce v řádku, na kterém je akce prováděna.",
+    "roster": "Soupiska",
+    "triggerWhenARowWith": "Spustit, když řádek s",
+    "is": "Je",
+    "isNot": "Není",
+    "isOneOf": "Je jedním z",
+    "value": "Hodnota",
+    "checked": "Zaškrtnuto",
+    "unchecked": "Nezaškrtnuto",
+    "someValue": "Nějaká hodnota"
   },
   "integrationsPortal": {
     "title": "Oficiální integrace",

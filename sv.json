@@ -4668,7 +4668,22 @@
     "unknownAction": "Okänd Åtgärd",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tips",
-    "erlcNotification": "ERLC Meddelande"
+    "erlcNotification": "ERLC Meddelande",
+    "fixedInterval": "Fast intervall",
+    "customTrigger": "Anpassad utlösare",
+    "rowOwnerComNameVariableLabel": "Radraden ägarens gemenskapsnamn",
+    "rowOwnerComNameVariableDesc": "Detta kommer att ange gemenskapsnamnet på radägaren.",
+    "rowColumnValueVariableLabel": "Radkolumnvärde",
+    "rowColumnValueVariableDesc": "Detta kommer att ange värdet av kolumnen i raden som åtgärden utförs på.",
+    "roster": "Lista",
+    "triggerWhenARowWith": "Utlöser när en rad med",
+    "is": "Är",
+    "isNot": "Är inte",
+    "isOneOf": "Är en av",
+    "value": "Värde",
+    "checked": "Kontrollerad",
+    "unchecked": "Okontrollerad",
+    "someValue": "Något värde"
   },
   "integrationsPortal": {
     "title": "Officiella Integrationer",

@@ -4668,7 +4668,22 @@
     "unknownAction": "未知操作",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC提示",
-    "erlcNotification": "ERLC通知"
+    "erlcNotification": "ERLC通知",
+    "fixedInterval": "固定间隔",
+    "customTrigger": "自定义触发器",
+    "rowOwnerComNameVariableLabel": "行所有者社区名称",
+    "rowOwnerComNameVariableDesc": "这将说明行所有者的社区名称。",
+    "rowColumnValueVariableLabel": "行列值",
+    "rowColumnValueVariableDesc": "这将说明在执行操作的行中列的值。",
+    "roster": "名单",
+    "triggerWhenARowWith": "当具有某些条件的行触发时",
+    "is": "是",
+    "isNot": "不是",
+    "isOneOf": "是其中之一",
+    "value": "值",
+    "checked": "勾选",
+    "unchecked": "未勾选",
+    "someValue": "某个值"
   },
   "integrationsPortal": {
     "title": "官方集成",

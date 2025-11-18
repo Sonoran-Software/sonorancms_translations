@@ -4668,7 +4668,22 @@
     "unknownAction": "Action Inconnue",
     "discordWebhook": "Webhook Discord",
     "erlcHint": "Indice ERLC",
-    "erlcNotification": "Notification ERLC"
+    "erlcNotification": "Notification ERLC",
+    "fixedInterval": "Intervalle fixe",
+    "customTrigger": "Déclencheur personnalisé",
+    "rowOwnerComNameVariableLabel": "Nom de la communauté du propriétaire de la ligne",
+    "rowOwnerComNameVariableDesc": "Cela indiquera le nom de la communauté du propriétaire de la ligne.",
+    "rowColumnValueVariableLabel": "Valeur de la colonne de la ligne",
+    "rowColumnValueVariableDesc": "Cela indiquera la valeur de la colonne dans la ligne sur laquelle l'action est exécutée.",
+    "roster": "Liste",
+    "triggerWhenARowWith": "Déclencher lorsqu'une ligne avec",
+    "is": "Est",
+    "isNot": "N'est pas",
+    "isOneOf": "Est l'un de",
+    "value": "Valeur",
+    "checked": "Coché",
+    "unchecked": "Non coché",
+    "someValue": "Une certaine valeur"
   },
   "integrationsPortal": {
     "title": "Intégrations Officielles",

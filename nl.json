@@ -4668,7 +4668,22 @@
     "unknownAction": "Onbekende Actie",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tip",
-    "erlcNotification": "ERLC Kennisgeving"
+    "erlcNotification": "ERLC Kennisgeving",
+    "fixedInterval": "Vaste Interval",
+    "customTrigger": "Aangepaste Trigger",
+    "rowOwnerComNameVariableLabel": "Rijeigenaar Gemeenschapsnaam",
+    "rowOwnerComNameVariableDesc": "Dit geeft de gemeenschapsnaam van de rij-eigenaar aan.",
+    "rowColumnValueVariableLabel": "Rijkolomwaarde",
+    "rowColumnValueVariableDesc": "Dit geeft de waarde van de kolom in de rij aan waarop de actie wordt uitgevoerd.",
+    "roster": "Rooster",
+    "triggerWhenARowWith": "Trigger wanneer een rij met",
+    "is": "Is",
+    "isNot": "Is Niet",
+    "isOneOf": "Is Eén Van",
+    "value": "Waarde",
+    "checked": "Geselecteerd",
+    "unchecked": "Niet geselecteerd",
+    "someValue": "Enkele Waarde"
   },
   "integrationsPortal": {
     "title": "Officiële Integraties",

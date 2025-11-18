@@ -4668,7 +4668,22 @@
     "unknownAction": "Unbekannte Aktion",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Hinweis",
-    "erlcNotification": "ERLC Benachrichtigung"
+    "erlcNotification": "ERLC Benachrichtigung",
+    "fixedInterval": "Fester Intervall",
+    "customTrigger": "Benutzerdefinierter Auslöser",
+    "rowOwnerComNameVariableLabel": "Reihenbesitzer Gemeinschaftsname",
+    "rowOwnerComNameVariableDesc": "Dies gibt den Namen der Gemeinschaft des Reihenbesitzers an.",
+    "rowColumnValueVariableLabel": "Zeilenspaltenwert",
+    "rowColumnValueVariableDesc": "Dies gibt den Wert der Spalte in der Zeile an, auf die die Aktion ausgeführt wird.",
+    "roster": "Roster",
+    "triggerWhenARowWith": "Auslösen, wenn eine Zeile mit",
+    "is": "Ist",
+    "isNot": "Ist Nicht",
+    "isOneOf": "Ist Eine(r) Von",
+    "value": "Wert",
+    "checked": "Geprüft",
+    "unchecked": "Ungeprüft",
+    "someValue": "Einige Werte"
   },
   "integrationsPortal": {
     "title": "Offizielle Integrationen",

@@ -4668,7 +4668,22 @@
     "unknownAction": "不明なアクション",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLCヒント",
-    "erlcNotification": "ERLC通知"
+    "erlcNotification": "ERLC通知",
+    "fixedInterval": "固定間隔",
+    "customTrigger": "カスタムトリガー",
+    "rowOwnerComNameVariableLabel": "行所有者のコミュニティ名",
+    "rowOwnerComNameVariableDesc": "これは、行所有者のコミュニティ名を示します。",
+    "rowColumnValueVariableLabel": "行列の値",
+    "rowColumnValueVariableDesc": "これは、アクションが実行されている行の列の値を示します。",
+    "roster": "名簿",
+    "triggerWhenARowWith": "行が存在するときにトリガー",
+    "is": "である",
+    "isNot": "ではない",
+    "isOneOf": "のいずれかである",
+    "value": "値",
+    "checked": "チェック済み",
+    "unchecked": "未チェック",
+    "someValue": "ある値"
   },
   "integrationsPortal": {
     "title": "公式統合",
