@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "Credenciales de la API de CAD",
     "cadSyncOptions": "Opciones de sincronización de CAD",
     "cadPermissionsSelector": "Selector de permisos de CAD",
-    "cadSyncNotEnabled": "Habilitar Sincronización de Permisos para configurar permisos."
+    "cadSyncNotEnabled": "Habilitar Sincronización de Permisos para configurar permisos.",
+    "banEnabled": "Sincronización de Baneo",
+    "banEnabledDescription": "Cuando un usuario es baneado en CMS, también baneléalo en el CAD.",
+    "kickEnabled": "Sincronización de Expulsión",
+    "kickEnabledDescription": "Cuando un usuario es expulsado en CMS, también expulsalo en el CAD.",
+    "syncEnabled": "Sincronización de Permisos",
+    "syncEnabledDescription": "Habilitar la sincronización automática de permisos de CMS al CAD.",
+    "joinSyncEnabled": "Sincronización de Unión",
+    "joinSyncEnabledDescription": "Unir automáticamente a los usuarios de CMS al CAD.",
+    "apiIdSyncEnabled": "Sincronización de ID de API",
+    "apiIdSyncEnabledDescription": "Sincronizar automáticamente los IDs de API de CMS al CAD."
   },
   "imageInn": {
     "dropArea": "Área de arrastre"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "Nombre de la Comunidad del Promotor",
     "promoterComNameVariableDesc": "Esto indicará el nombre de la comunidad del usuario que activó el flujo de promoción.",
     "comNameVariableLabel": "Nombre de la Comunidad",
-    "comNameVariableDesc": "Esto indicará el nombre de la comunidad del usuario afectado por el flujo de promoción."
+    "comNameVariableDesc": "Esto indicará el nombre de la comunidad del usuario afectado por el flujo de promoción.",
+    "run": "Ejecutar",
+    "flows": "Flujos",
+    "confirmDelete": "¿Está seguro de que desea eliminar este flujo de promoción?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "No se Encontraron Jugadores... Buscar"

@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "Poświadczenia API CAD",
     "cadSyncOptions": "Opcje synchronizacji CAD",
     "cadPermissionsSelector": "Selektor uprawnień CAD",
-    "cadSyncNotEnabled": "Włącz synchronizację uprawnień, aby skonfigurować uprawnienia."
+    "cadSyncNotEnabled": "Włącz synchronizację uprawnień, aby skonfigurować uprawnienia.",
+    "banEnabled": "Sincronização de Banimento",
+    "banEnabledDescription": "Quando um usuário é banido no CMS, também bani-lo no CAD.",
+    "kickEnabled": "Sincronização de Expulsão",
+    "kickEnabledDescription": "Quando um usuário é expulso no CMS, também expulsá-lo no CAD.",
+    "syncEnabled": "Sincronização de Permissões",
+    "syncEnabledDescription": "Ativar sincronização automática de permissões do CMS para o CAD.",
+    "joinSyncEnabled": "Sincronização de Entrada",
+    "joinSyncEnabledDescription": "Adicionar automaticamente usuários do CMS ao CAD.",
+    "apiIdSyncEnabled": "Sincronização de API ID",
+    "apiIdSyncEnabledDescription": "Sincronizar automaticamente os IDs de API do CMS ao CAD."
   },
   "imageInn": {
     "dropArea": "Obszar upuszczania"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "Nazwa Społeczności Promotora",
     "promoterComNameVariableDesc": "To określi nazwę społeczności użytkownika, który uruchomił proces promocji.",
     "comNameVariableLabel": "Nazwa Społeczności",
-    "comNameVariableDesc": "To określi nazwę społeczności użytkownika objętego procesem promocji."
+    "comNameVariableDesc": "To określi nazwę społeczności użytkownika objętego procesem promocji.",
+    "run": "Executar",
+    "flows": "Fluxos",
+    "confirmDelete": "Tem certeza de que deseja excluir este fluxo de promoção?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj"

@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD API-referenser",
     "cadSyncOptions": "CAD-synkroniseringsalternativ",
     "cadPermissionsSelector": "CAD-behörighetsväljare",
-    "cadSyncNotEnabled": "Aktivera behörighetssynkronisering för att konfigurera behörigheter."
+    "cadSyncNotEnabled": "Aktivera behörighetssynkronisering för att konfigurera behörigheter.",
+    "banEnabled": "Ban Sync",
+    "banEnabledDescription": "När en användare blir avstängd i CMS, avstäng dem också i CAD.",
+    "kickEnabled": "Kick Sync",
+    "kickEnabledDescription": "När en användare blir kickad i CMS, kicka dem också i CAD.",
+    "syncEnabled": "Behörighetssynkronisering",
+    "syncEnabledDescription": "Aktivera automatisk synkronisering av behörigheter från CMS till CAD.",
+    "joinSyncEnabled": "Gå med i synk",
+    "joinSyncEnabledDescription": "Automatiskt gå med CMS-användare till CAD.",
+    "apiIdSyncEnabled": "API ID-synk",
+    "apiIdSyncEnabledDescription": "Automatiskt synkronisera CMS API-ID till CAD."
   },
   "imageInn": {
     "dropArea": "Släppområde"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "Befordrare Gemenskap Namn",
     "promoterComNameVariableDesc": "Detta kommer att ange gemenskapens namn på användaren som utlöste promotionsflödet.",
     "comNameVariableLabel": "Gemenskapens Namn",
-    "comNameVariableDesc": "Detta kommer att ange gemenskapens namn på användaren som påverkas av promotionsflödet."
+    "comNameVariableDesc": "Detta kommer att ange gemenskapens namn på användaren som påverkas av promotionsflödet.",
+    "run": "Kör",
+    "flows": "Flöden",
+    "confirmDelete": "Är du säker på att du vill ta bort detta befordringsflöde?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Inga spelare hittades... Sök"

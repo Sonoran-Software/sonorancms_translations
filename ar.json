@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "بيانات اعتماد API لـ CAD",
     "cadSyncOptions": "خيارات مزامنة CAD",
     "cadPermissionsSelector": "محدد أذونات CAD",
-    "cadSyncNotEnabled": "قم بتمكين مزامنة الأذونات لتكوين الأذونات."
+    "cadSyncNotEnabled": "قم بتمكين مزامنة الأذونات لتكوين الأذونات.",
+    "banEnabled": "مزامنة الحظر",
+    "banEnabledDescription": "عند حظر مستخدم في CMS، قم أيضًا بحظره في الـ CAD.",
+    "kickEnabled": "مزامنة الطرد",
+    "kickEnabledDescription": "عند طرد مستخدم في CMS، قم أيضًا بطرده في الـ CAD.",
+    "syncEnabled": "مزامنة الأذونات",
+    "syncEnabledDescription": "تمكين المزامنة التلقائية للأذونات من CMS إلى الـ CAD.",
+    "joinSyncEnabled": "مزامنة الانضمام",
+    "joinSyncEnabledDescription": "الانضمام تلقائيًا لمستخدمي CMS إلى الـ CAD.",
+    "apiIdSyncEnabled": "مزامنة معرف API",
+    "apiIdSyncEnabledDescription": "مزامنة معرفات CMS API تلقائيًا إلى الـ CAD."
   },
   "imageInn": {
     "dropArea": "منطقة الإسقاط"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "اسم مجتمع المروج",
     "promoterComNameVariableDesc": "سيقوم بتحديد اسم المجتمع للمستخدم الذي قام بتفعيل تدفق الترقية.",
     "comNameVariableLabel": "اسم المجتمع",
-    "comNameVariableDesc": "سيقوم بتحديد اسم المجتمع للمستخدم المتأثر بتدفق الترقية."
+    "comNameVariableDesc": "سيقوم بتحديد اسم المجتمع للمستخدم المتأثر بتدفق الترقية.",
+    "run": "تشغيل",
+    "flows": "تدفقات",
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف تدفق الترقية هذا؟"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث"

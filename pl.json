@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "Poświadczenia API CAD",
     "cadSyncOptions": "Opcje synchronizacji CAD",
     "cadPermissionsSelector": "Selektor uprawnień CAD",
-    "cadSyncNotEnabled": "Włącz synchronizację uprawnień, aby skonfigurować uprawnienia."
+    "cadSyncNotEnabled": "Włącz synchronizację uprawnień, aby skonfigurować uprawnienia.",
+    "banEnabled": "Synchronizacja bana",
+    "banEnabledDescription": "Gdy użytkownik zostanie zbanowany w CMS, zbanować go również w CAD.",
+    "kickEnabled": "Synchronizacja wyrzucenia",
+    "kickEnabledDescription": "Gdy użytkownik zostanie wyrzucony w CMS, wyrzucić go również w CAD.",
+    "syncEnabled": "Synchronizacja uprawnień",
+    "syncEnabledDescription": "Włącz automatyczną synchronizację uprawnień z CMS do CAD.",
+    "joinSyncEnabled": "Synchronizacja dołączenia",
+    "joinSyncEnabledDescription": "Automatycznie dołączaj użytkowników CMS do CAD.",
+    "apiIdSyncEnabled": "Synchronizacja ID API",
+    "apiIdSyncEnabledDescription": "Automatycznie synchronizuj identyfikatory API CMS do CAD."
   },
   "imageInn": {
     "dropArea": "Obszar upuszczania"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "Nazwa Społeczności Promotora",
     "promoterComNameVariableDesc": "To określi nazwę społeczności użytkownika, który wywołał przepływ awansów.",
     "comNameVariableLabel": "Nazwa Społeczności",
-    "comNameVariableDesc": "To określi nazwę społeczności użytkownika dotkniętego przepływem awansów."
+    "comNameVariableDesc": "To określi nazwę społeczności użytkownika dotkniętego przepływem awansów.",
+    "run": "Uruchom",
+    "flows": "Przepływy",
+    "confirmDelete": "Czy na pewno chcesz usunąć ten przepływ promocji?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj"

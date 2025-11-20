@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD API 凭证",
     "cadSyncOptions": "CAD 同步选项",
     "cadPermissionsSelector": "CAD 权限选择器",
-    "cadSyncNotEnabled": "启用权限同步以配置权限。"
+    "cadSyncNotEnabled": "启用权限同步以配置权限。",
+    "banEnabled": "禁令同步",
+    "banEnabledDescription": "当用户在CMS中被禁止时，也在CAD中禁止他们。",
+    "kickEnabled": "踢出同步",
+    "kickEnabledDescription": "当用户在CMS中被踢出时，也在CAD中将其踢出。",
+    "syncEnabled": "权限同步",
+    "syncEnabledDescription": "启用从CMS到CAD的权限自动同步。",
+    "joinSyncEnabled": "加入同步",
+    "joinSyncEnabledDescription": "自动将CMS用户加入到CAD中。",
+    "apiIdSyncEnabled": "API ID 同步",
+    "apiIdSyncEnabledDescription": "自动将CMS API ID同步到CAD。"
   },
   "imageInn": {
     "dropArea": "拖放区域"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "晋升者社区名称",
     "promoterComNameVariableDesc": "这将说明触发晋升流的用户的社区名称。",
     "comNameVariableLabel": "社区名称",
-    "comNameVariableDesc": "这将说明被晋升流影响的用户的社区名称。"
+    "comNameVariableDesc": "这将说明被晋升流影响的用户的社区名称。",
+    "run": "运行",
+    "flows": "流程",
+    "confirmDelete": "您确定要删除此晋升流程吗？"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "未找到玩家……搜索"

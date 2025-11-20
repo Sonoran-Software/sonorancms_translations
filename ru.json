@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "Параметры синхронизации CAD",
     "cadSyncOptions": "Селектор разрешений CAD",
     "cadPermissionsSelector": "Область для перетаскивания",
-    "cadSyncNotEnabled": "Включите синхронизацию разрешений для настройки разрешений."
+    "cadSyncNotEnabled": "Включите синхронизацию разрешений для настройки разрешений.",
+    "banEnabled": "Синхронизация запретов",
+    "banEnabledDescription": "Когда пользователь забанен в CMS, также забаньте его в CAD.",
+    "kickEnabled": "Синхронизация выгонов",
+    "kickEnabledDescription": "Когда пользователь выгнан из CMS, также выгоните его из CAD.",
+    "syncEnabled": "Синхронизация разрешений",
+    "syncEnabledDescription": "Включите автоматическую синхронизацию разрешений из CMS в CAD.",
+    "joinSyncEnabled": "Синхронизация вступлений",
+    "joinSyncEnabledDescription": "Автоматически присоединяйте пользователей CMS к CAD.",
+    "apiIdSyncEnabled": "Синхронизация API ID",
+    "apiIdSyncEnabledDescription": "Автоматически синхронизируйте API ID CMS с CAD."
   },
   "imageInn": {
     "dropArea": "Нажмите, чтобы загрузить изображение"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "Имя сообщества продвигателя",
     "promoterComNameVariableDesc": "Это укажет имя сообщества пользователя, инициировавшего поток продвижения.",
     "comNameVariableLabel": "Имя сообщества",
-    "comNameVariableDesc": "Это укажет имя сообщества пользователя, на которого повлиял поток продвижения."
+    "comNameVariableDesc": "Это укажет имя сообщества пользователя, на которого повлиял поток продвижения.",
+    "run": "Запустить",
+    "flows": "Потоки",
+    "confirmDelete": "Вы уверены, что хотите удалить этот поток продвижения?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Игроки не найдены... Поиск"

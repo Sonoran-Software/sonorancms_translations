@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD 권한 선택기",
     "cadSyncOptions": "드롭 영역",
     "cadPermissionsSelector": "이미지를 업로드하려면 클릭하세요",
-    "cadSyncNotEnabled": "권한을 구성하려면 권한 동기화를 활성화하세요."
+    "cadSyncNotEnabled": "권한을 구성하려면 권한 동기화를 활성화하세요.",
+    "banEnabled": "밴 동기화",
+    "banEnabledDescription": "CMS에서 사용자가 차단되면 CAD에서도 차단합니다.",
+    "kickEnabled": "강퇴 동기화",
+    "kickEnabledDescription": "CMS에서 사용자가 강퇴되면 CAD에서도 강퇴합니다.",
+    "syncEnabled": "권한 동기화",
+    "syncEnabledDescription": "CMS에서 CAD로의 권한 자동 동기화를 활성화합니다.",
+    "joinSyncEnabled": "가입 동기화",
+    "joinSyncEnabledDescription": "CMS 사용자를 CAD에 자동으로 가입시킵니다.",
+    "apiIdSyncEnabled": "API ID 동기화",
+    "apiIdSyncEnabledDescription": "CMS API ID를 CAD에 자동으로 동기화합니다."
   },
   "imageInn": {
     "dropArea": "이 필드에 데이터가 없습니다. 가장 가능성 있는 문제는 서버의 Sonoran CMS Core 플러그인이 오래되었기 때문입니다."
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "승진자 커뮤니티 이름",
     "promoterComNameVariableDesc": "이것은 승진 흐름을 트리거한 사용자의 커뮤니티 이름을 나타냅니다.",
     "comNameVariableLabel": "커뮤니티 이름",
-    "comNameVariableDesc": "이것은 승진 흐름의 영향을 받은 사용자의 커뮤니티 이름을 나타냅니다."
+    "comNameVariableDesc": "이것은 승진 흐름의 영향을 받은 사용자의 커뮤니티 이름을 나타냅니다.",
+    "run": "실행",
+    "flows": "흐름",
+    "confirmDelete": "이 프로모션 흐름을 삭제하시겠습니까?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "플레이어를 찾을 수 없습니다... 검색"

@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD API -tunnukset",
     "cadSyncOptions": "CAD-synkronointiasetukset",
     "cadPermissionsSelector": "CAD-oikeuksien valitsin",
-    "cadSyncNotEnabled": "Ota käyttöön oikeuksien synkronointi määrittääksesi oikeudet."
+    "cadSyncNotEnabled": "Ota käyttöön oikeuksien synkronointi määrittääksesi oikeudet.",
+    "banEnabled": "Bannauksen synkronointi",
+    "banEnabledDescription": "Kun käyttäjä on bannattu CMS:ssä, bannaa hänet myös CAD:ssa.",
+    "kickEnabled": "Potkun synkronointi",
+    "kickEnabledDescription": "Kun käyttäjä on potkaistu CMS:stä, potkaise hänet myös CAD:stä.",
+    "syncEnabled": "Oikeuksien synkronointi",
+    "syncEnabledDescription": "Ota käyttöön automaattinen synkronointi CMS:stä CAD:hen.",
+    "joinSyncEnabled": "Liittymisen synkronointi",
+    "joinSyncEnabledDescription": "Liity automaattisesti CMS:n käyttäjiin CAD:ssa.",
+    "apiIdSyncEnabled": "API ID -synkronointi",
+    "apiIdSyncEnabledDescription": "Synkronoi CMS:n API ID:t automaattisesti CAD:hen."
   },
   "imageInn": {
     "dropArea": "Pudotusalue"
@@ -4763,7 +4773,10 @@
     "promoterComNameVariableLabel": "Ylentäjän yhteisön nimi",
     "promoterComNameVariableDesc": "Tämä ilmoittaa käyttäjän, joka käynnisti ylennysprosessin, yhteisön nimen.",
     "comNameVariableLabel": "Yhteisön nimi",
-    "comNameVariableDesc": "Tämä ilmoittaa käyttäjän, johon ylennysprosessi vaikuttaa, yhteisön nimen."
+    "comNameVariableDesc": "Tämä ilmoittaa käyttäjän, johon ylennysprosessi vaikuttaa, yhteisön nimen.",
+    "run": "Käynnistä",
+    "flows": "Virtaukset",
+    "confirmDelete": "Oletko varma, että haluat poistaa tämän ylennysvirran?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi"
