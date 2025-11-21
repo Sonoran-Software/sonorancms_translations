@@ -4787,5 +4787,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "No Players Found... Search"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Timezone Selection",
+    "timezoneSelectionExplanation": "Determines the timezone for add/remove rank actions, roster activity values, and related time-based operations.",
+    "timezoneMustBeSet": "Timezone must be set for your community!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Multi-Promotion Flow Actions",
+    "subtitle": "Actions executed when the above promotion flows are ran.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "This action will automatically execute a Discord webhook when enabled and when the promotion flows are ran.",
+    "promotionsRanComNameVariableLabel": "Promotions Ran Community Name",
+    "promotionsRanComNameVariableDesc": "Lists all promotion flows that have ran, paired with each account's community name.",
+    "promotionsRanDiscordNameVariableLabel": "Promotions Ran Discord Name",
+    "promotionsRanDiscordNameVariableDesc": "Lists all promotion flows that have ran, paired with each account's Discord username/tag.",
+    "promotionsRanPromoterComNameVariableLabel": "Promotions Ran Promoter Community Name",
+    "promotionsRanPromoterComNameVariableDesc": "Lists the promoter's community name for the multi-promotion flow execution.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Promotions Ran Promoter Discord Name",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Lists the promoter's Discord username/tag for the multi-promotion flow execution."
   }
 }
