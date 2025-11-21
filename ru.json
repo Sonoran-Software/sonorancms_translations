@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Игроки не найдены... Поиск"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Выбор часового пояса",
+    "timezoneSelectionExplanation": "Определяет часовой пояс для действий добавления/удаления ранга, значений активности в расписании и связанных с ними операций по времени.",
+    "timezoneMustBeSet": "Часовой пояс должен быть установлен для вашего сообщества!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Множественные действия по продвижению",
+    "subtitle": "Действия, выполняемые при запуске вышеперечисленных потоков продвижения.",
+    "discordWebhook": "Discord вебхук",
+    "discordWebhookContentDescription": "Это действие автоматически выполнит Discord вебхук, когда активировано и когда запущены потоки продвижения.",
+    "promotionsRanComNameVariableLabel": "Название сообщества запусков продвижений",
+    "promotionsRanComNameVariableDesc": "Перечисляет все потоки продвижения, которые были запущены, в паре с названием сообщества каждой учетной записи.",
+    "promotionsRanDiscordNameVariableLabel": "Discord имя запусков продвижений",
+    "promotionsRanDiscordNameVariableDesc": "Перечисляет все потоки продвижения, которые были запущены, в паре с именем пользователя/тегом Discord каждой учетной записи.",
+    "promotionsRanPromoterComNameVariableLabel": "Название сообщества промоутера запусков продвижений",
+    "promotionsRanPromoterComNameVariableDesc": "Перечисляет название сообщества промоутера для выполнения многопотокового продвижения.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Discord имя промоутера запусков продвижений",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Перечисляет имя пользователя/тег Discord промоутера для выполнения многопотокового продвижения."
   }
 }

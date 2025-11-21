@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Aikavyöhykkeen valinta",
+    "timezoneSelectionExplanation": "Määrittää aikavyöhykkeen lisäys/poisto rankkitoimenpiteille, listaustoimintojen arvoille ja muihin aikaan perustuville toiminnoille.",
+    "timezoneMustBeSet": "Aikavyöhyke on asetettava yhteisöllesi!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Monen ylennyksen virta-tehtävät",
+    "subtitle": "Tehtävät suoritetaan kun yllä mainitut ylennysvirrat toimivat.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "Tämä tehtävä suorittaa automaattisesti Discord-webhookin, kun se on käytössä ja ylennysvirrat toimivat.",
+    "promotionsRanComNameVariableLabel": "Suoritetut ylennykset Yhteisön nimi",
+    "promotionsRanComNameVariableDesc": "Listaa kaikki suoritetut ylennysvirrat pareittain jokaisen tilin yhteisön nimen kanssa.",
+    "promotionsRanDiscordNameVariableLabel": "Suoritetut ylennykset Discord-nimi",
+    "promotionsRanDiscordNameVariableDesc": "Listaa kaikki suoritetut ylennysvirrat pareittain jokaisen tilin Discord-käyttäjänimen/tunnuksen kanssa.",
+    "promotionsRanPromoterComNameVariableLabel": "Suorittajan yhteisön nimi suoritetulle ylennysvirralle",
+    "promotionsRanPromoterComNameVariableDesc": "Listaa suorittajan yhteisön nimen monen ylennyksen virran suoritusta varten.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Suorittajan Discord-nimi suoritetulle ylennysvirralle",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Listaa suorittajan Discord-käyttäjänimen/tunnuksen monen ylennyksen virran suoritusta varten."
   }
 }

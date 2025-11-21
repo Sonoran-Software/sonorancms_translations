@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "اختيار المنطقة الزمنية",
+    "timezoneSelectionExplanation": "يحدد المنطقة الزمنية لإجراءات إضافة/إزالة الرتبة، قيم نشاط القائمة، والعمليات المتعلقة بالوقت.",
+    "timezoneMustBeSet": "يجب ضبط المنطقة الزمنية لمجتمعك!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "إجراءات تدفق الترقية الجماعية",
+    "subtitle": "الإجراءات التي يتم تنفيذها عند تشغيل تدفقات الترقية المذكورة أعلاه.",
+    "discordWebhook": "رابط Discord التشعبي",
+    "discordWebhookContentDescription": "سيقوم هذا الإجراء بتنفيذ رابط Discord التشعبي تلقائيًا عند تمكينه وعند تشغيل تدفقات الترقية.",
+    "promotionsRanComNameVariableLabel": "اسم المجتمع للترقيات التي تم تشغيلها",
+    "promotionsRanComNameVariableDesc": "يسرد جميع تدفقات الترقية التي تم تشغيلها، مع اقترانها باسم المجتمع لكل حساب.",
+    "promotionsRanDiscordNameVariableLabel": "اسم Discord للترقيات التي تم تشغيلها",
+    "promotionsRanDiscordNameVariableDesc": "يسرد جميع تدفقات الترقية التي تم تشغيلها، مع اقترانها باسم المستخدم/العلامة في Discord لكل حساب.",
+    "promotionsRanPromoterComNameVariableLabel": "اسم مجتمع المروج للترقيات التي تم تشغيلها",
+    "promotionsRanPromoterComNameVariableDesc": "يسرد اسم مجتمع المروج لتنفيذ تدفق الترقية الجماعية.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "اسم Discord للمروج للترقيات التي تم تشغيلها",
+    "promotionsRanPromoterDiscordNameVariableDesc": "يسرد اسم المستخدم/العلامة في Discord للمروج لتنفيذ تدفق الترقية الجماعية."
   }
 }

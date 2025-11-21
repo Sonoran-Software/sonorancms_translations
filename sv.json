@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Inga spelare hittades... Sök"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Tidszonsval",
+    "timezoneSelectionExplanation": "Bestämmer tidszonen för lägg/ta bort rank-åtgärder, aktivitetsvärden i listan och relaterade tidsbaserade operationer.",
+    "timezoneMustBeSet": "Tidszon måste ställas in för din community!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Multi-befordringsflödesåtgärder",
+    "subtitle": "Åtgärder som utförs när ovanstående befordringsflöden körs.",
+    "discordWebhook": "Discord-webhook",
+    "discordWebhookContentDescription": "Denna åtgärd kommer automatiskt att utföra en Discord-webhook när den är aktiverad och när befordringsflödena körs.",
+    "promotionsRanComNameVariableLabel": "Befordringar körde communitynamn",
+    "promotionsRanComNameVariableDesc": "Listar alla befordringsflöden som har körts, tillsammans med varje kontos communitynamn.",
+    "promotionsRanDiscordNameVariableLabel": "Befordringar körde Discord-namn",
+    "promotionsRanDiscordNameVariableDesc": "Listar alla befordringsflöden som har körts, tillsammans med varje kontos Discord-användarnamn/tagg.",
+    "promotionsRanPromoterComNameVariableLabel": "Befordringar körde promotorns communitynamn",
+    "promotionsRanPromoterComNameVariableDesc": "Listar promotorns communitynamn för multi-befordringsflödets utförande.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Befordringar körde promotorns Discord-namn",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Listar promotorns Discord-användarnamn/tagg för multi-befordringsflödets utförande."
   }
 }

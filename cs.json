@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Výběr časového pásma",
+    "timezoneSelectionExplanation": "Určuje časové pásmo pro akce přidávání/odebírání hodností, hodnoty aktivity v seznamu a související časově založené operace.",
+    "timezoneMustBeSet": "Časové pásmo musí být nastaveno pro vaši komunitu!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Akce více propagací",
+    "subtitle": "Akce provedené při spuštění výše uvedených promočních toků.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "Tato akce automaticky spustí Discord webhook, když je povolena a když jsou spuštěny promoční toky.",
+    "promotionsRanComNameVariableLabel": "Název komunity spuštěných promo akcí",
+    "promotionsRanComNameVariableDesc": "Vypisuje všechny promoční toky, které byly spuštěny, spárované s názvem komunity každého účtu.",
+    "promotionsRanDiscordNameVariableLabel": "Uživatelské jméno Discordu spuštěných promo akcí",
+    "promotionsRanDiscordNameVariableDesc": "Vypisuje všechny promoční toky, které byly spuštěny, spárované s Discord uživatelským jménem/tagem každého účtu.",
+    "promotionsRanPromoterComNameVariableLabel": "Název komunity promotéra pro spuštěné promoční akce",
+    "promotionsRanPromoterComNameVariableDesc": "Uvádí název komunity promotéra pro provedení více proudu promo akcí.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Uživatelské jméno Discordu promotéra pro spuštěné promoční akce",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Uvádí uživatelské jméno/tag Discordu promotéra pro provedení více proudu promo akcí."
   }
 }

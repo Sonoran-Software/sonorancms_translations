@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "플레이어를 찾을 수 없습니다... 검색"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "시간대 선택",
+    "timezoneSelectionExplanation": "랭크 추가/제거 작업, 명단 활동 값 및 관련 시간 기반 작업의 시간대를 결정합니다.",
+    "timezoneMustBeSet": "커뮤니티를 위해 시간대를 설정해야 합니다!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "다중 승진 흐름 작업",
+    "subtitle": "위의 승진 흐름을 실행할 때 실행되는 작업.",
+    "discordWebhook": "Discord 웹훅",
+    "discordWebhookContentDescription": "이 작업은 활성화 및 승진 흐름이 실행될 때 자동으로 Discord 웹훅을 실행합니다.",
+    "promotionsRanComNameVariableLabel": "승진 실행 커뮤니티 이름",
+    "promotionsRanComNameVariableDesc": "실행된 모든 승진 흐름을 나열하며, 각 계정의 커뮤니티 이름과 짝지어져 있습니다.",
+    "promotionsRanDiscordNameVariableLabel": "승진 실행 Discord 이름",
+    "promotionsRanDiscordNameVariableDesc": "실행된 모든 승진 흐름을 나열하며, 각 계정의 Discord 사용자 이름/태그와 짝지어져 있습니다.",
+    "promotionsRanPromoterComNameVariableLabel": "승진 실행 프로모터 커뮤니티 이름",
+    "promotionsRanPromoterComNameVariableDesc": "다중 승진 흐름 실행을 위한 프로모터의 커뮤니티 이름을 나열합니다.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "승진 실행 프로모터 Discord 이름",
+    "promotionsRanPromoterDiscordNameVariableDesc": "다중 승진 흐름 실행을 위한 프로모터의 Discord 사용자 이름/태그를 나열합니다."
   }
 }

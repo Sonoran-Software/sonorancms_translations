@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "プレーヤーが見つかりません…検索"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "タイムゾーンの選択",
+    "timezoneSelectionExplanation": "ランク追加/削除アクション、名簿の活動値、および関連する時間ベースの操作のタイムゾーンを決定します。",
+    "timezoneMustBeSet": "コミュニティのためにタイムゾーンを設定する必要があります！"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "マルチプロモーションフローアクション",
+    "subtitle": "上記のプロモーションフローが実行されるときに実行されるアクション。",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "このアクションは、プロモーションフローが実行されるときに、DiscordのWebhookを自動的に実行します。",
+    "promotionsRanComNameVariableLabel": "実行されたプロモーションのコミュニティ名",
+    "promotionsRanComNameVariableDesc": "実行されたすべてのプロモーションフローのリストと、各アカウントのコミュニティ名を対応させます。",
+    "promotionsRanDiscordNameVariableLabel": "実行されたプロモーションのDiscord名",
+    "promotionsRanDiscordNameVariableDesc": "実行されたすべてのプロモーションフローのリストと、各アカウントのDiscordユーザー名/タグを対応させます。",
+    "promotionsRanPromoterComNameVariableLabel": "プロモーターのコミュニティ名",
+    "promotionsRanPromoterComNameVariableDesc": "マルチプロモーションフロー実行のためのプロモーターのコミュニティ名をリストします。",
+    "promotionsRanPromoterDiscordNameVariableLabel": "プロモーターのDiscord名",
+    "promotionsRanPromoterDiscordNameVariableDesc": "マルチプロモーションフロー実行のためのプロモーターのDiscordユーザー名/タグをリストします。"
   }
 }

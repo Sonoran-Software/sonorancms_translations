@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Saat Dilimi Seçimi",
+    "timezoneSelectionExplanation": "Rütbe ekleme/çıkarma işlemleri, kadro etkinlik değerleri ve ilgili zaman tabanlı işlemler için saat dilimini belirler.",
+    "timezoneMustBeSet": "Topluluğunuz için saat dilimi ayarlanmalıdır!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Çoklu Terfi Akışı Eylemleri",
+    "subtitle": "Yukarıdaki terfi akışları çalıştırıldığında gerçekleştirilen eylemler.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "Bu eylem, etkinleştirildiğinde ve terfi akışları çalıştırıldığında otomatik olarak bir Discord webhook'u yürütür.",
+    "promotionsRanComNameVariableLabel": "Terfiler Çalıştırıldı Topluluk Adı",
+    "promotionsRanComNameVariableDesc": "Çalıştırılan tüm terfi akışlarını ve her hesabın topluluk adını listeler.",
+    "promotionsRanDiscordNameVariableLabel": "Terfiler Çalıştırıldı Discord Adı",
+    "promotionsRanDiscordNameVariableDesc": "Çalıştırılan tüm terfi akışlarını ve her hesabın Discord kullanıcı adı/etiketini listeler.",
+    "promotionsRanPromoterComNameVariableLabel": "Terfiler Çalıştıran Promotör Topluluk Adı",
+    "promotionsRanPromoterComNameVariableDesc": "Çoklu terfi akışı yürütümü için promotörün topluluk adını listeler.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Terfiler Çalıştıran Promotör Discord Adı",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Çoklu terfi akışı yürütümü için promotörün Discord kullanıcı adı/etiketini listeler."
   }
 }

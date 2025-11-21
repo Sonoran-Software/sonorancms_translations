@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Tijdzone Selectie",
+    "timezoneSelectionExplanation": "Bepaalt de tijdzone voor toevoegen/verwijderen rang acties, roosteractiviteitswaarden en gerelateerde tijdgebaseerde operaties.",
+    "timezoneMustBeSet": "Tijdzone moet worden ingesteld voor uw gemeenschap!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Multi-Promotie Flow Acties",
+    "subtitle": "Acties uitgevoerd wanneer de bovenstaande promotie flows worden uitgevoerd.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "Deze actie voert automatisch een Discord webhook uit wanneer ingeschakeld en wanneer de promotie flows worden uitgevoerd.",
+    "promotionsRanComNameVariableLabel": "Promoties Uitgevoerd Gemeenschapsnaam",
+    "promotionsRanComNameVariableDesc": "Lijst alle promotie flows die zijn uitgevoerd, gekoppeld aan de gemeenschapsnaam van elk account.",
+    "promotionsRanDiscordNameVariableLabel": "Promoties Uitgevoerd Discord Naam",
+    "promotionsRanDiscordNameVariableDesc": "Lijst alle promotie flows die zijn uitgevoerd, gekoppeld aan elke account's Discord gebruikersnaam/tag.",
+    "promotionsRanPromoterComNameVariableLabel": "Promoties Uitgevoerd Promoter Gemeenschapsnaam",
+    "promotionsRanPromoterComNameVariableDesc": "Lijst de gemeenschapsnaam van de promotor voor de uitvoering van de multi-promotie flow.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Promoties Uitgevoerd Promoter Discord Naam",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Lijst de Discord gebruikersnaam/tag van de promotor voor de uitvoering van de multi-promotie flow."
   }
 }

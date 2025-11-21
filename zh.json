@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "未找到玩家……搜索"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "时区选择",
+    "timezoneSelectionExplanation": "确定添加/移除等级操作、名单活动值和相关时间操作的时区。",
+    "timezoneMustBeSet": "必须为您的社区设置时区！"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "多重提升流程操作",
+    "subtitle": "在执行上述提升流程时执行的操作。",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "启用此操作后，当运行提升流程时，将自动执行Discord webhook。",
+    "promotionsRanComNameVariableLabel": "已运行提升的社区名称",
+    "promotionsRanComNameVariableDesc": "列出已运行的所有提升流程，并附上每个账户的社区名称。",
+    "promotionsRanDiscordNameVariableLabel": "已运行提升的Discord名称",
+    "promotionsRanDiscordNameVariableDesc": "列出已运行的所有提升流程，并附上每个账户的Discord用户名/标签。",
+    "promotionsRanPromoterComNameVariableLabel": "已运行提升的推动者社区名称",
+    "promotionsRanPromoterComNameVariableDesc": "列出多重提升流程执行时推动者的社区名称。",
+    "promotionsRanPromoterDiscordNameVariableLabel": "已运行提升的推动者Discord名称",
+    "promotionsRanPromoterDiscordNameVariableDesc": "列出多重提升流程执行时推动者的Discord用户名/标签。"
   }
 }

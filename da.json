@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ingen Spillere Fundet... Søg"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Tidszonevalg",
+    "timezoneSelectionExplanation": "Bestemmer tidszonen for tilføj/fjern rang handlinger, roster aktivitetsværdier og relaterede tidsbaserede operationer.",
+    "timezoneMustBeSet": "Tidszone skal være indstillet for dit fællesskab!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Handlinger for Multi-Forfremmelses Flow",
+    "subtitle": "Handlinger udføres, når de ovenstående forfremmelsesflows køres.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "Denne handling vil automatisk udføre en Discord webhook, når den er aktiveret, og når forfremmelsesflows køres.",
+    "promotionsRanComNameVariableLabel": "Forfremmelser Kørt Fællesskabsnavn",
+    "promotionsRanComNameVariableDesc": "Lister alle forfremmelsesflows, der er kørt, parret med hver kontos fællesskabsnavn.",
+    "promotionsRanDiscordNameVariableLabel": "Forfremmelser Kørt Discord Navn",
+    "promotionsRanDiscordNameVariableDesc": "Lister alle forfremmelsesflows, der er kørt, parret med hver kontos Discord brugernavn/tag.",
+    "promotionsRanPromoterComNameVariableLabel": "Forfremmelser Kørt Promoter Fællesskabsnavn",
+    "promotionsRanPromoterComNameVariableDesc": "Lister promoterens fællesskabsnavn for multi-forfremmelses flow udførelse.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Forfremmelser Kørt Promoter Discord Navn",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Lister promoterens Discord brugernavn/tag for multi-forfremmelses flow udførelse."
   }
 }

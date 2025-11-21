@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Wybór strefy czasowej",
+    "timezoneSelectionExplanation": "Określa strefę czasową dla działań związanych z dodawaniem/usuwaniem rang, wartościami aktywności w grafikach i powiązanymi operacjami czasowymi.",
+    "timezoneMustBeSet": "Strefa czasowa musi być ustawiona dla Twojej społeczności!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Działania przepływu wielokrotnej promocji",
+    "subtitle": "Działania wykonywane, gdy powyższe przepływy promocji są uruchamiane.",
+    "discordWebhook": "Webhook Discord",
+    "discordWebhookContentDescription": "Ta akcja automatycznie wykonuje webhook Discord, gdy jest włączona i gdy przepływy promocji są uruchamiane.",
+    "promotionsRanComNameVariableLabel": "Nazwa społeczności uruchomionych promocji",
+    "promotionsRanComNameVariableDesc": "Wymienia wszystkie przepływy promocji, które zostały uruchomione, wraz z nazwą społeczności każdego konta.",
+    "promotionsRanDiscordNameVariableLabel": "Nazwa Discord uruchomionych promocji",
+    "promotionsRanDiscordNameVariableDesc": "Wymienia wszystkie przepływy promocji, które zostały uruchomione, wraz z nazwą użytkownika/tagiem Discord każdego konta.",
+    "promotionsRanPromoterComNameVariableLabel": "Nazwa społeczności promotora uruchomionych promocji",
+    "promotionsRanPromoterComNameVariableDesc": "Wymienia nazwę społeczności promotora dla wykonania przepływu wielokrotnej promocji.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Nazwa Discord promotora uruchomionych promocji",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Wymienia nazwę użytkownika/tag Discord promotora dla wykonania przepływu wielokrotnej promocji."
   }
 }

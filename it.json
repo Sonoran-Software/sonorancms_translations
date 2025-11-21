@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nessun Giocatore Trovato... Cerca"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Selezione Fuso Orario",
+    "timezoneSelectionExplanation": "Determina il fuso orario per le azioni di aggiunta/rimozione grado, i valori di attività del roster e le operazioni basate sul tempo.",
+    "timezoneMustBeSet": "Il fuso orario deve essere impostato per la tua comunità!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Azioni di Flusso Promozionale Multiplo",
+    "subtitle": "Azioni eseguite quando i suddetti flussi promozionali sono eseguiti.",
+    "discordWebhook": "Webhook Discord",
+    "discordWebhookContentDescription": "Questa azione eseguirà automaticamente un webhook Discord quando abilitato e quando i flussi promozionali sono eseguiti.",
+    "promotionsRanComNameVariableLabel": "Nome Comunità Flussi Promozionali Eseguiti",
+    "promotionsRanComNameVariableDesc": "Elenca tutti i flussi promozionali eseguiti, accoppiati con il nome della comunità di ciascun account.",
+    "promotionsRanDiscordNameVariableLabel": "Nome Discord Flussi Promozionali Eseguiti",
+    "promotionsRanDiscordNameVariableDesc": "Elenca tutti i flussi promozionali eseguiti, accoppiati con il nome utente/tag Discord di ciascun account.",
+    "promotionsRanPromoterComNameVariableLabel": "Nome Comunità Promotore Flussi Promozionali Eseguiti",
+    "promotionsRanPromoterComNameVariableDesc": "Elenca il nome della comunità del promotore per l'esecuzione del flusso promozionale multiplo.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Nome Discord Promotore Flussi Promozionali Eseguiti",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Elenca il nome utente/tag Discord del promotore per l'esecuzione del flusso promozionale multiplo."
   }
 }

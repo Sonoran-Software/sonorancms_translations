@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Keine Spieler gefunden... Suche"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Zeitzonenauswahl",
+    "timezoneSelectionExplanation": "Bestimmt die Zeitzone für Aktionen zum Hinzufügen/Entfernen von Rängen, Aktivitätswerte des Dienstplans und verwandte zeitbasierte Vorgänge.",
+    "timezoneMustBeSet": "Zeitzone muss für Ihre Community festgelegt werden!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Mehrfach-Beförderungsablauf-Aktionen",
+    "subtitle": "Aktionen, die ausgeführt werden, wenn die oben genannten Beförderungsabläufe ausgeführt werden.",
+    "discordWebhook": "Discord-WebHook",
+    "discordWebhookContentDescription": "Diese Aktion führt automatisch einen Discord-WebHook aus, wenn sie aktiviert ist und die Beförderungsabläufe ausgeführt werden.",
+    "promotionsRanComNameVariableLabel": "Beförderungen Ausgeführte Community-Name",
+    "promotionsRanComNameVariableDesc": "Listet alle Beförderungsabläufe auf, die ausgeführt wurden, gepaart mit dem Community-Namen jedes Kontos.",
+    "promotionsRanDiscordNameVariableLabel": "Beförderungen Ausgeführte Discord-Name",
+    "promotionsRanDiscordNameVariableDesc": "Listet alle Beförderungsabläufe auf, die ausgeführt wurden, gepaart mit dem Discord-Benutzernamen/-Tag jedes Kontos.",
+    "promotionsRanPromoterComNameVariableLabel": "Beförderungen Ausgeführter Promoter Community-Name",
+    "promotionsRanPromoterComNameVariableDesc": "Listet den Community-Namen des Promoters für die Ausführung des Mehrfach-Beförderungsablaufs auf.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Beförderungen Ausgeführter Promoter Discord-Name",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Listet den Discord-Benutzernamen/-Tag des Promoters für die Ausführung des Mehrfach-Beförderungsablaufs auf."
   }
 }

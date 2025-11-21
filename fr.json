@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Aucun joueur trouvé... Rechercher"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Sélection du fuseau horaire",
+    "timezoneSelectionExplanation": "Détermine le fuseau horaire pour les actions d'ajout/suppression de rang, les valeurs d'activité des listes et les opérations basées sur le temps.",
+    "timezoneMustBeSet": "Le fuseau horaire doit être défini pour votre communauté !"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Actions de flux de promotion multiple",
+    "subtitle": "Actions exécutées lorsque les flux de promotion ci-dessus sont lancés.",
+    "discordWebhook": "Webhook Discord",
+    "discordWebhookContentDescription": "Cette action exécutera automatiquement un webhook Discord lorsqu'elle est activée et que les flux de promotion sont lancés.",
+    "promotionsRanComNameVariableLabel": "Nom de la communauté des promotions exécutées",
+    "promotionsRanComNameVariableDesc": "Liste tous les flux de promotion exécutés, appariés au nom de la communauté de chaque compte.",
+    "promotionsRanDiscordNameVariableLabel": "Nom Discord des promotions exécutées",
+    "promotionsRanDiscordNameVariableDesc": "Liste tous les flux de promotion exécutés, appariés au nom d'utilisateur/tag Discord de chaque compte.",
+    "promotionsRanPromoterComNameVariableLabel": "Nom de la communauté du promoteur des promotions exécutées",
+    "promotionsRanPromoterComNameVariableDesc": "Liste le nom de la communauté du promoteur pour l'exécution du flux de promotion multiple.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Nom Discord du promoteur des promotions exécutées",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Liste le nom d'utilisateur/tag Discord du promoteur pour l'exécution du flux de promotion multiple."
   }
 }

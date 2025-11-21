@@ -4780,5 +4780,24 @@
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ingen Spillere Funnet... Søk"
+  },
+  "TimezoneConfigurator": {
+    "timezoneSelection": "Tidssonevalg",
+    "timezoneSelectionExplanation": "Bestemmer tidssonen for handlinger for å legge til/fjerne rangering, aktivitetsverdier i oppstillingen og relaterte tidsbaserte operasjoner.",
+    "timezoneMustBeSet": "Tidssone må settes for ditt fellesskap!"
+  },
+  "MassPromotionFlowActionsEditor": {
+    "title": "Multi-Fremmingsflythandlinger",
+    "subtitle": "Handlinger utført når de ovennevnte fremmingsflytene kjøres.",
+    "discordWebhook": "Discord Webhook",
+    "discordWebhookContentDescription": "Denne handlingen vil automatisk utføre en Discord-webhook når den er aktivert og når fremmingsflytene kjøres.",
+    "promotionsRanComNameVariableLabel": "Fremminger kjørt fellesskapsnavn",
+    "promotionsRanComNameVariableDesc": "Lister alle fremmingsflyter som har kjørt, sammen med hver kontoens fellesskapsnavn.",
+    "promotionsRanDiscordNameVariableLabel": "Fremminger kjørt Discord-navn",
+    "promotionsRanDiscordNameVariableDesc": "Lister alle fremmingsflyter som har kjørt, sammen med hver kontoens Discord-brukernavn/tagg.",
+    "promotionsRanPromoterComNameVariableLabel": "Fremminger kjørt promoter fellesskapsnavn",
+    "promotionsRanPromoterComNameVariableDesc": "Lister promoterens fellesskapsnavn for multi-fremmingsflytutførelsen.",
+    "promotionsRanPromoterDiscordNameVariableLabel": "Fremminger kjørt promoter Discord-navn",
+    "promotionsRanPromoterDiscordNameVariableDesc": "Lister promoterens Discord-brukernavn/tagg for multi-fremmingsflytutførelsen."
   }
 }
