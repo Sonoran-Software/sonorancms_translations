@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD API Legitimationer",
     "cadSyncOptions": "CAD Synkroniseringsmuligheder",
     "cadPermissionsSelector": "CAD Tilladelsesvælger",
-    "cadSyncNotEnabled": "Aktivér Tilladelsessynkronisering for at konfigurere tilladelser."
+    "cadSyncNotEnabled": "Aktivér Tilladelsessynkronisering for at konfigurere tilladelser.",
+    "banEnabled": "Ban Sync",
+    "banEnabledDescription": "Når en bruger er banlyst i CMS, banlys dem også i CAD'en.",
+    "kickEnabled": "Kick Sync",
+    "kickEnabledDescription": "Når en bruger er smidt ud i CMS, smid dem også ud i CAD'en.",
+    "syncEnabled": "Tilladelses Sync",
+    "syncEnabledDescription": "Aktiver automatisk synkronisering af tilladelser fra CMS til CAD'en.",
+    "joinSyncEnabled": "Join Sync",
+    "joinSyncEnabledDescription": "Tilslut automatisk CMS-brugere til CAD'en.",
+    "apiIdSyncEnabled": "API ID Sync",
+    "apiIdSyncEnabledDescription": "Synkroniser automatisk CMS API ID'er til CAD'en."
   },
   "imageInn": {
     "dropArea": "Drop Område"
@@ -4668,7 +4678,22 @@
     "unknownAction": "Ukendt handling",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tip",
-    "erlcNotification": "ERLC Notifikation"
+    "erlcNotification": "ERLC Notifikation",
+    "fixedInterval": "Fast interval",
+    "customTrigger": "Brugerdefineret udløser",
+    "rowOwnerComNameVariableLabel": "Rækkeejerens community-navn",
+    "rowOwnerComNameVariableDesc": "Dette vil angive navnet på rækkens ejers community.",
+    "rowColumnValueVariableLabel": "Række kolonneværdi",
+    "rowColumnValueVariableDesc": "Dette vil angive værdien af kolonnen i rækken, som handlingen udføres på.",
+    "roster": "Lister",
+    "triggerWhenARowWith": "Udløs når en række med",
+    "is": "Er",
+    "isNot": "Er ikke",
+    "isOneOf": "Er en af",
+    "value": "Værdi",
+    "checked": "Markeret",
+    "unchecked": "Umarkeret",
+    "someValue": "Nogle værdier"
   },
   "integrationsPortal": {
     "title": "Officielle integrationer",
@@ -4748,7 +4773,10 @@
     "promoterComNameVariableLabel": "Promoverer Fællesskabsnavn",
     "promoterComNameVariableDesc": "Dette vil angive fællesskabsnavnet på brugeren, der udløste promoveringsforløbet.",
     "comNameVariableLabel": "Fællesskabsnavn",
-    "comNameVariableDesc": "Dette vil angive fællesskabsnavnet på brugeren påvirket af promoveringsforløbet."
+    "comNameVariableDesc": "Dette vil angive fællesskabsnavnet på brugeren påvirket af promoveringsforløbet.",
+    "run": "Kør",
+    "flows": "Flows",
+    "confirmDelete": "Er du sikker på, at du vil slette denne promotionsflow?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ingen Spillere Fundet... Søg"

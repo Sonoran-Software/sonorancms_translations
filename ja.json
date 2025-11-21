@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD 同期オプション",
     "cadSyncOptions": "CAD 権限セレクター",
     "cadPermissionsSelector": "ドロップエリア",
-    "cadSyncNotEnabled": "権限を設定するために権限の同期を有効にする。"
+    "cadSyncNotEnabled": "権限を設定するために権限の同期を有効にする。",
+    "banEnabled": "禁止同期",
+    "banEnabledDescription": "CMSでユーザーが禁止された場合、CADでも禁止します。",
+    "kickEnabled": "追放同期",
+    "kickEnabledDescription": "CMSでユーザーが追放された場合、CADでも追放します。",
+    "syncEnabled": "権限同期",
+    "syncEnabledDescription": "CMSからCADへの権限の自動同期を有効にします。",
+    "joinSyncEnabled": "参加同期",
+    "joinSyncEnabledDescription": "CMSユーザーを自動的にCADに参加させます。",
+    "apiIdSyncEnabled": "API ID同期",
+    "apiIdSyncEnabledDescription": "CMSのAPI IDをCADに自動的に同期します。"
   },
   "imageInn": {
     "dropArea": "画像をアップロードするにはクリックしてください"
@@ -4668,7 +4678,22 @@
     "unknownAction": "不明なアクション",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLCヒント",
-    "erlcNotification": "ERLC通知"
+    "erlcNotification": "ERLC通知",
+    "fixedInterval": "固定間隔",
+    "customTrigger": "カスタムトリガー",
+    "rowOwnerComNameVariableLabel": "行所有者のコミュニティ名",
+    "rowOwnerComNameVariableDesc": "これは、行所有者のコミュニティ名を示します。",
+    "rowColumnValueVariableLabel": "行列の値",
+    "rowColumnValueVariableDesc": "これは、アクションが実行されている行の列の値を示します。",
+    "roster": "名簿",
+    "triggerWhenARowWith": "行が存在するときにトリガー",
+    "is": "である",
+    "isNot": "ではない",
+    "isOneOf": "のいずれかである",
+    "value": "値",
+    "checked": "チェック済み",
+    "unchecked": "未チェック",
+    "someValue": "ある値"
   },
   "integrationsPortal": {
     "title": "公式統合",
@@ -4748,7 +4773,10 @@
     "promoterComNameVariableLabel": "プロモーターコミュニティ名",
     "promoterComNameVariableDesc": "プロモーションフローをトリガーしたユーザーのコミュニティ名を示します。",
     "comNameVariableLabel": "コミュニティ名",
-    "comNameVariableDesc": "プロモーションフローの影響を受けたユーザーのコミュニティ名を示します。"
+    "comNameVariableDesc": "プロモーションフローの影響を受けたユーザーのコミュニティ名を示します。",
+    "run": "実行",
+    "flows": "フロー",
+    "confirmDelete": "このプロモーションフローを削除してもよろしいですか？"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "プレーヤーが見つかりません…検索"

@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "Přihlašovací údaje API CAD",
     "cadSyncOptions": "Možnosti synchronizace CAD",
     "cadPermissionsSelector": "Selektor oprávnění CAD",
-    "cadSyncNotEnabled": "Povolte synchronizaci oprávnění pro konfiguraci oprávnění."
+    "cadSyncNotEnabled": "Povolte synchronizaci oprávnění pro konfiguraci oprávnění.",
+    "banEnabled": "Synchronizace zákazu",
+    "banEnabledDescription": "Když je uživatel zablokován v CMS, zablokujte ho i v CAD.",
+    "kickEnabled": "Synchronizace vyhození",
+    "kickEnabledDescription": "Když je uživatel vyhozen v CMS, vyhoďte ho i v CAD.",
+    "syncEnabled": "Synchronizace oprávnění",
+    "syncEnabledDescription": "Povolte automatickou synchronizaci oprávnění z CMS do CAD.",
+    "joinSyncEnabled": "Synchronizace připojení",
+    "joinSyncEnabledDescription": "Automaticky připojit uživatele CMS do CAD.",
+    "apiIdSyncEnabled": "Synchronizace API ID",
+    "apiIdSyncEnabledDescription": "Automaticky synchronizujte CMS API ID s CAD."
   },
   "imageInn": {
     "dropArea": "Oblast pro přetažení"
@@ -4668,7 +4678,22 @@
     "unknownAction": "Neznámá akce",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tip",
-    "erlcNotification": "ERLC Notifikace"
+    "erlcNotification": "ERLC Notifikace",
+    "fixedInterval": "Pevný interval",
+    "customTrigger": "Vlastní spouštěč",
+    "rowOwnerComNameVariableLabel": "Název komunity vlastníka řádku",
+    "rowOwnerComNameVariableDesc": "Toto uvede název komunity vlastníka řádku.",
+    "rowColumnValueVariableLabel": "Hodnota sloupce řádku",
+    "rowColumnValueVariableDesc": "Toto uvede hodnotu sloupce v řádku, na kterém je akce prováděna.",
+    "roster": "Soupiska",
+    "triggerWhenARowWith": "Spustit, když řádek s",
+    "is": "Je",
+    "isNot": "Není",
+    "isOneOf": "Je jedním z",
+    "value": "Hodnota",
+    "checked": "Zaškrtnuto",
+    "unchecked": "Nezaškrtnuto",
+    "someValue": "Nějaká hodnota"
   },
   "integrationsPortal": {
     "title": "Oficiální integrace",
@@ -4748,7 +4773,10 @@
     "promoterComNameVariableLabel": "Název Komunity Propagátora",
     "promoterComNameVariableDesc": "Toto uvede název komunity uživatele, který spustil propagační tok.",
     "comNameVariableLabel": "Název Komunity",
-    "comNameVariableDesc": "Toto uvede název komunity uživatele ovlivněného propagačním tokem."
+    "comNameVariableDesc": "Toto uvede název komunity uživatele ovlivněného propagačním tokem.",
+    "run": "Spustit",
+    "flows": "Toky",
+    "confirmDelete": "Opravdu chcete odstranit tento propagační tok?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat"

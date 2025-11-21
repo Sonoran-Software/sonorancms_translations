@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD API Referenties",
     "cadSyncOptions": "CAD Synchronisatie Opties",
     "cadPermissionsSelector": "CAD Permissies Selector",
-    "cadSyncNotEnabled": "Schakel Machtigingsynchronisatie in om machtigingen te configureren."
+    "cadSyncNotEnabled": "Schakel Machtigingsynchronisatie in om machtigingen te configureren.",
+    "banEnabled": "Ban Synchronisatie",
+    "banEnabledDescription": "Wanneer een gebruiker in CMS wordt verbannen, verbied hen dan ook in de CAD.",
+    "kickEnabled": "Kick Synchronisatie",
+    "kickEnabledDescription": "Wanneer een gebruiker in CMS wordt verwijderd, verwijder hen dan ook in de CAD.",
+    "syncEnabled": "Permissie Synchronisatie",
+    "syncEnabledDescription": "Schakel automatische synchronisatie van permissies van CMS naar de CAD in.",
+    "joinSyncEnabled": "Lidmaatschap Synchronisatie",
+    "joinSyncEnabledDescription": "Voeg CMS-gebruikers automatisch toe aan de CAD.",
+    "apiIdSyncEnabled": "API ID Synchronisatie",
+    "apiIdSyncEnabledDescription": "Synchroniseer automatisch CMS API-ID's met de CAD."
   },
   "imageInn": {
     "dropArea": "Drop Gebied"
@@ -4668,7 +4678,22 @@
     "unknownAction": "Onbekende Actie",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Tip",
-    "erlcNotification": "ERLC Kennisgeving"
+    "erlcNotification": "ERLC Kennisgeving",
+    "fixedInterval": "Vaste Interval",
+    "customTrigger": "Aangepaste Trigger",
+    "rowOwnerComNameVariableLabel": "Rijeigenaar Gemeenschapsnaam",
+    "rowOwnerComNameVariableDesc": "Dit geeft de gemeenschapsnaam van de rij-eigenaar aan.",
+    "rowColumnValueVariableLabel": "Rijkolomwaarde",
+    "rowColumnValueVariableDesc": "Dit geeft de waarde van de kolom in de rij aan waarop de actie wordt uitgevoerd.",
+    "roster": "Rooster",
+    "triggerWhenARowWith": "Trigger wanneer een rij met",
+    "is": "Is",
+    "isNot": "Is Niet",
+    "isOneOf": "Is Eén Van",
+    "value": "Waarde",
+    "checked": "Geselecteerd",
+    "unchecked": "Niet geselecteerd",
+    "someValue": "Enkele Waarde"
   },
   "integrationsPortal": {
     "title": "Officiële Integraties",
@@ -4748,7 +4773,10 @@
     "promoterComNameVariableLabel": "Naam Promoter Gemeenschap",
     "promoterComNameVariableDesc": "Dit zal de gemeenschapsnaam van de gebruiker die de promotievloeiing heeft geactiveerd aangeven.",
     "comNameVariableLabel": "Gemeenschapsnaam",
-    "comNameVariableDesc": "Dit zal de gemeenschapsnaam van de gebruiker die door de promotievloeiing wordt beïnvloed aangeven."
+    "comNameVariableDesc": "Dit zal de gemeenschapsnaam van de gebruiker die door de promotievloeiing wordt beïnvloed aangeven.",
+    "run": "Uitvoeren",
+    "flows": "Stromen",
+    "confirmDelete": "Weet je zeker dat je deze promotie-flow wilt verwijderen?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken"

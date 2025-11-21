@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "CAD API Anmeldeinformationen",
     "cadSyncOptions": "CAD Synchronisierungsoptionen",
     "cadPermissionsSelector": "CAD Berechtigungsauswahl",
-    "cadSyncNotEnabled": "Aktivieren Sie die Berechtigungssynchronisierung, um Berechtigungen zu konfigurieren."
+    "cadSyncNotEnabled": "Aktivieren Sie die Berechtigungssynchronisierung, um Berechtigungen zu konfigurieren.",
+    "banEnabled": "Bann-Sync",
+    "banEnabledDescription": "Wenn ein Benutzer im CMS gesperrt wird, sperren Sie ihn auch im CAD.",
+    "kickEnabled": "Kick-Sync",
+    "kickEnabledDescription": "Wenn ein Benutzer im CMS gekickt wird, kicken Sie ihn auch im CAD.",
+    "syncEnabled": "Berechtigungssync",
+    "syncEnabledDescription": "Aktivieren Sie die automatische Synchronisierung von Berechtigungen vom CMS zum CAD.",
+    "joinSyncEnabled": "Beitritts-Sync",
+    "joinSyncEnabledDescription": "CMS-Benutzer automatisch dem CAD beitreten lassen.",
+    "apiIdSyncEnabled": "API-ID-Sync",
+    "apiIdSyncEnabledDescription": "Automatisch CMS-API-IDs mit dem CAD synchronisieren."
   },
   "imageInn": {
     "dropArea": "Ablagebereich"
@@ -4668,7 +4678,22 @@
     "unknownAction": "Unbekannte Aktion",
     "discordWebhook": "Discord Webhook",
     "erlcHint": "ERLC Hinweis",
-    "erlcNotification": "ERLC Benachrichtigung"
+    "erlcNotification": "ERLC Benachrichtigung",
+    "fixedInterval": "Fester Intervall",
+    "customTrigger": "Benutzerdefinierter Auslöser",
+    "rowOwnerComNameVariableLabel": "Reihenbesitzer Gemeinschaftsname",
+    "rowOwnerComNameVariableDesc": "Dies gibt den Namen der Gemeinschaft des Reihenbesitzers an.",
+    "rowColumnValueVariableLabel": "Zeilenspaltenwert",
+    "rowColumnValueVariableDesc": "Dies gibt den Wert der Spalte in der Zeile an, auf die die Aktion ausgeführt wird.",
+    "roster": "Roster",
+    "triggerWhenARowWith": "Auslösen, wenn eine Zeile mit",
+    "is": "Ist",
+    "isNot": "Ist Nicht",
+    "isOneOf": "Ist Eine(r) Von",
+    "value": "Wert",
+    "checked": "Geprüft",
+    "unchecked": "Ungeprüft",
+    "someValue": "Einige Werte"
   },
   "integrationsPortal": {
     "title": "Offizielle Integrationen",
@@ -4748,7 +4773,10 @@
     "promoterComNameVariableLabel": "Name der Fördergemeinschaft",
     "promoterComNameVariableDesc": "Dies gibt den Namen der Gemeinschaft des Benutzers an, der den Beförderungsablauf ausgelöst hat.",
     "comNameVariableLabel": "Gemeinschaftsname",
-    "comNameVariableDesc": "Dies gibt den Namen der Gemeinschaft des Benutzers an, der von dem Beförderungsablauf betroffen ist."
+    "comNameVariableDesc": "Dies gibt den Namen der Gemeinschaft des Benutzers an, der von dem Beförderungsablauf betroffen ist.",
+    "run": "Ausführen",
+    "flows": "Abläufe",
+    "confirmDelete": "Sind Sie sicher, dass Sie diesen Beförderungsablauf löschen möchten?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Keine Spieler gefunden... Suche"

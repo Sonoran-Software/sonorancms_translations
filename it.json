@@ -4012,7 +4012,17 @@
     "cadApiCredentials": "Credenziali API CAD",
     "cadSyncOptions": "Opzioni di sincronizzazione CAD",
     "cadPermissionsSelector": "Selettore dei permessi CAD",
-    "cadSyncNotEnabled": "Abilita Sincronizzazione Permessi per configurare i permessi."
+    "cadSyncNotEnabled": "Abilita Sincronizzazione Permessi per configurare i permessi.",
+    "banEnabled": "Sincronizzazione Ban",
+    "banEnabledDescription": "Quando un utente viene bannato nel CMS, bannarlo anche nel CAD.",
+    "kickEnabled": "Sincronizzazione Kick",
+    "kickEnabledDescription": "Quando un utente viene espulso nel CMS, espellerlo anche nel CAD.",
+    "syncEnabled": "Sincronizzazione Permessi",
+    "syncEnabledDescription": "Abilita la sincronizzazione automatica dei permessi dal CMS al CAD.",
+    "joinSyncEnabled": "Sincronizzazione Partecipazione",
+    "joinSyncEnabledDescription": "Unisci automaticamente gli utenti CMS al CAD.",
+    "apiIdSyncEnabled": "Sincronizzazione ID API",
+    "apiIdSyncEnabledDescription": "Sincronizza automaticamente gli ID API del CMS al CAD."
   },
   "imageInn": {
     "dropArea": "Area di rilascio"
@@ -4668,7 +4678,22 @@
     "unknownAction": "Azione Sconosciuta",
     "discordWebhook": "Webhook Discord",
     "erlcHint": "Suggerimento ERLC",
-    "erlcNotification": "Notifica ERLC"
+    "erlcNotification": "Notifica ERLC",
+    "fixedInterval": "Intervallo fisso",
+    "customTrigger": "Attivatore personalizzato",
+    "rowOwnerComNameVariableLabel": "Nome della comunità del proprietario della riga",
+    "rowOwnerComNameVariableDesc": "Indicherà il nome della comunità del proprietario della riga.",
+    "rowColumnValueVariableLabel": "Valore della colonna della riga",
+    "rowColumnValueVariableDesc": "Indicherà il valore della colonna nella riga su cui è in esecuzione l'azione.",
+    "roster": "Ruolino",
+    "triggerWhenARowWith": "Attiva quando una riga con",
+    "is": "È",
+    "isNot": "Non è",
+    "isOneOf": "È uno di",
+    "value": "Valore",
+    "checked": "Selezionato",
+    "unchecked": "Non selezionato",
+    "someValue": "Alcuni valori"
   },
   "integrationsPortal": {
     "title": "Integrazioni Ufficiali",
@@ -4748,7 +4773,10 @@
     "promoterComNameVariableLabel": "Nome Comunità Promotore",
     "promoterComNameVariableDesc": "Questo indicherà il nome della comunità dell'utente che ha attivato il flusso promozionale.",
     "comNameVariableLabel": "Nome della Comunità",
-    "comNameVariableDesc": "Questo indicherà il nome della comunità dell'utente interessato dal flusso promozionale."
+    "comNameVariableDesc": "Questo indicherà il nome della comunità dell'utente interessato dal flusso promozionale.",
+    "run": "Esegui",
+    "flows": "Flussi",
+    "confirmDelete": "Sei sicuro di voler eliminare questo flusso di promozione?"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nessun Giocatore Trovato... Cerca"
