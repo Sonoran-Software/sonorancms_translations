@@ -1256,7 +1256,9 @@
     "save": "Save",
     "unknownRule": "Unknown Rule",
     "hasRanks": "Has Rank(s)",
-    "doesNotHaveRanks": "Does Not Have Rank(s)"
+    "doesNotHaveRanks": "Does Not Have Rank(s)",
+    "shiftSubType": "Shift Sub Type",
+    "optional": "Optional"
   },
   "FormEditSelector": {
     "Ok": "Ok",
@@ -3892,7 +3894,8 @@
     "noFieldsourceSelected": "*No Field/Source Selected",
     "cloneField": "Clone Field",
     "conditionalQuestionStartExplaination": "This section will be visible",
-    "stageHidden": "Hidden Stage"
+    "stageHidden": "Hidden Stage",
+    "type": "Type"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
@@ -4704,7 +4707,8 @@
     "wasHealed": "was healed",
     "wasWanted": "was set to wanted",
     "wasUnwanted": "was set to unwanted",
-    "noteAdded": "Note added"
+    "noteAdded": "Note added",
+    "addedMessage": "added message"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disciplinary",
@@ -4819,5 +4823,9 @@
     "promotionsRanPromoterComNameVariableDesc": "Lists the promoter's community name for the multi-promotion flow execution.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Promotions Ran Promoter Discord Name",
     "promotionsRanPromoterDiscordNameVariableDesc": "Lists the promoter's Discord username/tag for the multi-promotion flow execution."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Timeclock Shift Types",
+    "clockInTypesExplanation": "Custom shift types let users clock in under specific categories (e.g., Admin, Police). These categories can be filtered in rosters and reports."
   }
 }
