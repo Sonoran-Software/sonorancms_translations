@@ -771,7 +771,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
     "na": "N/A",
     "communityNotFound": "Community Not Found",
-    "errorAnErrorOccuredWhileExecuting": "Error: An error occured while executing"
+    "errorAnErrorOccuredWhileExecuting": "Error: An error occured while executing",
+    "shiftType": "Shift Type",
+    "none": "None"
   },
   "AccountViewer": {
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
@@ -4826,6 +4828,7 @@
   },
   "ClockInTypesConfigurator": {
     "clockInTypes": "Timeclock Shift Types",
-    "clockInTypesExplanation": "Custom shift types let users clock in under specific categories (e.g., Admin, Police). These categories can be filtered in rosters and reports."
+    "clockInTypesExplanation": "Custom shift types let users clock in under specific categories (e.g., Admin, Police). These categories can be filtered in rosters and reports.",
+    "addNewShiftType": "Add new shift type"
   }
 }
