@@ -4710,7 +4710,8 @@
     "wasWanted": "was set to wanted",
     "wasUnwanted": "was set to unwanted",
     "noteAdded": "Note added",
-    "addedMessage": "added message"
+    "addedMessage": "added message",
+    "changedTheWeatherTo": "changed the weather to"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disciplinary",
