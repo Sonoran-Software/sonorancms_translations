@@ -781,7 +781,9 @@
     "radioDesc": "Automatiseer Sonoran Radio-machtigingen met Sonoran CMS!",
     "communityNotFound": "Community Niet Gevonden",
     "errorAnErrorOccuredWhileExecuting": "Fout: Er is een fout opgetreden tijdens het uitvoeren",
-    "notificationPreferencesDescription": "Beheer je meldingsvoorkeuren voor verschillende gemeenschapsevenementen en updates."
+    "notificationPreferencesDescription": "Beheer je meldingsvoorkeuren voor verschillende gemeenschapsevenementen en updates.",
+    "shiftType": "Diensttype",
+    "none": "Geen"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -1209,7 +1211,9 @@
     "current": "Huidig",
     "teams": "Team(s)",
     "hasRanks": "Heeft rang(en)",
-    "doesNotHaveRanks": "Heeft Geen Rangen"
+    "doesNotHaveRanks": "Heeft Geen Rangen",
+    "shiftSubType": "Dienstsubtype",
+    "optional": "Optioneel"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dit formulier is ontgrendeld voor nieuwe inzendingen",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Voorwaardelijke Rang(en)",
     "automemberRobloxId": "Auto-lid Roblox-ID",
     "communityMemberRobloxIdElement": "Gemeenschapslid Roblox-ID-element",
-    "stageHidden": "Verborgen Stadium"
+    "stageHidden": "Verborgen Stadium",
+    "type": "Type"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -4580,7 +4585,9 @@
     "wasHealed": "werd geheeld",
     "wasWanted": "werd op gezocht gezet",
     "wasUnwanted": "werd ingesteld op ongewenst",
-    "noteAdded": "Notitie toegevoegd"
+    "noteAdded": "Notitie toegevoegd",
+    "addedMessage": "toegevoegd bericht",
+    "changedTheWeatherTo": "heeft het weer veranderd naar"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinaire",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Lijst de gemeenschapsnaam van de promotor voor de uitvoering van de multi-promotie flow.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Promoties Uitgevoerd Promoter Discord Naam",
     "promotionsRanPromoterDiscordNameVariableDesc": "Lijst de Discord gebruikersnaam/tag van de promotor voor de uitvoering van de multi-promotie flow."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Tijdklok Diensttypes",
+    "clockInTypesExplanation": "Aangepaste diensttypes laten gebruikers onder specifieke categorieën inklokken (bijv. Admin, Politie). Deze categorieën kunnen worden gefilterd in roosters en rapporten.",
+    "addNewShiftType": "Nieuwe diensttype toevoegen"
   }
 }

@@ -781,7 +781,9 @@
     "radioDesc": "Zautomatyzuj uprawnienia Sonoran Radio dzięki Sonoran CMS!",
     "communityNotFound": "Społeczność nie znaleziona",
     "errorAnErrorOccuredWhileExecuting": "Błąd: Wystąpił błąd podczas wykonywania",
-    "notificationPreferencesDescription": "Zarządzaj swoimi preferencjami powiadomień dla różnych wydarzeń społeczności i aktualizacji."
+    "notificationPreferencesDescription": "Zarządzaj swoimi preferencjami powiadomień dla różnych wydarzeń społeczności i aktualizacji.",
+    "shiftType": "Rodzaj Zmiany",
+    "none": "Brak"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -1209,7 +1211,9 @@
     "current": "Obecny",
     "teams": "Zespół(y)",
     "hasRanks": "Ma rang(i)",
-    "doesNotHaveRanks": "Nie ma rangi/rang"
+    "doesNotHaveRanks": "Nie ma rangi/rang",
+    "shiftSubType": "Podtyp Zmiany",
+    "optional": "Opcjonalne"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Ten formularz jest odblokowany dla nowych zgłoszeń",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Warunkowe Stanowisko(-a)",
     "automemberRobloxId": "Auto-członek Roblox ID",
     "communityMemberRobloxIdElement": "Element ID Roblox członka społeczności",
-    "stageHidden": "Ukryty Etap"
+    "stageHidden": "Ukryty Etap",
+    "type": "Rodzaj"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -4580,7 +4585,9 @@
     "wasHealed": "został wyleczony",
     "wasWanted": "został ustawiony jako poszukiwany",
     "wasUnwanted": "zostało ustawione na niepożądane",
-    "noteAdded": "Dodano notatkę"
+    "noteAdded": "Dodano notatkę",
+    "addedMessage": "dodano wiadomość",
+    "changedTheWeatherTo": "zmieniono pogodę na"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "dyscyplinarny",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Wymienia nazwę społeczności promotora dla wykonania przepływu wielokrotnej promocji.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Nazwa Discord promotora uruchomionych promocji",
     "promotionsRanPromoterDiscordNameVariableDesc": "Wymienia nazwę użytkownika/tag Discord promotora dla wykonania przepływu wielokrotnej promocji."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Rodzaje Zmian na Czasomierzu",
+    "clockInTypesExplanation": "Niestandardowe rodzaje zmian pozwalają użytkownikom meldować się w określonych kategoriach (np. Administracja, Policja). Kategorie te mogą być filtrowane w grafikach i raportach.",
+    "addNewShiftType": "Dodaj nowy rodzaj zmiany"
   }
 }

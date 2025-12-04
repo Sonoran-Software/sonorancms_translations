@@ -781,7 +781,9 @@
     "radioDesc": "Автоматизируйте разрешения Sonoran Radio с помощью Sonoran CMS!",
     "communityNotFound": "Сообщество не найдено",
     "errorAnErrorOccuredWhileExecuting": "Ошибка: Произошла ошибка при выполнении",
-    "notificationPreferencesDescription": "Управляйте своими настройками уведомлений для различных событий и обновлений сообщества."
+    "notificationPreferencesDescription": "Управляйте своими настройками уведомлений для различных событий и обновлений сообщества.",
+    "shiftType": "Тип смены",
+    "none": "Нет"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -1209,7 +1211,9 @@
     "current": "Текущий",
     "teams": "Команда(ы)",
     "hasRanks": "Имеет звание(я)",
-    "doesNotHaveRanks": "Не имеет звание(й)"
+    "doesNotHaveRanks": "Не имеет звание(й)",
+    "shiftSubType": "Подтип смены",
+    "optional": "Необязательный"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Эта форма заблокирована для новых отправок",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Условные звание(я)",
     "automemberRobloxId": "Автоматический участник Roblox ID",
     "communityMemberRobloxIdElement": "Элемент ID участника сообщества Roblox",
-    "stageHidden": "Скрытый этап"
+    "stageHidden": "Скрытый этап",
+    "type": "Тип"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -4580,7 +4585,9 @@
     "wasHealed": "был вылечен",
     "wasWanted": "был объявлен в розыск",
     "wasUnwanted": "было установлено как нежелательное",
-    "noteAdded": "Добавлена заметка"
+    "noteAdded": "Добавлена заметка",
+    "addedMessage": "добавлено сообщение",
+    "changedTheWeatherTo": "изменил погоду на"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "дисциплинарный",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Перечисляет название сообщества промоутера для выполнения многопотокового продвижения.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Discord имя промоутера запусков продвижений",
     "promotionsRanPromoterDiscordNameVariableDesc": "Перечисляет имя пользователя/тег Discord промоутера для выполнения многопотокового продвижения."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Типы смен рабочего времени",
+    "clockInTypesExplanation": "Пользовательские типы смен позволяют пользователям входить в систему под определенными категориями (например, Админ, Полиция). Эти категории можно фильтровать в списках и отчетах.",
+    "addNewShiftType": "Добавить новый тип смены"
   }
 }

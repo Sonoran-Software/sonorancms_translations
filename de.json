@@ -781,7 +781,9 @@
     "radioDesc": "Automatisiere Sonoran Radio-Berechtigungen mit Sonoran CMS!",
     "communityNotFound": "Gemeinschaft nicht gefunden",
     "errorAnErrorOccuredWhileExecuting": "Fehler: Bei der Ausführung ist ein Fehler aufgetreten",
-    "notificationPreferencesDescription": "Verwalten Sie Ihre Benachrichtigungseinstellungen für verschiedene Community-Ereignisse und -Updates."
+    "notificationPreferencesDescription": "Verwalten Sie Ihre Benachrichtigungseinstellungen für verschiedene Community-Ereignisse und -Updates.",
+    "shiftType": "Schichttyp",
+    "none": "Keine"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Benutzerkonten-Tutorial",
@@ -1209,7 +1211,9 @@
     "current": "Aktuell",
     "teams": "Team(s)",
     "hasRanks": "Hat Rang/Ränge",
-    "doesNotHaveRanks": "Hat Keine Ränge"
+    "doesNotHaveRanks": "Hat Keine Ränge",
+    "shiftSubType": "Schichtuntertyp",
+    "optional": "Optional"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dieses Formular ist für neue Einreichungen freigeschaltet",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Bedingte(r) Rang/Ränge",
     "automemberRobloxId": "Auto-Mitglied Roblox-ID",
     "communityMemberRobloxIdElement": "Community-Mitglied Roblox-ID-Element",
-    "stageHidden": "Verborgene Stufe"
+    "stageHidden": "Verborgene Stufe",
+    "type": "Typ"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -4580,7 +4585,9 @@
     "wasHealed": "wurde geheilt",
     "wasWanted": "wurde zur Fahndung ausgeschrieben",
     "wasUnwanted": "wurde auf unerwünscht gesetzt",
-    "noteAdded": "Notiz hinzugefügt"
+    "noteAdded": "Notiz hinzugefügt",
+    "addedMessage": "Nachricht hinzugefügt",
+    "changedTheWeatherTo": "das Wetter geändert zu"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "Disziplinarisch",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Listet den Community-Namen des Promoters für die Ausführung des Mehrfach-Beförderungsablaufs auf.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Beförderungen Ausgeführter Promoter Discord-Name",
     "promotionsRanPromoterDiscordNameVariableDesc": "Listet den Discord-Benutzernamen/-Tag des Promoters für die Ausführung des Mehrfach-Beförderungsablaufs auf."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Zeiterfassungs-Schichttypen",
+    "clockInTypesExplanation": "Benutzerdefinierte Schichttypen ermöglichen es den Benutzern, sich unter bestimmten Kategorien (z. B. Admin, Polizei) ein- und auszustempeln. Diese Kategorien können in Dienstplänen und Berichten gefiltert werden.",
+    "addNewShiftType": "Neuen Schichttyp hinzufügen"
   }
 }

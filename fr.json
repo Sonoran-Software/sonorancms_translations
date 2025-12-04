@@ -781,7 +781,9 @@
     "radioDesc": "Automatisez les autorisations de Sonoran Radio avec Sonoran CMS !",
     "communityNotFound": "Communauté non trouvée",
     "errorAnErrorOccuredWhileExecuting": "Erreur : Une erreur s'est produite lors de l'exécution",
-    "notificationPreferencesDescription": "Gérez vos préférences de notification pour divers événements et mises à jour de la communauté."
+    "notificationPreferencesDescription": "Gérez vos préférences de notification pour divers événements et mises à jour de la communauté.",
+    "shiftType": "Type de quart",
+    "none": "Aucun"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutoriel des Comptes Utilisateurs",
@@ -1209,7 +1211,9 @@
     "current": "Actuel",
     "teams": "Équipe(s)",
     "hasRanks": "A un ou plusieurs grades",
-    "doesNotHaveRanks": "N'a pas de grade(s)"
+    "doesNotHaveRanks": "N'a pas de grade(s)",
+    "shiftSubType": "Sous-type de quart",
+    "optional": "Optionnel"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Ce formulaire est déverrouillé pour de nouvelles soumissions",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Grade(s) conditionnel(s)",
     "automemberRobloxId": "ID Roblox Membre Auto",
     "communityMemberRobloxIdElement": "Élément d'identification Roblox du membre de la communauté",
-    "stageHidden": "Étape cachée"
+    "stageHidden": "Étape cachée",
+    "type": "Type"
   },
   "selectRoster": {
     "selectRoster": "Sélectionner la Liste"
@@ -4580,7 +4585,9 @@
     "wasHealed": "a été guéri",
     "wasWanted": "a été défini comme recherché",
     "wasUnwanted": "a été défini sur indésirable",
-    "noteAdded": "Note ajoutée"
+    "noteAdded": "Note ajoutée",
+    "addedMessage": "message ajouté",
+    "changedTheWeatherTo": "changé la météo en"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinaires",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Liste le nom de la communauté du promoteur pour l'exécution du flux de promotion multiple.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Nom Discord du promoteur des promotions exécutées",
     "promotionsRanPromoterDiscordNameVariableDesc": "Liste le nom d'utilisateur/tag Discord du promoteur pour l'exécution du flux de promotion multiple."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Types de quart de temps",
+    "clockInTypesExplanation": "Les types de quart personnalisés permettent aux utilisateurs de pointer sous des catégories spécifiques (par exemple, Admin, Police). Ces catégories peuvent être filtrées dans les listes et les rapports.",
+    "addNewShiftType": "Ajouter un nouveau type de quart"
   }
 }

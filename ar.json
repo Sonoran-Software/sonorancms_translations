@@ -781,7 +781,9 @@
     "radioDesc": "أتمت أذونات Sonoran Radio باستخدام Sonoran CMS!",
     "communityNotFound": "المجتمع غير موجود",
     "errorAnErrorOccuredWhileExecuting": "خطأ: حدث خطأ أثناء التنفيذ",
-    "notificationPreferencesDescription": "إدارة تفضيلات الإشعارات الخاصة بك للأحداث المجتمعية المختلفة والتحديثات."
+    "notificationPreferencesDescription": "إدارة تفضيلات الإشعارات الخاصة بك للأحداث المجتمعية المختلفة والتحديثات.",
+    "shiftType": "نوع الوردية",
+    "none": "لا شيء"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -1209,7 +1211,9 @@
     "current": "الحالي",
     "teams": "فريق(فرق)",
     "hasRanks": "يملك رتبة / رتب",
-    "doesNotHaveRanks": "لا يملك رتبة/رتب"
+    "doesNotHaveRanks": "لا يملك رتبة/رتب",
+    "shiftSubType": "نوع فرعي للوردية",
+    "optional": "اختياري"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "هذا النموذج مفتوح لتقديمات جديدة",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "رتبة (رتب) شرطية",
     "automemberRobloxId": "معرف Roblox للعضو تلقائيًا",
     "communityMemberRobloxIdElement": "عنصر معرف Roblox لعضو المجتمع",
-    "stageHidden": "مرحلة مخفية"
+    "stageHidden": "مرحلة مخفية",
+    "type": "نوع"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -4580,7 +4585,9 @@
     "wasHealed": "تم الشفاء",
     "wasWanted": "تم تعيينه كـ \"مطلوب\"",
     "wasUnwanted": "تم تعيينه على غير مرغوب فيه",
-    "noteAdded": "تمت إضافة ملاحظة"
+    "noteAdded": "تمت إضافة ملاحظة",
+    "addedMessage": "أضيفت الرسالة",
+    "changedTheWeatherTo": "تم تغيير الطقس إلى"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "تأديبي",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "يسرد اسم مجتمع المروج لتنفيذ تدفق الترقية الجماعية.",
     "promotionsRanPromoterDiscordNameVariableLabel": "اسم Discord للمروج للترقيات التي تم تشغيلها",
     "promotionsRanPromoterDiscordNameVariableDesc": "يسرد اسم المستخدم/العلامة في Discord للمروج لتنفيذ تدفق الترقية الجماعية."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "أنواع وردية المؤقت",
+    "clockInTypesExplanation": "تتيح أنواع الورديات المخصصة للمستخدمين تسجيل الدخول ضمن فئات محددة (مثل، إدارة، شرطة). يمكن تصفية هذه الفئات في القوائم والتقارير.",
+    "addNewShiftType": "إضافة نوع وردية جديد"
   }
 }

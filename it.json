@@ -781,7 +781,9 @@
     "radioDesc": "Automatizza i permessi di Sonoran Radio con Sonoran CMS!",
     "communityNotFound": "Community Non Trovata",
     "errorAnErrorOccuredWhileExecuting": "Errore: Si è verificato un errore durante l'esecuzione",
-    "notificationPreferencesDescription": "Gestisci le preferenze di notifica per vari eventi e aggiornamenti della comunità."
+    "notificationPreferencesDescription": "Gestisci le preferenze di notifica per vari eventi e aggiornamenti della comunità.",
+    "shiftType": "Tipo di turno",
+    "none": "Nessuno"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial sugli Account Utente",
@@ -1209,7 +1211,9 @@
     "current": "Corrente",
     "teams": "Squadra(e)",
     "hasRanks": "Ha Classifica(he)",
-    "doesNotHaveRanks": "Non ha gradi"
+    "doesNotHaveRanks": "Non ha gradi",
+    "shiftSubType": "Sotto tipo di turno",
+    "optional": "Opzionale"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Questo modulo è sbloccato per nuove Sottomissioni",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Grado Condizionale/i",
     "automemberRobloxId": "ID Roblox Automatico Membri",
     "communityMemberRobloxIdElement": "Elemento ID Roblox membro della community",
-    "stageHidden": "Fase nascosta"
+    "stageHidden": "Fase nascosta",
+    "type": "Tipo"
   },
   "selectRoster": {
     "selectRoster": "Seleziona Elenco"
@@ -4580,7 +4585,9 @@
     "wasHealed": "è stato curato",
     "wasWanted": "era impostato su ricercato",
     "wasUnwanted": "è stato impostato su indesiderato",
-    "noteAdded": "Nota aggiunta"
+    "noteAdded": "Nota aggiunta",
+    "addedMessage": "messaggio aggiunto",
+    "changedTheWeatherTo": "cambiato il tempo in"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinare",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Elenca il nome della comunità del promotore per l'esecuzione del flusso promozionale multiplo.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Nome Discord Promotore Flussi Promozionali Eseguiti",
     "promotionsRanPromoterDiscordNameVariableDesc": "Elenca il nome utente/tag Discord del promotore per l'esecuzione del flusso promozionale multiplo."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Tipi di turno del cronometro",
+    "clockInTypesExplanation": "I tipi di turno personalizzati consentono agli utenti di timbrare il cartellino sotto specifiche categorie (ad es., Amministratore, Polizia). Queste categorie possono essere filtrate negli elenchi e nei report.",
+    "addNewShiftType": "Aggiungi nuovo tipo di turno"
   }
 }

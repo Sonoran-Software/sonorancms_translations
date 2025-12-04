@@ -781,7 +781,9 @@
     "radioDesc": "Automatisoi Sonoran Radion käyttöoikeudet Sonoran CMS:llä!",
     "communityNotFound": "Yhteisöä ei löydy",
     "errorAnErrorOccuredWhileExecuting": "Virhe: Virhe tapahtui suorituksen aikana",
-    "notificationPreferencesDescription": "Hallitse ilmoitusasetuksiasi eri yhteisötapahtumille ja päivityksille."
+    "notificationPreferencesDescription": "Hallitse ilmoitusasetuksiasi eri yhteisötapahtumille ja päivityksille.",
+    "shiftType": "Vuorotyypi",
+    "none": "Ei mitään"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -1209,7 +1211,9 @@
     "current": "Nykyinen",
     "teams": "Joukkue(ita)",
     "hasRanks": "On arvo(arvot)",
-    "doesNotHaveRanks": "Ei arvoa/arvoja"
+    "doesNotHaveRanks": "Ei arvoa/arvoja",
+    "shiftSubType": "Vuoron alalaji",
+    "optional": "Valinnainen"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tämä lomake on avoinna uusille lähetyksille",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Ehdollinen Arvo(t)",
     "automemberRobloxId": "Automaatiojäsen Roblox ID",
     "communityMemberRobloxIdElement": "Yhteisön jäsenen Roblox ID -elementti",
-    "stageHidden": "Piilotettu vaihe"
+    "stageHidden": "Piilotettu vaihe",
+    "type": "Tyyppi"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -4580,7 +4585,9 @@
     "wasHealed": "parani",
     "wasWanted": "oli asetettu etsintäkuulutetuksi",
     "wasUnwanted": "asetettiin ei-toivotuksi",
-    "noteAdded": "Merkintä lisätty"
+    "noteAdded": "Merkintä lisätty",
+    "addedMessage": "lisätty viesti",
+    "changedTheWeatherTo": "muutti sään"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "kurinpidollinen",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Listaa suorittajan yhteisön nimen monen ylennyksen virran suoritusta varten.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Suorittajan Discord-nimi suoritetulle ylennysvirralle",
     "promotionsRanPromoterDiscordNameVariableDesc": "Listaa suorittajan Discord-käyttäjänimen/tunnuksen monen ylennyksen virran suoritusta varten."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Aikakello Vuorotyypit",
+    "clockInTypesExplanation": "Mukautetut vuorotyypit antavat käyttäjien kirjautua sisään tiettyjen kategorioiden alle (esim. Ylläpito, Poliisi). Näitä kategorioita voidaan suodattaa listoissa ja raporteissa.",
+    "addNewShiftType": "Lisää uusi vuorotyyppi"
   }
 }

@@ -781,7 +781,9 @@
     "radioDesc": "Automatiser tillatelser for Sonoran Radio med Sonoran CMS!",
     "communityNotFound": "Fellesskap ikke funnet",
     "errorAnErrorOccuredWhileExecuting": "Feil: Det oppstod en feil under utførelsen",
-    "notificationPreferencesDescription": "Administrer dine varsler for ulike samfunnshendelser og oppdateringer."
+    "notificationPreferencesDescription": "Administrer dine varsler for ulike samfunnshendelser og oppdateringer.",
+    "shiftType": "Skifttype",
+    "none": "Ingen"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brukerkontoer Veiledning",
@@ -1209,7 +1211,9 @@
     "current": "Nåværende",
     "teams": "Team(er)",
     "hasRanks": "Har rang(er)",
-    "doesNotHaveRanks": "Har ikke rang(er)"
+    "doesNotHaveRanks": "Har ikke rang(er)",
+    "shiftSubType": "Underkategori for skift",
+    "optional": "Valgfritt"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Dette skjemaet er ulåst for nye innsendinger",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Betinget rang(er)",
     "automemberRobloxId": "Auto-Medlem Roblox-ID",
     "communityMemberRobloxIdElement": "Fellesskapsmedlem Roblox ID-element",
-    "stageHidden": "Skjult trinn"
+    "stageHidden": "Skjult trinn",
+    "type": "Type"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"
@@ -4580,7 +4585,9 @@
     "wasHealed": "ble ble \n\n",
     "wasWanted": "ble satt til ønsket",
     "wasUnwanted": "ble satt uønsket",
-    "noteAdded": "Notat lagt til"
+    "noteAdded": "Notat lagt til",
+    "addedMessage": "lagt til melding",
+    "changedTheWeatherTo": "endret været til"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disiplinær",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Lister promoterens fellesskapsnavn for multi-fremmingsflytutførelsen.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Fremminger kjørt promoter Discord-navn",
     "promotionsRanPromoterDiscordNameVariableDesc": "Lister promoterens Discord-brukernavn/tagg for multi-fremmingsflytutførelsen."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Tidspunktskiftetyper",
+    "clockInTypesExplanation": "Tilpassede skifttyper gir brukerne mulighet til å klokke inn under spesifikke kategorier (f.eks. Admin, Politi). Disse kategoriene kan filtreres i oppmøtelister og rapporter.",
+    "addNewShiftType": "Legg til ny skifttype"
   }
 }

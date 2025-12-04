@@ -781,7 +781,9 @@
     "radioDesc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!",
     "communityNotFound": "Gemenskap ej hittad",
     "errorAnErrorOccuredWhileExecuting": "Fel: Ett fel uppstod vid körning",
-    "notificationPreferencesDescription": "Hantera dina anpassade inställningar för olika communityevenemang och uppdateringar."
+    "notificationPreferencesDescription": "Hantera dina anpassade inställningar för olika communityevenemang och uppdateringar.",
+    "shiftType": "Skifttyp",
+    "none": "Ingen"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -1209,7 +1211,9 @@
     "current": "Nuvarande",
     "teams": "Lag",
     "hasRanks": "Har rang(er)",
-    "doesNotHaveRanks": "Har Inte Rang(er)"
+    "doesNotHaveRanks": "Har Inte Rang(er)",
+    "shiftSubType": "Skiftunderkategori",
+    "optional": "Valfri"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Detta formulär är upplåst för nya Inlämningar",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Villkorlig(a) rang(er)",
     "automemberRobloxId": "Auto-Medlem Roblox ID",
     "communityMemberRobloxIdElement": "Community member Roblox ID-element",
-    "stageHidden": "Dold etapp"
+    "stageHidden": "Dold etapp",
+    "type": "Typ"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -4580,7 +4585,9 @@
     "wasHealed": "läktes",
     "wasWanted": "ställdes till efterlyst",
     "wasUnwanted": "var inställd på oönskat",
-    "noteAdded": "Notering tillagd"
+    "noteAdded": "Notering tillagd",
+    "addedMessage": "lade till meddelande",
+    "changedTheWeatherTo": "ändrade vädret till"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinär",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Listar promotorns communitynamn för multi-befordringsflödets utförande.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Befordringar körde promotorns Discord-namn",
     "promotionsRanPromoterDiscordNameVariableDesc": "Listar promotorns Discord-användarnamn/tagg för multi-befordringsflödets utförande."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Tidklockans skifttyper",
+    "clockInTypesExplanation": "Anpassade skifttyper låter användare stämpla in under specifika kategorier (t.ex. Admin, Polis). Dessa kategorier kan filtreras i listor och rapporter.",
+    "addNewShiftType": "Lägg till ny skifttyp"
   }
 }

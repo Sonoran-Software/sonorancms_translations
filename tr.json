@@ -781,7 +781,9 @@
     "radioDesc": "Sonoran Radio izinlerini Sonoran CMS ile otomatikleştirin!",
     "communityNotFound": "Topluluk Bulunamadı",
     "errorAnErrorOccuredWhileExecuting": "Hata: Yürütülürken bir hata oluştu",
-    "notificationPreferencesDescription": "Farklı topluluk etkinlikleri ve güncellemeleri için bildirim tercihlerinizi yönetin."
+    "notificationPreferencesDescription": "Farklı topluluk etkinlikleri ve güncellemeleri için bildirim tercihlerinizi yönetin.",
+    "shiftType": "Vardiya Türü",
+    "none": "Hiçbiri"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -1209,7 +1211,9 @@
     "current": "Güncel",
     "teams": "Takım(lar)",
     "hasRanks": "Rütbe(leri) Var",
-    "doesNotHaveRanks": "Rütbesi Yok"
+    "doesNotHaveRanks": "Rütbesi Yok",
+    "shiftSubType": "Vardiya Alt Türü",
+    "optional": "İsteğe Bağlı"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Bu form yeni gönderimler için kilidi açılmıştır",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Koşullu Rütbe(ler)",
     "automemberRobloxId": "Otomatik Üye Roblox Kimliği",
     "communityMemberRobloxIdElement": "Topluluk üyesi Roblox Kimliği öğesi",
-    "stageHidden": "Gizli Aşama"
+    "stageHidden": "Gizli Aşama",
+    "type": "Tür"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -4580,7 +4585,9 @@
     "wasHealed": "iyileştirildi",
     "wasWanted": "aranan kişi olarak ayarlandı",
     "wasUnwanted": "istenmeyene ayarlandı",
-    "noteAdded": "Not eklendi"
+    "noteAdded": "Not eklendi",
+    "addedMessage": "mesaj eklendi",
+    "changedTheWeatherTo": "hava durumu değiştirildi"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disiplin cezası",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Çoklu terfi akışı yürütümü için promotörün topluluk adını listeler.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Terfiler Çalıştıran Promotör Discord Adı",
     "promotionsRanPromoterDiscordNameVariableDesc": "Çoklu terfi akışı yürütümü için promotörün Discord kullanıcı adı/etiketini listeler."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Zaman Saati Vardiya Türleri",
+    "clockInTypesExplanation": "Özel vardiya türleri, kullanıcıların belirli kategoriler altında giriş yapmalarına olanak tanır (örn: Yönetici, Polis). Bu kategoriler listelerde ve raporlarda filtrelenebilir.",
+    "addNewShiftType": "Yeni vardiya türü ekle"
   }
 }

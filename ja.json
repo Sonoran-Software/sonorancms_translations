@@ -781,7 +781,9 @@
     "radioDesc": "Sonoran CMSでSonoran Radioの権限を自動化！",
     "communityNotFound": "コミュニティが見つかりません",
     "errorAnErrorOccuredWhileExecuting": "エラー: 実行中にエラーが発生しました",
-    "notificationPreferencesDescription": "さまざまなコミュニティイベントや更新の通知設定を管理します。"
+    "notificationPreferencesDescription": "さまざまなコミュニティイベントや更新の通知設定を管理します。",
+    "shiftType": "シフトタイプ",
+    "none": "なし"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -1209,7 +1211,9 @@
     "current": "現在",
     "teams": "チーム",
     "hasRanks": "ランクを持っている",
-    "doesNotHaveRanks": "ランクなし"
+    "doesNotHaveRanks": "ランクなし",
+    "shiftSubType": "シフトサブタイプ",
+    "optional": "オプショナル"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "このフォームは新しい提出からロックされています",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "条件付きランク",
     "automemberRobloxId": "自動メンバー Roblox ID",
     "communityMemberRobloxIdElement": "コミュニティメンバーロブロックスID要素",
-    "stageHidden": "非表示ステージ"
+    "stageHidden": "非表示ステージ",
+    "type": "タイプ"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -4580,7 +4585,9 @@
     "wasHealed": "治癒されました",
     "wasWanted": "指名手配に設定されました",
     "wasUnwanted": "望ましくない設定がされました",
-    "noteAdded": "メモが追加されました"
+    "noteAdded": "メモが追加されました",
+    "addedMessage": "メッセージを追加しました",
+    "changedTheWeatherTo": "天気を変更しました"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "懲戒",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "マルチプロモーションフロー実行のためのプロモーターのコミュニティ名をリストします。",
     "promotionsRanPromoterDiscordNameVariableLabel": "プロモーターのDiscord名",
     "promotionsRanPromoterDiscordNameVariableDesc": "マルチプロモーションフロー実行のためのプロモーターのDiscordユーザー名/タグをリストします。"
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "タイムクロックシフトタイプ",
+    "clockInTypesExplanation": "カスタムシフトタイプを使用すると、ユーザーは特定のカテゴリー（例：管理者、警察）でタイムカードを打刻できます。これらのカテゴリーは名簿やレポートでフィルタリングできます。",
+    "addNewShiftType": "新しいシフトタイプを追加"
   }
 }

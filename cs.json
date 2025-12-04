@@ -781,7 +781,9 @@
     "radioDesc": "Automatizujte oprávnění Sonoran Radio pomocí Sonoran CMS!",
     "communityNotFound": "Komunita nenalezena",
     "errorAnErrorOccuredWhileExecuting": "Chyba: Při provádění došlo k chybě",
-    "notificationPreferencesDescription": "Spravujte své preference oznámení pro různé komunitní události a aktualizace."
+    "notificationPreferencesDescription": "Spravujte své preference oznámení pro různé komunitní události a aktualizace.",
+    "shiftType": "Typ směny",
+    "none": "Žádný"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -1209,7 +1211,9 @@
     "current": "Aktuální",
     "teams": "Tým(y)",
     "hasRanks": "Má hodnost(i)",
-    "doesNotHaveRanks": "Nemá hodnost(i)"
+    "doesNotHaveRanks": "Nemá hodnost(i)",
+    "shiftSubType": "Podtyp směny",
+    "optional": "Volitelné"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Tento formulář je odemčen pro nové příspěvky",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Podmínková hodnost(i)",
     "automemberRobloxId": "Automatické členství Roblox ID",
     "communityMemberRobloxIdElement": "ID uživatele Roblox ve vaší komunitě",
-    "stageHidden": "Skrytá etapa"
+    "stageHidden": "Skrytá etapa",
+    "type": "Typ"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -4580,7 +4585,9 @@
     "wasHealed": "byl vyléčen",
     "wasWanted": "byl nastaven na hledaný",
     "wasUnwanted": "nastaveno na nežádoucí",
-    "noteAdded": "Poznámka přidána"
+    "noteAdded": "Poznámka přidána",
+    "addedMessage": "přidaná zpráva",
+    "changedTheWeatherTo": "změnil počasí na"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinární",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Uvádí název komunity promotéra pro provedení více proudu promo akcí.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Uživatelské jméno Discordu promotéra pro spuštěné promoční akce",
     "promotionsRanPromoterDiscordNameVariableDesc": "Uvádí uživatelské jméno/tag Discordu promotéra pro provedení více proudu promo akcí."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Typy směn časomíry",
+    "clockInTypesExplanation": "Vlastní typy směn umožňují uživatelům přihlašovat se do specifických kategorií (např. Admin, Policie). Tyto kategorie mohou být filtrovány v seznamech a zprávách.",
+    "addNewShiftType": "Přidat nový typ směny"
   }
 }

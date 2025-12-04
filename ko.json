@@ -781,7 +781,9 @@
     "radioDesc": "Sonoran CMS로 Sonoran Radio 권한을 자동화하세요!",
     "communityNotFound": "커뮤니티를 찾을 수 없습니다",
     "errorAnErrorOccuredWhileExecuting": "오류: 실행 중 오류가 발생했습니다",
-    "notificationPreferencesDescription": "여러 커뮤니티 이벤트 및 업데이트에 대한 알림 환경설정을 관리하세요."
+    "notificationPreferencesDescription": "여러 커뮤니티 이벤트 및 업데이트에 대한 알림 환경설정을 관리하세요.",
+    "shiftType": "근무 유형",
+    "none": "없음"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "사용자 계정 사용 방법 배우기",
@@ -1209,7 +1211,9 @@
     "current": "현재",
     "teams": "팀(들)",
     "hasRanks": "등급 있음",
-    "doesNotHaveRanks": "순위 없음"
+    "doesNotHaveRanks": "순위 없음",
+    "shiftSubType": "근무 하위 유형",
+    "optional": "선택 사항"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "이 양식은 새로운 제출이 불가능합니다",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "조건부 계급",
     "automemberRobloxId": "자동 맴버 Roblox ID",
     "communityMemberRobloxIdElement": "커뮤니티 멤버 Roblox ID 요소",
-    "stageHidden": "숨겨진 단계"
+    "stageHidden": "숨겨진 단계",
+    "type": "유형"
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -4580,7 +4585,9 @@
     "wasHealed": "치료를 받았습니다",
     "wasWanted": "수배로 설정됨",
     "wasUnwanted": "원하지 않는 것으로 설정되었습니다.",
-    "noteAdded": "메모 추가됨"
+    "noteAdded": "메모 추가됨",
+    "addedMessage": "추가된 메시지",
+    "changedTheWeatherTo": "날씨를 변경함"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "징계",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "다중 승진 흐름 실행을 위한 프로모터의 커뮤니티 이름을 나열합니다.",
     "promotionsRanPromoterDiscordNameVariableLabel": "승진 실행 프로모터 Discord 이름",
     "promotionsRanPromoterDiscordNameVariableDesc": "다중 승진 흐름 실행을 위한 프로모터의 Discord 사용자 이름/태그를 나열합니다."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "근무 시간 유형",
+    "clockInTypesExplanation": "사용자 정의 근무 유형을 통해 사용자가 특정 카테고리(예: 관리자, 경찰)로 근무 시간을 기록할 수 있습니다. 이러한 카테고리는 명단과 보고서에서 필터링할 수 있습니다.",
+    "addNewShiftType": "새 근무 유형 추가"
   }
 }

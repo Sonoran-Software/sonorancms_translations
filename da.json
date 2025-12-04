@@ -781,7 +781,9 @@
     "radioDesc": "Automatiser Sonoran Radio tilladelser med Sonoran CMS!",
     "communityNotFound": "Fællesskab ikke fundet",
     "errorAnErrorOccuredWhileExecuting": "Fejl: Der opstod en fejl under udførelse",
-    "notificationPreferencesDescription": "Administrer dine notifikationsindstillinger for forskellige fællesskabsbegivenheder og opdateringer."
+    "notificationPreferencesDescription": "Administrer dine notifikationsindstillinger for forskellige fællesskabsbegivenheder og opdateringer.",
+    "shiftType": "Vagt Type",
+    "none": "Ingen"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brugerkonti Vejledning",
@@ -1209,7 +1211,9 @@
     "current": "Nuværende",
     "teams": "Hold(s)",
     "hasRanks": "Har Rang(er)",
-    "doesNotHaveRanks": "Har Ikke Rang(er)"
+    "doesNotHaveRanks": "Har Ikke Rang(er)",
+    "shiftSubType": "Vagt Under Type",
+    "optional": "Valgfrit"
   },
   "FormEditSelector": {
     "thisFormIsUnlockedForNewSubmissions": "Denne formular er ulåst for nye indsendelser",
@@ -3666,7 +3670,8 @@
     "conditionalRanks": "Betinget rang(er)",
     "automemberRobloxId": "Auto-medlems Roblox-ID",
     "communityMemberRobloxIdElement": "Fællesskabsmedlem Roblox ID-element",
-    "stageHidden": "Skjult stadie"
+    "stageHidden": "Skjult stadie",
+    "type": "Type"
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"
@@ -4580,7 +4585,9 @@
     "wasHealed": "blev helbredt",
     "wasWanted": "blev sat til ønsket",
     "wasUnwanted": "blev sat til uønsket",
-    "noteAdded": "Notat tilføjet"
+    "noteAdded": "Notat tilføjet",
+    "addedMessage": "tilføjet besked",
+    "changedTheWeatherTo": "ændrede vejret til"
   },
   "ERLCPlayerPopup": {
     "disciplinary": "disciplinær",
@@ -4799,5 +4806,10 @@
     "promotionsRanPromoterComNameVariableDesc": "Lister promoterens fællesskabsnavn for multi-forfremmelses flow udførelse.",
     "promotionsRanPromoterDiscordNameVariableLabel": "Forfremmelser Kørt Promoter Discord Navn",
     "promotionsRanPromoterDiscordNameVariableDesc": "Lister promoterens Discord brugernavn/tag for multi-forfremmelses flow udførelse."
+  },
+  "ClockInTypesConfigurator": {
+    "clockInTypes": "Tidsur Vagt Typer",
+    "clockInTypesExplanation": "Brugerdefinerede vagttyper giver brugerne mulighed for at logge ind under specifikke kategorier (f.eks., Admin, Politi). Disse kategorier kan filtreres i lister og rapporter.",
+    "addNewShiftType": "Tilføj ny vagttype"
   }
 }
