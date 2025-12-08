@@ -3409,7 +3409,11 @@
     "provideRsvpLimit1Unlimited": "Provide RSVP Limit! -1 = Unlimited",
     "noOneHasRsvpdYet": "No one has RSVPd yet...",
     "error": "Error:",
-    "errorUnsuccessfullySavedEventDetailsDueT": "`Error: Unsuccessfully saved event details due to an internal error`"
+    "errorUnsuccessfullySavedEventDetailsDueT": "`Error: Unsuccessfully saved event details due to an internal error`",
+    "discordCalenderSync": "Discord Calendar Sync",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "eventCreation": "Event Creation"
   },
   "dashboardView": {
     "pending": "PENDING",
