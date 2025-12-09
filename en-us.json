@@ -2158,7 +2158,19 @@
     "value": "Value",
     "checked": "Checked",
     "unchecked": "Unchecked",
-    "someValue": "Some Value"
+    "someValue": "Some Value",
+    "calendarEvents": "Calender Events",
+    "eventCreation": "Event Creation",
+    "eventStart": "Event Start",
+    "eventEnd": "Event End",
+    "eventNameVariableLabel": "Event Name",
+    "eventNameValueVariableDesc": "This will state the name of the event.",
+    "eventDescriptionVariableLabel": "Event Description",
+    "eventDescriptionValueVariableDesc": "This will state the description of the event.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP List Discord Mentions",
+    "rsvpDiscordMentionsValueVariableDesc": "This will state the Discord mentions of the entire RSVP list.",
+    "rsvpComNamesVariableLabel": "RSVP List Community Names",
+    "rsvpComNamesValueVariableDesc": "This will state the community names of the entire RSVP list."
   },
   "integrationsPortal": {
     "title": "Official Integrations",
