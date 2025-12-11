@@ -1564,6 +1564,7 @@
     "inbox": "Inbox",
     "desktop": "Desktop",
     "mobile": "Mobile",
+    "discord": "Discord",
     "formStatusChange": "Form Status Change",
     "willNotifyYouWhenAnyFormYouSubmittedStat": "Will notify you when any form you submitted status has been changed.",
     "formSubmission": "Form Submission",
@@ -1579,7 +1580,9 @@
     "stageActions": "Stage Actions",
     "whenAFormStageActionNotificationIsTrigge": "When a form stage action notification is triggered yo'ull be notified through Inbox and other preferences selected.",
     "disciplinaryActions": "Disciplinary Actions",
-    "whenADisciplinaryActionNotificationIsTri": "When a disciplinary action notification is triggered you'll be notified through Inbox and other preferences selected."
+    "whenADisciplinaryActionNotificationIsTri": "When a disciplinary action notification is triggered you'll be notified through Inbox and other preferences selected.",
+    "erlcShiftReports": "ER:LC Shift Reports",
+    "willNotifyYouWithAERLCShiftReport": "Will notify you via Discord when an ER:LC shift is completed with useful information."
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Specify the amount of time it takes for points to expire.",
@@ -1748,6 +1751,7 @@
     "inbox": "Inbox",
     "desktop": "Desktop",
     "mobile": "Mobile",
+    "discord": "Discord",
     "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:"
   },
   "rosterView": {
