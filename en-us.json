@@ -4865,7 +4865,11 @@
     "clockInTypesExplanation": "Custom shift types let users clock in under specific categories (e.g., Admin, Police). These categories can be filtered in rosters and reports.",
     "addNewShiftType": "Add new shift type"
   },
-  "RobloxNavigation": {
+  "ServerSessionHandler": {
+    "ago": "ago",
+    "unknownTime": "Unknown Time",
+    "unknownAccount": "Unknown Account",
+    "startedBy": "Started by",
     "startSession": "Start Session",
     "cancelSession": "Cancel Session",
     "endSession": "End Session",
