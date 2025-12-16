@@ -621,7 +621,8 @@
     "anErrorOccuredWhileVerifyingUsernameTr": "An error occured while verifying username: ",
     "usernamePassedVerificationTr": "Username passed verification!",
     "addedRanks": "Added Ranks",
-    "removedRanks": "Removed Ranks"
+    "removedRanks": "Removed Ranks",
+    "session": "Session"
   },
   "Dashboard": {
     "resync": "Resync",
@@ -1888,7 +1889,16 @@
     "formsembedfooter": "Embed Footer",
     "formsembedfootertext": "Embed Footer Text",
     "formsembedfootericonurl": "Embed Footer Icon URL",
-    "addEmbed": "Add Embed"
+    "addEmbed": "Add Embed",
+    "embedButtons": "Embed Buttons",
+    "commonButtonRow": "Button Row",
+    "removeButtonRowFromEmbed": "Remove Button Row",
+    "addButtonRowToEmbed": "Add Button Row",
+    "removeButtonFromRowRowFromEmbed": "Remove Button From Row",
+    "commonButton": "Button",
+    "addButtonToRowToEmbed": "Add Button To Row",
+    "embedButtonLabel": "Button Label",
+    "embedButtonUrl": "Button URL"
   },
   "fileUploader": {
     "commonuploader": "Uploader",
@@ -2174,7 +2184,10 @@
     "rsvpDiscordMentionsVariableLabel": "RSVP List Discord Mentions",
     "rsvpDiscordMentionsValueVariableDesc": "This will state the Discord mentions of the entire RSVP list.",
     "rsvpComNamesVariableLabel": "RSVP List Community Names",
-    "rsvpComNamesValueVariableDesc": "This will state the community names of the entire RSVP list."
+    "rsvpComNamesValueVariableDesc": "This will state the community names of the entire RSVP list.",
+    "sessionStart": "Session Start",
+    "sessionEnd": "Session End",
+    "serverSessions": "Server Sessions"
   },
   "integrationsPortal": {
     "title": "Official Integrations",
@@ -4851,5 +4864,13 @@
     "clockInTypes": "Timeclock Shift Types",
     "clockInTypesExplanation": "Custom shift types let users clock in under specific categories (e.g., Admin, Police). These categories can be filtered in rosters and reports.",
     "addNewShiftType": "Add new shift type"
+  },
+  "RobloxNavigation": {
+    "startSession": "Start Session",
+    "cancelSession": "Cancel Session",
+    "endSession": "End Session",
+    "activeSession": "Active Session",
+    "cancel": "Cancel",
+    "end": "End"
   }
 }
