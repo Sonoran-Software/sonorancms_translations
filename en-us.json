@@ -2187,7 +2187,11 @@
     "rsvpComNamesValueVariableDesc": "This will state the community names of the entire RSVP list.",
     "sessionStart": "Session Start",
     "sessionEnd": "Session End",
-    "serverSessions": "Server Sessions"
+    "serverSessions": "Server Sessions",
+    "enabledWhen": "Enabled When",
+    "requirement": "Requirement",
+    "serverInSession": "Server In-Session",
+    "servers": "Server(s)"
   },
   "integrationsPortal": {
     "title": "Official Integrations",
