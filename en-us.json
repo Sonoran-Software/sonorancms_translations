@@ -270,13 +270,14 @@
   "calendar": {
     "viewEvents": "View Events",
     "createEvents": "Create Events",
-    "removeEvents": "Remove Events",
-    "editEvents": "Edit Events",
+    "removeOthersEvents": "Remove Others Events",
+    "editOthersEvents": "Edit Others Events",
     "loginToViewEvent": "Login to View Event",
     "createEvent": "Create an Event - Category",
     "eventNotFound": "Event Not Found/Accessible",
     "eventNotFoundDesc": "Either the event does not exist or you do not have permission to view this event directly.",
-    "editOtherEvents": "Edit Other Events"
+    "removeOwnEvents": "Remove Own Events",
+    "editOwnEvents": "Edit Own Events"
   },
   "limits": {
     "version": "Version",
@@ -4394,8 +4395,10 @@
     "allowsMembersToViewThisPage": "Allows members to view this page.",
     "allowsMembersToViewEventsThatAreCreatedI": "Allows members to view events that are created in this category.",
     "allowsMembersToCreateEventsWithinThisCat": "Allows members to create events within this category.",
-    "allowsMembersToRemoveEventsWithinThisCat": "Allows members to remove events within this category.",
-    "allowsMembersToEditMembersEventsInT": "Allows members to edit events in this category.",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Allows members to remove other members events within this category.",
+    "allowsMembersToEditOtherMembersEventsInT": "Allows members to edit other members events in this category.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Allows members to remove their own events in this category.",
+    "allowsMembersToEditTheirOwnEventsInT": "Allows members to edit their own events in this category.",
     "restrictVisibility": "Restrict Visibility",
     "membersWithThisPermissionWillHaveThisPro": "Members with this permission will have this profile field on their Community Profile.",
     "allowEditing": "Allow Editing",
