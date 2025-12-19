@@ -286,7 +286,11 @@
     "eventNotFound": "Událost nenalezena/nepřístupná",
     "eventNotFoundDesc": "Buď událost neexistuje, nebo nemáte oprávnění tuto událost přímo zobrazit.",
     "editEvents": "Upravit události",
-    "loginToViewEvent": "Přihlaste se pro zobrazení události"
+    "loginToViewEvent": "Přihlaste se pro zobrazení události",
+    "removeOthersEvents": "Odstranit akce ostatních",
+    "editOthersEvents": "Upravit akce ostatních",
+    "removeOwnEvents": "Odstranit vlastní akce",
+    "editOwnEvents": "Upravit vlastní akce"
   },
   "limits": {
     "version": "Verze",
@@ -631,7 +635,8 @@
     "addedRanks": "Přidané hodnosti",
     "removedRanks": "Odstraněné hodnosti",
     "qbcoreQboxPanelDocumentation": "Dokumentace panelu QBCore & QBox",
-    "erlcPanelDocumentation": "Dokumentace panelu ER:LC"
+    "erlcPanelDocumentation": "Dokumentace panelu ER:LC",
+    "session": "Relace"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -1532,7 +1537,10 @@
     "stageActions": "Akce stupně",
     "whenAFormStageActionNotificationIsTrigge": "Když je spuštěno oznámení o akci fáze formuláře, budete upozorněni prostřednictvím Doručené pošty a dalších vybraných preferencí.",
     "disciplinaryActions": "Kárná opatření",
-    "whenADisciplinaryActionNotificationIsTri": "Když je spuštěno oznámení o disciplinárním opatření, budete o tom informováni prostřednictvím Doručené pošty a dalších vybraných preferencí."
+    "whenADisciplinaryActionNotificationIsTri": "Když je spuštěno oznámení o disciplinárním opatření, budete o tom informováni prostřednictvím Doručené pošty a dalších vybraných preferencí.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Posunové zprávy",
+    "willNotifyYouWithAERLCShiftReport": "Bude vás upozorňovat prostřednictvím Discordu, když se dokončí směna ER:LC s užitečnými informacemi."
   },
   "profileView": {
     "commmunityProfileTutorial": "Návod na komunitní profil",
@@ -1689,7 +1697,8 @@
     "inbox": "Doručená pošta",
     "desktop": "Desktop",
     "mobile": "Mobil",
-    "anErrorOccuredWhileUpdatingNotificationP": "Došlo k chybě při aktualizaci preferencí oznámení, zkuste to znovu později. Chyba:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Došlo k chybě při aktualizaci preferencí oznámení, zkuste to znovu později. Chyba:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Členů na stránku:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Vložit zápatí",
     "formsembedfootertext": "Text zápatí",
     "formsembedfootericonurl": "URL ikony zápatí",
-    "addEmbed": "Přidat vložení"
+    "addEmbed": "Přidat vložení",
+    "embedButtons": "Vložit tlačítka",
+    "commonButtonRow": "Řádek tlačítek",
+    "removeButtonRowFromEmbed": "Odstranit řádek tlačítek",
+    "addButtonRowToEmbed": "Přidat řádek tlačítek",
+    "removeButtonFromRowRowFromEmbed": "Odstranit tlačítko z řádku",
+    "commonButton": "Tlačítko",
+    "addButtonToRowToEmbed": "Přidat tlačítko do řádku",
+    "embedButtonLabel": "Štítek tlačítka",
+    "embedButtonUrl": "URL tlačítka"
   },
   "fileUploader": {
     "commonuploader": "Nahrávač",
@@ -3302,7 +3320,11 @@
     "error": "Chyba:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Chyba: Podrobnosti události nebyly úspěšně uloženy kvůli interní chybě`",
     "calendareditevents": "Upravit události",
-    "copyShareLink": "Kopírovat odkaz ke sdílení"
+    "copyShareLink": "Kopírovat odkaz ke sdílení",
+    "discordCalenderSync": "Synchronizace kalendáře Discord",
+    "enabled": "Povoleno",
+    "disabled": "Zakázáno",
+    "eventCreation": "Vytváření události"
   },
   "dashboardView": {
     "pending": "ČEKÁ",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Umožňuje členům spouštět modifikační příkazy v herním panelu pro tento server.",
     "runRpCommand": "Spustit ​​RP příkaz",
     "allowsMembersToRunRpCommandsInTheGamePan": "Umožňuje členům spouštět RP příkazy v herním panelu pro tento server.",
-    "allowMembersToViewHiddenStages": "Povolit členům zobrazit podrobnosti o fázích skrytých fází v Mých formulářích"
+    "allowMembersToViewHiddenStages": "Povolit členům zobrazit podrobnosti o fázích skrytých fází v Mých formulářích",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Umožňuje členům odstranit události ostatních členů v této kategorii.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Umožňuje členům odstranit vlastní události v této kategorii.",
+    "allowsMembersToEditTheirOwnEventsInT": "Umožňuje členům upravit vlastní události v této kategorii."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "Zkontrolujte prosím svůj webhooks v Sonoran CMS a ujistěte se, že jsou správně nakonfigurovány pro server ER:LC.",
     "webhookChannel": "webhookový kanál",
     "webhookEmbedContent": "webhookVloženýObsah",
-    "webhookContentHint": "Obsah webhooku"
+    "webhookContentHint": "Obsah webhooku",
+    "customTriggerERLCNotiContentDescription": "Tato akce automaticky pošle notifikaci ERLC na zvolený ERLC server, když je splněn nastavený spouštěč.",
+    "customTriggerERLCHintContentDescription": "Tato akce automaticky pošle nápovědu ERLC na zvolený ERLC server, když je splněn nastavený spouštěč.",
+    "customTriggerDiscordWebhookContentDescription": "Tato akce automaticky vykoná Discord webhook, když je splněn nastavený spouštěč."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rankUpozorněníPozice",
@@ -4700,7 +4728,26 @@
     "value": "Hodnota",
     "checked": "Zaškrtnuto",
     "unchecked": "Nezaškrtnuto",
-    "someValue": "Nějaká hodnota"
+    "someValue": "Nějaká hodnota",
+    "calendarEvents": "Události kalendáře",
+    "eventCreation": "Vytváření události",
+    "eventStart": "Začátek události",
+    "eventEnd": "Konec události",
+    "eventNameVariableLabel": "Název události",
+    "eventNameValueVariableDesc": "Tohle bude uvádět název události.",
+    "eventDescriptionVariableLabel": "Popis události",
+    "eventDescriptionValueVariableDesc": "Tohle bude uvádět popis události.",
+    "rsvpDiscordMentionsVariableLabel": "Seznam RSVP zmínek na Discordu",
+    "rsvpDiscordMentionsValueVariableDesc": "Tohle bude uvádět Discord zmínky celého seznamu RSVP.",
+    "rsvpComNamesVariableLabel": "Seznam RSVP jmen komunity",
+    "rsvpComNamesValueVariableDesc": "Tohle bude uvádět jména komunity celého seznamu RSVP.",
+    "sessionStart": "Začátek relace",
+    "sessionEnd": "Konec relace",
+    "serverSessions": "Relace serveru",
+    "enabledWhen": "Povoleno, když",
+    "requirement": "Požadavek",
+    "serverInSession": "Server v relaci",
+    "servers": "Server(y)"
   },
   "integrationsPortal": {
     "title": "Oficiální integrace",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Typy směn časomíry",
     "clockInTypesExplanation": "Vlastní typy směn umožňují uživatelům přihlašovat se do specifických kategorií (např. Admin, Policie). Tyto kategorie mohou být filtrovány v seznamech a zprávách.",
     "addNewShiftType": "Přidat nový typ směny"
+  },
+  "ServerSessionHandler": {
+    "ago": "před",
+    "unknownTime": "Neznámý čas",
+    "unknownAccount": "Neznámý účet",
+    "startedBy": "Zahájeno",
+    "startSession": "Zahájit relaci",
+    "cancelSession": "Zrušit relaci",
+    "endSession": "Ukončit relaci",
+    "activeSession": "Aktivní relace",
+    "cancel": "Zrušit",
+    "end": "Konec"
   }
 }

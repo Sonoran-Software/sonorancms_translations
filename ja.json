@@ -286,7 +286,11 @@
     "eventNotFound": "イベントが見つからない/アクセスできない",
     "eventNotFoundDesc": "イベントが存在しないか、このイベントを直接見る権限がありません。",
     "editEvents": "イベントを編集",
-    "loginToViewEvent": "イベントを表示するにはログインしてください"
+    "loginToViewEvent": "イベントを表示するにはログインしてください",
+    "removeOthersEvents": "他人のイベントを削除",
+    "editOthersEvents": "他人のイベントを編集",
+    "removeOwnEvents": "自分のイベントを削除",
+    "editOwnEvents": "自分のイベントを編集"
   },
   "limits": {
     "version": "バージョン",
@@ -631,7 +635,8 @@
     "removedRanks": "削除されたランク",
     "askAiAQuestion": "AIに質問をする…",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox パネルドキュメント",
-    "erlcPanelDocumentation": "ER:LC パネルドキュメント"
+    "erlcPanelDocumentation": "ER:LC パネルドキュメント",
+    "session": "セッション"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -1532,7 +1537,10 @@
     "stageActions": "ステージアクション",
     "whenAFormStageActionNotificationIsTrigge": "フォームステージアクション通知がトリガーされると、受信トレイおよび選択されたその他の設定を通じて通知されます。",
     "disciplinaryActions": "懲戒処分",
-    "whenADisciplinaryActionNotificationIsTri": "懲戒処分の通知が発動されると、受信トレイや選択した他の設定を通じて通知されます。"
+    "whenADisciplinaryActionNotificationIsTri": "懲戒処分の通知が発動されると、受信トレイや選択した他の設定を通じて通知されます。",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LCシフトレポート",
+    "willNotifyYouWithAERLCShiftReport": "Discordを通じて、ER:LCのシフトが完了した際に有用な情報とともに通知します。"
   },
   "profileView": {
     "commmunityProfileTutorial": "コミュニティプロフィールについて学ぶ",
@@ -1689,7 +1697,8 @@
     "inbox": "デスクトップ",
     "desktop": "モバイル",
     "mobile": "通知設定の更新中にエラーが発生しました。後でもう一度試してください。エラー:",
-    "anErrorOccuredWhileUpdatingNotificationP": "ページごとのメンバー数:"
+    "anErrorOccuredWhileUpdatingNotificationP": "ページごとのメンバー数:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "閉じる",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "フッターテキストを埋め込む",
     "formsembedfootertext": "フッターアイコンURLを埋め込む",
     "formsembedfootericonurl": "埋め込みを追加",
-    "addEmbed": "アップローダー"
+    "addEmbed": "アップローダー",
+    "embedButtons": "埋め込みボタン",
+    "commonButtonRow": "ボタン行",
+    "removeButtonRowFromEmbed": "ボタン行を削除",
+    "addButtonRowToEmbed": "ボタン行を追加",
+    "removeButtonFromRowRowFromEmbed": "行からボタンを削除",
+    "commonButton": "ボタン",
+    "addButtonToRowToEmbed": "行にボタンを追加",
+    "embedButtonLabel": "ボタンラベル",
+    "embedButtonUrl": "ボタンURL"
   },
   "fileUploader": {
     "commonuploader": "閉じる",
@@ -3302,7 +3320,11 @@
     "error": "イベントを正常に保存しました：",
     "errorUnsuccessfullySavedEventDetailsDueT": "保留中",
     "calendareditevents": "イベントを編集",
-    "copyShareLink": "共有リンクをコピー"
+    "copyShareLink": "共有リンクをコピー",
+    "discordCalenderSync": "Discordカレンダー同期",
+    "enabled": "有効",
+    "disabled": "無効",
+    "eventCreation": "イベント作成"
   },
   "dashboardView": {
     "pending": "利用可能なフォームページ",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "このサーバーのゲームパネルでメンバーがモッドコマンドを実行することを許可します。",
     "runRpCommand": "RPコマンドを実行する",
     "allowsMembersToRunRpCommandsInTheGamePan": "このサーバーのゲームパネルでメンバーがRPコマンドを実行できるようにします。",
-    "allowMembersToViewHiddenStages": "マイフォームの隠しステージのステージ詳細をメンバーが表示できる"
+    "allowMembersToViewHiddenStages": "マイフォームの隠しステージのステージ詳細をメンバーが表示できる",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "このカテゴリ内で他のメンバーのイベントを削除できるよう許可します。",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "このカテゴリ内で自分のイベントを削除できるよう許可します。",
+    "allowsMembersToEditTheirOwnEventsInT": "このカテゴリ内で自分のイベントを編集できるよう許可します。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "erlcヒントコンテンツ",
     "webhookChannel": "webhookチャンネル",
     "webhookEmbedContent": "webhook埋め込みコンテンツ",
-    "webhookContentHint": "Webhookコンテンツのヒント"
+    "webhookContentHint": "Webhookコンテンツのヒント",
+    "customTriggerERLCNotiContentDescription": "このアクションは、設定されたトリガーが発生した際に、指定されたERLCサーバーに自動的にERLC通知を送信します。",
+    "customTriggerERLCHintContentDescription": "このアクションは、設定されたトリガーが発生した際に、指定されたERLCサーバーに自動的にERLCヒントを送信します。",
+    "customTriggerDiscordWebhookContentDescription": "このアクションは、設定されたトリガーが発生した際に、Discordウェブフックを自動的に実行します。"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "ランク通知ランク",
@@ -4700,7 +4728,26 @@
     "value": "値",
     "checked": "チェック済み",
     "unchecked": "未チェック",
-    "someValue": "ある値"
+    "someValue": "ある値",
+    "calendarEvents": "カレンダーイベント",
+    "eventCreation": "イベント作成",
+    "eventStart": "イベント開始",
+    "eventEnd": "イベント終了",
+    "eventNameVariableLabel": "イベント名",
+    "eventNameValueVariableDesc": "イベントの名前を示します。",
+    "eventDescriptionVariableLabel": "イベントの説明",
+    "eventDescriptionValueVariableDesc": "イベントの説明を示します。",
+    "rsvpDiscordMentionsVariableLabel": "RSVPリストDiscordメンション",
+    "rsvpDiscordMentionsValueVariableDesc": "RSVPリスト全体のDiscordメンションを示します。",
+    "rsvpComNamesVariableLabel": "RSVPリストコミュニティ名",
+    "rsvpComNamesValueVariableDesc": "RSVPリスト全体のコミュニティ名を示します。",
+    "sessionStart": "セッション開始",
+    "sessionEnd": "セッション終了",
+    "serverSessions": "サーバーセッション",
+    "enabledWhen": "有効にする条件",
+    "requirement": "要件",
+    "serverInSession": "セッション中のサーバー",
+    "servers": "サーバー"
   },
   "integrationsPortal": {
     "title": "公式統合",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "タイムクロックシフトタイプ",
     "clockInTypesExplanation": "カスタムシフトタイプを使用すると、ユーザーは特定のカテゴリー（例：管理者、警察）でタイムカードを打刻できます。これらのカテゴリーは名簿やレポートでフィルタリングできます。",
     "addNewShiftType": "新しいシフトタイプを追加"
+  },
+  "ServerSessionHandler": {
+    "ago": "前",
+    "unknownTime": "不明な時間",
+    "unknownAccount": "不明なアカウント",
+    "startedBy": "開始者",
+    "startSession": "セッション開始",
+    "cancelSession": "セッションキャンセル",
+    "endSession": "セッション終了",
+    "activeSession": "アクティブなセッション",
+    "cancel": "キャンセル",
+    "end": "終了"
   }
 }

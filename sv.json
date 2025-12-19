@@ -286,7 +286,11 @@
     "eventNotFound": "Evenemang Ej Hittat/Tillgängligt",
     "eventNotFoundDesc": "Antingen existerar inte evenemanget eller så har du inte behörighet att se detta evenemang direkt.",
     "editEvents": "Redigera evenemang",
-    "loginToViewEvent": "Logga in för att se evenemang"
+    "loginToViewEvent": "Logga in för att se evenemang",
+    "removeOthersEvents": "Ta bort andras evenemang",
+    "editOthersEvents": "Redigera andras evenemang",
+    "removeOwnEvents": "Ta bort egna evenemang",
+    "editOwnEvents": "Redigera egna evenemang"
   },
   "limits": {
     "version": "Version",
@@ -631,7 +635,8 @@
     "removedRanks": "Borttagna Ranks",
     "askAiAQuestion": "Ställ en fråga till AI...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
-    "erlcPanelDocumentation": "ER:LC Panel Dokumentation"
+    "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
+    "session": "Session"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -1532,7 +1537,10 @@
     "stageActions": "Scenåtgärder",
     "whenAFormStageActionNotificationIsTrigge": "När en formulärstegshandlingsnotis utlöses kommer du att bli meddelad genom Inkorgen och andra valda preferenser.",
     "disciplinaryActions": "Disciplinära åtgärder",
-    "whenADisciplinaryActionNotificationIsTri": "När en disciplinär åtgärd notifikation utlöses kommer du att bli meddelad genom Inkorgen och andra valda preferenser."
+    "whenADisciplinaryActionNotificationIsTri": "När en disciplinär åtgärd notifikation utlöses kommer du att bli meddelad genom Inkorgen och andra valda preferenser.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Skiftrapporter",
+    "willNotifyYouWithAERLCShiftReport": "Kommer att meddela dig via Discord när en ER:LC-skift är avslutad med användbar information."
   },
   "profileView": {
     "commmunityProfileTutorial": "Community-profilhandledning",
@@ -1689,7 +1697,8 @@
     "inbox": "Inkorg",
     "desktop": "Skrivbord",
     "mobile": "Mobil",
-    "anErrorOccuredWhileUpdatingNotificationP": "Ett fel inträffade vid uppdatering av meddelandeinställningar, försök igen senare. Fel:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Ett fel inträffade vid uppdatering av meddelandeinställningar, försök igen senare. Fel:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Medlemmar per sida:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Bädda in sidfot",
     "formsembedfootertext": "Bädda in sidfotstext",
     "formsembedfootericonurl": "Bädda in sidfotsikon-URL",
-    "addEmbed": "Lägg till inbäddning"
+    "addEmbed": "Lägg till inbäddning",
+    "embedButtons": "Bädda in knappar",
+    "commonButtonRow": "Knapp Rad",
+    "removeButtonRowFromEmbed": "Ta bort knapp rad",
+    "addButtonRowToEmbed": "Lägg till knapp rad",
+    "removeButtonFromRowRowFromEmbed": "Ta bort knapp från rad",
+    "commonButton": "Knapp",
+    "addButtonToRowToEmbed": "Lägg till knapp till rad",
+    "embedButtonLabel": "Knapp Etikett",
+    "embedButtonUrl": "Knapp URL"
   },
   "fileUploader": {
     "commonuploader": "Uppladdare",
@@ -3302,7 +3320,11 @@
     "error": "Fel:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fel: Kunde inte spara evenemangsdetaljer på grund av ett internt fel`",
     "calendareditevents": "Redigera händelser",
-    "copyShareLink": "Kopiera delningslänk"
+    "copyShareLink": "Kopiera delningslänk",
+    "discordCalenderSync": "Discord-kalendersynk",
+    "enabled": "Aktiverad",
+    "disabled": "Avaktiverad",
+    "eventCreation": "Evenemangsskapande"
   },
   "dashboardView": {
     "pending": "PÅGÅENDE",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Tillåter medlemmar att köra modkommandon i spelpanelen för denna server.",
     "runRpCommand": "Kör RP-kommandot",
     "allowsMembersToRunRpCommandsInTheGamePan": "Låter medlemmar köra RP-kommandon i spelpanelen för denna server.",
-    "allowMembersToViewHiddenStages": "Tillåt medlemmar att se stadiens detaljer för dolda steg under Mina formulär"
+    "allowMembersToViewHiddenStages": "Tillåt medlemmar att se stadiens detaljer för dolda steg under Mina formulär",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Tillåter medlemmar att ta bort andra medlemmars evenemang inom denna kategori.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Tillåter medlemmar att ta bort sina egna evenemang inom denna kategori.",
+    "allowsMembersToEditTheirOwnEventsInT": "Tillåter medlemmar att redigera sina egna evenemang inom denna kategori."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "erlcHintContent",
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhookInbäddatInnehåll",
-    "webhookContentHint": "webhookInnehållTips"
+    "webhookContentHint": "webhookInnehållTips",
+    "customTriggerERLCNotiContentDescription": "Denna åtgärd kommer automatiskt att skicka en ERLC-notis till den önskade ERLC-servern när den konfigurerade triggern utlöses.",
+    "customTriggerERLCHintContentDescription": "Denna åtgärd kommer automatiskt att skicka en ERLC-hint till den önskade ERLC-servern när den konfigurerade triggern utlöses.",
+    "customTriggerDiscordWebhookContentDescription": "Denna åtgärd kommer automatiskt att köra en Discord-webhook när den konfigurerade triggern utlöses."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rankningsanmälanRankningar",
@@ -4700,7 +4728,26 @@
     "value": "Värde",
     "checked": "Kontrollerad",
     "unchecked": "Okontrollerad",
-    "someValue": "Något värde"
+    "someValue": "Något värde",
+    "calendarEvents": "Kalenderhändelser",
+    "eventCreation": "Evenemangsskapande",
+    "eventStart": "Evenemangsstart",
+    "eventEnd": "Evenemangsslut",
+    "eventNameVariableLabel": "Evenemangsnamn",
+    "eventNameValueVariableDesc": "Detta kommer att ange namnet på evenemanget.",
+    "eventDescriptionVariableLabel": "Evenemangsbeskrivning",
+    "eventDescriptionValueVariableDesc": "Detta kommer att ange beskrivningen av evenemanget.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP List Discord-omnämnanden",
+    "rsvpDiscordMentionsValueVariableDesc": "Detta kommer att ange Discord-omnämnanden av hela RSVP-listan.",
+    "rsvpComNamesVariableLabel": "RSVP List Community Namn",
+    "rsvpComNamesValueVariableDesc": "Detta kommer att ange community-namn av hela RSVP-listan.",
+    "sessionStart": "Sessionsstart",
+    "sessionEnd": "Sessionsslut",
+    "serverSessions": "Server-sessioner",
+    "enabledWhen": "Aktiverad När",
+    "requirement": "Krav",
+    "serverInSession": "Server i session",
+    "servers": "Server(s)"
   },
   "integrationsPortal": {
     "title": "Officiella Integrationer",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Tidklockans skifttyper",
     "clockInTypesExplanation": "Anpassade skifttyper låter användare stämpla in under specifika kategorier (t.ex. Admin, Polis). Dessa kategorier kan filtreras i listor och rapporter.",
     "addNewShiftType": "Lägg till ny skifttyp"
+  },
+  "ServerSessionHandler": {
+    "ago": "sedan",
+    "unknownTime": "Okänd Tid",
+    "unknownAccount": "Okänt Konto",
+    "startedBy": "Startad av",
+    "startSession": "Starta Session",
+    "cancelSession": "Avbryt Session",
+    "endSession": "Avsluta Session",
+    "activeSession": "Aktiv Session",
+    "cancel": "Avbryt",
+    "end": "Avsluta"
   }
 }

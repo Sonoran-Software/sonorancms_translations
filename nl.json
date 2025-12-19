@@ -286,7 +286,11 @@
     "eventNotFound": "Evenement Niet Gevonden/Toegankelijk",
     "eventNotFoundDesc": "Het evenement bestaat niet of je hebt geen toestemming om dit evenement direct te bekijken.",
     "editEvents": "Bewerk evenementen",
-    "loginToViewEvent": "Inloggen om evenement te bekijken"
+    "loginToViewEvent": "Inloggen om evenement te bekijken",
+    "removeOthersEvents": "Verwijder Andermans Evenementen",
+    "editOthersEvents": "Bewerk Andermans Evenementen",
+    "removeOwnEvents": "Verwijder Eigen Evenementen",
+    "editOwnEvents": "Bewerk Eigen Evenementen"
   },
   "limits": {
     "version": "Versie",
@@ -631,7 +635,8 @@
     "removedRanks": "Verwijderde rangen",
     "askAiAQuestion": "Stel AI een vraag...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Paneeldocumentatie",
-    "erlcPanelDocumentation": "ER:LC Paneeldocumentatie"
+    "erlcPanelDocumentation": "ER:LC Paneeldocumentatie",
+    "session": "Sessie"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -1532,7 +1537,10 @@
     "stageActions": "Fase Acties",
     "whenAFormStageActionNotificationIsTrigge": "Wanneer een formulierstadiumactie melding wordt geactiveerd, word je op de hoogte gebracht via Inbox en andere geselecteerde voorkeuren.",
     "disciplinaryActions": "Disciplinaire maatregelen",
-    "whenADisciplinaryActionNotificationIsTri": "Wanneer een melding van een disciplinaire maatregel wordt geactiveerd, word je op de hoogte gebracht via Inbox en andere geselecteerde voorkeuren."
+    "whenADisciplinaryActionNotificationIsTri": "Wanneer een melding van een disciplinaire maatregel wordt geactiveerd, word je op de hoogte gebracht via Inbox en andere geselecteerde voorkeuren.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Verslagsrapporten",
+    "willNotifyYouWithAERLCShiftReport": "Zal je via Discord op de hoogte stellen wanneer een ER:LC dienst is voltooid met nuttige informatie."
   },
   "profileView": {
     "commmunityProfileTutorial": "Gemeenschapsprofiel Tutorial",
@@ -1689,7 +1697,8 @@
     "inbox": "Inbox",
     "desktop": "Desktop",
     "mobile": "Mobiel",
-    "anErrorOccuredWhileUpdatingNotificationP": "Er is een fout opgetreden bij het bijwerken van de meldingsvoorkeuren, probeer het later opnieuw. Fout:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Er is een fout opgetreden bij het bijwerken van de meldingsvoorkeuren, probeer het later opnieuw. Fout:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Leden per pagina:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Voettekst Insluiten",
     "formsembedfootertext": "Voettekst Insluiten Tekst",
     "formsembedfootericonurl": "Voettekst Insluiten Pictogram URL",
-    "addEmbed": "Insluiting Toevoegen"
+    "addEmbed": "Insluiting Toevoegen",
+    "embedButtons": "Invoeg Knoppen",
+    "commonButtonRow": "Knoppen Rij",
+    "removeButtonRowFromEmbed": "Verwijder Knoppen Rij",
+    "addButtonRowToEmbed": "Voeg Knoppen Rij Toe",
+    "removeButtonFromRowRowFromEmbed": "Verwijder Knop Van Rij",
+    "commonButton": "Knop",
+    "addButtonToRowToEmbed": "Voeg Knop Aan Rij Toe",
+    "embedButtonLabel": "Knop Label",
+    "embedButtonUrl": "Knop URL"
   },
   "fileUploader": {
     "commonuploader": "Uploader",
@@ -3302,7 +3320,11 @@
     "error": "Fout:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fout: Evenementdetails niet succesvol opgeslagen vanwege een interne fout`",
     "calendareditevents": "Bewerk Evenementen",
-    "copyShareLink": "Kopieer deellink"
+    "copyShareLink": "Kopieer deellink",
+    "discordCalenderSync": "Discord Kalender Synchronisatie",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "eventCreation": "Evenement Creatie"
   },
   "dashboardView": {
     "pending": "IN AFWACHTING",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Staat leden toe om modcommando's uit te voeren in het Game Paneel voor deze server.",
     "runRpCommand": "Voer RP-opdracht uit",
     "allowsMembersToRunRpCommandsInTheGamePan": "Staat leden toe om RP-commando's uit te voeren in het Gamepaneel voor deze server.",
-    "allowMembersToViewHiddenStages": "Leden toestaan om stadiumdetails van verborgen stadia onder Mijn Formulieren te bekijken"
+    "allowMembersToViewHiddenStages": "Leden toestaan om stadiumdetails van verborgen stadia onder Mijn Formulieren te bekijken",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Staat leden toe om evenementen van andere leden binnen deze categorie te verwijderen.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Staat leden toe hun eigen evenementen in deze categorie te verwijderen.",
+    "allowsMembersToEditTheirOwnEventsInT": "Staat leden toe hun eigen evenementen in deze categorie te bewerken."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "Er zijn momenteel geen servers geregistreerd met deze ervaring in ons systeem. ",
     "webhookChannel": "webhookKanaal",
     "webhookEmbedContent": "webhookEmbedInhoud",
-    "webhookContentHint": "webhookinhoudhint"
+    "webhookContentHint": "webhookinhoudhint",
+    "customTriggerERLCNotiContentDescription": "Deze actie stuurt automatisch een ERLC-melding naar de gewenste ERLC-server wanneer de geconfigureerde trigger wordt geactiveerd.",
+    "customTriggerERLCHintContentDescription": "Deze actie stuurt automatisch een ERLC-hint naar de gewenste ERLC-server wanneer de geconfigureerde trigger wordt geactiveerd.",
+    "customTriggerDiscordWebhookContentDescription": "Deze actie voert automatisch een Discord-webhook uit wanneer de geconfigureerde trigger wordt geactiveerd."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangmeldingRangen",
@@ -4700,7 +4728,26 @@
     "value": "Waarde",
     "checked": "Geselecteerd",
     "unchecked": "Niet geselecteerd",
-    "someValue": "Enkele Waarde"
+    "someValue": "Enkele Waarde",
+    "calendarEvents": "Kalender Evenementen",
+    "eventCreation": "Evenement Creatie",
+    "eventStart": "Evenement Start",
+    "eventEnd": "Evenement Einde",
+    "eventNameVariableLabel": "Evenement Naam",
+    "eventNameValueVariableDesc": "Dit geeft de naam van het evenement aan.",
+    "eventDescriptionVariableLabel": "Evenement Beschrijving",
+    "eventDescriptionValueVariableDesc": "Dit geeft de beschrijving van het evenement aan.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP Lijst Discord Vermeldingen",
+    "rsvpDiscordMentionsValueVariableDesc": "Dit geeft de Discord vermeldingen van de volledige RSVP-lijst aan.",
+    "rsvpComNamesVariableLabel": "RSVP Lijst Gemeenschap Namen",
+    "rsvpComNamesValueVariableDesc": "Dit geeft de gemeenschapsnamen van de volledige RSVP-lijst aan.",
+    "sessionStart": "Sessie Start",
+    "sessionEnd": "Sessie Einde",
+    "serverSessions": "Server Sessies",
+    "enabledWhen": "Ingeschakeld Wanneer",
+    "requirement": "Vereiste",
+    "serverInSession": "Server In-Session",
+    "servers": "Server(s)"
   },
   "integrationsPortal": {
     "title": "Officiële Integraties",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Tijdklok Diensttypes",
     "clockInTypesExplanation": "Aangepaste diensttypes laten gebruikers onder specifieke categorieën inklokken (bijv. Admin, Politie). Deze categorieën kunnen worden gefilterd in roosters en rapporten.",
     "addNewShiftType": "Nieuwe diensttype toevoegen"
+  },
+  "ServerSessionHandler": {
+    "ago": "geleden",
+    "unknownTime": "Onbekende Tijd",
+    "unknownAccount": "Onbekende Account",
+    "startedBy": "Gestart door",
+    "startSession": "Start Sessie",
+    "cancelSession": "Annuleer Sessie",
+    "endSession": "Beëindig Sessie",
+    "activeSession": "Actieve Sessie",
+    "cancel": "Annuleren",
+    "end": "Einde"
   }
 }

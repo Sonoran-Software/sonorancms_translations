@@ -286,7 +286,11 @@
     "eventNotFound": "الحدث غير موجود/غير قابل للوصول",
     "eventNotFoundDesc": "إما أن الحدث غير موجود أو ليس لديك إذن لعرض هذا الحدث مباشرة.",
     "editEvents": "تعديل الفعاليات",
-    "loginToViewEvent": "تسجيل الدخول لعرض الحدث"
+    "loginToViewEvent": "تسجيل الدخول لعرض الحدث",
+    "removeOthersEvents": "إزالة أحداث الآخرين",
+    "editOthersEvents": "تحرير أحداث الآخرين",
+    "removeOwnEvents": "إزالة الأحداث الشخصية",
+    "editOwnEvents": "تحرير الأحداث الشخصية"
   },
   "limits": {
     "version": "الإصدار",
@@ -631,7 +635,8 @@
     "searchStarting": "البحث يبدأ...",
     "askAiAQuestion": "اطرح سؤالاً على AI...",
     "qbcoreQboxPanelDocumentation": "وثائق لوحة QBCore و QBox",
-    "erlcPanelDocumentation": "وثائق لوحة ER:LC"
+    "erlcPanelDocumentation": "وثائق لوحة ER:LC",
+    "session": "جلسة"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -1532,7 +1537,10 @@
     "stageActions": "إجراءات المرحلة",
     "whenAFormStageActionNotificationIsTrigge": "عندما يتم تنشيط إشعار إجراء مرحلة النموذج ستتلقى إشعارًا عبر البريد الوارد والتفضيلات الأخرى المختارة.",
     "disciplinaryActions": "إجراءات تأديبية",
-    "whenADisciplinaryActionNotificationIsTri": "عندما يتم تفعيل إشعار إجراء تأديبي، سيتم إعلامك عبر صندوق الوارد والتفضيلات الأخرى المحددة."
+    "whenADisciplinaryActionNotificationIsTri": "عندما يتم تفعيل إشعار إجراء تأديبي، سيتم إعلامك عبر صندوق الوارد والتفضيلات الأخرى المحددة.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC تقارير التحول",
+    "willNotifyYouWithAERLCShiftReport": "سيتم إعلامك عبر Discord عند اكتمال تحول ER:LC مع معلومات مفيدة."
   },
   "profileView": {
     "commmunityProfileTutorial": "دليل ملف المجتمع",
@@ -1689,7 +1697,8 @@
     "inbox": "صندوق الوارد",
     "desktop": "سطح المكتب",
     "mobile": "الهاتف المحمول",
-    "anErrorOccuredWhileUpdatingNotificationP": "حدث خطأ أثناء تحديث تفضيلات الإشعارات، حاول مرة أخرى لاحقًا. خطأ:"
+    "anErrorOccuredWhileUpdatingNotificationP": "حدث خطأ أثناء تحديث تفضيلات الإشعارات، حاول مرة أخرى لاحقًا. خطأ:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "الأعضاء لكل صفحة:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "تضمين تذييل",
     "formsembedfootertext": "نص التذييل المضمن",
     "formsembedfootericonurl": "عنوان URL لأيقونة التذييل المضمن",
-    "addEmbed": "إضافة تضمين"
+    "addEmbed": "إضافة تضمين",
+    "embedButtons": "أزرار تضمين",
+    "commonButtonRow": "صف الأزرار",
+    "removeButtonRowFromEmbed": "إزالة صف الأزرار",
+    "addButtonRowToEmbed": "إضافة صف أزرار",
+    "removeButtonFromRowRowFromEmbed": "إزالة زر من الصف",
+    "commonButton": "زر",
+    "addButtonToRowToEmbed": "إضافة زر إلى الصف",
+    "embedButtonLabel": "تسمية الزر",
+    "embedButtonUrl": "رابط الزر"
   },
   "fileUploader": {
     "commonuploader": "الرافع",
@@ -3302,7 +3320,11 @@
     "error": "خطأ:",
     "errorUnsuccessfullySavedEventDetailsDueT": "خطأ: لم يتم حفظ تفاصيل الحدث بنجاح بسبب خطأ داخلي",
     "calendareditevents": "تعديل الأحداث",
-    "copyShareLink": "نسخ رابط المشاركة"
+    "copyShareLink": "نسخ رابط المشاركة",
+    "discordCalenderSync": "تزامن تقويم Discord",
+    "enabled": "ممكّن",
+    "disabled": "معطّل",
+    "eventCreation": "إنشاء الحدث"
   },
   "dashboardView": {
     "pending": "قيد الانتظار",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "يتيح للأعضاء تشغيل أوامر التعديل في لوحة اللعبة لهذا الخادم.",
     "runRpCommand": "تشغيل أمر RP",
     "allowsMembersToRunRpCommandsInTheGamePan": "يسمح للأعضاء بتشغيل أوامر RP في لوحة اللعبة لهذا الخادم.",
-    "allowMembersToViewHiddenStages": "السماح للأعضاء بعرض تفاصيل المراحل المخفية تحت النماذج الخاصة بي"
+    "allowMembersToViewHiddenStages": "السماح للأعضاء بعرض تفاصيل المراحل المخفية تحت النماذج الخاصة بي",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "يسمح للأعضاء بإزالة أحداث الأعضاء الآخرين ضمن هذه الفئة.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "يسمح للأعضاء بإزالة أحداثهم الشخصية ضمن هذه الفئة.",
+    "allowsMembersToEditTheirOwnEventsInT": "يسمح للأعضاء بتحرير أحداثهم الشخصية ضمن هذه الفئة."
   },
   "permissionToggleGroup": {
     "inherited": "موروث",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "محتوى تلميح ERLC",
     "webhookChannel": "webhookChannel",
     "webhookEmbedContent": "محتوى تضمين الويب هوك",
-    "webhookContentHint": "إدراج محتوى بنص أو JSON لمعالجة الطلب الخاص بك"
+    "webhookContentHint": "إدراج محتوى بنص أو JSON لمعالجة الطلب الخاص بك",
+    "customTriggerERLCNotiContentDescription": "سيقوم هذا الإجراء تلقائيًا بإرسال إشعار ERLC إلى خادم ERLC المطلوب عند استيفاء المشغل المكون.",
+    "customTriggerERLCHintContentDescription": "سيقوم هذا الإجراء تلقائيًا بإرسال تلميح ERLC إلى خادم ERLC المطلوب عند استيفاء المشغل المكون.",
+    "customTriggerDiscordWebhookContentDescription": "سيقوم هذا الإجراء تلقائيًا بتنفيذ Webhook Discord عند استيفاء المشغل المكون."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "الإشعارات المرتبة",
@@ -4700,7 +4728,26 @@
     "value": "قيمة",
     "checked": "تم التحديد",
     "unchecked": "غير محدد",
-    "someValue": "بعض القيمة"
+    "someValue": "بعض القيمة",
+    "calendarEvents": "أحداث التقويم",
+    "eventCreation": "إنشاء حدث",
+    "eventStart": "بداية الحدث",
+    "eventEnd": "نهاية الحدث",
+    "eventNameVariableLabel": "اسم الحدث",
+    "eventNameValueVariableDesc": "سيتم ذكر اسم الحدث.",
+    "eventDescriptionVariableLabel": "وصف الحدث",
+    "eventDescriptionValueVariableDesc": "سيتم ذكر وصف الحدث.",
+    "rsvpDiscordMentionsVariableLabel": "قائمة RSVP إشارة Discord",
+    "rsvpDiscordMentionsValueVariableDesc": "سيتم ذكر إشارات Discord لكامل قائمة RSVP.",
+    "rsvpComNamesVariableLabel": "قائمة RSVP لأسماء المجتمع",
+    "rsvpComNamesValueVariableDesc": "سيتم ذكر أسماء المجتمع لكامل قائمة RSVP.",
+    "sessionStart": "بدء الجلسة",
+    "sessionEnd": "نهاية الجلسة",
+    "serverSessions": "جلسات الخادم",
+    "enabledWhen": "ممكّن عندما",
+    "requirement": "المطلب",
+    "serverInSession": "الخادم في الجلسة",
+    "servers": "الخوادم"
   },
   "integrationsPortal": {
     "title": "التكاملات الرسمية",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "أنواع وردية المؤقت",
     "clockInTypesExplanation": "تتيح أنواع الورديات المخصصة للمستخدمين تسجيل الدخول ضمن فئات محددة (مثل، إدارة، شرطة). يمكن تصفية هذه الفئات في القوائم والتقارير.",
     "addNewShiftType": "إضافة نوع وردية جديد"
+  },
+  "ServerSessionHandler": {
+    "ago": "منذ",
+    "unknownTime": "وقت غير معروف",
+    "unknownAccount": "حساب غير معروف",
+    "startedBy": "بدأ بواسطة",
+    "startSession": "بدء الجلسة",
+    "cancelSession": "إلغاء الجلسة",
+    "endSession": "إنهاء الجلسة",
+    "activeSession": "الجلسة النشطة",
+    "cancel": "إلغاء",
+    "end": "نهاية"
   }
 }

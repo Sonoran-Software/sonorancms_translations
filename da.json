@@ -286,7 +286,11 @@
     "eventNotFound": "Begivenhed Ikke Fundet/Tilgængelig",
     "eventNotFoundDesc": "Enten eksisterer begivenheden ikke, eller du har ikke tilladelse til at se denne begivenhed direkte.",
     "editEvents": "Rediger begivenheder",
-    "loginToViewEvent": "Log ind for at se begivenhed"
+    "loginToViewEvent": "Log ind for at se begivenhed",
+    "removeOthersEvents": "Fjern andres begivenheder",
+    "editOthersEvents": "Rediger andres begivenheder",
+    "removeOwnEvents": "Fjern egne begivenheder",
+    "editOwnEvents": "Rediger egne begivenheder"
   },
   "limits": {
     "version": "Version",
@@ -631,7 +635,8 @@
     "removedRanks": "Fjernede Rangeringer",
     "askAiAQuestion": "Stil AI et spørgsmål...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
-    "erlcPanelDocumentation": "ER:LC Panel Dokumentation"
+    "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
+    "session": "Session"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -1532,7 +1537,10 @@
     "stageActions": "Scenehandlinger",
     "whenAFormStageActionNotificationIsTrigge": "Når en formulartrin-handlingsmeddelelse udløses, vil du blive underrettet gennem Indbakke og andre valgte præferencer.",
     "disciplinaryActions": "Disciplinære handlinger",
-    "whenADisciplinaryActionNotificationIsTri": "Når en disciplinær handling notifikation udløses, vil du blive underrettet gennem indbakken og andre valgte præferencer."
+    "whenADisciplinaryActionNotificationIsTri": "Når en disciplinær handling notifikation udløses, vil du blive underrettet gennem indbakken og andre valgte præferencer.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC skifterapporter",
+    "willNotifyYouWithAERLCShiftReport": "Vil underrette dig via Discord, når en ER:LC-skift er afsluttet med nyttige oplysninger."
   },
   "profileView": {
     "commmunityProfileTutorial": "Fællesskabsprofilvejledning",
@@ -1689,7 +1697,8 @@
     "inbox": "Indbakke",
     "desktop": "Desktop",
     "mobile": "Mobil",
-    "anErrorOccuredWhileUpdatingNotificationP": "Der opstod en fejl under opdatering af notifikationsindstillinger, prøv igen senere. Fejl:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Der opstod en fejl under opdatering af notifikationsindstillinger, prøv igen senere. Fejl:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Medlemmer pr. side:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Indsæt footer",
     "formsembedfootertext": "Indsæt footer-tekst",
     "formsembedfootericonurl": "Indsæt footer-ikon URL",
-    "addEmbed": "Tilføj indlejring"
+    "addEmbed": "Tilføj indlejring",
+    "embedButtons": "Indlejr knapper",
+    "commonButtonRow": "Knaprække",
+    "removeButtonRowFromEmbed": "Fjern knaprække",
+    "addButtonRowToEmbed": "Tilføj knaprække",
+    "removeButtonFromRowRowFromEmbed": "Fjern knap fra række",
+    "commonButton": "Knap",
+    "addButtonToRowToEmbed": "Tilføj knap til række",
+    "embedButtonLabel": "Knapetiket",
+    "embedButtonUrl": "Knap-URL"
   },
   "fileUploader": {
     "commonuploader": "Uploader",
@@ -3302,7 +3320,11 @@
     "error": "Fejl:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fejl: Begivenhedsdetaljer blev ikke gemt på grund af en intern fejl`",
     "calendareditevents": "Rediger begivenheder",
-    "copyShareLink": "Kopier delingslink"
+    "copyShareLink": "Kopier delingslink",
+    "discordCalenderSync": "Discord Kalender Sync",
+    "enabled": "Aktiveret",
+    "disabled": "Deaktiveret",
+    "eventCreation": "Begivenhed Oprettelse"
   },
   "dashboardView": {
     "pending": "AFVENTER",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Giver medlemmer mulighed for at køre mod-kommandoer i spilpanelet for denne server.",
     "runRpCommand": "Kør RP-kommando",
     "allowsMembersToRunRpCommandsInTheGamePan": "Tillader medlemmer at køre RP-kommandoer i Spilpanelet for denne server.",
-    "allowMembersToViewHiddenStages": "Tillad medlemmer at se trin detaljer for skjulte trin under Mine Formularer"
+    "allowMembersToViewHiddenStages": "Tillad medlemmer at se trin detaljer for skjulte trin under Mine Formularer",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Giver medlemmerne mulighed for at fjerne andre medlemmers begivenheder inden for denne kategori.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Giver medlemmerne mulighed for at fjerne deres egne begivenheder i denne kategori.",
+    "allowsMembersToEditTheirOwnEventsInT": "Giver medlemmerne mulighed for at redigere deres egne begivenheder i denne kategori."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "Ems serveren ved hjælp af Sonoran CMS til at begynde at se dine ansvarsområder på direkte.",
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhookIndlejringIndhold",
-    "webhookContentHint": "webhookindholdstip"
+    "webhookContentHint": "webhookindholdstip",
+    "customTriggerERLCNotiContentDescription": "Denne handling vil automatisk sende en ERLC-meddelelse til den ønskede ERLC-server, når den konfigurerede udløser er opfyldt.",
+    "customTriggerERLCHintContentDescription": "Denne handling vil automatisk sende et ERLC-tip til den ønskede ERLC-server, når den konfigurerede udløser er opfyldt.",
+    "customTriggerDiscordWebhookContentDescription": "Denne handling vil automatisk udføre et Discord-webhook, når den konfigurerede udløser er opfyldt."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangsmeddelelse",
@@ -4700,7 +4728,26 @@
     "value": "Værdi",
     "checked": "Markeret",
     "unchecked": "Umarkeret",
-    "someValue": "Nogle værdier"
+    "someValue": "Nogle værdier",
+    "calendarEvents": "Kalenderbegivenheder",
+    "eventCreation": "Begivenhed Oprettelse",
+    "eventStart": "Begivenhed Start",
+    "eventEnd": "Begivenhed Slut",
+    "eventNameVariableLabel": "Begivenhed Navn",
+    "eventNameValueVariableDesc": "Dette vil angive navnet på begivenheden.",
+    "eventDescriptionVariableLabel": "Begivenhed Beskrivelse",
+    "eventDescriptionValueVariableDesc": "Dette vil angive beskrivelsen af begivenheden.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP Liste Discord omtaler",
+    "rsvpDiscordMentionsValueVariableDesc": "Dette vil angive Discord-omtalerne af hele RSVP-listen.",
+    "rsvpComNamesVariableLabel": "RSVP Liste Community Navne",
+    "rsvpComNamesValueVariableDesc": "Dette vil angive fællesskabsnavnene på hele RSVP-listen.",
+    "sessionStart": "Session Start",
+    "sessionEnd": "Session Slut",
+    "serverSessions": "Server Sessions",
+    "enabledWhen": "Aktiveret når",
+    "requirement": "Krav",
+    "serverInSession": "Server i session",
+    "servers": "Server(e)"
   },
   "integrationsPortal": {
     "title": "Officielle integrationer",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Tidsur Vagt Typer",
     "clockInTypesExplanation": "Brugerdefinerede vagttyper giver brugerne mulighed for at logge ind under specifikke kategorier (f.eks., Admin, Politi). Disse kategorier kan filtreres i lister og rapporter.",
     "addNewShiftType": "Tilføj ny vagttype"
+  },
+  "ServerSessionHandler": {
+    "ago": "siden",
+    "unknownTime": "Ukendt tid",
+    "unknownAccount": "Ukendt konto",
+    "startedBy": "Startet af",
+    "startSession": "Start session",
+    "cancelSession": "Annuller session",
+    "endSession": "Afslut session",
+    "activeSession": "Aktiv session",
+    "cancel": "Annuller",
+    "end": "Afslut"
   }
 }

@@ -286,7 +286,11 @@
     "eventNotFound": "未找到/无法访问事件",
     "eventNotFoundDesc": "事件不存在或你没有权限直接查看此事件。",
     "editEvents": "编辑事件",
-    "loginToViewEvent": "登录以查看活动"
+    "loginToViewEvent": "登录以查看活动",
+    "removeOthersEvents": "移除他人活动",
+    "editOthersEvents": "编辑他人活动",
+    "removeOwnEvents": "移除自己的活动",
+    "editOwnEvents": "编辑自己的活动"
   },
   "limits": {
     "version": "版本",
@@ -631,7 +635,8 @@
     "removedRanks": "已移除的职级",
     "askAiAQuestion": "向 AI 提问...",
     "qbcoreQboxPanelDocumentation": "QBCore 和 QBox 面板文档",
-    "erlcPanelDocumentation": "ER:LC 面板文档"
+    "erlcPanelDocumentation": "ER:LC 面板文档",
+    "session": "会话"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -1532,7 +1537,10 @@
     "stageActions": "阶段操作",
     "whenAFormStageActionNotificationIsTrigge": "当表单阶段动作通知被触发时，您将通过收件箱和其他选定的偏好设置收到通知。",
     "disciplinaryActions": "纪律处分",
-    "whenADisciplinaryActionNotificationIsTri": "当触发纪律处分通知时，您将通过收件箱和其他选择的偏好设置收到通知。"
+    "whenADisciplinaryActionNotificationIsTri": "当触发纪律处分通知时，您将通过收件箱和其他选择的偏好设置收到通知。",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC 班次报告",
+    "willNotifyYouWithAERLCShiftReport": "当ER:LC班次完成时，通过Discord通知您，并附有有用信息。"
   },
   "profileView": {
     "commmunityProfileTutorial": "社区档案教程",
@@ -1689,7 +1697,8 @@
     "inbox": "收件箱",
     "desktop": "桌面",
     "mobile": "移动设备",
-    "anErrorOccuredWhileUpdatingNotificationP": "更新通知偏好时发生错误，请稍后再试。错误："
+    "anErrorOccuredWhileUpdatingNotificationP": "更新通知偏好时发生错误，请稍后再试。错误：",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "每页成员数：",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "嵌入页脚",
     "formsembedfootertext": "嵌入页脚文本",
     "formsembedfootericonurl": "嵌入页脚图标 URL",
-    "addEmbed": "添加嵌入"
+    "addEmbed": "添加嵌入",
+    "embedButtons": "嵌入按钮",
+    "commonButtonRow": "按钮行",
+    "removeButtonRowFromEmbed": "从嵌入中移除按钮行",
+    "addButtonRowToEmbed": "添加按钮行到嵌入",
+    "removeButtonFromRowRowFromEmbed": "从行中移除按钮",
+    "commonButton": "按钮",
+    "addButtonToRowToEmbed": "添加按钮到行中",
+    "embedButtonLabel": "按钮标签",
+    "embedButtonUrl": "按钮URL"
   },
   "fileUploader": {
     "commonuploader": "上传器",
@@ -3302,7 +3320,11 @@
     "error": "错误：",
     "errorUnsuccessfullySavedEventDetailsDueT": "错误：由于内部错误未能成功保存事件详情",
     "calendareditevents": "编辑事件",
-    "copyShareLink": "复制共享链接"
+    "copyShareLink": "复制共享链接",
+    "discordCalenderSync": "Discord 日历同步",
+    "enabled": "启用",
+    "disabled": "禁用",
+    "eventCreation": "事件创建"
   },
   "dashboardView": {
     "pending": "待定",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行模组命令。",
     "runRpCommand": "运行RP命令",
     "allowsMembersToRunRpCommandsInTheGamePan": "允许成员在此服务器的游戏面板中运行 RP 命令。",
-    "allowMembersToViewHiddenStages": "允许成员查看“我的表单”中隐藏阶段的阶段详情"
+    "allowMembersToViewHiddenStages": "允许成员查看“我的表单”中隐藏阶段的阶段详情",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "允许成员在此类别中移除其他成员的活动。",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "允许成员在此类别中移除自己的活动。",
+    "allowsMembersToEditTheirOwnEventsInT": "允许成员在此类别中编辑自己的活动。"
   },
   "permissionToggleGroup": {
     "inherited": "继承",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "erlc提示内容",
     "webhookChannel": "Webhook频道",
     "webhookEmbedContent": "webhook嵌入内容",
-    "webhookContentHint": "Webhook 内容提示"
+    "webhookContentHint": "Webhook 内容提示",
+    "customTriggerERLCNotiContentDescription": "在满足配置的触发条件时，此操作将自动发送一个ERLC通知到所需的ERLC服务器。",
+    "customTriggerERLCHintContentDescription": "在满足配置的触发条件时，此操作将自动发送一个ERLC提示到所需的ERLC服务器。",
+    "customTriggerDiscordWebhookContentDescription": "在满足配置的触发条件时，此操作将自动执行一个Discord webhook。"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "级别通知级别",
@@ -4700,7 +4728,26 @@
     "value": "值",
     "checked": "勾选",
     "unchecked": "未勾选",
-    "someValue": "某个值"
+    "someValue": "某个值",
+    "calendarEvents": "日历事件",
+    "eventCreation": "事件创建",
+    "eventStart": "事件开始",
+    "eventEnd": "事件结束",
+    "eventNameVariableLabel": "事件名称",
+    "eventNameValueVariableDesc": "这将说明活动的名称。",
+    "eventDescriptionVariableLabel": "事件描述",
+    "eventDescriptionValueVariableDesc": "这将说明活动的描述。",
+    "rsvpDiscordMentionsVariableLabel": "RSVP 列表 Discord 提及",
+    "rsvpDiscordMentionsValueVariableDesc": "这将说明整个RSVP列表的Discord提及。",
+    "rsvpComNamesVariableLabel": "RSVP 列表社区名称",
+    "rsvpComNamesValueVariableDesc": "这将说明整个RSVP列表的社区名称。",
+    "sessionStart": "会话开始",
+    "sessionEnd": "会话结束",
+    "serverSessions": "服务器会话",
+    "enabledWhen": "启用条件",
+    "requirement": "要求",
+    "serverInSession": "服务器会话中",
+    "servers": "服务器"
   },
   "integrationsPortal": {
     "title": "官方集成",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "计时班次类型",
     "clockInTypesExplanation": "自定义班次类型允许用户在特定类别下打卡（例如，管理员、警察）。这些类别可以在花名册和报告中进行筛选。",
     "addNewShiftType": "添加新班次类型"
+  },
+  "ServerSessionHandler": {
+    "ago": "之前",
+    "unknownTime": "未知时间",
+    "unknownAccount": "未知账户",
+    "startedBy": "开始者",
+    "startSession": "开始会话",
+    "cancelSession": "取消会话",
+    "endSession": "结束会话",
+    "activeSession": "活动会话",
+    "cancel": "取消",
+    "end": "结束"
   }
 }

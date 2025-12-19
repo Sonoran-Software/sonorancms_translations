@@ -286,7 +286,11 @@
     "eventNotFound": "Tapahtumaa ei löydy/ei ole käytettävissä",
     "eventNotFoundDesc": "Joko tapahtumaa ei ole olemassa tai sinulla ei ole oikeuksia nähdä tätä tapahtumaa suoraan.",
     "editEvents": "Muokkaa tapahtumia",
-    "loginToViewEvent": "Kirjaudu nähdäksesi tapahtuma"
+    "loginToViewEvent": "Kirjaudu nähdäksesi tapahtuma",
+    "removeOthersEvents": "Poista muiden tapahtumia",
+    "editOthersEvents": "Muokkaa muiden tapahtumia",
+    "removeOwnEvents": "Poista omia tapahtumia",
+    "editOwnEvents": "Muokkaa omia tapahtumia"
   },
   "limits": {
     "version": "Versio",
@@ -631,7 +635,8 @@
     "removedRanks": "Poistetut arvot",
     "askAiAQuestion": "Kysy tekoälyltä kysymys...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox-paneelin dokumentaatio",
-    "erlcPanelDocumentation": "ER:LC-paneelin dokumentaatio"
+    "erlcPanelDocumentation": "ER:LC-paneelin dokumentaatio",
+    "session": "Istunto"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -1532,7 +1537,10 @@
     "stageActions": "Vaihetoiminnot",
     "whenAFormStageActionNotificationIsTrigge": "Kun lomakevaiheen ilmoitus laukaistaan, saat ilmoituksen Saapuneet-kansioon ja muihin valitsemiisi ilmoitustapoihin.",
     "disciplinaryActions": "Kurinpidolliset Toimet",
-    "whenADisciplinaryActionNotificationIsTri": "Kun kurinpitotoimintailmoitus laukaistaan, sinulle ilmoitetaan siitä Saapuneet-kansion ja muiden valittujen asetusten kautta."
+    "whenADisciplinaryActionNotificationIsTri": "Kun kurinpitotoimintailmoitus laukaistaan, sinulle ilmoitetaan siitä Saapuneet-kansion ja muiden valittujen asetusten kautta.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC vuororaportit",
+    "willNotifyYouWithAERLCShiftReport": "Ilmoittaa sinulle Discordin kautta, kun ER:LC-vuoro on suoritettu hyödyllisen tiedon kanssa."
   },
   "profileView": {
     "commmunityProfileTutorial": "Yhteisöprofiilin opas",
@@ -1689,7 +1697,8 @@
     "inbox": "Saapuneet",
     "desktop": "Työpöytä",
     "mobile": "Mobiili",
-    "anErrorOccuredWhileUpdatingNotificationP": "Virhe tapahtui ilmoitusasetusten päivittämisen aikana, yritä myöhemmin uudelleen. Virhe:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Virhe tapahtui ilmoitusasetusten päivittämisen aikana, yritä myöhemmin uudelleen. Virhe:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Jäseniä per sivu:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Upota alatunniste",
     "formsembedfootertext": "Upota alatunnisteen teksti",
     "formsembedfootericonurl": "Upota alatunnisteen kuvakkeen URL",
-    "addEmbed": "Lisää upotus"
+    "addEmbed": "Lisää upotus",
+    "embedButtons": "Upotusnapit",
+    "commonButtonRow": "Nappirivi",
+    "removeButtonRowFromEmbed": "Poista nappirivi",
+    "addButtonRowToEmbed": "Lisää nappirivi",
+    "removeButtonFromRowRowFromEmbed": "Poista nappi riviltä",
+    "commonButton": "Nappi",
+    "addButtonToRowToEmbed": "Lisää nappi riviin",
+    "embedButtonLabel": "Nappin etiketti",
+    "embedButtonUrl": "Nappin URL"
   },
   "fileUploader": {
     "commonuploader": "Lataaja",
@@ -3302,7 +3320,11 @@
     "error": "Virhe:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Virhe: Tapahtuman tietojen tallentaminen epäonnistui sisäisen virheen vuoksi`",
     "calendareditevents": "Muokkaa tapahtumia",
-    "copyShareLink": "Kopioi jakolinkki"
+    "copyShareLink": "Kopioi jakolinkki",
+    "discordCalenderSync": "Discord-kalenterisynkronointi",
+    "enabled": "Käytössä",
+    "disabled": "Ei käytössä",
+    "eventCreation": "Tapahtuman luonti"
   },
   "dashboardView": {
     "pending": "ODOTTAA",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Sallii jäsenille mod-komentojen suorittamisen pelipaneelissa tällä palvelimella.",
     "runRpCommand": "Suorita RP-komento",
     "allowsMembersToRunRpCommandsInTheGamePan": "Antaa jäsenille mahdollisuuden suorittaa RP-komentoja pelipaneelissa tälle palvelimelle.",
-    "allowMembersToViewHiddenStages": "Salli jäsenten nähdä piilotettujen vaiheiden vaiheiden yksityiskohdat kohdassa Omat lomakkeet"
+    "allowMembersToViewHiddenStages": "Salli jäsenten nähdä piilotettujen vaiheiden vaiheiden yksityiskohdat kohdassa Omat lomakkeet",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Sallii jäsenten poistaa muiden jäsenten tapahtumia tässä kategoriassa.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Sallii jäsenten poistaa omia tapahtumia tässä kategoriassa.",
+    "allowsMembersToEditTheirOwnEventsInT": "Sallii jäsenten muokata omia tapahtumia tässä kategoriassa."
   },
   "permissionToggleGroup": {
     "inherited": "peritty",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "erlc-vihje-sisältö",
     "webhookChannel": "webhook-kanava",
     "webhookEmbedContent": "webhookUpotusSisältö",
-    "webhookContentHint": "webhookin sisällön vihje"
+    "webhookContentHint": "webhookin sisällön vihje",
+    "customTriggerERLCNotiContentDescription": "Tämä toiminto lähettää automaattisesti ERLC-ilmoituksen haluttuun ERLC-palvelimeen, kun määritetty laukaisin täyttyy.",
+    "customTriggerERLCHintContentDescription": "Tämä toiminto lähettää automaattisesti ERLC-vinkin haluttuun ERLC-palvelimeen, kun määritetty laukaisin täyttyy.",
+    "customTriggerDiscordWebhookContentDescription": "Tämä toiminto suorittaa automaattisesti Discord-webhookin, kun määritetty laukaisin täyttyy."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Arvoilmoitukset",
@@ -4700,7 +4728,26 @@
     "value": "Arvo",
     "checked": "Valittu",
     "unchecked": "Ei valittu",
-    "someValue": "Jokin arvo"
+    "someValue": "Jokin arvo",
+    "calendarEvents": "Kalenteritapahtumat",
+    "eventCreation": "Tapahtuman luonti",
+    "eventStart": "Tapahtuman alku",
+    "eventEnd": "Tapahtuman loppu",
+    "eventNameVariableLabel": "Tapahtuman nimi",
+    "eventNameValueVariableDesc": "Tämä määrittelee tapahtuman nimen.",
+    "eventDescriptionVariableLabel": "Tapahtuman kuvaus",
+    "eventDescriptionValueVariableDesc": "Tämä määrittelee tapahtuman kuvauksen.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP-listan Discord-viittaukset",
+    "rsvpDiscordMentionsValueVariableDesc": "Tämä määrittelee koko RSVP-listan Discord-viittaukset.",
+    "rsvpComNamesVariableLabel": "RSVP-listan yhteisön nimet",
+    "rsvpComNamesValueVariableDesc": "Tämä määrittelee koko RSVP-listan yhteisön nimet.",
+    "sessionStart": "Istunnon alku",
+    "sessionEnd": "Istunnon loppu",
+    "serverSessions": "Palvelinistunnot",
+    "enabledWhen": "Käytössä kun",
+    "requirement": "Vaatimus",
+    "serverInSession": "Palvelin istunnossa",
+    "servers": "Palvelimet"
   },
   "integrationsPortal": {
     "title": "Viralliset integraatiot",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Aikakello Vuorotyypit",
     "clockInTypesExplanation": "Mukautetut vuorotyypit antavat käyttäjien kirjautua sisään tiettyjen kategorioiden alle (esim. Ylläpito, Poliisi). Näitä kategorioita voidaan suodattaa listoissa ja raporteissa.",
     "addNewShiftType": "Lisää uusi vuorotyyppi"
+  },
+  "ServerSessionHandler": {
+    "ago": "sitten",
+    "unknownTime": "Tuntematon aika",
+    "unknownAccount": "Tuntematon tili",
+    "startedBy": "Aloitti",
+    "startSession": "Aloita istunto",
+    "cancelSession": "Peruuta istunto",
+    "endSession": "Lopeta istunto",
+    "activeSession": "Aktiivinen istunto",
+    "cancel": "Peruuta",
+    "end": "Lopeta"
   }
 }

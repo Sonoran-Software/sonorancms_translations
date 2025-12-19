@@ -286,7 +286,11 @@
     "eventNotFound": "Veranstaltung nicht gefunden/nicht zugänglich",
     "eventNotFoundDesc": "Entweder existiert die Veranstaltung nicht oder du hast keine Berechtigung, diese Veranstaltung direkt anzusehen.",
     "editEvents": "Veranstaltungen bearbeiten",
-    "loginToViewEvent": "Zum Anzeigen des Ereignisses einloggen"
+    "loginToViewEvent": "Zum Anzeigen des Ereignisses einloggen",
+    "removeOthersEvents": "Andere Veranstaltungen entfernen",
+    "editOthersEvents": "Andere Veranstaltungen bearbeiten",
+    "removeOwnEvents": "Eigene Veranstaltungen entfernen",
+    "editOwnEvents": "Eigene Veranstaltungen bearbeiten"
   },
   "limits": {
     "version": "Version",
@@ -631,7 +635,8 @@
     "removedRanks": "Entfernte Ränge",
     "askAiAQuestion": "Eine Frage an die KI stellen...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
-    "erlcPanelDocumentation": "ER:LC Panel Dokumentation"
+    "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
+    "session": "Sitzung"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -1532,7 +1537,10 @@
     "stageActions": "Bühnenaktionen",
     "whenAFormStageActionNotificationIsTrigge": "Wenn eine Benachrichtigung über eine Formularphasenaktion ausgelöst wird, erhalten Sie eine Benachrichtigung über den Posteingang und andere ausgewählte Präferenzen.",
     "disciplinaryActions": "Disziplinarmaßnahmen",
-    "whenADisciplinaryActionNotificationIsTri": "Wenn eine Benachrichtigung über eine disziplinarische Maßnahme ausgelöst wird, werden Sie über den Eingangsordner und andere ausgewählte Einstellungen benachrichtigt."
+    "whenADisciplinaryActionNotificationIsTri": "Wenn eine Benachrichtigung über eine disziplinarische Maßnahme ausgelöst wird, werden Sie über den Eingangsordner und andere ausgewählte Einstellungen benachrichtigt.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Schichtberichte",
+    "willNotifyYouWithAERLCShiftReport": "Wird Sie über Discord benachrichtigen, wenn eine ER:LC-Schicht mit nützlichen Informationen abgeschlossen ist."
   },
   "profileView": {
     "commmunityProfileTutorial": "Community-Profil-Tutorial",
@@ -1689,7 +1697,8 @@
     "inbox": "Posteingang",
     "desktop": "Desktop",
     "mobile": "Mobil",
-    "anErrorOccuredWhileUpdatingNotificationP": "Ein Fehler ist aufgetreten beim Aktualisieren der Benachrichtigungseinstellungen, versuchen Sie es später erneut. Fehler:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Ein Fehler ist aufgetreten beim Aktualisieren der Benachrichtigungseinstellungen, versuchen Sie es später erneut. Fehler:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Mitglieder pro Seite:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Fußzeile einbetten",
     "formsembedfootertext": "Fußzeilentext einbetten",
     "formsembedfootericonurl": "Fußzeilen-Icon-URL einbetten",
-    "addEmbed": "Einbettung hinzufügen"
+    "addEmbed": "Einbettung hinzufügen",
+    "embedButtons": "Einbettungsknöpfe",
+    "commonButtonRow": "Knopfreihe",
+    "removeButtonRowFromEmbed": "Knopfreihe entfernen",
+    "addButtonRowToEmbed": "Knopfreihe hinzufügen",
+    "removeButtonFromRowRowFromEmbed": "Knopf aus Reihe entfernen",
+    "commonButton": "Knopf",
+    "addButtonToRowToEmbed": "Knopf zur Reihe hinzufügen",
+    "embedButtonLabel": "Knopfbezeichnung",
+    "embedButtonUrl": "Knopf-URL"
   },
   "fileUploader": {
     "commonuploader": "Uploader",
@@ -3302,7 +3320,11 @@
     "error": "Fehler:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Fehler: Ereignisdetails aufgrund eines internen Fehlers nicht erfolgreich gespeichert`",
     "calendareditevents": "Veranstaltungen bearbeiten",
-    "copyShareLink": "Freigabelink kopieren"
+    "copyShareLink": "Freigabelink kopieren",
+    "discordCalenderSync": "Discord-Kalendersynchronisation",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "eventCreation": "Ereigniserstellung"
   },
   "dashboardView": {
     "pending": "AUSSTEHEND",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Ermöglicht Mitgliedern, Mod-Befehle im Game Panel für diesen Server auszuführen.",
     "runRpCommand": "Führe RP-Befehl aus",
     "allowsMembersToRunRpCommandsInTheGamePan": "Ermöglicht Mitgliedern, RP-Befehle im Spielepanel für diesen Server auszuführen.",
-    "allowMembersToViewHiddenStages": "Erlauben Sie Mitgliedern, Stufendetails versteckter Stufen unter Meine Formulare anzuzeigen"
+    "allowMembersToViewHiddenStages": "Erlauben Sie Mitgliedern, Stufendetails versteckter Stufen unter Meine Formulare anzuzeigen",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Erlaubt Mitgliedern, die Veranstaltungen anderer Mitglieder in dieser Kategorie zu entfernen.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu entfernen.",
+    "allowsMembersToEditTheirOwnEventsInT": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu bearbeiten."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "erlcHinweisInhalt",
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhook-Embed-Inhalt",
-    "webhookContentHint": "Webhook-Inhaltstipp"
+    "webhookContentHint": "Webhook-Inhaltstipp",
+    "customTriggerERLCNotiContentDescription": "Diese Aktion wird automatisch eine ERLC-Benachrichtigung an den gewünschten ERLC-Server senden, wenn der konfigurierte Auslöser erfüllt ist.",
+    "customTriggerERLCHintContentDescription": "Diese Aktion wird automatisch einen ERLC-Hinweis an den gewünschten ERLC-Server senden, wenn der konfigurierte Auslöser erfüllt ist.",
+    "customTriggerDiscordWebhookContentDescription": "Diese Aktion wird automatisch einen Discord-Webhook ausführen, wenn der konfigurierte Auslöser erfüllt ist."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Rangbenachrichtigung Ränge",
@@ -4700,7 +4728,26 @@
     "value": "Wert",
     "checked": "Geprüft",
     "unchecked": "Ungeprüft",
-    "someValue": "Einige Werte"
+    "someValue": "Einige Werte",
+    "calendarEvents": "Kalenderereignisse",
+    "eventCreation": "Ereigniserstellung",
+    "eventStart": "Ereignisbeginn",
+    "eventEnd": "Ereignisende",
+    "eventNameVariableLabel": "Ereignisname",
+    "eventNameValueVariableDesc": "Dies wird den Namen des Ereignisses angeben.",
+    "eventDescriptionVariableLabel": "Ereignisbeschreibung",
+    "eventDescriptionValueVariableDesc": "Dies wird die Beschreibung des Ereignisses angeben.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP-Liste Discord-Erwähnungen",
+    "rsvpDiscordMentionsValueVariableDesc": "Dies wird die Discord-Erwähnungen der gesamten RSVP-Liste angeben.",
+    "rsvpComNamesVariableLabel": "RSVP-Liste Gemeinschaftsnamen",
+    "rsvpComNamesValueVariableDesc": "Dies wird die Gemeinschaftsnamen der gesamten RSVP-Liste angeben.",
+    "sessionStart": "Sitzungsbeginn",
+    "sessionEnd": "Sitzungsende",
+    "serverSessions": "Server-Sitzungen",
+    "enabledWhen": "Aktiviert, wenn",
+    "requirement": "Anforderung",
+    "serverInSession": "Server in Sitzung",
+    "servers": "Server"
   },
   "integrationsPortal": {
     "title": "Offizielle Integrationen",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Zeiterfassungs-Schichttypen",
     "clockInTypesExplanation": "Benutzerdefinierte Schichttypen ermöglichen es den Benutzern, sich unter bestimmten Kategorien (z. B. Admin, Polizei) ein- und auszustempeln. Diese Kategorien können in Dienstplänen und Berichten gefiltert werden.",
     "addNewShiftType": "Neuen Schichttyp hinzufügen"
+  },
+  "ServerSessionHandler": {
+    "ago": "vor",
+    "unknownTime": "Unbekannte Zeit",
+    "unknownAccount": "Unbekanntes Konto",
+    "startedBy": "Gestartet von",
+    "startSession": "Sitzung starten",
+    "cancelSession": "Sitzung abbrechen",
+    "endSession": "Sitzung beenden",
+    "activeSession": "Aktive Sitzung",
+    "cancel": "Abbrechen",
+    "end": "Beenden"
   }
 }

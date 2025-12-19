@@ -286,7 +286,11 @@
     "eventNotFound": "Hendelse Ikke Funnet/Tilgjengelig",
     "eventNotFoundDesc": "Enten eksisterer ikke hendelsen eller du har ikke tillatelse til å se denne hendelsen direkte.",
     "editEvents": "Rediger hendelser",
-    "loginToViewEvent": "Logg inn for å se arrangement"
+    "loginToViewEvent": "Logg inn for å se arrangement",
+    "removeOthersEvents": "Fjern andres hendelser",
+    "editOthersEvents": "Rediger andres hendelser",
+    "removeOwnEvents": "Fjern egne hendelser",
+    "editOwnEvents": "Rediger egne hendelser"
   },
   "limits": {
     "version": "Versjon",
@@ -631,7 +635,8 @@
     "removedRanks": "Fjernet Rangeringer",
     "askAiAQuestion": "Still AI et spørsmål...",
     "qbcoreQboxPanelDocumentation": "QBCore- og QBox-paneldokumentasjon",
-    "erlcPanelDocumentation": "ER:LC-paneldokumentasjon"
+    "erlcPanelDocumentation": "ER:LC-paneldokumentasjon",
+    "session": "Økt"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -1532,7 +1537,10 @@
     "stageActions": "Scenehandlinger",
     "whenAFormStageActionNotificationIsTrigge": "Når en skjemaetappe-handlingsvarsel utløses, vil du bli varslet gjennom Innboksen og andre valgte preferanser.",
     "disciplinaryActions": "Disiplinære handlinger",
-    "whenADisciplinaryActionNotificationIsTri": "Når en varsel om disiplinærtiltak utløses, blir du varslet gjennom innboksen og andre valgte preferanser."
+    "whenADisciplinaryActionNotificationIsTri": "Når en varsel om disiplinærtiltak utløses, blir du varslet gjennom innboksen og andre valgte preferanser.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Skiftrapporter",
+    "willNotifyYouWithAERLCShiftReport": "Vil varsle deg via Discord når et ER:LC skift er fullført med nyttig informasjon."
   },
   "profileView": {
     "commmunityProfileTutorial": "Fellesskapsprofilveiledning",
@@ -1689,7 +1697,8 @@
     "inbox": "Innboks",
     "desktop": "Skrivebord",
     "mobile": "Mobil",
-    "anErrorOccuredWhileUpdatingNotificationP": "En feil oppstod ved oppdatering av varselinnstillinger, prøv igjen senere. Feil:"
+    "anErrorOccuredWhileUpdatingNotificationP": "En feil oppstod ved oppdatering av varselinnstillinger, prøv igjen senere. Feil:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Medlemmer per side:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Bygg inn bunntekst",
     "formsembedfootertext": "Bygg inn bunnteksttekst",
     "formsembedfootericonurl": "Bygg inn bunntekstikon-URL",
-    "addEmbed": "Legg til innebygging"
+    "addEmbed": "Legg til innebygging",
+    "embedButtons": "Egendefinerte knapper",
+    "commonButtonRow": "Knapprad",
+    "removeButtonRowFromEmbed": "Fjern knapperad",
+    "addButtonRowToEmbed": "Legg til knapperad",
+    "removeButtonFromRowRowFromEmbed": "Fjern knapp fra rad",
+    "commonButton": "Knapp",
+    "addButtonToRowToEmbed": "Legg til knapp til rad",
+    "embedButtonLabel": "Knappeetikett",
+    "embedButtonUrl": "Knappe-URL"
   },
   "fileUploader": {
     "commonuploader": "Opplaster",
@@ -3302,7 +3320,11 @@
     "error": "Feil:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Feil: Kunne ikke lagre hendelsesdetaljer på grunn av en intern feil`",
     "calendareditevents": "Rediger hendelser",
-    "copyShareLink": "Kopier delingslenke"
+    "copyShareLink": "Kopier delingslenke",
+    "discordCalenderSync": "Discord Kalender Synkronisering",
+    "enabled": "Aktivert",
+    "disabled": "Deaktivert",
+    "eventCreation": "Hendelsesopprettelse"
   },
   "dashboardView": {
     "pending": "VENTER",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Lar medlemmene kjøre mod-kommandoer i spillpanelet for denne serveren.",
     "runRpCommand": "Kjør RP-kommando",
     "allowsMembersToRunRpCommandsInTheGamePan": "Lar medlemmene kjøre RP-kommandoer i spillpanelet for denne serveren.",
-    "allowMembersToViewHiddenStages": "Tillat medlemmer å se detaljene i skjulte trinn under Mine skjemaer"
+    "allowMembersToViewHiddenStages": "Tillat medlemmer å se detaljene i skjulte trinn under Mine skjemaer",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Tillater medlemmer å fjerne andre medlemmers hendelser innen denne kategorien.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Tillater medlemmer å fjerne sine egne hendelser i denne kategorien.",
+    "allowsMembersToEditTheirOwnEventsInT": "Tillater medlemmer å redigere sine egne hendelser i denne kategorien."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "koble kontoen din til ER:LC ved å bruke MC-lenken din.",
     "webhookChannel": "webhookKanalen",
     "webhookEmbedContent": "webhookEmbedInnhold",
-    "webhookContentHint": "webhookInnholdsHint"
+    "webhookContentHint": "webhookInnholdsHint",
+    "customTriggerERLCNotiContentDescription": "Denne handlingen vil automatisk sende en ERLC-varsling til ønsket ERLC-server når den konfigurerte utløseren er oppfylt.",
+    "customTriggerERLCHintContentDescription": "Denne handlingen vil automatisk sende et ERLC-hint til ønsket ERLC-server når den konfigurerte utløseren er oppfylt.",
+    "customTriggerDiscordWebhookContentDescription": "Denne handlingen vil automatisk utføre en Discord-webhook når den konfigurerte utløseren er oppfylt."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangvarslingRanger",
@@ -4700,7 +4728,26 @@
     "value": "Verdi",
     "checked": "Avkrysset",
     "unchecked": "Ikke avkrysset",
-    "someValue": "Noen Verdi"
+    "someValue": "Noen Verdi",
+    "calendarEvents": "Kalenderhendelser",
+    "eventCreation": "Hendelsesopprettelse",
+    "eventStart": "Hendelsesstart",
+    "eventEnd": "Hendelseslutt",
+    "eventNameVariableLabel": "Hendelsesnavn",
+    "eventNameValueVariableDesc": "Dette vil angi navnet på hendelsen.",
+    "eventDescriptionVariableLabel": "Hendelsesbeskrivelse",
+    "eventDescriptionValueVariableDesc": "Dette vil angis om hendelsesbeskrivelsen.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP Liste Discord-omtaler",
+    "rsvpDiscordMentionsValueVariableDesc": "Dette vil angi Discord-omtalene for hele RSVP-listen.",
+    "rsvpComNamesVariableLabel": "RSVP Liste Samfunnsnavn",
+    "rsvpComNamesValueVariableDesc": "Dette vil angi samfunnsnavnene for hele RSVP-listen.",
+    "sessionStart": "Økt Start",
+    "sessionEnd": "Økt Slutt",
+    "serverSessions": "Serverøkter",
+    "enabledWhen": "Aktivert Når",
+    "requirement": "Krav",
+    "serverInSession": "Server i økt",
+    "servers": "Server(e)"
   },
   "integrationsPortal": {
     "title": "Offisielle integrasjoner",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Tidspunktskiftetyper",
     "clockInTypesExplanation": "Tilpassede skifttyper gir brukerne mulighet til å klokke inn under spesifikke kategorier (f.eks. Admin, Politi). Disse kategoriene kan filtreres i oppmøtelister og rapporter.",
     "addNewShiftType": "Legg til ny skifttype"
+  },
+  "ServerSessionHandler": {
+    "ago": "siden",
+    "unknownTime": "Ukjent Tid",
+    "unknownAccount": "Ukjent Konto",
+    "startedBy": "Startet av",
+    "startSession": "Start Økt",
+    "cancelSession": "Avbryt Økt",
+    "endSession": "Avslutt Økt",
+    "activeSession": "Aktiv Økt",
+    "cancel": "Avbryt",
+    "end": "Avslutt"
   }
 }

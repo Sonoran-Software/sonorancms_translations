@@ -286,7 +286,11 @@
     "eventNotFound": "Событие не найдено/недоступно",
     "eventNotFoundDesc": "Либо событие не существует, либо у вас нет разрешения на просмотр этого события напрямую.",
     "editEvents": "Изменить события",
-    "loginToViewEvent": "Войти, чтобы посмотреть событие"
+    "loginToViewEvent": "Войти, чтобы посмотреть событие",
+    "removeOthersEvents": "Удалить события других",
+    "editOthersEvents": "Изменить события других",
+    "removeOwnEvents": "Удалить собственные события",
+    "editOwnEvents": "Изменить собственные события"
   },
   "limits": {
     "version": "Версия",
@@ -631,7 +635,8 @@
     "removedRanks": "Удаленные ранги",
     "askAiAQuestion": "Задайте вопрос ИИ...",
     "qbcoreQboxPanelDocumentation": "Документация панели QBCore и QBox",
-    "erlcPanelDocumentation": "Документация панели ER:LC"
+    "erlcPanelDocumentation": "Документация панели ER:LC",
+    "session": "Сессия"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -1532,7 +1537,10 @@
     "stageActions": "Действия на этапе",
     "whenAFormStageActionNotificationIsTrigge": "Когда уведомление о действии на этапе формы будет активировано, вы получите оповещение через Входящие или другие выбранные вами параметры.",
     "disciplinaryActions": "Дисциплинарные меры",
-    "whenADisciplinaryActionNotificationIsTri": "Когда уведомление о дисциплинарном взыскании будет сработано, вы получите уведомление через Входящие и другие выбранные предпочтения."
+    "whenADisciplinaryActionNotificationIsTri": "Когда уведомление о дисциплинарном взыскании будет сработано, вы получите уведомление через Входящие и другие выбранные предпочтения.",
+    "discord": "Discord",
+    "erlcShiftReports": "Отчёты о сменах ER:LC",
+    "willNotifyYouWithAERLCShiftReport": "Уведомит вас через Discord, когда завершится смена ER:LC с полезной информацией."
   },
   "profileView": {
     "commmunityProfileTutorial": "Узнайте о своем профиле сообщества",
@@ -1689,7 +1697,8 @@
     "inbox": "Рабочий стол",
     "desktop": "Мобильный",
     "mobile": "Произошла ошибка при обновлении настроек уведомлений, попробуйте позже. Ошибка:",
-    "anErrorOccuredWhileUpdatingNotificationP": "Членов на странице:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Членов на странице:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Закрыть",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Текст нижнего колонтитула",
     "formsembedfootertext": "URL иконки нижнего колонтитула",
     "formsembedfootericonurl": "Добавить вставку",
-    "addEmbed": "Загрузчик"
+    "addEmbed": "Загрузчик",
+    "embedButtons": "Элементы управления",
+    "commonButtonRow": "Строка с кнопками",
+    "removeButtonRowFromEmbed": "Удалить строку с кнопками",
+    "addButtonRowToEmbed": "Добавить строку с кнопками",
+    "removeButtonFromRowRowFromEmbed": "Удалить кнопку из строки",
+    "commonButton": "Кнопка",
+    "addButtonToRowToEmbed": "Добавить кнопку в строку",
+    "embedButtonLabel": "Метка кнопки",
+    "embedButtonUrl": "URL кнопки"
   },
   "fileUploader": {
     "commonuploader": "Закрыть",
@@ -3302,7 +3320,11 @@
     "error": "Событие успешно сохранено:",
     "errorUnsuccessfullySavedEventDetailsDueT": "В ОЖИДАНИИ",
     "calendareditevents": "Редактировать события",
-    "copyShareLink": "Копировать ссылку для общего доступа"
+    "copyShareLink": "Копировать ссылку для общего доступа",
+    "discordCalenderSync": "Синхронизация календаря Discord",
+    "enabled": "Включено",
+    "disabled": "Выключено",
+    "eventCreation": "Создание события"
   },
   "dashboardView": {
     "pending": "Страница доступных форм",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Позволяет участникам выполнять модераторские команды в панели управления игрой для этого сервера.",
     "runRpCommand": "Запустить RP команду",
     "allowsMembersToRunRpCommandsInTheGamePan": "Позволяет участникам выполнять RP команды в игровом панели для этого сервера.",
-    "allowMembersToViewHiddenStages": "Разрешить участникам просматривать детали этапов скрытых стадий в Моих формах"
+    "allowMembersToViewHiddenStages": "Разрешить участникам просматривать детали этапов скрытых стадий в Моих формах",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Позволяет участникам удалять события других участников в этой категории.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Позволяет участникам удалять свои собственные события в этой категории.",
+    "allowsMembersToEditTheirOwnEventsInT": "Позволяет участникам редактировать свои собственные события в этой категории."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "Содержимое подсказки ERLC",
     "webhookChannel": "webhook-канал",
     "webhookEmbedContent": "вебхукСодержимоеВстраивания",
-    "webhookContentHint": "Подсказка содержимого вебхука"
+    "webhookContentHint": "Подсказка содержимого вебхука",
+    "customTriggerERLCNotiContentDescription": "Это действие автоматически отправит уведомление ERLC на заданный сервер ERLC, когда будет выполнено настроенное условие.",
+    "customTriggerERLCHintContentDescription": "Это действие автоматически отправит подсказку ERLC на заданный сервер ERLC, когда будет выполнено настроенное условие.",
+    "customTriggerDiscordWebhookContentDescription": "Это действие автоматически выполнит веб-хук Discord, когда будет выполнено настроенное условие."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "звания уведомлений",
@@ -4700,7 +4728,26 @@
     "value": "Значение",
     "checked": "Отмечено",
     "unchecked": "Неотмечено",
-    "someValue": "Некоторое значение"
+    "someValue": "Некоторое значение",
+    "calendarEvents": "События календаря",
+    "eventCreation": "Создание события",
+    "eventStart": "Начало события",
+    "eventEnd": "Конец события",
+    "eventNameVariableLabel": "Название события",
+    "eventNameValueVariableDesc": "Это будет указывать название события.",
+    "eventDescriptionVariableLabel": "Описание события",
+    "eventDescriptionValueVariableDesc": "Это будет указывать описание события.",
+    "rsvpDiscordMentionsVariableLabel": "Упоминания Discord из списка RSVP",
+    "rsvpDiscordMentionsValueVariableDesc": "Это будет указывать упоминания Discord всего списка RSVP.",
+    "rsvpComNamesVariableLabel": "Названия сообществ из списка RSVP",
+    "rsvpComNamesValueVariableDesc": "Это будет указывать на названия сообществ всего списка RSVP.",
+    "sessionStart": "Начало сессии",
+    "sessionEnd": "Конец сессии",
+    "serverSessions": "Сессии сервера",
+    "enabledWhen": "Включено, когда",
+    "requirement": "Требование",
+    "serverInSession": "Сервер в сессии",
+    "servers": "Сервер(ы)"
   },
   "integrationsPortal": {
     "title": "Официальные интеграции",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Типы смен рабочего времени",
     "clockInTypesExplanation": "Пользовательские типы смен позволяют пользователям входить в систему под определенными категориями (например, Админ, Полиция). Эти категории можно фильтровать в списках и отчетах.",
     "addNewShiftType": "Добавить новый тип смены"
+  },
+  "ServerSessionHandler": {
+    "ago": "назад",
+    "unknownTime": "Неизвестное время",
+    "unknownAccount": "Неизвестный аккаунт",
+    "startedBy": "Начато",
+    "startSession": "Начать сессию",
+    "cancelSession": "Отменить сессию",
+    "endSession": "Завершить сессию",
+    "activeSession": "Активная сессия",
+    "cancel": "Отмена",
+    "end": "Завершить"
   }
 }

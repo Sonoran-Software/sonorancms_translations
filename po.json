@@ -286,7 +286,11 @@
     "eventNotFound": "Wydarzenie Nie Znalezione/Niedostępne",
     "eventNotFoundDesc": "Albo wydarzenie nie istnieje, albo nie masz uprawnień do bezpośredniego przeglądania tego wydarzenia.",
     "editEvents": "Edytuj wydarzenia",
-    "loginToViewEvent": "Logar para ver o evento"
+    "loginToViewEvent": "Logar para ver o evento",
+    "removeOthersEvents": "Remover Eventos de Outros",
+    "editOthersEvents": "Editar Eventos de Outros",
+    "removeOwnEvents": "Remover Próprios Eventos",
+    "editOwnEvents": "Editar Próprios Eventos"
   },
   "limits": {
     "version": "Wersja",
@@ -631,7 +635,8 @@
     "removedRanks": "Rangy usunięte",
     "askAiAQuestion": "Zadaj AI pytanie...",
     "qbcoreQboxPanelDocumentation": "Dokumentacja Panelu QBCore i QBox",
-    "erlcPanelDocumentation": "Dokumentacja Panelu ER:LC"
+    "erlcPanelDocumentation": "Dokumentacja Panelu ER:LC",
+    "session": "Sessão"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -1532,7 +1537,10 @@
     "stageActions": "Akcje sceniczne",
     "whenAFormStageActionNotificationIsTrigge": "Quando uma notificação de ação de estágio de formulário é acionada, você será notificado pela Caixa de Entrada e outras preferências selecionadas.",
     "disciplinaryActions": "Działania Dyscyplinarne",
-    "whenADisciplinaryActionNotificationIsTri": "Когда уведомление о дисциплинарном взыскании срабатывает, вы будете уведомлены через Входящие и другие выбранные предпочтения."
+    "whenADisciplinaryActionNotificationIsTri": "Когда уведомление о дисциплинарном взыскании срабатывает, вы будете уведомлены через Входящие и другие выбранные предпочтения.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Relatórios de Turno",
+    "willNotifyYouWithAERLCShiftReport": "Irá notificá-lo via Discord quando um turno de ER:LC for concluído com informações úteis."
   },
   "profileView": {
     "commmunityProfileTutorial": "Samouczek Profilu Społeczności",
@@ -1689,7 +1697,8 @@
     "inbox": "Skrzynka odbiorcza",
     "desktop": "Komputer",
     "mobile": "Mobilny",
-    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Członkowie na stronę:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Osadź Stopkę",
     "formsembedfootertext": "Tekst Stopki",
     "formsembedfootericonurl": "URL Ikony Stopki",
-    "addEmbed": "Dodaj Osadzenie"
+    "addEmbed": "Dodaj Osadzenie",
+    "embedButtons": "Botões Incorporados",
+    "commonButtonRow": "Linha de Botões",
+    "removeButtonRowFromEmbed": "Remover Linha de Botões",
+    "addButtonRowToEmbed": "Adicionar Linha de Botões",
+    "removeButtonFromRowRowFromEmbed": "Remover Botão da Linha",
+    "commonButton": "Botão",
+    "addButtonToRowToEmbed": "Adicionar Botão à Linha",
+    "embedButtonLabel": "Rótulo do Botão",
+    "embedButtonUrl": "URL do Botão"
   },
   "fileUploader": {
     "commonuploader": "Przesyłający",
@@ -3302,7 +3320,11 @@
     "error": "Błąd:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Błąd: Nie udało się zapisać szczegółów wydarzenia z powodu błędu wewnętrznego`",
     "calendareditevents": "Edytuj wydarzenia",
-    "copyShareLink": "Copiar Link de Compartilhamento"
+    "copyShareLink": "Copiar Link de Compartilhamento",
+    "discordCalenderSync": "Sincronização de Calendário do Discord",
+    "enabled": "Habilitado",
+    "disabled": "Desabilitado",
+    "eventCreation": "Criação de Evento"
   },
   "dashboardView": {
     "pending": "OCZEKUJĄCE",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Pozwala członkom uruchamiać polecenia moderatora w panelu gry dla tego serwera.",
     "runRpCommand": "Lancez la commande RP",
     "allowsMembersToRunRpCommandsInTheGamePan": "Permite que os membros executem comandos RP no Painel de Jogo para este servidor.",
-    "allowMembersToViewHiddenStages": "Zezwól członkom na oglądanie szczegółów etapów ukrytych pod Moimi Formularzami"
+    "allowMembersToViewHiddenStages": "Zezwól członkom na oglądanie szczegółów etapów ukrytych pod Moimi Formularzami",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Permite aos membros remover eventos de outros membros dentro desta categoria.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permite aos membros remover seus próprios eventos nesta categoria.",
+    "allowsMembersToEditTheirOwnEventsInT": "Permite aos membros editar seus próprios eventos nesta categoria."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "Treść podpowiedzi ERLC",
     "webhookChannel": "kanałWebhook",
     "webhookEmbedContent": "Zawartość osadzenia webhooka",
-    "webhookContentHint": "Suggerimento contenuto webhook"
+    "webhookContentHint": "Suggerimento contenuto webhook",
+    "customTriggerERLCNotiContentDescription": "Esta ação enviará automaticamente uma notificação ERLC para o servidor ERLC desejado quando o gatilho configurado for atendido.",
+    "customTriggerERLCHintContentDescription": "Esta ação enviará automaticamente uma dica ERLC para o servidor ERLC desejado quando o gatilho configurado for atendido.",
+    "customTriggerDiscordWebhookContentDescription": "Esta ação executará automaticamente um webhook do Discord quando o gatilho configurado for atendido."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "aboneBildirimRütbeleri",
@@ -4700,7 +4728,26 @@
     "value": "Valor",
     "checked": "Marcado",
     "unchecked": "Desmarcado",
-    "someValue": "Algum Valor"
+    "someValue": "Algum Valor",
+    "calendarEvents": "Eventos do Calendário",
+    "eventCreation": "Criação de Evento",
+    "eventStart": "Início do Evento",
+    "eventEnd": "Fim do Evento",
+    "eventNameVariableLabel": "Nome do Evento",
+    "eventNameValueVariableDesc": "Isso indicará o nome do evento.",
+    "eventDescriptionVariableLabel": "Descrição do Evento",
+    "eventDescriptionValueVariableDesc": "Isso indicará a descrição do evento.",
+    "rsvpDiscordMentionsVariableLabel": "Menções no Discord da Lista RSVP",
+    "rsvpDiscordMentionsValueVariableDesc": "Isso indicará as menções no Discord de toda a lista RSVP.",
+    "rsvpComNamesVariableLabel": "Nomes da Comunidade da Lista RSVP",
+    "rsvpComNamesValueVariableDesc": "Isso indicará os nomes da comunidade de toda a lista RSVP.",
+    "sessionStart": "Início da Sessão",
+    "sessionEnd": "Fim da Sessão",
+    "serverSessions": "Sessões do Servidor",
+    "enabledWhen": "Habilitado Quando",
+    "requirement": "Requisito",
+    "serverInSession": "Servidor em Sessão",
+    "servers": "Servidor(es)"
   },
   "integrationsPortal": {
     "title": "Oficjalne integracje",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Tipos de Turno do Relógio de Ponto",
     "clockInTypesExplanation": "Tipologias de turnos personalizadas permitem que os usuários registrem a entrada em categorias específicas (e.g., Administração, Polícia). Estas categorias podem ser filtradas em listas e relatórios.",
     "addNewShiftType": "Adicionar novo tipo de turno"
+  },
+  "ServerSessionHandler": {
+    "ago": "atrás",
+    "unknownTime": "Hora Desconhecida",
+    "unknownAccount": "Conta Desconhecida",
+    "startedBy": "Iniciado por",
+    "startSession": "Iniciar Sessão",
+    "cancelSession": "Cancelar Sessão",
+    "endSession": "Encerrar Sessão",
+    "activeSession": "Sessão Ativa",
+    "cancel": "Cancelar",
+    "end": "Encerrar"
   }
 }

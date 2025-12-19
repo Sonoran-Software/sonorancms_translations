@@ -286,7 +286,11 @@
     "eventNotFound": "Etkinlik Bulunamadı/Erişilemedi",
     "eventNotFoundDesc": "Ya etkinlik mevcut değil ya da bu etkinliği doğrudan görüntüleme izniniz yok.",
     "editEvents": "Etkinlikleri Düzenle",
-    "loginToViewEvent": "Etkinliği Görmek İçin Giriş Yap"
+    "loginToViewEvent": "Etkinliği Görmek İçin Giriş Yap",
+    "removeOthersEvents": "Başkalarının Etkinliklerini Kaldır",
+    "editOthersEvents": "Başkalarının Etkinliklerini Düzenle",
+    "removeOwnEvents": "Kendi Etkinliklerini Kaldır",
+    "editOwnEvents": "Kendi Etkinliklerini Düzenle"
   },
   "limits": {
     "version": "Sürüm",
@@ -631,7 +635,8 @@
     "removedRanks": "Kaldırılan Rütbeler",
     "askAiAQuestion": "AI'ye bir soru sorun...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dökümantasyonu",
-    "erlcPanelDocumentation": "ER:LC Panel Dökümantasyonu"
+    "erlcPanelDocumentation": "ER:LC Panel Dökümantasyonu",
+    "session": "Oturum"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -1532,7 +1537,10 @@
     "stageActions": "Sahne Eylemleri",
     "whenAFormStageActionNotificationIsTrigge": "Bir form aşaması eylem bildirimi tetiklendiğinde, Gelen Kutusu ve seçilen diğer tercihler üzerinden bilgilendirileceksiniz.",
     "disciplinaryActions": "Disiplin Cezaları",
-    "whenADisciplinaryActionNotificationIsTri": "Disiplin cezası bildirimi tetiklendiğinde, Gelen Kutusu ve seçilen diğer tercihler aracılığıyla bilgilendirileceksiniz."
+    "whenADisciplinaryActionNotificationIsTri": "Disiplin cezası bildirimi tetiklendiğinde, Gelen Kutusu ve seçilen diğer tercihler aracılığıyla bilgilendirileceksiniz.",
+    "discord": "Discord",
+    "erlcShiftReports": "ER:LC Vardiya Raporları",
+    "willNotifyYouWithAERLCShiftReport": "ER:LC vardiyası tamamlandığında Discord üzerinden size bildirim gönderir."
   },
   "profileView": {
     "commmunityProfileTutorial": "Topluluk Profili Eğitimi",
@@ -1689,7 +1697,8 @@
     "inbox": "Gelen Kutusu",
     "desktop": "Masaüstü",
     "mobile": "Mobil",
-    "anErrorOccuredWhileUpdatingNotificationP": "Bildirim tercihleri güncellenirken bir hata oluştu, lütfen daha sonra tekrar deneyin. Hata:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Bildirim tercihleri güncellenirken bir hata oluştu, lütfen daha sonra tekrar deneyin. Hata:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Sayfa başına üye:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Altbilgi Göm",
     "formsembedfootertext": "Altbilgi Metni Göm",
     "formsembedfootericonurl": "Altbilgi Simge URL'si Göm",
-    "addEmbed": "Göm Ekle"
+    "addEmbed": "Göm Ekle",
+    "embedButtons": "Gömülü Düğmeler",
+    "commonButtonRow": "Düğme Sırası",
+    "removeButtonRowFromEmbed": "Düğme Sırasını Kaldır",
+    "addButtonRowToEmbed": "Düğme Sırası Ekle",
+    "removeButtonFromRowRowFromEmbed": "Sıradan Düğme Kaldır",
+    "commonButton": "Düğme",
+    "addButtonToRowToEmbed": "Sıraya Düğme Ekle",
+    "embedButtonLabel": "Düğme Etiketi",
+    "embedButtonUrl": "Düğme URL'si"
   },
   "fileUploader": {
     "commonuploader": "Yükleyici",
@@ -3302,7 +3320,11 @@
     "error": "Hata:",
     "errorUnsuccessfullySavedEventDetailsDueT": "Hata: Etkinlik detayları dahili bir hata nedeniyle kaydedilemedi",
     "calendareditevents": "Etkinlikleri Düzenle",
-    "copyShareLink": "Paylaşım Bağlantısını Kopyala"
+    "copyShareLink": "Paylaşım Bağlantısını Kopyala",
+    "discordCalenderSync": "Discord Takvim Senkronizasyonu",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "eventCreation": "Etkinlik Oluşturma"
   },
   "dashboardView": {
     "pending": "BEKLEMEDE",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde mod komutlarını çalıştırmasına izin verir.",
     "runRpCommand": "RP Komutunu Çalıştır",
     "allowsMembersToRunRpCommandsInTheGamePan": "Bu sunucu için Oyun Panelinde RP komutlarını çalıştırmalarına olanak tanır.",
-    "allowMembersToViewHiddenStages": "Üyelerin Formlarım altında gizli aşamaların aşama ayrıntılarını görüntülemesine izin ver"
+    "allowMembersToViewHiddenStages": "Üyelerin Formlarım altında gizli aşamaların aşama ayrıntılarını görüntülemesine izin ver",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Üyelere, bu kategori içindeki diğer üyelerin etkinliklerini kaldırmalarına izin verir.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Üyelere, bu kategori içinde kendi etkinliklerini kaldırmalarına izin verir.",
+    "allowsMembersToEditTheirOwnEventsInT": "Üyelere, bu kategori içinde kendi etkinliklerini düzenlemelerine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "erlcİpucuİçerik",
     "webhookChannel": "webhookKanal",
     "webhookEmbedContent": "webhookGömülüİçerik",
-    "webhookContentHint": "Webhook içeriği önerisi"
+    "webhookContentHint": "Webhook içeriği önerisi",
+    "customTriggerERLCNotiContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında istenen ERLC sunucusuna otomatik olarak bir ERLC bildirimi gönderecektir.",
+    "customTriggerERLCHintContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında istenen ERLC sunucusuna otomatik olarak bir ERLC ipucu gönderecektir.",
+    "customTriggerDiscordWebhookContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında otomatik olarak bir Discord webhook'u çalıştıracaktır."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Rütbe Bildirim Rütbeleri",
@@ -4700,7 +4728,26 @@
     "value": "Değer",
     "checked": "İşaretli",
     "unchecked": "İşaretsiz",
-    "someValue": "Bir Değer"
+    "someValue": "Bir Değer",
+    "calendarEvents": "Takvim Etkinlikleri",
+    "eventCreation": "Etkinlik Oluşturma",
+    "eventStart": "Etkinlik Başlangıcı",
+    "eventEnd": "Etkinlik Bitişi",
+    "eventNameVariableLabel": "Etkinlik Adı",
+    "eventNameValueVariableDesc": "Bu, etkinliğin adını belirtecektir.",
+    "eventDescriptionVariableLabel": "Etkinlik Açıklaması",
+    "eventDescriptionValueVariableDesc": "Bu, etkinliğin açıklamasını belirtecektir.",
+    "rsvpDiscordMentionsVariableLabel": "RSVP Listesi Discord Bahsedilmeleri",
+    "rsvpDiscordMentionsValueVariableDesc": "Bu, tüm RSVP listesinin Discord bahsedilmelerini belirtecektir.",
+    "rsvpComNamesVariableLabel": "RSVP Listesi Topluluk İsimleri",
+    "rsvpComNamesValueVariableDesc": "Bu, tüm RSVP listesinin topluluk isimlerini belirtecektir.",
+    "sessionStart": "Oturum Başlangıcı",
+    "sessionEnd": "Oturum Bitişi",
+    "serverSessions": "Sunucu Oturumları",
+    "enabledWhen": "Etkin Olduğunda",
+    "requirement": "Gereklilik",
+    "serverInSession": "Sunucu Oturumda",
+    "servers": "Sunucu(lar)"
   },
   "integrationsPortal": {
     "title": "Resmi Entegrasyonlar",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Zaman Saati Vardiya Türleri",
     "clockInTypesExplanation": "Özel vardiya türleri, kullanıcıların belirli kategoriler altında giriş yapmalarına olanak tanır (örn: Yönetici, Polis). Bu kategoriler listelerde ve raporlarda filtrelenebilir.",
     "addNewShiftType": "Yeni vardiya türü ekle"
+  },
+  "ServerSessionHandler": {
+    "ago": "önce",
+    "unknownTime": "Bilinmeyen Zaman",
+    "unknownAccount": "Bilinmeyen Hesap",
+    "startedBy": "Başlatan",
+    "startSession": "Oturumu Başlat",
+    "cancelSession": "Oturumu İptal Et",
+    "endSession": "Oturumu Bitir",
+    "activeSession": "Aktif Oturum",
+    "cancel": "İptal",
+    "end": "Sonlandır"
   }
 }

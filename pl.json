@@ -286,7 +286,11 @@
     "eventNotFound": "Wydarzenie Nie Znalezione/Niedostępne",
     "eventNotFoundDesc": "Albo wydarzenie nie istnieje, albo nie masz uprawnień do bezpośredniego przeglądania tego wydarzenia.",
     "editEvents": "Edytuj wydarzenia",
-    "loginToViewEvent": "Zaloguj się, aby zobaczyć wydarzenie"
+    "loginToViewEvent": "Zaloguj się, aby zobaczyć wydarzenie",
+    "removeOthersEvents": "Usuń wydarzenia innych",
+    "editOthersEvents": "Edytuj wydarzenia innych",
+    "removeOwnEvents": "Usuń własne wydarzenia",
+    "editOwnEvents": "Edytuj własne wydarzenia"
   },
   "limits": {
     "version": "Wersja",
@@ -631,7 +635,8 @@
     "removedRanks": "Usunięte Stopnie",
     "askAiAQuestion": "Zadaj AI pytanie...",
     "qbcoreQboxPanelDocumentation": "Dokumentacja panelu QBCore i QBox",
-    "erlcPanelDocumentation": "Dokumentacja panelu ER:LC"
+    "erlcPanelDocumentation": "Dokumentacja panelu ER:LC",
+    "session": "Sesja"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -1532,7 +1537,10 @@
     "stageActions": "Działania na scenie",
     "whenAFormStageActionNotificationIsTrigge": "Gdy powiadomienie o akcji etapu formularza zostanie wywołane, otrzymasz powiadomienie przez Skrzynkę odbiorczą i inne wybrane preferencje.",
     "disciplinaryActions": "Działania Dyscyplinarne",
-    "whenADisciplinaryActionNotificationIsTri": "Kiedy powiadomienie o działaniu dyscyplinarnym zostanie uruchomione, zostaniesz powiadomiony przez Skrzynkę odbiorczą i inne wybrane preferencje."
+    "whenADisciplinaryActionNotificationIsTri": "Kiedy powiadomienie o działaniu dyscyplinarnym zostanie uruchomione, zostaniesz powiadomiony przez Skrzynkę odbiorczą i inne wybrane preferencje.",
+    "discord": "Discord",
+    "erlcShiftReports": "Raporty Zmian ER:LC",
+    "willNotifyYouWithAERLCShiftReport": "Powiadomi Cię przez Discord, gdy zmiana ER:LC zostanie zakończona z przydatnymi informacjami."
   },
   "profileView": {
     "commmunityProfileTutorial": "Samouczek Profilu Społeczności",
@@ -1689,7 +1697,8 @@
     "inbox": "Skrzynka odbiorcza",
     "desktop": "Komputer",
     "mobile": "Mobilny",
-    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:"
+    "anErrorOccuredWhileUpdatingNotificationP": "Wystąpił błąd podczas aktualizacji preferencji powiadomień, spróbuj ponownie później. Błąd:",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Członkowie na stronę:",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Osadź Stopkę",
     "formsembedfootertext": "Tekst Stopki",
     "formsembedfootericonurl": "URL Ikony Stopki",
-    "addEmbed": "Dodaj Osadzenie"
+    "addEmbed": "Dodaj Osadzenie",
+    "embedButtons": "Przyciski Osadzenia",
+    "commonButtonRow": "Wiersz Przycisków",
+    "removeButtonRowFromEmbed": "Usuń wiersz przycisków",
+    "addButtonRowToEmbed": "Dodaj wiersz przycisków",
+    "removeButtonFromRowRowFromEmbed": "Usuń przycisk z wiersza",
+    "commonButton": "Przycisk",
+    "addButtonToRowToEmbed": "Dodaj przycisk do wiersza",
+    "embedButtonLabel": "Etykieta Przycisku",
+    "embedButtonUrl": "URL Przycisku"
   },
   "fileUploader": {
     "commonuploader": "Przesyłający",
@@ -3302,7 +3320,11 @@
     "error": "Błąd:",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Błąd: Nie udało się zapisać szczegółów wydarzenia z powodu błędu wewnętrznego`",
     "calendareditevents": "Edytuj wydarzenia",
-    "copyShareLink": "Skopiuj link do udostępnienia"
+    "copyShareLink": "Skopiuj link do udostępnienia",
+    "discordCalenderSync": "Synch. Kalendarza Discord",
+    "enabled": "Włączony",
+    "disabled": "Wyłączony",
+    "eventCreation": "Tworzenie Wydarzenia"
   },
   "dashboardView": {
     "pending": "OCZEKUJĄCE",
@@ -4281,7 +4303,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Umożliwia członkom uruchamianie poleceń moderatora w panelu gry dla tego serwera.",
     "runRpCommand": "Uruchom polecenie RP",
     "allowsMembersToRunRpCommandsInTheGamePan": "Pozwala członkom uruchamiać komendy RP w panelu gry dla tego serwera.",
-    "allowMembersToViewHiddenStages": "Zezwalaj członkom na przeglądanie szczegółów etapów ukrytych w Moje formularze"
+    "allowMembersToViewHiddenStages": "Zezwalaj członkom na przeglądanie szczegółów etapów ukrytych w Moje formularze",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Pozwala członkom usuwać wydarzenia innych członków w tej kategorii.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Pozwala członkom usuwać własne wydarzenia w tej kategorii.",
+    "allowsMembersToEditTheirOwnEventsInT": "Pozwala członkom edytować własne wydarzenia w tej kategorii."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "Zainstaluj wtyczkę Monitoring Studio, aby włączyć monitorowanie w ER:LC.",
     "webhookChannel": "kanał webhook",
     "webhookEmbedContent": "TreśćOsadzeniaWebhooka",
-    "webhookContentHint": "Zawartość Webhooku"
+    "webhookContentHint": "Zawartość Webhooku",
+    "customTriggerERLCNotiContentDescription": "To działanie automatycznie wyśle powiadomienie ERLC na wybrany serwer ERLC po spełnieniu skonfigurowanego wyzwalacza.",
+    "customTriggerERLCHintContentDescription": "To działanie automatycznie wyśle podpowiedź ERLC na wybrany serwer ERLC po spełnieniu skonfigurowanego wyzwalacza.",
+    "customTriggerDiscordWebhookContentDescription": "To działanie automatycznie wykona webhook Discord po spełnieniu skonfigurowanego wyzwalacza."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "stopnie powiadomień о stopniach",
@@ -4700,7 +4728,26 @@
     "value": "Wartość",
     "checked": "Zaznaczone",
     "unchecked": "Niezaznaczone",
-    "someValue": "Jakaś Wartość"
+    "someValue": "Jakaś Wartość",
+    "calendarEvents": "Wydarzenia Kalendarza",
+    "eventCreation": "Tworzenie Wydarzenia",
+    "eventStart": "Początek Wydarzenia",
+    "eventEnd": "Koniec Wydarzenia",
+    "eventNameVariableLabel": "Nazwa Wydarzenia",
+    "eventNameValueVariableDesc": "To będzie podawać nazwę wydarzenia.",
+    "eventDescriptionVariableLabel": "Opis Wydarzenia",
+    "eventDescriptionValueVariableDesc": "To będzie podawać opis wydarzenia.",
+    "rsvpDiscordMentionsVariableLabel": "Wzmianki Discord RSVP",
+    "rsvpDiscordMentionsValueVariableDesc": "To będzie podawać wzmianki Discord całej listy RSVP.",
+    "rsvpComNamesVariableLabel": "Nazwy Wspólnot RSVP",
+    "rsvpComNamesValueVariableDesc": "To będzie podawać nazwy wspólnot całej listy RSVP.",
+    "sessionStart": "Początek Sesji",
+    "sessionEnd": "Koniec Sesji",
+    "serverSessions": "Sesje Serwera",
+    "enabledWhen": "Włączone Kiedy",
+    "requirement": "Wymaganie",
+    "serverInSession": "Serwer w Sesji",
+    "servers": "Serwer(y)"
   },
   "integrationsPortal": {
     "title": "Oficjalne Integracje",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Rodzaje Zmian na Czasomierzu",
     "clockInTypesExplanation": "Niestandardowe rodzaje zmian pozwalają użytkownikom meldować się w określonych kategoriach (np. Administracja, Policja). Kategorie te mogą być filtrowane w grafikach i raportach.",
     "addNewShiftType": "Dodaj nowy rodzaj zmiany"
+  },
+  "ServerSessionHandler": {
+    "ago": "temu",
+    "unknownTime": "Nieznany czas",
+    "unknownAccount": "Nieznane konto",
+    "startedBy": "Rozpoczęte przez",
+    "startSession": "Rozpocznij sesję",
+    "cancelSession": "Anuluj sesję",
+    "endSession": "Zakończ sesję",
+    "activeSession": "Aktywna sesja",
+    "cancel": "Anuluj",
+    "end": "Zakończ"
   }
 }

@@ -286,7 +286,11 @@
     "eventNotFound": "Événement Non Trouvé/Accessible",
     "eventNotFoundDesc": "Soit l'événement n'existe pas, soit vous n'avez pas la permission de voir cet événement directement.",
     "editEvents": "Modifier les événements",
-    "loginToViewEvent": "Connectez-vous pour voir l'événement"
+    "loginToViewEvent": "Connectez-vous pour voir l'événement",
+    "removeOthersEvents": "Supprimer les événements des autres",
+    "editOthersEvents": "Modifier les événements des autres",
+    "removeOwnEvents": "Supprimer ses propres événements",
+    "editOwnEvents": "Modifier ses propres événements"
   },
   "limits": {
     "version": "Version",
@@ -631,7 +635,8 @@
     "removedRanks": "Rangs supprimés",
     "askAiAQuestion": "Posez une question à l'IA...",
     "qbcoreQboxPanelDocumentation": "Documentation du QBCore & QBox Panel",
-    "erlcPanelDocumentation": "Documentation du ER:LC Panel"
+    "erlcPanelDocumentation": "Documentation du ER:LC Panel",
+    "session": "Session"
   },
   "Dashboard": {
     "securityDashboard": "Sécurité - Tableau de bord",
@@ -1532,7 +1537,10 @@
     "stageActions": "Actions de scène",
     "whenAFormStageActionNotificationIsTrigge": "Lorsque la notification d'une action d'étape de formulaire est déclenchée, vous serez informé via la boîte de réception et les autres préférences sélectionnées.",
     "disciplinaryActions": "Actions disciplinaires",
-    "whenADisciplinaryActionNotificationIsTri": "Lorsqu'une notification de mesure disciplinaire est déclenchée, vous serez informé via la boîte de réception et les autres préférences sélectionnées."
+    "whenADisciplinaryActionNotificationIsTri": "Lorsqu'une notification de mesure disciplinaire est déclenchée, vous serez informé via la boîte de réception et les autres préférences sélectionnées.",
+    "discord": "Discord",
+    "erlcShiftReports": "Rapports de shift ER:LC",
+    "willNotifyYouWithAERLCShiftReport": "Vous notifiera via Discord lorsqu'un shift ER:LC est terminé avec des informations utiles."
   },
   "profileView": {
     "commmunityProfileTutorial": "Tutoriel du profil communautaire",
@@ -1689,7 +1697,8 @@
     "inbox": "Boîte de réception",
     "desktop": "Bureau",
     "mobile": "Mobile",
-    "anErrorOccuredWhileUpdatingNotificationP": "Une erreur s'est produite lors de la mise à jour des préférences de notification, réessayez plus tard. Erreur :"
+    "anErrorOccuredWhileUpdatingNotificationP": "Une erreur s'est produite lors de la mise à jour des préférences de notification, réessayez plus tard. Erreur :",
+    "discord": "Discord"
   },
   "rosterView": {
     "membersPerPage": "Membres par page :",
@@ -1825,7 +1834,16 @@
     "formsembedfooter": "Intégrer un pied de page",
     "formsembedfootertext": "Texte du pied de page intégré",
     "formsembedfootericonurl": "URL de l'icône du pied de page intégré",
-    "addEmbed": "Ajouter une intégration"
+    "addEmbed": "Ajouter une intégration",
+    "embedButtons": "Boutons d'intégration",
+    "commonButtonRow": "Ligne de boutons",
+    "removeButtonRowFromEmbed": "Supprimer la ligne de boutons",
+    "addButtonRowToEmbed": "Ajouter une ligne de boutons",
+    "removeButtonFromRowRowFromEmbed": "Supprimer le bouton de la ligne",
+    "commonButton": "Bouton",
+    "addButtonToRowToEmbed": "Ajouter un bouton à la ligne",
+    "embedButtonLabel": "Étiquette du bouton",
+    "embedButtonUrl": "URL du bouton"
   },
   "fileUploader": {
     "commonuploader": "Téléchargeur",
@@ -3302,7 +3320,11 @@
     "error": "Erreur :",
     "errorUnsuccessfullySavedEventDetailsDueT": "`Erreur : Détails de l'événement non enregistrés en raison d'une erreur interne`",
     "calendareditevents": "Modifier les événements",
-    "copyShareLink": "Copier le lien de partage"
+    "copyShareLink": "Copier le lien de partage",
+    "discordCalenderSync": "Synchronisation de calendrier Discord",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "eventCreation": "Création d'événement"
   },
   "dashboardView": {
     "pending": "EN ATTENTE",
@@ -4192,7 +4214,10 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Permet aux membres d'exécuter des commandes de mod dans le panneau de jeu pour ce serveur.",
     "runRpCommand": "Exécuter la commande RP",
     "allowsMembersToRunRpCommandsInTheGamePan": "Permet aux membres d'exécuter des commandes RP dans le panneau de jeu pour ce serveur.",
-    "allowMembersToViewHiddenStages": "Permettre aux membres de voir les détails des étapes des étapes cachées dans Mes formulaires"
+    "allowMembersToViewHiddenStages": "Permettre aux membres de voir les détails des étapes des étapes cachées dans Mes formulaires",
+    "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Permet aux membres de supprimer les événements des autres membres dans cette catégorie.",
+    "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permet aux membres de supprimer leurs propres événements dans cette catégorie.",
+    "allowsMembersToEditTheirOwnEventsInT": "Permet aux membres de modifier leurs propres événements dans cette catégorie."
   },
   "permissionToggleGroup": {
     "inherited": "hérité",
@@ -4425,7 +4450,10 @@
     "erlcHintContent": "contenuIndiceErlc",
     "webhookChannel": "canalWebhook",
     "webhookEmbedContent": "ContenuIntégrationWebhook",
-    "webhookContentHint": "Indice de contenu du webhook"
+    "webhookContentHint": "Indice de contenu du webhook",
+    "customTriggerERLCNotiContentDescription": "Cette action enverra automatiquement une notification ERLC au serveur ERLC souhaité lorsque le déclencheur configuré est rencontré.",
+    "customTriggerERLCHintContentDescription": "Cette action enverra automatiquement une astuce ERLC au serveur ERLC souhaité lorsque le déclencheur configuré est rencontré.",
+    "customTriggerDiscordWebhookContentDescription": "Cette action exécutera automatiquement un webhook Discord lorsque le déclencheur configuré est rencontré."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "notificationDeRang",
@@ -4700,7 +4728,26 @@
     "value": "Valeur",
     "checked": "Coché",
     "unchecked": "Non coché",
-    "someValue": "Une certaine valeur"
+    "someValue": "Une certaine valeur",
+    "calendarEvents": "Événements de calendrier",
+    "eventCreation": "Création d'événement",
+    "eventStart": "Début de l'événement",
+    "eventEnd": "Fin de l'événement",
+    "eventNameVariableLabel": "Nom de l'événement",
+    "eventNameValueVariableDesc": "Ceci indiquera le nom de l'événement.",
+    "eventDescriptionVariableLabel": "Description de l'événement",
+    "eventDescriptionValueVariableDesc": "Ceci indiquera la description de l'événement.",
+    "rsvpDiscordMentionsVariableLabel": "Mentions Discord de la liste RSVP",
+    "rsvpDiscordMentionsValueVariableDesc": "Ceci indiquera les mentions Discord de toute la liste RSVP.",
+    "rsvpComNamesVariableLabel": "Noms de la communauté de la liste RSVP",
+    "rsvpComNamesValueVariableDesc": "Ceci indiquera les noms de la communauté de toute la liste RSVP.",
+    "sessionStart": "Début de la session",
+    "sessionEnd": "Fin de la session",
+    "serverSessions": "Sessions du serveur",
+    "enabledWhen": "Activé lorsque",
+    "requirement": "Exigence",
+    "serverInSession": "Serveur en session",
+    "servers": "Serveur(s)"
   },
   "integrationsPortal": {
     "title": "Intégrations Officielles",
@@ -4811,5 +4858,17 @@
     "clockInTypes": "Types de quart de temps",
     "clockInTypesExplanation": "Les types de quart personnalisés permettent aux utilisateurs de pointer sous des catégories spécifiques (par exemple, Admin, Police). Ces catégories peuvent être filtrées dans les listes et les rapports.",
     "addNewShiftType": "Ajouter un nouveau type de quart"
+  },
+  "ServerSessionHandler": {
+    "ago": "il y a",
+    "unknownTime": "Temps inconnu",
+    "unknownAccount": "Compte inconnu",
+    "startedBy": "Commencé par",
+    "startSession": "Commencer la session",
+    "cancelSession": "Annuler la session",
+    "endSession": "Terminer la session",
+    "activeSession": "Session active",
+    "cancel": "Annuler",
+    "end": "Fin"
   }
 }
