@@ -2385,7 +2385,8 @@
     "shareLinkCopiedToClipboard": "Share Link Copied to Clipboard!",
     "thereWasAnUnexpectedErrorWhenSavingSetti": "There was an unexpected error when saving settings.",
     "invalidUser17": "Invalid User",
-    "submittedOn": "Submitted On"
+    "submittedOn": "Submitted On",
+    "previousSubmissionHistory": "Previous Submission History"
   },
   "StageEditorCard": {
     "icon": "Icon",
