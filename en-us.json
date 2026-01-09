@@ -4712,7 +4712,16 @@
     "requireRobloxLinkTooltip": "Requires that the Roblox account is linked to a CMS account within the community",
     "requireDiscordLinkTooltip": "Requires that the CMS account associated to the Roblox account has a linked Discord account",
     "requireRobloxLinkActionsTooltip": "Actions that execute when the Roblox account doesn't have an associated CMS account",
-    "requireDiscordLinkActionsTooltip": "Actions that execute when the associated CMS account doesn't have a Discord account linked"
+    "requireDiscordLinkActionsTooltip": "Actions that execute when the associated CMS account doesn't have a Discord account linked",
+    "enabled": "Enabled",
+    "maxPlayers": "Max Players",
+    "disabled": "Disabled",
+    "whitelist": "Whitelist",
+    "lock": "Lock",
+    "whitelistActionDesc": "This action runs when a player with a non-whitelisted rank joins the team.",
+    "lockActionDesc": "This action runs when a player attempts to join a locked team that has reached its player limit.",
+    "bypassRankDesc": "Ranks allowed to bypass team lock restrictions",
+    "lockTeam": "Lock Team"
   },
   "ERLCActivityLog": {
     "kickedAction": "Kicked Action",
