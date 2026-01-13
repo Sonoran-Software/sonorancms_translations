@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Det oppstod en uventet feil ved lagring av innstillinger.",
     "invalidUser17": "Ugyldig Bruker",
     "submittedOn": "Innsendt På",
-    "activity": "Aktivitet"
+    "activity": "Aktivitet",
+    "previousSubmissionHistory": "Tidligere innsending historie"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Krever at Roblox-kontoen er koblet til en CMS-konto i samfunnet",
     "requireDiscordLinkTooltip": "Krever at CMS-kontoen koblet til Roblox-kontoen har en koblet Discord-konto",
     "requireRobloxLinkActionsTooltip": "Handlinger som utføres når Roblox-kontoen ikke har en tilknyttet CMS-konto",
-    "requireDiscordLinkActionsTooltip": "Handlinger som utføres når den tilknyttede CMS-kontoen ikke har en koblet Discord-konto"
+    "requireDiscordLinkActionsTooltip": "Handlinger som utføres når den tilknyttede CMS-kontoen ikke har en koblet Discord-konto",
+    "enabled": "Aktivert",
+    "maxPlayers": "Maks antall spillere",
+    "disabled": "Deaktivert",
+    "whitelist": "Hviteliste",
+    "lock": "Lås",
+    "whitelistActionDesc": "Denne handlingen utføres når en spiller med en ikke-hvitelistet rang blir med på laget.",
+    "lockActionDesc": "Denne handlingen utføres når en spiller prøver å bli med på et låst lag som har nådd sin spillergrense.",
+    "bypassRankDesc": "Ranger tillatt å omgå laglåsbegrensninger",
+    "lockTeam": "Lås lag"
   },
   "ERLCActivityLog": {
     "kickedAction": "sparketHandling",

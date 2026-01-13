@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Houve um erro inesperado ao salvar as configurações.",
     "invalidUser17": "Usuário Inválido",
     "submittedOn": "Enviado Em",
-    "activity": "Atividade"
+    "activity": "Atividade",
+    "previousSubmissionHistory": "Histórico de Submissões Anteriores"
   },
   "StageEditorCard": {
     "icon": "Ícone",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Requer que a conta Roblox esteja vinculada a uma conta CMS na comunidade",
     "requireDiscordLinkTooltip": "Requer que a conta CMS associada à conta Roblox tenha uma conta Discord vinculada",
     "requireRobloxLinkActionsTooltip": "Ações que são executadas quando a conta Roblox não tem uma conta CMS associada",
-    "requireDiscordLinkActionsTooltip": "Ações que são executadas quando a conta CMS associada não tem uma conta Discord vinculada"
+    "requireDiscordLinkActionsTooltip": "Ações que são executadas quando a conta CMS associada não tem uma conta Discord vinculada",
+    "enabled": "Ativado",
+    "maxPlayers": "Máximo de Jogadores",
+    "disabled": "Desativado",
+    "whitelist": "Lista de Permissão",
+    "lock": "Bloquear",
+    "whitelistActionDesc": "Esta ação ocorre quando um jogador com um cargo não listado na lista de permissão entra na equipe.",
+    "lockActionDesc": "Esta ação ocorre quando um jogador tenta juntar-se a uma equipe bloqueada que atingiu seu limite de jogadores.",
+    "bypassRankDesc": "Cargos permitidos para ignorar as restrições de bloqueio de equipe",
+    "lockTeam": "Bloquear Equipe"
   },
   "ERLCActivityLog": {
     "kickedAction": "açãoExpulsar",

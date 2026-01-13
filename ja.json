@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "無効なユーザー",
     "invalidUser17": "提出日時",
     "submittedOn": "アイコン",
-    "activity": "アクティビティ"
+    "activity": "アクティビティ",
+    "previousSubmissionHistory": "以前の提出履歴"
   },
   "StageEditorCard": {
     "icon": "ステージラベル",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Robloxアカウントがコミュニティ内のCMSアカウントにリンクされている必要があります",
     "requireDiscordLinkTooltip": "Robloxアカウントに関連付けられたCMSアカウントにリンクされたDiscordアカウントがある必要があります",
     "requireRobloxLinkActionsTooltip": "Robloxアカウントに関連付けられたCMSアカウントがない場合に実行されるアクション",
-    "requireDiscordLinkActionsTooltip": "関連するCMSアカウントにDiscordアカウントがリンクされていない場合に実行されるアクション"
+    "requireDiscordLinkActionsTooltip": "関連するCMSアカウントにDiscordアカウントがリンクされていない場合に実行されるアクション",
+    "enabled": "有効",
+    "maxPlayers": "最大プレイヤー数",
+    "disabled": "無効",
+    "whitelist": "ホワイトリスト",
+    "lock": "ロック",
+    "whitelistActionDesc": "このアクションは、ホワイトリストにないランクを持つプレイヤーがチームに参加する際に実行されます。",
+    "lockActionDesc": "このアクションは、プレイヤー制限に達したロックされたチームに参加しようとするプレイヤーがいるときに実行されます。",
+    "bypassRankDesc": "チームロック制限をバイパスできるランク",
+    "lockTeam": "チームをロック"
   },
   "ERLCActivityLog": {
     "kickedAction": "キック",

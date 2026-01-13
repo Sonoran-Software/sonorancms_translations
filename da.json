@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Der opstod en uventet fejl ved gemning af indstillinger.",
     "invalidUser17": "Ugyldig Bruger",
     "submittedOn": "Indsendt På",
-    "activity": "Aktivitet"
+    "activity": "Aktivitet",
+    "previousSubmissionHistory": "Tidligere indsendelseshistorik"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Kræver, at Roblox-kontoen er knyttet til en CMS-konto inden for fællesskabet",
     "requireDiscordLinkTooltip": "Kræver, at den CMS-konto, der er tilknyttet Roblox-kontoen, har en Discord-konto knyttet",
     "requireRobloxLinkActionsTooltip": "Handlinger, der udføres, når Roblox-kontoen ikke har en tilknyttet CMS-konto",
-    "requireDiscordLinkActionsTooltip": "Handlinger, der udføres, når den tilknyttede CMS-konto ikke har en Discord-konto knyttet"
+    "requireDiscordLinkActionsTooltip": "Handlinger, der udføres, når den tilknyttede CMS-konto ikke har en Discord-konto knyttet",
+    "enabled": "Aktiveret",
+    "maxPlayers": "Maksimalt antal spillere",
+    "disabled": "Deaktiveret",
+    "whitelist": "Whitelist",
+    "lock": "Lås",
+    "whitelistActionDesc": "Denne handling kører, når en spiller med en ikke-whitelistet rang tilslutter sig holdet.",
+    "lockActionDesc": "Denne handling kører, når en spiller forsøger at tilslutte sig et låst hold, der har nået sin spillergrænse.",
+    "bypassRankDesc": "Ranger tilladt at omgå teamlåsebegrænsninger",
+    "lockTeam": "Lås hold"
   },
   "ERLCActivityLog": {
     "kickedAction": "udelukkelseshandling",

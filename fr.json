@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Une erreur inattendue s'est produite lors de l'enregistrement des paramètres.",
     "invalidUser17": "Utilisateur Invalide",
     "submittedOn": "Soumis Le",
-    "activity": "Activité"
+    "activity": "Activité",
+    "previousSubmissionHistory": "Historique des soumissions précédentes"
   },
   "StageEditorCard": {
     "icon": "Icône",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Exige que le compte Roblox soit lié à un compte CMS au sein de la communauté",
     "requireDiscordLinkTooltip": "Exige que le compte CMS associé au compte Roblox ait un compte Discord lié",
     "requireRobloxLinkActionsTooltip": "Actions qui s'exécutent lorsque le compte Roblox n'a pas de compte CMS associé",
-    "requireDiscordLinkActionsTooltip": "Actions qui s'exécutent lorsque le compte CMS associé n'a pas de compte Discord lié"
+    "requireDiscordLinkActionsTooltip": "Actions qui s'exécutent lorsque le compte CMS associé n'a pas de compte Discord lié",
+    "enabled": "Activé",
+    "maxPlayers": "Nombre maximal de joueurs",
+    "disabled": "Désactivé",
+    "whitelist": "Liste blanche",
+    "lock": "Verrouiller",
+    "whitelistActionDesc": "Cette action s'exécute lorsqu'un joueur avec un rang non inclus dans la liste blanche rejoint l'équipe.",
+    "lockActionDesc": "Cette action s'exécute lorsqu'un joueur tente de rejoindre une équipe verrouillée qui a atteint sa limite de joueurs.",
+    "bypassRankDesc": "Rangs autorisés à contourner les restrictions de verrouillage d'équipe",
+    "lockTeam": "Verrouiller l'équipe"
   },
   "ERLCActivityLog": {
     "kickedAction": "expulséAction",

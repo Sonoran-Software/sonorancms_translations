@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Er was een onverwachte fout bij het opslaan van de instellingen.",
     "invalidUser17": "Ongeldige Gebruiker",
     "submittedOn": "Ingediend Op",
-    "activity": "Activiteit"
+    "activity": "Activiteit",
+    "previousSubmissionHistory": "Vorige inzending geschiedenis"
   },
   "StageEditorCard": {
     "icon": "Icoon",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Vereist dat het Roblox-account is gekoppeld aan een CMS-account binnen de community",
     "requireDiscordLinkTooltip": "Vereist dat het CMS-account dat aan het Roblox-account is gekoppeld ook een gekoppeld Discord-account heeft",
     "requireRobloxLinkActionsTooltip": "Acties die worden uitgevoerd wanneer het Roblox-account geen gekoppeld CMS-account heeft",
-    "requireDiscordLinkActionsTooltip": "Acties die worden uitgevoerd wanneer het gekoppelde CMS-account geen Discord-account heeft gekoppeld"
+    "requireDiscordLinkActionsTooltip": "Acties die worden uitgevoerd wanneer het gekoppelde CMS-account geen Discord-account heeft gekoppeld",
+    "enabled": "Ingeschakeld",
+    "maxPlayers": "Maximale spelers",
+    "disabled": "Uitgeschakeld",
+    "whitelist": "Witte lijst",
+    "lock": "Vergrendelen",
+    "whitelistActionDesc": "Deze actie wordt uitgevoerd wanneer een speler met een niet-gelijste rang het team probeert te joinen.",
+    "lockActionDesc": "Deze actie wordt uitgevoerd wanneer een speler probeert zich aan te sluiten bij een vergrendeld team dat zijn spelerslimiet heeft bereikt.",
+    "bypassRankDesc": "Rangen die mogen de teambereik beperkingen omzeilen",
+    "lockTeam": "Team vergrendelen"
   },
   "ERLCActivityLog": {
     "kickedAction": "geweigerdActie",

@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Si è verificato un errore imprevisto durante il salvataggio delle impostazioni.",
     "invalidUser17": "Utente Non Valido",
     "submittedOn": "Inviato il",
-    "activity": "Attività"
+    "activity": "Attività",
+    "previousSubmissionHistory": "Cronologia delle invii precedenti"
   },
   "StageEditorCard": {
     "icon": "Icona",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Richiede che l'account Roblox sia collegato a un account CMS all'interno della comunità",
     "requireDiscordLinkTooltip": "Richiede che l'account CMS associato all'account Roblox abbia un account Discord collegato",
     "requireRobloxLinkActionsTooltip": "Azioni che vengono eseguite quando l'account Roblox non ha un account CMS associato",
-    "requireDiscordLinkActionsTooltip": "Azioni che vengono eseguite quando l'account CMS associato non ha un account Discord collegato"
+    "requireDiscordLinkActionsTooltip": "Azioni che vengono eseguite quando l'account CMS associato non ha un account Discord collegato",
+    "enabled": "Abilitato",
+    "maxPlayers": "Numero massimo di giocatori",
+    "disabled": "Disabilitato",
+    "whitelist": "Lista bianca",
+    "lock": "Blocca",
+    "whitelistActionDesc": "Questa azione viene eseguita quando un giocatore con un rango non presente nella lista bianca si unisce al team.",
+    "lockActionDesc": "Questa azione viene eseguita quando un giocatore tenta di unirsi a un team bloccato che ha raggiunto il limite massimo di giocatori.",
+    "bypassRankDesc": "Ranghi autorizzati a bypassare le restrizioni di blocco del team",
+    "lockTeam": "Blocca team"
   },
   "ERLCActivityLog": {
     "kickedAction": "azioneEspulso",

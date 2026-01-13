@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Wystąpił nieoczekiwany błąd podczas zapisywania ustawień.",
     "invalidUser17": "Nieprawidłowy Użytkownik",
     "submittedOn": "Przesłano Na",
-    "activity": "Aktywność"
+    "activity": "Aktywność",
+    "previousSubmissionHistory": "Poprzednia Historia Zgłoszeń"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Wymaga, aby konto Roblox było połączone z kontem CMS w społeczności",
     "requireDiscordLinkTooltip": "Wymaga, aby konto CMS powiązane z kontem Roblox miało połączone konto Discord",
     "requireRobloxLinkActionsTooltip": "Akcje wykonywane, gdy konto Roblox nie ma powiązanego konta CMS",
-    "requireDiscordLinkActionsTooltip": "Akcje wykonywane, gdy powiązane konto CMS nie ma połączonego konta Discord"
+    "requireDiscordLinkActionsTooltip": "Akcje wykonywane, gdy powiązane konto CMS nie ma połączonego konta Discord",
+    "enabled": "Włączone",
+    "maxPlayers": "Maksymalna liczba graczy",
+    "disabled": "Wyłączone",
+    "whitelist": "Biała Lista",
+    "lock": "Zablokuj",
+    "whitelistActionDesc": "Ta akcja uruchamia się, gdy gracz z rangą niebędącą na białej liście dołącza do zespołu.",
+    "lockActionDesc": "Ta akcja uruchamia się, gdy gracz próbuje dołączyć do zablokowanego zespołu, który osiągnął limit graczy.",
+    "bypassRankDesc": "Rangi dozwolone na omijanie ograniczeń blokady zespołu",
+    "lockTeam": "Zablokuj Zespół"
   },
   "ERLCActivityLog": {
     "kickedAction": "akcjaWyrzucenia",

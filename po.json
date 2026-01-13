@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Wystąpił nieoczekiwany błąd podczas zapisywania ustawień.",
     "invalidUser17": "Nieprawidłowy Użytkownik",
     "submittedOn": "Przesłano Na",
-    "activity": "Aktywność"
+    "activity": "Aktywność",
+    "previousSubmissionHistory": "Histórico de Envio Anterior"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Requer que a conta do Roblox esteja vinculada a uma conta CMS dentro da comunidade",
     "requireDiscordLinkTooltip": "Requer que a conta CMS associada à conta do Roblox tenha uma conta do Discord vinculada",
     "requireRobloxLinkActionsTooltip": "Ações que executam quando a conta do Roblox não tem uma conta CMS associada",
-    "requireDiscordLinkActionsTooltip": "Ações que executam quando a conta CMS associada não tem uma conta do Discord vinculada"
+    "requireDiscordLinkActionsTooltip": "Ações que executam quando a conta CMS associada não tem uma conta do Discord vinculada",
+    "enabled": "Habilitado",
+    "maxPlayers": "Máximo de Jogadores",
+    "disabled": "Desabilitado",
+    "whitelist": "Lista de Permissões",
+    "lock": "Bloquear",
+    "whitelistActionDesc": "Esta ação é executada quando um jogador com uma posição fora da lista de permissões entra na equipe.",
+    "lockActionDesc": "Esta ação é executada quando um jogador tenta entrar em uma equipe bloqueada que atingiu seu limite de jogadores.",
+    "bypassRankDesc": "Classificações permitidas para ignorar restrições de bloqueio de equipe",
+    "lockTeam": "Bloquear Equipe"
   },
   "ERLCActivityLog": {
     "kickedAction": "AzioneEspulsa",

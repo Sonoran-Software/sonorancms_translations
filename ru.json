@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Недействительный пользователь",
     "invalidUser17": "Отправлено",
     "submittedOn": "Иконка",
-    "activity": "Активность"
+    "activity": "Активность",
+    "previousSubmissionHistory": "История предыдущих отправок"
   },
   "StageEditorCard": {
     "icon": "Метка этапа",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Требуется, чтобы аккаунт Roblox был связан с аккаунтом CMS в сообществе",
     "requireDiscordLinkTooltip": "Требуется, чтобы связанный с Roblox аккаунт CMS имел привязанный аккаунт Discord",
     "requireRobloxLinkActionsTooltip": "Действия, выполняемые, когда аккаунт Roblox не связан с аккаунтом CMS",
-    "requireDiscordLinkActionsTooltip": "Действия, выполняемые, когда связанный аккаунт CMS не имеет привязанного аккаунта Discord"
+    "requireDiscordLinkActionsTooltip": "Действия, выполняемые, когда связанный аккаунт CMS не имеет привязанного аккаунта Discord",
+    "enabled": "Включено",
+    "maxPlayers": "Максимум игроков",
+    "disabled": "Отключено",
+    "whitelist": "Белый список",
+    "lock": "Блокировка",
+    "whitelistActionDesc": "Это действие выполняется, когда игрок с рангом, не входящим в белый список, присоединяется к команде.",
+    "lockActionDesc": "Это действие выполняется, когда игрок пытается присоединиться к заблокированной команде, когда достигнут лимит игроков.",
+    "bypassRankDesc": "Ранги, которым разрешено обходить ограничения блокировки команды",
+    "lockTeam": "Заблокировать команду"
   },
   "ERLCActivityLog": {
     "kickedAction": "```удален```",

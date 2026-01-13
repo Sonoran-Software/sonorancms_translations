@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Beim Speichern der Einstellungen ist ein unerwarteter Fehler aufgetreten.",
     "invalidUser17": "Ungültiger Benutzer",
     "submittedOn": "Eingereicht am",
-    "activity": "Aktivität"
+    "activity": "Aktivität",
+    "previousSubmissionHistory": "Frühere Einreichungshistorie"
   },
   "StageEditorCard": {
     "icon": "Symbol",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Erfordert, dass das Roblox-Konto mit einem CMS-Konto innerhalb der Community verknüpft ist",
     "requireDiscordLinkTooltip": "Erfordert, dass das CMS-Konto, das mit dem Roblox-Konto verknüpft ist, ein verknüpftes Discord-Konto hat",
     "requireRobloxLinkActionsTooltip": "Aktionen, die ausgeführt werden, wenn das Roblox-Konto kein zugehöriges CMS-Konto hat",
-    "requireDiscordLinkActionsTooltip": "Aktionen, die ausgeführt werden, wenn das zugehörige CMS-Konto kein verknüpftes Discord-Konto hat"
+    "requireDiscordLinkActionsTooltip": "Aktionen, die ausgeführt werden, wenn das zugehörige CMS-Konto kein verknüpftes Discord-Konto hat",
+    "enabled": "Aktiviert",
+    "maxPlayers": "Maximale Spieler",
+    "disabled": "Deaktiviert",
+    "whitelist": "Whitelist",
+    "lock": "Sperren",
+    "whitelistActionDesc": "Diese Aktion wird ausgeführt, wenn ein Spieler mit einem nicht auf der Whitelist stehenden Rang dem Team beitritt.",
+    "lockActionDesc": "Diese Aktion wird ausgeführt, wenn ein Spieler versucht, einem gesperrten Team beizutreten, das seine Spielergrenze erreicht hat.",
+    "bypassRankDesc": "Ränge, die Berechtigung haben, Teamsperrungen zu umgehen",
+    "lockTeam": "Team sperren"
   },
   "ERLCActivityLog": {
     "kickedAction": "Gekickt-Aktion",

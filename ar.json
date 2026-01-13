@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "حدث خطأ غير متوقع عند حفظ الإعدادات.",
     "invalidUser17": "مستخدم غير صالح",
     "submittedOn": "تم التقديم في",
-    "activity": "نشاط"
+    "activity": "نشاط",
+    "previousSubmissionHistory": "سجل الإرسال السابق"
   },
   "StageEditorCard": {
     "icon": "أيقونة",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "يتطلب أن يكون حساب روبلكس مرتبطًا بحساب CMS داخل المجتمع",
     "requireDiscordLinkTooltip": "يتطلب أن يكون حساب CMS المرتبط بحساب روبلكس مرتبطًا بحساب ديسكورد",
     "requireRobloxLinkActionsTooltip": "الإجراءات التي تنفذ عندما لا يحتوي حساب روبلكس على حساب CMS مرتبط",
-    "requireDiscordLinkActionsTooltip": "الإجراءات التي تنفذ عندما لا يحتوي حساب CMS ذو الصلة على حساب ديسكورد مرتبط"
+    "requireDiscordLinkActionsTooltip": "الإجراءات التي تنفذ عندما لا يحتوي حساب CMS ذو الصلة على حساب ديسكورد مرتبط",
+    "enabled": "مفعل",
+    "maxPlayers": "الحد الأقصى للاعبين",
+    "disabled": "معطل",
+    "whitelist": "القائمة البيضاء",
+    "lock": "قفل",
+    "whitelistActionDesc": "يتم تشغيل هذا الإجراء عندما ينضم لاعب يحمل رتبة غير مدرجة في القائمة البيضاء إلى الفريق.",
+    "lockActionDesc": "يتم تشغيل هذا الإجراء عندما يحاول لاعب الانضمام إلى فريق مغلق قد وصل إلى الحد الأقصى للاعبين.",
+    "bypassRankDesc": "الرتب المسموح لها بتجاوز قيود قفل الفريق",
+    "lockTeam": "قفل الفريق"
   },
   "ERLCActivityLog": {
     "kickedAction": "تم طرده",

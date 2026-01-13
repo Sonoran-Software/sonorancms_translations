@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Při ukládání nastavení došlo k neočekávané chybě.",
     "invalidUser17": "Neplatný uživatel",
     "submittedOn": "Odesláno dne",
-    "activity": "Aktivita"
+    "activity": "Aktivita",
+    "previousSubmissionHistory": "Předchozí historie podání"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Vyžaduje, aby byl účet Roblox propojen s účtem CMS v rámci komunity",
     "requireDiscordLinkTooltip": "Vyžaduje, aby účet CMS asociovaný k účtu Roblox měl propojený účet Discord",
     "requireRobloxLinkActionsTooltip": "Akce, které se spustí, když účet Roblox nemá asociovaný účet CMS",
-    "requireDiscordLinkActionsTooltip": "Akce, které se spustí, když asociovaný účet CMS nemá propojený účet Discord"
+    "requireDiscordLinkActionsTooltip": "Akce, které se spustí, když asociovaný účet CMS nemá propojený účet Discord",
+    "enabled": "Povoleno",
+    "maxPlayers": "Maximální počet hráčů",
+    "disabled": "Zakázáno",
+    "whitelist": "Seznam povolených",
+    "lock": "Zamknout",
+    "whitelistActionDesc": "Tato akce se spustí, když se k týmu připojí hráč s ne-povolenou hodností.",
+    "lockActionDesc": "Tato akce se spustí, když se hráč pokusí připojit k uzamčenému týmu, který dosáhl svého limitu hráčů.",
+    "bypassRankDesc": "Hodnosti, které mohou obejít omezení uzamčení týmu",
+    "lockTeam": "Uzamknout tým"
   },
   "ERLCActivityLog": {
     "kickedAction": "vykopnutoAction",

@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Asetusten tallentamisessa tapahtui odottamaton virhe.",
     "invalidUser17": "Virheellinen käyttäjä",
     "submittedOn": "Lähetetty",
-    "activity": "Toiminta"
+    "activity": "Toiminta",
+    "previousSubmissionHistory": "Aiemmat lähetetyt historiat"
   },
   "StageEditorCard": {
     "icon": "Ikoni",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Vaatii, että Roblox-tili on yhdistetty yhteisön CMS-tiliin",
     "requireDiscordLinkTooltip": "Vaatii, että Roblox-tiliin liitetty CMS-tili on yhdistetty Discord-tiliin",
     "requireRobloxLinkActionsTooltip": "Toiminnot, jotka suoritetaan, kun Roblox-tilillä ei ole yhdistettyä CMS-tiliä",
-    "requireDiscordLinkActionsTooltip": "Toiminnot, jotka suoritetaan, kun yhdistetyllä CMS-tilillä ei ole yhdistettyä Discord-tiliä"
+    "requireDiscordLinkActionsTooltip": "Toiminnot, jotka suoritetaan, kun yhdistetyllä CMS-tilillä ei ole yhdistettyä Discord-tiliä",
+    "enabled": "Käytössä",
+    "maxPlayers": "Enimmäispelaajat",
+    "disabled": "Pois käytöstä",
+    "whitelist": "Sallittujen luettelo",
+    "lock": "Lukitse",
+    "whitelistActionDesc": "Tämä toiminto suoritetaan, kun pelaaja, jolla ei ole sallittua arvoa, liittyy tiimiin.",
+    "lockActionDesc": "Tämä toiminto suoritetaan, kun pelaaja yrittää liittyä lukittuun tiimiin, joka on saavuttanut pelaajarajansa.",
+    "bypassRankDesc": "Arvot, joilla on oikeus ohittaa tiimin lukitusten rajoitukset",
+    "lockTeam": "Lukitse tiimi"
   },
   "ERLCActivityLog": {
     "kickedAction": "potkittuToiminta",

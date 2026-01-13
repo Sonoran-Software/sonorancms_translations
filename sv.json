@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Det uppstod ett oväntat fel vid sparande av inställningar.",
     "invalidUser17": "Ogiltig Användare",
     "submittedOn": "Inskickad På",
-    "activity": "Aktivitet"
+    "activity": "Aktivitet",
+    "previousSubmissionHistory": "Tidigare inlämningshistorik"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Kräver att Roblox-kontot är länkat till ett CMS-konto inom communityn",
     "requireDiscordLinkTooltip": "Kräver att CMS-kontot associerat med Roblox-kontot har ett länkat Discord-konto",
     "requireRobloxLinkActionsTooltip": "Åtgärder som utförs när Roblox-kontot inte har ett associerat CMS-konto",
-    "requireDiscordLinkActionsTooltip": "Åtgärder som utförs när det associerade CMS-kontot inte har ett länkat Discord-konto"
+    "requireDiscordLinkActionsTooltip": "Åtgärder som utförs när det associerade CMS-kontot inte har ett länkat Discord-konto",
+    "enabled": "Aktiverad",
+    "maxPlayers": "Maximalt antal spelare",
+    "disabled": "Inaktiverad",
+    "whitelist": "Vitlista",
+    "lock": "Lås",
+    "whitelistActionDesc": "Denna åtgärd körs när en spelare med en icke-vitlistad rang ansluter till laget.",
+    "lockActionDesc": "Denna åtgärd körs när en spelare försöker ansluta till ett låst lag som har nått sitt spelartak.",
+    "bypassRankDesc": "Rang som tillåts kringgå laglåsrestriktioner",
+    "lockTeam": "Lås lag"
   },
   "ERLCActivityLog": {
     "kickedAction": "sparkadÅtgärd",

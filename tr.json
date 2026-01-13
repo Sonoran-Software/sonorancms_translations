@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "Ayarları kaydederken beklenmeyen bir hata oluştu.",
     "invalidUser17": "Geçersiz Kullanıcı",
     "submittedOn": "Gönderildiği Tarih",
-    "activity": "Aktivite"
+    "activity": "Aktivite",
+    "previousSubmissionHistory": "Önceki Gönderim Geçmişi"
   },
   "StageEditorCard": {
     "icon": "Simge",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "Roblox hesabının topluluk içinde bir CMS hesabına bağlı olmasını gerektirir",
     "requireDiscordLinkTooltip": "Roblox hesabına bağlı CMS hesabının bir Discord hesabına bağlantılı olmasını gerektirir",
     "requireRobloxLinkActionsTooltip": "Roblox hesabının bir CMS hesabına bağlı olmadığı durumda yürütülecek işlemler",
-    "requireDiscordLinkActionsTooltip": "İlgili CMS hesabının bir Discord hesabına bağlı olmadığı durumda yürütülecek işlemler"
+    "requireDiscordLinkActionsTooltip": "İlgili CMS hesabının bir Discord hesabına bağlı olmadığı durumda yürütülecek işlemler",
+    "enabled": "Etkin",
+    "maxPlayers": "Maksimum Oyuncu",
+    "disabled": "Devre Dışı",
+    "whitelist": "Beyaz Liste",
+    "lock": "Kilitle",
+    "whitelistActionDesc": "Bu eylem beyaz listeye alınmamış bir rütbeye sahip bir oyuncu takıma katıldığında çalışır.",
+    "lockActionDesc": "Bu eylem, oyuncu sınırına ulaşmış kilitli bir takıma katılmaya çalışan bir oyuncu olduğunda çalışır.",
+    "bypassRankDesc": "Takım kilit kısıtlamaları aşmasına izin verilen rütbeler",
+    "lockTeam": "Takımı Kilitle"
   },
   "ERLCActivityLog": {
     "kickedAction": "kovulmaAksiyonu",

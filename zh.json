@@ -2267,7 +2267,8 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "保存设置时发生意外错误。",
     "invalidUser17": "无效用户",
     "submittedOn": "提交时间",
-    "activity": "活动"
+    "activity": "活动",
+    "previousSubmissionHistory": "先前提交记录"
   },
   "StageEditorCard": {
     "icon": "图标",
@@ -4572,7 +4573,16 @@
     "requireRobloxLinkTooltip": "需要将Roblox帐户链接到社区内的CMS帐户",
     "requireDiscordLinkTooltip": "要求与Roblox帐户关联的CMS帐户具有已链接的Discord帐户",
     "requireRobloxLinkActionsTooltip": "当Roblox帐户没有关联的CMS帐户时执行的操作",
-    "requireDiscordLinkActionsTooltip": "当关联的CMS帐户没有链接的Discord帐户时执行的操作"
+    "requireDiscordLinkActionsTooltip": "当关联的CMS帐户没有链接的Discord帐户时执行的操作",
+    "enabled": "已启用",
+    "maxPlayers": "最大玩家数",
+    "disabled": "已禁用",
+    "whitelist": "白名单",
+    "lock": "锁定",
+    "whitelistActionDesc": "当有非白名单等级的玩家加入团队时执行此操作。",
+    "lockActionDesc": "当玩家尝试加入已达到玩家限制的锁定团队时执行此操作。",
+    "bypassRankDesc": "允许绕过团队锁定限制的等级",
+    "lockTeam": "锁定团队"
   },
   "ERLCActivityLog": {
     "kickedAction": "踢出操作",
