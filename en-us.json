@@ -2192,7 +2192,8 @@
     "enabledWhen": "Enabled When",
     "requirement": "Requirement",
     "serverInSession": "Server In-Session",
-    "servers": "Server(s)"
+    "servers": "Server(s)",
+    "discordChannelLock": "Discord Channel Lock"
   },
   "integrationsPortal": {
     "title": "Official Integrations",
@@ -3796,7 +3797,9 @@
     "erlcHintContent": "ERLC Hint Content",
     "webhookChannel": "Webhook Channel",
     "webhookEmbedContent": "Embed Content",
-    "webhookContentHint": "Message sent with the Discord Embed"
+    "webhookContentHint": "Message sent with the Discord Embed",
+    "channels": "Channel(s)",
+    "roles": "Role(s)"
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
