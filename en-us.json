@@ -4873,6 +4873,7 @@
     "lockMessages": "Lock Messages",
     "unlockMessages": "Unlock Messages",
     "viewChannel": "View Channel",
-    "hideChannel": "Hide Channel"
+    "hideChannel": "Hide Channel",
+    "lockType": "Lock Type"
   }
 }
