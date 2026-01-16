@@ -32,7 +32,6 @@
     "selectAccounts": "Select Accounts",
     "image": "Image",
     "days": "Days",
-    "duplicate": "Duplicate",
     "delete": "Delete",
     "description": "Description",
     "templateDetails": "Template Details",
@@ -277,7 +276,9 @@
     "eventNotFound": "Event Not Found/Accessible",
     "eventNotFoundDesc": "Either the event does not exist or you do not have permission to view this event directly.",
     "removeOwnEvents": "Remove Own Events",
-    "editOwnEvents": "Edit Own Events"
+    "editOwnEvents": "Edit Own Events",
+    "removeEvents": "Remove Events",
+    "editOtherEvents": "Edit Other's Events"
   },
   "limits": {
     "version": "Version",
@@ -571,7 +572,6 @@
     "jobs": "Jobs",
     "gangs": "Gangs",
     "jobSync": "Job Sync",
-    "activity": "Activity",
     "runCommand": "Run Command",
     "moderation": "Moderation",
     "addedServerDetails": "Added server details!",
@@ -623,7 +623,8 @@
     "usernamePassedVerificationTr": "Username passed verification!",
     "addedRanks": "Added Ranks",
     "removedRanks": "Removed Ranks",
-    "session": "Session"
+    "session": "Session",
+    "management": "Management"
   },
   "Dashboard": {
     "resync": "Resync",
@@ -775,7 +776,8 @@
     "communityNotFound": "Community Not Found",
     "errorAnErrorOccuredWhileExecuting": "Error: An error occured while executing",
     "shiftType": "Shift Type",
-    "none": "None"
+    "none": "None",
+    "errorAnErrorOccuredWhileFetching": "Error: An error occured while fetching"
   },
   "AccountViewer": {
     "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
@@ -804,13 +806,10 @@
     "copyDiscordId": "Copy Discord ID",
     "copyTeamspeakId": "Copy TeamSpeak ID",
     "copyRobloxId": "Copy Roblox ID",
-    "identifierAddEnter": "Identifier(s) (Enter to Save/Add)",
     "accountviewereditaccountinfo": "Edit Account Information",
     "accountviewerviewmemberprofile": "View Member Profile",
     "unban": "Unban",
     "commonclose": "Close",
-    "accountvieweraccount": "Account",
-    "accountviewerjoined": "Joined",
     "viewAllPermissions": "View All Permissions",
     "uniqueId": "Unique ID",
     "accountskick": "Kick",
@@ -820,8 +819,6 @@
     "defaultIdentifier": "Default Identifier",
     "clickStarToSetIdentifierAsDefault": "Click star to set identifier as default",
     "selectRanks": "Select Ranks",
-    "expirationSettings": "Expiration Settings",
-    "setToExpire": "Set to Expire",
     "commonsave": "Save",
     "expiresAfterXLengthOfTime": "Expires After X Length of Time",
     "expiresAtSpecificTime": "Expires at Specific Time",
@@ -897,12 +894,10 @@
     "disciplinaryPoint": "Disciplinary Point",
     "identifierInformation": "Identifier Information",
     "rankInformation": "Rank Information",
-    "communityRank": "Community Rank",
     "expiresAt": "Expires at:",
     "rankExpirationSettings": "Rank Expiration Settings",
     "expirationTypes": "Expiration Types",
     "accountsSelected": "Accounts Selected",
-    "id1": "ID:",
     "multiaccountRankChange": "Multi-Account Rank Change",
     "ranksToSet": "Ranks To Set",
     "noRanksSelectedToBeSetOnAccounts": "No ranks selected to be set on accounts...",
@@ -930,7 +925,7 @@
     "temporary": "Temporary",
     "unarchive": "Unarchive",
     "userPermissions": "User Permissions:",
-    "debugPermissions": "Debug Permissions"
+    "modifyExpiration": "Modify Expiration"
   },
   "PromotionFlow": {
     "ranks": "Ranks",
@@ -987,7 +982,8 @@
     "promoterComNameVariableLabel": "Promoter Community Name",
     "promoterComNameVariableDesc": "This will state the community name of the user who triggered the promotion flow.",
     "comNameVariableLabel": "Community Name",
-    "comNameVariableDesc": "This will state the community name of the user affected by the promotion flow."
+    "comNameVariableDesc": "This will state the community name of the user affected by the promotion flow.",
+    "insufficientPermissionsToRunPromotions": "Insufficient Permissions To Run Promotions"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Commmunity API Tutorial",
@@ -1041,7 +1037,6 @@
     "customDomainTutorial": "Custom Domain Tutorial",
     "learnHowToCustomizeYourCommmunitysDomain": "Learn how to Customize Your Commmunity's Domain",
     "customDomainDocuments": "Custom Domain Documents",
-    "tutorial": "Tutorial",
     "removeCustomDomain": "Remove Custom Domain",
     "name": "Name",
     "content": "Content",
@@ -1055,11 +1050,9 @@
     "unsuccessfullySetNewCustomDomainThisIsUs": "Unsuccessfully set new custom domain, this is usually caused by domain that hasnt propogated yet or hasnt been setup completely! Make sure to review the guide on the Custom Domain System.",
     "successfullySetRemovedCustomDomain": "Successfully set removed custom domain!",
     "unsuccessfullyRemovedCustomDomainContact": "Unsuccessfully removed custom domain, contact support if this persists.",
-    "communityOwnersCanSetACustomDomainTheyHa": "Community Owners can set a custom domain they have setup to use with Sonoran CMS.",
     "freeVanityDescription": "Every community has a free vanity URL based on your community ID.",
     "ownDomainDescription": "Own your own domain? Use a completely custom domain for your community!",
     "placeholderExampleDomain": "cms.example.com",
-    "ThisFeatureRequiresTheProSubscriptionThe": " This feature requires the Pro subscription. There is also the free vanity URL, which is free to all communities",
     "freeVanityUrl": "Free Vanity URL",
     "customDomain": "Custom Domain",
     "youMustOwnYourDomainName": "You must own your Domain name!",
@@ -1077,7 +1070,6 @@
     "commoncomsubtitle": "Community Subtitle",
     "onJoin": "On Join",
     "onJoinActions": "On Join Actions",
-    "nameCustomizations": "Name customizations",
     "customizationinputsdiscoveryenable": "Enable Community Discovery",
     "customizationtooltipsdiscoveryenable": "This is enable/disable the community for Sonoran CMS's Community Discovery system.",
     "customizationtooltipsenablediscoveryfirs": "Community Discovery must be enabled to use this",
@@ -1345,12 +1337,8 @@
     "confirmFormDeletion": "Confirm Form Deletion",
     "areYouSureYouWantToDeleteThis": "Are you sure you want to delete this",
     "submission": "submission?",
-    "successfullyDeleted": "Successfully deleted",
-    "application": "application!",
     "removedTheirApplication": "removed their application.",
-    "successfullyUpdated": "Successfully updated",
     "for": "for",
-    "successfullyAppliedToThe": "Successfully applied to the",
     "label": "Label",
     "actions": "Actions",
     "stage": "Stage",
@@ -2374,7 +2362,6 @@
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Will notify you when a new reply is added to this form.",
     "noOptions": "No Options",
     "submitTooltip": "Submitted On Visiblity:",
-    "formReplies": "Form Replies",
     "replyTooltip": " This form's replies are currently",
     "lockedReplySettings": "Locked Reply Settings",
     "submitter": "Submitter",
@@ -2927,8 +2914,6 @@
     "formCouldNotBeFoundToBeCreatedFrom": "Form could not be found to be created from.",
     "errorYouDoNotHavePermissionToSubmitThisF": "Error: You do not have permission to submit this form.",
     "anErrorOccuredWhileQueryingData": "An error occured while querying data:",
-    "successfullyAppliedToThe": "Successfully applied to the",
-    "application": "application!",
     "anErrorOccuredWhileSubmittingForm": "An error occured while submitting form:",
     "youAreSubmittingThisFormUnder": "You are submitting this form under:"
   },
@@ -3362,8 +3347,6 @@
   },
   "calendarView": {
     "createEvent": "Create Event",
-    "prev": "Prev",
-    "next": "Next",
     "calendarunrsvp": "UnRSVP",
     "calendarrsvp": "RSVP",
     "calendarediteventexplain": "Edit Event",
@@ -3376,7 +3359,6 @@
     "delete": "Delete",
     "dismiss": "Dismiss",
     "addNewCalendarCategory": "Add New Calendar Category",
-    "learnMore": "Learn More",
     "calendareventstart": "Event Start",
     "calendarlocaltime": "All times are listed in local time.",
     "calendareventend": "Event End",
@@ -3398,7 +3380,6 @@
     "calendarremoveevents": "Remove Events",
     "permissionstooltipscalendarsremoveexplan": "Granting this permission will allow a user with this rank to remove events within this calendar category.",
     "calendareditevents": "Edit Events",
-    "categorySelection": "Category Selection",
     "commmunityCalendarTutorial": "Commmunity Calendar Tutorial",
     "learnAboutYourCommmunityCalendar": "Learn about Your Commmunity Calendar",
     "commmunityCalendarDocuments": "Commmunity Calendar Documents",
@@ -3736,8 +3717,7 @@
     "stageChangerComNameLabel": "Stage Changer Community Name",
     "stageChangerComNameDescription": "Inserts the commuunity display name of the user who changed the stage.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
-    "conditionalQuestionStartExplaination": "This action will execute",
-    "actionConditions": "Action Conditions"
+    "conditionalQuestionStartExplaination": "This action will execute"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Ranks to Notify",
@@ -3799,7 +3779,9 @@
     "webhookEmbedContent": "Embed Content",
     "webhookContentHint": "Message sent with the Discord Embed",
     "channels": "Channel(s)",
-    "roles": "Role(s)"
+    "roles": "Role(s)",
+    "discordChannelLockDescription": "This action will automatically update the selected channels for the specified roles with the specified lock type every X minutes.",
+    "customTriggerDiscordChannelLockDescription": "This action will automatically update the selected channels for the specified roles with the specified lock type when the configured trigger is met."
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
@@ -3964,8 +3946,6 @@
     "editYourBackgroundColorAndFormatOfYourWe": "Edit your background color and format of your Web Page Header",
     "changeHeaderDesign": "Change Header Design",
     "adminIcon": "Admin Icon",
-    "exploreYourCommunitysWebPagesWithOurNavi": "Explore your communitys web pages with our navigation bar.",
-    "quicklyFindAndManageAllYourCommunityPage": "Quickly find and manage all your community pages!",
     "customizeYourCommunitysNavigationBar": "Customize your community's navigation bar.",
     "button": "Button",
     "dropdown": "Dropdown",
@@ -4101,7 +4081,6 @@
     "font": "Font",
     "buttonStyles": "Button Styles",
     "targetForm": "Target Form",
-    "dropDownOptions": "Drop down options",
     "targets": "Targets",
     "link": "Link",
     "outline": "Outline",
@@ -4283,16 +4262,6 @@
     "cadSyncDocuments": "CAD Sync Documents",
     "remove": "Remove",
     "cadCommunityId": "CAD Community ID",
-    "banEnabled": "Ban Sync",
-    "banEnabledDescription": "When a user is banned in CMS, also ban them in the CAD.",
-    "kickEnabled": "Kick Sync",
-    "kickEnabledDescription": "When a user is kicked in CMS, also kick them in the CAD.",
-    "syncEnabled": "Permission Sync",
-    "syncEnabledDescription": "Enable automatic syncing of permissions from CMS to the CAD.",
-    "joinSyncEnabled": "Join Sync",
-    "joinSyncEnabledDescription": "Automatically join CMS users to the CAD.",
-    "apiIdSyncEnabled": "API ID Sync",
-    "apiIdSyncEnabledDescription": "Automatically sync CMS API IDs to the CAD.",
     "cadApiKey": "CAD API Key",
     "learnMore": "Learn More",
     "manualSync": "Manual Sync",
@@ -4670,7 +4639,8 @@
     "playersInQueue": "players in queue",
     "filter": "Filter",
     "teams": "Teams",
-    "noPlayersConnected": "No Players Connected"
+    "noPlayersConnected": "No Players Connected",
+    "currentPlayersInQueue": "Current players in queue"
   },
   "ERLCWhitelist": {
     "denyList": "Deny List",
@@ -4698,7 +4668,6 @@
     "theRanksSelectedHereWillNotBeAllowedToAc": "The ranks selected here will not be allowed to access this server.",
     "thisListTakesPrecedenceOverTheAllowList": "This list takes precedence over the allow list.",
     "allowedRanksForSheriffTeam": "Allowed Ranks for Sheriff Team",
-    "allowedRanksForDotTeam": "Allowed Ranks for DOT Team",
     "sendErlcHintServerwide": "Send ER:LC Hint (server-wide)",
     "sendErlcPlayerMessage": "Send ER:LC Player Message",
     "sendErlcKick": "Send ER:LC Kick",
@@ -4712,7 +4681,6 @@
     "requireSocialLinkedAccounts": "Require Social Linked to Associated CMS Account",
     "roblox": "Roblox",
     "discord": "Discord",
-    "requireRobloxLinkTooltip": "Requires that the Roblox account is linked to a CMS account within the community",
     "requireDiscordLinkTooltip": "Requires that the CMS account associated to the Roblox account has a linked Discord account",
     "requireRobloxLinkActionsTooltip": "Actions that execute when the Roblox account doesn't have an associated CMS account",
     "requireDiscordLinkActionsTooltip": "Actions that execute when the associated CMS account doesn't have a Discord account linked",
@@ -4724,7 +4692,8 @@
     "whitelistActionDesc": "This action runs when a player with a non-whitelisted rank joins the team.",
     "lockActionDesc": "This action runs when a player attempts to join a locked team that has reached its player limit.",
     "bypassRankDesc": "Ranks allowed to bypass team lock restrictions",
-    "lockTeam": "Lock Team"
+    "lockTeam": "Lock Team",
+    "allowedRanksForDOTTeam": "Allowed Ranks for DOT Team"
   },
   "ERLCActivityLog": {
     "kickedAction": "Kicked Action",
@@ -4899,5 +4868,11 @@
     "activeSession": "Active Session",
     "cancel": "Cancel",
     "end": "End"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Lock Messages",
+    "unlockMessages": "Unlock Messages",
+    "viewChannel": "View Channel",
+    "hideChannel": "Hide Channel"
   }
 }
