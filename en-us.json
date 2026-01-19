@@ -624,7 +624,8 @@
     "addedRanks": "Added Ranks",
     "removedRanks": "Removed Ranks",
     "session": "Session",
-    "management": "Management"
+    "management": "Management",
+    "import": "Import"
   },
   "Dashboard": {
     "resync": "Resync",
@@ -4597,7 +4598,9 @@
     "helper": "Helper",
     "unhelper": "Unhelper",
     "setThePlayerAsAnIngameHelper": "Set the player as an in-game helper",
-    "removeThePlayerAsAnIngameHelper": "Remove the player as in-game helper"
+    "removeThePlayerAsAnIngameHelper": "Remove the player as in-game helper",
+    "importData": "Import Data",
+    "initiateImport": "Initiate Import"
   },
   "ERLCActivity": {
     "filter": "Filter",
@@ -4632,7 +4635,20 @@
     "automaticallyEnforceServerRules": "Automatically enforce server rules",
     "comingSoon": "Coming Soon",
     "priorityPlayerList": "Priority Player List",
-    "priorityPlayerListDescription": "Select which ranks will display first on the active players menu."
+    "priorityPlayerListDescription": "Select which ranks will display first on the active players menu.",
+    "customRecordTypes": "Custom Record Types",
+    "customRecordTypesDescription": "Create and manage custom record types for your server.",
+    "errorCreatingCustomType": "An error occured while creating custom record type",
+    "errorRemovingCustomType": "An error occured while removing custom record type",
+    "errorSavingCustomType": "An error occured while saving custom record type",
+    "createNewRecordType": "CREATE NEW RECORD TYPE",
+    "name": "Name",
+    "command": "Command",
+    "exampleRecordType": "Example Record Type",
+    "lowercaseCommand": "command",
+    "addType": "Add Type",
+    "saveType": "Save Type",
+    "editingRecordType": "EDITING RECORD TYPE"
   },
   "ERLCPlayers": {
     "playersIngame": "Players In-Game",
