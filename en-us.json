@@ -4833,7 +4833,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "This record cannot be edited due to no account association.",
     "typeFrom": "type from",
     "and": "and",
-    "createdTheRecord": "created the record"
+    "createdTheRecord": "created the record",
+    "manageRecordTypes": "Manage Record Types"
   },
   "NameFormatConfigurator": {
     "nameCustomizations": "Name Customizations",
@@ -4847,7 +4848,8 @@
     "anIssueOccuredWhileSavingNameFormat": "An issue occured while saving name format."
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "No Players Found... Search"
+    "noPlayersFoundSearch": "No Players Found... Search",
+    "melonlyApiKey": "Melonly API Key"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Timezone Selection",
