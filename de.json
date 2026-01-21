@@ -633,7 +633,9 @@
     "askAiAQuestion": "Eine Frage an die KI stellen...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
     "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
-    "session": "Sitzung"
+    "session": "Sitzung",
+    "management": "Management",
+    "import": "Import"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Fehler: Bei der Ausführung ist ein Fehler aufgetreten",
     "notificationPreferencesDescription": "Verwalten Sie Ihre Benachrichtigungseinstellungen für verschiedene Community-Ereignisse und -Updates.",
     "shiftType": "Schichttyp",
-    "none": "Keine"
+    "none": "Keine",
+    "errorAnErrorOccuredWhileFetching": "Fehler: Ein Fehler ist beim Abrufen aufgetreten"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Benutzerkonten-Tutorial",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox-ID in die Zwischenablage kopiert.",
     "userPermissions": "Benutzerberechtigungen:",
     "viewAllPermissions": "Alle Berechtigungen anzeigen",
-    "uniqueId": "Eindeutige ID"
+    "uniqueId": "Eindeutige ID",
+    "modifyExpiration": "Ablauf ändern"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -4398,7 +4402,9 @@
     "helper": "Helfer",
     "unhelper": "Nicht-Helfer",
     "setThePlayerAsAnIngameHelper": "Setze den Spieler als In-Game-Helfer",
-    "removeThePlayerAsAnIngameHelper": "Entferne den Spieler als In-Game-Helfer"
+    "removeThePlayerAsAnIngameHelper": "Entferne den Spieler als In-Game-Helfer",
+    "importData": "Daten importieren",
+    "initiateImport": "Import starten"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Du hast einen neuen Erlc-Notruf erhalten: {{callType}}.",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Webhook-Inhaltstipp",
     "customTriggerERLCNotiContentDescription": "Diese Aktion wird automatisch eine ERLC-Benachrichtigung an den gewünschten ERLC-Server senden, wenn der konfigurierte Auslöser erfüllt ist.",
     "customTriggerERLCHintContentDescription": "Diese Aktion wird automatisch einen ERLC-Hinweis an den gewünschten ERLC-Server senden, wenn der konfigurierte Auslöser erfüllt ist.",
-    "customTriggerDiscordWebhookContentDescription": "Diese Aktion wird automatisch einen Discord-Webhook ausführen, wenn der konfigurierte Auslöser erfüllt ist."
+    "customTriggerDiscordWebhookContentDescription": "Diese Aktion wird automatisch einen Discord-Webhook ausführen, wenn der konfigurierte Auslöser erfüllt ist.",
+    "channels": "Kanal/Kanäle",
+    "roles": "Rolle(n)",
+    "discordChannelLockDescription": "Diese Aktion wird automatisch die ausgewählten Kanäle für die angegebenen Rollen mit dem angegebenen Sperrtyp alle X Minuten aktualisieren.",
+    "customTriggerDiscordChannelLockDescription": "Diese Aktion wird automatisch die ausgewählten Kanäle für die angegebenen Rollen mit dem angegebenen Sperrtyp aktualisieren, wenn der konfigurierte Auslöser erfüllt ist."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Rangbenachrichtigung Ränge",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "Serverregeln automatisch durchsetzen",
     "comingSoon": "Demnächst verfügbar",
     "priorityPlayerList": "Prioritätsspielerliste",
-    "priorityPlayerListDescription": "Wählen Sie aus, welche Ränge zuerst im Menü der aktiven Spieler angezeigt werden."
+    "priorityPlayerListDescription": "Wählen Sie aus, welche Ränge zuerst im Menü der aktiven Spieler angezeigt werden.",
+    "customRecordTypes": "Benutzerdefinierte Aufzeichnungstypen",
+    "customRecordTypesDescription": "Erstellen und verwalten Sie benutzerdefinierte Aufzeichnungstypen für Ihren Server.",
+    "errorCreatingCustomType": "Ein Fehler ist beim Erstellen des benutzerdefinierten Aufzeichnungstyps aufgetreten",
+    "errorRemovingCustomType": "Ein Fehler ist beim Entfernen des benutzerdefinierten Aufzeichnungstyps aufgetreten",
+    "errorSavingCustomType": "Ein Fehler ist beim Speichern des benutzerdefinierten Aufzeichnungstyps aufgetreten",
+    "createNewRecordType": "NEUEN AUFZEICHNUNGSTYP ERSTELLEN",
+    "name": "Name",
+    "command": "Befehl",
+    "exampleRecordType": "Beispiel-Aufzeichnungstyp",
+    "lowercaseCommand": "befehl",
+    "addType": "Typ hinzufügen",
+    "saveType": "Typ speichern",
+    "editingRecordType": "AUFZEICHNUNGSTYP BEARBEITEN"
   },
   "ERLCPlayers": {
     "playersIngame": "SpielerImSpiel",
     "playersInQueue": "Spieler in der Warteschlange",
     "filter": "Filter",
     "teams": "Teams",
-    "noPlayersConnected": "Keine Spieler verbunden"
+    "noPlayersConnected": "Keine Spieler verbunden",
+    "currentPlayersInQueue": "Aktuelle Spieler in der Warteschlange"
   },
   "ERLCWhitelist": {
     "denyList": "Ablehnungsliste",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Diese Aktion wird ausgeführt, wenn ein Spieler mit einem nicht auf der Whitelist stehenden Rang dem Team beitritt.",
     "lockActionDesc": "Diese Aktion wird ausgeführt, wenn ein Spieler versucht, einem gesperrten Team beizutreten, das seine Spielergrenze erreicht hat.",
     "bypassRankDesc": "Ränge, die Berechtigung haben, Teamsperrungen zu umgehen",
-    "lockTeam": "Team sperren"
+    "lockTeam": "Team sperren",
+    "allowedRanksForDOTTeam": "Erlaubte Ränge für das DOT-Team"
   },
   "ERLCActivityLog": {
     "kickedAction": "Gekickt-Aktion",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Dieser Eintrag kann nicht bearbeitet werden, da er keinem Konto zugeordnet ist.",
     "typeFrom": "Typ von",
     "and": "und",
-    "createdTheRecord": "hat den Eintrag erstellt"
+    "createdTheRecord": "hat den Eintrag erstellt",
+    "manageRecordTypes": "Aufzeichnungstypen verwalten"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Geben Sie die Zeitspanne an, bis Punkte verfallen.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Aktiviert, wenn",
     "requirement": "Anforderung",
     "serverInSession": "Server in Sitzung",
-    "servers": "Server"
+    "servers": "Server",
+    "discordChannelLock": "Discord-Kanal-Sperre"
   },
   "integrationsPortal": {
     "title": "Offizielle Integrationen",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Dies gibt den Namen der Gemeinschaft des Benutzers an, der von dem Beförderungsablauf betroffen ist.",
     "run": "Ausführen",
     "flows": "Abläufe",
-    "confirmDelete": "Sind Sie sicher, dass Sie diesen Beförderungsablauf löschen möchten?"
+    "confirmDelete": "Sind Sie sicher, dass Sie diesen Beförderungsablauf löschen möchten?",
+    "insufficientPermissionsToRunPromotions": "Unzureichende Berechtigungen, um Aktionen durchzuführen"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Keine Spieler gefunden... Suche"
+    "noPlayersFoundSearch": "Keine Spieler gefunden... Suche",
+    "melonlyApiKey": "Melonly-API-Schlüssel"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Zeitzonenauswahl",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktive Sitzung",
     "cancel": "Abbrechen",
     "end": "Beenden"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Nachrichten sperren",
+    "unlockMessages": "Nachrichten entsperren",
+    "viewChannel": "Kanal ansehen",
+    "hideChannel": "Kanal verbergen",
+    "lockType": "Sperrtyp"
   }
 }

@@ -633,7 +633,9 @@
     "askAiAQuestion": "Faça uma pergunta à IA...",
     "qbcoreQboxPanelDocumentation": "Documentação do Painel QBCore & QBox",
     "erlcPanelDocumentation": "Documentação do Painel ER:LC",
-    "session": "Sessão"
+    "session": "Sessão",
+    "management": "Gestão",
+    "import": "Importar"
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Erro: Ocorreu um erro durante a execução",
     "notificationPreferencesDescription": "Gerencie suas preferências de notificação para vários eventos e atualizações da comunidade.",
     "shiftType": "Tipo de Turno",
-    "none": "Nenhum"
+    "none": "Nenhum",
+    "errorAnErrorOccuredWhileFetching": "Erro: Ocorreu um erro ao buscar"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Contas de Usuário",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "ID do Roblox copiado para a área de transferência.",
     "userPermissions": "Permissões do Usuário:",
     "viewAllPermissions": "Ver Todas as Permissões",
-    "uniqueId": "ID Único"
+    "uniqueId": "ID Único",
+    "modifyExpiration": "Modificar Expiração"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial da API da Comunidade",
@@ -4398,7 +4402,9 @@
     "helper": "Assistente",
     "unhelper": "Remover Assistente",
     "setThePlayerAsAnIngameHelper": "Defina o jogador como assistente no jogo",
-    "removeThePlayerAsAnIngameHelper": "Remover o jogador como assistente no jogo"
+    "removeThePlayerAsAnIngameHelper": "Remover o jogador como assistente no jogo",
+    "importData": "Importar Dados",
+    "initiateImport": "Iniciar Importação"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Descrição do Conteúdo da Notificação ERLC",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Sugestão de conteúdo do webhook",
     "customTriggerERLCNotiContentDescription": "Esta ação enviará automaticamente uma notificação ERLC para o servidor ERLC desejado quando o gatilho configurado for atendido.",
     "customTriggerERLCHintContentDescription": "Esta ação enviará automaticamente uma dica ERLC para o servidor ERLC desejado quando o gatilho configurado for atendido.",
-    "customTriggerDiscordWebhookContentDescription": "Esta ação executará automaticamente um webhook do Discord quando o gatilho configurado for atendido."
+    "customTriggerDiscordWebhookContentDescription": "Esta ação executará automaticamente um webhook do Discord quando o gatilho configurado for atendido.",
+    "channels": "Canal(is)",
+    "roles": "Função(ões)",
+    "discordChannelLockDescription": "Esta ação atualizará automaticamente os canais selecionados para os papéis especificados com o tipo de bloqueio especificado a cada X minutos.",
+    "customTriggerDiscordChannelLockDescription": "Esta ação atualizará automaticamente os canais selecionados para os papéis especificados com o tipo de bloqueio especificado quando o gatilho configurado for acionado."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Notificações de Classificação",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "Aplicar automaticamente as regras do servidor",
     "comingSoon": "Em breve",
     "priorityPlayerList": "Lista de Jogadores Prioritários",
-    "priorityPlayerListDescription": "Selecione quais patentes serão exibidas primeiro no menu de jogadores ativos."
+    "priorityPlayerListDescription": "Selecione quais patentes serão exibidas primeiro no menu de jogadores ativos.",
+    "customRecordTypes": "Tipos de Registro Personalizado",
+    "customRecordTypesDescription": "Criar e gerenciar tipos de registro personalizados para seu servidor.",
+    "errorCreatingCustomType": "Ocorreu um erro ao criar o tipo de registro personalizado",
+    "errorRemovingCustomType": "Ocorreu um erro ao remover o tipo de registro personalizado",
+    "errorSavingCustomType": "Ocorreu um erro ao salvar o tipo de registro personalizado",
+    "createNewRecordType": "CRIAR NOVO TIPO DE REGISTRO",
+    "name": "Nome",
+    "command": "Comando",
+    "exampleRecordType": "Exemplo de Tipo de Registro",
+    "lowercaseCommand": "comando",
+    "addType": "Adicionar Tipo",
+    "saveType": "Salvar Tipo",
+    "editingRecordType": "EDITANDO TIPO DE REGISTRO"
   },
   "ERLCPlayers": {
     "playersIngame": "jogadoresOnline",
     "playersInQueue": "jogadoresNaFila",
     "filter": "filtro",
     "teams": "equipes",
-    "noPlayersConnected": "nenhumJogadorConectado"
+    "noPlayersConnected": "nenhumJogadorConectado",
+    "currentPlayersInQueue": "Jogadores atuais na fila"
   },
   "ERLCWhitelist": {
     "denyList": "lista de negações",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Esta ação ocorre quando um jogador com um cargo não listado na lista de permissão entra na equipe.",
     "lockActionDesc": "Esta ação ocorre quando um jogador tenta juntar-se a uma equipe bloqueada que atingiu seu limite de jogadores.",
     "bypassRankDesc": "Cargos permitidos para ignorar as restrições de bloqueio de equipe",
-    "lockTeam": "Bloquear Equipe"
+    "lockTeam": "Bloquear Equipe",
+    "allowedRanksForDOTTeam": "Patentes Permitidas para Equipe DOT"
   },
   "ERLCActivityLog": {
     "kickedAction": "açãoExpulsar",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Este registro não pode ser editado devido à falta de associação com uma conta.",
     "typeFrom": "tipo de",
     "and": "e",
-    "createdTheRecord": "criou o registro"
+    "createdTheRecord": "criou o registro",
+    "manageRecordTypes": "Gerenciar Tipos de Registro"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Especifique o tempo necessário para os pontos expirarem.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Ativado Quando",
     "requirement": "Requisito",
     "serverInSession": "Servidor em Sessão",
-    "servers": "Servidor(es)"
+    "servers": "Servidor(es)",
+    "discordChannelLock": "Bloqueio de Canal Discord"
   },
   "integrationsPortal": {
     "title": "Integrações Oficiais",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Isto indicará o nome da comunidade do usuário afetado pelo fluxo de promoção.",
     "run": "Executar",
     "flows": "Fluxos",
-    "confirmDelete": "Tem certeza de que deseja excluir este fluxo de promoção?"
+    "confirmDelete": "Tem certeza de que deseja excluir este fluxo de promoção?",
+    "insufficientPermissionsToRunPromotions": "Permissões Insuficientes Para Executar Promoções"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Nenhum Jogador Encontrado... Procurar"
+    "noPlayersFoundSearch": "Nenhum Jogador Encontrado... Procurar",
+    "melonlyApiKey": "Chave de API Melonly"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Seleção de Fuso Horário",
@@ -4838,5 +4867,12 @@
     "activeSession": "Sessão Ativa",
     "cancel": "Cancelar",
     "end": "Encerrar"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Bloquear Mensagens",
+    "unlockMessages": "Desbloquear Mensagens",
+    "viewChannel": "Ver Canal",
+    "hideChannel": "Ocultar Canal",
+    "lockType": "Tipo de Bloqueio"
   }
 }

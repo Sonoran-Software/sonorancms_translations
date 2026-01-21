@@ -633,7 +633,9 @@
     "askAiAQuestion": "AIに質問をする…",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox パネルドキュメント",
     "erlcPanelDocumentation": "ER:LC パネルドキュメント",
-    "session": "セッション"
+    "session": "セッション",
+    "management": "管理",
+    "import": "インポート"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "エラー: 実行中にエラーが発生しました",
     "notificationPreferencesDescription": "さまざまなコミュニティイベントや更新の通知設定を管理します。",
     "shiftType": "シフトタイプ",
-    "none": "なし"
+    "none": "なし",
+    "errorAnErrorOccuredWhileFetching": "エラー: 取得中にエラーが発生しました"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "クリップボードにRoblox IDがコピーされました。",
     "userPermissions": "ユーザー権限:",
     "viewAllPermissions": "すべての権限を表示",
-    "uniqueId": "ユニークID"
+    "uniqueId": "ユニークID",
+    "modifyExpiration": "有効期限の変更"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -4398,7 +4402,9 @@
     "helper": "ヘルパー",
     "unhelper": "ヘルパー解除",
     "setThePlayerAsAnIngameHelper": "プレイヤーをゲーム内のヘルパーとして設定します",
-    "removeThePlayerAsAnIngameHelper": "ゲーム内のヘルパーとしてプレイヤーを削除します"
+    "removeThePlayerAsAnIngameHelper": "ゲーム内のヘルパーとしてプレイヤーを削除します",
+    "importData": "データのインポート",
+    "initiateImport": "インポートを開始"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "ERLC通知コンテンツの説明",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Webhookコンテンツのヒント",
     "customTriggerERLCNotiContentDescription": "このアクションは、設定されたトリガーが発生した際に、指定されたERLCサーバーに自動的にERLC通知を送信します。",
     "customTriggerERLCHintContentDescription": "このアクションは、設定されたトリガーが発生した際に、指定されたERLCサーバーに自動的にERLCヒントを送信します。",
-    "customTriggerDiscordWebhookContentDescription": "このアクションは、設定されたトリガーが発生した際に、Discordウェブフックを自動的に実行します。"
+    "customTriggerDiscordWebhookContentDescription": "このアクションは、設定されたトリガーが発生した際に、Discordウェブフックを自動的に実行します。",
+    "channels": "チャンネル",
+    "roles": "役割",
+    "discordChannelLockDescription": "このアクションは、指定された役割に対して、指定されたロックタイプで選択されたチャンネルをX分ごとに自動的に更新します。",
+    "customTriggerDiscordChannelLockDescription": "このアクションは、設定されたトリガーが検出されたときに、指定された役割に対して、指定されたロックタイプで選択されたチャンネルを自動的に更新します。"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "ランク通知ランク",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "サーバールールを自動的に施行する",
     "comingSoon": "近日公開",
     "priorityPlayerList": "優先プレイヤーリスト",
-    "priorityPlayerListDescription": "アクティブプレイヤーメニューに最初に表示されるランクを選択してください。"
+    "priorityPlayerListDescription": "アクティブプレイヤーメニューに最初に表示されるランクを選択してください。",
+    "customRecordTypes": "カスタムレコードタイプ",
+    "customRecordTypesDescription": "サーバー用にカスタムレコードタイプを作成および管理します。",
+    "errorCreatingCustomType": "カスタムレコードタイプの作成中にエラーが発生しました",
+    "errorRemovingCustomType": "カスタムレコードタイプの削除中にエラーが発生しました",
+    "errorSavingCustomType": "カスタムレコードタイプの保存中にエラーが発生しました",
+    "createNewRecordType": "新しいレコードタイプを作成",
+    "name": "名前",
+    "command": "コマンド",
+    "exampleRecordType": "例: レコードタイプ",
+    "lowercaseCommand": "コマンド",
+    "addType": "タイプを追加",
+    "saveType": "タイプを保存",
+    "editingRecordType": "レコードタイプの編集"
   },
   "ERLCPlayers": {
     "playersIngame": "ゲーム内のプレイヤー",
     "playersInQueue": "キュー内のプレイヤー",
     "filter": "フィルター",
     "teams": "チーム",
-    "noPlayersConnected": "接続されているプレイヤーはいません"
+    "noPlayersConnected": "接続されているプレイヤーはいません",
+    "currentPlayersInQueue": "現在のキュー内のプレイヤー"
   },
   "ERLCWhitelist": {
     "denyList": "拒否リスト",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "このアクションは、ホワイトリストにないランクを持つプレイヤーがチームに参加する際に実行されます。",
     "lockActionDesc": "このアクションは、プレイヤー制限に達したロックされたチームに参加しようとするプレイヤーがいるときに実行されます。",
     "bypassRankDesc": "チームロック制限をバイパスできるランク",
-    "lockTeam": "チームをロック"
+    "lockTeam": "チームをロック",
+    "allowedRanksForDOTTeam": "DOTチームに許可されたランク"
   },
   "ERLCActivityLog": {
     "kickedAction": "キック",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "アカウントが関連付けられていないため、このレコードは編集できません。",
     "typeFrom": "タイプから",
     "and": "そして",
-    "createdTheRecord": "レコードを作成しました"
+    "createdTheRecord": "レコードを作成しました",
+    "manageRecordTypes": "レコードタイプの管理"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "ポイントの有効期限の時間を指定します。",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "有効にする条件",
     "requirement": "要件",
     "serverInSession": "セッション中のサーバー",
-    "servers": "サーバー"
+    "servers": "サーバー",
+    "discordChannelLock": "Discordチャンネルロック"
   },
   "integrationsPortal": {
     "title": "公式統合",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "プロモーションフローの影響を受けたユーザーのコミュニティ名を示します。",
     "run": "実行",
     "flows": "フロー",
-    "confirmDelete": "このプロモーションフローを削除してもよろしいですか？"
+    "confirmDelete": "このプロモーションフローを削除してもよろしいですか？",
+    "insufficientPermissionsToRunPromotions": "プロモーションを実行するための権限が不十分です"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "プレーヤーが見つかりません…検索"
+    "noPlayersFoundSearch": "プレーヤーが見つかりません…検索",
+    "melonlyApiKey": "Melonly APIキー"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "タイムゾーンの選択",
@@ -4838,5 +4867,12 @@
     "activeSession": "アクティブなセッション",
     "cancel": "キャンセル",
     "end": "終了"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "メッセージをロック",
+    "unlockMessages": "メッセージをアンロック",
+    "viewChannel": "チャンネルを見る",
+    "hideChannel": "チャンネルを隠す",
+    "lockType": "ロックタイプ"
   }
 }

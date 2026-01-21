@@ -633,7 +633,9 @@
     "askAiAQuestion": "AI'ye bir soru sorun...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dökümantasyonu",
     "erlcPanelDocumentation": "ER:LC Panel Dökümantasyonu",
-    "session": "Oturum"
+    "session": "Oturum",
+    "management": "Yönetim",
+    "import": "İthalat"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Hata: Yürütülürken bir hata oluştu",
     "notificationPreferencesDescription": "Farklı topluluk etkinlikleri ve güncellemeleri için bildirim tercihlerinizi yönetin.",
     "shiftType": "Vardiya Türü",
-    "none": "Hiçbiri"
+    "none": "Hiçbiri",
+    "errorAnErrorOccuredWhileFetching": "Hata: Getirme işlemi sırasında bir hata oluştu"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox Kimliği Panoya Kopyalandı.",
     "userPermissions": "Kullanıcı İzinleri:",
     "viewAllPermissions": "Tüm İzinleri Görüntüle",
-    "uniqueId": "Benzersiz Kimlik"
+    "uniqueId": "Benzersiz Kimlik",
+    "modifyExpiration": "Süresini Değiştir"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -4398,7 +4402,9 @@
     "helper": "Yardımcı",
     "unhelper": "Yardımcıyı kaldır",
     "setThePlayerAsAnIngameHelper": "Oyuncuyu oyun içi yardımcı olarak ayarla",
-    "removeThePlayerAsAnIngameHelper": "Oyuncuyu oyun içi yardımcı olarak kaldır"
+    "removeThePlayerAsAnIngameHelper": "Oyuncuyu oyun içi yardımcı olarak kaldır",
+    "importData": "Veri İçe Aktar",
+    "initiateImport": "İçe Aktarımı Başlat"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Duyurularla ilgili içerik hakkında bilgi almak için Sonoran CMS bildirim sistemini kullanın.",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Webhook içeriği önerisi",
     "customTriggerERLCNotiContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında istenen ERLC sunucusuna otomatik olarak bir ERLC bildirimi gönderecektir.",
     "customTriggerERLCHintContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında istenen ERLC sunucusuna otomatik olarak bir ERLC ipucu gönderecektir.",
-    "customTriggerDiscordWebhookContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında otomatik olarak bir Discord webhook'u çalıştıracaktır."
+    "customTriggerDiscordWebhookContentDescription": "Bu eylem, yapılandırılmış tetikleyici karşılandığında otomatik olarak bir Discord webhook'u çalıştıracaktır.",
+    "channels": "Kanal(lar)",
+    "roles": "Rol(ler)",
+    "discordChannelLockDescription": "Bu işlem, belirtilen kilit türü ile her X dakikada bir seçilen kanalları belirtilen roller için otomatik olarak güncelleyecektir.",
+    "customTriggerDiscordChannelLockDescription": "Bu işlem, yapılandırılmış tetikleyici karşılandığında belirtilen kilit türü ile belirtilen roller için seçilen kanalları otomatik olarak güncelleyecektir."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Rütbe Bildirim Rütbeleri",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "Sunucu Kurallarını Otomatik Olarak Uygula",
     "comingSoon": "Çok yakında",
     "priorityPlayerList": "Öncelikli Oyuncu Listesi",
-    "priorityPlayerListDescription": "Hangi rütbelerin aktif oyuncular menüsünde önce görüneceğini seçin."
+    "priorityPlayerListDescription": "Hangi rütbelerin aktif oyuncular menüsünde önce görüneceğini seçin.",
+    "customRecordTypes": "Özel Kayıt Türleri",
+    "customRecordTypesDescription": "Sunucunuz için özel kayıt türleri oluşturun ve yönetin.",
+    "errorCreatingCustomType": "Özel kayıt türü oluşturulurken bir hata oluştu",
+    "errorRemovingCustomType": "Özel kayıt türü kaldırılırken bir hata oluştu",
+    "errorSavingCustomType": "Özel kayıt türü kaydedilirken bir hata oluştu",
+    "createNewRecordType": "YENİ KAYIT TÜRÜ OLUŞTUR",
+    "name": "Ad",
+    "command": "Komut",
+    "exampleRecordType": "Örnek Kayıt Türü",
+    "lowercaseCommand": "komut",
+    "addType": "Tür Ekle",
+    "saveType": "Türü Kaydet",
+    "editingRecordType": "KAYIT TÜRÜ DÜZENLENİYOR"
   },
   "ERLCPlayers": {
     "playersIngame": "oyuncularOyunda",
     "playersInQueue": "kuyruktakiOyuncular",
     "filter": "filtre",
     "teams": "takımlar",
-    "noPlayersConnected": "bağlıOyuncuYok"
+    "noPlayersConnected": "bağlıOyuncuYok",
+    "currentPlayersInQueue": "Sıradaki Mevcut Oyuncular"
   },
   "ERLCWhitelist": {
     "denyList": "reddedilenListe",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Bu eylem beyaz listeye alınmamış bir rütbeye sahip bir oyuncu takıma katıldığında çalışır.",
     "lockActionDesc": "Bu eylem, oyuncu sınırına ulaşmış kilitli bir takıma katılmaya çalışan bir oyuncu olduğunda çalışır.",
     "bypassRankDesc": "Takım kilit kısıtlamaları aşmasına izin verilen rütbeler",
-    "lockTeam": "Takımı Kilitle"
+    "lockTeam": "Takımı Kilitle",
+    "allowedRanksForDOTTeam": "DOT Takımı İçin İzin Verilen Rütbeler"
   },
   "ERLCActivityLog": {
     "kickedAction": "kovulmaAksiyonu",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Bu kayıt, hesap bağlantısı olmadığından düzenlenemez.",
     "typeFrom": "türünden",
     "and": "ve",
-    "createdTheRecord": "kaydı oluşturdu"
+    "createdTheRecord": "kaydı oluşturdu",
+    "manageRecordTypes": "Kayıt Türlerini Yönet"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Puanların süresinin dolması için gereken süreyi belirtin.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Etkin Olduğunda",
     "requirement": "Gereklilik",
     "serverInSession": "Sunucu Oturumda",
-    "servers": "Sunucu(lar)"
+    "servers": "Sunucu(lar)",
+    "discordChannelLock": "Discord Kanal Kilidi"
   },
   "integrationsPortal": {
     "title": "Resmi Entegrasyonlar",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Bu, promo akışından etkilenen kullanıcının topluluk adını belirtecektir.",
     "run": "Çalıştır",
     "flows": "Akışlar",
-    "confirmDelete": "Bu terfi akışını silmek istediğinizden emin misiniz?"
+    "confirmDelete": "Bu terfi akışını silmek istediğinizden emin misiniz?",
+    "insufficientPermissionsToRunPromotions": "Promosyonları Çalıştırmak İçin Yetersiz İzinler"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara"
+    "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara",
+    "melonlyApiKey": "Melonly API Anahtarı"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Saat Dilimi Seçimi",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktif Oturum",
     "cancel": "İptal",
     "end": "Sonlandır"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Mesajları Kilitle",
+    "unlockMessages": "Mesajların Kilidini Aç",
+    "viewChannel": "Kanalı Görüntüle",
+    "hideChannel": "Kanalı Gizle",
+    "lockType": "Kilit Türü"
   }
 }

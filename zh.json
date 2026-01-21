@@ -633,7 +633,9 @@
     "askAiAQuestion": "向 AI 提问...",
     "qbcoreQboxPanelDocumentation": "QBCore 和 QBox 面板文档",
     "erlcPanelDocumentation": "ER:LC 面板文档",
-    "session": "会话"
+    "session": "会话",
+    "management": "管理",
+    "import": "进口"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "错误：执行时发生错误",
     "notificationPreferencesDescription": "管理您对各种社区活动和更新的通知偏好。",
     "shiftType": "班次类型",
-    "none": "无"
+    "none": "无",
+    "errorAnErrorOccuredWhileFetching": "错误：获取数据时发生错误"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox ID 已复制到剪贴板。",
     "userPermissions": "用户权限：",
     "viewAllPermissions": "查看所有权限",
-    "uniqueId": "唯一 ID"
+    "uniqueId": "唯一 ID",
+    "modifyExpiration": "修改到期时间"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -4398,7 +4402,9 @@
     "helper": "助手",
     "unhelper": "解除助手",
     "setThePlayerAsAnIngameHelper": "将玩家设置为游戏助理",
-    "removeThePlayerAsAnIngameHelper": "取消玩家的游戏助理身份"
+    "removeThePlayerAsAnIngameHelper": "取消玩家的游戏助理身份",
+    "importData": "导入数据",
+    "initiateImport": "开始导入"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "您有一條新的緊急通知",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Webhook 内容提示",
     "customTriggerERLCNotiContentDescription": "在满足配置的触发条件时，此操作将自动发送一个ERLC通知到所需的ERLC服务器。",
     "customTriggerERLCHintContentDescription": "在满足配置的触发条件时，此操作将自动发送一个ERLC提示到所需的ERLC服务器。",
-    "customTriggerDiscordWebhookContentDescription": "在满足配置的触发条件时，此操作将自动执行一个Discord webhook。"
+    "customTriggerDiscordWebhookContentDescription": "在满足配置的触发条件时，此操作将自动执行一个Discord webhook。",
+    "channels": "频道",
+    "roles": "角色",
+    "discordChannelLockDescription": "此操作将在每X分钟内自动更新指定角色的选定频道并设置为指定的锁定类型。",
+    "customTriggerDiscordChannelLockDescription": "此操作将在配置的触发器满足时，自动更新指定角色的选定频道并设置为指定的锁定类型。"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "级别通知级别",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "自动执行服务器规则",
     "comingSoon": "即将推出",
     "priorityPlayerList": "优先玩家列表",
-    "priorityPlayerListDescription": "选择哪些等级将在活跃玩家菜单中首先显示。"
+    "priorityPlayerListDescription": "选择哪些等级将在活跃玩家菜单中首先显示。",
+    "customRecordTypes": "自定义记录类型",
+    "customRecordTypesDescription": "为您的服务器创建和管理自定义记录类型。",
+    "errorCreatingCustomType": "创建自定义记录类型时发生错误",
+    "errorRemovingCustomType": "移除自定义记录类型时发生错误",
+    "errorSavingCustomType": "保存自定义记录类型时发生错误",
+    "createNewRecordType": "创建新记录类型",
+    "name": "名称",
+    "command": "命令",
+    "exampleRecordType": "示例记录类型",
+    "lowercaseCommand": "命令",
+    "addType": "添加类型",
+    "saveType": "保存类型",
+    "editingRecordType": "编辑记录类型"
   },
   "ERLCPlayers": {
     "playersIngame": "玩家在游戏中",
     "playersInQueue": "队列中的玩家",
     "filter": "过滤器",
     "teams": "团队",
-    "noPlayersConnected": "没有玩家连接"
+    "noPlayersConnected": "没有玩家连接",
+    "currentPlayersInQueue": "当前队列中的玩家"
   },
   "ERLCWhitelist": {
     "denyList": "拒绝列表",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "当有非白名单等级的玩家加入团队时执行此操作。",
     "lockActionDesc": "当玩家尝试加入已达到玩家限制的锁定团队时执行此操作。",
     "bypassRankDesc": "允许绕过团队锁定限制的等级",
-    "lockTeam": "锁定团队"
+    "lockTeam": "锁定团队",
+    "allowedRanksForDOTTeam": "DOT团队允许的排名"
   },
   "ERLCActivityLog": {
     "kickedAction": "踢出操作",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "由于没有账户关联，此记录无法编辑。",
     "typeFrom": "输入自",
     "and": "和",
-    "createdTheRecord": "创建了记录"
+    "createdTheRecord": "创建了记录",
+    "manageRecordTypes": "管理记录类型"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "指定积分过期的时间。",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "启用条件",
     "requirement": "要求",
     "serverInSession": "服务器会话中",
-    "servers": "服务器"
+    "servers": "服务器",
+    "discordChannelLock": "Discord频道锁定"
   },
   "integrationsPortal": {
     "title": "官方集成",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "这将说明被晋升流影响的用户的社区名称。",
     "run": "运行",
     "flows": "流程",
-    "confirmDelete": "您确定要删除此晋升流程吗？"
+    "confirmDelete": "您确定要删除此晋升流程吗？",
+    "insufficientPermissionsToRunPromotions": "权限不足，无法执行促销"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "未找到玩家……搜索"
+    "noPlayersFoundSearch": "未找到玩家……搜索",
+    "melonlyApiKey": "Melonly API密钥"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "时区选择",
@@ -4838,5 +4867,12 @@
     "activeSession": "活动会话",
     "cancel": "取消",
     "end": "结束"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "锁定消息",
+    "unlockMessages": "解锁消息",
+    "viewChannel": "查看频道",
+    "hideChannel": "隐藏频道",
+    "lockType": "锁定类型"
   }
 }

@@ -633,7 +633,9 @@
     "askAiAQuestion": "اطرح سؤالاً على AI...",
     "qbcoreQboxPanelDocumentation": "وثائق لوحة QBCore و QBox",
     "erlcPanelDocumentation": "وثائق لوحة ER:LC",
-    "session": "جلسة"
+    "session": "جلسة",
+    "management": "إدارة",
+    "import": "استيراد"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "خطأ: حدث خطأ أثناء التنفيذ",
     "notificationPreferencesDescription": "إدارة تفضيلات الإشعارات الخاصة بك للأحداث المجتمعية المختلفة والتحديثات.",
     "shiftType": "نوع الوردية",
-    "none": "لا شيء"
+    "none": "لا شيء",
+    "errorAnErrorOccuredWhileFetching": "خطأ: حدث خطأ أثناء الجلب"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "تم نسخ معرّف Roblox إلى الحافظة.",
     "userPermissions": "أذونات المستخدم:",
     "viewAllPermissions": "عرض جميع الأذونات",
-    "uniqueId": "معرّف فريد"
+    "uniqueId": "معرّف فريد",
+    "modifyExpiration": "تعديل انتهاء الصلاحية"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -4398,7 +4402,9 @@
     "helper": "مساعد",
     "unhelper": "إزالة مساعدة",
     "setThePlayerAsAnIngameHelper": "تعيين اللاعب كمساعد في اللعبة",
-    "removeThePlayerAsAnIngameHelper": "إزالة اللاعب كمساعد في اللعبة"
+    "removeThePlayerAsAnIngameHelper": "إزالة اللاعب كمساعد في اللعبة",
+    "importData": "استيراد البيانات",
+    "initiateImport": "بدء الاستيراد"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "وصف المحتوى المرسل",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "إدراج محتوى بنص أو JSON لمعالجة الطلب الخاص بك",
     "customTriggerERLCNotiContentDescription": "سيقوم هذا الإجراء تلقائيًا بإرسال إشعار ERLC إلى خادم ERLC المطلوب عند استيفاء المشغل المكون.",
     "customTriggerERLCHintContentDescription": "سيقوم هذا الإجراء تلقائيًا بإرسال تلميح ERLC إلى خادم ERLC المطلوب عند استيفاء المشغل المكون.",
-    "customTriggerDiscordWebhookContentDescription": "سيقوم هذا الإجراء تلقائيًا بتنفيذ Webhook Discord عند استيفاء المشغل المكون."
+    "customTriggerDiscordWebhookContentDescription": "سيقوم هذا الإجراء تلقائيًا بتنفيذ Webhook Discord عند استيفاء المشغل المكون.",
+    "channels": "قناة/قنوات",
+    "roles": "دور/أدوار",
+    "discordChannelLockDescription": "سيقوم هذا الإجراء بتحديث القنوات المحددة تلقائيًا للأدوار المحددة مع نوع القفل المحدد كل X دقيقة.",
+    "customTriggerDiscordChannelLockDescription": "سيقوم هذا الإجراء بتحديث القنوات المحددة تلقائيًا للأدوار المحددة مع نوع القفل المحدد عند تحقيق المشغل المُكون."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "الإشعارات المرتبة",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "تنفيذ قواعد الخادم تلقائيًا",
     "comingSoon": "قريباً",
     "priorityPlayerList": "قائمة اللاعبين المميزين",
-    "priorityPlayerListDescription": "اختر الرتب التي ستظهر أولاً في قائمة اللاعبين النشطين."
+    "priorityPlayerListDescription": "اختر الرتب التي ستظهر أولاً في قائمة اللاعبين النشطين.",
+    "customRecordTypes": "أنواع السجلات المخصصة",
+    "customRecordTypesDescription": "إنشاء وإدارة أنواع السجلات المخصصة لخادمك.",
+    "errorCreatingCustomType": "حدث خطأ أثناء إنشاء نوع سجل مخصص",
+    "errorRemovingCustomType": "حدث خطأ أثناء إزالة نوع سجل مخصص",
+    "errorSavingCustomType": "حدث خطأ أثناء حفظ نوع سجل مخصص",
+    "createNewRecordType": "إنشاء نوع سجل جديد",
+    "name": "الاسم",
+    "command": "الأمر",
+    "exampleRecordType": "نوع سجل مثال",
+    "lowercaseCommand": "الأمر",
+    "addType": "إضافة نوع",
+    "saveType": "حفظ النوع",
+    "editingRecordType": "تحرير نوع السجل"
   },
   "ERLCPlayers": {
     "playersIngame": "اللاعبون في اللعبة",
     "playersInQueue": "اللاعبون في الطابور",
     "filter": "تصفية",
     "teams": "الفرق",
-    "noPlayersConnected": "لا يوجد لاعبين متصلين"
+    "noPlayersConnected": "لا يوجد لاعبين متصلين",
+    "currentPlayersInQueue": "اللاعبون الحاليون في الطابور"
   },
   "ERLCWhitelist": {
     "denyList": "قائمة الرفض",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "يتم تشغيل هذا الإجراء عندما ينضم لاعب يحمل رتبة غير مدرجة في القائمة البيضاء إلى الفريق.",
     "lockActionDesc": "يتم تشغيل هذا الإجراء عندما يحاول لاعب الانضمام إلى فريق مغلق قد وصل إلى الحد الأقصى للاعبين.",
     "bypassRankDesc": "الرتب المسموح لها بتجاوز قيود قفل الفريق",
-    "lockTeam": "قفل الفريق"
+    "lockTeam": "قفل الفريق",
+    "allowedRanksForDOTTeam": "الرتب المسموح بها لفريق DOT"
   },
   "ERLCActivityLog": {
     "kickedAction": "تم طرده",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "لا يمكن تعديل هذا السجل لعدم وجود ارتباط بحساب.",
     "typeFrom": "النوع من",
     "and": "و",
-    "createdTheRecord": "أنشأ السجل"
+    "createdTheRecord": "أنشأ السجل",
+    "manageRecordTypes": "إدارة أنواع السجلات"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "حدد مقدار الوقت الذي يستغرقه انتهاء النقاط.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "ممكّن عندما",
     "requirement": "المطلب",
     "serverInSession": "الخادم في الجلسة",
-    "servers": "الخوادم"
+    "servers": "الخوادم",
+    "discordChannelLock": "قفل قناة Discord"
   },
   "integrationsPortal": {
     "title": "التكاملات الرسمية",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "سيقوم بتحديد اسم المجتمع للمستخدم المتأثر بتدفق الترقية.",
     "run": "تشغيل",
     "flows": "تدفقات",
-    "confirmDelete": "هل أنت متأكد أنك تريد حذف تدفق الترقية هذا؟"
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف تدفق الترقية هذا؟",
+    "insufficientPermissionsToRunPromotions": "أذونات غير كافية لتشغيل الترقيات"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث"
+    "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث",
+    "melonlyApiKey": "مفتاح API الخاص بـ Melonly"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "اختيار المنطقة الزمنية",
@@ -4838,5 +4867,12 @@
     "activeSession": "الجلسة النشطة",
     "cancel": "إلغاء",
     "end": "نهاية"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "قفل الرسائل",
+    "unlockMessages": "إلغاء قفل الرسائل",
+    "viewChannel": "عرض القناة",
+    "hideChannel": "إخفاء القناة",
+    "lockType": "نوع القفل"
   }
 }

@@ -633,7 +633,9 @@
     "askAiAQuestion": "Ställ en fråga till AI...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
     "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
-    "session": "Session"
+    "session": "Session",
+    "management": "Förvaltning",
+    "import": "Importera"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Fel: Ett fel uppstod vid körning",
     "notificationPreferencesDescription": "Hantera dina anpassade inställningar för olika communityevenemang och uppdateringar.",
     "shiftType": "Skifttyp",
-    "none": "Ingen"
+    "none": "Ingen",
+    "errorAnErrorOccuredWhileFetching": "Fel: Ett fel inträffade vid hämtning"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox-ID kopierat till urklipp.",
     "userPermissions": "Användarbehörigheter:",
     "viewAllPermissions": "Visa alla behörigheter",
-    "uniqueId": "Unikt ID"
+    "uniqueId": "Unikt ID",
+    "modifyExpiration": "Ändra Utgångsdatum"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -4398,7 +4402,9 @@
     "helper": "Hjälpare",
     "unhelper": "Ta bort hjälpare",
     "setThePlayerAsAnIngameHelper": "Ställ in spelaren som en i-spel hjälpare",
-    "removeThePlayerAsAnIngameHelper": "Ta bort spelaren som i-spel hjälpare"
+    "removeThePlayerAsAnIngameHelper": "Ta bort spelaren som i-spel hjälpare",
+    "importData": "Importera Data",
+    "initiateImport": "Initiera Import"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Författaren har använt \"Skicka ER:LC-innehåll\"",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "webhookInnehållTips",
     "customTriggerERLCNotiContentDescription": "Denna åtgärd kommer automatiskt att skicka en ERLC-notis till den önskade ERLC-servern när den konfigurerade triggern utlöses.",
     "customTriggerERLCHintContentDescription": "Denna åtgärd kommer automatiskt att skicka en ERLC-hint till den önskade ERLC-servern när den konfigurerade triggern utlöses.",
-    "customTriggerDiscordWebhookContentDescription": "Denna åtgärd kommer automatiskt att köra en Discord-webhook när den konfigurerade triggern utlöses."
+    "customTriggerDiscordWebhookContentDescription": "Denna åtgärd kommer automatiskt att köra en Discord-webhook när den konfigurerade triggern utlöses.",
+    "channels": "Kanal/kanaler",
+    "roles": "Roll(er)",
+    "discordChannelLockDescription": "Denna åtgärd kommer automatiskt uppdatera de valda kanalerna för de angivna rollerna med den angivna låstypen var X minut.",
+    "customTriggerDiscordChannelLockDescription": "Denna åtgärd kommer automatiskt uppdatera de valda kanalerna för de angivna rollerna med den angivna låstypen när den konfigurerade utlösaren är uppfylld."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rankningsanmälanRankningar",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "tillämpa serverregler automatiskt",
     "comingSoon": "Kommer snart",
     "priorityPlayerList": "Prioriterad Spelarlista",
-    "priorityPlayerListDescription": "Välj vilka grader som ska visas först i menyn för aktiva spelare."
+    "priorityPlayerListDescription": "Välj vilka grader som ska visas först i menyn för aktiva spelare.",
+    "customRecordTypes": "Anpassade Posttyper",
+    "customRecordTypesDescription": "Skapa och hantera anpassade posttyper för din server.",
+    "errorCreatingCustomType": "Ett fel inträffade vid skapande av anpassad posttyp",
+    "errorRemovingCustomType": "Ett fel inträffade vid borttagning av anpassad posttyp",
+    "errorSavingCustomType": "Ett fel inträffade vid sparande av anpassad posttyp",
+    "createNewRecordType": "SKAPA NY POSTTYP",
+    "name": "Namn",
+    "command": "Kommando",
+    "exampleRecordType": "Exempel Posttyp",
+    "lowercaseCommand": "kommando",
+    "addType": "Lägg till Typ",
+    "saveType": "Spara Typ",
+    "editingRecordType": "REDIGERAR POSTTYP"
   },
   "ERLCPlayers": {
     "playersIngame": "spelareIgång",
     "playersInQueue": "spelareIKön",
     "filter": "filter",
     "teams": "team",
-    "noPlayersConnected": "inga spelare anslutna"
+    "noPlayersConnected": "inga spelare anslutna",
+    "currentPlayersInQueue": "Nuvarande spelare i kö"
   },
   "ERLCWhitelist": {
     "denyList": "nektaLista",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Denna åtgärd körs när en spelare med en icke-vitlistad rang ansluter till laget.",
     "lockActionDesc": "Denna åtgärd körs när en spelare försöker ansluta till ett låst lag som har nått sitt spelartak.",
     "bypassRankDesc": "Rang som tillåts kringgå laglåsrestriktioner",
-    "lockTeam": "Lås lag"
+    "lockTeam": "Lås lag",
+    "allowedRanksForDOTTeam": "Tillåtna Rangordningar för DOT Team"
   },
   "ERLCActivityLog": {
     "kickedAction": "sparkadÅtgärd",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Denna post kan inte redigeras på grund av ingen kontotillhörighet.",
     "typeFrom": "skriv från",
     "and": "och",
-    "createdTheRecord": "skapade posten"
+    "createdTheRecord": "skapade posten",
+    "manageRecordTypes": "Hantera Posttyper"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Ange hur lång tid det tar innan poäng förfaller.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Aktiverad När",
     "requirement": "Krav",
     "serverInSession": "Server i session",
-    "servers": "Server(s)"
+    "servers": "Server(s)",
+    "discordChannelLock": "Discord-kanallås"
   },
   "integrationsPortal": {
     "title": "Officiella Integrationer",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Detta kommer att ange gemenskapens namn på användaren som påverkas av promotionsflödet.",
     "run": "Kör",
     "flows": "Flöden",
-    "confirmDelete": "Är du säker på att du vill ta bort detta befordringsflöde?"
+    "confirmDelete": "Är du säker på att du vill ta bort detta befordringsflöde?",
+    "insufficientPermissionsToRunPromotions": "Otillräckliga behörigheter för att köra kampanjer"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Inga spelare hittades... Sök"
+    "noPlayersFoundSearch": "Inga spelare hittades... Sök",
+    "melonlyApiKey": "Melonly API-nyckel"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Tidszonsval",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktiv Session",
     "cancel": "Avbryt",
     "end": "Avsluta"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Lås Meddelanden",
+    "unlockMessages": "Lås Upp Meddelanden",
+    "viewChannel": "Visa Kanal",
+    "hideChannel": "Dölj Kanal",
+    "lockType": "Låstyp"
   }
 }

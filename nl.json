@@ -633,7 +633,9 @@
     "askAiAQuestion": "Stel AI een vraag...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Paneeldocumentatie",
     "erlcPanelDocumentation": "ER:LC Paneeldocumentatie",
-    "session": "Sessie"
+    "session": "Sessie",
+    "management": "Beheer",
+    "import": "Importeren"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Fout: Er is een fout opgetreden tijdens het uitvoeren",
     "notificationPreferencesDescription": "Beheer je meldingsvoorkeuren voor verschillende gemeenschapsevenementen en updates.",
     "shiftType": "Diensttype",
-    "none": "Geen"
+    "none": "Geen",
+    "errorAnErrorOccuredWhileFetching": "Fout: Er is een fout opgetreden bij het ophalen"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox-ID naar klembord gekopieerd.",
     "userPermissions": "Gebruikersrechten:",
     "viewAllPermissions": "Bekijk alle permissies",
-    "uniqueId": "Unieke ID"
+    "uniqueId": "Unieke ID",
+    "modifyExpiration": "Wijzig Vervaldatum"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -4398,7 +4402,9 @@
     "helper": "Helper",
     "unhelper": "Verwijder als helper",
     "setThePlayerAsAnIngameHelper": "Stel de speler in als in-game helper",
-    "removeThePlayerAsAnIngameHelper": "Verwijder de speler als in-game helper"
+    "removeThePlayerAsAnIngameHelper": "Verwijder de speler als in-game helper",
+    "importData": "Gegevens importeren",
+    "initiateImport": "Importeren starten"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "ERLC serveraankondigingen instellen en ontvangen in dit menu.",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "webhookinhoudhint",
     "customTriggerERLCNotiContentDescription": "Deze actie stuurt automatisch een ERLC-melding naar de gewenste ERLC-server wanneer de geconfigureerde trigger wordt geactiveerd.",
     "customTriggerERLCHintContentDescription": "Deze actie stuurt automatisch een ERLC-hint naar de gewenste ERLC-server wanneer de geconfigureerde trigger wordt geactiveerd.",
-    "customTriggerDiscordWebhookContentDescription": "Deze actie voert automatisch een Discord-webhook uit wanneer de geconfigureerde trigger wordt geactiveerd."
+    "customTriggerDiscordWebhookContentDescription": "Deze actie voert automatisch een Discord-webhook uit wanneer de geconfigureerde trigger wordt geactiveerd.",
+    "channels": "Kanaal/Kanalen",
+    "roles": "Rol(len)",
+    "discordChannelLockDescription": "Deze actie zal automatisch de geselecteerde kanalen voor de gespecificeerde rollen bijwerken met het gespecificeerde vergrendelingstype elke X minuten.",
+    "customTriggerDiscordChannelLockDescription": "Deze actie zal automatisch de geselecteerde kanalen voor de gespecificeerde rollen bijwerken met het gespecificeerde vergrendelingstype wanneer de geconfigureerde trigger is bereikt."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangmeldingRangen",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "serversregels automatisch handhaven",
     "comingSoon": "Binnenkort beschikbaar",
     "priorityPlayerList": "Prioritaire Spelerslijst",
-    "priorityPlayerListDescription": "Kies welke rangen als eerste worden weergegeven in het menu actieve spelers."
+    "priorityPlayerListDescription": "Kies welke rangen als eerste worden weergegeven in het menu actieve spelers.",
+    "customRecordTypes": "Aangepaste Recordtypes",
+    "customRecordTypesDescription": "Maak en beheer aangepaste recordtypes voor uw server.",
+    "errorCreatingCustomType": "Er is een fout opgetreden bij het maken van het aangepaste recordtype",
+    "errorRemovingCustomType": "Er is een fout opgetreden bij het verwijderen van het aangepaste recordtype",
+    "errorSavingCustomType": "Er is een fout opgetreden bij het opslaan van het aangepaste recordtype",
+    "createNewRecordType": "NIEUW RECORDTYPE AANMAKEN",
+    "name": "Naam",
+    "command": "Opdracht",
+    "exampleRecordType": "Voorbeeld Recordtype",
+    "lowercaseCommand": "opdracht",
+    "addType": "Type Toevoegen",
+    "saveType": "Type Opslaan",
+    "editingRecordType": "RECORDTYPE BEWERKEN"
   },
   "ERLCPlayers": {
     "playersIngame": "spelers in-game",
     "playersInQueue": "spelersInWachtrij",
     "filter": "filter",
     "teams": "teams",
-    "noPlayersConnected": "geenSpelersVerbonden"
+    "noPlayersConnected": "geenSpelersVerbonden",
+    "currentPlayersInQueue": "Huidige spelers in wachtrij"
   },
   "ERLCWhitelist": {
     "denyList": "weigerenLijst",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Deze actie wordt uitgevoerd wanneer een speler met een niet-gelijste rang het team probeert te joinen.",
     "lockActionDesc": "Deze actie wordt uitgevoerd wanneer een speler probeert zich aan te sluiten bij een vergrendeld team dat zijn spelerslimiet heeft bereikt.",
     "bypassRankDesc": "Rangen die mogen de teambereik beperkingen omzeilen",
-    "lockTeam": "Team vergrendelen"
+    "lockTeam": "Team vergrendelen",
+    "allowedRanksForDOTTeam": "Toegestane Rangen voor DOT-team"
   },
   "ERLCActivityLog": {
     "kickedAction": "geweigerdActie",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Dit record kan niet worden bewerkt vanwege geen accountassociatie.",
     "typeFrom": "type van",
     "and": "en",
-    "createdTheRecord": "heeft het record gemaakt"
+    "createdTheRecord": "heeft het record gemaakt",
+    "manageRecordTypes": "Beheer Recordtypes"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Geef de tijd aan waarna punten vervallen.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Ingeschakeld Wanneer",
     "requirement": "Vereiste",
     "serverInSession": "Server In-Session",
-    "servers": "Server(s)"
+    "servers": "Server(s)",
+    "discordChannelLock": "Discord-kanaalvergrendeling"
   },
   "integrationsPortal": {
     "title": "Officiële Integraties",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Dit zal de gemeenschapsnaam van de gebruiker die door de promotievloeiing wordt beïnvloed aangeven.",
     "run": "Uitvoeren",
     "flows": "Stromen",
-    "confirmDelete": "Weet je zeker dat je deze promotie-flow wilt verwijderen?"
+    "confirmDelete": "Weet je zeker dat je deze promotie-flow wilt verwijderen?",
+    "insufficientPermissionsToRunPromotions": "Onvoldoende rechten om promoties uit te voeren"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken"
+    "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken",
+    "melonlyApiKey": "Melonly API-sleutel"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Tijdzone Selectie",
@@ -4838,5 +4867,12 @@
     "activeSession": "Actieve Sessie",
     "cancel": "Annuleren",
     "end": "Einde"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Berichten Vergrendelen",
+    "unlockMessages": "Berichten Ontgrendelen",
+    "viewChannel": "Kanaal Bekijken",
+    "hideChannel": "Kanaal Verbergen",
+    "lockType": "Vergrendelingstype"
   }
 }

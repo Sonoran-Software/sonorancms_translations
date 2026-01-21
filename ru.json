@@ -633,7 +633,9 @@
     "askAiAQuestion": "Задайте вопрос ИИ...",
     "qbcoreQboxPanelDocumentation": "Документация панели QBCore и QBox",
     "erlcPanelDocumentation": "Документация панели ER:LC",
-    "session": "Сессия"
+    "session": "Сессия",
+    "management": "Управление",
+    "import": "Импорт"
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Ошибка: Произошла ошибка при выполнении",
     "notificationPreferencesDescription": "Управляйте своими настройками уведомлений для различных событий и обновлений сообщества.",
     "shiftType": "Тип смены",
-    "none": "Нет"
+    "none": "Нет",
+    "errorAnErrorOccuredWhileFetching": "Ошибка: произошла ошибка при получении"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox ID скопирован в буфер обмена.",
     "userPermissions": "Права пользователя:",
     "viewAllPermissions": "Просмотр всех разрешений",
-    "uniqueId": "Уникальный идентификатор"
+    "uniqueId": "Уникальный идентификатор",
+    "modifyExpiration": "Изменить срок действия"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -4398,7 +4402,9 @@
     "helper": "Помощник",
     "unhelper": "Не помощник",
     "setThePlayerAsAnIngameHelper": "Назначить игрока игровым помощником",
-    "removeThePlayerAsAnIngameHelper": "Убрать игрока из помощников в игре"
+    "removeThePlayerAsAnIngameHelper": "Убрать игрока из помощников в игре",
+    "importData": "Импорт данных",
+    "initiateImport": "Начать импорт"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Описание уведомления ERLC",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Подсказка содержимого вебхука",
     "customTriggerERLCNotiContentDescription": "Это действие автоматически отправит уведомление ERLC на заданный сервер ERLC, когда будет выполнено настроенное условие.",
     "customTriggerERLCHintContentDescription": "Это действие автоматически отправит подсказку ERLC на заданный сервер ERLC, когда будет выполнено настроенное условие.",
-    "customTriggerDiscordWebhookContentDescription": "Это действие автоматически выполнит веб-хук Discord, когда будет выполнено настроенное условие."
+    "customTriggerDiscordWebhookContentDescription": "Это действие автоматически выполнит веб-хук Discord, когда будет выполнено настроенное условие.",
+    "channels": "Канал(ы)",
+    "roles": "Роль(и)",
+    "discordChannelLockDescription": "Это действие автоматически обновит выбранные каналы для указанных ролей с указанным типом блокировки каждые X минут.",
+    "customTriggerDiscordChannelLockDescription": "Это действие автоматически обновит выбранные каналы для указанных ролей с указанным типом блокировки при выполнении заданного триггера."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "звания уведомлений",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "автоматически применять правила сервера",
     "comingSoon": "скоро будет",
     "priorityPlayerList": "Список приоритетных игроков",
-    "priorityPlayerListDescription": "Выберите, какие ранги будут отображаться первыми в меню активных игроков."
+    "priorityPlayerListDescription": "Выберите, какие ранги будут отображаться первыми в меню активных игроков.",
+    "customRecordTypes": "Пользовательские типы записей",
+    "customRecordTypesDescription": "Создавайте и управляйте пользовательскими типами записей для вашего сервера.",
+    "errorCreatingCustomType": "Произошла ошибка при создании пользовательского типа записи",
+    "errorRemovingCustomType": "Произошла ошибка при удалении пользовательского типа записи",
+    "errorSavingCustomType": "Произошла ошибка при сохранении пользовательского типа записи",
+    "createNewRecordType": "СОЗДАТЬ НОВЫЙ ТИП ЗАПИСИ",
+    "name": "Имя",
+    "command": "Команда",
+    "exampleRecordType": "Пример типа записи",
+    "lowercaseCommand": "команда",
+    "addType": "Добавить тип",
+    "saveType": "Сохранить тип",
+    "editingRecordType": "РЕДАКТИРОВАНИЕ ТИПА ЗАПИСИ"
   },
   "ERLCPlayers": {
     "playersIngame": "игроки в игре",
     "playersInQueue": "игроки_в_очереди",
     "filter": "фильтр",
     "teams": "команды",
-    "noPlayersConnected": "Нет подключенных игроков"
+    "noPlayersConnected": "Нет подключенных игроков",
+    "currentPlayersInQueue": "Текущие игроки в очереди"
   },
   "ERLCWhitelist": {
     "denyList": "черный список",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Это действие выполняется, когда игрок с рангом, не входящим в белый список, присоединяется к команде.",
     "lockActionDesc": "Это действие выполняется, когда игрок пытается присоединиться к заблокированной команде, когда достигнут лимит игроков.",
     "bypassRankDesc": "Ранги, которым разрешено обходить ограничения блокировки команды",
-    "lockTeam": "Заблокировать команду"
+    "lockTeam": "Заблокировать команду",
+    "allowedRanksForDOTTeam": "Разрешенные ранги для команды DOT"
   },
   "ERLCActivityLog": {
     "kickedAction": "```удален```",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Эту запись нельзя редактировать из-за отсутствия учетной записи.",
     "typeFrom": "введите из",
     "and": "и",
-    "createdTheRecord": "создал запись"
+    "createdTheRecord": "создал запись",
+    "manageRecordTypes": "Управление типами записей"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Укажите время, за которое истекают баллы.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Включено, когда",
     "requirement": "Требование",
     "serverInSession": "Сервер в сессии",
-    "servers": "Сервер(ы)"
+    "servers": "Сервер(ы)",
+    "discordChannelLock": "Блокировка канала Discord"
   },
   "integrationsPortal": {
     "title": "Официальные интеграции",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Это укажет имя сообщества пользователя, на которого повлиял поток продвижения.",
     "run": "Запустить",
     "flows": "Потоки",
-    "confirmDelete": "Вы уверены, что хотите удалить этот поток продвижения?"
+    "confirmDelete": "Вы уверены, что хотите удалить этот поток продвижения?",
+    "insufficientPermissionsToRunPromotions": "Недостаточно прав для запуска промоакций"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Игроки не найдены... Поиск"
+    "noPlayersFoundSearch": "Игроки не найдены... Поиск",
+    "melonlyApiKey": "Ключ API Melonly"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Выбор часового пояса",
@@ -4838,5 +4867,12 @@
     "activeSession": "Активная сессия",
     "cancel": "Отмена",
     "end": "Завершить"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Блокировка сообщений",
+    "unlockMessages": "Разблокировка сообщений",
+    "viewChannel": "Просмотр канала",
+    "hideChannel": "Скрыть канал",
+    "lockType": "Тип блокировки"
   }
 }

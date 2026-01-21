@@ -633,7 +633,9 @@
     "askAiAQuestion": "Zadaj AI pytanie...",
     "qbcoreQboxPanelDocumentation": "Dokumentacja panelu QBCore i QBox",
     "erlcPanelDocumentation": "Dokumentacja panelu ER:LC",
-    "session": "Sesja"
+    "session": "Sesja",
+    "management": "Zarządzanie",
+    "import": "Import"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Błąd: Wystąpił błąd podczas wykonywania",
     "notificationPreferencesDescription": "Zarządzaj swoimi preferencjami powiadomień dla różnych wydarzeń społeczności i aktualizacji.",
     "shiftType": "Rodzaj Zmiany",
-    "none": "Brak"
+    "none": "Brak",
+    "errorAnErrorOccuredWhileFetching": "Błąd: Wystąpił błąd podczas pobierania"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "ID Roblox skopiowane do schowka.",
     "userPermissions": "Uprawnienia użytkownika:",
     "viewAllPermissions": "Wyświetl wszystkie uprawnienia",
-    "uniqueId": "Unikalny ID"
+    "uniqueId": "Unikalny ID",
+    "modifyExpiration": "Modyfikuj Wygaśnięcie"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -4398,7 +4402,9 @@
     "helper": "Pomocnik",
     "unhelper": "Usuń pomocnika",
     "setThePlayerAsAnIngameHelper": "Ustaw gracza jako pomocnik w grze",
-    "removeThePlayerAsAnIngameHelper": "Usuń gracza jako pomocnika w grze"
+    "removeThePlayerAsAnIngameHelper": "Usuń gracza jako pomocnika w grze",
+    "importData": "Importuj Dane",
+    "initiateImport": "Rozpocznij Import"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Zaktualizuj konfigurację webhooków dla Emergency Response: Liberty County.",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Zawartość Webhooku",
     "customTriggerERLCNotiContentDescription": "To działanie automatycznie wyśle powiadomienie ERLC na wybrany serwer ERLC po spełnieniu skonfigurowanego wyzwalacza.",
     "customTriggerERLCHintContentDescription": "To działanie automatycznie wyśle podpowiedź ERLC na wybrany serwer ERLC po spełnieniu skonfigurowanego wyzwalacza.",
-    "customTriggerDiscordWebhookContentDescription": "To działanie automatycznie wykona webhook Discord po spełnieniu skonfigurowanego wyzwalacza."
+    "customTriggerDiscordWebhookContentDescription": "To działanie automatycznie wykona webhook Discord po spełnieniu skonfigurowanego wyzwalacza.",
+    "channels": "Kanał(y)",
+    "roles": "Rola(e)",
+    "discordChannelLockDescription": "Ta akcja automatycznie zaktualizuje wybrane kanały dla określonych ról z określonym typem blokady co X minut.",
+    "customTriggerDiscordChannelLockDescription": "Ta akcja automatycznie zaktualizuje wybrane kanały dla określonych ról z określonym typem blokady, gdy spełniony zostanie skonfigurowany wyzwalacz."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "stopnie powiadomień о stopniach",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "automatycznie egzekwuj zasady serwera",
     "comingSoon": "Wkrótce dostępne",
     "priorityPlayerList": "Lista priorytetowych graczy",
-    "priorityPlayerListDescription": "Wybierz, które stopnie będą wyświetlane jako pierwsze w menu aktywnych graczy."
+    "priorityPlayerListDescription": "Wybierz, które stopnie będą wyświetlane jako pierwsze w menu aktywnych graczy.",
+    "customRecordTypes": "Niestandardowe Typy Rejestrów",
+    "customRecordTypesDescription": "Twórz i zarządzaj niestandardowymi typami rejestrów dla swojego serwera.",
+    "errorCreatingCustomType": "Wystąpił błąd podczas tworzenia niestandardowego typu rejestru",
+    "errorRemovingCustomType": "Wystąpił błąd podczas usuwania niestandardowego typu rejestru",
+    "errorSavingCustomType": "Wystąpił błąd podczas zapisywania niestandardowego typu rejestru",
+    "createNewRecordType": "UTWÓRZ NOWY TYP REJESTRU",
+    "name": "Nazwa",
+    "command": "Polecenie",
+    "exampleRecordType": "Przykładowy Typ Rejestru",
+    "lowercaseCommand": "polecenie",
+    "addType": "Dodaj Typ",
+    "saveType": "Zapisz Typ",
+    "editingRecordType": "EDYTOWANIE TYPU REJESTRU"
   },
   "ERLCPlayers": {
     "playersIngame": "gracze w grze",
     "playersInQueue": "graczeWCzekaniu",
     "filter": "filtr",
     "teams": "zespoły",
-    "noPlayersConnected": "żadni gracze połączeni"
+    "noPlayersConnected": "żadni gracze połączeni",
+    "currentPlayersInQueue": "Aktualni gracze w kolejce"
   },
   "ERLCWhitelist": {
     "denyList": "lista odmówień",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Ta akcja uruchamia się, gdy gracz z rangą niebędącą na białej liście dołącza do zespołu.",
     "lockActionDesc": "Ta akcja uruchamia się, gdy gracz próbuje dołączyć do zablokowanego zespołu, który osiągnął limit graczy.",
     "bypassRankDesc": "Rangi dozwolone na omijanie ograniczeń blokady zespołu",
-    "lockTeam": "Zablokuj Zespół"
+    "lockTeam": "Zablokuj Zespół",
+    "allowedRanksForDOTTeam": "Dozwolone Rangi dla Zespołu DOT"
   },
   "ERLCActivityLog": {
     "kickedAction": "akcjaWyrzucenia",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Nie można edytować tego rekordu z powodu braku powiązania konta.",
     "typeFrom": "typ z",
     "and": "i",
-    "createdTheRecord": "utworzył rekord"
+    "createdTheRecord": "utworzył rekord",
+    "manageRecordTypes": "Zarządzaj Typami Rejestrów"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Określ ilość czasu, po jakim punkty wygasają.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Włączone Kiedy",
     "requirement": "Wymaganie",
     "serverInSession": "Serwer w Sesji",
-    "servers": "Serwer(y)"
+    "servers": "Serwer(y)",
+    "discordChannelLock": "Blokada Kanału Discord"
   },
   "integrationsPortal": {
     "title": "Oficjalne Integracje",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "To określi nazwę społeczności użytkownika dotkniętego przepływem awansów.",
     "run": "Uruchom",
     "flows": "Przepływy",
-    "confirmDelete": "Czy na pewno chcesz usunąć ten przepływ promocji?"
+    "confirmDelete": "Czy na pewno chcesz usunąć ten przepływ promocji?",
+    "insufficientPermissionsToRunPromotions": "Niewystarczające Uprawnienia Do Przeprowadzania Promocji"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj"
+    "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj",
+    "melonlyApiKey": "Melonly API Key"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Wybór strefy czasowej",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktywna sesja",
     "cancel": "Anuluj",
     "end": "Zakończ"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Zablokuj Wiadomości",
+    "unlockMessages": "Odblokuj Wiadomości",
+    "viewChannel": "Wyświetl Kanał",
+    "hideChannel": "Ukryj Kanał",
+    "lockType": "Typ Blokady"
   }
 }

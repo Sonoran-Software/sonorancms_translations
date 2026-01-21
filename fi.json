@@ -633,7 +633,9 @@
     "askAiAQuestion": "Kysy tekoälyltä kysymys...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox-paneelin dokumentaatio",
     "erlcPanelDocumentation": "ER:LC-paneelin dokumentaatio",
-    "session": "Istunto"
+    "session": "Istunto",
+    "management": "Hallinta",
+    "import": "Tuonti"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Virhe: Virhe tapahtui suorituksen aikana",
     "notificationPreferencesDescription": "Hallitse ilmoitusasetuksiasi eri yhteisötapahtumille ja päivityksille.",
     "shiftType": "Vuorotyypi",
-    "none": "Ei mitään"
+    "none": "Ei mitään",
+    "errorAnErrorOccuredWhileFetching": "Virhe: Tapahtui virhe tiedon hakemisessa"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox-tunnus kopioitu leikepöydälle.",
     "userPermissions": "User-oikeudet:",
     "viewAllPermissions": "Näytä kaikki oikeudet",
-    "uniqueId": "Yksilöllinen tunniste"
+    "uniqueId": "Yksilöllinen tunniste",
+    "modifyExpiration": "Muokkaa vanhenemista"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -4398,7 +4402,9 @@
     "helper": "Avustaja",
     "unhelper": "Poista avustaja",
     "setThePlayerAsAnIngameHelper": "Aseta pelaaja pelin sisäiseksi avustajaksi",
-    "removeThePlayerAsAnIngameHelper": "Poista pelaaja pelin sisäisenä avustajana"
+    "removeThePlayerAsAnIngameHelper": "Poista pelaaja pelin sisäisenä avustajana",
+    "importData": "Tuo dataa",
+    "initiateImport": "Aloita tuonti"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "erlcNotiSisaellyskuvaseloste",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "webhookin sisällön vihje",
     "customTriggerERLCNotiContentDescription": "Tämä toiminto lähettää automaattisesti ERLC-ilmoituksen haluttuun ERLC-palvelimeen, kun määritetty laukaisin täyttyy.",
     "customTriggerERLCHintContentDescription": "Tämä toiminto lähettää automaattisesti ERLC-vinkin haluttuun ERLC-palvelimeen, kun määritetty laukaisin täyttyy.",
-    "customTriggerDiscordWebhookContentDescription": "Tämä toiminto suorittaa automaattisesti Discord-webhookin, kun määritetty laukaisin täyttyy."
+    "customTriggerDiscordWebhookContentDescription": "Tämä toiminto suorittaa automaattisesti Discord-webhookin, kun määritetty laukaisin täyttyy.",
+    "channels": "Kanava(t)",
+    "roles": "Rooli(t)",
+    "discordChannelLockDescription": "Tämä toiminto päivittää automaattisesti valitut kanavat määritetyille rooleille määritetyllä lukitustyypillä joka X minuutti.",
+    "customTriggerDiscordChannelLockDescription": "Tämä toiminto päivittää automaattisesti valitut kanavat määritetyille rooleille määritetyllä lukitustyypillä, kun määritetty laukaisin saavutetaan."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Arvoilmoitukset",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "toteutaPalvelimenSäännötAutomaattisesti",
     "comingSoon": "tulossa pian",
     "priorityPlayerList": "Prioriteettipelaajaluettelo",
-    "priorityPlayerListDescription": "Valitse, mitkä arvot näytetään ensin aktiivisten pelaajien valikossa."
+    "priorityPlayerListDescription": "Valitse, mitkä arvot näytetään ensin aktiivisten pelaajien valikossa.",
+    "customRecordTypes": "Mukautetut tietueen tyypit",
+    "customRecordTypesDescription": "Luo ja hallitse mukautettuja tietuetyyppejä palvelimellesi.",
+    "errorCreatingCustomType": "Tapahtui virhe luotaessa mukautettua tietuetyyppiä",
+    "errorRemovingCustomType": "Tapahtui virhe poistettaessa mukautettua tietuetyyppiä",
+    "errorSavingCustomType": "Tapahtui virhe tallennettaessa mukautettua tietuetyyppiä",
+    "createNewRecordType": "LUO UUSI TIETUETYYPPI",
+    "name": "Nimi",
+    "command": "Komento",
+    "exampleRecordType": "Esimerkki tietuetyyppi",
+    "lowercaseCommand": "komento",
+    "addType": "Lisää tyyppi",
+    "saveType": "Tallenna tyyppi",
+    "editingRecordType": "MUOKATAAN TIETUETYYPPIÄ"
   },
   "ERLCPlayers": {
     "playersIngame": "pelaajat pelissä",
     "playersInQueue": "jonossa olevat pelaajat",
     "filter": "suodatin",
     "teams": "joukkueet",
-    "noPlayersConnected": "eiYhtäänPelaajiaYhdistettynä"
+    "noPlayersConnected": "eiYhtäänPelaajiaYhdistettynä",
+    "currentPlayersInQueue": "Jonossa olevat pelaajat"
   },
   "ERLCWhitelist": {
     "denyList": "kieltolista",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Tämä toiminto suoritetaan, kun pelaaja, jolla ei ole sallittua arvoa, liittyy tiimiin.",
     "lockActionDesc": "Tämä toiminto suoritetaan, kun pelaaja yrittää liittyä lukittuun tiimiin, joka on saavuttanut pelaajarajansa.",
     "bypassRankDesc": "Arvot, joilla on oikeus ohittaa tiimin lukitusten rajoitukset",
-    "lockTeam": "Lukitse tiimi"
+    "lockTeam": "Lukitse tiimi",
+    "allowedRanksForDOTTeam": "Sallitut arvot DOT-tiimiin"
   },
   "ERLCActivityLog": {
     "kickedAction": "potkittuToiminta",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Tätä tietuetta ei voi muokata tilin yhdistämisen puutteen vuoksi.",
     "typeFrom": "tyyppi alkaen",
     "and": "ja",
-    "createdTheRecord": "loi tietueen"
+    "createdTheRecord": "loi tietueen",
+    "manageRecordTypes": "Hallitse tietuetyyppejä"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Määritä aika, jonka kuluttua pisteet vanhenevat.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Käytössä kun",
     "requirement": "Vaatimus",
     "serverInSession": "Palvelin istunnossa",
-    "servers": "Palvelimet"
+    "servers": "Palvelimet",
+    "discordChannelLock": "Discord-kanavan lukitus"
   },
   "integrationsPortal": {
     "title": "Viralliset integraatiot",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Tämä ilmoittaa käyttäjän, johon ylennysprosessi vaikuttaa, yhteisön nimen.",
     "run": "Käynnistä",
     "flows": "Virtaukset",
-    "confirmDelete": "Oletko varma, että haluat poistaa tämän ylennysvirran?"
+    "confirmDelete": "Oletko varma, että haluat poistaa tämän ylennysvirran?",
+    "insufficientPermissionsToRunPromotions": "Riittämättömät oikeudet kampanjoiden suorittamiseen"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi"
+    "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi",
+    "melonlyApiKey": "Melonly API-avain"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Aikavyöhykkeen valinta",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktiivinen istunto",
     "cancel": "Peruuta",
     "end": "Lopeta"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Lukitse viestit",
+    "unlockMessages": "Avaa viestit",
+    "viewChannel": "Näytä kanava",
+    "hideChannel": "Piilota kanava",
+    "lockType": "Lukitustyyppi"
   }
 }

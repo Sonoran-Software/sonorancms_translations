@@ -633,7 +633,9 @@
     "removedRanks": "Odstraněné hodnosti",
     "qbcoreQboxPanelDocumentation": "Dokumentace panelu QBCore & QBox",
     "erlcPanelDocumentation": "Dokumentace panelu ER:LC",
-    "session": "Relace"
+    "session": "Relace",
+    "management": "Řízení",
+    "import": "Import"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Chyba: Při provádění došlo k chybě",
     "notificationPreferencesDescription": "Spravujte své preference oznámení pro různé komunitní události a aktualizace.",
     "shiftType": "Typ směny",
-    "none": "Žádný"
+    "none": "Žádný",
+    "errorAnErrorOccuredWhileFetching": "Chyba: Došlo k chybě při načítání"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "ID Roblox zkopírováno do schránky.",
     "userPermissions": "Uživatelská oprávnění:",
     "viewAllPermissions": "Zobrazit všechna oprávnění",
-    "uniqueId": "Unikátní ID"
+    "uniqueId": "Unikátní ID",
+    "modifyExpiration": "Upravit vypršení"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -4398,7 +4402,9 @@
     "helper": "Pomocník",
     "unhelper": "Odebrat pomocníka",
     "setThePlayerAsAnIngameHelper": "Nastavit hráče jako herního pomocníka",
-    "removeThePlayerAsAnIngameHelper": "Odebrat hráče jako herního pomocníka"
+    "removeThePlayerAsAnIngameHelper": "Odebrat hráče jako herního pomocníka",
+    "importData": "Import dat",
+    "initiateImport": "Zahájit import"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "Popis oznámení ERLC",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "Obsah webhooku",
     "customTriggerERLCNotiContentDescription": "Tato akce automaticky pošle notifikaci ERLC na zvolený ERLC server, když je splněn nastavený spouštěč.",
     "customTriggerERLCHintContentDescription": "Tato akce automaticky pošle nápovědu ERLC na zvolený ERLC server, když je splněn nastavený spouštěč.",
-    "customTriggerDiscordWebhookContentDescription": "Tato akce automaticky vykoná Discord webhook, když je splněn nastavený spouštěč."
+    "customTriggerDiscordWebhookContentDescription": "Tato akce automaticky vykoná Discord webhook, když je splněn nastavený spouštěč.",
+    "channels": "Kanál(y)",
+    "roles": "Role(y)",
+    "discordChannelLockDescription": "Tato akce automaticky aktualizuje vybrané kanály pro specifikované role s určitým typem zámku každých X minut.",
+    "customTriggerDiscordChannelLockDescription": "Tato akce automaticky aktualizuje vybrané kanály pro specifikované role s určitým typem zámku, když je splněn nakonfigurovaný spouštěč."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rankUpozorněníPozice",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "automaticky prosazovat pravidla serveru",
     "comingSoon": "Již brzy",
     "priorityPlayerList": "Seznam prioritních hráčů",
-    "priorityPlayerListDescription": "Vyberte, které hodnosti se budou zobrazovat jako první v nabídce aktivních hráčů."
+    "priorityPlayerListDescription": "Vyberte, které hodnosti se budou zobrazovat jako první v nabídce aktivních hráčů.",
+    "customRecordTypes": "Vlastní typy záznamů",
+    "customRecordTypesDescription": "Vytvářejte a spravujte vlastní typy záznamů pro váš server.",
+    "errorCreatingCustomType": "Došlo k chybě při vytváření vlastního typu záznamu",
+    "errorRemovingCustomType": "Došlo k chybě při odstraňování vlastního typu záznamu",
+    "errorSavingCustomType": "Došlo k chybě při ukládání vlastního typu záznamu",
+    "createNewRecordType": "VYTVOŘIT NOVÝ TYP ZÁZNAMU",
+    "name": "Název",
+    "command": "Příkaz",
+    "exampleRecordType": "Příklad typu záznamu",
+    "lowercaseCommand": "příkaz",
+    "addType": "Přidat typ",
+    "saveType": "Uložit typ",
+    "editingRecordType": "ÚPRAVA TYPU ZÁZNAMU"
   },
   "ERLCPlayers": {
     "playersIngame": "hráči ve hře",
     "playersInQueue": "hráči ve frontě",
     "filter": "Filtr",
     "teams": "týmy",
-    "noPlayersConnected": "Žádní hráči nejsou připojeni"
+    "noPlayersConnected": "Žádní hráči nejsou připojeni",
+    "currentPlayersInQueue": "Aktuální hráči ve frontě"
   },
   "ERLCWhitelist": {
     "denyList": "seznam odmítnutí",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Tato akce se spustí, když se k týmu připojí hráč s ne-povolenou hodností.",
     "lockActionDesc": "Tato akce se spustí, když se hráč pokusí připojit k uzamčenému týmu, který dosáhl svého limitu hráčů.",
     "bypassRankDesc": "Hodnosti, které mohou obejít omezení uzamčení týmu",
-    "lockTeam": "Uzamknout tým"
+    "lockTeam": "Uzamknout tým",
+    "allowedRanksForDOTTeam": "Povolené hodnosti pro tým DOT"
   },
   "ERLCActivityLog": {
     "kickedAction": "vykopnutoAction",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Tento záznam nelze upravit kvůli absenci svázaného účtu.",
     "typeFrom": "typ z",
     "and": "a",
-    "createdTheRecord": "vytvořil záznam"
+    "createdTheRecord": "vytvořil záznam",
+    "manageRecordTypes": "Spravovat typy záznamů"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Určete, za jak dlouho body vyprší.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Povoleno, když",
     "requirement": "Požadavek",
     "serverInSession": "Server v relaci",
-    "servers": "Server(y)"
+    "servers": "Server(y)",
+    "discordChannelLock": "Zámek kanálu Discord"
   },
   "integrationsPortal": {
     "title": "Oficiální integrace",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Toto uvede název komunity uživatele ovlivněného propagačním tokem.",
     "run": "Spustit",
     "flows": "Toky",
-    "confirmDelete": "Opravdu chcete odstranit tento propagační tok?"
+    "confirmDelete": "Opravdu chcete odstranit tento propagační tok?",
+    "insufficientPermissionsToRunPromotions": "Nedostatečná oprávnění k provozování povýšení"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat"
+    "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat",
+    "melonlyApiKey": "Klíč API Melonly"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Výběr časového pásma",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktivní relace",
     "cancel": "Zrušit",
     "end": "Konec"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Zámek zpráv",
+    "unlockMessages": "Odemknout zprávy",
+    "viewChannel": "Zobrazit kanál",
+    "hideChannel": "Skrýt kanál",
+    "lockType": "Typ zámku"
   }
 }

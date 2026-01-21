@@ -633,7 +633,9 @@
     "askAiAQuestion": "AI에게 질문해보세요...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox 패널 설명서",
     "erlcPanelDocumentation": "ER:LC 패널 설명서",
-    "session": "세션"
+    "session": "세션",
+    "management": "관리",
+    "import": "가져오기"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "오류: 실행 중 오류가 발생했습니다",
     "notificationPreferencesDescription": "여러 커뮤니티 이벤트 및 업데이트에 대한 알림 환경설정을 관리하세요.",
     "shiftType": "근무 유형",
-    "none": "없음"
+    "none": "없음",
+    "errorAnErrorOccuredWhileFetching": "오류: 데이터를 가져오는 중 오류가 발생했습니다"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "사용자 계정 사용 방법 배우기",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox ID가 클립보드에 복사되었습니다.",
     "userPermissions": "사용자 권한:",
     "viewAllPermissions": "모든 권한 보기",
-    "uniqueId": "고유 ID"
+    "uniqueId": "고유 ID",
+    "modifyExpiration": "만료 수정"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -4398,7 +4402,9 @@
     "helper": "도우미",
     "unhelper": "도우미 해제",
     "setThePlayerAsAnIngameHelper": "플레이어를 게임 내 도우미로 설정",
-    "removeThePlayerAsAnIngameHelper": "플레이어를 게임 내 도우미에서 제거"
+    "removeThePlayerAsAnIngameHelper": "플레이어를 게임 내 도우미에서 제거",
+    "importData": "데이터 가져오기",
+    "initiateImport": "가져오기 시작"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "erlcNotiContentDescription",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "웹훅 콘텐츠 힌트",
     "customTriggerERLCNotiContentDescription": "구성된 트리거가 충족될 때 원하는 ERLC 서버에 ERLC 알림을 자동으로 전송합니다.",
     "customTriggerERLCHintContentDescription": "구성된 트리거가 충족될 때 원하는 ERLC 서버에 ERLC 힌트를 자동으로 전송합니다.",
-    "customTriggerDiscordWebhookContentDescription": "구성된 트리거가 충족될 때 Discord 웹훅을 자동으로 실행합니다."
+    "customTriggerDiscordWebhookContentDescription": "구성된 트리거가 충족될 때 Discord 웹훅을 자동으로 실행합니다.",
+    "channels": "채널",
+    "roles": "역할",
+    "discordChannelLockDescription": "이 작업은 지정된 역할에 대해 선택된 채널을 지정된 잠금 유형으로 매 X분마다 자동으로 업데이트합니다.",
+    "customTriggerDiscordChannelLockDescription": "이 작업은 구성된 트리거가 충족될 때 선택된 채널을 지정된 역할에 대해 지정된 잠금 유형으로 자동 업데이트합니다."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "계급 알림 계급",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "자동으로 서버 규칙 적용",
     "comingSoon": "곧 제공될 예정",
     "priorityPlayerList": "우선 플레이어 목록",
-    "priorityPlayerListDescription": "어떤 계급이 활성 플레이어 메뉴에 먼저 표시될지 선택하십시오."
+    "priorityPlayerListDescription": "어떤 계급이 활성 플레이어 메뉴에 먼저 표시될지 선택하십시오.",
+    "customRecordTypes": "맞춤 기록 유형",
+    "customRecordTypesDescription": "서버를 위해 맞춤 기록 유형을 만들고 관리합니다.",
+    "errorCreatingCustomType": "맞춤 기록 유형을 생성하는 중 오류가 발생했습니다",
+    "errorRemovingCustomType": "맞춤 기록 유형을 제거하는 중 오류가 발생했습니다",
+    "errorSavingCustomType": "맞춤 기록 유형을 저장하는 중 오류가 발생했습니다",
+    "createNewRecordType": "새 기록 유형 생성",
+    "name": "이름",
+    "command": "명령어",
+    "exampleRecordType": "예시 기록 유형",
+    "lowercaseCommand": "명령어",
+    "addType": "유형 추가",
+    "saveType": "유형 저장",
+    "editingRecordType": "기록 유형 편집"
   },
   "ERLCPlayers": {
     "playersIngame": "게임 내 플레이어 ",
     "playersInQueue": "대기 중인 플레이어",
     "filter": "필터",
     "teams": "팀들",
-    "noPlayersConnected": "연결된 플레이어 없음"
+    "noPlayersConnected": "연결된 플레이어 없음",
+    "currentPlayersInQueue": "대기 중인 현재 플레이어"
   },
   "ERLCWhitelist": {
     "denyList": "거부 목록",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "비화이트리스트 등급의 플레이어가 팀에 합류할 때 이 작업이 실행됩니다.",
     "lockActionDesc": "플레이어 제한에 도달한 잠긴 팀에 합류하려는 시도가 있을 때 이 작업이 실행됩니다.",
     "bypassRankDesc": "팀 잠금 제한을 우회할 수 있는 등급",
-    "lockTeam": "팀 잠금"
+    "lockTeam": "팀 잠금",
+    "allowedRanksForDOTTeam": "DOT 팀에 허용된 계급"
   },
   "ERLCActivityLog": {
     "kickedAction": "추방됨",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "계정 연관이 없어 이 기록을 편집할 수 없습니다.",
     "typeFrom": "유형 시작",
     "and": "그리고",
-    "createdTheRecord": "기록을 생성하였습니다"
+    "createdTheRecord": "기록을 생성하였습니다",
+    "manageRecordTypes": "기록 유형 관리"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "포인트가 만료되는 시간을 지정하십시오.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "활성화 조건",
     "requirement": "요구 사항",
     "serverInSession": "세션 중인 서버",
-    "servers": "서버"
+    "servers": "서버",
+    "discordChannelLock": "Discord 채널 잠금"
   },
   "integrationsPortal": {
     "title": "공식 통합",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "이것은 승진 흐름의 영향을 받은 사용자의 커뮤니티 이름을 나타냅니다.",
     "run": "실행",
     "flows": "흐름",
-    "confirmDelete": "이 프로모션 흐름을 삭제하시겠습니까?"
+    "confirmDelete": "이 프로모션 흐름을 삭제하시겠습니까?",
+    "insufficientPermissionsToRunPromotions": "프로모션을 실행할 수 있는 권한이 부족합니다"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "플레이어를 찾을 수 없습니다... 검색"
+    "noPlayersFoundSearch": "플레이어를 찾을 수 없습니다... 검색",
+    "melonlyApiKey": "Melonly API 키"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "시간대 선택",
@@ -4838,5 +4867,12 @@
     "activeSession": "활성 세션",
     "cancel": "취소",
     "end": "종료"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "메시지 잠금",
+    "unlockMessages": "메시지 잠금 해제",
+    "viewChannel": "채널 보기",
+    "hideChannel": "채널 숨기기",
+    "lockType": "잠금 유형"
   }
 }

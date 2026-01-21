@@ -633,7 +633,9 @@
     "askAiAQuestion": "Stil AI et spørgsmål...",
     "qbcoreQboxPanelDocumentation": "QBCore & QBox Panel Dokumentation",
     "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
-    "session": "Session"
+    "session": "Session",
+    "management": "Ledelse",
+    "import": "Import"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -785,7 +787,8 @@
     "errorAnErrorOccuredWhileExecuting": "Fejl: Der opstod en fejl under udførelse",
     "notificationPreferencesDescription": "Administrer dine notifikationsindstillinger for forskellige fællesskabsbegivenheder og opdateringer.",
     "shiftType": "Vagt Type",
-    "none": "Ingen"
+    "none": "Ingen",
+    "errorAnErrorOccuredWhileFetching": "Fejl: Der opstod en fejl under hentning"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brugerkonti Vejledning",
@@ -932,7 +935,8 @@
     "robloxIdCopiedToClipboard": "Roblox-id kopieret til udklipsholder.",
     "userPermissions": "Brugertilladelser:",
     "viewAllPermissions": "Vis alle tilladelser",
-    "uniqueId": "Unik ID"
+    "uniqueId": "Unik ID",
+    "modifyExpiration": "Rediger udløb"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -4398,7 +4402,9 @@
     "helper": "Hjælper",
     "unhelper": "Ikke hjælper",
     "setThePlayerAsAnIngameHelper": "Indstil spilleren som en in-game hjælper",
-    "removeThePlayerAsAnIngameHelper": "Fjern spilleren som in-game hjælper"
+    "removeThePlayerAsAnIngameHelper": "Fjern spilleren som in-game hjælper",
+    "importData": "Importer data",
+    "initiateImport": "Start import"
   },
   "AutomatedActionEditor": {
     "erlcNotiContentDescription": "erlcNotiIndholdsBeskrivelse",
@@ -4414,7 +4420,11 @@
     "webhookContentHint": "webhookindholdstip",
     "customTriggerERLCNotiContentDescription": "Denne handling vil automatisk sende en ERLC-meddelelse til den ønskede ERLC-server, når den konfigurerede udløser er opfyldt.",
     "customTriggerERLCHintContentDescription": "Denne handling vil automatisk sende et ERLC-tip til den ønskede ERLC-server, når den konfigurerede udløser er opfyldt.",
-    "customTriggerDiscordWebhookContentDescription": "Denne handling vil automatisk udføre et Discord-webhook, når den konfigurerede udløser er opfyldt."
+    "customTriggerDiscordWebhookContentDescription": "Denne handling vil automatisk udføre et Discord-webhook, når den konfigurerede udløser er opfyldt.",
+    "channels": "Kanal(er)",
+    "roles": "Rolle(r)",
+    "discordChannelLockDescription": "Denne handling vil automatisk opdatere de valgte kanaler for de angivne roller med den angivne låsetype hvert X minut.",
+    "customTriggerDiscordChannelLockDescription": "Denne handling vil automatisk opdatere de valgte kanaler for de angivne roller med den angivne låsetype, når den konfigurerede udløser er opfyldt."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangsmeddelelse",
@@ -4481,14 +4491,28 @@
     "automaticallyEnforceServerRules": "automatiskHåndhævServerRegler",
     "comingSoon": "Kommer snart",
     "priorityPlayerList": "Prioriteret spillerliste",
-    "priorityPlayerListDescription": "Vælg hvilke rangeringer, der skal vises først i menuen for aktive spillere."
+    "priorityPlayerListDescription": "Vælg hvilke rangeringer, der skal vises først i menuen for aktive spillere.",
+    "customRecordTypes": "Brugerdefinerede posttyper",
+    "customRecordTypesDescription": "Opret og administrer brugerdefinerede posttyper til din server.",
+    "errorCreatingCustomType": "Der opstod en fejl under oprettelse af brugerdefineret posttype",
+    "errorRemovingCustomType": "Der opstod en fejl under fjernelse af brugerdefineret posttype",
+    "errorSavingCustomType": "Der opstod en fejl under gemning af brugerdefineret posttype",
+    "createNewRecordType": "OPRET NY POSTTYPE",
+    "name": "Navn",
+    "command": "Kommando",
+    "exampleRecordType": "Eksempel på posttype",
+    "lowercaseCommand": "kommando",
+    "addType": "Tilføj type",
+    "saveType": "Gem type",
+    "editingRecordType": "REDIGERER POSTTYPE"
   },
   "ERLCPlayers": {
     "playersIngame": "spillereIspillet",
     "playersInQueue": "spillereIKø",
     "filter": "filter",
     "teams": "hold",
-    "noPlayersConnected": "Ingen spillere tilsluttet"
+    "noPlayersConnected": "Ingen spillere tilsluttet",
+    "currentPlayersInQueue": "Nuværende spillere i kø"
   },
   "ERLCWhitelist": {
     "denyList": "afvisListe",
@@ -4540,7 +4564,8 @@
     "whitelistActionDesc": "Denne handling kører, når en spiller med en ikke-whitelistet rang tilslutter sig holdet.",
     "lockActionDesc": "Denne handling kører, når en spiller forsøger at tilslutte sig et låst hold, der har nået sin spillergrænse.",
     "bypassRankDesc": "Ranger tilladt at omgå teamlåsebegrænsninger",
-    "lockTeam": "Lås hold"
+    "lockTeam": "Lås hold",
+    "allowedRanksForDOTTeam": "Tilladte rangeringer for DOT-team"
   },
   "ERLCActivityLog": {
     "kickedAction": "udelukkelseshandling",
@@ -4649,7 +4674,8 @@
     "thisRecordCannotBeEditedDueToNoAccount": "Denne post kan ikke redigeres på grund af manglende kontotilknytning.",
     "typeFrom": "type fra",
     "and": "og",
-    "createdTheRecord": "oprettede posten"
+    "createdTheRecord": "oprettede posten",
+    "manageRecordTypes": "Administrer posttyper"
   },
   "disciplinaryConfiguration": {
     "specifyTimeExpire": "Angiv, hvor lang tid det tager, før point udløber.",
@@ -4715,7 +4741,8 @@
     "enabledWhen": "Aktiveret når",
     "requirement": "Krav",
     "serverInSession": "Server i session",
-    "servers": "Server(e)"
+    "servers": "Server(e)",
+    "discordChannelLock": "Discord-kanallås"
   },
   "integrationsPortal": {
     "title": "Officielle integrationer",
@@ -4798,10 +4825,12 @@
     "comNameVariableDesc": "Dette vil angive fællesskabsnavnet på brugeren påvirket af promoveringsforløbet.",
     "run": "Kør",
     "flows": "Flows",
-    "confirmDelete": "Er du sikker på, at du vil slette denne promotionsflow?"
+    "confirmDelete": "Er du sikker på, at du vil slette denne promotionsflow?",
+    "insufficientPermissionsToRunPromotions": "Utilstrækkelige tilladelser til at køre kampagner"
   },
   "GameIndex": {
-    "noPlayersFoundSearch": "Ingen Spillere Fundet... Søg"
+    "noPlayersFoundSearch": "Ingen Spillere Fundet... Søg",
+    "melonlyApiKey": "Melonly API-nøgle"
   },
   "TimezoneConfigurator": {
     "timezoneSelection": "Tidszonevalg",
@@ -4838,5 +4867,12 @@
     "activeSession": "Aktiv session",
     "cancel": "Annuller",
     "end": "Afslut"
+  },
+  "SharedActionsEditor": {
+    "lockMessages": "Lås beskeder",
+    "unlockMessages": "Lås op for beskeder",
+    "viewChannel": "Se kanal",
+    "hideChannel": "Skjul kanal",
+    "lockType": "Låsetype"
   }
 }
