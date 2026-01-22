@@ -2182,7 +2182,18 @@
     "requirement": "Requirement",
     "serverInSession": "Server In-Session",
     "servers": "Server(s)",
-    "discordChannelLock": "Discord Channel Lock"
+    "discordChannelLock": "Discord Channel Lock",
+    "clockInOut": "Clock In/Out",
+    "clockIn": "Clock In",
+    "clockOut": "Clock Out",
+    "clockInComNameVariableLabel": "Community Name",
+    "clockInComNameVariableDesc": "This will state the community name of the member that clocked in or out.",
+    "clockInShiftTypeVariableLabel": "Shift Type",
+    "clockInShiftTypeVariableDesc": "This will state the shift type that the member used to clock in or out.",
+    "clockInShiftDurationVariableLabel": "Shift Duration",
+    "clockInShiftDurationVariableDesc": "This will state the duration of the entirety of the shift, this variable is only applicable for the 'Clock Out' On Event.",
+    "modifyRanks": "Modify Ranks",
+    "modifyRanksDescription": "This action is restricted for clock in custom triggers."
   },
   "integrationsPortal": {
     "title": "Official Integrations",
@@ -3782,7 +3793,8 @@
     "channels": "Channel(s)",
     "roles": "Role(s)",
     "discordChannelLockDescription": "This action will automatically update the selected channels for the specified roles with the specified lock type every X minutes.",
-    "customTriggerDiscordChannelLockDescription": "This action will automatically update the selected channels for the specified roles with the specified lock type when the configured trigger is met."
+    "customTriggerDiscordChannelLockDescription": "This action will automatically update the selected channels for the specified roles with the specified lock type when the configured trigger is met.",
+    "customTriggerModifyRanksDescription": "This action will automatically update the ranks of member that caused the action to be triggered based on trigger type and event."
   },
   "PointThresholdActionEditor": {
     "notificationContentDescription": "This action will automatically send a notification to the user when the point threshold is met. You can utilize the variables button to have dynamic data within the notification.",
