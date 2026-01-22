@@ -2193,7 +2193,11 @@
     "clockInShiftDurationVariableLabel": "Shift Duration",
     "clockInShiftDurationVariableDesc": "This will state the duration of the entirety of the shift, this variable is only applicable for the 'Clock Out' On Event.",
     "modifyRanks": "Modify Ranks",
-    "modifyRanksDescription": "This action is restricted for clock in custom triggers."
+    "modifyRanksDescription": "This action is restricted for clock in custom triggers.",
+    "shiftTypes": "Shift Types",
+    "optional": "Optional",
+    "onEvent": "On Event",
+    "type": "Type"
   },
   "integrationsPortal": {
     "title": "Official Integrations",
