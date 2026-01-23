@@ -4424,7 +4424,8 @@
     "channels": "Canal(aux)",
     "roles": "Rôle(s)",
     "discordChannelLockDescription": "Cette action mettra automatiquement à jour les canaux sélectionnés pour les rôles spécifiés avec le type de verrouillage spécifié toutes les X minutes.",
-    "customTriggerDiscordChannelLockDescription": "Cette action mettra automatiquement à jour les canaux sélectionnés pour les rôles spécifiés avec le type de verrouillage spécifié lorsque le déclencheur configuré est atteint."
+    "customTriggerDiscordChannelLockDescription": "Cette action mettra automatiquement à jour les canaux sélectionnés pour les rôles spécifiés avec le type de verrouillage spécifié lorsque le déclencheur configuré est atteint.",
+    "customTriggerModifyRanksDescription": "Cette action mettra automatiquement à jour les rangs du membre qui a déclenché l'action en fonction du type de déclencheur et de l'événement."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "notificationDeRang",
@@ -4742,7 +4743,22 @@
     "requirement": "Exigence",
     "serverInSession": "Serveur en session",
     "servers": "Serveur(s)",
-    "discordChannelLock": "Verrouillage des canaux Discord"
+    "discordChannelLock": "Verrouillage des canaux Discord",
+    "clockInOut": "Point d'entrée/sortie",
+    "clockIn": "Point d'entrée",
+    "clockOut": "Point de sortie",
+    "clockInComNameVariableLabel": "Nom de la communauté",
+    "clockInComNameVariableDesc": "Cela indiquera le nom de la communauté du membre qui a pointé l'entrée ou la sortie.",
+    "clockInShiftTypeVariableLabel": "Type de poste",
+    "clockInShiftTypeVariableDesc": "Cela indiquera le type de poste que le membre a utilisé pour pointer l'entrée ou la sortie.",
+    "clockInShiftDurationVariableLabel": "Durée du poste",
+    "clockInShiftDurationVariableDesc": "Cela indiquera la durée totale du poste, cette variable n'est applicable que pour l'événement 'Point de sortie'.",
+    "modifyRanks": "Modifier les rangs",
+    "modifyRanksDescription": "Cette action est restreinte aux déclencheurs personnalisés pour le pointage.",
+    "shiftTypes": "Types de postes",
+    "optional": "Optionnel",
+    "onEvent": "Lors de l'événement",
+    "type": "Type"
   },
   "integrationsPortal": {
     "title": "Intégrations Officielles",

@@ -4424,7 +4424,8 @@
     "channels": "チャンネル",
     "roles": "役割",
     "discordChannelLockDescription": "このアクションは、指定された役割に対して、指定されたロックタイプで選択されたチャンネルをX分ごとに自動的に更新します。",
-    "customTriggerDiscordChannelLockDescription": "このアクションは、設定されたトリガーが検出されたときに、指定された役割に対して、指定されたロックタイプで選択されたチャンネルを自動的に更新します。"
+    "customTriggerDiscordChannelLockDescription": "このアクションは、設定されたトリガーが検出されたときに、指定された役割に対して、指定されたロックタイプで選択されたチャンネルを自動的に更新します。",
+    "customTriggerModifyRanksDescription": "このアクションは、トリガータイプとイベントに基づいて、アクションを引き起こしたメンバーのランクを自動的に更新します。"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "ランク通知ランク",
@@ -4742,7 +4743,22 @@
     "requirement": "要件",
     "serverInSession": "セッション中のサーバー",
     "servers": "サーバー",
-    "discordChannelLock": "Discordチャンネルロック"
+    "discordChannelLock": "Discordチャンネルロック",
+    "clockInOut": "出勤/退勤",
+    "clockIn": "出勤",
+    "clockOut": "退勤",
+    "clockInComNameVariableLabel": "コミュニティ名",
+    "clockInComNameVariableDesc": "これは、出勤または退勤したメンバーのコミュニティ名を示します。",
+    "clockInShiftTypeVariableLabel": "シフトタイプ",
+    "clockInShiftTypeVariableDesc": "これは、出勤または退勤する際にメンバーが使用したシフトタイプを示します。",
+    "clockInShiftDurationVariableLabel": "シフト時間",
+    "clockInShiftDurationVariableDesc": "これはシフト全体の期間を示し、この変数は「退勤」イベントにのみ適用されます。",
+    "modifyRanks": "ランクの変更",
+    "modifyRanksDescription": "このアクションは、出勤のカスタムトリガーに制限されます。",
+    "shiftTypes": "シフトタイプ",
+    "optional": "オプション",
+    "onEvent": "イベント時",
+    "type": "タイプ"
   },
   "integrationsPortal": {
     "title": "公式統合",

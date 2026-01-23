@@ -4424,7 +4424,8 @@
     "channels": "频道",
     "roles": "角色",
     "discordChannelLockDescription": "此操作将在每X分钟内自动更新指定角色的选定频道并设置为指定的锁定类型。",
-    "customTriggerDiscordChannelLockDescription": "此操作将在配置的触发器满足时，自动更新指定角色的选定频道并设置为指定的锁定类型。"
+    "customTriggerDiscordChannelLockDescription": "此操作将在配置的触发器满足时，自动更新指定角色的选定频道并设置为指定的锁定类型。",
+    "customTriggerModifyRanksDescription": "此操作将根据触发器类型和事件自动更新触发操作的成员等级。"
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "级别通知级别",
@@ -4742,7 +4743,22 @@
     "requirement": "要求",
     "serverInSession": "服务器会话中",
     "servers": "服务器",
-    "discordChannelLock": "Discord频道锁定"
+    "discordChannelLock": "Discord频道锁定",
+    "clockInOut": "打卡上下班",
+    "clockIn": "打卡上班",
+    "clockOut": "打卡下班",
+    "clockInComNameVariableLabel": "社区名称",
+    "clockInComNameVariableDesc": "这将说明打卡上下班成员的社区名称。",
+    "clockInShiftTypeVariableLabel": "班次类型",
+    "clockInShiftTypeVariableDesc": "这将说明成员用于打卡的班次类型。",
+    "clockInShiftDurationVariableLabel": "班次时长",
+    "clockInShiftDurationVariableDesc": "这将说明整个班次的时长，该变量仅适用于“下班打卡”事件。",
+    "modifyRanks": "修改等级",
+    "modifyRanksDescription": "此操作仅限于自定义触发器的打卡。",
+    "shiftTypes": "班次类型",
+    "optional": "可选",
+    "onEvent": "事件触发",
+    "type": "类型"
   },
   "integrationsPortal": {
     "title": "官方集成",

@@ -4424,7 +4424,8 @@
     "channels": "Kanal/Kanäle",
     "roles": "Rolle(n)",
     "discordChannelLockDescription": "Diese Aktion wird automatisch die ausgewählten Kanäle für die angegebenen Rollen mit dem angegebenen Sperrtyp alle X Minuten aktualisieren.",
-    "customTriggerDiscordChannelLockDescription": "Diese Aktion wird automatisch die ausgewählten Kanäle für die angegebenen Rollen mit dem angegebenen Sperrtyp aktualisieren, wenn der konfigurierte Auslöser erfüllt ist."
+    "customTriggerDiscordChannelLockDescription": "Diese Aktion wird automatisch die ausgewählten Kanäle für die angegebenen Rollen mit dem angegebenen Sperrtyp aktualisieren, wenn der konfigurierte Auslöser erfüllt ist.",
+    "customTriggerModifyRanksDescription": "Diese Aktion aktualisiert automatisch die Ränge des Mitglieds, das die Aktion ausgelöst hat, basierend auf Triggertyp und Ereignis."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Rangbenachrichtigung Ränge",
@@ -4742,7 +4743,22 @@
     "requirement": "Anforderung",
     "serverInSession": "Server in Sitzung",
     "servers": "Server",
-    "discordChannelLock": "Discord-Kanal-Sperre"
+    "discordChannelLock": "Discord-Kanal-Sperre",
+    "clockInOut": "Ein-/Ausloggen",
+    "clockIn": "Einloggen",
+    "clockOut": "Ausloggen",
+    "clockInComNameVariableLabel": "Gemeinschaftsname",
+    "clockInComNameVariableDesc": "Dies wird den Gemeinschaftsnamen des Mitglieds angeben, das ein- oder ausgeloggt hat.",
+    "clockInShiftTypeVariableLabel": "Schichttyp",
+    "clockInShiftTypeVariableDesc": "Dies wird den Schichttyp angeben, den das Mitglied zum Ein- oder Ausloggen verwendet hat.",
+    "clockInShiftDurationVariableLabel": "Schichtdauer",
+    "clockInShiftDurationVariableDesc": "Dies wird die Dauer der gesamten Schicht angeben, diese Variable gilt nur für das Ereignis 'Ausloggen'.",
+    "modifyRanks": "Ränge ändern",
+    "modifyRanksDescription": "Diese Aktion ist auf benutzerdefinierte Trigger für das Einloggen beschränkt.",
+    "shiftTypes": "Schichttypen",
+    "optional": "Optional",
+    "onEvent": "Bei Ereignis",
+    "type": "Typ"
   },
   "integrationsPortal": {
     "title": "Offizielle Integrationen",

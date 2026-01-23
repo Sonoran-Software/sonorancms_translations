@@ -4424,7 +4424,8 @@
     "channels": "Kanal(lar)",
     "roles": "Rol(ler)",
     "discordChannelLockDescription": "Bu işlem, belirtilen kilit türü ile her X dakikada bir seçilen kanalları belirtilen roller için otomatik olarak güncelleyecektir.",
-    "customTriggerDiscordChannelLockDescription": "Bu işlem, yapılandırılmış tetikleyici karşılandığında belirtilen kilit türü ile belirtilen roller için seçilen kanalları otomatik olarak güncelleyecektir."
+    "customTriggerDiscordChannelLockDescription": "Bu işlem, yapılandırılmış tetikleyici karşılandığında belirtilen kilit türü ile belirtilen roller için seçilen kanalları otomatik olarak güncelleyecektir.",
+    "customTriggerModifyRanksDescription": "Bu eylem, tetikleme türü ve olaya göre eylemi tetikleyen üyenin rütbelerini otomatik olarak güncelleyecektir."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Rütbe Bildirim Rütbeleri",
@@ -4742,7 +4743,22 @@
     "requirement": "Gereklilik",
     "serverInSession": "Sunucu Oturumda",
     "servers": "Sunucu(lar)",
-    "discordChannelLock": "Discord Kanal Kilidi"
+    "discordChannelLock": "Discord Kanal Kilidi",
+    "clockInOut": "Giriş/Çıkış",
+    "clockIn": "Giriş",
+    "clockOut": "Çıkış",
+    "clockInComNameVariableLabel": "Topluluk Adı",
+    "clockInComNameVariableDesc": "Bu, giriş veya çıkış yapan üyenin topluluk adını belirtecek.",
+    "clockInShiftTypeVariableLabel": "Vardiya Türü",
+    "clockInShiftTypeVariableDesc": "Bu, üyenin giriş veya çıkış yapmak için kullandığı vardiya türünü belirtecek.",
+    "clockInShiftDurationVariableLabel": "Vardiya Süresi",
+    "clockInShiftDurationVariableDesc": "Bu, tüm vardiyanın süresini belirtecek, bu değişken yalnızca 'Çıkış' Olayında geçerlidir.",
+    "modifyRanks": "Rütbeleri Değiştir",
+    "modifyRanksDescription": "Bu eylem, özel tetikleyicilerdeki giriş için kısıtlanmıştır.",
+    "shiftTypes": "Vardiya Türleri",
+    "optional": "İsteğe Bağlı",
+    "onEvent": "Etkinlikte",
+    "type": "Tür"
   },
   "integrationsPortal": {
     "title": "Resmi Entegrasyonlar",

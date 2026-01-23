@@ -4424,7 +4424,8 @@
     "channels": "Kanal(er)",
     "roles": "Rolle(r)",
     "discordChannelLockDescription": "Denne handlingen vil automatisk oppdatere de valgte kanalene for de spesifiserte rollene med den spesifiserte låsetypen hvert X minutt.",
-    "customTriggerDiscordChannelLockDescription": "Denne handlingen vil automatisk oppdatere de valgte kanalene for de spesifiserte rollene med den spesifiserte låsetypen når den konfigurerte utløseren blir nådd."
+    "customTriggerDiscordChannelLockDescription": "Denne handlingen vil automatisk oppdatere de valgte kanalene for de spesifiserte rollene med den spesifiserte låsetypen når den konfigurerte utløseren blir nådd.",
+    "customTriggerModifyRanksDescription": "Denne handlingen vil automatisk oppdatere rangene til medlemmet som forårsaket handlingen, basert på utløsertype og hendelse."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangvarslingRanger",
@@ -4742,7 +4743,22 @@
     "requirement": "Krav",
     "serverInSession": "Server i økt",
     "servers": "Server(e)",
-    "discordChannelLock": "Discord-kanallås"
+    "discordChannelLock": "Discord-kanallås",
+    "clockInOut": "Klokke Inn/Ut",
+    "clockIn": "Klokke Inn",
+    "clockOut": "Klokke Ut",
+    "clockInComNameVariableLabel": "Fellesskapsnavn",
+    "clockInComNameVariableDesc": "Dette vil angi fellesskapsnavnet til medlemmet som klokket inn eller ut.",
+    "clockInShiftTypeVariableLabel": "Skifttype",
+    "clockInShiftTypeVariableDesc": "Dette vil angi skifttypen medlemmet brukte for å klokke inn eller ut.",
+    "clockInShiftDurationVariableLabel": "Skiftvarighet",
+    "clockInShiftDurationVariableDesc": "Dette vil angi varigheten av hele skiftet, denne variabelen gjelder kun for 'Klokke Ut' ved hendelse.",
+    "modifyRanks": "Endre Ranger",
+    "modifyRanksDescription": "Denne handlingen er begrenset for klokke inn egendefinerte triggere.",
+    "shiftTypes": "Skiftetyper",
+    "optional": "Valgfritt",
+    "onEvent": "Ved Hendelse",
+    "type": "Type"
   },
   "integrationsPortal": {
     "title": "Offisielle integrasjoner",

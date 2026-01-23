@@ -4424,7 +4424,8 @@
     "channels": "Kanał(y)",
     "roles": "Rola(e)",
     "discordChannelLockDescription": "Ta akcja automatycznie zaktualizuje wybrane kanały dla określonych ról z określonym typem blokady co X minut.",
-    "customTriggerDiscordChannelLockDescription": "Ta akcja automatycznie zaktualizuje wybrane kanały dla określonych ról z określonym typem blokady, gdy spełniony zostanie skonfigurowany wyzwalacz."
+    "customTriggerDiscordChannelLockDescription": "Ta akcja automatycznie zaktualizuje wybrane kanały dla określonych ról z określonym typem blokady, gdy spełniony zostanie skonfigurowany wyzwalacz.",
+    "customTriggerModifyRanksDescription": "To działanie automatycznie zaktualizuje rangi członka, który spowodował uruchomienie działania w oparciu o typ wyzwalacza i wydarzenie."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "stopnie powiadomień о stopniach",
@@ -4742,7 +4743,22 @@
     "requirement": "Wymaganie",
     "serverInSession": "Serwer w Sesji",
     "servers": "Serwer(y)",
-    "discordChannelLock": "Blokada Kanału Discord"
+    "discordChannelLock": "Blokada Kanału Discord",
+    "clockInOut": "Zegar In/Out",
+    "clockIn": "Zegar In",
+    "clockOut": "Zegar Out",
+    "clockInComNameVariableLabel": "Nazwa Społeczności",
+    "clockInComNameVariableDesc": "Poda nazwę społeczności członka, który wbił się lub wybił.",
+    "clockInShiftTypeVariableLabel": "Rodzaj Zmiany",
+    "clockInShiftTypeVariableDesc": "Poda rodzaj zmiany, którą członek wykorzystał do wbijania się lub wybijania.",
+    "clockInShiftDurationVariableLabel": "Czas Trwania Zmiany",
+    "clockInShiftDurationVariableDesc": "Poda czas trwania całej zmiany, ta zmienna dotyczy tylko 'Zegar Out' na wydarzeniu.",
+    "modifyRanks": "Modyfikuj Rangi",
+    "modifyRanksDescription": "To działanie jest ograniczone do niestandardowych wyzwalaczy wbijania.",
+    "shiftTypes": "Rodzaje Zmian",
+    "optional": "Opcjonalne",
+    "onEvent": "Na Wydarzeniu",
+    "type": "Typ"
   },
   "integrationsPortal": {
     "title": "Oficjalne Integracje",

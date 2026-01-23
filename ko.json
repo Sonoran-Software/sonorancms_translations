@@ -4424,7 +4424,8 @@
     "channels": "채널",
     "roles": "역할",
     "discordChannelLockDescription": "이 작업은 지정된 역할에 대해 선택된 채널을 지정된 잠금 유형으로 매 X분마다 자동으로 업데이트합니다.",
-    "customTriggerDiscordChannelLockDescription": "이 작업은 구성된 트리거가 충족될 때 선택된 채널을 지정된 역할에 대해 지정된 잠금 유형으로 자동 업데이트합니다."
+    "customTriggerDiscordChannelLockDescription": "이 작업은 구성된 트리거가 충족될 때 선택된 채널을 지정된 역할에 대해 지정된 잠금 유형으로 자동 업데이트합니다.",
+    "customTriggerModifyRanksDescription": "이 작업은 트리거 유형과 이벤트에 따라 동작을 유발한 회원의 순위를 자동으로 업데이트합니다."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "계급 알림 계급",
@@ -4742,7 +4743,22 @@
     "requirement": "요구 사항",
     "serverInSession": "세션 중인 서버",
     "servers": "서버",
-    "discordChannelLock": "Discord 채널 잠금"
+    "discordChannelLock": "Discord 채널 잠금",
+    "clockInOut": "출근/퇴근",
+    "clockIn": "출근",
+    "clockOut": "퇴근",
+    "clockInComNameVariableLabel": "커뮤니티 이름",
+    "clockInComNameVariableDesc": "출근 또는 퇴근한 회원의 커뮤니티 이름을 나타냅니다.",
+    "clockInShiftTypeVariableLabel": "근무 유형",
+    "clockInShiftTypeVariableDesc": "출근 또는 퇴근할 때 사용한 근무 유형을 나타냅니다.",
+    "clockInShiftDurationVariableLabel": "근무 기간",
+    "clockInShiftDurationVariableDesc": "'퇴근' 이벤트의 경우에만 적용되는 변수로, 전체 근무 기간을 나타냅니다.",
+    "modifyRanks": "순위 수정",
+    "modifyRanksDescription": "이 작업은 출근 사용자 정의 트리거에 대한 제한입니다.",
+    "shiftTypes": "근무 유형",
+    "optional": "선택 사항",
+    "onEvent": "이벤트 시",
+    "type": "유형"
   },
   "integrationsPortal": {
     "title": "공식 통합",

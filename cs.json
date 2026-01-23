@@ -4424,7 +4424,8 @@
     "channels": "Kanál(y)",
     "roles": "Role(y)",
     "discordChannelLockDescription": "Tato akce automaticky aktualizuje vybrané kanály pro specifikované role s určitým typem zámku každých X minut.",
-    "customTriggerDiscordChannelLockDescription": "Tato akce automaticky aktualizuje vybrané kanály pro specifikované role s určitým typem zámku, když je splněn nakonfigurovaný spouštěč."
+    "customTriggerDiscordChannelLockDescription": "Tato akce automaticky aktualizuje vybrané kanály pro specifikované role s určitým typem zámku, když je splněn nakonfigurovaný spouštěč.",
+    "customTriggerModifyRanksDescription": "Tato akce automaticky aktualizuje pozice člena, který způsobil spuštění akce na základě typu triggeru a události."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rankUpozorněníPozice",
@@ -4742,7 +4743,22 @@
     "requirement": "Požadavek",
     "serverInSession": "Server v relaci",
     "servers": "Server(y)",
-    "discordChannelLock": "Zámek kanálu Discord"
+    "discordChannelLock": "Zámek kanálu Discord",
+    "clockInOut": "Přihlásit/Odhlásit",
+    "clockIn": "Přihlásit",
+    "clockOut": "Odhlásit",
+    "clockInComNameVariableLabel": "Název Komunity",
+    "clockInComNameVariableDesc": "Toto uvede název komunity člena, který se přihlásil nebo odhlásil.",
+    "clockInShiftTypeVariableLabel": "Typ Směny",
+    "clockInShiftTypeVariableDesc": "Toto uvede typ směny, kterou člen použil k přihlášení nebo odhlášení.",
+    "clockInShiftDurationVariableLabel": "Délka Směny",
+    "clockInShiftDurationVariableDesc": "Toto uvede délku celé směny, tato proměnná je použitelná pouze pro událost 'Odhlásit'.",
+    "modifyRanks": "Upravit Pozice",
+    "modifyRanksDescription": "Tato akce je omezena pro vlastní triggery přihlášení.",
+    "shiftTypes": "Typy Směn",
+    "optional": "Volitelné",
+    "onEvent": "Při Události",
+    "type": "Typ"
   },
   "integrationsPortal": {
     "title": "Oficiální integrace",

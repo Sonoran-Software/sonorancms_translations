@@ -4424,7 +4424,8 @@
     "channels": "Kanava(t)",
     "roles": "Rooli(t)",
     "discordChannelLockDescription": "Tämä toiminto päivittää automaattisesti valitut kanavat määritetyille rooleille määritetyllä lukitustyypillä joka X minuutti.",
-    "customTriggerDiscordChannelLockDescription": "Tämä toiminto päivittää automaattisesti valitut kanavat määritetyille rooleille määritetyllä lukitustyypillä, kun määritetty laukaisin saavutetaan."
+    "customTriggerDiscordChannelLockDescription": "Tämä toiminto päivittää automaattisesti valitut kanavat määritetyille rooleille määritetyllä lukitustyypillä, kun määritetty laukaisin saavutetaan.",
+    "customTriggerModifyRanksDescription": "Tämä toiminto päivittää automaattisesti jäsenen arvot, joka laukaisi tapahtuman, laukaistavan tyypin ja tapahtuman perusteella."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Arvoilmoitukset",
@@ -4742,7 +4743,22 @@
     "requirement": "Vaatimus",
     "serverInSession": "Palvelin istunnossa",
     "servers": "Palvelimet",
-    "discordChannelLock": "Discord-kanavan lukitus"
+    "discordChannelLock": "Discord-kanavan lukitus",
+    "clockInOut": "Kellokirjaus Sisään/Ulos",
+    "clockIn": "Kellokirjaus Sisään",
+    "clockOut": "Kellokirjaus Ulos",
+    "clockInComNameVariableLabel": "Yhteisön Nimi",
+    "clockInComNameVariableDesc": "Tämän avulla ilmoitetaan sisään- tai uloskirjautuneen jäsenen yhteisön nimi.",
+    "clockInShiftTypeVariableLabel": "Vuorotyyppi",
+    "clockInShiftTypeVariableDesc": "Tämän avulla ilmoitetaan vuorotyyppi, jonka jäsen käytti kirjautuakseen sisään tai ulos.",
+    "clockInShiftDurationVariableLabel": "Vuoron Kesto",
+    "clockInShiftDurationVariableDesc": "Tämän avulla ilmoitetaan koko vuoron kesto, tämä muuttuja koskee vain 'Kellokirjaus Ulos' On Event -tapahtumaa.",
+    "modifyRanks": "Muokkaa Arvoja",
+    "modifyRanksDescription": "Tämä toiminto on rajoitettu kellokirjauksen mukautetuille laukaiseville.",
+    "shiftTypes": "Vuorotyypit",
+    "optional": "Valinnainen",
+    "onEvent": "Tapahtumassa",
+    "type": "Tyyppi"
   },
   "integrationsPortal": {
     "title": "Viralliset integraatiot",

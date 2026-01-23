@@ -4424,7 +4424,8 @@
     "channels": "Canal(es)",
     "roles": "Rol(es)",
     "discordChannelLockDescription": "Esta acción actualizará automáticamente los canales seleccionados para los roles especificados con el tipo de bloqueo especificado cada X minutos.",
-    "customTriggerDiscordChannelLockDescription": "Esta acción actualizará automáticamente los canales seleccionados para los roles especificados con el tipo de bloqueo especificado cuando se cumpla el disparador configurado."
+    "customTriggerDiscordChannelLockDescription": "Esta acción actualizará automáticamente los canales seleccionados para los roles especificados con el tipo de bloqueo especificado cuando se cumpla el disparador configurado.",
+    "customTriggerModifyRanksDescription": "Esta acción actualizará automáticamente los rangos del miembro que provocó la acción, basada en el tipo de disparador y el evento."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Notificación de rangos",
@@ -4742,7 +4743,22 @@
     "requirement": "Requisito",
     "serverInSession": "Servidor en sesión",
     "servers": "Servidor(es)",
-    "discordChannelLock": "Bloqueo de Canal de Discord"
+    "discordChannelLock": "Bloqueo de Canal de Discord",
+    "clockInOut": "Registrar entrada/salida",
+    "clockIn": "Registrar entrada",
+    "clockOut": "Registrar salida",
+    "clockInComNameVariableLabel": "Nombre de la comunidad",
+    "clockInComNameVariableDesc": "Esto indicará el nombre de la comunidad del miembro que registró entrada o salida.",
+    "clockInShiftTypeVariableLabel": "Tipo de turno",
+    "clockInShiftTypeVariableDesc": "Esto indicará el tipo de turno que el miembro usó para registrar entrada o salida.",
+    "clockInShiftDurationVariableLabel": "Duración del turno",
+    "clockInShiftDurationVariableDesc": "Esto indicará la duración total del turno, esta variable solo es aplicable para el evento de 'Registrar salida'.",
+    "modifyRanks": "Modificar rangos",
+    "modifyRanksDescription": "Esta acción está restringida para personalizar los disparadores de entrada.",
+    "shiftTypes": "Tipos de turno",
+    "optional": "Opcional",
+    "onEvent": "En evento",
+    "type": "Tipo"
   },
   "integrationsPortal": {
     "title": "Integraciones Oficiales",

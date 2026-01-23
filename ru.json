@@ -4424,7 +4424,8 @@
     "channels": "Канал(ы)",
     "roles": "Роль(и)",
     "discordChannelLockDescription": "Это действие автоматически обновит выбранные каналы для указанных ролей с указанным типом блокировки каждые X минут.",
-    "customTriggerDiscordChannelLockDescription": "Это действие автоматически обновит выбранные каналы для указанных ролей с указанным типом блокировки при выполнении заданного триггера."
+    "customTriggerDiscordChannelLockDescription": "Это действие автоматически обновит выбранные каналы для указанных ролей с указанным типом блокировки при выполнении заданного триггера.",
+    "customTriggerModifyRanksDescription": "Это действие автоматически обновит ранги участника, который вызвал срабатывание действия на основе типа триггера и события."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "звания уведомлений",
@@ -4742,7 +4743,22 @@
     "requirement": "Требование",
     "serverInSession": "Сервер в сессии",
     "servers": "Сервер(ы)",
-    "discordChannelLock": "Блокировка канала Discord"
+    "discordChannelLock": "Блокировка канала Discord",
+    "clockInOut": "Вход/Выход",
+    "clockIn": "Вход",
+    "clockOut": "Выход",
+    "clockInComNameVariableLabel": "Название сообщества",
+    "clockInComNameVariableDesc": "Это укажет название сообщества участника, который вошел или вышел.",
+    "clockInShiftTypeVariableLabel": "Тип смены",
+    "clockInShiftTypeVariableDesc": "Это укажет тип смены, который использовал участник для входа или выхода.",
+    "clockInShiftDurationVariableLabel": "Продолжительность смены",
+    "clockInShiftDurationVariableDesc": "Это укажет продолжительность всей смены, эта переменная применима только для события 'Выход'.",
+    "modifyRanks": "Изменить ранги",
+    "modifyRanksDescription": "Это действие ограничено кастомными триггерами входа.",
+    "shiftTypes": "Типы смен",
+    "optional": "Опционально",
+    "onEvent": "На событие",
+    "type": "Тип"
   },
   "integrationsPortal": {
     "title": "Официальные интеграции",

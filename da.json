@@ -4424,7 +4424,8 @@
     "channels": "Kanal(er)",
     "roles": "Rolle(r)",
     "discordChannelLockDescription": "Denne handling vil automatisk opdatere de valgte kanaler for de angivne roller med den angivne låsetype hvert X minut.",
-    "customTriggerDiscordChannelLockDescription": "Denne handling vil automatisk opdatere de valgte kanaler for de angivne roller med den angivne låsetype, når den konfigurerede udløser er opfyldt."
+    "customTriggerDiscordChannelLockDescription": "Denne handling vil automatisk opdatere de valgte kanaler for de angivne roller med den angivne låsetype, når den konfigurerede udløser er opfyldt.",
+    "customTriggerModifyRanksDescription": "Denne handling vil automatisk opdatere rækkerne til medlem, der foranledigede handlingen til udløses baseret på udløsertype og begivenhed."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangsmeddelelse",
@@ -4742,7 +4743,22 @@
     "requirement": "Krav",
     "serverInSession": "Server i session",
     "servers": "Server(e)",
-    "discordChannelLock": "Discord-kanallås"
+    "discordChannelLock": "Discord-kanallås",
+    "clockInOut": "Ind/Ud",
+    "clockIn": "Ind",
+    "clockOut": "Ud",
+    "clockInComNameVariableLabel": "Fællesskabsnavn",
+    "clockInComNameVariableDesc": "Dette vil angive medlemmets fællesskabsnavn, der har klokket ind eller ud.",
+    "clockInShiftTypeVariableLabel": "Vagttype",
+    "clockInShiftTypeVariableDesc": "Dette vil angive den vagttype, som medlemmet brugte til at klokke ind eller ud.",
+    "clockInShiftDurationVariableLabel": "Vagtsvarighed",
+    "clockInShiftDurationVariableDesc": "Dette vil angive varigheden af hele vagten, denne variabel gælder kun for 'Klok Ud' ved begivenhed.",
+    "modifyRanks": "Ændr Rækker",
+    "modifyRanksDescription": "Denne handling er begrænset til indklokkede brugerdefinerede udløsere.",
+    "shiftTypes": "Vagttyper",
+    "optional": "Valgfri",
+    "onEvent": "Ved Begivenhed",
+    "type": "Type"
   },
   "integrationsPortal": {
     "title": "Officielle integrationer",

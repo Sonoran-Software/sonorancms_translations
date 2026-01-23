@@ -4424,7 +4424,8 @@
     "channels": "قناة/قنوات",
     "roles": "دور/أدوار",
     "discordChannelLockDescription": "سيقوم هذا الإجراء بتحديث القنوات المحددة تلقائيًا للأدوار المحددة مع نوع القفل المحدد كل X دقيقة.",
-    "customTriggerDiscordChannelLockDescription": "سيقوم هذا الإجراء بتحديث القنوات المحددة تلقائيًا للأدوار المحددة مع نوع القفل المحدد عند تحقيق المشغل المُكون."
+    "customTriggerDiscordChannelLockDescription": "سيقوم هذا الإجراء بتحديث القنوات المحددة تلقائيًا للأدوار المحددة مع نوع القفل المحدد عند تحقيق المشغل المُكون.",
+    "customTriggerModifyRanksDescription": "سيقوم هذا الإجراء تلقائيًا بتحديث رتب العضو الذي تسبب في تفعيل الإجراء بناءً على نوع الزناد والحدث."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "الإشعارات المرتبة",
@@ -4742,7 +4743,22 @@
     "requirement": "المطلب",
     "serverInSession": "الخادم في الجلسة",
     "servers": "الخوادم",
-    "discordChannelLock": "قفل قناة Discord"
+    "discordChannelLock": "قفل قناة Discord",
+    "clockInOut": "تسجيل الدخول/الخروج",
+    "clockIn": "تسجيل الدخول",
+    "clockOut": "تسجيل الخروج",
+    "clockInComNameVariableLabel": "اسم المجتمع",
+    "clockInComNameVariableDesc": "سيتم ذكر اسم المجتمع للعضو الذي قام بتسجيل الدخول أو الخروج.",
+    "clockInShiftTypeVariableLabel": "نوع المناوبة",
+    "clockInShiftTypeVariableDesc": "سيتم ذكر نوع المناوبة الذي استخدمه العضو لتسجيل الدخول أو الخروج.",
+    "clockInShiftDurationVariableLabel": "مدة المناوبة",
+    "clockInShiftDurationVariableDesc": "سيتم ذكر المدة الكاملة للمناوبة، هذا المتغير ينطبق فقط عند حدث 'تسجيل الخروج'.",
+    "modifyRanks": "تعديل الرتب",
+    "modifyRanksDescription": "هذا الإجراء مقيد لتفعيل عناصر الزناد المخصص للتسجيل.",
+    "shiftTypes": "أنواع المناوبة",
+    "optional": "اختياري",
+    "onEvent": "عند الحدث",
+    "type": "نوع"
   },
   "integrationsPortal": {
     "title": "التكاملات الرسمية",

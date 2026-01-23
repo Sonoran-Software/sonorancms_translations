@@ -4424,7 +4424,8 @@
     "channels": "Canale/i",
     "roles": "Ruolo/i",
     "discordChannelLockDescription": "Questa azione aggiornerà automaticamente i canali selezionati per i ruoli specificati con il tipo di blocco specificato ogni X minuti.",
-    "customTriggerDiscordChannelLockDescription": "Questa azione aggiornerà automaticamente i canali selezionati per i ruoli specificati con il tipo di blocco specificato quando viene attivato il trigger configurato."
+    "customTriggerDiscordChannelLockDescription": "Questa azione aggiornerà automaticamente i canali selezionati per i ruoli specificati con il tipo di blocco specificato quando viene attivato il trigger configurato.",
+    "customTriggerModifyRanksDescription": "Questa azione aggiornerà automaticamente i gradi del membro che ha causato l'attivazione dell'azione in base al tipo di attivazione e all'evento."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Notifiche sui gradi",
@@ -4742,7 +4743,22 @@
     "requirement": "Requisito",
     "serverInSession": "Server in sessione",
     "servers": "Server",
-    "discordChannelLock": "Blocco Canale Discord"
+    "discordChannelLock": "Blocco Canale Discord",
+    "clockInOut": "Timbrare Entrata/Uscita",
+    "clockIn": "Timbrare Entrata",
+    "clockOut": "Timbrare Uscita",
+    "clockInComNameVariableLabel": "Nome della Comunità",
+    "clockInComNameVariableDesc": "Questo indicherà il nome della comunità del membro che ha timbrato l'entrata o l'uscita.",
+    "clockInShiftTypeVariableLabel": "Tipo di Turno",
+    "clockInShiftTypeVariableDesc": "Questo indicherà il tipo di turno che il membro ha utilizzato per timbrare l'entrata o l'uscita.",
+    "clockInShiftDurationVariableLabel": "Durata del Turno",
+    "clockInShiftDurationVariableDesc": "Questo indicherà la durata complessiva del turno, questa variabile è applicabile solo per l'evento 'Timbrare Uscita'.",
+    "modifyRanks": "Modifica Gradi",
+    "modifyRanksDescription": "Questa azione è riservata per attivazioni personalizzate di timbratura.",
+    "shiftTypes": "Tipi di Turno",
+    "optional": "Opzionale",
+    "onEvent": "Durante l'Evento",
+    "type": "Tipo"
   },
   "integrationsPortal": {
     "title": "Integrazioni Ufficiali",

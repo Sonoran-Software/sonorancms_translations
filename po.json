@@ -4424,7 +4424,8 @@
     "channels": "Canal(is)",
     "roles": "Função(ões)",
     "discordChannelLockDescription": "Esta ação atualizará automaticamente os canais selecionados para as funções especificadas com o tipo de bloqueio especificado a cada X minutos.",
-    "customTriggerDiscordChannelLockDescription": "Esta ação atualizará automaticamente os canais selecionados para as funções especificadas com o tipo de bloqueio especificado quando o gatilho configurado for atendido."
+    "customTriggerDiscordChannelLockDescription": "Esta ação atualizará automaticamente os canais selecionados para as funções especificadas com o tipo de bloqueio especificado quando o gatilho configurado for atendido.",
+    "customTriggerModifyRanksDescription": "Esta ação atualizará automaticamente os rankings do membro que causou o acionamento da ação com base no tipo de gatilho e evento."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "aboneBildirimRütbeleri",
@@ -4742,7 +4743,22 @@
     "requirement": "Requisito",
     "serverInSession": "Servidor em Sessão",
     "servers": "Servidor(es)",
-    "discordChannelLock": "Bloqueio de Canal do Discord"
+    "discordChannelLock": "Bloqueio de Canal do Discord",
+    "clockInOut": "Entrada/Saída",
+    "clockIn": "Entrada",
+    "clockOut": "Saída",
+    "clockInComNameVariableLabel": "Nome da Comunidade",
+    "clockInComNameVariableDesc": "Isso indicará o nome da comunidade do membro que registrou entrada ou saída.",
+    "clockInShiftTypeVariableLabel": "Tipo de Turno",
+    "clockInShiftTypeVariableDesc": "Isso indicará o tipo de turno que o membro usou para registrar entrada ou saída.",
+    "clockInShiftDurationVariableLabel": "Duração do Turno",
+    "clockInShiftDurationVariableDesc": "Isso indicará a duração total do turno, essa variável é aplicável apenas para o evento 'Saída'.",
+    "modifyRanks": "Modificar Rankings",
+    "modifyRanksDescription": "Esta ação é restrita para gatilhos personalizados de entrada.",
+    "shiftTypes": "Tipos de Turno",
+    "optional": "Opcional",
+    "onEvent": "No Evento",
+    "type": "Tipo"
   },
   "integrationsPortal": {
     "title": "Oficjalne integracje",

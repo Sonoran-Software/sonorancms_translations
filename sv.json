@@ -4424,7 +4424,8 @@
     "channels": "Kanal/kanaler",
     "roles": "Roll(er)",
     "discordChannelLockDescription": "Denna åtgärd kommer automatiskt uppdatera de valda kanalerna för de angivna rollerna med den angivna låstypen var X minut.",
-    "customTriggerDiscordChannelLockDescription": "Denna åtgärd kommer automatiskt uppdatera de valda kanalerna för de angivna rollerna med den angivna låstypen när den konfigurerade utlösaren är uppfylld."
+    "customTriggerDiscordChannelLockDescription": "Denna åtgärd kommer automatiskt uppdatera de valda kanalerna för de angivna rollerna med den angivna låstypen när den konfigurerade utlösaren är uppfylld.",
+    "customTriggerModifyRanksDescription": "Denna åtgärd uppdaterar automatiskt rangordningarna för medlemmen som orsakade att åtgärden utlöstes baserat på utlösningstyp och händelse."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rankningsanmälanRankningar",
@@ -4742,7 +4743,22 @@
     "requirement": "Krav",
     "serverInSession": "Server i session",
     "servers": "Server(s)",
-    "discordChannelLock": "Discord-kanallås"
+    "discordChannelLock": "Discord-kanallås",
+    "clockInOut": "Klocka in/ut",
+    "clockIn": "Klocka in",
+    "clockOut": "Klocka ut",
+    "clockInComNameVariableLabel": "Community-namn",
+    "clockInComNameVariableDesc": "Det här anger community-namnet på medlemmen som klockade in eller ut.",
+    "clockInShiftTypeVariableLabel": "Skifttyp",
+    "clockInShiftTypeVariableDesc": "Det här anger skifttypen som medlemmen använde för att klocka in eller ut.",
+    "clockInShiftDurationVariableLabel": "Skiftlängd",
+    "clockInShiftDurationVariableDesc": "Det här anger hela skiftets varaktighet, denna variabel är endast tillämplig för händelsen 'Klocka ut'.",
+    "modifyRanks": "Modifiera rangordningar",
+    "modifyRanksDescription": "Denna åtgärd är begränsad för anpassade utlöst klock in.",
+    "shiftTypes": "Skifttyper",
+    "optional": "Valfritt",
+    "onEvent": "Vid händelse",
+    "type": "Typ"
   },
   "integrationsPortal": {
     "title": "Officiella Integrationer",

@@ -4424,7 +4424,8 @@
     "channels": "Kanaal/Kanalen",
     "roles": "Rol(len)",
     "discordChannelLockDescription": "Deze actie zal automatisch de geselecteerde kanalen voor de gespecificeerde rollen bijwerken met het gespecificeerde vergrendelingstype elke X minuten.",
-    "customTriggerDiscordChannelLockDescription": "Deze actie zal automatisch de geselecteerde kanalen voor de gespecificeerde rollen bijwerken met het gespecificeerde vergrendelingstype wanneer de geconfigureerde trigger is bereikt."
+    "customTriggerDiscordChannelLockDescription": "Deze actie zal automatisch de geselecteerde kanalen voor de gespecificeerde rollen bijwerken met het gespecificeerde vergrendelingstype wanneer de geconfigureerde trigger is bereikt.",
+    "customTriggerModifyRanksDescription": "Deze actie zal automatisch de rangen bijwerken van het lid dat de actie veroorzaakte, gebaseerd op type trigger en gebeurtenis."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "rangmeldingRangen",
@@ -4742,7 +4743,22 @@
     "requirement": "Vereiste",
     "serverInSession": "Server In-Session",
     "servers": "Server(s)",
-    "discordChannelLock": "Discord-kanaalvergrendeling"
+    "discordChannelLock": "Discord-kanaalvergrendeling",
+    "clockInOut": "In-/Uitklokken",
+    "clockIn": "Inklokken",
+    "clockOut": "Uitklokken",
+    "clockInComNameVariableLabel": "Gemeenschapsnaam",
+    "clockInComNameVariableDesc": "Dit zal de gemeenschapsnaam vermelden van het lid dat heeft ingeclockt of uitgeklokt.",
+    "clockInShiftTypeVariableLabel": "Diensttype",
+    "clockInShiftTypeVariableDesc": "Dit zal het diensttype vermelden dat het lid gebruikte om in of uit te klokken.",
+    "clockInShiftDurationVariableLabel": "Duur van dienst",
+    "clockInShiftDurationVariableDesc": "Dit zal de duur van de volledige dienst vermelden, deze variabele is alleen van toepassing voor de 'Uitklokken' bij gebeurtenis.",
+    "modifyRanks": "Rangen Wijzigen",
+    "modifyRanksDescription": "Deze actie is beperkt tot aangepast triggers voor inklokken.",
+    "shiftTypes": "Diensttypes",
+    "optional": "Optioneel",
+    "onEvent": "Bij Gebeurtenis",
+    "type": "Type"
   },
   "integrationsPortal": {
     "title": "Officiële Integraties",
