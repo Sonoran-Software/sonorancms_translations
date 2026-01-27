@@ -4264,7 +4264,10 @@
     "copiedGameServerPermissions": "Copied Game Server Permissions",
     "pasteGameServerPermissions": "Paste Game Server Permissions",
     "copiedERLCPermissions": "Copied ER:LC Permissions",
-    "pasteERLCPermissions": "Paste ER:LC Permissions"
+    "pasteERLCPermissions": "Paste ER:LC Permissions",
+    "shiftTypes": "Shift Types",
+    "copiedShiftTypesPermissions": "Copied ER:LC Permissions",
+    "pasteShiftTypesPermissions": "Paste ER:LC Permissions"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Link Account",
