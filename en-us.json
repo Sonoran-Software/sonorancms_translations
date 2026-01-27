@@ -2390,7 +2390,11 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "There was an unexpected error when saving settings.",
     "invalidUser17": "Invalid User",
     "submittedOn": "Submitted On",
-    "previousSubmissionHistory": "Previous Submission History"
+    "previousSubmissionHistory": "Previous Submission History",
+    "reasonForStageChange": "Reason for Stage Change",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "changeStage": "Change Stage"
   },
   "StageEditorCard": {
     "icon": "Icon",
