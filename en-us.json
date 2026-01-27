@@ -4476,7 +4476,9 @@
     "allowsMembersToRunModCommandsInTheGamePan": "Allows members to run mod commands in the Game Panel for this server.",
     "runRpCommand": "Run RP Command",
     "allowsMembersToRunRpCommandsInTheGamePan": "Allows members to run RP commands in the Game Panel for this server.",
-    "allowMembersToViewHiddenStages": "Allow members to view stage details of hidden stages under My Forms."
+    "allowMembersToViewHiddenStages": "Allow members to view stage details of hidden stages under My Forms.",
+    "use": "Use",
+    "allowsMembersToUseShiftType": "Allows members to use this shift type for clocking in and out."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited",
