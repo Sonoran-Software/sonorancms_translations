@@ -4632,7 +4632,8 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
     "latestActivity": "Latest Activity",
     "showingAllLogs": "Showing all logs",
-    "showingPlayerRecords": "Showing player records"
+    "showingPlayerRecords": "Showing player records",
+    "pending": "Pending"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "An error occured while adding server details, try again and contact support if issue persists.",
