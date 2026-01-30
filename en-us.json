@@ -4673,7 +4673,18 @@
     "lowercaseCommand": "command",
     "addType": "Add Type",
     "saveType": "Save Type",
-    "editingRecordType": "EDITING RECORD TYPE"
+    "editingRecordType": "EDITING RECORD TYPE",
+    "add": "Add",
+    "save": "Save",
+    "anErrorWithAddingRequestFormType": "An error occured while adding request form type.",
+    "anErrorWithRemovingRequestFormType": "An error occured while removing request form type.",
+    "requestFormTypes": "Request Form Types",
+    "requestFormTypesDescription": "Select which CMS pending form types appear in the ER:LC activity panel.",
+    "createNewFormType": "Create New Form Type",
+    "editingFormType": "Editing Form Type",
+    "form": "Form",
+    "stages": "Stages",
+    "argument": "Argument"
   },
   "ERLCPlayers": {
     "playersIngame": "Players In-Game",
