@@ -4633,7 +4633,8 @@
     "latestActivity": "Latest Activity",
     "showingAllLogs": "Showing all logs",
     "showingPlayerRecords": "Showing player records",
-    "pending": "Pending"
+    "pending": "Pending",
+    "unknownStage": "Unknown Stage"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "An error occured while adding server details, try again and contact support if issue persists.",
