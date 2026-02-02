@@ -180,7 +180,8 @@
       "modifyCommunityStatus": "Modify Community Status",
       "executeDiscordWebhook": "Execute Discord Webhook",
       "executeDiscordDm": "Send Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Submit Application/Form",
     "editOwn": "Edit Own Form",
@@ -2436,7 +2437,8 @@
     "WeightMustBeBetween": "Weight must be between 0 and 100%",
     "RuleStageRequired": "Stage is required",
     "stageHidden": "Stage label and icon visible only to submitters with permissions",
-    "stagePublic": "Stage label and icon visible to all submitters"
+    "stagePublic": "Stage label and icon visible to all submitters",
+    "formsstageactiontypeexecuteerlccommand": "Execute ER:LC Command"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
@@ -3737,7 +3739,8 @@
     "stageChangerComNameLabel": "Stage Changer Community Name",
     "stageChangerComNameDescription": "Inserts the commuunity display name of the user who changed the stage.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
-    "conditionalQuestionStartExplaination": "This action will execute"
+    "conditionalQuestionStartExplaination": "This action will execute",
+    "executeERLCCommandDescription": "The stage \"Execute ERLC Command\" will automatically execute the specified command on the selected ER:LC server when the form stage changes."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Ranks to Notify",
@@ -4930,6 +4933,8 @@
     "unlockMessages": "Unlock Messages",
     "viewChannel": "View Channel",
     "hideChannel": "Hide Channel",
-    "lockType": "Lock Type"
+    "lockType": "Lock Type",
+    "formSubmitter": "Form Submitter",
+    "stageChanger": "Stage Changer"
   }
 }
