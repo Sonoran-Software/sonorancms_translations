@@ -4689,7 +4689,9 @@
     "editingFormType": "Editing Form Type",
     "form": "Form",
     "stages": "Stages",
-    "argument": "Argument"
+    "argument": "Argument",
+    "argumentHint1": "All text entered here after the \":log ",
+    "argumentHint2": "\" will be inserted into this form field."
   },
   "ERLCPlayers": {
     "playersIngame": "Players In-Game",
