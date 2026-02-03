@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "커뮤니티 상태 수정",
       "executeDiscordWebhook": "디스코드 웹훅 실행",
       "executeDiscordDm": "디스코드 DM 보내기",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "신청서/양식 제출",
     "editOwn": "자신의 양식 편집",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "제출된 날짜",
     "submittedOn": "아이콘",
     "activity": "활동",
-    "previousSubmissionHistory": "이전 제출 기록"
+    "previousSubmissionHistory": "이전 제출 기록",
+    "reasonForStageChange": "단계 변경 이유",
+    "optional": "선택사항",
+    "cancel": "취소",
+    "changeStage": "단계 변경"
   },
   "StageEditorCard": {
     "icon": "단계 라벨",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "무게는 0%와 100% 사이여야 합니다.",
     "RuleStageRequired": "단계 필수 항목입니다.",
     "stageHidden": "단계 라벨과 아이콘은 권한 있는 제출자에게만 표시됩니다",
-    "stagePublic": "단계 라벨과 아이콘은 모든 제출자에게 표시됩니다"
+    "stagePublic": "단계 라벨과 아이콘은 모든 제출자에게 표시됩니다",
+    "formsstageactiontypeexecuteerlccommand": "ER:LC 명령 실행"
   },
   "StageReorderDialog": {
     "newStage": "닫기",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "폼 AI 처리 점수 %",
     "formAIScoreDescription": "제출 시 해당되는 경우 AI 처리 점수를 백분율로 삽입합니다.",
     "stageChangerComNameLabel": "단계 변경자 커뮤니티 이름",
-    "stageChangerComNameDescription": "단계를 변경한 사용자의 커뮤니티 표시 이름을 삽입합니다."
+    "stageChangerComNameDescription": "단계를 변경한 사용자의 커뮤니티 표시 이름을 삽입합니다.",
+    "executeERLCCommandDescription": "단계 \"ERLC 명령 실행\"은 양식 단계가 변경될 때 선택된 ER:LC 서버에서 지정된 명령을 자동으로 실행합니다."
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Sonoran 서버 - 계정 연결",
     "pasteGameServerPermissions": "닫기",
     "copiedERLCPermissions": "ER:LC 권한 복사됨",
-    "pasteERLCPermissions": "ER:LC 권한 붙여넣기"
+    "pasteERLCPermissions": "ER:LC 권한 붙여넣기",
+    "shiftTypes": "전환 유형",
+    "copiedShiftTypesPermissions": "ER:LC 권한 복사됨",
+    "pasteShiftTypesPermissions": "ER:LC 권한 붙여넣기"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "이메일",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "사용자가 내 양식의 숨겨진 단계의 세부 정보를 볼 수 있도록 허용",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "이 카테고리 내에서 다른 회원의 이벤트를 제거할 수 있습니다.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "이 카테고리 내에서 자신의 이벤트를 제거할 수 있습니다.",
-    "allowsMembersToEditTheirOwnEventsInT": "이 카테고리에서 자신의 이벤트를 수정할 수 있습니다."
+    "allowsMembersToEditTheirOwnEventsInT": "이 카테고리에서 자신의 이벤트를 수정할 수 있습니다.",
+    "use": "사용",
+    "allowsMembersToUseShiftType": "멤버가 이 전환 유형을 사용하여 출퇴근할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "서버 데이터를 가져오는 중 오류가 발생했습니다.",
     "latestActivity": "최신 활동",
     "showingAllLogs": "모든 로그 표시",
-    "showingPlayerRecords": "플레이어 기록 표시"
+    "showingPlayerRecords": "플레이어 기록 표시",
+    "pending": "보류 중",
+    "unknownStage": "알 수 없는 단계"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "서버 세부 정보를 추가하는 동안 오류가 발생했습니다",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "명령어",
     "addType": "유형 추가",
     "saveType": "유형 저장",
-    "editingRecordType": "기록 유형 편집"
+    "editingRecordType": "기록 유형 편집",
+    "add": "추가",
+    "save": "저장",
+    "anErrorWithAddingRequestFormType": "요청 양식 유형 추가 중 오류가 발생했습니다.",
+    "anErrorWithRemovingRequestFormType": "요청 양식 유형 제거 중 오류가 발생했습니다.",
+    "requestFormTypes": "요청 양식 유형",
+    "requestFormTypesDescription": "어떤 CMS 보류 양식 유형이 ER:LC 활동 패널에 표시될지 선택합니다.",
+    "createNewFormType": "새 양식 유형 생성",
+    "editingFormType": "양식 유형 편집",
+    "form": "양식",
+    "stages": "단계",
+    "argument": "인수",
+    "argumentHint1": "\"로그\" 이후 여기에 입력된 모든 텍스트가 이 양식 필드에 삽입됩니다.",
+    "argumentHint2": "\"가 삽입됩니다."
   },
   "ERLCPlayers": {
     "playersIngame": "게임 내 플레이어 ",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "메시지 잠금 해제",
     "viewChannel": "채널 보기",
     "hideChannel": "채널 숨기기",
-    "lockType": "잠금 유형"
+    "lockType": "잠금 유형",
+    "formSubmitter": "양식 제출자",
+    "stageChanger": "단계 변경자",
+    "erlcServer": "ER:LC 서버",
+    "administration": "관리",
+    "moderation": "조정",
+    "roleplay": "역할놀이"
   }
 }

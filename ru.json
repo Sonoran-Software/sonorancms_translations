@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Изменить статус сообщества",
       "executeDiscordWebhook": "Выполнить вебхук Discord",
       "executeDiscordDm": "Отправить личное сообщение в Discord",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Отправить заявку/форму",
     "editOwn": "Редактировать свою форму",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Отправлено",
     "submittedOn": "Иконка",
     "activity": "Активность",
-    "previousSubmissionHistory": "История предыдущих отправок"
+    "previousSubmissionHistory": "История предыдущих отправок",
+    "reasonForStageChange": "Причина изменения этапа",
+    "optional": "Необязательно",
+    "cancel": "Отмена",
+    "changeStage": "Изменить этап"
   },
   "StageEditorCard": {
     "icon": "Метка этапа",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Вес должен быть между 0 и 100%",
     "RuleStageRequired": "Этап обязателен",
     "stageHidden": "Метка и значок этапа видны только отправителям с разрешениями",
-    "stagePublic": "Метка и значок этапа видны всем отправителям"
+    "stagePublic": "Метка и значок этапа видны всем отправителям",
+    "formsstageactiontypeexecuteerlccommand": "Выполнить команду ER:LC"
   },
   "StageReorderDialog": {
     "newStage": "Закрыть",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Форма оценки AI %",
     "formAIScoreDescription": "Вставляет процент оценки обработки AI для подачи, если применимо.",
     "stageChangerComNameLabel": "Изменение этапа - название сообщества",
-    "stageChangerComNameDescription": "Вставляет отображаемое имя сообщества пользователя, который изменил этап."
+    "stageChangerComNameDescription": "Вставляет отображаемое имя сообщества пользователя, который изменил этап.",
+    "executeERLCCommandDescription": "Этап \"Выполнить команду ERLC\" автоматически исполнит указанную команду на выбранном сервере ER:LC при изменении этапа формы."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Вставить разрешения игрового сервера",
     "pasteGameServerPermissions": "Sonoran Servers - Привязать аккаунт",
     "copiedERLCPermissions": "Скопированы разрешения ER:LC",
-    "pasteERLCPermissions": "Вставить разрешения ER:LC"
+    "pasteERLCPermissions": "Вставить разрешения ER:LC",
+    "shiftTypes": "Типы смен",
+    "copiedShiftTypesPermissions": "Скопированные разрешения ER:LC",
+    "pasteShiftTypesPermissions": "Вставить разрешения ER:LC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Закрыть",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Разрешить участникам просматривать детали этапов скрытых стадий в Моих формах",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Позволяет участникам удалять события других участников в этой категории.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Позволяет участникам удалять свои собственные события в этой категории.",
-    "allowsMembersToEditTheirOwnEventsInT": "Позволяет участникам редактировать свои собственные события в этой категории."
+    "allowsMembersToEditTheirOwnEventsInT": "Позволяет участникам редактировать свои собственные события в этой категории.",
+    "use": "Использовать",
+    "allowsMembersToUseShiftType": "Позволяет участникам использовать этот тип смены для входа и выхода."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Произошла ошибка при получении данных сервера",
     "latestActivity": "Последняя активность",
     "showingAllLogs": "Показ всех логов",
-    "showingPlayerRecords": "Показ записей игроков"
+    "showingPlayerRecords": "Показ записей игроков",
+    "pending": "В ожидании",
+    "unknownStage": "Неизвестный этап"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Произошла ошибка при добавлении информации о сервере",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "команда",
     "addType": "Добавить тип",
     "saveType": "Сохранить тип",
-    "editingRecordType": "РЕДАКТИРОВАНИЕ ТИПА ЗАПИСИ"
+    "editingRecordType": "РЕДАКТИРОВАНИЕ ТИПА ЗАПИСИ",
+    "add": "Добавить",
+    "save": "Сохранить",
+    "anErrorWithAddingRequestFormType": "Произошла ошибка при добавлении типа формы запроса.",
+    "anErrorWithRemovingRequestFormType": "Произошла ошибка при удалении типа формы запроса.",
+    "requestFormTypes": "Типы форм запроса",
+    "requestFormTypesDescription": "Выберите, какие ожидающие типы форм CMS отображаются в панели активности ER:LC.",
+    "createNewFormType": "Создать новый тип формы",
+    "editingFormType": "Редактирование типа формы",
+    "form": "Форма",
+    "stages": "Этапы",
+    "argument": "Аргумент",
+    "argumentHint1": "Весь текст, введенный здесь после \":лог",
+    "argumentHint2": "\" будет вставлен в это поле формы."
   },
   "ERLCPlayers": {
     "playersIngame": "игроки в игре",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Разблокировка сообщений",
     "viewChannel": "Просмотр канала",
     "hideChannel": "Скрыть канал",
-    "lockType": "Тип блокировки"
+    "lockType": "Тип блокировки",
+    "formSubmitter": "Отправитель формы",
+    "stageChanger": "Изменитель этапа",
+    "erlcServer": "Сервер ER:LC",
+    "administration": "Администрирование",
+    "moderation": "Модерация",
+    "roleplay": "Ролевая игра"
   }
 }

@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Gemeinschaftsstatus ändern",
       "executeDiscordWebhook": "Discord Webhook ausführen",
       "executeDiscordDm": "Discord DM senden",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Antrag/Formular einreichen",
     "editOwn": "Eigenes Formular bearbeiten",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Ungültiger Benutzer",
     "submittedOn": "Eingereicht am",
     "activity": "Aktivität",
-    "previousSubmissionHistory": "Frühere Einreichungshistorie"
+    "previousSubmissionHistory": "Frühere Einreichungshistorie",
+    "reasonForStageChange": "Grund für die Phasenänderung",
+    "optional": "Optional",
+    "cancel": "Abbrechen",
+    "changeStage": "Phase ändern"
   },
   "StageEditorCard": {
     "icon": "Symbol",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Das Gewicht muss zwischen 0 und 100% liegen.",
     "RuleStageRequired": "Bühne ist erforderlich",
     "stageHidden": "Stufenbeschriftung und -symbol sind nur für Absender mit Berechtigungen sichtbar",
-    "stagePublic": "Stufenbeschriftung und -symbol sind für alle Absender sichtbar"
+    "stagePublic": "Stufenbeschriftung und -symbol sind für alle Absender sichtbar",
+    "formsstageactiontypeexecuteerlccommand": "ER:LC-Befehl ausführen"
   },
   "StageReorderDialog": {
     "newStage": "Neue Stufe",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Formular AI-Verarbeitungspunktzahl %",
     "formAIScoreDescription": "Fügt die AI-Verarbeitungspunktzahl in Prozent für die Einreichung ein, falls zutreffend.",
     "stageChangerComNameLabel": "Stufenwechsler Gemeinschaftsname",
-    "stageChangerComNameDescription": "Fügt den Gemeinschaftsanzeigenamen des Benutzers ein, der die Stufe geändert hat."
+    "stageChangerComNameDescription": "Fügt den Gemeinschaftsanzeigenamen des Benutzers ein, der die Stufe geändert hat.",
+    "executeERLCCommandDescription": "Die Phase „ERLC-Befehl ausführen“ führt den angegebenen Befehl auf dem ausgewählten ER:LC-Server automatisch aus, wenn sich die Formularphase ändert."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Spielserver-Berechtigungen kopiert",
     "pasteGameServerPermissions": "Spielserver-Berechtigungen einfügen",
     "copiedERLCPermissions": "Kopierte ER:LC-Berechtigungen",
-    "pasteERLCPermissions": "Fügen Sie ER:LC-Berechtigungen ein"
+    "pasteERLCPermissions": "Fügen Sie ER:LC-Berechtigungen ein",
+    "shiftTypes": "Schichttypen",
+    "copiedShiftTypesPermissions": "Kopierte ER:LC-Berechtigungen",
+    "pasteShiftTypesPermissions": "ER:LC-Berechtigungen einfügen"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran-Server - Konto verknüpfen",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Erlauben Sie Mitgliedern, Stufendetails versteckter Stufen unter Meine Formulare anzuzeigen",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Erlaubt Mitgliedern, die Veranstaltungen anderer Mitglieder in dieser Kategorie zu entfernen.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu entfernen.",
-    "allowsMembersToEditTheirOwnEventsInT": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu bearbeiten."
+    "allowsMembersToEditTheirOwnEventsInT": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu bearbeiten.",
+    "use": "Benutzen",
+    "allowsMembersToUseShiftType": "Ermöglicht es Mitgliedern, diesen Schichttyp für das Ein- und Ausstempeln zu verwenden."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Beim Abrufen der Serverdaten ist ein Fehler aufgetreten.",
     "latestActivity": "Neueste Aktivität",
     "showingAllLogs": "Alle Protokolle anzeigen",
-    "showingPlayerRecords": "Spieleraufzeichnungen anzeigen"
+    "showingPlayerRecords": "Spieleraufzeichnungen anzeigen",
+    "pending": "Ausstehend",
+    "unknownStage": "Unbekannte Phase"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Beim Hinzufügen der Serverdetails ist ein Fehler aufgetreten.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "befehl",
     "addType": "Typ hinzufügen",
     "saveType": "Typ speichern",
-    "editingRecordType": "AUFZEICHNUNGSTYP BEARBEITEN"
+    "editingRecordType": "AUFZEICHNUNGSTYP BEARBEITEN",
+    "add": "Hinzufügen",
+    "save": "Speichern",
+    "anErrorWithAddingRequestFormType": "Ein Fehler ist beim Hinzufügen des Antragsformular-Typs aufgetreten.",
+    "anErrorWithRemovingRequestFormType": "Ein Fehler ist beim Entfernen des Antragsformular-Typs aufgetreten.",
+    "requestFormTypes": "Antragsformular-Typen",
+    "requestFormTypesDescription": "Wählen Sie aus, welche CMS anstehenden Formulartypen im ER:LC-Aktivitätsbereich angezeigt werden.",
+    "createNewFormType": "Neuen Formular-Typ erstellen",
+    "editingFormType": "Formular-Typ bearbeiten",
+    "form": "Formular",
+    "stages": "Phasen",
+    "argument": "Argument",
+    "argumentHint1": "Jeglicher Text, der hier nach dem ':log",
+    "argumentHint2": "' eingefügt wird, wird in dieses Formularfeld eingetragen."
   },
   "ERLCPlayers": {
     "playersIngame": "SpielerImSpiel",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Nachrichten entsperren",
     "viewChannel": "Kanal ansehen",
     "hideChannel": "Kanal verbergen",
-    "lockType": "Sperrtyp"
+    "lockType": "Sperrtyp",
+    "formSubmitter": "Formular Einreicher",
+    "stageChanger": "Phasenwechsler",
+    "erlcServer": "ER:LC-Server",
+    "administration": "Verwaltung",
+    "moderation": "Moderation",
+    "roleplay": "Rollenspiel"
   }
 }

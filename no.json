@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Endre fellesskapsstatus",
       "executeDiscordWebhook": "Utfør Discord Webhook",
       "executeDiscordDm": "Send Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Send inn søknad/skjema",
     "editOwn": "Rediger eget skjema",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Ugyldig Bruker",
     "submittedOn": "Innsendt På",
     "activity": "Aktivitet",
-    "previousSubmissionHistory": "Tidligere innsending historie"
+    "previousSubmissionHistory": "Tidligere innsending historie",
+    "reasonForStageChange": "Årsak til faseskifte",
+    "optional": "Valgfritt",
+    "cancel": "Avbryt",
+    "changeStage": "Endre fase"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Vekten må være mellom 0 og 100 %",
     "RuleStageRequired": "Feltet er påkrevd",
     "stageHidden": "Trinnetikett og ikon synlig kun for innsendere med tillatelser",
-    "stagePublic": "Trinnetikett og ikon synlig for alle innsendere"
+    "stagePublic": "Trinnetikett og ikon synlig for alle innsendere",
+    "formsstageactiontypeexecuteerlccommand": "Utfør ER:LC-kommando"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etappe",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Form AI-prosesseringsscore %",
     "formAIScoreDescription": "Setter inn prosesseringsscoreprosenten for innsendelsen, hvis relevant.",
     "stageChangerComNameLabel": "Scene Endrer Samfunnsnavn",
-    "stageChangerComNameDescription": "Setter inn visningsnavnet til fellesskapet for brukeren som endret scenen."
+    "stageChangerComNameDescription": "Setter inn visningsnavnet til fellesskapet for brukeren som endret scenen.",
+    "executeERLCCommandDescription": "Fasen \"Utfør ERLC-kommando\" vil automatisk utføre den spesifiserte kommandoen på den valgte ER:LC-serveren når faseendringen skjer."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Kopierte spillservertillatelser",
     "pasteGameServerPermissions": "Lim inn spillservertillatelser",
     "copiedERLCPermissions": "Kopierte ER:LC Tillatelser",
-    "pasteERLCPermissions": "Lim ER:LC-tillatelser"
+    "pasteERLCPermissions": "Lim ER:LC-tillatelser",
+    "shiftTypes": "Skifttyper",
+    "copiedShiftTypesPermissions": "Kopierte ER:LC-rettigheter",
+    "pasteShiftTypesPermissions": "Lim inn ER:LC-rettigheter"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Koble til konto",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Tillat medlemmer å se detaljene i skjulte trinn under Mine skjemaer",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Tillater medlemmer å fjerne andre medlemmers hendelser innen denne kategorien.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Tillater medlemmer å fjerne sine egne hendelser i denne kategorien.",
-    "allowsMembersToEditTheirOwnEventsInT": "Tillater medlemmer å redigere sine egne hendelser i denne kategorien."
+    "allowsMembersToEditTheirOwnEventsInT": "Tillater medlemmer å redigere sine egne hendelser i denne kategorien.",
+    "use": "Bruke",
+    "allowsMembersToUseShiftType": "Tillater medlemmer å bruke denne skifttypen for inn- og utsjekking."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Det oppstod en feil under henting av serverdata.",
     "latestActivity": "Siste aktivitet",
     "showingAllLogs": "Viser alle logger",
-    "showingPlayerRecords": "Viser spilleroppføringer"
+    "showingPlayerRecords": "Viser spilleroppføringer",
+    "pending": "Venter",
+    "unknownStage": "Ukjent fase"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Det oppsto en feil under legge til serverdetaljer.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "kommando",
     "addType": "Legg til type",
     "saveType": "Lagre type",
-    "editingRecordType": "REDIGERING AV POSTTYPE"
+    "editingRecordType": "REDIGERING AV POSTTYPE",
+    "add": "Legg til",
+    "save": "Lagre",
+    "anErrorWithAddingRequestFormType": "Det oppstod en feil ved legge til forespørselsformtype.",
+    "anErrorWithRemovingRequestFormType": "Det oppstod en feil ved fjerne forespørselsformtype.",
+    "requestFormTypes": "Forespørselsformtyper",
+    "requestFormTypesDescription": "Velg hvilke CMS ventende formtyper som vises i ER:LC aktivitetspanelet.",
+    "createNewFormType": "Opprett ny formtype",
+    "editingFormType": "Redigerer formtype",
+    "form": "Skjema",
+    "stages": "Faser",
+    "argument": "Argument",
+    "argumentHint1": "All tekst som er skrevet inn her etter",
+    "argumentHint2": "vil bli satt inn i dette skjemafeltet."
   },
   "ERLCPlayers": {
     "playersIngame": "spillereIspillet",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Lås opp meldinger",
     "viewChannel": "Vis kanal",
     "hideChannel": "Skjul kanal",
-    "lockType": "Låsetype"
+    "lockType": "Låsetype",
+    "formSubmitter": "Skjemainnsender",
+    "stageChanger": "Fasebytter",
+    "erlcServer": "ER:LC-server",
+    "administration": "Administrasjon",
+    "moderation": "Moderasjon",
+    "roleplay": "Rollespill"
   }
 }

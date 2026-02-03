@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Ændr fællesskabsstatus",
       "executeDiscordWebhook": "Udfør Discord webhook",
       "executeDiscordDm": "Send Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Indsend ansøgning/formular",
     "editOwn": "Rediger egen formular",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Ugyldig Bruger",
     "submittedOn": "Indsendt På",
     "activity": "Aktivitet",
-    "previousSubmissionHistory": "Tidligere indsendelseshistorik"
+    "previousSubmissionHistory": "Tidligere indsendelseshistorik",
+    "reasonForStageChange": "Årsag til sceneskift",
+    "optional": "Valgfrit",
+    "cancel": "Annuller",
+    "changeStage": "Skift scene"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Vægten skal være mellem 0 og 100%",
     "RuleStageRequired": "Scenen er påkrævet",
     "stageHidden": "Stadie etiket og ikon synlig kun for indsendere med tilladelser",
-    "stagePublic": "Stadie etiket og ikon synlig for alle indsendere"
+    "stagePublic": "Stadie etiket og ikon synlig for alle indsendere",
+    "formsstageactiontypeexecuteerlccommand": "Udfør ER:LC-kommando"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etape",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "AI Behandlingsscore %",
     "formAIScoreDescription": "Indsætter AI behandlingsscore procenten for indsendelsen, hvis det er relevant.",
     "stageChangerComNameLabel": "Omskifter af trin Fællesskabsnavn",
-    "stageChangerComNameDescription": "Indsætter visningsnavnet for fællesskabet af brugeren, der ændrede trinnet."
+    "stageChangerComNameDescription": "Indsætter visningsnavnet for fællesskabet af brugeren, der ændrede trinnet.",
+    "executeERLCCommandDescription": "Scenen \"Udfør ER:LC-kommando\" vil automatisk udføre den angivne kommando på den valgte ER:LC-server, når formularets scene ændres."
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Kopierede Spilservertilladelser",
     "pasteGameServerPermissions": "Indsæt Spilservertilladelser",
     "copiedERLCPermissions": "Kopierede ER:LC Tilladelser",
-    "pasteERLCPermissions": "Indsæt ER:LC Tilladelser"
+    "pasteERLCPermissions": "Indsæt ER:LC Tilladelser",
+    "shiftTypes": "Skifttyper",
+    "copiedShiftTypesPermissions": "Kopierede ER:LC-tilladelser",
+    "pasteShiftTypesPermissions": "Indsæt ER:LC-tilladelser"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Link Konto",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Tillad medlemmer at se trin detaljer for skjulte trin under Mine Formularer",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Giver medlemmerne mulighed for at fjerne andre medlemmers begivenheder inden for denne kategori.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Giver medlemmerne mulighed for at fjerne deres egne begivenheder i denne kategori.",
-    "allowsMembersToEditTheirOwnEventsInT": "Giver medlemmerne mulighed for at redigere deres egne begivenheder i denne kategori."
+    "allowsMembersToEditTheirOwnEventsInT": "Giver medlemmerne mulighed for at redigere deres egne begivenheder i denne kategori.",
+    "use": "Brug",
+    "allowsMembersToUseShiftType": "Giver medlemmer lov til at bruge denne skifttype til ind- og udstempling."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Der opstod en fejl under hentning af serverdata",
     "latestActivity": "senesteAktivitet",
     "showingAllLogs": "Viser alle logs",
-    "showingPlayerRecords": "Viser spilleroptegnelser"
+    "showingPlayerRecords": "Viser spilleroptegnelser",
+    "pending": "Afventer",
+    "unknownStage": "Ukendt scene"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Der opstod en fejl under tilføjelse af serveroplysninger.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "kommando",
     "addType": "Tilføj type",
     "saveType": "Gem type",
-    "editingRecordType": "REDIGERER POSTTYPE"
+    "editingRecordType": "REDIGERER POSTTYPE",
+    "add": "Tilføj",
+    "save": "Gem",
+    "anErrorWithAddingRequestFormType": "En fejl opstod, mens anmodningsformular typen blev tilføjet.",
+    "anErrorWithRemovingRequestFormType": "En fejl opstod, mens anmodningsformular typen blev fjernet.",
+    "requestFormTypes": "Anmodningsformular typer",
+    "requestFormTypesDescription": "Vælg hvilke CMS-afventende formulartyper der skal vises i ER:LC-aktivitets panelet.",
+    "createNewFormType": "Opret ny formulartype",
+    "editingFormType": "Redigerer formulartype",
+    "form": "Formular",
+    "stages": "Scener",
+    "argument": "Argument",
+    "argumentHint1": "Al tekst indtastet her efter \":log",
+    "argumentHint2": "\" vil blive indsat i dette formularfelt."
   },
   "ERLCPlayers": {
     "playersIngame": "spillereIspillet",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Lås op for beskeder",
     "viewChannel": "Se kanal",
     "hideChannel": "Skjul kanal",
-    "lockType": "Låsetype"
+    "lockType": "Låsetype",
+    "formSubmitter": "Formularafsender",
+    "stageChanger": "Sceneskifter",
+    "erlcServer": "ER:LC Server",
+    "administration": "Administration",
+    "moderation": "Moderation",
+    "roleplay": "Rollespil"
   }
 }

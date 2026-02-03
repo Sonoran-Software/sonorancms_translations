@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "コミュニティステータスを変更する",
       "executeDiscordWebhook": "Discord Webhookを実行する",
       "executeDiscordDm": "Discord DMを送信する",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "申請/フォームを提出する",
     "editOwn": "自分のフォームを編集する",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "提出日時",
     "submittedOn": "アイコン",
     "activity": "アクティビティ",
-    "previousSubmissionHistory": "以前の提出履歴"
+    "previousSubmissionHistory": "以前の提出履歴",
+    "reasonForStageChange": "ステージ変更の理由",
+    "optional": "任意",
+    "cancel": "キャンセル",
+    "changeStage": "ステージを変更"
   },
   "StageEditorCard": {
     "icon": "ステージラベル",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "重量は0〜100％の間でなければなりません",
     "RuleStageRequired": "ステージが必要です",
     "stageHidden": "ステージラベルとアイコンは許可を持つ送信者にのみ表示されます",
-    "stagePublic": "ステージラベルとアイコンはすべての送信者に表示されます"
+    "stagePublic": "ステージラベルとアイコンはすべての送信者に表示されます",
+    "formsstageactiontypeexecuteerlccommand": "ER:LCコマンドを実行"
   },
   "StageReorderDialog": {
     "newStage": "閉じる",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "AI処理スコア %",
     "formAIScoreDescription": "該当する場合、提出物のAI処理スコアのパーセンテージを挿入します。",
     "stageChangerComNameLabel": "ステージチェンジャーコミュニティ名",
-    "stageChangerComNameDescription": "ステージを変更したユーザーのコミュニティ表示名を挿入します。"
+    "stageChangerComNameDescription": "ステージを変更したユーザーのコミュニティ表示名を挿入します。",
+    "executeERLCCommandDescription": "ステージ「ERLCコマンドの実行」は、フォームステージが変更されると、選択したER:LCサーバーで指定されたコマンドを自動的に実行します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "ゲームサーバー権限を貼り付け",
     "pasteGameServerPermissions": "Sonoran Servers - アカウントをリンク",
     "copiedERLCPermissions": "ER:LC 権限をコピーしました",
-    "pasteERLCPermissions": "ER:LC の権限を貼り付け"
+    "pasteERLCPermissions": "ER:LC の権限を貼り付け",
+    "shiftTypes": "シフトタイプ",
+    "copiedShiftTypesPermissions": "コピーされたER:LC権限",
+    "pasteShiftTypesPermissions": "ER:LC権限を貼り付け"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "閉じる",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "マイフォームの隠しステージのステージ詳細をメンバーが表示できる",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "このカテゴリ内で他のメンバーのイベントを削除できるよう許可します。",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "このカテゴリ内で自分のイベントを削除できるよう許可します。",
-    "allowsMembersToEditTheirOwnEventsInT": "このカテゴリ内で自分のイベントを編集できるよう許可します。"
+    "allowsMembersToEditTheirOwnEventsInT": "このカテゴリ内で自分のイベントを編集できるよう許可します。",
+    "use": "使用",
+    "allowsMembersToUseShiftType": "メンバーがこのシフトタイプを使用して時計を入れたり出したりすることができます。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "サーバーデータの取得中にエラーが発生しました",
     "latestActivity": "最新の活動",
     "showingAllLogs": "すべてのログを表示中",
-    "showingPlayerRecords": "プレイヤー記録を表示中"
+    "showingPlayerRecords": "プレイヤー記録を表示中",
+    "pending": "保留中",
+    "unknownStage": "不明なステージ"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "サーバー詳細の追加中にエラーが発生しました",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "コマンド",
     "addType": "タイプを追加",
     "saveType": "タイプを保存",
-    "editingRecordType": "レコードタイプの編集"
+    "editingRecordType": "レコードタイプの編集",
+    "add": "追加",
+    "save": "保存",
+    "anErrorWithAddingRequestFormType": "リクエスト形式タイプの追加中にエラーが発生しました。",
+    "anErrorWithRemovingRequestFormType": "リクエスト形式タイプの削除中にエラーが発生しました。",
+    "requestFormTypes": "リクエストフォー厶タイプ",
+    "requestFormTypesDescription": "ER:LCアクティビティパネルに表示されるCMS保留中のフォームタイプを選択します。",
+    "createNewFormType": "新しいフォームタイプを作成",
+    "editingFormType": "フォームタイプを編集",
+    "form": "フォーム",
+    "stages": "ステージ",
+    "argument": "引数",
+    "argumentHint1": ":logの後に入力されたすべてのテキスト",
+    "argumentHint2": "は、このフォームフィールドに挿入されます。"
   },
   "ERLCPlayers": {
     "playersIngame": "ゲーム内のプレイヤー",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "メッセージをアンロック",
     "viewChannel": "チャンネルを見る",
     "hideChannel": "チャンネルを隠す",
-    "lockType": "ロックタイプ"
+    "lockType": "ロックタイプ",
+    "formSubmitter": "フォーム提出者",
+    "stageChanger": "ステージチェンジャー",
+    "erlcServer": "ER:LCサーバー",
+    "administration": "管理",
+    "moderation": "モデレーション",
+    "roleplay": "ロールプレイ"
   }
 }

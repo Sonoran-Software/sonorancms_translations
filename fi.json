@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Muokkaa yhteisön tilaa",
       "executeDiscordWebhook": "Suorita Discord Webhook",
       "executeDiscordDm": "Lähetä Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Lähetä hakemus/lomake",
     "editOwn": "Muokkaa omaa lomaketta",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Virheellinen käyttäjä",
     "submittedOn": "Lähetetty",
     "activity": "Toiminta",
-    "previousSubmissionHistory": "Aiemmat lähetetyt historiat"
+    "previousSubmissionHistory": "Aiemmat lähetetyt historiat",
+    "reasonForStageChange": "Syyn muutos vaiheelle",
+    "optional": "Vapaaehtoinen",
+    "cancel": "Peruuta",
+    "changeStage": "Vaihda vaihe"
   },
   "StageEditorCard": {
     "icon": "Ikoni",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Painon on oltava 0 ja 100 % välillä",
     "RuleStageRequired": "Vaihe on pakollinen",
     "stageHidden": "Vaiheen etiketti ja kuvake näkyvät vain oikeudet omaaville lähettäjille",
-    "stagePublic": "Vaiheen etiketti ja kuvake näkyvät kaikille lähettäjille"
+    "stagePublic": "Vaiheen etiketti ja kuvake näkyvät kaikille lähettäjille",
+    "formsstageactiontypeexecuteerlccommand": "Suorita ER:LC-komento"
   },
   "StageReorderDialog": {
     "newStage": "Uusi vaihe",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Lomakkeen AI-käsittelypisteet %",
     "formAIScoreDescription": "Lisää tekoälyprosessoinnin prosentuaalisen pistemäärän lähetykselle, jos soveltuu.",
     "stageChangerComNameLabel": "Vaiheenvaihtajan yhteisön nimi",
-    "stageChangerComNameDescription": "Lisää vaiheen vaihtaneen käyttäjän yhteisön näyttönimen."
+    "stageChangerComNameDescription": "Lisää vaiheen vaihtaneen käyttäjän yhteisön näyttönimen.",
+    "executeERLCCommandDescription": "Vaihe \"Suorita ERLC-komento\" suorittaa automaattisesti määritetyn komennon valitulla ER:LC-palvelimella, kun lomakevaihe muuttuu."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Kopioidut pelipalvelinoikeudet",
     "pasteGameServerPermissions": "Liitä pelipalvelinoikeudet",
     "copiedERLCPermissions": "Kopioidut ER:LC-oikeudet",
-    "pasteERLCPermissions": "Liitä ER:LC-oikeudet"
+    "pasteERLCPermissions": "Liitä ER:LC-oikeudet",
+    "shiftTypes": "Vuorotyypit",
+    "copiedShiftTypesPermissions": "Kopioidut ER:LC-oikeudet",
+    "pasteShiftTypesPermissions": "Liitä ER:LC-oikeudet"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Linkitä tili",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Salli jäsenten nähdä piilotettujen vaiheiden vaiheiden yksityiskohdat kohdassa Omat lomakkeet",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Sallii jäsenten poistaa muiden jäsenten tapahtumia tässä kategoriassa.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Sallii jäsenten poistaa omia tapahtumia tässä kategoriassa.",
-    "allowsMembersToEditTheirOwnEventsInT": "Sallii jäsenten muokata omia tapahtumia tässä kategoriassa."
+    "allowsMembersToEditTheirOwnEventsInT": "Sallii jäsenten muokata omia tapahtumia tässä kategoriassa.",
+    "use": "Käytä",
+    "allowsMembersToUseShiftType": "Sallii jäsenten käyttää tätä vuorotyyppiä kirjautumiseen sisään ja ulos."
   },
   "permissionToggleGroup": {
     "inherited": "peritty",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Tapahtui virhe haettaessa palvelintietoja",
     "latestActivity": "viimeisinAktiviteetti",
     "showingAllLogs": "Näytetään kaikki lokit",
-    "showingPlayerRecords": "Näytetään pelaajien tiedot"
+    "showingPlayerRecords": "Näytetään pelaajien tiedot",
+    "pending": "Odottaa",
+    "unknownStage": "Tuntematon vaihe"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Virhe lisättäessä palvelimen tietoja",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "komento",
     "addType": "Lisää tyyppi",
     "saveType": "Tallenna tyyppi",
-    "editingRecordType": "MUOKATAAN TIETUETYYPPIÄ"
+    "editingRecordType": "MUOKATAAN TIETUETYYPPIÄ",
+    "add": "Lisää",
+    "save": "Tallenna",
+    "anErrorWithAddingRequestFormType": "Virhe tapahtui, kun lisättiin pyyntölomakkeen tyyppiä.",
+    "anErrorWithRemovingRequestFormType": "Virhe tapahtui, kun poistettiin pyyntölomakkeen tyyppiä.",
+    "requestFormTypes": "Pyyntölomaketyypit",
+    "requestFormTypesDescription": "Valitse, mitkä CMS:n odottavat lomaketyypit näkyvät ER:LC-toimintapaneelissa.",
+    "createNewFormType": "Luo uusi lomaketyyppi",
+    "editingFormType": "Muokataan lomaketyyppiä",
+    "form": "Lomake",
+    "stages": "Vaiheet",
+    "argument": "Argumentti",
+    "argumentHint1": "Kaikki tähän \":\"-merkin jälkeen kirjoitettu teksti lisätään tähän lomakekenttään.",
+    "argumentHint2": " lisätään tähän lomakekenttään."
   },
   "ERLCPlayers": {
     "playersIngame": "pelaajat pelissä",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Avaa viestit",
     "viewChannel": "Näytä kanava",
     "hideChannel": "Piilota kanava",
-    "lockType": "Lukitustyyppi"
+    "lockType": "Lukitustyyppi",
+    "formSubmitter": "Lomakkeen lähettäjä",
+    "stageChanger": "Vaiheen vaihtaja",
+    "erlcServer": "ER:LC-palvelin",
+    "administration": "Hallinto",
+    "moderation": "Moderaatio",
+    "roleplay": "Roolipeli"
   }
 }

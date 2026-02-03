@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Modifier le statut de la communauté",
       "executeDiscordWebhook": "Exécuter le webhook Discord",
       "executeDiscordDm": "Envoyer un DM Discord",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Soumettre une demande/un formulaire",
     "editOwn": "Modifier son propre formulaire",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Utilisateur Invalide",
     "submittedOn": "Soumis Le",
     "activity": "Activité",
-    "previousSubmissionHistory": "Historique des soumissions précédentes"
+    "previousSubmissionHistory": "Historique des soumissions précédentes",
+    "reasonForStageChange": "Raison du changement de stade",
+    "optional": "Optionnel",
+    "cancel": "Annuler",
+    "changeStage": "Changer de stade"
   },
   "StageEditorCard": {
     "icon": "Icône",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Le poids doit être compris entre 0 et 100 %.",
     "RuleStageRequired": "Le stade est requis",
     "stageHidden": "Étiquette et icône d'étape visibles uniquement pour les soumissionnaires avec des autorisations",
-    "stagePublic": "Étiquette et icône d'étape visibles pour tous les soumissionnaires"
+    "stagePublic": "Étiquette et icône d'étape visibles pour tous les soumissionnaires",
+    "formsstageactiontypeexecuteerlccommand": "Exécuter la commande ER:LC"
   },
   "StageReorderDialog": {
     "newStage": "Nouvelle Étape",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Score de traitement AI du formulaire %",
     "formAIScoreDescription": "Insère le pourcentage de score de traitement AI pour la soumission, si applicable.",
     "stageChangerComNameLabel": "Nom de la communauté du changeur de stade",
-    "stageChangerComNameDescription": "Insère le nom d'affichage de la communauté de l'utilisateur qui a changé de stade."
+    "stageChangerComNameDescription": "Insère le nom d'affichage de la communauté de l'utilisateur qui a changé de stade.",
+    "executeERLCCommandDescription": "Le stade \"Exécuter la commande ERLC\" exécutera automatiquement la commande spécifiée sur le serveur ER:LC sélectionné lorsque le stade de formulaire change."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Permissions du Serveur de Jeu Copiées",
     "pasteGameServerPermissions": "Coller les Permissions du Serveur de Jeu",
     "copiedERLCPermissions": "Permissions ER:LC copiées",
-    "pasteERLCPermissions": "Coller les autorisations ER:LC"
+    "pasteERLCPermissions": "Coller les autorisations ER:LC",
+    "shiftTypes": "Types de service",
+    "copiedShiftTypesPermissions": "Permissions ER:LC copiées",
+    "pasteShiftTypesPermissions": "Coller les permissions ER:LC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Lier le Compte",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Permettre aux membres de voir les détails des étapes des étapes cachées dans Mes formulaires",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Permet aux membres de supprimer les événements des autres membres dans cette catégorie.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permet aux membres de supprimer leurs propres événements dans cette catégorie.",
-    "allowsMembersToEditTheirOwnEventsInT": "Permet aux membres de modifier leurs propres événements dans cette catégorie."
+    "allowsMembersToEditTheirOwnEventsInT": "Permet aux membres de modifier leurs propres événements dans cette catégorie.",
+    "use": "Utiliser",
+    "allowsMembersToUseShiftType": "Autorise les membres à utiliser ce type de service pour pointer l'entrée et la sortie."
   },
   "permissionToggleGroup": {
     "inherited": "hérité",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Une erreur est survenue lors de la récupération des données du serveur.",
     "latestActivity": "Dernière activité",
     "showingAllLogs": "Affichage de tous les journaux",
-    "showingPlayerRecords": "Affichage des dossiers des joueurs"
+    "showingPlayerRecords": "Affichage des dossiers des joueurs",
+    "pending": "En attente",
+    "unknownStage": "Stade inconnu"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Une erreur s'est produite lors de l'ajout des détails du serveur.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "commande",
     "addType": "Ajouter un type",
     "saveType": "Enregistrer le type",
-    "editingRecordType": "ÉDITION DU TYPE D'ENREGISTREMENT"
+    "editingRecordType": "ÉDITION DU TYPE D'ENREGISTREMENT",
+    "add": "Ajouter",
+    "save": "Enregistrer",
+    "anErrorWithAddingRequestFormType": "Une erreur est survenue lors de l'ajout du type de formulaire de demande.",
+    "anErrorWithRemovingRequestFormType": "Une erreur est survenue lors de la suppression du type de formulaire de demande.",
+    "requestFormTypes": "Types de formulaires de demande",
+    "requestFormTypesDescription": "Sélectionnez quels types de formulaires en attente du CMS apparaissent dans le panneau d'activité ER:LC.",
+    "createNewFormType": "Créer un nouveau type de formulaire",
+    "editingFormType": "Modification du type de formulaire",
+    "form": "Formulaire",
+    "stages": "Stades",
+    "argument": "Argument",
+    "argumentHint1": "Tout texte saisi ici après le \":log",
+    "argumentHint2": "\" sera inséré dans ce champ de formulaire."
   },
   "ERLCPlayers": {
     "playersIngame": "```Nombre de joueurs en jeu```\n",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Déverrouiller les messages",
     "viewChannel": "Voir le canal",
     "hideChannel": "Masquer le canal",
-    "lockType": "Type de verrouillage"
+    "lockType": "Type de verrouillage",
+    "formSubmitter": "Soumissionnaire de formulaire",
+    "stageChanger": "Changeur de stade",
+    "erlcServer": "Serveur ER:LC",
+    "administration": "Administration",
+    "moderation": "Modération",
+    "roleplay": "Rôleplay"
   }
 }

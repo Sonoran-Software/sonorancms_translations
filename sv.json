@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Ändra gemenskapsstatus",
       "executeDiscordWebhook": "Utför Discord Webhook",
       "executeDiscordDm": "Skicka Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Skicka in ansökan/formulär",
     "editOwn": "Redigera eget formulär",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Ogiltig Användare",
     "submittedOn": "Inskickad På",
     "activity": "Aktivitet",
-    "previousSubmissionHistory": "Tidigare inlämningshistorik"
+    "previousSubmissionHistory": "Tidigare inlämningshistorik",
+    "reasonForStageChange": "Orsak till ändring av steg",
+    "optional": "Valfritt",
+    "cancel": "Avbryt",
+    "changeStage": "Ändra steg"
   },
   "StageEditorCard": {
     "icon": "Ikon",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Vikten måste vara mellan 0 och 100%",
     "RuleStageRequired": "Scenen är obligatorisk",
     "stageHidden": "Etikett och ikon för etapp synlig endast för inlämnare med behörigheter",
-    "stagePublic": "Etikett och ikon för etapp synlig för alla inlämnare"
+    "stagePublic": "Etikett och ikon för etapp synlig för alla inlämnare",
+    "formsstageactiontypeexecuteerlccommand": "Utför ER:LC Kommando"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etapp",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Formulär AI Bearbetningspoäng %",
     "formAIScoreDescription": "Infogar AI-bearbetningspoängen i procent för inlämningen om tillämpligt.",
     "stageChangerComNameLabel": "Stegändrarens gemenskapsnamn",
-    "stageChangerComNameDescription": "Infogar gemenskapsvisningsnamnet på användaren som ändrade steget."
+    "stageChangerComNameDescription": "Infogar gemenskapsvisningsnamnet på användaren som ändrade steget.",
+    "executeERLCCommandDescription": "Steget \"Utför ERLC Kommando\" kommer automatiskt att utföra det specificerade kommandot på den valda ER:LC servern när formulärets steg ändras."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Kopierade spelserverbehörigheter",
     "pasteGameServerPermissions": "Klistra in spelserverbehörigheter",
     "copiedERLCPermissions": "Kopierade ER:LC-behörigheter",
-    "pasteERLCPermissions": "Klistra in ER:LC-behörigheter"
+    "pasteERLCPermissions": "Klistra in ER:LC-behörigheter",
+    "shiftTypes": "Skifttyper",
+    "copiedShiftTypesPermissions": "Kopierade ER:LC Behörigheter",
+    "pasteShiftTypesPermissions": "Klistra in ER:LC Behörigheter"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Länka konto",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Tillåt medlemmar att se stadiens detaljer för dolda steg under Mina formulär",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Tillåter medlemmar att ta bort andra medlemmars evenemang inom denna kategori.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Tillåter medlemmar att ta bort sina egna evenemang inom denna kategori.",
-    "allowsMembersToEditTheirOwnEventsInT": "Tillåter medlemmar att redigera sina egna evenemang inom denna kategori."
+    "allowsMembersToEditTheirOwnEventsInT": "Tillåter medlemmar att redigera sina egna evenemang inom denna kategori.",
+    "use": "Använd",
+    "allowsMembersToUseShiftType": "Tillåter medlemmar att använda denna skifttyp för att klocka in och ut."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Ett fel inträffade vid hämtning av serverdata",
     "latestActivity": "senasteAktivitet",
     "showingAllLogs": "Visar alla loggar",
-    "showingPlayerRecords": "Visar spelarens poster"
+    "showingPlayerRecords": "Visar spelarens poster",
+    "pending": "Väntande",
+    "unknownStage": "Okänt Steg"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Ett fel inträffade när serverdetaljer lades till",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "kommando",
     "addType": "Lägg till Typ",
     "saveType": "Spara Typ",
-    "editingRecordType": "REDIGERAR POSTTYP"
+    "editingRecordType": "REDIGERAR POSTTYP",
+    "add": "Lägg till",
+    "save": "Spara",
+    "anErrorWithAddingRequestFormType": "Ett fel uppstod vid tillägg av begäran formulärtyp.",
+    "anErrorWithRemovingRequestFormType": "Ett fel uppstod vid borttagning av begäran formulärtyp.",
+    "requestFormTypes": "Begäran Formulärtyper",
+    "requestFormTypesDescription": "Välj vilka Sonoran CMS väntande formulärtyper som ska visas i ER:LC aktivitetspanelen.",
+    "createNewFormType": "Skapa Ny Formulärtyp",
+    "editingFormType": "Redigerar Formulärtyp",
+    "form": "Formulär",
+    "stages": "Steg",
+    "argument": "Argument",
+    "argumentHint1": "All text som anges här efter",
+    "argumentHint2": "kommer att infogas i detta formulärfält."
   },
   "ERLCPlayers": {
     "playersIngame": "spelareIgång",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Lås Upp Meddelanden",
     "viewChannel": "Visa Kanal",
     "hideChannel": "Dölj Kanal",
-    "lockType": "Låstyp"
+    "lockType": "Låstyp",
+    "formSubmitter": "Formulärinlämnare",
+    "stageChanger": "Stegbytar",
+    "erlcServer": "ER:LC Server",
+    "administration": "Administration",
+    "moderation": "Moderering",
+    "roleplay": "Rollspel"
   }
 }

@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Modyfikuj status społeczności",
       "executeDiscordWebhook": "Wykonaj webhook Discord",
       "executeDiscordDm": "Wyślij wiadomość prywatną na Discord",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Złóż aplikację/formularz",
     "editOwn": "Edytuj własny formularz",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Nieprawidłowy Użytkownik",
     "submittedOn": "Przesłano Na",
     "activity": "Aktywność",
-    "previousSubmissionHistory": "Histórico de Envio Anterior"
+    "previousSubmissionHistory": "Histórico de Envio Anterior",
+    "reasonForStageChange": "Motivo para Mudança de Etapa",
+    "optional": "Opcional",
+    "cancel": "Cancelar",
+    "changeStage": "Mudar Etapa"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Waga musi być między 0 a 100%",
     "RuleStageRequired": "Etap jest wymagany",
     "stageHidden": "Etiqueta e ícone do estágio visíveis apenas para os remetentes com permissões",
-    "stagePublic": "Etiqueta e ícone do estágio visíveis para todos os remetentes"
+    "stagePublic": "Etiqueta e ícone do estágio visíveis para todos os remetentes",
+    "formsstageactiontypeexecuteerlccommand": "Executar Comando ER:LC"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Wynik przetwarzania AI formularza %",
     "formAIScoreDescription": "Wprowadza procentowy wynik przetwarzania AI dla zgłoszenia, jeśli ma zastosowanie.",
     "stageChangerComNameLabel": "Nazwa Społeczności Zmieniacza Etapu",
-    "stageChangerComNameDescription": "Wstawia wyświetlaną nazwę społeczności użytkownika, który zmienił etap."
+    "stageChangerComNameDescription": "Wstawia wyświetlaną nazwę społeczności użytkownika, który zmienił etap.",
+    "executeERLCCommandDescription": "A etapa \"Executar Comando ERLC\" executará automaticamente o comando especificado no servidor ER:LC selecionado quando a etapa do formulário for alterada."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Skopiowane uprawnienia serwera gry",
     "pasteGameServerPermissions": "Wklej uprawnienia serwera gry",
     "copiedERLCPermissions": "Kopiou ER:LC Uprawnienia",
-    "pasteERLCPermissions": "Wklej uprawnienia ER:LC"
+    "pasteERLCPermissions": "Wklej uprawnienia ER:LC",
+    "shiftTypes": "Tipos de Turno",
+    "copiedShiftTypesPermissions": "Permissões ER:LC Copiadas",
+    "pasteShiftTypesPermissions": "Colar Permissões ER:LC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Połącz konto",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Zezwól członkom na oglądanie szczegółów etapów ukrytych pod Moimi Formularzami",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Permite aos membros remover eventos de outros membros dentro desta categoria.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permite aos membros remover seus próprios eventos nesta categoria.",
-    "allowsMembersToEditTheirOwnEventsInT": "Permite aos membros editar seus próprios eventos nesta categoria."
+    "allowsMembersToEditTheirOwnEventsInT": "Permite aos membros editar seus próprios eventos nesta categoria.",
+    "use": "Usar",
+    "allowsMembersToUseShiftType": "Permite que os membros usem este tipo de turno para registrar entrada e saída."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Wystąpił błąd podczas pobierania danych serwera",
     "latestActivity": "última actividad",
     "showingAllLogs": "Mostrando todos os registros",
-    "showingPlayerRecords": "Mostrando registros de jogadores"
+    "showingPlayerRecords": "Mostrando registros de jogadores",
+    "pending": "Pendente",
+    "unknownStage": "Etapa Desconhecida"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu ayrıntıları eklenirken bir hata oluştu.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "comando",
     "addType": "Adicionar Tipo",
     "saveType": "Salvar Tipo",
-    "editingRecordType": "EDITANDO TIPO DE REGISTRO"
+    "editingRecordType": "EDITANDO TIPO DE REGISTRO",
+    "add": "Adicionar",
+    "save": "Salvar",
+    "anErrorWithAddingRequestFormType": "Ocorreu um erro ao adicionar o tipo de formulário de solicitação.",
+    "anErrorWithRemovingRequestFormType": "Ocorreu um erro ao remover o tipo de formulário de solicitação.",
+    "requestFormTypes": "Tipos de Formulário de Solicitação",
+    "requestFormTypesDescription": "Selecione quais tipos de formulário pendentes da CMS aparecem no painel de atividades do ER:LC.",
+    "createNewFormType": "Criar Novo Tipo de Formulário",
+    "editingFormType": "Editando Tipo de Formulário",
+    "form": "Formulário",
+    "stages": "Etapas",
+    "argument": "Argumento",
+    "argumentHint1": "Todo o texto inserido aqui após o \":log",
+    "argumentHint2": "\" será inserido neste campo do formulário."
   },
   "ERLCPlayers": {
     "playersIngame": "игрокиВигре",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Desbloquear Mensagens",
     "viewChannel": "Ver Canal",
     "hideChannel": "Ocultar Canal",
-    "lockType": "Tipo de Bloqueio"
+    "lockType": "Tipo de Bloqueio",
+    "formSubmitter": "Submissor de Formulário",
+    "stageChanger": "Mudador de Etapa",
+    "erlcServer": "Servidor ER:LC",
+    "administration": "Administração",
+    "moderation": "Moderação",
+    "roleplay": "Roleplay"
   }
 }

@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "تعديل حالة المجتمع",
       "executeDiscordWebhook": "تنفيذ Webhook على Discord",
       "executeDiscordDm": "إرسال رسالة خاصة على Discord",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "تقديم طلب/نموذج",
     "editOwn": "تعديل النموذج الخاص",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "مستخدم غير صالح",
     "submittedOn": "تم التقديم في",
     "activity": "نشاط",
-    "previousSubmissionHistory": "سجل الإرسال السابق"
+    "previousSubmissionHistory": "سجل الإرسال السابق",
+    "reasonForStageChange": "سبب تغيير المرحلة",
+    "optional": "اختياري",
+    "cancel": "إلغاء",
+    "changeStage": "تغيير المرحلة"
   },
   "StageEditorCard": {
     "icon": "أيقونة",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "الوزن يجب أن يكون بين 0 و 100٪",
     "RuleStageRequired": "المرحلة مطلوبة",
     "stageHidden": "تسميات المرحلة والرموز مرئية فقط للمقدمين الحاصلين على الأذونات",
-    "stagePublic": "تسميات المرحلة والرموز مرئية لجميع المقدمين"
+    "stagePublic": "تسميات المرحلة والرموز مرئية لجميع المقدمين",
+    "formsstageactiontypeexecuteerlccommand": "تنفيذ أمر ER:LC"
   },
   "StageReorderDialog": {
     "newStage": "مرحلة جديدة",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "نسبة معالجة نموذج الذكاء الاصطناعي %",
     "formAIScoreDescription": "إدراج نسبة معالجة الذكاء الاصطناعي للتقديم إذا كان ذلك ينطبق.",
     "stageChangerComNameLabel": "اسم مجتمع مُغيّر المرحلة",
-    "stageChangerComNameDescription": "يُدرج اسم العرض للمجتمع للمستخدم الذي غيّر المرحلة."
+    "stageChangerComNameDescription": "يُدرج اسم العرض للمجتمع للمستخدم الذي غيّر المرحلة.",
+    "executeERLCCommandDescription": "سيقوم المرحلة 'تنفيذ أمر ERLC' بتنفيذ الأمر المحدد تلقائيًا على الخادم المحدد لـ ER:LC عند تغيير مرحلة النموذج."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "نسخ أذونات خادم اللعبة",
     "pasteGameServerPermissions": "لصق أذونات خادم اللعبة",
     "copiedERLCPermissions": "نسخ أذونات ER:LC",
-    "pasteERLCPermissions": "الصق أذونات ER:LC"
+    "pasteERLCPermissions": "الصق أذونات ER:LC",
+    "shiftTypes": "أنواع الورديات",
+    "copiedShiftTypesPermissions": "نسخ أذونات ER:LC",
+    "pasteShiftTypesPermissions": "لصق أذونات ER:LC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "خوادم سونوران - ربط الحساب",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "السماح للأعضاء بعرض تفاصيل المراحل المخفية تحت النماذج الخاصة بي",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "يسمح للأعضاء بإزالة أحداث الأعضاء الآخرين ضمن هذه الفئة.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "يسمح للأعضاء بإزالة أحداثهم الشخصية ضمن هذه الفئة.",
-    "allowsMembersToEditTheirOwnEventsInT": "يسمح للأعضاء بتحرير أحداثهم الشخصية ضمن هذه الفئة."
+    "allowsMembersToEditTheirOwnEventsInT": "يسمح للأعضاء بتحرير أحداثهم الشخصية ضمن هذه الفئة.",
+    "use": "استخدام",
+    "allowsMembersToUseShiftType": "يسمح للأعضاء باستخدام نوع الوردية هذا للتسجيل وقت الدخول والخروج."
   },
   "permissionToggleGroup": {
     "inherited": "موروث",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "حدث خطأ أثناء استرجاع بيانات الخادم",
     "latestActivity": "النشاط الأخير",
     "showingAllLogs": "عرض جميع السجلات",
-    "showingPlayerRecords": "عرض سجلات اللاعبين"
+    "showingPlayerRecords": "عرض سجلات اللاعبين",
+    "pending": "قيد الانتظار",
+    "unknownStage": "مرحلة غير معروفة"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "حدث خطأ أثناء إضافة تفاصيل الخادم",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "الأمر",
     "addType": "إضافة نوع",
     "saveType": "حفظ النوع",
-    "editingRecordType": "تحرير نوع السجل"
+    "editingRecordType": "تحرير نوع السجل",
+    "add": "إضافة",
+    "save": "حفظ",
+    "anErrorWithAddingRequestFormType": "حدث خطأ أثناء إضافة نوع طلب النموذج.",
+    "anErrorWithRemovingRequestFormType": "حدث خطأ أثناء إزالة نوع طلب النموذج.",
+    "requestFormTypes": "أنواع طلب النماذج",
+    "requestFormTypesDescription": "اختر أنواع النماذج المعلقة في CMS التي تظهر في لوحة نشاط ER:LC.",
+    "createNewFormType": "إنشاء نوع نموذج جديد",
+    "editingFormType": "تحرير نوع النموذج",
+    "form": "نموذج",
+    "stages": "مراحل",
+    "argument": "حجة",
+    "argumentHint1": "سيتم إدخال كل النص المكتوب هنا بعد \":log",
+    "argumentHint2": "\" سيتم إدخاله في حقل النموذج هذا."
   },
   "ERLCPlayers": {
     "playersIngame": "اللاعبون في اللعبة",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "إلغاء قفل الرسائل",
     "viewChannel": "عرض القناة",
     "hideChannel": "إخفاء القناة",
-    "lockType": "نوع القفل"
+    "lockType": "نوع القفل",
+    "formSubmitter": "مقدم النموذج",
+    "stageChanger": "مغير المرحلة",
+    "erlcServer": "خادم ER:LC",
+    "administration": "إدارة",
+    "moderation": "الإشراف",
+    "roleplay": "لعب الأدوار"
   }
 }

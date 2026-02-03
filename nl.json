@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Gemeenschapsstatus Wijzigen",
       "executeDiscordWebhook": "Discord Webhook Uitvoeren",
       "executeDiscordDm": "Stuur Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Toepassing/Formulier Indienen",
     "editOwn": "Eigen Formulier Bewerken",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Ongeldige Gebruiker",
     "submittedOn": "Ingediend Op",
     "activity": "Activiteit",
-    "previousSubmissionHistory": "Vorige inzending geschiedenis"
+    "previousSubmissionHistory": "Vorige inzending geschiedenis",
+    "reasonForStageChange": "Reden voor fasewijziging",
+    "optional": "Optioneel",
+    "cancel": "Annuleren",
+    "changeStage": "Wijzig fase"
   },
   "StageEditorCard": {
     "icon": "Icoon",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Het gewicht moet tussen 0 en 100% zijn",
     "RuleStageRequired": "Stage is vereist",
     "stageHidden": "Stadiumlabel en pictogram alleen zichtbaar voor indieners met toestemming",
-    "stagePublic": "Stadiumlabel en pictogram zichtbaar voor alle indieners"
+    "stagePublic": "Stadiumlabel en pictogram zichtbaar voor alle indieners",
+    "formsstageactiontypeexecuteerlccommand": "Voer ER:LC Commando uit"
   },
   "StageReorderDialog": {
     "newStage": "Nieuwe Fase",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Formulier AI-verwerkingsscore %",
     "formAIScoreDescription": "Voegt het AI-verwerkingsscorepercentage in voor de indiening indien van toepassing.",
     "stageChangerComNameLabel": "Gemeenschapsnaam Stadia-Wijziger",
-    "stageChangerComNameDescription": "Voegt de gemeenschapsnaam in van de gebruiker die de fase heeft gewijzigd."
+    "stageChangerComNameDescription": "Voegt de gemeenschapsnaam in van de gebruiker die de fase heeft gewijzigd.",
+    "executeERLCCommandDescription": "De fase \"Voer ERLC Commando uit\" zal automatisch het gespecificeerde commando uitvoeren op de geselecteerde ER:LC server wanneer de formulierfase verandert."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Gekopieerde Spelserverrechten",
     "pasteGameServerPermissions": "Plak Spelserverrechten",
     "copiedERLCPermissions": "Gekopieerde ER:LC Machtigingen",
-    "pasteERLCPermissions": "Plak ER:LC-machtigingen"
+    "pasteERLCPermissions": "Plak ER:LC-machtigingen",
+    "shiftTypes": "Ploegtypen",
+    "copiedShiftTypesPermissions": "Gekopieerde ER:LC Machtigingen",
+    "pasteShiftTypesPermissions": "Plak ER:LC Machtigingen"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Account Koppelen",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Leden toestaan om stadiumdetails van verborgen stadia onder Mijn Formulieren te bekijken",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Staat leden toe om evenementen van andere leden binnen deze categorie te verwijderen.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Staat leden toe hun eigen evenementen in deze categorie te verwijderen.",
-    "allowsMembersToEditTheirOwnEventsInT": "Staat leden toe hun eigen evenementen in deze categorie te bewerken."
+    "allowsMembersToEditTheirOwnEventsInT": "Staat leden toe hun eigen evenementen in deze categorie te bewerken.",
+    "use": "Gebruik",
+    "allowsMembersToUseShiftType": "Staat leden toe dit ploegtype te gebruiken voor het in- en uitklokken."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Er is een fout opgetreden bij het ophalen van servergegevens",
     "latestActivity": "laatsteActiviteit",
     "showingAllLogs": "Alle logs weergeven",
-    "showingPlayerRecords": "Spelerrecords weergeven"
+    "showingPlayerRecords": "Spelerrecords weergeven",
+    "pending": "In afwachting",
+    "unknownStage": "Onbekende Fase"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Er is een fout opgetreden bij het toevoegen van serverdetails",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "opdracht",
     "addType": "Type Toevoegen",
     "saveType": "Type Opslaan",
-    "editingRecordType": "RECORDTYPE BEWERKEN"
+    "editingRecordType": "RECORDTYPE BEWERKEN",
+    "add": "Toevoegen",
+    "save": "Opslaan",
+    "anErrorWithAddingRequestFormType": "Er is een fout opgetreden bij het toevoegen van verzoekformuliertype.",
+    "anErrorWithRemovingRequestFormType": "Er is een fout opgetreden bij het verwijderen van verzoekformuliertype.",
+    "requestFormTypes": "Verzoek Formulier Types",
+    "requestFormTypesDescription": "Selecteer welke CMS in afwachting zijnde formulier types verschijnen in het ER:LC activiteitspanel.",
+    "createNewFormType": "Maak Nieuw Formulier Type",
+    "editingFormType": "Bewerk Formulier Type",
+    "form": "Formulier",
+    "stages": "Fasen",
+    "argument": "Argument",
+    "argumentHint1": "Alle tekst die hier wordt ingevoerd na de \":log",
+    "argumentHint2": "\" zal in dit formulier veld worden ingevoegd."
   },
   "ERLCPlayers": {
     "playersIngame": "spelers in-game",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Berichten Ontgrendelen",
     "viewChannel": "Kanaal Bekijken",
     "hideChannel": "Kanaal Verbergen",
-    "lockType": "Vergrendelingstype"
+    "lockType": "Vergrendelingstype",
+    "formSubmitter": "Formulier Indiener",
+    "stageChanger": "Faseveranderaar",
+    "erlcServer": "ER:LC Server",
+    "administration": "Administratie",
+    "moderation": "Moderatie",
+    "roleplay": "Roleplay"
   }
 }

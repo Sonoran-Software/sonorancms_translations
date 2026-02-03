@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Topluluk Durumunu Değiştir",
       "executeDiscordWebhook": "Discord Webhook'u Çalıştır",
       "executeDiscordDm": "Discord DM Gönder",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Başvuru/Form Gönder",
     "editOwn": "Kendi Formunu Düzenle",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Geçersiz Kullanıcı",
     "submittedOn": "Gönderildiği Tarih",
     "activity": "Aktivite",
-    "previousSubmissionHistory": "Önceki Gönderim Geçmişi"
+    "previousSubmissionHistory": "Önceki Gönderim Geçmişi",
+    "reasonForStageChange": "Aşama Değişikliği Nedeni",
+    "optional": "İsteğe Bağlı",
+    "cancel": "İptal",
+    "changeStage": "Aşamayı Değiştir"
   },
   "StageEditorCard": {
     "icon": "Simge",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Ağırlık %0 ile %100 arasında olmalıdır.",
     "RuleStageRequired": "Aşama gereklidir",
     "stageHidden": "Aşama etiketi ve simgesi yalnızca izinli göndericilere görünür",
-    "stagePublic": "Aşama etiketi ve simgesi tüm göndericilere görünür"
+    "stagePublic": "Aşama etiketi ve simgesi tüm göndericilere görünür",
+    "formsstageactiontypeexecuteerlccommand": "ER:LC Komutunu Çalıştır"
   },
   "StageReorderDialog": {
     "newStage": "Yeni Aşama",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "AI İşleme Skoru %",
     "formAIScoreDescription": "Başvuru için geçerliyse, AI işleme puanı yüzdesini ekler.",
     "stageChangerComNameLabel": "Aşama Değiştirici Topluluk Adı",
-    "stageChangerComNameDescription": "Aşamayı değiştiren kullanıcının topluluk gösterim adını ekler."
+    "stageChangerComNameDescription": "Aşamayı değiştiren kullanıcının topluluk gösterim adını ekler.",
+    "executeERLCCommandDescription": "“ER:LC Komutunu Çalıştır” aşaması, form aşaması değiştiğinde belirtilen komutu seçilen ER:LC sunucusunda otomatik olarak çalıştıracaktır."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Oyun Sunucusu İzinleri Kopyalandı",
     "pasteGameServerPermissions": "Oyun Sunucusu İzinlerini Yapıştır",
     "copiedERLCPermissions": "Kopyalanan ER:LC İzinleri",
-    "pasteERLCPermissions": "ER:LC İzinlerini Yapıştır"
+    "pasteERLCPermissions": "ER:LC İzinlerini Yapıştır",
+    "shiftTypes": "Vardiya Türleri",
+    "copiedShiftTypesPermissions": "Kopyalanmış ER:LC İzinleri",
+    "pasteShiftTypesPermissions": "ER:LC İzinlerini Yapıştır"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Sunucuları - Hesap Bağla",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Üyelerin Formlarım altında gizli aşamaların aşama ayrıntılarını görüntülemesine izin ver",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Üyelere, bu kategori içindeki diğer üyelerin etkinliklerini kaldırmalarına izin verir.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Üyelere, bu kategori içinde kendi etkinliklerini kaldırmalarına izin verir.",
-    "allowsMembersToEditTheirOwnEventsInT": "Üyelere, bu kategori içinde kendi etkinliklerini düzenlemelerine izin verir."
+    "allowsMembersToEditTheirOwnEventsInT": "Üyelere, bu kategori içinde kendi etkinliklerini düzenlemelerine izin verir.",
+    "use": "Kullan",
+    "allowsMembersToUseShiftType": "Üyelerin giriş ve çıkış yapmak için bu vardiya türünü kullanmasına izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Sunucu verileri alınırken bir hata oluştu.",
     "latestActivity": "son etkinlik",
     "showingAllLogs": "Tüm günlükler gösteriliyor",
-    "showingPlayerRecords": "Oyuncu kayıtları gösteriliyor"
+    "showingPlayerRecords": "Oyuncu kayıtları gösteriliyor",
+    "pending": "Bekleyen",
+    "unknownStage": "Bilinmeyen Aşama"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Sunucu ayrıntıları eklenirken bir hata oluştu.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "komut",
     "addType": "Tür Ekle",
     "saveType": "Türü Kaydet",
-    "editingRecordType": "KAYIT TÜRÜ DÜZENLENİYOR"
+    "editingRecordType": "KAYIT TÜRÜ DÜZENLENİYOR",
+    "add": "Ekle",
+    "save": "Kaydet",
+    "anErrorWithAddingRequestFormType": "İstek formu türü eklenirken bir hata oluştu.",
+    "anErrorWithRemovingRequestFormType": "İstek formu türü kaldırılırken bir hata oluştu.",
+    "requestFormTypes": "İstek Formu Türleri",
+    "requestFormTypesDescription": "Hangi CMS bekleyen form türlerinin ER:LC etkinlik panelinde görüneceğini seçin.",
+    "createNewFormType": "Yeni Form Türü Oluştur",
+    "editingFormType": "Form Türünü Düzenleme",
+    "form": "Form",
+    "stages": "Aşamalar",
+    "argument": "Argüman",
+    "argumentHint1": ":log'dan sonra buraya girilen tüm metin bu form alanına eklenecektir.",
+    "argumentHint2": "“ bu form alanına eklenecektir."
   },
   "ERLCPlayers": {
     "playersIngame": "oyuncularOyunda",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Mesajların Kilidini Aç",
     "viewChannel": "Kanalı Görüntüle",
     "hideChannel": "Kanalı Gizle",
-    "lockType": "Kilit Türü"
+    "lockType": "Kilit Türü",
+    "formSubmitter": "Form Gönderen",
+    "stageChanger": "Aşama Değiştirici",
+    "erlcServer": "ER:LC Sunucu",
+    "administration": "Yönetim",
+    "moderation": "Moderatörlük",
+    "roleplay": "Rol yapma"
   }
 }

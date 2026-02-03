@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "Upravit stav komunity",
       "executeDiscordWebhook": "Spustit Discord Webhook",
       "executeDiscordDm": "Odeslat Discord DM",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "Odeslat žádost/formulář",
     "editOwn": "Upravit vlastní formulář",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "Neplatný uživatel",
     "submittedOn": "Odesláno dne",
     "activity": "Aktivita",
-    "previousSubmissionHistory": "Předchozí historie podání"
+    "previousSubmissionHistory": "Předchozí historie podání",
+    "reasonForStageChange": "Důvod pro změnu fáze",
+    "optional": "Volitelný",
+    "cancel": "Zrušit",
+    "changeStage": "Změnit fázi"
   },
   "StageEditorCard": {
     "icon": "Ikona",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "Hmotnost musí být mezi 0 a 100 %",
     "RuleStageRequired": "Fáze je povinná",
     "stageHidden": "Štítek a ikona etapy viditelné pouze pro odesílatele s oprávněním",
-    "stagePublic": "Štítek a ikona etapy viditelné pro všechny odesílatele"
+    "stagePublic": "Štítek a ikona etapy viditelné pro všechny odesílatele",
+    "formsstageactiontypeexecuteerlccommand": "Proveďte příkaz ER:LC"
   },
   "StageReorderDialog": {
     "newStage": "Nová fáze",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "Skóre zpracování AI formuláře %",
     "formAIScoreDescription": "Vloží procento skóre zpracování AI pro podání, pokud je to relevantní.",
     "stageChangerComNameLabel": "Název komunity měniče fáze",
-    "stageChangerComNameDescription": "Vloží zobrazované jméno komunity uživatele, který změnil fázi."
+    "stageChangerComNameDescription": "Vloží zobrazované jméno komunity uživatele, který změnil fázi.",
+    "executeERLCCommandDescription": "Fáze 'Proveďte příkaz ERLC' automaticky provede zadaný příkaz na vybraném serveru ER:LC při změně fáze formuláře."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "Zkopírovaná oprávnění herního serveru",
     "pasteGameServerPermissions": "Vložit oprávnění herního serveru",
     "copiedERLCPermissions": "Zkopírováno ER:LC Oprávnění",
-    "pasteERLCPermissions": "Vložit oprávnění ER:LC"
+    "pasteERLCPermissions": "Vložit oprávnění ER:LC",
+    "shiftTypes": "Typy směn",
+    "copiedShiftTypesPermissions": "Kopírováno oprávnění ER:LC",
+    "pasteShiftTypesPermissions": "Vložit oprávnění ER:LC"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran Servers - Propojit účet",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "Povolit členům zobrazit podrobnosti o fázích skrytých fází v Mých formulářích",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "Umožňuje členům odstranit události ostatních členů v této kategorii.",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Umožňuje členům odstranit vlastní události v této kategorii.",
-    "allowsMembersToEditTheirOwnEventsInT": "Umožňuje členům upravit vlastní události v této kategorii."
+    "allowsMembersToEditTheirOwnEventsInT": "Umožňuje členům upravit vlastní události v této kategorii.",
+    "use": "Použít",
+    "allowsMembersToUseShiftType": "Umožňuje členům používat tento typ směny pro přihlášení a odhlášení."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "Při načítání dat serveru došlo k chybě",
     "latestActivity": "nejnovější aktivita",
     "showingAllLogs": "Zobrazení všech protokolů",
-    "showingPlayerRecords": "Zobrazení záznamů hráče"
+    "showingPlayerRecords": "Zobrazení záznamů hráče",
+    "pending": "Čeká se",
+    "unknownStage": "Neznámá fáze"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "Při přidávání detailů serveru došlo k chybě.",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "příkaz",
     "addType": "Přidat typ",
     "saveType": "Uložit typ",
-    "editingRecordType": "ÚPRAVA TYPU ZÁZNAMU"
+    "editingRecordType": "ÚPRAVA TYPU ZÁZNAMU",
+    "add": "Přidat",
+    "save": "Uložit",
+    "anErrorWithAddingRequestFormType": "Došlo k chybě při přidávání typu žádaného formuláře.",
+    "anErrorWithRemovingRequestFormType": "Došlo k chybě při odstraňování typu žádaného formuláře.",
+    "requestFormTypes": "Typy žádostí o formuláře",
+    "requestFormTypesDescription": "Vyberte, které typy žádaných formulářů z CMS se objeví v panelu aktivit ER:LC.",
+    "createNewFormType": "Vytvořit nový typ formuláře",
+    "editingFormType": "Úprava typu formuláře",
+    "form": "Formulář",
+    "stages": "Fáze",
+    "argument": "Argument",
+    "argumentHint1": "Veškerý text zadaný zde po \":log",
+    "argumentHint2": "\" bude vložen do tohoto pole formuláře."
   },
   "ERLCPlayers": {
     "playersIngame": "hráči ve hře",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "Odemknout zprávy",
     "viewChannel": "Zobrazit kanál",
     "hideChannel": "Skrýt kanál",
-    "lockType": "Typ zámku"
+    "lockType": "Typ zámku",
+    "formSubmitter": "Odesílatel formuláře",
+    "stageChanger": "Měnič fáze",
+    "erlcServer": "ER:LC Server",
+    "administration": "Správa",
+    "moderation": "Moderace",
+    "roleplay": "Roleplay"
   }
 }

@@ -190,7 +190,8 @@
       "modifyCommunityStatus": "修改社区状态",
       "executeDiscordWebhook": "执行Discord Webhook",
       "executeDiscordDm": "发送Discord私信",
-      "applyDisciplinaryPoints": "Apply Disciplinary Points"
+      "applyDisciplinaryPoints": "Apply Disciplinary Points",
+      "executeERLCCommand": "Execute ER:LC Command"
     },
     "appSubmit": "提交申请/表单",
     "editOwn": "编辑自己的表单",
@@ -2252,7 +2253,11 @@
     "invalidUser17": "无效用户",
     "submittedOn": "提交时间",
     "activity": "活动",
-    "previousSubmissionHistory": "先前提交记录"
+    "previousSubmissionHistory": "先前提交记录",
+    "reasonForStageChange": "阶段更改原因",
+    "optional": "可选",
+    "cancel": "取消",
+    "changeStage": "更改阶段"
   },
   "StageEditorCard": {
     "icon": "图标",
@@ -2294,7 +2299,8 @@
     "WeightMustBeBetween": "重量必须在 0 到 100% 之间",
     "RuleStageRequired": "阶段是必需的",
     "stageHidden": "阶段标签和图标仅对有权限的提交者可见",
-    "stagePublic": "阶段标签和图标对所有提交者可见"
+    "stagePublic": "阶段标签和图标对所有提交者可见",
+    "formsstageactiontypeexecuteerlccommand": "执行ER:LC命令"
   },
   "StageReorderDialog": {
     "newStage": "新阶段",
@@ -3583,7 +3589,8 @@
     "formAIScoreLabel": "表单AI处理得分%",
     "formAIScoreDescription": "如果适用，插入提交的AI处理得分百分比。",
     "stageChangerComNameLabel": "阶段更改者社区名称",
-    "stageChangerComNameDescription": "插入更改阶段的用户的社区显示名称。"
+    "stageChangerComNameDescription": "插入更改阶段的用户的社区显示名称。",
+    "executeERLCCommandDescription": "阶段“执行ERLC命令”将在表单阶段更改时自动在选定的ER:LC服务器上执行指定命令。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",
@@ -3984,7 +3991,10 @@
     "copiedGameServerPermissions": "复制的游戏服务器权限",
     "pasteGameServerPermissions": "粘贴游戏服务器权限",
     "copiedERLCPermissions": "已复制ER:LC权限",
-    "pasteERLCPermissions": "粘贴ER:LC权限"
+    "pasteERLCPermissions": "粘贴ER:LC权限",
+    "shiftTypes": "班次类型",
+    "copiedShiftTypesPermissions": "复制的ER:LC权限",
+    "pasteShiftTypesPermissions": "粘贴ER:LC权限"
   },
   "serverLink": {
     "serverslinksonoranserverslinkaccount": "Sonoran 服务器 - 关联账户",
@@ -4182,7 +4192,9 @@
     "allowMembersToViewHiddenStages": "允许成员查看“我的表单”中隐藏阶段的阶段详情",
     "allowsMembersToRemoveOtherMembersEventsWithinThisCat": "允许成员在此类别中移除其他成员的活动。",
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "允许成员在此类别中移除自己的活动。",
-    "allowsMembersToEditTheirOwnEventsInT": "允许成员在此类别中编辑自己的活动。"
+    "allowsMembersToEditTheirOwnEventsInT": "允许成员在此类别中编辑自己的活动。",
+    "use": "使用",
+    "allowsMembersToUseShiftType": "允许成员使用此班次类型进行上下班打卡。"
   },
   "permissionToggleGroup": {
     "inherited": "继承",
@@ -4464,7 +4476,9 @@
     "errorAnErrorOccuredWhileFetchingServerDa": "获取服务器数据时发生错误",
     "latestActivity": "最新活动",
     "showingAllLogs": "显示所有日志",
-    "showingPlayerRecords": "显示玩家记录"
+    "showingPlayerRecords": "显示玩家记录",
+    "pending": "待定",
+    "unknownStage": "未知阶段"
   },
   "ERLCEnvironment": {
     "anErrorOccuredWhileAddingServerDetailsTr": "添加服务器详细信息时发生错误",
@@ -4505,7 +4519,20 @@
     "lowercaseCommand": "命令",
     "addType": "添加类型",
     "saveType": "保存类型",
-    "editingRecordType": "编辑记录类型"
+    "editingRecordType": "编辑记录类型",
+    "add": "添加",
+    "save": "保存",
+    "anErrorWithAddingRequestFormType": "添加请求表单类型时出现错误。",
+    "anErrorWithRemovingRequestFormType": "移除请求表单类型时出现错误。",
+    "requestFormTypes": "请求表单类型",
+    "requestFormTypesDescription": "选择哪些CMS待处理的表单类型出现在ER:LC活动面板中。",
+    "createNewFormType": "创建新表单类型",
+    "editingFormType": "编辑表单类型",
+    "form": "表单",
+    "stages": "阶段",
+    "argument": "参数",
+    "argumentHint1": "在“:log”之后输入的所有文本都将插入到此表单字段中。",
+    "argumentHint2": "将插入到此表单字段中。"
   },
   "ERLCPlayers": {
     "playersIngame": "玩家在游戏中",
@@ -4889,6 +4916,12 @@
     "unlockMessages": "解锁消息",
     "viewChannel": "查看频道",
     "hideChannel": "隐藏频道",
-    "lockType": "锁定类型"
+    "lockType": "锁定类型",
+    "formSubmitter": "表单提交者",
+    "stageChanger": "阶段变更者",
+    "erlcServer": "ER:LC服务器",
+    "administration": "管理",
+    "moderation": "管理",
+    "roleplay": "角色扮演"
   }
 }
