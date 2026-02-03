@@ -4935,6 +4935,10 @@
     "hideChannel": "Hide Channel",
     "lockType": "Lock Type",
     "formSubmitter": "Form Submitter",
-    "stageChanger": "Stage Changer"
+    "stageChanger": "Stage Changer",
+    "erlcServer": "ER:LC Server",
+    "administration": "Administration",
+    "moderation": "Moderation",
+    "roleplay": "Roleplay"
   }
 }
