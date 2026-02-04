@@ -181,7 +181,8 @@
       "executeDiscordWebhook": "Execute Discord Webhook",
       "executeDiscordDm": "Send Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Submit Application/Form",
     "editOwn": "Edit Own Form",
@@ -2438,7 +2439,8 @@
     "RuleStageRequired": "Stage is required",
     "stageHidden": "Stage label and icon visible only to submitters with permissions",
     "stagePublic": "Stage label and icon visible to all submitters",
-    "formsstageactiontypeexecuteerlccommand": "Execute ER:LC Command"
+    "formsstageactiontypeexecuteerlccommand": "Execute ER:LC Command",
+    "formsstageactiontypemodifyrostercolumn": "Modify Roster Column"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
@@ -3740,7 +3742,8 @@
     "stageChangerComNameDescription": "Inserts the commuunity display name of the user who changed the stage.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
     "conditionalQuestionStartExplaination": "This action will execute",
-    "executeERLCCommandDescription": "The stage \"Execute ERLC Command\" will automatically execute the specified command on the selected ER:LC server when the form stage changes."
+    "executeERLCCommandDescription": "The stage \"Execute ERLC Command\" will automatically execute the specified command on the selected ER:LC server when the form stage changes.",
+    "modifyRosterColumnDescription": "The stage \"Modify Roster Column\" will automatically update the specified user's roster column value for the specified roster's column with specified value."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Ranks to Notify",
@@ -3948,7 +3951,10 @@
     "cloneField": "Clone Field",
     "conditionalQuestionStartExplaination": "This section will be visible",
     "stageHidden": "Hidden Stage",
-    "type": "Type"
+    "type": "Type",
+    "embedElement": "Select embed element",
+    "embedSource": "Embed Source",
+    "embed": "Embed"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
@@ -4941,6 +4947,9 @@
     "erlcServer": "ER:LC Server",
     "administration": "Administration",
     "moderation": "Moderation",
-    "roleplay": "Roleplay"
+    "roleplay": "Roleplay",
+    "roster": "Roster",
+    "column": "Column",
+    "newValue": "New Value"
   }
 }
