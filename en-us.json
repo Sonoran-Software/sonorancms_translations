@@ -986,7 +986,8 @@
     "promoterComNameVariableDesc": "This will state the community name of the user who triggered the promotion flow.",
     "comNameVariableLabel": "Community Name",
     "comNameVariableDesc": "This will state the community name of the user affected by the promotion flow.",
-    "insufficientPermissionsToRunPromotions": "Insufficient Permissions To Run Promotions"
+    "insufficientPermissionsToRunPromotions": "Insufficient Permissions To Run Promotions",
+    "requiresChangeHigherPermissions": "Requires Permission: Change Higher Permissions"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Commmunity API Tutorial",
