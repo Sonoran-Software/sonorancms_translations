@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Esegui Webhook di Discord",
       "executeDiscordDm": "Invia DM su Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Invia Domanda/Modulo",
     "editOwn": "Modifica il Proprio Modulo",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Documentazione pannello ER:LC",
     "session": "Sessione",
     "management": "Gestione",
-    "import": "Importa"
+    "import": "Importa",
+    "accountFlagDescription": "Indagare potenziali account utente duplicati per mantenere la tua comunità sicura."
   },
   "Dashboard": {
     "securityDashboard": "Sicurezza - Dashboard",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Gestisci le preferenze di notifica per vari eventi e aggiornamenti della comunità.",
     "shiftType": "Tipo di turno",
     "none": "Nessuno",
-    "errorAnErrorOccuredWhileFetching": "Errore: si è verificato un errore durante il recupero"
+    "errorAnErrorOccuredWhileFetching": "Errore: si è verificato un errore durante il recupero",
+    "vision": "Visione",
+    "visionDescription": "Configura le impostazioni di visione per la moderazione in gioco. Punta su un giocatore per aprire i suoi record.",
+    "hotkeyCombination": "Combinazione di Tasti Rapidi",
+    "captureBox": "Area di Cattura",
+    "captureHotkey": "Tasto Rapido di Cattura",
+    "captureBoxDescription": "Configura l'area di cattura attorno al cursore per il riconoscimento del giocatore.",
+    "showCaptureBoxAroundCursor": "Mostra l'area di cattura attorno al cursore",
+    "captureWidthPixels": "Larghezza di Cattura",
+    "captureHeightPixels": "Altezza di Cattura",
+    "verticalOffsetPixels": "Offset Verticale",
+    "startRecording": "Inizia Registrazione",
+    "stopRecording": "Termina Registrazione",
+    "saveVisionSettings": "Salva Impostazioni di Visione",
+    "ocrHotkeyRecordingHint": "Premi la combinazione di tasti desiderata, quindi fai clic su Termina Registrazione.",
+    "visionSettingsSaved": "Impostazioni di visione salvate.",
+    "visionSettingsSaveFailed": "Salvataggio delle impostazioni di visione fallito. Il collegamento potrebbe essere non valido o già in uso."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial sugli Account Utente",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Formato Nome",
     "formatKeys": "Chiavi del formato",
     "disabledNameCustomizations": "Nome formato disabilitato a causa della sincronizzazione del nome di Discord",
-    "onJoinActions": "Azioni all'Unione"
+    "onJoinActions": "Azioni all'Unione",
+    "communityInfo": "Informazioni sulla Comunità"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial per l'Accorciatore di URL",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Il palco è richiesto",
     "stageHidden": "Etichetta e icona della fase visibili solo ai presentatori con autorizzazioni",
     "stagePublic": "Etichetta e icona della fase visibili a tutti i presentatori",
-    "formsstageactiontypeexecuteerlccommand": "Esegui comando ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Esegui comando ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Modifica Colonna Roster"
   },
   "StageReorderDialog": {
     "newStage": "Nuova Fase",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nuovo nome del gruppo",
     "groupPermissions": "Permessi di Gruppo",
     "ranks": "Gradi",
-    "promotions": "Promozioni"
+    "promotions": "Promozioni",
+    "rankManager": "Gestore Gradi",
+    "rankManagerSubtitle": "Gestisci i gradi, i gruppi e i permessi della tua comunità."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial sui Campi del Profilo",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Inserisce la percentuale di punteggio di elaborazione AI per l'invio, se applicabile.",
     "stageChangerComNameLabel": "Nome Comunità Modifica Fase",
     "stageChangerComNameDescription": "Inserisce il nome visualizzato della comunità dell'utente che ha cambiato la fase.",
-    "executeERLCCommandDescription": "La fase \"Esegui comando ERLC\" eseguirà automaticamente il comando specificato sul server ER:LC selezionato quando cambia la fase del modulo."
+    "executeERLCCommandDescription": "La fase \"Esegui comando ERLC\" eseguirà automaticamente il comando specificato sul server ER:LC selezionato quando cambia la fase del modulo.",
+    "modifyRosterColumnDescription": "Lo stadio \"Modifica Colonna Roster\" aggiornerà automaticamente il valore della colonna roster dell'utente specificato per la colonna del roster specificato con il valore specificato."
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "ID Roblox Automatico Membri",
     "communityMemberRobloxIdElement": "Elemento ID Roblox membro della community",
     "stageHidden": "Fase nascosta",
-    "type": "Tipo"
+    "type": "Tipo",
+    "embedElement": "Seleziona elemento da incorporare",
+    "embedSource": "Fonte da Incorporare",
+    "embed": "Incorpora"
   },
   "selectRoster": {
     "selectRoster": "Seleziona Elenco"
@@ -4869,7 +4895,8 @@
     "run": "Esegui",
     "flows": "Flussi",
     "confirmDelete": "Sei sicuro di voler eliminare questo flusso di promozione?",
-    "insufficientPermissionsToRunPromotions": "Autorizzazioni Insufficienti Per Eseguire Promozioni"
+    "insufficientPermissionsToRunPromotions": "Autorizzazioni Insufficienti Per Eseguire Promozioni",
+    "requiresChangeHigherPermissions": "Richiede Permesso: Cambia Permessi Superiori"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nessun Giocatore Trovato... Cerca",
@@ -4922,6 +4949,10 @@
     "erlcServer": "Server ER:LC",
     "administration": "Amministrazione",
     "moderation": "Moderazione",
-    "roleplay": "Gioco di ruolo"
+    "roleplay": "Gioco di ruolo",
+    "roster": "Roster",
+    "column": "Colonna",
+    "newValue": "Nuovo Valore",
+    "changedOn": "Modificato Su"
   }
 }

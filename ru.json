@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Выполнить вебхук Discord",
       "executeDiscordDm": "Отправить личное сообщение в Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Отправить заявку/форму",
     "editOwn": "Редактировать свою форму",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Документация панели ER:LC",
     "session": "Сессия",
     "management": "Управление",
-    "import": "Импорт"
+    "import": "Импорт",
+    "accountFlagDescription": "Расследуйте потенциальные дублирующие учетные записи пользователей, чтобы обезопасить ваше сообщество."
   },
   "Dashboard": {
     "securityDashboard": "Рост - Панель управления",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Управляйте своими настройками уведомлений для различных событий и обновлений сообщества.",
     "shiftType": "Тип смены",
     "none": "Нет",
-    "errorAnErrorOccuredWhileFetching": "Ошибка: произошла ошибка при получении"
+    "errorAnErrorOccuredWhileFetching": "Ошибка: произошла ошибка при получении",
+    "vision": "Видение",
+    "visionDescription": "Настройте параметры видения для внутриигровой модерации. Наведите на игрока, чтобы открыть его записи.",
+    "hotkeyCombination": "Сочетание горячих клавиш",
+    "captureBox": "Захват области",
+    "captureHotkey": "Горячая клавиша захвата",
+    "captureBoxDescription": "Настройте область захвата вокруг курсора для распознавания игроков.",
+    "showCaptureBoxAroundCursor": "Показать область захвата вокруг курсора",
+    "captureWidthPixels": "Ширина захвата",
+    "captureHeightPixels": "Высота захвата",
+    "verticalOffsetPixels": "Вертикальное смещение",
+    "startRecording": "Начать запись",
+    "stopRecording": "Остановить запись",
+    "saveVisionSettings": "Сохранить настройки видения",
+    "ocrHotkeyRecordingHint": "Нажмите желаемую комбинацию клавиш, затем нажмите Остановить запись.",
+    "visionSettingsSaved": "Настройки видения сохранены.",
+    "visionSettingsSaveFailed": "Не удалось сохранить настройки видения. Сочетание может быть недействительным или уже используется."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Формат имени",
     "formatKeys": "Формат ключей",
     "disabledNameCustomizations": "Формат имени отключен из-за синхронизации имен Discord",
-    "onJoinActions": "Действия при присоединении"
+    "onJoinActions": "Действия при присоединении",
+    "communityInfo": "Информация о сообществе"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Узнайте, как создавать короткие URL для вашего сообщества",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Этап обязателен",
     "stageHidden": "Метка и значок этапа видны только отправителям с разрешениями",
     "stagePublic": "Метка и значок этапа видны всем отправителям",
-    "formsstageactiontypeexecuteerlccommand": "Выполнить команду ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Выполнить команду ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Изменить столбец списка"
   },
   "StageReorderDialog": {
     "newStage": "Закрыть",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Новое имя группы",
     "groupPermissions": "Групповые разрешения",
     "ranks": "Ранги",
-    "promotions": "Повышения"
+    "promotions": "Повышения",
+    "rankManager": "Менеджер рангов",
+    "rankManagerSubtitle": "Управляйте рангами, группами и разрешениями вашего сообщества."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Узнайте, как использовать поля профиля",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Вставляет процент оценки обработки AI для подачи, если применимо.",
     "stageChangerComNameLabel": "Изменение этапа - название сообщества",
     "stageChangerComNameDescription": "Вставляет отображаемое имя сообщества пользователя, который изменил этап.",
-    "executeERLCCommandDescription": "Этап \"Выполнить команду ERLC\" автоматически исполнит указанную команду на выбранном сервере ER:LC при изменении этапа формы."
+    "executeERLCCommandDescription": "Этап \"Выполнить команду ERLC\" автоматически исполнит указанную команду на выбранном сервере ER:LC при изменении этапа формы.",
+    "modifyRosterColumnDescription": "Этап \"Изменить столбец списка\" автоматически обновит значение столбца списка указанного пользователя для указанного списка на указанное значение."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Автоматический участник Roblox ID",
     "communityMemberRobloxIdElement": "Элемент ID участника сообщества Roblox",
     "stageHidden": "Скрытый этап",
-    "type": "Тип"
+    "type": "Тип",
+    "embedElement": "Выберите элемент встраивания",
+    "embedSource": "Источник встраивания",
+    "embed": "Встраивание"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -4869,7 +4895,8 @@
     "run": "Запустить",
     "flows": "Потоки",
     "confirmDelete": "Вы уверены, что хотите удалить этот поток продвижения?",
-    "insufficientPermissionsToRunPromotions": "Недостаточно прав для запуска промоакций"
+    "insufficientPermissionsToRunPromotions": "Недостаточно прав для запуска промоакций",
+    "requiresChangeHigherPermissions": "Требуется разрешение: изменение более высоких разрешений"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Игроки не найдены... Поиск",
@@ -4922,6 +4949,10 @@
     "erlcServer": "Сервер ER:LC",
     "administration": "Администрирование",
     "moderation": "Модерация",
-    "roleplay": "Ролевая игра"
+    "roleplay": "Ролевая игра",
+    "roster": "Список",
+    "column": "Столбец",
+    "newValue": "Новое значение",
+    "changedOn": "Изменено на"
   }
 }

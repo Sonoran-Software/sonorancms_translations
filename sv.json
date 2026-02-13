@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Utför Discord Webhook",
       "executeDiscordDm": "Skicka Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Skicka in ansökan/formulär",
     "editOwn": "Redigera eget formulär",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
     "session": "Session",
     "management": "Förvaltning",
-    "import": "Importera"
+    "import": "Importera",
+    "accountFlagDescription": "Undersök potentiella dubblettkonton för att hålla din community säker."
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Hantera dina anpassade inställningar för olika communityevenemang och uppdateringar.",
     "shiftType": "Skifttyp",
     "none": "Ingen",
-    "errorAnErrorOccuredWhileFetching": "Fel: Ett fel inträffade vid hämtning"
+    "errorAnErrorOccuredWhileFetching": "Fel: Ett fel inträffade vid hämtning",
+    "vision": "Vision",
+    "visionDescription": "Konfigurera visioninställningar för spelmoderering. Peka på en spelare för att öppna deras register.",
+    "hotkeyCombination": "Kortkommando",
+    "captureBox": "Fångstbox",
+    "captureHotkey": "Fångstkortkommando",
+    "captureBoxDescription": "Konfigurera fångstboxen runt din markör för spelarigenkänning.",
+    "showCaptureBoxAroundCursor": "Visa fångstbox runt markören",
+    "captureWidthPixels": "Fångstbredd",
+    "captureHeightPixels": "Fångsthöjd",
+    "verticalOffsetPixels": "Vertikalt Offset",
+    "startRecording": "Börja spela in",
+    "stopRecording": "Sluta spela in",
+    "saveVisionSettings": "Spara visioninställningar",
+    "ocrHotkeyRecordingHint": "Tryck på önskad tangentkombination, klicka sedan på Sluta spela in.",
+    "visionSettingsSaved": "Visioninställningar sparade.",
+    "visionSettingsSaveFailed": "Det gick inte att spara visioninställningar. Genvägen kan vara ogiltig eller redan använd."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Namnformat",
     "formatKeys": "Formateringsnycklar",
     "disabledNameCustomizations": "Namnformat inaktiverat på grund av Discord-namnsynkronisering",
-    "onJoinActions": "Vid Gå Med-Åtgärder"
+    "onJoinActions": "Vid Gå Med-Åtgärder",
+    "communityInfo": "Communityinformation"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-förkortare handledning",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Scenen är obligatorisk",
     "stageHidden": "Etikett och ikon för etapp synlig endast för inlämnare med behörigheter",
     "stagePublic": "Etikett och ikon för etapp synlig för alla inlämnare",
-    "formsstageactiontypeexecuteerlccommand": "Utför ER:LC Kommando"
+    "formsstageactiontypeexecuteerlccommand": "Utför ER:LC Kommando",
+    "formsstageactiontypemodifyrostercolumn": "Ändra Roster Kolumn"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etapp",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nytt gruppnamn",
     "groupPermissions": "Grupprättigheter",
     "ranks": "Ranger",
-    "promotions": "Befordringar"
+    "promotions": "Befordringar",
+    "rankManager": "Rankhanterare",
+    "rankManagerSubtitle": "Hantera din communitys ranker, grupper och tillstånd."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfält Tutorial",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Infogar AI-bearbetningspoängen i procent för inlämningen om tillämpligt.",
     "stageChangerComNameLabel": "Stegändrarens gemenskapsnamn",
     "stageChangerComNameDescription": "Infogar gemenskapsvisningsnamnet på användaren som ändrade steget.",
-    "executeERLCCommandDescription": "Steget \"Utför ERLC Kommando\" kommer automatiskt att utföra det specificerade kommandot på den valda ER:LC servern när formulärets steg ändras."
+    "executeERLCCommandDescription": "Steget \"Utför ERLC Kommando\" kommer automatiskt att utföra det specificerade kommandot på den valda ER:LC servern när formulärets steg ändras.",
+    "modifyRosterColumnDescription": "Steget \"Ändra Roster Kolumn\" uppdaterar automatiskt värdet för den angivna användarens rosterkolumn för den angivna rosterkolumnen med angivet värde."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Auto-Medlem Roblox ID",
     "communityMemberRobloxIdElement": "Community member Roblox ID-element",
     "stageHidden": "Dold etapp",
-    "type": "Typ"
+    "type": "Typ",
+    "embedElement": "Välj infogad element",
+    "embedSource": "Infogad källa",
+    "embed": "Infoga"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -4869,7 +4895,8 @@
     "run": "Kör",
     "flows": "Flöden",
     "confirmDelete": "Är du säker på att du vill ta bort detta befordringsflöde?",
-    "insufficientPermissionsToRunPromotions": "Otillräckliga behörigheter för att köra kampanjer"
+    "insufficientPermissionsToRunPromotions": "Otillräckliga behörigheter för att köra kampanjer",
+    "requiresChangeHigherPermissions": "Kräver Tillstånd: Ändra Högre Behörigheter"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Inga spelare hittades... Sök",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC Server",
     "administration": "Administration",
     "moderation": "Moderering",
-    "roleplay": "Rollspel"
+    "roleplay": "Rollspel",
+    "roster": "Roster",
+    "column": "Kolumn",
+    "newValue": "Nytt Värde",
+    "changedOn": "Ändrades På"
   }
 }

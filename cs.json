@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Spustit Discord Webhook",
       "executeDiscordDm": "Odeslat Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Odeslat žádost/formulář",
     "editOwn": "Upravit vlastní formulář",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Dokumentace panelu ER:LC",
     "session": "Relace",
     "management": "Řízení",
-    "import": "Import"
+    "import": "Import",
+    "accountFlagDescription": "Prozkoumejte potenciální duplicitní uživatelské účty, abyste udrželi svou komunitu v bezpečí."
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Spravujte své preference oznámení pro různé komunitní události a aktualizace.",
     "shiftType": "Typ směny",
     "none": "Žádný",
-    "errorAnErrorOccuredWhileFetching": "Chyba: Došlo k chybě při načítání"
+    "errorAnErrorOccuredWhileFetching": "Chyba: Došlo k chybě při načítání",
+    "vision": "Vidění",
+    "visionDescription": "Konfigurace nastavení vidění pro moderování ve hře. Ukázáním na hráče otevřete jeho záznamy.",
+    "hotkeyCombination": "Kombinace klávesových zkratek",
+    "captureBox": "Zachycovací pole",
+    "captureHotkey": "Zachycovací klávesová zkratka",
+    "captureBoxDescription": "Konfigurace zachycovacího pole kolem kurzoru pro rozpoznání hráče.",
+    "showCaptureBoxAroundCursor": "Zobrazit zachycovací pole kolem kurzoru",
+    "captureWidthPixels": "Šířka zachycení",
+    "captureHeightPixels": "Výška zachycení",
+    "verticalOffsetPixels": "Vertikální offset",
+    "startRecording": "Zahájit nahrávání",
+    "stopRecording": "Zastavit nahrávání",
+    "saveVisionSettings": "Uložit nastavení vidění",
+    "ocrHotkeyRecordingHint": "Stiskněte požadovanou kombinaci kláves a poté klikněte na Zastavit nahrávání.",
+    "visionSettingsSaved": "Nastavení vidění bylo uloženo.",
+    "visionSettingsSaveFailed": "Nepodařilo se uložit nastavení vidění. Zkratka může být neplatná nebo již použita."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Formát jména",
     "formatKeys": "Formátovací klíče",
     "disabledNameCustomizations": "Formát jména zakázán kvůli synchronizaci jména na Discordu",
-    "onJoinActions": "Akce při připojení"
+    "onJoinActions": "Akce při připojení",
+    "communityInfo": "Informace o komunitě"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Návod na zkracovač URL",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Fáze je povinná",
     "stageHidden": "Štítek a ikona etapy viditelné pouze pro odesílatele s oprávněním",
     "stagePublic": "Štítek a ikona etapy viditelné pro všechny odesílatele",
-    "formsstageactiontypeexecuteerlccommand": "Proveďte příkaz ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Proveďte příkaz ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Upravit sloupec sestavy"
   },
   "StageReorderDialog": {
     "newStage": "Nová fáze",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nový název skupiny",
     "groupPermissions": "Skupinová oprávnění",
     "ranks": "Hodnosti",
-    "promotions": "Propagace"
+    "promotions": "Propagace",
+    "rankManager": "Správce hodností",
+    "rankManagerSubtitle": "Spravujte hodnosti, skupiny a oprávnění vaší komunity."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Návod na pole profilu",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Vloží procento skóre zpracování AI pro podání, pokud je to relevantní.",
     "stageChangerComNameLabel": "Název komunity měniče fáze",
     "stageChangerComNameDescription": "Vloží zobrazované jméno komunity uživatele, který změnil fázi.",
-    "executeERLCCommandDescription": "Fáze 'Proveďte příkaz ERLC' automaticky provede zadaný příkaz na vybraném serveru ER:LC při změně fáze formuláře."
+    "executeERLCCommandDescription": "Fáze 'Proveďte příkaz ERLC' automaticky provede zadaný příkaz na vybraném serveru ER:LC při změně fáze formuláře.",
+    "modifyRosterColumnDescription": "Fáze \"Upravit sloupec sestavy\" automaticky aktualizuje hodnotu sloupce sestavy zadaného uživatele pro specifikovaný sloupec sestavy s uvedenou hodnotou."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Automatické členství Roblox ID",
     "communityMemberRobloxIdElement": "ID uživatele Roblox ve vaší komunitě",
     "stageHidden": "Skrytá etapa",
-    "type": "Typ"
+    "type": "Typ",
+    "embedElement": "Vybrat vložený prvek",
+    "embedSource": "Zdroj vložení",
+    "embed": "Vložit"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -4869,7 +4895,8 @@
     "run": "Spustit",
     "flows": "Toky",
     "confirmDelete": "Opravdu chcete odstranit tento propagační tok?",
-    "insufficientPermissionsToRunPromotions": "Nedostatečná oprávnění k provozování povýšení"
+    "insufficientPermissionsToRunPromotions": "Nedostatečná oprávnění k provozování povýšení",
+    "requiresChangeHigherPermissions": "Vyžaduje oprávnění: Změna vyšších oprávnění"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC Server",
     "administration": "Správa",
     "moderation": "Moderace",
-    "roleplay": "Roleplay"
+    "roleplay": "Roleplay",
+    "roster": "Sestava",
+    "column": "Sloupec",
+    "newValue": "Nová hodnota",
+    "changedOn": "Změněno dne"
   }
 }

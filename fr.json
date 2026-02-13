@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Exécuter le webhook Discord",
       "executeDiscordDm": "Envoyer un DM Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Soumettre une demande/un formulaire",
     "editOwn": "Modifier son propre formulaire",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Documentation du ER:LC Panel",
     "session": "Session",
     "management": "Gestion",
-    "import": "Importer"
+    "import": "Importer",
+    "accountFlagDescription": "Enquêter sur les comptes d'utilisateurs potentiellement dupliqués pour assurer la sécurité de votre communauté."
   },
   "Dashboard": {
     "securityDashboard": "Sécurité - Tableau de bord",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Gérez vos préférences de notification pour divers événements et mises à jour de la communauté.",
     "shiftType": "Type de quart",
     "none": "Aucun",
-    "errorAnErrorOccuredWhileFetching": "Erreur : Une erreur s'est produite lors de la récupération"
+    "errorAnErrorOccuredWhileFetching": "Erreur : Une erreur s'est produite lors de la récupération",
+    "vision": "Vision",
+    "visionDescription": "Configurer les paramètres de vision pour la modération en jeu. Pointez vers un joueur pour ouvrir ses dossiers.",
+    "hotkeyCombination": "Combinaison de touches",
+    "captureBox": "Zone de capture",
+    "captureHotkey": "Raccourci de capture",
+    "captureBoxDescription": "Configurez la zone de capture autour de votre curseur pour la reconnaissance des joueurs.",
+    "showCaptureBoxAroundCursor": "Afficher la zone de capture autour du curseur",
+    "captureWidthPixels": "Largeur de capture",
+    "captureHeightPixels": "Hauteur de capture",
+    "verticalOffsetPixels": "Décalage vertical",
+    "startRecording": "Commencer l'enregistrement",
+    "stopRecording": "Arrêter l'enregistrement",
+    "saveVisionSettings": "Enregistrer les paramètres de vision",
+    "ocrHotkeyRecordingHint": "Appuyez sur la combinaison de touches souhaitée, puis cliquez sur Arrêter l'enregistrement.",
+    "visionSettingsSaved": "Paramètres de vision enregistrés.",
+    "visionSettingsSaveFailed": "Échec de l'enregistrement des paramètres de vision. Le raccourci peut être invalide ou déjà utilisé."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutoriel des Comptes Utilisateurs",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Format de nom",
     "formatKeys": "Clés de formatage",
     "disabledNameCustomizations": "Format de Nom Désactivé en raison de la Synchronisation de Nom Discord",
-    "onJoinActions": "Actions à l'adhésion"
+    "onJoinActions": "Actions à l'adhésion",
+    "communityInfo": "Informations sur la communauté"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutoriel de raccourcisseur d'URL",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Le stade est requis",
     "stageHidden": "Étiquette et icône d'étape visibles uniquement pour les soumissionnaires avec des autorisations",
     "stagePublic": "Étiquette et icône d'étape visibles pour tous les soumissionnaires",
-    "formsstageactiontypeexecuteerlccommand": "Exécuter la commande ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Exécuter la commande ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Modifier la colonne de la liste"
   },
   "StageReorderDialog": {
     "newStage": "Nouvelle Étape",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nouveau nom de groupe",
     "groupPermissions": "Autorisations de groupe",
     "ranks": "Rangs",
-    "promotions": "Promotions"
+    "promotions": "Promotions",
+    "rankManager": "Gestionnaire de rangs",
+    "rankManagerSubtitle": "Gérez les rangs, groupes et permissions de votre communauté."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutoriel sur les champs de profil",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Insère le pourcentage de score de traitement AI pour la soumission, si applicable.",
     "stageChangerComNameLabel": "Nom de la communauté du changeur de stade",
     "stageChangerComNameDescription": "Insère le nom d'affichage de la communauté de l'utilisateur qui a changé de stade.",
-    "executeERLCCommandDescription": "Le stade \"Exécuter la commande ERLC\" exécutera automatiquement la commande spécifiée sur le serveur ER:LC sélectionné lorsque le stade de formulaire change."
+    "executeERLCCommandDescription": "Le stade \"Exécuter la commande ERLC\" exécutera automatiquement la commande spécifiée sur le serveur ER:LC sélectionné lorsque le stade de formulaire change.",
+    "modifyRosterColumnDescription": "L'étape \"Modifier la colonne de la liste\" mettra automatiquement à jour la valeur de la colonne d'un utilisateur spécifié dans la colonne spécifiée de la liste spécifiée avec la valeur spécifiée."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "ID Roblox Membre Auto",
     "communityMemberRobloxIdElement": "Élément d'identification Roblox du membre de la communauté",
     "stageHidden": "Étape cachée",
-    "type": "Type"
+    "type": "Type",
+    "embedElement": "Sélectionner l'élément à intégrer",
+    "embedSource": "Source à intégrer",
+    "embed": "Intégrer"
   },
   "selectRoster": {
     "selectRoster": "Sélectionner la Liste"
@@ -4869,7 +4895,8 @@
     "run": "Exécuter",
     "flows": "Flux",
     "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce flux de promotion ?",
-    "insufficientPermissionsToRunPromotions": "Permissions insuffisantes pour exécuter les promotions"
+    "insufficientPermissionsToRunPromotions": "Permissions insuffisantes pour exécuter les promotions",
+    "requiresChangeHigherPermissions": "Permission requise : Changer les permissions supérieures"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Aucun joueur trouvé... Rechercher",
@@ -4922,6 +4949,10 @@
     "erlcServer": "Serveur ER:LC",
     "administration": "Administration",
     "moderation": "Modération",
-    "roleplay": "Rôleplay"
+    "roleplay": "Rôleplay",
+    "roster": "Liste",
+    "column": "Colonne",
+    "newValue": "Nouvelle valeur",
+    "changedOn": "Changé le"
   }
 }

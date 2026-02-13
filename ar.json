@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "تنفيذ Webhook على Discord",
       "executeDiscordDm": "إرسال رسالة خاصة على Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "تقديم طلب/نموذج",
     "editOwn": "تعديل النموذج الخاص",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "وثائق لوحة ER:LC",
     "session": "جلسة",
     "management": "إدارة",
-    "import": "استيراد"
+    "import": "استيراد",
+    "accountFlagDescription": "التحقيق في حسابات المستخدم المحتملة المكررة للحفاظ على أمان مجتمعك."
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "إدارة تفضيلات الإشعارات الخاصة بك للأحداث المجتمعية المختلفة والتحديثات.",
     "shiftType": "نوع الوردية",
     "none": "لا شيء",
-    "errorAnErrorOccuredWhileFetching": "خطأ: حدث خطأ أثناء الجلب"
+    "errorAnErrorOccuredWhileFetching": "خطأ: حدث خطأ أثناء الجلب",
+    "vision": "رؤية",
+    "visionDescription": "تكوين إعدادات الرؤية للرقابة داخل اللعبة. أشر إلى لاعب لفتح سجلاته.",
+    "hotkeyCombination": "مجموعة مفاتيح الاختصار",
+    "captureBox": "مربع الالتقاط",
+    "captureHotkey": "مفتاح اختصار الالتقاط",
+    "captureBoxDescription": "تكوين مربع الالتقاط حول المؤشر الخاص بك للتعرف على اللاعبين.",
+    "showCaptureBoxAroundCursor": "عرض مربع الالتقاط حول المؤشر",
+    "captureWidthPixels": "عرض الالتقاط",
+    "captureHeightPixels": "ارتفاع الالتقاط",
+    "verticalOffsetPixels": "إزاحة رأسية",
+    "startRecording": "بدء التسجيل",
+    "stopRecording": "إيقاف التسجيل",
+    "saveVisionSettings": "حفظ إعدادات الرؤية",
+    "ocrHotkeyRecordingHint": "اضغط على مجموعة مفاتيح الاختصار المطلوبة، ثم انقر على إيقاف التسجيل.",
+    "visionSettingsSaved": "تم حفظ إعدادات الرؤية.",
+    "visionSettingsSaveFailed": "فشل في حفظ إعدادات الرؤية. قد يكون الاختصار غير صالح أو قيد الاستخدام."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -1088,7 +1106,8 @@
     "nameFormat": "تنسيق الاسم",
     "formatKeys": "تنسيق المفاتيح",
     "disabledNameCustomizations": "تم تعطيل تنسيق الاسم بسبب مزامنة اسم Discord",
-    "onJoinActions": "إجراءات عند الانضمام"
+    "onJoinActions": "إجراءات عند الانضمام",
+    "communityInfo": "معلومات المجتمع"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "دليل تقصير الروابط",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "المرحلة مطلوبة",
     "stageHidden": "تسميات المرحلة والرموز مرئية فقط للمقدمين الحاصلين على الأذونات",
     "stagePublic": "تسميات المرحلة والرموز مرئية لجميع المقدمين",
-    "formsstageactiontypeexecuteerlccommand": "تنفيذ أمر ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "تنفيذ أمر ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "تعديل عمود القائمة"
   },
   "StageReorderDialog": {
     "newStage": "مرحلة جديدة",
@@ -2922,7 +2942,9 @@
     "newGroupName": "اسم المجموعة الجديدة",
     "groupPermissions": "أذونات المجموعة",
     "ranks": "الرتب",
-    "promotions": "الترقيات"
+    "promotions": "الترقيات",
+    "rankManager": "مدير الرتب",
+    "rankManagerSubtitle": "إدارة رتب مجتمعك والمجموعات والأذونات."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "دليل حقول الملف الشخصي",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "إدراج نسبة معالجة الذكاء الاصطناعي للتقديم إذا كان ذلك ينطبق.",
     "stageChangerComNameLabel": "اسم مجتمع مُغيّر المرحلة",
     "stageChangerComNameDescription": "يُدرج اسم العرض للمجتمع للمستخدم الذي غيّر المرحلة.",
-    "executeERLCCommandDescription": "سيقوم المرحلة 'تنفيذ أمر ERLC' بتنفيذ الأمر المحدد تلقائيًا على الخادم المحدد لـ ER:LC عند تغيير مرحلة النموذج."
+    "executeERLCCommandDescription": "سيقوم المرحلة 'تنفيذ أمر ERLC' بتنفيذ الأمر المحدد تلقائيًا على الخادم المحدد لـ ER:LC عند تغيير مرحلة النموذج.",
+    "modifyRosterColumnDescription": "ستقوم مرحلة \"تعديل عمود القائمة\" بتحديث قيمة عمود القائمة للمستخدم المحدد تلقائيًا لعمود القائمة المحدد بالقيمة المحددة."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "معرف Roblox للعضو تلقائيًا",
     "communityMemberRobloxIdElement": "عنصر معرف Roblox لعضو المجتمع",
     "stageHidden": "مرحلة مخفية",
-    "type": "نوع"
+    "type": "نوع",
+    "embedElement": "اختر عنصر الدمج",
+    "embedSource": "مصدر الدمج",
+    "embed": "دمج"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -4869,7 +4895,8 @@
     "run": "تشغيل",
     "flows": "تدفقات",
     "confirmDelete": "هل أنت متأكد أنك تريد حذف تدفق الترقية هذا؟",
-    "insufficientPermissionsToRunPromotions": "أذونات غير كافية لتشغيل الترقيات"
+    "insufficientPermissionsToRunPromotions": "أذونات غير كافية لتشغيل الترقيات",
+    "requiresChangeHigherPermissions": "يتطلب إذن: تغيير الأذونات العليا"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث",
@@ -4922,6 +4949,10 @@
     "erlcServer": "خادم ER:LC",
     "administration": "إدارة",
     "moderation": "الإشراف",
-    "roleplay": "لعب الأدوار"
+    "roleplay": "لعب الأدوار",
+    "roster": "القائمة",
+    "column": "عمود",
+    "newValue": "قيمة جديدة",
+    "changedOn": "تغير في"
   }
 }

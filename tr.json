@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Discord Webhook'u Çalıştır",
       "executeDiscordDm": "Discord DM Gönder",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Başvuru/Form Gönder",
     "editOwn": "Kendi Formunu Düzenle",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC Panel Dökümantasyonu",
     "session": "Oturum",
     "management": "Yönetim",
-    "import": "İthalat"
+    "import": "İthalat",
+    "accountFlagDescription": "Topluluğunuzu güvende tutmak için potansiyel kopya kullanıcı hesaplarını araştırın."
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Farklı topluluk etkinlikleri ve güncellemeleri için bildirim tercihlerinizi yönetin.",
     "shiftType": "Vardiya Türü",
     "none": "Hiçbiri",
-    "errorAnErrorOccuredWhileFetching": "Hata: Getirme işlemi sırasında bir hata oluştu"
+    "errorAnErrorOccuredWhileFetching": "Hata: Getirme işlemi sırasında bir hata oluştu",
+    "vision": "Görüş",
+    "visionDescription": "Oyun içi moderasyon için görüş ayarlarını yapılandırın. Bir oyuncunun kayıtlarını açmak için üzerine tıklayın.",
+    "hotkeyCombination": "Kısayol Tuş Kombinasyonu",
+    "captureBox": "Yakalama Kutusu",
+    "captureHotkey": "Yakalama Kısayolu",
+    "captureBoxDescription": "Oyuncu tanıma için imlecinizin etrafındaki yakalama kutusunu yapılandırın.",
+    "showCaptureBoxAroundCursor": "İmlecin etrafında yakalama kutusunu göster",
+    "captureWidthPixels": "Yakalama Genişliği",
+    "captureHeightPixels": "Yakalama Yüksekliği",
+    "verticalOffsetPixels": "Dikey Ofset",
+    "startRecording": "Kaydı Başlat",
+    "stopRecording": "Kaydı Durdur",
+    "saveVisionSettings": "Görüş Ayarlarını Kaydet",
+    "ocrHotkeyRecordingHint": "İstediğiniz tuş kombinasyonuna basın, ardından Kaydı Durdur'a tıklayın.",
+    "visionSettingsSaved": "Görüş ayarları kaydedildi.",
+    "visionSettingsSaveFailed": "Görüş ayarları kaydedilemedi. Kısayol geçersiz olabilir veya zaten kullanılıyor olabilir."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -1088,7 +1106,8 @@
     "nameFormat": "İsim Formatı",
     "formatKeys": "Anahtarları Biçimlendir",
     "disabledNameCustomizations": "Discord Adı Senkronizasyonu Nedeniyle İsim Formatı Devre Dışı Bırakıldı",
-    "onJoinActions": "Katılım Eylemleri"
+    "onJoinActions": "Katılım Eylemleri",
+    "communityInfo": "Topluluk Bilgisi"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Kısaltıcı Eğitimi",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Aşama gereklidir",
     "stageHidden": "Aşama etiketi ve simgesi yalnızca izinli göndericilere görünür",
     "stagePublic": "Aşama etiketi ve simgesi tüm göndericilere görünür",
-    "formsstageactiontypeexecuteerlccommand": "ER:LC Komutunu Çalıştır"
+    "formsstageactiontypeexecuteerlccommand": "ER:LC Komutunu Çalıştır",
+    "formsstageactiontypemodifyrostercolumn": "Kadroları Sütunu Değiştir"
   },
   "StageReorderDialog": {
     "newStage": "Yeni Aşama",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Yeni Grup Adı",
     "groupPermissions": "Grup İzinleri",
     "ranks": "Rütbeler",
-    "promotions": "Terfiler"
+    "promotions": "Terfiler",
+    "rankManager": "Rütbe Yöneticisi",
+    "rankManagerSubtitle": "Topluluğunuzun rütbelerini, gruplarını ve izinlerini yönetin."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Alanları Eğitimi",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Başvuru için geçerliyse, AI işleme puanı yüzdesini ekler.",
     "stageChangerComNameLabel": "Aşama Değiştirici Topluluk Adı",
     "stageChangerComNameDescription": "Aşamayı değiştiren kullanıcının topluluk gösterim adını ekler.",
-    "executeERLCCommandDescription": "“ER:LC Komutunu Çalıştır” aşaması, form aşaması değiştiğinde belirtilen komutu seçilen ER:LC sunucusunda otomatik olarak çalıştıracaktır."
+    "executeERLCCommandDescription": "“ER:LC Komutunu Çalıştır” aşaması, form aşaması değiştiğinde belirtilen komutu seçilen ER:LC sunucusunda otomatik olarak çalıştıracaktır.",
+    "modifyRosterColumnDescription": "Kadroları Sütunu Değiştir aşaması, belirtilen kullanıcının belirtilen kadronun sütunundaki sütun değerini belirtilen değerle otomatik olarak günceller."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Otomatik Üye Roblox Kimliği",
     "communityMemberRobloxIdElement": "Topluluk üyesi Roblox Kimliği öğesi",
     "stageHidden": "Gizli Aşama",
-    "type": "Tür"
+    "type": "Tür",
+    "embedElement": "Gömme öğesi seçin",
+    "embedSource": "Gömme Kaynağı",
+    "embed": "Göm"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -4869,7 +4895,8 @@
     "run": "Çalıştır",
     "flows": "Akışlar",
     "confirmDelete": "Bu terfi akışını silmek istediğinizden emin misiniz?",
-    "insufficientPermissionsToRunPromotions": "Promosyonları Çalıştırmak İçin Yetersiz İzinler"
+    "insufficientPermissionsToRunPromotions": "Promosyonları Çalıştırmak İçin Yetersiz İzinler",
+    "requiresChangeHigherPermissions": "Gereken İzin: Daha Yüksek İzinleri Değiştir"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC Sunucu",
     "administration": "Yönetim",
     "moderation": "Moderatörlük",
-    "roleplay": "Rol yapma"
+    "roleplay": "Rol yapma",
+    "roster": "Kadrolar",
+    "column": "Sütun",
+    "newValue": "Yeni Değer",
+    "changedOn": "Değiştirdi"
   }
 }
