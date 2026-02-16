@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "执行Discord Webhook",
       "executeDiscordDm": "发送Discord私信",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "提交申请/表单",
     "editOwn": "编辑自己的表单",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC 面板文档",
     "session": "会话",
     "management": "管理",
-    "import": "进口"
+    "import": "进口",
+    "accountFlagDescription": "调查潜在的重复用户账户以保障您社区的安全。"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "管理您对各种社区活动和更新的通知偏好。",
     "shiftType": "班次类型",
     "none": "无",
-    "errorAnErrorOccuredWhileFetching": "错误：获取数据时发生错误"
+    "errorAnErrorOccuredWhileFetching": "错误：获取数据时发生错误",
+    "vision": "视觉",
+    "visionDescription": "配置游戏内管理的视觉设置。指向玩家以打开他们的记录。",
+    "hotkeyCombination": "快捷键组合",
+    "captureBox": "捕获框",
+    "captureHotkey": "捕获快捷键",
+    "captureBoxDescription": "配置围绕鼠标光标的捕获框以识别玩家。",
+    "showCaptureBoxAroundCursor": "显示围绕光标的捕获框",
+    "captureWidthPixels": "捕获宽度",
+    "captureHeightPixels": "捕获高度",
+    "verticalOffsetPixels": "垂直偏移",
+    "startRecording": "开始录制",
+    "stopRecording": "停止录制",
+    "saveVisionSettings": "保存视觉设置",
+    "ocrHotkeyRecordingHint": "按下您想要的键组合，然后单击停止录制。",
+    "visionSettingsSaved": "视觉设置已保存。",
+    "visionSettingsSaveFailed": "保存视觉设置失败。可能是快捷方式无效或已被使用。"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -1088,7 +1106,8 @@
     "nameFormat": "名称格式",
     "formatKeys": "格式键",
     "disabledNameCustomizations": "由于 Discord 名称同步，名称格式已禁用",
-    "onJoinActions": "加入时的操作"
+    "onJoinActions": "加入时的操作",
+    "communityInfo": "社区信息"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL 缩短器教程",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "阶段是必需的",
     "stageHidden": "阶段标签和图标仅对有权限的提交者可见",
     "stagePublic": "阶段标签和图标对所有提交者可见",
-    "formsstageactiontypeexecuteerlccommand": "执行ER:LC命令"
+    "formsstageactiontypeexecuteerlccommand": "执行ER:LC命令",
+    "formsstageactiontypemodifyrostercolumn": "修改名单列"
   },
   "StageReorderDialog": {
     "newStage": "新阶段",
@@ -2922,7 +2942,9 @@
     "newGroupName": "新组名称",
     "groupPermissions": "组权限",
     "ranks": "等级",
-    "promotions": "晋升"
+    "promotions": "晋升",
+    "rankManager": "等级管理器",
+    "rankManagerSubtitle": "管理您的社区等级、组和权限。"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "个人资料字段教程",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "如果适用，插入提交的AI处理得分百分比。",
     "stageChangerComNameLabel": "阶段更改者社区名称",
     "stageChangerComNameDescription": "插入更改阶段的用户的社区显示名称。",
-    "executeERLCCommandDescription": "阶段“执行ERLC命令”将在表单阶段更改时自动在选定的ER:LC服务器上执行指定命令。"
+    "executeERLCCommandDescription": "阶段“执行ERLC命令”将在表单阶段更改时自动在选定的ER:LC服务器上执行指定命令。",
+    "modifyRosterColumnDescription": "阶段“修改名单列”将自动更新指定名单中指定用户的列值。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "自动成员 Roblox ID",
     "communityMemberRobloxIdElement": "社区成员 Roblox ID 元素",
     "stageHidden": "隐藏阶段",
-    "type": "类型"
+    "type": "类型",
+    "embedElement": "选择嵌入元素",
+    "embedSource": "嵌入源",
+    "embed": "嵌入"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -4869,7 +4895,8 @@
     "run": "运行",
     "flows": "流程",
     "confirmDelete": "您确定要删除此晋升流程吗？",
-    "insufficientPermissionsToRunPromotions": "权限不足，无法执行促销"
+    "insufficientPermissionsToRunPromotions": "权限不足，无法执行促销",
+    "requiresChangeHigherPermissions": "需要权限：更改更高权限"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "未找到玩家……搜索",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC服务器",
     "administration": "管理",
     "moderation": "管理",
-    "roleplay": "角色扮演"
+    "roleplay": "角色扮演",
+    "roster": "名单",
+    "column": "列",
+    "newValue": "新值",
+    "changedOn": "更改日期"
   }
 }

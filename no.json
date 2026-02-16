@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Utfør Discord Webhook",
       "executeDiscordDm": "Send Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Send inn søknad/skjema",
     "editOwn": "Rediger eget skjema",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC-paneldokumentasjon",
     "session": "Økt",
     "management": "Ledelse",
-    "import": "Import"
+    "import": "Import",
+    "accountFlagDescription": "Undersøk potensielt dupliserte brukerkontoer for å holde fellesskapet ditt trygt."
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Administrer dine varsler for ulike samfunnshendelser og oppdateringer.",
     "shiftType": "Skifttype",
     "none": "Ingen",
-    "errorAnErrorOccuredWhileFetching": "Feil: En feil oppstod under henting"
+    "errorAnErrorOccuredWhileFetching": "Feil: En feil oppstod under henting",
+    "vision": "Visjon",
+    "visionDescription": "Konfigurer visjonsinnstillinger for moderering i spillet. Pek på en spiller for å åpne deres poster.",
+    "hotkeyCombination": "Snarveisekombinasjon",
+    "captureBox": "Fangstboks",
+    "captureHotkey": "Fangstsnarvei",
+    "captureBoxDescription": "Konfigurer fangstboksen rundt markøren din for spilleridentifikasjon.",
+    "showCaptureBoxAroundCursor": "Vis fangstboks rundt markøren",
+    "captureWidthPixels": "Fangstbredde",
+    "captureHeightPixels": "Fangsthøyde",
+    "verticalOffsetPixels": "Vertikalt avvik",
+    "startRecording": "Start opptak",
+    "stopRecording": "Stopp opptak",
+    "saveVisionSettings": "Lagre visjonsinnstillinger",
+    "ocrHotkeyRecordingHint": "Trykk på den ønskede tasten kombinasjon, og klikk deretter Stopp opptak.",
+    "visionSettingsSaved": "Visjonsinnstillinger lagret.",
+    "visionSettingsSaveFailed": "Kunne ikke lagre visjonsinnstillinger. Snarveien kan være ugyldig eller allerede i bruk."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brukerkontoer Veiledning",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Navneformat",
     "formatKeys": "Formateringsnøkler",
     "disabledNameCustomizations": "Navneformat deaktivert på grunn av Discord-navnesynkronisering",
-    "onJoinActions": "Ved innmelding handlinger"
+    "onJoinActions": "Ved innmelding handlinger",
+    "communityInfo": "Fellesskapsinformasjon"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-forkorter Veiledning",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Feltet er påkrevd",
     "stageHidden": "Trinnetikett og ikon synlig kun for innsendere med tillatelser",
     "stagePublic": "Trinnetikett og ikon synlig for alle innsendere",
-    "formsstageactiontypeexecuteerlccommand": "Utfør ER:LC-kommando"
+    "formsstageactiontypeexecuteerlccommand": "Utfør ER:LC-kommando",
+    "formsstageactiontypemodifyrostercolumn": "Endre oppstillingskolonne"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etappe",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nytt gruppenavn",
     "groupPermissions": "Grupptillatelser",
     "ranks": "Ranger",
-    "promotions": "Forfremmelser"
+    "promotions": "Forfremmelser",
+    "rankManager": "Rangsjef",
+    "rankManagerSubtitle": "Administrer dine fellesskapsrangeringer, grupper og tillatelser."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfelt Veiledning",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Setter inn prosesseringsscoreprosenten for innsendelsen, hvis relevant.",
     "stageChangerComNameLabel": "Scene Endrer Samfunnsnavn",
     "stageChangerComNameDescription": "Setter inn visningsnavnet til fellesskapet for brukeren som endret scenen.",
-    "executeERLCCommandDescription": "Fasen \"Utfør ERLC-kommando\" vil automatisk utføre den spesifiserte kommandoen på den valgte ER:LC-serveren når faseendringen skjer."
+    "executeERLCCommandDescription": "Fasen \"Utfør ERLC-kommando\" vil automatisk utføre den spesifiserte kommandoen på den valgte ER:LC-serveren når faseendringen skjer.",
+    "modifyRosterColumnDescription": "Fasen \"Endre oppstillingskolonne\" vil automatisk oppdatere den angitte brukerens verdi i oppstillingskolonnen for den angitte oppstillingen med angitt verdi."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Auto-Medlem Roblox-ID",
     "communityMemberRobloxIdElement": "Fellesskapsmedlem Roblox ID-element",
     "stageHidden": "Skjult trinn",
-    "type": "Type"
+    "type": "Type",
+    "embedElement": "Velg innebygd element",
+    "embedSource": "Innebygd kilde",
+    "embed": "Innebygg"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"
@@ -4869,7 +4895,8 @@
     "run": "Kjør",
     "flows": "Strømmer",
     "confirmDelete": "Er du sikker på at du vil slette dette promoteringsflyten?",
-    "insufficientPermissionsToRunPromotions": "Utilstrekkelige tillatelser til å kjøre kampanjer"
+    "insufficientPermissionsToRunPromotions": "Utilstrekkelige tillatelser til å kjøre kampanjer",
+    "requiresChangeHigherPermissions": "Krever tillatelse: Endre høyere tillatelser"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ingen Spillere Funnet... Søk",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC-server",
     "administration": "Administrasjon",
     "moderation": "Moderasjon",
-    "roleplay": "Rollespill"
+    "roleplay": "Rollespill",
+    "roster": "Oppstilling",
+    "column": "Kolonne",
+    "newValue": "Ny verdi",
+    "changedOn": "Endret på"
   }
 }

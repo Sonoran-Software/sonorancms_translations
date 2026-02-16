@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Executar Webhook do Discord",
       "executeDiscordDm": "Enviar DM no Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Enviar Solicitação/Formulário",
     "editOwn": "Editar Próprio Formulário",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Documentação do Painel ER:LC",
     "session": "Sessão",
     "management": "Gestão",
-    "import": "Importar"
+    "import": "Importar",
+    "accountFlagDescription": "Investigue contas de usuário duplicadas para manter sua comunidade segura."
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Gerencie suas preferências de notificação para vários eventos e atualizações da comunidade.",
     "shiftType": "Tipo de Turno",
     "none": "Nenhum",
-    "errorAnErrorOccuredWhileFetching": "Erro: Ocorreu um erro ao buscar"
+    "errorAnErrorOccuredWhileFetching": "Erro: Ocorreu um erro ao buscar",
+    "vision": "Visão",
+    "visionDescription": "Configure as configurações de visão para moderação no jogo. Aponte para um jogador para abrir seus registros.",
+    "hotkeyCombination": "Combinação de Teclas de Atalho",
+    "captureBox": "Caixa de Captura",
+    "captureHotkey": "Tecla de Atalho de Captura",
+    "captureBoxDescription": "Configure a caixa de captura ao redor do seu cursor para reconhecimento de jogador.",
+    "showCaptureBoxAroundCursor": "Mostrar caixa de captura ao redor do cursor",
+    "captureWidthPixels": "Largura de Captura",
+    "captureHeightPixels": "Altura de Captura",
+    "verticalOffsetPixels": "Deslocamento Vertical",
+    "startRecording": "Iniciar Gravação",
+    "stopRecording": "Parar Gravação",
+    "saveVisionSettings": "Salvar Configurações de Visão",
+    "ocrHotkeyRecordingHint": "Pressione a combinação de teclas desejada, depois clique em Parar Gravação.",
+    "visionSettingsSaved": "Configurações de visão salvas.",
+    "visionSettingsSaveFailed": "Falha ao salvar configurações de visão. O atalho pode ser inválido ou já estar em uso."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Contas de Usuário",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Formato do Nome",
     "formatKeys": "Formatar Chaves",
     "disabledNameCustomizations": "Formato de Nome Desativado devido à Sincronização de Nome do Discord",
-    "onJoinActions": "Ações ao Entrar"
+    "onJoinActions": "Ações ao Entrar",
+    "communityInfo": "Informações da Comunidade"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Encurtador de URL",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Etapa é obrigatória",
     "stageHidden": "Rótulo e ícone do estágio visíveis apenas para enviadores com permissões",
     "stagePublic": "Rótulo e ícone do estágio visíveis para todos os enviadores",
-    "formsstageactiontypeexecuteerlccommand": "Executar Comando ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Executar Comando ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Modificar Coluna da Lista"
   },
   "StageReorderDialog": {
     "newStage": "Nova Etapa",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Novo Nome do Grupo",
     "groupPermissions": "Permissões do Grupo",
     "ranks": "Patentes",
-    "promotions": "Promoções"
+    "promotions": "Promoções",
+    "rankManager": "Gerente de Classificação",
+    "rankManagerSubtitle": "Gerencie suas classificações, grupos e permissões da comunidade."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial de Campos de Perfil",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Insere a porcentagem da pontuação de processamento de IA para a submissão, se aplicável.",
     "stageChangerComNameLabel": "Nome da Comunidade do Alterador de Etapa",
     "stageChangerComNameDescription": "Insere o nome de exibição da comunidade do usuário que alterou a etapa.",
-    "executeERLCCommandDescription": "A etapa \"Executar Comando ERLC\" executará automaticamente o comando especificado no servidor ER:LC selecionado quando a etapa do formulário mudar."
+    "executeERLCCommandDescription": "A etapa \"Executar Comando ERLC\" executará automaticamente o comando especificado no servidor ER:LC selecionado quando a etapa do formulário mudar.",
+    "modifyRosterColumnDescription": "O estágio \"Modificar Coluna da Lista\" atualizará automaticamente o valor da coluna da lista do usuário especificado com o valor especificado."
   },
   "FormRenderer": {
     "dragToReorder": "Arraste para reordenar",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "ID Roblox Auto-Membro",
     "communityMemberRobloxIdElement": "Elemento de ID do Roblox do membro da comunidade",
     "stageHidden": "Estágio Oculto",
-    "type": "Tipo"
+    "type": "Tipo",
+    "embedElement": "Selecionar elemento incorporado",
+    "embedSource": "Fonte Incorporada",
+    "embed": "Incorporar"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"
@@ -4869,7 +4895,8 @@
     "run": "Executar",
     "flows": "Fluxos",
     "confirmDelete": "Tem certeza de que deseja excluir este fluxo de promoção?",
-    "insufficientPermissionsToRunPromotions": "Permissões Insuficientes Para Executar Promoções"
+    "insufficientPermissionsToRunPromotions": "Permissões Insuficientes Para Executar Promoções",
+    "requiresChangeHigherPermissions": "Requer Permissão: Alterar Permissões Superiores"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nenhum Jogador Encontrado... Procurar",
@@ -4922,6 +4949,10 @@
     "erlcServer": "Servidor ER:LC",
     "administration": "Administração",
     "moderation": "Moderação",
-    "roleplay": "Roleplay"
+    "roleplay": "Roleplay",
+    "roster": "Lista",
+    "column": "Coluna",
+    "newValue": "Novo Valor",
+    "changedOn": "Alterado Em"
   }
 }

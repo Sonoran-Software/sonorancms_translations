@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Discord Webhook Uitvoeren",
       "executeDiscordDm": "Stuur Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Toepassing/Formulier Indienen",
     "editOwn": "Eigen Formulier Bewerken",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC Paneeldocumentatie",
     "session": "Sessie",
     "management": "Beheer",
-    "import": "Importeren"
+    "import": "Importeren",
+    "accountFlagDescription": "Onderzoek potentiële dubbele gebruikersaccounts om uw gemeenschap veilig te houden."
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Beheer je meldingsvoorkeuren voor verschillende gemeenschapsevenementen en updates.",
     "shiftType": "Diensttype",
     "none": "Geen",
-    "errorAnErrorOccuredWhileFetching": "Fout: Er is een fout opgetreden bij het ophalen"
+    "errorAnErrorOccuredWhileFetching": "Fout: Er is een fout opgetreden bij het ophalen",
+    "vision": "Visie",
+    "visionDescription": "Configureer visie-instellingen voor moderatie in het spel. Wijs naar een speler om hun records te openen.",
+    "hotkeyCombination": "Sneltoetscombinatie",
+    "captureBox": "Capture Box",
+    "captureHotkey": "Sneltoets vastleggen",
+    "captureBoxDescription": "Configureer de capture box rond uw cursor voor spelersherkenning.",
+    "showCaptureBoxAroundCursor": "Toon capture box rond cursor",
+    "captureWidthPixels": "Capture Breedte",
+    "captureHeightPixels": "Capture Hoogte",
+    "verticalOffsetPixels": "Verticale Offset",
+    "startRecording": "Start Opname",
+    "stopRecording": "Stop Opname",
+    "saveVisionSettings": "Visie-instellingen Opslaan",
+    "ocrHotkeyRecordingHint": "Druk op de gewenste toetscombinatie en klik vervolgens op Stop Opname.",
+    "visionSettingsSaved": "Visie-instellingen opgeslagen.",
+    "visionSettingsSaveFailed": "Opslaan van visie-instellingen mislukt. De snelkoppeling kan ongeldig zijn of al in gebruik."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Naamformaat",
     "formatKeys": "Formaatsleutels",
     "disabledNameCustomizations": "Naamformaat uitgeschakeld vanwege Discord-namesynchronisatie",
-    "onJoinActions": "Bij Join-acties"
+    "onJoinActions": "Bij Join-acties",
+    "communityInfo": "Gemeenschapsinformatie"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-verkorter Tutorial",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Stage is vereist",
     "stageHidden": "Stadiumlabel en pictogram alleen zichtbaar voor indieners met toestemming",
     "stagePublic": "Stadiumlabel en pictogram zichtbaar voor alle indieners",
-    "formsstageactiontypeexecuteerlccommand": "Voer ER:LC Commando uit"
+    "formsstageactiontypeexecuteerlccommand": "Voer ER:LC Commando uit",
+    "formsstageactiontypemodifyrostercolumn": "Wijzig Rooster Kolom"
   },
   "StageReorderDialog": {
     "newStage": "Nieuwe Fase",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nieuwe Groepsnaam",
     "groupPermissions": "Groepsrechten",
     "ranks": "Rangen",
-    "promotions": "Promoties"
+    "promotions": "Promoties",
+    "rankManager": "Rangbeheerder",
+    "rankManagerSubtitle": "Beheer uw gemeenschapsrangen, groepen en machtigingen."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profielvelden Tutorial",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Voegt het AI-verwerkingsscorepercentage in voor de indiening indien van toepassing.",
     "stageChangerComNameLabel": "Gemeenschapsnaam Stadia-Wijziger",
     "stageChangerComNameDescription": "Voegt de gemeenschapsnaam in van de gebruiker die de fase heeft gewijzigd.",
-    "executeERLCCommandDescription": "De fase \"Voer ERLC Commando uit\" zal automatisch het gespecificeerde commando uitvoeren op de geselecteerde ER:LC server wanneer de formulierfase verandert."
+    "executeERLCCommandDescription": "De fase \"Voer ERLC Commando uit\" zal automatisch het gespecificeerde commando uitvoeren op de geselecteerde ER:LC server wanneer de formulierfase verandert.",
+    "modifyRosterColumnDescription": "De fase \"Wijzig Rooster Kolom\" zal automatisch de vermelde gebruikers waarde voor de vermelde rooster kolom bijwerken met de gespecificeerde waarde."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Auto-lid Roblox-ID",
     "communityMemberRobloxIdElement": "Gemeenschapslid Roblox-ID-element",
     "stageHidden": "Verborgen Stadium",
-    "type": "Type"
+    "type": "Type",
+    "embedElement": "Selecteer ingesloten element",
+    "embedSource": "Insluitingsbron",
+    "embed": "Insluiten"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -4869,7 +4895,8 @@
     "run": "Uitvoeren",
     "flows": "Stromen",
     "confirmDelete": "Weet je zeker dat je deze promotie-flow wilt verwijderen?",
-    "insufficientPermissionsToRunPromotions": "Onvoldoende rechten om promoties uit te voeren"
+    "insufficientPermissionsToRunPromotions": "Onvoldoende rechten om promoties uit te voeren",
+    "requiresChangeHigherPermissions": "Vereist Toestemming: Wijzig Hogere Machtigingen"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC Server",
     "administration": "Administratie",
     "moderation": "Moderatie",
-    "roleplay": "Roleplay"
+    "roleplay": "Roleplay",
+    "roster": "Rooster",
+    "column": "Kolom",
+    "newValue": "Nieuwe Waarde",
+    "changedOn": "Gewijzigd Op"
   }
 }

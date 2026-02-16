@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Discord Webhook ausführen",
       "executeDiscordDm": "Discord DM senden",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Antrag/Formular einreichen",
     "editOwn": "Eigenes Formular bearbeiten",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC Panel Dokumentation",
     "session": "Sitzung",
     "management": "Management",
-    "import": "Import"
+    "import": "Import",
+    "accountFlagDescription": "Untersuchen Sie potenzielle doppelte Benutzerkonten, um Ihre Community sicher zu halten."
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Verwalten Sie Ihre Benachrichtigungseinstellungen für verschiedene Community-Ereignisse und -Updates.",
     "shiftType": "Schichttyp",
     "none": "Keine",
-    "errorAnErrorOccuredWhileFetching": "Fehler: Ein Fehler ist beim Abrufen aufgetreten"
+    "errorAnErrorOccuredWhileFetching": "Fehler: Ein Fehler ist beim Abrufen aufgetreten",
+    "vision": "Vision",
+    "visionDescription": "Konfigurieren Sie die Visionseinstellungen für die In-Game-Moderation. Zeigen Sie auf einen Spieler, um seine Aufzeichnungen zu öffnen.",
+    "hotkeyCombination": "Tastenkombination",
+    "captureBox": "Erfassungsbox",
+    "captureHotkey": "Erfassungstastenkürzel",
+    "captureBoxDescription": "Konfigurieren Sie die Erfassungsbox um den Cursor für die Spielererkennung.",
+    "showCaptureBoxAroundCursor": "Erfassungsbox um den Cursor anzeigen",
+    "captureWidthPixels": "Erfassungsbreite",
+    "captureHeightPixels": "Erfassungshöhe",
+    "verticalOffsetPixels": "Vertikaler Versatz",
+    "startRecording": "Aufnahme starten",
+    "stopRecording": "Aufnahme stoppen",
+    "saveVisionSettings": "Visionseinstellungen speichern",
+    "ocrHotkeyRecordingHint": "Drücken Sie die gewünschte Tastenkombination und klicken Sie dann auf Aufnahme stoppen.",
+    "visionSettingsSaved": "Visionseinstellungen gespeichert.",
+    "visionSettingsSaveFailed": "Speichern der Visionseinstellungen fehlgeschlagen. Die Verknüpfung ist möglicherweise ungültig oder bereits in Gebrauch."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Benutzerkonten-Tutorial",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Namensformat",
     "formatKeys": "Formatschlüssel",
     "disabledNameCustomizations": "Namensformat wegen Discord-Namensabgleich deaktiviert",
-    "onJoinActions": "Beim Beitritt Aktionen"
+    "onJoinActions": "Beim Beitritt Aktionen",
+    "communityInfo": "Community-Informationen"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-Verkürzer-Tutorial",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Bühne ist erforderlich",
     "stageHidden": "Stufenbeschriftung und -symbol sind nur für Absender mit Berechtigungen sichtbar",
     "stagePublic": "Stufenbeschriftung und -symbol sind für alle Absender sichtbar",
-    "formsstageactiontypeexecuteerlccommand": "ER:LC-Befehl ausführen"
+    "formsstageactiontypeexecuteerlccommand": "ER:LC-Befehl ausführen",
+    "formsstageactiontypemodifyrostercolumn": "Roster-Spalte bearbeiten"
   },
   "StageReorderDialog": {
     "newStage": "Neue Stufe",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Neuer Gruppenname",
     "groupPermissions": "Gruppenberechtigungen",
     "ranks": "Ränge",
-    "promotions": "Beförderungen"
+    "promotions": "Beförderungen",
+    "rankManager": "Rang-Manager",
+    "rankManagerSubtitle": "Verwalten Sie die Ränge, Gruppen und Berechtigungen Ihrer Community."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfelder-Tutorial",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Fügt die AI-Verarbeitungspunktzahl in Prozent für die Einreichung ein, falls zutreffend.",
     "stageChangerComNameLabel": "Stufenwechsler Gemeinschaftsname",
     "stageChangerComNameDescription": "Fügt den Gemeinschaftsanzeigenamen des Benutzers ein, der die Stufe geändert hat.",
-    "executeERLCCommandDescription": "Die Phase „ERLC-Befehl ausführen“ führt den angegebenen Befehl auf dem ausgewählten ER:LC-Server automatisch aus, wenn sich die Formularphase ändert."
+    "executeERLCCommandDescription": "Die Phase „ERLC-Befehl ausführen“ führt den angegebenen Befehl auf dem ausgewählten ER:LC-Server automatisch aus, wenn sich die Formularphase ändert.",
+    "modifyRosterColumnDescription": "Die Bühne „Roster-Spalte bearbeiten“ aktualisiert automatisch den Wert der spezifizierten Benutzer-Roster-Spalte mit dem angegebenen Wert."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Auto-Mitglied Roblox-ID",
     "communityMemberRobloxIdElement": "Community-Mitglied Roblox-ID-Element",
     "stageHidden": "Verborgene Stufe",
-    "type": "Typ"
+    "type": "Typ",
+    "embedElement": "Eingebettetes Element auswählen",
+    "embedSource": "Eingebettete Quelle",
+    "embed": "Einbetten"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -4869,7 +4895,8 @@
     "run": "Ausführen",
     "flows": "Abläufe",
     "confirmDelete": "Sind Sie sicher, dass Sie diesen Beförderungsablauf löschen möchten?",
-    "insufficientPermissionsToRunPromotions": "Unzureichende Berechtigungen, um Aktionen durchzuführen"
+    "insufficientPermissionsToRunPromotions": "Unzureichende Berechtigungen, um Aktionen durchzuführen",
+    "requiresChangeHigherPermissions": "Erfordert Berechtigung: Höhere Berechtigungen ändern"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Keine Spieler gefunden... Suche",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC-Server",
     "administration": "Verwaltung",
     "moderation": "Moderation",
-    "roleplay": "Rollenspiel"
+    "roleplay": "Rollenspiel",
+    "roster": "Dienstplan",
+    "column": "Spalte",
+    "newValue": "Neuer Wert",
+    "changedOn": "Geändert am"
   }
 }

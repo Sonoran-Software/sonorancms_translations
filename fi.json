@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Suorita Discord Webhook",
       "executeDiscordDm": "Lähetä Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Lähetä hakemus/lomake",
     "editOwn": "Muokkaa omaa lomaketta",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC-paneelin dokumentaatio",
     "session": "Istunto",
     "management": "Hallinta",
-    "import": "Tuonti"
+    "import": "Tuonti",
+    "accountFlagDescription": "Tutki mahdollisia päällekkäisiä käyttäjätilejä yhteisösi turvassa pitämiseksi."
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Hallitse ilmoitusasetuksiasi eri yhteisötapahtumille ja päivityksille.",
     "shiftType": "Vuorotyypi",
     "none": "Ei mitään",
-    "errorAnErrorOccuredWhileFetching": "Virhe: Tapahtui virhe tiedon hakemisessa"
+    "errorAnErrorOccuredWhileFetching": "Virhe: Tapahtui virhe tiedon hakemisessa",
+    "vision": "Visio",
+    "visionDescription": "Määritä visioasetukset pelin sisäistä moderointia varten. Osoita pelaajaa avataksesi heidän tietueensa.",
+    "hotkeyCombination": "Pikanäppäinyhdistelmä",
+    "captureBox": "Kaappausruutu",
+    "captureHotkey": "Kaappauspikanäppäin",
+    "captureBoxDescription": "Määritä kaappausruutu kohdistimesi ympärille pelaajan tunnistamista varten.",
+    "showCaptureBoxAroundCursor": "Näytä kaappausruutu kohdistimen ympärillä",
+    "captureWidthPixels": "Kaappausleveys",
+    "captureHeightPixels": "Kaappaustennkorkeus",
+    "verticalOffsetPixels": "Pystysuuntainen siirtymä",
+    "startRecording": "Aloita tallennus",
+    "stopRecording": "Lopeta tallennus",
+    "saveVisionSettings": "Tallenna visioasetukset",
+    "ocrHotkeyRecordingHint": "Paina haluamaasi näppäinyhdistelmää ja napsauta sitten Lopeta tallennus.",
+    "visionSettingsSaved": "Visioasetukset tallennettu.",
+    "visionSettingsSaveFailed": "Visioasetusten tallentaminen epäonnistui. Pikakuvake voi olla virheellinen tai jo käytössä."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Nimen muoto",
     "formatKeys": "Muotoile avaimet",
     "disabledNameCustomizations": "Nimen muoto poistettu käytöstä Discord-nimen synkronoinnin vuoksi",
-    "onJoinActions": "Liittymiset toimet"
+    "onJoinActions": "Liittymiset toimet",
+    "communityInfo": "Yhteisön tiedot"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-lyhentimen opas",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Vaihe on pakollinen",
     "stageHidden": "Vaiheen etiketti ja kuvake näkyvät vain oikeudet omaaville lähettäjille",
     "stagePublic": "Vaiheen etiketti ja kuvake näkyvät kaikille lähettäjille",
-    "formsstageactiontypeexecuteerlccommand": "Suorita ER:LC-komento"
+    "formsstageactiontypeexecuteerlccommand": "Suorita ER:LC-komento",
+    "formsstageactiontypemodifyrostercolumn": "Muokkaa luettelokolumnia"
   },
   "StageReorderDialog": {
     "newStage": "Uusi vaihe",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Uuden ryhmän nimi",
     "groupPermissions": "Ryhmän luvat",
     "ranks": "Arvot",
-    "promotions": "Promootiot"
+    "promotions": "Promootiot",
+    "rankManager": "Arvopäällikkö",
+    "rankManagerSubtitle": "Hallinnoi yhteisösi arvoja, ryhmiä ja oikeuksia."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profiilikenttien opas",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Lisää tekoälyprosessoinnin prosentuaalisen pistemäärän lähetykselle, jos soveltuu.",
     "stageChangerComNameLabel": "Vaiheenvaihtajan yhteisön nimi",
     "stageChangerComNameDescription": "Lisää vaiheen vaihtaneen käyttäjän yhteisön näyttönimen.",
-    "executeERLCCommandDescription": "Vaihe \"Suorita ERLC-komento\" suorittaa automaattisesti määritetyn komennon valitulla ER:LC-palvelimella, kun lomakevaihe muuttuu."
+    "executeERLCCommandDescription": "Vaihe \"Suorita ERLC-komento\" suorittaa automaattisesti määritetyn komennon valitulla ER:LC-palvelimella, kun lomakevaihe muuttuu.",
+    "modifyRosterColumnDescription": "Vaihe 'Muokkaa luettelokolumnia' päivittää automaattisesti määritetyn käyttäjän luettelokolumnin arvon määritetyn luettelon sarakkeeseen määritetyn arvon mukaisesti."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Automaatiojäsen Roblox ID",
     "communityMemberRobloxIdElement": "Yhteisön jäsenen Roblox ID -elementti",
     "stageHidden": "Piilotettu vaihe",
-    "type": "Tyyppi"
+    "type": "Tyyppi",
+    "embedElement": "Valitse upotuselementti",
+    "embedSource": "Upotuksen lähde",
+    "embed": "Upota"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -4869,7 +4895,8 @@
     "run": "Käynnistä",
     "flows": "Virtaukset",
     "confirmDelete": "Oletko varma, että haluat poistaa tämän ylennysvirran?",
-    "insufficientPermissionsToRunPromotions": "Riittämättömät oikeudet kampanjoiden suorittamiseen"
+    "insufficientPermissionsToRunPromotions": "Riittämättömät oikeudet kampanjoiden suorittamiseen",
+    "requiresChangeHigherPermissions": "Vaatii luvan: Muuta korkeampia oikeuksia"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LC-palvelin",
     "administration": "Hallinto",
     "moderation": "Moderaatio",
-    "roleplay": "Roolipeli"
+    "roleplay": "Roolipeli",
+    "roster": "Luettelo",
+    "column": "Sarakkeen",
+    "newValue": "Uusi arvo",
+    "changedOn": "Muutettu"
   }
 }

@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Ejecutar Webhook de Discord",
       "executeDiscordDm": "Enviar DM de Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Enviar Solicitud/Formulario",
     "editOwn": "Editar Propio Formulario",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Documentación del Panel ER:LC",
     "session": "Sesión",
     "management": "Gestión",
-    "import": "Importar"
+    "import": "Importar",
+    "accountFlagDescription": "Investigue posibles cuentas de usuario duplicadas para mantener segura a su comunidad."
   },
   "Dashboard": {
     "securityDashboard": "Seguridad - Panel de control",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Administra tus preferencias de notificación para varios eventos y actualizaciones de la comunidad.",
     "shiftType": "Tipo de turno",
     "none": "Ninguno",
-    "errorAnErrorOccuredWhileFetching": "Error: Se produjo un error al recuperar"
+    "errorAnErrorOccuredWhileFetching": "Error: Se produjo un error al recuperar",
+    "vision": "Visión",
+    "visionDescription": "Configure la configuración de visión para la moderación en el juego. Señale a un jugador para abrir sus registros.",
+    "hotkeyCombination": "Combinación de teclas rápidas",
+    "captureBox": "Caja de captura",
+    "captureHotkey": "Tecla rápida de captura",
+    "captureBoxDescription": "Configure la caja de captura alrededor de su cursor para el reconocimiento de jugadores.",
+    "showCaptureBoxAroundCursor": "Mostrar caja de captura alrededor del cursor",
+    "captureWidthPixels": "Ancho de captura",
+    "captureHeightPixels": "Altura de captura",
+    "verticalOffsetPixels": "Compensación vertical",
+    "startRecording": "Iniciar grabación",
+    "stopRecording": "Detener grabación",
+    "saveVisionSettings": "Guardar configuraciones de visión",
+    "ocrHotkeyRecordingHint": "Presione la combinación de teclas deseada, luego haga clic en Detener grabación.",
+    "visionSettingsSaved": "Configuraciones de visión guardadas.",
+    "visionSettingsSaveFailed": "No se pudo guardar las configuraciones de visión. El atajo puede ser inválido o ya estar en uso."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Cuentas de Usuario",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Formato de Nombre",
     "formatKeys": "Formatos de Claves",
     "disabledNameCustomizations": "Formato de nombre desactivado debido a la sincronización de nombres de Discord",
-    "onJoinActions": "Acciones al Unirse"
+    "onJoinActions": "Acciones al Unirse",
+    "communityInfo": "Información de la comunidad"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Tutorial de Acortador de URL",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Se requiere escenario",
     "stageHidden": "Etiqueta e icono de etapa visibles solo para remitentes con permisos",
     "stagePublic": "Etiqueta e icono de etapa visibles para todos los remitentes",
-    "formsstageactiontypeexecuteerlccommand": "Ejecutar comando ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Ejecutar comando ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Modificar columna de lista"
   },
   "StageReorderDialog": {
     "newStage": "Nueva Etapa",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nuevo Nombre de Grupo",
     "groupPermissions": "Permisos del grupo",
     "ranks": "Rangos",
-    "promotions": "Promociones"
+    "promotions": "Promociones",
+    "rankManager": "Gestor de rangos",
+    "rankManagerSubtitle": "Gestione los rangos, grupos y permisos de su comunidad."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial de Campos de Perfil",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Inserta el porcentaje de puntuación de procesamiento AI para la presentación si es aplicable.",
     "stageChangerComNameLabel": "Nombre de Comunidad del Cambiador de Etapa",
     "stageChangerComNameDescription": "Inserta el nombre de visualización de la comunidad del usuario que cambió la etapa.",
-    "executeERLCCommandDescription": "La etapa \"Ejecutar comando ERLC\" ejecutará automáticamente el comando especificado en el servidor ER:LC seleccionado cuando cambie la etapa del formulario."
+    "executeERLCCommandDescription": "La etapa \"Ejecutar comando ERLC\" ejecutará automáticamente el comando especificado en el servidor ER:LC seleccionado cuando cambie la etapa del formulario.",
+    "modifyRosterColumnDescription": "La etapa \"Modificar columna de lista\" actualizará automáticamente el valor de la columna de lista del usuario especificado para la columna del roster especificado con el valor especificado."
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "ID de Roblox de Auto-Miembro",
     "communityMemberRobloxIdElement": "Elemento de ID de Roblox del miembro de la comunidad",
     "stageHidden": "Etapa oculta",
-    "type": "Tipo"
+    "type": "Tipo",
+    "embedElement": "Seleccione elemento embebido",
+    "embedSource": "Fuente de incrustación",
+    "embed": "Incrustar"
   },
   "selectRoster": {
     "selectRoster": "Seleccionar Lista"
@@ -4869,7 +4895,8 @@
     "run": "Ejecutar",
     "flows": "Flujos",
     "confirmDelete": "¿Está seguro de que desea eliminar este flujo de promoción?",
-    "insufficientPermissionsToRunPromotions": "Permisos insuficientes para ejecutar promociones"
+    "insufficientPermissionsToRunPromotions": "Permisos insuficientes para ejecutar promociones",
+    "requiresChangeHigherPermissions": "Requiere Permiso: Cambiar Permisos Superiores"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "No se Encontraron Jugadores... Buscar",
@@ -4922,6 +4949,10 @@
     "erlcServer": "Servidor ER:LC",
     "administration": "Administración",
     "moderation": "Moderación",
-    "roleplay": "Rol"
+    "roleplay": "Rol",
+    "roster": "Lista",
+    "column": "Columna",
+    "newValue": "Nuevo valor",
+    "changedOn": "Cambiado el"
   }
 }

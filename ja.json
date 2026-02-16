@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Discord Webhookを実行する",
       "executeDiscordDm": "Discord DMを送信する",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "申請/フォームを提出する",
     "editOwn": "自分のフォームを編集する",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "ER:LC パネルドキュメント",
     "session": "セッション",
     "management": "管理",
-    "import": "インポート"
+    "import": "インポート",
+    "accountFlagDescription": "コミュニティの安全を保つために、潜在的な重複ユーザーアカウントを調査します。"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "さまざまなコミュニティイベントや更新の通知設定を管理します。",
     "shiftType": "シフトタイプ",
     "none": "なし",
-    "errorAnErrorOccuredWhileFetching": "エラー: 取得中にエラーが発生しました"
+    "errorAnErrorOccuredWhileFetching": "エラー: 取得中にエラーが発生しました",
+    "vision": "ビジョン",
+    "visionDescription": "ゲーム内のモデレーションのためにビジョン設定を構成します。プレイヤーを指して記録を開きます。",
+    "hotkeyCombination": "ホットキーの組み合わせ",
+    "captureBox": "キャプチャーボックス",
+    "captureHotkey": "キャプチャーホットキー",
+    "captureBoxDescription": "プレイヤー認識のために、カーソル周辺のキャプチャーボックスを構成します。",
+    "showCaptureBoxAroundCursor": "カーソル周辺にキャプチャーボックスを表示",
+    "captureWidthPixels": "キャプチャー幅",
+    "captureHeightPixels": "キャプチャー高さ",
+    "verticalOffsetPixels": "垂直オフセット",
+    "startRecording": "録画を開始",
+    "stopRecording": "録画を停止",
+    "saveVisionSettings": "ビジョン設定を保存",
+    "ocrHotkeyRecordingHint": "希望のキーの組み合わせを押してから「録画を停止」をクリックします。",
+    "visionSettingsSaved": "ビジョン設定が保存されました。",
+    "visionSettingsSaveFailed": "ビジョン設定の保存に失敗しました。ショートカットが無効か、すでに使用されている可能性があります。"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -1088,7 +1106,8 @@
     "nameFormat": "名前の形式",
     "formatKeys": "フォーマットキー",
     "disabledNameCustomizations": "ディスコード名前の同期のため名前フォーマットが無効になっています",
-    "onJoinActions": "参加時のアクション"
+    "onJoinActions": "参加時のアクション",
+    "communityInfo": "コミュニティ情報"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "コミュニティのために短いURLを作成する方法を学ぶ",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "ステージが必要です",
     "stageHidden": "ステージラベルとアイコンは許可を持つ送信者にのみ表示されます",
     "stagePublic": "ステージラベルとアイコンはすべての送信者に表示されます",
-    "formsstageactiontypeexecuteerlccommand": "ER:LCコマンドを実行"
+    "formsstageactiontypeexecuteerlccommand": "ER:LCコマンドを実行",
+    "formsstageactiontypemodifyrostercolumn": "名簿列の修正"
   },
   "StageReorderDialog": {
     "newStage": "閉じる",
@@ -2922,7 +2942,9 @@
     "newGroupName": "新しいグループ名",
     "groupPermissions": "グループ権限",
     "ranks": "ランク",
-    "promotions": "昇進"
+    "promotions": "昇進",
+    "rankManager": "ランク管理",
+    "rankManagerSubtitle": "コミュニティのランク、グループ、権限を管理します。"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "プロフィールフィールドの使い方を学ぶ",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "該当する場合、提出物のAI処理スコアのパーセンテージを挿入します。",
     "stageChangerComNameLabel": "ステージチェンジャーコミュニティ名",
     "stageChangerComNameDescription": "ステージを変更したユーザーのコミュニティ表示名を挿入します。",
-    "executeERLCCommandDescription": "ステージ「ERLCコマンドの実行」は、フォームステージが変更されると、選択したER:LCサーバーで指定されたコマンドを自動的に実行します。"
+    "executeERLCCommandDescription": "ステージ「ERLCコマンドの実行」は、フォームステージが変更されると、選択したER:LCサーバーで指定されたコマンドを自動的に実行します。",
+    "modifyRosterColumnDescription": "ステージ「名簿列の修正」は、指定された名簿の列に指定されたユーザーの名簿列の値を自動的に更新します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "自動メンバー Roblox ID",
     "communityMemberRobloxIdElement": "コミュニティメンバーロブロックスID要素",
     "stageHidden": "非表示ステージ",
-    "type": "タイプ"
+    "type": "タイプ",
+    "embedElement": "埋め込み要素を選択",
+    "embedSource": "埋め込みソース",
+    "embed": "埋め込み"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -4869,7 +4895,8 @@
     "run": "実行",
     "flows": "フロー",
     "confirmDelete": "このプロモーションフローを削除してもよろしいですか？",
-    "insufficientPermissionsToRunPromotions": "プロモーションを実行するための権限が不十分です"
+    "insufficientPermissionsToRunPromotions": "プロモーションを実行するための権限が不十分です",
+    "requiresChangeHigherPermissions": "必要な権限: 高い権限の変更"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "プレーヤーが見つかりません…検索",
@@ -4922,6 +4949,10 @@
     "erlcServer": "ER:LCサーバー",
     "administration": "管理",
     "moderation": "モデレーション",
-    "roleplay": "ロールプレイ"
+    "roleplay": "ロールプレイ",
+    "roster": "名簿",
+    "column": "列",
+    "newValue": "新しい値",
+    "changedOn": "変更日"
   }
 }

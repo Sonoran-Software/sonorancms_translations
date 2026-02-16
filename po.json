@@ -191,7 +191,8 @@
       "executeDiscordWebhook": "Wykonaj webhook Discord",
       "executeDiscordDm": "Wyślij wiadomość prywatną na Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
-      "executeERLCCommand": "Execute ER:LC Command"
+      "executeERLCCommand": "Execute ER:LC Command",
+      "modifyRosterColumn": "Modify Roster Column"
     },
     "appSubmit": "Złóż aplikację/formularz",
     "editOwn": "Edytuj własny formularz",
@@ -636,7 +637,8 @@
     "erlcPanelDocumentation": "Dokumentacja Panelu ER:LC",
     "session": "Sessão",
     "management": "Gerenciamento",
-    "import": "Importar"
+    "import": "Importar",
+    "accountFlagDescription": "Investigue possíveis contas de usuário duplicadas para manter sua comunidade segura."
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -789,7 +791,23 @@
     "notificationPreferencesDescription": "Zarządzaj swoimi preferencjami powiadomień dla różnych wydarzeń społecznościowych i aktualizacji.",
     "shiftType": "Tipo de Turno",
     "none": "Nenhum",
-    "errorAnErrorOccuredWhileFetching": "Erro: Ocorreu um erro durante a busca"
+    "errorAnErrorOccuredWhileFetching": "Erro: Ocorreu um erro durante a busca",
+    "vision": "Visão",
+    "visionDescription": "Configure as configurações de visão para moderação em jogo. Aponte para um jogador para abrir seus registros.",
+    "hotkeyCombination": "Combinação de Teclas de Atalho",
+    "captureBox": "Caixa de Captura",
+    "captureHotkey": "Tecla de Atalho de Captura",
+    "captureBoxDescription": "Configure a caixa de captura ao redor do seu cursor para reconhecimento de jogador.",
+    "showCaptureBoxAroundCursor": "Mostrar caixa de captura ao redor do cursor",
+    "captureWidthPixels": "Largura de Captura",
+    "captureHeightPixels": "Altura de Captura",
+    "verticalOffsetPixels": "Deslocamento Vertical",
+    "startRecording": "Iniciar Gravação",
+    "stopRecording": "Parar Gravação",
+    "saveVisionSettings": "Salvar Configurações de Visão",
+    "ocrHotkeyRecordingHint": "Pressione a combinação de teclas desejada, então clique em Parar Gravação.",
+    "visionSettingsSaved": "Configurações de visão salvas.",
+    "visionSettingsSaveFailed": "Falha ao salvar configurações de visão. O atalho pode ser inválido ou já estar em uso."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -1088,7 +1106,8 @@
     "nameFormat": "Format Nazwiska",
     "formatKeys": "Phím định dạng",
     "disabledNameCustomizations": "Nome Formato desativado devido à sincronização de nome do Discord",
-    "onJoinActions": "Akcje przy dołączeniu"
+    "onJoinActions": "Akcje przy dołączeniu",
+    "communityInfo": "Informações da Comunidade"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Samouczek skracacza URL",
@@ -2300,7 +2319,8 @@
     "RuleStageRequired": "Etap jest wymagany",
     "stageHidden": "Etiqueta e ícone do estágio visíveis apenas para os remetentes com permissões",
     "stagePublic": "Etiqueta e ícone do estágio visíveis para todos os remetentes",
-    "formsstageactiontypeexecuteerlccommand": "Executar Comando ER:LC"
+    "formsstageactiontypeexecuteerlccommand": "Executar Comando ER:LC",
+    "formsstageactiontypemodifyrostercolumn": "Modificar Coluna do Roster"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -2922,7 +2942,9 @@
     "newGroupName": "Nombre del Nuevo Grupo",
     "groupPermissions": "Toestemming voor groepen",
     "ranks": "Patentes",
-    "promotions": "Promoções"
+    "promotions": "Promoções",
+    "rankManager": "Gerente de Classificações",
+    "rankManagerSubtitle": "Gerencie as classificações, grupos e permissões da sua comunidade."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Samouczek Pól Profilu",
@@ -3590,7 +3612,8 @@
     "formAIScoreDescription": "Wprowadza procentowy wynik przetwarzania AI dla zgłoszenia, jeśli ma zastosowanie.",
     "stageChangerComNameLabel": "Nazwa Społeczności Zmieniacza Etapu",
     "stageChangerComNameDescription": "Wstawia wyświetlaną nazwę społeczności użytkownika, który zmienił etap.",
-    "executeERLCCommandDescription": "A etapa \"Executar Comando ERLC\" executará automaticamente o comando especificado no servidor ER:LC selecionado quando a etapa do formulário for alterada."
+    "executeERLCCommandDescription": "A etapa \"Executar Comando ERLC\" executará automaticamente o comando especificado no servidor ER:LC selecionado quando a etapa do formulário for alterada.",
+    "modifyRosterColumnDescription": "O estágio \"Modificar Coluna do Roster\" atualizará automaticamente o valor da coluna do roster do usuário especificado para o valor especificado."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -3678,7 +3701,10 @@
     "automemberRobloxId": "Auto-membre Roblox ID",
     "communityMemberRobloxIdElement": "Elemento de ID de Roblox de miembro de la comunidad",
     "stageHidden": "Estágio Oculto",
-    "type": "Tipo"
+    "type": "Tipo",
+    "embedElement": "Selecionar elemento para incorporar",
+    "embedSource": "Fonte Incorporada",
+    "embed": "Incorporar"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -4869,7 +4895,8 @@
     "run": "Executar",
     "flows": "Fluxos",
     "confirmDelete": "Tem certeza de que deseja excluir este fluxo de promoção?",
-    "insufficientPermissionsToRunPromotions": "Permissões Insuficientes Para Executar Promoções"
+    "insufficientPermissionsToRunPromotions": "Permissões Insuficientes Para Executar Promoções",
+    "requiresChangeHigherPermissions": "Requer Permissão: Alterar Permissões Superiores"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj",
@@ -4922,6 +4949,10 @@
     "erlcServer": "Servidor ER:LC",
     "administration": "Administração",
     "moderation": "Moderação",
-    "roleplay": "Roleplay"
+    "roleplay": "Roleplay",
+    "roster": "Roster",
+    "column": "Coluna",
+    "newValue": "Novo Valor",
+    "changedOn": "Alterado Em"
   }
 }
