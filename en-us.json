@@ -2014,7 +2014,8 @@
     "anErrorOccuredWhileRemovingMappingTryAga": "An error occured while removing mapping, try again later.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "An error occured while evaluating mappings before commit, try again.",
     "areYouSureYouWantToRemoveThisRankRolesMa": "Are you sure you want to remove this rank - roles mapping?",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "After changes are made it will queue mass-syncs with the bot, which may take some time to not spam the bot."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "After changes are made it will queue mass-syncs with the bot, which may take some time to not spam the bot.",
+    "roleInUseExplanation": "This Discord role is already in an existing category mapping, update that existing mapping if you wish to add more CMS ranks."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guild:"
