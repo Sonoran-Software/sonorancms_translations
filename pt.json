@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Tem certeza de que deseja remover este mapeamento de patente - funções?",
     "oneToOneMapping": "Mapeamento Um-para-Um",
     "categoryMapping": "Mapeamento de Categoria",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Após as alterações serem feitas, isso irá enfileirar sincronizações em massa com o bot, o que pode levar algum tempo para não sobrecarregar o bot."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Após as alterações serem feitas, isso irá enfileirar sincronizações em massa com o bot, o que pode levar algum tempo para não sobrecarregar o bot.",
+    "roleInUseExplanation": "Este papel do Discord já está em um mapeamento de categoria existente, atualize esse mapeamento existente se desejar adicionar mais classificações do CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guilda:"

@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Êtes-vous sûr de vouloir supprimer cette correspondance rang - rôles ?",
     "oneToOneMapping": "Correspondance Un-à-Un",
     "categoryMapping": "Mappage de Catégorie",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Après que les modifications ont été apportées, elles seront mises en file d'attente pour des synchronisations massives avec le bot, ce qui peut prendre du temps pour ne pas spammer le bot."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Après que les modifications ont été apportées, elles seront mises en file d'attente pour des synchronisations massives avec le bot, ce qui peut prendre du temps pour ne pas spammer le bot.",
+    "roleInUseExplanation": "Ce rôle Discord est déjà dans une correspondance de catégorie existante, mettez à jour cette correspondance existante si vous souhaitez ajouter plus de rangs CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Guilde :"

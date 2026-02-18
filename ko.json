@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "종속성 매핑 - CMS 등급이 디스코드 역할에 동기화됩니다. CMS에 등급이 추가되면 디스코드에 동기화되지만, 디스코드에서 추가된 등급은 추가할 수 없습니다. 양방향 매핑으로 전환하려면 토글하세요.",
     "oneToOneMapping": "일대일 매핑",
     "categoryMapping": "카테고리 매핑",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "변경이 이루어지면 봇과 대량 동기화가 대기열에 오르게 되며, 스팸 방지를 위해 시간이 걸릴 수 있습니다."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "변경이 이루어지면 봇과 대량 동기화가 대기열에 오르게 되며, 스팸 방지를 위해 시간이 걸릴 수 있습니다.",
+    "roleInUseExplanation": "이 Discord 역할은 이미 기존 범주 매핑에 있으며, 더 많은 CMS 등급을 추가하려면 해당 기존 매핑을 업데이트하십시오."
   },
   "DiscordRoleMultiSelector": {
     "guild": "길드:"

@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Czy na pewno chcesz usunąć to mapowanie rangi - ról?",
     "oneToOneMapping": "Tək-tək xəritələşdirmə",
     "categoryMapping": "Mapeo de categoría",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Po wprowadzeniu zmian zostaną ustawione masowe synchronizacje z botem, co może zająć trochę czasu, aby nie spamować bota."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Po wprowadzeniu zmian zostaną ustawione masowe synchronizacje z botem, co może zająć trochę czasu, aby nie spamować bota.",
+    "roleInUseExplanation": "Este papel do Discord já está em um mapeamento de categoria existente, atualize esse mapeamento existente se você deseja adicionar mais classificações do CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"

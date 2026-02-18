@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Sei sicuro di voler rimuovere questa mappatura grado - ruoli?",
     "oneToOneMapping": "Mappatura Uno-a-Uno",
     "categoryMapping": "Mappatura delle categorie",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Dopo aver apportato modifiche, verranno messi in coda dei sincronizzazioni di massa con il bot, il che potrebbe richiedere del tempo per non sovraccaricare il bot."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Dopo aver apportato modifiche, verranno messi in coda dei sincronizzazioni di massa con il bot, il che potrebbe richiedere del tempo per non sovraccaricare il bot.",
+    "roleInUseExplanation": "Questo ruolo Discord è già presente in una mappatura di categoria esistente, aggiorna quella mappatura esistente se desideri aggiungere più ranghi CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilda:"

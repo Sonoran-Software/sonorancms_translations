@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "هل أنت متأكد أنك تريد إزالة تعيين الرتبة - الأدوار هذا؟",
     "oneToOneMapping": "تخطيط واحد لواحد",
     "categoryMapping": "تعيين الفئة",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "بعد إجراء التغييرات سيتم وضعها في طابور التزامن الجماعي مع البوت، مما قد يستغرق بعض الوقت لتجنب إزعاج البوت."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "بعد إجراء التغييرات سيتم وضعها في طابور التزامن الجماعي مع البوت، مما قد يستغرق بعض الوقت لتجنب إزعاج البوت.",
+    "roleInUseExplanation": "هذا الدور في Discord قيد الاستخدام بالفعل في تعيين فئة موجودة، قم بتحديث هذا التعيين الموجود إذا كنت ترغب في إضافة المزيد من رتب CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "النقابة:"

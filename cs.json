@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Opravdu chcete odstranit toto mapování hodností a rolí?",
     "oneToOneMapping": "Jedno k jedné mapování",
     "categoryMapping": "Mapování kategorií",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Po provedení změn se zařadí hromadné synchronizace s botem, což může chvíli trvat, aby se bot nepřetěžoval."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Po provedení změn se zařadí hromadné synchronizace s botem, což může chvíli trvat, aby se bot nepřetěžoval.",
+    "roleInUseExplanation": "Tato role Discord je již v existujícím mapování kategorie, aktualizujte toto existující mapování, pokud chcete přidat další hodnosti CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Cech:"

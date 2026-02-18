@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Er du sikker på at du vil fjerne denne rang - rolle-kartleggingen?",
     "oneToOneMapping": "Én-til-én-tilordning",
     "categoryMapping": "Kategori Mapping",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Etter at endringer er gjort, vil det stille i kø massesynkroniseringer med boten, noe som kan ta litt tid for å unngå å spamme boten."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Etter at endringer er gjort, vil det stille i kø massesynkroniseringer med boten, noe som kan ta litt tid for å unngå å spamme boten.",
+    "roleInUseExplanation": "Denne Discord-rollen er allerede i en eksisterende kategorikartlegging, oppdater den eksisterende kartleggingen hvis du ønsker å legge til flere CMS-rangeringer."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"

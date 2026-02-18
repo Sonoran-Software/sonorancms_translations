@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Bu rütbe - rol eşlemesini kaldırmak istediğinizden emin misiniz?",
     "oneToOneMapping": "Birebir Eşleme",
     "categoryMapping": "Kategori Eşleme",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Değişiklikler yapıldıktan sonra, botla toplu senkronizasyonları sıraya alacak, bu biraz zaman alabilir, botu spamlamamak için."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Değişiklikler yapıldıktan sonra, botla toplu senkronizasyonları sıraya alacak, bu biraz zaman alabilir, botu spamlamamak için.",
+    "roleInUseExplanation": "Bu Discord rolü zaten mevcut bir kategori eşlemesinde kullanılıyor, daha fazla CMS rütbesi eklemek istiyorsanız mevcut eşlemeyi güncelleyin."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Lonca:"

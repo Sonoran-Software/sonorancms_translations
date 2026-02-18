@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Weet je zeker dat je deze rang-rolmapping wilt verwijderen?",
     "oneToOneMapping": "Een-op-Een Mapping",
     "categoryMapping": "Categorie Mapping",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Nadat wijzigingen zijn aangebracht, zal het massale synchronisaties met de bot in de wachtrij plaatsen, wat enige tijd kan duren om de bot niet te overspoelen."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Nadat wijzigingen zijn aangebracht, zal het massale synchronisaties met de bot in de wachtrij plaatsen, wat enige tijd kan duren om de bot niet te overspoelen.",
+    "roleInUseExplanation": "Deze Discord-rol is al in een bestaande categorietoewijzing. Werk die bestaande toewijzing bij als je meer CMS-rangen wilt toevoegen."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"

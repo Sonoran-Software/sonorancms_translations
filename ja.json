@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "依存関係のマッピング - CMSランクはDiscordの役割に同期されます。CMSでランクが追加されるとDiscordに同期されますが、Discordで追加されたランクは追加できません。双方向マッピングに切り替えるにはトグルしてください。",
     "oneToOneMapping": "一対一対応",
     "categoryMapping": "カテゴリーマッピング",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "変更が行われた後、ボットに大量同期がキューに追加されます。ボットをスパムしないように、時間がかかる場合があります。"
+    "afterChangesAreMadeItWillQueueMasssyncsW": "変更が行われた後、ボットに大量同期がキューに追加されます。ボットをスパムしないように、時間がかかる場合があります。",
+    "roleInUseExplanation": "このDiscordロールは既存のカテゴリーマッピングにすでに使用されています。CMSランクをさらに追加したい場合は、その既存のマッピングを更新してください。"
   },
   "DiscordRoleMultiSelector": {
     "guild": "ギルド："

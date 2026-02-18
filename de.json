@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Sind Sie sicher, dass Sie diese Rang-Rollen-Zuordnung entfernen möchten?",
     "oneToOneMapping": "Eins-zu-Eins-Zuordnung",
     "categoryMapping": "Kategoriezuteilung",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Nachdem Änderungen vorgenommen wurden, wird es Massen-Synchronisierungen mit dem Bot in die Warteschlange stellen, was einige Zeit in Anspruch nehmen kann, um den Bot nicht zu spammen."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Nachdem Änderungen vorgenommen wurden, wird es Massen-Synchronisierungen mit dem Bot in die Warteschlange stellen, was einige Zeit in Anspruch nehmen kann, um den Bot nicht zu spammen.",
+    "roleInUseExplanation": "Diese Discord-Rolle ist bereits in einer bestehenden Kategorienzuordnung verwendet. Aktualisieren Sie diese bestehende Zuordnung, wenn Sie weitere CMS-Ränge hinzufügen möchten."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gilde:"

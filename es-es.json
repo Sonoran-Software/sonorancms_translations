@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "¿Está seguro de que desea eliminar este mapeo de rango - roles?",
     "oneToOneMapping": "Mapeo Uno a Uno",
     "categoryMapping": "Mapeo de Categorías",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Después de realizar cambios, se programarán sincronizaciones masivas con el bot, lo cual puede tardar un poco para no saturar al bot."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Después de realizar cambios, se programarán sincronizaciones masivas con el bot, lo cual puede tardar un poco para no saturar al bot.",
+    "roleInUseExplanation": "Este rol de Discord ya está en un mapeo de categoría existente, actualiza ese mapeo existente si deseas agregar más rangos de CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gremio:"

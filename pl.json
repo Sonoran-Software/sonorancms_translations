@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Czy na pewno chcesz usunąć to mapowanie rangi - ról?",
     "oneToOneMapping": "Jedno-na-jedno mapowanie",
     "categoryMapping": "Mapowanie Kategorii",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Po dokonaniu zmian bot ustawi w kolejce masowe synchronizacje, co może zająć trochę czasu, aby nie spamować bota."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Po dokonaniu zmian bot ustawi w kolejce masowe synchronizacje, co może zająć trochę czasu, aby nie spamować bota.",
+    "roleInUseExplanation": "Ta rola Discord jest już używana w istniejącym mapowaniu kategorii, zaktualizuj to istniejące mapowanie, jeśli chcesz dodać więcej rang CMS."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Gildia:"

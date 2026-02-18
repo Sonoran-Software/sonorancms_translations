@@ -1953,7 +1953,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "你确定要移除这个等级 - 角色映射吗？",
     "oneToOneMapping": "一对一映射",
     "categoryMapping": "类别映射",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "更改完成后，将在机器人中排队进行批量同步，这可能需要一些时间以避免对机器人造成过多请求。"
+    "afterChangesAreMadeItWillQueueMasssyncsW": "更改完成后，将在机器人中排队进行批量同步，这可能需要一些时间以避免对机器人造成过多请求。",
+    "roleInUseExplanation": "此 Discord 角色已在现有类别映射中，如果您希望添加更多 CMS 级别，请更新该现有映射。"
   },
   "DiscordRoleMultiSelector": {
     "guild": "公会："
