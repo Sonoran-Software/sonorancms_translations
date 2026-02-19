@@ -2460,7 +2460,9 @@
     "stageHidden": "Stage label and icon visible only to submitters with permissions",
     "stagePublic": "Stage label and icon visible to all submitters",
     "formsstageactiontypeexecuteerlccommand": "Execute ER:LC Command",
-    "formsstageactiontypemodifyrostercolumn": "Modify Roster Column"
+    "formsstageactiontypemodifyrostercolumn": "Modify Roster Column",
+    "stageChange": "Stage Change",
+    "on": "On"
   },
   "StageReorderDialog": {
     "newStage": "New Stage",
@@ -3762,10 +3764,14 @@
     "fieldResponseDescription": "Inserts the submission text from a question. Some question types may not be able to be copied.",
     "stageChangerComNameLabel": "Stage Changer Community Name",
     "stageChangerComNameDescription": "Inserts the commuunity display name of the user who changed the stage.",
+    "replyContentLabel": "Reply Content",
+    "replyContentDescription": "Inserts the content of the form reply that triggered this action when set to On Form Replies.",
     "conditionalQuestionEnable": "Enable to restrict this action to a specific question response",
     "conditionalQuestionStartExplaination": "This action will execute",
     "executeERLCCommandDescription": "The stage \"Execute ERLC Command\" will automatically execute the specified command on the selected ER:LC server when the form stage changes.",
-    "modifyRosterColumnDescription": "The stage \"Modify Roster Column\" will automatically update the specified user's roster column value for the specified roster's column with specified value."
+    "modifyRosterColumnDescription": "The stage \"Modify Roster Column\" will automatically update the specified user's roster column value for the specified roster's column with specified value.",
+    "stageChangeReasonLabel": "Stage Change Reason (Optional)",
+    "stageChangeReasonDescription": "Inserts the stage change reason if provided."
   },
   "ERLCActionEditor": {
     "rankNotificationRanks": "Ranks to Notify",
