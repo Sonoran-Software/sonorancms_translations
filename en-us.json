@@ -4969,6 +4969,7 @@
     "unlockMessages": "Unlock Messages",
     "viewChannel": "View Channel",
     "hideChannel": "Hide Channel",
+    "allowPrivateCommentsTrigger": "Trigger On Private Comments",
     "lockType": "Lock Type",
     "formSubmitter": "Form Submitter",
     "stageChanger": "Stage Changer",
