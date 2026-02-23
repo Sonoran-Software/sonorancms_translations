@@ -761,6 +761,7 @@
     "notificationPreferencesDescription": "Manage your notification preferences for various community events and updates.",
     "visionDescription": "Configure vision settings for in-game moderation. Point at a player to open their records.",
     "hotkeyCombination": "Hotkey Combination",
+    "selectedServer":"Selected Server",
     "captureBox": "Capture Box",
     "captureHotkey": "Capture Hotkey",
     "captureBoxDescription": "Configure the capture box around your cursor for player recognition.",
