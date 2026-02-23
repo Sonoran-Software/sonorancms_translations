@@ -4919,6 +4919,15 @@
     "createdTheRecord": "created the record",
     "manageRecordTypes": "Manage Record Types"
   },
+  "VisionPopup": {
+    "communityLogoAlt": "Community logo",
+    "closeVisionPopup": "Close vision popup",
+    "escKey": "Esc",
+    "noPlayerFound": "No player found",
+    "leftCreateRecord": "Left: Create Record",
+    "rightActivity": "Right: Activity",
+    "playerActivity": "Player Activity"
+  },
   "NameFormatConfigurator": {
     "nameCustomizations": "Name Customizations",
     "nameFormatDisabledDueToDiscordNameSync": "Name Format Disabled due to Discord Name Sync",
