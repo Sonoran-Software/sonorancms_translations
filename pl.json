@@ -807,7 +807,13 @@
     "saveVisionSettings": "Zapisz ustawienia wizji",
     "ocrHotkeyRecordingHint": "Naciśnij pożądaną kombinację klawiszy, a następnie kliknij Zatrzymaj nagrywanie.",
     "visionSettingsSaved": "Ustawienia wizji zapisane.",
-    "visionSettingsSaveFailed": "Nie udało się zapisać ustawień wizji. Skrót może być nieprawidłowy lub już używany."
+    "visionSettingsSaveFailed": "Nie udało się zapisać ustawień wizji. Skrót może być nieprawidłowy lub już używany.",
+    "selectedServer": "Wybrany serwer",
+    "visionPermissionScreenRecordingRequired": "Dostęp do nagrywania ekranu jest wymagany dla Vision na macOS.",
+    "visionPermissionScreenRecordingHelp": "Otwórz Ustawienia systemowe, zezwól na nagrywanie ekranu dla tej aplikacji, a następnie uruchom ponownie aplikację.",
+    "openSystemSettings": "Otwórz Ustawienia systemowe",
+    "refreshPermissionStatus": "Odśwież status uprawnień",
+    "visionOpenSettingsFailed": "Nie można otworzyć Ustawień systemowych macOS. Proszę otworzyć RODO i zabezpieczenia > Nagrywanie ekranu ręcznie."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Etykieta i ikona etapu widoczne tylko dla zgłaszających z uprawnieniami",
     "stagePublic": "Etykieta i ikona etapu widoczne dla wszystkich zgłaszających",
     "formsstageactiontypeexecuteerlccommand": "Wykonaj polecenie ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Modyfikuj kolumnę składu"
+    "formsstageactiontypemodifyrostercolumn": "Modyfikuj kolumnę składu",
+    "stageChange": "Zmiana etapu",
+    "on": "Włącz"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Nazwa społeczności zmieniającej etap",
     "stageChangerComNameDescription": "Wstawia wyświetlaną nazwę społeczności użytkownika, który zmienił etap.",
     "executeERLCCommandDescription": "Etap \"Wykonaj polecenie ERLC\" automatycznie wykona określone polecenie na wybranym serwerze ER:LC, gdy etap formularza się zmienia.",
-    "modifyRosterColumnDescription": "Etap \"Modyfikuj kolumnę składu\" automatycznie zaktualizuje wartość kolumny składu określonego użytkownika dla określonej kolumny składu z podaną wartością."
+    "modifyRosterColumnDescription": "Etap \"Modyfikuj kolumnę składu\" automatycznie zaktualizuje wartość kolumny składu określonego użytkownika dla określonej kolumny składu z podaną wartością.",
+    "replyContentLabel": "Treść odpowiedzi",
+    "replyContentDescription": "Wstawia treść odpowiedzi formularza, która wywołała tę akcję, gdy ustawione na Odpowiedzi formularzy.",
+    "stageChangeReasonLabel": "Powód zmiany etapu (Opcjonalnie)",
+    "stageChangeReasonDescription": "Wstawia powód zmiany etapu, jeśli podany."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -4954,6 +4966,20 @@
     "roster": "Skład",
     "column": "Kolumna",
     "newValue": "Nowa wartość",
-    "changedOn": "Zmieniono dnia"
+    "changedOn": "Zmieniono dnia",
+    "allowPrivateCommentsTrigger": "Wyzwalaj przy prywatnych komentarzach"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logo społeczności",
+    "closeVisionPopup": "Zamknij okno Vision",
+    "escKey": "Esc",
+    "noCommunitySelected": "Obecnie nie wybrano żadnej społeczności. Otwórz społeczność, aby użyć Vision.",
+    "noPlayerFound": "Nie znaleziono gracza",
+    "missingViewPlayersPermission": "Nie masz uprawnień do przeglądania graczy online ER:LC dla tego serwera.",
+    "missingCreateRecordPermission": "Nie masz uprawnień do tworzenia rekordów dla tego serwera.",
+    "missingViewActivityPermission": "Nie masz uprawnień do przeglądania aktywności gracza dla tego serwera.",
+    "leftCreateRecord": "Lewo: Utwórz zapis",
+    "rightActivity": "Prawo: Aktywność",
+    "playerActivity": "Aktywność gracza"
   }
 }

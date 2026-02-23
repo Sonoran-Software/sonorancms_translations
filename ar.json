@@ -807,7 +807,13 @@
     "saveVisionSettings": "حفظ إعدادات الرؤية",
     "ocrHotkeyRecordingHint": "اضغط على مجموعة مفاتيح الاختصار المطلوبة، ثم انقر على إيقاف التسجيل.",
     "visionSettingsSaved": "تم حفظ إعدادات الرؤية.",
-    "visionSettingsSaveFailed": "فشل في حفظ إعدادات الرؤية. قد يكون الاختصار غير صالح أو قيد الاستخدام."
+    "visionSettingsSaveFailed": "فشل في حفظ إعدادات الرؤية. قد يكون الاختصار غير صالح أو قيد الاستخدام.",
+    "selectedServer": "الخادم المحدد",
+    "visionPermissionScreenRecordingRequired": "يتطلب الوصول إلى تسجيل الشاشة لـ Vision على macOS.",
+    "visionPermissionScreenRecordingHelp": "افتح إعدادات النظام، اسمح بتسجيل الشاشة لهذا التطبيق، ثم أعد تشغيل التطبيق.",
+    "openSystemSettings": "افتح إعدادات النظام",
+    "refreshPermissionStatus": "تحديث حالة الأذونات",
+    "visionOpenSettingsFailed": "تعذر فتح إعدادات نظام macOS. يرجى فتح الخصوصية والأمان > تسجيل الشاشة يدويًا."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "دليل حسابات المستخدمين",
@@ -2321,7 +2327,9 @@
     "stageHidden": "تسميات المرحلة والرموز مرئية فقط للمقدمين الحاصلين على الأذونات",
     "stagePublic": "تسميات المرحلة والرموز مرئية لجميع المقدمين",
     "formsstageactiontypeexecuteerlccommand": "تنفيذ أمر ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "تعديل عمود القائمة"
+    "formsstageactiontypemodifyrostercolumn": "تعديل عمود القائمة",
+    "stageChange": "تغيير المرحلة",
+    "on": "تشغيل"
   },
   "StageReorderDialog": {
     "newStage": "مرحلة جديدة",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "اسم مجتمع مُغيّر المرحلة",
     "stageChangerComNameDescription": "يُدرج اسم العرض للمجتمع للمستخدم الذي غيّر المرحلة.",
     "executeERLCCommandDescription": "سيقوم المرحلة 'تنفيذ أمر ERLC' بتنفيذ الأمر المحدد تلقائيًا على الخادم المحدد لـ ER:LC عند تغيير مرحلة النموذج.",
-    "modifyRosterColumnDescription": "ستقوم مرحلة \"تعديل عمود القائمة\" بتحديث قيمة عمود القائمة للمستخدم المحدد تلقائيًا لعمود القائمة المحدد بالقيمة المحددة."
+    "modifyRosterColumnDescription": "ستقوم مرحلة \"تعديل عمود القائمة\" بتحديث قيمة عمود القائمة للمستخدم المحدد تلقائيًا لعمود القائمة المحدد بالقيمة المحددة.",
+    "replyContentLabel": "محتوى الرد",
+    "replyContentDescription": "يقوم بإدراج محتوى استجابة النموذج الذي أدّى إلى تفعيل هذا الإجراء عندما يتم تعيينه على استجابات النموذج.",
+    "stageChangeReasonLabel": "سبب تغيير المرحلة (اختياري)",
+    "stageChangeReasonDescription": "يقوم بإدراج سبب تغيير المرحلة إذا تم توفيره."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",
@@ -4954,6 +4966,20 @@
     "roster": "القائمة",
     "column": "عمود",
     "newValue": "قيمة جديدة",
-    "changedOn": "تغير في"
+    "changedOn": "تغير في",
+    "allowPrivateCommentsTrigger": "تفعيل عند التعليقات الخاصة"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "شعار المجتمع",
+    "closeVisionPopup": "إغلاق نافذة الرؤية المنبثقة",
+    "escKey": "هروب",
+    "noCommunitySelected": "لا يوجد مجتمع محدد حاليًا. افتح مجتمعًا لاستخدام Vision.",
+    "noPlayerFound": "لم يتم العثور على لاعب",
+    "missingViewPlayersPermission": "ليس لديك إذن لعرض لاعبي ER:LC المتصلين لهذا الخادم.",
+    "missingCreateRecordPermission": "ليس لديك إذن لإنشاء سجلات لهذا الخادم.",
+    "missingViewActivityPermission": "ليس لديك إذن لعرض نشاط اللاعب لهذا الخادم.",
+    "leftCreateRecord": "يسار: إنشاء سجل",
+    "rightActivity": "يمين: نشاط",
+    "playerActivity": "نشاط اللاعب"
   }
 }
