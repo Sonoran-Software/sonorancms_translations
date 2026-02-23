@@ -4923,7 +4923,11 @@
     "communityLogoAlt": "Community logo",
     "closeVisionPopup": "Close vision popup",
     "escKey": "Esc",
+    "noCommunitySelected": "No community is currently selected. Open a community to use Vision.",
     "noPlayerFound": "No player found",
+    "missingViewPlayersPermission": "You do not have permission to view online ER:LC players for this server.",
+    "missingCreateRecordPermission": "You do not have permission to create records for this server.",
+    "missingViewActivityPermission": "You do not have permission to view player activity for this server.",
     "leftCreateRecord": "Left: Create Record",
     "rightActivity": "Right: Activity",
     "playerActivity": "Player Activity"
