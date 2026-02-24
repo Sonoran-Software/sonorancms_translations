@@ -64,7 +64,9 @@
     "return": "Return",
     "learnMore": "Learn More",
     "search": "Search",
-    "previewTempStageGroupDetails": "Preview Stage Group Details"
+    "previewTempStageGroupDetails": "Preview Stage Group Details",
+    "errorComNotFound": "Error: Community Not Found",
+    "errorCustomDomain": "Error: This custom domain has not been setup or the community is not on the pro version"
   },
   "permissions": {
     "kickUser": "Kick Users",
