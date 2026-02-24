@@ -807,7 +807,13 @@
     "saveVisionSettings": "Salvar Configurações de Visão",
     "ocrHotkeyRecordingHint": "Pressione a combinação de teclas desejada, então clique em Parar Gravação.",
     "visionSettingsSaved": "Configurações de visão salvas.",
-    "visionSettingsSaveFailed": "Falha ao salvar configurações de visão. O atalho pode ser inválido ou já estar em uso."
+    "visionSettingsSaveFailed": "Falha ao salvar configurações de visão. O atalho pode ser inválido ou já estar em uso.",
+    "selectedServer": "Servidor selecionado",
+    "visionPermissionScreenRecordingRequired": "Acesso à gravação de tela é necessário para o Vision no macOS.",
+    "visionPermissionScreenRecordingHelp": "Abra as Configurações do Sistema, permita a gravação de tela para este aplicativo e reinicie o aplicativo.",
+    "openSystemSettings": "Abrir Configurações do Sistema",
+    "refreshPermissionStatus": "Atualizar Status de Permissão",
+    "visionOpenSettingsFailed": "Não foi possível abrir as Configurações do Sistema do macOS. Por favor, abra Manualmente Privacidade e Segurança > Gravação de Tela."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Samouczek Kont Użytkowników",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Etiqueta e ícone do estágio visíveis apenas para os remetentes com permissões",
     "stagePublic": "Etiqueta e ícone do estágio visíveis para todos os remetentes",
     "formsstageactiontypeexecuteerlccommand": "Executar Comando ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Modificar Coluna do Roster"
+    "formsstageactiontypemodifyrostercolumn": "Modificar Coluna do Roster",
+    "stageChange": "Mudança de estágio",
+    "on": "Ligado"
   },
   "StageReorderDialog": {
     "newStage": "Nowy Etap",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Nazwa Społeczności Zmieniacza Etapu",
     "stageChangerComNameDescription": "Wstawia wyświetlaną nazwę społeczności użytkownika, który zmienił etap.",
     "executeERLCCommandDescription": "A etapa \"Executar Comando ERLC\" executará automaticamente o comando especificado no servidor ER:LC selecionado quando a etapa do formulário for alterada.",
-    "modifyRosterColumnDescription": "O estágio \"Modificar Coluna do Roster\" atualizará automaticamente o valor da coluna do roster do usuário especificado para o valor especificado."
+    "modifyRosterColumnDescription": "O estágio \"Modificar Coluna do Roster\" atualizará automaticamente o valor da coluna do roster do usuário especificado para o valor especificado.",
+    "replyContentLabel": "Conteúdo da Resposta",
+    "replyContentDescription": "Insere o conteúdo da resposta do formulário que acionou esta ação quando configurado para Nas Respostas do Formulário.",
+    "stageChangeReasonLabel": "Motivo da Mudança de Estágio (Opcional)",
+    "stageChangeReasonDescription": "Insere o motivo da mudança de estágio, se fornecido."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -4954,6 +4966,20 @@
     "roster": "Roster",
     "column": "Coluna",
     "newValue": "Novo Valor",
-    "changedOn": "Alterado Em"
+    "changedOn": "Alterado Em",
+    "allowPrivateCommentsTrigger": "Acionar em Comentários Privados"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logo da comunidade",
+    "closeVisionPopup": "Fechar popup de visão",
+    "escKey": "Esc",
+    "noCommunitySelected": "Nenhuma comunidade está selecionada no momento. Abra uma comunidade para usar o Vision.",
+    "noPlayerFound": "Nenhum jogador encontrado",
+    "missingViewPlayersPermission": "Você não tem permissão para visualizar jogadores online do ER:LC para este servidor.",
+    "missingCreateRecordPermission": "Você não tem permissão para criar registros para este servidor.",
+    "missingViewActivityPermission": "Você não tem permissão para visualizar a atividade do jogador para este servidor.",
+    "leftCreateRecord": "Esquerda: Criar Registro",
+    "rightActivity": "Direita: Atividade",
+    "playerActivity": "Atividade do Jogador"
   }
 }

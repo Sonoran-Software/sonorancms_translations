@@ -807,7 +807,13 @@
     "saveVisionSettings": "Tallenna visioasetukset",
     "ocrHotkeyRecordingHint": "Paina haluamaasi näppäinyhdistelmää ja napsauta sitten Lopeta tallennus.",
     "visionSettingsSaved": "Visioasetukset tallennettu.",
-    "visionSettingsSaveFailed": "Visioasetusten tallentaminen epäonnistui. Pikakuvake voi olla virheellinen tai jo käytössä."
+    "visionSettingsSaveFailed": "Visioasetusten tallentaminen epäonnistui. Pikakuvake voi olla virheellinen tai jo käytössä.",
+    "selectedServer": "Valittu palvelin",
+    "visionPermissionScreenRecordingRequired": "Näytön tallennuksen käyttöoikeus on tarpeen Visionille macOS:ssa.",
+    "visionPermissionScreenRecordingHelp": "Avaa Järjestelmäasetukset, salli näytön tallennus tälle sovellukselle ja käynnistä sitten sovellus uudelleen.",
+    "openSystemSettings": "Avaa Järjestelmäasetukset",
+    "refreshPermissionStatus": "Päivitä käyttöoikeustila",
+    "visionOpenSettingsFailed": "macOS:n järjestelmäasetuksia ei voitu avata. Avaa manuaalisesti Tietosuoja & turvallisuus > Näytön tallennus."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Käyttäjätilien opas",
@@ -1953,7 +1959,8 @@
     "areYouSureYouWantToRemoveThisRankRolesMa": "Oletko varma, että haluat poistaa tämän arvo-roolit kartoituksen?",
     "oneToOneMapping": "Yhden suhde yhteen -kartoitus",
     "categoryMapping": "Kategorian Mappaus",
-    "afterChangesAreMadeItWillQueueMasssyncsW": "Kun muutokset on tehty, se asettaa massasyncit jonoon botin kanssa, mikä voi kestää jonkin aikaa välttääkseen botin spammaamisen."
+    "afterChangesAreMadeItWillQueueMasssyncsW": "Kun muutokset on tehty, se asettaa massasyncit jonoon botin kanssa, mikä voi kestää jonkin aikaa välttääkseen botin spammaamisen.",
+    "roleInUseExplanation": "Tämä Discord-rooli on jo olemassa olevassa kategoriasidonnassa, päivitä se, jos haluat lisätä lisää CMS-arvoja."
   },
   "DiscordRoleMultiSelector": {
     "guild": "Yhteisö:"
@@ -2320,7 +2327,9 @@
     "stageHidden": "Vaiheen etiketti ja kuvake näkyvät vain oikeudet omaaville lähettäjille",
     "stagePublic": "Vaiheen etiketti ja kuvake näkyvät kaikille lähettäjille",
     "formsstageactiontypeexecuteerlccommand": "Suorita ER:LC-komento",
-    "formsstageactiontypemodifyrostercolumn": "Muokkaa luettelokolumnia"
+    "formsstageactiontypemodifyrostercolumn": "Muokkaa luettelokolumnia",
+    "stageChange": "Vaihda vaihetta",
+    "on": "Päällä"
   },
   "StageReorderDialog": {
     "newStage": "Uusi vaihe",
@@ -3613,7 +3622,11 @@
     "stageChangerComNameLabel": "Vaiheenvaihtajan yhteisön nimi",
     "stageChangerComNameDescription": "Lisää vaiheen vaihtaneen käyttäjän yhteisön näyttönimen.",
     "executeERLCCommandDescription": "Vaihe \"Suorita ERLC-komento\" suorittaa automaattisesti määritetyn komennon valitulla ER:LC-palvelimella, kun lomakevaihe muuttuu.",
-    "modifyRosterColumnDescription": "Vaihe 'Muokkaa luettelokolumnia' päivittää automaattisesti määritetyn käyttäjän luettelokolumnin arvon määritetyn luettelon sarakkeeseen määritetyn arvon mukaisesti."
+    "modifyRosterColumnDescription": "Vaihe 'Muokkaa luettelokolumnia' päivittää automaattisesti määritetyn käyttäjän luettelokolumnin arvon määritetyn luettelon sarakkeeseen määritetyn arvon mukaisesti.",
+    "replyContentLabel": "Vastaussisältö",
+    "replyContentDescription": "Lisää lomakevastauksen sisältö, joka käynnisti tämän toiminnon, kun se on päällä Lomakevastaukset.",
+    "stageChangeReasonLabel": "Vaiheenvaihdon syy (valinnainen)",
+    "stageChangeReasonDescription": "Lisää vaiheenvaihdon syy, jos annettu."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
@@ -4953,6 +4966,20 @@
     "roster": "Luettelo",
     "column": "Sarakkeen",
     "newValue": "Uusi arvo",
-    "changedOn": "Muutettu"
+    "changedOn": "Muutettu",
+    "allowPrivateCommentsTrigger": "Käynnistä yksityisistä kommenteista"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Yhteisön logo",
+    "closeVisionPopup": "Sulje Vision-ponnahdusikkuna",
+    "escKey": "Esc",
+    "noCommunitySelected": "Yhtään yhteisöä ei ole tällä hetkellä valittuna. Avaa yhteisö käyttääksesi Visionia.",
+    "noPlayerFound": "Pelaajaa ei löytynyt",
+    "missingViewPlayersPermission": "Sinulla ei ole oikeutta tarkastella online ER:LC -pelaajia tällä palvelimella.",
+    "missingCreateRecordPermission": "Sinulla ei ole oikeutta luoda tietueita tälle palvelimelle.",
+    "missingViewActivityPermission": "Sinulla ei ole oikeutta tarkastella pelaajan toimintaa tällä palvelimella.",
+    "leftCreateRecord": "Vasen: Luo tietue",
+    "rightActivity": "Oikea: Toiminta",
+    "playerActivity": "Pelaajan toiminta"
   }
 }

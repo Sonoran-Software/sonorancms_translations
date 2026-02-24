@@ -807,7 +807,13 @@
     "saveVisionSettings": "Gem visionsindstillinger",
     "ocrHotkeyRecordingHint": "Tryk på din ønskede tastkombination, og klik derefter på Stop optagelse.",
     "visionSettingsSaved": "Visionsindstillinger gemt.",
-    "visionSettingsSaveFailed": "Kunne ikke gemme visionsindstillinger. Genvejen kan være ugyldig eller allerede i brug."
+    "visionSettingsSaveFailed": "Kunne ikke gemme visionsindstillinger. Genvejen kan være ugyldig eller allerede i brug.",
+    "selectedServer": "Valgt server",
+    "visionPermissionScreenRecordingRequired": "Skærmoptagelse adgang er påkrævet for Vision på macOS.",
+    "visionPermissionScreenRecordingHelp": "Åbn Systemindstillinger, tillad Skærmoptagelse for denne app, og genstart derefter appen.",
+    "openSystemSettings": "Åbn Systemindstillinger",
+    "refreshPermissionStatus": "Opdater tilladelsesstatus",
+    "visionOpenSettingsFailed": "Kunne ikke åbne macOS Systemindstillinger. Åbn venligst Privatliv og sikkerhed > Skærmoptagelse manuelt."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brugerkonti Vejledning",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Stadie etiket og ikon synlig kun for indsendere med tilladelser",
     "stagePublic": "Stadie etiket og ikon synlig for alle indsendere",
     "formsstageactiontypeexecuteerlccommand": "Udfør ER:LC-kommando",
-    "formsstageactiontypemodifyrostercolumn": "Rediger holdkolonne"
+    "formsstageactiontypemodifyrostercolumn": "Rediger holdkolonne",
+    "stageChange": "Trinændring",
+    "on": "Tændt"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etape",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Omskifter af trin Fællesskabsnavn",
     "stageChangerComNameDescription": "Indsætter visningsnavnet for fællesskabet af brugeren, der ændrede trinnet.",
     "executeERLCCommandDescription": "Scenen \"Udfør ER:LC-kommando\" vil automatisk udføre den angivne kommando på den valgte ER:LC-server, når formularets scene ændres.",
-    "modifyRosterColumnDescription": "Trinet \"Rediger holdkolonne\" vil automatisk opdatere den angivne brugers holdkolonneværdi for den angivne holds kolonne med den angivne værdi."
+    "modifyRosterColumnDescription": "Trinet \"Rediger holdkolonne\" vil automatisk opdatere den angivne brugers holdkolonneværdi for den angivne holds kolonne med den angivne værdi.",
+    "replyContentLabel": "Svar indhold",
+    "replyContentDescription": "Indsætter indholdet af formularsvaret, der udløste denne handling, når det er indstillet til På formularsvar.",
+    "stageChangeReasonLabel": "Årsag til trinændring (valgfrit)",
+    "stageChangeReasonDescription": "Indsætter årsagen til trinændring, hvis angivet."
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",
@@ -4954,6 +4966,20 @@
     "roster": "Holdliste",
     "column": "Kolonne",
     "newValue": "Ny værdi",
-    "changedOn": "Ændret den"
+    "changedOn": "Ændret den",
+    "allowPrivateCommentsTrigger": "Udløs ved private kommentarer"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Fællesskabslogo",
+    "closeVisionPopup": "Luk Vision pop op",
+    "escKey": "Esc",
+    "noCommunitySelected": "Der er i øjeblikket ikke valgt noget fællesskab. Åbn et fællesskab for at bruge Vision.",
+    "noPlayerFound": "Ingen spiller fundet",
+    "missingViewPlayersPermission": "Du har ikke tilladelse til at se online ER:LC spillere for denne server.",
+    "missingCreateRecordPermission": "Du har ikke tilladelse til at oprette poster for denne server.",
+    "missingViewActivityPermission": "Du har ikke tilladelse til at se spilleraktivitet for denne server.",
+    "leftCreateRecord": "Venstre: Opret post",
+    "rightActivity": "Højre: Aktivitet",
+    "playerActivity": "Spilleraktivitet"
   }
 }

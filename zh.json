@@ -807,7 +807,13 @@
     "saveVisionSettings": "保存视觉设置",
     "ocrHotkeyRecordingHint": "按下您想要的键组合，然后单击停止录制。",
     "visionSettingsSaved": "视觉设置已保存。",
-    "visionSettingsSaveFailed": "保存视觉设置失败。可能是快捷方式无效或已被使用。"
+    "visionSettingsSaveFailed": "保存视觉设置失败。可能是快捷方式无效或已被使用。",
+    "selectedServer": "选择的服务器",
+    "visionPermissionScreenRecordingRequired": "在 macOS 上使用 Vision 需要屏幕录制权限。",
+    "visionPermissionScreenRecordingHelp": "打开系统设置，允许此应用的屏幕录制，然后重启应用。",
+    "openSystemSettings": "打开系统设置",
+    "refreshPermissionStatus": "刷新权限状态",
+    "visionOpenSettingsFailed": "无法打开 macOS 系统设置。请手动打开隐私与安全 > 屏幕录制。"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "用户账户教程",
@@ -2321,7 +2327,9 @@
     "stageHidden": "阶段标签和图标仅对有权限的提交者可见",
     "stagePublic": "阶段标签和图标对所有提交者可见",
     "formsstageactiontypeexecuteerlccommand": "执行ER:LC命令",
-    "formsstageactiontypemodifyrostercolumn": "修改名单列"
+    "formsstageactiontypemodifyrostercolumn": "修改名单列",
+    "stageChange": "阶段变更",
+    "on": "开启"
   },
   "StageReorderDialog": {
     "newStage": "新阶段",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "阶段更改者社区名称",
     "stageChangerComNameDescription": "插入更改阶段的用户的社区显示名称。",
     "executeERLCCommandDescription": "阶段“执行ERLC命令”将在表单阶段更改时自动在选定的ER:LC服务器上执行指定命令。",
-    "modifyRosterColumnDescription": "阶段“修改名单列”将自动更新指定名单中指定用户的列值。"
+    "modifyRosterColumnDescription": "阶段“修改名单列”将自动更新指定名单中指定用户的列值。",
+    "replyContentLabel": "回复内容",
+    "replyContentDescription": "插入触发此操作的表单回复内容，当设置为“表单回复”时。",
+    "stageChangeReasonLabel": "阶段变更原因（可选）",
+    "stageChangeReasonDescription": "插入提供的阶段变更原因。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",
@@ -4954,6 +4966,20 @@
     "roster": "名单",
     "column": "列",
     "newValue": "新值",
-    "changedOn": "更改日期"
+    "changedOn": "更改日期",
+    "allowPrivateCommentsTrigger": "触发私人评论"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "社区徽标",
+    "closeVisionPopup": "关闭 Vision 弹窗",
+    "escKey": "Esc",
+    "noCommunitySelected": "当前未选择任何社区。打开一个社区以使用 Vision。",
+    "noPlayerFound": "未找到玩家",
+    "missingViewPlayersPermission": "您没有权限查看此服务器的在线 ER:LC 玩家。",
+    "missingCreateRecordPermission": "您没有权限为此服务器创建记录。",
+    "missingViewActivityPermission": "您没有权限查看此服务器的玩家活动。",
+    "leftCreateRecord": "左：创建记录",
+    "rightActivity": "右：活动",
+    "playerActivity": "玩家活动"
   }
 }

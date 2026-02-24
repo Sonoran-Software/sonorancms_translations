@@ -807,7 +807,13 @@
     "saveVisionSettings": "Lagre visjonsinnstillinger",
     "ocrHotkeyRecordingHint": "Trykk på den ønskede tasten kombinasjon, og klikk deretter Stopp opptak.",
     "visionSettingsSaved": "Visjonsinnstillinger lagret.",
-    "visionSettingsSaveFailed": "Kunne ikke lagre visjonsinnstillinger. Snarveien kan være ugyldig eller allerede i bruk."
+    "visionSettingsSaveFailed": "Kunne ikke lagre visjonsinnstillinger. Snarveien kan være ugyldig eller allerede i bruk.",
+    "selectedServer": "Valgt server",
+    "visionPermissionScreenRecordingRequired": "Skjermopptakstilgang er nødvendig for Vision på macOS.",
+    "visionPermissionScreenRecordingHelp": "Åpne Systeminnstillinger, tillat Skjermopptak for denne appen, og start deretter appen på nytt.",
+    "openSystemSettings": "Åpne Systeminnstillinger",
+    "refreshPermissionStatus": "Oppdater tillatelsesstatus",
+    "visionOpenSettingsFailed": "Kunne ikke åpne macOS Systeminnstillinger. Vennligst åpne Personvern & Sikkerhet > Skjermopptak manuelt."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Brukerkontoer Veiledning",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Trinnetikett og ikon synlig kun for innsendere med tillatelser",
     "stagePublic": "Trinnetikett og ikon synlig for alle innsendere",
     "formsstageactiontypeexecuteerlccommand": "Utfør ER:LC-kommando",
-    "formsstageactiontypemodifyrostercolumn": "Endre oppstillingskolonne"
+    "formsstageactiontypemodifyrostercolumn": "Endre oppstillingskolonne",
+    "stageChange": "Endring av scene",
+    "on": "På"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etappe",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Scene Endrer Samfunnsnavn",
     "stageChangerComNameDescription": "Setter inn visningsnavnet til fellesskapet for brukeren som endret scenen.",
     "executeERLCCommandDescription": "Fasen \"Utfør ERLC-kommando\" vil automatisk utføre den spesifiserte kommandoen på den valgte ER:LC-serveren når faseendringen skjer.",
-    "modifyRosterColumnDescription": "Fasen \"Endre oppstillingskolonne\" vil automatisk oppdatere den angitte brukerens verdi i oppstillingskolonnen for den angitte oppstillingen med angitt verdi."
+    "modifyRosterColumnDescription": "Fasen \"Endre oppstillingskolonne\" vil automatisk oppdatere den angitte brukerens verdi i oppstillingskolonnen for den angitte oppstillingen med angitt verdi.",
+    "replyContentLabel": "Svarinnhold",
+    "replyContentDescription": "Setter inn innholdet i svarskjemaet som utløste denne handlingen når satt til På skjema svar.",
+    "stageChangeReasonLabel": "Årsak til sceneendring (valgfritt)",
+    "stageChangeReasonDescription": "Setter inn årsaken til sceneendringen hvis den er angitt."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",
@@ -4954,6 +4966,20 @@
     "roster": "Oppstilling",
     "column": "Kolonne",
     "newValue": "Ny verdi",
-    "changedOn": "Endret på"
+    "changedOn": "Endret på",
+    "allowPrivateCommentsTrigger": "Utløs ved private kommentarer"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logg for samfunn",
+    "closeVisionPopup": "Lukk visjons-popup",
+    "escKey": "Esc",
+    "noCommunitySelected": "Ingen samfunn er for øyeblikket valgt. Åpne et samfunn for å bruke Vision.",
+    "noPlayerFound": "Ingen spiller funnet",
+    "missingViewPlayersPermission": "Du har ikke tillatelse til å se online ER:LC-spillere for denne serveren.",
+    "missingCreateRecordPermission": "Du har ikke tillatelse til å opprette oppføringer for denne serveren.",
+    "missingViewActivityPermission": "Du har ikke tillatelse til å se spilleraktivitet for denne serveren.",
+    "leftCreateRecord": "Venstre: Opprett oppføring",
+    "rightActivity": "Høyre: Aktivitet",
+    "playerActivity": "Spilleraktivitet"
   }
 }

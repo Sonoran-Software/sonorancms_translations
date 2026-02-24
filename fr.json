@@ -807,7 +807,13 @@
     "saveVisionSettings": "Enregistrer les paramètres de vision",
     "ocrHotkeyRecordingHint": "Appuyez sur la combinaison de touches souhaitée, puis cliquez sur Arrêter l'enregistrement.",
     "visionSettingsSaved": "Paramètres de vision enregistrés.",
-    "visionSettingsSaveFailed": "Échec de l'enregistrement des paramètres de vision. Le raccourci peut être invalide ou déjà utilisé."
+    "visionSettingsSaveFailed": "Échec de l'enregistrement des paramètres de vision. Le raccourci peut être invalide ou déjà utilisé.",
+    "selectedServer": "Serveur sélectionné",
+    "visionPermissionScreenRecordingRequired": "L'accès à l'enregistrement d'écran est requis pour Vision sur macOS.",
+    "visionPermissionScreenRecordingHelp": "Ouvrez les paramètres système, autorisez l'enregistrement d'écran pour cette application, puis redémarrez l'application.",
+    "openSystemSettings": "Ouvrir les paramètres système",
+    "refreshPermissionStatus": "Actualiser le statut des permissions",
+    "visionOpenSettingsFailed": "Impossible d'ouvrir les paramètres système de macOS. Veuillez ouvrir Manuellement Confidentialité & Sécurité > Enregistrement d'écran."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutoriel des Comptes Utilisateurs",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Étiquette et icône d'étape visibles uniquement pour les soumissionnaires avec des autorisations",
     "stagePublic": "Étiquette et icône d'étape visibles pour tous les soumissionnaires",
     "formsstageactiontypeexecuteerlccommand": "Exécuter la commande ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Modifier la colonne de la liste"
+    "formsstageactiontypemodifyrostercolumn": "Modifier la colonne de la liste",
+    "stageChange": "Changement de scène",
+    "on": "Activé"
   },
   "StageReorderDialog": {
     "newStage": "Nouvelle Étape",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Nom de la communauté du changeur de stade",
     "stageChangerComNameDescription": "Insère le nom d'affichage de la communauté de l'utilisateur qui a changé de stade.",
     "executeERLCCommandDescription": "Le stade \"Exécuter la commande ERLC\" exécutera automatiquement la commande spécifiée sur le serveur ER:LC sélectionné lorsque le stade de formulaire change.",
-    "modifyRosterColumnDescription": "L'étape \"Modifier la colonne de la liste\" mettra automatiquement à jour la valeur de la colonne d'un utilisateur spécifié dans la colonne spécifiée de la liste spécifiée avec la valeur spécifiée."
+    "modifyRosterColumnDescription": "L'étape \"Modifier la colonne de la liste\" mettra automatiquement à jour la valeur de la colonne d'un utilisateur spécifié dans la colonne spécifiée de la liste spécifiée avec la valeur spécifiée.",
+    "replyContentLabel": "Contenu de la réponse",
+    "replyContentDescription": "Insère le contenu de la réponse du formulaire qui a déclenché cette action lorsqu'il est défini sur Sur les réponses du formulaire.",
+    "stageChangeReasonLabel": "Motif du changement de scène (Optionnel)",
+    "stageChangeReasonDescription": "Insère le motif du changement de scène si fourni."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",
@@ -4954,6 +4966,20 @@
     "roster": "Liste",
     "column": "Colonne",
     "newValue": "Nouvelle valeur",
-    "changedOn": "Changé le"
+    "changedOn": "Changé le",
+    "allowPrivateCommentsTrigger": "Déclencher sur les commentaires privés"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logo de la communauté",
+    "closeVisionPopup": "Fermer la fenêtre Vision",
+    "escKey": "Échap",
+    "noCommunitySelected": "Aucune communauté n'est actuellement sélectionnée. Ouvrez une communauté pour utiliser Vision.",
+    "noPlayerFound": "Aucun joueur trouvé",
+    "missingViewPlayersPermission": "Vous n'avez pas la permission de voir les joueurs ER:LC en ligne pour ce serveur.",
+    "missingCreateRecordPermission": "Vous n'avez pas la permission de créer des enregistrements pour ce serveur.",
+    "missingViewActivityPermission": "Vous n'avez pas la permission de voir l'activité des joueurs pour ce serveur.",
+    "leftCreateRecord": "Gauche : Créer un enregistrement",
+    "rightActivity": "Droite : Activité",
+    "playerActivity": "Activité du joueur"
   }
 }

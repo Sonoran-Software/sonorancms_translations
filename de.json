@@ -807,7 +807,13 @@
     "saveVisionSettings": "Visionseinstellungen speichern",
     "ocrHotkeyRecordingHint": "Drücken Sie die gewünschte Tastenkombination und klicken Sie dann auf Aufnahme stoppen.",
     "visionSettingsSaved": "Visionseinstellungen gespeichert.",
-    "visionSettingsSaveFailed": "Speichern der Visionseinstellungen fehlgeschlagen. Die Verknüpfung ist möglicherweise ungültig oder bereits in Gebrauch."
+    "visionSettingsSaveFailed": "Speichern der Visionseinstellungen fehlgeschlagen. Die Verknüpfung ist möglicherweise ungültig oder bereits in Gebrauch.",
+    "selectedServer": "Ausgewählter Server",
+    "visionPermissionScreenRecordingRequired": "Zugriff auf Bildschirmaufnahme wird für Vision unter macOS benötigt.",
+    "visionPermissionScreenRecordingHelp": "Öffnen Sie die Systemeinstellungen, erlauben Sie die Bildschirmaufnahme für diese App und starten Sie dann die App neu.",
+    "openSystemSettings": "Systemeinstellungen öffnen",
+    "refreshPermissionStatus": "Berechtigungsstatus aktualisieren",
+    "visionOpenSettingsFailed": "macOS Systemeinstellungen konnten nicht geöffnet werden. Bitte öffnen Sie manuell Privatsphäre & Sicherheit > Bildschirmaufnahme."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Benutzerkonten-Tutorial",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Stufenbeschriftung und -symbol sind nur für Absender mit Berechtigungen sichtbar",
     "stagePublic": "Stufenbeschriftung und -symbol sind für alle Absender sichtbar",
     "formsstageactiontypeexecuteerlccommand": "ER:LC-Befehl ausführen",
-    "formsstageactiontypemodifyrostercolumn": "Roster-Spalte bearbeiten"
+    "formsstageactiontypemodifyrostercolumn": "Roster-Spalte bearbeiten",
+    "stageChange": "Bühnenwechsel",
+    "on": "An"
   },
   "StageReorderDialog": {
     "newStage": "Neue Stufe",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Stufenwechsler Gemeinschaftsname",
     "stageChangerComNameDescription": "Fügt den Gemeinschaftsanzeigenamen des Benutzers ein, der die Stufe geändert hat.",
     "executeERLCCommandDescription": "Die Phase „ERLC-Befehl ausführen“ führt den angegebenen Befehl auf dem ausgewählten ER:LC-Server automatisch aus, wenn sich die Formularphase ändert.",
-    "modifyRosterColumnDescription": "Die Bühne „Roster-Spalte bearbeiten“ aktualisiert automatisch den Wert der spezifizierten Benutzer-Roster-Spalte mit dem angegebenen Wert."
+    "modifyRosterColumnDescription": "Die Bühne „Roster-Spalte bearbeiten“ aktualisiert automatisch den Wert der spezifizierten Benutzer-Roster-Spalte mit dem angegebenen Wert.",
+    "replyContentLabel": "Antwortinhalt",
+    "replyContentDescription": "Fügt den Inhalt der Formularantwort ein, die diese Aktion ausgelöst hat, wenn auf Formularantworten eingestellt.",
+    "stageChangeReasonLabel": "Grund für Bühnenwechsel (Optional)",
+    "stageChangeReasonDescription": "Fügt den Grund für den Bühnenwechsel ein, wenn angegeben."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",
@@ -4954,6 +4966,20 @@
     "roster": "Dienstplan",
     "column": "Spalte",
     "newValue": "Neuer Wert",
-    "changedOn": "Geändert am"
+    "changedOn": "Geändert am",
+    "allowPrivateCommentsTrigger": "Trigger bei privaten Kommentaren"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Community-Logo",
+    "closeVisionPopup": "Vision-Popup schließen",
+    "escKey": "Esc",
+    "noCommunitySelected": "Derzeit ist keine Community ausgewählt. Öffnen Sie eine Community, um Vision zu nutzen.",
+    "noPlayerFound": "Kein Spieler gefunden",
+    "missingViewPlayersPermission": "Sie haben keine Berechtigung, um die Online-Spieler von ER:LC für diesen Server zu sehen.",
+    "missingCreateRecordPermission": "Sie haben keine Berechtigung, um Aufzeichnungen für diesen Server zu erstellen.",
+    "missingViewActivityPermission": "Sie haben keine Berechtigung, um die Spieleraktivität für diesen Server zu sehen.",
+    "leftCreateRecord": "Links: Aufzeichnung erstellen",
+    "rightActivity": "Rechts: Aktivität",
+    "playerActivity": "Spieleraktivität"
   }
 }

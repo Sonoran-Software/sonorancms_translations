@@ -807,7 +807,13 @@
     "saveVisionSettings": "Salva Impostazioni di Visione",
     "ocrHotkeyRecordingHint": "Premi la combinazione di tasti desiderata, quindi fai clic su Termina Registrazione.",
     "visionSettingsSaved": "Impostazioni di visione salvate.",
-    "visionSettingsSaveFailed": "Salvataggio delle impostazioni di visione fallito. Il collegamento potrebbe essere non valido o già in uso."
+    "visionSettingsSaveFailed": "Salvataggio delle impostazioni di visione fallito. Il collegamento potrebbe essere non valido o già in uso.",
+    "selectedServer": "Server selezionato",
+    "visionPermissionScreenRecordingRequired": "L'accesso alla registrazione dello schermo è richiesto per Vision su macOS.",
+    "visionPermissionScreenRecordingHelp": "Apri Impostazioni di Sistema, consenti la Registrazione dello Schermo per questa app, quindi riavvia l'app.",
+    "openSystemSettings": "Apri Impostazioni di Sistema",
+    "refreshPermissionStatus": "Aggiorna lo stato dei permessi",
+    "visionOpenSettingsFailed": "Impossibile aprire le Impostazioni di Sistema di macOS. Si prega di aprire manualmente Privacy e Sicurezza > Registrazione Schermo."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial sugli Account Utente",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Etichetta e icona della fase visibili solo ai presentatori con autorizzazioni",
     "stagePublic": "Etichetta e icona della fase visibili a tutti i presentatori",
     "formsstageactiontypeexecuteerlccommand": "Esegui comando ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Modifica Colonna Roster"
+    "formsstageactiontypemodifyrostercolumn": "Modifica Colonna Roster",
+    "stageChange": "Cambio di fase",
+    "on": "Acceso"
   },
   "StageReorderDialog": {
     "newStage": "Nuova Fase",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Nome Comunità Modifica Fase",
     "stageChangerComNameDescription": "Inserisce il nome visualizzato della comunità dell'utente che ha cambiato la fase.",
     "executeERLCCommandDescription": "La fase \"Esegui comando ERLC\" eseguirà automaticamente il comando specificato sul server ER:LC selezionato quando cambia la fase del modulo.",
-    "modifyRosterColumnDescription": "Lo stadio \"Modifica Colonna Roster\" aggiornerà automaticamente il valore della colonna roster dell'utente specificato per la colonna del roster specificato con il valore specificato."
+    "modifyRosterColumnDescription": "Lo stadio \"Modifica Colonna Roster\" aggiornerà automaticamente il valore della colonna roster dell'utente specificato per la colonna del roster specificato con il valore specificato.",
+    "replyContentLabel": "Contenuto Risposta",
+    "replyContentDescription": "Inserisce il contenuto della risposta del modulo che ha attivato questa azione quando impostato su Risposte ai Moduli.",
+    "stageChangeReasonLabel": "Motivo Cambio di Fase (Opzionale)",
+    "stageChangeReasonDescription": "Inserisce il motivo del cambio di fase se fornito."
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",
@@ -4954,6 +4966,20 @@
     "roster": "Roster",
     "column": "Colonna",
     "newValue": "Nuovo Valore",
-    "changedOn": "Modificato Su"
+    "changedOn": "Modificato Su",
+    "allowPrivateCommentsTrigger": "Attiva sui Commenti Privati"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logo della comunità",
+    "closeVisionPopup": "Chiudi il popup di Vision",
+    "escKey": "Esc",
+    "noCommunitySelected": "Nessuna comunità attualmente selezionata. Apri una comunità per usare Vision.",
+    "noPlayerFound": "Nessun giocatore trovato",
+    "missingViewPlayersPermission": "Non hai il permesso di visualizzare i giocatori online ER:LC per questo server.",
+    "missingCreateRecordPermission": "Non hai il permesso di creare record per questo server.",
+    "missingViewActivityPermission": "Non hai il permesso di visualizzare l'attività dei giocatori per questo server.",
+    "leftCreateRecord": "Sinistra: Crea Record",
+    "rightActivity": "Destra: Attività",
+    "playerActivity": "Attività del Giocatore"
   }
 }

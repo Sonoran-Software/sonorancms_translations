@@ -807,7 +807,13 @@
     "saveVisionSettings": "Spara visioninställningar",
     "ocrHotkeyRecordingHint": "Tryck på önskad tangentkombination, klicka sedan på Sluta spela in.",
     "visionSettingsSaved": "Visioninställningar sparade.",
-    "visionSettingsSaveFailed": "Det gick inte att spara visioninställningar. Genvägen kan vara ogiltig eller redan använd."
+    "visionSettingsSaveFailed": "Det gick inte att spara visioninställningar. Genvägen kan vara ogiltig eller redan använd.",
+    "selectedServer": "Vald server",
+    "visionPermissionScreenRecordingRequired": "Skärminspelningsåtkomst krävs för Vision på macOS.",
+    "visionPermissionScreenRecordingHelp": "Öppna Systeminställningar, tillåt Skärminspelning för denna app och starta sedan om appen.",
+    "openSystemSettings": "Öppna Systeminställningar",
+    "refreshPermissionStatus": "Uppdatera behörighetsstatus",
+    "visionOpenSettingsFailed": "Kunde inte öppna macOS Systeminställningar. Vänligen öppna Integritet och säkerhet > Skärminspelning manuellt."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Användarkontonhandledning",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Etikett och ikon för etapp synlig endast för inlämnare med behörigheter",
     "stagePublic": "Etikett och ikon för etapp synlig för alla inlämnare",
     "formsstageactiontypeexecuteerlccommand": "Utför ER:LC Kommando",
-    "formsstageactiontypemodifyrostercolumn": "Ändra Roster Kolumn"
+    "formsstageactiontypemodifyrostercolumn": "Ändra Roster Kolumn",
+    "stageChange": "Stegändring",
+    "on": "På"
   },
   "StageReorderDialog": {
     "newStage": "Ny Etapp",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Stegändrarens gemenskapsnamn",
     "stageChangerComNameDescription": "Infogar gemenskapsvisningsnamnet på användaren som ändrade steget.",
     "executeERLCCommandDescription": "Steget \"Utför ERLC Kommando\" kommer automatiskt att utföra det specificerade kommandot på den valda ER:LC servern när formulärets steg ändras.",
-    "modifyRosterColumnDescription": "Steget \"Ändra Roster Kolumn\" uppdaterar automatiskt värdet för den angivna användarens rosterkolumn för den angivna rosterkolumnen med angivet värde."
+    "modifyRosterColumnDescription": "Steget \"Ändra Roster Kolumn\" uppdaterar automatiskt värdet för den angivna användarens rosterkolumn för den angivna rosterkolumnen med angivet värde.",
+    "replyContentLabel": "Svarsinnehåll",
+    "replyContentDescription": "Infogar innehållet i formulärsvaret som utlöste denna åtgärd när den är inställd på På formulärsvar.",
+    "stageChangeReasonLabel": "Orsak till stegändring (valfritt)",
+    "stageChangeReasonDescription": "Infogar orsaken till stegändring om angivet."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",
@@ -4954,6 +4966,20 @@
     "roster": "Roster",
     "column": "Kolumn",
     "newValue": "Nytt Värde",
-    "changedOn": "Ändrades På"
+    "changedOn": "Ändrades På",
+    "allowPrivateCommentsTrigger": "Utlösa på privata kommentarer"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Gemenskapslogotyp",
+    "closeVisionPopup": "Stäng vision-popup",
+    "escKey": "Esc",
+    "noCommunitySelected": "Ingen gemenskap är för närvarande vald. Öppna en gemenskap för att använda Vision.",
+    "noPlayerFound": "Ingen spelare hittad",
+    "missingViewPlayersPermission": "Du har inte behörighet att visa online ER:LC-spelare för denna server.",
+    "missingCreateRecordPermission": "Du har inte behörighet att skapa poster för denna server.",
+    "missingViewActivityPermission": "Du har inte behörighet att visa spelaraktivitet för denna server.",
+    "leftCreateRecord": "Vänster: Skapa post",
+    "rightActivity": "Höger: Aktivitet",
+    "playerActivity": "Spelaraktivitet"
   }
 }

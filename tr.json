@@ -807,7 +807,13 @@
     "saveVisionSettings": "Görüş Ayarlarını Kaydet",
     "ocrHotkeyRecordingHint": "İstediğiniz tuş kombinasyonuna basın, ardından Kaydı Durdur'a tıklayın.",
     "visionSettingsSaved": "Görüş ayarları kaydedildi.",
-    "visionSettingsSaveFailed": "Görüş ayarları kaydedilemedi. Kısayol geçersiz olabilir veya zaten kullanılıyor olabilir."
+    "visionSettingsSaveFailed": "Görüş ayarları kaydedilemedi. Kısayol geçersiz olabilir veya zaten kullanılıyor olabilir.",
+    "selectedServer": "Seçilen Sunucu",
+    "visionPermissionScreenRecordingRequired": "macOS'ta Vision için Ekran Kaydı erişimi gereklidir.",
+    "visionPermissionScreenRecordingHelp": "Sistem Ayarlarını Açın, bu uygulama için Ekran Kaydı izni verin, ardından uygulamayı yeniden başlatın.",
+    "openSystemSettings": "Sistem Ayarlarını Açın",
+    "refreshPermissionStatus": "İzin Durumunu Yenile",
+    "visionOpenSettingsFailed": "macOS Sistem Ayarları açılamadı. Lütfen Gizlilik ve Güvenlik > Ekran Kaydı'nı manuel olarak açın."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Kullanıcı Hesapları Eğitimi",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Aşama etiketi ve simgesi yalnızca izinli göndericilere görünür",
     "stagePublic": "Aşama etiketi ve simgesi tüm göndericilere görünür",
     "formsstageactiontypeexecuteerlccommand": "ER:LC Komutunu Çalıştır",
-    "formsstageactiontypemodifyrostercolumn": "Kadroları Sütunu Değiştir"
+    "formsstageactiontypemodifyrostercolumn": "Kadroları Sütunu Değiştir",
+    "stageChange": "Sahne Değişikliği",
+    "on": "Açık"
   },
   "StageReorderDialog": {
     "newStage": "Yeni Aşama",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Aşama Değiştirici Topluluk Adı",
     "stageChangerComNameDescription": "Aşamayı değiştiren kullanıcının topluluk gösterim adını ekler.",
     "executeERLCCommandDescription": "“ER:LC Komutunu Çalıştır” aşaması, form aşaması değiştiğinde belirtilen komutu seçilen ER:LC sunucusunda otomatik olarak çalıştıracaktır.",
-    "modifyRosterColumnDescription": "Kadroları Sütunu Değiştir aşaması, belirtilen kullanıcının belirtilen kadronun sütunundaki sütun değerini belirtilen değerle otomatik olarak günceller."
+    "modifyRosterColumnDescription": "Kadroları Sütunu Değiştir aşaması, belirtilen kullanıcının belirtilen kadronun sütunundaki sütun değerini belirtilen değerle otomatik olarak günceller.",
+    "replyContentLabel": "Yanıt İçeriği",
+    "replyContentDescription": "Bu eylemi tetikleyen form yanıtının içeriğini, Form Yanıtlarında Ayarlıyken ekler.",
+    "stageChangeReasonLabel": "Sahne Değişikliği Nedeni (Opsiyonel)",
+    "stageChangeReasonDescription": "Belirtilmişse sahne değişikliği nedenini ekler."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",
@@ -4954,6 +4966,20 @@
     "roster": "Kadrolar",
     "column": "Sütun",
     "newValue": "Yeni Değer",
-    "changedOn": "Değiştirdi"
+    "changedOn": "Değiştirdi",
+    "allowPrivateCommentsTrigger": "Özel Yorumlarda Tetikle"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Topluluk logosu",
+    "closeVisionPopup": "Vision açılır penceresini kapat",
+    "escKey": "Esc",
+    "noCommunitySelected": "Şu anda seçili bir topluluk yok. Vision'u kullanmak için bir topluluk açın.",
+    "noPlayerFound": "Oyuncu bulunamadı",
+    "missingViewPlayersPermission": "Bu sunucu için çevrimiçi ER:LC oyuncularını görüntüleme izniniz yok.",
+    "missingCreateRecordPermission": "Bu sunucu için kayıt oluşturma izniniz yok.",
+    "missingViewActivityPermission": "Bu sunucu için oyuncu etkinliğini görüntüleme izniniz yok.",
+    "leftCreateRecord": "Sol: Kayıt Oluştur",
+    "rightActivity": "Sağ: Etkinlik",
+    "playerActivity": "Oyuncu Etkinliği"
   }
 }
