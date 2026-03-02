@@ -4125,6 +4125,15 @@
     "containImage": "Contain Image"
   },
   "ElementEditor": {
+    "editorTab": "Editor",
+    "animationTab": "Animation",
+    "animation": "Animation",
+    "addAnimation": "Add animation",
+    "removeAnimation": "Remove animation",
+    "noAnimationsConfigured": "No animations configured yet.",
+    "animationModeLoadTooltip": "On load: runs when the element first renders.",
+    "animationModeHoverTooltip": "On hover: runs when the element is hovered.",
+    "animationModeViewTooltip": "On view: runs when the element enters the viewport.",
     "visibility": "Visibility",
     "clone": "Clone",
     "delete": "Delete",
