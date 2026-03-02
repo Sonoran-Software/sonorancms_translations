@@ -807,7 +807,13 @@
     "saveVisionSettings": "Visie-instellingen Opslaan",
     "ocrHotkeyRecordingHint": "Druk op de gewenste toetscombinatie en klik vervolgens op Stop Opname.",
     "visionSettingsSaved": "Visie-instellingen opgeslagen.",
-    "visionSettingsSaveFailed": "Opslaan van visie-instellingen mislukt. De snelkoppeling kan ongeldig zijn of al in gebruik."
+    "visionSettingsSaveFailed": "Opslaan van visie-instellingen mislukt. De snelkoppeling kan ongeldig zijn of al in gebruik.",
+    "selectedServer": "Geselecteerde server",
+    "visionPermissionScreenRecordingRequired": "Toegang tot schermopname is vereist voor Vision op macOS.",
+    "visionPermissionScreenRecordingHelp": "Open Systeeminstellingen, sta schermopname toe voor deze app en start de app vervolgens opnieuw.",
+    "openSystemSettings": "Open Systeeminstellingen",
+    "refreshPermissionStatus": "Ververs toestemmingsstatus",
+    "visionOpenSettingsFailed": "Kon macOS Systeeminstellingen niet openen. Open Privacy & Beveiliging > Schermopname handmatig."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Gebruikersaccounts Handleiding",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Stadiumlabel en pictogram alleen zichtbaar voor indieners met toestemming",
     "stagePublic": "Stadiumlabel en pictogram zichtbaar voor alle indieners",
     "formsstageactiontypeexecuteerlccommand": "Voer ER:LC Commando uit",
-    "formsstageactiontypemodifyrostercolumn": "Wijzig Rooster Kolom"
+    "formsstageactiontypemodifyrostercolumn": "Wijzig Rooster Kolom",
+    "stageChange": "Fasewijziging",
+    "on": "Aan"
   },
   "StageReorderDialog": {
     "newStage": "Nieuwe Fase",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Gemeenschapsnaam Stadia-Wijziger",
     "stageChangerComNameDescription": "Voegt de gemeenschapsnaam in van de gebruiker die de fase heeft gewijzigd.",
     "executeERLCCommandDescription": "De fase \"Voer ERLC Commando uit\" zal automatisch het gespecificeerde commando uitvoeren op de geselecteerde ER:LC server wanneer de formulierfase verandert.",
-    "modifyRosterColumnDescription": "De fase \"Wijzig Rooster Kolom\" zal automatisch de vermelde gebruikers waarde voor de vermelde rooster kolom bijwerken met de gespecificeerde waarde."
+    "modifyRosterColumnDescription": "De fase \"Wijzig Rooster Kolom\" zal automatisch de vermelde gebruikers waarde voor de vermelde rooster kolom bijwerken met de gespecificeerde waarde.",
+    "replyContentLabel": "Antwoordinhoud",
+    "replyContentDescription": "Voegt de inhoud in van het formulierantwoord dat deze actie heeft getriggerd wanneer ingesteld op Bij formulierantwoorden.",
+    "stageChangeReasonLabel": "Reden fasewijziging (optioneel)",
+    "stageChangeReasonDescription": "Voegt de reden voor fasewijziging in indien opgegeven."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
@@ -4954,6 +4966,20 @@
     "roster": "Rooster",
     "column": "Kolom",
     "newValue": "Nieuwe Waarde",
-    "changedOn": "Gewijzigd Op"
+    "changedOn": "Gewijzigd Op",
+    "allowPrivateCommentsTrigger": "Trigger bij privé-opmerkingen"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Communitylogo",
+    "closeVisionPopup": "Sluit het vision-popupvenster",
+    "escKey": "Esc",
+    "noCommunitySelected": "Er is momenteel geen community geselecteerd. Open een community om Vision te gebruiken.",
+    "noPlayerFound": "Geen speler gevonden",
+    "missingViewPlayersPermission": "U heeft geen toestemming om online ER:LC-spelers voor deze server te bekijken.",
+    "missingCreateRecordPermission": "U heeft geen toestemming om records te maken voor deze server.",
+    "missingViewActivityPermission": "U heeft geen toestemming om speleractiviteit voor deze server te bekijken.",
+    "leftCreateRecord": "Links: Maak record",
+    "rightActivity": "Rechts: Activiteit",
+    "playerActivity": "Speleractiviteit"
   }
 }

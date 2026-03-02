@@ -807,7 +807,13 @@
     "saveVisionSettings": "Сохранить настройки видения",
     "ocrHotkeyRecordingHint": "Нажмите желаемую комбинацию клавиш, затем нажмите Остановить запись.",
     "visionSettingsSaved": "Настройки видения сохранены.",
-    "visionSettingsSaveFailed": "Не удалось сохранить настройки видения. Сочетание может быть недействительным или уже используется."
+    "visionSettingsSaveFailed": "Не удалось сохранить настройки видения. Сочетание может быть недействительным или уже используется.",
+    "selectedServer": "Выбранный сервер",
+    "visionPermissionScreenRecordingRequired": "Доступ к записи экрана требуется для Vision на macOS.",
+    "visionPermissionScreenRecordingHelp": "Откройте Системные настройки, разрешите запись экрана для этого приложения, затем перезапустите приложение.",
+    "openSystemSettings": "Открыть Системные настройки",
+    "refreshPermissionStatus": "Обновить статус разрешений",
+    "visionOpenSettingsFailed": "Не удалось открыть Системные настройки macOS. Пожалуйста, откройте вручную Раздел Конфиденциальность и безопасность > Запись экрана."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Узнайте, как использовать учетные записи пользователей",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Метка и значок этапа видны только отправителям с разрешениями",
     "stagePublic": "Метка и значок этапа видны всем отправителям",
     "formsstageactiontypeexecuteerlccommand": "Выполнить команду ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Изменить столбец списка"
+    "formsstageactiontypemodifyrostercolumn": "Изменить столбец списка",
+    "stageChange": "Смена этапа",
+    "on": "Включено"
   },
   "StageReorderDialog": {
     "newStage": "Закрыть",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Изменение этапа - название сообщества",
     "stageChangerComNameDescription": "Вставляет отображаемое имя сообщества пользователя, который изменил этап.",
     "executeERLCCommandDescription": "Этап \"Выполнить команду ERLC\" автоматически исполнит указанную команду на выбранном сервере ER:LC при изменении этапа формы.",
-    "modifyRosterColumnDescription": "Этап \"Изменить столбец списка\" автоматически обновит значение столбца списка указанного пользователя для указанного списка на указанное значение."
+    "modifyRosterColumnDescription": "Этап \"Изменить столбец списка\" автоматически обновит значение столбца списка указанного пользователя для указанного списка на указанное значение.",
+    "replyContentLabel": "Содержание ответа",
+    "replyContentDescription": "Вставляет содержание ответа формы, который вызвал это действие, когда установлено на Ответы форм.",
+    "stageChangeReasonLabel": "Причина смены этапа (необязательно)",
+    "stageChangeReasonDescription": "Вставляет причину смены этапа, если указана."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",
@@ -4954,6 +4966,20 @@
     "roster": "Список",
     "column": "Столбец",
     "newValue": "Новое значение",
-    "changedOn": "Изменено на"
+    "changedOn": "Изменено на",
+    "allowPrivateCommentsTrigger": "Триггер на приватные комментарии"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Логотип сообщества",
+    "closeVisionPopup": "Закрыть всплывающее окно Vision",
+    "escKey": "Esc",
+    "noCommunitySelected": "В настоящее время сообщество не выбрано. Откройте сообщество, чтобы использовать Vision.",
+    "noPlayerFound": "Игрок не найден",
+    "missingViewPlayersPermission": "У вас нет разрешения на просмотр онлайн игроков ER:LC для этого сервера.",
+    "missingCreateRecordPermission": "У вас нет разрешения на создание записей для этого сервера.",
+    "missingViewActivityPermission": "У вас нет разрешения на просмотр активности игроков для этого сервера.",
+    "leftCreateRecord": "Лево: Создать запись",
+    "rightActivity": "Право: Активность",
+    "playerActivity": "Активность игрока"
   }
 }

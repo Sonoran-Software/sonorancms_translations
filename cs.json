@@ -807,7 +807,13 @@
     "saveVisionSettings": "Uložit nastavení vidění",
     "ocrHotkeyRecordingHint": "Stiskněte požadovanou kombinaci kláves a poté klikněte na Zastavit nahrávání.",
     "visionSettingsSaved": "Nastavení vidění bylo uloženo.",
-    "visionSettingsSaveFailed": "Nepodařilo se uložit nastavení vidění. Zkratka může být neplatná nebo již použita."
+    "visionSettingsSaveFailed": "Nepodařilo se uložit nastavení vidění. Zkratka může být neplatná nebo již použita.",
+    "selectedServer": "Vybraný server",
+    "visionPermissionScreenRecordingRequired": "Přístup k záznamu obrazovky je vyžadován pro Vision na macOS.",
+    "visionPermissionScreenRecordingHelp": "Otevřete Nastavení systému, povolte záznam obrazovky pro tuto aplikaci a poté aplikaci restartujte.",
+    "openSystemSettings": "Otevřete Nastavení systému",
+    "refreshPermissionStatus": "Obnovit stav oprávnění",
+    "visionOpenSettingsFailed": "Nepodařilo se otevřít Nastavení systému macOS. Otevřete ručně Ochrana soukromí a zabezpečení > Záznam obrazovky."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Návod na uživatelské účty",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Štítek a ikona etapy viditelné pouze pro odesílatele s oprávněním",
     "stagePublic": "Štítek a ikona etapy viditelné pro všechny odesílatele",
     "formsstageactiontypeexecuteerlccommand": "Proveďte příkaz ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Upravit sloupec sestavy"
+    "formsstageactiontypemodifyrostercolumn": "Upravit sloupec sestavy",
+    "stageChange": "Změna etapy",
+    "on": "Zapnuto"
   },
   "StageReorderDialog": {
     "newStage": "Nová fáze",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Název komunity měniče fáze",
     "stageChangerComNameDescription": "Vloží zobrazované jméno komunity uživatele, který změnil fázi.",
     "executeERLCCommandDescription": "Fáze 'Proveďte příkaz ERLC' automaticky provede zadaný příkaz na vybraném serveru ER:LC při změně fáze formuláře.",
-    "modifyRosterColumnDescription": "Fáze \"Upravit sloupec sestavy\" automaticky aktualizuje hodnotu sloupce sestavy zadaného uživatele pro specifikovaný sloupec sestavy s uvedenou hodnotou."
+    "modifyRosterColumnDescription": "Fáze \"Upravit sloupec sestavy\" automaticky aktualizuje hodnotu sloupce sestavy zadaného uživatele pro specifikovaný sloupec sestavy s uvedenou hodnotou.",
+    "replyContentLabel": "Obsah odpovědi",
+    "replyContentDescription": "Vloží obsah odpovědi z formuláře, která spustila tuto akci, pokud je nastaveno na Odpovědi formulářů.",
+    "stageChangeReasonLabel": "Důvod změny etapy (volitelné)",
+    "stageChangeReasonDescription": "Vloží důvod změny etapy, pokud je uveden."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",
@@ -4954,6 +4966,20 @@
     "roster": "Sestava",
     "column": "Sloupec",
     "newValue": "Nová hodnota",
-    "changedOn": "Změněno dne"
+    "changedOn": "Změněno dne",
+    "allowPrivateCommentsTrigger": "Spustit při soukromých komentářích"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logo komunity",
+    "closeVisionPopup": "Zavřít vyskakovací okno Vision",
+    "escKey": "Esc",
+    "noCommunitySelected": "Není aktuálně vybrána žádná komunita. Otevřete komunitu, abyste mohli použít Vision.",
+    "noPlayerFound": "Nenašel se žádný hráč",
+    "missingViewPlayersPermission": "Nemáte oprávnění k zobrazení hráčů ER:LC online pro tento server.",
+    "missingCreateRecordPermission": "Nemáte oprávnění vytvářet záznamy pro tento server.",
+    "missingViewActivityPermission": "Nemáte oprávnění k zobrazení aktivity hráče pro tento server.",
+    "leftCreateRecord": "Vlevo: Vytvořit záznam",
+    "rightActivity": "Vpravo: Aktivita",
+    "playerActivity": "Aktivita hráče"
   }
 }

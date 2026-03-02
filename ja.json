@@ -807,7 +807,13 @@
     "saveVisionSettings": "ビジョン設定を保存",
     "ocrHotkeyRecordingHint": "希望のキーの組み合わせを押してから「録画を停止」をクリックします。",
     "visionSettingsSaved": "ビジョン設定が保存されました。",
-    "visionSettingsSaveFailed": "ビジョン設定の保存に失敗しました。ショートカットが無効か、すでに使用されている可能性があります。"
+    "visionSettingsSaveFailed": "ビジョン設定の保存に失敗しました。ショートカットが無効か、すでに使用されている可能性があります。",
+    "selectedServer": "選択されたサーバー",
+    "visionPermissionScreenRecordingRequired": "macOSでVisionを使用するには、画面録画のアクセスが必要です。",
+    "visionPermissionScreenRecordingHelp": "システム設定を開き、このアプリの画面録画を許可してから、アプリを再起動してください。",
+    "openSystemSettings": "システム設定を開く",
+    "refreshPermissionStatus": "権限ステータスを更新",
+    "visionOpenSettingsFailed": "macOSのシステム設定を開くことができませんでした。手動で「プライバシーとセキュリティ > 画面録画」を開いてください。"
   },
   "AccountViewer": {
     "userAcccountsTutorial": "ユーザーアカウントの使い方を学ぶ",
@@ -2321,7 +2327,9 @@
     "stageHidden": "ステージラベルとアイコンは許可を持つ送信者にのみ表示されます",
     "stagePublic": "ステージラベルとアイコンはすべての送信者に表示されます",
     "formsstageactiontypeexecuteerlccommand": "ER:LCコマンドを実行",
-    "formsstageactiontypemodifyrostercolumn": "名簿列の修正"
+    "formsstageactiontypemodifyrostercolumn": "名簿列の修正",
+    "stageChange": "ステージ変更",
+    "on": "オン"
   },
   "StageReorderDialog": {
     "newStage": "閉じる",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "ステージチェンジャーコミュニティ名",
     "stageChangerComNameDescription": "ステージを変更したユーザーのコミュニティ表示名を挿入します。",
     "executeERLCCommandDescription": "ステージ「ERLCコマンドの実行」は、フォームステージが変更されると、選択したER:LCサーバーで指定されたコマンドを自動的に実行します。",
-    "modifyRosterColumnDescription": "ステージ「名簿列の修正」は、指定された名簿の列に指定されたユーザーの名簿列の値を自動的に更新します。"
+    "modifyRosterColumnDescription": "ステージ「名簿列の修正」は、指定された名簿の列に指定されたユーザーの名簿列の値を自動的に更新します。",
+    "replyContentLabel": "返信内容",
+    "replyContentDescription": "「フォームの返信でオン」に設定されている場合、このアクションをトリガーしたフォームの返信内容を挿入します。",
+    "stageChangeReasonLabel": "ステージ変更理由（任意）",
+    "stageChangeReasonDescription": "提供された場合、ステージ変更理由を挿入します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",
@@ -4954,6 +4966,20 @@
     "roster": "名簿",
     "column": "列",
     "newValue": "新しい値",
-    "changedOn": "変更日"
+    "changedOn": "変更日",
+    "allowPrivateCommentsTrigger": "プライベートコメントでトリガーを許可"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "コミュニティロゴ",
+    "closeVisionPopup": "ビジョンポップアップを閉じる",
+    "escKey": "Esc",
+    "noCommunitySelected": "現在選択されているコミュニティはありません。Visionを使用するにはコミュニティを開いてください。",
+    "noPlayerFound": "プレーヤーが見つかりません",
+    "missingViewPlayersPermission": "このサーバーのオンラインER:LCプレーヤーを表示する権限がありません。",
+    "missingCreateRecordPermission": "このサーバーのレコードを作成する権限がありません。",
+    "missingViewActivityPermission": "このサーバーのプレーヤー活動を表示する権限がありません。",
+    "leftCreateRecord": "左：レコードを作成",
+    "rightActivity": "右：活動",
+    "playerActivity": "プレーヤーの活動"
   }
 }

@@ -807,7 +807,13 @@
     "saveVisionSettings": "Guardar configuraciones de visión",
     "ocrHotkeyRecordingHint": "Presione la combinación de teclas deseada, luego haga clic en Detener grabación.",
     "visionSettingsSaved": "Configuraciones de visión guardadas.",
-    "visionSettingsSaveFailed": "No se pudo guardar las configuraciones de visión. El atajo puede ser inválido o ya estar en uso."
+    "visionSettingsSaveFailed": "No se pudo guardar las configuraciones de visión. El atajo puede ser inválido o ya estar en uso.",
+    "selectedServer": "Servidor seleccionado",
+    "visionPermissionScreenRecordingRequired": "Se requiere acceso a la grabación de pantalla para Vision en macOS.",
+    "visionPermissionScreenRecordingHelp": "Abre Configuración del sistema, permite la grabación de pantalla para esta aplicación, y luego reinicia la aplicación.",
+    "openSystemSettings": "Abre Configuración del sistema",
+    "refreshPermissionStatus": "Actualizar estado de permisos",
+    "visionOpenSettingsFailed": "No se pudo abrir Configuración del sistema en macOS. Por favor, abre Privacidad y Seguridad > Grabación de pantalla manualmente."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "Tutorial de Cuentas de Usuario",
@@ -2321,7 +2327,9 @@
     "stageHidden": "Etiqueta e icono de etapa visibles solo para remitentes con permisos",
     "stagePublic": "Etiqueta e icono de etapa visibles para todos los remitentes",
     "formsstageactiontypeexecuteerlccommand": "Ejecutar comando ER:LC",
-    "formsstageactiontypemodifyrostercolumn": "Modificar columna de lista"
+    "formsstageactiontypemodifyrostercolumn": "Modificar columna de lista",
+    "stageChange": "Cambio de etapa",
+    "on": "Activado"
   },
   "StageReorderDialog": {
     "newStage": "Nueva Etapa",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "Nombre de Comunidad del Cambiador de Etapa",
     "stageChangerComNameDescription": "Inserta el nombre de visualización de la comunidad del usuario que cambió la etapa.",
     "executeERLCCommandDescription": "La etapa \"Ejecutar comando ERLC\" ejecutará automáticamente el comando especificado en el servidor ER:LC seleccionado cuando cambie la etapa del formulario.",
-    "modifyRosterColumnDescription": "La etapa \"Modificar columna de lista\" actualizará automáticamente el valor de la columna de lista del usuario especificado para la columna del roster especificado con el valor especificado."
+    "modifyRosterColumnDescription": "La etapa \"Modificar columna de lista\" actualizará automáticamente el valor de la columna de lista del usuario especificado para la columna del roster especificado con el valor especificado.",
+    "replyContentLabel": "Contenido de la respuesta",
+    "replyContentDescription": "Inserta el contenido de la respuesta del formulario que activó esta acción cuando está configurado en Respuestas de formularios.",
+    "stageChangeReasonLabel": "Razón del cambio de etapa (Opcional)",
+    "stageChangeReasonDescription": "Inserta la razón del cambio de etapa si se proporciona."
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",
@@ -4954,6 +4966,20 @@
     "roster": "Lista",
     "column": "Columna",
     "newValue": "Nuevo valor",
-    "changedOn": "Cambiado el"
+    "changedOn": "Cambiado el",
+    "allowPrivateCommentsTrigger": "Activar en comentarios privados"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "Logo de la comunidad",
+    "closeVisionPopup": "Cerrar ventana emergente de visión",
+    "escKey": "Esc",
+    "noCommunitySelected": "No hay ninguna comunidad seleccionada actualmente. Abre una comunidad para usar Vision.",
+    "noPlayerFound": "No se encontró ningún jugador",
+    "missingViewPlayersPermission": "No tienes permiso para ver jugadores en línea de ER:LC para este servidor.",
+    "missingCreateRecordPermission": "No tienes permiso para crear registros para este servidor.",
+    "missingViewActivityPermission": "No tienes permiso para ver la actividad de los jugadores en este servidor.",
+    "leftCreateRecord": "Izquierda: Crear registro",
+    "rightActivity": "Derecha: Actividad",
+    "playerActivity": "Actividad del jugador"
   }
 }

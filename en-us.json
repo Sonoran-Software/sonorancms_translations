@@ -64,7 +64,11 @@
     "return": "Return",
     "learnMore": "Learn More",
     "search": "Search",
-    "previewTempStageGroupDetails": "Preview Stage Group Details"
+    "previewTempStageGroupDetails": "Preview Stage Group Details",
+    "errorComNotFound": "Error: Community Not Found",
+    "errorCustomDomain": "Error: This custom domain has not been setup or the community is not on the pro version",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
   },
   "permissions": {
     "kickUser": "Kick Users",
@@ -761,7 +765,7 @@
     "notificationPreferencesDescription": "Manage your notification preferences for various community events and updates.",
     "visionDescription": "Configure vision settings for in-game moderation. Point at a player to open their records.",
     "hotkeyCombination": "Hotkey Combination",
-    "selectedServer":"Selected Server",
+    "selectedServer": "Selected Server",
     "captureBox": "Capture Box",
     "captureHotkey": "Capture Hotkey",
     "captureBoxDescription": "Configure the capture box around your cursor for player recognition.",
@@ -4801,7 +4805,12 @@
     "lockActionDesc": "This action runs when a player attempts to join a locked team that has reached its player limit.",
     "bypassRankDesc": "Ranks allowed to bypass team lock restrictions",
     "lockTeam": "Lock Team",
-    "allowedRanksForDOTTeam": "Allowed Ranks for DOT Team"
+    "allowedRanksForDOTTeam": "Allowed Ranks for DOT Team",
+    "aopRestrictions": "Area of Play Restrictions",
+    "restrictAOPAccess": "Restrict players to specific areas of play",
+    "aopBypassRanksFor": "AOP Bypass Ranks for",
+    "aopViolationActions": "AOP Violation Actions",
+    "zoneEnforcement": "Zone Enforcement"
   },
   "ERLCActivityLog": {
     "kickedAction": "Kicked Action",

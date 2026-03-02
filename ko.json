@@ -807,7 +807,13 @@
     "saveVisionSettings": "비전 설정 저장",
     "ocrHotkeyRecordingHint": "원하는 키 조합을 누른 후 녹화 중지를 클릭하십시오.",
     "visionSettingsSaved": "비전 설정 저장됨.",
-    "visionSettingsSaveFailed": "비전 설정 저장 실패. 바로 가기가 유효하지 않거나 이미 사용 중일 수 있습니다."
+    "visionSettingsSaveFailed": "비전 설정 저장 실패. 바로 가기가 유효하지 않거나 이미 사용 중일 수 있습니다.",
+    "selectedServer": "선택된 서버",
+    "visionPermissionScreenRecordingRequired": "macOS에서 Vision 사용을 위해 화면 녹화 접근이 필요합니다.",
+    "visionPermissionScreenRecordingHelp": "시스템 설정을 열고 이 앱에 화면 녹화를 허용한 후, 앱을 재시작하세요.",
+    "openSystemSettings": "시스템 설정 열기",
+    "refreshPermissionStatus": "권한 상태 새로고침",
+    "visionOpenSettingsFailed": "macOS 시스템 설정을 열 수 없습니다. 수동으로 개인정보 보호 및 보안 > 화면 녹화로 이동하세요."
   },
   "AccountViewer": {
     "userAcccountsTutorial": "사용자 계정 사용 방법 배우기",
@@ -2321,7 +2327,9 @@
     "stageHidden": "단계 라벨과 아이콘은 권한 있는 제출자에게만 표시됩니다",
     "stagePublic": "단계 라벨과 아이콘은 모든 제출자에게 표시됩니다",
     "formsstageactiontypeexecuteerlccommand": "ER:LC 명령 실행",
-    "formsstageactiontypemodifyrostercolumn": "명단 열 수정"
+    "formsstageactiontypemodifyrostercolumn": "명단 열 수정",
+    "stageChange": "단계 변경",
+    "on": "켜짐"
   },
   "StageReorderDialog": {
     "newStage": "닫기",
@@ -3614,7 +3622,11 @@
     "stageChangerComNameLabel": "단계 변경자 커뮤니티 이름",
     "stageChangerComNameDescription": "단계를 변경한 사용자의 커뮤니티 표시 이름을 삽입합니다.",
     "executeERLCCommandDescription": "단계 \"ERLC 명령 실행\"은 양식 단계가 변경될 때 선택된 ER:LC 서버에서 지정된 명령을 자동으로 실행합니다.",
-    "modifyRosterColumnDescription": "단계 '명단 열 수정'은 지정된 사용자 명단 열 값을 지정된 명단의 열과 지정된 값으로 자동 업데이트합니다."
+    "modifyRosterColumnDescription": "단계 '명단 열 수정'은 지정된 사용자 명단 열 값을 지정된 명단의 열과 지정된 값으로 자동 업데이트합니다.",
+    "replyContentLabel": "응답 내용",
+    "replyContentDescription": "이 동작이 '상세 응답'으로 설정된 경우 양식 응답의 내용을 삽입합니다.",
+    "stageChangeReasonLabel": "단계 변경 사유 (선택사항)",
+    "stageChangeReasonDescription": "단계 변경 사유가 제공된 경우 삽입됩니다."
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",
@@ -4954,6 +4966,20 @@
     "roster": "명단",
     "column": "열",
     "newValue": "새로운 값",
-    "changedOn": "변경됨"
+    "changedOn": "변경됨",
+    "allowPrivateCommentsTrigger": "비공개 댓글의 트리거 허용"
+  },
+  "VisionPopup": {
+    "communityLogoAlt": "커뮤니티 로고",
+    "closeVisionPopup": "비전 팝업 닫기",
+    "escKey": "Esc",
+    "noCommunitySelected": "현재 선택된 커뮤니티가 없습니다. 비전을 사용하려면 커뮤니티를 여세요.",
+    "noPlayerFound": "플레이어를 찾을 수 없습니다",
+    "missingViewPlayersPermission": "이 서버에 대한 ER:LC 온라인 플레이어를 볼 수 있는 권한이 없습니다.",
+    "missingCreateRecordPermission": "이 서버에 대한 기록을 생성할 권한이 없습니다.",
+    "missingViewActivityPermission": "이 서버의 플레이어 활동을 볼 수 있는 권한이 없습니다.",
+    "leftCreateRecord": "왼쪽: 기록 생성",
+    "rightActivity": "오른쪽: 활동",
+    "playerActivity": "플레이어 활동"
   }
 }
