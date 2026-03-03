@@ -4042,6 +4042,16 @@
     "copyPage": "Copy"
   },
   "SectionEditor": {
+    "size": "Size",
+    "sectionSize": "Section Size",
+    "width": "Width",
+    "height": "Height",
+    "mode": "Mode",
+    "value": "Value",
+    "percent": "Percent",
+    "pixels": "Pixels",
+    "viewportWidth": "Viewport Width",
+    "viewportHeight": "Viewport Height",
     "background": "Background",
     "editor": "Editor",
     "left": "Left",
