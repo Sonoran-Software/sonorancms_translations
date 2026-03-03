@@ -4137,6 +4137,7 @@
     "triggerAnimations": "Trigger Animations",
     "triggerAnimationsToPlay": "Trigger all animations to play on this page.",
     "dragToReorderSections": "Drag to reorder section",
+    "openSectionEditor": "Open section editor",
     "elementsCannotBeMovedIntoARosterSection": "Elements cannot be moved into a roster section",
     "elementsCannotBeDroppedIntoARosterSection": "Elements cannot be dropped into a roster section"
   },
