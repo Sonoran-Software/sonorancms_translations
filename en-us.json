@@ -4165,7 +4165,6 @@
     "editCommunityCssClasses": "Edit Community CSS Classes",
     "customCssClassesHelp": "Define reusable CSS classes here (for example .cms-hover-lift { ... }). Elements can reference these class names in their Custom Classes field.",
     "customCssClassesPlaceholder": ".cms-hover-lift { transition: transform 160ms ease, filter 160ms ease; }\\n.cms-hover-lift:hover { transform: translateY(-3px); filter: brightness(1.05); }",
-    "savedCustomCssClasses": "Saved custom CSS classes.",
     "failedToSaveCustomCssClasses": "Failed to save custom CSS classes."
   },
   "ElementWrapper": {
