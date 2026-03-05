@@ -955,7 +955,13 @@
     "temporary": "Temporary",
     "unarchive": "Unarchive",
     "userPermissions": "User Permissions:",
-    "modifyExpiration": "Modify Expiration"
+    "modifyExpiration": "Modify Expiration",
+    "mergeAccounts": "Merge Accounts",
+    "sourceAccount": "Source Account",
+    "targetAccount": "Target Account",
+    "account": "Account",
+    "mergeAccountsDescription": "Merging the source account into the target account will move all form submissions, events, forum topics & replies, and other historical data from the source account to the target account. The source account will then be archived. This action cannot be undone, so please proceed with caution.",
+    "warning": "Warning"
   },
   "PromotionFlow": {
     "ranks": "Ranks",
@@ -3069,6 +3075,8 @@
     "hasHigherAuthority": "has higher authority.",
     "linkADiscordGuild": "Link a Discord Guild",
     "importRolesToRanks": "Import Roles to Ranks",
+    "alsoCreateOneToOneRoleMapping": "Also create one-to-one Discord role mapping(s)",
+    "cannotCreateMappingsDueToPermissionIssue": "You do not have permission to modify Discord role mappings.",
     "newGroupName": "New Group Name",
     "invalidGuildSelectedTryAgain": "Invalid Guild Selected, try again.",
     "importedDiscordRolesToRanks": "Imported Discord Roles to Ranks!",
@@ -3960,6 +3968,16 @@
     "unitMemberNumberElement": "Member primary identifier element",
     "automemberPrimaryRank": "Auto-Member Primary Rank",
     "primaryRankElement": "primary rank element",
+    "socialLink": "Social Link",
+    "socialLinkElement": "Require a linked social account",
+    "socialType": "Social Type",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} account linked",
+    "socialAccountNotLinked": "{social} account not linked",
+    "refreshLinkStatus": "Refresh link status",
+    "failedToCheckSocialLink": "Failed to check social link status. Please try again.",
+    "failedToStartSocialLink": "Failed to start social link flow. Please try again.",
     "uploader": "Uploader",
     "audioRecorder": "Audio Recorder",
     "recordAudio": "Record Audio",
@@ -4567,7 +4585,9 @@
     "allowsMembersToRunRpCommandsInTheGamePan": "Allows members to run RP commands in the Game Panel for this server.",
     "allowMembersToViewHiddenStages": "Allow members to view stage details of hidden stages under My Forms.",
     "use": "Use",
-    "allowsMembersToUseShiftType": "Allows members to use this shift type for clocking in and out."
+    "allowsMembersToUseShiftType": "Allows members to use this shift type for clocking in and out.",
+    "mergeAccounts": "Merge Accounts",
+    "allowsMembersToMergeAccounts": "Allows members to merge two accounts together, combining ranks and all community data."
   },
   "permissionToggleGroup": {
     "inherited": "Inherited",
