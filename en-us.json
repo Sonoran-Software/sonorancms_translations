@@ -961,7 +961,9 @@
     "targetAccount": "Target Account",
     "account": "Account",
     "mergeAccountsDescription": "Merging the source account into the target account will move all form submissions, events, forum topics & replies, and other historical data from the source account to the target account. The source account will then be archived. This action cannot be undone, so please proceed with caution.",
-    "warning": "Warning"
+    "warning": "Warning",
+    "mergeFailed": "Merge Failed:",
+    "mergeSuccessful": "Account Merge Successful!"
   },
   "PromotionFlow": {
     "ranks": "Ranks",
