@@ -4914,7 +4914,8 @@
     "restrictAOPAccess": "Restrict players to specific areas of play",
     "aopBypassRanksFor": "AOP Bypass Ranks for",
     "aopViolationActions": "AOP Violation Actions",
-    "zoneEnforcement": "Zone Enforcement"
+    "zoneEnforcement": "Zone Enforcement",
+    "actionDelayLabel": "Trigger this action after violating the restriction for a certain amount of time (in seconds)"
   },
   "ERLCActivityLog": {
     "kickedAction": "Kicked Action",
