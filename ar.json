@@ -965,7 +965,15 @@
     "userPermissions": "أذونات المستخدم:",
     "viewAllPermissions": "عرض جميع الأذونات",
     "uniqueId": "معرّف فريد",
-    "modifyExpiration": "تعديل انتهاء الصلاحية"
+    "modifyExpiration": "تعديل انتهاء الصلاحية",
+    "mergeAccounts": "دمج الحسابات",
+    "sourceAccount": "الحساب المصدر",
+    "targetAccount": "الحساب الهدف",
+    "account": "حساب",
+    "mergeAccountsDescription": "دمج الحساب المصدر في الحساب الهدف سينقل جميع إرسالات النماذج والأحداث ومواضيع المنتدى والردود والبيانات التاريخية الأخرى من الحساب المصدر إلى الحساب الهدف. سيتم أرشفة الحساب المصدر بعد ذلك. لا يمكن التراجع عن هذا الإجراء، لذا يرجى المتابعة بحذر.",
+    "warning": "تحذير",
+    "mergeFailed": "فشل الدمج:",
+    "mergeSuccessful": "نجاح دمج الحساب!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -1803,7 +1811,12 @@
     "download": "تنزيل",
     "disciplinaryAction": "إجراء ELRC التلقائي",
     "erlcAction": "إجراء تلقائي ELRC",
-    "communityDeletion": "حذف المجتمع"
+    "communityDeletion": "حذف المجتمع",
+    "communityWebsiteAdminBannerMessageBeforeGear": "أنت تشاهد موقع مجتمعك. لتخصيصه وإدارة الإعدادات، استخدم",
+    "communityWebsiteAdminBannerMessageGear": "رمز الترس",
+    "communityWebsiteAdminBannerMessageAfterGear": "في الزاوية العليا اليمنى.",
+    "adminPanel": "لوحة الإدارة",
+    "hide": "إخفاء"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "عدد المشاهدات الفريدة من اكتشاف المجتمع",
@@ -2957,7 +2970,9 @@
     "ranks": "الرتب",
     "promotions": "الترقيات",
     "rankManager": "مدير الرتب",
-    "rankManagerSubtitle": "إدارة رتب مجتمعك والمجموعات والأذونات."
+    "rankManagerSubtitle": "إدارة رتب مجتمعك والمجموعات والأذونات.",
+    "alsoCreateOneToOneRoleMapping": "أيضًا قم بإنشاء تعيين دوري واحد لواحد في Discord",
+    "cannotCreateMappingsDueToPermissionIssue": "ليست لديك الصلاحية لتعديل تعيينات الأدوار في Discord."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "دليل حقول الملف الشخصي",
@@ -3721,7 +3736,17 @@
     "type": "نوع",
     "embedElement": "اختر عنصر الدمج",
     "embedSource": "مصدر الدمج",
-    "embed": "دمج"
+    "embed": "دمج",
+    "socialLink": "رابط اجتماعي",
+    "socialLinkElement": "يتطلب ربط حساب اجتماعي",
+    "socialType": "نوع الاجتماعي",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "تم ربط حساب {social}",
+    "socialAccountNotLinked": "لم يتم ربط حساب {social}",
+    "refreshLinkStatus": "تحديث حالة الارتباط",
+    "failedToCheckSocialLink": "فشل في التحقق من حالة الرابط الاجتماعي. يرجى المحاولة مرة أخرى.",
+    "failedToStartSocialLink": "فشل في بدء تدفق الرابط الاجتماعي. يرجى المحاولة مرة أخرى."
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -3768,7 +3793,8 @@
     "websitePages": "صفحات الموقع الإلكتروني",
     "createCustomPages": "قم بإنشاء صفحات ويب مخصصة لمجتمعك!",
     "selectPageTemplate": "اختر قالب الصفحة",
-    "blank": "فارغ"
+    "blank": "فارغ",
+    "addNewPage": "إضافة صفحة جديدة"
   },
   "SectionEditor": {
     "background": "الخلفية",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "أيقونة الزر",
     "buttonImage": "صورة الزر",
     "newButton": "زر جديد",
-    "button": "زر #"
+    "button": "زر #",
+    "refLink": "رابط الإحالة",
+    "targetRef": "الإشارة المرجعية الهدف"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "نسخ أذونات النظام",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "يسمح للأعضاء بإزالة أحداثهم الشخصية ضمن هذه الفئة.",
     "allowsMembersToEditTheirOwnEventsInT": "يسمح للأعضاء بتحرير أحداثهم الشخصية ضمن هذه الفئة.",
     "use": "استخدام",
-    "allowsMembersToUseShiftType": "يسمح للأعضاء باستخدام نوع الوردية هذا للتسجيل وقت الدخول والخروج."
+    "allowsMembersToUseShiftType": "يسمح للأعضاء باستخدام نوع الوردية هذا للتسجيل وقت الدخول والخروج.",
+    "mergeAccounts": "دمج الحسابات",
+    "allowsMembersToMergeAccounts": "يسمح للأعضاء بدمج حسابين معًا، حيث يجمع الرتب وجميع بيانات المجتمع."
   },
   "permissionToggleGroup": {
     "inherited": "موروث",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "تقييد اللاعبين لمناطق لعب محددة",
     "aopBypassRanksFor": "ترتيبات تجاوز منطقة اللعب",
     "aopViolationActions": "إجراءات انتهاك منطقة اللعب",
-    "zoneEnforcement": "فرض المنطقة"
+    "zoneEnforcement": "فرض المنطقة",
+    "actionDelayLabel": "تفعيل هذا الإجراء بعد انتهاك القيد لمدة معينة من الوقت (بالثواني)"
   },
   "ERLCActivityLog": {
     "kickedAction": "تم طرده",
@@ -4975,7 +5006,13 @@
     "flows": "تدفقات",
     "confirmDelete": "هل أنت متأكد أنك تريد حذف تدفق الترقية هذا؟",
     "insufficientPermissionsToRunPromotions": "أذونات غير كافية لتشغيل الترقيات",
-    "requiresChangeHigherPermissions": "يتطلب إذن: تغيير الأذونات العليا"
+    "requiresChangeHigherPermissions": "يتطلب إذن: تغيير الأذونات العليا",
+    "flowLockedPromoteOnly": "تم قفل هذا التدفق للترقية فقط.",
+    "flowLockedDemoteOnly": "تم قفل هذا التدفق للتخفيض فقط.",
+    "flowLockedBothModes": "يمكن أن يعمل هذا التدفق للترقيات والتخفيضات.",
+    "promotionOnly": "ترقية فقط",
+    "demotionOnly": "تخفيض فقط",
+    "promotionAndDemotion": "الترقية والتخفيض"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث",

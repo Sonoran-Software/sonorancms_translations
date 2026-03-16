@@ -965,7 +965,15 @@
     "userPermissions": "Kullanıcı İzinleri:",
     "viewAllPermissions": "Tüm İzinleri Görüntüle",
     "uniqueId": "Benzersiz Kimlik",
-    "modifyExpiration": "Süresini Değiştir"
+    "modifyExpiration": "Süresini Değiştir",
+    "mergeAccounts": "Hesapları Birleştir",
+    "sourceAccount": "Kaynak Hesap",
+    "targetAccount": "Hedef Hesap",
+    "account": "Hesap",
+    "mergeAccountsDescription": "Kaynak hesabı hedef hesapla birleştirmek, tüm form gönderimlerini, etkinlikleri, forum konularını ve yanıtlarını ve diğer tarihsel verileri kaynak hesaptan hedef hesaba taşır. Kaynak hesap daha sonra arşivlenecektir. Bu işlem geri alınamaz, lütfen dikkatli devam ediniz.",
+    "warning": "Uyarı",
+    "mergeFailed": "Birleştirme Başarısız:",
+    "mergeSuccessful": "Hesap Başarıyla Birleştirildi!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -1803,7 +1811,12 @@
     "download": "İndir",
     "disciplinaryAction": "ELRC Otomatik İşlem",
     "erlcAction": "ELRC Otomatik Eylem",
-    "communityDeletion": "Topluluk Silme"
+    "communityDeletion": "Topluluk Silme",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Topluluğunuzun web sitesini görüntülüyorsunuz. Özelleştirmek ve ayarları yönetmek için",
+    "communityWebsiteAdminBannerMessageGear": "dişli simgesini",
+    "communityWebsiteAdminBannerMessageAfterGear": "sağ üst köşede kullanın.",
+    "adminPanel": "Yönetici Paneli",
+    "hide": "Gizle"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Topluluk Keşfi'nden gelen benzersiz görüntüleme sayısı",
@@ -2957,7 +2970,9 @@
     "ranks": "Rütbeler",
     "promotions": "Terfiler",
     "rankManager": "Rütbe Yöneticisi",
-    "rankManagerSubtitle": "Topluluğunuzun rütbelerini, gruplarını ve izinlerini yönetin."
+    "rankManagerSubtitle": "Topluluğunuzun rütbelerini, gruplarını ve izinlerini yönetin.",
+    "alsoCreateOneToOneRoleMapping": "Ayrıca bire bir Discord rol eşlemesi oluştur",
+    "cannotCreateMappingsDueToPermissionIssue": "Discord rol eşlemelerini değiştirme izniniz yok."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Alanları Eğitimi",
@@ -3721,7 +3736,17 @@
     "type": "Tür",
     "embedElement": "Gömme öğesi seçin",
     "embedSource": "Gömme Kaynağı",
-    "embed": "Göm"
+    "embed": "Göm",
+    "socialLink": "Sosyal Bağlantı",
+    "socialLinkElement": "Bağlı bir sosyal hesap gerektir",
+    "socialType": "Sosyal Tür",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} hesabı bağlı",
+    "socialAccountNotLinked": "{social} hesabı bağlı değil",
+    "refreshLinkStatus": "Bağlantı durumunu yenile",
+    "failedToCheckSocialLink": "Sosyal bağlantı durumu kontrol edilemedi. Lütfen tekrar deneyin.",
+    "failedToStartSocialLink": "Sosyal bağlantı akışı başlatılamadı. Lütfen tekrar deneyin."
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -3768,7 +3793,8 @@
     "websitePages": "Web Sitesi Sayfaları",
     "createCustomPages": "Topluluğunuz için özel web sayfaları oluşturun!",
     "selectPageTemplate": "Sayfa Şablonu Seçin",
-    "blank": "Boş"
+    "blank": "Boş",
+    "addNewPage": "Yeni Sayfa Ekle"
   },
   "SectionEditor": {
     "background": "Arka Plan",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Buton Simgesi",
     "buttonImage": "Buton Resmi",
     "newButton": "Yeni Buton",
-    "button": "Buton #"
+    "button": "Buton #",
+    "refLink": "Referans Bağlantı",
+    "targetRef": "Hedef Referans"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Sistem İzinleri Kopyalandı",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Üyelere, bu kategori içinde kendi etkinliklerini kaldırmalarına izin verir.",
     "allowsMembersToEditTheirOwnEventsInT": "Üyelere, bu kategori içinde kendi etkinliklerini düzenlemelerine izin verir.",
     "use": "Kullan",
-    "allowsMembersToUseShiftType": "Üyelerin giriş ve çıkış yapmak için bu vardiya türünü kullanmasına izin verir."
+    "allowsMembersToUseShiftType": "Üyelerin giriş ve çıkış yapmak için bu vardiya türünü kullanmasına izin verir.",
+    "mergeAccounts": "Hesapları Birleştir",
+    "allowsMembersToMergeAccounts": "Üyelerin iki hesabı birleştirmesine, dereceleri ve tüm topluluk verilerini birleştirmesine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Oyuncuların belirli oyun alanlarına erişimini kısıtla",
     "aopBypassRanksFor": "AOP Bypass Yetkileri",
     "aopViolationActions": "AOP İhlal Eylemleri",
-    "zoneEnforcement": "Bölge Uygulaması"
+    "zoneEnforcement": "Bölge Uygulaması",
+    "actionDelayLabel": "Kısıtlamanın ihlal edilmesinin ardından bir süre sonra (saniye olarak) bu eylemi tetikle"
   },
   "ERLCActivityLog": {
     "kickedAction": "kovulmaAksiyonu",
@@ -4975,7 +5006,13 @@
     "flows": "Akışlar",
     "confirmDelete": "Bu terfi akışını silmek istediğinizden emin misiniz?",
     "insufficientPermissionsToRunPromotions": "Promosyonları Çalıştırmak İçin Yetersiz İzinler",
-    "requiresChangeHigherPermissions": "Gereken İzin: Daha Yüksek İzinleri Değiştir"
+    "requiresChangeHigherPermissions": "Gereken İzin: Daha Yüksek İzinleri Değiştir",
+    "flowLockedPromoteOnly": "Bu akış yalnızca terfi için kilitlenmiştir.",
+    "flowLockedDemoteOnly": "Bu akış yalnızca düşürme için kilitlenmiştir.",
+    "flowLockedBothModes": "Bu akış hem terfi hem de indirimler için çalışabilir.",
+    "promotionOnly": "Yalnızca Terfi",
+    "demotionOnly": "Yalnızca Düşürme",
+    "promotionAndDemotion": "Terfi ve Düşürme"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara",

@@ -965,7 +965,15 @@
     "userPermissions": "Permisos de usuario:",
     "viewAllPermissions": "Ver Todos los Permisos",
     "uniqueId": "ID Único",
-    "modifyExpiration": "Modificar Expiración"
+    "modifyExpiration": "Modificar Expiración",
+    "mergeAccounts": "Fusionar cuentas",
+    "sourceAccount": "Cuenta de origen",
+    "targetAccount": "Cuenta de destino",
+    "account": "Cuenta",
+    "mergeAccountsDescription": "Fusionar la cuenta de origen en la cuenta de destino moverá todas las presentaciones de formularios, eventos, temas y respuestas del foro, y otros datos históricos de la cuenta de origen a la cuenta de destino. La cuenta de origen será archivada. Esta acción no se puede deshacer, así que proceda con precaución.",
+    "warning": "Advertencia",
+    "mergeFailed": "Fusión fallida:",
+    "mergeSuccessful": "¡Fusión de cuenta exitosa!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial de API de la Comunidad",
@@ -1803,7 +1811,12 @@
     "download": "Descargar",
     "disciplinaryAction": "Acción Automática ELRC",
     "erlcAction": "Acción automática ELRC",
-    "communityDeletion": "Eliminación de la comunidad"
+    "communityDeletion": "Eliminación de la comunidad",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Estás viendo el sitio web de tu comunidad. Para personalizarlo y gestionar configuraciones, usa el",
+    "communityWebsiteAdminBannerMessageGear": "icono de engranaje",
+    "communityWebsiteAdminBannerMessageAfterGear": " en la esquina superior derecha.",
+    "adminPanel": "Panel de administración",
+    "hide": "Ocultar"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Número de vistas únicas desde Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Rangos",
     "promotions": "Promociones",
     "rankManager": "Gestor de rangos",
-    "rankManagerSubtitle": "Gestione los rangos, grupos y permisos de su comunidad."
+    "rankManagerSubtitle": "Gestione los rangos, grupos y permisos de su comunidad.",
+    "alsoCreateOneToOneRoleMapping": "También crear mapeo de roles de Discord uno a uno",
+    "cannotCreateMappingsDueToPermissionIssue": "No tienes permiso para modificar mapeos de roles de Discord."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutorial de Campos de Perfil",
@@ -3721,7 +3736,17 @@
     "type": "Tipo",
     "embedElement": "Seleccione elemento embebido",
     "embedSource": "Fuente de incrustación",
-    "embed": "Incrustar"
+    "embed": "Incrustar",
+    "socialLink": "Enlace social",
+    "socialLinkElement": "Requerir una cuenta social vinculada",
+    "socialType": "Tipo de red social",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "Cuenta de {social} vinculada",
+    "socialAccountNotLinked": "Cuenta de {social} no vinculada",
+    "refreshLinkStatus": "Actualizar estado del enlace",
+    "failedToCheckSocialLink": "No se pudo verificar el estado del enlace social. Por favor, inténtelo de nuevo.",
+    "failedToStartSocialLink": "No se pudo iniciar el flujo de enlace social. Por favor, inténtelo de nuevo."
   },
   "selectRoster": {
     "selectRoster": "Seleccionar Lista"
@@ -3768,7 +3793,8 @@
     "websitePages": "Páginas del Sitio Web",
     "createCustomPages": "¡Crea páginas web personalizadas para tu comunidad!",
     "selectPageTemplate": "Seleccionar Plantilla de Página",
-    "blank": "Blanco"
+    "blank": "Blanco",
+    "addNewPage": "Agregar nueva página"
   },
   "SectionEditor": {
     "background": "Fondo",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Icono del Botón",
     "buttonImage": "Imagen del Botón",
     "newButton": "Nuevo Botón",
-    "button": "Botón #"
+    "button": "Botón #",
+    "refLink": "Enlace de referencia",
+    "targetRef": "Referencia objetivo"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Permisos del Sistema Copiados",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permite a los miembros eliminar sus propios eventos en esta categoría.",
     "allowsMembersToEditTheirOwnEventsInT": "Permite a los miembros editar sus propios eventos en esta categoría.",
     "use": "Usar",
-    "allowsMembersToUseShiftType": "Permite a los miembros utilizar este tipo de turno para entrar y salir."
+    "allowsMembersToUseShiftType": "Permite a los miembros utilizar este tipo de turno para entrar y salir.",
+    "mergeAccounts": "Fusionar cuentas",
+    "allowsMembersToMergeAccounts": "Permite a los miembros fusionar dos cuentas, combinando rangos y todos los datos comunitarios."
   },
   "permissionToggleGroup": {
     "inherited": "heredado",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Restringir jugadores a áreas específicas de juego",
     "aopBypassRanksFor": "Rangos de Excepción para AOP",
     "aopViolationActions": "Acciones por Violación de AOP",
-    "zoneEnforcement": "Aplicación de Zona"
+    "zoneEnforcement": "Aplicación de Zona",
+    "actionDelayLabel": "Activar esta acción tras violar la restricción por cierto tiempo (en segundos)"
   },
   "ERLCActivityLog": {
     "kickedAction": "expulsadoAcción",
@@ -4975,7 +5006,13 @@
     "flows": "Flujos",
     "confirmDelete": "¿Está seguro de que desea eliminar este flujo de promoción?",
     "insufficientPermissionsToRunPromotions": "Permisos insuficientes para ejecutar promociones",
-    "requiresChangeHigherPermissions": "Requiere Permiso: Cambiar Permisos Superiores"
+    "requiresChangeHigherPermissions": "Requiere Permiso: Cambiar Permisos Superiores",
+    "flowLockedPromoteOnly": "Este flujo está bloqueado solo para promoción.",
+    "flowLockedDemoteOnly": "Este flujo está bloqueado solo para degradación.",
+    "flowLockedBothModes": "Este flujo se puede ejecutar tanto para promociones como para degradaciones.",
+    "promotionOnly": "Solo promoción",
+    "demotionOnly": "Solo degradación",
+    "promotionAndDemotion": "Promoción y degradación"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "No se Encontraron Jugadores... Buscar",

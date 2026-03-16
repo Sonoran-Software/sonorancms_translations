@@ -965,7 +965,15 @@
     "userPermissions": "Права пользователя:",
     "viewAllPermissions": "Просмотр всех разрешений",
     "uniqueId": "Уникальный идентификатор",
-    "modifyExpiration": "Изменить срок действия"
+    "modifyExpiration": "Изменить срок действия",
+    "mergeAccounts": "Объединить аккаунты",
+    "sourceAccount": "Исходный аккаунт",
+    "targetAccount": "Целевой аккаунт",
+    "account": "Аккаунт",
+    "mergeAccountsDescription": "Объединение исходного аккаунта с целевым переместит все формы, события, темы и ответы на форумах, а также другие исторические данные из исходного аккаунта в целевой. После этого исходный аккаунт будет архивирован. Это действие нельзя отменить, поэтому, пожалуйста, будьте осторожны.",
+    "warning": "Предупреждение",
+    "mergeFailed": "Ошибка объединения:",
+    "mergeSuccessful": "Успешное объединение аккаунтов!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -1803,7 +1811,12 @@
     "download": "Скачать",
     "disciplinaryAction": "Автоматическое действие ELRC",
     "erlcAction": "Автоматическое действие ELRC",
-    "communityDeletion": "Удаление сообщества"
+    "communityDeletion": "Удаление сообщества",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Вы просматриваете сайт вашего сообщества. Чтобы настроить его и управлять настройками, используйте",
+    "communityWebsiteAdminBannerMessageGear": "иконку шестерёнки",
+    "communityWebsiteAdminBannerMessageAfterGear": "в правом верхнем углу.",
+    "adminPanel": "Панель администратора",
+    "hide": "Скрыть"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Количество уникальных пользователей, посетивших страницу сообщества из Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Ранги",
     "promotions": "Повышения",
     "rankManager": "Менеджер рангов",
-    "rankManagerSubtitle": "Управляйте рангами, группами и разрешениями вашего сообщества."
+    "rankManagerSubtitle": "Управляйте рангами, группами и разрешениями вашего сообщества.",
+    "alsoCreateOneToOneRoleMapping": "Также создать соответствие ролей один к одному в Discord",
+    "cannotCreateMappingsDueToPermissionIssue": "У вас нет разрешения изменять соответствие ролей в Discord."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Узнайте, как использовать поля профиля",
@@ -3721,7 +3736,17 @@
     "type": "Тип",
     "embedElement": "Выберите элемент встраивания",
     "embedSource": "Источник встраивания",
-    "embed": "Встраивание"
+    "embed": "Встраивание",
+    "socialLink": "Социальная ссылка",
+    "socialLinkElement": "Требовать привязанный социальный аккаунт",
+    "socialType": "Тип социальной сети",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} аккаунт привязан",
+    "socialAccountNotLinked": "{social} аккаунт не привязан",
+    "refreshLinkStatus": "Обновить статус ссылки",
+    "failedToCheckSocialLink": "Не удалось проверить статус социальной ссылки. Пожалуйста, попробуйте ещё раз.",
+    "failedToStartSocialLink": "Не удалось начать процесс связки социальной ссылки. Пожалуйста, попробуйте ещё раз."
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -3768,7 +3793,8 @@
     "websitePages": "Страницы сайта",
     "createCustomPages": "Создайте пользовательские веб-страницы для вашего сообщества!",
     "selectPageTemplate": "Выберите шаблон страницы",
-    "blank": "Пустой"
+    "blank": "Пустой",
+    "addNewPage": "Добавить новую страницу"
   },
   "SectionEditor": {
     "background": "Редактор",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Изображение кнопки",
     "buttonImage": "Новая кнопка",
     "newButton": "Кнопка №",
-    "button": "Скопированные системные разрешения"
+    "button": "Скопированные системные разрешения",
+    "refLink": "Ссылка-реф",
+    "targetRef": "Целевая ссылка"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Вставить системные разрешения",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Позволяет участникам удалять свои собственные события в этой категории.",
     "allowsMembersToEditTheirOwnEventsInT": "Позволяет участникам редактировать свои собственные события в этой категории.",
     "use": "Использовать",
-    "allowsMembersToUseShiftType": "Позволяет участникам использовать этот тип смены для входа и выхода."
+    "allowsMembersToUseShiftType": "Позволяет участникам использовать этот тип смены для входа и выхода.",
+    "mergeAccounts": "Объединение аккаунтов",
+    "allowsMembersToMergeAccounts": "Позволяет участникам объединять два аккаунта, объединяя ранги и все данные сообщества."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Ограничить игроков в определённых зонах игры",
     "aopBypassRanksFor": "Обойти ранги AOP для",
     "aopViolationActions": "Действия при нарушении AOP",
-    "zoneEnforcement": "Контроль зон"
+    "zoneEnforcement": "Контроль зон",
+    "actionDelayLabel": "Активировать это действие после нарушения ограничения в течение определённого времени (в секундах)"
   },
   "ERLCActivityLog": {
     "kickedAction": "```удален```",
@@ -4975,7 +5006,13 @@
     "flows": "Потоки",
     "confirmDelete": "Вы уверены, что хотите удалить этот поток продвижения?",
     "insufficientPermissionsToRunPromotions": "Недостаточно прав для запуска промоакций",
-    "requiresChangeHigherPermissions": "Требуется разрешение: изменение более высоких разрешений"
+    "requiresChangeHigherPermissions": "Требуется разрешение: изменение более высоких разрешений",
+    "flowLockedPromoteOnly": "Этот поток заблокирован только для повышения.",
+    "flowLockedDemoteOnly": "Этот поток заблокирован только для понижения.",
+    "flowLockedBothModes": "Этот поток может работать как для повышения, так и для понижения.",
+    "promotionOnly": "Только повышение",
+    "demotionOnly": "Только понижение",
+    "promotionAndDemotion": "Повышение и понижение"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Игроки не найдены... Поиск",

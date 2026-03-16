@@ -965,7 +965,15 @@
     "userPermissions": "Gebruikersrechten:",
     "viewAllPermissions": "Bekijk alle permissies",
     "uniqueId": "Unieke ID",
-    "modifyExpiration": "Wijzig Vervaldatum"
+    "modifyExpiration": "Wijzig Vervaldatum",
+    "mergeAccounts": "Accounts samenvoegen",
+    "sourceAccount": "Bronaccount",
+    "targetAccount": "Doelaccount",
+    "account": "Account",
+    "mergeAccountsDescription": "Het samenvoegen van het bronaccount in het doelaccount zal alle formulierinzendingen, evenementen, forumonderwerpen & antwoorden, en andere historische gegevens van het bronaccount naar het doelaccount verplaatsen. Het bronaccount wordt vervolgens gearchiveerd. Deze actie kan niet ongedaan worden gemaakt, dus ga met voorzichtigheid verder.",
+    "warning": "Waarschuwing",
+    "mergeFailed": "Samenvoegen mislukt:",
+    "mergeSuccessful": "Accounts succesvol samengevoegd!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1803,7 +1811,12 @@
     "download": "Downloaden",
     "disciplinaryAction": "ELRC Automatische Actie",
     "erlcAction": "ELRC Automatische Actie",
-    "communityDeletion": "Gemeenschap Verwijderen"
+    "communityDeletion": "Gemeenschap Verwijderen",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Je bekijkt je communitywebsite. Om het aan te passen en instellingen te beheren, gebruik de",
+    "communityWebsiteAdminBannerMessageGear": "tandwiel icoon",
+    "communityWebsiteAdminBannerMessageAfterGear": " in de rechterbovenhoek.",
+    "adminPanel": "Beheerpaneel",
+    "hide": "Verbergen"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Aantal unieke weergaven van Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Rangen",
     "promotions": "Promoties",
     "rankManager": "Rangbeheerder",
-    "rankManagerSubtitle": "Beheer uw gemeenschapsrangen, groepen en machtigingen."
+    "rankManagerSubtitle": "Beheer uw gemeenschapsrangen, groepen en machtigingen.",
+    "alsoCreateOneToOneRoleMapping": "Maak ook een een-op-een Discord rol mapping(s)",
+    "cannotCreateMappingsDueToPermissionIssue": "Je hebt geen toestemming om Discord rol mappings te wijzigen."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profielvelden Tutorial",
@@ -3721,7 +3736,17 @@
     "type": "Type",
     "embedElement": "Selecteer ingesloten element",
     "embedSource": "Insluitingsbron",
-    "embed": "Insluiten"
+    "embed": "Insluiten",
+    "socialLink": "Sociale Link",
+    "socialLinkElement": "Een gekoppeld sociaal account vereisen",
+    "socialType": "Sociaal Type",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social}-account gekoppeld",
+    "socialAccountNotLinked": "{social}-account niet gekoppeld",
+    "refreshLinkStatus": "Verwijs linkstatus",
+    "failedToCheckSocialLink": "Het controleren van de status van de sociale link is mislukt. Probeer het opnieuw.",
+    "failedToStartSocialLink": "Het starten van de sociale linkflow is mislukt. Probeer het opnieuw."
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -3768,7 +3793,8 @@
     "websitePages": "Websitepagina's",
     "createCustomPages": "Maak aangepaste webpagina's voor je community!",
     "selectPageTemplate": "Selecteer Paginatemplate",
-    "blank": "Leeg"
+    "blank": "Leeg",
+    "addNewPage": "Nieuwe pagina toevoegen"
   },
   "SectionEditor": {
     "background": "Achtergrond",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Knoppictogram",
     "buttonImage": "Knopafbeelding",
     "newButton": "Nieuwe Knop",
-    "button": "Knop #"
+    "button": "Knop #",
+    "refLink": "Verwijs link",
+    "targetRef": "Doelverwijzing"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Gekopieerde Systeemrechten",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Staat leden toe hun eigen evenementen in deze categorie te verwijderen.",
     "allowsMembersToEditTheirOwnEventsInT": "Staat leden toe hun eigen evenementen in deze categorie te bewerken.",
     "use": "Gebruik",
-    "allowsMembersToUseShiftType": "Staat leden toe dit ploegtype te gebruiken voor het in- en uitklokken."
+    "allowsMembersToUseShiftType": "Staat leden toe dit ploegtype te gebruiken voor het in- en uitklokken.",
+    "mergeAccounts": "Accounts samenvoegen",
+    "allowsMembersToMergeAccounts": "Laat leden toe om twee accounts samen te voegen, inclusief rangen en alle communitygegevens."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Beperk spelers tot specifieke speelgebieden",
     "aopBypassRanksFor": "AOP Bypass Rangen Voor",
     "aopViolationActions": "AOP Overtreding Acties",
-    "zoneEnforcement": "Zone Handhaving"
+    "zoneEnforcement": "Zone Handhaving",
+    "actionDelayLabel": "Roep deze actie aan na het overtreden van de beperking tijdens een bepaalde tijd (in seconden)"
   },
   "ERLCActivityLog": {
     "kickedAction": "geweigerdActie",
@@ -4975,7 +5006,13 @@
     "flows": "Stromen",
     "confirmDelete": "Weet je zeker dat je deze promotie-flow wilt verwijderen?",
     "insufficientPermissionsToRunPromotions": "Onvoldoende rechten om promoties uit te voeren",
-    "requiresChangeHigherPermissions": "Vereist Toestemming: Wijzig Hogere Machtigingen"
+    "requiresChangeHigherPermissions": "Vereist Toestemming: Wijzig Hogere Machtigingen",
+    "flowLockedPromoteOnly": "Deze stroom is alleen vergrendeld voor promotie.",
+    "flowLockedDemoteOnly": "Deze stroom is alleen vergrendeld voor degradatie.",
+    "flowLockedBothModes": "Deze stroom kan draaien voor zowel promoties als degradaties.",
+    "promotionOnly": "Alleen promotie",
+    "demotionOnly": "Alleen degradatie",
+    "promotionAndDemotion": "Promotie en degradatie"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken",

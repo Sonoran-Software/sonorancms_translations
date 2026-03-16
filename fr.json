@@ -965,7 +965,15 @@
     "userPermissions": "Permissions utilisateur :",
     "viewAllPermissions": "Voir toutes les autorisations",
     "uniqueId": "ID unique",
-    "modifyExpiration": "Modifier l'expiration"
+    "modifyExpiration": "Modifier l'expiration",
+    "mergeAccounts": "Fusionner des comptes",
+    "sourceAccount": "Compte source",
+    "targetAccount": "Compte cible",
+    "account": "Compte",
+    "mergeAccountsDescription": "La fusion du compte source avec le compte cible transférera tous les envois de formulaires, événements, sujets et réponses de forum, ainsi que toutes les données historiques du compte source vers le compte cible. Le compte source sera ensuite archivé. Cette action est irréversible, veuillez donc procéder avec précaution.",
+    "warning": "Avertissement",
+    "mergeFailed": "Échec de la fusion :",
+    "mergeSuccessful": "Fusion de compte réussie !"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutoriel API de la communauté",
@@ -1803,7 +1811,12 @@
     "download": "Télécharger",
     "disciplinaryAction": "Action automatique ELRC",
     "erlcAction": "Action automatique ELRC",
-    "communityDeletion": "Suppression de la communauté"
+    "communityDeletion": "Suppression de la communauté",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Vous consultez le site Web de votre communauté. Pour le personnaliser et gérer les paramètres, utilisez l'",
+    "communityWebsiteAdminBannerMessageGear": "icône d'engrenage",
+    "communityWebsiteAdminBannerMessageAfterGear": " dans le coin supérieur droit.",
+    "adminPanel": "Panneau d'administration",
+    "hide": "Masquer"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Nombre de vues uniques depuis la Découverte de la Communauté",
@@ -2957,7 +2970,9 @@
     "ranks": "Rangs",
     "promotions": "Promotions",
     "rankManager": "Gestionnaire de rangs",
-    "rankManagerSubtitle": "Gérez les rangs, groupes et permissions de votre communauté."
+    "rankManagerSubtitle": "Gérez les rangs, groupes et permissions de votre communauté.",
+    "alsoCreateOneToOneRoleMapping": "Créez également un mappage de rôle Discord un-à-un",
+    "cannotCreateMappingsDueToPermissionIssue": "Vous n'avez pas la permission de modifier les mappages de rôles Discord."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Tutoriel sur les champs de profil",
@@ -3721,7 +3736,17 @@
     "type": "Type",
     "embedElement": "Sélectionner l'élément à intégrer",
     "embedSource": "Source à intégrer",
-    "embed": "Intégrer"
+    "embed": "Intégrer",
+    "socialLink": "Lien social",
+    "socialLinkElement": "Exiger un compte social lié",
+    "socialType": "Type social",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} compte lié",
+    "socialAccountNotLinked": "{social} compte non lié",
+    "refreshLinkStatus": "Rafraîchir le statut du lien",
+    "failedToCheckSocialLink": "Échec de la vérification du statut du lien social. Veuillez réessayer.",
+    "failedToStartSocialLink": "Échec du démarrage du flux de lien social. Veuillez réessayer."
   },
   "selectRoster": {
     "selectRoster": "Sélectionner la Liste"
@@ -3768,7 +3793,8 @@
     "websitePages": "Pages du site Web",
     "createCustomPages": "Créez des pages Web personnalisées pour votre communauté !",
     "selectPageTemplate": "Sélectionner le modèle de page",
-    "blank": "Vide"
+    "blank": "Vide",
+    "addNewPage": "Ajouter une nouvelle page"
   },
   "SectionEditor": {
     "background": "Arrière-plan",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Icône du Bouton",
     "buttonImage": "Image du Bouton",
     "newButton": "Nouveau Bouton",
-    "button": "Bouton #"
+    "button": "Bouton #",
+    "refLink": "Lien de référence",
+    "targetRef": "Référence cible"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Permissions Système Copiées",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permet aux membres de supprimer leurs propres événements dans cette catégorie.",
     "allowsMembersToEditTheirOwnEventsInT": "Permet aux membres de modifier leurs propres événements dans cette catégorie.",
     "use": "Utiliser",
-    "allowsMembersToUseShiftType": "Autorise les membres à utiliser ce type de service pour pointer l'entrée et la sortie."
+    "allowsMembersToUseShiftType": "Autorise les membres à utiliser ce type de service pour pointer l'entrée et la sortie.",
+    "mergeAccounts": "Fusionner des comptes",
+    "allowsMembersToMergeAccounts": "Permet aux membres de fusionner deux comptes ensemble, combinant les rangs et toutes les données de la communauté."
   },
   "permissionToggleGroup": {
     "inherited": "hérité",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Restreindre les joueurs à des zones de jeu spécifiques",
     "aopBypassRanksFor": "Rangs de contournement de la zone de jeu pour",
     "aopViolationActions": "Actions en cas de violation de la zone de jeu",
-    "zoneEnforcement": "Application de la zone"
+    "zoneEnforcement": "Application de la zone",
+    "actionDelayLabel": "Déclencher cette action après avoir enfreint la restriction pendant un certain temps (en secondes)"
   },
   "ERLCActivityLog": {
     "kickedAction": "expulséAction",
@@ -4975,7 +5006,13 @@
     "flows": "Flux",
     "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce flux de promotion ?",
     "insufficientPermissionsToRunPromotions": "Permissions insuffisantes pour exécuter les promotions",
-    "requiresChangeHigherPermissions": "Permission requise : Changer les permissions supérieures"
+    "requiresChangeHigherPermissions": "Permission requise : Changer les permissions supérieures",
+    "flowLockedPromoteOnly": "Ce flux est verrouillé pour la promotion uniquement.",
+    "flowLockedDemoteOnly": "Ce flux est verrouillé pour la rétrogradation uniquement.",
+    "flowLockedBothModes": "Ce flux peut fonctionner pour les promotions et les rétrogradations.",
+    "promotionOnly": "Promotion uniquement",
+    "demotionOnly": "Rétrogradation uniquement",
+    "promotionAndDemotion": "Promotion et rétrogradation"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Aucun joueur trouvé... Rechercher",

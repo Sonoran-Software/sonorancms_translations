@@ -965,7 +965,15 @@
     "userPermissions": "User-oikeudet:",
     "viewAllPermissions": "Näytä kaikki oikeudet",
     "uniqueId": "Yksilöllinen tunniste",
-    "modifyExpiration": "Muokkaa vanhenemista"
+    "modifyExpiration": "Muokkaa vanhenemista",
+    "mergeAccounts": "Yhdistä tilit",
+    "sourceAccount": "Lähdetili",
+    "targetAccount": "Kohdetili",
+    "account": "Tili",
+    "mergeAccountsDescription": "Lähdetilin yhdistäminen kohdetiliin siirtää kaikki lomakevastaukset, tapahtumat, foorumin aiheet ja vastaukset sekä muun historiallisen datan lähdetililtä kohdetilille. Lähdetili arkistoidaan. Tätä toimintoa ei voi peruuttaa, joten olethan varovainen.",
+    "warning": "Varoitus",
+    "mergeFailed": "Yhdistäminen epäonnistui:",
+    "mergeSuccessful": "Tilien yhdistäminen onnistui!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -1803,7 +1811,12 @@
     "download": "Lataa",
     "disciplinaryAction": "ELRC Automaattinen Toiminto",
     "erlcAction": "ELRC Automaattinen Toiminto",
-    "communityDeletion": "Yhteisön poistaminen"
+    "communityDeletion": "Yhteisön poistaminen",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Tarkastelet yhteisösi verkkosivustoa. Mukauta sitä ja hallitse asetuksia ",
+    "communityWebsiteAdminBannerMessageGear": "ratasikonin",
+    "communityWebsiteAdminBannerMessageAfterGear": " avulla oikeassa yläkulmassa.",
+    "adminPanel": "Ylläpitopaneeli",
+    "hide": "Piilota"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Yhteisön löytämisestä saadut yksilölliset katselukerrat",
@@ -2957,7 +2970,9 @@
     "ranks": "Arvot",
     "promotions": "Promootiot",
     "rankManager": "Arvopäällikkö",
-    "rankManagerSubtitle": "Hallinnoi yhteisösi arvoja, ryhmiä ja oikeuksia."
+    "rankManagerSubtitle": "Hallinnoi yhteisösi arvoja, ryhmiä ja oikeuksia.",
+    "alsoCreateOneToOneRoleMapping": "Luo myös yksi-yhteen Discord-roolien kartoitus",
+    "cannotCreateMappingsDueToPermissionIssue": "Sinulla ei ole lupaa muokata Discord-roolikartoituksia."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profiilikenttien opas",
@@ -3721,7 +3736,17 @@
     "type": "Tyyppi",
     "embedElement": "Valitse upotuselementti",
     "embedSource": "Upotuksen lähde",
-    "embed": "Upota"
+    "embed": "Upota",
+    "socialLink": "Sosiaalinen linkki",
+    "socialLinkElement": "Vaadi yhdistetty sosiaalinen tili",
+    "socialType": "Sosiaalinen tyyppi",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} tili yhdistetty",
+    "socialAccountNotLinked": "{social} tiliä ei ole yhdistetty",
+    "refreshLinkStatus": "Päivitä linkin tila",
+    "failedToCheckSocialLink": "Sosiaalisen linkin tilaa ei voitu tarkistaa. Yritä uudelleen.",
+    "failedToStartSocialLink": "Sosiaalisen linkin virtaus ei käynnistynyt. Yritä uudelleen."
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -3768,7 +3793,8 @@
     "websitePages": "Verkkosivuston sivut",
     "createCustomPages": "Luo mukautettuja verkkosivuja yhteisöllesi!",
     "selectPageTemplate": "Valitse sivupohja",
-    "blank": "Tyhjä"
+    "blank": "Tyhjä",
+    "addNewPage": "Lisää uusi sivu"
   },
   "SectionEditor": {
     "background": "Tausta",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Painikkeen kuvake",
     "buttonImage": "Painikkeen kuva",
     "newButton": "Uusi painike",
-    "button": "Painike #"
+    "button": "Painike #",
+    "refLink": "Viitelinkki",
+    "targetRef": "Kohdeviite"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Kopioidut järjestelmän oikeudet",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Sallii jäsenten poistaa omia tapahtumia tässä kategoriassa.",
     "allowsMembersToEditTheirOwnEventsInT": "Sallii jäsenten muokata omia tapahtumia tässä kategoriassa.",
     "use": "Käytä",
-    "allowsMembersToUseShiftType": "Sallii jäsenten käyttää tätä vuorotyyppiä kirjautumiseen sisään ja ulos."
+    "allowsMembersToUseShiftType": "Sallii jäsenten käyttää tätä vuorotyyppiä kirjautumiseen sisään ja ulos.",
+    "mergeAccounts": "Yhdistä tilit",
+    "allowsMembersToMergeAccounts": "Sallii jäsenten yhdistää kaksi tiliä, yhdistäen arvot ja kaiken yhteisön tiedon."
   },
   "permissionToggleGroup": {
     "inherited": "peritty",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Rajoita pelaajien pääsyä tiettyihin pelialueisiin",
     "aopBypassRanksFor": "AOP-oikeuden ohitusarvot",
     "aopViolationActions": "AOP-rikkomustoimenpiteet",
-    "zoneEnforcement": "Aluerajoitusten valvonta"
+    "zoneEnforcement": "Aluerajoitusten valvonta",
+    "actionDelayLabel": "Suorita tämä toiminto rikkomuksen jälkeen tietyn ajan kuluessa (sekunteina)"
   },
   "ERLCActivityLog": {
     "kickedAction": "potkittuToiminta",
@@ -4975,7 +5006,13 @@
     "flows": "Virtaukset",
     "confirmDelete": "Oletko varma, että haluat poistaa tämän ylennysvirran?",
     "insufficientPermissionsToRunPromotions": "Riittämättömät oikeudet kampanjoiden suorittamiseen",
-    "requiresChangeHigherPermissions": "Vaatii luvan: Muuta korkeampia oikeuksia"
+    "requiresChangeHigherPermissions": "Vaatii luvan: Muuta korkeampia oikeuksia",
+    "flowLockedPromoteOnly": "Tämä virta on lukittu vain ylennykseen.",
+    "flowLockedDemoteOnly": "Tämä virta on lukittu vain alennukseen.",
+    "flowLockedBothModes": "Tämä virta voidaan suorittaa sekä ylennyksille että alennuksille.",
+    "promotionOnly": "Vain ylennys",
+    "demotionOnly": "Vain alennus",
+    "promotionAndDemotion": "Ylennys ja alennus"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi",

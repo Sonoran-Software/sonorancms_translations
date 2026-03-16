@@ -965,7 +965,15 @@
     "userPermissions": "Benutzerberechtigungen:",
     "viewAllPermissions": "Alle Berechtigungen anzeigen",
     "uniqueId": "Eindeutige ID",
-    "modifyExpiration": "Ablauf ändern"
+    "modifyExpiration": "Ablauf ändern",
+    "mergeAccounts": "Konten zusammenführen",
+    "sourceAccount": "Quellkonto",
+    "targetAccount": "Zielkonto",
+    "account": "Konto",
+    "mergeAccountsDescription": "Das Zusammenführen des Quellkontos mit dem Zielkonto verschiebt alle Formularübermittlungen, Ereignisse, Forenthemen & Antworten und andere historische Daten vom Quellkonto zum Zielkonto. Das Quellkonto wird dann archiviert. Diese Aktion kann nicht rückgängig gemacht werden, daher bitte mit Vorsicht vorgehen.",
+    "warning": "Warnung",
+    "mergeFailed": "Zusammenführung fehlgeschlagen:",
+    "mergeSuccessful": "Kontenzusammenführung erfolgreich!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -1803,7 +1811,12 @@
     "download": "Herunterladen",
     "disciplinaryAction": "Automatische ELRC-Aktion",
     "erlcAction": "ELRC Automatische Aktion",
-    "communityDeletion": "Community-Löschung"
+    "communityDeletion": "Community-Löschung",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Sie sehen Ihre Community-Website. Um sie anzupassen und Einstellungen zu verwalten, verwenden Sie das",
+    "communityWebsiteAdminBannerMessageGear": "Zahnrad-Symbol",
+    "communityWebsiteAdminBannerMessageAfterGear": "in der oberen rechten Ecke.",
+    "adminPanel": "Administrationsbereich",
+    "hide": "Verstecken"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Anzahl der eindeutigen Aufrufe von Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Ränge",
     "promotions": "Beförderungen",
     "rankManager": "Rang-Manager",
-    "rankManagerSubtitle": "Verwalten Sie die Ränge, Gruppen und Berechtigungen Ihrer Community."
+    "rankManagerSubtitle": "Verwalten Sie die Ränge, Gruppen und Berechtigungen Ihrer Community.",
+    "alsoCreateOneToOneRoleMapping": "Erstellen Sie auch Eins-zu-Eins-Discord-Rollen-Zuordnung(en)",
+    "cannotCreateMappingsDueToPermissionIssue": "Sie haben keine Berechtigung, Discord-Rollen-Zuordnungen zu ändern."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfelder-Tutorial",
@@ -3721,7 +3736,17 @@
     "type": "Typ",
     "embedElement": "Eingebettetes Element auswählen",
     "embedSource": "Eingebettete Quelle",
-    "embed": "Einbetten"
+    "embed": "Einbetten",
+    "socialLink": "Sozialer Link",
+    "socialLinkElement": "Verlangt ein verlinktes soziales Konto",
+    "socialType": "Sozialer Typ",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social}-Konto verknüpft",
+    "socialAccountNotLinked": "{social}-Konto nicht verknüpft",
+    "refreshLinkStatus": "Linkstatus aktualisieren",
+    "failedToCheckSocialLink": "Fehler beim Überprüfen des sozialen Linkstatus. Bitte versuche es erneut.",
+    "failedToStartSocialLink": "Fehler beim Starten des sozialen Linkablaufs. Bitte versuche es erneut."
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -3768,7 +3793,8 @@
     "websitePages": "Webseiten",
     "createCustomPages": "Erstellen Sie benutzerdefinierte Webseiten für Ihre Community!",
     "selectPageTemplate": "Seitentemplate auswählen",
-    "blank": "Leer"
+    "blank": "Leer",
+    "addNewPage": "Neue Seite hinzufügen"
   },
   "SectionEditor": {
     "background": "Hintergrund",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Schaltflächensymbol",
     "buttonImage": "Schaltflächenbild",
     "newButton": "Neue Schaltfläche",
-    "button": "Schaltfläche #"
+    "button": "Schaltfläche #",
+    "refLink": "Ref-Link",
+    "targetRef": "Ziel-Ref"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Systemberechtigungen kopiert",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu entfernen.",
     "allowsMembersToEditTheirOwnEventsInT": "Erlaubt Mitgliedern, ihre eigenen Veranstaltungen in dieser Kategorie zu bearbeiten.",
     "use": "Benutzen",
-    "allowsMembersToUseShiftType": "Ermöglicht es Mitgliedern, diesen Schichttyp für das Ein- und Ausstempeln zu verwenden."
+    "allowsMembersToUseShiftType": "Ermöglicht es Mitgliedern, diesen Schichttyp für das Ein- und Ausstempeln zu verwenden.",
+    "mergeAccounts": "Konten zusammenführen",
+    "allowsMembersToMergeAccounts": "Erlaubt es Mitgliedern, zwei Konten zusammenzufügen, um Ränge und alle Community-Daten zu kombinieren."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Spieler auf bestimmte Spielbereiche beschränken",
     "aopBypassRanksFor": "AOP-Umgehungsränge für",
     "aopViolationActions": "AOP-Verstoß Aktionen",
-    "zoneEnforcement": "Zonendurchsetzung"
+    "zoneEnforcement": "Zonendurchsetzung",
+    "actionDelayLabel": "Diese Aktion auslösen, nachdem die Beschränkung für eine bestimmte Zeit (in Sekunden) verletzt wurde"
   },
   "ERLCActivityLog": {
     "kickedAction": "Gekickt-Aktion",
@@ -4975,7 +5006,13 @@
     "flows": "Abläufe",
     "confirmDelete": "Sind Sie sicher, dass Sie diesen Beförderungsablauf löschen möchten?",
     "insufficientPermissionsToRunPromotions": "Unzureichende Berechtigungen, um Aktionen durchzuführen",
-    "requiresChangeHigherPermissions": "Erfordert Berechtigung: Höhere Berechtigungen ändern"
+    "requiresChangeHigherPermissions": "Erfordert Berechtigung: Höhere Berechtigungen ändern",
+    "flowLockedPromoteOnly": "Dieser Ablauf ist auf Beförderung beschränkt.",
+    "flowLockedDemoteOnly": "Dieser Ablauf ist auf Herabstufung beschränkt.",
+    "flowLockedBothModes": "Dieser Ablauf kann sowohl für Beförderungen als auch für Herabstufungen ausgeführt werden.",
+    "promotionOnly": "Nur Beförderung",
+    "demotionOnly": "Nur Herabstufung",
+    "promotionAndDemotion": "Beförderung und Herabstufung"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Keine Spieler gefunden... Suche",

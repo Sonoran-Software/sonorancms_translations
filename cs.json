@@ -965,7 +965,15 @@
     "userPermissions": "Uživatelská oprávnění:",
     "viewAllPermissions": "Zobrazit všechna oprávnění",
     "uniqueId": "Unikátní ID",
-    "modifyExpiration": "Upravit vypršení"
+    "modifyExpiration": "Upravit vypršení",
+    "mergeAccounts": "Sloučit účty",
+    "sourceAccount": "Zdrojový účet",
+    "targetAccount": "Cílový účet",
+    "account": "Účet",
+    "mergeAccountsDescription": "Sloučení zdrojového účtu do cílového účtu přesune všechny odeslané formuláře, události, témata a odpovědi ve fóru a další historická data ze zdrojového účtu na cílový účet. Zdrojový účet bude poté archivován. Tuto akci nelze vrátit zpět, proto pokračujte opatrně.",
+    "warning": "Varování",
+    "mergeFailed": "Sloučení selhalo:",
+    "mergeSuccessful": "Úspěšné sloučení účtů!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -1803,7 +1811,12 @@
     "download": "Stažení",
     "disciplinaryAction": "ELRC Automatická akce",
     "erlcAction": "Automatická akce ELRC",
-    "communityDeletion": "Smazání komunity"
+    "communityDeletion": "Smazání komunity",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Prohlížíte si webovou stránku vaší komunity. Pro přizpůsobení a správu nastavení použijte ",
+    "communityWebsiteAdminBannerMessageGear": "ikonu ozubeného kola",
+    "communityWebsiteAdminBannerMessageAfterGear": " v pravém horním rohu.",
+    "adminPanel": "Administrační panel",
+    "hide": "Skrýt"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Počet unikátních zobrazení z Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Hodnosti",
     "promotions": "Propagace",
     "rankManager": "Správce hodností",
-    "rankManagerSubtitle": "Spravujte hodnosti, skupiny a oprávnění vaší komunity."
+    "rankManagerSubtitle": "Spravujte hodnosti, skupiny a oprávnění vaší komunity.",
+    "alsoCreateOneToOneRoleMapping": "Také vytvořit jedinečné mapování rolí Discordu",
+    "cannotCreateMappingsDueToPermissionIssue": "Nemáte oprávnění k úpravě mapování rolí Discordu."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Návod na pole profilu",
@@ -3721,7 +3736,17 @@
     "type": "Typ",
     "embedElement": "Vybrat vložený prvek",
     "embedSource": "Zdroj vložení",
-    "embed": "Vložit"
+    "embed": "Vložit",
+    "socialLink": "Sociální odkaz",
+    "socialLinkElement": "Požadovat propojený sociální účet",
+    "socialType": "Typ sociální sítě",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} účet propojen",
+    "socialAccountNotLinked": "{social} účet nepropojen",
+    "refreshLinkStatus": "Obnovit stav odkazu",
+    "failedToCheckSocialLink": "Nepodařilo se zkontrolovat stav sociálního odkazu. Zkuste to prosím znovu.",
+    "failedToStartSocialLink": "Nepodařilo se spustit proces propojení sociálního odkazu. Zkuste to prosím znovu."
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -3768,7 +3793,8 @@
     "websitePages": "Webové stránky",
     "createCustomPages": "Vytvořte si vlastní webové stránky pro vaši komunitu!",
     "selectPageTemplate": "Vyberte šablonu stránky",
-    "blank": "Prázdný"
+    "blank": "Prázdný",
+    "addNewPage": "Přidat novou stránku"
   },
   "SectionEditor": {
     "background": "Pozadí",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Ikona tlačítka",
     "buttonImage": "Obrázek tlačítka",
     "newButton": "Nové tlačítko",
-    "button": "Tlačítko #"
+    "button": "Tlačítko #",
+    "refLink": "Referenční odkaz",
+    "targetRef": "Cílový referenční odkaz"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Zkopírovaná systémová oprávnění",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Umožňuje členům odstranit vlastní události v této kategorii.",
     "allowsMembersToEditTheirOwnEventsInT": "Umožňuje členům upravit vlastní události v této kategorii.",
     "use": "Použít",
-    "allowsMembersToUseShiftType": "Umožňuje členům používat tento typ směny pro přihlášení a odhlášení."
+    "allowsMembersToUseShiftType": "Umožňuje členům používat tento typ směny pro přihlášení a odhlášení.",
+    "mergeAccounts": "Sloučit účty",
+    "allowsMembersToMergeAccounts": "Umožňuje členům sloučit dva účty dohromady, čímž se kombinují hodnosti a veškerá data komunity."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Omezit hráče na specifické oblasti hry",
     "aopBypassRanksFor": "Hodnosti s možností obejít omezení oblasti hry",
     "aopViolationActions": "Akce při porušení pravidel oblasti hry",
-    "zoneEnforcement": "Prosazování zón"
+    "zoneEnforcement": "Prosazování zón",
+    "actionDelayLabel": "Tuto akci spustíte po porušení omezení po určitou dobu (v sekundách)"
   },
   "ERLCActivityLog": {
     "kickedAction": "vykopnutoAction",
@@ -4975,7 +5006,13 @@
     "flows": "Toky",
     "confirmDelete": "Opravdu chcete odstranit tento propagační tok?",
     "insufficientPermissionsToRunPromotions": "Nedostatečná oprávnění k provozování povýšení",
-    "requiresChangeHigherPermissions": "Vyžaduje oprávnění: Změna vyšších oprávnění"
+    "requiresChangeHigherPermissions": "Vyžaduje oprávnění: Změna vyšších oprávnění",
+    "flowLockedPromoteOnly": "Tento proces je uzamčen pouze pro povýšení.",
+    "flowLockedDemoteOnly": "Tento proces je uzamčen pouze pro degradaci.",
+    "flowLockedBothModes": "Tento proces lze spustit jak pro povýšení, tak pro degradaci.",
+    "promotionOnly": "Pouze povýšení",
+    "demotionOnly": "Pouze degradace",
+    "promotionAndDemotion": "Povýšení a degradace"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat",

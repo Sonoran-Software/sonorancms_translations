@@ -965,7 +965,15 @@
     "userPermissions": "사용자 권한:",
     "viewAllPermissions": "모든 권한 보기",
     "uniqueId": "고유 ID",
-    "modifyExpiration": "만료 수정"
+    "modifyExpiration": "만료 수정",
+    "mergeAccounts": "계정 병합",
+    "sourceAccount": "출처 계정",
+    "targetAccount": "대상 계정",
+    "account": "계정",
+    "mergeAccountsDescription": "출처 계정을 대상 계정으로 병합하면 모든 양식 제출, 이벤트, 포럼 주제 및 답변, 기타 기록 데이터가 출처 계정에서 대상 계정으로 이동됩니다. 출처 계정은 이후 보관됩니다. 이 작업은 취소할 수 없으므로 주의해서 진행해 주세요.",
+    "warning": "경고",
+    "mergeFailed": "병합 실패:",
+    "mergeSuccessful": "계정 병합 성공!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -1803,7 +1811,12 @@
     "download": "다운로드",
     "disciplinaryAction": "ELRC 자동 작업",
     "erlcAction": "ELRC 자동 작업",
-    "communityDeletion": "커뮤니티 삭제"
+    "communityDeletion": "커뮤니티 삭제",
+    "communityWebsiteAdminBannerMessageBeforeGear": "귀하의 커뮤니티 웹사이트를 보고 있습니다. 설정을 사용자 정의하고 관리하려면",
+    "communityWebsiteAdminBannerMessageGear": "톱니바퀴 아이콘",
+    "communityWebsiteAdminBannerMessageAfterGear": "을(를) 오른쪽 상단 모서리에서 사용하세요.",
+    "adminPanel": "관리자 패널",
+    "hide": "숨기기"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "커뮤니티 디스커버리에서 커뮤니티 페이지를 방문한 고유 사용자 수",
@@ -2957,7 +2970,9 @@
     "ranks": "계급",
     "promotions": "승진",
     "rankManager": "계급 관리자",
-    "rankManagerSubtitle": "커뮤니티 계급, 그룹 및 권한을 관리합니다."
+    "rankManagerSubtitle": "커뮤니티 계급, 그룹 및 권한을 관리합니다.",
+    "alsoCreateOneToOneRoleMapping": "또한 다대일 Discord 역할 매핑 생성",
+    "cannotCreateMappingsDueToPermissionIssue": "Discord 역할 매핑을 수정할 권한이 없습니다."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "프로필 필드 문서",
@@ -3721,7 +3736,17 @@
     "type": "유형",
     "embedElement": "임베드 요소 선택",
     "embedSource": "임베드 소스",
-    "embed": "임베드"
+    "embed": "임베드",
+    "socialLink": "소셜 링크",
+    "socialLinkElement": "연결된 소셜 계정 필요",
+    "socialType": "소셜 유형",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} 계정이 연결되었습니다",
+    "socialAccountNotLinked": "{social} 계정이 연결되지 않았습니다",
+    "refreshLinkStatus": "링크 상태 새로 고침",
+    "failedToCheckSocialLink": "소셜 링크 상태 확인에 실패했습니다. 다시 시도해 주세요.",
+    "failedToStartSocialLink": "소셜 링크 흐름 시작에 실패했습니다. 다시 시도해 주세요."
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -3768,7 +3793,8 @@
     "websitePages": "웹사이트 페이지",
     "createCustomPages": "커뮤니티를 위한 맞춤 웹페이지 생성!",
     "selectPageTemplate": "페이지 템플릿 선택",
-    "blank": "빈 페이지"
+    "blank": "빈 페이지",
+    "addNewPage": "새 페이지 추가"
   },
   "SectionEditor": {
     "background": "왼쪽",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "새 버튼",
     "buttonImage": "버튼 #",
     "newButton": "시스템 권한 복사됨",
-    "button": "시스템 권한 붙여넣기"
+    "button": "시스템 권한 붙여넣기",
+    "refLink": "참조 링크",
+    "targetRef": "대상 참조"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "탐색 권한 복사됨",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "이 카테고리 내에서 자신의 이벤트를 제거할 수 있습니다.",
     "allowsMembersToEditTheirOwnEventsInT": "이 카테고리에서 자신의 이벤트를 수정할 수 있습니다.",
     "use": "사용",
-    "allowsMembersToUseShiftType": "멤버가 이 전환 유형을 사용하여 출퇴근할 수 있도록 허용합니다."
+    "allowsMembersToUseShiftType": "멤버가 이 전환 유형을 사용하여 출퇴근할 수 있도록 허용합니다.",
+    "mergeAccounts": "계정 병합",
+    "allowsMembersToMergeAccounts": "멤버가 두 계정을 병합하여 순위 및 모든 커뮤니티 데이터를 결합할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "플레이어를 특정 플레이 지역으로 제한",
     "aopBypassRanksFor": "AOP 우회 등급",
     "aopViolationActions": "AOP 위반 조치",
-    "zoneEnforcement": "지역 시행"
+    "zoneEnforcement": "지역 시행",
+    "actionDelayLabel": "제한 위반 후 일정 시간(초) 후에 이 작업을 트리거합니다."
   },
   "ERLCActivityLog": {
     "kickedAction": "추방됨",
@@ -4975,7 +5006,13 @@
     "flows": "흐름",
     "confirmDelete": "이 프로모션 흐름을 삭제하시겠습니까?",
     "insufficientPermissionsToRunPromotions": "프로모션을 실행할 수 있는 권한이 부족합니다",
-    "requiresChangeHigherPermissions": "필요 권한: 더 높은 권한 변경"
+    "requiresChangeHigherPermissions": "필요 권한: 더 높은 권한 변경",
+    "flowLockedPromoteOnly": "이 흐름은 승진으로만 잠겨 있습니다.",
+    "flowLockedDemoteOnly": "이 흐름은 강등으로만 잠겨 있습니다.",
+    "flowLockedBothModes": "이 흐름은 승진 및 강등 모두에 실행될 수 있습니다.",
+    "promotionOnly": "승진 전용",
+    "demotionOnly": "강등 전용",
+    "promotionAndDemotion": "승진 및 강등"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "플레이어를 찾을 수 없습니다... 검색",

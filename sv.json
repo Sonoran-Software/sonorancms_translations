@@ -965,7 +965,15 @@
     "userPermissions": "Användarbehörigheter:",
     "viewAllPermissions": "Visa alla behörigheter",
     "uniqueId": "Unikt ID",
-    "modifyExpiration": "Ändra Utgångsdatum"
+    "modifyExpiration": "Ändra Utgångsdatum",
+    "mergeAccounts": "Sammanfoga konton",
+    "sourceAccount": "Källa konto",
+    "targetAccount": "Mål konto",
+    "account": "Konto",
+    "mergeAccountsDescription": "Att sammanfoga källkontot med målkontot flyttar alla formulärsinlämningar, händelser, forumämnen och svar, och annan historisk data från källkontot till målkontot. Källkontot kommer sedan att arkiveras. Denna åtgärd kan inte ångras, så var försiktig.",
+    "warning": "Varning",
+    "mergeFailed": "Sammanfogning misslyckades:",
+    "mergeSuccessful": "Kontosammanslagning lyckades!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -1803,7 +1811,12 @@
     "download": "Ladda ner",
     "disciplinaryAction": "ELRC Automatisk åtgärd",
     "erlcAction": "ELRC Automatisk åtgärd",
-    "communityDeletion": "Gemenskapsborttagning"
+    "communityDeletion": "Gemenskapsborttagning",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Du tittar på din community-webbplats. För att anpassa och hantera inställningar, använd",
+    "communityWebsiteAdminBannerMessageGear": "växelikon",
+    "communityWebsiteAdminBannerMessageAfterGear": "i det övre högra hörnet.",
+    "adminPanel": "Adminpanel",
+    "hide": "Dölj"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antal unika visningar från Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Ranger",
     "promotions": "Befordringar",
     "rankManager": "Rankhanterare",
-    "rankManagerSubtitle": "Hantera din communitys ranker, grupper och tillstånd."
+    "rankManagerSubtitle": "Hantera din communitys ranker, grupper och tillstånd.",
+    "alsoCreateOneToOneRoleMapping": "Skapa också en-till-en Discord rollmappning(ar)",
+    "cannotCreateMappingsDueToPermissionIssue": "Du har inte behörighet att ändra Discord rollmappningar."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profilfält Tutorial",
@@ -3721,7 +3736,17 @@
     "type": "Typ",
     "embedElement": "Välj infogad element",
     "embedSource": "Infogad källa",
-    "embed": "Infoga"
+    "embed": "Infoga",
+    "socialLink": "Sociala länkar",
+    "socialLinkElement": "Kräv ett länkat socialt konto",
+    "socialType": "Social typ",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} konto länkat",
+    "socialAccountNotLinked": "{social} konto inte länkat",
+    "refreshLinkStatus": "Uppdatera länkningsstatus",
+    "failedToCheckSocialLink": "Kunde inte kontrollera social länkstatus. Vänligen försök igen.",
+    "failedToStartSocialLink": "Kunde inte starta socialt länkflöde. Vänligen försök igen."
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -3768,7 +3793,8 @@
     "websitePages": "Webbsidor",
     "createCustomPages": "Skapa anpassade webbsidor för din gemenskap!",
     "selectPageTemplate": "Välj sidmall",
-    "blank": "Tom"
+    "blank": "Tom",
+    "addNewPage": "Lägg till ny sida"
   },
   "SectionEditor": {
     "background": "Bakgrund",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Knappikon",
     "buttonImage": "Knappbild",
     "newButton": "Ny knapp",
-    "button": "Knapp #"
+    "button": "Knapp #",
+    "refLink": "Referenslänk",
+    "targetRef": "Målreferens"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Kopierade systembehörigheter",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Tillåter medlemmar att ta bort sina egna evenemang inom denna kategori.",
     "allowsMembersToEditTheirOwnEventsInT": "Tillåter medlemmar att redigera sina egna evenemang inom denna kategori.",
     "use": "Använd",
-    "allowsMembersToUseShiftType": "Tillåter medlemmar att använda denna skifttyp för att klocka in och ut."
+    "allowsMembersToUseShiftType": "Tillåter medlemmar att använda denna skifttyp för att klocka in och ut.",
+    "mergeAccounts": "Sammanfoga konton",
+    "allowsMembersToMergeAccounts": "Tillåter medlemmar att sammanfoga två konton, kombinera rank och all community data."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Begränsa spelare till specifika spelområden",
     "aopBypassRanksFor": "AOP kringgå rangordningar för",
     "aopViolationActions": "AOP-överträdelseåtgärder",
-    "zoneEnforcement": "Zonövervakning"
+    "zoneEnforcement": "Zonövervakning",
+    "actionDelayLabel": "Utös denna åtgärd efter att ha brutit mot restriktionen under en viss tid (i sekunder)"
   },
   "ERLCActivityLog": {
     "kickedAction": "sparkadÅtgärd",
@@ -4975,7 +5006,13 @@
     "flows": "Flöden",
     "confirmDelete": "Är du säker på att du vill ta bort detta befordringsflöde?",
     "insufficientPermissionsToRunPromotions": "Otillräckliga behörigheter för att köra kampanjer",
-    "requiresChangeHigherPermissions": "Kräver Tillstånd: Ändra Högre Behörigheter"
+    "requiresChangeHigherPermissions": "Kräver Tillstånd: Ändra Högre Behörigheter",
+    "flowLockedPromoteOnly": "Detta flöde är låst för endast befordran.",
+    "flowLockedDemoteOnly": "Detta flöde är låst för endast degradering.",
+    "flowLockedBothModes": "Detta flöde kan köras för både befordringar och degraderingar.",
+    "promotionOnly": "Endast befordran",
+    "demotionOnly": "Endast degradering",
+    "promotionAndDemotion": "Befordran och degradering"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Inga spelare hittades... Sök",

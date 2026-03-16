@@ -965,7 +965,15 @@
     "userPermissions": "ユーザー権限:",
     "viewAllPermissions": "すべての権限を表示",
     "uniqueId": "ユニークID",
-    "modifyExpiration": "有効期限の変更"
+    "modifyExpiration": "有効期限の変更",
+    "mergeAccounts": "アカウントを統合",
+    "sourceAccount": "元アカウント",
+    "targetAccount": "対象アカウント",
+    "account": "アカウント",
+    "mergeAccountsDescription": "元アカウントを対象アカウントに統合すると、すべてのフォーム提出、イベント、フォーラムトピックと返信、その他の履歴データが元アカウントから対象アカウントに移動されます。その後、元アカウントはアーカイブされます。この操作は元に戻せないため、慎重に進めてください。",
+    "warning": "警告",
+    "mergeFailed": "統合に失敗しました:",
+    "mergeSuccessful": "アカウント統合が成功しました！"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -1803,7 +1811,12 @@
     "download": "ダウンロード",
     "disciplinaryAction": "ELRC自動アクション",
     "erlcAction": "ELRC自動アクション",
-    "communityDeletion": "コミュニティの削除"
+    "communityDeletion": "コミュニティの削除",
+    "communityWebsiteAdminBannerMessageBeforeGear": "コミュニティウェブサイトを閲覧中です。カスタマイズと設定を管理するには、",
+    "communityWebsiteAdminBannerMessageGear": "歯車アイコン",
+    "communityWebsiteAdminBannerMessageAfterGear": "を右上隅で使用してください。",
+    "adminPanel": "管理パネル",
+    "hide": "隠す"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "コミュニティディスカバリーからコミュニティページを訪れたユニークユーザー数",
@@ -2957,7 +2970,9 @@
     "ranks": "ランク",
     "promotions": "昇進",
     "rankManager": "ランク管理",
-    "rankManagerSubtitle": "コミュニティのランク、グループ、権限を管理します。"
+    "rankManagerSubtitle": "コミュニティのランク、グループ、権限を管理します。",
+    "alsoCreateOneToOneRoleMapping": "1対1のDiscord役割マッピングも作成する",
+    "cannotCreateMappingsDueToPermissionIssue": "Discord役割のマッピングを変更する権限がありません。"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "プロフィールフィールドの使い方を学ぶ",
@@ -3721,7 +3736,17 @@
     "type": "タイプ",
     "embedElement": "埋め込み要素を選択",
     "embedSource": "埋め込みソース",
-    "embed": "埋め込み"
+    "embed": "埋め込み",
+    "socialLink": "ソーシャルリンク",
+    "socialLinkElement": "リンクされたソーシャルアカウントが必要です",
+    "socialType": "ソーシャルタイプ",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} アカウントがリンクされています",
+    "socialAccountNotLinked": "{social} アカウントがリンクされていません",
+    "refreshLinkStatus": "リンクの状態を更新",
+    "failedToCheckSocialLink": "ソーシャルリンクの状態を確認できませんでした。もう一度お試しください。",
+    "failedToStartSocialLink": "ソーシャルリンクフローを開始できませんでした。もう一度お試しください。"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -3768,7 +3793,8 @@
     "websitePages": "ウェブサイトページ",
     "createCustomPages": "コミュニティのためにカスタムウェブページを作成する！",
     "selectPageTemplate": "ページテンプレートを選択",
-    "blank": "空白"
+    "blank": "空白",
+    "addNewPage": "新しいページを追加"
   },
   "SectionEditor": {
     "background": "エディター",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "ボタン画像",
     "buttonImage": "新しいボタン",
     "newButton": "ボタン #",
-    "button": "システム権限をコピーしました"
+    "button": "システム権限をコピーしました",
+    "refLink": "参照リンク",
+    "targetRef": "ターゲット参照"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "システム権限を貼り付け",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "このカテゴリ内で自分のイベントを削除できるよう許可します。",
     "allowsMembersToEditTheirOwnEventsInT": "このカテゴリ内で自分のイベントを編集できるよう許可します。",
     "use": "使用",
-    "allowsMembersToUseShiftType": "メンバーがこのシフトタイプを使用して時計を入れたり出したりすることができます。"
+    "allowsMembersToUseShiftType": "メンバーがこのシフトタイプを使用して時計を入れたり出したりすることができます。",
+    "mergeAccounts": "アカウントを統合",
+    "allowsMembersToMergeAccounts": "メンバーが2つのアカウントを統合し、ランクとすべてのコミュニティデータを結合できるようにします。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "プレイヤーのプレイエリアを制限",
     "aopBypassRanksFor": "AOP バイパスランク",
     "aopViolationActions": "AOP 違反アクション",
-    "zoneEnforcement": "ゾーン規制"
+    "zoneEnforcement": "ゾーン規制",
+    "actionDelayLabel": "制限違反後、一定時間（秒数）でこのアクションをトリガーします"
   },
   "ERLCActivityLog": {
     "kickedAction": "キック",
@@ -4975,7 +5006,13 @@
     "flows": "フロー",
     "confirmDelete": "このプロモーションフローを削除してもよろしいですか？",
     "insufficientPermissionsToRunPromotions": "プロモーションを実行するための権限が不十分です",
-    "requiresChangeHigherPermissions": "必要な権限: 高い権限の変更"
+    "requiresChangeHigherPermissions": "必要な権限: 高い権限の変更",
+    "flowLockedPromoteOnly": "このフローは昇進のみロックされています。",
+    "flowLockedDemoteOnly": "このフローは降格のみロックされています。",
+    "flowLockedBothModes": "このフローは昇進と降格の両方で実行できます。",
+    "promotionOnly": "昇進のみ",
+    "demotionOnly": "降格のみ",
+    "promotionAndDemotion": "昇進と降格"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "プレーヤーが見つかりません…検索",

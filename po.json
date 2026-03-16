@@ -965,7 +965,15 @@
     "userPermissions": "Uprawnienia użytkownika:",
     "viewAllPermissions": "Ver Todas as Permissões",
     "uniqueId": "ID Único",
-    "modifyExpiration": "Modificar Expiração"
+    "modifyExpiration": "Modificar Expiração",
+    "mergeAccounts": "Mesclar Contas",
+    "sourceAccount": "Conta de Origem",
+    "targetAccount": "Conta de Destino",
+    "account": "Conta",
+    "mergeAccountsDescription": "Mesclar a conta de origem com a conta de destino moverá todas as submissões de formulário, eventos, tópicos e respostas de fórum e outros dados históricos da conta de origem para a conta de destino. A conta de origem será então arquivada. Esta ação não pode ser desfeita, portanto, proceda com cautela.",
+    "warning": "Aviso",
+    "mergeFailed": "Falha na Mescla:",
+    "mergeSuccessful": "Mescla de Conta Bem-Sucedida!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -1803,7 +1811,12 @@
     "download": "Pobierz",
     "disciplinaryAction": "ELRC Otomatik Eylem",
     "erlcAction": "Acción Automática ELRC",
-    "communityDeletion": "Usunięcie społeczności"
+    "communityDeletion": "Usunięcie społeczności",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Você está visualizando o site da sua comunidade. Para personalizá-lo e gerenciar as configurações, use o",
+    "communityWebsiteAdminBannerMessageGear": "ícone de engrenagem",
+    "communityWebsiteAdminBannerMessageAfterGear": "no canto superior direito.",
+    "adminPanel": "Painel de Administração",
+    "hide": "Esconder"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Liczba unikalnych wyświetleń z Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Patentes",
     "promotions": "Promoções",
     "rankManager": "Gerente de Classificações",
-    "rankManagerSubtitle": "Gerencie as classificações, grupos e permissões da sua comunidade."
+    "rankManagerSubtitle": "Gerencie as classificações, grupos e permissões da sua comunidade.",
+    "alsoCreateOneToOneRoleMapping": "Também criar mapeamento de função Discord um-para-um",
+    "cannotCreateMappingsDueToPermissionIssue": "Você não tem permissão para modificar mapeamentos de funções do Discord."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Samouczek Pól Profilu",
@@ -3721,7 +3736,17 @@
     "type": "Tipo",
     "embedElement": "Selecionar elemento para incorporar",
     "embedSource": "Fonte Incorporada",
-    "embed": "Incorporar"
+    "embed": "Incorporar",
+    "socialLink": "Link Social",
+    "socialLinkElement": "Requer uma conta social vinculada",
+    "socialType": "Tipo de Social",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "Conta de {social} vinculada",
+    "socialAccountNotLinked": "Conta de {social} não vinculada",
+    "refreshLinkStatus": "Atualizar status do link",
+    "failedToCheckSocialLink": "Falha ao verificar o status do link social. Por favor, tente novamente.",
+    "failedToStartSocialLink": "Falha ao iniciar o fluxo de link social. Por favor, tente novamente."
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -3768,7 +3793,8 @@
     "websitePages": "Páginas do Site",
     "createCustomPages": "Crie páginas personalizadas para sua comunidade!",
     "selectPageTemplate": "Selecionar Modelo de Página",
-    "blank": "Em branco"
+    "blank": "Em branco",
+    "addNewPage": "Adicionar Nova Página"
   },
   "SectionEditor": {
     "background": "Tło",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Ikona przycisku",
     "buttonImage": "Obraz przycisku",
     "newButton": "Nowy przycisk",
-    "button": "Przycisk #"
+    "button": "Przycisk #",
+    "refLink": "Link de Referência",
+    "targetRef": "Ref de Destino"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Skopiowane uprawnienia systemowe",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Permite aos membros remover seus próprios eventos nesta categoria.",
     "allowsMembersToEditTheirOwnEventsInT": "Permite aos membros editar seus próprios eventos nesta categoria.",
     "use": "Usar",
-    "allowsMembersToUseShiftType": "Permite que os membros usem este tipo de turno para registrar entrada e saída."
+    "allowsMembersToUseShiftType": "Permite que os membros usem este tipo de turno para registrar entrada e saída.",
+    "mergeAccounts": "Mesclar Contas",
+    "allowsMembersToMergeAccounts": "Permite que os membros mesclem duas contas, combinando classificações e todos os dados da comunidade."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Restringir jogadores a áreas de jogo específicas",
     "aopBypassRanksFor": "Ranks de Bypass de AOP para",
     "aopViolationActions": "Ações para Violações de AOP",
-    "zoneEnforcement": "Execução de Zona"
+    "zoneEnforcement": "Execução de Zona",
+    "actionDelayLabel": "Disparar esta ação após violar a restrição por um determinado período de tempo (em segundos)"
   },
   "ERLCActivityLog": {
     "kickedAction": "AzioneEspulsa",
@@ -4975,7 +5006,13 @@
     "flows": "Fluxos",
     "confirmDelete": "Tem certeza de que deseja excluir este fluxo de promoção?",
     "insufficientPermissionsToRunPromotions": "Permissões Insuficientes Para Executar Promoções",
-    "requiresChangeHigherPermissions": "Requer Permissão: Alterar Permissões Superiores"
+    "requiresChangeHigherPermissions": "Requer Permissão: Alterar Permissões Superiores",
+    "flowLockedPromoteOnly": "Este fluxo está bloqueado apenas para promoção.",
+    "flowLockedDemoteOnly": "Este fluxo está bloqueado apenas para despromoção.",
+    "flowLockedBothModes": "Este fluxo pode ser executado tanto para promoções quanto para despromoções.",
+    "promotionOnly": "Apenas Promoção",
+    "demotionOnly": "Apenas Despromoção",
+    "promotionAndDemotion": "Promoção e Despromoção"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj",

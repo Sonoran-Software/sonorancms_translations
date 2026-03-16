@@ -965,7 +965,15 @@
     "userPermissions": "用户权限：",
     "viewAllPermissions": "查看所有权限",
     "uniqueId": "唯一 ID",
-    "modifyExpiration": "修改到期时间"
+    "modifyExpiration": "修改到期时间",
+    "mergeAccounts": "合并账户",
+    "sourceAccount": "源账户",
+    "targetAccount": "目标账户",
+    "account": "账户",
+    "mergeAccountsDescription": "将源账户合并到目标账户将会把所有表单提交、事件、论坛主题和回复以及其他历史数据从源账户移至目标账户。然后源账户将被存档。此操作无法撤销，请谨慎进行。",
+    "warning": "警告",
+    "mergeFailed": "合并失败：",
+    "mergeSuccessful": "账户合并成功！"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "社区 API 教程",
@@ -1803,7 +1811,12 @@
     "download": "下载",
     "disciplinaryAction": "ELRC 自动操作",
     "erlcAction": "ELRC 自动操作",
-    "communityDeletion": "社区删除"
+    "communityDeletion": "社区删除",
+    "communityWebsiteAdminBannerMessageBeforeGear": "您正在浏览您的社区网站。要自定义和管理设置，请使用",
+    "communityWebsiteAdminBannerMessageGear": "齿轮图标",
+    "communityWebsiteAdminBannerMessageAfterGear": "在右上角。",
+    "adminPanel": "管理面板",
+    "hide": "隐藏"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "来自社区发现的独特浏览次数",
@@ -2957,7 +2970,9 @@
     "ranks": "等级",
     "promotions": "晋升",
     "rankManager": "等级管理器",
-    "rankManagerSubtitle": "管理您的社区等级、组和权限。"
+    "rankManagerSubtitle": "管理您的社区等级、组和权限。",
+    "alsoCreateOneToOneRoleMapping": "还创建一对一的Discord角色映射",
+    "cannotCreateMappingsDueToPermissionIssue": "您没有权限修改Discord角色映射。"
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "个人资料字段教程",
@@ -3721,7 +3736,17 @@
     "type": "类型",
     "embedElement": "选择嵌入元素",
     "embedSource": "嵌入源",
-    "embed": "嵌入"
+    "embed": "嵌入",
+    "socialLink": "社交链接",
+    "socialLinkElement": "需要关联的社交账户",
+    "socialType": "社交类型",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social}账户已关联",
+    "socialAccountNotLinked": "{social}账户未关联",
+    "refreshLinkStatus": "刷新链接状态",
+    "failedToCheckSocialLink": "检查社交链接状态失败。请再试一次。",
+    "failedToStartSocialLink": "启动社交链接流程失败。请再试一次。"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -3768,7 +3793,8 @@
     "websitePages": "网站页面",
     "createCustomPages": "为您的社区创建自定义网页！",
     "selectPageTemplate": "选择页面模板",
-    "blank": "空白"
+    "blank": "空白",
+    "addNewPage": "添加新页面"
   },
   "SectionEditor": {
     "background": "背景",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "按钮图标",
     "buttonImage": "按钮图片",
     "newButton": "新按钮",
-    "button": "按钮 #"
+    "button": "按钮 #",
+    "refLink": "引用链接",
+    "targetRef": "目标引用"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "复制的系统权限",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "允许成员在此类别中移除自己的活动。",
     "allowsMembersToEditTheirOwnEventsInT": "允许成员在此类别中编辑自己的活动。",
     "use": "使用",
-    "allowsMembersToUseShiftType": "允许成员使用此班次类型进行上下班打卡。"
+    "allowsMembersToUseShiftType": "允许成员使用此班次类型进行上下班打卡。",
+    "mergeAccounts": "合并账户",
+    "allowsMembersToMergeAccounts": "允许成员合并两个账户，将等级和所有社区数据合并。"
   },
   "permissionToggleGroup": {
     "inherited": "继承",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "限制玩家在特定游戏区域",
     "aopBypassRanksFor": "AOP绕过等级",
     "aopViolationActions": "AOP违规操作",
-    "zoneEnforcement": "区域执法"
+    "zoneEnforcement": "区域执法",
+    "actionDelayLabel": "在违反限制一段时间后（以秒为单位）触发此操作"
   },
   "ERLCActivityLog": {
     "kickedAction": "踢出操作",
@@ -4975,7 +5006,13 @@
     "flows": "流程",
     "confirmDelete": "您确定要删除此晋升流程吗？",
     "insufficientPermissionsToRunPromotions": "权限不足，无法执行促销",
-    "requiresChangeHigherPermissions": "需要权限：更改更高权限"
+    "requiresChangeHigherPermissions": "需要权限：更改更高权限",
+    "flowLockedPromoteOnly": "此流程仅限于晋升。",
+    "flowLockedDemoteOnly": "此流程仅限于降级。",
+    "flowLockedBothModes": "此流程可用于晋升和降级。",
+    "promotionOnly": "仅限晋升",
+    "demotionOnly": "仅限降级",
+    "promotionAndDemotion": "晋升和降级"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "未找到玩家……搜索",

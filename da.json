@@ -965,7 +965,15 @@
     "userPermissions": "Brugertilladelser:",
     "viewAllPermissions": "Vis alle tilladelser",
     "uniqueId": "Unik ID",
-    "modifyExpiration": "Rediger udløb"
+    "modifyExpiration": "Rediger udløb",
+    "mergeAccounts": "Flet konti",
+    "sourceAccount": "Kildekonto",
+    "targetAccount": "Målkonto",
+    "account": "Konto",
+    "mergeAccountsDescription": "Fletning af kildekontoen ind i målgruppen vil flytte alle formularindsendelser, begivenheder, forumemner og svar, og andre historiske data fra kildekontoen til målgruppen. Kildekontoen vil derefter blive arkiveret. Denne handling kan ikke fortrydes, så vær forsigtig.",
+    "warning": "Advarsel",
+    "mergeFailed": "Sammenfletning mislykkedes:",
+    "mergeSuccessful": "Kontosammenfletning vellykket!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -1803,7 +1811,12 @@
     "download": "Download",
     "disciplinaryAction": "ELRC Automatisk Handling",
     "erlcAction": "ELRC Automatisk Handling",
-    "communityDeletion": "Sletning af fællesskab"
+    "communityDeletion": "Sletning af fællesskab",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Du ser dit fællesskabswebsted. For at tilpasse det og administrere indstillinger, brug ",
+    "communityWebsiteAdminBannerMessageGear": "gear ikon",
+    "communityWebsiteAdminBannerMessageAfterGear": " i det øverste højre hjørne.",
+    "adminPanel": "Admin panel",
+    "hide": "Skjul"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Antal unikke visninger fra Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Rækker",
     "promotions": "Forfremmelser",
     "rankManager": "Rangmanager",
-    "rankManagerSubtitle": "Administrer dine fællesskabsranger, grupper og tilladelser."
+    "rankManagerSubtitle": "Administrer dine fællesskabsranger, grupper og tilladelser.",
+    "alsoCreateOneToOneRoleMapping": "Også oprette en-til-en Discord rolletilknytning(er)",
+    "cannotCreateMappingsDueToPermissionIssue": "Du har ikke tilladelse til at ændre Discord rolletilknytninger."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Profil Felter Vejledning",
@@ -3721,7 +3736,17 @@
     "type": "Type",
     "embedElement": "Vælg indlejringselement",
     "embedSource": "Kilde til indlejring",
-    "embed": "Indlejr"
+    "embed": "Indlejr",
+    "socialLink": "Socialt link",
+    "socialLinkElement": "Kræv et tilknyttet socialt konto",
+    "socialType": "Social type",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "{social} konto tilknyttet",
+    "socialAccountNotLinked": "{social} konto ikke tilknyttet",
+    "refreshLinkStatus": "Opdater linkstatus",
+    "failedToCheckSocialLink": "Kunne ikke kontrollere social linkstatus. Prøv venligst igen.",
+    "failedToStartSocialLink": "Kunne ikke starte social link flow. Prøv venligst igen."
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"
@@ -3768,7 +3793,8 @@
     "websitePages": "Webside Sider",
     "createCustomPages": "Opret tilpassede websider til din community!",
     "selectPageTemplate": "Vælg Sidetemplate",
-    "blank": "Blank"
+    "blank": "Blank",
+    "addNewPage": "Tilføj ny side"
   },
   "SectionEditor": {
     "background": "Baggrund",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Knapikon",
     "buttonImage": "Knapbillede",
     "newButton": "Ny Knap",
-    "button": "Knap #"
+    "button": "Knap #",
+    "refLink": "Ref link",
+    "targetRef": "Mål ref"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Kopierede Systemtilladelser",
@@ -4294,7 +4322,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Giver medlemmerne mulighed for at fjerne deres egne begivenheder i denne kategori.",
     "allowsMembersToEditTheirOwnEventsInT": "Giver medlemmerne mulighed for at redigere deres egne begivenheder i denne kategori.",
     "use": "Brug",
-    "allowsMembersToUseShiftType": "Giver medlemmer lov til at bruge denne skifttype til ind- og udstempling."
+    "allowsMembersToUseShiftType": "Giver medlemmer lov til at bruge denne skifttype til ind- og udstempling.",
+    "mergeAccounts": "Flet konti",
+    "allowsMembersToMergeAccounts": "Tillader medlemmer at flette to konti sammen, hvilket kombinerer rang og alle fællesskabsdata."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Begræns spillere til specifikke spilleområder",
     "aopBypassRanksFor": "AOP Undgåelsestrin for",
     "aopViolationActions": "AOP Overtrædelses Handlinger",
-    "zoneEnforcement": "Zonehåndhævelse"
+    "zoneEnforcement": "Zonehåndhævelse",
+    "actionDelayLabel": "Udløs denne handling efter at have overtrådt restriktionen i en bestemt periode (i sekunder)"
   },
   "ERLCActivityLog": {
     "kickedAction": "udelukkelseshandling",
@@ -4975,7 +5006,13 @@
     "flows": "Flows",
     "confirmDelete": "Er du sikker på, at du vil slette denne promotionsflow?",
     "insufficientPermissionsToRunPromotions": "Utilstrækkelige tilladelser til at køre kampagner",
-    "requiresChangeHigherPermissions": "Kræver tilladelse: Ændre højere tilladelser"
+    "requiresChangeHigherPermissions": "Kræver tilladelse: Ændre højere tilladelser",
+    "flowLockedPromoteOnly": "Denne flow er låst til kun forfremmelse.",
+    "flowLockedDemoteOnly": "Denne flow er låst til kun degradering.",
+    "flowLockedBothModes": "Denne flow kan køre for både forfremmelser og degraderinger.",
+    "promotionOnly": "Kun forfremmelse",
+    "demotionOnly": "Kun degradering",
+    "promotionAndDemotion": "Forfremmelse og degradering"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ingen Spillere Fundet... Søg",

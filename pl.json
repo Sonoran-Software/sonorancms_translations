@@ -965,7 +965,15 @@
     "userPermissions": "Uprawnienia użytkownika:",
     "viewAllPermissions": "Wyświetl wszystkie uprawnienia",
     "uniqueId": "Unikalny ID",
-    "modifyExpiration": "Modyfikuj Wygaśnięcie"
+    "modifyExpiration": "Modyfikuj Wygaśnięcie",
+    "mergeAccounts": "Scal Konto",
+    "sourceAccount": "Konto Źródłowe",
+    "targetAccount": "Konto Docelowe",
+    "account": "Konto",
+    "mergeAccountsDescription": "Scalanie konta źródłowego z kontem docelowym przeniesie wszystkie zgłoszenia, wydarzenia, tematy i odpowiedzi na forum oraz inne dane historyczne z konta źródłowego na konto docelowe. Konta źródłowe zostanie następnie zarchiwizowane. Ta akcja nie może zostać cofnięta, więc prosimy o ostrożność.",
+    "warning": "Ostrzeżenie",
+    "mergeFailed": "Scalanie Nieudane:",
+    "mergeSuccessful": "Scalanie Kont Udane!"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Samouczek API społeczności",
@@ -1803,7 +1811,12 @@
     "download": "Pobierz",
     "disciplinaryAction": "Automatyczna Akcja ELRC",
     "erlcAction": "Automatyczna akcja ELRC",
-    "communityDeletion": "Usunięcie społeczności"
+    "communityDeletion": "Usunięcie społeczności",
+    "communityWebsiteAdminBannerMessageBeforeGear": "Oglądasz swoją stronę społeczności. Aby dostosować i zarządzać ustawieniami, użyj ",
+    "communityWebsiteAdminBannerMessageGear": "ikony koła zębatego",
+    "communityWebsiteAdminBannerMessageAfterGear": " w prawym górnym rogu.",
+    "adminPanel": "Panel Administracyjny",
+    "hide": "Ukryj"
   },
   "GrowthGraph": {
     "numberOfUniqueViewsFromCommunityDiscover": "Liczba unikalnych wyświetleń z Community Discovery",
@@ -2957,7 +2970,9 @@
     "ranks": "Rangi",
     "promotions": "Promocje",
     "rankManager": "Menedżer rang",
-    "rankManagerSubtitle": "Zarządzaj rangami, grupami i uprawnieniami swojej społeczności."
+    "rankManagerSubtitle": "Zarządzaj rangami, grupami i uprawnieniami swojej społeczności.",
+    "alsoCreateOneToOneRoleMapping": "Utwórz również odwzorowanie ról Discord jeden do jednego",
+    "cannotCreateMappingsDueToPermissionIssue": "Nie masz uprawnień do modyfikowania odwzorowań ról Discord."
   },
   "ProfileFieldsEditor": {
     "profileFieldsTutorial": "Samouczek Pól Profilu",
@@ -3721,7 +3736,17 @@
     "type": "Rodzaj",
     "embedElement": "Wybierz element osadzenia",
     "embedSource": "Źródło osadzenia",
-    "embed": "Osadź"
+    "embed": "Osadź",
+    "socialLink": "Link Społecznościowy",
+    "socialLinkElement": "Wymagaj połączonego konta społecznościowego",
+    "socialType": "Typ Społeczności",
+    "discord": "Discord",
+    "roblox": "Roblox",
+    "socialAccountLinked": "konto {social} połączone",
+    "socialAccountNotLinked": "konto {social} niepołączone",
+    "refreshLinkStatus": "Odśwież status linku",
+    "failedToCheckSocialLink": "Nie udało się sprawdzić statusu linku społecznościowego. Spróbuj ponownie.",
+    "failedToStartSocialLink": "Nie udało się rozpocząć procesu linkowania społecznościowego. Spróbuj ponownie."
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -3768,7 +3793,8 @@
     "websitePages": "Strony internetowe",
     "createCustomPages": "Utwórz niestandardowe strony internetowe dla swojej społeczności!",
     "selectPageTemplate": "Wybierz szablon strony",
-    "blank": "Pusty"
+    "blank": "Pusty",
+    "addNewPage": "Dodaj Nową Stronę"
   },
   "SectionEditor": {
     "background": "Tło",
@@ -4069,7 +4095,9 @@
     "buttonIcon": "Ikona przycisku",
     "buttonImage": "Obraz przycisku",
     "newButton": "Nowy przycisk",
-    "button": "Przycisk #"
+    "button": "Przycisk #",
+    "refLink": "Link Ref",
+    "targetRef": "Link Docelowy"
   },
   "tabbedPermissionEditor": {
     "copiedSystemPermissions": "Skopiowane uprawnienia systemowe",
@@ -4383,7 +4411,9 @@
     "allowsMembersToRemoveTheirOwnEventsWithinThisCat": "Pozwala członkom usuwać własne wydarzenia w tej kategorii.",
     "allowsMembersToEditTheirOwnEventsInT": "Pozwala członkom edytować własne wydarzenia w tej kategorii.",
     "use": "Użyj",
-    "allowsMembersToUseShiftType": "Pozwala członkom używać tego typu zmiany do zalogowania się i wylogowania."
+    "allowsMembersToUseShiftType": "Pozwala członkom używać tego typu zmiany do zalogowania się i wylogowania.",
+    "mergeAccounts": "Scal Konto",
+    "allowsMembersToMergeAccounts": "Umożliwia członkom scalanie dwóch kont, łącząc rangi i wszystkie dane społecznościowe."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"
@@ -4698,7 +4728,8 @@
     "restrictAOPAccess": "Ogranicz graczy do określonych obszarów gry",
     "aopBypassRanksFor": "Rangi z obejściem AOP dla",
     "aopViolationActions": "Akcje naruszenia AOP",
-    "zoneEnforcement": "Egzekwowanie strefy"
+    "zoneEnforcement": "Egzekwowanie strefy",
+    "actionDelayLabel": "Uruchom tę akcję po naruszeniu ograniczenia przez określony czas (w sekundach)"
   },
   "ERLCActivityLog": {
     "kickedAction": "akcjaWyrzucenia",
@@ -4975,7 +5006,13 @@
     "flows": "Przepływy",
     "confirmDelete": "Czy na pewno chcesz usunąć ten przepływ promocji?",
     "insufficientPermissionsToRunPromotions": "Niewystarczające Uprawnienia Do Przeprowadzania Promocji",
-    "requiresChangeHigherPermissions": "Wymaga uprawnień: Zmiana wyższych uprawnień"
+    "requiresChangeHigherPermissions": "Wymaga uprawnień: Zmiana wyższych uprawnień",
+    "flowLockedPromoteOnly": "Ten proces jest zablokowany tylko do awansów.",
+    "flowLockedDemoteOnly": "Ten proces jest zablokowany tylko do degradacji.",
+    "flowLockedBothModes": "Ten proces może działać zarówno dla awansów, jak i degradacji.",
+    "promotionOnly": "Tylko Awanse",
+    "demotionOnly": "Tylko Degradacje",
+    "promotionAndDemotion": "Awanse i Degradacje"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj",
