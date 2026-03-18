@@ -3761,6 +3761,8 @@
     "webhookChannel": "Webhook Channel",
     "formsexecutediscordwebhookcontent": "Embed Content",
     "formsexecutediscordwebhookcontenthint": "Message sent with the Discord Embed",
+    "includeStageChangeButton": "Include Stage Change Button",
+    "includeStageChangeButtonTooltip": "Adds the Discord stage change button so staff can change the form stage and provide an optional reason directly from the webhook.",
     "submitter": "Submitter",
     "notSetupFollowStepsBelow": "Not setup, follow steps below",
     "notWithinGuildInviteSonoranbot": "Not within guild, invite SonoranBot",
