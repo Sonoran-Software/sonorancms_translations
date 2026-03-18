@@ -5129,5 +5129,263 @@
     "column": "Column",
     "newValue": "New Value",
     "changedOn": "Changed On"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Official docs + AI navigation",
+    "title": "CMS Help",
+    "accessibility": {
+      "closePanel": "Close CMS help",
+      "panelLabel": "Sonoran CMS help assistant",
+      "iframeTitle": "Sonoran CMS help",
+      "openPanel": "Open CMS help"
+    },
+    "toolbar": {
+      "askAi": "Ask AI",
+      "docs": "Docs",
+      "support": "Support"
+    },
+    "insecureEmbed": {
+      "title": "GitBook Blocks Non-HTTPS Embeds",
+      "copy": "The GitBook embed only allows HTTPS parent pages, so it will not render inside this app while it is running over HTTP. Open the docs in a new tab here, or test the embedded assistant from an HTTPS environment.",
+      "openDocs": "Open Docs"
+    },
+    "loading": {
+      "title": "Loading CMS Help",
+      "copy": "Connecting the GitBook assistant to the CMS docs."
+    },
+    "launcher": {
+      "open": "Need help?",
+      "close": "Close help"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Community menu",
+        "subtitle": "Ask about creating, joining, or organizing your communities.",
+        "suggestions": {
+          "createCommunity": "How do I create a new community?",
+          "joinWithId": "How do I join a community with an ID?",
+          "setupDocs": "Where can I find CMS setup docs?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Community discovery",
+        "subtitle": "Ask about discovery pages, discovery settings, or featured communities.",
+        "suggestions": {
+          "howItWorks": "How does community discovery work?",
+          "featureCommunity": "How do I feature my community here?",
+          "discoveryDocs": "Where are the docs for discovery settings?"
+        }
+      },
+      "drive": {
+        "label": "Drive & documents",
+        "subtitle": "Search document, sharing, and drive-management help.",
+        "suggestions": {
+          "sharingPermissions": "How do sharing permissions work in the drive?",
+          "organizeFiles": "How do I organize files and folders?",
+          "openDrive": "Open the drive home for me."
+        }
+      },
+      "calendar": {
+        "label": "Calendar",
+        "subtitle": "Ask about event creation, RSVPs, categories, and scheduling.",
+        "suggestions": {
+          "createEvent": "How do I create a calendar event?",
+          "rsvpsAndReminders": "How do RSVPs and reminders work?",
+          "openCalendar": "Open the calendar for me."
+        }
+      },
+      "forms": {
+        "label": "Forms",
+        "subtitle": "Ask about submissions, application flows, and form setup.",
+        "suggestions": {
+          "howTheyWork": "How do forms and applications work?",
+          "manageSubmissions": "How do I manage submissions?",
+          "openManagement": "Open the form management view for me."
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord integration",
+        "subtitle": "Ask about role sync, bot setup, and Discord integration details.",
+        "suggestions": {
+          "configure": "How do I configure the Discord integration?",
+          "roleSyncPermissions": "What permissions are required for role sync?",
+          "openPage": "Open the Discord integration page for me."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak integration",
+        "subtitle": "Ask about TeamSpeak role sync, verification, and account linking.",
+        "suggestions": {
+          "setupRoleSync": "How do I set up TeamSpeak role sync?",
+          "verification": "How does TeamSpeak verification work?",
+          "openPage": "Open the TeamSpeak integration page for me."
+        }
+      },
+      "apiIntegration": {
+        "label": "API integration",
+        "subtitle": "Ask about the developer API, setup steps, or credentials.",
+        "suggestions": {
+          "gettingStarted": "How do I get started with the CMS API?",
+          "docs": "Where do I find API integration docs?",
+          "openPage": "Open the API integration page for me."
+        }
+      },
+      "customDomain": {
+        "label": "Custom domain",
+        "subtitle": "Ask about vanity URLs, DNS setup, and custom domain requirements.",
+        "suggestions": {
+          "connect": "How do I connect a custom domain?",
+          "dnsRecords": "What DNS records do I need?",
+          "openPanel": "Open the custom domain panel for me."
+        }
+      },
+      "rosters": {
+        "label": "Rosters",
+        "labelWithName": "Roster: {name}",
+        "subtitle": "Ask about roster templates, fields, automation, and visibility.",
+        "suggestions": {
+          "build": "How do I build a custom roster?",
+          "permissions": "How do roster permissions work?",
+          "openManagement": "Open roster management for me."
+        }
+      },
+      "profileFields": {
+        "label": "Profile fields",
+        "subtitle": "Ask about profile field setup, display options, and validation.",
+        "suggestions": {
+          "howTheyWork": "How do profile fields work?",
+          "addField": "How do I add a new profile field?",
+          "openPage": "Open profile fields for me."
+        }
+      },
+      "urlShortener": {
+        "label": "URL shortener",
+        "subtitle": "Ask about short links, redirects, and vanity link management.",
+        "suggestions": {
+          "howItWorks": "How do short URLs work in the CMS?",
+          "vanityRedirect": "How do I create a vanity redirect?",
+          "openPage": "Open the URL shortener for me."
+        }
+      },
+      "securityCenter": {
+        "label": "Security center",
+        "subtitle": "Ask about security preferences, flags, and CMS security tooling.",
+        "suggestions": {
+          "availableTools": "What security tools are available here?",
+          "reviewFlags": "How do I review flagged accounts?",
+          "openPanel": "Open the security panel for me."
+        }
+      },
+      "growthCenter": {
+        "label": "Growth center",
+        "subtitle": "Ask about growth features, limits, and community expansion tools.",
+        "suggestions": {
+          "whatItDoes": "What does the growth center do?",
+          "featureLimits": "How do I check my feature limits?",
+          "openPanel": "Open the growth panel for me."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC game panel",
+        "subtitle": "Ask about player sync, moderation, activity, and ER:LC panel setup.",
+        "suggestions": {
+          "setup": "How do I set up the ER:LC game panel?",
+          "capabilities": "What can the ER:LC panel do?",
+          "openPanel": "Open the game panel for me."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM game panel",
+        "subtitle": "Ask about QBCore, Qbox, characters, jobs, items, and sync.",
+        "suggestions": {
+          "setup": "How do I set up the FiveM game panel?",
+          "differences": "How do the QBCore and Qbox features differ?",
+          "openPanel": "Open the game panel for me."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu game panel",
+        "subtitle": "Ask about player lists, resources, ACEs, and the vMenu panel.",
+        "suggestions": {
+          "howToUse": "How do I use the vMenu game panel?",
+          "serverData": "What server data does the vMenu panel expose?",
+          "openPanel": "Open the game panel for me."
+        }
+      },
+      "administrativePanel": {
+        "label": "Administrative panel",
+        "subtitle": "Ask about settings, integrations, permissions, and admin workflows.",
+        "suggestions": {
+          "howToUse": "How do I use the administrative panel?",
+          "docsForPage": "Where are the docs for this admin page?",
+          "openIntegrations": "Open the integrations portal for me."
+        }
+      },
+      "communityProfile": {
+        "label": "Community profile",
+        "subtitle": "Ask about profile editing, identifiers, ranks, and account details.",
+        "suggestions": {
+          "updateProfile": "How do I update my profile?",
+          "identifiersAndRanks": "How do identifiers and ranks work?",
+          "openProfile": "Open my profile page for me."
+        }
+      },
+      "default": {
+        "label": "Current page",
+        "subtitle": "Ask about this CMS page, search the docs, or open another panel.",
+        "suggestions": {
+          "useThisPage": "How do I use this page?",
+          "featureDocs": "Where are the docs for this feature?",
+          "openPanel": "Open the right CMS panel for me."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Community menu",
+      "communityDiscovery": "Community discovery",
+      "systemAccount": "System account",
+      "dashboard": "Dashboard",
+      "formsCenter": "Forms center",
+      "formManagement": "Form management",
+      "calendar": "Calendar",
+      "drive": "Drive",
+      "myCommunityProfile": "My community profile",
+      "adminAccounts": "Admin accounts",
+      "customization": "Customization",
+      "formBuilder": "Form builder",
+      "ranksAndDepartments": "Ranks and departments",
+      "rosters": "Rosters",
+      "communityPages": "Community pages",
+      "integrations": "Integrations",
+      "discordIntegration": "Discord integration",
+      "teamSpeakIntegration": "TeamSpeak integration",
+      "apiIntegration": "API integration",
+      "customDomain": "Custom domain",
+      "profileFields": "Profile fields",
+      "urlShortener": "URL shortener",
+      "securityCenter": "Security center",
+      "growthCenter": "Growth center",
+      "erlcGamePanel": "ER:LC game panel",
+      "qboxGamePanel": "Qbox game panel",
+      "vmenuGamePanel": "vMenu game panel",
+      "fiveMGamePanel": "FiveM game panel"
+    },
+    "actions": {
+      "docsHome": "Docs Home",
+      "currentDocs": "Current Docs",
+      "dashboard": "Dashboard"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Open a Sonoran CMS page for the user when they ask to navigate or open a panel.",
+        "descriptionWithDestinations": "Open a Sonoran CMS page for the user when they ask to navigate or open a panel. Available destinations: {destinations}.",
+        "confirmationLabel": "Open this CMS page",
+        "destinationDescription": "Choose an available CMS destination.",
+        "destinationDescriptionWithOptions": "Choose one of the available CMS destinations: {destinations}.",
+        "unavailableSummary": "That panel is not available here. Available options: {availableOptions}.",
+        "unavailableNoOptions": "No CMS navigation targets are available in this context.",
+        "openedSummary": "Opened {label}."
+      }
+    }
   }
 }
