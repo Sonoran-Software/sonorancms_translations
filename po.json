@@ -3061,7 +3061,9 @@
     "discordDescription": "Inserta el nombre de usuario de Discord del remitente.",
     "submissionsSelector": "Podnesci",
     "anyoneCanSubmitTypeExplaination": "Ktokolwiek może przesłać ten formularz, nie są wymagane żadne uprawnienia.",
-    "rankRestricted": "Jedynie rangi z uprawnieniami do wysłania tego formularza mogą go złożyć."
+    "rankRestricted": "Jedynie rangi z uprawnieniami do wysłania tego formularza mogą go złożyć.",
+    "automemberRobloxUsername": "Nome de Usuário Roblox Automático-Membro",
+    "dragAndDropARobloxUsernameElement": "Arraste e solte um elemento de nome de usuário Roblox de membro"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Conteúdo da Resposta",
     "replyContentDescription": "Insere o conteúdo da resposta do formulário que acionou esta ação quando configurado para Nas Respostas do Formulário.",
     "stageChangeReasonLabel": "Motivo da Mudança de Estágio (Opcional)",
-    "stageChangeReasonDescription": "Insere o motivo da mudança de estágio, se fornecido."
+    "stageChangeReasonDescription": "Insere o motivo da mudança de estágio, se fornecido.",
+    "includeStageChangeButton": "Incluir Botão de Mudança de Etapa",
+    "includeStageChangeButtonTooltip": "Adiciona o botão de mudança de etapa do Discord para que a equipe possa mudar a etapa do formulário e fornecer uma razão opcional diretamente do webhook."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "Conta de {social} não vinculada",
     "refreshLinkStatus": "Atualizar status do link",
     "failedToCheckSocialLink": "Falha ao verificar o status do link social. Por favor, tente novamente.",
-    "failedToStartSocialLink": "Falha ao iniciar o fluxo de link social. Por favor, tente novamente."
+    "failedToStartSocialLink": "Falha ao iniciar o fluxo de link social. Por favor, tente novamente.",
+    "automemberRobloxUsername": "Nome de Usuário Roblox Automático-Membro",
+    "communityMemberRobloxUsernameElement": "Elemento de nome de usuário Roblox de membro da comunidade"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "Esconder Overflow",
     "overflowAuto": "Rolar Automaticamente",
     "overflowScroll": "Sempre Rolagem"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Documentos oficiais + navegação de IA",
+    "title": "Ajuda do CMS",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

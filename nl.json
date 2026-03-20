@@ -3061,7 +3061,9 @@
     "discordDescription": "Voegt de Discord-gebruikersnaam van de inzender in.",
     "submissionsSelector": "Inzendingen",
     "anyoneCanSubmitTypeExplaination": "Iedereen kan dit formulier indienen, geen toestemming vereist.",
-    "rankRestricted": "Alleen rangen met toestemming om dit formulier in te dienen, kunnen het indienen."
+    "rankRestricted": "Alleen rangen met toestemming om dit formulier in te dienen, kunnen het indienen.",
+    "automemberRobloxUsername": "Auto-Lid Roblox Gebruikersnaam",
+    "dragAndDropARobloxUsernameElement": "Sleep en zet een lid Roblox gebruikersnaam element neer"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Er is een fout opgetreden bij het opslaan van de pagina:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Antwoordinhoud",
     "replyContentDescription": "Voegt de inhoud in van het formulierantwoord dat deze actie heeft getriggerd wanneer ingesteld op Bij formulierantwoorden.",
     "stageChangeReasonLabel": "Reden fasewijziging (optioneel)",
-    "stageChangeReasonDescription": "Voegt de reden voor fasewijziging in indien opgegeven."
+    "stageChangeReasonDescription": "Voegt de reden voor fasewijziging in indien opgegeven.",
+    "includeStageChangeButton": "Fasewijzigingsknop toevoegen",
+    "includeStageChangeButtonTooltip": "Voegt de Discord fasewijzigingsknop toe zodat personeel de formuliervolgorde kan aanpassen en direct vanuit de webhook een optionele reden kan geven."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social}-account niet gekoppeld",
     "refreshLinkStatus": "Verwijs linkstatus",
     "failedToCheckSocialLink": "Het controleren van de status van de sociale link is mislukt. Probeer het opnieuw.",
-    "failedToStartSocialLink": "Het starten van de sociale linkflow is mislukt. Probeer het opnieuw."
+    "failedToStartSocialLink": "Het starten van de sociale linkflow is mislukt. Probeer het opnieuw.",
+    "automemberRobloxUsername": "Auto-Lid Roblox Gebruikersnaam",
+    "communityMemberRobloxUsernameElement": "Communitylid Roblox gebruikersnaam element"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "Verberg Overloop",
     "overflowAuto": "Auto Scroll",
     "overflowScroll": "Altijd Scrollen"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Officiële documentatie + AI-navigatie",
+    "title": "CMS Hulp",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

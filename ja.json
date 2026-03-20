@@ -3061,7 +3061,9 @@
     "discordDescription": "提出者のDiscordユーザー名を挿入します。",
     "submissionsSelector": "提出物",
     "anyoneCanSubmitTypeExplaination": "フォームは誰でも提出できます。権限は必要ありません。",
-    "rankRestricted": "このフォームを提出する権限を与えられたランクのみが提出できます。"
+    "rankRestricted": "このフォームを提出する権限を与えられたランクのみが提出できます。",
+    "automemberRobloxUsername": "自動メンバー Roblox ユーザー名",
+    "dragAndDropARobloxUsernameElement": "メンバー Roblox ユーザー名要素をドラッグアンドドロップ"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "ページが正常に保存されました！",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "返信内容",
     "replyContentDescription": "「フォームの返信でオン」に設定されている場合、このアクションをトリガーしたフォームの返信内容を挿入します。",
     "stageChangeReasonLabel": "ステージ変更理由（任意）",
-    "stageChangeReasonDescription": "提供された場合、ステージ変更理由を挿入します。"
+    "stageChangeReasonDescription": "提供された場合、ステージ変更理由を挿入します。",
+    "includeStageChangeButton": "ステージ変更ボタンを含める",
+    "includeStageChangeButtonTooltip": "Discordステージ変更ボタンを追加して、スタッフがWebhookから直接フォームステージを変更し、オプションで理由を提供できるようにします。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} アカウントがリンクされていません",
     "refreshLinkStatus": "リンクの状態を更新",
     "failedToCheckSocialLink": "ソーシャルリンクの状態を確認できませんでした。もう一度お試しください。",
-    "failedToStartSocialLink": "ソーシャルリンクフローを開始できませんでした。もう一度お試しください。"
+    "failedToStartSocialLink": "ソーシャルリンクフローを開始できませんでした。もう一度お試しください。",
+    "automemberRobloxUsername": "自動メンバー Roblox ユーザー名",
+    "communityMemberRobloxUsernameElement": "コミュニティメンバー Roblox ユーザー名要素"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "オーバーフローを非表示",
     "overflowAuto": "自動スクロール",
     "overflowScroll": "常にスクロール"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "公式ドキュメント + AIナビゲーション",
+    "title": "CMSヘルプ"
   }
 }

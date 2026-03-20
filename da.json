@@ -3061,7 +3061,9 @@
     "discordDescription": "Indsætter indsenderens Discord-brugernavn.",
     "submissionsSelector": "Indsendelser",
     "anyoneCanSubmitTypeExplaination": "Enhver kan indsende denne formular, ingen tilladelser kræves.",
-    "rankRestricted": "Kun rangeringer, der har tilladelse til at indsende denne formular, kan indsende."
+    "rankRestricted": "Kun rangeringer, der har tilladelse til at indsende denne formular, kan indsende.",
+    "automemberRobloxUsername": "Auto-Medlem Roblox Brugernavn",
+    "dragAndDropARobloxUsernameElement": "Træk og slip et medlem Roblox brugernavn element"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Der opstod en fejl under lagring af siden:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Svar indhold",
     "replyContentDescription": "Indsætter indholdet af formularsvaret, der udløste denne handling, når det er indstillet til På formularsvar.",
     "stageChangeReasonLabel": "Årsag til trinændring (valgfrit)",
-    "stageChangeReasonDescription": "Indsætter årsagen til trinændring, hvis angivet."
+    "stageChangeReasonDescription": "Indsætter årsagen til trinændring, hvis angivet.",
+    "includeStageChangeButton": "Inkluder trinændringsknap",
+    "includeStageChangeButtonTooltip": "Tilføjer Discord trinændringsknappen, så personalet kan ændre formularens trin og give en valgfri begrundelse direkte fra webhooken."
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} konto ikke tilknyttet",
     "refreshLinkStatus": "Opdater linkstatus",
     "failedToCheckSocialLink": "Kunne ikke kontrollere social linkstatus. Prøv venligst igen.",
-    "failedToStartSocialLink": "Kunne ikke starte social link flow. Prøv venligst igen."
+    "failedToStartSocialLink": "Kunne ikke starte social link flow. Prøv venligst igen.",
+    "automemberRobloxUsername": "Auto-Medlem Roblox Brugernavn",
+    "communityMemberRobloxUsernameElement": "Fællesskabsmedlem Roblox brugernavn element"
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "Skjul Overløb",
     "overflowAuto": "Automatisk Rulning",
     "overflowScroll": "Altid Rul"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Officielle dokumenter + AI navigation",
+    "title": "CMS Hjælp",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

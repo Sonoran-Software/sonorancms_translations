@@ -3061,7 +3061,9 @@
     "discordDescription": "Setter inn innsenderens Discord-brukernavn.",
     "submissionsSelector": "Innsendinger",
     "anyoneCanSubmitTypeExplaination": "Hvem som helst kan sende inn dette skjemaet, ingen tillatelser kreves.",
-    "rankRestricted": "Bare grader som har fått tillatelse til å sende inn dette skjemaet kan sende inn."
+    "rankRestricted": "Bare grader som har fått tillatelse til å sende inn dette skjemaet kan sende inn.",
+    "automemberRobloxUsername": "Auto-Medlem Roblox Brukernavn",
+    "dragAndDropARobloxUsernameElement": "Dra og slipp et medlem Roblox brukernavnelement"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Det oppsto en feil under lagring av siden:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Svarinnhold",
     "replyContentDescription": "Setter inn innholdet i svarskjemaet som utløste denne handlingen når satt til På skjema svar.",
     "stageChangeReasonLabel": "Årsak til sceneendring (valgfritt)",
-    "stageChangeReasonDescription": "Setter inn årsaken til sceneendringen hvis den er angitt."
+    "stageChangeReasonDescription": "Setter inn årsaken til sceneendringen hvis den er angitt.",
+    "includeStageChangeButton": "Inkluder Scene Endre Knapp",
+    "includeStageChangeButtonTooltip": "Legger til Discord sceneendringsknappen slik at ansatte kan endre scenen og angi en valgfri begrunnelse direkte fra webhooken."
   },
   "FormRenderer": {
     "dragToReorder": "Dra for å omorganisere",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} konto ikke koblet",
     "refreshLinkStatus": "Oppdater koblingsstatus",
     "failedToCheckSocialLink": "Kunne ikke sjekke sosial koblingsstatus. Vennligst prøv igjen.",
-    "failedToStartSocialLink": "Kunne ikke starte sosial koblingsflyt. Vennligst prøv igjen."
+    "failedToStartSocialLink": "Kunne ikke starte sosial koblingsflyt. Vennligst prøv igjen.",
+    "automemberRobloxUsername": "Auto-Medlem Roblox Brukernavn",
+    "communityMemberRobloxUsernameElement": "Fellesskapsmedlem Roblox brukernavnelement"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "Skjul Overløp",
     "overflowAuto": "Auto Rulling",
     "overflowScroll": "Alltid Rull"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Offisielle dokumenter + AI-navigasjon",
+    "title": "CMS Hjelp",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

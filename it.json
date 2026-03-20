@@ -3061,7 +3061,9 @@
     "discordDescription": "Inserisce il nome utente Discord dell'inseritore.",
     "submissionsSelector": "Invii",
     "anyoneCanSubmitTypeExplaination": "Chiunque può inviare questo modulo, nessun permesso richiesto.",
-    "rankRestricted": "Solo i gradi con il permesso di inviare questo modulo possono inviare."
+    "rankRestricted": "Solo i gradi con il permesso di inviare questo modulo possono inviare.",
+    "automemberRobloxUsername": "Nome utente Roblox automatico",
+    "dragAndDropARobloxUsernameElement": "Trascina e rilascia un elemento del nome utente Roblox del membro"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Si è verificato un errore durante il salvataggio della pagina:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Contenuto Risposta",
     "replyContentDescription": "Inserisce il contenuto della risposta del modulo che ha attivato questa azione quando impostato su Risposte ai Moduli.",
     "stageChangeReasonLabel": "Motivo Cambio di Fase (Opzionale)",
-    "stageChangeReasonDescription": "Inserisce il motivo del cambio di fase se fornito."
+    "stageChangeReasonDescription": "Inserisce il motivo del cambio di fase se fornito.",
+    "includeStageChangeButton": "Includi pulsante di cambio fase",
+    "includeStageChangeButtonTooltip": "Aggiunge il pulsante di cambio fase di Discord in modo che lo staff possa cambiare la fase del modulo e fornire un motivo opzionale direttamente dal webhook."
   },
   "FormRenderer": {
     "dragToReorder": "Trascina per riordinare",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "Account {social} non collegato",
     "refreshLinkStatus": "Aggiorna stato del link",
     "failedToCheckSocialLink": "Impossibile verificare lo stato del link sociale. Riprova.",
-    "failedToStartSocialLink": "Impossibile avviare il flusso del link sociale. Riprova."
+    "failedToStartSocialLink": "Impossibile avviare il flusso del link sociale. Riprova.",
+    "automemberRobloxUsername": "Nome utente Roblox automatico",
+    "communityMemberRobloxUsernameElement": "Elemento del nome utente del membro della comunità Roblox"
   },
   "selectRoster": {
     "selectRoster": "Seleziona Elenco"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Nascondi Overflow",
     "overflowAuto": "Scorrimento Automatico",
     "overflowScroll": "Scorrimento Sempre"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Documenti ufficiali + navigazione AI",
+    "title": "Aiuto CMS"
   }
 }

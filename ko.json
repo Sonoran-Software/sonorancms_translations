@@ -3061,7 +3061,9 @@
     "discordDescription": "제출자의 Discord 사용자 이름을 삽입합니다.",
     "submissionsSelector": "제출물",
     "anyoneCanSubmitTypeExplaination": "누구나 이 양식을 제출할 수 있으며, 권한이 필요하지 않습니다.",
-    "rankRestricted": "이 양식을 제출할 권한이 부여된 계급만 제출할 수 있습니다."
+    "rankRestricted": "이 양식을 제출할 권한이 부여된 계급만 제출할 수 있습니다.",
+    "automemberRobloxUsername": "자동 회원 Roblox 사용자 이름",
+    "dragAndDropARobloxUsernameElement": "회원 Roblox 사용자 이름 요소를 끌어서 놓기"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "페이지를 저장하는 데 문제가 발생했습니다",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "응답 내용",
     "replyContentDescription": "이 동작이 '상세 응답'으로 설정된 경우 양식 응답의 내용을 삽입합니다.",
     "stageChangeReasonLabel": "단계 변경 사유 (선택사항)",
-    "stageChangeReasonDescription": "단계 변경 사유가 제공된 경우 삽입됩니다."
+    "stageChangeReasonDescription": "단계 변경 사유가 제공된 경우 삽입됩니다.",
+    "includeStageChangeButton": "단계 변경 버튼 포함",
+    "includeStageChangeButtonTooltip": "스태프가 양식 단계를 변경하고 웹훅에서 직접 선택적 이유를 제공할 수 있도록 Discord 단계 변경 버튼을 추가합니다."
   },
   "FormRenderer": {
     "dragToReorder": "섹션 제거",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} 계정이 연결되지 않았습니다",
     "refreshLinkStatus": "링크 상태 새로 고침",
     "failedToCheckSocialLink": "소셜 링크 상태 확인에 실패했습니다. 다시 시도해 주세요.",
-    "failedToStartSocialLink": "소셜 링크 흐름 시작에 실패했습니다. 다시 시도해 주세요."
+    "failedToStartSocialLink": "소셜 링크 흐름 시작에 실패했습니다. 다시 시도해 주세요.",
+    "automemberRobloxUsername": "자동 회원 Roblox 사용자 이름",
+    "communityMemberRobloxUsernameElement": "커뮤니티 회원 Roblox 사용자 이름 요소"
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -5105,5 +5111,9 @@
     "overflowHidden": "오버플로우 숨기기",
     "overflowAuto": "자동 스크롤",
     "overflowScroll": "항상 스크롤"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "공식 문서 + AI 탐색",
+    "title": "CMS 도움말"
   }
 }

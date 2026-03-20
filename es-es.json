@@ -3061,7 +3061,9 @@
     "discordDescription": "Inserta el nombre de usuario de Discord del remitente.",
     "submissionsSelector": "Envíos",
     "anyoneCanSubmitTypeExplaination": "Cualquiera puede enviar este formulario, no se requieren permisos.",
-    "rankRestricted": "Solo los rangos con permiso para enviar este formulario pueden enviarlo."
+    "rankRestricted": "Solo los rangos con permiso para enviar este formulario pueden enviarlo.",
+    "automemberRobloxUsername": "Nombre de usuario de Roblox de miembro automático",
+    "dragAndDropARobloxUsernameElement": "Arrastra y suelta un elemento de nombre de usuario de Roblox de miembro"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocurrió un error al guardar la página:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Contenido de la respuesta",
     "replyContentDescription": "Inserta el contenido de la respuesta del formulario que activó esta acción cuando está configurado en Respuestas de formularios.",
     "stageChangeReasonLabel": "Razón del cambio de etapa (Opcional)",
-    "stageChangeReasonDescription": "Inserta la razón del cambio de etapa si se proporciona."
+    "stageChangeReasonDescription": "Inserta la razón del cambio de etapa si se proporciona.",
+    "includeStageChangeButton": "Incluir botón de cambio de etapa",
+    "includeStageChangeButtonTooltip": "Agrega el botón de cambio de etapa de Discord para que el personal pueda cambiar la etapa del formulario y proporcionar una razón opcional directamente desde el webhook."
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "Cuenta de {social} no vinculada",
     "refreshLinkStatus": "Actualizar estado del enlace",
     "failedToCheckSocialLink": "No se pudo verificar el estado del enlace social. Por favor, inténtelo de nuevo.",
-    "failedToStartSocialLink": "No se pudo iniciar el flujo de enlace social. Por favor, inténtelo de nuevo."
+    "failedToStartSocialLink": "No se pudo iniciar el flujo de enlace social. Por favor, inténtelo de nuevo.",
+    "automemberRobloxUsername": "Nombre de usuario de Roblox de miembro automático",
+    "communityMemberRobloxUsernameElement": "Elemento de nombre de usuario de miembro de la comunidad de Roblox"
   },
   "selectRoster": {
     "selectRoster": "Seleccionar Lista"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Ocultar Desbordamiento",
     "overflowAuto": "Desplazamiento Automático",
     "overflowScroll": "Siempre Desplazar"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Documentos oficiales + navegación AI",
+    "title": "Ayuda de CMS"
   }
 }

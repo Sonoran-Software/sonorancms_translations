@@ -3061,7 +3061,9 @@
     "discordDescription": "Wstawia nazwę użytkownika Discord zgłaszającego.",
     "submissionsSelector": "Zgłoszenia",
     "anyoneCanSubmitTypeExplaination": "Każdy może przesłać ten formularz, nie są wymagane żadne uprawnienia.",
-    "rankRestricted": "Tylko stopnie posiadające uprawnienia do przesyłania tego formularza mogą go przesłać."
+    "rankRestricted": "Tylko stopnie posiadające uprawnienia do przesyłania tego formularza mogą go przesłać.",
+    "automemberRobloxUsername": "Automatyczna nazwa użytkownika Roblox",
+    "dragAndDropARobloxUsernameElement": "Przeciągnij i upuść element nazwy użytkownika Roblox członka"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Treść odpowiedzi",
     "replyContentDescription": "Wstawia treść odpowiedzi formularza, która wywołała tę akcję, gdy ustawione na Odpowiedzi formularzy.",
     "stageChangeReasonLabel": "Powód zmiany etapu (Opcjonalnie)",
-    "stageChangeReasonDescription": "Wstawia powód zmiany etapu, jeśli podany."
+    "stageChangeReasonDescription": "Wstawia powód zmiany etapu, jeśli podany.",
+    "includeStageChangeButton": "Uwzględnij przycisk zmiany etapu",
+    "includeStageChangeButtonTooltip": "Dodaje przycisk zmiany etapu Discorda, aby personel mógł zmienić etap formularza i podać opcjonalny powód bezpośrednio z webhooka."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "konto {social} niepołączone",
     "refreshLinkStatus": "Odśwież status linku",
     "failedToCheckSocialLink": "Nie udało się sprawdzić statusu linku społecznościowego. Spróbuj ponownie.",
-    "failedToStartSocialLink": "Nie udało się rozpocząć procesu linkowania społecznościowego. Spróbuj ponownie."
+    "failedToStartSocialLink": "Nie udało się rozpocząć procesu linkowania społecznościowego. Spróbuj ponownie.",
+    "automemberRobloxUsername": "Automatyczna nazwa użytkownika Roblox",
+    "communityMemberRobloxUsernameElement": "Element nazwy użytkownika członka społeczności Roblox"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Ukryj przepełnienie",
     "overflowAuto": "Automatyczne przewijanie",
     "overflowScroll": "Zawsze przewijaj"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Oficjalna dokumentacja + nawigacja AI",
+    "title": "Pomoc CMS"
   }
 }

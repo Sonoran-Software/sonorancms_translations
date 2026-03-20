@@ -3061,7 +3061,9 @@
     "discordDescription": "Vloží discordové uživatelské jméno odesílatele.",
     "submissionsSelector": "Podání",
     "anyoneCanSubmitTypeExplaination": "Kdokoli může tento formulář odeslat, nejsou potřebná žádná oprávnění.",
-    "rankRestricted": "Pouze hodnosti s oprávněním k odeslání tohoto formuláře mohou odesílat."
+    "rankRestricted": "Pouze hodnosti s oprávněním k odeslání tohoto formuláře mohou odesílat.",
+    "automemberRobloxUsername": "Automatický člen Roblox Uživatelské jméno",
+    "dragAndDropARobloxUsernameElement": "Přetáhněte prvek uživatelského jména člena Roblox"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Došlo k chybě při ukládání stránky:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Obsah odpovědi",
     "replyContentDescription": "Vloží obsah odpovědi z formuláře, která spustila tuto akci, pokud je nastaveno na Odpovědi formulářů.",
     "stageChangeReasonLabel": "Důvod změny etapy (volitelné)",
-    "stageChangeReasonDescription": "Vloží důvod změny etapy, pokud je uveden."
+    "stageChangeReasonDescription": "Vloží důvod změny etapy, pokud je uveden.",
+    "includeStageChangeButton": "Zahrnout tlačítko pro změnu fáze",
+    "includeStageChangeButtonTooltip": "Přidá tlačítko pro změnu fáze Discordu, takže personál může změnit fázi formuláře a poskytnout volitelný důvod přímo z webhooku."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} účet nepropojen",
     "refreshLinkStatus": "Obnovit stav odkazu",
     "failedToCheckSocialLink": "Nepodařilo se zkontrolovat stav sociálního odkazu. Zkuste to prosím znovu.",
-    "failedToStartSocialLink": "Nepodařilo se spustit proces propojení sociálního odkazu. Zkuste to prosím znovu."
+    "failedToStartSocialLink": "Nepodařilo se spustit proces propojení sociálního odkazu. Zkuste to prosím znovu.",
+    "automemberRobloxUsername": "Automatický člen Roblox Uživatelské jméno",
+    "communityMemberRobloxUsernameElement": "Prvek uživatelského jména člena komunity Roblox"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Skrýt přetečení",
     "overflowAuto": "Automatické posouvání",
     "overflowScroll": "Vždy posouvat"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Oficiální dokumentace + AI navigace",
+    "title": "Nápověda CMS"
   }
 }

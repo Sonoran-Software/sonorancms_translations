@@ -3061,7 +3061,9 @@
     "discordDescription": "Sätter in inlämnarens Discord-användarnamn.",
     "submissionsSelector": "Inlämningar",
     "anyoneCanSubmitTypeExplaination": "Vem som helst kan skicka in detta formulär, inga behörigheter krävs.",
-    "rankRestricted": "Endast rang som har fått behörighet att skicka in detta formulär kan skicka in."
+    "rankRestricted": "Endast rang som har fått behörighet att skicka in detta formulär kan skicka in.",
+    "automemberRobloxUsername": "Automatisk Medlem Roblox Användarnamn",
+    "dragAndDropARobloxUsernameElement": "Dra och släpp ett Roblox-användarnamnelement"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fel uppstod vid sparande av sida:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Svarsinnehåll",
     "replyContentDescription": "Infogar innehållet i formulärsvaret som utlöste denna åtgärd när den är inställd på På formulärsvar.",
     "stageChangeReasonLabel": "Orsak till stegändring (valfritt)",
-    "stageChangeReasonDescription": "Infogar orsaken till stegändring om angivet."
+    "stageChangeReasonDescription": "Infogar orsaken till stegändring om angivet.",
+    "includeStageChangeButton": "Inkludera Stegändringsknapp",
+    "includeStageChangeButtonTooltip": "Lägger till Discord-stegändringsknappen så att personal kan ändra formulärets steg och ge en valfri anledning direkt från webhooken."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} konto inte länkat",
     "refreshLinkStatus": "Uppdatera länkningsstatus",
     "failedToCheckSocialLink": "Kunde inte kontrollera social länkstatus. Vänligen försök igen.",
-    "failedToStartSocialLink": "Kunde inte starta socialt länkflöde. Vänligen försök igen."
+    "failedToStartSocialLink": "Kunde inte starta socialt länkflöde. Vänligen försök igen.",
+    "automemberRobloxUsername": "Automatisk Medlem Roblox Användarnamn",
+    "communityMemberRobloxUsernameElement": "Gemenskapsmedlem Roblox Användarnaminlement"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Dölj överflöde",
     "overflowAuto": "Autoscroll",
     "overflowScroll": "Alltid scroll"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Officiell dokumentation + AI-navigering",
+    "title": "CMS Hjälp"
   }
 }

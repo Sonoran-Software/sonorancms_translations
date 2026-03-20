@@ -3061,7 +3061,9 @@
     "discordDescription": "插入提交者的Discord用户名。",
     "submissionsSelector": "提交",
     "anyoneCanSubmitTypeExplaination": "任何人都可以提交此表单，无需权限。",
-    "rankRestricted": "只有被授予权限的级别才能提交此表单。"
+    "rankRestricted": "只有被授予权限的级别才能提交此表单。",
+    "automemberRobloxUsername": "自动成员 Roblox 用户名",
+    "dragAndDropARobloxUsernameElement": "拖放一个成员 Roblox 用户名元素"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "保存页面时发生错误：",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "回复内容",
     "replyContentDescription": "插入触发此操作的表单回复内容，当设置为“表单回复”时。",
     "stageChangeReasonLabel": "阶段变更原因（可选）",
-    "stageChangeReasonDescription": "插入提供的阶段变更原因。"
+    "stageChangeReasonDescription": "插入提供的阶段变更原因。",
+    "includeStageChangeButton": "包含阶段更改按钮",
+    "includeStageChangeButtonTooltip": "添加 Discord 阶段更改按钮，以便员工可以直接从 webhook 更改表单阶段并提供可选的原因。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social}账户未关联",
     "refreshLinkStatus": "刷新链接状态",
     "failedToCheckSocialLink": "检查社交链接状态失败。请再试一次。",
-    "failedToStartSocialLink": "启动社交链接流程失败。请再试一次。"
+    "failedToStartSocialLink": "启动社交链接流程失败。请再试一次。",
+    "automemberRobloxUsername": "自动成员 Roblox 用户名",
+    "communityMemberRobloxUsernameElement": "社区成员 Roblox 用户名元素"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "隐藏溢出",
     "overflowAuto": "自动滚动",
     "overflowScroll": "始终滚动"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "官方文档 + AI 导航",
+    "title": "CMS 帮助",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

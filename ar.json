@@ -3061,7 +3061,9 @@
     "discordDescription": "يدرج اسم مستخدم Discord للمقدم.",
     "submissionsSelector": "التقديمات",
     "anyoneCanSubmitTypeExplaination": "أي شخص يمكنه إرسال هذا النموذج، لا يتطلب أذونات.",
-    "rankRestricted": "فقط الرتب التي حصلت على إذن بتقديم هذا النموذج يمكنها التقديم."
+    "rankRestricted": "فقط الرتب التي حصلت على إذن بتقديم هذا النموذج يمكنها التقديم.",
+    "automemberRobloxUsername": "اسم مستخدم Roblox للعضو الآلي",
+    "dragAndDropARobloxUsernameElement": "سحب وإفلات عنصر اسم مستخدم Roblox للعضو"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "حدث خطأ أثناء حفظ الصفحة:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "محتوى الرد",
     "replyContentDescription": "يقوم بإدراج محتوى استجابة النموذج الذي أدّى إلى تفعيل هذا الإجراء عندما يتم تعيينه على استجابات النموذج.",
     "stageChangeReasonLabel": "سبب تغيير المرحلة (اختياري)",
-    "stageChangeReasonDescription": "يقوم بإدراج سبب تغيير المرحلة إذا تم توفيره."
+    "stageChangeReasonDescription": "يقوم بإدراج سبب تغيير المرحلة إذا تم توفيره.",
+    "includeStageChangeButton": "تضمين زر تغيير المرحلة",
+    "includeStageChangeButtonTooltip": "يضيف زر تغيير المرحلة في Discord حتى يتمكن العاملون من تغيير مرحلة النموذج وتوفير سبب اختياري مباشرة من خلال الويب هوك."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "لم يتم ربط حساب {social}",
     "refreshLinkStatus": "تحديث حالة الارتباط",
     "failedToCheckSocialLink": "فشل في التحقق من حالة الرابط الاجتماعي. يرجى المحاولة مرة أخرى.",
-    "failedToStartSocialLink": "فشل في بدء تدفق الرابط الاجتماعي. يرجى المحاولة مرة أخرى."
+    "failedToStartSocialLink": "فشل في بدء تدفق الرابط الاجتماعي. يرجى المحاولة مرة أخرى.",
+    "automemberRobloxUsername": "اسم مستخدم Roblox للعضو الآلي",
+    "communityMemberRobloxUsernameElement": "عنصر اسم مستخدم Roblox لعضو المجتمع"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "إخفاء التدفق الزائد",
     "overflowAuto": "تمرير تلقائي",
     "overflowScroll": "تمرير دائم"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "الوثائق الرسمية + التوجيه بالذكاء الاصطناعي",
+    "title": "مساعدة CMS",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

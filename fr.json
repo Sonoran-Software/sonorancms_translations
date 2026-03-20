@@ -3061,7 +3061,9 @@
     "discordDescription": "Insère le nom d'utilisateur Discord de l'expéditeur.",
     "submissionsSelector": "Soumissions",
     "anyoneCanSubmitTypeExplaination": "N'importe qui peut soumettre ce formulaire, aucune autorisation requise.",
-    "rankRestricted": "Seuls les grades ayant la permission de soumettre ce formulaire peuvent le soumettre."
+    "rankRestricted": "Seuls les grades ayant la permission de soumettre ce formulaire peuvent le soumettre.",
+    "automemberRobloxUsername": "Nom d'utilisateur Roblox membre automatique",
+    "dragAndDropARobloxUsernameElement": "Glissez-déposez un élément de nom d'utilisateur Roblox membre"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Une erreur est survenue lors de l'enregistrement de la page :",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Contenu de la réponse",
     "replyContentDescription": "Insère le contenu de la réponse du formulaire qui a déclenché cette action lorsqu'il est défini sur Sur les réponses du formulaire.",
     "stageChangeReasonLabel": "Motif du changement de scène (Optionnel)",
-    "stageChangeReasonDescription": "Insère le motif du changement de scène si fourni."
+    "stageChangeReasonDescription": "Insère le motif du changement de scène si fourni.",
+    "includeStageChangeButton": "Inclure le bouton de changement d'étape",
+    "includeStageChangeButtonTooltip": "Ajoute le bouton de changement d'étape Discord afin que le personnel puisse changer l'étape du formulaire et fournir une raison facultative directement depuis le webhook."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} compte non lié",
     "refreshLinkStatus": "Rafraîchir le statut du lien",
     "failedToCheckSocialLink": "Échec de la vérification du statut du lien social. Veuillez réessayer.",
-    "failedToStartSocialLink": "Échec du démarrage du flux de lien social. Veuillez réessayer."
+    "failedToStartSocialLink": "Échec du démarrage du flux de lien social. Veuillez réessayer.",
+    "automemberRobloxUsername": "Nom d'utilisateur Roblox membre automatique",
+    "communityMemberRobloxUsernameElement": "Élément de nom d'utilisateur Roblox membre de la communauté"
   },
   "selectRoster": {
     "selectRoster": "Sélectionner la Liste"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Masquer le débordement",
     "overflowAuto": "Défilement automatique",
     "overflowScroll": "Défilement toujours"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Docs officiels + Navigation AI",
+    "title": "Aide CMS"
   }
 }

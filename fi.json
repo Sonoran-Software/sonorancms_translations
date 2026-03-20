@@ -3061,7 +3061,9 @@
     "discordDescription": "Lisää lähettäjän Discord-käyttäjänimen.",
     "submissionsSelector": "Lähetykset",
     "anyoneCanSubmitTypeExplaination": "Kuka tahansa voi lähettää tämän lomakkeen, ei vaadita oikeuksia.",
-    "rankRestricted": "Vain luvat saaneet arvot voivat lähettää tämän lomakkeen."
+    "rankRestricted": "Vain luvat saaneet arvot voivat lähettää tämän lomakkeen.",
+    "automemberRobloxUsername": "Automaattijäsen Roblox-käyttäjänimi",
+    "dragAndDropARobloxUsernameElement": "Vedä ja pudota jäsenen Roblox-käyttäjänimielementti"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sivun tallentamisessa tapahtui virhe:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Vastaussisältö",
     "replyContentDescription": "Lisää lomakevastauksen sisältö, joka käynnisti tämän toiminnon, kun se on päällä Lomakevastaukset.",
     "stageChangeReasonLabel": "Vaiheenvaihdon syy (valinnainen)",
-    "stageChangeReasonDescription": "Lisää vaiheenvaihdon syy, jos annettu."
+    "stageChangeReasonDescription": "Lisää vaiheenvaihdon syy, jos annettu.",
+    "includeStageChangeButton": "Sisällytä vaihteen vaihtopainike",
+    "includeStageChangeButtonTooltip": "Lisää Discordin vaihteen vaihtopainike, jotta henkilökunta voi vaihtaa lomakkeen vaihetta ja antaa valinnaisen syyn suoraan webhookista."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} tiliä ei ole yhdistetty",
     "refreshLinkStatus": "Päivitä linkin tila",
     "failedToCheckSocialLink": "Sosiaalisen linkin tilaa ei voitu tarkistaa. Yritä uudelleen.",
-    "failedToStartSocialLink": "Sosiaalisen linkin virtaus ei käynnistynyt. Yritä uudelleen."
+    "failedToStartSocialLink": "Sosiaalisen linkin virtaus ei käynnistynyt. Yritä uudelleen.",
+    "automemberRobloxUsername": "Automaattijäsen Roblox-käyttäjänimi",
+    "communityMemberRobloxUsernameElement": "Yhteisön jäsenen Roblox-käyttäjänimielementti"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Piilota ylivuoto",
     "overflowAuto": "Automaattinen vieritys",
     "overflowScroll": "Aina vieritys"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Viralliset ohjeet + tekoälynavigointi",
+    "title": "CMS-ohje"
   }
 }

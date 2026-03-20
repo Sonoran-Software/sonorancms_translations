@@ -3061,7 +3061,9 @@
     "discordDescription": "Fügt den Discord-Benutzernamen des Einreichers ein.",
     "submissionsSelector": "Einsendungen",
     "anyoneCanSubmitTypeExplaination": "Jeder kann dieses Formular einreichen, es sind keine Berechtigungen erforderlich.",
-    "rankRestricted": "Nur Ränge mit der Berechtigung, dieses Formular einzureichen, können es einreichen."
+    "rankRestricted": "Nur Ränge mit der Berechtigung, dieses Formular einzureichen, können es einreichen.",
+    "automemberRobloxUsername": "Auto-Mitglied Roblox-Benutzername",
+    "dragAndDropARobloxUsernameElement": "Ziehen und ablegen eines Mitglieds-Roblox-Benutzernamens-Elements"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fehler beim Speichern der Seite aufgetreten:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Antwortinhalt",
     "replyContentDescription": "Fügt den Inhalt der Formularantwort ein, die diese Aktion ausgelöst hat, wenn auf Formularantworten eingestellt.",
     "stageChangeReasonLabel": "Grund für Bühnenwechsel (Optional)",
-    "stageChangeReasonDescription": "Fügt den Grund für den Bühnenwechsel ein, wenn angegeben."
+    "stageChangeReasonDescription": "Fügt den Grund für den Bühnenwechsel ein, wenn angegeben.",
+    "includeStageChangeButton": "Bühnenwechselknopf einfügen",
+    "includeStageChangeButtonTooltip": "Fügt den Discord-Bühnenwechselknopf hinzu, sodass das Personal die Formbühne ändern und direkt vom Webhook aus einen optionalen Grund angeben kann."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social}-Konto nicht verknüpft",
     "refreshLinkStatus": "Linkstatus aktualisieren",
     "failedToCheckSocialLink": "Fehler beim Überprüfen des sozialen Linkstatus. Bitte versuche es erneut.",
-    "failedToStartSocialLink": "Fehler beim Starten des sozialen Linkablaufs. Bitte versuche es erneut."
+    "failedToStartSocialLink": "Fehler beim Starten des sozialen Linkablaufs. Bitte versuche es erneut.",
+    "automemberRobloxUsername": "Auto-Mitglied Roblox-Benutzername",
+    "communityMemberRobloxUsernameElement": "Community-Mitglied Roblox-Benutzernamen-Element"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Überlauf ausblenden",
     "overflowAuto": "Automatisches Scrollen",
     "overflowScroll": "Immer scrollen"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Offizielle Dokumentation + KI-Navigation",
+    "title": "CMS-Hilfe"
   }
 }

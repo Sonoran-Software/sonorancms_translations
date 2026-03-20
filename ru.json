@@ -3061,7 +3061,9 @@
     "discordDescription": "Вставляет имя пользователя отправителя в Discord.",
     "submissionsSelector": "Предоставления",
     "anyoneCanSubmitTypeExplaination": "Эту форму может отправить любой, разрешения не требуются.",
-    "rankRestricted": "Только ранги, которым разрешено отправлять эту форму, могут отправлять."
+    "rankRestricted": "Только ранги, которым разрешено отправлять эту форму, могут отправлять.",
+    "automemberRobloxUsername": "Авто-участник имя пользователя Roblox",
+    "dragAndDropARobloxUsernameElement": "Перетащите элемент с именем пользователя участника Roblox"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Страница успешно сохранена!",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Содержание ответа",
     "replyContentDescription": "Вставляет содержание ответа формы, который вызвал это действие, когда установлено на Ответы форм.",
     "stageChangeReasonLabel": "Причина смены этапа (необязательно)",
-    "stageChangeReasonDescription": "Вставляет причину смены этапа, если указана."
+    "stageChangeReasonDescription": "Вставляет причину смены этапа, если указана.",
+    "includeStageChangeButton": "Включить кнопку изменения стадии",
+    "includeStageChangeButtonTooltip": "Добавляет кнопку изменения стадии Discord, чтобы персонал мог изменить стадию формы и предоставить необязательную причину непосредственно из вебхука."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} аккаунт не привязан",
     "refreshLinkStatus": "Обновить статус ссылки",
     "failedToCheckSocialLink": "Не удалось проверить статус социальной ссылки. Пожалуйста, попробуйте ещё раз.",
-    "failedToStartSocialLink": "Не удалось начать процесс связки социальной ссылки. Пожалуйста, попробуйте ещё раз."
+    "failedToStartSocialLink": "Не удалось начать процесс связки социальной ссылки. Пожалуйста, попробуйте ещё раз.",
+    "automemberRobloxUsername": "Авто-участник имя пользователя Roblox",
+    "communityMemberRobloxUsernameElement": "Элемент с именем пользователя участника сообщества Roblox"
   },
   "selectRoster": {
     "selectRoster": "Выбрать страницу сообщества"
@@ -5105,5 +5111,18 @@
     "overflowHidden": "Скрыть переполнение",
     "overflowAuto": "Автопрокрутка",
     "overflowScroll": "Всегда прокручивать"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Официальная документация + AI навигация",
+    "title": "Помощь CMS",
+    "accessibility": "[object Object]",
+    "toolbar": "[object Object]",
+    "insecureEmbed": "[object Object]",
+    "loading": "[object Object]",
+    "launcher": "[object Object]",
+    "contexts": "[object Object]",
+    "navigationTargets": "[object Object]",
+    "actions": "[object Object]",
+    "tools": "[object Object]"
   }
 }

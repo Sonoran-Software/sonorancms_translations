@@ -3061,7 +3061,9 @@
     "discordDescription": "Insere o nome de usuário do Discord do remetente.",
     "submissionsSelector": "Submissões",
     "anyoneCanSubmitTypeExplaination": "Qualquer pessoa pode enviar este formulário, nenhuma permissão é necessária.",
-    "rankRestricted": "Apenas as patentes com permissão para enviar este formulário podem enviá-lo."
+    "rankRestricted": "Apenas as patentes com permissão para enviar este formulário podem enviá-lo.",
+    "automemberRobloxUsername": "Nome de Usuário Roblox Automático-Membro",
+    "dragAndDropARobloxUsernameElement": "Arraste e solte um elemento de nome de usuário Roblox de membro"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Ocorreu um erro ao salvar a página:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Conteúdo da Resposta",
     "replyContentDescription": "Insere o conteúdo da resposta do formulário que desencadeou esta ação quando definido para Em Respostas de Formulário.",
     "stageChangeReasonLabel": "Motivo da Mudança de Etapa (Opcional)",
-    "stageChangeReasonDescription": "Insere o motivo da mudança de etapa, se fornecido."
+    "stageChangeReasonDescription": "Insere o motivo da mudança de etapa, se fornecido.",
+    "includeStageChangeButton": "Incluir Botão de Mudança de Etapa",
+    "includeStageChangeButtonTooltip": "Adiciona o botão de mudança de etapa do Discord para que a equipe possa mudar a etapa do formulário e fornecer uma razão opcional diretamente do webhook."
   },
   "FormRenderer": {
     "dragToReorder": "Arraste para reordenar",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "Conta {social} não vinculada",
     "refreshLinkStatus": "Atualizar status do link",
     "failedToCheckSocialLink": "Falha ao verificar o status do link social. Por favor, tente novamente.",
-    "failedToStartSocialLink": "Falha ao iniciar o fluxo de link social. Por favor, tente novamente."
+    "failedToStartSocialLink": "Falha ao iniciar o fluxo de link social. Por favor, tente novamente.",
+    "automemberRobloxUsername": "Nome de Usuário Roblox Automático-Membro",
+    "communityMemberRobloxUsernameElement": "Elemento de nome de usuário Roblox de membro da comunidade"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Ocultar Overflow",
     "overflowAuto": "Rolagem Automática",
     "overflowScroll": "Sempre Rolagem"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Documentos oficiais + navegação por IA",
+    "title": "Ajuda CMS"
   }
 }

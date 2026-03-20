@@ -3061,7 +3061,9 @@
     "discordDescription": "Gönderenin Discord kullanıcı adını ekler.",
     "submissionsSelector": "Gönderimler",
     "anyoneCanSubmitTypeExplaination": "Bu formu herkes gönderebilir, izin gerekmiyor.",
-    "rankRestricted": "Yalnızca bu formu göndermeye izin verilen dereceler gönderebilir."
+    "rankRestricted": "Yalnızca bu formu göndermeye izin verilen dereceler gönderebilir.",
+    "automemberRobloxUsername": "Otomatik Üye Roblox Kullanıcı Adı",
+    "dragAndDropARobloxUsernameElement": "Bir üye Roblox kullanıcı adı öğesini sürükleyip bırakın"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sayfa kaydedilirken hata oluştu:",
@@ -3645,7 +3647,9 @@
     "replyContentLabel": "Yanıt İçeriği",
     "replyContentDescription": "Bu eylemi tetikleyen form yanıtının içeriğini, Form Yanıtlarında Ayarlıyken ekler.",
     "stageChangeReasonLabel": "Sahne Değişikliği Nedeni (Opsiyonel)",
-    "stageChangeReasonDescription": "Belirtilmişse sahne değişikliği nedenini ekler."
+    "stageChangeReasonDescription": "Belirtilmişse sahne değişikliği nedenini ekler.",
+    "includeStageChangeButton": "Aşama Değişiklik Düğmesini Dahil Et",
+    "includeStageChangeButtonTooltip": "Personelin form aşamasını değiştirebilmesi ve isteğe bağlı bir nedeni doğrudan webhook'tan sağlayabilmesi için Discord aşama değişiklik düğmesini ekler."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",
@@ -3746,7 +3750,9 @@
     "socialAccountNotLinked": "{social} hesabı bağlı değil",
     "refreshLinkStatus": "Bağlantı durumunu yenile",
     "failedToCheckSocialLink": "Sosyal bağlantı durumu kontrol edilemedi. Lütfen tekrar deneyin.",
-    "failedToStartSocialLink": "Sosyal bağlantı akışı başlatılamadı. Lütfen tekrar deneyin."
+    "failedToStartSocialLink": "Sosyal bağlantı akışı başlatılamadı. Lütfen tekrar deneyin.",
+    "automemberRobloxUsername": "Otomatik Üye Roblox Kullanıcı Adı",
+    "communityMemberRobloxUsernameElement": "Topluluk üyesi Roblox kullanıcı adı öğesi"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -5105,5 +5111,9 @@
     "overflowHidden": "Taşmayı Gizle",
     "overflowAuto": "Otomatik Kaydır",
     "overflowScroll": "Her Zaman Kaydır"
+  },
+  "cmsHelpAssistant": {
+    "eyebrow": "Resmi belgeler + AI gezinme",
+    "title": "CMS Yardım"
   }
 }
