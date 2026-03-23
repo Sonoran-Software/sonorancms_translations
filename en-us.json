@@ -1340,7 +1340,18 @@
     "root": "Root",
     "anErrorOccuredWhileTogglingTheFormLock": "An error occured while toggling the form lock",
     "folderLabel": "Folder Label",
-    "avatar": "Avatar"
+    "avatar": "Avatar",
+    "scheduledFor": "Scheduled for {dateTime}",
+    "lockForm": "Lock Form",
+    "lockFormOnDateTime": "Lock Form on Date/Time",
+    "unlockForm": "Unlock Form",
+    "scheduleFormLock": "Schedule Form Lock",
+    "communityTimezone": "Community timezone: {timezone}",
+    "lockDate": "Lock Date",
+    "lockTime": "Lock Time",
+    "scheduleLock": "Schedule Lock",
+    "scheduledToLockOn": "Scheduled to lock on {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Please choose a future date and time for the scheduled lock."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Locked from new submissions",
@@ -3213,7 +3224,8 @@
     "thatIsNotAValidFormTemplate": "That is not a valid form template...",
     "newQuestion": "New Question",
     "errorAnIssueOccuredWhileSavingFormErr": "Error: An issue occured while saving form. ERR:",
-    "formSettings": "Form Settings"
+    "formSettings": "Form Settings",
+    "scheduledToLockOn": "Scheduled to lock on {dateTime} ({timezone})"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Error occured while saving page:",
