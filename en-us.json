@@ -1180,7 +1180,11 @@
     "stageTypes": "Stage Type(s)",
     "anUnexpectedErrorHasOccurredWhileUsingAB": "An unexpected error has occurred while using a blank template, if this persists contact support.",
     "anUnexpectedErrorHasOccurredWhileUsingAT": "An unexpected error has occurred while using a template, if this persists contact support.",
-    "anErrorOccuredWhileSavingTryAgain": "An error occured while saving, try again."
+    "anErrorOccuredWhileSavingTryAgain": "An error occured while saving, try again.",
+    "advanced": "Advanced",
+    "transferCommunity": "Transfer Community",
+    "deleteCommunity": "Delete Community",
+    "communityId": "Community ID"
   },
   "UrlShortener": {
     "vanityCustomLong": "Vanity/Custom/Long",
