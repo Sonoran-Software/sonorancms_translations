@@ -1466,7 +1466,8 @@
     "userSelected": "User selected",
     "formsPer24Hours": "Forms per 24 hours",
     "isAdditionalStorage": "is Additional Storage",
-    "isTierStorage": "is Tier Storage"
+    "isTierStorage": "is Tier Storage",
+    "idTooltip": "Change your Community ID in Customization Editor"
   },
   "EditCharacterCard": {
     "citizenId": "Citizen ID",
