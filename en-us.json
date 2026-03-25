@@ -3230,7 +3230,14 @@
     "newQuestion": "New Question",
     "errorAnIssueOccuredWhileSavingFormErr": "Error: An issue occured while saving form. ERR:",
     "formSettings": "Form Settings",
-    "scheduledToLockOn": "Scheduled to lock on {dateTime} ({timezone})"
+    "scheduledToLockOn": "Scheduled to lock on {dateTime} ({timezone})",
+    "scheduleFormLock": "Schedule Form Lock",
+    "communityTimezone": "Community timezone: {timezone}",
+    "lockDate": "Lock Date",
+    "lockTime": "Lock Time",
+    "scheduleLock": "Schedule Lock",
+    "clearScheduledLock": "Clear Scheduled Lock",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Please choose a future date and time for the scheduled lock."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Error occured while saving page:",
