@@ -1125,7 +1125,11 @@
     "formatKeys": "Formateringsnycklar",
     "disabledNameCustomizations": "Namnformat inaktiverat på grund av Discord-namnsynkronisering",
     "onJoinActions": "Vid Gå Med-Åtgärder",
-    "communityInfo": "Communityinformation"
+    "communityInfo": "Communityinformation",
+    "advanced": "Avancerad",
+    "transferCommunity": "Överför gemenskap",
+    "deleteCommunity": "Radera gemenskap",
+    "communityId": "Gemenskaps-ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-förkortare handledning",
@@ -1285,7 +1289,18 @@
     "Ok": "Okej",
     "Cancel": "Avbryt",
     "foldersTitle": "Mappar",
-    "formsTitle": "Formulär"
+    "formsTitle": "Formulär",
+    "scheduledFor": "Schemalagd för {dateTime}",
+    "lockForm": "Lås formulär",
+    "lockFormOnDateTime": "Lås formulär på datum/tid",
+    "unlockForm": "Lås upp formulär",
+    "scheduleFormLock": "Schemalägg formulärlås",
+    "communityTimezone": "Gemenskapens tidszon: {timezone}",
+    "lockDate": "Låsningsdatum",
+    "lockTime": "Låsnings tid",
+    "scheduleLock": "Schemalägg lås",
+    "scheduledToLockOn": "Schemalagd att låsas på {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Vänligen välj ett framtida datum och tid för det schemalagda låset."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Låst för nya inlämningar",
@@ -1396,7 +1411,8 @@
     "userSelected": "Användare vald",
     "isAdditionalStorage": "är Ytterligare Lagring",
     "isTierStorage": "är nivålagring",
-    "formsPer24Hours": "Formulär per 24 timmar"
+    "formsPer24Hours": "Formulär per 24 timmar",
+    "idTooltip": "Ändra ditt gemenskaps-ID i anpassningsredigeraren"
   },
   "EditCharacterCard": {
     "citizenId": "Medborgar-ID",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Vem som helst kan skicka in detta formulär, inga behörigheter krävs.",
     "rankRestricted": "Endast rang som har fått behörighet att skicka in detta formulär kan skicka in.",
     "automemberRobloxUsername": "Automatisk Medlem Roblox Användarnamn",
-    "dragAndDropARobloxUsernameElement": "Dra och släpp ett Roblox-användarnamnelement"
+    "dragAndDropARobloxUsernameElement": "Dra och släpp ett Roblox-användarnamnelement",
+    "scheduledToLockOn": "Schemalagd att låsas på {dateTime} ({timezone})",
+    "scheduleFormLock": "Schemalägg formulärlås",
+    "communityTimezone": "Gemenskapens tidszon: {timezone}",
+    "lockDate": "Låsningsdatum",
+    "lockTime": "Låsnings tid",
+    "scheduleLock": "Schemalägg lås",
+    "clearScheduledLock": "Rensa schemalagt lås",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Vänligen välj ett framtida datum och tid för det schemalagda låset."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Fel uppstod vid sparande av sida:",
@@ -4472,10 +4496,22 @@
     "communityName": "communityNamn"
   },
   "disciplinaryConfig": {
-    "com_name": "Uppdragsnamn",
-    "username": "användarnamn",
-    "point_reason": "poängorsak",
-    "discord_ping": "discord_ping"
+    "com_name": {
+      "label": "Visningsnamn för gemenskap",
+      "description": "Infogar användarens gemenskaps visningsnamn."
+    },
+    "username": {
+      "label": "Användarnamn",
+      "description": "Infogar kontots användarnamn."
+    },
+    "point_reason": {
+      "label": "Anledning till poäng",
+      "description": "Infogar anledningen till disciplinära poäng."
+    },
+    "discord_ping": {
+      "label": "Discord-ping",
+      "description": "Pingar användaren på Discord."
+    }
   },
   "variables": {
     "title": "titel",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online i",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Nyligen moddad",
+      "recentlyHealed": "Nyligen helad",
+      "recentlyJailed": "Nyligen fängslad",
+      "recentlyReceivedNote": "Nyligen mottagit en notering",
+      "recentlyRefreshed": "Nyligen uppdaterad",
+      "recentlyRespawned": "Nyligen återupplevd",
+      "recentlyAdmined": "Nyligen administrerad",
+      "recentlyBanned": "Nyligen bannlyst",
+      "recentlyUnmodded": "Nyligen avmoddad",
+      "recentlyKicked": "Nyligen sparkad",
+      "recentlyWanted": "Nyligen eftersökt",
+      "recentlyWarned": "Nyligen varnad",
+      "recentlyUnadmined": "Nyligen icke-administrerad",
+      "recentlyTeleportedTo": "Nyligen teleporterad till",
+      "recentlyUnbanned": "Nyligen obegränsad",
+      "recentlyUnwanted": "Nyligen icke-eftersökt",
+      "recentlyReceivedDisciplinaryPoints": "Nyligen mottagit disciplinära poäng",
+      "recentlyReceivedPrivateMessage": "Nyligen fått ett privat meddelande",
+      "recentlyJoined": "Nyligen gått med"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Skapa Ny Post",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "Officiell dokumentation + AI-navigering",
-    "title": "CMS Hjälp"
+    "title": "CMS Hjälp",
+    "accessibility": {
+      "closePanel": "Stäng CMS hjälp",
+      "panelLabel": "Sonoran CMS hjälpassistent",
+      "iframeTitle": "Sonoran CMS hjälp",
+      "openPanel": "Öppna CMS hjälp"
+    },
+    "toolbar": {
+      "askAi": "Fråga AI",
+      "docs": "Dokument",
+      "support": "Support"
+    },
+    "insecureEmbed": {
+      "title": "GitBook blockerar icke-HTTPS-inbäddningar",
+      "copy": "GitBook-inbäddningen tillåter endast HTTPS föräldrasidor, det kommer därför inte att visas i denna app när den körs över HTTP. Öppna dokumen här i en ny flik, eller testa den inbäddade assistenten från en HTTPS-miljö.",
+      "openDocs": "Öppna dokument"
+    },
+    "loading": {
+      "title": "Laddar CMS-hjälp",
+      "copy": "Ansluter GitBook-assistenten till CMS-dokumenten."
+    },
+    "launcher": {
+      "open": "Behöver du hjälp?",
+      "close": "Stäng hjälp"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Gemenskapsmeny",
+        "subtitle": "Fråga om att skapa, gå med i eller organisera dina gemenskaper.",
+        "suggestions": {
+          "createCommunity": "Hur skapar jag en ny gemenskap?",
+          "joinWithId": "Hur går jag med i en gemenskap med ett ID?",
+          "setupDocs": "Var kan jag hitta CMS installationsdokument?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Gemenskapsupptäckt",
+        "subtitle": "Fråga om upptäcktssidor, upptäcktsinställningar eller utvalda gemenskaper.",
+        "suggestions": {
+          "howItWorks": "Hur fungerar gemenskapsupptäckt?",
+          "featureCommunity": "Hur gör jag min gemenskap framträdande här?",
+          "discoveryDocs": "Var finns dokumenten för upptäcktsinställningar?"
+        }
+      },
+      "drive": {
+        "label": "Drive & dokument",
+        "subtitle": "Sök dokument, delning och drive-hantering hjälp.",
+        "suggestions": {
+          "sharingPermissions": "Hur fungerar delningsbehörigheter i driven?",
+          "organizeFiles": "Hur organiserar jag filer och mappar?",
+          "openDrive": "Öppna drive-hem för mig."
+        }
+      },
+      "calendar": {
+        "label": "Kalender",
+        "subtitle": "Fråga om händelseuppbyggnad, RSVP, kategorier och schemaläggning.",
+        "suggestions": {
+          "createEvent": "Hur skapar jag en kalendertillställning?",
+          "rsvpsAndReminders": "Hur fungerar RSVP och påminnelser?",
+          "openCalendar": "Öppna kalendern för mig."
+        }
+      },
+      "forms": {
+        "label": "Formulär",
+        "subtitle": "Fråga om inskickningar, ansökningsflöden och formulärinställningar.",
+        "suggestions": {
+          "howTheyWork": "Hur fungerar formulär och ansökningar?",
+          "manageSubmissions": "Hur hanterar jag inskickningar?",
+          "openManagement": "Öppna formulärhanteringsvyn för mig."
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord-integration",
+        "subtitle": "Fråga om roll synk, bot-inställningar och Discord-integration detaljer.",
+        "suggestions": {
+          "configure": "Hur konfigurerar jag Discord-integrationen?",
+          "roleSyncPermissions": "Vilka behörigheter krävs för roll synk?",
+          "openPage": "Öppna Discord-integrationssidan för mig."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak-integration",
+        "subtitle": "Fråga om TeamSpeak roll synk, verifiering och kontolänkning.",
+        "suggestions": {
+          "setupRoleSync": "Hur ställer jag in TeamSpeak roll synk?",
+          "verification": "Hur fungerar TeamSpeak-verifiering?",
+          "openPage": "Öppna TeamSpeak-integrationssidan för mig."
+        }
+      },
+      "apiIntegration": {
+        "label": "API-integration",
+        "subtitle": "Fråga om utvecklar-API, installationssteg eller referenser.",
+        "suggestions": {
+          "gettingStarted": "Hur börjar jag med CMS API?",
+          "docs": "Var hittar jag API-integrationsdokument?",
+          "openPage": "Öppna API-integrationssidan för mig."
+        }
+      },
+      "customDomain": {
+        "label": "Anpassad domän",
+        "subtitle": "Fråga om vanity URL:er, DNS-inställningar och anpassade domänkrav.",
+        "suggestions": {
+          "connect": "Hur kopplar jag en anpassad domän?",
+          "dnsRecords": "Vilka DNS-poster behöver jag?",
+          "openPanel": "Öppna panelen för anpassad domän för mig."
+        }
+      },
+      "rosters": {
+        "label": "Rostrar",
+        "labelWithName": "Rost: {name}",
+        "subtitle": "Fråga om rostmallar, fält, automation och synlighet.",
+        "suggestions": {
+          "build": "Hur bygger jag ett anpassat rost?",
+          "permissions": "Hur fungerar rostbehörigheter?",
+          "openManagement": "Öppna roster hantering för mig."
+        }
+      },
+      "profileFields": {
+        "label": "Profilfält",
+        "subtitle": "Fråga om profilfältinställningar, displayalternativ och validering.",
+        "suggestions": {
+          "howTheyWork": "Hur fungerar profilfält?",
+          "addField": "Hur lägger jag till ett nytt profilfält?",
+          "openPage": "Öppna profilfälten för mig."
+        }
+      },
+      "urlShortener": {
+        "label": "URL-förkortare",
+        "subtitle": "Fråga om korta länkar, omdirigeringar och hantering av vanity-länkar.",
+        "suggestions": {
+          "howItWorks": "Hur fungerar korta URL:er i CMS?",
+          "vanityRedirect": "Hur skapar jag en vanity-omdirigering?",
+          "openPage": "Öppna URL-förkortaren för mig."
+        }
+      },
+      "securityCenter": {
+        "label": "Säkerhetscenter",
+        "subtitle": "Fråga om säkerhetspreferenser, flaggor och CMS-säkerhetsverktyg.",
+        "suggestions": {
+          "availableTools": "Vilka säkerhetsverktyg finns tillgängliga här?",
+          "reviewFlags": "Hur granskar jag flaggade konton?",
+          "openPanel": "Öppna säkerhetspanelen för mig."
+        }
+      },
+      "growthCenter": {
+        "label": "Tillväxtcenter",
+        "subtitle": "Fråga om tillväxtfunktioner, begränsningar och verktyg för gemenskapsutvidgning.",
+        "suggestions": {
+          "whatItDoes": "Vad gör tillväxtcentret?",
+          "featureLimits": "Hur kontrollerar jag mina funktionsbegränsningar?",
+          "openPanel": "Öppna tillväxtpanelen för mig."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC spelpanel",
+        "subtitle": "Fråga om spelarsynk, moderation, aktivitet och ER:LC panelinställningar.",
+        "suggestions": {
+          "setup": "Hur ställer jag in ER:LC spelpanelen?",
+          "capabilities": "Vad kan ER:LC-panelen göra?",
+          "openPanel": "Öppna spelpanelen för mig."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM spelpanel",
+        "subtitle": "Fråga om QBCore, Qbox, karaktärer, jobb, föremål och synk.",
+        "suggestions": {
+          "setup": "Hur ställer jag in FiveM spelpanelen?",
+          "differences": "Hur skiljer sig QBCore- och Qbox-funktionerna?",
+          "openPanel": "Öppna spelpanelen för mig."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu spelpanel",
+        "subtitle": "Fråga om spelarlistor, resurser, ACEs och vMenu-panelen.",
+        "suggestions": {
+          "howToUse": "Hur använder jag vMenu-spelpanelen?",
+          "serverData": "Vilka serverdata exponerar vMenu-panelen?",
+          "openPanel": "Öppna spelpanelen för mig."
+        }
+      },
+      "administrativePanel": {
+        "label": "Administrativ panel",
+        "subtitle": "Fråga om inställningar, integrationer, behörigheter och administrativa arbetsflöden.",
+        "suggestions": {
+          "howToUse": "Hur använder jag den administrativa panelen?",
+          "docsForPage": "Var finns dokumenten för denna admin sida?",
+          "openIntegrations": "Öppna integrationsportalen för mig."
+        }
+      },
+      "communityProfile": {
+        "label": "Gemenskapsprofil",
+        "subtitle": "Fråga om profilredigering, identifikatorer, rader och kontodetaljer.",
+        "suggestions": {
+          "updateProfile": "Hur uppdaterar jag min profil?",
+          "identifiersAndRanks": "Hur fungerar identifierare och rader?",
+          "openProfile": "Öppna min profilsida för mig."
+        }
+      },
+      "default": {
+        "label": "Aktuell sida",
+        "subtitle": "Fråga om denna CMS-sida, sök dokumenten eller öppna en annan panel.",
+        "suggestions": {
+          "useThisPage": "Hur använder jag denna sida?",
+          "featureDocs": "Var finns dokumenten för denna funktion?",
+          "openPanel": "Öppna rätt CMS-panel för mig."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Gemenskapsmeny",
+      "communityDiscovery": "Gemenskapsupptäckt",
+      "systemAccount": "Systemkonto",
+      "dashboard": "Instrumentpanel",
+      "formsCenter": "Formulärcenter",
+      "formManagement": "Formulärhantering",
+      "calendar": "Kalender",
+      "drive": "Drive",
+      "myCommunityProfile": "Min gemenskapsprofil",
+      "adminAccounts": "Adminkonton",
+      "customization": "Anpassning",
+      "formBuilder": "Formulärsbyggare",
+      "ranksAndDepartments": "Rader och avdelningar",
+      "rosters": "Rostrar",
+      "communityPages": "Gemenskapssidor",
+      "integrations": "Integrationer",
+      "discordIntegration": "Discord-integration",
+      "teamSpeakIntegration": "TeamSpeak-integration",
+      "apiIntegration": "API-integration",
+      "customDomain": "Anpassad domän",
+      "profileFields": "Profilfält",
+      "urlShortener": "URL-förkortare",
+      "securityCenter": "Säkerhetscenter",
+      "growthCenter": "Tillväxtcenter",
+      "erlcGamePanel": "ER:LC spelpanel",
+      "qboxGamePanel": "Qbox spelpanel",
+      "vmenuGamePanel": "vMenu spelpanel",
+      "fiveMGamePanel": "FiveM spelpanel"
+    },
+    "actions": {
+      "docsHome": "Dokumenthem",
+      "currentDocs": "Aktuella dokument",
+      "dashboard": "Instrumentpanel"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Öppna en Sonoran CMS-sida för användaren när de ber att navigera eller öppna en panel.",
+        "descriptionWithDestinations": "Öppna en Sonoran CMS-sida för användaren när de ber att navigera eller öppna en panel. Tillgängliga destinationer: {destinations}.",
+        "confirmationLabel": "Öppna denna CMS-sida",
+        "destinationDescription": "Välj en tillgänglig CMS-destination.",
+        "destinationDescriptionWithOptions": "Välj en av de tillgängliga CMS-destinationerna: {destinations}.",
+        "unavailableSummary": "Den panelen är inte tillgänglig här. Tillgängliga alternativ: {availableOptions}.",
+        "unavailableNoOptions": "Inga CMS navigationstargets är tillgängliga i det här sammanhanget.",
+        "openedSummary": "Öppnad {label}."
+      }
+    }
   }
 }

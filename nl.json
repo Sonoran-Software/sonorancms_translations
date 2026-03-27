@@ -1125,7 +1125,11 @@
     "formatKeys": "Formaatsleutels",
     "disabledNameCustomizations": "Naamformaat uitgeschakeld vanwege Discord-namesynchronisatie",
     "onJoinActions": "Bij Join-acties",
-    "communityInfo": "Gemeenschapsinformatie"
+    "communityInfo": "Gemeenschapsinformatie",
+    "advanced": "Geavanceerd",
+    "transferCommunity": "Gemeenschap Overdragen",
+    "deleteCommunity": "Gemeenschap Verwijderen",
+    "communityId": "Gemeenschap-ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-verkorter Tutorial",
@@ -1285,7 +1289,18 @@
     "Ok": "Oké",
     "Cancel": "Annuleren",
     "foldersTitle": "Mappen",
-    "formsTitle": "Formulieren"
+    "formsTitle": "Formulieren",
+    "scheduledFor": "Gepland voor {dateTime}",
+    "lockForm": "Formulier Vergrendelen",
+    "lockFormOnDateTime": "Formulier Vergrendelen Op Datum/Tijd",
+    "unlockForm": "Formulier Ontgrendelen",
+    "scheduleFormLock": "Plan Formulier Vergrendeling",
+    "communityTimezone": "Gemeenschap Tijdzone: {timezone}",
+    "lockDate": "Vergrendelingsdatum",
+    "lockTime": "Vergrendelingstijd",
+    "scheduleLock": "Plan Vergrendeling",
+    "scheduledToLockOn": "Gepland om te vergrendelen op {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Gelieve een toekomstige datum en tijd voor de geplande vergrendeling te kiezen."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Vergrendeld voor nieuwe inzendingen",
@@ -1396,7 +1411,8 @@
     "userSelected": "Gebruiker geselecteerd",
     "isAdditionalStorage": "is Extra Opslag",
     "isTierStorage": "is Tieropslag",
-    "formsPer24Hours": "Formulieren per 24 uur"
+    "formsPer24Hours": "Formulieren per 24 uur",
+    "idTooltip": "Verander je Gemeenschap-ID in de Aanpassing Editor"
   },
   "EditCharacterCard": {
     "citizenId": "Burger-ID",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Iedereen kan dit formulier indienen, geen toestemming vereist.",
     "rankRestricted": "Alleen rangen met toestemming om dit formulier in te dienen, kunnen het indienen.",
     "automemberRobloxUsername": "Auto-Lid Roblox Gebruikersnaam",
-    "dragAndDropARobloxUsernameElement": "Sleep en zet een lid Roblox gebruikersnaam element neer"
+    "dragAndDropARobloxUsernameElement": "Sleep en zet een lid Roblox gebruikersnaam element neer",
+    "scheduledToLockOn": "Gepland om te vergrendelen op {dateTime} ({timezone})",
+    "scheduleFormLock": "Plan Formulier Vergrendeling",
+    "communityTimezone": "Gemeenschap Tijdzone: {timezone}",
+    "lockDate": "Vergrendelingsdatum",
+    "lockTime": "Vergrendelingstijd",
+    "scheduleLock": "Plan Vergrendeling",
+    "clearScheduledLock": "Geplande Vergrendeling Wissen",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Gelieve een toekomstige datum en tijd voor de geplande vergrendeling te kiezen."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Er is een fout opgetreden bij het opslaan van de pagina:",
@@ -4472,10 +4496,22 @@
     "communityName": "gemeenschapsnaam"
   },
   "disciplinaryConfig": {
-    "com_name": "Bedrijfsnaam",
-    "username": "gebruikersnaam",
-    "point_reason": "reden voor aanwijzing",
-    "discord_ping": "discord_ping"
+    "com_name": {
+      "label": "Weergavenaam Gemeenschap",
+      "description": "Voegt de weergavenaam van de gebruiker in de gemeenschap toe."
+    },
+    "username": {
+      "label": "Gebruikersnaam",
+      "description": "Voegt de account gebruikersnaam in."
+    },
+    "point_reason": {
+      "label": "Reden Punt",
+      "description": "Voegt de reden voor disciplinaire punten in."
+    },
+    "discord_ping": {
+      "label": "Discord Ping",
+      "description": "Ping de gebruiker in Discord."
+    }
   },
   "variables": {
     "title": "titel",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online voor",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Recent gewijzigd",
+      "recentlyHealed": "Recent genezen",
+      "recentlyJailed": "Recent gevangengezet",
+      "recentlyReceivedNote": "Recent een notitie ontvangen",
+      "recentlyRefreshed": "Recent vernieuwd",
+      "recentlyRespawned": "Recent herrezen",
+      "recentlyAdmined": "Recent geadministreerd",
+      "recentlyBanned": "Recent verbannen",
+      "recentlyUnmodded": "Recent unmodded",
+      "recentlyKicked": "Recent geschopt",
+      "recentlyWanted": "Recent gezocht",
+      "recentlyWarned": "Recent gewaarschuwd",
+      "recentlyUnadmined": "Recent unadmined",
+      "recentlyTeleportedTo": "Recent geteleporteerd naar",
+      "recentlyUnbanned": "Recent unbanned",
+      "recentlyUnwanted": "Recent niet-gewenst",
+      "recentlyReceivedDisciplinaryPoints": "Recent disciplinaire punten ontvangen",
+      "recentlyReceivedPrivateMessage": "Recent een privébericht ontvangen",
+      "recentlyJoined": "Recent toegetreden"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Nieuw record maken",
@@ -5115,14 +5171,259 @@
   "cmsHelpAssistant": {
     "eyebrow": "Officiële documentatie + AI-navigatie",
     "title": "CMS Hulp",
-    "accessibility": "[object Object]",
-    "toolbar": "[object Object]",
-    "insecureEmbed": "[object Object]",
-    "loading": "[object Object]",
-    "launcher": "[object Object]",
-    "contexts": "[object Object]",
-    "navigationTargets": "[object Object]",
-    "actions": "[object Object]",
-    "tools": "[object Object]"
+    "accessibility": {
+      "closePanel": "Sluit CMS-hulp",
+      "panelLabel": "Sonoran CMS hulpassistent",
+      "iframeTitle": "Sonoran CMS hulp",
+      "openPanel": "Open CMS-hulp"
+    },
+    "toolbar": {
+      "askAi": "Vraag AI",
+      "docs": "Documentatie",
+      "support": "Ondersteuning"
+    },
+    "insecureEmbed": {
+      "title": "GitBook Blokkeert Niet-HTTPS Embeds",
+      "copy": "De GitBook embed staat alleen HTTPS-pagina's toe en zal daarom niet worden weergegeven in deze app terwijl deze over HTTP wordt uitgevoerd. Open hier de documentatie in een nieuw tabblad, of test de ingebedde assistent vanuit een HTTPS-omgeving.",
+      "openDocs": "Open Documentatie"
+    },
+    "loading": {
+      "title": "CMS-hulp Laden",
+      "copy": "De GitBook-assistent wordt verbonden met de CMS-documentatie."
+    },
+    "launcher": {
+      "open": "Hulp Nodig?",
+      "close": "Sluit hulp"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Gemeenschapsmenu",
+        "subtitle": "Vraag over het maken, toetreden of organiseren van je gemeenschappen.",
+        "suggestions": {
+          "createCommunity": "Hoe maak ik een nieuwe gemeenschap?",
+          "joinWithId": "Hoe word ik lid van een gemeenschap met een ID?",
+          "setupDocs": "Waar kan ik de CMS-installatiedocumentatie vinden?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Gemeenschapsontdekking",
+        "subtitle": "Vraag over ontdekking pagina's, instellingen of aanbevolen gemeenschappen.",
+        "suggestions": {
+          "howItWorks": "Hoe werkt gemeenschapsontdekking?",
+          "featureCommunity": "Hoe plaats ik mijn gemeenschap hier?",
+          "discoveryDocs": "Waar is de documentatie voor ontdekking instellingen?"
+        }
+      },
+      "drive": {
+        "label": "Drive & documenten",
+        "subtitle": "Zoek document, deel- en drivebeheer hulp.",
+        "suggestions": {
+          "sharingPermissions": "Hoe werken deelvergunningen in de drive?",
+          "organizeFiles": "Hoe organiseer ik bestanden en mappen?",
+          "openDrive": "Open de drive startpagina voor mij."
+        }
+      },
+      "calendar": {
+        "label": "Kalender",
+        "subtitle": "Vraag over evenement creatie, RSVP's, categorieën en planning.",
+        "suggestions": {
+          "createEvent": "Hoe maak ik een kalenderevenement?",
+          "rsvpsAndReminders": "Hoe werken RSVP's en herinneringen?",
+          "openCalendar": "Open de kalender voor mij."
+        }
+      },
+      "forms": {
+        "label": "Formulieren",
+        "subtitle": "Vraag over inzendingen, applicatiestromen en formulieropstelling.",
+        "suggestions": {
+          "howTheyWork": "Hoe werken formulieren en applicaties?",
+          "manageSubmissions": "Hoe beheer ik inzendingen?",
+          "openManagement": "Open het formulierbeheerscherm voor mij."
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord-integratie",
+        "subtitle": "Vraag over rolsynchronisatie, bot installatie en Discord-integratiedetails.",
+        "suggestions": {
+          "configure": "Hoe configureer ik de Discord-integratie?",
+          "roleSyncPermissions": "Welke rechten zijn vereist voor rolsynchronisatie?",
+          "openPage": "Open de Discord-integratiepagina voor mij."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak-integratie",
+        "subtitle": "Vraag over TeamSpeak-rolsynchronisatie, verificatie, en accountlinking.",
+        "suggestions": {
+          "setupRoleSync": "Hoe stel ik TeamSpeak-rolsynchronisatie in?",
+          "verification": "Hoe werkt TeamSpeak-verificatie?",
+          "openPage": "Open de TeamSpeak-integratiepagina voor mij."
+        }
+      },
+      "apiIntegration": {
+        "label": "API-integratie",
+        "subtitle": "Vraag over de ontwikkelaars-API, installatie stappen, of inloggegevens.",
+        "suggestions": {
+          "gettingStarted": "Hoe begin ik met de CMS API?",
+          "docs": "Waar kan ik de API-integratiedocumentatie vinden?",
+          "openPage": "Open de API-integratiepagina voor mij."
+        }
+      },
+      "customDomain": {
+        "label": "Aangepast domein",
+        "subtitle": "Vraag over vanity URL's, DNS-installatie, en aangepaste domeinvereisten.",
+        "suggestions": {
+          "connect": "Hoe verbind ik een aangepast domein?",
+          "dnsRecords": "Welke DNS-records heb ik nodig?",
+          "openPanel": "Open het aangepaste domeinpanel voor mij."
+        }
+      },
+      "rosters": {
+        "label": "Rosters",
+        "labelWithName": "Roster: {name}",
+        "subtitle": "Vraag over roster sjablonen, velden, automatisering en zichtbaarheid.",
+        "suggestions": {
+          "build": "Hoe bouw ik een aangepast rooster?",
+          "permissions": "Hoe werken roosterrechten?",
+          "openManagement": "Open het roosterbeheer voor mij."
+        }
+      },
+      "profileFields": {
+        "label": "Profielvelden",
+        "subtitle": "Vraag over profielveldopstelling, weergaveopties en validatie.",
+        "suggestions": {
+          "howTheyWork": "Hoe werken profielvelden?",
+          "addField": "Hoe voeg ik een nieuw profielveld toe?",
+          "openPage": "Open profielvelden voor mij."
+        }
+      },
+      "urlShortener": {
+        "label": "URL-verkorter",
+        "subtitle": "Vraag over korte links, doorverwijzingen en beheer van vanity links.",
+        "suggestions": {
+          "howItWorks": "Hoe werken korte URL's in de CMS?",
+          "vanityRedirect": "Hoe maak ik een vanity-verwijzing?",
+          "openPage": "Open de URL-verkorter voor mij."
+        }
+      },
+      "securityCenter": {
+        "label": "Beveiligingscentrum",
+        "subtitle": "Vraag over beveiligingsvoorkeuren, waarschuwingsvlaggen en CMS-beveiligingstools.",
+        "suggestions": {
+          "availableTools": "Welke beveiligingstools zijn hier beschikbaar?",
+          "reviewFlags": "Hoe beoordeel ik gemerkte accounts?",
+          "openPanel": "Open het beveiligingspaneel voor mij."
+        }
+      },
+      "growthCenter": {
+        "label": "Groei Centrum",
+        "subtitle": "Vraag over groeifuncties, limieten en gemeenschap uitbreidingstools.",
+        "suggestions": {
+          "whatItDoes": "Wat doet het groei centrum?",
+          "featureLimits": "Hoe controleer ik mijn functiebeperkingen?",
+          "openPanel": "Open het groeipaneel voor mij."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC spelpaneel",
+        "subtitle": "Vraag over spelersynchronisatie, moderatie, activiteit en ER:LC paneelopstelling.",
+        "suggestions": {
+          "setup": "Hoe stel ik het ER:LC spelpaneel in?",
+          "capabilities": "Wat kan het ER:LC paneel doen?",
+          "openPanel": "Open het spelpaneel voor mij."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM spelpaneel",
+        "subtitle": "Vraag over QBCore, Qbox, karakters, banen, items en synchronisatie.",
+        "suggestions": {
+          "setup": "Hoe stel ik het FiveM spelpaneel in?",
+          "differences": "Hoe verschillen de QBCore- en Qbox-functies?",
+          "openPanel": "Open het spelpaneel voor mij."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu spelpaneel",
+        "subtitle": "Vraag over spelerslijsten, middelen, ACE's en het vMenu paneel.",
+        "suggestions": {
+          "howToUse": "Hoe gebruik ik het vMenu spelpaneel?",
+          "serverData": "Welke serverdata onthult het vMenu paneel?",
+          "openPanel": "Open het spelpaneel voor mij."
+        }
+      },
+      "administrativePanel": {
+        "label": "Administratief paneel",
+        "subtitle": "Vraag over instellingen, integraties, machtigingen en beheerworkflows.",
+        "suggestions": {
+          "howToUse": "Hoe gebruik ik het administratieve paneel?",
+          "docsForPage": "Waar is de documentatie voor deze beheerpagina?",
+          "openIntegrations": "Open het integratieportaal voor mij."
+        }
+      },
+      "communityProfile": {
+        "label": "Gemeenschapsprofiel",
+        "subtitle": "Vraag over profielbewerking, identificatoren, rangen en accountgegevens.",
+        "suggestions": {
+          "updateProfile": "Hoe werk ik mijn profiel bij?",
+          "identifiersAndRanks": "Hoe werken identificatoren en rangen?",
+          "openProfile": "Open mijn profielpagina voor mij."
+        }
+      },
+      "default": {
+        "label": "Huidige pagina",
+        "subtitle": "Vraag over deze CMS-pagina, zoek de documentatie, of open een ander paneel.",
+        "suggestions": {
+          "useThisPage": "Hoe gebruik ik deze pagina?",
+          "featureDocs": "Waar is de documentatie voor deze functie?",
+          "openPanel": "Open het juiste CMS-paneel voor mij."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Gemeenschapsmenu",
+      "communityDiscovery": "Gemeenschapsontdekking",
+      "systemAccount": "Systeemaccount",
+      "dashboard": "Dashboard",
+      "formsCenter": "Formulieren Centrum",
+      "formManagement": "Formulierbeheer",
+      "calendar": "Kalender",
+      "drive": "Drive",
+      "myCommunityProfile": "Mijn gemeenschapsprofiel",
+      "adminAccounts": "Beheerdersaccounts",
+      "customization": "Aanpassing",
+      "formBuilder": "Formulierbouwer",
+      "ranksAndDepartments": "Rangen en afdelingen",
+      "rosters": "Rosters",
+      "communityPages": "Gemeenschap Pagina's",
+      "integrations": "Integraties",
+      "discordIntegration": "Discord-integratie",
+      "teamSpeakIntegration": "TeamSpeak-integratie",
+      "apiIntegration": "API-integratie",
+      "customDomain": "Aangepast domein",
+      "profileFields": "Profielvelden",
+      "urlShortener": "URL-verkorter",
+      "securityCenter": "Beveiligingscentrum",
+      "growthCenter": "Groei Centrum",
+      "erlcGamePanel": "ER:LC spelpaneel",
+      "qboxGamePanel": "Qbox spelpaneel",
+      "vmenuGamePanel": "vMenu spelpaneel",
+      "fiveMGamePanel": "FiveM spelpaneel"
+    },
+    "actions": {
+      "docsHome": "Documenten Startpagina",
+      "currentDocs": "Huidige Documenten",
+      "dashboard": "Dashboard"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Open een Sonoran CMS-pagina voor de gebruiker wanneer ze vragen om te navigeren of een paneel te openen.",
+        "descriptionWithDestinations": "Open een Sonoran CMS-pagina voor de gebruiker wanneer ze vragen om te navigeren of een paneel te openen. Beschikbare bestemmingen: {destinations}.",
+        "confirmationLabel": "Open deze CMS-pagina",
+        "destinationDescription": "Kies een beschikbare CMS-bestemming.",
+        "destinationDescriptionWithOptions": "Kies een van de beschikbare CMS-bestemmingen: {destinations}.",
+        "unavailableSummary": "Dat paneel is hier niet beschikbaar. Beschikbare opties: {availableOptions}.",
+        "unavailableNoOptions": "Er zijn geen CMS-navigatiedoelen beschikbaar in deze context.",
+        "openedSummary": "Geopend {label}."
+      }
+    }
   }
 }

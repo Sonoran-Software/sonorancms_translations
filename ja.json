@@ -1125,7 +1125,11 @@
     "formatKeys": "フォーマットキー",
     "disabledNameCustomizations": "ディスコード名前の同期のため名前フォーマットが無効になっています",
     "onJoinActions": "参加時のアクション",
-    "communityInfo": "コミュニティ情報"
+    "communityInfo": "コミュニティ情報",
+    "advanced": "高度な",
+    "transferCommunity": "コミュニティの転送",
+    "deleteCommunity": "コミュニティの削除",
+    "communityId": "コミュニティ ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "コミュニティのために短いURLを作成する方法を学ぶ",
@@ -1285,7 +1289,18 @@
     "Ok": "はい",
     "Cancel": "キャンセル",
     "foldersTitle": "フォルダー",
-    "formsTitle": "フォーム"
+    "formsTitle": "フォーム",
+    "scheduledFor": "{dateTime} に予定されています",
+    "lockForm": "フォームをロック",
+    "lockFormOnDateTime": "日付/時刻にフォームをロック",
+    "unlockForm": "フォームのロックを解除",
+    "scheduleFormLock": "フォームロックをスケジュールする",
+    "communityTimezone": "コミュニティのタイムゾーン: {timezone}",
+    "lockDate": "ロック日時",
+    "lockTime": "ロック時間",
+    "scheduleLock": "ロックスケジュール",
+    "scheduledToLockOn": "{dateTime} にロック予定",
+    "pleaseChooseFutureDateTimeForScheduledLock": "スケジュールされたロックの将来の日付と時刻を選択してください。"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "追加の提出をブロックしました",
@@ -1396,7 +1411,8 @@
     "userSelected": "市民ID",
     "isAdditionalStorage": "追加ストレージ",
     "isTierStorage": "階層ストレージです",
-    "formsPer24Hours": "24時間ごとのフォーム"
+    "formsPer24Hours": "24時間ごとのフォーム",
+    "idTooltip": "カスタマイズエディタでコミュニティ ID を変更"
   },
   "EditCharacterCard": {
     "citizenId": "名",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "フォームは誰でも提出できます。権限は必要ありません。",
     "rankRestricted": "このフォームを提出する権限を与えられたランクのみが提出できます。",
     "automemberRobloxUsername": "自動メンバー Roblox ユーザー名",
-    "dragAndDropARobloxUsernameElement": "メンバー Roblox ユーザー名要素をドラッグアンドドロップ"
+    "dragAndDropARobloxUsernameElement": "メンバー Roblox ユーザー名要素をドラッグアンドドロップ",
+    "scheduledToLockOn": "{dateTime} ({timezone}) にロック予定",
+    "scheduleFormLock": "フォームロックをスケジュールする",
+    "communityTimezone": "コミュニティタイムゾーン: {timezone}",
+    "lockDate": "ロック日",
+    "lockTime": "ロック時間",
+    "scheduleLock": "ロックスケジュール",
+    "clearScheduledLock": "スケジュール済みロックをクリア",
+    "pleaseChooseFutureDateTimeForScheduledLock": "スケジュールされたロックの将来の日付と時刻を選択してください。"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "ページが正常に保存されました！",
@@ -4472,10 +4496,22 @@
     "communityName": "コミュニティ名"
   },
   "disciplinaryConfig": {
-    "com_name": "コミュニティ名",
-    "username": "ユーザー名",
-    "point_reason": "ポイント理由",
-    "discord_ping": "ディスコードの通知"
+    "com_name": {
+      "label": "コミュニティ表示名",
+      "description": "ユーザーのコミュニティ表示名を挿入します。"
+    },
+    "username": {
+      "label": "ユーザー名",
+      "description": "アカウントユーザー名を挿入します。"
+    },
+    "point_reason": {
+      "label": "ポイント理由",
+      "description": "懲戒ポイントの理由を挿入します。"
+    },
+    "discord_ping": {
+      "label": "ディスコード通知",
+      "description": "Discordでユーザーに通知します。"
+    }
   },
   "variables": {
     "title": "タイトル",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "オンライン時間",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "最近のmod",
+      "recentlyHealed": "最近回復",
+      "recentlyJailed": "最近投獄",
+      "recentlyReceivedNote": "最近メモを受け取った",
+      "recentlyRefreshed": "最近更新",
+      "recentlyRespawned": "最近リスポーン",
+      "recentlyAdmined": "最近管理者",
+      "recentlyBanned": "最近禁止",
+      "recentlyUnmodded": "最近の非mod",
+      "recentlyKicked": "最近キック",
+      "recentlyWanted": "最近の指名手配",
+      "recentlyWarned": "最近警告",
+      "recentlyUnadmined": "最近非管理者",
+      "recentlyTeleportedTo": "最近テレポート",
+      "recentlyUnbanned": "最近の禁止解除",
+      "recentlyUnwanted": "最近非指名手配",
+      "recentlyReceivedDisciplinaryPoints": "最近懲戒ポイントを受け取った",
+      "recentlyReceivedPrivateMessage": "最近プライベートメッセージを受け取った",
+      "recentlyJoined": "最近参加"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "新しい記録を作成",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "公式ドキュメント + AIナビゲーション",
-    "title": "CMSヘルプ"
+    "title": "CMSヘルプ",
+    "accessibility": {
+      "closePanel": "CMSヘルプを閉じる",
+      "panelLabel": "Sonoran CMS ヘルプアシスタント",
+      "iframeTitle": "Sonoran CMS ヘルプ",
+      "openPanel": "CMSヘルプを開く"
+    },
+    "toolbar": {
+      "askAi": "AIに聞く",
+      "docs": "ドキュメント",
+      "support": "サポート"
+    },
+    "insecureEmbed": {
+      "title": "GitBookが非HTTPS埋め込みをブロック",
+      "copy": "GitBook埋め込みはHTTPS親ページのみ許可していますので、HTTPで実行中のこのアプリ内ではレンダリングされません。ここで新しいタブでドキュメントを開くか、HTTPS環境から埋め込みアシスタントをテストしてください。",
+      "openDocs": "ドキュメントを開く"
+    },
+    "loading": {
+      "title": "CMSヘルプを読み込み中",
+      "copy": "GitBookアシスタントをCMSドキュメントに接続中。"
+    },
+    "launcher": {
+      "open": "助けが必要ですか？",
+      "close": "ヘルプを閉じる"
+    },
+    "contexts": {
+      "menu": {
+        "label": "コミュニティメニュー",
+        "subtitle": "コミュニティの作成、参加、または整理について尋ねる。",
+        "suggestions": {
+          "createCommunity": "新しいコミュニティを作成するにはどうすればよいですか？",
+          "joinWithId": "IDを使用してコミュニティに参加するにはどうすればよいですか？",
+          "setupDocs": "CMSの設定ドキュメントはどこにありますか？"
+        }
+      },
+      "communityDiscovery": {
+        "label": "コミュニティ発見",
+        "subtitle": "発見ページ、発見設定、または注目のコミュニティについて尋ねる。",
+        "suggestions": {
+          "howItWorks": "コミュニティ発見はどのように機能するのですか？",
+          "featureCommunity": "ここで自分のコミュニティを紹介するにはどうすればよいですか？",
+          "discoveryDocs": "発見設定のドキュメントはどこにありますか？"
+        }
+      },
+      "drive": {
+        "label": "ドライブとドキュメント",
+        "subtitle": "ドキュメント、共有、およびドライブ管理ヘルプを検索します。",
+        "suggestions": {
+          "sharingPermissions": "ドライブの共有権限はどのように機能しますか？",
+          "organizeFiles": "ファイルとフォルダーを整理するにはどうすればよいですか？",
+          "openDrive": "私のためにドライブのホームを開いて。"
+        }
+      },
+      "calendar": {
+        "label": "カレンダー",
+        "subtitle": "イベント作成、RSVP、カテゴリ、スケジュールについて尋ねる。",
+        "suggestions": {
+          "createEvent": "カレンダーイベントを作成するにはどうすればよいですか？",
+          "rsvpsAndReminders": "RSVPとリマインダーはどのように機能しますか？",
+          "openCalendar": "私のためにカレンダーを開いて。"
+        }
+      },
+      "forms": {
+        "label": "フォーム",
+        "subtitle": "提出、申請フロー、およびフォームセットアップについて尋ねる。",
+        "suggestions": {
+          "howTheyWork": "フォームとアプリケーションはどのように機能しますか？",
+          "manageSubmissions": "提出物を管理するにはどうすればよいですか？",
+          "openManagement": "私のためにフォーム管理ビューを開いて。"
+        }
+      },
+      "discordIntegration": {
+        "label": "ディスコード統合",
+        "subtitle": "ロール同期、ボット設定、Discord統合の詳細について尋ねる。",
+        "suggestions": {
+          "configure": "ディスコード統合を構成するにはどうすればいいですか？",
+          "roleSyncPermissions": "ロール同期に必要な権限は何ですか？",
+          "openPage": "私のためにDiscord統合ページを開いて。"
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak統合",
+        "subtitle": "TeamSpeakのロール同期、検証、アカウントリンクについて尋ねる。",
+        "suggestions": {
+          "setupRoleSync": "TeamSpeakのロール同期を設定するにはどうすればよいですか？",
+          "verification": "TeamSpeakの検証はどのように機能しますか？",
+          "openPage": "私のためにTeamSpeak統合ページを開いて。"
+        }
+      },
+      "apiIntegration": {
+        "label": "API統合",
+        "subtitle": "開発者API、設定手順、または資格情報について尋ねる。",
+        "suggestions": {
+          "gettingStarted": "CMS APIの使用を始めるにはどうすればいいですか？",
+          "docs": "API統合ドキュメントはどこにありますか？",
+          "openPage": "私のためにAPI統合ページを開いて。"
+        }
+      },
+      "customDomain": {
+        "label": "カスタムドメイン",
+        "subtitle": "カスタムURLs、DNS設定、及びカスタムドメインの要件について尋ねる。",
+        "suggestions": {
+          "connect": "カスタムドメインを接続するにはどうすればいいですか？",
+          "dnsRecords": "必要なDNSレコードは何ですか？",
+          "openPanel": "私のためにカスタムドメインパネルを開いて。"
+        }
+      },
+      "rosters": {
+        "label": "名簿",
+        "labelWithName": "名簿: {name}",
+        "subtitle": "名簿テンプレート、フィールド、自動化、および可視性について尋ねる。",
+        "suggestions": {
+          "build": "カスタム名簿を作成するにはどうすればよいですか？",
+          "permissions": "名簿の権限はどのように機能しますか？",
+          "openManagement": "私のために名簿管理を開いて。"
+        }
+      },
+      "profileFields": {
+        "label": "プロファイルフィールド",
+        "subtitle": "プロファイルフィールドの設定、表示オプション、および検証について尋ねる。",
+        "suggestions": {
+          "howTheyWork": "プロファイルフィールドはどのように機能しますか？",
+          "addField": "新しいプロファイルフィールドを追加するにはどうすればよいですか？",
+          "openPage": "私のためにプロファイルフィールドを開いて。"
+        }
+      },
+      "urlShortener": {
+        "label": "URL短縮",
+        "subtitle": "ショートリンク、リダイレクト、カスタムリンク管理について尋ねる。",
+        "suggestions": {
+          "howItWorks": "CMSで短縮URLはどのように機能しますか？",
+          "vanityRedirect": "カスタムリダイレクトを作成するにはどうすればよいですか？",
+          "openPage": "私のためにURL短縮ページを開いて。"
+        }
+      },
+      "securityCenter": {
+        "label": "セキュリティセンター",
+        "subtitle": "セキュリティ設定、フラグ、およびCMSセキュリティツールについて尋ねる。",
+        "suggestions": {
+          "availableTools": "ここにはどんなセキュリティツールが利用可能ですか？",
+          "reviewFlags": "フラグ付きアカウントを確認するにはどうすればいいですか？",
+          "openPanel": "私のためにセキュリティパネルを開いて。"
+        }
+      },
+      "growthCenter": {
+        "label": "成長センター",
+        "subtitle": "成長の機能、制限、およびコミュニティ拡張ツールについて尋ねる。",
+        "suggestions": {
+          "whatItDoes": "成長センターは何をしますか？",
+          "featureLimits": "機能制限を確認するにはどうすればいいですか？",
+          "openPanel": "私のために成長パネルを開いて。"
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC ゲームパネル",
+        "subtitle": "プレイヤー同期、モデレーション、アクティビティ、ER:LC パネル設定について尋ねる。",
+        "suggestions": {
+          "setup": "ER:LC ゲームパネルを設定するにはどうすればよいですか？",
+          "capabilities": "ER:LC パネルでできることは何ですか？",
+          "openPanel": "私のためにゲームパネルを開いて。"
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM ゲームパネル",
+        "subtitle": "QBCore、Qbox、キャラクター、ジョブ、アイテム、および同期について尋ねる。",
+        "suggestions": {
+          "setup": "FiveM ゲームパネルを設定するにはどうすればよいですか？",
+          "differences": "QBCore と Qbox の機能の違いは何ですか？",
+          "openPanel": "私のためにゲームパネルを開いて。"
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu ゲームパネル",
+        "subtitle": "プレイヤーリスト、リソース、ACEs、および vMenu パネルについて尋ねる。",
+        "suggestions": {
+          "howToUse": "vMenu ゲームパネルを使用するにはどうすればよいですか？",
+          "serverData": "vMenu パネルが公開するサーバーデータは何ですか？",
+          "openPanel": "私のためにゲームパネルを開いて。"
+        }
+      },
+      "administrativePanel": {
+        "label": "管理パネル",
+        "subtitle": "設定、統合、権限、および管理ワークフローについて尋ねる。",
+        "suggestions": {
+          "howToUse": "管理パネルを使用するにはどうすればよいですか？",
+          "docsForPage": "管理ページのドキュメントはどこにありますか？",
+          "openIntegrations": "私のために統合ポータルを開いて。"
+        }
+      },
+      "communityProfile": {
+        "label": "コミュニティプロファイル",
+        "subtitle": "プロファイル編集、識別子、ランク、およびアカウントの詳細について尋ねる。",
+        "suggestions": {
+          "updateProfile": "プロファイルを更新するにはどうすればよいですか？",
+          "identifiersAndRanks": "識別子とランクはどのように機能しますか？",
+          "openProfile": "私のためにプロファイルページを開いて。"
+        }
+      },
+      "default": {
+        "label": "現在のページ",
+        "subtitle": "この CMS ページについて問い合わせる、ドキュメントを検索する、または別のパネルを開く。",
+        "suggestions": {
+          "useThisPage": "このページを使用するにはどうすればよいですか？",
+          "featureDocs": "この機能のドキュメントはどこにありますか？",
+          "openPanel": "私のために正しい CMS パネルを開いて。"
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "コミュニティメニュー",
+      "communityDiscovery": "コミュニティ発見",
+      "systemAccount": "システムアカウント",
+      "dashboard": "ダッシュボード",
+      "formsCenter": "フォームセンター",
+      "formManagement": "フォーム管理",
+      "calendar": "カレンダー",
+      "drive": "ドライブ",
+      "myCommunityProfile": "私のコミュニティプロファイル",
+      "adminAccounts": "管理者アカウント",
+      "customization": "カスタマイズ",
+      "formBuilder": "フォームビルダー",
+      "ranksAndDepartments": "ランクと部門",
+      "rosters": "名簿",
+      "communityPages": "コミュニティページ",
+      "integrations": "統合",
+      "discordIntegration": "ディスコード統合",
+      "teamSpeakIntegration": "TeamSpeak統合",
+      "apiIntegration": "API統合",
+      "customDomain": "カスタムドメイン",
+      "profileFields": "プロファイルフィールド",
+      "urlShortener": "URL短縮",
+      "securityCenter": "セキュリティセンター",
+      "growthCenter": "成長センター",
+      "erlcGamePanel": "ER:LC ゲームパネル",
+      "qboxGamePanel": "Qbox ゲームパネル",
+      "vmenuGamePanel": "vMenu ゲームパネル",
+      "fiveMGamePanel": "FiveM ゲームパネル"
+    },
+    "actions": {
+      "docsHome": "ドキュメントホーム",
+      "currentDocs": "現在のドキュメント",
+      "dashboard": "ダッシュボード"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "ユーザーがナビゲートまたはパネルを開くように要求するときにSonoran CMSページを開く。",
+        "descriptionWithDestinations": "ユーザーがナビゲートまたはパネルを開くように要求するときにSonoran CMSページを開く。利用可能な宛先: {destinations}。",
+        "confirmationLabel": "このCMSページを開く",
+        "destinationDescription": "利用可能なCMS宛先を選択してください。",
+        "destinationDescriptionWithOptions": "利用可能なCMS宛先オプションのいずれかを選択してください: {destinations}。",
+        "unavailableSummary": "そのパネルはここで利用できません。利用可能なオプション: {availableOptions}。",
+        "unavailableNoOptions": "この文脈ではCMSナビゲーションターゲットは利用できません。",
+        "openedSummary": "{label} を開きました。"
+      }
+    }
   }
 }

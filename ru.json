@@ -1125,7 +1125,11 @@
     "formatKeys": "Формат ключей",
     "disabledNameCustomizations": "Формат имени отключен из-за синхронизации имен Discord",
     "onJoinActions": "Действия при присоединении",
-    "communityInfo": "Информация о сообществе"
+    "communityInfo": "Информация о сообществе",
+    "advanced": "Расширенный",
+    "transferCommunity": "Передача сообщества",
+    "deleteCommunity": "Удалить сообщество",
+    "communityId": "ID сообщества"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Узнайте, как создавать короткие URL для вашего сообщества",
@@ -1285,7 +1289,18 @@
     "Ok": "Хорошо",
     "Cancel": "Отмена",
     "foldersTitle": "Папки",
-    "formsTitle": "Формы"
+    "formsTitle": "Формы",
+    "scheduledFor": "Запланировано на {dateTime}",
+    "lockForm": "Заблокировать форму",
+    "lockFormOnDateTime": "Заблокировать форму на дату/время",
+    "unlockForm": "Разблокировать форму",
+    "scheduleFormLock": "Запланировать блокировку формы",
+    "communityTimezone": "Часовой пояс сообщества: {timezone}",
+    "lockDate": "Дата блокировки",
+    "lockTime": "Время блокировки",
+    "scheduleLock": "Запланировать блокировку",
+    "scheduledToLockOn": "Запланировано для блокировки на {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Пожалуйста, выберите будущую дату и время для запланированной блокировки."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Заблокировано для дополнительных отправок",
@@ -1396,7 +1411,8 @@
     "userSelected": "ID гражданина",
     "isAdditionalStorage": "дополнительное хранилище",
     "isTierStorage": "это уровень хранения",
-    "formsPer24Hours": "Форм за 24 часа"
+    "formsPer24Hours": "Форм за 24 часа",
+    "idTooltip": "Измените свой ID сообщества в редакторе настроек"
   },
   "EditCharacterCard": {
     "citizenId": "Имя",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Эту форму может отправить любой, разрешения не требуются.",
     "rankRestricted": "Только ранги, которым разрешено отправлять эту форму, могут отправлять.",
     "automemberRobloxUsername": "Авто-участник имя пользователя Roblox",
-    "dragAndDropARobloxUsernameElement": "Перетащите элемент с именем пользователя участника Roblox"
+    "dragAndDropARobloxUsernameElement": "Перетащите элемент с именем пользователя участника Roblox",
+    "scheduledToLockOn": "Запланировано для блокировки на {dateTime} ({timezone})",
+    "scheduleFormLock": "Запланировать блокировку формы",
+    "communityTimezone": "Часовой пояс сообщества: {timezone}",
+    "lockDate": "Дата блокировки",
+    "lockTime": "Время блокировки",
+    "scheduleLock": "Запланировать блокировку",
+    "clearScheduledLock": "Очистить запланированную блокировку",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Пожалуйста, выберите будущую дату и время для запланированной блокировки."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Страница успешно сохранена!",
@@ -4472,10 +4496,22 @@
     "communityName": "имя сообщества"
   },
   "disciplinaryConfig": {
-    "com_name": "имя компании",
-    "username": "пользовательское имя",
-    "point_reason": "причина точки",
-    "discord_ping": "пинг в Discord"
+    "com_name": {
+      "label": "Отображаемое имя сообщества",
+      "description": "Вставляет отображаемое имя сообщества пользователя."
+    },
+    "username": {
+      "label": "Имя пользователя",
+      "description": "Вставляет имя учетной записи пользователя."
+    },
+    "point_reason": {
+      "label": "Причина начисления",
+      "description": "Вставляет причину дисциплинарных очков."
+    },
+    "discord_ping": {
+      "label": "Уведомление в Discord",
+      "description": "Уведомляет пользователя в Discord."
+    }
   },
   "variables": {
     "title": "заголовок",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "онлайн в течение",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Недавно модифицировано",
+      "recentlyHealed": "Недавно исцелен",
+      "recentlyJailed": "Недавно посажен в тюрьму",
+      "recentlyReceivedNote": "Недавно получил заметку",
+      "recentlyRefreshed": "Недавно обновлено",
+      "recentlyRespawned": "Недавно возродился",
+      "recentlyAdmined": "Недавно администрирован",
+      "recentlyBanned": "Недавно забанен",
+      "recentlyUnmodded": "Недавно снят мод",
+      "recentlyKicked": "Недавно кикнут",
+      "recentlyWanted": "Недавно стал в розыске",
+      "recentlyWarned": "Недавно предупрежден",
+      "recentlyUnadmined": "Недавно снято администрирование",
+      "recentlyTeleportedTo": "Недавно тп к",
+      "recentlyUnbanned": "Недавно разбанен",
+      "recentlyUnwanted": "Недавно снятие с розыска",
+      "recentlyReceivedDisciplinaryPoints": "Недавно получил дисциплинарные очки",
+      "recentlyReceivedPrivateMessage": "Недавно получил личное сообщение",
+      "recentlyJoined": "Недавно присоединился"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Создать новую запись",
@@ -5115,14 +5171,259 @@
   "cmsHelpAssistant": {
     "eyebrow": "Официальная документация + AI навигация",
     "title": "Помощь CMS",
-    "accessibility": "[object Object]",
-    "toolbar": "[object Object]",
-    "insecureEmbed": "[object Object]",
-    "loading": "[object Object]",
-    "launcher": "[object Object]",
-    "contexts": "[object Object]",
-    "navigationTargets": "[object Object]",
-    "actions": "[object Object]",
-    "tools": "[object Object]"
+    "accessibility": {
+      "closePanel": "Закрыть помощь CMS",
+      "panelLabel": "Помощник Sonoran CMS",
+      "iframeTitle": "Помощь Sonoran CMS",
+      "openPanel": "Открыть помощь CMS"
+    },
+    "toolbar": {
+      "askAi": "Спросить искусственный интеллект",
+      "docs": "Документы",
+      "support": "Поддержка"
+    },
+    "insecureEmbed": {
+      "title": "GitBook блокирует небезопасные вставки",
+      "copy": "Вставка GitBook позволяет только HTTPS-страницы, поэтому она не будет отображаться внутри этого приложения, пока оно работает в режиме HTTP. Откройте документы в новой вкладке здесь, или протестируйте встроенного помощника из HTTPS-среды.",
+      "openDocs": "Открыть документы"
+    },
+    "loading": {
+      "title": "Загрузка помощи CMS",
+      "copy": "Подключение помощника GitBook к документам CMS."
+    },
+    "launcher": {
+      "open": "Нужна помощь?",
+      "close": "Закрыть помощь"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Меню сообщества",
+        "subtitle": "Спросите о создании, подключении или организации ваших сообществ.",
+        "suggestions": {
+          "createCommunity": "Как создать новое сообщество?",
+          "joinWithId": "Как присоединиться к сообществу по ID?",
+          "setupDocs": "Где найти документы по настройке CMS?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Обнаружение сообщества",
+        "subtitle": "Спросите о страницах обнаружения, настройках обнаружения или выделенных сообществах.",
+        "suggestions": {
+          "howItWorks": "Как работает обнаружение сообщества?",
+          "featureCommunity": "Как выделить мое сообщество здесь?",
+          "discoveryDocs": "Где находятся документы по настройкам обнаружения?"
+        }
+      },
+      "drive": {
+        "label": "Диск и документы",
+        "subtitle": "Поиск помощи по документам, совместному использованию и управлению диском.",
+        "suggestions": {
+          "sharingPermissions": "Как работают разрешения на совместное использование на диске?",
+          "organizeFiles": "Как организовать файлы и папки?",
+          "openDrive": "Откройте для меня начальную страницу диска."
+        }
+      },
+      "calendar": {
+        "label": "Календарь",
+        "subtitle": "Спросите о создании событий, RSVP, категориях и планировании.",
+        "suggestions": {
+          "createEvent": "Как создать событие в календаре?",
+          "rsvpsAndReminders": "Как работают RSVP и напоминания?",
+          "openCalendar": "Откройте для меня календарь."
+        }
+      },
+      "forms": {
+        "label": "Формы",
+        "subtitle": "Спросите о подачах заявок, процессах подачи заявлений и настройке форм.",
+        "suggestions": {
+          "howTheyWork": "Как работают формы и заявления?",
+          "manageSubmissions": "Как управлять заявками?",
+          "openManagement": "Откройте для меня вид управления формами."
+        }
+      },
+      "discordIntegration": {
+        "label": "Интеграция с Discord",
+        "subtitle": "Спросите о синхронизации ролей, настройке бота и деталях интеграции с Discord.",
+        "suggestions": {
+          "configure": "Как я могу настроить интеграцию с Discord?",
+          "roleSyncPermissions": "Какие разрешения требуются для синхронизации ролей?",
+          "openPage": "Откройте для меня страницу интеграции с Discord."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "Интеграция с TeamSpeak",
+        "subtitle": "Спросите о синхронизации ролей TeamSpeak, проверке и связывании учетной записи.",
+        "suggestions": {
+          "setupRoleSync": "Как настроить синхронизацию ролей TeamSpeak?",
+          "verification": "Как работает проверка TeamSpeak?",
+          "openPage": "Откройте для меня страницу интеграции с TeamSpeak."
+        }
+      },
+      "apiIntegration": {
+        "label": "Интеграция API",
+        "subtitle": "Спросите о разработчике API, шагах настройки или учетных данных.",
+        "suggestions": {
+          "gettingStarted": "Как начать работу с API CMS?",
+          "docs": "Где можно найти документы по интеграции API?",
+          "openPage": "Откройте для меня страницу интеграции API."
+        }
+      },
+      "customDomain": {
+        "label": "Пользовательский домен",
+        "subtitle": "Спросите о Vanity URL, настройке DNS и требованиях к пользовательскому домену.",
+        "suggestions": {
+          "connect": "Как подключить пользовательский домен?",
+          "dnsRecords": "Какие записи DNS мне нужны?",
+          "openPanel": "Откройте для меня панель пользовательского домена."
+        }
+      },
+      "rosters": {
+        "label": "Списки",
+        "labelWithName": "Список: {name}",
+        "subtitle": "Спросите о шаблонах списков, полях, автоматизации и видимости.",
+        "suggestions": {
+          "build": "Как создать пользовательский список?",
+          "permissions": "Как работают разрешения на списки?",
+          "openManagement": "Откройте для меня управление списками."
+        }
+      },
+      "profileFields": {
+        "label": "Поля профиля",
+        "subtitle": "Спросите о настройке, параметрах отображения и проверке полей профиля.",
+        "suggestions": {
+          "howTheyWork": "Как работают поля профиля?",
+          "addField": "Как я могу добавить новое поле профиля?",
+          "openPage": "Откройте для меня поля профиля."
+        }
+      },
+      "urlShortener": {
+        "label": "Укоротитель URL",
+        "subtitle": "Спросите о коротких ссылках, перенаправлениях и управлении Vanity ссылками.",
+        "suggestions": {
+          "howItWorks": "Как работают короткие URL в CMS?",
+          "vanityRedirect": "Как создать перенаправление Vanity?",
+          "openPage": "Откройте для меня укоротитель URL."
+        }
+      },
+      "securityCenter": {
+        "label": "Центр безопасности",
+        "subtitle": "Спросите о параметрах безопасности, флагах и инструментах безопасности CMS.",
+        "suggestions": {
+          "availableTools": "Какие средства безопасности доступны здесь?",
+          "reviewFlags": "Как проверить учетные записи с флагами?",
+          "openPanel": "Откройте для меня панель безопасности."
+        }
+      },
+      "growthCenter": {
+        "label": "Центр роста",
+        "subtitle": "Спросите о функциях роста, ограничениях и инструментах расширения сообществ.",
+        "suggestions": {
+          "whatItDoes": "Что делает центр роста?",
+          "featureLimits": "Как проверить мои ограничения по функциям?",
+          "openPanel": "Откройте для меня панель роста."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "Панель игры ER:LC",
+        "subtitle": "Спросите о синхронизации игроков, модерации, активности и настройке панели ER:LC.",
+        "suggestions": {
+          "setup": "Как настроить панель игры ER:LC?",
+          "capabilities": "Что может делать панель ER:LC?",
+          "openPanel": "Откройте для меня панель игры."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "Панель игры FiveM",
+        "subtitle": "Спросите о QBCore, Qbox, персонажах, работах, предметах и синхронизации.",
+        "suggestions": {
+          "setup": "Как настроить панель игры FiveM?",
+          "differences": "Как различаются функции QBCore и Qbox?",
+          "openPanel": "Откройте для меня панель игры."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "Панель игры vMenu",
+        "subtitle": "Спросите о списках игроков, ресурсах, ACE и панели vMenu.",
+        "suggestions": {
+          "howToUse": "Как пользоваться панелью игры vMenu?",
+          "serverData": "Какие данные сервера показывает панель vMenu?",
+          "openPanel": "Откройте для меня панель игры."
+        }
+      },
+      "administrativePanel": {
+        "label": "Административная панель",
+        "subtitle": "Спросите о настройках, интеграциях, разрешениях и рабочих процессах администратора.",
+        "suggestions": {
+          "howToUse": "Как пользоваться административной панелью?",
+          "docsForPage": "Где находятся документы для этой административной страницы?",
+          "openIntegrations": "Откройте для меня портал интеграций."
+        }
+      },
+      "communityProfile": {
+        "label": "Профиль сообщества",
+        "subtitle": "Спросите о редактировании профиля, идентификаторах, рангах и деталях учетной записи.",
+        "suggestions": {
+          "updateProfile": "Как обновить мой профиль?",
+          "identifiersAndRanks": "Как работают идентификаторы и ранги?",
+          "openProfile": "Открой меня профиль страницы."
+        }
+      },
+      "default": {
+        "label": "Текущая страница",
+        "subtitle": "Спросите об этой странице CMS, ищите документы или откройте другую панель.",
+        "suggestions": {
+          "useThisPage": "Как использовать эту страницу?",
+          "featureDocs": "Где находятся документы для этой функции?",
+          "openPanel": "Откройте для меня правильную панель CMS."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Меню сообщества",
+      "communityDiscovery": "Обнаружение сообщества",
+      "systemAccount": "Системный аккаунт",
+      "dashboard": "Панель управления",
+      "formsCenter": "Центр форм",
+      "formManagement": "Управление формами",
+      "calendar": "Календарь",
+      "drive": "Диск",
+      "myCommunityProfile": "Мой профиль сообщества",
+      "adminAccounts": "Аккаунты администратора",
+      "customization": "Персонализация",
+      "formBuilder": "Конструктор форм",
+      "ranksAndDepartments": "Ранги и отделы",
+      "rosters": "Списки",
+      "communityPages": "Страницы сообщества",
+      "integrations": "Интеграции",
+      "discordIntegration": "Интеграция с Discord",
+      "teamSpeakIntegration": "Интеграция с TeamSpeak",
+      "apiIntegration": "Интеграция API",
+      "customDomain": "Пользовательский домен",
+      "profileFields": "Поля профиля",
+      "urlShortener": "Укоротитель URL",
+      "securityCenter": "Центр безопасности",
+      "growthCenter": "Центр роста",
+      "erlcGamePanel": "Панель игры ER:LC",
+      "qboxGamePanel": "Панель игры Qbox",
+      "vmenuGamePanel": "Панель игры vMenu",
+      "fiveMGamePanel": "Панель игры FiveM"
+    },
+    "actions": {
+      "docsHome": "Главная страница документов",
+      "currentDocs": "Текущие документы",
+      "dashboard": "Панель управления"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Откройте страницу Sonoran CMS для пользователя, когда он запрашивает навигацию или открытие панели.",
+        "descriptionWithDestinations": "Откройте страницу Sonoran CMS для пользователя, когда он запрашивает навигацию или открытие панели. Доступные назначения: {destinations}.",
+        "confirmationLabel": "Открыть эту страницу CMS",
+        "destinationDescription": "Выберите доступное место назначения CMS.",
+        "destinationDescriptionWithOptions": "Выберите одну из доступных целей CMS: {destinations}.",
+        "unavailableSummary": "Эта панель здесь недоступна. Доступные варианты: {availableOptions}.",
+        "unavailableNoOptions": "В этом контексте нет доступных целей навигации CMS.",
+        "openedSummary": "Открыто {label}."
+      }
+    }
   }
 }

@@ -1125,7 +1125,11 @@
     "formatKeys": "Muotoile avaimet",
     "disabledNameCustomizations": "Nimen muoto poistettu käytöstä Discord-nimen synkronoinnin vuoksi",
     "onJoinActions": "Liittymiset toimet",
-    "communityInfo": "Yhteisön tiedot"
+    "communityInfo": "Yhteisön tiedot",
+    "advanced": "Edistynyt",
+    "transferCommunity": "Siirrä yhteisö",
+    "deleteCommunity": "Poista yhteisö",
+    "communityId": "Yhteisön tunnus"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL-lyhentimen opas",
@@ -1285,7 +1289,18 @@
     "Ok": "Okai",
     "Cancel": "Peruuta",
     "foldersTitle": "Kansiot",
-    "formsTitle": "Lomakkeet"
+    "formsTitle": "Lomakkeet",
+    "scheduledFor": "Aikataulutettu {dateTime}",
+    "lockForm": "Lukitse lomake",
+    "lockFormOnDateTime": "Lukitse lomake päivämäärällä/ajalla",
+    "unlockForm": "Avaa lomake",
+    "scheduleFormLock": "Aikatauluta lomakkeen lukitseminen",
+    "communityTimezone": "Yhteisön aikavyöhyke: {timezone}",
+    "lockDate": "Lukitsemispäivä",
+    "lockTime": "Lukitsemisaika",
+    "scheduleLock": "Aikatauluta lukitus",
+    "scheduledToLockOn": "Aikataulutettu lukittavaksi {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Valitse tuleva päivämäärä ja aika aikataulutetulle lukitukselle."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Estetty uusilta lähetyksiltä",
@@ -1396,7 +1411,8 @@
     "userSelected": "Käyttäjä valittu",
     "isAdditionalStorage": "lisämuisti",
     "isTierStorage": "on tason tallennus",
-    "formsPer24Hours": "Lomakkeet 24 tunnin aikana"
+    "formsPer24Hours": "Lomakkeet 24 tunnin aikana",
+    "idTooltip": "Vaihda yhteisön tunnusta muokkauksen valikossa"
   },
   "EditCharacterCard": {
     "citizenId": "Kansalais ID",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Kuka tahansa voi lähettää tämän lomakkeen, ei vaadita oikeuksia.",
     "rankRestricted": "Vain luvat saaneet arvot voivat lähettää tämän lomakkeen.",
     "automemberRobloxUsername": "Automaattijäsen Roblox-käyttäjänimi",
-    "dragAndDropARobloxUsernameElement": "Vedä ja pudota jäsenen Roblox-käyttäjänimielementti"
+    "dragAndDropARobloxUsernameElement": "Vedä ja pudota jäsenen Roblox-käyttäjänimielementti",
+    "scheduledToLockOn": "Aikataulutettu lukittavaksi {dateTime} ({timezone})",
+    "scheduleFormLock": "Aikatauluta lomakkeen lukitseminen",
+    "communityTimezone": "Yhteisön aikavyöhyke: {timezone}",
+    "lockDate": "Lukitsemispäivä",
+    "lockTime": "Lukitsemisaika",
+    "scheduleLock": "Aikatauluta lukitus",
+    "clearScheduledLock": "Tyhjennä aikataulutettu lukitus",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Valitse tuleva päivämäärä ja aika aikataulutetulle lukitukselle."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sivun tallentamisessa tapahtui virhe:",
@@ -4472,10 +4496,22 @@
     "communityName": "yhteisönNimi"
   },
   "disciplinaryConfig": {
-    "com_name": "Yhteisön nimi",
-    "username": "käyttäjänimi",
-    "point_reason": "pisteen_syys",
-    "discord_ping": "discord-pingaus"
+    "com_name": {
+      "label": "Yhteisön näyttönimi",
+      "description": "Lisää käyttäjän yhteisön näyttönimen."
+    },
+    "username": {
+      "label": "Käyttäjätunnus",
+      "description": "Lisää tilin käyttäjätunnuksen."
+    },
+    "point_reason": {
+      "label": "Pisteen syy",
+      "description": "Lisää kurinpitopisteiden syyn."
+    },
+    "discord_ping": {
+      "label": "Discord-ping",
+      "description": "Pingaa käyttäjän Discordissa."
+    }
   },
   "variables": {
     "title": "otsikko",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "verkossa varten",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Äskettäin muokattu",
+      "recentlyHealed": "Äskettäin parannettu",
+      "recentlyJailed": "Äskettäin vangittu",
+      "recentlyReceivedNote": "Äskettäin vastaanotettu huomautus",
+      "recentlyRefreshed": "Äskettäin päivitetty",
+      "recentlyRespawned": "Äskettäin uudelleensyntynyt",
+      "recentlyAdmined": "Äskettäin adminoitu",
+      "recentlyBanned": "Äskettäin estetty",
+      "recentlyUnmodded": "Äskettäin poistettu muokkaus",
+      "recentlyKicked": "Äskettäin potkaistu",
+      "recentlyWanted": "Äskettäin etsitty",
+      "recentlyWarned": "Äskettäin varoitettu",
+      "recentlyUnadmined": "Äskettäin poistettu admin-toiminto",
+      "recentlyTeleportedTo": "Äskettäin teleportattu",
+      "recentlyUnbanned": "Äskettäin poistettu esto",
+      "recentlyUnwanted": "Äskettäin poistettu etsintä",
+      "recentlyReceivedDisciplinaryPoints": "Äskettäin vastaanotettu kurinpitopisteet",
+      "recentlyReceivedPrivateMessage": "Äskettäin vastaanotettu yksityisviesti",
+      "recentlyJoined": "Äskettäin liittynyt"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Luo uusi merkintä",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "Viralliset ohjeet + tekoälynavigointi",
-    "title": "CMS-ohje"
+    "title": "CMS-ohje",
+    "accessibility": {
+      "closePanel": "Sulje CMS-ohje",
+      "panelLabel": "Sonoran CMS -ohjeavustaja",
+      "iframeTitle": "Sonoran CMS -ohje",
+      "openPanel": "Avaa CMS-ohje"
+    },
+    "toolbar": {
+      "askAi": "Kysy tekoälyltä",
+      "docs": "Dokumentit",
+      "support": "Tuki"
+    },
+    "insecureEmbed": {
+      "title": "GitBook estää ei-HTTPS-upotukset",
+      "copy": "GitBook-upotus sallii vain HTTPS-pääsivut, joten se ei näytä tätä sovellusta HTTP: n kautta. Avaa dokkarit uudessa välilehdessä täältä tai testaa upotettua avustajaa HTTPS-ympäristöstä.",
+      "openDocs": "Avaa dokumentit"
+    },
+    "loading": {
+      "title": "Ladataan CMS-ohjetta",
+      "copy": "Yhdistetään GitBook-avustaja CMS-dokumentteihin."
+    },
+    "launcher": {
+      "open": "Tarvitsetko apua?",
+      "close": "Sulje apu"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Yhteisön valikko",
+        "subtitle": "Kysy yhteisön luomisesta, liittymisestä tai järjestämisestä.",
+        "suggestions": {
+          "createCommunity": "Kuinka luon uuden yhteisön?",
+          "joinWithId": "Kuinka liityn yhteisöön ID:llä?",
+          "setupDocs": "Mistä löydän CMS:n asetusdokumentit?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Yhteisön löytäminen",
+        "subtitle": "Kysy löytösivuista, asetusvalinnoista tai esitellyistä yhteisöistä.",
+        "suggestions": {
+          "howItWorks": "Miten yhteisön löytäminen toimii?",
+          "featureCommunity": "Kuinka esittelen yhteisöni täällä?",
+          "discoveryDocs": "Missä ovat löytöasetusdokumentit?"
+        }
+      },
+      "drive": {
+        "label": "Aja & dokumentit",
+        "subtitle": "Etsi dokumentti, jakaminen ja aja-hallinnan apua.",
+        "suggestions": {
+          "sharingPermissions": "Miten jakamisoikeudet toimivat ajassa?",
+          "organizeFiles": "Kuinka järjestän tiedostoja ja kansioita?",
+          "openDrive": "Avaa aja koti minulle."
+        }
+      },
+      "calendar": {
+        "label": "Kalenteri",
+        "subtitle": "Kysy tapahtuman luomisesta, RSVP-tilaisuuksista, kategorioista ja ajoittamisesta.",
+        "suggestions": {
+          "createEvent": "Kuinka luon kalenteritapahtuman?",
+          "rsvpsAndReminders": "Miten RSVP: t ja muistutukset toimivat?",
+          "openCalendar": "Avaa kalenteri minulle."
+        }
+      },
+      "forms": {
+        "label": "Lomakkeet",
+        "subtitle": "Kysy lähetyksistä, hakemusvirroista ja lomakkeen asetuksista.",
+        "suggestions": {
+          "howTheyWork": "Miten lomakkeet ja hakemukset toimivat?",
+          "manageSubmissions": "Kuinka hallinnoin lähetyksiä?",
+          "openManagement": "Avaa lomakehallinnan näkymä minulle."
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord-integraatio",
+        "subtitle": "Kysy roolien synkronoinnista, botin asetuksista ja Discordin integraatiosta.",
+        "suggestions": {
+          "configure": "Kuinka konfiguroin Discord-integraation?",
+          "roleSyncPermissions": "Mitä oikeuksia vaaditaan roolien synkronointiin?",
+          "openPage": "Avaa minulle Discord-integraatiosivu."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak-integraatio",
+        "subtitle": "Kysy TeamSpeakin roolin synkronoinnista, vahvistuksesta ja tilin linkittämisestä.",
+        "suggestions": {
+          "setupRoleSync": "Kuinka asetan TeamSpeak-roolien synkronoinnin?",
+          "verification": "Miten TeamSpeakin vahvistus toimii?",
+          "openPage": "Avaa TeamSpeak-integraatiosivu minulle."
+        }
+      },
+      "apiIntegration": {
+        "label": "API-integraatio",
+        "subtitle": "Kysy kehittäjä-API:sta, asetusvaiheista tai tunnistetiedoista.",
+        "suggestions": {
+          "gettingStarted": "Kuinka aloitan CMS-API:n kanssa?",
+          "docs": "Mistä löydän API-integraatiodokumentit?",
+          "openPage": "Avaa API-integraatiosivu minulle."
+        }
+      },
+      "customDomain": {
+        "label": "Mukautettu verkkotunnus",
+        "subtitle": "Kysy mukautetuista URL-osoitteista, DNS-asetuksista ja mukautetuista verkkotunnusvaatimuksista.",
+        "suggestions": {
+          "connect": "Kuinka yhdistän mukautetun verkkotunnuksen?",
+          "dnsRecords": "Mitkä DNS-tietueet tarvitsen?",
+          "openPanel": "Avaa mukautetun verkkotunnuksen hallinta minulle."
+        }
+      },
+      "rosters": {
+        "label": "Luettelot",
+        "labelWithName": "Luettelo: {name}",
+        "subtitle": "Kysy luettelomalleista, kentistä, automaatiosta ja näkyvyydestä.",
+        "suggestions": {
+          "build": "Kuinka rakennan mukautetun luettelon?",
+          "permissions": "Miten luettelon käyttöoikeudet toimivat?",
+          "openManagement": "Avaa luettelonhallinta minulle."
+        }
+      },
+      "profileFields": {
+        "label": "Profiilikentät",
+        "subtitle": "Kysy profiilikenttien asetuksista, näyttövaihtoehdoista ja vahvistuksesta.",
+        "suggestions": {
+          "howTheyWork": "Kuinka profiilikentät toimivat?",
+          "addField": "Kuinka lisään uuden profiilikentän?",
+          "openPage": "Avaa profiilikentät minulle."
+        }
+      },
+      "urlShortener": {
+        "label": "URL-lyhennin",
+        "subtitle": "Kysy lyhyistä linkeistä, uudelleenohjauksista ja julkisten linkkien hallinnasta.",
+        "suggestions": {
+          "howItWorks": "Kuinka lyhyet URL-osoitteet toimivat CMS:ssä?",
+          "vanityRedirect": "Kuinka luon mukautetun uudelleenohjauksen?",
+          "openPage": "Avaa URL-lyhennin minulle."
+        }
+      },
+      "securityCenter": {
+        "label": "Tietoturvakeskus",
+        "subtitle": "Kysy tietoturva-asetuksista, lipuista ja CMS-tietoturvatyökaluista.",
+        "suggestions": {
+          "availableTools": "Mitä tietoturvatyökaluja on saatavilla täällä?",
+          "reviewFlags": "Kuinka tarkastan lippumäärätyt tilit?",
+          "openPanel": "Avaa tietoturvapaneeli minulle."
+        }
+      },
+      "growthCenter": {
+        "label": "Kasvukeskus",
+        "subtitle": "Kysy kasvun ominaisuuksista, rajoista ja yhteisön laajennustyökaluista.",
+        "suggestions": {
+          "whatItDoes": "Mitä kasvukeskus tekee?",
+          "featureLimits": "Kuinka tarkistan toimintarajoitukseni?",
+          "openPanel": "Avaa kasvupaneeli minulle."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC-pelipaneeli",
+        "subtitle": "Kysy pelaajien synkronoinnista, moderoinnista, aktiivisuudesta ja ER:LC-paneelin asetuksista.",
+        "suggestions": {
+          "setup": "Kuinka asetan ER:LC-pelipaneelin?",
+          "capabilities": "Mitä ER:LC-paneeli voi tehdä?",
+          "openPanel": "Avaa pelipaneeli minulle."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM-pelipaneeli",
+        "subtitle": "Kysy QBCoresta, Qboxista, hahmoista, töistä, esineistä ja synkronoinnista.",
+        "suggestions": {
+          "setup": "Kuinka asetan FiveM-pelipaneelin?",
+          "differences": "Miten QBCore ja Qbox-ominaisuudet eroavat toisistaan?",
+          "openPanel": "Avaa pelipaneeli minulle."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu-pelipaneeli",
+        "subtitle": "Kysy pelaajalistoista, resursseista, ACEista ja vMenu-paneelista.",
+        "suggestions": {
+          "howToUse": "Kuinka käytän vMenu-pelipaneelia?",
+          "serverData": "Millaista serveritietoa vMenu-paneeli paljastaa?",
+          "openPanel": "Avaa pelipaneeli minulle."
+        }
+      },
+      "administrativePanel": {
+        "label": "Hallintapaneeli",
+        "subtitle": "Kysy asetuksista, integraatioista, oikeuksista ja hallinnon työnkuluista.",
+        "suggestions": {
+          "howToUse": "Kuinka käytän hallintapaneelia?",
+          "docsForPage": "Missä ovat ohjeet tälle hallintopaneelisivulle?",
+          "openIntegrations": "Avaa integraatioportaali minulle."
+        }
+      },
+      "communityProfile": {
+        "label": "Yhteisöprofiili",
+        "subtitle": "Kysy profiilin muokkauksesta, tunnisteista, arvosanoista ja tilitiedoista.",
+        "suggestions": {
+          "updateProfile": "Kuinka päivitän profiilini?",
+          "identifiersAndRanks": "Kuinka tunnisteet ja arvosanat toimivat?",
+          "openProfile": "Avaa profiilisivuni minulle."
+        }
+      },
+      "default": {
+        "label": "Nykyinen sivu",
+        "subtitle": "Kysy tällä CMS-sivulla, etsi dokumenteista tai avaa toinen paneeli.",
+        "suggestions": {
+          "useThisPage": "Kuinka käytän tätä sivua?",
+          "featureDocs": "Missä ovat tämän ominaisuuden dokumentit?",
+          "openPanel": "Avaa oikea CMS-paneeli minulle."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Yhteisön valikko",
+      "communityDiscovery": "Yhteisön löytäminen",
+      "systemAccount": "Järjestelmän tili",
+      "dashboard": "Kojelauta",
+      "formsCenter": "Lomakekeskus",
+      "formManagement": "Lomakkeen hallinta",
+      "calendar": "Kalenteri",
+      "drive": "Aja",
+      "myCommunityProfile": "Yhteisöprofiilini",
+      "adminAccounts": "Admin-tilit",
+      "customization": "Mukauttaminen",
+      "formBuilder": "Lomakkeen rakentaja",
+      "ranksAndDepartments": "Arvot ja osastot",
+      "rosters": "Luettelot",
+      "communityPages": "Yhteisösivut",
+      "integrations": "Integraatiot",
+      "discordIntegration": "Discord-integraatio",
+      "teamSpeakIntegration": "TeamSpeak-integraatio",
+      "apiIntegration": "API-integraatio",
+      "customDomain": "Mukautettu verkkotunnus",
+      "profileFields": "Profiilikentät",
+      "urlShortener": "URL-lyhennin",
+      "securityCenter": "Tietoturvakeskus",
+      "growthCenter": "Kasvukeskus",
+      "erlcGamePanel": "ER:LC-pelipaneeli",
+      "qboxGamePanel": "Qbox-pelipaneeli",
+      "vmenuGamePanel": "vMenu-pelipaneeli",
+      "fiveMGamePanel": "FiveM-pelipaneeli"
+    },
+    "actions": {
+      "docsHome": "Dokumenttien pääsivu",
+      "currentDocs": "Nykyiset dokumentit",
+      "dashboard": "Kojelauta"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Avaa Sonoran CMS -sivu käyttäjälle, kun hän pyytää siirtymään tai avaamaan paneelin.",
+        "descriptionWithDestinations": "Avaa Sonoran CMS -sivu käyttäjälle, kun hän pyytää siirtymään tai avaamaan paneelin. Saatavilla olevat kohteet: {destinations}.",
+        "confirmationLabel": "Avaa tämä CMS-sivu",
+        "destinationDescription": "Valitse saatavilla oleva CMS-kohde.",
+        "destinationDescriptionWithOptions": "Valitse yksi käytettävissä olevista CMS-kohteista: {destinations}.",
+        "unavailableSummary": "Tämä paneeli ei ole täällä käytettävissä. Saatavilla olevat vaihtoehdot: {availableOptions}.",
+        "unavailableNoOptions": "Tässä kontekstissa ei ole käytettävissä CMS-navigointikohteita.",
+        "openedSummary": "Avattu {label}."
+      }
+    }
   }
 }

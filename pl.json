@@ -1125,7 +1125,11 @@
     "formatKeys": "Formatuj klucze",
     "disabledNameCustomizations": "Format imienia wyłączony z powodu synchronizacji nazw Discord",
     "onJoinActions": "Akcje przy dołączeniu",
-    "communityInfo": "Informacje o społeczności"
+    "communityInfo": "Informacje o społeczności",
+    "advanced": "Zaawansowane",
+    "transferCommunity": "Przekaż społeczność",
+    "deleteCommunity": "Usuń społeczność",
+    "communityId": "ID społeczności"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Samouczek skracacza URL",
@@ -1285,7 +1289,18 @@
     "Ok": "Ok",
     "Cancel": "Anuluj",
     "foldersTitle": "Foldery",
-    "formsTitle": "Formularze"
+    "formsTitle": "Formularze",
+    "scheduledFor": "Zaplanowano na {dateTime}",
+    "lockForm": "Zablokuj formularz",
+    "lockFormOnDateTime": "Zablokuj formularz w dniu/godzinie",
+    "unlockForm": "Odblokuj formularz",
+    "scheduleFormLock": "Zaplanuj blokadę formularza",
+    "communityTimezone": "Strefa czasowa społeczności: {timezone}",
+    "lockDate": "Data blokady",
+    "lockTime": "Godzina blokady",
+    "scheduleLock": "Zaplanuj blokadę",
+    "scheduledToLockOn": "Zaplanowano blokadę na {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Proszę wybrać przyszłą datę i godzinę dla zaplanowanej blokady."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Zablokowane przed nowymi zgłoszeniami",
@@ -1396,7 +1411,8 @@
     "userSelected": "Użytkownik wybrany",
     "isAdditionalStorage": "jest dodatkowe miejsce na dysku",
     "isTierStorage": "é Armazenamento de Nível",
-    "formsPer24Hours": "Formularze na 24 godziny"
+    "formsPer24Hours": "Formularze na 24 godziny",
+    "idTooltip": "Zmień swoje ID społeczności w edytorze dostosowywania"
   },
   "EditCharacterCard": {
     "citizenId": "ID obywatela",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Każdy może przesłać ten formularz, nie są wymagane żadne uprawnienia.",
     "rankRestricted": "Tylko stopnie posiadające uprawnienia do przesyłania tego formularza mogą go przesłać.",
     "automemberRobloxUsername": "Automatyczna nazwa użytkownika Roblox",
-    "dragAndDropARobloxUsernameElement": "Przeciągnij i upuść element nazwy użytkownika Roblox członka"
+    "dragAndDropARobloxUsernameElement": "Przeciągnij i upuść element nazwy użytkownika Roblox członka",
+    "scheduledToLockOn": "Zaplanowano blokadę na {dateTime} ({timezone})",
+    "scheduleFormLock": "Zaplanuj blokadę formularza",
+    "communityTimezone": "Strefa czasowa społeczności: {timezone}",
+    "lockDate": "Data blokady",
+    "lockTime": "Godzina blokady",
+    "scheduleLock": "Zaplanuj blokadę",
+    "clearScheduledLock": "Wyczyść zaplanowaną blokadę",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Proszę wybrać przyszłą datę i godzinę dla zaplanowanej blokady."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Wystąpił błąd podczas zapisywania strony:",
@@ -4472,10 +4496,22 @@
     "communityName": "nazwaSpołeczności"
   },
   "disciplinaryConfig": {
-    "com_name": "nazwa firmy",
-    "username": "nazwa użytkownika",
-    "point_reason": "powód punktu",
-    "discord_ping": "discord_ping"
+    "com_name": {
+      "label": "Nazwa wyświetlana społeczności",
+      "description": "Wstawia nazwę wyświetlaną użytkownika."
+    },
+    "username": {
+      "label": "Nazwa użytkownika",
+      "description": "Wstawia nazwę konta użytkownika."
+    },
+    "point_reason": {
+      "label": "Powód punktu",
+      "description": "Wstawia powód punktów dyscyplinarnych."
+    },
+    "discord_ping": {
+      "label": "Ping Discorda",
+      "description": "Ping użytkownika w Discordzie."
+    }
   },
   "variables": {
     "title": "tytuł",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "Online przez",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Ostatnio zmodyfikowany",
+      "recentlyHealed": "Ostatnio wyleczony",
+      "recentlyJailed": "Ostatnio uwięziony",
+      "recentlyReceivedNote": "Ostatnio otrzymał notatkę",
+      "recentlyRefreshed": "Ostatnio odświeżony",
+      "recentlyRespawned": "Ostatnio odrodzony",
+      "recentlyAdmined": "Ostatnio zarządzany",
+      "recentlyBanned": "Ostatnio zbanowany",
+      "recentlyUnmodded": "Ostatnio odmodowany",
+      "recentlyKicked": "Ostatnio wyrzucony",
+      "recentlyWanted": "Ostatnio poszukiwany",
+      "recentlyWarned": "Ostatnio ostrzeżony",
+      "recentlyUnadmined": "Ostatnio odadministracyjny",
+      "recentlyTeleportedTo": "Ostatnio przeteleportowany do",
+      "recentlyUnbanned": "Ostatnio odbanowany",
+      "recentlyUnwanted": "Ostatnio niechciany",
+      "recentlyReceivedDisciplinaryPoints": "Ostatnio otrzymane punkty dyscyplinarne",
+      "recentlyReceivedPrivateMessage": "Ostatnio otrzymał wiadomość prywatną",
+      "recentlyJoined": "Ostatnio dołączył"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Utwórz nowy rekord",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "Oficjalna dokumentacja + nawigacja AI",
-    "title": "Pomoc CMS"
+    "title": "Pomoc CMS",
+    "accessibility": {
+      "closePanel": "Zamknij pomoc CMS",
+      "panelLabel": "Sonoran CMS asystent pomocy",
+      "iframeTitle": "Sonoran CMS pomoc",
+      "openPanel": "Otwórz pomoc CMS"
+    },
+    "toolbar": {
+      "askAi": "Zapytaj AI",
+      "docs": "Dokumentacja",
+      "support": "Wsparcie"
+    },
+    "insecureEmbed": {
+      "title": "GitBook blokuje osadzenia bez HTTPS",
+      "copy": "Osadzanie GitBooka pozwala tylko na strony nadrzędne HTTPS, dlatego nie jest renderowane w tej aplikacji, gdy działa przez HTTP. Otwórz dokumentację w nowej karcie tutaj lub przetestuj osadzonego asystenta z środowiska HTTPS.",
+      "openDocs": "Otwórz dokumentację"
+    },
+    "loading": {
+      "title": "Ładowanie pomocy CMS",
+      "copy": "Łączenie asystenta GitBook z dokumentacją CMS."
+    },
+    "launcher": {
+      "open": "Potrzebujesz pomocy?",
+      "close": "Zamknij pomoc"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Menu społeczności",
+        "subtitle": "Zapytaj o tworzenie, dołączanie lub organizowanie swoich społeczności.",
+        "suggestions": {
+          "createCommunity": "Jak utworzyć nową społeczność?",
+          "joinWithId": "Jak dołączyć do społeczności za pomocą ID?",
+          "setupDocs": "Gdzie mogę znaleźć dokumentację konfiguracji CMS?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Odkrywanie społeczności",
+        "subtitle": "Zapytaj o strony odkrywania, ustawienia odkrywania lub wyróżnione społeczności.",
+        "suggestions": {
+          "howItWorks": "Jak działa odkrywanie społeczności?",
+          "featureCommunity": "Jak uwidocznić swoją społeczność tutaj?",
+          "discoveryDocs": "Gdzie jest dokumentacja ustawień odkrywania?"
+        }
+      },
+      "drive": {
+        "label": "Dysk i dokumenty",
+        "subtitle": "Wyszukaj pomoc dotycząca dokumentów, udostępniania i zarządzania dyskiem.",
+        "suggestions": {
+          "sharingPermissions": "Jak działają uprawnienia do udostępniania w dysku?",
+          "organizeFiles": "Jak zorganizować pliki i foldery?",
+          "openDrive": "Otwórz stronie główną dysku dla mnie."
+        }
+      },
+      "calendar": {
+        "label": "Kalendarz",
+        "subtitle": "Zapytaj o tworzenie wydarzeń, RSVPy, kategorie i harmonogramy.",
+        "suggestions": {
+          "createEvent": "Jak utworzyć wydarzenie w kalendarzu?",
+          "rsvpsAndReminders": "Jak działają RSVPy i przypomnienia?",
+          "openCalendar": "Otwórz kalendarz dla mnie."
+        }
+      },
+      "forms": {
+        "label": "Formularze",
+        "subtitle": "Zapytaj o zgłoszenia, przepływy aplikacji i konfigurację formularza.",
+        "suggestions": {
+          "howTheyWork": "Jak działają formularze i aplikacje?",
+          "manageSubmissions": "Jak zarządzać zgłoszeniami?",
+          "openManagement": "Otwórz widok zarządzania formularzami dla mnie."
+        }
+      },
+      "discordIntegration": {
+        "label": "Integracja z Discordem",
+        "subtitle": "Zapytaj o synchronizację ról, konfigurację bota i szczegóły integracji z Discordem.",
+        "suggestions": {
+          "configure": "Jak skonfigurować integrację z Discordem?",
+          "roleSyncPermissions": "Jakie uprawnienia są wymagane do synchronizacji ról?",
+          "openPage": "Otwórz stronę integracji z Discordem dla mnie."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "Integracja z TeamSpeak",
+        "subtitle": "Zapytaj o synchronizację ról z TeamSpeak, weryfikację i powiązanie konta.",
+        "suggestions": {
+          "setupRoleSync": "Jak skonfigurować synchronizację ról z TeamSpeak?",
+          "verification": "Jak działa weryfikacja w TeamSpeak?",
+          "openPage": "Otwórz stronę integracji z TeamSpeak dla mnie."
+        }
+      },
+      "apiIntegration": {
+        "label": "Integracja API",
+        "subtitle": "Zapytaj o API dla deweloperów, kroki konfiguracji lub dane uwierzytelniające.",
+        "suggestions": {
+          "gettingStarted": "Jak zacząć z API CMS?",
+          "docs": "Gdzie mogę znaleźć dokumentację integracji API?",
+          "openPage": "Otwórz stronę integracji API dla mnie."
+        }
+      },
+      "customDomain": {
+        "label": "Domena niestandardowa",
+        "subtitle": "Zapytaj o adresy URL vanity, konfigurację DNS i wymagania dotyczące domen niestandardowych.",
+        "suggestions": {
+          "connect": "Jak połączyć niestandardową domenę?",
+          "dnsRecords": "Jakie rekordy DNS są potrzebne?",
+          "openPanel": "Otwórz panel domeny niestandardowej dla mnie."
+        }
+      },
+      "rosters": {
+        "label": "Skład",
+        "labelWithName": "Skład: {name}",
+        "subtitle": "Zapytaj o szablony składu, pola, automatyzację i widoczność.",
+        "suggestions": {
+          "build": "Jak zbudować niestandardowy skład?",
+          "permissions": "Jak działają uprawnienia składu?",
+          "openManagement": "Otwórz zarządzanie składem dla mnie."
+        }
+      },
+      "profileFields": {
+        "label": "Pola profilu",
+        "subtitle": "Zapytaj o konfigurację pol profilu, opcje wyświetlania i walidację.",
+        "suggestions": {
+          "howTheyWork": "Jak działają pola profilu?",
+          "addField": "Jak dodać nowe pole profilu?",
+          "openPage": "Otwórz pola profilu dla mnie."
+        }
+      },
+      "urlShortener": {
+        "label": "Skracacz URL",
+        "subtitle": "Zapytaj o krótkie linki, przekierowania i zarządzanie linkami vanity.",
+        "suggestions": {
+          "howItWorks": "Jak działają krótkie URL w CMS?",
+          "vanityRedirect": "Jak stworzyć przekierowanie vanity?",
+          "openPage": "Otwórz skracacz URL dla mnie."
+        }
+      },
+      "securityCenter": {
+        "label": "Centrum bezpieczeństwa",
+        "subtitle": "Zapytaj o preferencje bezpieczeństwa, flagi i narzędzia CMS bezpieczeństwa.",
+        "suggestions": {
+          "availableTools": "Jakie narzędzia bezpieczeństwa są tu dostępne?",
+          "reviewFlags": "Jak przeglądać oznaczone konta?",
+          "openPanel": "Otwórz panel bezpieczeństwa dla mnie."
+        }
+      },
+      "growthCenter": {
+        "label": "Centrum wzrostu",
+        "subtitle": "Zapytaj o funkcje wzrostu, limity i narzędzia do rozszerzania społeczności.",
+        "suggestions": {
+          "whatItDoes": "Czym zajmuje się centrum wzrostu?",
+          "featureLimits": "Jak sprawdzić swoje limity funkcji?",
+          "openPanel": "Otwórz panel wzrostu dla mnie."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "Panel gry ER:LC",
+        "subtitle": "Zapytaj o synchronizację graczy, moderację, aktywność i konfigurację panelu ER:LC.",
+        "suggestions": {
+          "setup": "Jak skonfigurować panel gry ER:LC?",
+          "capabilities": "Co może panel ER:LC?",
+          "openPanel": "Otwórz panel gry dla mnie."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "Panel gry FiveM",
+        "subtitle": "Zapytaj o QBCore, Qbox, postacie, zadania, przedmioty i synchronizację.",
+        "suggestions": {
+          "setup": "Jak skonfigurować panel gry FiveM?",
+          "differences": "Jak różnią się funkcje QBCore i Qbox?",
+          "openPanel": "Otwórz panel gry dla mnie."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "Panel gry vMenu",
+        "subtitle": "Zapytaj o listy graczy, zasoby, ACEs i panel vMenu.",
+        "suggestions": {
+          "howToUse": "Jak używać panelu gry vMenu?",
+          "serverData": "Jakie dane serwera wyświetla panel vMenu?",
+          "openPanel": "Otwórz panel gry dla mnie."
+        }
+      },
+      "administrativePanel": {
+        "label": "Panel administracyjny",
+        "subtitle": "Zapytaj o ustawienia, integracje, uprawnienia i przepływy pracy admina.",
+        "suggestions": {
+          "howToUse": "Jak używać panelu administracyjnego?",
+          "docsForPage": "Gdzie jest dokumentacja tej strony admina?",
+          "openIntegrations": "Otwórz portal integracji dla mnie."
+        }
+      },
+      "communityProfile": {
+        "label": "Profil społeczności",
+        "subtitle": "Zapytaj o edytowanie profilu, identyfikatory, rangi i informacje o koncie.",
+        "suggestions": {
+          "updateProfile": "Jak zaktualizować mój profil?",
+          "identifiersAndRanks": "Jak działają identyfikatory i rangi?",
+          "openProfile": "Otwórz stronę mojego profilu dla mnie."
+        }
+      },
+      "default": {
+        "label": "Obecna strona",
+        "subtitle": "Zapytaj o tę stronę CMS, przeszukaj dokumentację lub otwórz inny panel.",
+        "suggestions": {
+          "useThisPage": "Jak używać tej strony?",
+          "featureDocs": "Gdzie jest dokumentacja tej funkcji?",
+          "openPanel": "Otwórz odpowiedni panel CMS dla mnie."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Menu społeczności",
+      "communityDiscovery": "Odkrywanie społeczności",
+      "systemAccount": "Konto systemowe",
+      "dashboard": "Pulpit nawigacyjny",
+      "formsCenter": "Centrum formularzy",
+      "formManagement": "Zarządzanie formularzami",
+      "calendar": "Kalendarz",
+      "drive": "Dysk",
+      "myCommunityProfile": "Mój profil społeczności",
+      "adminAccounts": "Konta admina",
+      "customization": "Dostosowywanie",
+      "formBuilder": "Kreator formularzy",
+      "ranksAndDepartments": "Rangi i działy",
+      "rosters": "Składy",
+      "communityPages": "Strony społeczności",
+      "integrations": "Integracje",
+      "discordIntegration": "Integracja z Discordem",
+      "teamSpeakIntegration": "Integracja z TeamSpeak",
+      "apiIntegration": "Integracja API",
+      "customDomain": "Domena niestandardowa",
+      "profileFields": "Pola profilu",
+      "urlShortener": "Skracacz URL",
+      "securityCenter": "Centrum bezpieczeństwa",
+      "growthCenter": "Centrum wzrostu",
+      "erlcGamePanel": "Panel gry ER:LC",
+      "qboxGamePanel": "Panel gry Qbox",
+      "vmenuGamePanel": "Panel gry vMenu",
+      "fiveMGamePanel": "Panel gry FiveM"
+    },
+    "actions": {
+      "docsHome": "Strona główna dokumentacji",
+      "currentDocs": "Obecna dokumentacja",
+      "dashboard": "Pulpit nawigacyjny"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Otwórz stronę Sonoran CMS dla użytkownika, gdy poproszą o nawigację lub otwarcie panelu.",
+        "descriptionWithDestinations": "Otwórz stronę Sonoran CMS dla użytkownika, gdy poproszą o nawigację lub otwarcie panelu. Dostępne destynacje: {destinations}.",
+        "confirmationLabel": "Otwórz tę stronę CMS",
+        "destinationDescription": "Wybierz dostępne miejsce docelowe CMS.",
+        "destinationDescriptionWithOptions": "Wybierz jedne z dostępnych miejsc docelowych CMS: {destinations}.",
+        "unavailableSummary": "Ten panel nie jest tutaj dostępny. Dostępne opcje: {availableOptions}.",
+        "unavailableNoOptions": "W tym kontekście nie są dostępne żadne cele nawigacyjne CMS.",
+        "openedSummary": "Otwarto {label}."
+      }
+    }
   }
 }

@@ -1125,7 +1125,11 @@
     "formatKeys": "형식 키",
     "disabledNameCustomizations": "디스코드 이름 동기화로 인해 이름 형식 사용 안 함",
     "onJoinActions": "참가 시 작업",
-    "communityInfo": "커뮤니티 정보"
+    "communityInfo": "커뮤니티 정보",
+    "advanced": "고급",
+    "transferCommunity": "커뮤니티 전송",
+    "deleteCommunity": "커뮤니티 삭제",
+    "communityId": "커뮤니티 ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "커뮤니티를 위한 짧은 URL을 만드는 방법을 배우세요",
@@ -1285,7 +1289,18 @@
     "Ok": "확인",
     "Cancel": "취소",
     "foldersTitle": "폴더",
-    "formsTitle": "폼"
+    "formsTitle": "폼",
+    "scheduledFor": "{dateTime} 예정",
+    "lockForm": "양식 잠금",
+    "lockFormOnDateTime": "날짜/시간에 양식 잠금",
+    "unlockForm": "양식 잠금 해제",
+    "scheduleFormLock": "양식 잠금 일정",
+    "communityTimezone": "커뮤니티 시간대: {timezone}",
+    "lockDate": "잠금 날짜",
+    "lockTime": "잠금 시간",
+    "scheduleLock": "잠금 일정",
+    "scheduledToLockOn": "{dateTime}에 잠금 예정",
+    "pleaseChooseFutureDateTimeForScheduledLock": "예약 잠금용 미래 날짜 및 시간을 선택해 주세요."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "추가 제출물로부터 차단됨",
@@ -1396,7 +1411,8 @@
     "userSelected": "시민 ID",
     "isAdditionalStorage": "추가 저장소입니다",
     "isTierStorage": "계층 저장소입니다",
-    "formsPer24Hours": "24시간당 양식 수"
+    "formsPer24Hours": "24시간당 양식 수",
+    "idTooltip": "Customization Editor에서 커뮤니티 ID를 변경하세요"
   },
   "EditCharacterCard": {
     "citizenId": "이름",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "누구나 이 양식을 제출할 수 있으며, 권한이 필요하지 않습니다.",
     "rankRestricted": "이 양식을 제출할 권한이 부여된 계급만 제출할 수 있습니다.",
     "automemberRobloxUsername": "자동 회원 Roblox 사용자 이름",
-    "dragAndDropARobloxUsernameElement": "회원 Roblox 사용자 이름 요소를 끌어서 놓기"
+    "dragAndDropARobloxUsernameElement": "회원 Roblox 사용자 이름 요소를 끌어서 놓기",
+    "scheduledToLockOn": "{dateTime} ({timezone})에 잠금 예정",
+    "scheduleFormLock": "양식 잠금 일정",
+    "communityTimezone": "커뮤니티 시간대: {timezone}",
+    "lockDate": "잠금 날짜",
+    "lockTime": "잠금 시간",
+    "scheduleLock": "잠금 일정",
+    "clearScheduledLock": "예약된 잠금 해제",
+    "pleaseChooseFutureDateTimeForScheduledLock": "예약 잠금용 미래 날짜 및 시간을 선택해 주세요."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "페이지를 저장하는 데 문제가 발생했습니다",
@@ -4472,10 +4496,22 @@
     "communityName": "커뮤니티 이름"
   },
   "disciplinaryConfig": {
-    "com_name": "커뮤니티 이름",
-    "username": "사용자 이름",
-    "point_reason": "포인트 이유",
-    "discord_ping": "디스코드 핑"
+    "com_name": {
+      "label": "커뮤니티 표시 이름",
+      "description": "사용자의 커뮤니티 표시 이름을 삽입합니다."
+    },
+    "username": {
+      "label": "사용자 이름",
+      "description": "계정 사용자 이름을 삽입합니다."
+    },
+    "point_reason": {
+      "label": "포인트 사유",
+      "description": "징계 포인트의 사유를 삽입합니다."
+    },
+    "discord_ping": {
+      "label": "디스코드 핑",
+      "description": "디스코드에서 사용자를 핑합니다."
+    }
   },
   "variables": {
     "title": "제목",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "온라인 동안",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "최근 모드 적용",
+      "recentlyHealed": "최근 치유됨",
+      "recentlyJailed": "최근 수감됨",
+      "recentlyReceivedNote": "최근 노트 수신",
+      "recentlyRefreshed": "최근 새로 고침",
+      "recentlyRespawned": "최근 리스폰",
+      "recentlyAdmined": "최근 관리자 권한 부여",
+      "recentlyBanned": "최근 차단됨",
+      "recentlyUnmodded": "최근 모드 해제",
+      "recentlyKicked": "최근 추방됨",
+      "recentlyWanted": "최근 지명수배",
+      "recentlyWarned": "최근 경고받음",
+      "recentlyUnadmined": "최근 관리자 권한 해제",
+      "recentlyTeleportedTo": "최근 텔레포트됨",
+      "recentlyUnbanned": "최근 차단 해제",
+      "recentlyUnwanted": "최근 지명 해제",
+      "recentlyReceivedDisciplinaryPoints": "최근 징계 포인트 수신",
+      "recentlyReceivedPrivateMessage": "최근 개인 메시지 수신",
+      "recentlyJoined": "최근 가입"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "새 기록 생성",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "공식 문서 + AI 탐색",
-    "title": "CMS 도움말"
+    "title": "CMS 도움말",
+    "accessibility": {
+      "closePanel": "CMS 도움말 닫기",
+      "panelLabel": "Sonoran CMS 도움말 어시스턴트",
+      "iframeTitle": "Sonoran CMS 도움말",
+      "openPanel": "CMS 도움말 열기"
+    },
+    "toolbar": {
+      "askAi": "AI에게 질문",
+      "docs": "문서",
+      "support": "지원"
+    },
+    "insecureEmbed": {
+      "title": "GitBook 비HTTPS 임베드 차단",
+      "copy": "GitBook 임베드는 오직 HTTPS 부모 페이지만 허용하므로 HTTP로 운영 중인 이 앱 내에서는 렌더링되지 않습니다. 새 탭에서 문서를 열거나 HTTPS 환경에서 임베드된 어시스턴트를 테스트하세요.",
+      "openDocs": "문서 열기"
+    },
+    "loading": {
+      "title": "CMS 도움말 로딩 중",
+      "copy": "GitBook 어시스턴트와 CMS 문서를 연결 중입니다."
+    },
+    "launcher": {
+      "open": "도움이 필요하신가요?",
+      "close": "도움말 닫기"
+    },
+    "contexts": {
+      "menu": {
+        "label": "커뮤니티 메뉴",
+        "subtitle": "커뮤니티 생성, 가입 또는 조직에 대해 물어보세요.",
+        "suggestions": {
+          "createCommunity": "새 커뮤니티는 어떻게 생성하나요?",
+          "joinWithId": "ID로 커뮤니티에 가입하려면 어떻게 하나요?",
+          "setupDocs": "CMS 설정 문서는 어디에서 찾을 수 있나요?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "커뮤니티 탐색",
+        "subtitle": "탐색 페이지, 설정 또는 추천 커뮤니티에 대해 물어보세요.",
+        "suggestions": {
+          "howItWorks": "커뮤니티 탐색은 어떻게 작동하나요?",
+          "featureCommunity": "여기에 내 커뮤니티를 추천하려면 어떻게 해야 하나요?",
+          "discoveryDocs": "탐색 설정 문서는 어디에서 찾을 수 있나요?"
+        }
+      },
+      "drive": {
+        "label": "드라이브 및 문서",
+        "subtitle": "문서 검색, 공유 및 드라이브 관리에 대한 도움을 검색하세요.",
+        "suggestions": {
+          "sharingPermissions": "드라이브에서 공유 권한은 어떻게 작동하나요?",
+          "organizeFiles": "파일 및 폴더는 어떻게 정리하나요?",
+          "openDrive": "드라이브 홈을 열어주세요."
+        }
+      },
+      "calendar": {
+        "label": "달력",
+        "subtitle": "이벤트 생성, RSVP, 카테고리 및 일정에 대해 물어보세요.",
+        "suggestions": {
+          "createEvent": "캘린더 이벤트는 어떻게 생성하나요?",
+          "rsvpsAndReminders": "RSVP와 알림은 어떻게 작동하나요?",
+          "openCalendar": "달력을 열어주세요."
+        }
+      },
+      "forms": {
+        "label": "양식",
+        "subtitle": "제출, 신청 흐름, 양식 설정에 대해 물어보세요.",
+        "suggestions": {
+          "howTheyWork": "양식과 신청은 어떻게 작동하나요?",
+          "manageSubmissions": "제출물은 어떻게 관리하나요?",
+          "openManagement": "양식 관리 뷰를 열어주세요."
+        }
+      },
+      "discordIntegration": {
+        "label": "디스코드 통합",
+        "subtitle": "역할 동기화, 봇 설정 및 디스코드 통합 세부 사항에 대해 물어보세요.",
+        "suggestions": {
+          "configure": "디스코드 통합은 어떻게 설정하나요?",
+          "roleSyncPermissions": "역할 동기화를 위해 어떤 권한이 필요합니까?",
+          "openPage": "디스코드 통합 페이지를 열어주세요."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "팀스픽 통합",
+        "subtitle": "팀스픽 역할 동기화, 인증 및 계정 연결에 대해 물어보세요.",
+        "suggestions": {
+          "setupRoleSync": "팀스픽 역할 동기화는 어떻게 설정하나요?",
+          "verification": "팀스픽 인증은 어떻게 작동하나요?",
+          "openPage": "팀스픽 통합 페이지를 열어주세요."
+        }
+      },
+      "apiIntegration": {
+        "label": "API 통합",
+        "subtitle": "개발자 API, 설정 단계, 자격 증명에 대해 물어보세요.",
+        "suggestions": {
+          "gettingStarted": "CMS API 시작하는 방법은?",
+          "docs": "API 통합 문서는 어디에서 찾을 수 있나요?",
+          "openPage": "API 통합 페이지를 열어주세요."
+        }
+      },
+      "customDomain": {
+        "label": "맞춤 도메인",
+        "subtitle": "사용자 URL, DNS 설정 및 맞춤 도메인 요구 사항에 대해 물어보세요.",
+        "suggestions": {
+          "connect": "맞춤 도메인을 연결하려면 어떻게 하나요?",
+          "dnsRecords": "어떤 DNS 레코드가 필요한가요?",
+          "openPanel": "맞춤 도메인 패널을 열어주세요."
+        }
+      },
+      "rosters": {
+        "label": "명단",
+        "labelWithName": "명단: {name}",
+        "subtitle": "명단 템플릿, 필드, 자동화, 가시성에 대해 물어보세요.",
+        "suggestions": {
+          "build": "맞춤 명단은 어떻게 빌드하나요?",
+          "permissions": "명단 권한은 어떻게 작동하나요?",
+          "openManagement": "명단 관리 열기"
+        }
+      },
+      "profileFields": {
+        "label": "프로필 필드",
+        "subtitle": "프로필 필드 설정, 표시 옵션 및 검증에 대해 물어보세요.",
+        "suggestions": {
+          "howTheyWork": "프로필 필드는 어떻게 작동하나요?",
+          "addField": "새 프로필 필드를 추가하려면 어떻게 하나요?",
+          "openPage": "프로필 필드를 열어주세요."
+        }
+      },
+      "urlShortener": {
+        "label": "URL 단축기",
+        "subtitle": "짧은 링크, 리디렉션 및 사용자 링크 관리에 대해 물어보세요.",
+        "suggestions": {
+          "howItWorks": "CMS에서 짧은 URL은 어떻게 작동하나요?",
+          "vanityRedirect": "사용자 리디렉션을 생성하려면 어떻게 하나요?",
+          "openPage": "URL 단축기를 열어주세요."
+        }
+      },
+      "securityCenter": {
+        "label": "보안 센터",
+        "subtitle": "보안 기본 설정, 플래그 및 CMS 보안 도구에 대해 물어보세요.",
+        "suggestions": {
+          "availableTools": "여기서 어떤 보안 도구를 사용할 수 있나요?",
+          "reviewFlags": "플래그된 계정을 검토하려면 어떻게 하나요?",
+          "openPanel": "보안 패널을 열어주세요."
+        }
+      },
+      "growthCenter": {
+        "label": "성장 센터",
+        "subtitle": "성장 기능, 제한 및 커뮤니티 확장 도구에 대해 물어보세요.",
+        "suggestions": {
+          "whatItDoes": "성장 센터는 무엇을 하나요?",
+          "featureLimits": "기능 제한을 확인하려면 어떻게 하나요?",
+          "openPanel": "성장 패널을 열어주세요."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC 게임 패널",
+        "subtitle": "플레이어 동기화, 중재, 활동 및 ER:LC 패널 설정에 대해 물어보세요.",
+        "suggestions": {
+          "setup": "ER:LC 게임 패널은 어떻게 설정하나요?",
+          "capabilities": "ER:LC 패널은 무엇을 할 수 있나요?",
+          "openPanel": "게임 패널을 열어주세요."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM 게임 패널",
+        "subtitle": "QBCore, Qbox, 캐릭터, 직업, 아이템 및 동기화에 대해 물어보세요.",
+        "suggestions": {
+          "setup": "FiveM 게임 패널은 어떻게 설정하나요?",
+          "differences": "QBCore와 Qbox 기능은 어떻게 다른가요?",
+          "openPanel": "게임 패널을 열어주세요."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu 게임 패널",
+        "subtitle": "플레이어 목록, 리소스, ACE 및 vMenu 패널에 대해 물어보세요.",
+        "suggestions": {
+          "howToUse": "vMenu 게임 패널은 어떻게 사용하나요?",
+          "serverData": "vMenu 패널이 노출하는 서버 데이터는 무엇입니까?",
+          "openPanel": "게임 패널을 열어주세요."
+        }
+      },
+      "administrativePanel": {
+        "label": "관리 패널",
+        "subtitle": "설정, 통합, 권한 및 관리 워크플로우에 대해 물어보세요.",
+        "suggestions": {
+          "howToUse": "관리 패널은 어떻게 사용하나요?",
+          "docsForPage": "이 관리자 페이지의 문서는 어디에 있나요?",
+          "openIntegrations": "통합 포털을 열어주세요."
+        }
+      },
+      "communityProfile": {
+        "label": "커뮤니티 프로필",
+        "subtitle": "프로필 편집, 식별자, 등급 및 계정 세부사항에 대해 물어보세요.",
+        "suggestions": {
+          "updateProfile": "프로필은 어떻게 업데이트하나요?",
+          "identifiersAndRanks": "식별자와 등급은 어떻게 작동하나요?",
+          "openProfile": "내 프로필 페이지를 열어주세요."
+        }
+      },
+      "default": {
+        "label": "현재 페이지",
+        "subtitle": "이 CMS 페이지에 대해 물어보거나, 문서를 검색하거나, 다른 패널을 열어 보세요.",
+        "suggestions": {
+          "useThisPage": "이 페이지는 어떻게 사용하나요?",
+          "featureDocs": "이 기능의 문서는 어디에 있나요?",
+          "openPanel": "적절한 CMS 패널을 열어주세요."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "커뮤니티 메뉴",
+      "communityDiscovery": "커뮤니티 탐색",
+      "systemAccount": "시스템 계정",
+      "dashboard": "대시보드",
+      "formsCenter": "양식 센터",
+      "formManagement": "양식 관리",
+      "calendar": "달력",
+      "drive": "드라이브",
+      "myCommunityProfile": "내 커뮤니티 프로필",
+      "adminAccounts": "관리자 계정",
+      "customization": "맞춤 설정",
+      "formBuilder": "양식 빌더",
+      "ranksAndDepartments": "등급 및 부서",
+      "rosters": "명단",
+      "communityPages": "커뮤니티 페이지",
+      "integrations": "통합",
+      "discordIntegration": "디스코드 통합",
+      "teamSpeakIntegration": "팀스픽 통합",
+      "apiIntegration": "API 통합",
+      "customDomain": "맞춤 도메인",
+      "profileFields": "프로필 필드",
+      "urlShortener": "URL 단축기",
+      "securityCenter": "보안 센터",
+      "growthCenter": "성장 센터",
+      "erlcGamePanel": "ER:LC 게임 패널",
+      "qboxGamePanel": "Qbox 게임 패널",
+      "vmenuGamePanel": "vMenu 게임 패널",
+      "fiveMGamePanel": "FiveM 게임 패널"
+    },
+    "actions": {
+      "docsHome": "문서 홈",
+      "currentDocs": "현재 문서",
+      "dashboard": "대시보드"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "사용자가 탐색하거나 패널을 열기를 요청할 때 Sonoran CMS 페이지를 엽니다.",
+        "descriptionWithDestinations": "사용자가 탐색하거나 패널을 열기를 요청할 때 Sonoran CMS 페이지를 엽니다. 사용 가능한 대상: {destinations}.",
+        "confirmationLabel": "이 CMS 페이지 열기",
+        "destinationDescription": "사용 가능한 CMS 대상을 선택하세요.",
+        "destinationDescriptionWithOptions": "사용 가능한 CMS 대상 중 하나를 선택하세요: {destinations}.",
+        "unavailableSummary": "이 패널은 여기에서 사용할 수 없습니다. 사용 가능한 옵션: {availableOptions}.",
+        "unavailableNoOptions": "이 컨텍스트에서는 CMS 탐색 대상이 없습니다.",
+        "openedSummary": "{label}을(를) 열었습니다."
+      }
+    }
   }
 }

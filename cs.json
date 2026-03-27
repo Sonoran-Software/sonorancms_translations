@@ -1125,7 +1125,11 @@
     "formatKeys": "Formátovací klíče",
     "disabledNameCustomizations": "Formát jména zakázán kvůli synchronizaci jména na Discordu",
     "onJoinActions": "Akce při připojení",
-    "communityInfo": "Informace o komunitě"
+    "communityInfo": "Informace o komunitě",
+    "advanced": "Pokročilé",
+    "transferCommunity": "Převést komunitu",
+    "deleteCommunity": "Smazat komunitu",
+    "communityId": "ID komunity"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "Návod na zkracovač URL",
@@ -1285,7 +1289,18 @@
     "Ok": "Ahoj",
     "Cancel": "Zrušit",
     "foldersTitle": "Složky",
-    "formsTitle": "Formuláře"
+    "formsTitle": "Formuláře",
+    "scheduledFor": "Naplánováno na {dateTime}",
+    "lockForm": "Zamknout formulář",
+    "lockFormOnDateTime": "Zamknout formulář v termínu",
+    "unlockForm": "Odemknout formulář",
+    "scheduleFormLock": "Naplánovat uzamčení formuláře",
+    "communityTimezone": "Časové pásmo komunity: {timezone}",
+    "lockDate": "Datum uzamčení",
+    "lockTime": "Čas uzamčení",
+    "scheduleLock": "Naplánovat uzamčení",
+    "scheduledToLockOn": "Naplánováno k uzamčení v {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Zvolte prosím budoucí datum a čas pro plánované uzamčení."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Uzamčeno pro nové podání",
@@ -1396,7 +1411,8 @@
     "userSelected": "Uživatel vybrán",
     "isAdditionalStorage": "je Dodatečné úložiště",
     "isTierStorage": "je úroveň úložiště",
-    "formsPer24Hours": "Formuláře za 24 hodin"
+    "formsPer24Hours": "Formuláře za 24 hodin",
+    "idTooltip": "Změňte své ID komunity v editoru přizpůsobení"
   },
   "EditCharacterCard": {
     "citizenId": "Občanský průkaz",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Kdokoli může tento formulář odeslat, nejsou potřebná žádná oprávnění.",
     "rankRestricted": "Pouze hodnosti s oprávněním k odeslání tohoto formuláře mohou odesílat.",
     "automemberRobloxUsername": "Automatický člen Roblox Uživatelské jméno",
-    "dragAndDropARobloxUsernameElement": "Přetáhněte prvek uživatelského jména člena Roblox"
+    "dragAndDropARobloxUsernameElement": "Přetáhněte prvek uživatelského jména člena Roblox",
+    "scheduledToLockOn": "Naplánováno k uzamčení v {dateTime} ({timezone})",
+    "scheduleFormLock": "Naplánovat uzamčení formuláře",
+    "communityTimezone": "Časové pásmo komunity: {timezone}",
+    "lockDate": "Datum uzamčení",
+    "lockTime": "Čas uzamčení",
+    "scheduleLock": "Naplánovat uzamčení",
+    "clearScheduledLock": "Vymazat plánované uzamčení",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Zvolte prosím budoucí datum a čas pro plánované uzamčení."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Došlo k chybě při ukládání stránky:",
@@ -4472,10 +4496,22 @@
     "communityName": "název komunity"
   },
   "disciplinaryConfig": {
-    "com_name": "název společnosti",
-    "username": "uživatelské jméno",
-    "point_reason": "důvod bodů",
-    "discord_ping": "discord_ping"
+    "com_name": {
+      "label": "Zobrazovaný název komunity",
+      "description": "Vloží zobrazovaný název uživatelské komunity."
+    },
+    "username": {
+      "label": "Uživatelské jméno",
+      "description": "Vloží uživatelské jméno účtu."
+    },
+    "point_reason": {
+      "label": "Důvod bodu",
+      "description": "Vloží důvod disciplinárních bodů."
+    },
+    "discord_ping": {
+      "label": "Opuštění Discordu",
+      "description": "Vybrané uživatele na Discordu."
+    }
   },
   "variables": {
     "title": "název",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online po dobu",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Nedávno moderováno",
+      "recentlyHealed": "Nedávno vyléčeno",
+      "recentlyJailed": "Nedávno uvězněn",
+      "recentlyReceivedNote": "Nedávno obdržena poznámka",
+      "recentlyRefreshed": "Nedávno aktualizováno",
+      "recentlyRespawned": "Nedávno oživen",
+      "recentlyAdmined": "Nedávno spravováno",
+      "recentlyBanned": "Nedávno zabanován",
+      "recentlyUnmodded": "Nedávno odmoderováno",
+      "recentlyKicked": "Nedávno vykopnuto",
+      "recentlyWanted": "Nedávno hledán",
+      "recentlyWarned": "Nedávno varován",
+      "recentlyUnadmined": "Nedávno odspravováno",
+      "recentlyTeleportedTo": "Nedávno teleportováno k",
+      "recentlyUnbanned": "Nedávno odbanován",
+      "recentlyUnwanted": "Nedávno nežádoucí",
+      "recentlyReceivedDisciplinaryPoints": "Nedávno obdrženy disciplinární body",
+      "recentlyReceivedPrivateMessage": "Nedávno přijata soukromá zpráva",
+      "recentlyJoined": "Nedávno připojen"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Vytvořit nový záznam",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "Oficiální dokumentace + AI navigace",
-    "title": "Nápověda CMS"
+    "title": "Nápověda CMS",
+    "accessibility": {
+      "closePanel": "Zavřít CMS pomoc",
+      "panelLabel": "Pomocný asistent Sonoran CMS",
+      "iframeTitle": "Sonoran CMS nápověda",
+      "openPanel": "Otevřít CMS pomoc"
+    },
+    "toolbar": {
+      "askAi": "Zeptat se AI",
+      "docs": "Dokumenty",
+      "support": "Podpora"
+    },
+    "insecureEmbed": {
+      "title": "GitBook blokuje embed bez HTTPS",
+      "copy": "Vložka GitBook umožňuje pouze rodičovské stránky HTTPS, proto se nezobrazí v této aplikaci, když běží přes HTTP. Otevřete dokumentaci v novém okně zde, nebo vyzkoušejte vloženého asistenta z prostředí HTTPS.",
+      "openDocs": "Otevřít dokumentaci"
+    },
+    "loading": {
+      "title": "Načítání CMS nápovědy",
+      "copy": "Připojování asistenta GitBook ke dokumentaci CMS."
+    },
+    "launcher": {
+      "open": "Potřebujete pomoc?",
+      "close": "Zavřít nápovědu"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Menu komunity",
+        "subtitle": "Zeptejte se na vytvoření, přidání nebo organizování vašich komunit.",
+        "suggestions": {
+          "createCommunity": "Jak vytvořím novou komunitu?",
+          "joinWithId": "Jak se připojím k komunitě s ID?",
+          "setupDocs": "Kde najdu dokumentaci k nastavení CMS?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Objevování komunity",
+        "subtitle": "Zeptejte se na stránky objevování, nastavení objevování nebo vybrané komunity.",
+        "suggestions": {
+          "howItWorks": "Jak funguje objevování komunity?",
+          "featureCommunity": "Jak zde zvýrazním svou komunitu?",
+          "discoveryDocs": "Kde je dokumentace k nastavení objevování?"
+        }
+      },
+      "drive": {
+        "label": "Disk a dokumenty",
+        "subtitle": "Hledejte pomoc se správou dokumentů, sdílením a řízením disku.",
+        "suggestions": {
+          "sharingPermissions": "Jak fungují oprávnění pro sdílení na disku?",
+          "organizeFiles": "Jak mohu organizovat soubory a složky?",
+          "openDrive": "Otevřete domovskou stránku disku pro mě."
+        }
+      },
+      "calendar": {
+        "label": "Kalendář",
+        "subtitle": "Zeptejte se na vytvoření události, RSVP, kategorie a plánování.",
+        "suggestions": {
+          "createEvent": "Jak vytvořím událost kalendáře?",
+          "rsvpsAndReminders": "Jak fungují RSVP a připomínky?",
+          "openCalendar": "Otevřete kalendář pro mě."
+        }
+      },
+      "forms": {
+        "label": "Formuláře",
+        "subtitle": "Zeptejte se na podání, procesy žádostí a nastavení formuláře.",
+        "suggestions": {
+          "howTheyWork": "Jak fungují formuláře a žádosti?",
+          "manageSubmissions": "Jak spravuji podání?",
+          "openManagement": "Otevřete zobrazení správy formulářů pro mě."
+        }
+      },
+      "discordIntegration": {
+        "label": "Integrace Discordu",
+        "subtitle": "Zeptejte se na synchronizaci rolí, nastavení bota a podrobnosti integrace Discordu.",
+        "suggestions": {
+          "configure": "Jak nakonfiguruji integraci Discordu?",
+          "roleSyncPermissions": "Jaká oprávnění jsou potřeba pro synchronizaci rolí?",
+          "openPage": "Otevřete stránku integrace Discordu pro mě."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "Integrace TeamSpeak",
+        "subtitle": "Zeptejte se na synchronizaci rolí TeamSpeak, ověřování a propojení účtu.",
+        "suggestions": {
+          "setupRoleSync": "Jak nastavím synchronizaci rolí TeamSpeak?",
+          "verification": "Jak funguje ověřování TeamSpeak?",
+          "openPage": "Otevřete stránku integrace TeamSpeak pro mě."
+        }
+      },
+      "apiIntegration": {
+        "label": "API integrace",
+        "subtitle": "Zeptejte se na vývojářské API, kroky nastavení nebo pověření.",
+        "suggestions": {
+          "gettingStarted": "Jak začít s CMS API?",
+          "docs": "Kde najdu dokumentaci k integraci API?",
+          "openPage": "Otevřete stránku integrace API pro mě."
+        }
+      },
+      "customDomain": {
+        "label": "Vlastní doména",
+        "subtitle": "Zeptejte se na URL na míru, nastavení DNS a požadavky na vlastní doménu.",
+        "suggestions": {
+          "connect": "Jak připojím vlastní doménu?",
+          "dnsRecords": "Jaké záznamy DNS potřebuji?",
+          "openPanel": "Otevřete panel vlastních domén pro mě."
+        }
+      },
+      "rosters": {
+        "label": "Sestavy",
+        "labelWithName": "Sestava: {name}",
+        "subtitle": "Zeptejte se na šablony sestav, pole, automatizaci a viditelnost.",
+        "suggestions": {
+          "build": "Jak vytvořím vlastní sestavu?",
+          "permissions": "Jak fungují oprávnění sestav?",
+          "openManagement": "Otevřete správu sestav pro mě."
+        }
+      },
+      "profileFields": {
+        "label": "Pole profilu",
+        "subtitle": "Zeptejte se na nastavení polí profilu, možnosti zobrazení a ověřování.",
+        "suggestions": {
+          "howTheyWork": "Jak fungují pole profilu?",
+          "addField": "Jak přidám nové pole profilu?",
+          "openPage": "Otevřete pole profilu pro mě."
+        }
+      },
+      "urlShortener": {
+        "label": "Zkracovač URL",
+        "subtitle": "Zeptejte se na krátké odkazy, přesměrování a správu odkazů na míru.",
+        "suggestions": {
+          "howItWorks": "Jak fungují krátké URL v CMS?",
+          "vanityRedirect": "Jak vytvořím přesměrování na míru?",
+          "openPage": "Otevřete zkracovač URL pro mě."
+        }
+      },
+      "securityCenter": {
+        "label": "Centrum bezpečnosti",
+        "subtitle": "Zeptejte se na bezpečnostní preference, značky a nástroje CMS pro bezpečnost.",
+        "suggestions": {
+          "availableTools": "Jaké bezpečnostní nástroje jsou zde k dispozici?",
+          "reviewFlags": "Jak mohu kontrolovat označené účty?",
+          "openPanel": "Otevřete bezpečnostní panel pro mě."
+        }
+      },
+      "growthCenter": {
+        "label": "Centrum růstu",
+        "subtitle": "Zeptejte se na růstové funkce, limity a nástroje pro rozšiřování komunity.",
+        "suggestions": {
+          "whatItDoes": "Co centrum růstu dělá?",
+          "featureLimits": "Jak zkontroluji své limity funkcí?",
+          "openPanel": "Otevřete růstový panel pro mě."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "Panel hry ER:LC",
+        "subtitle": "Zeptejte se na synchronizaci hráčů, moderování, aktivitu a nastavení panelu ER:LC.",
+        "suggestions": {
+          "setup": "Jak nastavím herní panel ER:LC?",
+          "capabilities": "Co panel ER:LC dokáže?",
+          "openPanel": "Otevřete herní panel pro mě."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "Panel hry FiveM",
+        "subtitle": "Zeptejte se na QBCore, Qbox, postavy, práce, předměty a synchronizaci.",
+        "suggestions": {
+          "setup": "Jak nastavím herní panel FiveM?",
+          "differences": "Jak se liší funkce QBCore a Qbox?",
+          "openPanel": "Otevřete herní panel pro mě."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "Panel hry vMenu",
+        "subtitle": "Zeptejte se na seznam hráčů, zdroje, ACE a panel vMenu.",
+        "suggestions": {
+          "howToUse": "Jak používám herní panel vMenu?",
+          "serverData": "Jaká data serveru panel vMenu zobrazuje?",
+          "openPanel": "Otevřete herní panel pro mě."
+        }
+      },
+      "administrativePanel": {
+        "label": "Administrativní panel",
+        "subtitle": "Zeptejte se na nastavení, integrace, oprávnění a admin pracovní procesy.",
+        "suggestions": {
+          "howToUse": "Jak používám administrativní panel?",
+          "docsForPage": "Kde je dokumentace pro tuto administrativní stránku?",
+          "openIntegrations": "Otevřete portál integrací pro mě."
+        }
+      },
+      "communityProfile": {
+        "label": "Profil komunity",
+        "subtitle": "Zeptejte se na úpravu profilu, identifikátory, hodnosti a podrobnosti účtu.",
+        "suggestions": {
+          "updateProfile": "Jak aktualizuji svůj profil?",
+          "identifiersAndRanks": "Jak fungují identifikátory a hodnosti?",
+          "openProfile": "Otevřete stránku mého profilu pro mě."
+        }
+      },
+      "default": {
+        "label": "Aktuální stránka",
+        "subtitle": "Zeptejte se na tuto stránku CMS, prohledejte dokumentaci nebo otevřete jiný panel.",
+        "suggestions": {
+          "useThisPage": "Jak používám tuto stránku?",
+          "featureDocs": "Kde je dokumentace pro tuto funkci?",
+          "openPanel": "Otevřete pravý panel CMS pro mě."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Menu komunity",
+      "communityDiscovery": "Objevování komunity",
+      "systemAccount": "Systémový účet",
+      "dashboard": "Plocha",
+      "formsCenter": "Centrum formulářů",
+      "formManagement": "Správa formulářů",
+      "calendar": "Kalendář",
+      "drive": "Disk",
+      "myCommunityProfile": "Profil mé komunity",
+      "adminAccounts": "Admins účty",
+      "customization": "Přizpůsobení",
+      "formBuilder": "Tvorba formulářů",
+      "ranksAndDepartments": "Hodnosti a oddělení",
+      "rosters": "Sestavy",
+      "communityPages": "Stránky komunity",
+      "integrations": "Integrace",
+      "discordIntegration": "Integrace Discordu",
+      "teamSpeakIntegration": "Integrace TeamSpeak",
+      "apiIntegration": "API integrace",
+      "customDomain": "Vlastní doména",
+      "profileFields": "Pole profilu",
+      "urlShortener": "Zkracovač URL",
+      "securityCenter": "Centrum bezpečnosti",
+      "growthCenter": "Centrum růstu",
+      "erlcGamePanel": "Panel hry ER:LC",
+      "qboxGamePanel": "Panel hry Qbox",
+      "vmenuGamePanel": "Panel hry vMenu",
+      "fiveMGamePanel": "Panel hry FiveM"
+    },
+    "actions": {
+      "docsHome": "Domov dokumentace",
+      "currentDocs": "Aktuální dokumentace",
+      "dashboard": "Plocha"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Otevřete stránku Sonoran CMS pro uživatele, když chtějí navigovat nebo otevřít panel.",
+        "descriptionWithDestinations": "Otevřete stránku Sonoran CMS pro uživatele, když chtějí navigovat nebo otevřít panel. Dostupné cíle: {destinations}.",
+        "confirmationLabel": "Otevřete tuto stránku CMS",
+        "destinationDescription": "Vyberte dostupný cíl CMS.",
+        "destinationDescriptionWithOptions": "Vyberte si jeden z dostupných cílů CMS: {destinations}.",
+        "unavailableSummary": "Tento panel zde není dostupný. Dostupné možnosti: {availableOptions}.",
+        "unavailableNoOptions": "V tomto kontextu nejsou k dispozici žádné cíle navigace CMS.",
+        "openedSummary": "Otevřeno {label}."
+      }
+    }
   }
 }

@@ -1125,7 +1125,11 @@
     "formatKeys": "Anahtarları Biçimlendir",
     "disabledNameCustomizations": "Discord Adı Senkronizasyonu Nedeniyle İsim Formatı Devre Dışı Bırakıldı",
     "onJoinActions": "Katılım Eylemleri",
-    "communityInfo": "Topluluk Bilgisi"
+    "communityInfo": "Topluluk Bilgisi",
+    "advanced": "Gelişmiş",
+    "transferCommunity": "Topluluğu Aktar",
+    "deleteCommunity": "Topluluğu Sil",
+    "communityId": "Topluluk ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Kısaltıcı Eğitimi",
@@ -1285,7 +1289,18 @@
     "Ok": "Tamam",
     "Cancel": "İptal",
     "foldersTitle": "Klasörler",
-    "formsTitle": "Formlar"
+    "formsTitle": "Formlar",
+    "scheduledFor": "{dateTime} için Planlandı",
+    "lockForm": "Formu Kilitle",
+    "lockFormOnDateTime": "Formu Tarih/Saat'e Kilitle",
+    "unlockForm": "Form Kilidini Aç",
+    "scheduleFormLock": "Form Kilitlemeyi Planla",
+    "communityTimezone": "Topluluk saat dilimi: {timezone}",
+    "lockDate": "Kilit Tarihi",
+    "lockTime": "Kilit Zamanı",
+    "scheduleLock": "Kilit Zamanlaması",
+    "scheduledToLockOn": "{dateTime} tarihinde kilitlenecek şekilde planlandı",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Lütfen planlanmış kilit için gelecekte bir tarih ve saat seçin."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Yeni gönderimlerden kilitlendi",
@@ -1396,7 +1411,8 @@
     "userSelected": "Kullanıcı seçildi",
     "isAdditionalStorage": "ek Depolama",
     "isTierStorage": "Katman Deposu",
-    "formsPer24Hours": "24 saat başına formlar"
+    "formsPer24Hours": "24 saat başına formlar",
+    "idTooltip": "Topluluk ID'nizi Özelleştirme Düzenleyicisinde değiştirin"
   },
   "EditCharacterCard": {
     "citizenId": "Vatandaş Kimliği",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Bu formu herkes gönderebilir, izin gerekmiyor.",
     "rankRestricted": "Yalnızca bu formu göndermeye izin verilen dereceler gönderebilir.",
     "automemberRobloxUsername": "Otomatik Üye Roblox Kullanıcı Adı",
-    "dragAndDropARobloxUsernameElement": "Bir üye Roblox kullanıcı adı öğesini sürükleyip bırakın"
+    "dragAndDropARobloxUsernameElement": "Bir üye Roblox kullanıcı adı öğesini sürükleyip bırakın",
+    "scheduledToLockOn": "{dateTime} ({timezone}) tarihinde kilitlenecek şekilde planlandı",
+    "scheduleFormLock": "Form Kilitlemeyi Planla",
+    "communityTimezone": "Topluluk saat dilimi: {timezone}",
+    "lockDate": "Kilit Tarihi",
+    "lockTime": "Kilit Zamanı",
+    "scheduleLock": "Kilit Zamanlaması",
+    "clearScheduledLock": "Planlanmış Kilidi Temizle",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Lütfen planlanmış kilit için gelecekte bir tarih ve saat seçin."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Sayfa kaydedilirken hata oluştu:",
@@ -4472,10 +4496,22 @@
     "communityName": "toplulukAdı"
   },
   "disciplinaryConfig": {
-    "com_name": "şirket adı",
-    "username": "kullanıcı adı",
-    "point_reason": "puan_nedeni",
-    "discord_ping": "discord_ping"
+    "com_name": {
+      "label": "Topluluk Görünen Adı",
+      "description": "Kullanıcının topluluk görünen adını ekler."
+    },
+    "username": {
+      "label": "Kullanıcı Adı",
+      "description": "Hesap kullanıcı adını ekler."
+    },
+    "point_reason": {
+      "label": "Ceza Nedeni",
+      "description": "Disiplin puanlarının nedenini ekler."
+    },
+    "discord_ping": {
+      "label": "Discord Ping",
+      "description": "Kullanıcıyı Discord'da ping eder."
+    }
   },
   "variables": {
     "title": "başlık",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "Çevrimiçi Süresi",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "Son zamanlarda modlandı",
+      "recentlyHealed": "Son zamanlarda iyileştirildi",
+      "recentlyJailed": "Son zamanlarda hapsedildi",
+      "recentlyReceivedNote": "Son zamanlarda bir not aldı",
+      "recentlyRefreshed": "Son zamanlarda yenilendi",
+      "recentlyRespawned": "Son zamanlarda yeniden doğdu",
+      "recentlyAdmined": "Son zamanlarda admin yapıldı",
+      "recentlyBanned": "Son zamanlarda yasaklandı",
+      "recentlyUnmodded": "Son zamanlarda modlanması geri alındı",
+      "recentlyKicked": "Son zamanlarda atıldı",
+      "recentlyWanted": "Son zamanlarda arandı",
+      "recentlyWarned": "Son zamanlarda uyarıldı",
+      "recentlyUnadmined": "Son zamanlarda adminliği kaldırıldı",
+      "recentlyTeleportedTo": "Son zamanlarda oraya ışınlandı",
+      "recentlyUnbanned": "Son zamanlarda yasağı kaldırıldı",
+      "recentlyUnwanted": "Son zamanlarda aranması kaldırıldı",
+      "recentlyReceivedDisciplinaryPoints": "Son zamanlarda disiplin puanları aldı",
+      "recentlyReceivedPrivateMessage": "Son zamanlarda özel bir mesaj aldı",
+      "recentlyJoined": "Son zamanlarda katıldı"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Yeni Kayıt Oluştur",
@@ -5114,6 +5170,260 @@
   },
   "cmsHelpAssistant": {
     "eyebrow": "Resmi belgeler + AI gezinme",
-    "title": "CMS Yardım"
+    "title": "CMS Yardım",
+    "accessibility": {
+      "closePanel": "CMS yardımını kapat",
+      "panelLabel": "Sonoran CMS yardım asistanı",
+      "iframeTitle": "Sonoran CMS yardımı",
+      "openPanel": "CMS yardımını aç"
+    },
+    "toolbar": {
+      "askAi": "AI'ye Sor",
+      "docs": "Dökümanlar",
+      "support": "Destek"
+    },
+    "insecureEmbed": {
+      "title": "GitBook Non-HTTPS Embedleri Engelliyor",
+      "copy": "GitBook embed sadece HTTPS üst sayfalarına izin verir, bu nedenle HTTP üzerinden çalışırken bu uygulamada görüntülenmez. Dokümanları burada yeni bir sekmede açın veya gömülü asistana HTTPS ortamından test edin.",
+      "openDocs": "Dokümanları Aç"
+    },
+    "loading": {
+      "title": "CMS Yardımı Yükleniyor",
+      "copy": "GitBook yardımcısını CMS dökümanlarına bağlanıyor."
+    },
+    "launcher": {
+      "open": "Yardıma mı ihtiyacınız var?",
+      "close": "Yardımı kapat"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Topluluk menüsü",
+        "subtitle": "Topluluklarınızı oluşturma, katılma veya düzenleme hakkında sorular sorun.",
+        "suggestions": {
+          "createCommunity": "Yeni bir topluluğu nasıl oluşturabilirim?",
+          "joinWithId": "Bir topluluğa ID ile nasıl katılabilirim?",
+          "setupDocs": "CMS kurulum dökümanlarını nerede bulabilirim?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Topluluk keşfi",
+        "subtitle": "Keşif sayfaları, keşif ayarları veya öne çıkan topluluklar hakkında sorular sorun.",
+        "suggestions": {
+          "howItWorks": "Topluluk keşfi nasıl çalışır?",
+          "featureCommunity": "Topluluğumu burada nasıl öne çıkarabilirim?",
+          "discoveryDocs": "Keşif ayarları için dökümanlar nerede?"
+        }
+      },
+      "drive": {
+        "label": "Sürücü & Dokümanlar",
+        "subtitle": "Doküman arama, paylaşma ve sürücü yönetimi yardımı.",
+        "suggestions": {
+          "sharingPermissions": "Sürücüde paylaşım izinleri nasıl çalışır?",
+          "organizeFiles": "Dosya ve klasörleri nasıl organize edebilirim?",
+          "openDrive": "Benim için sürücü ana sayfasını aç."
+        }
+      },
+      "calendar": {
+        "label": "Takvim",
+        "subtitle": "Etkinlik oluşturma, davetiyeler, kategoriler ve zamanlama hakkında sorular sorun.",
+        "suggestions": {
+          "createEvent": "Bir takvim etkinliği nasıl oluşturabilirim?",
+          "rsvpsAndReminders": "Davetiye ve hatırlatmalar nasıl çalışır?",
+          "openCalendar": "Benim için takvimi aç."
+        }
+      },
+      "forms": {
+        "label": "Formlar",
+        "subtitle": "Gönderimler, başvuru akışları ve form kurulumları hakkında sorular sorun.",
+        "suggestions": {
+          "howTheyWork": "Formlar ve başvurular nasıl çalışır?",
+          "manageSubmissions": "Gönderimleri nasıl yönetebilirim?",
+          "openManagement": "Benim için form yönetim görünümünü aç."
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord entegrasyonu",
+        "subtitle": "Rol senkronizasyonu, bot kurulumu ve Discord entegrasyon detayları hakkında sorular sorun.",
+        "suggestions": {
+          "configure": "Discord entegrasyonunu nasıl yapılandırabilirim?",
+          "roleSyncPermissions": "Rol senkronizasyonu için hangi izinler gereklidir?",
+          "openPage": "Benim için Discord entegrasyon sayfasını aç."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak entegrasyonu",
+        "subtitle": "TeamSpeak rol senkronizasyonu, doğrulama ve hesap bağlantısı hakkında sorular sorun.",
+        "suggestions": {
+          "setupRoleSync": "TeamSpeak rol senkronizasyonunu nasıl ayarlayabilirim?",
+          "verification": "TeamSpeak doğrulama nasıl çalışır?",
+          "openPage": "Benim için TeamSpeak entegrasyon sayfasını aç."
+        }
+      },
+      "apiIntegration": {
+        "label": "API entegrasyonu",
+        "subtitle": "Geliştirici API'si, kurulum adımları veya kimlik bilgileri hakkında sorular sorun.",
+        "suggestions": {
+          "gettingStarted": "CMS API ile nasıl başlarım?",
+          "docs": "API entegrasyon dökümanlarını nerede bulabilirim?",
+          "openPage": "Benim için API entegrasyon sayfasını aç."
+        }
+      },
+      "customDomain": {
+        "label": "Özel alan adı",
+        "subtitle": "Özelleştirilmiş URL, DNS ayarları ve özel alan adı gereklilikleri hakkında sorular sorun.",
+        "suggestions": {
+          "connect": "Özel bir alan adını nasıl bağlayabilirim?",
+          "dnsRecords": "Hangi DNS kayıtlarına ihtiyacım var?",
+          "openPanel": "Benim için özel alan panelini aç."
+        }
+      },
+      "rosters": {
+        "label": "Kadrolar",
+        "labelWithName": "Kadrolar: {name}",
+        "subtitle": "Kadroluk şablonlar, alanlar, otomasyon ve görünürlük hakkında sorular sorun.",
+        "suggestions": {
+          "build": "Özelleştirilmiş bir kadroyu nasıl oluşturabilirim?",
+          "permissions": "Kadroluk izinler nasıl çalışır?",
+          "openManagement": "Benim için kadroluk yönetimini aç."
+        }
+      },
+      "profileFields": {
+        "label": "Profil alanları",
+        "subtitle": "Profil alan kurulumu, görüntüleme seçenekleri ve doğrulama hakkında sorular sorun.",
+        "suggestions": {
+          "howTheyWork": "Profil alanları nasıl çalışır?",
+          "addField": "Yeni bir profil alanı nasıl ekleyebilirim?",
+          "openPage": "Benim için profil alanlarını aç."
+        }
+      },
+      "urlShortener": {
+        "label": "URL kısaltıcı",
+        "subtitle": "Kısa bağlantılar, yönlendirmeler ve özelleştirilmiş bağlantı yönetimi hakkında sorular sorun.",
+        "suggestions": {
+          "howItWorks": "CMS'de kısa URL'ler nasıl çalışır?",
+          "vanityRedirect": "Özelleştirilmiş bir yönlendirme nasıl oluşturabilirim?",
+          "openPage": "Benim için URL kısaltıcıyı aç."
+        }
+      },
+      "securityCenter": {
+        "label": "Güvenlik merkezi",
+        "subtitle": "Güvenlik tercihleriniz, bayraklar ve CMS güvenlik araçları hakkında sorular sorun.",
+        "suggestions": {
+          "availableTools": "Burada hangi güvenlik araçları mevcut?",
+          "reviewFlags": "Bayraklanmış hesapları nasıl inceleyebilirim?",
+          "openPanel": "Benim için güvenlik panelini aç."
+        }
+      },
+      "growthCenter": {
+        "label": "Büyüme merkezi",
+        "subtitle": "Büyüme özellikleri, sınırlar ve topluluk genişleme araçları hakkında sorular sorun.",
+        "suggestions": {
+          "whatItDoes": "Büyüme merkezi ne yapar?",
+          "featureLimits": "Özellik sınırlarını nasıl kontrol edebilirim?",
+          "openPanel": "Benim için büyüme panelini aç."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC oyun paneli",
+        "subtitle": "Oyuncu senkronizasyonu, moderasyon, aktiviteler ve ER:LC panel kurulumu hakkında sorular sorun.",
+        "suggestions": {
+          "setup": "ER:LC oyun panelini nasıl kurabilirim?",
+          "capabilities": "ER:LC paneli neler yapabilir?",
+          "openPanel": "Benim için oyun panelini aç."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM oyun paneli",
+        "subtitle": "QBCore, Qbox, karakterler, işler, eşyalar ve senkronizasyon hakkında sorular sorun.",
+        "suggestions": {
+          "setup": "FiveM oyun panelini nasıl kurabilirim?",
+          "differences": "QBCore ve Qbox özellikleri nasıl farklılık gösterir?",
+          "openPanel": "Benim için oyun panelini aç."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu oyun paneli",
+        "subtitle": "Oyuncu listeleri, kaynaklar, ACE'ler ve vMenu paneli hakkında sorular sorun.",
+        "suggestions": {
+          "howToUse": "vMenu oyun panelini nasıl kullanırım?",
+          "serverData": "vMenu paneli hangi sunucu verilerini gösterir?",
+          "openPanel": "Benim için oyun panelini aç."
+        }
+      },
+      "administrativePanel": {
+        "label": "Yönetim paneli",
+        "subtitle": "Ayarlar, entegrasyonlar, izinler ve yönetim iş akışları hakkında sorular sorun.",
+        "suggestions": {
+          "howToUse": "Yönetim panelini nasıl kullanırım?",
+          "docsForPage": "Bu yönetim sayfası için dokümanlar nerede?",
+          "openIntegrations": "Benim için entegrasyon portalını aç."
+        }
+      },
+      "communityProfile": {
+        "label": "Topluluk profili",
+        "subtitle": "Profil düzenleme, tanımlayıcılar, rütbeler ve hesap detayları hakkında sorular sorun.",
+        "suggestions": {
+          "updateProfile": "Profilimi nasıl güncelleyebilirim?",
+          "identifiersAndRanks": "Tanımlayıcılar ve rütbeler nasıl çalışır?",
+          "openProfile": "Benim için profil sayfamı aç."
+        }
+      },
+      "default": {
+        "label": "Geçerli sayfa",
+        "subtitle": "Bu CMS sayfası hakkında sorular sorun, dökümanları arayın veya başka bir paneli açın.",
+        "suggestions": {
+          "useThisPage": "Bu sayfayı nasıl kullanırım?",
+          "featureDocs": "Bu özellik için dökümanlar nerede?",
+          "openPanel": "Benim için doğru CMS panelini aç."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Topluluk menüsü",
+      "communityDiscovery": "Topluluk keşfi",
+      "systemAccount": "Sistem hesabı",
+      "dashboard": "Panel",
+      "formsCenter": "Form merkez",
+      "formManagement": "Form yönetimi",
+      "calendar": "Takvim",
+      "drive": "Sürücü",
+      "myCommunityProfile": "Topluluk profilim",
+      "adminAccounts": "Yönetici hesapları",
+      "customization": "Özelleştirme",
+      "formBuilder": "Form yapıcı",
+      "ranksAndDepartments": "Rütbeler ve departmanlar",
+      "rosters": "Kadrolar",
+      "communityPages": "Topluluk sayfaları",
+      "integrations": "Entegrasyonlar",
+      "discordIntegration": "Discord entegrasyonu",
+      "teamSpeakIntegration": "TeamSpeak entegrasyonu",
+      "apiIntegration": "API entegrasyonu",
+      "customDomain": "Özel alan adı",
+      "profileFields": "Profil alanları",
+      "urlShortener": "URL kısaltıcı",
+      "securityCenter": "Güvenlik merkezi",
+      "growthCenter": "Büyüme merkezi",
+      "erlcGamePanel": "ER:LC oyun paneli",
+      "qboxGamePanel": "Qbox oyun paneli",
+      "vmenuGamePanel": "vMenu oyun paneli",
+      "fiveMGamePanel": "FiveM oyun paneli"
+    },
+    "actions": {
+      "docsHome": "Döküman Ana Sayfa",
+      "currentDocs": "Geçerli Dökümanlar",
+      "dashboard": "Panel"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Kullanıcı bir paneli açmak veya gezinmek istediğinde bir Sonoran CMS sayfası aç.",
+        "descriptionWithDestinations": "Kullanıcı bir paneli açmak veya gezinmek istediğinde bir Sonoran CMS sayfası aç. Mevcut hedefler: {destinations}.",
+        "confirmationLabel": "Bu CMS sayfasını aç",
+        "destinationDescription": "Kullanılabilir bir CMS hedefi seçin.",
+        "destinationDescriptionWithOptions": "Mevcut CMS hedeflerinden birini seçin: {destinations}.",
+        "unavailableSummary": "Bu panel burada mevcut değil. Mevcut seçenekler: {availableOptions}.",
+        "unavailableNoOptions": "Bu bağlamda mevcut CMS gezinme hedefleri yok.",
+        "openedSummary": "{label} açıldı."
+      }
+    }
   }
 }

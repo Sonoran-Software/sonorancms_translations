@@ -1125,7 +1125,11 @@
     "formatKeys": "Formateringsnøgler",
     "disabledNameCustomizations": "Navneformat deaktiveret på grund af synkronisering af Discord-navn",
     "onJoinActions": "Ved tilmelding",
-    "communityInfo": "Fællesskabsinformation"
+    "communityInfo": "Fællesskabsinformation",
+    "advanced": "Avanceret",
+    "transferCommunity": "Overfør Samfund",
+    "deleteCommunity": "Slet Samfund",
+    "communityId": "Samfund-ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL Forkorter Vejledning",
@@ -1285,7 +1289,18 @@
     "Ok": "Okay",
     "Cancel": "Annuller",
     "foldersTitle": "Mapper",
-    "formsTitle": "Formularer"
+    "formsTitle": "Formularer",
+    "scheduledFor": "Planlagt til {dateTime}",
+    "lockForm": "Lås Formular",
+    "lockFormOnDateTime": "Lås Formular på Dato/Tid",
+    "unlockForm": "Lås Formular Op",
+    "scheduleFormLock": "Planlæg Formular Lås",
+    "communityTimezone": "Samfund tidszone: {timezone}",
+    "lockDate": "Lås Dato",
+    "lockTime": "Lås Tid",
+    "scheduleLock": "Planlæg Lås",
+    "scheduledToLockOn": "Planlagt til at låse på {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Vælg venligst en fremtidig dato og tid for den planlagte lås."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "Låst for nye indsendelser",
@@ -1396,7 +1411,8 @@
     "userSelected": "Bruger valgt",
     "isAdditionalStorage": "er yderligere lagerplads",
     "isTierStorage": "er-niveau-lagering",
-    "formsPer24Hours": "Formularer pr. 24 timer"
+    "formsPer24Hours": "Formularer pr. 24 timer",
+    "idTooltip": "Ændr dit Samfund-ID i Tilpasnings Editor"
   },
   "EditCharacterCard": {
     "citizenId": "Borger-ID",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "Enhver kan indsende denne formular, ingen tilladelser kræves.",
     "rankRestricted": "Kun rangeringer, der har tilladelse til at indsende denne formular, kan indsende.",
     "automemberRobloxUsername": "Auto-Medlem Roblox Brugernavn",
-    "dragAndDropARobloxUsernameElement": "Træk og slip et medlem Roblox brugernavn element"
+    "dragAndDropARobloxUsernameElement": "Træk og slip et medlem Roblox brugernavn element",
+    "scheduledToLockOn": "Planlagt til at låse på {dateTime} ({timezone})",
+    "scheduleFormLock": "Planlæg Formular Lås",
+    "communityTimezone": "Samfund tidszone: {timezone}",
+    "lockDate": "Lås Dato",
+    "lockTime": "Lås Tid",
+    "scheduleLock": "Planlæg Lås",
+    "clearScheduledLock": "Ryd Planlagt Lås",
+    "pleaseChooseFutureDateTimeForScheduledLock": "Vælg venligst en fremtidig dato og tid for den planlagte lås."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "Der opstod en fejl under lagring af siden:",
@@ -4472,10 +4496,22 @@
     "communityName": "fællesskabsnavn"
   },
   "disciplinaryConfig": {
-    "com_name": "kommandonavn",
-    "username": "brugernavn",
-    "point_reason": "point_grund",
-    "discord_ping": "discord_ping"
+    "com_name": {
+      "label": "Samfundets Vistnavn",
+      "description": "Indsætter brugerens samfundvisningsnavn."
+    },
+    "username": {
+      "label": "Brugernavn",
+      "description": "Indsætter kontoens brugernavn."
+    },
+    "point_reason": {
+      "label": "Point Årsag",
+      "description": "Indsætter årsagen til disciplinære point."
+    },
+    "discord_ping": {
+      "label": "Discord Ping",
+      "description": "Pinger brugeren i Discord."
+    }
   },
   "variables": {
     "title": "titel",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "online i",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "For nylig modded",
+      "recentlyHealed": "For nylig helbredt",
+      "recentlyJailed": "For nylig fængslet",
+      "recentlyReceivedNote": "For nylig modtaget en note",
+      "recentlyRefreshed": "For nylig opdateret",
+      "recentlyRespawned": "For nylig genfødt",
+      "recentlyAdmined": "For nylig admined",
+      "recentlyBanned": "For nylig udelukket",
+      "recentlyUnmodded": "For nylig ikke-modded",
+      "recentlyKicked": "For nylig sparket",
+      "recentlyWanted": "For nylig ønsket",
+      "recentlyWarned": "For nylig advaret",
+      "recentlyUnadmined": "For nylig ikke-admined",
+      "recentlyTeleportedTo": "For nylig teleporteret til",
+      "recentlyUnbanned": "For nylig genoprettet adgang",
+      "recentlyUnwanted": "For nylig ikke længere ønsket",
+      "recentlyReceivedDisciplinaryPoints": "For nylig modtaget disciplinære point",
+      "recentlyReceivedPrivateMessage": "For nylig modtaget en privat besked",
+      "recentlyJoined": "For nylig tilsluttet"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "Opret ny optegnelse",
@@ -5115,14 +5171,259 @@
   "cmsHelpAssistant": {
     "eyebrow": "Officielle dokumenter + AI navigation",
     "title": "CMS Hjælp",
-    "accessibility": "[object Object]",
-    "toolbar": "[object Object]",
-    "insecureEmbed": "[object Object]",
-    "loading": "[object Object]",
-    "launcher": "[object Object]",
-    "contexts": "[object Object]",
-    "navigationTargets": "[object Object]",
-    "actions": "[object Object]",
-    "tools": "[object Object]"
+    "accessibility": {
+      "closePanel": "Luk CMS hjælp",
+      "panelLabel": "Sonoran CMS hjælperassistent",
+      "iframeTitle": "Sonoran CMS hjælp",
+      "openPanel": "Åbn CMS hjælp"
+    },
+    "toolbar": {
+      "askAi": "Spørg AI",
+      "docs": "Dokumenter",
+      "support": "Support"
+    },
+    "insecureEmbed": {
+      "title": "GitBook Blokerer Ikke-HTTPS Indlejringer",
+      "copy": "GitBook indlejringen tillader kun HTTPS forældresider, så det vil ikke gengive inden i denne app mens den kører over HTTP. Åbn dokumenterne i en ny fane her, eller test den indlejrede assistent fra et HTTPS miljø.",
+      "openDocs": "Åbn Dokumenter"
+    },
+    "loading": {
+      "title": "Indlæser CMS Hjælp",
+      "copy": "Tilslutter GitBook assistenten til CMS dokumenterne."
+    },
+    "launcher": {
+      "open": "Behov for hjælp?",
+      "close": "Luk hjælp"
+    },
+    "contexts": {
+      "menu": {
+        "label": "Samfundsmenu",
+        "subtitle": "Spørg om at oprette, tilslutte eller organisere dine samfund.",
+        "suggestions": {
+          "createCommunity": "Hvordan opretter jeg et nyt samfund?",
+          "joinWithId": "Hvordan tilslutter jeg mig et samfund med et ID?",
+          "setupDocs": "Hvor kan jeg finde CMS opsætningsdokumenter?"
+        }
+      },
+      "communityDiscovery": {
+        "label": "Samfundsopdagelse",
+        "subtitle": "Spørg om opdagelsessider, opdagelsesindstillinger eller fremhævede samfund.",
+        "suggestions": {
+          "howItWorks": "Hvordan fungerer samfundsopdagelse?",
+          "featureCommunity": "Hvordan fremhæver jeg mit samfund her?",
+          "discoveryDocs": "Hvor er dokumenterne for opdagelsesindstillinger?"
+        }
+      },
+      "drive": {
+        "label": "Drev & Dokumenter",
+        "subtitle": "Søg dokument, deling, og drev-vedligeholdelseshjælp.",
+        "suggestions": {
+          "sharingPermissions": "Hvordan fungerer delingstilladelser i drevet?",
+          "organizeFiles": "Hvordan organiserer jeg filer og mapper?",
+          "openDrive": "Åbn drevets startside for mig."
+        }
+      },
+      "calendar": {
+        "label": "Kalender",
+        "subtitle": "Spørg om begivenhedsoprettelse, RSVP'er, kategorier og planlægning.",
+        "suggestions": {
+          "createEvent": "Hvordan opretter jeg en kalenderbegivenhed?",
+          "rsvpsAndReminders": "Hvordan fungerer RSVP'er og påmindelser?",
+          "openCalendar": "Åbn kalenderen for mig."
+        }
+      },
+      "forms": {
+        "label": "Formularer",
+        "subtitle": "Spørg om indsendelser, ansøgningsflows og formularkonfiguration.",
+        "suggestions": {
+          "howTheyWork": "Hvordan fungerer formularer og ansøgninger?",
+          "manageSubmissions": "Hvordan administrerer jeg indsendelser?",
+          "openManagement": "Åbn formularadministrationsvisningen for mig."
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord integration",
+        "subtitle": "Spørg om rollesynkronisering, botopsætning og Discord integrationsdetaljer.",
+        "suggestions": {
+          "configure": "Hvordan konfigurerer jeg Discord integrationen?",
+          "roleSyncPermissions": "Hvilke tilladelser er nødvendige for rollesynkronisering?",
+          "openPage": "Åbn Discord integrationssiden for mig."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak integration",
+        "subtitle": "Spørg om TeamSpeak rollesynkronisering, verifikation og kontolinkning.",
+        "suggestions": {
+          "setupRoleSync": "Hvordan opsætter jeg TeamSpeak rollesynkronisering?",
+          "verification": "Hvordan fungerer TeamSpeak verifikation?",
+          "openPage": "Åbn TeamSpeak integrationssiden for mig."
+        }
+      },
+      "apiIntegration": {
+        "label": "API integration",
+        "subtitle": "Spørg om udvikler API, opsætningsskridt eller legitimationsoplysninger.",
+        "suggestions": {
+          "gettingStarted": "Hvordan kommer jeg i gang med CMS API'en?",
+          "docs": "Hvor kan jeg finde dokumenterne for API integration?",
+          "openPage": "Åbn API integrationssiden for mig."
+        }
+      },
+      "customDomain": {
+        "label": "Brugerdefineret domæne",
+        "subtitle": "Spørg om vanity URLs, DNS opsætning og krav til brugerdefinerede domæner.",
+        "suggestions": {
+          "connect": "Hvordan forbinder jeg et brugerdefineret domæne?",
+          "dnsRecords": "Hvilke DNS-poster har jeg brug for?",
+          "openPanel": "Åbn panelet for brugerdefineret domæne for mig."
+        }
+      },
+      "rosters": {
+        "label": "Rullemenuer",
+        "labelWithName": "Rullemenu: {name}",
+        "subtitle": "Spørg om skabeloner for rullemenuer, felter, automatisering og synlighed.",
+        "suggestions": {
+          "build": "Hvordan opretter jeg en brugerdefineret rullemenu?",
+          "permissions": "Hvordan fungerer tilladelser for rullemenuer?",
+          "openManagement": "Åbn administrationsrullemenuen for mig."
+        }
+      },
+      "profileFields": {
+        "label": "Profilfelter",
+        "subtitle": "Spørg om opsætning af profilfelter, visningsmuligheder og validering.",
+        "suggestions": {
+          "howTheyWork": "Hvordan fungerer profilfelterne?",
+          "addField": "Hvordan tilføjer jeg et nyt profilfelt?",
+          "openPage": "Åbn profilfelterne for mig."
+        }
+      },
+      "urlShortener": {
+        "label": "URL forkortelse",
+        "subtitle": "Spørg om korte links, omdirigeringer og styring af vanity-links.",
+        "suggestions": {
+          "howItWorks": "Hvordan fungerer korte URLs i CMS?",
+          "vanityRedirect": "Hvordan opretter jeg en vanity-omdirigering?",
+          "openPage": "Åbn URL forkorteren for mig."
+        }
+      },
+      "securityCenter": {
+        "label": "Sikkerhedscenter",
+        "subtitle": "Spørg om sikkerhedspræferencer, flag og CMS sikkerhedsværktøjer.",
+        "suggestions": {
+          "availableTools": "Hvilke sikkerhedsværktøjer er tilgængelige her?",
+          "reviewFlags": "Hvordan gennemser jeg markerede konti?",
+          "openPanel": "Åbn sikkerhedspanelet for mig."
+        }
+      },
+      "growthCenter": {
+        "label": "Vækstcenter",
+        "subtitle": "Spørg om vækstfunktioner, grænser og værktøjer for samfundsudvidelse.",
+        "suggestions": {
+          "whatItDoes": "Hvad gør vækstcenteret?",
+          "featureLimits": "Hvordan tjekker jeg mine funktionsgrænser?",
+          "openPanel": "Åbn vækstan panelet for mig."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC spilpanel",
+        "subtitle": "Spørg om spiller synkronisering, moderation, aktivitet og opsætning af ER:LC panel.",
+        "suggestions": {
+          "setup": "Hvordan opsætter jeg ER:LC spilpanelet?",
+          "capabilities": "Hvad kan ER:LC panelet gøre?",
+          "openPanel": "Åbn spilpanelet for mig."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM spilpanel",
+        "subtitle": "Spørg om QBCore, Qbox, karakterer, job, genstande og synkronisering.",
+        "suggestions": {
+          "setup": "Hvordan opsætter jeg FiveM spilpanelet?",
+          "differences": "Hvordan adskiller QBCore og Qbox funktionerne sig?",
+          "openPanel": "Åbn spilpanelet for mig."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu spilpanel",
+        "subtitle": "Spørg om spillister, ressourcer, ACEs og vMenu panel.",
+        "suggestions": {
+          "howToUse": "Hvordan bruger jeg vMenu spilpanelet?",
+          "serverData": "Hvilke serverdata eksponerer vMenu panelet?",
+          "openPanel": "Åbn spilpanelet for mig."
+        }
+      },
+      "administrativePanel": {
+        "label": "Administrativt panel",
+        "subtitle": "Spørg om indstillinger, integrationer, tilladelser og admin arbejdsflows.",
+        "suggestions": {
+          "howToUse": "Hvordan bruger jeg det administrative panel?",
+          "docsForPage": "Hvor er dokumenterne for denne adminside?",
+          "openIntegrations": "Åbn integrationsportalen for mig."
+        }
+      },
+      "communityProfile": {
+        "label": "Samfundsprofil",
+        "subtitle": "Spørg om profillediting, identifikatorer, rangeringer og kontodetaljer.",
+        "suggestions": {
+          "updateProfile": "Hvordan opdaterer jeg min profil?",
+          "identifiersAndRanks": "Hvordan fungerer identifikatorer og rangeringer?",
+          "openProfile": "Åbn min profilsid for mig."
+        }
+      },
+      "default": {
+        "label": "Aktuel side",
+        "subtitle": "Spørg om denne CMS side, søg i dokumenterne, eller åbn et andet panel.",
+        "suggestions": {
+          "useThisPage": "Hvordan bruger jeg denne side?",
+          "featureDocs": "Hvor er dokumenterne for denne funktion?",
+          "openPanel": "Åbn højre CMS panel for mig."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "Samfundsmenu",
+      "communityDiscovery": "Samfundsopdagelse",
+      "systemAccount": "Systemkonto",
+      "dashboard": "Dashboard",
+      "formsCenter": "Formularcenter",
+      "formManagement": "Formularadministration",
+      "calendar": "Kalender",
+      "drive": "Drev",
+      "myCommunityProfile": "Min samfundsprofil",
+      "adminAccounts": "Adminkonti",
+      "customization": "Tilpasning",
+      "formBuilder": "Formularbygger",
+      "ranksAndDepartments": "Rangeringer og afdelinger",
+      "rosters": "Rullemenuer",
+      "communityPages": "Samfundssider",
+      "integrations": "Integrationer",
+      "discordIntegration": "Discord integration",
+      "teamSpeakIntegration": "TeamSpeak integration",
+      "apiIntegration": "API integration",
+      "customDomain": "Brugerdefineret domæne",
+      "profileFields": "Profiltelfter",
+      "urlShortener": "URL forkortelse",
+      "securityCenter": "Sikkerhedscenter",
+      "growthCenter": "Vækstcenter",
+      "erlcGamePanel": "ER:LC spilpanel",
+      "qboxGamePanel": "Qbox spilpanel",
+      "vmenuGamePanel": "vMenu spilpanel",
+      "fiveMGamePanel": "FiveM spilpanel"
+    },
+    "actions": {
+      "docsHome": "Dokumenthjem",
+      "currentDocs": "Nuværende dokumenter",
+      "dashboard": "Dashboard"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "Åbn en Sonoran CMS side for brugeren når de beder om at navigere eller åbne et panel.",
+        "descriptionWithDestinations": "Åbn en Sonoran CMS side for brugeren når de beder om at navigere eller åbne et panel. Tilgængelige destinationer: {destinations}.",
+        "confirmationLabel": "Åbn denne CMS side",
+        "destinationDescription": "Vælg en tilgængelig CMS destination.",
+        "destinationDescriptionWithOptions": "Vælg en af de tilgængelige CMS destinationer: {destinations}.",
+        "unavailableSummary": "Det panel er ikke tilgængeligt her. Tilgængelige muligheder: {availableOptions}.",
+        "unavailableNoOptions": "Ingen CMS navigation mål er tilgængelige i denne kontekst.",
+        "openedSummary": "Åbnede {label}."
+      }
+    }
   }
 }

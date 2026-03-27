@@ -1125,7 +1125,11 @@
     "formatKeys": "تنسيق المفاتيح",
     "disabledNameCustomizations": "تم تعطيل تنسيق الاسم بسبب مزامنة اسم Discord",
     "onJoinActions": "إجراءات عند الانضمام",
-    "communityInfo": "معلومات المجتمع"
+    "communityInfo": "معلومات المجتمع",
+    "advanced": "متقدم",
+    "transferCommunity": "نقل المجتمع",
+    "deleteCommunity": "حذف المجتمع",
+    "communityId": "معرف المجتمع"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "دليل تقصير الروابط",
@@ -1285,7 +1289,18 @@
     "Ok": "حسنًا",
     "Cancel": "إلغاء",
     "foldersTitle": "المجلدات",
-    "formsTitle": "النماذج"
+    "formsTitle": "النماذج",
+    "scheduledFor": "مجدول لـ {dateTime}",
+    "lockForm": "قفل النموذج",
+    "lockFormOnDateTime": "قفل النموذج في التاريخ/الوقت",
+    "unlockForm": "فتح النموذج",
+    "scheduleFormLock": "جدولة قفل النموذج",
+    "communityTimezone": "منطقة زمنية المجتمع: {timezone}",
+    "lockDate": "تاريخ القفل",
+    "lockTime": "وقت القفل",
+    "scheduleLock": "جدولة القفل",
+    "scheduledToLockOn": "مجدول للقفل في {dateTime}",
+    "pleaseChooseFutureDateTimeForScheduledLock": "يرجى اختيار تاريخ ووقت مستقبليين لجدولة القفل."
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "مغلق من التقديمات الجديدة",
@@ -1396,7 +1411,8 @@
     "userSelected": "المستخدم المحدد",
     "isAdditionalStorage": "مساحة تخزين إضافية",
     "isTierStorage": "هو تخزين الطبقات",
-    "formsPer24Hours": "النماذج لكل 24 ساعة"
+    "formsPer24Hours": "النماذج لكل 24 ساعة",
+    "idTooltip": "غير معرف المجتمع الخاص بك في محرر التخصيص"
   },
   "EditCharacterCard": {
     "citizenId": "معرف المواطن",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "أي شخص يمكنه إرسال هذا النموذج، لا يتطلب أذونات.",
     "rankRestricted": "فقط الرتب التي حصلت على إذن بتقديم هذا النموذج يمكنها التقديم.",
     "automemberRobloxUsername": "اسم مستخدم Roblox للعضو الآلي",
-    "dragAndDropARobloxUsernameElement": "سحب وإفلات عنصر اسم مستخدم Roblox للعضو"
+    "dragAndDropARobloxUsernameElement": "سحب وإفلات عنصر اسم مستخدم Roblox للعضو",
+    "scheduledToLockOn": "مجدول للقفل في {dateTime} ({timezone})",
+    "scheduleFormLock": "جدولة قفل النموذج",
+    "communityTimezone": "منطقة زمنية المجتمع: {timezone}",
+    "lockDate": "تاريخ القفل",
+    "lockTime": "وقت القفل",
+    "scheduleLock": "جدولة القفل",
+    "clearScheduledLock": "مسح القفل المجدول",
+    "pleaseChooseFutureDateTimeForScheduledLock": "يرجى اختيار تاريخ ووقت مستقبليين لجدولة القفل."
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "حدث خطأ أثناء حفظ الصفحة:",
@@ -4472,10 +4496,22 @@
     "communityName": "اسم المجتمع"
   },
   "disciplinaryConfig": {
-    "com_name": "اسم المجتمع",
-    "username": "اسم المستخدم",
-    "point_reason": "سبب النقاط",
-    "discord_ping": "بينغ ديسكورد"
+    "com_name": {
+      "label": "اسم عرض المجتمع",
+      "description": "يدرج اسم عرض مجتمع المستخدم."
+    },
+    "username": {
+      "label": "اسم المستخدم",
+      "description": "يدرج اسم حساب المستخدم."
+    },
+    "point_reason": {
+      "label": "سبب النقطة",
+      "description": "يدرج سبب النقاط التأديبية."
+    },
+    "discord_ping": {
+      "label": "تنبيه Discord",
+      "description": "ينبه المستخدم في Discord."
+    }
   },
   "variables": {
     "title": "العنوان",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "عبر الإنترنت لمدة",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "تم تعديله مؤخرًا",
+      "recentlyHealed": "تم شفاؤه مؤخرًا",
+      "recentlyJailed": "تم سجنه مؤخرًا",
+      "recentlyReceivedNote": "تلقى ملاحظة مؤخرًا",
+      "recentlyRefreshed": "تم تحديثه مؤخرًا",
+      "recentlyRespawned": "عاد للحياة مؤخرًا",
+      "recentlyAdmined": "تم تعيينه كمسؤول مؤخرًا",
+      "recentlyBanned": "تم حظره مؤخرًا",
+      "recentlyUnmodded": "تم إزالة وضع المسؤول مؤخرًا",
+      "recentlyKicked": "تم طرده مؤخرًا",
+      "recentlyWanted": "كان مطلوبًا مؤخرًا",
+      "recentlyWarned": "تم تحذيره مؤخرًا",
+      "recentlyUnadmined": "تم إزالة الإدارة مؤخرًا",
+      "recentlyTeleportedTo": "تم نقله مؤخرًا إلى",
+      "recentlyUnbanned": "تم رفع الحظر مؤخرًا",
+      "recentlyUnwanted": "لم يعد مطلوبًا مؤخرًا",
+      "recentlyReceivedDisciplinaryPoints": "تلقى نقاط تأديبية مؤخرًا",
+      "recentlyReceivedPrivateMessage": "تلقى رسالة خاصة مؤخرًا",
+      "recentlyJoined": "انضم مؤخرًا"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "إنشاء سجل جديد",
@@ -5115,14 +5171,259 @@
   "cmsHelpAssistant": {
     "eyebrow": "الوثائق الرسمية + التوجيه بالذكاء الاصطناعي",
     "title": "مساعدة CMS",
-    "accessibility": "[object Object]",
-    "toolbar": "[object Object]",
-    "insecureEmbed": "[object Object]",
-    "loading": "[object Object]",
-    "launcher": "[object Object]",
-    "contexts": "[object Object]",
-    "navigationTargets": "[object Object]",
-    "actions": "[object Object]",
-    "tools": "[object Object]"
+    "accessibility": {
+      "closePanel": "إغلاق مساعدة CMS",
+      "panelLabel": "مساعد Sonoran CMS",
+      "iframeTitle": "مساعدة Sonoran CMS",
+      "openPanel": "فتح مساعدة CMS"
+    },
+    "toolbar": {
+      "askAi": "اسأل AI",
+      "docs": "المستندات",
+      "support": "الدعم"
+    },
+    "insecureEmbed": {
+      "title": "GitBook لا يدعم تضمينات غير HTTPS",
+      "copy": "تسمح تضمينات GitBook فقط بصفحات الوالد HTTPS، لذلك لن يتم عرضها داخل هذا التطبيق أثناء تقديمه عبر HTTP. افتح المستندات في علامة تبويب جديدة هنا، أو اختبر المساعد المضمن من بيئة HTTPS.",
+      "openDocs": "افتح المستندات"
+    },
+    "loading": {
+      "title": "جارٍ تحميل مساعدة CMS",
+      "copy": "جارٍ ربط مساعد GitBook بمستندات CMS."
+    },
+    "launcher": {
+      "open": "تحتاج للمساعدة؟",
+      "close": "إغلاق المساعدة"
+    },
+    "contexts": {
+      "menu": {
+        "label": "قائمة المجتمع",
+        "subtitle": "اسأل عن كيفية إنشاء أو الانضمام أو تنظيم المجتمعات الخاصة بك.",
+        "suggestions": {
+          "createCommunity": "كيف يمكنني إنشاء مجتمع جديد؟",
+          "joinWithId": "كيف يمكنني الانضمام إلى مجتمع باستخدام معرف؟",
+          "setupDocs": "أين يمكنني العثور على مستندات إعداد CMS؟"
+        }
+      },
+      "communityDiscovery": {
+        "label": "اكتشاف المجتمع",
+        "subtitle": "اسأل عن صفحات الاكتشاف أو إعدادات الاكتشاف أو المجتمعات المميزة.",
+        "suggestions": {
+          "howItWorks": "كيف يعمل اكتشاف المجتمع؟",
+          "featureCommunity": "كيف يمكنني تقديم مجتمعي هنا؟",
+          "discoveryDocs": "أين هي المستندات لإعدادات الاكتشاف؟"
+        }
+      },
+      "drive": {
+        "label": "محرك & وثائق",
+        "subtitle": "ابحث عن الوثائق، والمشاركة، ومساعدة إدارة المحرك.",
+        "suggestions": {
+          "sharingPermissions": "كيف تعمل أذونات المشاركة في المحرك؟",
+          "organizeFiles": "كيف يمكنني تنظيم الملفات والمجلدات؟",
+          "openDrive": "افتح الصفحة الرئيسية للمحرك من أجلي."
+        }
+      },
+      "calendar": {
+        "label": "التقويم",
+        "subtitle": "اسأل عن إنشاء الفعاليات، RSVPs، الفئات، والجدولة.",
+        "suggestions": {
+          "createEvent": "كيف يمكنني إنشاء حدث في التقويم؟",
+          "rsvpsAndReminders": "كيف تعمل RSVPs والتذكيرات؟",
+          "openCalendar": "افتح التقويم من أجلي."
+        }
+      },
+      "forms": {
+        "label": "النماذج",
+        "subtitle": "اسأل عن التقديمات، تدفقات التطبيقات، وإعداد النماذج.",
+        "suggestions": {
+          "howTheyWork": "كيف تعمل النماذج والتطبيقات؟",
+          "manageSubmissions": "كيف يمكنني إدارة التقديمات؟",
+          "openManagement": "افتح عرض إدارة النموذج من أجلي."
+        }
+      },
+      "discordIntegration": {
+        "label": "تكامل Discord",
+        "subtitle": "اسأل عن تزامن الأدوار، إعداد الروبوت، وتفاصيل تكامل Discord.",
+        "suggestions": {
+          "configure": "كيف يمكنني تكوين تكامل Discord؟",
+          "roleSyncPermissions": "ما هي الأذونات المطلوبة لتزامن الأدوار؟",
+          "openPage": "افتح صفحة تكامل Discord من أجلي."
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "تكامل TeamSpeak",
+        "subtitle": "اسأل عن تزامن الأدوار في TeamSpeak، التحقق، وربط الحساب.",
+        "suggestions": {
+          "setupRoleSync": "كيف يمكنني إعداد تزامن الأدوار في TeamSpeak؟",
+          "verification": "كيف يعمل التحقق في TeamSpeak؟",
+          "openPage": "افتح صفحة تكامل TeamSpeak من أجلي."
+        }
+      },
+      "apiIntegration": {
+        "label": "تكامل API",
+        "subtitle": "اسأل عن API للمطورين، خطوات الإعداد، أو الاعتمادات.",
+        "suggestions": {
+          "gettingStarted": "كيف أبدأ في استخدام API لCMS؟",
+          "docs": "أين أجد وثائق تكامل API؟",
+          "openPage": "افتح صفحة تكامل API من أجلي."
+        }
+      },
+      "customDomain": {
+        "label": "النطاق المخصص",
+        "subtitle": "اسأل عن عناوين URL المخصصة، إعداد DNS، ومتطلبات النطاق المخصص.",
+        "suggestions": {
+          "connect": "كيف يمكنني ربط نطاق مخصص؟",
+          "dnsRecords": "ما هي سجلات DNS التي أحتاجها؟",
+          "openPanel": "افتح لوحة النطاق المخصص من أجلي."
+        }
+      },
+      "rosters": {
+        "label": "القوائم",
+        "labelWithName": "القائمة: {name}",
+        "subtitle": "اسأل عن قوالب القوائم، الحقول، الأتمتة، والرؤية.",
+        "suggestions": {
+          "build": "كيف يمكنني بناء قائمة مخصصة؟",
+          "permissions": "كيف تعمل أذونات القائمة؟",
+          "openManagement": "افتح إدارة القائمة من أجلي."
+        }
+      },
+      "profileFields": {
+        "label": "حقول الملف الشخصي",
+        "subtitle": "اسأل عن إعدادات حقل الملف الشخصي، خيارات العرض، والتحقق من الصحة.",
+        "suggestions": {
+          "howTheyWork": "كيف تعمل حقول الملف الشخصي؟",
+          "addField": "كيف يمكنني إضافة حقل ملف شخصي جديد؟",
+          "openPage": "افتح حقول الملف الشخصي من أجلي."
+        }
+      },
+      "urlShortener": {
+        "label": "اختصار URL",
+        "subtitle": "اسأل عن الروابط القصيرة، التوجيهات، وإدارة الروابط المميزة.",
+        "suggestions": {
+          "howItWorks": "كيف تعمل روابط URL القصيرة في CMS؟",
+          "vanityRedirect": "كيف يمكنني إنشاء إعادة توجيه مخصصة؟",
+          "openPage": "افتح اختصار URL من أجلي."
+        }
+      },
+      "securityCenter": {
+        "label": "مركز الأمان",
+        "subtitle": "اسأل عن تفضيلات الأمان، العلامات، وأدوات الأمان في CMS.",
+        "suggestions": {
+          "availableTools": "ما هي أدوات الأمان المتوفرة هنا؟",
+          "reviewFlags": "كيف يمكنني مراجعة الحسابات المعلمة؟",
+          "openPanel": "افتح لوحة الأمان من أجلي."
+        }
+      },
+      "growthCenter": {
+        "label": "مركز النمو",
+        "subtitle": "اسأل عن ميزات النمو، الحدود، وأدوات توسيع المجتمع.",
+        "suggestions": {
+          "whatItDoes": "ما الذي يفعله مركز النمو؟",
+          "featureLimits": "كيف يمكنني التحقق من حدود الميزات الخاصة بي؟",
+          "openPanel": "افتح لوحة النمو من أجلي."
+        }
+      },
+      "erlcGamePanel": {
+        "label": "لوحة اللعبة ER:LC",
+        "subtitle": "اسأل عن تزامن اللاعبين، الإدارة، النشاط، وإعداد لوحة ER:LC.",
+        "suggestions": {
+          "setup": "كيف يمكنني إعداد لوحة اللعبة ER:LC؟",
+          "capabilities": "ما الذي يمكن أن تفعله لوحة ER:LC؟",
+          "openPanel": "افتح لوحة اللعبة من أجلي."
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "لوحة لعبة FiveM",
+        "subtitle": "اسأل عن QBCore، Qbox، الشخصيات، الوظائف، العناصر، والتزامن.",
+        "suggestions": {
+          "setup": "كيف يمكنني إعداد لوحة لعبة FiveM؟",
+          "differences": "كيف تختلف ميزات QBCore وQbox؟",
+          "openPanel": "افتح لوحة اللعبة من أجلي."
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "لوحة لعبة vMenu",
+        "subtitle": "اسأل عن قوائم اللاعبين، الموارد، ACEs ولوحة vMenu.",
+        "suggestions": {
+          "howToUse": "كيف أستخدم لوحة لعبة vMenu؟",
+          "serverData": "ما هي بيانات الخادم التي تعرضها لوحة vMenu؟",
+          "openPanel": "افتح لوحة اللعبة من أجلي."
+        }
+      },
+      "administrativePanel": {
+        "label": "لوحة الإدارة",
+        "subtitle": "اسأل عن الإعدادات، التكاملات، الأذونات، وسير عمل الإدارة.",
+        "suggestions": {
+          "howToUse": "كيف أستخدم لوحة الإدارة؟",
+          "docsForPage": "أين هي المستندات لصفحة المسؤول هذه؟",
+          "openIntegrations": "افتح بوابة التكاملات من أجلي."
+        }
+      },
+      "communityProfile": {
+        "label": "ملف المجتمع",
+        "subtitle": "اسأل عن تحرير الملف الشخصي، المعرفات، الرتب، وتفاصيل الحساب.",
+        "suggestions": {
+          "updateProfile": "كيف يمكنني تحديث ملفي الشخصي؟",
+          "identifiersAndRanks": "كيف تعمل المعرفات والرتب؟",
+          "openProfile": "افتح صفحة ملفي الشخصي من أجلي."
+        }
+      },
+      "default": {
+        "label": "الصفحة الحالية",
+        "subtitle": "اسأل عن هذه الصفحة في CMS، ابحث في المستندات، أو افتح لوحة أخرى.",
+        "suggestions": {
+          "useThisPage": "كيف أستخدم هذه الصفحة؟",
+          "featureDocs": "أين هي المستندات لهذه الميزة؟",
+          "openPanel": "افتح اللوحة الصحيحة في CMS من أجلي."
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "قائمة المجتمع",
+      "communityDiscovery": "اكتشاف المجتمع",
+      "systemAccount": "حساب النظام",
+      "dashboard": "لوحة المعلومات",
+      "formsCenter": "مركز النماذج",
+      "formManagement": "إدارة النماذج",
+      "calendar": "التقويم",
+      "drive": "محرك",
+      "myCommunityProfile": "ملف مجتمعي الشخصي",
+      "adminAccounts": "حسابات المسؤول",
+      "customization": "التخصيص",
+      "formBuilder": "منشئ النماذج",
+      "ranksAndDepartments": "الرتب والإدارات",
+      "rosters": "القوائم",
+      "communityPages": "صفحات المجتمع",
+      "integrations": "التكاملات",
+      "discordIntegration": "تكامل Discord",
+      "teamSpeakIntegration": "تكامل TeamSpeak",
+      "apiIntegration": "تكامل API",
+      "customDomain": "النطاق المخصص",
+      "profileFields": "حقول الملف الشخصي",
+      "urlShortener": "اختصار URL",
+      "securityCenter": "مركز الأمان",
+      "growthCenter": "مركز النمو",
+      "erlcGamePanel": "لوحة اللعبة ER:LC",
+      "qboxGamePanel": "لوحة اللعبة Qbox",
+      "vmenuGamePanel": "لوحة اللعبة vMenu",
+      "fiveMGamePanel": "لوحة لعبة FiveM"
+    },
+    "actions": {
+      "docsHome": "الصفحة الرئيسية للوثائق",
+      "currentDocs": "الوثائق الحالية",
+      "dashboard": "لوحة المعلومات"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "افتح صفحة Sonoran CMS للمستخدم عندما يطلب الانتقال أو فتح لوحة.",
+        "descriptionWithDestinations": "افتح صفحة Sonoran CMS للمستخدم عندما يطلب الانتقال أو فتح لوحة. الوجهات المتاحة: {destinations}.",
+        "confirmationLabel": "افتح هذه الصفحة في CMS",
+        "destinationDescription": "اختر وجهة CMS متاحة.",
+        "destinationDescriptionWithOptions": "اختر واحدة من وجهات CMS المتاحة: {destinations}.",
+        "unavailableSummary": "تلك اللوحة غير متوفرة هنا. الخيارات المتاحة: {availableOptions}.",
+        "unavailableNoOptions": "لا توجد أهداف تنقل في CMS متاحة في هذا السياق.",
+        "openedSummary": "تم فتح {label}."
+      }
+    }
   }
 }

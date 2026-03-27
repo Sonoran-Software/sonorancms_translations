@@ -1125,7 +1125,11 @@
     "formatKeys": "格式键",
     "disabledNameCustomizations": "由于 Discord 名称同步，名称格式已禁用",
     "onJoinActions": "加入时的操作",
-    "communityInfo": "社区信息"
+    "communityInfo": "社区信息",
+    "advanced": "高级",
+    "transferCommunity": "转移社区",
+    "deleteCommunity": "删除社区",
+    "communityId": "社区 ID"
   },
   "UrlShortener": {
     "urlShortenerTutorial": "URL 缩短器教程",
@@ -1285,7 +1289,18 @@
     "Ok": "好的",
     "Cancel": "取消",
     "foldersTitle": "文件夹",
-    "formsTitle": "表格"
+    "formsTitle": "表格",
+    "scheduledFor": "计划于 {dateTime}",
+    "lockForm": "锁定表单",
+    "lockFormOnDateTime": "锁定表单于日期/时间",
+    "unlockForm": "解锁表单",
+    "scheduleFormLock": "安排表单锁定",
+    "communityTimezone": "社区时区：{timezone}",
+    "lockDate": "锁定日期",
+    "lockTime": "锁定时间",
+    "scheduleLock": "安排锁定",
+    "scheduledToLockOn": "计划于 {dateTime} 锁定",
+    "pleaseChooseFutureDateTimeForScheduledLock": "请选择未来的日期和时间以安排锁定。"
   },
   "AvailableApplications": {
     "lockedFromNewSubmissions": "禁止新提交",
@@ -1396,7 +1411,8 @@
     "userSelected": "用户已选择",
     "isAdditionalStorage": "是额外存储",
     "isTierStorage": "是层级存储",
-    "formsPer24Hours": "每 24 小时表单数量"
+    "formsPer24Hours": "每 24 小时表单数量",
+    "idTooltip": "在定制编辑器中更改您的社区 ID"
   },
   "EditCharacterCard": {
     "citizenId": "公民ID",
@@ -3063,7 +3079,15 @@
     "anyoneCanSubmitTypeExplaination": "任何人都可以提交此表单，无需权限。",
     "rankRestricted": "只有被授予权限的级别才能提交此表单。",
     "automemberRobloxUsername": "自动成员 Roblox 用户名",
-    "dragAndDropARobloxUsernameElement": "拖放一个成员 Roblox 用户名元素"
+    "dragAndDropARobloxUsernameElement": "拖放一个成员 Roblox 用户名元素",
+    "scheduledToLockOn": "计划于 {dateTime} ({timezone}) 锁定",
+    "scheduleFormLock": "安排表单锁定",
+    "communityTimezone": "社区时区：{timezone}",
+    "lockDate": "锁定日期",
+    "lockTime": "锁定时间",
+    "scheduleLock": "安排锁定",
+    "clearScheduledLock": "清除计划锁定",
+    "pleaseChooseFutureDateTimeForScheduledLock": "请选择未来的日期和时间以安排锁定。"
   },
   "EditPage": {
     "errorOccuredWhileSavingPage": "保存页面时发生错误：",
@@ -4472,10 +4496,22 @@
     "communityName": "社区名称"
   },
   "disciplinaryConfig": {
-    "com_name": "公司名称",
-    "username": "用户名",
-    "point_reason": "积分原因",
-    "discord_ping": "Discord 提及"
+    "com_name": {
+      "label": "社区显示名称",
+      "description": "插入用户的社区显示名称。"
+    },
+    "username": {
+      "label": "用户名",
+      "description": "插入账户用户名。"
+    },
+    "point_reason": {
+      "label": "积分原因",
+      "description": "插入纪律积分的原因。"
+    },
+    "discord_ping": {
+      "label": "Discord 提及",
+      "description": "在 Discord 中提及用户。"
+    }
   },
   "variables": {
     "title": "标题",
@@ -4814,7 +4850,27 @@
   },
   "ERLCPlayerInfo": {
     "onlineFor": "在线时长",
-    "actioned": "[object Object]"
+    "actioned": {
+      "recentlyModded": "最近修改",
+      "recentlyHealed": "最近治疗",
+      "recentlyJailed": "最近入狱",
+      "recentlyReceivedNote": "最近收到便条",
+      "recentlyRefreshed": "最近刷新",
+      "recentlyRespawned": "最近重生",
+      "recentlyAdmined": "最近管理",
+      "recentlyBanned": "最近封禁",
+      "recentlyUnmodded": "最近解除修改",
+      "recentlyKicked": "最近踢出",
+      "recentlyWanted": "最近通缉",
+      "recentlyWarned": "最近警告",
+      "recentlyUnadmined": "最近解除管理",
+      "recentlyTeleportedTo": "最近传送到",
+      "recentlyUnbanned": "最近解除封禁",
+      "recentlyUnwanted": "最近解除通缉",
+      "recentlyReceivedDisciplinaryPoints": "最近收到纪律积分",
+      "recentlyReceivedPrivateMessage": "最近收到私人信息",
+      "recentlyJoined": "最近加入"
+    }
   },
   "ERLCNewRecords": {
     "createNewRecord": "创建新记录",
@@ -5115,14 +5171,259 @@
   "cmsHelpAssistant": {
     "eyebrow": "官方文档 + AI 导航",
     "title": "CMS 帮助",
-    "accessibility": "[object Object]",
-    "toolbar": "[object Object]",
-    "insecureEmbed": "[object Object]",
-    "loading": "[object Object]",
-    "launcher": "[object Object]",
-    "contexts": "[object Object]",
-    "navigationTargets": "[object Object]",
-    "actions": "[object Object]",
-    "tools": "[object Object]"
+    "accessibility": {
+      "closePanel": "关闭 CMS 帮助",
+      "panelLabel": "Sonoran CMS 帮助助手",
+      "iframeTitle": "Sonoran CMS 帮助",
+      "openPanel": "打开 CMS 帮助"
+    },
+    "toolbar": {
+      "askAi": "询问 AI",
+      "docs": "文档",
+      "support": "支持"
+    },
+    "insecureEmbed": {
+      "title": "GitBook 不允许非 HTTPS 内嵌",
+      "copy": "GitBook 内嵌仅允许 HTTPS 父页面，因此在使用 HTTP 时此应用中无法呈现。请在新标签页中打开文档，或从 HTTPS 环境中测试嵌入助手。",
+      "openDocs": "打开文档"
+    },
+    "loading": {
+      "title": "加载 CMS 帮助",
+      "copy": "连接 GitBook 助手到 CMS 文档。"
+    },
+    "launcher": {
+      "open": "需要帮助？",
+      "close": "关闭帮助"
+    },
+    "contexts": {
+      "menu": {
+        "label": "社区菜单",
+        "subtitle": "询问关于创建、加入或组织社区的问题。",
+        "suggestions": {
+          "createCommunity": "如何创建新社区？",
+          "joinWithId": "如何通过 ID 加入社区？",
+          "setupDocs": "在哪里可以找到 CMS 安装文档？"
+        }
+      },
+      "communityDiscovery": {
+        "label": "社区发现",
+        "subtitle": "询问关于发现页面、发现设置或特色社区的问题。",
+        "suggestions": {
+          "howItWorks": "社区发现如何工作？",
+          "featureCommunity": "如何在这里展示我的社区？",
+          "discoveryDocs": "发现设置的文档在哪里？"
+        }
+      },
+      "drive": {
+        "label": "驱动器和文档",
+        "subtitle": "搜索文档、共享和驱动器管理的帮助。",
+        "suggestions": {
+          "sharingPermissions": "共享权限如何工作？",
+          "organizeFiles": "如何组织文件和文件夹？",
+          "openDrive": "打开驱动器主页。"
+        }
+      },
+      "calendar": {
+        "label": "日历",
+        "subtitle": "询问关于活动创建、参会回复、类别和日程安排的问题。",
+        "suggestions": {
+          "createEvent": "如何创建日历活动？",
+          "rsvpsAndReminders": "参会回复和提醒如何工作？",
+          "openCalendar": "为我打开日历。"
+        }
+      },
+      "forms": {
+        "label": "表单",
+        "subtitle": "询问关于提交、申请流程和表单设置的问题。",
+        "suggestions": {
+          "howTheyWork": "表单和申请如何工作？",
+          "manageSubmissions": "如何管理提交？",
+          "openManagement": "为我打开表单管理视图。"
+        }
+      },
+      "discordIntegration": {
+        "label": "Discord 集成",
+        "subtitle": "询问角色同步、机器人设置和 Discord 集成细节。",
+        "suggestions": {
+          "configure": "如何配置 Discord 集成？",
+          "roleSyncPermissions": "角色同步需要什么权限？",
+          "openPage": "为我打开 Discord 集成页面。"
+        }
+      },
+      "teamSpeakIntegration": {
+        "label": "TeamSpeak 集成",
+        "subtitle": "询问 TeamSpeak 角色同步、验证和账户链接。",
+        "suggestions": {
+          "setupRoleSync": "如何设置 TeamSpeak 角色同步？",
+          "verification": "TeamSpeak 验证如何工作？",
+          "openPage": "为我打开 TeamSpeak 集成页面。"
+        }
+      },
+      "apiIntegration": {
+        "label": "API 集成",
+        "subtitle": "询问开发者 API、设置步骤或凭证。",
+        "suggestions": {
+          "gettingStarted": "如何开始使用 CMS API？",
+          "docs": "哪里可以找到 API 集成文档？",
+          "openPage": "为我打开 API 集成页面。"
+        }
+      },
+      "customDomain": {
+        "label": "自定义域",
+        "subtitle": "询问关于个性化 URL，DNS 设置和自定义域的要求。",
+        "suggestions": {
+          "connect": "如何连接自定义域？",
+          "dnsRecords": "我需要哪些 DNS 记录？",
+          "openPanel": "为我打开自定义域面板。"
+        }
+      },
+      "rosters": {
+        "label": "名册",
+        "labelWithName": "名册：{name}",
+        "subtitle": "询问关于名册模板、字段、自动化和可见性的问题。",
+        "suggestions": {
+          "build": "如何创建自定义名册？",
+          "permissions": "名册权限如何工作？",
+          "openManagement": "为我打开名册管理。"
+        }
+      },
+      "profileFields": {
+        "label": "资料字段",
+        "subtitle": "询问资料字段设置、显示选项和验证的问题。",
+        "suggestions": {
+          "howTheyWork": "资料字段如何工作？",
+          "addField": "如何添加新资料字段？",
+          "openPage": "为我打开资料字段页面。"
+        }
+      },
+      "urlShortener": {
+        "label": "URL 缩短",
+        "subtitle": "询问关于短链接、重定向和个性化链接管理的问题。",
+        "suggestions": {
+          "howItWorks": "CMS 中的短网址如何工作？",
+          "vanityRedirect": "如何创建个性化重定向？",
+          "openPage": "为我打开 URL 缩短页面。"
+        }
+      },
+      "securityCenter": {
+        "label": "安全中心",
+        "subtitle": "询问关于安全偏好、标志和 CMS 安全工具的问题。",
+        "suggestions": {
+          "availableTools": "这里有哪些安全工具可用？",
+          "reviewFlags": "如何审核标记的账户？",
+          "openPanel": "为我打开安全面板。"
+        }
+      },
+      "growthCenter": {
+        "label": "增长中心",
+        "subtitle": "询问关于增长功能、限制和社区扩展工具的问题。",
+        "suggestions": {
+          "whatItDoes": "增长中心有什么功能？",
+          "featureLimits": "如何检查我的功能限制？",
+          "openPanel": "为我打开增长面板。"
+        }
+      },
+      "erlcGamePanel": {
+        "label": "ER:LC 游戏面板",
+        "subtitle": "询问关于玩家同步、管理、活动和 ER:LC 面板设置的问题。",
+        "suggestions": {
+          "setup": "如何设置 ER:LC 游戏面板？",
+          "capabilities": "ER:LC 面板有哪些功能？",
+          "openPanel": "为我打开游戏面板。"
+        }
+      },
+      "fiveMGamePanel": {
+        "label": "FiveM 游戏面板",
+        "subtitle": "询问关于 QBCore，Qbox，角色，工作，物品和同步的问题。",
+        "suggestions": {
+          "setup": "如何设置 FiveM 游戏面板？",
+          "differences": "QBCore 和 Qbox 功能有何不同？",
+          "openPanel": "为我打开游戏面板。"
+        }
+      },
+      "vmenuGamePanel": {
+        "label": "vMenu 游戏面板",
+        "subtitle": "询问关于玩家名单、资源、ACEs 和 vMenu 面板的问题。",
+        "suggestions": {
+          "howToUse": "如何使用 vMenu 游戏面板？",
+          "serverData": "vMenu 面板会揭示哪些服务器数据？",
+          "openPanel": "为我打开游戏面板。"
+        }
+      },
+      "administrativePanel": {
+        "label": "管理面板",
+        "subtitle": "询问关于设置、集成、权限和管理工作流程的问题。",
+        "suggestions": {
+          "howToUse": "如何使用管理面板？",
+          "docsForPage": "此管理页面的文档在哪里？",
+          "openIntegrations": "为我打开集成门户。"
+        }
+      },
+      "communityProfile": {
+        "label": "社区资料",
+        "subtitle": "询问关于资料编辑、标识符、等级和账户详细信息的问题。",
+        "suggestions": {
+          "updateProfile": "如何更新我的资料？",
+          "identifiersAndRanks": "标识符和等级如何工作？",
+          "openProfile": "为我打开我的资料页面。"
+        }
+      },
+      "default": {
+        "label": "当前页面",
+        "subtitle": "询问关于此 CMS 页面的问题、搜索文档或打开其他面板。",
+        "suggestions": {
+          "useThisPage": "如何使用此页面？",
+          "featureDocs": "此功能的文档在哪里？",
+          "openPanel": "为我打开正确的 CMS 面板。"
+        }
+      }
+    },
+    "navigationTargets": {
+      "menu": "社区菜单",
+      "communityDiscovery": "社区发现",
+      "systemAccount": "系统账户",
+      "dashboard": "仪表板",
+      "formsCenter": "表单中心",
+      "formManagement": "表单管理",
+      "calendar": "日历",
+      "drive": "驱动器",
+      "myCommunityProfile": "我的社区资料",
+      "adminAccounts": "管理员账户",
+      "customization": "自定义",
+      "formBuilder": "表单构建器",
+      "ranksAndDepartments": "等级和部门",
+      "rosters": "名册",
+      "communityPages": "社区页面",
+      "integrations": "集成",
+      "discordIntegration": "Discord 集成",
+      "teamSpeakIntegration": "TeamSpeak 集成",
+      "apiIntegration": "API 集成",
+      "customDomain": "自定义域",
+      "profileFields": "资料字段",
+      "urlShortener": "URL 缩短",
+      "securityCenter": "安全中心",
+      "growthCenter": "增长中心",
+      "erlcGamePanel": "ER:LC 游戏面板",
+      "qboxGamePanel": "Qbox 游戏面板",
+      "vmenuGamePanel": "vMenu 游戏面板",
+      "fiveMGamePanel": "FiveM 游戏面板"
+    },
+    "actions": {
+      "docsHome": "文档主页",
+      "currentDocs": "当前文档",
+      "dashboard": "仪表板"
+    },
+    "tools": {
+      "openCmsPage": {
+        "description": "当用户请求导航或打开面板时，为其打开一个 Sonoran CMS 页面。",
+        "descriptionWithDestinations": "当用户请求导航或打开面板时，为其打开一个 Sonoran CMS 页面。 可用目标：{destinations}。",
+        "confirmationLabel": "打开此 CMS 页面",
+        "destinationDescription": "选择一个可用的 CMS 目的地。",
+        "destinationDescriptionWithOptions": "选择一个可用的 CMS 目的地：{destinations}。",
+        "unavailableSummary": "此面板在此不可用。 可用选项：{availableOptions}。",
+        "unavailableNoOptions": "此上下文中没有可用的 CMS 导航目标。",
+        "openedSummary": "已打开 {label}。"
+      }
+    }
   }
 }
