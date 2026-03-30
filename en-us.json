@@ -4485,7 +4485,17 @@
     "cadApiCredentials": "CAD API Credentials",
     "cadSyncOptions": "CAD Sync Options",
     "cadPermissionsSelector": "CAD Permissions Selector",
-    "cadSyncNotEnabled": "Enable Permission Sync to configure permissions."
+    "cadSyncNotEnabled": "Enable Permission Sync to configure permissions.",
+    "syncEnabled": "Enable Sync",
+    "syncEnabledDescription": "Enabling this will sync permissions from the CAD to Sonoran CMS based on the rank settings you configure below.",
+    "kickEnabled": "Kick Sync",
+    "kickEnabledDescription": "Kicking a user from the CMS kicks them from the CAD community.",
+    "banEnabled": "Ban Sync",
+    "banEnabledDescription": "Banning a user from the CMS bans them from the CAD community.",
+    "apiIdSyncEnabled": "API ID Sync",
+    "apiIdSyncEnabledDescription": "Enabling this will sync the user's unique API IDs from the CAD to their Sonoran CMS account, which can be used for various integrations and automations within Sonoran CMS.",
+    "joinSyncEnabled": "Join Sync",
+    "joinSyncEnabledDescription": "Automatically join all user accounts in the CMS to the CAD community."
   },
   "RadioIntegration": {
     "title": "Sonoran Radio Configurations",
