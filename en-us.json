@@ -74,6 +74,7 @@
     "kickUser": "Kick Users",
     "banUser": "Ban Users",
     "archiveUser": "Archive User",
+    "purgeInactiveAccounts": "Purge Inactive Accounts",
     "changePermissions": "Change Permissions",
     "modifyComInfo": "Modify Community Customization",
     "modifyComDepts": "Modify Departments via Manager",
@@ -86,6 +87,7 @@
         "kickUserExplanation": "Granting this permission will allow a user with this rank to kick another user from the community.",
         "banUserExplanation": "Granting this permission will allow a user with this rank to ban another user from the community.",
         "archiveUserExplanation": "Granting this permission will allow a user with this rank to archive another user from the community.",
+        "purgeInactiveAccountsExplanation": "Granting this permission will allow a user with this rank to permanently delete community accounts that have not logged in for the selected number of days.",
         "changePermissionsExplanation": "Granting this permission will allow a user with this rank to modify another user's permissions and account details from the community.",
         "modifyComInfoExplanation": "Granting this permission will allow a user with this rank to customize aspects of the Sonoran CMS platform such as Name, Image, Name/Identifier Format, etc.",
         "modifyComFormsExplanation": "Granting this permission will allow a user with this rank to customize the custom form templates that are used when users submit forms.",
@@ -963,7 +965,9 @@
     "mergeAccountsDescription": "Merging the source account into the target account will move all form submissions, events, forum topics & replies, and other historical data from the source account to the target account. The source account will then be archived. This action cannot be undone, so please proceed with caution.",
     "warning": "Warning",
     "mergeFailed": "Merge Failed:",
-    "mergeSuccessful": "Account Merge Successful!"
+    "mergeSuccessful": "Account Merge Successful!",
+    "purgeInactiveAccounts": "Purge Inactive Accounts",
+    "purgeInactiveAccountsDescription": "Purging inactive accounts will archive accounts that have not logged in for a certain length of time. This action cannot be undone, so please proceed with caution."
   },
   "PromotionFlow": {
     "ranks": "Ranks",
@@ -2184,7 +2188,8 @@
     "anErrorOccuredWhileCreatingCommunity": "An error occured while creating community:",
     "bySonoranSoftwareSystems": "by Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Created by an Official Sonoran Software Systems Employee",
-    "youAreBannedFromThisCommunity": "You are banned from this community."
+    "youAreBannedFromThisCommunity": "You are banned from this community.",
+    "optional": "Optional"
   },
   "Login": {
     "loginWithSonoran": "Login With Sonoran",
@@ -4656,6 +4661,7 @@
     "kickUser": "Kick Users",
     "banUser": "Ban Users",
     "archiveUser": "Archive User",
+    "purgeInactiveAccounts": "Purge Inactive Accounts",
     "changePermissions": "Change Permissions",
     "changePermissionsHigher": "Change Higher Permissions",
     "modifyComInfo": "Modify Community Customization",
@@ -4667,6 +4673,7 @@
     "changeHigherPermissions": "Change Higher Permissions",
     "changeOwnDisplayName": "Change Display Name",
     "allowsMembersToManageOwnDisplayName": "Allows members to manage their own display name.",
+    "allowsMembersToPurgeInactiveAccounts": "Allows members to permanently delete community accounts that have not logged in for the selected number of days.",
     "changeOtherDisplayName": "Change user Display Name",
     "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name.",
     "manageActivityTracker": "Manage Activity Tracker",
