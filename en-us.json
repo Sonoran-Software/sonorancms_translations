@@ -2081,6 +2081,209 @@
     "successfullyTransferredCommunityYouNoLon": "Successfully transferred community! You no longer have onwer access to the Sonoran CMS community!",
     "anErrorOccuredWhileProcessingTransfer": "An error occured while processing transfer:"
   },
+  "Backups": {
+    "title": "Community Backups",
+    "proEnabled": "Pro Enabled",
+    "proRequired": "Pro Required",
+    "description": "Review the routine snapshots created by the nightly job, then request a restore for only the categories you need: customization, structure, integrations, and content.",
+    "proFeatureBanner": "Backups are a Pro feature. You can review snapshots here, but restore requests stay disabled until the community upgrades.",
+    "restoreRequestWarnings": "Restore Request Warnings",
+    "restoreLocksCommunity": "Restores lock the community while the swap runs.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord are re-synced after the restore.",
+    "tempRestoreTablesThreeDays": "Temporary restore tables are kept for three days.",
+    "onlyRestoreExistingCategories": "You can only restore categories that exist in the snapshot.",
+    "confirmationPhrase": "RESTORE THIS COMMUNITY",
+    "snapshotLibrary": "Snapshot library",
+    "chooseSnapshotInspect": "Choose a snapshot to request a restore for, or just inspect what it contains.",
+    "reload": "Reload",
+    "noSnapshotsFoundYet": "No snapshots found yet.",
+    "scheduled": "scheduled",
+    "manual": "manual",
+    "size": "Size {size}",
+    "restores": "Restores {count}",
+    "requestRestore": "Request restore",
+    "requestRestoreDialogTitle": "Request restore",
+    "requestRestoreDialogDescription": "Select the categories to include, then send the approval request.",
+    "snapshotLabel": "Snapshot",
+    "unknown": "Unknown",
+    "all": "All",
+    "none": "None",
+    "confirmationInstruction": "Type {phrase} and confirm the email revalidation checkbox before sending the restore request.",
+    "confirmationInputLabel": "Type {phrase} to continue",
+    "emailRevalidationLabel": "I understand this will send an approval email to the owner.",
+    "cancel": "Cancel",
+    "sendRestoreRequest": "Send restore request",
+    "unableToLoadSnapshots": "Unable to load snapshots.",
+    "restoreRequestFailed": "Restore request failed.",
+    "restoreRequestSent": "Restore request sent. The owner must approve it by email before the restore begins.",
+    "statuses": {
+      "completed": "Completed",
+      "restored": "Restored",
+      "failed": "Failed",
+      "processing": "Processing",
+      "restoring": "Restoring",
+      "pending": "Pending",
+      "awaitingApproval": "Awaiting approval",
+      "canceled": "Canceled"
+    },
+    "groups": {
+      "customization": {
+        "label": "Customization",
+        "description": "Branding, pages, profile fields, notices, discovery, and security preferences.",
+        "items": {
+          "community": {
+            "label": "Community Info",
+            "description": "Core community metadata and branding payload."
+          },
+          "branding": {
+            "label": "Branding Only",
+            "description": "Logo, palette, bot branding, and identity."
+          },
+          "pages": {
+            "label": "Pages",
+            "description": "Custom page layout and navigation surfaces."
+          },
+          "profileFields": {
+            "label": "Profile Fields",
+            "description": "Custom profile fields and member data."
+          },
+          "notices": {
+            "label": "Notices",
+            "description": "Community notices and announcements."
+          },
+          "discovery": {
+            "label": "Discovery Settings",
+            "description": "Discovery state, tags, and approval data."
+          },
+          "securityPreferences": {
+            "label": "Security Preferences",
+            "description": "Community-wide security preferences."
+          }
+        }
+      },
+      "structure": {
+        "label": "Structure",
+        "description": "Departments, forms, form folders, rosters, stages, and calendars.",
+        "items": {
+          "departments": {
+            "label": "Departments",
+            "description": "Rank groups and department configuration."
+          },
+          "forms": {
+            "label": "Forms",
+            "description": "Form templates and structure."
+          },
+          "formFolders": {
+            "label": "Form Folders",
+            "description": "Folder organization for forms."
+          },
+          "rosters": {
+            "label": "Rosters",
+            "description": "Roster templates and layout."
+          },
+          "stages": {
+            "label": "Stages",
+            "description": "Stage definitions."
+          },
+          "stageGroups": {
+            "label": "Stage Groups",
+            "description": "Stage grouping and hierarchy."
+          },
+          "calendarCategories": {
+            "label": "Calendar Categories",
+            "description": "Event category organization."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrations",
+        "description": "Servers, CAD, Radio, webhooks, and rich presence configuration.",
+        "items": {
+          "servers": {
+            "label": "Servers",
+            "description": "Integration server definitions."
+          },
+          "cadAuth": {
+            "label": "CAD Auth",
+            "description": "Sonoran CAD authorization settings."
+          },
+          "radioAuth": {
+            "label": "Radio Auth",
+            "description": "Sonoran Radio authorization settings."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord webhook mappings and delivery settings."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Discord rich presence configuration."
+          }
+        }
+      },
+      "content": {
+        "label": "Content",
+        "description": "Accounts, form submissions, forum history, gallery entries, events, and docs.",
+        "items": {
+          "accounts": {
+            "label": "Accounts",
+            "description": "Community account rows and member data."
+          },
+          "formSubmissions": {
+            "label": "Form Submissions",
+            "description": "Submitted forms and responses."
+          },
+          "forumCategories": {
+            "label": "Forum Categories",
+            "description": "Forum category structure."
+          },
+          "forumTopics": {
+            "label": "Forum Topics",
+            "description": "Forum topic threads."
+          },
+          "forumReplies": {
+            "label": "Forum Replies",
+            "description": "Forum replies and history."
+          },
+          "galleryCategories": {
+            "label": "Gallery Categories",
+            "description": "Gallery category structure."
+          },
+          "galleryPosts": {
+            "label": "Gallery Posts",
+            "description": "Gallery post history and media references."
+          },
+          "events": {
+            "label": "Events",
+            "description": "Calendar events and RSVP state."
+          },
+          "rosterRows": {
+            "label": "Roster Rows",
+            "description": "Row data used to build rosters."
+          },
+          "rosterData": {
+            "label": "Roster Data",
+            "description": "Roster backing payloads."
+          },
+          "docs": {
+            "label": "Docs",
+            "description": "Community document metadata."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Approve Restore Request",
+    "description": "This restore request was sent to the community owner by email. Enter the exact community name below to verify the request and start the restore.",
+    "disclaimer": "If you did not request this restore, you can close this page and ignore the email.",
+    "communityNameLabel": "Community name",
+    "back": "Back",
+    "confirmAndStartRestore": "Confirm and start restore",
+    "unableToVerify": "Unable to verify the restore request. Please check the community name and try again.",
+    "restoreStarted": "Restore request verified. The restore has started and will continue in the background.",
+    "unableToConfirm": "Unable to confirm restore request."
+  },
   "Pricing": {
     "createYourCommunity": "Create Your Community",
     "drive100mb": "Drive 100MB",
