@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om alle documenten binnen de Sonoran CMS Community Drive te beheren.",
         "clockInOutExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om in en uit te klokken.",
         "modifyTeamSpeakExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de TeamSpeak-integratie-instellingen aan te passen.",
-        "modifyShieldExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de Sonoran Shield-instellingen aan te passen."
+        "modifyShieldExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de Sonoran Shield-instellingen aan te passen.",
+        "purgeInactiveAccountsExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om gemeenschapsaccounts permanent te verwijderen die voor het geselecteerde aantal dagen niet hebben ingelogd."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de Dashboard-knop op de zijbalk te zien.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Het verlenen van deze permissies stelt het lid met deze rang in staat om deze pagina te bekijken, aangezien de pagina is ingesteld op PRIVÉ."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Inactieve accounts zuiveren"
   },
   "growth": {
     "ERRORED": "FOUT",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Het samenvoegen van het bronaccount in het doelaccount zal alle formulierinzendingen, evenementen, forumonderwerpen & antwoorden, en andere historische gegevens van het bronaccount naar het doelaccount verplaatsen. Het bronaccount wordt vervolgens gearchiveerd. Deze actie kan niet ongedaan worden gemaakt, dus ga met voorzichtigheid verder.",
     "warning": "Waarschuwing",
     "mergeFailed": "Samenvoegen mislukt:",
-    "mergeSuccessful": "Accounts succesvol samengevoegd!"
+    "mergeSuccessful": "Accounts succesvol samengevoegd!",
+    "purgeInactiveAccounts": "Inactieve accounts zuiveren",
+    "purgeInactiveAccountsDescription": "Het zuiveren van inactieve accounts zal accounts archiveren die voor een bepaalde tijd niet hebben ingelogd. Deze actie kan niet ongedaan worden gemaakt, dus ga voorzichtig te werk."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API Tutorial",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Er is een fout opgetreden bij het aanmaken van de gemeenschap:",
     "bySonoranSoftwareSystems": "door Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Gemaakt door een officiële medewerker van Sonoran Software Systems",
-    "youAreBannedFromThisCommunity": "Je bent verbannen uit deze gemeenschap."
+    "youAreBannedFromThisCommunity": "Je bent verbannen uit deze gemeenschap.",
+    "optional": "Optioneel"
   },
   "Login": {
     "loginWithSonoran": "Inloggen met Sonoran",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Fout: U heeft geen toestemming om dit formulier in te dienen.",
     "anErrorOccuredWhileQueryingData": "Er is een fout opgetreden bij het opvragen van gegevens:",
     "anErrorOccuredWhileSubmittingForm": "Er is een fout opgetreden bij het indienen van het formulier:",
-    "youAreSubmittingThisFormUnder": "U dient dit formulier in onder:"
+    "youAreSubmittingThisFormUnder": "U dient dit formulier in onder:",
+    "requiredFieldTooltip": "{field} is vereist"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Fout: Er is een fout opgetreden bij het opvragen van de formulierinzending. Probeer het later opnieuw",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD API Referenties",
     "cadSyncOptions": "CAD Synchronisatie Opties",
     "cadPermissionsSelector": "CAD Permissies Selector",
-    "cadSyncNotEnabled": "Schakel Machtigingsynchronisatie in om machtigingen te configureren."
+    "cadSyncNotEnabled": "Schakel Machtigingsynchronisatie in om machtigingen te configureren.",
+    "syncEnabled": "Synchronisatie Inschakelen",
+    "syncEnabledDescription": "Door dit in te schakelen worden permissies vanuit de CAD gesynchroniseerd naar Sonoran CMS op basis van de ranginstellingen die u hieronder configureert.",
+    "kickEnabled": "Kick Synchronisatie",
+    "kickEnabledDescription": "Een gebruiker uit de CMS trappen, trapt hen uit de CAD-gemeenschap.",
+    "banEnabled": "Ban Synchronisatie",
+    "banEnabledDescription": "Het verbannen van een gebruiker van de CMS verbant hen van de CAD-gemeenschap.",
+    "apiIdSyncEnabled": "API ID Synchronisatie",
+    "apiIdSyncEnabledDescription": "Door dit in te schakelen worden de unieke API-ID's van de gebruiker gesynchroniseerd van de CAD naar hun Sonoran CMS-account, wat kan worden gebruikt voor verschillende integraties en automatiseringen binnen Sonoran CMS.",
+    "joinSyncEnabled": "Deelname Synchronisatie",
+    "joinSyncEnabledDescription": "Voegt automatisch alle gebruikersaccounts in de CMS toe aan de CAD-gemeenschap."
   },
   "imageInn": {
     "dropArea": "Drop Gebied"
@@ -4354,7 +4370,9 @@
     "use": "Gebruik",
     "allowsMembersToUseShiftType": "Staat leden toe dit ploegtype te gebruiken voor het in- en uitklokken.",
     "mergeAccounts": "Accounts samenvoegen",
-    "allowsMembersToMergeAccounts": "Laat leden toe om twee accounts samen te voegen, inclusief rangen en alle communitygegevens."
+    "allowsMembersToMergeAccounts": "Laat leden toe om twee accounts samen te voegen, inclusief rangen en alle communitygegevens.",
+    "purgeInactiveAccounts": "Inactieve accounts zuiveren",
+    "allowsMembersToPurgeInactiveAccounts": "Stelt leden in staat om gemeenschapsaccounts permanent te verwijderen die niet hebben ingelogd voor het geselecteerde aantal dagen."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Diensttypes",
     "optional": "Optioneel",
     "onEvent": "Bij Gebeurtenis",
-    "type": "Type"
+    "type": "Type",
+    "erlcCommand": "ERLC Commando",
+    "erlcCommandDescription": "Geactiveerd wanneer een ERLC aangepast commando wordt gebruikt. De argumenten na het commando kunnen worden ingevoegd in uw actietekst met variabelen.",
+    "triggerCommand": "Commando Activeren",
+    "triggerCommandHint": "De commando naam na :log, bijvoorbeeld record of clockin.",
+    "erlcCommandNameVariableLabel": "Commando Naam",
+    "erlcCommandNameVariableDesc": "Dit geeft de ERLC aangepaste commando naam weer die de actie heeft geactiveerd.",
+    "erlcCommandArgsVariableLabel": "Commando Argumenten",
+    "erlcCommandArgsVariableDesc": "Dit geeft alles weer na de commando naam.",
+    "erlcCommandArg1VariableLabel": "Commando Argument 1",
+    "erlcCommandArg1VariableDesc": "Dit geeft het eerste argument weer na de commando naam.",
+    "erlcCommandArg2VariableLabel": "Commando Argument 2",
+    "erlcCommandArg2VariableDesc": "Dit geeft het tweede argument weer na de commando naam.",
+    "erlcCommandArg3VariableLabel": "Commando Argument 3",
+    "erlcCommandArg3VariableDesc": "Dit geeft het derde argument weer na de commando naam.",
+    "erlcCommandArg4VariableLabel": "Commando Argument 4",
+    "erlcCommandArg4VariableDesc": "Dit geeft het vierde argument weer na de commando naam.",
+    "erlcCommandArg5VariableLabel": "Commando Argument 5",
+    "erlcCommandArg5VariableDesc": "Dit geeft het vijfde argument weer na de commando naam."
   },
   "integrationsPortal": {
     "title": "Officiële Integraties",

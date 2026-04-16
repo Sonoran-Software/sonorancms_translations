@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Concedere questo permesso permetterà a un utente con questo rango di gestire tutti i documenti all'interno del Sonoran CMS Community Drive.",
         "clockInOutExplanation": "Concedere questo permesso permetterà a un utente di timbrare l'entrata e l'uscita.",
         "modifyTeamSpeakExplanation": "Concedere questo permesso permetterà a un utente di modificare le impostazioni di integrazione di TeamSpeak.",
-        "modifyShieldExplanation": "Concedere questo permesso permetterà a un utente di modificare le impostazioni di Sonoran Shield."
+        "modifyShieldExplanation": "Concedere questo permesso permetterà a un utente di modificare le impostazioni di Sonoran Shield.",
+        "purgeInactiveAccountsExplanation": "Concedere questo permesso consentirà a un utente con questo rango di eliminare permanentemente gli account della comunità che non hanno effettuato l'accesso per il numero di giorni selezionato."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Concedere questo permesso permetterà a un utente di vedere il pulsante Dashboard nella barra di navigazione laterale.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Concedere questi permessi permetterà al membro che detiene questo grado di visualizzare questa pagina poiché la pagina è impostata su PRIVATA."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Elimina Account Inattivi"
   },
   "growth": {
     "ERRORED": "ERRORE",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Unire l'account sorgente nell'account di destinazione trasferirà tutte le iscrizioni ai moduli, eventi, argomenti e risposte del forum e altri dati storici dall'account sorgente all'account di destinazione. L'account sorgente verrà quindi archiviato. Questa azione non può essere annullata, quindi procedere con cautela.",
     "warning": "Avvertimento",
     "mergeFailed": "Unione Fallita:",
-    "mergeSuccessful": "Unione degli Account riuscita!"
+    "mergeSuccessful": "Unione degli Account riuscita!",
+    "purgeInactiveAccounts": "Elimina Account Inattivi",
+    "purgeInactiveAccountsDescription": "Eliminando gli account inattivi, verranno archiviati gli account che non hanno effettuato l'accesso per un certo periodo di tempo. Questa azione non può essere annullata, quindi procedere con cautela."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Tutorial API della Comunità",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Si è verificato un errore durante la creazione della comunità:",
     "bySonoranSoftwareSystems": "da Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Creato da un dipendente ufficiale di Sonoran Software Systems",
-    "youAreBannedFromThisCommunity": "Sei stato bannato da questa comunità."
+    "youAreBannedFromThisCommunity": "Sei stato bannato da questa comunità.",
+    "optional": "Facoltativo"
   },
   "Login": {
     "loginWithSonoran": "Accedi con Sonoran",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Errore: Non hai il permesso di inviare questo modulo.",
     "anErrorOccuredWhileQueryingData": "Si è verificato un errore durante la query dei dati:",
     "anErrorOccuredWhileSubmittingForm": "Si è verificato un errore durante l'invio del modulo:",
-    "youAreSubmittingThisFormUnder": "Stai inviando questo modulo sotto:"
+    "youAreSubmittingThisFormUnder": "Stai inviando questo modulo sotto:",
+    "requiredFieldTooltip": "{field} è obbligatorio"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Errore: Si è verificato un errore durante la query dell'invio del modulo. Riprova più tardi",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "Credenziali API CAD",
     "cadSyncOptions": "Opzioni di sincronizzazione CAD",
     "cadPermissionsSelector": "Selettore dei permessi CAD",
-    "cadSyncNotEnabled": "Abilita Sincronizzazione Permessi per configurare i permessi."
+    "cadSyncNotEnabled": "Abilita Sincronizzazione Permessi per configurare i permessi.",
+    "syncEnabled": "Attiva Sincronizzazione",
+    "syncEnabledDescription": "Abilitando questo, le autorizzazioni verranno sincronizzate dal CAD a Sonoran CMS in base alle impostazioni di rango configurate di seguito.",
+    "kickEnabled": "Sincronizzazione Espulsione",
+    "kickEnabledDescription": "Espellere un utente dal CMS lo espelle dalla comunità CAD.",
+    "banEnabled": "Sincronizzazione Ban",
+    "banEnabledDescription": "Bannare un utente dal CMS lo bandisce anche dalla comunità CAD.",
+    "apiIdSyncEnabled": "Sincronizzazione ID API",
+    "apiIdSyncEnabledDescription": "Abilitando questo, i singoli ID API unici degli utenti verranno sincronizzati dal CAD al loro account Sonoran CMS, che può essere utilizzato per varie integrazioni e automazioni all'interno del Sonoran CMS.",
+    "joinSyncEnabled": "Sincronizzazione Unione",
+    "joinSyncEnabledDescription": "Unisci automaticamente tutti gli account utente nel CMS alla comunità CAD."
   },
   "imageInn": {
     "dropArea": "Area di rilascio"
@@ -4354,7 +4370,9 @@
     "use": "Usa",
     "allowsMembersToUseShiftType": "Consente ai membri di utilizzare questo tipo di turno per registrarsi in entrata e in uscita.",
     "mergeAccounts": "Unisci Account",
-    "allowsMembersToMergeAccounts": "Consente ai membri di unire due account, combinando ranghi e tutti i dati della comunità."
+    "allowsMembersToMergeAccounts": "Consente ai membri di unire due account, combinando ranghi e tutti i dati della comunità.",
+    "purgeInactiveAccounts": "Elimina Account Inattivi",
+    "allowsMembersToPurgeInactiveAccounts": "Consente ai membri di eliminare permanentemente gli account della comunità che non hanno effettuato l'accesso per il numero di giorni selezionato."
   },
   "permissionToggleGroup": {
     "inherited": "ereditato",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Tipi di Turno",
     "optional": "Opzionale",
     "onEvent": "Durante l'Evento",
-    "type": "Tipo"
+    "type": "Tipo",
+    "erlcCommand": "Comando ERLC",
+    "erlcCommandDescription": "Attivato quando viene utilizzato un comando personalizzato ERLC. Gli argomenti dopo il comando possono essere inseriti nel testo dell'azione con variabili.",
+    "triggerCommand": "Esegui Comando",
+    "triggerCommandHint": "Il nome del comando dopo :log, ad esempio record o clockin.",
+    "erlcCommandNameVariableLabel": "Nome Comando",
+    "erlcCommandNameVariableDesc": "Indicherà il nome del comando personalizzato ERLC che ha attivato l'azione.",
+    "erlcCommandArgsVariableLabel": "Argomenti del Comando",
+    "erlcCommandArgsVariableDesc": "Indicherà tutto ciò che segue il nome del comando.",
+    "erlcCommandArg1VariableLabel": "Argomento del Comando 1",
+    "erlcCommandArg1VariableDesc": "Indicherà il primo argomento dopo il nome del comando.",
+    "erlcCommandArg2VariableLabel": "Argomento del Comando 2",
+    "erlcCommandArg2VariableDesc": "Indicherà il secondo argomento dopo il nome del comando.",
+    "erlcCommandArg3VariableLabel": "Argomento del Comando 3",
+    "erlcCommandArg3VariableDesc": "Indicherà il terzo argomento dopo il nome del comando.",
+    "erlcCommandArg4VariableLabel": "Argomento del Comando 4",
+    "erlcCommandArg4VariableDesc": "Indicherà il quarto argomento dopo il nome del comando.",
+    "erlcCommandArg5VariableLabel": "Argomento del Comando 5",
+    "erlcCommandArg5VariableDesc": "Indicherà il quinto argomento dopo il nome del comando."
   },
   "integrationsPortal": {
     "title": "Integrazioni Ufficiali",

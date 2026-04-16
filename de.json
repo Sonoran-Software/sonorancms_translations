@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, alle Dokumente im Sonoran CMS Community Drive zu verwalten.",
         "clockInOutExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, sich ein- und auszustempeln.",
         "modifyTeamSpeakExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die TeamSpeak-Integrationseinstellungen zu ändern.",
-        "modifyShieldExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Sonoran Shield-Einstellungen zu ändern."
+        "modifyShieldExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Sonoran Shield-Einstellungen zu ändern.",
+        "purgeInactiveAccountsExplanation": "Durch das Erteilen dieser Berechtigung kann ein Benutzer mit diesem Rang Community-Konten dauerhaft löschen, die sich in der angegebenen Anzahl an Tagen nicht angemeldet haben."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Dashboard-Schaltfläche in der seitlichen Navigationsleiste zu sehen.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Das Erteilen dieser Berechtigungen ermöglicht es dem Mitglied, das diesen Rang innehat, diese Seite zu sehen, da die Seite auf PRIVAT gesetzt ist."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Inaktive Konten bereinigen"
   },
   "growth": {
     "ERRORED": "FEHLERHAFT",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Das Zusammenführen des Quellkontos mit dem Zielkonto verschiebt alle Formularübermittlungen, Ereignisse, Forenthemen & Antworten und andere historische Daten vom Quellkonto zum Zielkonto. Das Quellkonto wird dann archiviert. Diese Aktion kann nicht rückgängig gemacht werden, daher bitte mit Vorsicht vorgehen.",
     "warning": "Warnung",
     "mergeFailed": "Zusammenführung fehlgeschlagen:",
-    "mergeSuccessful": "Kontenzusammenführung erfolgreich!"
+    "mergeSuccessful": "Kontenzusammenführung erfolgreich!",
+    "purgeInactiveAccounts": "Inaktive Konten bereinigen",
+    "purgeInactiveAccountsDescription": "Das Bereinigen inaktiver Konten archviert Konten, die sich über einen bestimmten Zeitraum nicht angemeldet haben. Diese Aktion kann nicht rückgängig gemacht werden, seien Sie also vorsichtig."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community-API-Tutorial",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Ein Fehler ist bei der Erstellung der Community aufgetreten:",
     "bySonoranSoftwareSystems": "von Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Erstellt von einem offiziellen Mitarbeiter von Sonoran Software Systems",
-    "youAreBannedFromThisCommunity": "Sie sind von dieser Community ausgeschlossen."
+    "youAreBannedFromThisCommunity": "Sie sind von dieser Community ausgeschlossen.",
+    "optional": "Optional"
   },
   "Login": {
     "loginWithSonoran": "Mit Sonoran einloggen",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Fehler: Sie haben keine Berechtigung, dieses Formular einzureichen.",
     "anErrorOccuredWhileQueryingData": "Ein Fehler ist beim Abfragen der Daten aufgetreten:",
     "anErrorOccuredWhileSubmittingForm": "Ein Fehler ist beim Einreichen des Formulars aufgetreten:",
-    "youAreSubmittingThisFormUnder": "Sie reichen dieses Formular unter ein:"
+    "youAreSubmittingThisFormUnder": "Sie reichen dieses Formular unter ein:",
+    "requiredFieldTooltip": "{field} ist erforderlich"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Fehler: Ein Fehler ist beim Abfragen der Formulareinreichung aufgetreten. Versuchen Sie es später erneut.",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD API Anmeldeinformationen",
     "cadSyncOptions": "CAD Synchronisierungsoptionen",
     "cadPermissionsSelector": "CAD Berechtigungsauswahl",
-    "cadSyncNotEnabled": "Aktivieren Sie die Berechtigungssynchronisierung, um Berechtigungen zu konfigurieren."
+    "cadSyncNotEnabled": "Aktivieren Sie die Berechtigungssynchronisierung, um Berechtigungen zu konfigurieren.",
+    "syncEnabled": "Sync aktivieren",
+    "syncEnabledDescription": "Wenn dies aktiviert wird, werden Berechtigungen vom CAD zu Sonoran CMS basierend auf den unten konfigurierten Rang-Einstellungen synchronisiert.",
+    "kickEnabled": "Kick-Sync",
+    "kickEnabledDescription": "Wenn ein Benutzer aus dem CMS gekickt wird, wird er auch aus der CAD-Community gekickt.",
+    "banEnabled": "Ban-Sync",
+    "banEnabledDescription": "Wenn ein Benutzer aus dem CMS verbannt wird, wird er auch aus der CAD-Community verbannt.",
+    "apiIdSyncEnabled": "API-ID-Sync",
+    "apiIdSyncEnabledDescription": "Wenn dies aktiviert wird, werden die einzigartigen API-IDs des Benutzers vom CAD zu seinem Sonoran CMS-Konto synchronisiert, die für verschiedene Integrationen und Automatisierungen innerhalb von Sonoran CMS verwendet werden können.",
+    "joinSyncEnabled": "Join-Sync",
+    "joinSyncEnabledDescription": "Fügt automatisch alle Benutzerkonten im CMS der CAD-Community hinzu."
   },
   "imageInn": {
     "dropArea": "Ablagebereich"
@@ -4354,7 +4370,9 @@
     "use": "Benutzen",
     "allowsMembersToUseShiftType": "Ermöglicht es Mitgliedern, diesen Schichttyp für das Ein- und Ausstempeln zu verwenden.",
     "mergeAccounts": "Konten zusammenführen",
-    "allowsMembersToMergeAccounts": "Erlaubt es Mitgliedern, zwei Konten zusammenzufügen, um Ränge und alle Community-Daten zu kombinieren."
+    "allowsMembersToMergeAccounts": "Erlaubt es Mitgliedern, zwei Konten zusammenzufügen, um Ränge und alle Community-Daten zu kombinieren.",
+    "purgeInactiveAccounts": "Inaktive Konten bereinigen",
+    "allowsMembersToPurgeInactiveAccounts": "Erlaubt Mitgliedern, Community-Konten dauerhaft zu löschen, die sich in der angegebenen Anzahl an Tagen nicht angemeldet haben."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Schichttypen",
     "optional": "Optional",
     "onEvent": "Bei Ereignis",
-    "type": "Typ"
+    "type": "Typ",
+    "erlcCommand": "ERLC-Befehl",
+    "erlcCommandDescription": "Ausgelöst, wenn ein benutzerdefinierter ERLC-Befehl verwendet wird. Die Argumente nach dem Befehl können mit Variablen in Ihren Aktions-Text eingefügt werden.",
+    "triggerCommand": "Befehl auslösen",
+    "triggerCommandHint": "Der Befehlname nach :log, z.B. record oder clockin.",
+    "erlcCommandNameVariableLabel": "Befehlname",
+    "erlcCommandNameVariableDesc": "Dies wird den Namen des ERLC-Befehls angeben, der die Aktion ausgelöst hat.",
+    "erlcCommandArgsVariableLabel": "Befehl-Argumente",
+    "erlcCommandArgsVariableDesc": "Dies wird alles nach dem Befehlname angeben.",
+    "erlcCommandArg1VariableLabel": "Befehl-Argument 1",
+    "erlcCommandArg1VariableDesc": "Dies wird das erste Argument nach dem Befehlname angeben.",
+    "erlcCommandArg2VariableLabel": "Befehl-Argument 2",
+    "erlcCommandArg2VariableDesc": "Dies wird das zweite Argument nach dem Befehlname angeben.",
+    "erlcCommandArg3VariableLabel": "Befehl-Argument 3",
+    "erlcCommandArg3VariableDesc": "Dies wird das dritte Argument nach dem Befehlname angeben.",
+    "erlcCommandArg4VariableLabel": "Befehl-Argument 4",
+    "erlcCommandArg4VariableDesc": "Dies wird das vierte Argument nach dem Befehlname angeben.",
+    "erlcCommandArg5VariableLabel": "Befehl-Argument 5",
+    "erlcCommandArg5VariableDesc": "Dies wird das fünfte Argument nach dem Befehlname angeben."
   },
   "integrationsPortal": {
     "title": "Offizielle Integrationen",

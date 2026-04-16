@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом управлять всеми документами в Sonoran CMS Community Drive.",
         "clockInOutExplanation": "Предоставление этого разрешения позволит пользователю отмечаться при входе и выходе.",
         "modifyTeamSpeakExplanation": "Предоставление этого разрешения позволит пользователю изменять настройки интеграции TeamSpeak.",
-        "modifyShieldExplanation": "Предоставление этого разрешения позволит пользователю изменять настройки Sonoran Shield."
+        "modifyShieldExplanation": "Предоставление этого разрешения позволит пользователю изменять настройки Sonoran Shield.",
+        "purgeInactiveAccountsExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом навсегда удалять аккаунты сообщества, которые не заходили в течение выбранного количества дней."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Предоставление этого разрешения позволит пользователю видеть кнопку 'Панель управления' на боковой панели навигации.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Предоставление этих разрешений позволит участнику, имеющему этот ранг, просматривать эту страницу, так как страница установлена как ЧАСТНАЯ."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Очистить неактивные аккаунты"
   },
   "growth": {
     "ERRORED": "ОШИБКА",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Объединение исходного аккаунта с целевым переместит все формы, события, темы и ответы на форумах, а также другие исторические данные из исходного аккаунта в целевой. После этого исходный аккаунт будет архивирован. Это действие нельзя отменить, поэтому, пожалуйста, будьте осторожны.",
     "warning": "Предупреждение",
     "mergeFailed": "Ошибка объединения:",
-    "mergeSuccessful": "Успешное объединение аккаунтов!"
+    "mergeSuccessful": "Успешное объединение аккаунтов!",
+    "purgeInactiveAccounts": "Очистить неактивные аккаунты",
+    "purgeInactiveAccountsDescription": "Очистка неактивных аккаунтов архивирует аккаунты, которые не заходили в течение определенного времени. Это действие нельзя отменить, поэтому, пожалуйста, действуйте осторожно."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Узнайте о вашем API сообщества",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "от Sonoran Software Systems",
     "bySonoranSoftwareSystems": "Создано сотрудником официальной компании Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Вы забанены в этом сообществе.",
-    "youAreBannedFromThisCommunity": "Войти с Sonoran"
+    "youAreBannedFromThisCommunity": "Войти с Sonoran",
+    "optional": "Необязательно"
   },
   "Login": {
     "loginWithSonoran": "Войти с Discord",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Произошла ошибка при запросе данных:",
     "anErrorOccuredWhileQueryingData": "Успешно применено к",
     "anErrorOccuredWhileSubmittingForm": "Вы отправляете эту форму под:",
-    "youAreSubmittingThisFormUnder": "Ошибка: Произошла ошибка при запросе отправки формы. Попробуйте позже."
+    "youAreSubmittingThisFormUnder": "Ошибка: Произошла ошибка при запросе отправки формы. Попробуйте позже.",
+    "requiredFieldTooltip": "{field} обязателен"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Ошибка: У вас нет разрешения на просмотр этой отправки.",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "Параметры синхронизации CAD",
     "cadSyncOptions": "Селектор разрешений CAD",
     "cadPermissionsSelector": "Область для перетаскивания",
-    "cadSyncNotEnabled": "Включите синхронизацию разрешений для настройки разрешений."
+    "cadSyncNotEnabled": "Включите синхронизацию разрешений для настройки разрешений.",
+    "syncEnabled": "Включить синхронизацию",
+    "syncEnabledDescription": "Включение этого параметра позволит синхронизировать разрешения из CAD в Sonoran CMS на основе настроек рангов, которые вы настроите ниже.",
+    "kickEnabled": "Синхронизация кика",
+    "kickEnabledDescription": "Выгонка пользователя из CMS выгоняет его из сообщества CAD.",
+    "banEnabled": "Синхронизация бана",
+    "banEnabledDescription": "Блокировка пользователя в CMS блокирует его в сообществе CAD.",
+    "apiIdSyncEnabled": "Синхронизация API ID",
+    "apiIdSyncEnabledDescription": "Включение этого параметра позволит синхронизировать уникальные API ID пользователя из CAD в его аккаунт Sonoran CMS, которые могут быть использованы для различных интеграций и автоматизаций в Sonoran CMS.",
+    "joinSyncEnabled": "Синхронизация подключения",
+    "joinSyncEnabledDescription": "Автоматически подключать все аккаунты пользователей в CMS к сообществу CAD."
   },
   "imageInn": {
     "dropArea": "Нажмите, чтобы загрузить изображение"
@@ -4354,7 +4370,9 @@
     "use": "Использовать",
     "allowsMembersToUseShiftType": "Позволяет участникам использовать этот тип смены для входа и выхода.",
     "mergeAccounts": "Объединение аккаунтов",
-    "allowsMembersToMergeAccounts": "Позволяет участникам объединять два аккаунта, объединяя ранги и все данные сообщества."
+    "allowsMembersToMergeAccounts": "Позволяет участникам объединять два аккаунта, объединяя ранги и все данные сообщества.",
+    "purgeInactiveAccounts": "Очистить неактивные аккаунты",
+    "allowsMembersToPurgeInactiveAccounts": "Позволяет участникам навсегда удалять аккаунты сообщества, которые не заходили в течение выбранного количества дней."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Типы смен",
     "optional": "Опционально",
     "onEvent": "На событие",
-    "type": "Тип"
+    "type": "Тип",
+    "erlcCommand": "Команда ERLC",
+    "erlcCommandDescription": "Срабатывает, когда используется пользовательская команда ERLC. Аргументы после команды можно вставить в ваш текст действия с помощью переменных.",
+    "triggerCommand": "Запустить команду",
+    "triggerCommandHint": "Имя команды после :log, например, record или clockin.",
+    "erlcCommandNameVariableLabel": "Имя команды",
+    "erlcCommandNameVariableDesc": "Это укажет имя пользовательской команды ERLC, которая вызвала действие.",
+    "erlcCommandArgsVariableLabel": "Аргументы команды",
+    "erlcCommandArgsVariableDesc": "Это укажет все, что идет после имени команды.",
+    "erlcCommandArg1VariableLabel": "Аргумент команды 1",
+    "erlcCommandArg1VariableDesc": "Это укажет первый аргумент после имени команды.",
+    "erlcCommandArg2VariableLabel": "Аргумент команды 2",
+    "erlcCommandArg2VariableDesc": "Это укажет второй аргумент после имени команды.",
+    "erlcCommandArg3VariableLabel": "Аргумент команды 3",
+    "erlcCommandArg3VariableDesc": "Это укажет третий аргумент после имени команды.",
+    "erlcCommandArg4VariableLabel": "Аргумент команды 4",
+    "erlcCommandArg4VariableDesc": "Это укажет четвертый аргумент после имени команды.",
+    "erlcCommandArg5VariableLabel": "Аргумент команды 5",
+    "erlcCommandArg5VariableDesc": "Это укажет пятый аргумент после имени команды."
   },
   "integrationsPortal": {
     "title": "Официальные интеграции",

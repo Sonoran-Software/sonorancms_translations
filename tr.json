@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Bu iznin verilmesi, bu rütbeye sahip bir kullanıcının Sonoran CMS Topluluk Sürücüsü içindeki tüm belgeleri yönetmesine olanak tanır.",
         "clockInOutExplanation": "Bu iznin verilmesi, bir kullanıcının giriş ve çıkış yapmasına olanak tanır.",
         "modifyTeamSpeakExplanation": "Bu iznin verilmesi, bir kullanıcının TeamSpeak entegrasyon ayarlarını değiştirmesine olanak tanır.",
-        "modifyShieldExplanation": "Bu iznin verilmesi, bir kullanıcının Sonoran Shield ayarlarını değiştirmesine olanak tanır."
+        "modifyShieldExplanation": "Bu iznin verilmesi, bir kullanıcının Sonoran Shield ayarlarını değiştirmesine olanak tanır.",
+        "purgeInactiveAccountsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının, seçilen gün sayısı boyunca giriş yapmamış topluluk hesaplarını kalıcı olarak silmesine izin verir."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Dashboard düğmesini görmesine olanak tanır.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Bu izinlerin verilmesi, bu rütbeye sahip olan üyenin bu sayfayı görüntülemesine olanak tanır çünkü sayfa ÖZEL olarak ayarlanmıştır."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Etkin Olmayan Hesapları Temizle"
   },
   "growth": {
     "ERRORED": "HATA OLUŞTU",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Kaynak hesabı hedef hesapla birleştirmek, tüm form gönderimlerini, etkinlikleri, forum konularını ve yanıtlarını ve diğer tarihsel verileri kaynak hesaptan hedef hesaba taşır. Kaynak hesap daha sonra arşivlenecektir. Bu işlem geri alınamaz, lütfen dikkatli devam ediniz.",
     "warning": "Uyarı",
     "mergeFailed": "Birleştirme Başarısız:",
-    "mergeSuccessful": "Hesap Başarıyla Birleştirildi!"
+    "mergeSuccessful": "Hesap Başarıyla Birleştirildi!",
+    "purgeInactiveAccounts": "Etkin Olmayan Hesapları Temizle",
+    "purgeInactiveAccountsDescription": "Etkin olmayan hesapların temizlenmesi, belirli bir süre boyunca giriş yapmamış hesapları arşivler. Bu işlem geri alınamaz, bu yüzden lütfen dikkatli ilerleyin."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Topluluk API Eğitimi",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Topluluk oluşturulurken bir hata oluştu:",
     "bySonoranSoftwareSystems": "Sonoran Software Systems tarafından",
     "createdByAnOfficialSonoranSoftwareSystem": "Resmi bir Sonoran Software Systems çalışanı tarafından oluşturuldu",
-    "youAreBannedFromThisCommunity": "Bu topluluktan yasaklandınız."
+    "youAreBannedFromThisCommunity": "Bu topluluktan yasaklandınız.",
+    "optional": "İsteğe Bağlı"
   },
   "Login": {
     "loginWithSonoran": "Sonoran ile Giriş Yap",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Hata: Bu formu göndermek için izniniz yok.",
     "anErrorOccuredWhileQueryingData": "Veri sorgulanırken bir hata oluştu:",
     "anErrorOccuredWhileSubmittingForm": "Form gönderilirken bir hata oluştu:",
-    "youAreSubmittingThisFormUnder": "Bu formu şu şekilde gönderiyorsunuz:"
+    "youAreSubmittingThisFormUnder": "Bu formu şu şekilde gönderiyorsunuz:",
+    "requiredFieldTooltip": "{field} gereklidir"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Hata: Form gönderimi sorgulanırken bir hata oluştu. Daha sonra tekrar deneyin.",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD API Kimlik Bilgileri",
     "cadSyncOptions": "CAD Senkronizasyon Seçenekleri",
     "cadPermissionsSelector": "CAD İzin Seçici",
-    "cadSyncNotEnabled": "İzinleri yapılandırmak için İzin Senkronizasyonunu Etkinleştirin."
+    "cadSyncNotEnabled": "İzinleri yapılandırmak için İzin Senkronizasyonunu Etkinleştirin.",
+    "syncEnabled": "Senkronizasyonu Etkinleştir",
+    "syncEnabledDescription": "Bunu etkinleştirmek, aşağıda yapılandırdığınız rütbe ayarlarına göre izinleri CAD'den Sonoran CMS'e senkronize eder.",
+    "kickEnabled": "Kovma Senkronizasyonu",
+    "kickEnabledDescription": "Bir kullanıcıyı CMS'den kovduğunuzda, onları CAD topluluğundan da kovar.",
+    "banEnabled": "Yasaklama Senkronizasyonu",
+    "banEnabledDescription": "Bir kullanıcıyı CMS'den yasakladığınızda, onları CAD topluluğundan da yasaklar.",
+    "apiIdSyncEnabled": "API ID Senkronizasyonu",
+    "apiIdSyncEnabledDescription": "Bunu etkinleştirmek, CAD'den kullanıcıların benzersiz API ID'lerini Sonoran CMS hesaplarına senkronize eder ve Sonoran CMS içinde çeşitli entegrasyonlar ve otomasyonlar için kullanılabilir.",
+    "joinSyncEnabled": "Katılım Senkronizasyonu",
+    "joinSyncEnabledDescription": "Tüm kullanıcı hesaplarını CMS'de otomatik olarak CAD topluluğuna katılmasını sağlar."
   },
   "imageInn": {
     "dropArea": "Bırakma Alanı"
@@ -4354,7 +4370,9 @@
     "use": "Kullan",
     "allowsMembersToUseShiftType": "Üyelerin giriş ve çıkış yapmak için bu vardiya türünü kullanmasına izin verir.",
     "mergeAccounts": "Hesapları Birleştir",
-    "allowsMembersToMergeAccounts": "Üyelerin iki hesabı birleştirmesine, dereceleri ve tüm topluluk verilerini birleştirmesine izin verir."
+    "allowsMembersToMergeAccounts": "Üyelerin iki hesabı birleştirmesine, dereceleri ve tüm topluluk verilerini birleştirmesine izin verir.",
+    "purgeInactiveAccounts": "Etkin Olmayan Hesapları Temizle",
+    "allowsMembersToPurgeInactiveAccounts": "Üyelerin, seçilen gün sayısı boyunca giriş yapmamış topluluk hesaplarını kalıcı olarak silmesine izin verir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Vardiya Türleri",
     "optional": "İsteğe Bağlı",
     "onEvent": "Etkinlikte",
-    "type": "Tür"
+    "type": "Tür",
+    "erlcCommand": "ERLC Komutu",
+    "erlcCommandDescription": "Bir ERLC özel komutu kullanıldığında tetiklenir. Komuttan sonraki argümanlar değişkenlerle eylem metninize eklenebilir.",
+    "triggerCommand": "Komutu Tetikle",
+    "triggerCommandHint": ":log'dan sonraki komut adı, örneğin kayıt veya giriş.",
+    "erlcCommandNameVariableLabel": "Komut Adı",
+    "erlcCommandNameVariableDesc": "Eylemi tetikleyen ERLC özel komut adını belirtecektir.",
+    "erlcCommandArgsVariableLabel": "Komut Argümanları",
+    "erlcCommandArgsVariableDesc": "Komut adından sonraki her şeyi belirtir.",
+    "erlcCommandArg1VariableLabel": "Komut Argümanı 1",
+    "erlcCommandArg1VariableDesc": "Komut adından sonraki ilk argümanı belirtir.",
+    "erlcCommandArg2VariableLabel": "Komut Argümanı 2",
+    "erlcCommandArg2VariableDesc": "Komut adından sonraki ikinci argümanı belirtir.",
+    "erlcCommandArg3VariableLabel": "Komut Argümanı 3",
+    "erlcCommandArg3VariableDesc": "Komut adından sonraki üçüncü argümanı belirtir.",
+    "erlcCommandArg4VariableLabel": "Komut Argümanı 4",
+    "erlcCommandArg4VariableDesc": "Komut adından sonraki dördüncü argümanı belirtir.",
+    "erlcCommandArg5VariableLabel": "Komut Argümanı 5",
+    "erlcCommandArg5VariableDesc": "Komut adından sonraki beşinci argümanı belirtir."
   },
   "integrationsPortal": {
     "title": "Resmi Entegrasyonlar",

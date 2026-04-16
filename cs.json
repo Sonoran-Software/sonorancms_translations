@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Udělení tohoto oprávnění umožní uživateli s touto hodností spravovat všechny dokumenty v rámci Sonoran CMS Community Drive.",
         "clockInOutExplanation": "Udělení tohoto oprávnění umožní uživateli se přihlašovat a odhlašovat.",
         "modifyTeamSpeakExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení integrace TeamSpeak.",
-        "modifyShieldExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení Sonoran Shield."
+        "modifyShieldExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení Sonoran Shield.",
+        "purgeInactiveAccountsExplanation": "Udílení tohoto oprávnění umožní uživateli s tímto hodnocením trvale smazat účty komunity, které se nepřihlásily po vybraný počet dnů."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Dashboard na boční navigační liště.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Udělení těchto oprávnění umožní členovi, který má tento hodnost, zobrazit tuto stránku, protože stránka je nastavena na SOUKROMÁ."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Vyčistit neaktivní účty"
   },
   "growth": {
     "ERRORED": "CHYBA",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Sloučení zdrojového účtu do cílového účtu přesune všechny odeslané formuláře, události, témata a odpovědi ve fóru a další historická data ze zdrojového účtu na cílový účet. Zdrojový účet bude poté archivován. Tuto akci nelze vrátit zpět, proto pokračujte opatrně.",
     "warning": "Varování",
     "mergeFailed": "Sloučení selhalo:",
-    "mergeSuccessful": "Úspěšné sloučení účtů!"
+    "mergeSuccessful": "Úspěšné sloučení účtů!",
+    "purgeInactiveAccounts": "Vyčistit neaktivní účty",
+    "purgeInactiveAccountsDescription": "Čištění neaktivních účtů bude archivovat účty, které se po určitou dobu nepřihlásily. Tuto akci nelze vrátit zpět, proto postupujte opatrně."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Návod na API komunity",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Při vytváření komunity došlo k chybě:",
     "bySonoranSoftwareSystems": "od Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Vytvořeno oficiálním zaměstnancem Sonoran Software Systems",
-    "youAreBannedFromThisCommunity": "Byli jste z této komunity vyloučeni."
+    "youAreBannedFromThisCommunity": "Byli jste z této komunity vyloučeni.",
+    "optional": "Volitelné"
   },
   "Login": {
     "loginWithSonoran": "Přihlásit se pomocí Sonoran",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Chyba: Nemáte oprávnění odeslat tento formulář.",
     "anErrorOccuredWhileQueryingData": "Došlo k chybě při dotazování na data:",
     "anErrorOccuredWhileSubmittingForm": "Došlo k chybě při odesílání formuláře:",
-    "youAreSubmittingThisFormUnder": "Odesíláte tento formulář pod:"
+    "youAreSubmittingThisFormUnder": "Odesíláte tento formulář pod:",
+    "requiredFieldTooltip": "{field} je požadováno"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Chyba: Došlo k chybě při dotazování na odeslání formuláře. Zkuste to znovu později.",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "Přihlašovací údaje API CAD",
     "cadSyncOptions": "Možnosti synchronizace CAD",
     "cadPermissionsSelector": "Selektor oprávnění CAD",
-    "cadSyncNotEnabled": "Povolte synchronizaci oprávnění pro konfiguraci oprávnění."
+    "cadSyncNotEnabled": "Povolte synchronizaci oprávnění pro konfiguraci oprávnění.",
+    "syncEnabled": "Povolit synchronizaci",
+    "syncEnabledDescription": "Povolení této funkce bude synchronizovat oprávnění z CAD do Sonoran CMS na základě nastavení hodnocení, které zde konfigurujete.",
+    "kickEnabled": "Synchronizace vykopnutí",
+    "kickEnabledDescription": "Vykopnutí uživatele z CMS jej vykopne z komunity CAD.",
+    "banEnabled": "Synchronizace banu",
+    "banEnabledDescription": "Zakázání uživatele z CMS jej zablokuje v komunitě CAD.",
+    "apiIdSyncEnabled": "Synchronizace API ID",
+    "apiIdSyncEnabledDescription": "Povolení této funkce synchronizuje uživatelovy jedinečné API ID z CAD s jejich účtem v Sonoran CMS, což může být použito pro různé integrace a automatizace v rámci Sonoran CMS.",
+    "joinSyncEnabled": "Synchronizace připojení",
+    "joinSyncEnabledDescription": "Automaticky připojuje všechny uživatelské účty v CMS do komunity CAD."
   },
   "imageInn": {
     "dropArea": "Oblast pro přetažení"
@@ -4354,7 +4370,9 @@
     "use": "Použít",
     "allowsMembersToUseShiftType": "Umožňuje členům používat tento typ směny pro přihlášení a odhlášení.",
     "mergeAccounts": "Sloučit účty",
-    "allowsMembersToMergeAccounts": "Umožňuje členům sloučit dva účty dohromady, čímž se kombinují hodnosti a veškerá data komunity."
+    "allowsMembersToMergeAccounts": "Umožňuje členům sloučit dva účty dohromady, čímž se kombinují hodnosti a veškerá data komunity.",
+    "purgeInactiveAccounts": "Vyčistit neaktivní účty",
+    "allowsMembersToPurgeInactiveAccounts": "Umožňuje členům trvale smazat účty komunity, které se nepřihlásily po vybraný počet dnů."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Typy Směn",
     "optional": "Volitelné",
     "onEvent": "Při Události",
-    "type": "Typ"
+    "type": "Typ",
+    "erlcCommand": "ERLC Příkaz",
+    "erlcCommandDescription": "Spuštěno, když je použit vlastný příkaz ERLC. Parametry po příkazu můžete vložit do svého akčního textu s proměnnými.",
+    "triggerCommand": "Spustit Příkaz",
+    "triggerCommandHint": "Název příkazu po :loga, například zaznamenat nebo checkin.",
+    "erlcCommandNameVariableLabel": "Název Příkazu",
+    "erlcCommandNameVariableDesc": "To uvede název vlastního příkazu ERLC, který akci spustil.",
+    "erlcCommandArgsVariableLabel": "Argumenty Příkazu",
+    "erlcCommandArgsVariableDesc": "To uvede vše po názvu příkazu.",
+    "erlcCommandArg1VariableLabel": "Argument Příkazu 1",
+    "erlcCommandArg1VariableDesc": "To uvede první argument po názvu příkazu.",
+    "erlcCommandArg2VariableLabel": "Argument Příkazu 2",
+    "erlcCommandArg2VariableDesc": "To uvede druhý argument po názvu příkazu.",
+    "erlcCommandArg3VariableLabel": "Argument Příkazu 3",
+    "erlcCommandArg3VariableDesc": "To uvede třetí argument po názvu příkazu.",
+    "erlcCommandArg4VariableLabel": "Argument Příkazu 4",
+    "erlcCommandArg4VariableDesc": "To uvede čtvrtý argument po názvu příkazu.",
+    "erlcCommandArg5VariableLabel": "Argument Příkazu 5",
+    "erlcCommandArg5VariableDesc": "To uvede pátý argument po názvu příkazu."
   },
   "integrationsPortal": {
     "title": "Oficiální integrace",

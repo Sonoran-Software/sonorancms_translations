@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "منح هذا الإذن سيسمح للمستخدم بهذا الرتبة بإدارة جميع المستندات داخل محرك مجتمع Sonoran CMS.",
         "clockInOutExplanation": "منح هذا الإذن سيسمح للمستخدم بتسجيل الدخول والخروج.",
         "modifyTeamSpeakExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات تكامل TeamSpeak.",
-        "modifyShieldExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات Sonoran Shield."
+        "modifyShieldExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات Sonoran Shield.",
+        "purgeInactiveAccountsExplanation": "منح هذا الإذن سيسمح للمستخدمين بهذه الرتبة بحذف حسابات المجتمع بشكل دائم والتي لم تسجل الدخول لعدد معين من الأيام."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر لوحة التحكم في شريط التنقل الجانبي.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "منح هذه الأذونات سيسمح للعضو الذي يحمل هذه الرتبة بعرض هذه الصفحة حيث تم تعيين الصفحة على خاص."
       }
-    }
+    },
+    "purgeInactiveAccounts": "تطهير الحسابات غير النشطة"
   },
   "growth": {
     "ERRORED": "خطأ",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "دمج الحساب المصدر في الحساب الهدف سينقل جميع إرسالات النماذج والأحداث ومواضيع المنتدى والردود والبيانات التاريخية الأخرى من الحساب المصدر إلى الحساب الهدف. سيتم أرشفة الحساب المصدر بعد ذلك. لا يمكن التراجع عن هذا الإجراء، لذا يرجى المتابعة بحذر.",
     "warning": "تحذير",
     "mergeFailed": "فشل الدمج:",
-    "mergeSuccessful": "نجاح دمج الحساب!"
+    "mergeSuccessful": "نجاح دمج الحساب!",
+    "purgeInactiveAccounts": "تطهير الحسابات غير النشطة",
+    "purgeInactiveAccountsDescription": "سيؤدي تطهير الحسابات غير النشطة إلى أرشفة الحسابات التي لم تسجل الدخول لفترة زمنية معينة. لا يمكن التراجع عن هذا الإجراء، لذا يرجى المتابعة بحذر."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "دليل API للمجتمع",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "حدث خطأ أثناء إنشاء المجتمع:",
     "bySonoranSoftwareSystems": "بواسطة أنظمة البرمجيات سونوران",
     "createdByAnOfficialSonoranSoftwareSystem": "تم الإنشاء بواسطة موظف رسمي من أنظمة البرمجيات سونوران",
-    "youAreBannedFromThisCommunity": "أنت محظور من هذه المجتمع."
+    "youAreBannedFromThisCommunity": "أنت محظور من هذه المجتمع.",
+    "optional": "اختياري"
   },
   "Login": {
     "loginWithSonoran": "تسجيل الدخول باستخدام سونوران",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "خطأ: ليس لديك إذن لتقديم هذا النموذج.",
     "anErrorOccuredWhileQueryingData": "حدث خطأ أثناء استعلام البيانات:",
     "anErrorOccuredWhileSubmittingForm": "حدث خطأ أثناء تقديم النموذج:",
-    "youAreSubmittingThisFormUnder": "أنت تقدم هذا النموذج تحت:"
+    "youAreSubmittingThisFormUnder": "أنت تقدم هذا النموذج تحت:",
+    "requiredFieldTooltip": "{field} مطلوب"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "خطأ: حدث خطأ أثناء استعلام تقديم النموذج. حاول مرة أخرى لاحقًا",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "بيانات اعتماد API لـ CAD",
     "cadSyncOptions": "خيارات مزامنة CAD",
     "cadPermissionsSelector": "محدد أذونات CAD",
-    "cadSyncNotEnabled": "قم بتمكين مزامنة الأذونات لتكوين الأذونات."
+    "cadSyncNotEnabled": "قم بتمكين مزامنة الأذونات لتكوين الأذونات.",
+    "syncEnabled": "تمكين التزامن",
+    "syncEnabledDescription": "تمكين هذا الخيار سيزامن الأذونات من CAD إلى Sonoran CMS بناءً على إعدادات الرتبة التي تقوم بتكوينها أدناه.",
+    "kickEnabled": "تزامن الطرد",
+    "kickEnabledDescription": "طرد مستخدم من CMS سيطرده من مجتمع CAD.",
+    "banEnabled": "تزامن الحظر",
+    "banEnabledDescription": "حظر مستخدم من CMS سيحظره من مجتمع CAD.",
+    "apiIdSyncEnabled": "تزامن معرفات API",
+    "apiIdSyncEnabledDescription": "تمكين هذا الخيار سيزامن معرفات API الفريدة للمستخدم من CAD إلى حسابه في Sonoran CMS، والتي يمكن استخدامها في مختلف التكاملات والأتمتة داخل Sonoran CMS.",
+    "joinSyncEnabled": "تزامن الانضمام",
+    "joinSyncEnabledDescription": "الانضمام تلقائياً لجميع حسابات المستخدمين في CMS إلى مجتمع CAD."
   },
   "imageInn": {
     "dropArea": "منطقة الإسقاط"
@@ -4354,7 +4370,9 @@
     "use": "استخدام",
     "allowsMembersToUseShiftType": "يسمح للأعضاء باستخدام نوع الوردية هذا للتسجيل وقت الدخول والخروج.",
     "mergeAccounts": "دمج الحسابات",
-    "allowsMembersToMergeAccounts": "يسمح للأعضاء بدمج حسابين معًا، حيث يجمع الرتب وجميع بيانات المجتمع."
+    "allowsMembersToMergeAccounts": "يسمح للأعضاء بدمج حسابين معًا، حيث يجمع الرتب وجميع بيانات المجتمع.",
+    "purgeInactiveAccounts": "تطهير الحسابات غير النشطة",
+    "allowsMembersToPurgeInactiveAccounts": "يسمح للأعضاء بحذف حسابات المجتمع بشكل دائم التي لم تسجل الدخول لعدد معين من الأيام."
   },
   "permissionToggleGroup": {
     "inherited": "موروث",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "أنواع المناوبة",
     "optional": "اختياري",
     "onEvent": "عند الحدث",
-    "type": "نوع"
+    "type": "نوع",
+    "erlcCommand": "أمر ERLC",
+    "erlcCommandDescription": "يتم تفعيله عند استخدام أمر مخصص ERLC. يمكن إدراج المعلمات بعد الأمر في نص الإجراء الخاص بك باستخدام المتغيرات.",
+    "triggerCommand": "تفعيل الأمر",
+    "triggerCommandHint": "اسم الأمر بعد :log، مثلاً record أو clockin.",
+    "erlcCommandNameVariableLabel": "اسم الأمر",
+    "erlcCommandNameVariableDesc": "سيعرض اسم الأمر المخصص الذي فعّل الإجراء.",
+    "erlcCommandArgsVariableLabel": "معاملات الأمر",
+    "erlcCommandArgsVariableDesc": "سيعرض كل شيء بعد اسم الأمر.",
+    "erlcCommandArg1VariableLabel": "معامل الأمر 1",
+    "erlcCommandArg1VariableDesc": "سيعرض المعامل الأول بعد اسم الأمر.",
+    "erlcCommandArg2VariableLabel": "معامل الأمر 2",
+    "erlcCommandArg2VariableDesc": "سيعرض المعامل الثاني بعد اسم الأمر.",
+    "erlcCommandArg3VariableLabel": "معامل الأمر 3",
+    "erlcCommandArg3VariableDesc": "سيعرض المعامل الثالث بعد اسم الأمر.",
+    "erlcCommandArg4VariableLabel": "معامل الأمر 4",
+    "erlcCommandArg4VariableDesc": "سيعرض المعامل الرابع بعد اسم الأمر.",
+    "erlcCommandArg5VariableLabel": "معامل الأمر 5",
+    "erlcCommandArg5VariableDesc": "سيعرض المعامل الخامس بعد اسم الأمر."
   },
   "integrationsPortal": {
     "title": "التكاملات الرسمية",

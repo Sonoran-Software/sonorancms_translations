@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Tämän luvan myöntäminen sallii tämän arvon käyttäjän hallita kaikkia asiakirjoja Sonoran CMS Community Drivessa.",
         "clockInOutExplanation": "Tämän luvan myöntäminen sallii käyttäjän kirjautua sisään ja ulos.",
         "modifyTeamSpeakExplanation": "Tämän luvan myöntäminen sallii käyttäjän muokata TeamSpeak-integraation asetuksia.",
-        "modifyShieldExplanation": "Tämän luvan myöntäminen sallii käyttäjän muokata Sonoran Shield -asetuksia."
+        "modifyShieldExplanation": "Tämän luvan myöntäminen sallii käyttäjän muokata Sonoran Shield -asetuksia.",
+        "purgeInactiveAccountsExplanation": "Tämän oikeuden myöntäminen antaa tämän tason käyttäjälle mahdollisuuden poistaa pysyvästi yhteisön tilit, jotka eivät ole kirjautuneet valittuun päivien määrään."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Tämän luvan myöntäminen sallii käyttäjän nähdä Hallintapaneelin painikkeen sivunavigointipalkissa.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Näiden oikeuksien myöntäminen sallii tämän arvon omaavan jäsenen nähdä tämän sivun, koska sivu on asetettu YKSITYISEKSI."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Poista aktiivisettomat tilit"
   },
   "growth": {
     "ERRORED": "VIRHEELLINEN",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Lähdetilin yhdistäminen kohdetiliin siirtää kaikki lomakevastaukset, tapahtumat, foorumin aiheet ja vastaukset sekä muun historiallisen datan lähdetililtä kohdetilille. Lähdetili arkistoidaan. Tätä toimintoa ei voi peruuttaa, joten olethan varovainen.",
     "warning": "Varoitus",
     "mergeFailed": "Yhdistäminen epäonnistui:",
-    "mergeSuccessful": "Tilien yhdistäminen onnistui!"
+    "mergeSuccessful": "Tilien yhdistäminen onnistui!",
+    "purgeInactiveAccounts": "Poista aktiivisettomat tilit",
+    "purgeInactiveAccountsDescription": "Aktiivisettomien tilien poistaminen arkistoi tilit, jotka eivät ole kirjautuneet sisään tietyn ajan. Tätä toimintoa ei voi peruuttaa, joten ole hyvä ja jatka varovasti."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Yhteisön API-opas",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Virhe yhteisöä luodessa:",
     "bySonoranSoftwareSystems": "Sonoran Software Systemsin toimesta",
     "createdByAnOfficialSonoranSoftwareSystem": "Luonut virallinen Sonoran Software Systemsin työntekijä",
-    "youAreBannedFromThisCommunity": "Sinut on estetty tästä yhteisöstä."
+    "youAreBannedFromThisCommunity": "Sinut on estetty tästä yhteisöstä.",
+    "optional": "Valinnainen"
   },
   "Login": {
     "loginWithSonoran": "Kirjaudu sisään Sonoranilla",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Virhe: Sinulla ei ole oikeutta lähettää tätä lomaketta.",
     "anErrorOccuredWhileQueryingData": "Virhe tapahtui tietoja kysyttäessä:",
     "anErrorOccuredWhileSubmittingForm": "Virhe tapahtui lomaketta lähetettäessä:",
-    "youAreSubmittingThisFormUnder": "Lähetät tämän lomakkeen alla:"
+    "youAreSubmittingThisFormUnder": "Lähetät tämän lomakkeen alla:",
+    "requiredFieldTooltip": "{field} on pakollinen"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Virhe: Virhe tapahtui lomakkeen lähetyksen kyselyssä. Yritä myöhemmin uudelleen.",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD API -tunnukset",
     "cadSyncOptions": "CAD-synkronointiasetukset",
     "cadPermissionsSelector": "CAD-oikeuksien valitsin",
-    "cadSyncNotEnabled": "Ota käyttöön oikeuksien synkronointi määrittääksesi oikeudet."
+    "cadSyncNotEnabled": "Ota käyttöön oikeuksien synkronointi määrittääksesi oikeudet.",
+    "syncEnabled": "Ota synkronointi käyttöön",
+    "syncEnabledDescription": "Tämän ottaminen käyttöön synkronoi oikeudet CAD:stä Sonoran CMS:ään alla määritettyjen tasoasetusten perusteella.",
+    "kickEnabled": "Potkusynkronointi",
+    "kickEnabledDescription": "Käyttäjän poistaminen CMS:stä poistaa hänet CAD-yhteisöstä.",
+    "banEnabled": "Estosynkronointi",
+    "banEnabledDescription": "Käyttäjän estäminen CMS:stä estää hänet CAD-yhteisöstä.",
+    "apiIdSyncEnabled": "API ID-synkronointi",
+    "apiIdSyncEnabledDescription": "Tämän ottaminen käyttöön synkronoi käyttäjän yksilölliset API ID:t CAD:stä hänen Sonoran CMS-tililleen, joita voidaan käyttää erilaisiin integraatioihin ja automaatioihin Sonoran CMS:ssä.",
+    "joinSyncEnabled": "Liity synkronointiin",
+    "joinSyncEnabledDescription": "Liitä kaikki käyttäjätilit CMS:ssä CAD-yhteisöön automaattisesti."
   },
   "imageInn": {
     "dropArea": "Pudotusalue"
@@ -4354,7 +4370,9 @@
     "use": "Käytä",
     "allowsMembersToUseShiftType": "Sallii jäsenten käyttää tätä vuorotyyppiä kirjautumiseen sisään ja ulos.",
     "mergeAccounts": "Yhdistä tilit",
-    "allowsMembersToMergeAccounts": "Sallii jäsenten yhdistää kaksi tiliä, yhdistäen arvot ja kaiken yhteisön tiedon."
+    "allowsMembersToMergeAccounts": "Sallii jäsenten yhdistää kaksi tiliä, yhdistäen arvot ja kaiken yhteisön tiedon.",
+    "purgeInactiveAccounts": "Poista aktiivisettomat tilit",
+    "allowsMembersToPurgeInactiveAccounts": "Sallii jäsenille pysyvästi poistaa yhteisön tilit, jotka eivät ole kirjautuneet valittuun päivien määrään."
   },
   "permissionToggleGroup": {
     "inherited": "peritty",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Vuorotyypit",
     "optional": "Valinnainen",
     "onEvent": "Tapahtumassa",
-    "type": "Tyyppi"
+    "type": "Tyyppi",
+    "erlcCommand": "ERLC-komento",
+    "erlcCommandDescription": "Laukaistaan, kun ERLC-mukautettua komentoa käytetään. Komennon jälkeiset argumentit voidaan lisätä toimintotekstiisi muuttujilla.",
+    "triggerCommand": "Käynnistä komento",
+    "triggerCommandHint": "Komennon nimi :log:n jälkeen, esimerkiksi record tai clockin.",
+    "erlcCommandNameVariableLabel": "Komennon nimi",
+    "erlcCommandNameVariableDesc": "Tämä ilmoittaa ERLC-mukautetun komennon nimen, joka laukaisi toiminnon.",
+    "erlcCommandArgsVariableLabel": "Komentoargumentit",
+    "erlcCommandArgsVariableDesc": "Tämä ilmoittaa kaiken komennon nimen jälkeen.",
+    "erlcCommandArg1VariableLabel": "Komentoargumentti 1",
+    "erlcCommandArg1VariableDesc": "Tämä ilmoittaa ensimmäisen argumentin komennon nimen jälkeen.",
+    "erlcCommandArg2VariableLabel": "Komentoargumentti 2",
+    "erlcCommandArg2VariableDesc": "Tämä ilmoittaa toisen argumentin komennon nimen jälkeen.",
+    "erlcCommandArg3VariableLabel": "Komentoargumentti 3",
+    "erlcCommandArg3VariableDesc": "Tämä ilmoittaa kolmannen argumentin komennon nimen jälkeen.",
+    "erlcCommandArg4VariableLabel": "Komentoargumentti 4",
+    "erlcCommandArg4VariableDesc": "Tämä ilmoittaa neljännen argumentin komennon nimen jälkeen.",
+    "erlcCommandArg5VariableLabel": "Komentoargumentti 5",
+    "erlcCommandArg5VariableDesc": "Tämä ilmoittaa viidennen argumentin komennon nimen jälkeen."
   },
   "integrationsPortal": {
     "title": "Viralliset integraatiot",
