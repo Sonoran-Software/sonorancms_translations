@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "この権限を付与すると、このランクのユーザーがSonoran CMSコミュニティドライブ内のすべてのドキュメントを管理できるようになります。",
         "clockInOutExplanation": "この権限を付与すると、ユーザーが出退勤できるようになります。",
         "modifyTeamSpeakExplanation": "この権限を付与すると、ユーザーがTeamSpeak統合設定を変更できるようになります。",
-        "modifyShieldExplanation": "この権限を付与すると、ユーザーがSonoran Shield設定を変更できるようになります。"
+        "modifyShieldExplanation": "この権限を付与すると、ユーザーがSonoran Shield設定を変更できるようになります。",
+        "purgeInactiveAccountsExplanation": "この権限を付与すると、このランクのユーザーは選択された日数以上ログインしていないコミュニティアカウントを永久に削除できるようになります。"
       },
       "navigation": {
         "viewDashboardBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるダッシュボードボタンを見られるようになります。",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "この権限を付与すると、このランクを持つメンバーがこのページを閲覧できるようになります。このページはプライベートに設定されています。"
       }
-    }
+    },
+    "purgeInactiveAccounts": "非アクティブアカウントの削除"
   },
   "growth": {
     "ERRORED": "エラーが発生しました",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "元アカウントを対象アカウントに統合すると、すべてのフォーム提出、イベント、フォーラムトピックと返信、その他の履歴データが元アカウントから対象アカウントに移動されます。その後、元アカウントはアーカイブされます。この操作は元に戻せないため、慎重に進めてください。",
     "warning": "警告",
     "mergeFailed": "統合に失敗しました:",
-    "mergeSuccessful": "アカウント統合が成功しました！"
+    "mergeSuccessful": "アカウント統合が成功しました！",
+    "purgeInactiveAccounts": "非アクティブアカウントの削除",
+    "purgeInactiveAccountsDescription": "非アクティブアカウントの削除は、一定期間ログインしていないアカウントをアーカイブします。この操作は元に戻せないため、注意して進めてください。"
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "コミュニティAPIについて学ぶ",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "ソノランソフトウェアシステムズによる",
     "bySonoranSoftwareSystems": "公式ソノランソフトウェアシステムズの従業員によって作成されました",
     "createdByAnOfficialSonoranSoftwareSystem": "このコミュニティから禁止されています。",
-    "youAreBannedFromThisCommunity": "ソノランでログイン"
+    "youAreBannedFromThisCommunity": "ソノランでログイン",
+    "optional": "オプション"
   },
   "Login": {
     "loginWithSonoran": "Discordでログイン",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "データのクエリ中にエラーが発生しました:",
     "anErrorOccuredWhileQueryingData": "正常に適用されました",
     "anErrorOccuredWhileSubmittingForm": "次の下でこのフォームを送信しています:",
-    "youAreSubmittingThisFormUnder": "エラー: フォーム送信のクエリ中にエラーが発生しました。後でもう一度試してください"
+    "youAreSubmittingThisFormUnder": "エラー: フォーム送信のクエリ中にエラーが発生しました。後でもう一度試してください",
+    "requiredFieldTooltip": "{field}は必須です"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "エラー: この送信内容を表示する権限がありません。",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD 同期オプション",
     "cadSyncOptions": "CAD 権限セレクター",
     "cadPermissionsSelector": "ドロップエリア",
-    "cadSyncNotEnabled": "権限を設定するために権限の同期を有効にする。"
+    "cadSyncNotEnabled": "権限を設定するために権限の同期を有効にする。",
+    "syncEnabled": "同期を有効にする",
+    "syncEnabledDescription": "これを有効にすると、以下で設定したランク設定に基づいてCADからSonoran CMSへの権限同期が行われます。",
+    "kickEnabled": "キック同期",
+    "kickEnabledDescription": "CMSからユーザーをキックすると、彼らはCADコミュニティからもキックされます。",
+    "banEnabled": "バン同期",
+    "banEnabledDescription": "CMSからユーザーをバンすると、彼らはCADコミュニティからもバンされます。",
+    "apiIdSyncEnabled": "API ID同期",
+    "apiIdSyncEnabledDescription": "これを有効にすると、CADからSonoran CMSアカウントにユーザーのユニークなAPI IDが同期され、Sonoran CMS内の様々な統合や自動化に利用できます。",
+    "joinSyncEnabled": "参加同期",
+    "joinSyncEnabledDescription": "CMS内のすべてのユーザーアカウントをCADコミュニティに自動的に参加させます。"
   },
   "imageInn": {
     "dropArea": "画像をアップロードするにはクリックしてください"
@@ -4354,7 +4370,9 @@
     "use": "使用",
     "allowsMembersToUseShiftType": "メンバーがこのシフトタイプを使用して時計を入れたり出したりすることができます。",
     "mergeAccounts": "アカウントを統合",
-    "allowsMembersToMergeAccounts": "メンバーが2つのアカウントを統合し、ランクとすべてのコミュニティデータを結合できるようにします。"
+    "allowsMembersToMergeAccounts": "メンバーが2つのアカウントを統合し、ランクとすべてのコミュニティデータを結合できるようにします。",
+    "purgeInactiveAccounts": "非アクティブアカウントの削除",
+    "allowsMembersToPurgeInactiveAccounts": "選択された日数以上ログインしていないコミュニティアカウントを永久に削除することをメンバーに許可します。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "シフトタイプ",
     "optional": "オプション",
     "onEvent": "イベント時",
-    "type": "タイプ"
+    "type": "タイプ",
+    "erlcCommand": "ERLCコマンド",
+    "erlcCommandDescription": "ERLCカスタムコマンドが使用されたときにトリガーされます。コマンドの後の引数は、変数でアクションテキストに挿入できます。",
+    "triggerCommand": "トリガーコマンド",
+    "triggerCommandHint": ":logの後のコマンド名、例えばrecordやclockin。",
+    "erlcCommandNameVariableLabel": "コマンド名",
+    "erlcCommandNameVariableDesc": "このアクションをトリガーしたERLCカスタムコマンド名を示します。",
+    "erlcCommandArgsVariableLabel": "コマンド引数",
+    "erlcCommandArgsVariableDesc": "コマンド名の後のすべてを示します。",
+    "erlcCommandArg1VariableLabel": "コマンド引数 1",
+    "erlcCommandArg1VariableDesc": "コマンド名の後の最初の引数を示します。",
+    "erlcCommandArg2VariableLabel": "コマンド引数 2",
+    "erlcCommandArg2VariableDesc": "コマンド名の後の2番目の引数を示します。",
+    "erlcCommandArg3VariableLabel": "コマンド引数 3",
+    "erlcCommandArg3VariableDesc": "コマンド名の後の3番目の引数を示します。",
+    "erlcCommandArg4VariableLabel": "コマンド引数 4",
+    "erlcCommandArg4VariableDesc": "コマンド名の後の4番目の引数を示します。",
+    "erlcCommandArg5VariableLabel": "コマンド引数 5",
+    "erlcCommandArg5VariableDesc": "コマンド名の後の5番目の引数を示します。"
   },
   "integrationsPortal": {
     "title": "公式統合",

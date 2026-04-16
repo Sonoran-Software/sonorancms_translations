@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "Att bevilja denna behörighet kommer att tillåta en användare med denna rang att hantera alla dokument inom Sonoran CMS Community Drive.",
         "clockInOutExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att stämpla in och ut.",
         "modifyTeamSpeakExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra TeamSpeak-integrationsinställningarna.",
-        "modifyShieldExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra Sonoran Shield-inställningarna."
+        "modifyShieldExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra Sonoran Shield-inställningarna.",
+        "purgeInactiveAccountsExplanation": "Att bevilja denna behörighet tillåter en användare med denna rang att permanent radera community-konton som inte har loggat in under det valda antalet dagar."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Dashboard-knappen på sidonavigeringsfältet.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "Att bevilja dessa behörigheter kommer att tillåta medlemmen som har denna rang att se denna sida eftersom sidan är inställd på PRIVAT."
       }
-    }
+    },
+    "purgeInactiveAccounts": "Rensa Inaktiva Konton"
   },
   "growth": {
     "ERRORED": "FELAKTIG",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "Att sammanfoga källkontot med målkontot flyttar alla formulärsinlämningar, händelser, forumämnen och svar, och annan historisk data från källkontot till målkontot. Källkontot kommer sedan att arkiveras. Denna åtgärd kan inte ångras, så var försiktig.",
     "warning": "Varning",
     "mergeFailed": "Sammanfogning misslyckades:",
-    "mergeSuccessful": "Kontosammanslagning lyckades!"
+    "mergeSuccessful": "Kontosammanslagning lyckades!",
+    "purgeInactiveAccounts": "Rensa Inaktiva Konton",
+    "purgeInactiveAccountsDescription": "Att rensa inaktiva konton arkiverar konton som inte har loggat in på en viss tid. Denna åtgärd kan inte ångras, så vänligen fortsätt med försiktighet."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "Community API-handledning",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "Ett fel uppstod vid skapandet av communityn:",
     "bySonoranSoftwareSystems": "av Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystem": "Skapad av en officiell anställd på Sonoran Software Systems",
-    "youAreBannedFromThisCommunity": "Du är bannlyst från detta community."
+    "youAreBannedFromThisCommunity": "Du är bannlyst från detta community.",
+    "optional": "Valfritt"
   },
   "Login": {
     "loginWithSonoran": "Logga in med Sonoran",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "Fel: Du har inte behörighet att skicka in detta formulär.",
     "anErrorOccuredWhileQueryingData": "Ett fel inträffade vid hämtning av data:",
     "anErrorOccuredWhileSubmittingForm": "Ett fel inträffade vid inskickning av formulär:",
-    "youAreSubmittingThisFormUnder": "Du skickar in detta formulär under:"
+    "youAreSubmittingThisFormUnder": "Du skickar in detta formulär under:",
+    "requiredFieldTooltip": "{field} är obligatoriskt"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "Fel: Ett fel inträffade vid hämtning av formulärinskickning. Försök igen senare",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD API-referenser",
     "cadSyncOptions": "CAD-synkroniseringsalternativ",
     "cadPermissionsSelector": "CAD-behörighetsväljare",
-    "cadSyncNotEnabled": "Aktivera behörighetssynkronisering för att konfigurera behörigheter."
+    "cadSyncNotEnabled": "Aktivera behörighetssynkronisering för att konfigurera behörigheter.",
+    "syncEnabled": "Aktivera Synkronisering",
+    "syncEnabledDescription": "När detta aktiveras kommer behörigheterna att synkroniseras från CAD till Sonoran CMS baserat på de ranginställningar du konfigurerar nedan.",
+    "kickEnabled": "Kick Synk",
+    "kickEnabledDescription": "Att sparka en användare från CMS sparkar dem från CAD-communityt.",
+    "banEnabled": "Ban Synk",
+    "banEnabledDescription": "Att bannlysa en användare från CMS bannlyser dem från CAD-communityt.",
+    "apiIdSyncEnabled": "API ID Synk",
+    "apiIdSyncEnabledDescription": "När detta aktiveras kommer användarens unika API-ID:n att synkroniseras från CAD till deras Sonoran CMS-konto, vilket kan användas för olika integrationer och automatiseringar inom Sonoran CMS.",
+    "joinSyncEnabled": "Gå med Synk",
+    "joinSyncEnabledDescription": "Automatiskt gå med i alla användarkonton i CMS till CAD-communityt."
   },
   "imageInn": {
     "dropArea": "Släppområde"
@@ -4354,7 +4370,9 @@
     "use": "Använd",
     "allowsMembersToUseShiftType": "Tillåter medlemmar att använda denna skifttyp för att klocka in och ut.",
     "mergeAccounts": "Sammanfoga konton",
-    "allowsMembersToMergeAccounts": "Tillåter medlemmar att sammanfoga två konton, kombinera rank och all community data."
+    "allowsMembersToMergeAccounts": "Tillåter medlemmar att sammanfoga två konton, kombinera rank och all community data.",
+    "purgeInactiveAccounts": "Rensa Inaktiva Konton",
+    "allowsMembersToPurgeInactiveAccounts": "Tillåter medlemmar att permanent radera community-konton som inte har loggat in under det valda antalet dagar."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "Skifttyper",
     "optional": "Valfritt",
     "onEvent": "Vid händelse",
-    "type": "Typ"
+    "type": "Typ",
+    "erlcCommand": "ERLC Kommando",
+    "erlcCommandDescription": "Aktiveras när ett ERLC-anpassat kommando används. Argumenten efter kommandot kan infogas i din åtgärdstext med variabler.",
+    "triggerCommand": "Aktivera Kommando",
+    "triggerCommandHint": "Kommandonamnet efter :log, till exempel record eller clockin.",
+    "erlcCommandNameVariableLabel": "Kommandonamn",
+    "erlcCommandNameVariableDesc": "Detta kommer att ange ERLC-anpassade kommandonamnet som utlöste åtgärden.",
+    "erlcCommandArgsVariableLabel": "Kommandoargument",
+    "erlcCommandArgsVariableDesc": "Detta kommer att ange allt efter kommandonamnet.",
+    "erlcCommandArg1VariableLabel": "Kommandoargument 1",
+    "erlcCommandArg1VariableDesc": "Detta kommer att ange det första argumentet efter kommandonamnet.",
+    "erlcCommandArg2VariableLabel": "Kommandoargument 2",
+    "erlcCommandArg2VariableDesc": "Detta kommer att ange det andra argumentet efter kommandonamnet.",
+    "erlcCommandArg3VariableLabel": "Kommandoargument 3",
+    "erlcCommandArg3VariableDesc": "Detta kommer att ange det tredje argumentet efter kommandonamnet.",
+    "erlcCommandArg4VariableLabel": "Kommandoargument 4",
+    "erlcCommandArg4VariableDesc": "Detta kommer att ange det fjärde argumentet efter kommandonamnet.",
+    "erlcCommandArg5VariableLabel": "Kommandoargument 5",
+    "erlcCommandArg5VariableDesc": "Detta kommer att ange det femte argumentet efter kommandonamnet."
   },
   "integrationsPortal": {
     "title": "Officiella Integrationer",

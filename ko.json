@@ -98,7 +98,8 @@
         "modifyDocumentsExplanation": "이 권한을 부여하면 이 등급의 사용자가 Sonoran CMS 커뮤니티 드라이브 내의 모든 문서를 관리할 수 있습니다.",
         "clockInOutExplanation": "이 권한을 부여하면 사용자가 출퇴근 시간을 기록할 수 있습니다.",
         "modifyTeamSpeakExplanation": "이 권한을 부여하면 사용자가 TeamSpeak 통합 설정을 수정할 수 있습니다.",
-        "modifyShieldExplanation": "이 권한을 부여하면 사용자가 Sonoran Shield 설정을 수정할 수 있습니다."
+        "modifyShieldExplanation": "이 권한을 부여하면 사용자가 Sonoran Shield 설정을 수정할 수 있습니다.",
+        "purgeInactiveAccountsExplanation": "이 권한을 부여하면 이 등급의 사용자가 선택된 일수 동안 로그인하지 않은 커뮤니티 계정을 영구 삭제할 수 있습니다."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "이 권한을 부여하면 사용자가 사이드 내비게이션 바에서 대시보드 버튼을 볼 수 있습니다.",
@@ -155,7 +156,8 @@
       "pages": {
         "viewExplanation": "이 권한을 부여하면 이 등급을 가진 멤버가 이 페이지를 볼 수 있습니다. 이 페이지는 비공개로 설정되어 있습니다."
       }
-    }
+    },
+    "purgeInactiveAccounts": "비활성 계정 정리"
   },
   "growth": {
     "ERRORED": "오류 발생",
@@ -973,7 +975,9 @@
     "mergeAccountsDescription": "출처 계정을 대상 계정으로 병합하면 모든 양식 제출, 이벤트, 포럼 주제 및 답변, 기타 기록 데이터가 출처 계정에서 대상 계정으로 이동됩니다. 출처 계정은 이후 보관됩니다. 이 작업은 취소할 수 없으므로 주의해서 진행해 주세요.",
     "warning": "경고",
     "mergeFailed": "병합 실패:",
-    "mergeSuccessful": "계정 병합 성공!"
+    "mergeSuccessful": "계정 병합 성공!",
+    "purgeInactiveAccounts": "비활성 계정 정리",
+    "purgeInactiveAccountsDescription": "비활성 계정을 정리하면 일정 시간 동안 로그인하지 않은 계정을 보관합니다. 이 작업은 되돌릴 수 없으니 주의하여 진행해주세요."
   },
   "ApiIntegration": {
     "commmunityApiTutorial": "커뮤니티 API에 대해 알아보기",
@@ -2117,7 +2121,8 @@
     "anErrorOccuredWhileCreatingCommunity": "소노란 소프트웨어 시스템즈 제공",
     "bySonoranSoftwareSystems": "공식 소노란 소프트웨어 시스템즈 직원이 작성",
     "createdByAnOfficialSonoranSoftwareSystem": "이 커뮤니티에서 차단되었습니다.",
-    "youAreBannedFromThisCommunity": "소노란으로 로그인"
+    "youAreBannedFromThisCommunity": "소노란으로 로그인",
+    "optional": "선택 사항"
   },
   "Login": {
     "loginWithSonoran": "디스코드로 로그인",
@@ -2856,7 +2861,8 @@
     "errorYouDoNotHavePermissionToSubmitThisF": "데이터 조회 중 오류가 발생했습니다:",
     "anErrorOccuredWhileQueryingData": "성공적으로 적용되었습니다",
     "anErrorOccuredWhileSubmittingForm": "다음으로 이 양식을 제출하고 있습니다:",
-    "youAreSubmittingThisFormUnder": "오류: 양식 제출 조회 중 오류가 발생했습니다. 나중에 다시 시도하십시오."
+    "youAreSubmittingThisFormUnder": "오류: 양식 제출 조회 중 오류가 발생했습니다. 나중에 다시 시도하십시오.",
+    "requiredFieldTooltip": "{field}는 필수입니다"
   },
   "FormSubmissionHub": {
     "errorAnErrorOccuredWhileQueryingFormSubm": "오류: 이 제출물을 볼 권한이 없습니다.",
@@ -4182,7 +4188,17 @@
     "cadApiCredentials": "CAD 권한 선택기",
     "cadSyncOptions": "드롭 영역",
     "cadPermissionsSelector": "이미지를 업로드하려면 클릭하세요",
-    "cadSyncNotEnabled": "권한을 구성하려면 권한 동기화를 활성화하세요."
+    "cadSyncNotEnabled": "권한을 구성하려면 권한 동기화를 활성화하세요.",
+    "syncEnabled": "동기화 활성화",
+    "syncEnabledDescription": "이를 활성화하면 아래에서 구성한 등급 설정에 따라 CAD에서 Sonoran CMS로 권한이 동기화됩니다.",
+    "kickEnabled": "강퇴 동기화",
+    "kickEnabledDescription": "CMS에서 사용자를 강퇴시키면 CAD 커뮤니티에서도 강퇴됩니다.",
+    "banEnabled": "차단 동기화",
+    "banEnabledDescription": "CMS에서 사용자를 차단하면 CAD 커뮤니티에서도 차단됩니다.",
+    "apiIdSyncEnabled": "API ID 동기화",
+    "apiIdSyncEnabledDescription": "이를 활성화하면 CAD에서 Sonoran CMS 계정으로 사용자의 고유한 API ID가 동기화되어, Sonoran CMS 내의 다양한 통합 및 자동화에 사용될 수 있습니다.",
+    "joinSyncEnabled": "가입 동기화",
+    "joinSyncEnabledDescription": "모든 사용자 계정을 자동으로 CMS에 가입하여 CAD 커뮤니티에 합류시킵니다."
   },
   "imageInn": {
     "dropArea": "이 필드에 데이터가 없습니다. 가장 가능성 있는 문제는 서버의 Sonoran CMS Core 플러그인이 오래되었기 때문입니다."
@@ -4354,7 +4370,9 @@
     "use": "사용",
     "allowsMembersToUseShiftType": "멤버가 이 전환 유형을 사용하여 출퇴근할 수 있도록 허용합니다.",
     "mergeAccounts": "계정 병합",
-    "allowsMembersToMergeAccounts": "멤버가 두 계정을 병합하여 순위 및 모든 커뮤니티 데이터를 결합할 수 있도록 허용합니다."
+    "allowsMembersToMergeAccounts": "멤버가 두 계정을 병합하여 순위 및 모든 커뮤니티 데이터를 결합할 수 있도록 허용합니다.",
+    "purgeInactiveAccounts": "비활성 계정 정리",
+    "allowsMembersToPurgeInactiveAccounts": "멤버가 선택된 일수 동안 로그인하지 않은 커뮤니티 계정을 영구 삭제할 수 있도록 허용합니다."
   },
   "permissionToggleGroup": {
     "inherited": "상속된",
@@ -4983,7 +5001,25 @@
     "shiftTypes": "근무 유형",
     "optional": "선택 사항",
     "onEvent": "이벤트 시",
-    "type": "유형"
+    "type": "유형",
+    "erlcCommand": "ERLC 명령어",
+    "erlcCommandDescription": "ERLC 커스텀 명령어가 사용될 때 트리거됩니다. 명령어 이후의 인수는 변수로 액션 텍스트에 삽입될 수 있습니다.",
+    "triggerCommand": "명령어 트리거",
+    "triggerCommandHint": ":log 뒤의 명령어 이름, 예를 들어 기록 또는 출석.",
+    "erlcCommandNameVariableLabel": "명령어 이름",
+    "erlcCommandNameVariableDesc": "이를 통해 액션을 트리거한 ERLC 커스텀 명령어 이름을 표시합니다.",
+    "erlcCommandArgsVariableLabel": "명령어 인수",
+    "erlcCommandArgsVariableDesc": "명령어 이름 뒤의 모든 것을 표시합니다.",
+    "erlcCommandArg1VariableLabel": "명령어 인수 1",
+    "erlcCommandArg1VariableDesc": "명령어 이름 뒤의 첫 번째 인수를 표시합니다.",
+    "erlcCommandArg2VariableLabel": "명령어 인수 2",
+    "erlcCommandArg2VariableDesc": "명령어 이름 뒤의 두 번째 인수를 표시합니다.",
+    "erlcCommandArg3VariableLabel": "명령어 인수 3",
+    "erlcCommandArg3VariableDesc": "명령어 이름 뒤의 세 번째 인수를 표시합니다.",
+    "erlcCommandArg4VariableLabel": "명령어 인수 4",
+    "erlcCommandArg4VariableDesc": "명령어 이름 뒤의 네 번째 인수를 표시합니다.",
+    "erlcCommandArg5VariableLabel": "명령어 인수 5",
+    "erlcCommandArg5VariableDesc": "명령어 이름 뒤의 다섯 번째 인수를 표시합니다."
   },
   "integrationsPortal": {
     "title": "공식 통합",
