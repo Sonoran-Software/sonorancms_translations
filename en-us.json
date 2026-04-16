@@ -3025,7 +3025,7 @@
     "youMustSelectAUserToSubmitThisFormUnder": "You must select a user to submit this form under.",
     "youDoNotHavePermissionToSubmitThisFormUn": "You do not have permission to submit this form under another user.",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "There is one or more fields that are required that are not filled in.",
-    "requiredFieldTooltip": "{field} is required",
+    "requiredFieldTooltip": "is required",
     "formCouldNotBeFoundToBeCreatedFrom": "Form could not be found to be created from.",
     "errorYouDoNotHavePermissionToSubmitThisF": "Error: You do not have permission to submit this form.",
     "anErrorOccuredWhileQueryingData": "An error occured while querying data:",
