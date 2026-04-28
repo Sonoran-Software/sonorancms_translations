@@ -634,7 +634,11 @@
     "removedRanks": "Removed Ranks",
     "session": "Session",
     "management": "Management",
-    "import": "Import"
+    "import": "Import",
+    "approved": "Approved",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "pending": "Pending"
   },
   "Dashboard": {
     "resync": "Resync",
