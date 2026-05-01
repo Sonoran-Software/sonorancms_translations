@@ -644,7 +644,11 @@
     "session": "Økt",
     "management": "Ledelse",
     "import": "Import",
-    "accountFlagDescription": "Undersøk potensielt dupliserte brukerkontoer for å holde fellesskapet ditt trygt."
+    "accountFlagDescription": "Undersøk potensielt dupliserte brukerkontoer for å holde fellesskapet ditt trygt.",
+    "approved": "Godkjent",
+    "enabled": "Aktivert",
+    "disabled": "Deaktivert",
+    "pending": "Avventer"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhet - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Kunne ikke sjekke sosial koblingsstatus. Vennligst prøv igjen.",
     "failedToStartSocialLink": "Kunne ikke starte sosial koblingsflyt. Vennligst prøv igjen.",
     "automemberRobloxUsername": "Auto-Medlem Roblox Brukernavn",
-    "communityMemberRobloxUsernameElement": "Fellesskapsmedlem Roblox brukernavnelement"
+    "communityMemberRobloxUsernameElement": "Fellesskapsmedlem Roblox brukernavnelement",
+    "duplicatableSection": "Kopierbar seksjon",
+    "addAnother": "Legg til en til",
+    "removeDuplicate": "Fjern duplikat"
   },
   "selectRoster": {
     "selectRoster": "Velg Roster"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Åpnet {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Fellesskapssikkerhetskopier",
+    "proEnabled": "Pro Aktivert",
+    "proRequired": "Pro Kreves",
+    "description": "Gjennomgå rutinesnapshots opprettet av nattjobben, og be om en gjenoppretting for bare kategoriene du trenger: tilpasning, struktur, integrasjoner og innhold.",
+    "proFeatureBanner": "Backups er en Pro-funksjon. Du kan gjennomgå snapshots her, men gjenopprettingsforespørsler forblir deaktivert inntil fellesskapet oppgraderer.",
+    "restoreRequestWarnings": "Advarsler for gjenopprettingsforespørsler",
+    "restoreLocksCommunity": "Gjenopprettingen låser fellesskapet mens byttet kjører.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord synkroniseres igjen etter gjenopprettingen.",
+    "tempRestoreTablesThreeDays": "Midlertidige gjenopprettingstabeller beholdes i tre dager.",
+    "onlyRestoreExistingCategories": "Du kan bare gjenopprette kategorier som eksisterer i snapshotet.",
+    "confirmationPhrase": "GJENOPPRETT DETTE FELLESSKAPET",
+    "snapshotLibrary": "Snapshot-bibliotek",
+    "chooseSnapshotInspect": "Velg et snapshot for å be om en gjenoppretting, eller bare inspiser innholdet.",
+    "reload": "Last inn på nytt",
+    "noSnapshotsFoundYet": "Ingen snapshots funnet ennå.",
+    "scheduled": "planlagt",
+    "manual": "manuell",
+    "size": "Størrelse {size}",
+    "restores": "Gjenoppretter {count}",
+    "requestRestore": "Be om gjenoppretting",
+    "requestRestoreDialogTitle": "Be om gjenoppretting",
+    "requestRestoreDialogDescription": "Velg kategoriene som skal inkluderes, og send deretter godkjenningsforespørselen.",
+    "snapshotLabel": "Snapshot",
+    "unknown": "Ukjent",
+    "all": "Alle",
+    "none": "Ingen",
+    "confirmationInstruction": "Skriv {phrase} og bekreft e-postverifisering før du sender gjenopprettingsforespørselen.",
+    "confirmationInputLabel": "Skriv {phrase} for å fortsette",
+    "emailRevalidationLabel": "Jeg forstår at dette vil sende en godkjennings-e-post til eieren.",
+    "cancel": "Avbryt",
+    "sendRestoreRequest": "Send gjenopprettingsforespørsel",
+    "unableToLoadSnapshots": "Kan ikke laste snapshots.",
+    "restoreRequestFailed": "Gjenopprettingsforespørsel mislyktes.",
+    "restoreRequestSent": "Gjenopprettingsforespørsel sendt. Eieren må godkjenne den på e-post før gjenopprettingen starter.",
+    "statuses": {
+      "completed": "Fullført",
+      "restored": "Gjenopprettet",
+      "failed": "Mislyktes",
+      "processing": "Behandler",
+      "restoring": "Gjenoppretter",
+      "pending": "Avventer",
+      "awaitingApproval": "Venter på godkjenning",
+      "canceled": "Avbrutt"
+    },
+    "groups": {
+      "customization": {
+        "label": "Tilpasning",
+        "description": "Merkevarebygging, sider, profilfelt, meldinger, oppdagelse og sikkerhetspreferanser.",
+        "items": {
+          "community": {
+            "label": "Fellesskapsinfo",
+            "description": "Kjerne metadata om fellesskapet og merkevarebyggingsinformasjon."
+          },
+          "branding": {
+            "label": "Kun Merkevarebygging",
+            "description": "Logo, palett, bot merkevarebygging og identitet."
+          },
+          "pages": {
+            "label": "Sider",
+            "description": "Tilpasset sidelayouter og navigasjonsflater."
+          },
+          "profileFields": {
+            "label": "Profilfelt",
+            "description": "Tilpassede profilfelt og medlemsdata."
+          },
+          "notices": {
+            "label": "Meldinger",
+            "description": "Fellesskapsmeldinger og kunngjøringer."
+          },
+          "discovery": {
+            "label": "Oppdagelsesinnstillinger",
+            "description": "Oppdagelsestilstand, merkelapper og godkjenningsdata."
+          },
+          "securityPreferences": {
+            "label": "Sikkerhetspreferanser",
+            "description": "Sikkerhetspreferanser for hele fellesskapet."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struktur",
+        "description": "Avdelinger, skjemaer, skjema mapper, mannskapslister, etapper og kalendere.",
+        "items": {
+          "departments": {
+            "label": "Avdelinger",
+            "description": "Ranggrupper og avdelingskonfigurasjon."
+          },
+          "forms": {
+            "label": "Skjemaer",
+            "description": "Skjema maler og struktur."
+          },
+          "formFolders": {
+            "label": "Skjemamapper",
+            "description": "Mappeorganisering for skjemaer."
+          },
+          "rosters": {
+            "label": "Mannskapslister",
+            "description": "Mannskapsliste maler og oppsett."
+          },
+          "stages": {
+            "label": "Etapper",
+            "description": "Definisjoner på etapper."
+          },
+          "stageGroups": {
+            "label": "Etappegrupper",
+            "description": "Gruppering og hierarki av etapper."
+          },
+          "calendarCategories": {
+            "label": "Kalenderkategorier",
+            "description": "Organisering av arrangementkategorier."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrasjoner",
+        "description": "Servere, CAD, Radio, webhooks og konfigurasjon for rich presence.",
+        "items": {
+          "servers": {
+            "label": "Servere",
+            "description": "Definisjoner for integrasjonsservere."
+          },
+          "cadAuth": {
+            "label": "CAD Godkjenning",
+            "description": "Sonoran CAD godkjenningsinnstillinger."
+          },
+          "radioAuth": {
+            "label": "Radio Godkjenning",
+            "description": "Sonoran Radio godkjenningsinnstillinger."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord webhook-mapninger og leveringsinnstillinger."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Discord rich presence konfigurasjon."
+          }
+        }
+      },
+      "content": {
+        "label": "Innhold",
+        "description": "Kontoer, skjemainnsendinger, forumhistorikk, gallerioppføringer, arrangementer og dokumenter.",
+        "items": {
+          "accounts": {
+            "label": "Kontoer",
+            "description": "Rader med fellesskapskontoer og medlemsdata."
+          },
+          "formSubmissions": {
+            "label": "Skjemainnsendinger",
+            "description": "Innsendte skjemaer og svar."
+          },
+          "forumCategories": {
+            "label": "Forumkategorier",
+            "description": "Forumkategoristruktur."
+          },
+          "forumTopics": {
+            "label": "Forumtemaer",
+            "description": "Forumtema-tråder."
+          },
+          "forumReplies": {
+            "label": "Forumsvar",
+            "description": "Forumsvar og historikk."
+          },
+          "galleryCategories": {
+            "label": "Gallerikategorier",
+            "description": "Struktur for gallerikategorier."
+          },
+          "galleryPosts": {
+            "label": "Galleriinnlegg",
+            "description": "Galleriinnleggshistorikk og mediareferanser."
+          },
+          "events": {
+            "label": "Arrangementer",
+            "description": "Kalenderhendelser og RSVP-status."
+          },
+          "rosterRows": {
+            "label": "Mannskapslisterader",
+            "description": "Raddata brukt til å bygge mannskapslister."
+          },
+          "rosterData": {
+            "label": "Mannskapslistedata",
+            "description": "Mannskapsliste-gjenoppfyllestreng."
+          },
+          "docs": {
+            "label": "Dokumenter",
+            "description": "Metadata for fellesskapsdokumenter."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Godkjenn Gjenopprettingsforespørsel",
+    "description": "Denne gjenopprettingsforespørselen ble sendt til fellesskapseieren via e-post. Skriv inn det eksakte fellesskapsnavnet nedenfor for å bekrefte forespørselen og starte gjenopprettingen.",
+    "disclaimer": "Hvis du ikke ba om denne gjenopprettingen, kan du lukke denne siden og ignorere e-posten.",
+    "communityNameLabel": "Fellesskapsnavn",
+    "back": "Tilbake",
+    "confirmAndStartRestore": "Bekreft og start gjenoppretting",
+    "unableToVerify": "Kan ikke bekrefte gjenopprettingsforespørsel. Kontroller fellesskapsnavnet og prøv igjen.",
+    "restoreStarted": "Gjenopprettingsforespørsel bekreftet. Gjenopprettingen har startet og vil fortsette i bakgrunnen.",
+    "unableToConfirm": "Kan ikke bekrefte gjenopprettingsforespørsel."
   }
 }

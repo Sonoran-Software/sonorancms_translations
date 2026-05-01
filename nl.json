@@ -644,7 +644,11 @@
     "session": "Sessie",
     "management": "Beheer",
     "import": "Importeren",
-    "accountFlagDescription": "Onderzoek potentiële dubbele gebruikersaccounts om uw gemeenschap veilig te houden."
+    "accountFlagDescription": "Onderzoek potentiële dubbele gebruikersaccounts om uw gemeenschap veilig te houden.",
+    "approved": "Goedgekeurd",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "pending": "In behandeling"
   },
   "Dashboard": {
     "securityDashboard": "Beveiliging - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Het controleren van de status van de sociale link is mislukt. Probeer het opnieuw.",
     "failedToStartSocialLink": "Het starten van de sociale linkflow is mislukt. Probeer het opnieuw.",
     "automemberRobloxUsername": "Auto-Lid Roblox Gebruikersnaam",
-    "communityMemberRobloxUsernameElement": "Communitylid Roblox gebruikersnaam element"
+    "communityMemberRobloxUsernameElement": "Communitylid Roblox gebruikersnaam element",
+    "duplicatableSection": "Dupliceerbare Sectie",
+    "addAnother": "Nog een toevoegen",
+    "removeDuplicate": "Duplicaata verwijderen"
   },
   "selectRoster": {
     "selectRoster": "Selecteer Ledenlijst"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Geopend {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Community Back-ups",
+    "proEnabled": "Pro Ingeschakeld",
+    "proRequired": "Pro Vereist",
+    "description": "Bekijk de routinematige snapshots gemaakt door de nachtelijke taak, en vraag dan een herstel aan voor alleen de categorieën die je nodig hebt: aanpassing, structuur, integraties, en inhoud.",
+    "proFeatureBanner": "Back-ups zijn een Pro-functie. U kunt hier snapshots bekijken, maar herstelverzoeken blijven uitgeschakeld totdat de community een upgrade uitvoert.",
+    "restoreRequestWarnings": "Herstelverzoek Waarschuwingen",
+    "restoreLocksCommunity": "Herstellen vergrendelt de community terwijl de uitwisseling plaatsvindt.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord worden opnieuw gesynchroniseerd na het herstel.",
+    "tempRestoreTablesThreeDays": "Tijdelijke hersteltabellen worden drie dagen bewaard.",
+    "onlyRestoreExistingCategories": "Je kunt alleen categorieën herstellen die in de snapshot bestaan.",
+    "confirmationPhrase": "HERSTEL DEZE COMMUNITY",
+    "snapshotLibrary": "Snapshotbibliotheek",
+    "chooseSnapshotInspect": "Kies een snapshot om een herstel aan te vragen, of inspecteer gewoon wat het bevat.",
+    "reload": "Herladen",
+    "noSnapshotsFoundYet": "Nog geen snapshots gevonden.",
+    "scheduled": "gepland",
+    "manual": "handmatig",
+    "size": "Grootte {size}",
+    "restores": "Herstelt {count}",
+    "requestRestore": "Herstel aanvragen",
+    "requestRestoreDialogTitle": "Herstel aanvragen",
+    "requestRestoreDialogDescription": "Selecteer de categorieën om op te nemen en stuur vervolgens het goedkeuringsverzoek.",
+    "snapshotLabel": "Snapshot",
+    "unknown": "Onbekend",
+    "all": "Alle",
+    "none": "Geen",
+    "confirmationInstruction": "Typ {phrase} en bevestig het e-mailherbevestigingsvak voordat u het herstelverzoek verzendt.",
+    "confirmationInputLabel": "Typ {phrase} om door te gaan",
+    "emailRevalidationLabel": "Ik begrijp dat dit een goedkeuringsmail naar de eigenaar stuurt.",
+    "cancel": "Annuleren",
+    "sendRestoreRequest": "Herstelverzoek verzenden",
+    "unableToLoadSnapshots": "Kan snapshots niet laden.",
+    "restoreRequestFailed": "Herstelverzoek mislukt.",
+    "restoreRequestSent": "Herstelverzoek verzonden. De eigenaar moet het per e-mail goedkeuren voordat het herstel begint.",
+    "statuses": {
+      "completed": "Voltooid",
+      "restored": "Hersteld",
+      "failed": "Mislukt",
+      "processing": "Verwerken",
+      "restoring": "Herstellen",
+      "pending": "In behandeling",
+      "awaitingApproval": "In afwachting van goedkeuring",
+      "canceled": "Geannuleerd"
+    },
+    "groups": {
+      "customization": {
+        "label": "Aanpassing",
+        "description": "Branding, pagina's, profielvelden, mededelingen, ontdekking en beveiligingsvoorkeuren.",
+        "items": {
+          "community": {
+            "label": "Community Info",
+            "description": "Kerngegevens van de community en branding payload."
+          },
+          "branding": {
+            "label": "Alleen Branding",
+            "description": "Logo, palet, bot-branding en identiteit."
+          },
+          "pages": {
+            "label": "Pagina's",
+            "description": "Indeling en navigatievlakken van aangepaste pagina's."
+          },
+          "profileFields": {
+            "label": "Profielvelden",
+            "description": "Aangepaste profielvelden en ledengegevens."
+          },
+          "notices": {
+            "label": "Mededelingen",
+            "description": "Communitymededelingen en aankondigingen."
+          },
+          "discovery": {
+            "label": "Ontdekkingsinstellingen",
+            "description": "Ontdekkingsstatus, tags en goedkeuringsgegevens."
+          },
+          "securityPreferences": {
+            "label": "Beveiligingsvoorkeuren",
+            "description": "Communitybrede beveiligingsvoorkeuren."
+          }
+        }
+      },
+      "structure": {
+        "label": "Structuur",
+        "description": "Afdelingen, formulieren, formuliervakken, roosters, stadia en kalenders.",
+        "items": {
+          "departments": {
+            "label": "Afdelingen",
+            "description": "Ranggroepen en afdelingconfiguratie."
+          },
+          "forms": {
+            "label": "Formulieren",
+            "description": "Formuliersjablonen en structuur."
+          },
+          "formFolders": {
+            "label": "Formuliervakken",
+            "description": "Maporganisatie voor formulieren."
+          },
+          "rosters": {
+            "label": "Roosters",
+            "description": "Roostersjablonen en indeling."
+          },
+          "stages": {
+            "label": "Stadia",
+            "description": "Stadiumdefinities."
+          },
+          "stageGroups": {
+            "label": "Stadiumgroepen",
+            "description": "Stadiumgroepering en hiërarchie."
+          },
+          "calendarCategories": {
+            "label": "Kalendercategorieën",
+            "description": "Evenementcategorie-organisatie."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integraties",
+        "description": "Servers, CAD, Radio, webhooks en configuratie van rijke aanwezigheid.",
+        "items": {
+          "servers": {
+            "label": "Servers",
+            "description": "Integratieserverdefinities."
+          },
+          "cadAuth": {
+            "label": "CAD-Auth",
+            "description": "Sonoran CAD autorisatie-instellingen."
+          },
+          "radioAuth": {
+            "label": "Radio-Auth",
+            "description": "Sonoran Radio autorisatie-instellingen."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord-webhooktoewijzingen en leveringsinstellingen."
+          },
+          "richPresence": {
+            "label": "Rijke Aanwezigheid",
+            "description": "Discord rijke aanwezigheid configuratie."
+          }
+        }
+      },
+      "content": {
+        "label": "Inhoud",
+        "description": "Accounts, formulierinzendingen, forumgeschiedenis, galerijberichten, evenementen en documenten.",
+        "items": {
+          "accounts": {
+            "label": "Accounts",
+            "description": "Community-accountregels en ledengegevens."
+          },
+          "formSubmissions": {
+            "label": "Formulierinzendingen",
+            "description": "Ingediende formulieren en antwoorden."
+          },
+          "forumCategories": {
+            "label": "Forumcategorieën",
+            "description": "Forumcategorie-structuur."
+          },
+          "forumTopics": {
+            "label": "Forumonderwerpen",
+            "description": "Forumonderwerpdraadjes."
+          },
+          "forumReplies": {
+            "label": "Forumantwoorden",
+            "description": "Forumantwoorden en geschiedenis."
+          },
+          "galleryCategories": {
+            "label": "Galeriecategorieën",
+            "description": "Galeriecategorie-structuur."
+          },
+          "galleryPosts": {
+            "label": "Galerieberichten",
+            "description": "Galerieberichtgeschiedenis en mediareferenties."
+          },
+          "events": {
+            "label": "Evenementen",
+            "description": "Kalenderevenementen en RSVP-status."
+          },
+          "rosterRows": {
+            "label": "Roosterregels",
+            "description": "Gegevensreeks gebruikt voor het bouwen van roosters."
+          },
+          "rosterData": {
+            "label": "Roosterdata",
+            "description": "Rooster ondersteunende payloads."
+          },
+          "docs": {
+            "label": "Documenten",
+            "description": "Communitydocumentmetadata."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Goedkeuring Herstelverzoek",
+    "description": "Dit herstelverzoek is per e-mail naar de eigenaar van de community gestuurd. Voer hieronder de exacte communitynaam in om het verzoek te verifiëren en het herstel te starten.",
+    "disclaimer": "Als u dit herstel niet heeft aangevraagd, kunt u deze pagina sluiten en de e-mail negeren.",
+    "communityNameLabel": "Community naam",
+    "back": "Terug",
+    "confirmAndStartRestore": "Bevestigen en herstel starten",
+    "unableToVerify": "Kan het herstelverzoek niet verifiëren. Controleer de communitynaam en probeer het opnieuw.",
+    "restoreStarted": "Herstelverzoek geverifieerd. Het herstel is gestart en zal op de achtergrond doorgaan.",
+    "unableToConfirm": "Kan het herstelverzoek niet bevestigen."
   }
 }

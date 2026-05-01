@@ -644,7 +644,11 @@
     "session": "Session",
     "management": "Gestion",
     "import": "Importer",
-    "accountFlagDescription": "Enquêter sur les comptes d'utilisateurs potentiellement dupliqués pour assurer la sécurité de votre communauté."
+    "accountFlagDescription": "Enquêter sur les comptes d'utilisateurs potentiellement dupliqués pour assurer la sécurité de votre communauté.",
+    "approved": "Approuvé",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "pending": "En attente"
   },
   "Dashboard": {
     "securityDashboard": "Sécurité - Tableau de bord",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Échec de la vérification du statut du lien social. Veuillez réessayer.",
     "failedToStartSocialLink": "Échec du démarrage du flux de lien social. Veuillez réessayer.",
     "automemberRobloxUsername": "Nom d'utilisateur Roblox membre automatique",
-    "communityMemberRobloxUsernameElement": "Élément de nom d'utilisateur Roblox membre de la communauté"
+    "communityMemberRobloxUsernameElement": "Élément de nom d'utilisateur Roblox membre de la communauté",
+    "duplicatableSection": "Section Duplicable",
+    "addAnother": "Ajouter un autre",
+    "removeDuplicate": "Supprimer le duplicata"
   },
   "selectRoster": {
     "selectRoster": "Sélectionner la Liste"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Ouvert {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Sauvegardes communautaires",
+    "proEnabled": "Pro activé",
+    "proRequired": "Pro requis",
+    "description": "Examinez les instantanés de routine créés par la tâche de nuit, puis demandez une restauration uniquement pour les catégories dont vous avez besoin : personnalisation, structure, intégrations, et contenu.",
+    "proFeatureBanner": "Les sauvegardes sont une fonctionnalité Pro. Vous pouvez examiner les instantanés ici, mais les demandes de restauration restent désactivées jusqu'à ce que la communauté passe à une version supérieure.",
+    "restoreRequestWarnings": "Avertissements de demande de restauration",
+    "restoreLocksCommunity": "Les restaurations verrouillent la communauté pendant que l'échange est en cours.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord sont resynchronisés après la restauration.",
+    "tempRestoreTablesThreeDays": "Les tables de restauration temporaires sont conservées pendant trois jours.",
+    "onlyRestoreExistingCategories": "Vous ne pouvez restaurer que les catégories qui existent dans l'instantané.",
+    "confirmationPhrase": "RESTAURER CETTE COMMUNAUTÉ",
+    "snapshotLibrary": "Bibliothèque d'instantanés",
+    "chooseSnapshotInspect": "Choisissez un instantané pour demander une restauration, ou inspectez simplement ce qu'il contient.",
+    "reload": "Recharger",
+    "noSnapshotsFoundYet": "Aucun instantané trouvé pour le moment.",
+    "scheduled": "programmé",
+    "manual": "manuel",
+    "size": "Taille {size}",
+    "restores": "Restaurations {count}",
+    "requestRestore": "Demander une restauration",
+    "requestRestoreDialogTitle": "Demander une restauration",
+    "requestRestoreDialogDescription": "Sélectionnez les catégories à inclure, puis envoyez la demande d'approbation.",
+    "snapshotLabel": "Instantané",
+    "unknown": "Inconnu",
+    "all": "Tout",
+    "none": "Aucun",
+    "confirmationInstruction": "Tapez {phrase} et confirmez la case de revérification de l'email avant d'envoyer la demande de restauration.",
+    "confirmationInputLabel": "Tapez {phrase} pour continuer",
+    "emailRevalidationLabel": "Je comprends que cela enverra un email d'approbation au propriétaire.",
+    "cancel": "Annuler",
+    "sendRestoreRequest": "Envoyer la demande de restauration",
+    "unableToLoadSnapshots": "Impossible de charger les instantanés.",
+    "restoreRequestFailed": "Échec de la demande de restauration.",
+    "restoreRequestSent": "Demande de restauration envoyée. Le propriétaire doit l'approuver par email avant que la restauration ne commence.",
+    "statuses": {
+      "completed": "Terminé",
+      "restored": "Restauré",
+      "failed": "Échoué",
+      "processing": "En traitement",
+      "restoring": "Restauration",
+      "pending": "En attente",
+      "awaitingApproval": "En attente d'approbation",
+      "canceled": "Annulé"
+    },
+    "groups": {
+      "customization": {
+        "label": "Personnalisation",
+        "description": "Image de marque, pages, champs de profil, avis, découverte et préférences de sécurité.",
+        "items": {
+          "community": {
+            "label": "Infos Communauté",
+            "description": "Métadonnées de base de la communauté et charge de marque."
+          },
+          "branding": {
+            "label": "Image de Marque Seulement",
+            "description": "Logo, palette, image de marque du bot et identité."
+          },
+          "pages": {
+            "label": "Pages",
+            "description": "Mise en page personnalisée et surfaces de navigation."
+          },
+          "profileFields": {
+            "label": "Champs de Profil",
+            "description": "Champs de profil personnalisés et données des membres."
+          },
+          "notices": {
+            "label": "Avis",
+            "description": "Avis et annonces communautaires."
+          },
+          "discovery": {
+            "label": "Paramètres de Découverte",
+            "description": "État de la découverte, étiquettes, et données d'approbation."
+          },
+          "securityPreferences": {
+            "label": "Préférences de Sécurité",
+            "description": "Préférences de sécurité à l'échelle de la communauté."
+          }
+        }
+      },
+      "structure": {
+        "label": "Structure",
+        "description": "Départements, formulaires, dossiers de formulaire, listes, étapes, et calendriers.",
+        "items": {
+          "departments": {
+            "label": "Départements",
+            "description": "Groupes de rangs et configuration des départements."
+          },
+          "forms": {
+            "label": "Formulaires",
+            "description": "Modèles de formulaires et structure."
+          },
+          "formFolders": {
+            "label": "Dossiers de Formulaire",
+            "description": "Organisation des dossiers pour les formulaires."
+          },
+          "rosters": {
+            "label": "Listes",
+            "description": "Modèles de liste et mise en page."
+          },
+          "stages": {
+            "label": "Étapes",
+            "description": "Définitions des étapes."
+          },
+          "stageGroups": {
+            "label": "Groupes d'Étapes",
+            "description": "Regroupement et hiérarchie des étapes."
+          },
+          "calendarCategories": {
+            "label": "Catégories de Calendrier",
+            "description": "Organisation des catégories d'événements."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Intégrations",
+        "description": "Serveurs, CAD, Radio, webhooks, et configuration de présence enrichie.",
+        "items": {
+          "servers": {
+            "label": "Serveurs",
+            "description": "Définitions du serveur d'intégration."
+          },
+          "cadAuth": {
+            "label": "Auth CAD",
+            "description": "Paramètres d'autorisation Sonoran CAD."
+          },
+          "radioAuth": {
+            "label": "Auth Radio",
+            "description": "Paramètres d'autorisation Sonoran Radio."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Mappages de webhook Discord et paramètres de livraison."
+          },
+          "richPresence": {
+            "label": "Présence Enrichie",
+            "description": "Configuration de la présence enrichie Discord."
+          }
+        }
+      },
+      "content": {
+        "label": "Contenu",
+        "description": "Comptes, soumissions de formulaires, historique du forum, entrées de la galerie, événements, et documents.",
+        "items": {
+          "accounts": {
+            "label": "Comptes",
+            "description": "Lignes de compte communautaire et données des membres."
+          },
+          "formSubmissions": {
+            "label": "Soumissions de Formulaires",
+            "description": "Formulaires soumis et réponses."
+          },
+          "forumCategories": {
+            "label": "Catégories du Forum",
+            "description": "Structure des catégories du forum."
+          },
+          "forumTopics": {
+            "label": "Sujets du Forum",
+            "description": "Fils de discussion des sujets du forum."
+          },
+          "forumReplies": {
+            "label": "Réponses du Forum",
+            "description": "Réponses du forum et historique."
+          },
+          "galleryCategories": {
+            "label": "Catégories de Galerie",
+            "description": "Structure des catégories de la galerie."
+          },
+          "galleryPosts": {
+            "label": "Messages de Galerie",
+            "description": "Historique des messages de la galerie et références média."
+          },
+          "events": {
+            "label": "Événements",
+            "description": "Événements du calendrier et état des RSVP."
+          },
+          "rosterRows": {
+            "label": "Lignes de Liste",
+            "description": "Données des lignes utilisées pour construire les listes."
+          },
+          "rosterData": {
+            "label": "Données de Liste",
+            "description": "Chargements de fond de la liste."
+          },
+          "docs": {
+            "label": "Docs",
+            "description": "Métadonnées des documents communautaires."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Approuver la Demande de Restauration",
+    "description": "Cette demande de restauration a été envoyée par email au propriétaire de la communauté. Entrez le nom exact de la communauté ci-dessous pour vérifier la demande et démarrer la restauration.",
+    "disclaimer": "Si vous n'avez pas demandé cette restauration, vous pouvez fermer cette page et ignorer l'email.",
+    "communityNameLabel": "Nom de la communauté",
+    "back": "Retour",
+    "confirmAndStartRestore": "Confirmer et démarrer la restauration",
+    "unableToVerify": "Impossible de vérifier la demande de restauration. Veuillez vérifier le nom de la communauté et réessayer.",
+    "restoreStarted": "Demande de restauration vérifiée. La restauration a commencé et se poursuivra en arrière-plan.",
+    "unableToConfirm": "Impossible de confirmer la demande de restauration."
   }
 }

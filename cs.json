@@ -644,7 +644,11 @@
     "session": "Relace",
     "management": "Řízení",
     "import": "Import",
-    "accountFlagDescription": "Prozkoumejte potenciální duplicitní uživatelské účty, abyste udrželi svou komunitu v bezpečí."
+    "accountFlagDescription": "Prozkoumejte potenciální duplicitní uživatelské účty, abyste udrželi svou komunitu v bezpečí.",
+    "approved": "Schváleno",
+    "enabled": "Povoleno",
+    "disabled": "Zakázáno",
+    "pending": "Čeká na vyřízení"
   },
   "Dashboard": {
     "securityDashboard": "Bezpečnost - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Nepodařilo se zkontrolovat stav sociálního odkazu. Zkuste to prosím znovu.",
     "failedToStartSocialLink": "Nepodařilo se spustit proces propojení sociálního odkazu. Zkuste to prosím znovu.",
     "automemberRobloxUsername": "Automatický člen Roblox Uživatelské jméno",
-    "communityMemberRobloxUsernameElement": "Prvek uživatelského jména člena komunity Roblox"
+    "communityMemberRobloxUsernameElement": "Prvek uživatelského jména člena komunity Roblox",
+    "duplicatableSection": "Duplicitní sekce",
+    "addAnother": "Přidat další",
+    "removeDuplicate": "Odstranit duplicitní"
   },
   "selectRoster": {
     "selectRoster": "Vybrat seznam"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Otevřeno {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Zálohy komunity",
+    "proEnabled": "Pro povoleno",
+    "proRequired": "Požadováno Pro",
+    "description": "Prohlédněte si rutinní snímky vytvořené nočním úkolem, poté požádejte o obnovení pouze kategorií, které potřebujete: přizpůsobení, struktura, integrace a obsah.",
+    "proFeatureBanner": "Zálohy jsou součástí funkce Pro. Zde můžete prohlížet snímky, ale požadavky na obnovení zůstanou zakázané, dokud komunita neprovádí upgrade.",
+    "restoreRequestWarnings": "Varování při žádosti o obnovení",
+    "restoreLocksCommunity": "Obnovení uzamkne komunitu během výměny.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord jsou znovu synchronizovány po obnovení.",
+    "tempRestoreTablesThreeDays": "Dočasné tabulky obnovení jsou uchovávány po dobu tří dnů.",
+    "onlyRestoreExistingCategories": "Obnovit lze pouze kategorie, které existují ve snímku.",
+    "confirmationPhrase": "OBNOVIT TUTO KOMUNITU",
+    "snapshotLibrary": "Knihovna snímků",
+    "chooseSnapshotInspect": "Vyberte snímek, pro který chcete požádat o obnovení, nebo jen zkontrolujte, co obsahuje.",
+    "reload": "Obnovit",
+    "noSnapshotsFoundYet": "Zatím nebyly nalezeny žádné snímky.",
+    "scheduled": "plánováno",
+    "manual": "manuální",
+    "size": "Velikost {size}",
+    "restores": "Obnovení {count}",
+    "requestRestore": "Požádat o obnovení",
+    "requestRestoreDialogTitle": "Požádat o obnovení",
+    "requestRestoreDialogDescription": "Vyberte kategorie k zahrnutí a poté odešlete žádost o schválení.",
+    "snapshotLabel": "Snímek",
+    "unknown": "Neznámý",
+    "all": "Vše",
+    "none": "Žádný",
+    "confirmationInstruction": "Napište {phrase} a potvrďte zaškrtávací políčko opětovného ověření e-mailu, než odešlete žádost o obnovení.",
+    "confirmationInputLabel": "Zadejte {phrase} pro pokračování",
+    "emailRevalidationLabel": "Chápu, že to odešle schvalující e-mail vlastníku.",
+    "cancel": "Zrušit",
+    "sendRestoreRequest": "Odeslat žádost o obnovení",
+    "unableToLoadSnapshots": "Nelze načíst snímky.",
+    "restoreRequestFailed": "Žádost o obnovení selhala.",
+    "restoreRequestSent": "Žádost o obnovení byla odeslána. Vlastník ji musí schválit prostřednictvím e-mailu, než začne obnovení.",
+    "statuses": {
+      "completed": "Dokončeno",
+      "restored": "Obnoveno",
+      "failed": "Selhalo",
+      "processing": "Zpracovává se",
+      "restoring": "Obnovuje se",
+      "pending": "Čeká na vyřízení",
+      "awaitingApproval": "Čeká na schválení",
+      "canceled": "Zrušeno"
+    },
+    "groups": {
+      "customization": {
+        "label": "Přizpůsobení",
+        "description": "Branding, stránky, profilová pole, oznámení, objevení a bezpečnostní preference.",
+        "items": {
+          "community": {
+            "label": "Informace o komunitě",
+            "description": "Základní metadata komunity a branding payload."
+          },
+          "branding": {
+            "label": "Pouze Branding",
+            "description": "Logo, paleta, branding bota a identita."
+          },
+          "pages": {
+            "label": "Stránky",
+            "description": "Vlastní rozvržení stránek a navigační povrchy."
+          },
+          "profileFields": {
+            "label": "Profilová pole",
+            "description": "Vlastní profilová pole a data členů."
+          },
+          "notices": {
+            "label": "Oznámení",
+            "description": "Komunitní oznámení a prohlášení."
+          },
+          "discovery": {
+            "label": "Nastavení objevení",
+            "description": "Stav objevení, značky a data schválení."
+          },
+          "securityPreferences": {
+            "label": "Bezpečnostní preference",
+            "description": "Komunitní bezpečnostní preference."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struktura",
+        "description": "Oddělení, formuláře, složky formulářů, seznamy členů, fáze a kalendáře.",
+        "items": {
+          "departments": {
+            "label": "Oddělení",
+            "description": "Skupiny hodností a konfigurace oddělení."
+          },
+          "forms": {
+            "label": "Formuláře",
+            "description": "Šablony formulářů a struktura."
+          },
+          "formFolders": {
+            "label": "Složky formulářů",
+            "description": "Organizace složek pro formuláře."
+          },
+          "rosters": {
+            "label": "Seznamy členů",
+            "description": "Šablony seznamů členů a rozvržení."
+          },
+          "stages": {
+            "label": "Fáze",
+            "description": "Definice fází."
+          },
+          "stageGroups": {
+            "label": "Skupiny fází",
+            "description": "Seskupení fází a hierarchie."
+          },
+          "calendarCategories": {
+            "label": "Kategorie kalendáře",
+            "description": "Organizace kategorií událostí."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrace",
+        "description": "Servery, CAD, Radio, webhooky a konfigurace bohaté přítomnosti.",
+        "items": {
+          "servers": {
+            "label": "Servery",
+            "description": "Definice integračního serveru."
+          },
+          "cadAuth": {
+            "label": "CAD Auth",
+            "description": "Nastavení autorizace Sonoran CAD."
+          },
+          "radioAuth": {
+            "label": "Radio Auth",
+            "description": "Nastavení autorizace Sonoran Radio."
+          },
+          "webhooks": {
+            "label": "Webhooky",
+            "description": "Mapování webhooků Discord a nastavení doručování."
+          },
+          "richPresence": {
+            "label": "Bohatá přítomnost",
+            "description": "Konfigurace bohaté přítomnosti Discord."
+          }
+        }
+      },
+      "content": {
+        "label": "Obsah",
+        "description": "Účty, odeslání formulářů, historie fóra, galerie, události a dokumenty.",
+        "items": {
+          "accounts": {
+            "label": "Účty",
+            "description": "Řádky účtů komunity a data členů."
+          },
+          "formSubmissions": {
+            "label": "Podání formulářů",
+            "description": "Odeslané formuláře a odpovědi."
+          },
+          "forumCategories": {
+            "label": "Kategorie fóra",
+            "description": "Struktura kategorií fóra."
+          },
+          "forumTopics": {
+            "label": "Témata fóra",
+            "description": "Vláknové diskuze na fóru."
+          },
+          "forumReplies": {
+            "label": "Odpovědi fóra",
+            "description": "Odpovědi na fóru a historie."
+          },
+          "galleryCategories": {
+            "label": "Kategorie galerie",
+            "description": "Struktura kategorií galerie."
+          },
+          "galleryPosts": {
+            "label": "Příspěvky galerie",
+            "description": "Historie příspěvků galerie a mediální reference."
+          },
+          "events": {
+            "label": "Události",
+            "description": "Kalendářní události a stav RSVP."
+          },
+          "rosterRows": {
+            "label": "Řádky seznamu",
+            "description": "Údaje o řádcích použité pro tvorbu seznamů."
+          },
+          "rosterData": {
+            "label": "Data seznamu",
+            "description": "Nosné payloady seznamů."
+          },
+          "docs": {
+            "label": "Dokumenty",
+            "description": "Metadata dokumentů komunity."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Schválit žádost o obnovení",
+    "description": "Tato žádost o obnovení byla odeslána vlastníku komunity e-mailem. Zadejte přesný název komunity níže pro ověření požadavku a zahájení obnovení.",
+    "disclaimer": "Pokud jste tuto obnovu nepožadovali, můžete tuto stránku zavřít a ignorovat e-mail.",
+    "communityNameLabel": "Název komunity",
+    "back": "Zpět",
+    "confirmAndStartRestore": "Potvrdit a zahájit obnovení",
+    "unableToVerify": "Nelze ověřit žádost o obnovení. Zkontrolujte prosím název komunity a zkuste to znovu.",
+    "restoreStarted": "Žádost o obnovení ověřena. Obnovení začalo a pokračovat bude na pozadí.",
+    "unableToConfirm": "Nelze potvrdit žádost o obnovení."
   }
 }

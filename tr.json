@@ -644,7 +644,11 @@
     "session": "Oturum",
     "management": "Yönetim",
     "import": "İthalat",
-    "accountFlagDescription": "Topluluğunuzu güvende tutmak için potansiyel kopya kullanıcı hesaplarını araştırın."
+    "accountFlagDescription": "Topluluğunuzu güvende tutmak için potansiyel kopya kullanıcı hesaplarını araştırın.",
+    "approved": "Onaylı",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "pending": "Beklemede"
   },
   "Dashboard": {
     "securityDashboard": "Güvenlik - Kontrol Paneli",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Sosyal bağlantı durumu kontrol edilemedi. Lütfen tekrar deneyin.",
     "failedToStartSocialLink": "Sosyal bağlantı akışı başlatılamadı. Lütfen tekrar deneyin.",
     "automemberRobloxUsername": "Otomatik Üye Roblox Kullanıcı Adı",
-    "communityMemberRobloxUsernameElement": "Topluluk üyesi Roblox kullanıcı adı öğesi"
+    "communityMemberRobloxUsernameElement": "Topluluk üyesi Roblox kullanıcı adı öğesi",
+    "duplicatableSection": "Çoğaltılabilir Bölüm",
+    "addAnother": "Başka Birini Ekle",
+    "removeDuplicate": "Çoğaltıyı Kaldır"
   },
   "selectRoster": {
     "selectRoster": "Listeyi Seç"
@@ -5461,5 +5468,208 @@
         "openedSummary": "{label} açıldı."
       }
     }
+  },
+  "Backups": {
+    "title": "Topluluk Yedekleri",
+    "proEnabled": "Pro Etkin",
+    "proRequired": "Pro Gerekli",
+    "description": "Gece işi tarafından oluşturulan rutin anlık görüntüleri inceleyin, ardından yalnızca ihtiyaç duyduğunuz kategoriler için: özelleştirme, yapı, entegrasyonlar ve içerik için geri yükleme isteyin.",
+    "proFeatureBanner": "Yedeklemeler, bir Pro özelliğidir. Anlık görüntüleri burada inceleyebilirsiniz, ancak geri yükleme istekleri topluluk yükseltilene kadar devre dışı kalır.",
+    "restoreRequestWarnings": "Geri Yükleme İstek Uyarıları",
+    "restoreLocksCommunity": "Geri yüklemeler, dönüşüm çalışırken topluluğu kilitler.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord, geri yükleme işleminden sonra yeniden senkronize edilir.",
+    "tempRestoreTablesThreeDays": "Geçici geri yükleme tabloları üç gün boyunca saklanır.",
+    "onlyRestoreExistingCategories": "Yalnızca anlık görüntüde var olan kategorileri geri yükleyebilirsiniz.",
+    "confirmationPhrase": "BU TOPLULUĞU GERİ YÜKLE",
+    "snapshotLibrary": "Anlık Görüntü Kütüphanesi",
+    "chooseSnapshotInspect": "Geri yükleme isteği için bir anlık görüntü seçin veya yalnızca içeriğini inceleyin.",
+    "reload": "Yeniden Yükle",
+    "noSnapshotsFoundYet": "Henüz anlık görüntü bulunamadı.",
+    "scheduled": "Zamanlanmış",
+    "manual": "Manuel",
+    "size": "Boyut {size}",
+    "restores": "Geri Yüklemeler {count}",
+    "requestRestore": "Geri yükleme isteği",
+    "requestRestoreDialogTitle": "Geri yükleme isteği",
+    "requestRestoreDialogDescription": "Eklemek için kategorileri seçin, ardından onay isteği gönderin.",
+    "snapshotLabel": "Anlık Görüntü",
+    "unknown": "Bilinmeyen",
+    "all": "Tümü",
+    "none": "Hiçbiri",
+    "confirmationInstruction": "Gönderimden önce doğrulama e-posta kutusunu işaretleyin ve {phrase} yazın.",
+    "confirmationInputLabel": "Devam etmek için {phrase} yazın",
+    "emailRevalidationLabel": "Bu, sahibine onay e-postası gönderecek, bunu anlıyorum.",
+    "cancel": "İptal",
+    "sendRestoreRequest": "Geri yükleme isteğini gönder",
+    "unableToLoadSnapshots": "Anlık görüntüler yüklenemiyor.",
+    "restoreRequestFailed": "Geri yükleme isteği başarısız oldu.",
+    "restoreRequestSent": "Geri yükleme isteği gönderildi. Başlamadan önce sahibinin e-posta ile onaylaması gereklidir.",
+    "statuses": {
+      "completed": "Tamamlandı",
+      "restored": "Geri yüklendi",
+      "failed": "Başarısız",
+      "processing": "İşleniyor",
+      "restoring": "Geri Yükleniyor",
+      "pending": "Beklemede",
+      "awaitingApproval": "Onay bekleniyor",
+      "canceled": "İptal edildi"
+    },
+    "groups": {
+      "customization": {
+        "label": "Özelleştirme",
+        "description": "Markalama, sayfalar, profil alanları, bildirimler, keşif ve güvenlik tercihleri.",
+        "items": {
+          "community": {
+            "label": "Topluluk Bilgisi",
+            "description": "Temel topluluk meta verileri ve markalama yükü."
+          },
+          "branding": {
+            "label": "Yalnızca Markalama",
+            "description": "Logo, palet, bot markalama ve kimlik."
+          },
+          "pages": {
+            "label": "Sayfalar",
+            "description": "Özel sayfa düzeni ve gezinme yüzeyleri."
+          },
+          "profileFields": {
+            "label": "Profil Alanları",
+            "description": "Özel profil alanları ve üye verileri."
+          },
+          "notices": {
+            "label": "Bildirimler",
+            "description": "Topluluk bildirimleri ve duyuruları."
+          },
+          "discovery": {
+            "label": "Keşif Ayarları",
+            "description": "Keşif durumu, etiketler ve onay verileri."
+          },
+          "securityPreferences": {
+            "label": "Güvenlik Tercihleri",
+            "description": "Topluluk genelinde güvenlik tercihleri."
+          }
+        }
+      },
+      "structure": {
+        "label": "Yapı",
+        "description": "Departmanlar, formlar, form klasörleri, kadrolar, aşamalar ve takvimler.",
+        "items": {
+          "departments": {
+            "label": "Departmanlar",
+            "description": "Kıdem grupları ve departman yapılandırması."
+          },
+          "forms": {
+            "label": "Formlar",
+            "description": "Form şablonları ve yapısı."
+          },
+          "formFolders": {
+            "label": "Form Klasörleri",
+            "description": "Formlar için klasör organizasyonu."
+          },
+          "rosters": {
+            "label": "Kadrolar",
+            "description": "Kadrolar için şablonlar ve düzen."
+          },
+          "stages": {
+            "label": "Aşamalar",
+            "description": "Aşama tanımları."
+          },
+          "stageGroups": {
+            "label": "Aşama Grupları",
+            "description": "Aşama gruplama ve hiyerarşisi."
+          },
+          "calendarCategories": {
+            "label": "Takvim Kategorileri",
+            "description": "Etkinlik kategorisi organizasyonu."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Entegrasyonlar",
+        "description": "Sunucular, CAD, Radyo, web kancaları ve rich presence yapılandırması.",
+        "items": {
+          "servers": {
+            "label": "Sunucular",
+            "description": "Entegrasyon sunucu tanımları."
+          },
+          "cadAuth": {
+            "label": "CAD Kimlik Doğrulama",
+            "description": "Sonoran CAD yetkilendirme ayarları."
+          },
+          "radioAuth": {
+            "label": "Radyo Kimlik Doğrulama",
+            "description": "Sonoran Radyo yetkilendirme ayarları."
+          },
+          "webhooks": {
+            "label": "Web Kancaları",
+            "description": "Discord web kancası eşlemeleri ve teslim ayarları."
+          },
+          "richPresence": {
+            "label": "Zengin İçerik",
+            "description": "Discord zengin içerik yapılandırması."
+          }
+        }
+      },
+      "content": {
+        "label": "İçerik",
+        "description": "Hesaplar, form başvuruları, forum geçmişi, galeri girdileri, etkinlikler ve belgeler.",
+        "items": {
+          "accounts": {
+            "label": "Hesaplar",
+            "description": "Topluluk hesap satırları ve üye verileri."
+          },
+          "formSubmissions": {
+            "label": "Form Başvuruları",
+            "description": "Gönderilen formlar ve yanıtlar."
+          },
+          "forumCategories": {
+            "label": "Forum Kategorileri",
+            "description": "Forum kategori yapısı."
+          },
+          "forumTopics": {
+            "label": "Forum Konuları",
+            "description": "Forum konu dizileri."
+          },
+          "forumReplies": {
+            "label": "Forum Yanıtları",
+            "description": "Forum yanıtları ve geçmişi."
+          },
+          "galleryCategories": {
+            "label": "Galeri Kategorileri",
+            "description": "Galeri kategori yapısı."
+          },
+          "galleryPosts": {
+            "label": "Galeri Gönderileri",
+            "description": "Galeri gönderi geçmişi ve medya referansları."
+          },
+          "events": {
+            "label": "Etkinlikler",
+            "description": "Takvim etkinlikleri ve RSVP durumu."
+          },
+          "rosterRows": {
+            "label": "Kadrolar Satırları",
+            "description": "Kadroların oluşturulmasında kullanılan satır verileri."
+          },
+          "rosterData": {
+            "label": "Kadrolar Verisi",
+            "description": "Kadrolar destek yükleri."
+          },
+          "docs": {
+            "label": "Belgeler",
+            "description": "Topluluk belge meta verileri."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Geri Yükleme İsteğini Onayla",
+    "description": "Bu geri yükleme isteği topluluk sahibine e-posta ile gönderildi. İsteği doğrulamak ve geri yüklemeyi başlatmak için aşağıya tam topluluk adını yazın.",
+    "disclaimer": "Bu geri yüklemeyi talep etmediyseniz, bu sayfayı kapatabilir ve e-postayı yok sayabilirsiniz.",
+    "communityNameLabel": "Topluluk adı",
+    "back": "Geri",
+    "confirmAndStartRestore": "Onayla ve geri yüklemeyi başlat",
+    "unableToVerify": "Geri yükleme isteği doğrulanamıyor. Lütfen topluluk adını kontrol edin ve tekrar deneyin.",
+    "restoreStarted": "Geri yükleme isteği doğrulandı. Geri yükleme başlatıldı ve arka planda devam edecek.",
+    "unableToConfirm": "Geri yükleme isteği onaylanamadı."
   }
 }

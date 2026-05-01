@@ -644,7 +644,11 @@
     "session": "세션",
     "management": "관리",
     "import": "가져오기",
-    "accountFlagDescription": "커뮤니티의 안전을 위해 잠재적인 중복 사용자 계정을 조사하십시오."
+    "accountFlagDescription": "커뮤니티의 안전을 위해 잠재적인 중복 사용자 계정을 조사하십시오.",
+    "approved": "승인됨",
+    "enabled": "활성화됨",
+    "disabled": "비활성화됨",
+    "pending": "대기 중"
   },
   "Dashboard": {
     "securityDashboard": "성장 - 대시보드",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "소셜 링크 상태 확인에 실패했습니다. 다시 시도해 주세요.",
     "failedToStartSocialLink": "소셜 링크 흐름 시작에 실패했습니다. 다시 시도해 주세요.",
     "automemberRobloxUsername": "자동 회원 Roblox 사용자 이름",
-    "communityMemberRobloxUsernameElement": "커뮤니티 회원 Roblox 사용자 이름 요소"
+    "communityMemberRobloxUsernameElement": "커뮤니티 회원 Roblox 사용자 이름 요소",
+    "duplicatableSection": "복제 가능한 섹션",
+    "addAnother": "추가",
+    "removeDuplicate": "중복 항목 제거"
   },
   "selectRoster": {
     "selectRoster": "이것은 출퇴근 기록 아이콘 오른쪽에 관리자 아이콘(톱니바퀴)을 표시하여 쉽게 접근할 수 있도록 하고 방해되지 않도록 합니다."
@@ -5461,5 +5468,208 @@
         "openedSummary": "{label}을(를) 열었습니다."
       }
     }
+  },
+  "Backups": {
+    "title": "커뮤니티 백업",
+    "proEnabled": "프로 활성화됨",
+    "proRequired": "프로 필요",
+    "description": "야간 작업으로 생성된 정기 스냅샷을 검토한 후, 필요한 카테고리(사용자 정의, 구조, 통합, 콘텐츠)만 복구 요청을 하세요.",
+    "proFeatureBanner": "백업은 프로 기능입니다. 여기에서 스냅샷을 검토할 수 있지만 커뮤니티가 업그레이드될 때까지 복구 요청이 비활성화됩니다.",
+    "restoreRequestWarnings": "복구 요청 경고",
+    "restoreLocksCommunity": "복구가 실행되는 동안 커뮤니티가 잠깁니다.",
+    "resyncedAfterRestore": "복구 후 CAD, Radio, TeamSpeak 및 Discord가 재동기화됩니다.",
+    "tempRestoreTablesThreeDays": "임시 복구 테이블은 3일 동안 유지됩니다.",
+    "onlyRestoreExistingCategories": "스냅샷에 존재하는 카테고리만 복구할 수 있습니다.",
+    "confirmationPhrase": "이 커뮤니티를 복구합니다",
+    "snapshotLibrary": "스냅샷 라이브러리",
+    "chooseSnapshotInspect": "복구를 요청할 스냅샷을 선택하거나 포함된 내용을 검사하세요.",
+    "reload": "새로 고침",
+    "noSnapshotsFoundYet": "아직 스냅샷이 없습니다.",
+    "scheduled": "일정됨",
+    "manual": "수동",
+    "size": "크기 {size}",
+    "restores": "복구 {count}",
+    "requestRestore": "복구 요청",
+    "requestRestoreDialogTitle": "복구 요청",
+    "requestRestoreDialogDescription": "포함할 카테고리를 선택한 후 승인 요청을 보내세요.",
+    "snapshotLabel": "스냅샷",
+    "unknown": "알 수 없음",
+    "all": "전체",
+    "none": "없음",
+    "confirmationInstruction": "{phrase}를 입력하고 복구 요청을 보내기 전에 이메일 재확인 확인란을 확인하세요.",
+    "confirmationInputLabel": "계속하려면 {phrase}를 입력하세요",
+    "emailRevalidationLabel": "이로 인해 소유자에게 승인 이메일이 전송됨을 이해합니다.",
+    "cancel": "취소",
+    "sendRestoreRequest": "복구 요청 보내기",
+    "unableToLoadSnapshots": "스냅샷을 로드할 수 없음.",
+    "restoreRequestFailed": "복구 요청 실패.",
+    "restoreRequestSent": "복구 요청이 전송되었습니다. 복구가 시작되기 전에 소유자가 이메일로 승인을 해야 합니다.",
+    "statuses": {
+      "completed": "완료됨",
+      "restored": "복구됨",
+      "failed": "실패함",
+      "processing": "처리 중",
+      "restoring": "복구 중",
+      "pending": "대기 중",
+      "awaitingApproval": "승인을 기다리는 중",
+      "canceled": "취소됨"
+    },
+    "groups": {
+      "customization": {
+        "label": "사용자 정의",
+        "description": "브랜딩, 페이지, 프로필 필드, 공지사항, 디스커버리 및 보안 설정.",
+        "items": {
+          "community": {
+            "label": "커뮤니티 정보",
+            "description": "핵심 커뮤니티 메타데이터 및 브랜딩 페이로드."
+          },
+          "branding": {
+            "label": "브랜딩 전용",
+            "description": "로고, 팔레트, 봇 브랜딩 및 아이덴티티."
+          },
+          "pages": {
+            "label": "페이지",
+            "description": "사용자 정의 페이지 레이아웃 및 탐색 화면."
+          },
+          "profileFields": {
+            "label": "프로필 필드",
+            "description": "사용자 정의 프로필 필드 및 회원 데이터."
+          },
+          "notices": {
+            "label": "공지사항",
+            "description": "커뮤니티 공지 및 발표."
+          },
+          "discovery": {
+            "label": "디스커버리 설정",
+            "description": "디스커버리 상태, 태그 및 승인 데이터."
+          },
+          "securityPreferences": {
+            "label": "보안 설정",
+            "description": "커뮤니티 전체의 보안 설정."
+          }
+        }
+      },
+      "structure": {
+        "label": "구조",
+        "description": "부서, 양식, 양식 폴더, 명부, 단계 및 캘린더.",
+        "items": {
+          "departments": {
+            "label": "부서",
+            "description": "직급 그룹 및 부서 구성."
+          },
+          "forms": {
+            "label": "양식",
+            "description": "양식 템플릿 및 구조."
+          },
+          "formFolders": {
+            "label": "양식 폴더",
+            "description": "양식의 폴더 조직."
+          },
+          "rosters": {
+            "label": "명부",
+            "description": "명부 템플릿 및 레이아웃."
+          },
+          "stages": {
+            "label": "단계",
+            "description": "단계 정의."
+          },
+          "stageGroups": {
+            "label": "단계 그룹",
+            "description": "단계 그룹화 및 계층 구조."
+          },
+          "calendarCategories": {
+            "label": "캘린더 카테고리",
+            "description": "이벤트 카테고리 구성."
+          }
+        }
+      },
+      "integrations": {
+        "label": "통합",
+        "description": "서버, CAD, Radio, 웹훅 및 리치 프레즌스 구성.",
+        "items": {
+          "servers": {
+            "label": "서버",
+            "description": "통합 서버 정의."
+          },
+          "cadAuth": {
+            "label": "CAD 인증",
+            "description": "Sonoran CAD 인증 설정."
+          },
+          "radioAuth": {
+            "label": "Radio 인증",
+            "description": "Sonoran Radio 인증 설정."
+          },
+          "webhooks": {
+            "label": "웹훅",
+            "description": "Discord 웹훅 매핑 및 전달 설정."
+          },
+          "richPresence": {
+            "label": "리치 프레즌스",
+            "description": "Discord 리치 프레즌스 구성."
+          }
+        }
+      },
+      "content": {
+        "label": "콘텐츠",
+        "description": "계정, 양식 제출, 포럼 기록, 갤러리 항목, 이벤트 및 문서.",
+        "items": {
+          "accounts": {
+            "label": "계정",
+            "description": "커뮤니티 계정 행 및 회원 데이터."
+          },
+          "formSubmissions": {
+            "label": "양식 제출",
+            "description": "제출된 양식 및 응답."
+          },
+          "forumCategories": {
+            "label": "포럼 카테고리",
+            "description": "포럼 카테고리 구조."
+          },
+          "forumTopics": {
+            "label": "포럼 주제",
+            "description": "포럼 주제 스레드."
+          },
+          "forumReplies": {
+            "label": "포럼 답글",
+            "description": "포럼 답글 및 기록."
+          },
+          "galleryCategories": {
+            "label": "갤러리 카테고리",
+            "description": "갤러리 카테고리 구조."
+          },
+          "galleryPosts": {
+            "label": "갤러리 게시물",
+            "description": "갤러리 게시물 기록 및 미디어 참조."
+          },
+          "events": {
+            "label": "이벤트",
+            "description": "캘린더 이벤트 및 RSVP 상태."
+          },
+          "rosterRows": {
+            "label": "명부 행",
+            "description": "명부를 구성하는 행 데이터."
+          },
+          "rosterData": {
+            "label": "명부 데이터",
+            "description": "명부 지원 페이로드."
+          },
+          "docs": {
+            "label": "문서",
+            "description": "커뮤니티 문서 메타데이터."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "복구 요청 승인",
+    "description": "이 복구 요청은 이메일로 커뮤니티 소유자에게 전송되었습니다. 요청을 확인하고 복구를 시작하기 위해 아래에 정확한 커뮤니티 이름을 입력하세요.",
+    "disclaimer": "이 복구를 요청하지 않았다면 이 페이지를 닫고 이메일을 무시하세요.",
+    "communityNameLabel": "커뮤니티 이름",
+    "back": "뒤로",
+    "confirmAndStartRestore": "확인하고 복구 시작",
+    "unableToVerify": "복구 요청을 확인할 수 없습니다. 커뮤니티 이름을 확인하고 다시 시도하세요.",
+    "restoreStarted": "복구 요청이 확인되었습니다. 복구가 시작되었으며 백그라운드에서 계속됩니다.",
+    "unableToConfirm": "복구 요청을 확인할 수 없습니다."
   }
 }

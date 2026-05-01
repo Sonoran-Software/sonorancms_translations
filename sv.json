@@ -644,7 +644,11 @@
     "session": "Session",
     "management": "Förvaltning",
     "import": "Importera",
-    "accountFlagDescription": "Undersök potentiella dubblettkonton för att hålla din community säker."
+    "accountFlagDescription": "Undersök potentiella dubblettkonton för att hålla din community säker.",
+    "approved": "Godkänd",
+    "enabled": "Aktiverad",
+    "disabled": "Inaktiverad",
+    "pending": "Väntande"
   },
   "Dashboard": {
     "securityDashboard": "Säkerhet - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Kunde inte kontrollera social länkstatus. Vänligen försök igen.",
     "failedToStartSocialLink": "Kunde inte starta socialt länkflöde. Vänligen försök igen.",
     "automemberRobloxUsername": "Automatisk Medlem Roblox Användarnamn",
-    "communityMemberRobloxUsernameElement": "Gemenskapsmedlem Roblox Användarnaminlement"
+    "communityMemberRobloxUsernameElement": "Gemenskapsmedlem Roblox Användarnaminlement",
+    "duplicatableSection": "Kopierbar Sektion",
+    "addAnother": "Lägg till en till",
+    "removeDuplicate": "Ta bort Kopia"
   },
   "selectRoster": {
     "selectRoster": "Välj Roster"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Öppnad {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Gemenskapsbackup",
+    "proEnabled": "Pro Aktiverad",
+    "proRequired": "Pro Krävdes",
+    "description": "Granska de rutinmässiga ögonblicksbilderna skapade av nattjobbet, begär sedan en återställning för endast de kategorier du behöver: anpassning, struktur, integrationer och innehåll.",
+    "proFeatureBanner": "Backups är en Pro-funktion. Du kan granska ögonblicksbilder här, men återställningsförfrågningar förblir inaktiverade tills gemenskapen uppgraderar.",
+    "restoreRequestWarnings": "Återställ varningar för förfrågan",
+    "restoreLocksCommunity": "Återställningar låser gemenskapen medan bytet körs.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord om-synkroniseras efter återställningen.",
+    "tempRestoreTablesThreeDays": "Tillfälliga återställningstabeller hålls i tre dagar.",
+    "onlyRestoreExistingCategories": "Du kan endast återställa kategorier som finns i ögonblicksbilden.",
+    "confirmationPhrase": "ÅTERSTÄLL DENNA GEMENSKAP",
+    "snapshotLibrary": "Ögonblicksbibliotek",
+    "chooseSnapshotInspect": "Välj en ögonblicksbild för att begära en återställning, eller bara inspektera vad den innehåller.",
+    "reload": "Ladda om",
+    "noSnapshotsFoundYet": "Inga ögonblicksbilder hittades ännu.",
+    "scheduled": "schemalagd",
+    "manual": "manuell",
+    "size": "Storlek {size}",
+    "restores": "Återställningar {count}",
+    "requestRestore": "Begär återställning",
+    "requestRestoreDialogTitle": "Begär återställning",
+    "requestRestoreDialogDescription": "Välj de kategorier som ska inkluderas och skicka sedan godkännandeförfrågan.",
+    "snapshotLabel": "Ögonblicksbild",
+    "unknown": "Okänd",
+    "all": "Alla",
+    "none": "Inga",
+    "confirmationInstruction": "Skriv {phrase} och bekräfta e-postvalideringskontrollen innan du skickar återställningsförfrågan.",
+    "confirmationInputLabel": "Skriv {phrase} för att fortsätta",
+    "emailRevalidationLabel": "Jag förstår att detta kommer att skicka ett godkännandemail till ägaren.",
+    "cancel": "Avbryt",
+    "sendRestoreRequest": "Skicka återställningsförfrågan",
+    "unableToLoadSnapshots": "Kunde inte ladda ögonblicksbilder.",
+    "restoreRequestFailed": "Återställningsförfrågan misslyckades.",
+    "restoreRequestSent": "Återställningsförfrågan skickad. Ägaren måste godkänna den via e-post innan återställningen börjar.",
+    "statuses": {
+      "completed": "Slutförd",
+      "restored": "Återställd",
+      "failed": "Misslyckades",
+      "processing": "Behandlas",
+      "restoring": "Återställer",
+      "pending": "Väntande",
+      "awaitingApproval": "Inväntar godkännande",
+      "canceled": "Avbruten"
+    },
+    "groups": {
+      "customization": {
+        "label": "Anpassning",
+        "description": "Branding, sidor, profilfält, meddelanden, upptäckt och säkerhetspreferenser.",
+        "items": {
+          "community": {
+            "label": "Gemenskapsinformation",
+            "description": "Kärnens gemenskapsmetadata och branding-payload."
+          },
+          "branding": {
+            "label": "Endast branding",
+            "description": "Logga, palett, bot-varumärke och identitet."
+          },
+          "pages": {
+            "label": "Sidor",
+            "description": "Anpassad sidlayout och navigationsytor."
+          },
+          "profileFields": {
+            "label": "Profilfält",
+            "description": "Anpassade profilfält och medlemsdata."
+          },
+          "notices": {
+            "label": "Meddelanden",
+            "description": "Gemenskapsmeddelanden och tillkännagivanden."
+          },
+          "discovery": {
+            "label": "Upptäcktsinställningar",
+            "description": "Upptäcktsstatus, taggar och godkännandedata."
+          },
+          "securityPreferences": {
+            "label": "Säkerhetspreferenser",
+            "description": "Gemenskapsövergripande säkerhetspreferenser."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struktur",
+        "description": "Avdelningar, formulär, formulärmapporer, roster, scener och kalendrar.",
+        "items": {
+          "departments": {
+            "label": "Avdelningar",
+            "description": "Rangordningenheter och avdelningskonfiguration."
+          },
+          "forms": {
+            "label": "Formulär",
+            "description": "Formulärmallar och struktur."
+          },
+          "formFolders": {
+            "label": "Formulärmappor",
+            "description": "Mapporganisering för formulär."
+          },
+          "rosters": {
+            "label": "Roster",
+            "description": "Rostermallar och layout."
+          },
+          "stages": {
+            "label": "Scener",
+            "description": "Scendefinitioner."
+          },
+          "stageGroups": {
+            "label": "Scengrupper",
+            "description": "Scengruppering och hierarki."
+          },
+          "calendarCategories": {
+            "label": "Kalenderkategorier",
+            "description": "Händelsekategoriorganisation."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrationer",
+        "description": "Servrar, CAD, Radio, webhooks och konfiguration av rich presence.",
+        "items": {
+          "servers": {
+            "label": "Servrar",
+            "description": "Definitioner för integrationsservrar."
+          },
+          "cadAuth": {
+            "label": "CAD Autentisering",
+            "description": "Sonoran CAD auktorisationsinställningar."
+          },
+          "radioAuth": {
+            "label": "Radio Autentisering",
+            "description": "Sonoran Radio auktorisationsinställningar."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord webhook-mappningar och leveransinställningar."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Discord rich presence-konfiguration."
+          }
+        }
+      },
+      "content": {
+        "label": "Innehåll",
+        "description": "Konton, formulärinlämningar, forumhistoria, galleriposter, evenemang och dokument.",
+        "items": {
+          "accounts": {
+            "label": "Konton",
+            "description": "Rader i gemenskapskonton och medlemsdata."
+          },
+          "formSubmissions": {
+            "label": "Formulärinlämningar",
+            "description": "Inlämnade formulär och svar."
+          },
+          "forumCategories": {
+            "label": "Forumkategorier",
+            "description": "Struktur för forumkategorier."
+          },
+          "forumTopics": {
+            "label": "Forumämnen",
+            "description": "Trådar för forumämnen."
+          },
+          "forumReplies": {
+            "label": "Forumsvar",
+            "description": "Forum svar och historia."
+          },
+          "galleryCategories": {
+            "label": "Gallerikategorier",
+            "description": "Struktur för gallerikategorier."
+          },
+          "galleryPosts": {
+            "label": "Galleriinlägg",
+            "description": "Galleri-inläggshistoria och mediereferenser."
+          },
+          "events": {
+            "label": "Händelser",
+            "description": "Kalenderhändelser och RSVP-status."
+          },
+          "rosterRows": {
+            "label": "Roster Rader",
+            "description": "Raddata som används för att bygga roster."
+          },
+          "rosterData": {
+            "label": "Roster Data",
+            "description": "Roster-bakgrundspayloads."
+          },
+          "docs": {
+            "label": "Dokument",
+            "description": "Metadata för gemenskapsdokument."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Godkänn återställningsförfrågan",
+    "description": "Denna återställningsförfrågan skickades till gemenskapsägaren via e-post. Ange exakt gemenskapsnamn nedan för att verifiera förfrågan och starta återställningen.",
+    "disclaimer": "Om du inte begärde denna återställning kan du stänga sidan och ignorera e-posten.",
+    "communityNameLabel": "Gemenskapsnamn",
+    "back": "Tillbaka",
+    "confirmAndStartRestore": "Bekräfta och starta återställning",
+    "unableToVerify": "Kunde inte verifiera återställningsförfrågan. Kontrollera gemenskapsnamnet och försök igen.",
+    "restoreStarted": "Återställningsförfrågan verifierad. Återställningen har startat och kommer att fortsätta i bakgrunden.",
+    "unableToConfirm": "Kunde inte bekräfta återställningsförfrågan."
   }
 }

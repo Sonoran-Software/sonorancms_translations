@@ -644,7 +644,11 @@
     "session": "セッション",
     "management": "管理",
     "import": "インポート",
-    "accountFlagDescription": "コミュニティの安全を保つために、潜在的な重複ユーザーアカウントを調査します。"
+    "accountFlagDescription": "コミュニティの安全を保つために、潜在的な重複ユーザーアカウントを調査します。",
+    "approved": "承認済み",
+    "enabled": "有効",
+    "disabled": "無効",
+    "pending": "保留中"
   },
   "Dashboard": {
     "securityDashboard": "成長 - ダッシュボード",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "ソーシャルリンクの状態を確認できませんでした。もう一度お試しください。",
     "failedToStartSocialLink": "ソーシャルリンクフローを開始できませんでした。もう一度お試しください。",
     "automemberRobloxUsername": "自動メンバー Roblox ユーザー名",
-    "communityMemberRobloxUsernameElement": "コミュニティメンバー Roblox ユーザー名要素"
+    "communityMemberRobloxUsernameElement": "コミュニティメンバー Roblox ユーザー名要素",
+    "duplicatableSection": "複製可能なセクション",
+    "addAnother": "さらに追加",
+    "removeDuplicate": "重複を削除"
   },
   "selectRoster": {
     "selectRoster": "コミュニティページを選択"
@@ -5461,5 +5468,208 @@
         "openedSummary": "{label} を開きました。"
       }
     }
+  },
+  "Backups": {
+    "title": "コミュニティのバックアップ",
+    "proEnabled": "プロ有効",
+    "proRequired": "プロ必須",
+    "description": "夜間ジョブで作成される定期的なスナップショットを確認し、カスタマイズ、構造、統合、コンテンツの必要なカテゴリーのみを復元するリクエストを行ってください。",
+    "proFeatureBanner": "バックアップはプロ機能です。ここでスナップショットを確認できますが、コミュニティがアップグレードするまでは復元リクエストは無効のままです。",
+    "restoreRequestWarnings": "復元リクエストの警告",
+    "restoreLocksCommunity": "スワップが実行される間、コミュニティはロックされます。",
+    "resyncedAfterRestore": "復元後にCAD、Radio、TeamSpeak、Discordが再同期されます。",
+    "tempRestoreTablesThreeDays": "一時的な復元テーブルは3日間保持されます。",
+    "onlyRestoreExistingCategories": "スナップショットに存在するカテゴリのみを復元できます。",
+    "confirmationPhrase": "このコミュニティを復元",
+    "snapshotLibrary": "スナップショットライブラリ",
+    "chooseSnapshotInspect": "復元リクエストを行うスナップショットを選択するか、含まれている内容を確認してください。",
+    "reload": "再読み込み",
+    "noSnapshotsFoundYet": "スナップショットはまだ見つかりません。",
+    "scheduled": "予定された",
+    "manual": "手動",
+    "size": "サイズ {size}",
+    "restores": "復元 {count}",
+    "requestRestore": "復元リクエスト",
+    "requestRestoreDialogTitle": "復元リクエスト",
+    "requestRestoreDialogDescription": "含めるカテゴリを選択し、承認リクエストを送信してください。",
+    "snapshotLabel": "スナップショット",
+    "unknown": "不明",
+    "all": "すべて",
+    "none": "なし",
+    "confirmationInstruction": "{phrase}と入力し、復元リクエストを送信する前にメール再確認チェックボックスを確認してください。",
+    "confirmationInputLabel": "続行するには{phrase}を入力してください",
+    "emailRevalidationLabel": "これにより、オーナーに承認メールが送信されることを理解しています。",
+    "cancel": "キャンセル",
+    "sendRestoreRequest": "復元リクエストを送信",
+    "unableToLoadSnapshots": "スナップショットを読み込めません。",
+    "restoreRequestFailed": "復元リクエストに失敗しました。",
+    "restoreRequestSent": "復元リクエストが送信されました。オーナーがメールで承認する必要があります。",
+    "statuses": {
+      "completed": "完了",
+      "restored": "復元済み",
+      "failed": "失敗",
+      "processing": "処理中",
+      "restoring": "復元中",
+      "pending": "保留中",
+      "awaitingApproval": "承認待ち",
+      "canceled": "キャンセルされた"
+    },
+    "groups": {
+      "customization": {
+        "label": "カスタマイズ",
+        "description": "ブランディング、ページ、プロフィールフィールド、通知、発見、セキュリティの設定。",
+        "items": {
+          "community": {
+            "label": "コミュニティ情報",
+            "description": "コアなコミュニティメタデータとブランディングペイロード。"
+          },
+          "branding": {
+            "label": "ブランディングのみ",
+            "description": "ロゴ、パレット、ボットブランディング、アイデンティティ。"
+          },
+          "pages": {
+            "label": "ページ",
+            "description": "カスタムページレイアウトとナビゲーション表面。"
+          },
+          "profileFields": {
+            "label": "プロフィールフィールド",
+            "description": "カスタムプロフィールフィールドとメンバーデータ。"
+          },
+          "notices": {
+            "label": "通知",
+            "description": "コミュニティ通知とお知らせ。"
+          },
+          "discovery": {
+            "label": "発見設定",
+            "description": "発見の状態、タグ、承認データ。"
+          },
+          "securityPreferences": {
+            "label": "セキュリティ設定",
+            "description": "コミュニティ全体のセキュリティ設定。"
+          }
+        }
+      },
+      "structure": {
+        "label": "構造",
+        "description": "部門、フォーム、フォームフォルダー、名簿、ステージ、カレンダー。",
+        "items": {
+          "departments": {
+            "label": "部門",
+            "description": "ランクグループと部門構成。"
+          },
+          "forms": {
+            "label": "フォーム",
+            "description": "フォームテンプレートと構造。"
+          },
+          "formFolders": {
+            "label": "フォームフォルダー",
+            "description": "フォームのフォルダー整理。"
+          },
+          "rosters": {
+            "label": "名簿",
+            "description": "名簿テンプレートとレイアウト。"
+          },
+          "stages": {
+            "label": "ステージ",
+            "description": "ステージの定義。"
+          },
+          "stageGroups": {
+            "label": "ステージグループ",
+            "description": "ステージのグループ化と階層。"
+          },
+          "calendarCategories": {
+            "label": "カレンダーのカテゴリ",
+            "description": "イベントカテゴリの組織化。"
+          }
+        }
+      },
+      "integrations": {
+        "label": "統合",
+        "description": "サーバー、CAD、Radio、Webhooks、およびリッチプレゼンスの設定。",
+        "items": {
+          "servers": {
+            "label": "サーバー",
+            "description": "統合サーバーの定義。"
+          },
+          "cadAuth": {
+            "label": "CAD認証",
+            "description": "Sonoran CAD認証設定。"
+          },
+          "radioAuth": {
+            "label": "Radio認証",
+            "description": "Sonoran Radio認証設定。"
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord Webhookのマッピングと配信設定。"
+          },
+          "richPresence": {
+            "label": "リッチプレゼンス",
+            "description": "Discordリッチプレゼンスの設定。"
+          }
+        }
+      },
+      "content": {
+        "label": "コンテンツ",
+        "description": "アカウント、フォーム提出、フォーラム履歴、ギャラリーエントリ、イベント、ドキュメント。",
+        "items": {
+          "accounts": {
+            "label": "アカウント",
+            "description": "コミュニティアカウントの行とメンバーデータ。"
+          },
+          "formSubmissions": {
+            "label": "フォーム提出",
+            "description": "提出されたフォームと回答。"
+          },
+          "forumCategories": {
+            "label": "フォーラムカテゴリー",
+            "description": "フォーラムカテゴリ構造。"
+          },
+          "forumTopics": {
+            "label": "フォーラムトピック",
+            "description": "フォーラムのトピックスレッド。"
+          },
+          "forumReplies": {
+            "label": "フォーラム返信",
+            "description": "フォーラム返信と履歴。"
+          },
+          "galleryCategories": {
+            "label": "ギャラリーカテゴリー",
+            "description": "ギャラリーのカテゴリ構造。"
+          },
+          "galleryPosts": {
+            "label": "ギャラリーポスト",
+            "description": "ギャラリーポストの履歴とメディア参照。"
+          },
+          "events": {
+            "label": "イベント",
+            "description": "カレンダーイベントとRSVPの状態。"
+          },
+          "rosterRows": {
+            "label": "名簿行",
+            "description": "名簿を構築するための行データ。"
+          },
+          "rosterData": {
+            "label": "名簿データ",
+            "description": "名簿のバックペイロード。"
+          },
+          "docs": {
+            "label": "ドキュメント",
+            "description": "コミュニティドキュメントのメタデータ。"
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "復元リクエストの承認",
+    "description": "この復元リクエストは、コミュニティオーナーにメールで送信されました。下にコミュニティ名を正確に入力してリクエストを確認し、復元を開始してください。",
+    "disclaimer": "この復元をリクエストしなかった場合、このページを閉じてメールを無視できます。",
+    "communityNameLabel": "コミュニティ名",
+    "back": "戻る",
+    "confirmAndStartRestore": "確認して復元を開始",
+    "unableToVerify": "復元リクエストを確認できません。コミュニティ名を確認してもう一度試してください。",
+    "restoreStarted": "復元リクエストが確認されました。復元が開始され、バックグラウンドで続行されます。",
+    "unableToConfirm": "復元リクエストを確認できません。"
   }
 }

@@ -644,7 +644,11 @@
     "session": "会话",
     "management": "管理",
     "import": "进口",
-    "accountFlagDescription": "调查潜在的重复用户账户以保障您社区的安全。"
+    "accountFlagDescription": "调查潜在的重复用户账户以保障您社区的安全。",
+    "approved": "批准",
+    "enabled": "启用",
+    "disabled": "禁用",
+    "pending": "待定"
   },
   "Dashboard": {
     "securityDashboard": "安全 - 仪表板",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "检查社交链接状态失败。请再试一次。",
     "failedToStartSocialLink": "启动社交链接流程失败。请再试一次。",
     "automemberRobloxUsername": "自动成员 Roblox 用户名",
-    "communityMemberRobloxUsernameElement": "社区成员 Roblox 用户名元素"
+    "communityMemberRobloxUsernameElement": "社区成员 Roblox 用户名元素",
+    "duplicatableSection": "可重复节",
+    "addAnother": "添加另一个",
+    "removeDuplicate": "删除重复"
   },
   "selectRoster": {
     "selectRoster": "选择名册"
@@ -5461,5 +5468,209 @@
         "openedSummary": "已打开 {label}。"
       }
     }
+  },
+  "Backups": {
+    "title": "社区备份",
+    "proEnabled": "专业版启用",
+    "proRequired": "需要专业版",
+    "description": "检查每晚作业创建的常规快照，然后只请求您需要的类别恢复：自定义、结构、集成和内容。",
+    "proFeatureBanner": "备份是专业版功能。您可以在这里查看快照，但恢复请求在社区升级之前会保持禁用。",
+    "restoreRequestWarnings": "恢复请求警告",
+    "restoreLocksCommunity": "在交换运行时，恢复会锁定社区。",
+    "resyncedAfterRestore": "恢复后，CAD、Radio、TeamSpeak及Discord将重新同步。",
+    "tempRestoreTablesThreeDays": "临时恢复表保留三天。",
+    "onlyRestoreExistingCategories": "您只能恢复快照中存在的类别。",
+    "confirmationPhrase": "恢复此社区",
+    "snapshotLibrary": "快照库",
+    "chooseSnapshotInspect": "选择一个快照来请求恢复，或者只是查看它包含的内容。",
+    "reload": "重新加载",
+    "noSnapshotsFoundYet": "尚未找到快照。",
+    "scheduled": "已安排",
+    "manual": "手动",
+    "size": "大小 {size}",
+    "restores": "恢复 {count}",
+    "requestRestore": "请求恢复",
+    "requestRestoreDialogTitle": "请求恢复",
+    "requestRestoreDialogDescription": "选择要包含的类别，然后发送批准请求。",
+    "snapshotLabel": "快照",
+    "unknown": "未知",
+    "all": "全部",
+    "none": "无",
+    "confirmationInstruction": "输入 {phrase} 并在发送恢复请求之前确认电子邮件重新验证复选框。",
+    "confirmationInputLabel": "输入 {phrase} 以继续",
+    "emailRevalidationLabel": "我理解这将向所有者发送批准电子邮件。",
+    "cancel": "取消",
+    "sendRestoreRequest": "发送恢复请求",
+    "unableToLoadSnapshots": "无法加载快照。",
+    "restoreRequestFailed": "恢复请求失败。",
+    "restoreRequestSent": "恢复请求已发送。所有者必须通过电子邮件批准它，恢复才会开始。",
+    "statuses": {
+      "completed": "已完成",
+      "restored": "已恢复",
+      "failed": "失败",
+      "processing": "处理中",
+      "restoring": "正在恢复",
+      "pending": "待处理",
+      "awaitingApproval": "等待批准",
+      "canceled": "已取消"
+    },
+    "groups": {
+      "customization": {
+        "label": "自定义",
+        "description": "品牌，页面，档案字段，公告，发现和安全偏好。",
+        "items": {
+          "community": {
+            "label": "社区信息",
+            "description": "核心社区元数据和品牌信息。"
+          },
+          "branding": {
+            "label": "仅品牌",
+            "description": "标识，调色板，机器人品牌和身份。"
+          },
+          "pages": {
+            "label": "页面",
+            "description": "自定义页面布局和导航界面。"
+          },
+          "profileFields": {
+            "label": "档案字段",
+            "description": "自定义档案字段和成员数据。"
+          },
+          "notices": {
+            "label": "公告",
+            "description": "社区公告和通知。"
+          },
+          "discovery": {
+            "label": "发现设置",
+            "description": "发现状态，标签和审批数据。"
+          },
+          "securityPreferences": {
+            "label": "安全偏好",
+            "description": "社区范围的安全偏好。"
+          }
+        }
+      },
+      "structure": {
+        "label": "结构",
+        "description": "部门，表单，表单文件夹，名册，阶段和日历。",
+        "items": {
+          "departments": {
+            "label": "部门",
+            "description": "排名组和部门配置。"
+          },
+          "forms": {
+            "label": "表单",
+            "description": "表单模板和结构。"
+          },
+          "formFolders": {
+            "label": "表单文件夹",
+            "description": "表单的文件夹组织。"
+          },
+          "rosters": {
+            "label": "名册",
+            "description": "名册模板和布局。"
+          },
+          "stages": {
+            "label": "阶段",
+            "description": "阶段定义。"
+          },
+          "stageGroups": {
+            "label": "阶段组",
+            "description": "阶段分组和层次结构。"
+          },
+          "calendarCategories": {
+            "label": "日历类别",
+            "description": "事件类别组织。"
+          }
+        }
+      },
+      "integrations": {
+        "label": "集成",
+        "description": "服务器，CAD，Radio，webhooks和丰富的存在配置。",
+        "items": {
+          "servers": {
+            "label": "服务器",
+            "description": "集成服务器定义。"
+          },
+          "cadAuth": {
+            "label": "CAD认证",
+            "description": "Sonoran CAD授权设置。"
+          },
+          "radioAuth": {
+            "label": "无线电认证",
+            "description": "Sonoran Radio授权设置。"
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord webhook映射和传递设置。"
+          },
+          "richPresence": {
+            "label": "丰富的存在",
+            "description": "Discord丰富的存在配置。"
+          }
+        }
+      },
+      "content": {
+        "label": "内容",
+        "description": "帐户，表单提交，论坛历史，画廊条目，事件和文档。",
+        "items": {
+          "accounts": {
+            "label": "帐户",
+            "description": "社区帐户行和成员数据。"
+          },
+          "formSubmissions": {
+            "label": "表单提交",
+            "description": "提交的表单和响应。"
+          },
+          "forumCategories": {
+            "label": "论坛类别",
+            "description": "论坛类别结构。"
+          },
+          "forumTopics": {
+            "label": "论坛主题",
+            "description": "论坛主题讨论。"
+          },
+          "forumReplies": {
+            "label": "论坛回复",
+            "description": "论坛回复和历史。"
+          },
+          "galleryCategories": {
+            "label": "画廊类别",
+            "description": "画廊类别结构。"
+          },
+          "galleryPosts": {
+            "label": "画廊帖子",
+            "description": "画廊帖子历史和媒体引用。"
+          },
+          "events": {
+            "label": "事件",
+            "description": "Calendar events and RSVP state.",
+            "definition": "日历事件和RSVP状态。"
+          },
+          "rosterRows": {
+            "label": "名册行",
+            "description": "用于构建名册的行数据。"
+          },
+          "rosterData": {
+            "label": "名册数据",
+            "description": "名册支持数据。"
+          },
+          "docs": {
+            "label": "文档",
+            "description": "社区文档的元数据。"
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "批准恢复请求",
+    "description": "此恢复请求已通过电子邮件发送给社区所有者。请在下面输入确切的社区名称以验证请求并开始恢复。",
+    "disclaimer": "如果您没有请求此恢复，您可以关闭此页面并忽略该电子邮件。",
+    "communityNameLabel": "社区名称",
+    "back": "返回",
+    "confirmAndStartRestore": "确认并开始恢复",
+    "unableToVerify": "无法验证恢复请求。请检查社区名称并重试。",
+    "restoreStarted": "恢复请求已验证。恢复已开始并会在后台继续。",
+    "unableToConfirm": "无法确认恢复请求。"
   }
 }

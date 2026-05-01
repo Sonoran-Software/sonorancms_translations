@@ -644,7 +644,11 @@
     "session": "جلسة",
     "management": "إدارة",
     "import": "استيراد",
-    "accountFlagDescription": "التحقيق في حسابات المستخدم المحتملة المكررة للحفاظ على أمان مجتمعك."
+    "accountFlagDescription": "التحقيق في حسابات المستخدم المحتملة المكررة للحفاظ على أمان مجتمعك.",
+    "approved": "تمت الموافقة",
+    "enabled": "ممكّن",
+    "disabled": "معطل",
+    "pending": "قيد الانتظار"
   },
   "Dashboard": {
     "securityDashboard": "الأمان - لوحة التحكم",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "فشل في التحقق من حالة الرابط الاجتماعي. يرجى المحاولة مرة أخرى.",
     "failedToStartSocialLink": "فشل في بدء تدفق الرابط الاجتماعي. يرجى المحاولة مرة أخرى.",
     "automemberRobloxUsername": "اسم مستخدم Roblox للعضو الآلي",
-    "communityMemberRobloxUsernameElement": "عنصر اسم مستخدم Roblox لعضو المجتمع"
+    "communityMemberRobloxUsernameElement": "عنصر اسم مستخدم Roblox لعضو المجتمع",
+    "duplicatableSection": "قسم قابل للتكرار",
+    "addAnother": "أضف آخر",
+    "removeDuplicate": "إزالة التكرار"
   },
   "selectRoster": {
     "selectRoster": "اختر القائمة"
@@ -5461,5 +5468,208 @@
         "openedSummary": "تم فتح {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "نسخ احتياطية للمجتمع",
+    "proEnabled": "تمكين المحترفين",
+    "proRequired": "يتطلب المحترفين",
+    "description": "راجع اللقطات الروتينية التي أنشأتها المهمة الليلية، ثم اطلب استعادة للفئات التي تحتاجها فقط: التخصيص، البنية، التكاملات، والمحتوى.",
+    "proFeatureBanner": "النسخ الاحتياطية هي ميزة للمحترفين. يمكنك مراجعة اللقطات هنا، لكن طلبات الاستعادة تظل معطلة حتى يتم ترقية المجتمع.",
+    "restoreRequestWarnings": "تحذيرات طلب الاستعادة",
+    "restoreLocksCommunity": "تقفل الاستعادة المجتمع أثناء التشغيل.",
+    "resyncedAfterRestore": "يتم إعادة المزامنة لـ CAD، Radio، TeamSpeak و Discord بعد الاستعادة.",
+    "tempRestoreTablesThreeDays": "تُحفظ جداول الاستعادة المؤقتة لمدة ثلاثة أيام.",
+    "onlyRestoreExistingCategories": "يمكنك استعادة الفئات الموجودة في اللقطة فقط.",
+    "confirmationPhrase": "استعادة هذا المجتمع",
+    "snapshotLibrary": "مكتبة اللقطات",
+    "chooseSnapshotInspect": "اختر لقطة لطلب استعادة لها، أو قم فقط بفحص ما تحتويه.",
+    "reload": "إعادة التحميل",
+    "noSnapshotsFoundYet": "لم يتم العثور على لقطات بعد.",
+    "scheduled": "مجدول",
+    "manual": "يدوي",
+    "size": "الحجم {size}",
+    "restores": "استعادة {count}",
+    "requestRestore": "طلب استعادة",
+    "requestRestoreDialogTitle": "طلب استعادة",
+    "requestRestoreDialogDescription": "حدد الفئات المراد تضمينها، ثم أرسل طلب الموافقة.",
+    "snapshotLabel": "لقطة",
+    "unknown": "غير معروف",
+    "all": "الكل",
+    "none": "لا شيء",
+    "confirmationInstruction": "اكتب {phrase} ووافق على بند إعادة التحقق من البريد الإلكتروني قبل إرسال طلب الاستعادة.",
+    "confirmationInputLabel": "اكتب {phrase} للمتابعة",
+    "emailRevalidationLabel": "أفهم أن هذا سيرسل بريدًا إلكترونيًا للموافقة للمالك.",
+    "cancel": "إلغاء",
+    "sendRestoreRequest": "إرسال طلب استعادة",
+    "unableToLoadSnapshots": "غير قادر على تحميل اللقطات.",
+    "restoreRequestFailed": "فشل طلب الاستعادة.",
+    "restoreRequestSent": "تم إرسال طلب الاستعادة. يجب أن يوافق عليه المالك عبر البريد الإلكتروني قبل أن تبدأ الاستعادة.",
+    "statuses": {
+      "completed": "مكتمل",
+      "restored": "تمت الاستعادة",
+      "failed": "فشل",
+      "processing": "قيد المعالجة",
+      "restoring": "جاري الاستعادة",
+      "pending": "قيد الانتظار",
+      "awaitingApproval": "بانتظار الموافقة",
+      "canceled": "ملغي"
+    },
+    "groups": {
+      "customization": {
+        "label": "التخصيص",
+        "description": "العلامات التجارية، الصفحات، حقول الملف الشخصي، الإشعارات، اكتشاف، تفضيلات الأمان.",
+        "items": {
+          "community": {
+            "label": "معلومات المجتمع",
+            "description": "البيانات الوصفية الأساسية للمجتمع وحزمة العلامة التجارية."
+          },
+          "branding": {
+            "label": "العلامات التجارية فقط",
+            "description": "الشعار، لوحة الألوان، العلامة التجارية للروبوت، والهوية."
+          },
+          "pages": {
+            "label": "الصفحات",
+            "description": "تخطيط وتصفح الصفحات المخصصة."
+          },
+          "profileFields": {
+            "label": "حقول الملف الشخصي",
+            "description": "حقول الملف الشخصي المخصصة وبيانات الأعضاء."
+          },
+          "notices": {
+            "label": "إشعارات",
+            "description": "الإشعارات والإعلانات الخاصة بالمجتمع."
+          },
+          "discovery": {
+            "label": "إعدادات الاكتشاف",
+            "description": "حالة الاكتشاف، العلامات، وبيانات الموافقة."
+          },
+          "securityPreferences": {
+            "label": "تفضيلات الأمان",
+            "description": "تفضيلات الأمان على مستوى المجتمع."
+          }
+        }
+      },
+      "structure": {
+        "label": "الهيكل",
+        "description": "الإدارات، النماذج، مجلدات النماذج، القوائم، المراحل، والتقويمات.",
+        "items": {
+          "departments": {
+            "label": "الإدارات",
+            "description": "مجموعات الرتب وإعدادات الإدارات."
+          },
+          "forms": {
+            "label": "النماذج",
+            "description": "قوالب النماذج وهيكلها."
+          },
+          "formFolders": {
+            "label": "مجلدات النماذج",
+            "description": "تنظيم المجلدات للنماذج."
+          },
+          "rosters": {
+            "label": "القوائم",
+            "description": "قوالب القوائم وتخطيطها."
+          },
+          "stages": {
+            "label": "المراحل",
+            "description": "تعريفات المراحل."
+          },
+          "stageGroups": {
+            "label": "مجموعات المراحل",
+            "description": "تجميع المراحل وتسلسلها."
+          },
+          "calendarCategories": {
+            "label": "فئات التقويم",
+            "description": "تنظيم فئات الأحداث."
+          }
+        }
+      },
+      "integrations": {
+        "label": "التكاملات",
+        "description": "الخوادم، CAD، الراديو، الويب هوكس، وتكوين الوجود الغني.",
+        "items": {
+          "servers": {
+            "label": "الخوادم",
+            "description": "تعريفات خوادم التكامل."
+          },
+          "cadAuth": {
+            "label": "أذونات CAD",
+            "description": "إعدادات تفويض Sonoran CAD."
+          },
+          "radioAuth": {
+            "label": "أذونات الراديو",
+            "description": "إعدادات تفويض Sonoran Radio."
+          },
+          "webhooks": {
+            "label": "الويب هوكس",
+            "description": "تخطيطات الويب هوكس في Discord وإعدادات التسليم."
+          },
+          "richPresence": {
+            "label": "وجود غني",
+            "description": "تكوين الوجود الغني في Discord."
+          }
+        }
+      },
+      "content": {
+        "label": "المحتوى",
+        "description": "الحسابات، إرسال النماذج، سجل المنتدى، إدخالات المعرض، الأحداث، والوثائق.",
+        "items": {
+          "accounts": {
+            "label": "الحسابات",
+            "description": "صفوف حسابات المجتمع وبيانات الأعضاء."
+          },
+          "formSubmissions": {
+            "label": "إرسال النماذج",
+            "description": "النماذج المرسلة والردود."
+          },
+          "forumCategories": {
+            "label": "فئات المنتدى",
+            "description": "هيكل فئات المنتدى."
+          },
+          "forumTopics": {
+            "label": "مواضيع المنتدى",
+            "description": "سلاسل مواضيع المنتدى."
+          },
+          "forumReplies": {
+            "label": "ردود المنتدى",
+            "description": "ردود المنتدى والتاريخ."
+          },
+          "galleryCategories": {
+            "label": "فئات المعرض",
+            "description": "هيكل فئات المعرض."
+          },
+          "galleryPosts": {
+            "label": "منشورات المعرض",
+            "description": "سجل مشاركات المعرض والمراجع الإعلامية."
+          },
+          "events": {
+            "label": "الأحداث",
+            "description": "أحداث التقويم وحالة RSVP."
+          },
+          "rosterRows": {
+            "label": "صفوف القوائم",
+            "description": "بيانات الصف المستخدمة لبناء القوائم."
+          },
+          "rosterData": {
+            "label": "بيانات القوائم",
+            "description": "حزم دعم القوائم."
+          },
+          "docs": {
+            "label": "الوثائق",
+            "description": "بيانات الوثائق الخاصة بالمجتمع."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "الموافقة على طلب الاستعادة",
+    "description": "تم إرسال طلب الاستعادة إلى مالك المجتمع عبر البريد الإلكتروني. أدخل اسم المجتمع بالضبط أدناه للتحقق من الطلب وبدء الاستعادة.",
+    "disclaimer": "إذا لم تطلب هذه الاستعادة، يمكنك إغلاق هذه الصفحة وتجاهل البريد الإلكتروني.",
+    "communityNameLabel": "اسم المجتمع",
+    "back": "عودة",
+    "confirmAndStartRestore": "تأكيد وبدء الاستعادة",
+    "unableToVerify": "غير قادر على التحقق من طلب الاستعادة. يرجى التحقق من اسم المجتمع والمحاولة مرة أخرى.",
+    "restoreStarted": "تم التحقق من طلب الاستعادة. بدأت الاستعادة وستستمر في الخلفية.",
+    "unableToConfirm": "غير قادر على تأكيد طلب الاستعادة."
   }
 }

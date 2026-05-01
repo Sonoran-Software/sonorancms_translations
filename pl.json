@@ -644,7 +644,11 @@
     "session": "Sesja",
     "management": "Zarządzanie",
     "import": "Import",
-    "accountFlagDescription": "Zbadaj potencjalnie zduplikowane konta użytkowników, aby chronić swoją społeczność."
+    "accountFlagDescription": "Zbadaj potencjalnie zduplikowane konta użytkowników, aby chronić swoją społeczność.",
+    "approved": "Zatwierdzony",
+    "enabled": "Włączony",
+    "disabled": "Wyłączony",
+    "pending": "Oczekujący"
   },
   "Dashboard": {
     "securityDashboard": "Bezpieczeństwo - Panel",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Nie udało się sprawdzić statusu linku społecznościowego. Spróbuj ponownie.",
     "failedToStartSocialLink": "Nie udało się rozpocząć procesu linkowania społecznościowego. Spróbuj ponownie.",
     "automemberRobloxUsername": "Automatyczna nazwa użytkownika Roblox",
-    "communityMemberRobloxUsernameElement": "Element nazwy użytkownika członka społeczności Roblox"
+    "communityMemberRobloxUsernameElement": "Element nazwy użytkownika członka społeczności Roblox",
+    "duplicatableSection": "Sekcja do powielenia",
+    "addAnother": "Dodaj kolejny",
+    "removeDuplicate": "Usuń duplikat"
   },
   "selectRoster": {
     "selectRoster": "Wybierz listę"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Otwarto {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Kopie zapasowe społeczności",
+    "proEnabled": "Wersja Pro aktywowana",
+    "proRequired": "Wymagana wersja Pro",
+    "description": "Przejrzyj rutynowe migawki tworzone przez nocne zadanie, a następnie poproś o przywrócenie tylko tych kategorii, których potrzebujesz: personalizacja, struktura, integracje i zawartość.",
+    "proFeatureBanner": "Kopie zapasowe to funkcja dostępna w wersji Pro. Możesz tutaj przeglądać migawki, ale prośby o przywrócenie pozostaną wyłączone, dopóki społeczność się nie ulepszy.",
+    "restoreRequestWarnings": "Ostrzeżenia o prośbach o przywrócenie",
+    "restoreLocksCommunity": "Przywracanie blokuje społeczność na czas działania zmiany.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak i Discord są ponownie synchronizowane po przywróceniu.",
+    "tempRestoreTablesThreeDays": "Tymczasowe tabele przywrócenia są przechowywane przez trzy dni.",
+    "onlyRestoreExistingCategories": "Możesz przywrócić tylko te kategorie, które istnieją w migawce.",
+    "confirmationPhrase": "PRZYWRÓĆ TĘ SPOŁECZNOŚĆ",
+    "snapshotLibrary": "Biblioteka migawkowa",
+    "chooseSnapshotInspect": "Wybierz migawkę, aby poprosić o przywrócenie lub po prostu sprawdź, co zawiera.",
+    "reload": "Przeładuj",
+    "noSnapshotsFoundYet": "Nie znaleziono jeszcze żadnych migawek.",
+    "scheduled": "Zaprogramowany",
+    "manual": "Ręczny",
+    "size": "Rozmiar {size}",
+    "restores": "Przywrócenia {count}",
+    "requestRestore": "Poproś o przywrócenie",
+    "requestRestoreDialogTitle": "Poproś o przywrócenie",
+    "requestRestoreDialogDescription": "Wybierz kategorie do uwzględnienia, a następnie wyślij prośbę o zatwierdzenie.",
+    "snapshotLabel": "Migawka",
+    "unknown": "Nieznany",
+    "all": "Wszystkie",
+    "none": "Brak",
+    "confirmationInstruction": "Wprowadź {phrase} i potwierdź zaznaczenie pola ponownej walidacji e-mailowej przed wysłaniem prośby o przywrócenie.",
+    "confirmationInputLabel": "Wpisz {phrase}, aby kontynuować",
+    "emailRevalidationLabel": "Rozumiem, że to wyśle e-mail zatwierdzający do właściciela.",
+    "cancel": "Anuluj",
+    "sendRestoreRequest": "Wyślij prośbę o przywrócenie",
+    "unableToLoadSnapshots": "Nie można załadować migawek.",
+    "restoreRequestFailed": "Prośba o przywrócenie nie powiodła się.",
+    "restoreRequestSent": "Prośba o przywrócenie wysłana. Właściciel musi ją zatwierdzić przez e-mail, zanim przywracanie się rozpocznie.",
+    "statuses": {
+      "completed": "Zakończony",
+      "restored": "Przywrócony",
+      "failed": "Niepowodzenie",
+      "processing": "Przetwarzanie",
+      "restoring": "Przywracanie",
+      "pending": "Oczekujący",
+      "awaitingApproval": "Czeka na zatwierdzenie",
+      "canceled": "Anulowany"
+    },
+    "groups": {
+      "customization": {
+        "label": "Dostosowywanie",
+        "description": "Branding, strony, pola profilu, powiadomienia, odkrycie i preferencje bezpieczeństwa.",
+        "items": {
+          "community": {
+            "label": "Informacje o społeczności",
+            "description": "Podstawowe metadane społeczności i ładunek brandingu."
+          },
+          "branding": {
+            "label": "Tylko branding",
+            "description": "Logo, paleta, branding bota i tożsamość."
+          },
+          "pages": {
+            "label": "Strony",
+            "description": "Niestandardowy układ strony i powierzchnie nawigacyjne."
+          },
+          "profileFields": {
+            "label": "Pola profilu",
+            "description": "Niestandardowe pola profilu i dane członków."
+          },
+          "notices": {
+            "label": "Powiadomienia",
+            "description": "Powiadomienia i ogłoszenia społeczności."
+          },
+          "discovery": {
+            "label": "Ustawienia odkrycia",
+            "description": "Stan odkrycia, tagi i dane zatwierdzenia."
+          },
+          "securityPreferences": {
+            "label": "Preferencje bezpieczeństwa",
+            "description": "Preferencje bezpieczeństwa na poziomie społeczności."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struktura",
+        "description": "Departamenty, formularze, katalogi formularzy, listy, etapy i kalendarze.",
+        "items": {
+          "departments": {
+            "label": "Departamenty",
+            "description": "Grupy rang i konfiguracja departamentów."
+          },
+          "forms": {
+            "label": "Formularze",
+            "description": "Szablony formularzy i struktura."
+          },
+          "formFolders": {
+            "label": "Katalogi formularzy",
+            "description": "Organizacja folderów dla formularzy."
+          },
+          "rosters": {
+            "label": "Listy",
+            "description": "Szablony list i układ."
+          },
+          "stages": {
+            "label": "Etapy",
+            "description": "Definicje etapów."
+          },
+          "stageGroups": {
+            "label": "Grupy etapów",
+            "description": "Grupowanie i hierarchia etapów."
+          },
+          "calendarCategories": {
+            "label": "Kategorie kalendarza",
+            "description": "Organizacja kategorii wydarzeń."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integracje",
+        "description": "Serwery, CAD, Radio, webhooki i konfiguracja rich presence.",
+        "items": {
+          "servers": {
+            "label": "Serwery",
+            "description": "Definicje serwerów integracji."
+          },
+          "cadAuth": {
+            "label": "Autoryzacja CAD",
+            "description": "Ustawienia autoryzacji Sonoran CAD."
+          },
+          "radioAuth": {
+            "label": "Autoryzacja Radio",
+            "description": "Ustawienia autoryzacji Sonoran Radio."
+          },
+          "webhooks": {
+            "label": "Webhooki",
+            "description": "Mapowania i ustawienia dostarczania webhooków Discorda."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Konfiguracja Discord rich presence."
+          }
+        }
+      },
+      "content": {
+        "label": "Zawartość",
+        "description": "Konta, złożenia formularzy, historia forum, wpisy w galerii, wydarzenia i dokumenty.",
+        "items": {
+          "accounts": {
+            "label": "Konta",
+            "description": "Wiersze kont społeczności i dane członków."
+          },
+          "formSubmissions": {
+            "label": "Złożenia formularzy",
+            "description": "Złożone formularze i odpowiedzi."
+          },
+          "forumCategories": {
+            "label": "Kategorie forum",
+            "description": "Struktura kategorii forum."
+          },
+          "forumTopics": {
+            "label": "Tematy forum",
+            "description": "Wątki tematyczne forum."
+          },
+          "forumReplies": {
+            "label": "Odpowiedzi forum",
+            "description": "Odpowiedzi i historia na forum."
+          },
+          "galleryCategories": {
+            "label": "Kategorie galerii",
+            "description": "Struktura kategorii galerii."
+          },
+          "galleryPosts": {
+            "label": "Wpisy w galerii",
+            "description": "Historia postów galerii i odniesienia do multimediów."
+          },
+          "events": {
+            "label": "Wydarzenia",
+            "description": "Wydarzenia kalendarza i stan RSVP."
+          },
+          "rosterRows": {
+            "label": "Wiersze listy",
+            "description": "Dane wierszy użyte do budowy list."
+          },
+          "rosterData": {
+            "label": "Dane listy",
+            "description": "Ładunki wspierające listę."
+          },
+          "docs": {
+            "label": "Dokumenty",
+            "description": "Metadane dokumentów społeczności."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Zatwierdzenie prośby o przywrócenie",
+    "description": "Ta prośba o przywrócenie została wysłana do właściciela społeczności e-mailem. Wprowadź poniżej dokładną nazwę społeczności, aby zweryfikować prośbę i rozpocząć przywracanie.",
+    "disclaimer": "Jeśli nie zażądałeś tej przywrócenia, możesz zamknąć tę stronę i zignorować e-mail.",
+    "communityNameLabel": "Nazwa społeczności",
+    "back": "Wstecz",
+    "confirmAndStartRestore": "Potwierdź i rozpocznij przywracanie",
+    "unableToVerify": "Nie można zweryfikować prośby o przywrócenie. Proszę sprawdzić nazwę społeczności i spróbować ponownie.",
+    "restoreStarted": "Prośba o przywrócenie zweryfikowana. Przywracanie rozpoczęło się i będzie kontynuowane w tle.",
+    "unableToConfirm": "Nie można potwierdzić prośby o przywrócenie."
   }
 }

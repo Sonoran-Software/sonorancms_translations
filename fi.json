@@ -644,7 +644,11 @@
     "session": "Istunto",
     "management": "Hallinta",
     "import": "Tuonti",
-    "accountFlagDescription": "Tutki mahdollisia päällekkäisiä käyttäjätilejä yhteisösi turvassa pitämiseksi."
+    "accountFlagDescription": "Tutki mahdollisia päällekkäisiä käyttäjätilejä yhteisösi turvassa pitämiseksi.",
+    "approved": "Hyväksytty",
+    "enabled": "Otetaan käyttöön",
+    "disabled": "Pois käytöstä",
+    "pending": "Odottaa"
   },
   "Dashboard": {
     "securityDashboard": "Turvallisuus - Hallintapaneeli",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Sosiaalisen linkin tilaa ei voitu tarkistaa. Yritä uudelleen.",
     "failedToStartSocialLink": "Sosiaalisen linkin virtaus ei käynnistynyt. Yritä uudelleen.",
     "automemberRobloxUsername": "Automaattijäsen Roblox-käyttäjänimi",
-    "communityMemberRobloxUsernameElement": "Yhteisön jäsenen Roblox-käyttäjänimielementti"
+    "communityMemberRobloxUsernameElement": "Yhteisön jäsenen Roblox-käyttäjänimielementti",
+    "duplicatableSection": "Monistettava osio",
+    "addAnother": "Lisää toinen",
+    "removeDuplicate": "Poista monistus"
   },
   "selectRoster": {
     "selectRoster": "Valitse luettelo"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Avattu {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Yhteisön varmuuskopiot",
+    "proEnabled": "Pro käytössä",
+    "proRequired": "Pro vaaditaan",
+    "description": "Tarkista yörutiinin luomat säännölliset tilannevedokset ja pyydä palautus vain tarvittaville kategorioille: mukauttaminen, rakenne, integraatiot ja sisältö.",
+    "proFeatureBanner": "Varmuuskopiot ovat Pro-ominaisuus. Voit tarkistaa tilannevedokset täällä, mutta palautuspyynnöt pysyvät poissa käytöstä, kunnes yhteisö päivittää.",
+    "restoreRequestWarnings": "Palautuspyyntövaroitukset",
+    "restoreLocksCommunity": "Palautukset lukitsevat yhteisön vaihdon aikana.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord synkronoidaan uudelleen palautuksen jälkeen.",
+    "tempRestoreTablesThreeDays": "Väliaikaiset palautustaulukot säilytetään kolmen päivän ajan.",
+    "onlyRestoreExistingCategories": "Voit palauttaa vain tilannevedoksessa olevia kategorioita.",
+    "confirmationPhrase": "PALAUTA TÄMÄ YHTEISÖ",
+    "snapshotLibrary": "Tilannevedoskirjasto",
+    "chooseSnapshotInspect": "Valitse tilannevedos, jolle pyydät palautusta, tai tarkasta vain sen sisältö.",
+    "reload": "Lataa uudelleen",
+    "noSnapshotsFoundYet": "Tilannevedoksia ei ole vielä löytynyt.",
+    "scheduled": "aikataulutettu",
+    "manual": "manuaalinen",
+    "size": "Koko {size}",
+    "restores": "Palautukset {count}",
+    "requestRestore": "Pyydä palautusta",
+    "requestRestoreDialogTitle": "Pyydä palautusta",
+    "requestRestoreDialogDescription": "Valitse lisättävät kategoriat ja lähetä hyväksyntäpyyntö.",
+    "snapshotLabel": "Tilannevedos",
+    "unknown": "Tuntematon",
+    "all": "Kaikki",
+    "none": "Ei yhtään",
+    "confirmationInstruction": "Kirjoita {phrase} ja valitse sähköpostin uudelleenvalidaation valintaruutu ennen palautuspyynnön lähettämistä.",
+    "confirmationInputLabel": "Kirjoita {phrase} jatkaaksesi",
+    "emailRevalidationLabel": "Ymmärrän, että tämä lähettää hyväksyntäsähköpostin omistajalle.",
+    "cancel": "Peruuta",
+    "sendRestoreRequest": "Lähetä palautuspyyntö",
+    "unableToLoadSnapshots": "Tilannevedoksia ei voida ladata.",
+    "restoreRequestFailed": "Palautuspyyntö epäonnistui.",
+    "restoreRequestSent": "Palautuspyyntö lähetetty. Omistajan on hyväksyttävä se sähköpostitse ennen palautuksen alkamista.",
+    "statuses": {
+      "completed": "Valmistunut",
+      "restored": "Palautettu",
+      "failed": "Epäonnistunut",
+      "processing": "Käsitellään",
+      "restoring": "Palautetaan",
+      "pending": "Odottaa",
+      "awaitingApproval": "Odottaa hyväksyntää",
+      "canceled": "Peruutettu"
+    },
+    "groups": {
+      "customization": {
+        "label": "Mukauttaminen",
+        "description": "Brändäys, sivut, profiilikentät, ilmoitukset, löytö ja turvallisuusasetukset.",
+        "items": {
+          "community": {
+            "label": "Yhteisön tiedot",
+            "description": "Yhteisön ydintietoja ja brändäyspaketti."
+          },
+          "branding": {
+            "label": "Vain brändäys",
+            "description": "Logo, paletti, bottibrändäys ja identiteetti."
+          },
+          "pages": {
+            "label": "Sivut",
+            "description": "Mukautettu sivulayout ja navigointipintojen rakenteet."
+          },
+          "profileFields": {
+            "label": "Profiilikentät",
+            "description": "Mukautetut profiilikentät ja jäsenetiedot."
+          },
+          "notices": {
+            "label": "Ilmoitukset",
+            "description": "Yhteisön ilmoitukset ja tiedotteet."
+          },
+          "discovery": {
+            "label": "Löytyvyysasetukset",
+            "description": "Löytyvyystila, tagit ja hyväksyntätiedot."
+          },
+          "securityPreferences": {
+            "label": "Turvallisuusasetukset",
+            "description": "Yhteisön laajuiset turvallisuusasetukset."
+          }
+        }
+      },
+      "structure": {
+        "label": "Rakenne",
+        "description": "Osastot, lomakkeet, lomakekansiot, suorituslistat, vaiheet ja kalenterit.",
+        "items": {
+          "departments": {
+            "label": "Osastot",
+            "description": "Arvoryhmät ja osastojen konfiguraatiot."
+          },
+          "forms": {
+            "label": "Lomakkeet",
+            "description": "Lomakepohjat ja rakenne."
+          },
+          "formFolders": {
+            "label": "Lomakekansiot",
+            "description": "Lomakkeiden kansiorganisaatio."
+          },
+          "rosters": {
+            "label": "Suorituslistat",
+            "description": "Suorituslistapohjat ja layout."
+          },
+          "stages": {
+            "label": "Vaiheet",
+            "description": "Vaihemääritelmät."
+          },
+          "stageGroups": {
+            "label": "Vaihe-ryhmät",
+            "description": "Vaiheen ryhmittely ja hierarkia."
+          },
+          "calendarCategories": {
+            "label": "Kalenterikategoriat",
+            "description": "Tapahtumalajin organisointi."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integraatiot",
+        "description": "Palvelimet, CAD, Radio, webhooks ja rich presence -konfiguraatio.",
+        "items": {
+          "servers": {
+            "label": "Palvelimet",
+            "description": "Integraation palvelinmääritykset."
+          },
+          "cadAuth": {
+            "label": "CAD Auth",
+            "description": "Sonoran CAD -valtuutusasetukset."
+          },
+          "radioAuth": {
+            "label": "Radio Auth",
+            "description": "Sonoran Radio -valtuutusasetukset."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord webhook -määritykset ja toimitusasetukset."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Discord rich presence -konfiguraatio."
+          }
+        }
+      },
+      "content": {
+        "label": "Sisältö",
+        "description": "Tilit, lomakepalautukset, foorumihistoria, galleriatiedot, tapahtumat ja asiakirjat.",
+        "items": {
+          "accounts": {
+            "label": "Tilit",
+            "description": "Yhteisön tili- ja jäsentiedot."
+          },
+          "formSubmissions": {
+            "label": "Lomakepalautukset",
+            "description": "Lähetettyjä lomakkeita ja vastauksia."
+          },
+          "forumCategories": {
+            "label": "Foorumikategoriat",
+            "description": "Foorumikategorioiden rakenne."
+          },
+          "forumTopics": {
+            "label": "Foorumiaiheet",
+            "description": "Foorumin aihekeskustelut."
+          },
+          "forumReplies": {
+            "label": "Foorumin vastaukset",
+            "description": "Foorumin vastaukset ja historia."
+          },
+          "galleryCategories": {
+            "label": "Galleriakategoriat",
+            "description": "Galleriakategorioiden rakenne."
+          },
+          "galleryPosts": {
+            "label": "Galleriaviestit",
+            "description": "Galleriaviestien historia ja mediatiedot."
+          },
+          "events": {
+            "label": "Tapahtumat",
+            "description": "Kalenteritapahtumat ja RSVP-tila."
+          },
+          "rosterRows": {
+            "label": "Suoritusrivit",
+            "description": "Rivitiedot, joita käytetään suorituslistojen rakentamiseen."
+          },
+          "rosterData": {
+            "label": "Suoritustiedot",
+            "description": "Suorituksia tukevat tiedot."
+          },
+          "docs": {
+            "label": "Asiakirjat",
+            "description": "Yhteisön asiakirjojen metatiedot."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Hyväksy palautuspyyntö",
+    "description": "Tämä palautuspyyntö lähetettiin yhteisön omistajalle sähköpostitse. Syötä tarkka yhteisön nimi alle, vahvista pyyntö ja aloita palautus.",
+    "disclaimer": "Jos et pyytänyt tätä palautusta, voit sulkea tämän sivun ja jättää sähköpostin huomiotta.",
+    "communityNameLabel": "Yhteisön nimi",
+    "back": "Takaisin",
+    "confirmAndStartRestore": "Vahvista ja aloita palautus",
+    "unableToVerify": "Palautuspyyntöä ei voida vahvistaa. Tarkista yhteisön nimi ja yritä uudelleen.",
+    "restoreStarted": "Palautuspyyntö vahvistettu. Palautus on aloitettu ja jatkuu taustalla.",
+    "unableToConfirm": "Palautuspyyntöä ei voida vahvistaa."
   }
 }

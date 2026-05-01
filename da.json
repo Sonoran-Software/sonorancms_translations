@@ -644,7 +644,11 @@
     "session": "Session",
     "management": "Ledelse",
     "import": "Import",
-    "accountFlagDescription": "Undersøg potentielle duplikerede brugerkonti for at holde dit fællesskab sikkert."
+    "accountFlagDescription": "Undersøg potentielle duplikerede brugerkonti for at holde dit fællesskab sikkert.",
+    "approved": "Godkendt",
+    "enabled": "Aktiveret",
+    "disabled": "Deaktiveret",
+    "pending": "Afventer"
   },
   "Dashboard": {
     "securityDashboard": "Sikkerhed - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Kunne ikke kontrollere social linkstatus. Prøv venligst igen.",
     "failedToStartSocialLink": "Kunne ikke starte social link flow. Prøv venligst igen.",
     "automemberRobloxUsername": "Auto-Medlem Roblox Brugernavn",
-    "communityMemberRobloxUsernameElement": "Fællesskabsmedlem Roblox brugernavn element"
+    "communityMemberRobloxUsernameElement": "Fællesskabsmedlem Roblox brugernavn element",
+    "duplicatableSection": "Duplikerbar sektion",
+    "addAnother": "Tilføj en til",
+    "removeDuplicate": "Fjern dublet"
   },
   "selectRoster": {
     "selectRoster": "Vælg Roster"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Åbnede {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Community sikkerhedskopier",
+    "proEnabled": "Pro Aktiveret",
+    "proRequired": "Kræver Pro",
+    "description": "Gennemgå de rutinemæssige snapshots oprettet af det natlige job, og anmod derefter om en gendannelse kun for de kategorier, du har brug for: tilpasning, struktur, integrationer og indhold.",
+    "proFeatureBanner": "Sikkerhedskopier er en Pro-funktion. Du kan gennemgå snapshots her, men gendannelsesanmodninger forbliver deaktiverede, indtil fællesskabet opgraderes.",
+    "restoreRequestWarnings": "Advarsler om gendannelsesanmodning",
+    "restoreLocksCommunity": "Gendannelser låser fællesskabet, mens ændringen køres.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord synkroniseres igen efter gendannelsen.",
+    "tempRestoreTablesThreeDays": "Midlertidige gendannelsestabeller gemmes i tre dage.",
+    "onlyRestoreExistingCategories": "Du kan kun gendanne kategorier, der findes i snapshotet.",
+    "confirmationPhrase": "GENOPRET DETTE FÆLLESSKAB",
+    "snapshotLibrary": "Snapshot-bibliotek",
+    "chooseSnapshotInspect": "Vælg et snapshot for at anmode om en gendannelse for, eller bare inspicér, hvad det indeholder.",
+    "reload": "Genindlæs",
+    "noSnapshotsFoundYet": "Ingen snapshots fundet endnu.",
+    "scheduled": "planlagt",
+    "manual": "manuel",
+    "size": "Størrelse {size}",
+    "restores": "Gendannelser {count}",
+    "requestRestore": "Anmod om gendannelse",
+    "requestRestoreDialogTitle": "Anmod om gendannelse",
+    "requestRestoreDialogDescription": "Vælg de kategorier, der skal inkluderes, og send derefter godkendelsesanmodningen.",
+    "snapshotLabel": "Snapshot",
+    "unknown": "Ukendt",
+    "all": "Alle",
+    "none": "Ingen",
+    "confirmationInstruction": "Skriv {phrase} og bekræft e-mail-revalideringsafkrydsningsfeltet før du sender gendannelsesanmodningen.",
+    "confirmationInputLabel": "Skriv {phrase} for at fortsætte",
+    "emailRevalidationLabel": "Jeg forstår, at dette vil sende en godkendelses-e-mail til ejeren.",
+    "cancel": "Annullér",
+    "sendRestoreRequest": "Send gendannelsesanmodning",
+    "unableToLoadSnapshots": "Kunne ikke indlæse snapshots.",
+    "restoreRequestFailed": "Gendannelsesanmodning mislykkedes.",
+    "restoreRequestSent": "Gendannelsesanmodning sendt. Ejeren skal godkende det via e-mail, før gendannelsen begynder.",
+    "statuses": {
+      "completed": "Afsluttet",
+      "restored": "Gendannet",
+      "failed": "Mislykkedes",
+      "processing": "Behandler",
+      "restoring": "Gendanner",
+      "pending": "Afventer",
+      "awaitingApproval": "Afventer godkendelse",
+      "canceled": "Annulleret"
+    },
+    "groups": {
+      "customization": {
+        "label": "Tilpasning",
+        "description": "Branding, sider, profilfelter, meddelelser, opdagelse og sikkerhedsindstillinger.",
+        "items": {
+          "community": {
+            "label": "Community Info",
+            "description": "Kernemetadata for fællesskabet og branding payload."
+          },
+          "branding": {
+            "label": "Kun Branding",
+            "description": "Logo, palet, bot-branding og identitet."
+          },
+          "pages": {
+            "label": "Sider",
+            "description": "Brugerdefineret sidelayout og navigationsflader."
+          },
+          "profileFields": {
+            "label": "Profilfelter",
+            "description": "Brugerdefinerede profilfelter og medlemsdata."
+          },
+          "notices": {
+            "label": "Meddelelser",
+            "description": "Fællesskabets meddelelser og annonceringer."
+          },
+          "discovery": {
+            "label": "Opdagelsesindstillinger",
+            "description": "Opdagelsestilstand, tags og godkendelsesdata."
+          },
+          "securityPreferences": {
+            "label": "Sikkerhedsindstillinger",
+            "description": "Fællesskabets sikkerhedsindstillinger."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struktur",
+        "description": "Afdelinger, formularer, formmappe, rækker, stadier og kalendere.",
+        "items": {
+          "departments": {
+            "label": "Afdelinger",
+            "description": "Ranggrupper og afdelingens konfiguration."
+          },
+          "forms": {
+            "label": "Formularer",
+            "description": "Formularskabeloner og struktur."
+          },
+          "formFolders": {
+            "label": "Formularmapper",
+            "description": "Mappeorganisation for formularer."
+          },
+          "rosters": {
+            "label": "Lister",
+            "description": "Listeskabeloner og layout."
+          },
+          "stages": {
+            "label": "Stadier",
+            "description": "Stadiedefinitioner."
+          },
+          "stageGroups": {
+            "label": "Stadiegrupper",
+            "description": "Stadiegruppering og hierarki."
+          },
+          "calendarCategories": {
+            "label": "Kalenderkategorier",
+            "description": "Begivenhedskategori-organisation."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrationer",
+        "description": "Servere, CAD, Radio, webhooks og rich presence-konfiguration.",
+        "items": {
+          "servers": {
+            "label": "Servere",
+            "description": "Definitoner for integrationsservere."
+          },
+          "cadAuth": {
+            "label": "CAD Godkendelse",
+            "description": "Sonoran CAD-godkendelsesindstillinger."
+          },
+          "radioAuth": {
+            "label": "Radio Godkendelse",
+            "description": "Sonoran Radio-godkendelsesindstillinger."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord webhook-tilknytninger og leveringsindstillinger."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Discord rich presence-konfiguration."
+          }
+        }
+      },
+      "content": {
+        "label": "Indhold",
+        "description": "Konti, formularindsendelser, forumhistorik, galleriindlæg, begivenheder og dokumenter.",
+        "items": {
+          "accounts": {
+            "label": "Konti",
+            "description": "Fællesskabets kontorækker og medlemsdata."
+          },
+          "formSubmissions": {
+            "label": "Formularindsendelser",
+            "description": "Indsendte formularer og svar."
+          },
+          "forumCategories": {
+            "label": "Forumkategorier",
+            "description": "Forumkategoriestruktur."
+          },
+          "forumTopics": {
+            "label": "Forumemner",
+            "description": "Forumemnetråde."
+          },
+          "forumReplies": {
+            "label": "Forumreplikker",
+            "description": "Forumreplikker og historie."
+          },
+          "galleryCategories": {
+            "label": "Galleri kategorier",
+            "description": "Galleri kategoristruktur."
+          },
+          "galleryPosts": {
+            "label": "Galleri indlæg",
+            "description": "Galleriindlægshistorie og mediehenvisninger."
+          },
+          "events": {
+            "label": "Begivenheder",
+            "description": "Kalenderbegivenheder og RSVP-tilstand."
+          },
+          "rosterRows": {
+            "label": "Listerækker",
+            "description": "Række data brugt til at opbygge lister."
+          },
+          "rosterData": {
+            "label": "Listedata",
+            "description": "Lister sikkerhedskopier payloads."
+          },
+          "docs": {
+            "label": "Dokumenter",
+            "description": "Fællesskabets dokumentmetadata."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Godkend gendannelsesanmodning",
+    "description": "Denne gendannelsesanmodning blev sendt til fællesskabets ejer via e-mail. Indtast det nøjagtige fællesskabsnavn nedenfor for at bekræfte anmodningen og starte gendannelsen.",
+    "disclaimer": "Hvis du ikke har anmodet om denne gendannelse, kan du lukke denne side og ignorere e-mailen.",
+    "communityNameLabel": "Fællesskabsnavn",
+    "back": "Tilbage",
+    "confirmAndStartRestore": "Bekræft og start gendannelse",
+    "unableToVerify": "Kunne ikke bekræfte anmodningen om gendannelse. Kontroller venligst fællesskabsnavnet og prøv igen.",
+    "restoreStarted": "Gendannelsesanmodning verificeret. Gendannelsen er påbegyndt og vil fortsætte i baggrunden.",
+    "unableToConfirm": "Kan ikke bekræfte gendannelsesanmodning."
   }
 }

@@ -644,7 +644,11 @@
     "session": "Sessione",
     "management": "Gestione",
     "import": "Importa",
-    "accountFlagDescription": "Indagare potenziali account utente duplicati per mantenere la tua comunità sicura."
+    "accountFlagDescription": "Indagare potenziali account utente duplicati per mantenere la tua comunità sicura.",
+    "approved": "Approvato",
+    "enabled": "Abilitato",
+    "disabled": "Disabilitato",
+    "pending": "In attesa"
   },
   "Dashboard": {
     "securityDashboard": "Sicurezza - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Impossibile verificare lo stato del link sociale. Riprova.",
     "failedToStartSocialLink": "Impossibile avviare il flusso del link sociale. Riprova.",
     "automemberRobloxUsername": "Nome utente Roblox automatico",
-    "communityMemberRobloxUsernameElement": "Elemento del nome utente del membro della comunità Roblox"
+    "communityMemberRobloxUsernameElement": "Elemento del nome utente del membro della comunità Roblox",
+    "duplicatableSection": "Sezione duplicabile",
+    "addAnother": "Aggiungi un altro",
+    "removeDuplicate": "Rimuovi duplicato"
   },
   "selectRoster": {
     "selectRoster": "Seleziona Elenco"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Aperto {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Backup della comunità",
+    "proEnabled": "Pro abilitato",
+    "proRequired": "Pro richiesto",
+    "description": "Rivedi le istantanee di routine create dal lavoro notturno, quindi richiedi un ripristino solo per le categorie necessarie: personalizzazione, struttura, integrazioni e contenuti.",
+    "proFeatureBanner": "I backup sono una funzione Pro. Puoi rivedere le istantanee qui, ma le richieste di ripristino restano disabilitate finché la comunità non effettua l'aggiornamento.",
+    "restoreRequestWarnings": "Avvisi di richiesta di ripristino",
+    "restoreLocksCommunity": "I ripristini bloccano la comunità mentre viene eseguito lo scambio.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord vengono risincronizzati dopo il ripristino.",
+    "tempRestoreTablesThreeDays": "Le tabelle di ripristino temporaneo vengono conservate per tre giorni.",
+    "onlyRestoreExistingCategories": "Puoi ripristinare solo le categorie esistenti nell'istantanea.",
+    "confirmationPhrase": "RIPRISTINA QUESTA COMUNITÀ",
+    "snapshotLibrary": "Libreria delle istantanee",
+    "chooseSnapshotInspect": "Scegli un'istantanea per richiedere un ripristino, o semplicemente ispezionare ciò che contiene.",
+    "reload": "Ricarica",
+    "noSnapshotsFoundYet": "Nessuna istantanea trovata.",
+    "scheduled": "Pianificato",
+    "manual": "Manuale",
+    "size": "Dimensione {size}",
+    "restores": "Ripristini {count}",
+    "requestRestore": "Richiedi ripristino",
+    "requestRestoreDialogTitle": "Richiedi ripristino",
+    "requestRestoreDialogDescription": "Seleziona le categorie da includere, quindi invia la richiesta di approvazione.",
+    "snapshotLabel": "Istantanea",
+    "unknown": "Sconosciuto",
+    "all": "Tutti",
+    "none": "Nessuno",
+    "confirmationInstruction": "Digita {phrase} e conferma la casella di revalidazione email prima di inviare la richiesta di ripristino.",
+    "confirmationInputLabel": "Digita {phrase} per continuare",
+    "emailRevalidationLabel": "Comprendo che questo invierà un'email di approvazione al proprietario.",
+    "cancel": "Annulla",
+    "sendRestoreRequest": "Invia richiesta di ripristino",
+    "unableToLoadSnapshots": "Impossibile caricare le istantanee.",
+    "restoreRequestFailed": "Richiesta di ripristino fallita.",
+    "restoreRequestSent": "Richiesta di ripristino inviata. Il proprietario deve approvarla tramite email prima che il ripristino inizi.",
+    "statuses": {
+      "completed": "Completato",
+      "restored": "Ripristinato",
+      "failed": "Fallito",
+      "processing": "In elaborazione",
+      "restoring": "In ripristino",
+      "pending": "In attesa",
+      "awaitingApproval": "In attesa di approvazione",
+      "canceled": "Annullato"
+    },
+    "groups": {
+      "customization": {
+        "label": "Personalizzazione",
+        "description": "Branding, pagine, campi profilo, avvisi, scoperta e preferenze di sicurezza.",
+        "items": {
+          "community": {
+            "label": "Informazioni sulla comunità",
+            "description": "Metadata del nucleo della comunità e payload di branding."
+          },
+          "branding": {
+            "label": "Solo Branding",
+            "description": "Logo, palette, branding del bot e identità."
+          },
+          "pages": {
+            "label": "Pagine",
+            "description": "Layout e superfici di navigazione delle pagine personalizzate."
+          },
+          "profileFields": {
+            "label": "Campi Profili",
+            "description": "Campi profili personalizzati e dati membri."
+          },
+          "notices": {
+            "label": "Avvisi",
+            "description": "Avvisi e annunci comunitari."
+          },
+          "discovery": {
+            "label": "Impostazioni di Scoperta",
+            "description": "Stato di scoperta, tag e dati di approvazione."
+          },
+          "securityPreferences": {
+            "label": "Preferenze di Sicurezza",
+            "description": "Preferenze di sicurezza a livello di comunità."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struttura",
+        "description": "Dipartimenti, moduli, cartelle di moduli, elenchi, fasi e calendari.",
+        "items": {
+          "departments": {
+            "label": "Dipartimenti",
+            "description": "Gruppi di rango e configurazione del dipartimento."
+          },
+          "forms": {
+            "label": "Moduli",
+            "description": "Modelli e struttura dei moduli."
+          },
+          "formFolders": {
+            "label": "Cartelle di Moduli",
+            "description": "Organizzazione delle cartelle per i moduli."
+          },
+          "rosters": {
+            "label": "Elenchi",
+            "description": "Modelli di elenchi e layout."
+          },
+          "stages": {
+            "label": "Fasi",
+            "description": "Definizioni delle fasi."
+          },
+          "stageGroups": {
+            "label": "Gruppi di Fasi",
+            "description": "Raggruppamento e gerarchia delle fasi."
+          },
+          "calendarCategories": {
+            "label": "Categorie del Calendario",
+            "description": "Organizzazione delle categorie di eventi."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrazioni",
+        "description": "Server, CAD, Radio, webhook e configurazione della rich presence.",
+        "items": {
+          "servers": {
+            "label": "Server",
+            "description": "Definizioni dei server di integrazione."
+          },
+          "cadAuth": {
+            "label": "Autenticazione CAD",
+            "description": "Impostazioni di autorizzazione di Sonoran CAD."
+          },
+          "radioAuth": {
+            "label": "Autenticazione Radio",
+            "description": "Impostazioni di autorizzazione di Sonoran Radio."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Mappatura dei webhook Discord e impostazioni di consegna."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Configurazione della rich presence di Discord."
+          }
+        }
+      },
+      "content": {
+        "label": "Contenuti",
+        "description": "Account, sottomissioni di moduli, cronologia dei forum, voci della galleria, eventi e documenti.",
+        "items": {
+          "accounts": {
+            "label": "Account",
+            "description": "Righe degli account comunitari e dati dei membri."
+          },
+          "formSubmissions": {
+            "label": "Sottomissioni di Moduli",
+            "description": "Moduli inviati e risposte."
+          },
+          "forumCategories": {
+            "label": "Categorie del Forum",
+            "description": "Struttura delle categorie del forum."
+          },
+          "forumTopics": {
+            "label": "Argomenti del Forum",
+            "description": "Discussioni sugli argomenti del forum."
+          },
+          "forumReplies": {
+            "label": "Risposte del Forum",
+            "description": "Risposte del forum e cronologia."
+          },
+          "galleryCategories": {
+            "label": "Categorie della Galleria",
+            "description": "Struttura delle categorie della galleria."
+          },
+          "galleryPosts": {
+            "label": "Post della Galleria",
+            "description": "Cronologia dei post della galleria e riferimenti media."
+          },
+          "events": {
+            "label": "Eventi",
+            "description": "Eventi del calendario e stato RSVP."
+          },
+          "rosterRows": {
+            "label": "Righe Lista",
+            "description": "Dati di righe utilizzate per costruire elenchi."
+          },
+          "rosterData": {
+            "label": "Dati Lista",
+            "description": "Payload di supporto della lista."
+          },
+          "docs": {
+            "label": "Documenti",
+            "description": "Metadata dei documenti comunitari."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Approva Richiesta di Ripristino",
+    "description": "Questa richiesta di ripristino è stata inviata al proprietario della comunità tramite email. Inserisci qui sotto il nome esatto della comunità per verificare la richiesta e avviare il ripristino.",
+    "disclaimer": "Se non hai richiesto questo ripristino, puoi chiudere questa pagina e ignorare l'email.",
+    "communityNameLabel": "Nome della comunità",
+    "back": "Indietro",
+    "confirmAndStartRestore": "Conferma e inizia ripristino",
+    "unableToVerify": "Impossibile verificare la richiesta di ripristino. Si prega di controllare il nome della comunità e riprovare.",
+    "restoreStarted": "Richiesta di ripristino verificata. Il ripristino è iniziato e continuerà in background.",
+    "unableToConfirm": "Impossibile confermare la richiesta di ripristino."
   }
 }

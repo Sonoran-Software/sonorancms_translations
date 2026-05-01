@@ -644,7 +644,11 @@
     "session": "Sitzung",
     "management": "Management",
     "import": "Import",
-    "accountFlagDescription": "Untersuchen Sie potenzielle doppelte Benutzerkonten, um Ihre Community sicher zu halten."
+    "accountFlagDescription": "Untersuchen Sie potenzielle doppelte Benutzerkonten, um Ihre Community sicher zu halten.",
+    "approved": "Genehmigt",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "pending": "Ausstehend"
   },
   "Dashboard": {
     "securityDashboard": "Sicherheit - Dashboard",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Fehler beim Überprüfen des sozialen Linkstatus. Bitte versuche es erneut.",
     "failedToStartSocialLink": "Fehler beim Starten des sozialen Linkablaufs. Bitte versuche es erneut.",
     "automemberRobloxUsername": "Auto-Mitglied Roblox-Benutzername",
-    "communityMemberRobloxUsernameElement": "Community-Mitglied Roblox-Benutzernamen-Element"
+    "communityMemberRobloxUsernameElement": "Community-Mitglied Roblox-Benutzernamen-Element",
+    "duplicatableSection": "Wiederholbarer Abschnitt",
+    "addAnother": "Weiteres hinzufügen",
+    "removeDuplicate": "Duplikat entfernen"
   },
   "selectRoster": {
     "selectRoster": "Roster auswählen"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Geöffnet {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Community-Backups",
+    "proEnabled": "Pro aktiviert",
+    "proRequired": "Pro erforderlich",
+    "description": "Überprüfen Sie die routinemäßigen Schnappschüsse, die durch den nächtlichen Job erstellt wurden, und fordern Sie dann eine Wiederherstellung nur für die Kategorien an, die Sie benötigen: Anpassung, Struktur, Integrationen und Inhalte.",
+    "proFeatureBanner": "Backups sind ein Pro-Feature. Sie können Schnappschüsse hier überprüfen, aber Wiederherstellungsanfragen bleiben deaktiviert, bis die Community ein Upgrade durchführt.",
+    "restoreRequestWarnings": "Warnungen zur Wiederherstellungsanforderung",
+    "restoreLocksCommunity": "Wiederherstellungen sperren die Community, während der Austausch ausgeführt wird.",
+    "resyncedAfterRestore": "CAD, Radio, TeamSpeak & Discord werden nach der Wiederherstellung neu synchronisiert.",
+    "tempRestoreTablesThreeDays": "Vorübergehende Wiederherstellungstabellen werden drei Tage lang aufbewahrt.",
+    "onlyRestoreExistingCategories": "Sie können nur Kategorien wiederherstellen, die im Schnappschuss existieren.",
+    "confirmationPhrase": "DIESE COMMUNITY WIEDERHERSTELLEN",
+    "snapshotLibrary": "Schnappschuss-Bibliothek",
+    "chooseSnapshotInspect": "Wählen Sie einen Schnappschuss aus, um eine Wiederherstellung anzufordern oder nur zu inspizieren, was er enthält.",
+    "reload": "Neu laden",
+    "noSnapshotsFoundYet": "Noch keine Schnappschüsse gefunden.",
+    "scheduled": "geplant",
+    "manual": "manuell",
+    "size": "Größe {size}",
+    "restores": "Wiederherstellungen {count}",
+    "requestRestore": "Wiederherstellung anfordern",
+    "requestRestoreDialogTitle": "Wiederherstellung anfordern",
+    "requestRestoreDialogDescription": "Wählen Sie die einzuschließenden Kategorien aus und senden Sie dann die Genehmigungsanforderung.",
+    "snapshotLabel": "Schnappschuss",
+    "unknown": "Unbekannt",
+    "all": "Alle",
+    "none": "Keine",
+    "confirmationInstruction": "Geben Sie {phrase} ein und bestätigen Sie das Kontrollkästchen für die E-Mail-Neuvalidierung, bevor Sie die Wiederherstellungsanforderung senden.",
+    "confirmationInputLabel": "Geben Sie {phrase} ein, um fortzufahren",
+    "emailRevalidationLabel": "Ich verstehe, dass dies eine Genehmigungs-E-Mail an den Besitzer sendet.",
+    "cancel": "Abbrechen",
+    "sendRestoreRequest": "Wiederherstellungsanforderung senden",
+    "unableToLoadSnapshots": "Schnappschüsse konnten nicht geladen werden.",
+    "restoreRequestFailed": "Wiederherstellungsanforderung fehlgeschlagen.",
+    "restoreRequestSent": "Wiederherstellungsanforderung gesendet. Der Besitzer muss sie per E-Mail genehmigen, bevor die Wiederherstellung beginnt.",
+    "statuses": {
+      "completed": "Abgeschlossen",
+      "restored": "Wiederhergestellt",
+      "failed": "Fehlgeschlagen",
+      "processing": "In Bearbeitung",
+      "restoring": "Wiederherstellen",
+      "pending": "Ausstehend",
+      "awaitingApproval": "Wartet auf Genehmigung",
+      "canceled": "Abgebrochen"
+    },
+    "groups": {
+      "customization": {
+        "label": "Anpassung",
+        "description": "Markierung, Seiten, Profilfelder, Hinweise, Entdeckung und Sicherheitseinstellungen.",
+        "items": {
+          "community": {
+            "label": "Community-Info",
+            "description": "Kern-Community-Metadaten und Markierungsnutzlast."
+          },
+          "branding": {
+            "label": "Nur Marken",
+            "description": "Logo, Palette, Bot-Markierung und Identität."
+          },
+          "pages": {
+            "label": "Seiten",
+            "description": "Benutzerdefinierte Seitenlayouts und Navigationsoberflächen."
+          },
+          "profileFields": {
+            "label": "Profilfelder",
+            "description": "Benutzerdefinierte Profilfelder und Mitglieder-Daten."
+          },
+          "notices": {
+            "label": "Hinweise",
+            "description": "Community-Hinweise und Ankündigungen."
+          },
+          "discovery": {
+            "label": "Einstellungen für die Entdeckung",
+            "description": "Entdeckungsstatus, Tags und Genehmigungsdaten."
+          },
+          "securityPreferences": {
+            "label": "Sicherheitseinstellungen",
+            "description": "Community-weite Sicherheitseinstellungen."
+          }
+        }
+      },
+      "structure": {
+        "label": "Struktur",
+        "description": "Abteilungen, Formulare, Formularordner, Dienstpläne, Phasen und Kalender.",
+        "items": {
+          "departments": {
+            "label": "Abteilungen",
+            "description": "Ranggruppen und Abteilungskonfiguration."
+          },
+          "forms": {
+            "label": "Formulare",
+            "description": "Formularvorlagen und Struktur."
+          },
+          "formFolders": {
+            "label": "Formularordner",
+            "description": "Ordnerorganisation für Formulare."
+          },
+          "rosters": {
+            "label": "Dienstpläne",
+            "description": "Dienstplanvorlagen und Layout."
+          },
+          "stages": {
+            "label": "Phasen",
+            "description": "Phasendefinitionen."
+          },
+          "stageGroups": {
+            "label": "Phasengruppen",
+            "description": "Phasengruppierung und Hierarchie."
+          },
+          "calendarCategories": {
+            "label": "Kalenderkategorien",
+            "description": "Veranstaltungskategorie-Organisation."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrationen",
+        "description": "Server, CAD, Radio, Webhooks und Konfiguration für Rich Presence.",
+        "items": {
+          "servers": {
+            "label": "Server",
+            "description": "Definitionen des Integrationsservers."
+          },
+          "cadAuth": {
+            "label": "CAD-Auth",
+            "description": "Sonoran CAD-Autorisierungseinstellungen."
+          },
+          "radioAuth": {
+            "label": "Radio-Auth",
+            "description": "Sonoran Radio-Autorisierungseinstellungen."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Discord-Webhook-Zuordnungen und Auslieferungseinstellungen."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Discord Rich Presence Konfiguration."
+          }
+        }
+      },
+      "content": {
+        "label": "Inhalt",
+        "description": "Konten, Formulareinreichungen, Forumsgeschichte, Galerieeinträge, Veranstaltungen und Dokumente.",
+        "items": {
+          "accounts": {
+            "label": "Konten",
+            "description": "Community-Kontenreihen und Mitgliedsdaten."
+          },
+          "formSubmissions": {
+            "label": "Formulareinreichungen",
+            "description": "Eingereichte Formulare und Antworten."
+          },
+          "forumCategories": {
+            "label": "Forumskategorien",
+            "description": "Forumskategorienstruktur."
+          },
+          "forumTopics": {
+            "label": "Forumsthemen",
+            "description": "Forumsthemen-Threads."
+          },
+          "forumReplies": {
+            "label": "Forumsantworten",
+            "description": "Forumsantworten und Verlauf."
+          },
+          "galleryCategories": {
+            "label": "Galeriekategorien",
+            "description": "Galeriekategoriestruktur."
+          },
+          "galleryPosts": {
+            "label": "Galerieeinträge",
+            "description": "Galerieeintragsverlauf und Medienreferenzen."
+          },
+          "events": {
+            "label": "Veranstaltungen",
+            "description": "Kalenderveranstaltungen und RSVP-Status."
+          },
+          "rosterRows": {
+            "label": "Dienstplanreihen",
+            "description": "Reihendaten zur Erstellung von Dienstplänen."
+          },
+          "rosterData": {
+            "label": "Dienstplandaten",
+            "description": "Dienstplan-Backend-Nutzlasten."
+          },
+          "docs": {
+            "label": "Dokumente",
+            "description": "Community-Dokumenten-Metadaten."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Wiederherstellungsanfrage genehmigen",
+    "description": "Diese Wiederherstellungsanfrage wurde per E-Mail an den Community-Besitzer gesendet. Geben Sie unten den genauen Community-Namen ein, um die Anfrage zu überprüfen und die Wiederherstellung zu starten.",
+    "disclaimer": "Wenn Sie diese Wiederherstellung nicht angefordert haben, können Sie diese Seite schließen und die E-Mail ignorieren.",
+    "communityNameLabel": "Community-Name",
+    "back": "Zurück",
+    "confirmAndStartRestore": "Wiederherstellung bestätigen und starten",
+    "unableToVerify": "Die Wiederherstellungsanforderung konnte nicht überprüft werden. Bitte überprüfen Sie den Community-Namen und versuchen Sie es erneut.",
+    "restoreStarted": "Wiederherstellungsanforderung verifiziert. Die Wiederherstellung wurde gestartet und wird im Hintergrund fortgesetzt.",
+    "unableToConfirm": "Wiederherstellungsanforderung konnte nicht bestätigt werden."
   }
 }

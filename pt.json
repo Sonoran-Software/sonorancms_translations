@@ -644,7 +644,11 @@
     "session": "Sessão",
     "management": "Gestão",
     "import": "Importar",
-    "accountFlagDescription": "Investigue contas de usuário duplicadas para manter sua comunidade segura."
+    "accountFlagDescription": "Investigue contas de usuário duplicadas para manter sua comunidade segura.",
+    "approved": "Aprovado",
+    "enabled": "Habilitado",
+    "disabled": "Desabilitado",
+    "pending": "Pendente"
   },
   "Dashboard": {
     "securityDashboard": "Segurança - Painel de Controle",
@@ -3782,7 +3786,10 @@
     "failedToCheckSocialLink": "Falha ao verificar o status do link social. Por favor, tente novamente.",
     "failedToStartSocialLink": "Falha ao iniciar o fluxo de link social. Por favor, tente novamente.",
     "automemberRobloxUsername": "Nome de Usuário Roblox Automático-Membro",
-    "communityMemberRobloxUsernameElement": "Elemento de nome de usuário Roblox de membro da comunidade"
+    "communityMemberRobloxUsernameElement": "Elemento de nome de usuário Roblox de membro da comunidade",
+    "duplicatableSection": "Seção Duplicável",
+    "addAnother": "Adicionar Outro",
+    "removeDuplicate": "Remover Duplicado"
   },
   "selectRoster": {
     "selectRoster": "Selecionar Lista"
@@ -5461,5 +5468,208 @@
         "openedSummary": "Aberto {label}."
       }
     }
+  },
+  "Backups": {
+    "title": "Backups da Comunidade",
+    "proEnabled": "Pro Habilitado",
+    "proRequired": "Pro Necessário",
+    "description": "Revise os instantâneos de rotina criados pelo trabalho noturno, então solicite uma restauração apenas para as categorias que você precisa: personalização, estrutura, integrações e conteúdo.",
+    "proFeatureBanner": "Backups são um recurso Pro. Você pode revisar os instantâneos aqui, mas solicitações de restauração permanecem desativadas até que a comunidade faça o upgrade.",
+    "restoreRequestWarnings": "Avisos de Solicitação de Restauração",
+    "restoreLocksCommunity": "Restaurações bloqueiam a comunidade enquanto a troca está em execução.",
+    "resyncedAfterRestore": "CAD, Rádio, TeamSpeak & Discord são ressincronizados após a restauração.",
+    "tempRestoreTablesThreeDays": "Tabelas de restauração temporárias são mantidas por três dias.",
+    "onlyRestoreExistingCategories": "Você só pode restaurar categorias que existem no instantâneo.",
+    "confirmationPhrase": "RESTAURAR ESTA COMUNIDADE",
+    "snapshotLibrary": "Biblioteca de Instantâneos",
+    "chooseSnapshotInspect": "Escolha um instantâneo para solicitar uma restauração ou apenas inspecione o que ele contém.",
+    "reload": "Recarregar",
+    "noSnapshotsFoundYet": "Nenhum instantâneo encontrado ainda.",
+    "scheduled": "agendado",
+    "manual": "manual",
+    "size": "Tamanho {size}",
+    "restores": "Restaurações {count}",
+    "requestRestore": "Solicitar restauração",
+    "requestRestoreDialogTitle": "Solicitar restauração",
+    "requestRestoreDialogDescription": "Selecione as categorias para incluir, depois envie a solicitação de aprovação.",
+    "snapshotLabel": "Instantâneo",
+    "unknown": "Desconhecido",
+    "all": "Tudo",
+    "none": "Nenhum",
+    "confirmationInstruction": "Digite {phrase} e confirme a caixa de seleção de revalidação de e-mail antes de enviar a solicitação de restauração.",
+    "confirmationInputLabel": "Digite {phrase} para continuar",
+    "emailRevalidationLabel": "Entendo que isso enviará um e-mail de aprovação ao proprietário.",
+    "cancel": "Cancelar",
+    "sendRestoreRequest": "Enviar solicitação de restauração",
+    "unableToLoadSnapshots": "Não foi possível carregar os instantâneos.",
+    "restoreRequestFailed": "A solicitação de restauração falhou.",
+    "restoreRequestSent": "Solicitação de restauração enviada. O proprietário deve aprová-la por e-mail antes que a restauração comece.",
+    "statuses": {
+      "completed": "Concluído",
+      "restored": "Restaurado",
+      "failed": "Falhou",
+      "processing": "Processando",
+      "restoring": "Restaurando",
+      "pending": "Pendente",
+      "awaitingApproval": "Aguardando aprovação",
+      "canceled": "Cancelado"
+    },
+    "groups": {
+      "customization": {
+        "label": "Personalização",
+        "description": "Marca, páginas, campos de perfil, avisos, descoberta e preferências de segurança.",
+        "items": {
+          "community": {
+            "label": "Informações da Comunidade",
+            "description": "Metadados principais da comunidade e carga de marca."
+          },
+          "branding": {
+            "label": "Apenas Marca",
+            "description": "Logo, paleta, marca do bot e identidade."
+          },
+          "pages": {
+            "label": "Páginas",
+            "description": "Layout de página personalizado e superfícies de navegação."
+          },
+          "profileFields": {
+            "label": "Campos de Perfil",
+            "description": "Campos de perfil personalizados e dados de membros."
+          },
+          "notices": {
+            "label": "Avisos",
+            "description": "Avisos e anúncios da comunidade."
+          },
+          "discovery": {
+            "label": "Configurações de Descoberta",
+            "description": "Estado de descoberta, tags e dados de aprovação."
+          },
+          "securityPreferences": {
+            "label": "Preferências de Segurança",
+            "description": "Preferências de segurança em toda a comunidade."
+          }
+        }
+      },
+      "structure": {
+        "label": "Estrutura",
+        "description": "Departamentos, formulários, pastas de formulários, listas, fases e calendários.",
+        "items": {
+          "departments": {
+            "label": "Departamentos",
+            "description": "Grupos de classificação e configuração de departamentos."
+          },
+          "forms": {
+            "label": "Formulários",
+            "description": "Modelos e estrutura de formulários."
+          },
+          "formFolders": {
+            "label": "Pastas de Formulários",
+            "description": "Organização de pastas para formulários."
+          },
+          "rosters": {
+            "label": "Listas",
+            "description": "Modelos e layout de listas."
+          },
+          "stages": {
+            "label": "Fases",
+            "description": "Definições de fases."
+          },
+          "stageGroups": {
+            "label": "Grupos de Estágio",
+            "description": "Agrupamento e hierarquia de estágio."
+          },
+          "calendarCategories": {
+            "label": "Categorias de Calendário",
+            "description": "Organização de categoria de eventos."
+          }
+        }
+      },
+      "integrations": {
+        "label": "Integrações",
+        "description": "Servidores, CAD, Rádio, webhooks e configuração de rich presence.",
+        "items": {
+          "servers": {
+            "label": "Servidores",
+            "description": "Definições do servidor de integração."
+          },
+          "cadAuth": {
+            "label": "Autenticação CAD",
+            "description": "Configurações de autorização do Sonoran CAD."
+          },
+          "radioAuth": {
+            "label": "Autenticação de Rádio",
+            "description": "Configurações de autorização do Sonoran Rádio."
+          },
+          "webhooks": {
+            "label": "Webhooks",
+            "description": "Mapeamento de webhook do Discord e configurações de entrega."
+          },
+          "richPresence": {
+            "label": "Rich Presence",
+            "description": "Configuração de rich presence do Discord."
+          }
+        }
+      },
+      "content": {
+        "label": "Conteúdo",
+        "description": "Contas, envios de formulários, histórico de fóruns, entradas de galeria, eventos e documentos.",
+        "items": {
+          "accounts": {
+            "label": "Contas",
+            "description": "Linhas de conta da comunidade e dados de membros."
+          },
+          "formSubmissions": {
+            "label": "Envios de Formulários",
+            "description": "Formulários enviados e respostas."
+          },
+          "forumCategories": {
+            "label": "Categorias de Fórum",
+            "description": "Estrutura de categorias de fórum."
+          },
+          "forumTopics": {
+            "label": "Tópicos de Fórum",
+            "description": "Tópicos de fórum."
+          },
+          "forumReplies": {
+            "label": "Respostas de Fórum",
+            "description": "Respostas de fórum e histórico."
+          },
+          "galleryCategories": {
+            "label": "Categorias de Galeria",
+            "description": "Estrutura de categorias de galeria."
+          },
+          "galleryPosts": {
+            "label": "Publicações de Galeria",
+            "description": "Histórico de publicações da galeria e referências de mídia."
+          },
+          "events": {
+            "label": "Eventos",
+            "description": "Eventos do calendário e estado de RSVP."
+          },
+          "rosterRows": {
+            "label": "Linhas da Lista",
+            "description": "Dados de linha usados para construir listas."
+          },
+          "rosterData": {
+            "label": "Dados da Lista",
+            "description": "Cargas de apoio da lista."
+          },
+          "docs": {
+            "label": "Documentos",
+            "description": "Metadados de documentos da comunidade."
+          }
+        }
+      }
+    }
+  },
+  "RestoreRequestConfirmation": {
+    "title": "Aprovar Solicitação de Restauração",
+    "description": "Esta solicitação de restauração foi enviada ao proprietário da comunidade por e-mail. Insira o nome exato da comunidade abaixo para verificar a solicitação e iniciar a restauração.",
+    "disclaimer": "Se você não solicitou esta restauração, pode fechar esta página e ignorar o e-mail.",
+    "communityNameLabel": "Nome da Comunidade",
+    "back": "Voltar",
+    "confirmAndStartRestore": "Confirmar e iniciar restauração",
+    "unableToVerify": "Não foi possível verificar a solicitação de restauração. Por favor, verifique o nome da comunidade e tente novamente.",
+    "restoreStarted": "Solicitação de restauração verificada. A restauração foi iniciada e continuará em segundo plano.",
+    "unableToConfirm": "Não foi possível confirmar solicitação de restauração."
   }
 }
