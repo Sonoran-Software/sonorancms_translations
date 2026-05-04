@@ -98,6 +98,7 @@
         "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
         "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
+        "protectDocumentsExplanation": "Granting this permission will allow a user with this rank to mark documents as protected, which enables watermarking and copy/paste protection.",
         "clockInOutExplanation": "Granting this permission will allow a user to clock in and out.",
         "modifyTeamSpeakExplanation": "Granting this permission will allow a user to modify the TeamSpeak integration settings.",
         "modifyShieldExplanation": "Granting this permission will allow a user to modify the Sonoran Shield settings."
@@ -2591,6 +2592,7 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Are you sure you want to leave? Not all changes are saved.",
     "errorMissingPermissionsForThisFile": "Error: Missing permissions for this file.",
     "errorYouDoNotHavePermissionToEditThisFil": "Error: You do not have permission to edit this file.",
+    "protectionOnlyAccess": "You have protection-only access for this document, so the content editor is hidden.",
     "error": "Error:"
   },
   "Roster": {
@@ -3645,6 +3647,7 @@
     "ModifyToolbar": "Modify Toolbar",
     "modifyPages": "Modify Pages",
     "modifyAllDocumentsDrive": "Modify All Documents (Drive)",
+    "protectDocuments": "Protect Documents (Drive)",
     "clockInOut": "Clock In & Out",
     "viewDashboardNavigationButton": "View Dashboard Navigation Button",
     "viewDriveNavigationButton": "View Drive Navigation Button",
@@ -4782,6 +4785,7 @@
     "allowsMembersToChangeTheCommunityToolbar": "Allows members to change the community toolbar within the Website Builder in the Administrative Panel.",
     "allowsMembersToChangeCommunityPagesWithi": "Allows members to change community pages within the Website Builder in the Administrative Panel.",
     "grantsMembersFullAccessToTheDriveSystem": "Grants members full access to the Drive system.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Allows members to mark documents as sensitive, which enables watermarking and copy/paste protection.",
     "allowsMembersToClockInAndOut": "Allows members to clock in and out.",
     "allowsMembersToChangeTeamspeakIntegratio": "Allows members to change TeamSpeak Integration settings in the Administrative Panel.",
     "allowsMembersToChangeSonoranShieldSettin": "Allows members to change Sonoran Shield settings in the Administrative Panel.",
