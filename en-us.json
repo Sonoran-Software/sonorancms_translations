@@ -5416,7 +5416,31 @@
     "toolbar": {
       "askAi": "Ask AI",
       "docs": "Docs",
-      "support": "Support"
+      "support": "Support",
+      "feedback": "Feedback"
+    },
+    "feedback": {
+      "title": "Send feedback or a bug report",
+      "subtitle": "Tell us what is working well, what is confusing, or what broke. We'll package the context and send it to the team.",
+      "back": "Back to assistant",
+      "typeLabel": "Feedback type",
+      "types": {
+        "feedback": "General feedback",
+        "bug": "Bug report"
+      },
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Short summary of your message",
+      "messageLabel": "Details",
+      "messagePlaceholder": "Describe what happened, what you expected, and anything else we should know.",
+      "contextCopy": "We automatically include your current page, account, community, and app version for context.",
+      "reset": "Clear",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Thanks, your message was sent.",
+      "failure": "We couldn't send that message right now.",
+      "validation": {
+        "required": "Please add both a subject and details before sending."
+      }
     },
     "insecureEmbed": {
       "title": "GitBook Blocks Non-HTTPS Embeds",
