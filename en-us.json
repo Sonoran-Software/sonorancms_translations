@@ -3925,7 +3925,8 @@
     "edit": "edit",
     "activeCommunityMembersWithThisLinkCanTyp": "Active community members with this link can",
     "anyoneOnTheInternetWithThisLinkCanType": "Anyone on the internet with this link can",
-    "activePendingCommunityMembersWithThisLin": "Active & pending community members with this link can"
+    "activePendingCommunityMembersWithThisLin": "Active & pending community members with this link can",
+    "ranksWithAccess": "Ranks with Access"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Change the share settings of this",
