@@ -189,7 +189,8 @@
       "executeDiscordDm": "Send Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Execute Promotion Flow"
     },
     "appSubmit": "Submit Application/Form",
     "editOwn": "Edit Own Form",
