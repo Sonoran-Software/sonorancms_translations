@@ -99,7 +99,8 @@
         "clockInOutExplanation": "授予此权限将允许用户打卡上下班。",
         "modifyTeamSpeakExplanation": "授予此权限将允许用户修改 TeamSpeak 集成设置。",
         "modifyShieldExplanation": "授予此权限将允许用户修改 Sonoran Shield 设置。",
-        "purgeInactiveAccountsExplanation": "授予此权限将允许具有此等级的用户永久删除在选定天数内未登录的社区账户。"
+        "purgeInactiveAccountsExplanation": "授予此权限将允许具有此等级的用户永久删除在选定天数内未登录的社区账户。",
+        "protectDocumentsExplanation": "授予此权限将允许拥有此等级的用户将文档标记为受保护，从而启用水印和复制/粘贴保护。"
       },
       "navigation": {
         "viewDashboardBtnExplanation": "授予此权限将允许用户在侧边导航栏上看到仪表板按钮。",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "发送Discord私信",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "执行晋升流程"
     },
     "appSubmit": "提交申请/表单",
     "editOwn": "编辑自己的表单",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "您确定要离开吗？并非所有更改都已保存。",
     "errorMissingPermissionsForThisFile": "错误：缺少此文件的权限。",
     "errorYouDoNotHavePermissionToEditThisFil": "错误：您没有权限编辑此文件。",
-    "error": "错误："
+    "error": "错误：",
+    "protectionOnlyAccess": "您对该文档仅有保护权限，因此内容编辑器被隐藏。"
   },
   "Roster": {
     "addRow": "添加行",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "您还没有复制任何特定的日历权限以进行粘贴！",
     "youHaventCopiedAnyAllRosterPermissionsTo": "您还没有复制任何所有花名册权限以进行粘贴！",
     "youHaventCopiedAnySpecificRosterPermissi": "您还没有复制任何特定的花名册权限以进行粘贴！",
-    "newRank": "新等级"
+    "newRank": "新等级",
+    "protectDocuments": "保护文档（Drive）"
   },
   "calendarView": {
     "createEvent": "创建事件",
@@ -3551,7 +3555,8 @@
     "edit": "编辑",
     "activeCommunityMembersWithThisLinkCanTyp": "具有此链接的活跃社区成员可以",
     "anyoneOnTheInternetWithThisLinkCanType": "具有此链接的任何互联网用户可以",
-    "activePendingCommunityMembersWithThisLin": "具有此链接的活跃和待定社区成员可以"
+    "activePendingCommunityMembersWithThisLin": "具有此链接的活跃和待定社区成员可以",
+    "ranksWithAccess": "拥有访问权限的等级"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "更改此项的共享设置",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "阶段变更原因（可选）",
     "stageChangeReasonDescription": "插入提供的阶段变更原因。",
     "includeStageChangeButton": "包含阶段更改按钮",
-    "includeStageChangeButtonTooltip": "添加 Discord 阶段更改按钮，以便员工可以直接从 webhook 更改表单阶段并提供可选的原因。"
+    "includeStageChangeButtonTooltip": "添加 Discord 阶段更改按钮，以便员工可以直接从 webhook 更改表单阶段并提供可选的原因。",
+    "executePromotionTrackDescription": "此操作将对选定的成员应用所选的晋升流程。"
   },
   "FormRenderer": {
     "dragToReorder": "拖动以重新排序",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "合并账户",
     "allowsMembersToMergeAccounts": "允许成员合并两个账户，将等级和所有社区数据合并。",
     "purgeInactiveAccounts": "清除不活跃账户",
-    "allowsMembersToPurgeInactiveAccounts": "允许成员永久删除在选定天数内未登录的社区账户。"
+    "allowsMembersToPurgeInactiveAccounts": "允许成员永久删除在选定天数内未登录的社区账户。",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "允许成员将文档标记为敏感，从而启用水印和复制/粘贴保护。"
   },
   "permissionToggleGroup": {
     "inherited": "继承",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "此流程可用于晋升和降级。",
     "promotionOnly": "仅限晋升",
     "demotionOnly": "仅限降级",
-    "promotionAndDemotion": "晋升和降级"
+    "promotionAndDemotion": "晋升和降级",
+    "promotionFlowLabel": "晋升流程",
+    "promotionFlowFieldLabel": "晋升流程字段",
+    "promotionFlowFieldSuffix": "晋升流程字段",
+    "selectPromotionFlowFromCommunityConfiguration": "从社区配置中选择一个晋升流程。",
+    "promotionFlowOptionsLoaded": "晋升流程选项是从社区配置的晋升流程中动态加载的。",
+    "allowedPromotionFlows": "允许的晋升流程",
+    "allowedDirection": "允许的方向",
+    "leaveFlowListEmptyMessage": "将流程列表留空以允许每个晋升流程。将方向设置为任意以允许晋升和降级流程。",
+    "anyDirection": "任意方向",
+    "promoteOnly": "仅晋升",
+    "demoteOnly": "仅降级",
+    "fixedFlow": "固定流程",
+    "fromFormField": "来自表单字段",
+    "flowSource": "流程来源",
+    "direction": "方向"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "未找到玩家……搜索",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "询问 AI",
       "docs": "文档",
-      "support": "支持"
+      "support": "支持",
+      "feedback": "反馈"
     },
     "insecureEmbed": {
       "title": "GitBook 不允许非 HTTPS 内嵌",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "此面板在此不可用。 可用选项：{availableOptions}。",
         "unavailableNoOptions": "此上下文中没有可用的 CMS 导航目标。",
         "openedSummary": "已打开 {label}。"
+      }
+    },
+    "feedback": {
+      "title": "发送反馈或错误报告",
+      "subtitle": "告诉我们哪些方面工作良好，哪些令人困惑或失效。我们将封装上下文并发送给团队。",
+      "back": "返回助手",
+      "typeLabel": "反馈类型",
+      "types": {
+        "feedback": "一般反馈",
+        "bug": "错误报告"
+      },
+      "subjectLabel": "主题",
+      "subjectPlaceholder": "您的消息的简短摘要",
+      "messageLabel": "详细信息",
+      "messagePlaceholder": "描述发生了什么，您预期的情况，以及我们需要了解的其他内容。",
+      "contextCopy": "我们自动包含您的当前页面、帐户、社区和应用版本以提供上下文。",
+      "reset": "清除",
+      "submit": "发送",
+      "submitting": "发送中...",
+      "success": "谢谢，您的消息已发送。",
+      "failure": "我们目前无法发送该消息。",
+      "validation": {
+        "required": "请在发送之前添加主题和详细信息。"
       }
     }
   },

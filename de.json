@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, sich ein- und auszustempeln.",
         "modifyTeamSpeakExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die TeamSpeak-Integrationseinstellungen zu ändern.",
         "modifyShieldExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Sonoran Shield-Einstellungen zu ändern.",
-        "purgeInactiveAccountsExplanation": "Durch das Erteilen dieser Berechtigung kann ein Benutzer mit diesem Rang Community-Konten dauerhaft löschen, die sich in der angegebenen Anzahl an Tagen nicht angemeldet haben."
+        "purgeInactiveAccountsExplanation": "Durch das Erteilen dieser Berechtigung kann ein Benutzer mit diesem Rang Community-Konten dauerhaft löschen, die sich in der angegebenen Anzahl an Tagen nicht angemeldet haben.",
+        "protectDocumentsExplanation": "Die Erteilung dieser Berechtigung ermöglicht es einem Benutzer mit diesem Rang, Dokumente als geschützt zu markieren, was Wasserzeichen und Kopierschutz aktiviert."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Das Erteilen dieser Berechtigung ermöglicht es einem Benutzer, die Dashboard-Schaltfläche in der seitlichen Navigationsleiste zu sehen.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Discord DM senden",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Promotionsablauf ausführen"
     },
     "appSubmit": "Antrag/Formular einreichen",
     "editOwn": "Eigenes Formular bearbeiten",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Sind Sie sicher, dass Sie verlassen möchten? Nicht alle Änderungen sind gespeichert.",
     "errorMissingPermissionsForThisFile": "Fehler: Fehlende Berechtigungen für diese Datei.",
     "errorYouDoNotHavePermissionToEditThisFil": "Fehler: Sie haben keine Berechtigung, diese Datei zu bearbeiten.",
-    "error": "Fehler:"
+    "error": "Fehler:",
+    "protectionOnlyAccess": "Sie haben nur Zugang zum Schutz, daher ist der Inhaltseditor ausgeblendet."
   },
   "Roster": {
     "addRow": "Zeile hinzufügen",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Sie haben keine spezifischen Kalenderberechtigungen zum Einfügen kopiert!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Sie haben keine Dienstplanberechtigungen zum Einfügen kopiert!",
     "youHaventCopiedAnySpecificRosterPermissi": "Sie haben keine spezifischen Dienstplanberechtigungen zum Einfügen kopiert!",
-    "newRank": "Neuer Rang"
+    "newRank": "Neuer Rang",
+    "protectDocuments": "Dokumente schützen (Drive)"
   },
   "calendarView": {
     "createEvent": "Ereignis erstellen",
@@ -3551,7 +3555,8 @@
     "edit": "bearbeiten",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktive Community-Mitglieder mit diesem Link können",
     "anyoneOnTheInternetWithThisLinkCanType": "Jeder im Internet mit diesem Link kann",
-    "activePendingCommunityMembersWithThisLin": "Aktive & ausstehende Community-Mitglieder mit diesem Link können"
+    "activePendingCommunityMembersWithThisLin": "Aktive & ausstehende Community-Mitglieder mit diesem Link können",
+    "ranksWithAccess": "Ränge mit Zugang"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Ändern Sie die Freigabeeinstellungen dieses",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Grund für Bühnenwechsel (Optional)",
     "stageChangeReasonDescription": "Fügt den Grund für den Bühnenwechsel ein, wenn angegeben.",
     "includeStageChangeButton": "Bühnenwechselknopf einfügen",
-    "includeStageChangeButtonTooltip": "Fügt den Discord-Bühnenwechselknopf hinzu, sodass das Personal die Formbühne ändern und direkt vom Webhook aus einen optionalen Grund angeben kann."
+    "includeStageChangeButtonTooltip": "Fügt den Discord-Bühnenwechselknopf hinzu, sodass das Personal die Formbühne ändern und direkt vom Webhook aus einen optionalen Grund angeben kann.",
+    "executePromotionTrackDescription": "Diese Aktion wird den ausgewählten Promotionsablauf auf die ausgewählten Mitglieder anwenden."
   },
   "FormRenderer": {
     "dragToReorder": "Zum Neuanordnen ziehen",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Konten zusammenführen",
     "allowsMembersToMergeAccounts": "Erlaubt es Mitgliedern, zwei Konten zusammenzufügen, um Ränge und alle Community-Daten zu kombinieren.",
     "purgeInactiveAccounts": "Inaktive Konten bereinigen",
-    "allowsMembersToPurgeInactiveAccounts": "Erlaubt Mitgliedern, Community-Konten dauerhaft zu löschen, die sich in der angegebenen Anzahl an Tagen nicht angemeldet haben."
+    "allowsMembersToPurgeInactiveAccounts": "Erlaubt Mitgliedern, Community-Konten dauerhaft zu löschen, die sich in der angegebenen Anzahl an Tagen nicht angemeldet haben.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Erlaubt es Mitgliedern, Dokumente als sensibel zu markieren, was Wasserzeichen und Kopierschutz aktiviert."
   },
   "permissionToggleGroup": {
     "inherited": "geerbt",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Dieser Ablauf kann sowohl für Beförderungen als auch für Herabstufungen ausgeführt werden.",
     "promotionOnly": "Nur Beförderung",
     "demotionOnly": "Nur Herabstufung",
-    "promotionAndDemotion": "Beförderung und Herabstufung"
+    "promotionAndDemotion": "Beförderung und Herabstufung",
+    "promotionFlowLabel": "Promotionsablauf",
+    "promotionFlowFieldLabel": "Promotionsablauffeld",
+    "promotionFlowFieldSuffix": "Promotionsablauffeld",
+    "selectPromotionFlowFromCommunityConfiguration": "Wählen Sie einen Promotionsablauf aus der Community-Konfiguration.",
+    "promotionFlowOptionsLoaded": "Promotionsablaufoptionen werden dynamisch aus den konfigurierten Promotionsabläufen der Community geladen.",
+    "allowedPromotionFlows": "Erlaubte Promotionsabläufe",
+    "allowedDirection": "Erlaubte Richtung",
+    "leaveFlowListEmptyMessage": "Lassen Sie die Flussliste leer, um jeden Promotionsablauf zuzulassen. Lassen Sie die Richtung auf 'Beliebig' gesetzt, um sowohl Promotion- als auch Demotionsflüsse zuzulassen.",
+    "anyDirection": "Beliebige Richtung",
+    "promoteOnly": "Nur befördern",
+    "demoteOnly": "Nur degradieren",
+    "fixedFlow": "Fester Ablauf",
+    "fromFormField": "Vom Formularfeld",
+    "flowSource": "Ablaufquelle",
+    "direction": "Richtung"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Keine Spieler gefunden... Suche",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "AI fragen",
       "docs": "Dokumentation",
-      "support": "Unterstützung"
+      "support": "Unterstützung",
+      "feedback": "Feedback"
     },
     "insecureEmbed": {
       "title": "GitBook blockt Nicht-HTTPS-Einbindungen",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Dieses Panel ist hier nicht verfügbar. Verfügbare Optionen: {availableOptions}.",
         "unavailableNoOptions": "Keine CMS-Navigationsziele sind in diesem Kontext verfügbar.",
         "openedSummary": "Geöffnet {label}."
+      }
+    },
+    "feedback": {
+      "title": "Feedback oder einen Fehlerbericht senden",
+      "subtitle": "Teilen Sie uns mit, was gut funktioniert, was verwirrend ist oder was kaputt ging. Wir verpacken den Kontext und senden ihn an das Team.",
+      "back": "Zurück zum Assistenten",
+      "typeLabel": "Feedback-Typ",
+      "types": {
+        "feedback": "Allgemeines Feedback",
+        "bug": "Fehlerbericht"
+      },
+      "subjectLabel": "Betreff",
+      "subjectPlaceholder": "Kurze Zusammenfassung Ihrer Nachricht",
+      "messageLabel": "Details",
+      "messagePlaceholder": "Beschreiben Sie, was passiert ist, was Sie erwartet haben und alles andere, was wir wissen sollten.",
+      "contextCopy": "Wir fügen automatisch Ihre aktuelle Seite, Ihr Konto, Ihre Community und die App-Version zum Kontext hinzu.",
+      "reset": "Löschen",
+      "submit": "Senden",
+      "submitting": "Wird gesendet...",
+      "success": "Vielen Dank, Ihre Nachricht wurde gesendet.",
+      "failure": "Wir konnten diese Nachricht gerade nicht senden.",
+      "validation": {
+        "required": "Bitte fügen Sie einen Betreff und Details hinzu, bevor Sie senden."
       }
     }
   },

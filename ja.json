@@ -99,7 +99,8 @@
         "clockInOutExplanation": "この権限を付与すると、ユーザーが出退勤できるようになります。",
         "modifyTeamSpeakExplanation": "この権限を付与すると、ユーザーがTeamSpeak統合設定を変更できるようになります。",
         "modifyShieldExplanation": "この権限を付与すると、ユーザーがSonoran Shield設定を変更できるようになります。",
-        "purgeInactiveAccountsExplanation": "この権限を付与すると、このランクのユーザーは選択された日数以上ログインしていないコミュニティアカウントを永久に削除できるようになります。"
+        "purgeInactiveAccountsExplanation": "この権限を付与すると、このランクのユーザーは選択された日数以上ログインしていないコミュニティアカウントを永久に削除できるようになります。",
+        "protectDocumentsExplanation": "この権限を付与すると、このランクを持つユーザーが文書を保護としてマークすることができ、透かしやコピー/貼り付けの保護が可能になります。"
       },
       "navigation": {
         "viewDashboardBtnExplanation": "この権限を付与すると、ユーザーがサイドナビゲーションバーにあるダッシュボードボタンを見られるようになります。",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Discord DMを送信する",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "昇進フローを実行"
     },
     "appSubmit": "申請/フォームを提出する",
     "editOwn": "自分のフォームを編集する",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "エラー：このファイルの権限が不足しています。",
     "errorMissingPermissionsForThisFile": "エラー：このファイルを編集する権限がありません。",
     "errorYouDoNotHavePermissionToEditThisFil": "エラー：",
-    "error": "行を追加"
+    "error": "行を追加",
+    "protectionOnlyAccess": "この文書は保護のみのアクセスですので、コンテンツエディターは非表示です。"
   },
   "Roster": {
     "addRow": "ソートパワー",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "すべてのロスター権限を正常に貼り付けました！",
     "youHaventCopiedAnyAllRosterPermissionsTo": "特定のロスター権限を正常に貼り付けました！",
     "youHaventCopiedAnySpecificRosterPermissi": "ユーザーが部門を追加しようとしましたが、制限に達したため追加できませんでした",
-    "newRank": "イベントを作成"
+    "newRank": "イベントを作成",
+    "protectDocuments": "文書を保護 (Drive)"
   },
   "calendarView": {
     "createEvent": "前へ",
@@ -3551,7 +3555,8 @@
     "edit": "このリンクを持つアクティブなコミュニティメンバーは",
     "activeCommunityMembersWithThisLinkCanTyp": "このリンクを持つインターネット上の誰でも",
     "anyoneOnTheInternetWithThisLinkCanType": "このリンクを持つアクティブおよび保留中のコミュニティメンバーは",
-    "activePendingCommunityMembersWithThisLin": "これの共有設定を変更する"
+    "activePendingCommunityMembersWithThisLin": "これの共有設定を変更する",
+    "ranksWithAccess": "アクセス権を持つランク"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "フォルダ",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "ステージ変更理由（任意）",
     "stageChangeReasonDescription": "提供された場合、ステージ変更理由を挿入します。",
     "includeStageChangeButton": "ステージ変更ボタンを含める",
-    "includeStageChangeButtonTooltip": "Discordステージ変更ボタンを追加して、スタッフがWebhookから直接フォームステージを変更し、オプションで理由を提供できるようにします。"
+    "includeStageChangeButtonTooltip": "Discordステージ変更ボタンを追加して、スタッフがWebhookから直接フォームステージを変更し、オプションで理由を提供できるようにします。",
+    "executePromotionTrackDescription": "このアクションは、選択されたメンバーに選択された昇進フローを適用します。"
   },
   "FormRenderer": {
     "dragToReorder": "セクションヘッダー",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "アカウントを統合",
     "allowsMembersToMergeAccounts": "メンバーが2つのアカウントを統合し、ランクとすべてのコミュニティデータを結合できるようにします。",
     "purgeInactiveAccounts": "非アクティブアカウントの削除",
-    "allowsMembersToPurgeInactiveAccounts": "選択された日数以上ログインしていないコミュニティアカウントを永久に削除することをメンバーに許可します。"
+    "allowsMembersToPurgeInactiveAccounts": "選択された日数以上ログインしていないコミュニティアカウントを永久に削除することをメンバーに許可します。",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "メンバーが文書を機密としてマークし、透かしを適用することを許可します。"
   },
   "permissionToggleGroup": {
     "inherited": "継承された",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "このフローは昇進と降格の両方で実行できます。",
     "promotionOnly": "昇進のみ",
     "demotionOnly": "降格のみ",
-    "promotionAndDemotion": "昇進と降格"
+    "promotionAndDemotion": "昇進と降格",
+    "promotionFlowLabel": "昇進フロー",
+    "promotionFlowFieldLabel": "昇進フロー フィールド",
+    "promotionFlowFieldSuffix": "昇進フロー フィールド",
+    "selectPromotionFlowFromCommunityConfiguration": "コミュニティ設定から昇進フローを選択。",
+    "promotionFlowOptionsLoaded": "昇進フローのオプションは、コミュニティの設定された昇進フローから動的にロードされます。",
+    "allowedPromotionFlows": "許可された昇進フロー",
+    "allowedDirection": "許可された方向",
+    "leaveFlowListEmptyMessage": "すべての昇進フローを許可するには、フローリストを空のままにします。昇進と降格のフローの両方を許可するには、方向を「任意」に設定します。",
+    "anyDirection": "任意の方向",
+    "promoteOnly": "昇進のみ",
+    "demoteOnly": "降格のみ",
+    "fixedFlow": "固定フロー",
+    "fromFormField": "フォームフィールドから",
+    "flowSource": "フローのソース",
+    "direction": "方向"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "プレーヤーが見つかりません…検索",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "AIに聞く",
       "docs": "ドキュメント",
-      "support": "サポート"
+      "support": "サポート",
+      "feedback": "フィードバック"
     },
     "insecureEmbed": {
       "title": "GitBookが非HTTPS埋め込みをブロック",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "そのパネルはここで利用できません。利用可能なオプション: {availableOptions}。",
         "unavailableNoOptions": "この文脈ではCMSナビゲーションターゲットは利用できません。",
         "openedSummary": "{label} を開きました。"
+      }
+    },
+    "feedback": {
+      "title": "フィードバックまたはバグ報告を送信",
+      "subtitle": "うまくいっていること、わかりにくいこと、壊れたことを教えてください。その内容をパッケージ化してチームに送信します。",
+      "back": "アシスタントに戻る",
+      "typeLabel": "フィードバックの種類",
+      "types": {
+        "feedback": "一般フィードバック",
+        "bug": "バグ報告"
+      },
+      "subjectLabel": "件名",
+      "subjectPlaceholder": "メッセージの簡単な要約",
+      "messageLabel": "詳細",
+      "messagePlaceholder": "何が起こったのか、期待したこと、そして私たちが知っておくべきことを説明してください。",
+      "contextCopy": "現在のページ、アカウント、コミュニティ、およびアプリのバージョンを自動的にコンテキストに含めます。",
+      "reset": "クリア",
+      "submit": "送信",
+      "submitting": "送信中...",
+      "success": "ありがとうございます。メッセージが送信されました。",
+      "failure": "現在、そのメッセージを送信できませんでした。",
+      "validation": {
+        "required": "件名と詳細の両方を追加してから送信してください。"
       }
     }
   },

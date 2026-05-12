@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Предоставление этого разрешения позволит пользователю отмечаться при входе и выходе.",
         "modifyTeamSpeakExplanation": "Предоставление этого разрешения позволит пользователю изменять настройки интеграции TeamSpeak.",
         "modifyShieldExplanation": "Предоставление этого разрешения позволит пользователю изменять настройки Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом навсегда удалять аккаунты сообщества, которые не заходили в течение выбранного количества дней."
+        "purgeInactiveAccountsExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом навсегда удалять аккаунты сообщества, которые не заходили в течение выбранного количества дней.",
+        "protectDocumentsExplanation": "Предоставление этого разрешения позволит пользователю с этим рангом отмечать документы как защищенные, что позволяет включить водяные знаки и защиту от копирования/вставки."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Предоставление этого разрешения позволит пользователю видеть кнопку 'Панель управления' на боковой панели навигации.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Отправить личное сообщение в Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Выполнить процесс повышения"
     },
     "appSubmit": "Отправить заявку/форму",
     "editOwn": "Редактировать свою форму",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Ошибка: Недостаточно прав для этого файла.",
     "errorMissingPermissionsForThisFile": "Ошибка: У вас нет прав на редактирование этого файла.",
     "errorYouDoNotHavePermissionToEditThisFil": "Ошибка:",
-    "error": "Добавить строку"
+    "error": "Добавить строку",
+    "protectionOnlyAccess": "У вас есть доступ только для защиты этого документа, поэтому редактор контента скрыт."
   },
   "Roster": {
     "addRow": "Сортировка по мощности",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Успешно вставлены все разрешения расписания!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Успешно вставлены определенные разрешения расписания!",
     "youHaventCopiedAnySpecificRosterPermissi": "Пользователь попытался добавить отдел, но не смог из-за достижения лимита",
-    "newRank": "Создать событие"
+    "newRank": "Создать событие",
+    "protectDocuments": "Защита документов (Drive)"
   },
   "calendarView": {
     "createEvent": "Предыдущий",
@@ -3551,7 +3555,8 @@
     "edit": "Активные участники сообщества с этой ссылкой могут",
     "activeCommunityMembersWithThisLinkCanTyp": "Любой в интернете с этой ссылкой может",
     "anyoneOnTheInternetWithThisLinkCanType": "Активные и ожидающие участники сообщества с этой ссылкой могут",
-    "activePendingCommunityMembersWithThisLin": "Изменить настройки общего доступа для этой"
+    "activePendingCommunityMembersWithThisLin": "Изменить настройки общего доступа для этой",
+    "ranksWithAccess": "Ранги с доступом"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "папки",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Причина смены этапа (необязательно)",
     "stageChangeReasonDescription": "Вставляет причину смены этапа, если указана.",
     "includeStageChangeButton": "Включить кнопку изменения стадии",
-    "includeStageChangeButtonTooltip": "Добавляет кнопку изменения стадии Discord, чтобы персонал мог изменить стадию формы и предоставить необязательную причину непосредственно из вебхука."
+    "includeStageChangeButtonTooltip": "Добавляет кнопку изменения стадии Discord, чтобы персонал мог изменить стадию формы и предоставить необязательную причину непосредственно из вебхука.",
+    "executePromotionTrackDescription": "Это действие применит выбранный процесс повышения к выбранным членам."
   },
   "FormRenderer": {
     "dragToReorder": "Заголовок раздела",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Объединение аккаунтов",
     "allowsMembersToMergeAccounts": "Позволяет участникам объединять два аккаунта, объединяя ранги и все данные сообщества.",
     "purgeInactiveAccounts": "Очистить неактивные аккаунты",
-    "allowsMembersToPurgeInactiveAccounts": "Позволяет участникам навсегда удалять аккаунты сообщества, которые не заходили в течение выбранного количества дней."
+    "allowsMembersToPurgeInactiveAccounts": "Позволяет участникам навсегда удалять аккаунты сообщества, которые не заходили в течение выбранного количества дней.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Позволяет членам отмечать документы как конфиденциальные и применять водяные знаки, что активирует защиту от копирования/вставки."
   },
   "permissionToggleGroup": {
     "inherited": "унаследованный",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Этот поток может работать как для повышения, так и для понижения.",
     "promotionOnly": "Только повышение",
     "demotionOnly": "Только понижение",
-    "promotionAndDemotion": "Повышение и понижение"
+    "promotionAndDemotion": "Повышение и понижение",
+    "promotionFlowLabel": "Процесс повышения",
+    "promotionFlowFieldLabel": "Поле процесса повышения",
+    "promotionFlowFieldSuffix": "поле процесса повышения",
+    "selectPromotionFlowFromCommunityConfiguration": "Выберите процесс повышения из конфигурации сообщества.",
+    "promotionFlowOptionsLoaded": "Варианты процесса повышения загружаются динамически из настроек процесса повышения сообщества.",
+    "allowedPromotionFlows": "Допустимые процессы повышения",
+    "allowedDirection": "Допустимое направление",
+    "leaveFlowListEmptyMessage": "Оставьте список процессов пустым, чтобы разрешить все процессы повышения. Оставьте направление 'Любое', чтобы разрешить как повышение, так и понижение.",
+    "anyDirection": "Любое направление",
+    "promoteOnly": "Только повышение",
+    "demoteOnly": "Только понижение",
+    "fixedFlow": "Фиксированный процесс",
+    "fromFormField": "Из поля формы",
+    "flowSource": "Источник процесса",
+    "direction": "Направление"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Игроки не найдены... Поиск",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Спросить искусственный интеллект",
       "docs": "Документы",
-      "support": "Поддержка"
+      "support": "Поддержка",
+      "feedback": "Обратная связь"
     },
     "insecureEmbed": {
       "title": "GitBook блокирует небезопасные вставки",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Эта панель здесь недоступна. Доступные варианты: {availableOptions}.",
         "unavailableNoOptions": "В этом контексте нет доступных целей навигации CMS.",
         "openedSummary": "Открыто {label}."
+      }
+    },
+    "feedback": {
+      "title": "Отправить отзыв или отчет об ошибке",
+      "subtitle": "Сообщите нам, что работает хорошо, что вызывает путаницу или что сломалось. Мы соберем информацию и отправим её команде.",
+      "back": "Назад к помощнику",
+      "typeLabel": "Тип обратной связи",
+      "types": {
+        "feedback": "Общая обратная связь",
+        "bug": "Отчет об ошибке"
+      },
+      "subjectLabel": "Тема",
+      "subjectPlaceholder": "Краткое резюме вашего сообщения",
+      "messageLabel": "Детали",
+      "messagePlaceholder": "Опишите, что произошло, что вы ожидали, и все, что мы должны знать.",
+      "contextCopy": "Мы автоматически включаем вашу текущую страницу, аккаунт, сообщество и версию приложения для контекста.",
+      "reset": "Очистить",
+      "submit": "Отправить",
+      "submitting": "Отправка...",
+      "success": "Спасибо, ваше сообщение отправлено.",
+      "failure": "Мы не смогли отправить это сообщение прямо сейчас.",
+      "validation": {
+        "required": "Пожалуйста, добавьте и тему, и детали перед отправкой."
       }
     }
   },

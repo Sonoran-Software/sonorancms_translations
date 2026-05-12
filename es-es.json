@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Otorgar este permiso permitirá a un usuario registrar su entrada y salida.",
         "modifyTeamSpeakExplanation": "Otorgar este permiso permitirá a un usuario modificar la configuración de la integración de TeamSpeak.",
         "modifyShieldExplanation": "Otorgar este permiso permitirá a un usuario modificar la configuración de Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "Otorgar este permiso permitirá a un usuario con este rango eliminar permanentemente cuentas comunitarias que no han iniciado sesión durante el número de días seleccionado."
+        "purgeInactiveAccountsExplanation": "Otorgar este permiso permitirá a un usuario con este rango eliminar permanentemente cuentas comunitarias que no han iniciado sesión durante el número de días seleccionado.",
+        "protectDocumentsExplanation": "Otorgar este permiso permitirá a un usuario con este rango marcar documentos como protegidos, lo que habilita marcas de agua y protección de copiar/pegar."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Otorgar este permiso permitirá a un usuario ver el botón del Tablero en la barra de navegación lateral.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Enviar DM de Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Ejecutar flujo de promoción"
     },
     "appSubmit": "Enviar Solicitud/Formulario",
     "editOwn": "Editar Propio Formulario",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "¿Está seguro de que desea salir? No todos los cambios están guardados.",
     "errorMissingPermissionsForThisFile": "Error: Permisos faltantes para este archivo.",
     "errorYouDoNotHavePermissionToEditThisFil": "Error: No tiene permiso para editar este archivo.",
-    "error": "Error:"
+    "error": "Error:",
+    "protectionOnlyAccess": "Tiene acceso solo de protección para este documento, por lo que el editor de contenido está oculto."
   },
   "Roster": {
     "addRow": "Agregar Fila",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "¡No has copiado ningún permiso específico del calendario para pegar!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "¡No has copiado ningún permiso de todo el listado para pegar!",
     "youHaventCopiedAnySpecificRosterPermissi": "¡No has copiado ningún permiso específico del listado para pegar!",
-    "newRank": "Nuevo Rango"
+    "newRank": "Nuevo Rango",
+    "protectDocuments": "Proteger documentos (Drive)"
   },
   "calendarView": {
     "createEvent": "Crear Evento",
@@ -3551,7 +3555,8 @@
     "edit": "editar",
     "activeCommunityMembersWithThisLinkCanTyp": "Los miembros activos de la comunidad con este enlace pueden",
     "anyoneOnTheInternetWithThisLinkCanType": "Cualquiera en internet con este enlace puede",
-    "activePendingCommunityMembersWithThisLin": "Los miembros activos y pendientes de la comunidad con este enlace pueden"
+    "activePendingCommunityMembersWithThisLin": "Los miembros activos y pendientes de la comunidad con este enlace pueden",
+    "ranksWithAccess": "Rangos con acceso"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Cambiar la configuración de compartir de este",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Razón del cambio de etapa (Opcional)",
     "stageChangeReasonDescription": "Inserta la razón del cambio de etapa si se proporciona.",
     "includeStageChangeButton": "Incluir botón de cambio de etapa",
-    "includeStageChangeButtonTooltip": "Agrega el botón de cambio de etapa de Discord para que el personal pueda cambiar la etapa del formulario y proporcionar una razón opcional directamente desde el webhook."
+    "includeStageChangeButtonTooltip": "Agrega el botón de cambio de etapa de Discord para que el personal pueda cambiar la etapa del formulario y proporcionar una razón opcional directamente desde el webhook.",
+    "executePromotionTrackDescription": "Esta acción aplicará el flujo de promoción seleccionado a los miembros seleccionados."
   },
   "FormRenderer": {
     "dragToReorder": "Arrastrar para reordenar",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Fusionar cuentas",
     "allowsMembersToMergeAccounts": "Permite a los miembros fusionar dos cuentas, combinando rangos y todos los datos comunitarios.",
     "purgeInactiveAccounts": "Purgar Cuentas Inactivas",
-    "allowsMembersToPurgeInactiveAccounts": "Permite a los miembros eliminar permanentemente cuentas comunitarias que no han iniciado sesión durante el número de días seleccionado."
+    "allowsMembersToPurgeInactiveAccounts": "Permite a los miembros eliminar permanentemente cuentas comunitarias que no han iniciado sesión durante el número de días seleccionado.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Permite a los miembros marcar documentos como sensibles, lo que habilita marcas de agua y protección de copiar/pegar."
   },
   "permissionToggleGroup": {
     "inherited": "heredado",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Este flujo se puede ejecutar tanto para promociones como para degradaciones.",
     "promotionOnly": "Solo promoción",
     "demotionOnly": "Solo degradación",
-    "promotionAndDemotion": "Promoción y degradación"
+    "promotionAndDemotion": "Promoción y degradación",
+    "promotionFlowLabel": "Flujo de promoción",
+    "promotionFlowFieldLabel": "Campo de flujo de promoción",
+    "promotionFlowFieldSuffix": "campo de flujo de promoción",
+    "selectPromotionFlowFromCommunityConfiguration": "Seleccione un flujo de promoción de la configuración de la comunidad.",
+    "promotionFlowOptionsLoaded": "Las opciones de flujo de promoción se cargan dinámicamente a partir de los flujos de promoción configurados de la comunidad.",
+    "allowedPromotionFlows": "Flujos de promoción permitidos",
+    "allowedDirection": "Dirección permitida",
+    "leaveFlowListEmptyMessage": "Deje la lista de flujos vacía para permitir todos los flujos de promoción. Deje la dirección en Cualquiera para permitir tanto flujos de promoción como de degradación.",
+    "anyDirection": "Cualquier dirección",
+    "promoteOnly": "Solo promocionar",
+    "demoteOnly": "Solo degradar",
+    "fixedFlow": "Flujo fijo",
+    "fromFormField": "Desde el campo del formulario",
+    "flowSource": "Fuente del flujo",
+    "direction": "Dirección"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "No se Encontraron Jugadores... Buscar",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Preguntar a la IA",
       "docs": "Documentos",
-      "support": "Soporte"
+      "support": "Soporte",
+      "feedback": "Comentarios"
     },
     "insecureEmbed": {
       "title": "GitBook Bloquea Embeber No-HTTPS",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Ese panel no está disponible aquí. Opciones disponibles: {availableOptions}.",
         "unavailableNoOptions": "No hay objetivos de navegación CMS disponibles en este contexto.",
         "openedSummary": "Abierto {label}."
+      }
+    },
+    "feedback": {
+      "title": "Enviar comentarios o reporte de errores",
+      "subtitle": "Cuéntenos qué está funcionando bien, qué es confuso o qué se rompió. Empaquetaremos el contexto y lo enviaremos al equipo.",
+      "back": "Volver al asistente",
+      "typeLabel": "Tipo de comentario",
+      "types": {
+        "feedback": "Comentarios generales",
+        "bug": "Reporte de error"
+      },
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "Breve resumen de su mensaje",
+      "messageLabel": "Detalles",
+      "messagePlaceholder": "Describa lo que ocurrió, lo que esperaba y cualquier otra cosa que debamos saber.",
+      "contextCopy": "Incluimos automáticamente su página actual, cuenta, comunidad y versión de la aplicación como contexto.",
+      "reset": "Limpiar",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "success": "Gracias, su mensaje fue enviado.",
+      "failure": "No pudimos enviar ese mensaje en este momento.",
+      "validation": {
+        "required": "Por favor, agregue tanto un asunto como detalles antes de enviar."
       }
     }
   },

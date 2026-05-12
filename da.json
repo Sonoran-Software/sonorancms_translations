@@ -99,7 +99,8 @@
         "clockInOutExplanation": "At give denne tilladelse vil give en bruger mulighed for at stemple ind og ud.",
         "modifyTeamSpeakExplanation": "At give denne tilladelse vil give en bruger mulighed for at ændre TeamSpeak-integrationsindstillingerne.",
         "modifyShieldExplanation": "At give denne tilladelse vil give en bruger mulighed for at ændre Sonoran Shield-indstillingerne.",
-        "purgeInactiveAccountsExplanation": "At give denne tilladelse giver en bruger med denne rang mulighed for permanent at slette kontoer i fællesskabet, der ikke har logget ind i det valgte antal dage."
+        "purgeInactiveAccountsExplanation": "At give denne tilladelse giver en bruger med denne rang mulighed for permanent at slette kontoer i fællesskabet, der ikke har logget ind i det valgte antal dage.",
+        "protectDocumentsExplanation": "Givelse af denne tilladelse vil tillade en bruger med denne rang at markere dokumenter som beskyttede, hvilket muliggør vandmærkning og kopibeskyttelse."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "At give denne tilladelse vil give en bruger mulighed for at se Dashboard-knappen på side navigationslinjen.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Send Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Udfør forfremmelsesstrøm"
     },
     "appSubmit": "Indsend ansøgning/formular",
     "editOwn": "Rediger egen formular",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Er du sikker på, at du vil forlade? Ikke alle ændringer er gemt.",
     "errorMissingPermissionsForThisFile": "Fejl: Manglende tilladelser til denne fil.",
     "errorYouDoNotHavePermissionToEditThisFil": "Fejl: Du har ikke tilladelse til at redigere denne fil.",
-    "error": "Fejl:"
+    "error": "Fejl:",
+    "protectionOnlyAccess": "Du har kun beskyttelsestilgang til dette dokument, så indholdsredaktøren er skjult."
   },
   "Roster": {
     "addRow": "Tilføj Række",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Du har ikke kopieret nogen specifikke kalenderrettigheder til at indsætte!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Du har ikke kopieret nogen alle vagtplanrettigheder til at indsætte!",
     "youHaventCopiedAnySpecificRosterPermissi": "Du har ikke kopieret nogen specifikke vagtplanrettigheder til at indsætte!",
-    "newRank": "Ny Rang"
+    "newRank": "Ny Rang",
+    "protectDocuments": "Beskytt dokumenter (Drive)"
   },
   "calendarView": {
     "createEvent": "Opret Begivenhed",
@@ -3551,7 +3555,8 @@
     "edit": "rediger",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktive fællesskabsmedlemmer med dette link kan",
     "anyoneOnTheInternetWithThisLinkCanType": "Alle på internettet med dette link kan",
-    "activePendingCommunityMembersWithThisLin": "Aktive & afventende fællesskabsmedlemmer med dette link kan"
+    "activePendingCommunityMembersWithThisLin": "Aktive & afventende fællesskabsmedlemmer med dette link kan",
+    "ranksWithAccess": "Ranger med adgang"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Ændre delingsindstillingerne for denne",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Årsag til trinændring (valgfrit)",
     "stageChangeReasonDescription": "Indsætter årsagen til trinændring, hvis angivet.",
     "includeStageChangeButton": "Inkluder trinændringsknap",
-    "includeStageChangeButtonTooltip": "Tilføjer Discord trinændringsknappen, så personalet kan ændre formularens trin og give en valgfri begrundelse direkte fra webhooken."
+    "includeStageChangeButtonTooltip": "Tilføjer Discord trinændringsknappen, så personalet kan ændre formularens trin og give en valgfri begrundelse direkte fra webhooken.",
+    "executePromotionTrackDescription": "Denne handling vil anvende den valgte forfremmelsesstrøm på de valgte medlem(mer)."
   },
   "FormRenderer": {
     "dragToReorder": "Træk for at omarrangere",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Flet konti",
     "allowsMembersToMergeAccounts": "Tillader medlemmer at flette to konti sammen, hvilket kombinerer rang og alle fællesskabsdata.",
     "purgeInactiveAccounts": "Ryd inaktive konti",
-    "allowsMembersToPurgeInactiveAccounts": "Giver medlemmer tilladelse til permanent at slette kontoer i fællesskabet, der ikke har logget ind i det valgte antal dage."
+    "allowsMembersToPurgeInactiveAccounts": "Giver medlemmer tilladelse til permanent at slette kontoer i fællesskabet, der ikke har logget ind i det valgte antal dage.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Tillader medlemmer at markere dokumenter som følsomme, hvilket muliggør vandmærkning og kopibeskyttelse."
   },
   "permissionToggleGroup": {
     "inherited": "arvet",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Denne flow kan køre for både forfremmelser og degraderinger.",
     "promotionOnly": "Kun forfremmelse",
     "demotionOnly": "Kun degradering",
-    "promotionAndDemotion": "Forfremmelse og degradering"
+    "promotionAndDemotion": "Forfremmelse og degradering",
+    "promotionFlowLabel": "Forfremmelsesstrøm",
+    "promotionFlowFieldLabel": "Forfremmelsesstrømsfelt",
+    "promotionFlowFieldSuffix": "forfremmelsesstrømsfelt",
+    "selectPromotionFlowFromCommunityConfiguration": "Vælg en forfremmelsesstrøm fra fællesskabskonfigurationen.",
+    "promotionFlowOptionsLoaded": "Forfremmelsesstrømsmulighederne indlæses dynamisk fra fællesskabets konfigurerede forfremmelsesstrømme.",
+    "allowedPromotionFlows": "Tilladte forfremmelsesstrømme",
+    "allowedDirection": "Tilladt retning",
+    "leaveFlowListEmptyMessage": "Lad strømlisten være tom for at tillade enhver forfremmelsesstrøm. Lad retningen være angivet til Enhver for at tillade både forfremmelses- og degraderingsstrømme.",
+    "anyDirection": "Enhver retning",
+    "promoteOnly": "Kun forfremelse",
+    "demoteOnly": "Kun degradering",
+    "fixedFlow": "Fast strømn",
+    "fromFormField": "Fra formularfeltet",
+    "flowSource": "Strømkilde",
+    "direction": "Retning"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ingen Spillere Fundet... Søg",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Spørg AI",
       "docs": "Dokumenter",
-      "support": "Support"
+      "support": "Support",
+      "feedback": "Feedback"
     },
     "insecureEmbed": {
       "title": "GitBook Blokerer Ikke-HTTPS Indlejringer",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Det panel er ikke tilgængeligt her. Tilgængelige muligheder: {availableOptions}.",
         "unavailableNoOptions": "Ingen CMS navigation mål er tilgængelige i denne kontekst.",
         "openedSummary": "Åbnede {label}."
+      }
+    },
+    "feedback": {
+      "title": "Send feedback eller en fejlrapport",
+      "subtitle": "Fortæl os, hvad der fungerer godt, hvad der er forvirrende, eller hvad der gik i stykker. Vi pakker konteksten og sender den til teamet.",
+      "back": "Tilbage til assistenten",
+      "typeLabel": "Feedbacktype",
+      "types": {
+        "feedback": "Generel feedback",
+        "bug": "Fejlrapport"
+      },
+      "subjectLabel": "Emne",
+      "subjectPlaceholder": "Kort resume af din besked",
+      "messageLabel": "Detaljer",
+      "messagePlaceholder": "Beskriv, hvad der skete, hvad du forventede, og alt andet vi bør vide.",
+      "contextCopy": "Vi inkluderer automatisk din nuværende side, konto, fællesskab og appversion for kontekst.",
+      "reset": "Ryd",
+      "submit": "Send",
+      "submitting": "Sender...",
+      "success": "Tak, din besked blev sendt.",
+      "failure": "Vi kunne ikke sende den besked lige nu.",
+      "validation": {
+        "required": "Tilføj venligst både et emne og detaljer, før du sender."
       }
     }
   },

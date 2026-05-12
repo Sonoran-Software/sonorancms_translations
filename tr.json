@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Bu iznin verilmesi, bir kullanıcının giriş ve çıkış yapmasına olanak tanır.",
         "modifyTeamSpeakExplanation": "Bu iznin verilmesi, bir kullanıcının TeamSpeak entegrasyon ayarlarını değiştirmesine olanak tanır.",
         "modifyShieldExplanation": "Bu iznin verilmesi, bir kullanıcının Sonoran Shield ayarlarını değiştirmesine olanak tanır.",
-        "purgeInactiveAccountsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının, seçilen gün sayısı boyunca giriş yapmamış topluluk hesaplarını kalıcı olarak silmesine izin verir."
+        "purgeInactiveAccountsExplanation": "Bu izni vermek, bu rütbeye sahip bir kullanıcının, seçilen gün sayısı boyunca giriş yapmamış topluluk hesaplarını kalıcı olarak silmesine izin verir.",
+        "protectDocumentsExplanation": "Bu izni vermek, bu rütbedeki bir kullanıcının belgeleri korumalı olarak işaretlemesine izin verir, bu da filigran ekleme ve kopyalama/yapıştırma korumasını etkinleştirir."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Bu iznin verilmesi, bir kullanıcının yan navigasyon çubuğunda Dashboard düğmesini görmesine olanak tanır.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Discord DM Gönder",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Terfi Akışı Uygula"
     },
     "appSubmit": "Başvuru/Form Gönder",
     "editOwn": "Kendi Formunu Düzenle",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Çıkmak istediğinizden emin misiniz? Tüm değişiklikler kaydedilmedi.",
     "errorMissingPermissionsForThisFile": "Hata: Bu dosya için izinler eksik.",
     "errorYouDoNotHavePermissionToEditThisFil": "Hata: Bu dosyayı düzenleme izniniz yok.",
-    "error": "Hata:"
+    "error": "Hata:",
+    "protectionOnlyAccess": "Bu belgede yalnızca koruma erişimine sahipsiniz, bu nedenle içerik düzenleyici gizlidir."
   },
   "Roster": {
     "addRow": "Satır Ekle",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Yapıştırmak için herhangi bir belirli takvim izni kopyalamadınız!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Yapıştırmak için herhangi bir tüm kadro izni kopyalamadınız!",
     "youHaventCopiedAnySpecificRosterPermissi": "Yapıştırmak için herhangi bir belirli kadro izni kopyalamadınız!",
-    "newRank": "Yeni Rütbe"
+    "newRank": "Yeni Rütbe",
+    "protectDocuments": "Belgeleri Koru (Drive)"
   },
   "calendarView": {
     "createEvent": "Etkinlik Oluştur",
@@ -3551,7 +3555,8 @@
     "edit": "düzenle",
     "activeCommunityMembersWithThisLinkCanTyp": "Bu bağlantıya sahip aktif topluluk üyeleri",
     "anyoneOnTheInternetWithThisLinkCanType": "Bu bağlantıya sahip internet üzerindeki herkes",
-    "activePendingCommunityMembersWithThisLin": "Bu bağlantıya sahip aktif ve bekleyen topluluk üyeleri"
+    "activePendingCommunityMembersWithThisLin": "Bu bağlantıya sahip aktif ve bekleyen topluluk üyeleri",
+    "ranksWithAccess": "Erişimi Olan Rütbeler"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Paylaşım ayarlarını değiştir",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Sahne Değişikliği Nedeni (Opsiyonel)",
     "stageChangeReasonDescription": "Belirtilmişse sahne değişikliği nedenini ekler.",
     "includeStageChangeButton": "Aşama Değişiklik Düğmesini Dahil Et",
-    "includeStageChangeButtonTooltip": "Personelin form aşamasını değiştirebilmesi ve isteğe bağlı bir nedeni doğrudan webhook'tan sağlayabilmesi için Discord aşama değişiklik düğmesini ekler."
+    "includeStageChangeButtonTooltip": "Personelin form aşamasını değiştirebilmesi ve isteğe bağlı bir nedeni doğrudan webhook'tan sağlayabilmesi için Discord aşama değişiklik düğmesini ekler.",
+    "executePromotionTrackDescription": "Bu eylem, seçilen terfi akışını seçilen üyelere uygular."
   },
   "FormRenderer": {
     "dragToReorder": "Yeniden sıralamak için sürükleyin",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Hesapları Birleştir",
     "allowsMembersToMergeAccounts": "Üyelerin iki hesabı birleştirmesine, dereceleri ve tüm topluluk verilerini birleştirmesine izin verir.",
     "purgeInactiveAccounts": "Etkin Olmayan Hesapları Temizle",
-    "allowsMembersToPurgeInactiveAccounts": "Üyelerin, seçilen gün sayısı boyunca giriş yapmamış topluluk hesaplarını kalıcı olarak silmesine izin verir."
+    "allowsMembersToPurgeInactiveAccounts": "Üyelerin, seçilen gün sayısı boyunca giriş yapmamış topluluk hesaplarını kalıcı olarak silmesine izin verir.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Üyelerin belgeleri hassas olarak işaretlemesine izin verir, bu da filigran ve kopyalama/yapıştırma korumasını etkinleştirir."
   },
   "permissionToggleGroup": {
     "inherited": "miras alınan",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Bu akış hem terfi hem de indirimler için çalışabilir.",
     "promotionOnly": "Yalnızca Terfi",
     "demotionOnly": "Yalnızca Düşürme",
-    "promotionAndDemotion": "Terfi ve Düşürme"
+    "promotionAndDemotion": "Terfi ve Düşürme",
+    "promotionFlowLabel": "Terfi Akışı",
+    "promotionFlowFieldLabel": "Terfi Akışı Alanı",
+    "promotionFlowFieldSuffix": "terfi akışı alanı",
+    "selectPromotionFlowFromCommunityConfiguration": "Topluluk yapılandırmasından bir terfi akışı seçin.",
+    "promotionFlowOptionsLoaded": "Terfi akışı seçenekleri topluluğun yapılandırılmış terfi akışlarından dinamik olarak yüklenir.",
+    "allowedPromotionFlows": "İzin Verilen Terfi Akışları",
+    "allowedDirection": "İzin Verilen Yön",
+    "leaveFlowListEmptyMessage": "Her terfi akışına izin vermek için akış listesini boş bırakın. Hem terfi hem de azalma akışlarına izin vermek için yönü Herhangi'ye ayarlayın.",
+    "anyDirection": "Herhangi bir yön",
+    "promoteOnly": "Sadece terfi",
+    "demoteOnly": "Sadece düşürme",
+    "fixedFlow": "Sabit Akış",
+    "fromFormField": "Form Alanından",
+    "flowSource": "Akış Kaynağı",
+    "direction": "Yön"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "AI'ye Sor",
       "docs": "Dökümanlar",
-      "support": "Destek"
+      "support": "Destek",
+      "feedback": "Geri Bildirim"
     },
     "insecureEmbed": {
       "title": "GitBook Non-HTTPS Embedleri Engelliyor",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Bu panel burada mevcut değil. Mevcut seçenekler: {availableOptions}.",
         "unavailableNoOptions": "Bu bağlamda mevcut CMS gezinme hedefleri yok.",
         "openedSummary": "{label} açıldı."
+      }
+    },
+    "feedback": {
+      "title": "Geri bildirim veya hata raporu gönder",
+      "subtitle": "Neyin iyi çalıştığını, neyin kafa karıştırıcı olduğunu veya neyin bozulduğunu bize bildirin. Bağlamı paketleyip ekibe göndereceğiz.",
+      "back": "Yardıma geri dön",
+      "typeLabel": "Geri bildirim türü",
+      "types": {
+        "feedback": "Genel geri bildirim",
+        "bug": "Hata raporu"
+      },
+      "subjectLabel": "Konu",
+      "subjectPlaceholder": "Mesajınızın kısa özeti",
+      "messageLabel": "Detaylar",
+      "messagePlaceholder": "Ne olduğunu, ne beklediğinizi ve bilmemiz gereken diğer şeyleri açıklayın.",
+      "contextCopy": "Bağlam için mevcut sayfanızı, hesabınızı, topluluğunuzu ve uygulama sürümünüzü otomatik olarak ekliyoruz.",
+      "reset": "Temizle",
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Teşekkürler, mesajınız gönderildi.",
+      "failure": "Şu anda bu mesajı gönderemiyoruz.",
+      "validation": {
+        "required": "Göndermeden önce lütfen hem bir konu hem de detaylar ekleyin."
       }
     }
   },

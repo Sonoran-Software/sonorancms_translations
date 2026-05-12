@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att stämpla in och ut.",
         "modifyTeamSpeakExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra TeamSpeak-integrationsinställningarna.",
         "modifyShieldExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att ändra Sonoran Shield-inställningarna.",
-        "purgeInactiveAccountsExplanation": "Att bevilja denna behörighet tillåter en användare med denna rang att permanent radera community-konton som inte har loggat in under det valda antalet dagar."
+        "purgeInactiveAccountsExplanation": "Att bevilja denna behörighet tillåter en användare med denna rang att permanent radera community-konton som inte har loggat in under det valda antalet dagar.",
+        "protectDocumentsExplanation": "Att ge denna behörighet gör det möjligt för en användare med denna rang att markera dokument som skyddade, vilket möjliggör vattenmärkning och kopiera/klistra in-skydd."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Att bevilja denna behörighet kommer att tillåta en användare att se Dashboard-knappen på sidonavigeringsfältet.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Skicka Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Utför befordringsflöde"
     },
     "appSubmit": "Skicka in ansökan/formulär",
     "editOwn": "Redigera eget formulär",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Är du säker på att du vill lämna? Alla ändringar är inte sparade.",
     "errorMissingPermissionsForThisFile": "Fel: Saknar behörighet för denna fil.",
     "errorYouDoNotHavePermissionToEditThisFil": "Fel: Du har inte behörighet att redigera denna fil.",
-    "error": "Fel:"
+    "error": "Fel:",
+    "protectionOnlyAccess": "Du har endast åtkomst för skydd på detta dokument, så innehållsredigeraren är dold."
   },
   "Roster": {
     "addRow": "Lägg till rad",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Du har inte kopierat några specifika kalenderbehörigheter att klistra in!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Du har inte kopierat några alla schemabehörigheter att klistra in!",
     "youHaventCopiedAnySpecificRosterPermissi": "Du har inte kopierat några specifika schemabehörigheter att klistra in!",
-    "newRank": "Ny Rang"
+    "newRank": "Ny Rang",
+    "protectDocuments": "Skydda dokument (Drive)"
   },
   "calendarView": {
     "createEvent": "Skapa Evenemang",
@@ -3551,7 +3555,8 @@
     "edit": "redigera",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktiva gemenskapsmedlemmar med denna länk kan",
     "anyoneOnTheInternetWithThisLinkCanType": "Vem som helst på internet med denna länk kan",
-    "activePendingCommunityMembersWithThisLin": "Aktiva & väntande gemenskapsmedlemmar med denna länk kan"
+    "activePendingCommunityMembersWithThisLin": "Aktiva & väntande gemenskapsmedlemmar med denna länk kan",
+    "ranksWithAccess": "Rang med åtkomst"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Ändra delningsinställningarna för denna",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Orsak till stegändring (valfritt)",
     "stageChangeReasonDescription": "Infogar orsaken till stegändring om angivet.",
     "includeStageChangeButton": "Inkludera Stegändringsknapp",
-    "includeStageChangeButtonTooltip": "Lägger till Discord-stegändringsknappen så att personal kan ändra formulärets steg och ge en valfri anledning direkt från webhooken."
+    "includeStageChangeButtonTooltip": "Lägger till Discord-stegändringsknappen så att personal kan ändra formulärets steg och ge en valfri anledning direkt från webhooken.",
+    "executePromotionTrackDescription": "Denna åtgärd kommer att tillämpa det valda befordringsflödet på den valda medlemmen/medlemmarna."
   },
   "FormRenderer": {
     "dragToReorder": "Dra för att ändra ordning",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Sammanfoga konton",
     "allowsMembersToMergeAccounts": "Tillåter medlemmar att sammanfoga två konton, kombinera rank och all community data.",
     "purgeInactiveAccounts": "Rensa Inaktiva Konton",
-    "allowsMembersToPurgeInactiveAccounts": "Tillåter medlemmar att permanent radera community-konton som inte har loggat in under det valda antalet dagar."
+    "allowsMembersToPurgeInactiveAccounts": "Tillåter medlemmar att permanent radera community-konton som inte har loggat in under det valda antalet dagar.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Tillåter medlemmar att markera dokument som känsliga, vilket möjliggör vattenmärkning och kopiera/klistra in-skydd."
   },
   "permissionToggleGroup": {
     "inherited": "ärvt",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Detta flöde kan köras för både befordringar och degraderingar.",
     "promotionOnly": "Endast befordran",
     "demotionOnly": "Endast degradering",
-    "promotionAndDemotion": "Befordran och degradering"
+    "promotionAndDemotion": "Befordran och degradering",
+    "promotionFlowLabel": "Befordringsflöde",
+    "promotionFlowFieldLabel": "Befordringsflödesfält",
+    "promotionFlowFieldSuffix": "befordringsflödesfält",
+    "selectPromotionFlowFromCommunityConfiguration": "Välj ett befordringsflöde från kommunens konfiguration.",
+    "promotionFlowOptionsLoaded": "Alternativen för befordringsflöden laddas dynamiskt från kommunens konfigurerade befordringsflöden.",
+    "allowedPromotionFlows": "Tillåtna befordringsflöden",
+    "allowedDirection": "Tillåten riktning",
+    "leaveFlowListEmptyMessage": "Lämna flödeslistan tom för att tillåta varje befordringsflöde. Lämna riktningen inställd på Alla för att tillåta både befordrings- och nedgraderingsflöden.",
+    "anyDirection": "Vilken riktning som helst",
+    "promoteOnly": "Endast befordra",
+    "demoteOnly": "Endast nedgradera",
+    "fixedFlow": "Fast flöde",
+    "fromFormField": "Från formulärfält",
+    "flowSource": "Flödeskälla",
+    "direction": "Riktning"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Inga spelare hittades... Sök",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Fråga AI",
       "docs": "Dokument",
-      "support": "Support"
+      "support": "Support",
+      "feedback": "Feedback"
     },
     "insecureEmbed": {
       "title": "GitBook blockerar icke-HTTPS-inbäddningar",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Den panelen är inte tillgänglig här. Tillgängliga alternativ: {availableOptions}.",
         "unavailableNoOptions": "Inga CMS navigationstargets är tillgängliga i det här sammanhanget.",
         "openedSummary": "Öppnad {label}."
+      }
+    },
+    "feedback": {
+      "title": "Skicka feedback eller en felrapport",
+      "subtitle": "Berätta för oss vad som fungerar bra, vad som är förvirrande eller vad som gick sönder. Vi paketerar sammanhanget och skickar det till teamet.",
+      "back": "Tillbaka till assistenten",
+      "typeLabel": "Typ av feedback",
+      "types": {
+        "feedback": "Allmän feedback",
+        "bug": "Felrapport"
+      },
+      "subjectLabel": "Ämne",
+      "subjectPlaceholder": "Kort sammanfattning av ditt meddelande",
+      "messageLabel": "Detaljer",
+      "messagePlaceholder": "Beskriv vad som hände, vad du förväntade dig och något annat vi bör veta.",
+      "contextCopy": "Vi inkluderar automatiskt din nuvarande sida, konto, gemenskap och appversion för kontext.",
+      "reset": "Rensa",
+      "submit": "Skicka",
+      "submitting": "Skickar...",
+      "success": "Tack, ditt meddelande skickades.",
+      "failure": "Vi kunde inte skicka det meddelandet just nu.",
+      "validation": {
+        "required": "Vänligen lägg till både ett ämne och detaljer innan du skickar."
       }
     }
   },
