@@ -99,7 +99,8 @@
         "clockInOutExplanation": "منح هذا الإذن سيسمح للمستخدم بتسجيل الدخول والخروج.",
         "modifyTeamSpeakExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات تكامل TeamSpeak.",
         "modifyShieldExplanation": "منح هذا الإذن سيسمح للمستخدم بتعديل إعدادات Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "منح هذا الإذن سيسمح للمستخدمين بهذه الرتبة بحذف حسابات المجتمع بشكل دائم والتي لم تسجل الدخول لعدد معين من الأيام."
+        "purgeInactiveAccountsExplanation": "منح هذا الإذن سيسمح للمستخدمين بهذه الرتبة بحذف حسابات المجتمع بشكل دائم والتي لم تسجل الدخول لعدد معين من الأيام.",
+        "protectDocumentsExplanation": "منح هذا الإذن سيسمح لمستخدم بهذا الرتبة بتمييز المستندات على أنها محمية، مما يُمكن من وضع العلامة المائية وحماية النسخ/اللصق."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "منح هذا الإذن سيسمح للمستخدم برؤية زر لوحة التحكم في شريط التنقل الجانبي.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "إرسال رسالة خاصة على Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "تنفيذ مسار الترقية"
     },
     "appSubmit": "تقديم طلب/نموذج",
     "editOwn": "تعديل النموذج الخاص",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "هل أنت متأكد أنك تريد المغادرة؟ لم يتم حفظ جميع التغييرات.",
     "errorMissingPermissionsForThisFile": "خطأ: الأذونات مفقودة لهذا الملف.",
     "errorYouDoNotHavePermissionToEditThisFil": "خطأ: ليس لديك إذن لتعديل هذا الملف.",
-    "error": "خطأ:"
+    "error": "خطأ:",
+    "protectionOnlyAccess": "لديك وصول حصري للحماية لهذا المستند، لذلك المحرر مخفي."
   },
   "Roster": {
     "addRow": "إضافة صف",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "لم تقم بنسخ أي أذونات لتقويم محدد للصقها!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "لم تقم بنسخ أي أذونات لجميع الجداول للصقها!",
     "youHaventCopiedAnySpecificRosterPermissi": "لم تقم بنسخ أي أذونات لجدول محدد للصقها!",
-    "newRank": "رتبة جديدة"
+    "newRank": "رتبة جديدة",
+    "protectDocuments": "حماية المستندات (Drive)"
   },
   "calendarView": {
     "createEvent": "إنشاء حدث",
@@ -3551,7 +3555,8 @@
     "edit": "تحرير",
     "activeCommunityMembersWithThisLinkCanTyp": "يمكن للأعضاء النشطين في المجتمع مع هذا الرابط",
     "anyoneOnTheInternetWithThisLinkCanType": "يمكن لأي شخص على الإنترنت مع هذا الرابط",
-    "activePendingCommunityMembersWithThisLin": "يمكن للأعضاء النشطين والمعلقين في المجتمع مع هذا الرابط"
+    "activePendingCommunityMembersWithThisLin": "يمكن للأعضاء النشطين والمعلقين في المجتمع مع هذا الرابط",
+    "ranksWithAccess": "الرتب التي لديها وصول"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "تغيير إعدادات المشاركة لهذا",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "سبب تغيير المرحلة (اختياري)",
     "stageChangeReasonDescription": "يقوم بإدراج سبب تغيير المرحلة إذا تم توفيره.",
     "includeStageChangeButton": "تضمين زر تغيير المرحلة",
-    "includeStageChangeButtonTooltip": "يضيف زر تغيير المرحلة في Discord حتى يتمكن العاملون من تغيير مرحلة النموذج وتوفير سبب اختياري مباشرة من خلال الويب هوك."
+    "includeStageChangeButtonTooltip": "يضيف زر تغيير المرحلة في Discord حتى يتمكن العاملون من تغيير مرحلة النموذج وتوفير سبب اختياري مباشرة من خلال الويب هوك.",
+    "executePromotionTrackDescription": "هذا الإجراء سيطبق مسار الترقية المحدد على الأعضاء المحددين."
   },
   "FormRenderer": {
     "dragToReorder": "اسحب لإعادة الترتيب",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "دمج الحسابات",
     "allowsMembersToMergeAccounts": "يسمح للأعضاء بدمج حسابين معًا، حيث يجمع الرتب وجميع بيانات المجتمع.",
     "purgeInactiveAccounts": "تطهير الحسابات غير النشطة",
-    "allowsMembersToPurgeInactiveAccounts": "يسمح للأعضاء بحذف حسابات المجتمع بشكل دائم التي لم تسجل الدخول لعدد معين من الأيام."
+    "allowsMembersToPurgeInactiveAccounts": "يسمح للأعضاء بحذف حسابات المجتمع بشكل دائم التي لم تسجل الدخول لعدد معين من الأيام.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "يسمح للأعضاء بتمييز المستندات على أنها حساسة، مما يمكن من وضع العلامة المائية وحماية النسخ/اللصق."
   },
   "permissionToggleGroup": {
     "inherited": "موروث",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "يمكن أن يعمل هذا التدفق للترقيات والتخفيضات.",
     "promotionOnly": "ترقية فقط",
     "demotionOnly": "تخفيض فقط",
-    "promotionAndDemotion": "الترقية والتخفيض"
+    "promotionAndDemotion": "الترقية والتخفيض",
+    "promotionFlowLabel": "مسار الترقية",
+    "promotionFlowFieldLabel": "حقل مسار الترقية",
+    "promotionFlowFieldSuffix": "حقل مسار الترقية",
+    "selectPromotionFlowFromCommunityConfiguration": "اختر مسار ترقية من إعدادات المجتمع.",
+    "promotionFlowOptionsLoaded": "تم تحميل خيارات مسار الترقية ديناميكياً من إعدادات الترقيات المكونة للمجتمع.",
+    "allowedPromotionFlows": "مسارات الترقية المسموحة",
+    "allowedDirection": "الاتجاه المسموح",
+    "leaveFlowListEmptyMessage": "اترك قائمة المسارات فارغة للسماح بكل مسار ترقية. اترك الاتجاه مضبوطًا على أي للسماح بكل من تدفقات الترقية والإنزال.",
+    "anyDirection": "أي اتجاه",
+    "promoteOnly": "الترقية فقط",
+    "demoteOnly": "الإنزال فقط",
+    "fixedFlow": "تدفق ثابت",
+    "fromFormField": "من حقل النموذج",
+    "flowSource": "مصدر التدفق",
+    "direction": "الاتجاه"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "اسأل AI",
       "docs": "المستندات",
-      "support": "الدعم"
+      "support": "الدعم",
+      "feedback": "ملاحظات"
     },
     "insecureEmbed": {
       "title": "GitBook لا يدعم تضمينات غير HTTPS",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "تلك اللوحة غير متوفرة هنا. الخيارات المتاحة: {availableOptions}.",
         "unavailableNoOptions": "لا توجد أهداف تنقل في CMS متاحة في هذا السياق.",
         "openedSummary": "تم فتح {label}."
+      }
+    },
+    "feedback": {
+      "title": "إرسال ملاحظات أو تقرير عن خطأ",
+      "subtitle": "أخبرنا بما يعمل بشكل جيد، وما هو مربك، أو ما الذي تعطل. سنقوم بتعبئة السياق وإرساله إلى الفريق.",
+      "back": "العودة إلى المساعد",
+      "typeLabel": "نوع الملاحظات",
+      "types": {
+        "feedback": "ملاحظات عامة",
+        "bug": "تقرير خطأ"
+      },
+      "subjectLabel": "الموضوع",
+      "subjectPlaceholder": "ملخص قصير لرسالتك",
+      "messageLabel": "تفاصيل",
+      "messagePlaceholder": "صف ما حدث، ما كنت تتوقعه، وأي شيء آخر يجب أن نعرفه.",
+      "contextCopy": "نقوم بتضمين صفحتك الحالية، وحسابك، ومجتمعك، وإصدار التطبيق تلقائيًا للسياق.",
+      "reset": "مسح",
+      "submit": "إرسال",
+      "submitting": "جارٍ الإرسال...",
+      "success": "شكرًا لك، تم إرسال رسالتك.",
+      "failure": "لم نتمكن من إرسال تلك الرسالة الآن.",
+      "validation": {
+        "required": "يرجى إضافة كل من الموضوع والتفاصيل قبل الإرسال."
       }
     }
   },

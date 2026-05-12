@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Udělení tohoto oprávnění umožní uživateli se přihlašovat a odhlašovat.",
         "modifyTeamSpeakExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení integrace TeamSpeak.",
         "modifyShieldExplanation": "Udělení tohoto oprávnění umožní uživateli upravit nastavení Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "Udílení tohoto oprávnění umožní uživateli s tímto hodnocením trvale smazat účty komunity, které se nepřihlásily po vybraný počet dnů."
+        "purgeInactiveAccountsExplanation": "Udílení tohoto oprávnění umožní uživateli s tímto hodnocením trvale smazat účty komunity, které se nepřihlásily po vybraný počet dnů.",
+        "protectDocumentsExplanation": "Udělení tohoto oprávnění umožní uživateli s tímto hodnocením označit dokumenty jako chráněné, což umožňuje používat vodoznak a ochranu kopírování/vkládání."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Udělení tohoto oprávnění umožní uživateli vidět tlačítko Dashboard na boční navigační liště.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Odeslat Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Proveďte propagační tok"
     },
     "appSubmit": "Odeslat žádost/formulář",
     "editOwn": "Upravit vlastní formulář",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Opravdu chcete odejít? Ne všechny změny jsou uloženy.",
     "errorMissingPermissionsForThisFile": "Chyba: Chybí oprávnění pro tento soubor.",
     "errorYouDoNotHavePermissionToEditThisFil": "Chyba: Nemáte oprávnění upravovat tento soubor.",
-    "error": "Chyba:"
+    "error": "Chyba:",
+    "protectionOnlyAccess": "Pro tento dokument máte přístup pouze k ochraně, takže editor obsahu je skrytý."
   },
   "Roster": {
     "addRow": "Přidat řádek",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Nemáte zkopírována žádná specifická oprávnění kalendáře k vložení!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Nemáte zkopírována žádná oprávnění rozvrhu k vložení!",
     "youHaventCopiedAnySpecificRosterPermissi": "Nemáte zkopírována žádná specifická oprávnění rozvrhu k vložení!",
-    "newRank": "Nová hodnost"
+    "newRank": "Nová hodnost",
+    "protectDocuments": "Chránit Dokumenty (Drive)"
   },
   "calendarView": {
     "createEvent": "Vytvořit událost",
@@ -3551,7 +3555,8 @@
     "edit": "upravit",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktivní členové komunity s tímto odkazem mohou",
     "anyoneOnTheInternetWithThisLinkCanType": "Kdokoli na internetu s tímto odkazem může",
-    "activePendingCommunityMembersWithThisLin": "Aktivní a čekající členové komunity s tímto odkazem mohou"
+    "activePendingCommunityMembersWithThisLin": "Aktivní a čekající členové komunity s tímto odkazem mohou",
+    "ranksWithAccess": "Hodnosti s přístupem"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Změnit nastavení sdílení tohoto",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Důvod změny etapy (volitelné)",
     "stageChangeReasonDescription": "Vloží důvod změny etapy, pokud je uveden.",
     "includeStageChangeButton": "Zahrnout tlačítko pro změnu fáze",
-    "includeStageChangeButtonTooltip": "Přidá tlačítko pro změnu fáze Discordu, takže personál může změnit fázi formuláře a poskytnout volitelný důvod přímo z webhooku."
+    "includeStageChangeButtonTooltip": "Přidá tlačítko pro změnu fáze Discordu, takže personál může změnit fázi formuláře a poskytnout volitelný důvod přímo z webhooku.",
+    "executePromotionTrackDescription": "Tato akce použije vybraný propagační tok na vybraného člena/členy."
   },
   "FormRenderer": {
     "dragToReorder": "Přetáhněte pro změnu pořadí",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Sloučit účty",
     "allowsMembersToMergeAccounts": "Umožňuje členům sloučit dva účty dohromady, čímž se kombinují hodnosti a veškerá data komunity.",
     "purgeInactiveAccounts": "Vyčistit neaktivní účty",
-    "allowsMembersToPurgeInactiveAccounts": "Umožňuje členům trvale smazat účty komunity, které se nepřihlásily po vybraný počet dnů."
+    "allowsMembersToPurgeInactiveAccounts": "Umožňuje členům trvale smazat účty komunity, které se nepřihlásily po vybraný počet dnů.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Umožňuje členům označit dokumenty jako citlivé, což umožňuje používat vodoznak a ochranu kopírování/vkládání."
   },
   "permissionToggleGroup": {
     "inherited": "zděděné",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Tento proces lze spustit jak pro povýšení, tak pro degradaci.",
     "promotionOnly": "Pouze povýšení",
     "demotionOnly": "Pouze degradace",
-    "promotionAndDemotion": "Povýšení a degradace"
+    "promotionAndDemotion": "Povýšení a degradace",
+    "promotionFlowLabel": "Propagační tok",
+    "promotionFlowFieldLabel": "Pole propagačního toku",
+    "promotionFlowFieldSuffix": "pole propagačního toku",
+    "selectPromotionFlowFromCommunityConfiguration": "Vyberte propagační tok z konfigurace komunity.",
+    "promotionFlowOptionsLoaded": "Možnosti propagačního toku jsou dynamicky načítány z nakonfigurovaných toků propagací komunity.",
+    "allowedPromotionFlows": "Povolené toky propagace",
+    "allowedDirection": "Povolený směr",
+    "leaveFlowListEmptyMessage": "Nechte seznam toků prázdný, aby byly povoleny všechny propagační toky. Nastavte směr na Jakýkoliv, aby byly povoleny toky propagace i degradace.",
+    "anyDirection": "Jakýkoli směr",
+    "promoteOnly": "Pouze propagovat",
+    "demoteOnly": "Pouze degradovat",
+    "fixedFlow": "Pevný tok",
+    "fromFormField": "Z pole formuláře",
+    "flowSource": "Zdroj toku",
+    "direction": "Směr"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Zeptat se AI",
       "docs": "Dokumenty",
-      "support": "Podpora"
+      "support": "Podpora",
+      "feedback": "Zpětná vazba"
     },
     "insecureEmbed": {
       "title": "GitBook blokuje embed bez HTTPS",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Tento panel zde není dostupný. Dostupné možnosti: {availableOptions}.",
         "unavailableNoOptions": "V tomto kontextu nejsou k dispozici žádné cíle navigace CMS.",
         "openedSummary": "Otevřeno {label}."
+      }
+    },
+    "feedback": {
+      "title": "Odeslat zpětnou vazbu nebo hlášení o chybě",
+      "subtitle": "Řekněte nám, co funguje dobře, co je matoucí nebo co se rozbilo. Zabalíme kontext a odešleme týmu.",
+      "back": "Zpět na asistenta",
+      "typeLabel": "Typ zpětné vazby",
+      "types": {
+        "feedback": "Obecná zpětná vazba",
+        "bug": "Hlášení o chybě"
+      },
+      "subjectLabel": "Předmět",
+      "subjectPlaceholder": "Krátké shrnutí vaší zprávy",
+      "messageLabel": "Podrobnosti",
+      "messagePlaceholder": "Popište, co se stalo, co jste očekávali, a cokoliv, co bychom měli vědět.",
+      "contextCopy": "Automaticky zahrneme vaši aktuální stránku, účet, komunitu a verzi aplikace pro kontext.",
+      "reset": "Vymazat",
+      "submit": "Odeslat",
+      "submitting": "Odesílání...",
+      "success": "Děkujeme, vaše zpráva byla odeslána.",
+      "failure": "Tuto zprávu se nám nyní nepodařilo odeslat.",
+      "validation": {
+        "required": "Před odesláním přidejte prosím předmět i podrobnosti."
       }
     }
   },

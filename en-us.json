@@ -98,6 +98,7 @@
         "modifyToolbarExplanation": "Granting this permission will allow a user with this rank to customize the toolbar settings for the community.",
         "modifyPagesExplanation": "Granting this permission will allow a user with this rank to customize the pages for the community.",
         "modifyDocumentsExplanation": "Granting this permission will allow a user with this rank to manage all documents within the Sonoran CMS Community Drive.",
+        "protectDocumentsExplanation": "Granting this permission will allow a user with this rank to mark documents as protected, which enables watermarking and copy/paste protection.",
         "clockInOutExplanation": "Granting this permission will allow a user to clock in and out.",
         "modifyTeamSpeakExplanation": "Granting this permission will allow a user to modify the TeamSpeak integration settings.",
         "modifyShieldExplanation": "Granting this permission will allow a user to modify the Sonoran Shield settings."
@@ -188,7 +189,8 @@
       "executeDiscordDm": "Send Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Execute Promotion Flow"
     },
     "appSubmit": "Submit Application/Form",
     "editOwn": "Edit Own Form",
@@ -999,6 +1001,21 @@
     "promoteFrom": "Promote From",
     "promoteTo": "Promote To",
     "createNewPromotionFlow": "Create New Promotion Flow",
+    "promotionFlowLabel": "Promotion Flow",
+    "promotionFlowFieldLabel": "Promotion Flow Field",
+    "promotionFlowFieldSuffix": "promotion flow field",
+    "selectPromotionFlowFromCommunityConfiguration": "Select a promotion flow from the community configuration.",
+    "promotionFlowOptionsLoaded": "Promotion flow options are loaded dynamically from the community's configured promotion flows.",
+    "allowedPromotionFlows": "Allowed Promotion Flows",
+    "allowedDirection": "Allowed Direction",
+    "leaveFlowListEmptyMessage": "Leave the flow list empty to allow every promotion flow. Leave the direction set to Any to allow both promotion and demotion flows.",
+    "anyDirection": "Any direction",
+    "promoteOnly": "Promote only",
+    "demoteOnly": "Demote only",
+    "fixedFlow": "Fixed Flow",
+    "fromFormField": "From Form Field",
+    "flowSource": "Flow Source",
+    "direction": "Direction",
     "erlcNoti": "ER:LC Notification",
     "erlcHint": "ER:LC Hint",
     "discordWebhook": "Discord Webhook",
@@ -2591,6 +2608,7 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Are you sure you want to leave? Not all changes are saved.",
     "errorMissingPermissionsForThisFile": "Error: Missing permissions for this file.",
     "errorYouDoNotHavePermissionToEditThisFil": "Error: You do not have permission to edit this file.",
+    "protectionOnlyAccess": "You have protection-only access for this document, so the content editor is hidden.",
     "error": "Error:"
   },
   "Roster": {
@@ -3645,6 +3663,7 @@
     "ModifyToolbar": "Modify Toolbar",
     "modifyPages": "Modify Pages",
     "modifyAllDocumentsDrive": "Modify All Documents (Drive)",
+    "protectDocuments": "Protect Documents (Drive)",
     "clockInOut": "Clock In & Out",
     "viewDashboardNavigationButton": "View Dashboard Navigation Button",
     "viewDriveNavigationButton": "View Drive Navigation Button",
@@ -3922,7 +3941,8 @@
     "edit": "edit",
     "activeCommunityMembersWithThisLinkCanTyp": "Active community members with this link can",
     "anyoneOnTheInternetWithThisLinkCanType": "Anyone on the internet with this link can",
-    "activePendingCommunityMembersWithThisLin": "Active & pending community members with this link can"
+    "activePendingCommunityMembersWithThisLin": "Active & pending community members with this link can",
+    "ranksWithAccess": "Ranks with Access"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Change the share settings of this",
@@ -3995,6 +4015,7 @@
     "formsstagenotifysubmitteremaildescriptio": "The stage \"notify user via email\" action will automatically send a email to the submitter when the form's stage changes.",
     "formsstagedisableenablerepliesdescriptio": "The stage \"disable/enable form replies\" action will automatically disable/enable form replies for certain ranks when the form's stage changes.",
     "stageChangeDepartmentSlashRankDescription": "The stage \"modify rank(s)\" action will automatically change/set the user's ranks when the form's stage changes.",
+    "executePromotionTrackDescription": "This action will apply the selected promotion flow to the selected member(s).",
     "stageModifyCommunityStatus": "Stage Action: Modify Community Status",
     "stageModifyCommunityStatusDescription": "The stage \"modify user's community status\" action will automatically will modify the user's status, kick or ban when the form's stage changes.",
     "formsstageexecutediscordwebhookdescripti": "The stage \"execute Discord webhook\" action will automatically execute a Discord webhook when the form's stage changes.",
@@ -4782,6 +4803,7 @@
     "allowsMembersToChangeTheCommunityToolbar": "Allows members to change the community toolbar within the Website Builder in the Administrative Panel.",
     "allowsMembersToChangeCommunityPagesWithi": "Allows members to change community pages within the Website Builder in the Administrative Panel.",
     "grantsMembersFullAccessToTheDriveSystem": "Grants members full access to the Drive system.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Allows members to mark documents as sensitive, which enables watermarking and copy/paste protection.",
     "allowsMembersToClockInAndOut": "Allows members to clock in and out.",
     "allowsMembersToChangeTeamspeakIntegratio": "Allows members to change TeamSpeak Integration settings in the Administrative Panel.",
     "allowsMembersToChangeSonoranShieldSettin": "Allows members to change Sonoran Shield settings in the Administrative Panel.",
@@ -5412,7 +5434,31 @@
     "toolbar": {
       "askAi": "Ask AI",
       "docs": "Docs",
-      "support": "Support"
+      "support": "Support",
+      "feedback": "Feedback"
+    },
+    "feedback": {
+      "title": "Send feedback or a bug report",
+      "subtitle": "Tell us what is working well, what is confusing, or what broke. We'll package the context and send it to the team.",
+      "back": "Back to assistant",
+      "typeLabel": "Feedback type",
+      "types": {
+        "feedback": "General feedback",
+        "bug": "Bug report"
+      },
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Short summary of your message",
+      "messageLabel": "Details",
+      "messagePlaceholder": "Describe what happened, what you expected, and anything else we should know.",
+      "contextCopy": "We automatically include your current page, account, community, and app version for context.",
+      "reset": "Clear",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Thanks, your message was sent.",
+      "failure": "We couldn't send that message right now.",
+      "validation": {
+        "required": "Please add both a subject and details before sending."
+      }
     },
     "insecureEmbed": {
       "title": "GitBook Blocks Non-HTTPS Embeds",

@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi rejestrować czas pracy.",
         "modifyTeamSpeakExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi modyfikować ustawienia integracji TeamSpeak.",
         "modifyShieldExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi modyfikować ustawienia Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na trwałe usunięcie kont społeczności, które nie logowały się przez wybraną liczbę dni."
+        "purgeInactiveAccountsExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą na trwałe usunięcie kont społeczności, które nie logowały się przez wybraną liczbę dni.",
+        "protectDocumentsExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi z tą rangą oznaczać dokumenty jako chronione, co umożliwia znakowanie wodne i ochronę przed kopiowaniem/wklejaniem."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi zobaczyć przycisk Dashboard na pasku nawigacyjnym po lewej stronie.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Wyślij wiadomość prywatną na Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Uruchom Przebieg Promocji"
     },
     "appSubmit": "Złóż aplikację/formularz",
     "editOwn": "Edytuj własny formularz",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Czy na pewno chcesz opuścić? Nie wszystkie zmiany zostały zapisane.",
     "errorMissingPermissionsForThisFile": "Błąd: Brak uprawnień do tego pliku.",
     "errorYouDoNotHavePermissionToEditThisFil": "Błąd: Nie masz uprawnień do edytowania tego pliku.",
-    "error": "Błąd:"
+    "error": "Błąd:",
+    "protectionOnlyAccess": "Masz dostęp wyłącznie chroniony do tego dokumentu, więc edytor treści jest ukryty."
   },
   "Roster": {
     "addRow": "Dodaj wiersz",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Nie skopiowano żadnych określonych uprawnień kalendarza do wklejenia!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Nie skopiowano żadnych uprawnień grafiku do wklejenia!",
     "youHaventCopiedAnySpecificRosterPermissi": "Nie skopiowano żadnych określonych uprawnień grafiku do wklejenia!",
-    "newRank": "Nowa Ranga"
+    "newRank": "Nowa Ranga",
+    "protectDocuments": "Chroń Dokumenty (Drive)"
   },
   "calendarView": {
     "createEvent": "Utwórz Wydarzenie",
@@ -3551,7 +3555,8 @@
     "edit": "edytuj",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktywni członkowie społeczności z tym linkiem mogą",
     "anyoneOnTheInternetWithThisLinkCanType": "Każdy w internecie z tym linkiem może",
-    "activePendingCommunityMembersWithThisLin": "Aktywni i oczekujący członkowie społeczności z tym linkiem mogą"
+    "activePendingCommunityMembersWithThisLin": "Aktywni i oczekujący członkowie społeczności z tym linkiem mogą",
+    "ranksWithAccess": "Rangi z Dostępem"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Zmień ustawienia udostępniania tego",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Powód zmiany etapu (Opcjonalnie)",
     "stageChangeReasonDescription": "Wstawia powód zmiany etapu, jeśli podany.",
     "includeStageChangeButton": "Uwzględnij przycisk zmiany etapu",
-    "includeStageChangeButtonTooltip": "Dodaje przycisk zmiany etapu Discorda, aby personel mógł zmienić etap formularza i podać opcjonalny powód bezpośrednio z webhooka."
+    "includeStageChangeButtonTooltip": "Dodaje przycisk zmiany etapu Discorda, aby personel mógł zmienić etap formularza i podać opcjonalny powód bezpośrednio z webhooka.",
+    "executePromotionTrackDescription": "Ta akcja zastosuje wybrany przebieg promocji do wybranego(i) członka(ów)."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -4468,7 +4474,8 @@
     "mergeAccounts": "Scal Konto",
     "allowsMembersToMergeAccounts": "Umożliwia członkom scalanie dwóch kont, łącząc rangi i wszystkie dane społecznościowe.",
     "purgeInactiveAccounts": "Usuń nieaktywne konta",
-    "allowsMembersToPurgeInactiveAccounts": "Pozwala członkom na trwałe usunięcie kont społeczności, które nie logowały się przez wybraną liczbę dni."
+    "allowsMembersToPurgeInactiveAccounts": "Pozwala członkom na trwałe usunięcie kont społeczności, które nie logowały się przez wybraną liczbę dni.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Pozwala członkom na oznaczanie dokumentów jako wrażliwe, co umożliwia znakowanie wodne i ochronę przed kopiowaniem/wklejaniem."
   },
   "RadioPermSelector": {
     "setRadio": "ustawRadio"
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Ten proces może działać zarówno dla awansów, jak i degradacji.",
     "promotionOnly": "Tylko Awanse",
     "demotionOnly": "Tylko Degradacje",
-    "promotionAndDemotion": "Awanse i Degradacje"
+    "promotionAndDemotion": "Awanse i Degradacje",
+    "promotionFlowLabel": "Przebieg Promocji",
+    "promotionFlowFieldLabel": "Pole Przebiegu Promocji",
+    "promotionFlowFieldSuffix": "pole przebiegu promocji",
+    "selectPromotionFlowFromCommunityConfiguration": "Wybierz przebieg promocji z konfiguracji społeczności.",
+    "promotionFlowOptionsLoaded": "Opcje przebiegu promocji są ładowane dynamicznie z skonfigurowanych przebiegów promocji społeczności.",
+    "allowedPromotionFlows": "Dozwolone Przebiegi Promocji",
+    "allowedDirection": "Dozwolony Kierunek",
+    "leaveFlowListEmptyMessage": "Pozostaw listę przebiegów pustą, aby zezwolić na każdy przebieg promocji. Pozostaw kierunek ustawiony na Dowolny, aby zezwolić zarówno na przebiegi awansu, jak i degradacji.",
+    "anyDirection": "Dowolny kierunek",
+    "promoteOnly": "Tylko awans",
+    "demoteOnly": "Tylko degradacja",
+    "fixedFlow": "Stały Przebieg",
+    "fromFormField": "Z Pola Formularza",
+    "flowSource": "Źródło Przebiegu",
+    "direction": "Kierunek"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Zapytaj AI",
       "docs": "Dokumentacja",
-      "support": "Wsparcie"
+      "support": "Wsparcie",
+      "feedback": "Opinie"
     },
     "insecureEmbed": {
       "title": "GitBook blokuje osadzenia bez HTTPS",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Ten panel nie jest tutaj dostępny. Dostępne opcje: {availableOptions}.",
         "unavailableNoOptions": "W tym kontekście nie są dostępne żadne cele nawigacyjne CMS.",
         "openedSummary": "Otwarto {label}."
+      }
+    },
+    "feedback": {
+      "title": "Wyślij opinię lub zgłoszenie błędu",
+      "subtitle": "Powiedz nam, co działa dobrze, co jest mylące lub co się popsuło. Zapakujemy kontekst i wyślemy do zespołu.",
+      "back": "Powrót do asystenta",
+      "typeLabel": "Rodzaj opinii",
+      "types": {
+        "feedback": "Ogólne opinie",
+        "bug": "Zgłoszenie błędu"
+      },
+      "subjectLabel": "Temat",
+      "subjectPlaceholder": "Krótki zarys wiadomości",
+      "messageLabel": "Szczegóły",
+      "messagePlaceholder": "Opisz, co się stało, czego się spodziewałeś i wszystko inne, co powinniśmy wiedzieć.",
+      "contextCopy": "Automatycznie uwzględniamy Twoją bieżącą stronę, konto, społeczność i wersję aplikacji w kontekście.",
+      "reset": "Wyczyść",
+      "submit": "Wyślij",
+      "submitting": "Wysyłanie...",
+      "success": "Dziękujemy, Twoja wiadomość została wysłana.",
+      "failure": "Nie możemy teraz wysłać tej wiadomości.",
+      "validation": {
+        "required": "Proszę dodać zarówno temat, jak i szczegóły przed wysłaniem."
       }
     }
   },

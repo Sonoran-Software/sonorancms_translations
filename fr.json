@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Accorder cette permission permettra à un utilisateur de pointer à l'entrée et à la sortie.",
         "modifyTeamSpeakExplanation": "Accorder cette permission permettra à un utilisateur de modifier les paramètres d'intégration de TeamSpeak.",
         "modifyShieldExplanation": "Accorder cette permission permettra à un utilisateur de modifier les paramètres de Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer définitivement les comptes communautaires qui ne se sont pas connectés depuis le nombre de jours sélectionné."
+        "purgeInactiveAccountsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de supprimer définitivement les comptes communautaires qui ne se sont pas connectés depuis le nombre de jours sélectionné.",
+        "protectDocumentsExplanation": "Accorder cette permission permettra à un utilisateur avec ce rang de marquer des documents comme protégés, ce qui active le filigrane et la protection contre le copier/coller."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Accorder cette permission permettra à un utilisateur de voir le bouton Tableau de bord sur la barre de navigation latérale.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Envoyer un DM Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Exécuter le processus de promotion"
     },
     "appSubmit": "Soumettre une demande/un formulaire",
     "editOwn": "Modifier son propre formulaire",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Êtes-vous sûr de vouloir partir ? Tous les changements ne sont pas enregistrés.",
     "errorMissingPermissionsForThisFile": "Erreur : Permissions manquantes pour ce fichier.",
     "errorYouDoNotHavePermissionToEditThisFil": "Erreur : Vous n'avez pas la permission de modifier ce fichier.",
-    "error": "Erreur :"
+    "error": "Erreur :",
+    "protectionOnlyAccess": "Vous avez un accès en protection uniquement pour ce document, donc l'éditeur de contenu est masqué."
   },
   "Roster": {
     "addRow": "Ajouter une ligne",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Vous n'avez copié aucune permission spécifique du calendrier à coller !",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Vous n'avez copié aucune permission du planning à coller !",
     "youHaventCopiedAnySpecificRosterPermissi": "Vous n'avez copié aucune permission spécifique du planning à coller !",
-    "newRank": "Nouveau Rang"
+    "newRank": "Nouveau Rang",
+    "protectDocuments": "Protéger les documents (Drive)"
   },
   "calendarView": {
     "createEvent": "Créer un Événement",
@@ -3551,7 +3555,8 @@
     "edit": "modifier",
     "activeCommunityMembersWithThisLinkCanTyp": "Les membres actifs de la communauté avec ce lien peuvent",
     "anyoneOnTheInternetWithThisLinkCanType": "Tout le monde sur Internet avec ce lien peut",
-    "activePendingCommunityMembersWithThisLin": "Les membres actifs et en attente de la communauté avec ce lien peuvent"
+    "activePendingCommunityMembersWithThisLin": "Les membres actifs et en attente de la communauté avec ce lien peuvent",
+    "ranksWithAccess": "Rangs avec accès"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Changer les paramètres de partage de ce",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Motif du changement de scène (Optionnel)",
     "stageChangeReasonDescription": "Insère le motif du changement de scène si fourni.",
     "includeStageChangeButton": "Inclure le bouton de changement d'étape",
-    "includeStageChangeButtonTooltip": "Ajoute le bouton de changement d'étape Discord afin que le personnel puisse changer l'étape du formulaire et fournir une raison facultative directement depuis le webhook."
+    "includeStageChangeButtonTooltip": "Ajoute le bouton de changement d'étape Discord afin que le personnel puisse changer l'étape du formulaire et fournir une raison facultative directement depuis le webhook.",
+    "executePromotionTrackDescription": "Cette action appliquera le processus de promotion sélectionné aux membres sélectionnés."
   },
   "FormRenderer": {
     "dragToReorder": "Glisser pour réorganiser",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Fusionner des comptes",
     "allowsMembersToMergeAccounts": "Permet aux membres de fusionner deux comptes ensemble, combinant les rangs et toutes les données de la communauté.",
     "purgeInactiveAccounts": "Purger les comptes inactifs",
-    "allowsMembersToPurgeInactiveAccounts": "Permet aux membres de supprimer définitivement les comptes communautaires qui ne se sont pas connectés depuis le nombre de jours sélectionné."
+    "allowsMembersToPurgeInactiveAccounts": "Permet aux membres de supprimer définitivement les comptes communautaires qui ne se sont pas connectés depuis le nombre de jours sélectionné.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Permet aux membres de marquer les documents comme sensibles, ce qui active le filigrane et la protection contre le copier/coller."
   },
   "permissionToggleGroup": {
     "inherited": "hérité",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Ce flux peut fonctionner pour les promotions et les rétrogradations.",
     "promotionOnly": "Promotion uniquement",
     "demotionOnly": "Rétrogradation uniquement",
-    "promotionAndDemotion": "Promotion et rétrogradation"
+    "promotionAndDemotion": "Promotion et rétrogradation",
+    "promotionFlowLabel": "Processus de promotion",
+    "promotionFlowFieldLabel": "Champ de processus de promotion",
+    "promotionFlowFieldSuffix": "champ du processus de promotion",
+    "selectPromotionFlowFromCommunityConfiguration": "Sélectionnez un processus de promotion dans la configuration de la communauté.",
+    "promotionFlowOptionsLoaded": "Les options de processus de promotion sont chargées dynamiquement à partir des processus de promotion configurés de la communauté.",
+    "allowedPromotionFlows": "Processus de promotion autorisés",
+    "allowedDirection": "Direction autorisée",
+    "leaveFlowListEmptyMessage": "Laissez la liste des processus vide pour autoriser chaque processus de promotion. Laissez la direction réglée sur N'importe laquelle pour autoriser les processus de promotion et de rétrogradation.",
+    "anyDirection": "N'importe quelle direction",
+    "promoteOnly": "Promouvoir uniquement",
+    "demoteOnly": "Rétrograder uniquement",
+    "fixedFlow": "Processus fixe",
+    "fromFormField": "Depuis le champ de formulaire",
+    "flowSource": "Source du processus",
+    "direction": "Direction"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Aucun joueur trouvé... Rechercher",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Demander à l'IA",
       "docs": "Docs",
-      "support": "Support"
+      "support": "Support",
+      "feedback": "Retour d'information"
     },
     "insecureEmbed": {
       "title": "GitBook bloque les intégrations non-HTTPS",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Ce panneau n'est pas disponible ici. Options disponibles : {availableOptions}.",
         "unavailableNoOptions": "Aucune cible de navigation CMS n'est disponible dans ce contexte.",
         "openedSummary": "Ouvert {label}."
+      }
+    },
+    "feedback": {
+      "title": "Envoyer un retour ou un rapport de bug",
+      "subtitle": "Dites-nous ce qui fonctionne bien, ce qui est confus, ou ce qui est cassé. Nous emballerons le contexte et l'enverrons à l'équipe.",
+      "back": "Retour à l'assistant",
+      "typeLabel": "Type de retour",
+      "types": {
+        "feedback": "Retour général",
+        "bug": "Rapport de bug"
+      },
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Résumé court de votre message",
+      "messageLabel": "Détails",
+      "messagePlaceholder": "Décrivez ce qui s'est passé, ce que vous attendiez, et tout ce que nous devrions savoir.",
+      "contextCopy": "Nous incluons automatiquement votre page actuelle, votre compte, votre communauté et la version de l'application pour le contexte.",
+      "reset": "Effacer",
+      "submit": "Envoyer",
+      "submitting": "Envoi...",
+      "success": "Merci, votre message a été envoyé.",
+      "failure": "Nous n'avons pas pu envoyer ce message pour le moment.",
+      "validation": {
+        "required": "Veuillez ajouter à la fois un sujet et des détails avant d'envoyer."
       }
     }
   },

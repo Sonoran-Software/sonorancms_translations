@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om in en uit te klokken.",
         "modifyTeamSpeakExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de TeamSpeak-integratie-instellingen aan te passen.",
         "modifyShieldExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de Sonoran Shield-instellingen aan te passen.",
-        "purgeInactiveAccountsExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om gemeenschapsaccounts permanent te verwijderen die voor het geselecteerde aantal dagen niet hebben ingelogd."
+        "purgeInactiveAccountsExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om gemeenschapsaccounts permanent te verwijderen die voor het geselecteerde aantal dagen niet hebben ingelogd.",
+        "protectDocumentsExplanation": "Het verlenen van deze toestemming stelt een gebruiker met deze rang in staat om documenten als beschermd te markeren, wat watermarking en kopieer/plakbescherming mogelijk maakt."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Het verlenen van deze toestemming stelt een gebruiker in staat om de Dashboard-knop op de zijbalk te zien.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Stuur Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Promotieflow uitvoeren"
     },
     "appSubmit": "Toepassing/Formulier Indienen",
     "editOwn": "Eigen Formulier Bewerken",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Weet u zeker dat u wilt vertrekken? Niet alle wijzigingen zijn opgeslagen.",
     "errorMissingPermissionsForThisFile": "Fout: Ontbrekende machtigingen voor dit bestand.",
     "errorYouDoNotHavePermissionToEditThisFil": "Fout: U heeft geen toestemming om dit bestand te bewerken.",
-    "error": "Fout:"
+    "error": "Fout:",
+    "protectionOnlyAccess": "Je hebt alleen toegang tot bescherming voor dit document, dus de inhoudseditor is verborgen."
   },
   "Roster": {
     "addRow": "Rij toevoegen",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Je hebt geen specifieke kalenderrechten gekopieerd om te plakken!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Je hebt geen alle roosterrechten gekopieerd om te plakken!",
     "youHaventCopiedAnySpecificRosterPermissi": "Je hebt geen specifieke roosterrechten gekopieerd om te plakken!",
-    "newRank": "Nieuwe Rang"
+    "newRank": "Nieuwe Rang",
+    "protectDocuments": "Documenten beschermen (Drive)"
   },
   "calendarView": {
     "createEvent": "Evenement Aanmaken",
@@ -3551,7 +3555,8 @@
     "edit": "bewerken",
     "activeCommunityMembersWithThisLinkCanTyp": "Actieve gemeenschapsleden met deze link kunnen",
     "anyoneOnTheInternetWithThisLinkCanType": "Iedereen op het internet met deze link kan",
-    "activePendingCommunityMembersWithThisLin": "Actieve & in afwachting zijnde gemeenschapsleden met deze link kunnen"
+    "activePendingCommunityMembersWithThisLin": "Actieve & in afwachting zijnde gemeenschapsleden met deze link kunnen",
+    "ranksWithAccess": "Rangen met toegang"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Deelinstellingen van deze",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Reden fasewijziging (optioneel)",
     "stageChangeReasonDescription": "Voegt de reden voor fasewijziging in indien opgegeven.",
     "includeStageChangeButton": "Fasewijzigingsknop toevoegen",
-    "includeStageChangeButtonTooltip": "Voegt de Discord fasewijzigingsknop toe zodat personeel de formuliervolgorde kan aanpassen en direct vanuit de webhook een optionele reden kan geven."
+    "includeStageChangeButtonTooltip": "Voegt de Discord fasewijzigingsknop toe zodat personeel de formuliervolgorde kan aanpassen en direct vanuit de webhook een optionele reden kan geven.",
+    "executePromotionTrackDescription": "Deze actie zal de geselecteerde promotieflow toepassen op de geselecteerde lid(en)."
   },
   "FormRenderer": {
     "dragToReorder": "Sleep om te herschikken",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Accounts samenvoegen",
     "allowsMembersToMergeAccounts": "Laat leden toe om twee accounts samen te voegen, inclusief rangen en alle communitygegevens.",
     "purgeInactiveAccounts": "Inactieve accounts zuiveren",
-    "allowsMembersToPurgeInactiveAccounts": "Stelt leden in staat om gemeenschapsaccounts permanent te verwijderen die niet hebben ingelogd voor het geselecteerde aantal dagen."
+    "allowsMembersToPurgeInactiveAccounts": "Stelt leden in staat om gemeenschapsaccounts permanent te verwijderen die niet hebben ingelogd voor het geselecteerde aantal dagen.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Staat leden toe om documenten als gevoelig te markeren, wat watermarking en kopieer/plakbescherming mogelijk maakt."
   },
   "permissionToggleGroup": {
     "inherited": "geërfd",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Deze stroom kan draaien voor zowel promoties als degradaties.",
     "promotionOnly": "Alleen promotie",
     "demotionOnly": "Alleen degradatie",
-    "promotionAndDemotion": "Promotie en degradatie"
+    "promotionAndDemotion": "Promotie en degradatie",
+    "promotionFlowLabel": "Promotieflow",
+    "promotionFlowFieldLabel": "Promotieflowveld",
+    "promotionFlowFieldSuffix": "promotieflowveld",
+    "selectPromotionFlowFromCommunityConfiguration": "Selecteer een promotieflow uit de communityconfiguratie.",
+    "promotionFlowOptionsLoaded": "Promotieflowopties worden dynamisch geladen uit de geconfigureerde promotieflows van de community.",
+    "allowedPromotionFlows": "Toegestane promotieflows",
+    "allowedDirection": "Toegestane richting",
+    "leaveFlowListEmptyMessage": "Laat de stromingslijst leeg om elke promotieflow toe te staan. Laat de richting ingesteld op 'Elke' om zowel promotie- als demotieflows toe te staan.",
+    "anyDirection": "Elke richting",
+    "promoteOnly": "Alleen promoten",
+    "demoteOnly": "Alleen degraderen",
+    "fixedFlow": "Vaste flow",
+    "fromFormField": "Van formulierveld",
+    "flowSource": "Flowbron",
+    "direction": "Richting"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Vraag AI",
       "docs": "Documentatie",
-      "support": "Ondersteuning"
+      "support": "Ondersteuning",
+      "feedback": "Feedback"
     },
     "insecureEmbed": {
       "title": "GitBook Blokkeert Niet-HTTPS Embeds",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Dat paneel is hier niet beschikbaar. Beschikbare opties: {availableOptions}.",
         "unavailableNoOptions": "Er zijn geen CMS-navigatiedoelen beschikbaar in deze context.",
         "openedSummary": "Geopend {label}."
+      }
+    },
+    "feedback": {
+      "title": "Verstuur feedback of een bugrapport",
+      "subtitle": "Vertel ons wat goed werkt, wat verwarrend is, of wat kapot is. We pakken de context in en sturen het naar het team.",
+      "back": "Terug naar assistent",
+      "typeLabel": "Feedbacktype",
+      "types": {
+        "feedback": "Algemene feedback",
+        "bug": "Buggerrapport"
+      },
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Korte samenvatting van je bericht",
+      "messageLabel": "Details",
+      "messagePlaceholder": "Beschrijf wat er is gebeurd, wat je verwachtte en wat we verder moeten weten.",
+      "contextCopy": "We voegen automatisch je huidige pagina, account, community en appversie toe voor context.",
+      "reset": "Wissen",
+      "submit": "Verzenden",
+      "submitting": "Bezig met verzenden...",
+      "success": "Bedankt, je bericht is verzonden.",
+      "failure": "We konden dat bericht nu niet verzenden.",
+      "validation": {
+        "required": "Voeg zowel een onderwerp als details toe voordat je verzendt."
       }
     }
   },

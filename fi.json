@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Tämän luvan myöntäminen sallii käyttäjän kirjautua sisään ja ulos.",
         "modifyTeamSpeakExplanation": "Tämän luvan myöntäminen sallii käyttäjän muokata TeamSpeak-integraation asetuksia.",
         "modifyShieldExplanation": "Tämän luvan myöntäminen sallii käyttäjän muokata Sonoran Shield -asetuksia.",
-        "purgeInactiveAccountsExplanation": "Tämän oikeuden myöntäminen antaa tämän tason käyttäjälle mahdollisuuden poistaa pysyvästi yhteisön tilit, jotka eivät ole kirjautuneet valittuun päivien määrään."
+        "purgeInactiveAccountsExplanation": "Tämän oikeuden myöntäminen antaa tämän tason käyttäjälle mahdollisuuden poistaa pysyvästi yhteisön tilit, jotka eivät ole kirjautuneet valittuun päivien määrään.",
+        "protectDocumentsExplanation": "Tämän oikeuden myöntäminen antaa tähän arvoon kuuluvalle käyttäjälle mahdollisuuden merkitä asiakirjat suojatuiksi, mikä mahdollistaa vesileimojen lisäämisen ja kopioinnin/liittämisen suojan."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Tämän luvan myöntäminen sallii käyttäjän nähdä Hallintapaneelin painikkeen sivunavigointipalkissa.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Lähetä Discord DM",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Suorita ylennysprosessi"
     },
     "appSubmit": "Lähetä hakemus/lomake",
     "editOwn": "Muokkaa omaa lomaketta",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Oletko varma, että haluat poistua? Kaikkia muutoksia ei ole tallennettu.",
     "errorMissingPermissionsForThisFile": "Virhe: Puuttuvat oikeudet tälle tiedostolle.",
     "errorYouDoNotHavePermissionToEditThisFil": "Virhe: Sinulla ei ole oikeutta muokata tätä tiedostoa.",
-    "error": "Virhe:"
+    "error": "Virhe:",
+    "protectionOnlyAccess": "Sinulla on vain suojausoikeudet tähän asiakirjaan, joten sisällön muokkaus on piilotettu."
   },
   "Roster": {
     "addRow": "Lisää rivi",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Et ole kopioinut mitään erityisiä kalenterioikeuksia liitettäväksi!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Et ole kopioinut mitään kaikkia työvuorolista-oikeuksia liitettäväksi!",
     "youHaventCopiedAnySpecificRosterPermissi": "Et ole kopioinut mitään erityisiä työvuorolista-oikeuksia liitettäväksi!",
-    "newRank": "Uusi Arvo"
+    "newRank": "Uusi Arvo",
+    "protectDocuments": "Suojaa asiakirjat (Drive)"
   },
   "calendarView": {
     "createEvent": "Luo Tapahtuma",
@@ -3551,7 +3555,8 @@
     "edit": "muokkaa",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktiiviset yhteisön jäsenet tällä linkillä voivat",
     "anyoneOnTheInternetWithThisLinkCanType": "Kuka tahansa internetissä tällä linkillä voi",
-    "activePendingCommunityMembersWithThisLin": "Aktiiviset ja odottavat yhteisön jäsenet tällä linkillä voivat"
+    "activePendingCommunityMembersWithThisLin": "Aktiiviset ja odottavat yhteisön jäsenet tällä linkillä voivat",
+    "ranksWithAccess": "Arvot, joilla on käyttöoikeus"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Muuta tämän jakamisasetuksia",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Vaiheenvaihdon syy (valinnainen)",
     "stageChangeReasonDescription": "Lisää vaiheenvaihdon syy, jos annettu.",
     "includeStageChangeButton": "Sisällytä vaihteen vaihtopainike",
-    "includeStageChangeButtonTooltip": "Lisää Discordin vaihteen vaihtopainike, jotta henkilökunta voi vaihtaa lomakkeen vaihetta ja antaa valinnaisen syyn suoraan webhookista."
+    "includeStageChangeButtonTooltip": "Lisää Discordin vaihteen vaihtopainike, jotta henkilökunta voi vaihtaa lomakkeen vaihetta ja antaa valinnaisen syyn suoraan webhookista.",
+    "executePromotionTrackDescription": "Tämä toiminto soveltaa valittua ylennysprosessia valittuihin jäseniin."
   },
   "FormRenderer": {
     "dragToReorder": "Vedä järjestääksesi uudelleen",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Yhdistä tilit",
     "allowsMembersToMergeAccounts": "Sallii jäsenten yhdistää kaksi tiliä, yhdistäen arvot ja kaiken yhteisön tiedon.",
     "purgeInactiveAccounts": "Poista aktiivisettomat tilit",
-    "allowsMembersToPurgeInactiveAccounts": "Sallii jäsenille pysyvästi poistaa yhteisön tilit, jotka eivät ole kirjautuneet valittuun päivien määrään."
+    "allowsMembersToPurgeInactiveAccounts": "Sallii jäsenille pysyvästi poistaa yhteisön tilit, jotka eivät ole kirjautuneet valittuun päivien määrään.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "Sallii jäsenten merkitä asiakirjat arkaluonteisiksi, mikä mahdollistaa vesileimojen lisäämisen ja kopioinnin/liittämisen suojan."
   },
   "permissionToggleGroup": {
     "inherited": "peritty",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Tämä virta voidaan suorittaa sekä ylennyksille että alennuksille.",
     "promotionOnly": "Vain ylennys",
     "demotionOnly": "Vain alennus",
-    "promotionAndDemotion": "Ylennys ja alennus"
+    "promotionAndDemotion": "Ylennys ja alennus",
+    "promotionFlowLabel": "Ylennysprosessi",
+    "promotionFlowFieldLabel": "Ylennysprosessikenttä",
+    "promotionFlowFieldSuffix": "ylennysprosessikenttä",
+    "selectPromotionFlowFromCommunityConfiguration": "Valitse ylennysprosessi yhteisön kokoonpanosta.",
+    "promotionFlowOptionsLoaded": "Ylennysprosessin vaihtoehdot ladataan dynaamisesti yhteisön määritettyjen ylennysprosessien perusteella.",
+    "allowedPromotionFlows": "Sallitut ylennysprosessit",
+    "allowedDirection": "Sallittu suunta",
+    "leaveFlowListEmptyMessage": "Jätä prosessilista tyhjäksi salliaksesi kaikki ylennysprosessit. Jätä suunta asetettuun 'Mikä tahansa' salliaksesi sekä ylennys- että alennusprosessit.",
+    "anyDirection": "Mikä tahansa suunta",
+    "promoteOnly": "Vain ylennys",
+    "demoteOnly": "Vain alennus",
+    "fixedFlow": "Kiinteä prosessi",
+    "fromFormField": "Lomakekentästä",
+    "flowSource": "Prosessin lähde",
+    "direction": "Suunta"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Kysy tekoälyltä",
       "docs": "Dokumentit",
-      "support": "Tuki"
+      "support": "Tuki",
+      "feedback": "Palaute"
     },
     "insecureEmbed": {
       "title": "GitBook estää ei-HTTPS-upotukset",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "Tämä paneeli ei ole täällä käytettävissä. Saatavilla olevat vaihtoehdot: {availableOptions}.",
         "unavailableNoOptions": "Tässä kontekstissa ei ole käytettävissä CMS-navigointikohteita.",
         "openedSummary": "Avattu {label}."
+      }
+    },
+    "feedback": {
+      "title": "Lähetä palaute tai virheraportti",
+      "subtitle": "Kerro meille, mikä toimii hyvin, mikä on hämmentävää tai mikä meni pieleen. Paketoimme kontekstin ja lähetämme sen tiimille.",
+      "back": "Takaisin assistenttiin",
+      "typeLabel": "Palauteen tyyppi",
+      "types": {
+        "feedback": "Yleinen palaute",
+        "bug": "Virheraportti"
+      },
+      "subjectLabel": "Aihe",
+      "subjectPlaceholder": "Lyhyt yhteenveto viestistäsi",
+      "messageLabel": "Yksityiskohdat",
+      "messagePlaceholder": "Kuvaile, mitä tapahtui, mitä odotit ja mitä muuta meidän pitäisi tietää.",
+      "contextCopy": "Sisällytämme automaattisesti nykyisen sivusi, tilisi, yhteisösi ja sovelluksen version kontekstiksi.",
+      "reset": "Tyhjennä",
+      "submit": "Lähetä",
+      "submitting": "Lähetetään...",
+      "success": "Kiitos, viestisi on lähetetty.",
+      "failure": "Emme pystyneet lähettämään viestiä juuri nyt.",
+      "validation": {
+        "required": "Lisää sekä aihe että yksityiskohdat ennen lähettämistä."
       }
     }
   },

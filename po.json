@@ -99,7 +99,8 @@
         "clockInOutExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi rejestrować czas pracy.",
         "modifyTeamSpeakExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi modyfikować ustawienia integracji TeamSpeak.",
         "modifyShieldExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi modyfikować ustawienia Sonoran Shield.",
-        "purgeInactiveAccountsExplanation": "Conceder esta permissão permitirá que um usuário com este nível exclua permanentemente contas da comunidade que não tenham se logado pelo número selecionado de dias."
+        "purgeInactiveAccountsExplanation": "Conceder esta permissão permitirá que um usuário com este nível exclua permanentemente contas da comunidade que não tenham se logado pelo número selecionado de dias.",
+        "protectDocumentsExplanation": "Dat otourize arzhoù-mañ a raio d'un implijer gant ar renk-mañ merkañ teulioù evel difennet, a c'hallit hennezh merata evit hor siochañ hag aspadenniñ."
       },
       "navigation": {
         "viewDashboardBtnExplanation": "Przyznanie tego uprawnienia pozwoli użytkownikowi zobaczyć przycisk Dashboard na pasku nawigacyjnym po lewej stronie.",
@@ -198,7 +199,8 @@
       "executeDiscordDm": "Wyślij wiadomość prywatną na Discord",
       "applyDisciplinaryPoints": "Apply Disciplinary Points",
       "executeERLCCommand": "Execute ER:LC Command",
-      "modifyRosterColumn": "Modify Roster Column"
+      "modifyRosterColumn": "Modify Roster Column",
+      "executePromotionTrack": "Lakaat da wir an derou loc'hañ"
     },
     "appSubmit": "Złóż aplikację/formularz",
     "editOwn": "Edytuj własny formularz",
@@ -2225,7 +2227,8 @@
     "areYouSureYouWantToLeaveNotAllChangesAre": "Czy na pewno chcesz opuścić? Nie wszystkie zmiany zostały zapisane.",
     "errorMissingPermissionsForThisFile": "Błąd: Brak uprawnień do tego pliku.",
     "errorYouDoNotHavePermissionToEditThisFil": "Błąd: Nie masz uprawnień do edytowania tego pliku.",
-    "error": "Błąd:"
+    "error": "Błąd:",
+    "protectionOnlyAccess": "Bez it 'n ul lec'h difennet war geloù ar c'hennadenny, sioc’hman da opens ar c’hoar."
   },
   "Roster": {
     "addRow": "Dodaj wiersz",
@@ -3308,7 +3311,8 @@
     "youHaventCopiedAnySpecificCalendarPermis": "Nie skopiowano żadnych określonych uprawnień kalendarza do wklejenia!",
     "youHaventCopiedAnyAllRosterPermissionsTo": "Nie skopiowano żadnych uprawnień grafiku do wklejenia!",
     "youHaventCopiedAnySpecificRosterPermissi": "Nie skopiowano żadnych określonych uprawnień grafiku do wklejenia!",
-    "newRank": "Nowa Ranga"
+    "newRank": "Nowa Ranga",
+    "protectDocuments": "Diwaskañ ar Teulioù (Drive)"
   },
   "calendarView": {
     "createEvent": "Utwórz Wydarzenie",
@@ -3551,7 +3555,8 @@
     "edit": "edytuj",
     "activeCommunityMembersWithThisLinkCanTyp": "Aktywni członkowie społeczności z tym linkiem mogą",
     "anyoneOnTheInternetWithThisLinkCanType": "Każdy w internecie z tym linkiem może",
-    "activePendingCommunityMembersWithThisLin": "Aktywni i oczekujący członkowie społeczności z tym linkiem mogą"
+    "activePendingCommunityMembersWithThisLin": "Aktywni i oczekujący członkowie społeczności z tym linkiem mogą",
+    "ranksWithAccess": "Renkoù gant Mont-a-barz"
   },
   "ModifyPermsDialog": {
     "changeTheShareSettingsOfThis": "Zmień ustawienia udostępniania tego",
@@ -3683,7 +3688,8 @@
     "stageChangeReasonLabel": "Motivo da Mudança de Estágio (Opcional)",
     "stageChangeReasonDescription": "Insere o motivo da mudança de estágio, se fornecido.",
     "includeStageChangeButton": "Incluir Botão de Mudança de Etapa",
-    "includeStageChangeButtonTooltip": "Adiciona o botão de mudança de etapa do Discord para que a equipe possa mudar a etapa do formulário e fornecer uma razão opcional diretamente do webhook."
+    "includeStageChangeButtonTooltip": "Adiciona o botão de mudança de etapa do Discord para que a equipe possa mudar a etapa do formulário e fornecer uma razão opcional diretamente do webhook.",
+    "executePromotionTrackDescription": "Ar ouizrouzmañenn-se el lakaio an derou luc'hañ dibred war ar berzhed daöl."
   },
   "FormRenderer": {
     "dragToReorder": "Przeciągnij, aby zmienić kolejność",
@@ -4379,7 +4385,8 @@
     "mergeAccounts": "Mesclar Contas",
     "allowsMembersToMergeAccounts": "Permite que os membros mesclem duas contas, combinando classificações e todos os dados da comunidade.",
     "purgeInactiveAccounts": "Purgar Contas Inativas",
-    "allowsMembersToPurgeInactiveAccounts": "Permite que membros apaguem permanentemente contas da comunidade que não tenham se logado pelo número selecionado de dias."
+    "allowsMembersToPurgeInactiveAccounts": "Permite que membros apaguem permanentemente contas da comunidade que não tenham se logado pelo número selecionado de dias.",
+    "allowsMembersToMarkDocumentsAsSensitiveAndApplyWatermarking": "En aotre memes anere vaodik a sondagur ago ar veul, hag herüsda nèveven ha 'pehez."
   },
   "permissionToggleGroup": {
     "inherited": "dziedziczone",
@@ -5117,7 +5124,22 @@
     "flowLockedBothModes": "Este fluxo pode ser executado tanto para promoções quanto para despromoções.",
     "promotionOnly": "Apenas Promoção",
     "demotionOnly": "Apenas Despromoção",
-    "promotionAndDemotion": "Promoção e Despromoção"
+    "promotionAndDemotion": "Promoção e Despromoção",
+    "promotionFlowLabel": "Derou Luc'hañ",
+    "promotionFlowFieldLabel": "Maez Derou Luc'hañ",
+    "promotionFlowFieldSuffix": "maez derou luc'hañ",
+    "selectPromotionFlowFromCommunityConfiguration": "Dibar un derou luc'hañ eus ked c'hoariet ar gumuniezh.",
+    "promotionFlowOptionsLoaded": "Talabesoù derou luc'hañ oa leyet dre hartañh eus ar bilan ked ar loc'hañ.",
+    "allowedPromotionFlows": "Derou Luc'hañ Aotreet",
+    "allowedDirection": "Kevrud Aotreet",
+    "leaveFlowListEmptyMessage": "Leusker ar roll derou goun ha setiz e 'Cerrar lenep holl derou luc'hañ. Leusker ar gevrud konsañ 'Peh' da aotreañ up-to c'hoar' c'houeze an hafoennioù luc'hañ hag endo.",
+    "anyDirection": "Eun kevrud benet",
+    "promoteOnly": "Sevel hepken",
+    "demoteOnly": "Disgas hepken",
+    "fixedFlow": "Derou Stagner",
+    "fromFormField": "A-maez ar Maez",
+    "flowSource": "Siuazhañ ar Derou",
+    "direction": "Kevrud"
   },
   "GameIndex": {
     "noPlayersFoundSearch": "Nie znaleziono graczy... Szukaj",
@@ -5223,7 +5245,8 @@
     "toolbar": {
       "askAi": "Perguntar à IA",
       "docs": "Documentos",
-      "support": "Suporte"
+      "support": "Suporte",
+      "feedback": "Adc'hañil"
     },
     "insecureEmbed": {
       "title": "GitBook Bloqueia Embeds Não-HTTPS",
@@ -5466,6 +5489,29 @@
         "unavailableSummary": "That panel is not available here. Available options: {availableOptions}.",
         "unavailableNoOptions": "No CMS navigation targets are available in this context.",
         "openedSummary": "Opened {label}."
+      }
+    },
+    "feedback": {
+      "title": "Kas adc'hañil pe abredik maila",
+      "subtitle": "Raec'art nevez delarizou ma âna maponidik, petra zizerc'hellet c'hoar ou kas pel as an diet. Raelot ar gourdiou aur man poad'r ur gorbas d'hor ban.",
+      "back": "Distroid d'ar c'hrouizour",
+      "typeLabel": "Seurto adc'hañil",
+      "types": {
+        "feedback": "Solis kenerez",
+        "bug": "Mailere bresk"
+      },
+      "subjectLabel": "Kav",
+      "subjectPlaceholder": "Disilver disklav d'ho kȩnn",
+      "messageLabel": "Perdezi",
+      "messagePlaceholder": "Alleg' bec'hifaz gwaliul, pegnaïn herüsaniuj buez kuttout",
+      "contextCopy": "Suplexoht ma treálise a-ked d'an alméndou, an adsamaeloù, ar gumuniezh hag ar verzion gleud da ermouez.",
+      "reset": "Gougeizh",
+      "submit": "Korbam",
+      "submitting": "Korbemploi...",
+      "success": "Trugarez, ho keleir-electrad zo bet kuzhet.",
+      "failure": "Ni e c'houneume ket 'n he veilh a brodlenm kennoc'hañno.",
+      "validation": {
+        "required": "Plijait prennaït bennak un kav ha perdezi koulz da empetiennek kenz."
       }
     }
   },
