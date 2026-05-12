@@ -4906,7 +4906,7 @@
     "changeOwnDisplayName": "Change Display Name",
     "allowsMembersToManageOwnDisplayName": "Allows members to manage their own display name.",
     "allowsMembersToPurgeInactiveAccounts": "Allows members to permanently delete community accounts that have not logged in for the selected number of days.",
-    "changeOtherDisplayName": "Change user Display Name",
+    "changeOtherDisplayName": "Change Member's Display Name",
     "allowsMembersToManageOtherDisplayName": "Allows members to manage other members display name.",
     "manageActivityTracker": "Manage Activity Tracker",
     "allowsMembersToEditActivityTrackerLogsOnThisRoster": "Allows members to edit Activity Tracker logs on this roster.",
