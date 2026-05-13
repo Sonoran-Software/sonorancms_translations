@@ -16,14 +16,17 @@
     "activeDisciplinaryPoints": "Active Disciplinary Points",
     "activeSecurityFlags": "Active Security Flags",
     "profile": "profile",
-    "visit": "Visit",
-    "upload": "Upload"
+    "upload": "Upload",
+    "visit": "Visit"
   },
   "accountCard": {
     "communityAvatar": "Community Avatar",
     "communityName": "Community Name",
     "communityProfile": "Community Profile",
     "communityRank": "Community Rank"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Select Community Profile"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:",
@@ -96,6 +99,7 @@
     "confirmation": "Confirmation",
     "connections": "Connections",
     "copyDiscordId": "Copy Discord ID",
+    "copyRawPermissions": "Copy Raw Permissions",
     "copyRobloxId": "Copy Roblox ID",
     "copyTeamspeakId": "Copy TeamSpeak ID",
     "days": "Days",
@@ -137,8 +141,10 @@
     "mergeAccountsDescription": "Merging the source account into the target account will move all form submissions, events, forum topics & replies, and other historical data from the source account to the target account. The source account will then be archived. This action cannot be undone, so please proceed with caution.",
     "mergeFailed": "Merge Failed:",
     "mergeSuccessful": "Account Merge Successful!",
+    "minimumInactivityWindowDays": "Minimum inactivity window (days)",
     "modifyExpiration": "Modify Automation",
     "multiaccount": "Multi-Account",
+    "multiAccountBanConfiguration": "Multi-Account Ban Configuration",
     "multiaccountRankChange": "Multi-Account Rank Change",
     "na": "N/A",
     "name": "Name",
@@ -209,10 +215,7 @@
     "viewAllPermissions": "View All Permissions",
     "warning": "Warning",
     "yes": "Yes",
-    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
-    "multiAccountBanConfiguration": "Multi-Account Ban Configuration",
-    "copyRawPermissions": "Copy Raw Permissions",
-    "minimumInactivityWindowDays": "Minimum inactivity window (days)"
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name."
   },
   "Aces": {
     "add": "Add",
@@ -234,6 +237,7 @@
     "youProbablyNeedToUpdateYourServers": "You probably need to update your servers"
   },
   "actionsEditor": {
+    "calendarCategories": "Calendar Categories",
     "calendarEvents": "Calender Events",
     "checked": "Checked",
     "clockIn": "Clock In",
@@ -300,6 +304,7 @@
     "rsvpDiscordMentionsVariableLabel": "RSVP List Discord Mentions",
     "serverInSession": "Server In-Session",
     "servers": "Server(s)",
+    "servers2": "Servers",
     "serverSessions": "Server Sessions",
     "sessionEnd": "Session End",
     "sessionStart": "Session Start",
@@ -313,9 +318,12 @@
     "type": "Type",
     "unchecked": "Unchecked",
     "unknownAction": "Unknown Action",
-    "value": "Value",
-    "calendarCategories": "Calendar Categories",
-    "servers2": "Servers"
+    "value": "Value"
+  },
+  "activityHoursView": {
+    "end": "End",
+    "start": "Start",
+    "trash": "Trash"
   },
   "AdminPanel": {
     "accountsaccounts": "Accounts",
@@ -431,11 +439,11 @@
     "erlcNoti": "ERLC Notification",
     "erlcNotiContent": "ERLC Notification Content",
     "erlcNotiContentDescription": "This action will automatically send a ERLC notification to the desired ERLC server every X minutes.",
+    "eRLCServer": "ERLC Server",
     "roles": "Role(s)",
     "webhookChannel": "Webhook Channel",
     "webhookContentHint": "Message sent with the Discord Embed",
-    "webhookEmbedContent": "Embed Content",
-    "eRLCServer": "ERLC Server"
+    "webhookEmbedContent": "Embed Content"
   },
   "AutomatedActions": {
     "discordDm": "Discord DM",
@@ -688,11 +696,11 @@
   "BanConfiguration": {
     "applyBan": "Apply Ban",
     "banExpiration": "Ban Expiration",
+    "banReason": "Ban Reason",
     "close": "Close",
     "daysAheadToExpire": "Days Ahead to Expire",
     "permanent": "Permanent",
-    "temporary": "Temporary",
-    "banReason": "Ban Reason"
+    "temporary": "Temporary"
   },
   "BanConfigurationDialog": {
     "banConfiguration": "Ban Configuration"
@@ -757,6 +765,9 @@
     "trial": "TRIAL",
     "unknownErrorOccuredWhileAttemptingToGene": "Unknown error occured while attempting to generate checkout, please try again later.",
     "unpaid": "UNPAID"
+  },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Select the amount of GB storage you would like to add to your community."
   },
   "ButtonGroupForm": {
     "addButton": "Add Button",
@@ -941,6 +952,9 @@
     "header": "Header",
     "square": "Square",
     "title": "Title"
+  },
+  "carouselEl": {
+    "noImagesOptionsSet": "No Images Options Set"
   },
   "CarouselForm": {
     "add": "Add",
@@ -1268,6 +1282,39 @@
     "latestVersion": "Latest version:",
     "unauthorizedMissingPermissionsToDownload": "Unauthorized: Missing permissions to download core resource. Permission: MODIFY_INTEGRATION"
   },
+  "comManagementDialog": {
+    "back": "Back",
+    "calendarCategories": "Calendar Categories",
+    "createTemplate": "Create Template",
+    "departments": "Departments",
+    "forms": "Forms",
+    "noCalendarCategories": "No Calendar Categories",
+    "noDepartments": "No Departments",
+    "noPages": "No Pages",
+    "noRosters": "No Rosters",
+    "noStageGroups": "No Stage Groups",
+    "noStages": "No Stages",
+    "notAssociated": "Not Associated",
+    "noTemplatesFoundOnYourAccount": "No templates found on your account.",
+    "noToolbarItems": "No Toolbar Items",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Once removed it will no longer be accessible through this dialog.",
+    "pages": "Pages",
+    "return": "Return",
+    "rosters": "Rosters",
+    "save": "Save",
+    "stageGroups": "Stage Groups",
+    "stages": "Stages",
+    "submit": "Submit",
+    "templateCreationBasicInformation": "Template Creation - Basic Information",
+    "templateCreationDataSelection": "Template Creation - Data Selection",
+    "templateCreationFinalize": "Template Creation - Finalize",
+    "templateDescription": "Template Description",
+    "templateManage": "Template Manage -",
+    "templateTitle": "Template Title",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "This page is no longer associated with the community which means it no longer can be updated.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "This will update this page with what your community currently has, this is irreversible once the template is saved.",
+    "view": "View"
+  },
   "common": {
     "add": "Add",
     "calCates": "Calendar Categories",
@@ -1326,6 +1373,11 @@
     "successfullyLeft": "Successfully left",
     "youCannotLeaveACommunityThatYouOwn": "You cannot leave a community that you own!"
   },
+  "communityDashboard": {
+    "no": "No",
+    "reSync": "Re-Sync",
+    "yes": "Yes"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Commmunity Discovery Documents",
     "commmunityDiscoveryTutorial": "Commmunity Discovery Tutorial",
@@ -1338,20 +1390,59 @@
     "previewCommunity": "Preview Community",
     "pro": "Pro",
     "return": "Return",
+    "search": "Search",
     "standard": "Standard",
     "starter": "Starter",
+    "tags": "Tags:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "This community has some of the most active members",
     "thisCommunityIsGrowingRapidly": "This community is growing rapidly",
     "thisCommunityIsReceivingHighWebsiteTraff": "This community is receiving high website traffic",
     "thisCommunityWasRecentlyBumped": "This community was recently bumped",
     "viewAll": "View All",
-    "website": "Website",
-    "search": "Search",
-    "tags": "Tags:"
+    "website": "Website"
+  },
+  "communityDrive": {
+    "assetFolders": "Asset Folders",
+    "audioPlayer": "Audio Player",
+    "communityImagesAssets": "Community Images / Assets",
+    "downloadAsset": "Download Asset",
+    "files": "Files",
+    "new": "New",
+    "play": "Play",
+    "removeAsset": "Remove Asset"
+  },
+  "communityLookup": {
+    "communityID": "Community ID",
+    "forceJoin": "Force Join",
+    "forceLeave": "Force Leave",
+    "rawData": "Raw Data",
+    "restoreCommunity": "Restore Community"
+  },
+  "communityMenu": {
+    "dismiss": "Dismiss",
+    "join": "Join",
+    "launchingYourNewCommunity": "Launching your new community..."
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Error: You do not have permission to view",
     "thereWasAProblemLoadingThePage": "There was a problem loading the page"
+  },
+  "communityTemplates": {
+    "approve": "Approve",
+    "approved": "Approved",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "editTemplate": "Edit Template",
+    "inactive": "Inactive",
+    "needsReview": "Needs Review",
+    "newChangesPendingReview": "New Changes | Pending Review",
+    "remove": "Remove",
+    "save": "Save"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "by Sonoran Software Systems",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Created by an Official Sonoran Software Systems Employee",
+    "view": "View"
   },
   "ConditionalFormSectionUI": {
     "Checked": "checked",
@@ -1736,10 +1827,12 @@
     "allowWhitelist": "Allow Whitelist",
     "attachesToProfile": "Attaches to Profile",
     "BlockWhitelist": " Block Whitelist",
+    "cancel": "Cancel",
     "clockInOut": "Clock In & Out",
     "departmentManager": "Department Manager",
     "editFieldOnOtherProfiles": "Edit Field on Other Profiles",
     "editRosterRow": "Edit Roster Row",
+    "field": "Field",
     "hidesFieldFromProfileOwner": "Hides Field from Profile Owner",
     "inheritedFromDefaultDepartmentPermission": "INHERITED FROM DEFAULT DEPARTMENT PERMISSIONS",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Its useless to copy permission of an app that has no permissions...",
@@ -1774,9 +1867,7 @@
     "youHaventCopiedAnyCmsPermissionsToPaste": "You havent copied any CMS permissions to paste!",
     "youHaventCopiedAnySpecificApplicationPer": "You havent copied any specific application permissions to paste!",
     "youHaventCopiedAnySpecificCalendarPermis": "You havent copied any specific calendar permissions to paste!",
-    "youHaventCopiedAnySpecificRosterPermissi": "You havent copied any specific roster permissions to paste!",
-    "field": "Field",
-    "cancel": "Cancel"
+    "youHaventCopiedAnySpecificRosterPermissi": "You havent copied any specific roster permissions to paste!"
   },
   "departments": {
     "addRank": "Add Rank",
@@ -1823,16 +1914,16 @@
   "disciplinaryAccounts": {
     "accountLabel": "Account",
     "addDisciplinaryPoints": "Add Disciplinary Points",
+    "amount": "Amount:",
     "configureActions": "Configure Actions",
+    "date": "Date:",
     "disciplinaryPoints": "Disciplinary Points",
+    "eRLCViolationAutomatic": "ERLC Violation - Automatic",
     "noActiveDisciplinaryPoints": "No active disciplinary points",
     "noRobloxAccountLinked": "No Roblox Account Linked",
     "pointsLabel": "Points",
     "reasonLabel": "Reason",
-    "date": "Date:",
-    "amount": "Amount:",
-    "source": "Source:",
-    "eRLCViolationAutomatic": "ERLC Violation - Automatic"
+    "source": "Source:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -1985,6 +2076,7 @@
     "departmentEditedMentions": "Department Edited - Mentions",
     "departmentRemovedChannel": "Department Removed - Channel",
     "departmentRemovedMentions": "Department Removed - Mentions",
+    "direction": "Direction",
     "disabled": "Disabled",
     "discordRoleSyncDocuments": "Discord Role Sync Documents",
     "discordRoleSyncTutorial": "Discord Role Sync Tutorial",
@@ -2058,10 +2150,10 @@
     "username": "Username",
     "utilizeTheCmsClockInoutSystemWithDiscord": "Utilize the CMS clock in/out system with Discord commands",
     "webhookContent": "Webhook Content",
-    "webhookLogging": "Webhook Logging",
-    "direction": "Direction"
+    "webhookLogging": "Webhook Logging"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Add Additional Roles",
     "afterChangesAreMadeItWillQueueMasssyncsW": "After changes are made it will queue mass-syncs with the bot, which may take some time to not spam the bot.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "An error occured while adding role mapping, try again later.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "An error occured while evaluating mappings before commit, try again.",
@@ -2077,14 +2169,13 @@
     "roleId": "Role ID:",
     "roleInUseExplanation": "This Discord role is already in an existing category mapping, update that existing mapping if you wish to add more CMS ranks.",
     "selectRank": "Select Rank",
-    "thisMappingDoesntExistRefresh": "This mapping doesnt exist, refresh.",
-    "addAdditionalRoles": "Add Additional Roles",
     "selectRankS": "Select Rank(s)",
-    "selectRole": "Select Role"
+    "selectRole": "Select Role",
+    "thisMappingDoesntExistRefresh": "This mapping doesnt exist, refresh."
   },
   "DiscordRoleMultiSelector": {
-    "guild": "Guild:",
-    "filterRolesOrGuilds": "Filter Roles or Guilds"
+    "filterRolesOrGuilds": "Filter Roles or Guilds",
+    "guild": "Guild:"
   },
   "DiscordRoleSelector": {
     "guild": "Guild:"
@@ -2167,6 +2258,9 @@
     "errorYouDoNotHavePermissionToEditThisFil": "Error: You do not have permission to edit this file.",
     "protectionOnlyAccess": "You have protection-only access for this document, so the content editor is hidden."
   },
+  "driveQuickUploader": {
+    "noUploadsYet": "No uploads yet"
+  },
   "DriveViewDoc": {
     "documentName": "Document Name",
     "errorMissingPermissionsForThisFile": "Error: Missing permissions for this file."
@@ -2200,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Note that resources using the metadata are case-sensitive (e.g. firstname and FirstName act differently)",
     "noVehiclesAvailable": "No Vehicles Available",
     "onDuty": "On Duty",
+    "onlineStatus": "Online Status:",
     "owner": "Owner:",
     "ownerLicense": "Owner License:",
     "phoneNumber": "Phone Number",
@@ -2212,8 +2307,7 @@
     "unexpectedErrorSavingJob": "Unexpected error saving job:",
     "unexpectedErrorSavingMetadata": "Unexpected error saving metadata:",
     "value": "Value",
-    "vehicles": "Vehicles",
-    "onlineStatus": "Online Status:"
+    "vehicles": "Vehicles"
   },
   "EditColumnCard": {
     "actions": "Actions",
@@ -2267,6 +2361,7 @@
     "permissions": "Permissions",
     "pressEnterToAdd": "Press Enter to add",
     "quarter": "Quarter",
+    "rankS": "Rank(s)",
     "ruleBuilder": "Rule Builder",
     "save": "Save",
     "select": "Select",
@@ -2292,8 +2387,7 @@
     "unknownType": "Unknown Type",
     "value": "Value",
     "week": "Week",
-    "year": "Year",
-    "rankS": "Rank(s)"
+    "year": "Year"
   },
   "EditInventorySection": {
     "addInfoField": "Add Info Field",
@@ -2320,10 +2414,14 @@
     "selectItem": "Select Item",
     "selectNextSlot": "Select next slot:",
     "slot": "Slot",
+    "slot2": "slot",
     "slotMetadata": "Slot Metadata",
     "update": "Update",
-    "update43": "Update",
-    "slot2": "slot"
+    "update43": "Update"
+  },
+  "editMeta": {
+    "renameDocument": "Rename Document",
+    "toggleViewingWatermark": "Toggle Viewing Watermark"
   },
   "Editor": {
     "activityTrackerHours": "Activity Tracker Hours",
@@ -2389,9 +2487,9 @@
     "private": "Private",
     "public": "Public",
     "rankAccess": "Rank Access",
+    "shareType": "Share Type",
     "unlisted": "Unlisted",
-    "viewDocument": "View Document",
-    "shareType": "Share Type"
+    "viewDocument": "View Document"
   },
   "ElementEditor": {
     "addAnimation": "Add animation",
@@ -2515,22 +2613,22 @@
     "webhookChannel": "Webhook Channel"
   },
   "ERLCActivity": {
+    "date": "Date",
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
     "filter": "Filter",
     "latestActivity": "Latest Activity",
     "pending": "Pending",
+    "pickDateRange": "Pick Date Range",
+    "searchByUsername": "Search by Username",
+    "selectMember": "Select Member",
+    "selectTypes": "Select Types",
+    "selectUser": "Select User",
     "showingAllLogs": "Showing all logs",
     "showingPlayerRecords": "Showing player records",
-    "unknownStage": "Unknown Stage",
-    "searchByUsername": "Search by Username",
-    "type": "Type",
-    "selectTypes": "Select Types",
     "staffMember": "Staff Member",
-    "selectMember": "Select Member",
-    "user": "User",
-    "selectUser": "Select User",
-    "date": "Date",
-    "pickDateRange": "Pick Date Range"
+    "type": "Type",
+    "unknownStage": "Unknown Stage",
+    "user": "User"
   },
   "ERLCActivityLog": {
     "addedMessage": "added message",
@@ -2675,6 +2773,7 @@
     "illicit": "Illicit",
     "kickUsersWithAllothersInUsername": "Kick Users With All/Others In Username",
     "kickUsersWithInappropriateUsernames": "Kick Users With Inappropriate Usernames",
+    "log": ":log",
     "lowercaseCommand": "command",
     "name": "Name",
     "priorityPlayerList": "Priority Player List",
@@ -2686,11 +2785,10 @@
     "selfharm": "Self-Harm",
     "sexual": "Sexual",
     "stages": "Stages",
+    "testUsername": "Test Username",
     "username": "Username",
     "usernameModeration": "Username Moderation",
-    "violence": "Violence",
-    "log": ":log",
-    "testUsername": "Test Username"
+    "violence": "Violence"
   },
   "ERLCNewRecords": {
     "and": "and",
@@ -2705,6 +2803,7 @@
     "disciplinaryPoints": "Disciplinary Points",
     "editedTheRecords": "edited the record's",
     "editExistingRecord": "Edit Existing Record",
+    "editHistory": "Edit History",
     "enterUsernames": "Enter Username(s)",
     "enterYourReasonForRecord": "Enter your reason for record...",
     "kick": "Kick",
@@ -2715,15 +2814,14 @@
     "numberOfPointsToAdd": "Number of points to add...",
     "points": "Points",
     "pointsFrom": "points from",
+    "reason": "Reason",
     "reasonFrom": "reason from",
     "recordType": "Record Type",
     "saveChanges": "Save Changes",
     "thisRecordCannotBeEditedDueToNoAccount": "This record cannot be edited due to no account association.",
     "to": "to",
     "typeFrom": "type from",
-    "users": "User(s)",
-    "reason": "Reason",
-    "editHistory": "Edit History"
+    "users": "User(s)"
   },
   "ERLCPlayerInfo": {
     "actioned": {
@@ -2779,14 +2877,21 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Current players in queue",
     "filter": "Filter",
+    "fire": "Fire",
     "noPlayersConnected": "No Players Connected",
     "playersIngame": "Players In-Game",
     "playersInQueue": "players in queue",
-    "teams": "Teams",
-    "search": "Search",
     "police": "Police",
+    "search": "Search",
     "sheriff": "Sheriff",
-    "fire": "Fire"
+    "teams": "Teams"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Create and view records.",
+    "openUserPanelFor": "Open user panel for"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "No activity found"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Trigger this action after violating the restriction for a certain amount of time (in seconds)",
@@ -2956,6 +3061,9 @@
     "submissions": "Submissions",
     "thirdpartySubmissions": "Third-party submissions",
     "timeclock": "Timeclock"
+  },
+  "formRankAccountRow": {
+    "section": "Section:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Accepted Uploader Files",
@@ -3267,6 +3375,7 @@
     "categoryLabel": "Category Label",
     "create": "Create",
     "createPrivateTopics": "Create Private Topics",
+    "createTopics": "Create Topics",
     "deleteCategory": "Delete Category",
     "edit": "Edit",
     "editSubcategory": "Edit Sub-Category",
@@ -3281,8 +3390,7 @@
     "subcategories": "Sub-Categories",
     "theCategoryWasSuccessfullySaved": "The category was successfully saved!",
     "thereWasAnIssueDeletingTheCategory": "There was an issue deleting the category: ",
-    "thereWasAnIssueSavingTheCategory": "There was an issue saving the category: ",
-    "createTopics": "Create Topics"
+    "thereWasAnIssueSavingTheCategory": "There was an issue saving the category: "
   },
   "forumSubCategoryDialog": {
     "cancel": "Cancel",
@@ -3340,12 +3448,12 @@
     "thisForumTopicIsLockedFromNewReplies": "This forum topic is locked from new replies.",
     "thisForumTopicIsPinnedWithinThe": "This forum topic is pinned within the",
     "thisTopic": "this topic?",
+    "title": "Title",
     "topicRepliesBelow": "Topic Replies Below",
     "uniqueIdCopiedToClipboard": "Unique ID Copied to Clipboard.",
     "unlock": "Unlock",
     "unpin": "Unpin",
-    "willNotifyYouWhenANewReplyIsAddedToThisF": "Will notify you when a new reply is added to this forum topic.",
-    "title": "Title"
+    "willNotifyYouWhenANewReplyIsAddedToThisF": "Will notify you when a new reply is added to this forum topic."
   },
   "forumTopicContextMenu": {
     "error": "Error",
@@ -3401,57 +3509,81 @@
     "uploadANewPhoto": "Upload A New Photo",
     "uploadNewPhoto": "Upload New Photo"
   },
+  "gameDashboard": {
+    "activePlayers": "Active Players"
+  },
+  "gameEnvironment": {
+    "blackout": "Blackout"
+  },
   "GameIndex": {
-    "melonlyApiKey": "Melonly API Key",
-    "noPlayersFoundSearch": "No Players Found... Search",
-    "launchGame": "Launch Game",
-    "createNewServer": "Create New Server",
-    "useTestData": "Use Test Data",
-    "oneClickInstallation": "One-Click Installation",
-    "manualInstall": "Manual Install",
-    "videoTutorial": "Video Tutorial",
-    "gamePanelPurchase": "Game Panel Purchase",
-    "purchaseAFiveMGameServerFromRocketNode": "Purchase a FiveM Game Server from Rocket Node",
-    "useCouponCode": "Use Coupon Code",
-    "forOff": "for 20% off.",
     "accessTheGameServerSPanel": "Access the game server's panel.",
-    "downloadInstall": "Download & Install",
-    "onTheRocketNodeGamePanelNavigateTo": "On the Rocket Node game panel, navigate to",
-    "sonoranInstaller": "Sonoran Installer",
-    "select": "Select",
     "andClickToCopyPasteTheIDAndKeyBelow": "and click to copy/paste the ID and key below.",
-    "communityID": "Community ID",
-    "youMustBeAnAdminToViewTheAPIKey": "You must be an admin to view the API key.",
     "aPIKey": "API Key",
     "click": "Click",
-    "installSonoran": "Install Sonoran",
-    "onTheRocketNodePanel": "on the Rocket Node panel.",
-    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Once the installation is complete, you can access the resource files in the",
-    "fileManager": "File Manager",
-    "navigateToThe": "Navigate to the",
-    "resources": "resources",
-    "directoryToCustomizeYourFeatures": "directory to customize your features.",
-    "youCanLearnMoreAboutConfigurationOptions": "You can learn more about configuration options",
-    "purchaseAPIAccessFromERLC": "Purchase API Access from ER:LC",
-    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC grants API access as a paid upgrade.",
-    "loadIntoYourERLCServer": "Load into your ER:LC server",
-    "selectTheMenuButtonAtTheTopLeft": "Select the \"Menu\" button at the top left",
-    "navigateToServers": "Navigate to \"Servers\"",
-    "navigateToOwnedServers": "Navigate to \"Owned Servers\"",
-    "selectYourPrivateServer": "Select your private server",
-    "navigateToUpgradedPacks": "Navigate to \"Upgraded Packs\"",
-    "selectAPIPackAndPurchase": "Select \"API Pack\" and purchase",
+    "communityID": "Community ID",
     "copyYourERLCAPIKey": "Copy Your ER:LC API Key",
-    "openTheServerInfoTab": "Open the \"Server Info\" tab",
-    "selectEditServerSettings": "Select \"Edit Server Settings\"",
-    "navigateToERLCAPI": "Navigate to \"ER:LC API\"",
-    "selectEditToCopyToClipboard": "Select \"Edit\" to copy to clipboard",
-    "pasteYourERLCAPIKey": "Paste Your ER:LC API Key",
-    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Paste your API key below in the input and click the checkmark to save",
-    "eRLCAPIKey": "ER:LC API Key",
-    "moderation": "Moderation",
+    "createNewServer": "Create New Server",
+    "directoryToCustomizeYourFeatures": "directory to customize your features.",
     "disabledDueToMissingPermission": "Disabled due to missing permission:",
-    "melonly": "Melonly"
+    "downloadInstall": "Download & Install",
+    "eRLCAPIKey": "ER:LC API Key",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC grants API access as a paid upgrade.",
+    "fileManager": "File Manager",
+    "forOff": "for 20% off.",
+    "gamePanelPurchase": "Game Panel Purchase",
+    "installSonoran": "Install Sonoran",
+    "launchGame": "Launch Game",
+    "loadIntoYourERLCServer": "Load into your ER:LC server",
+    "manualInstall": "Manual Install",
+    "melonly": "Melonly",
+    "melonlyApiKey": "Melonly API Key",
+    "moderation": "Moderation",
+    "navigateToERLCAPI": "Navigate to \"ER:LC API\"",
+    "navigateToOwnedServers": "Navigate to \"Owned Servers\"",
+    "navigateToServers": "Navigate to \"Servers\"",
+    "navigateToThe": "Navigate to the",
+    "navigateToUpgradedPacks": "Navigate to \"Upgraded Packs\"",
+    "noPlayersFoundSearch": "No Players Found... Search",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Once the installation is complete, you can access the resource files in the",
+    "oneClickInstallation": "One-Click Installation",
+    "onTheRocketNodeGamePanelNavigateTo": "On the Rocket Node game panel, navigate to",
+    "onTheRocketNodePanel": "on the Rocket Node panel.",
+    "openTheServerInfoTab": "Open the \"Server Info\" tab",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Paste your API key below in the input and click the checkmark to save",
+    "pasteYourERLCAPIKey": "Paste Your ER:LC API Key",
+    "purchaseAFiveMGameServerFromRocketNode": "Purchase a FiveM Game Server from Rocket Node",
+    "purchaseAPIAccessFromERLC": "Purchase API Access from ER:LC",
+    "resources": "resources",
+    "select": "Select",
+    "selectAPIPackAndPurchase": "Select \"API Pack\" and purchase",
+    "selectEditServerSettings": "Select \"Edit Server Settings\"",
+    "selectEditToCopyToClipboard": "Select \"Edit\" to copy to clipboard",
+    "selectTheMenuButtonAtTheTopLeft": "Select the \"Menu\" button at the top left",
+    "selectYourPrivateServer": "Select your private server",
+    "sonoranInstaller": "Sonoran Installer",
+    "useCouponCode": "Use Coupon Code",
+    "useTestData": "Use Test Data",
+    "videoTutorial": "Video Tutorial",
+    "youCanLearnMoreAboutConfigurationOptions": "You can learn more about configuration options",
+    "youMustBeAnAdminToViewTheAPIKey": "You must be an admin to view the API key."
+  },
+  "gamePlayers": {
+    "noCharacters": "No characters"
+  },
+  "gameResources": {
+    "ensure": "Ensure",
+    "noResults": "No Results",
+    "start": "Start"
+  },
+  "gameVehicles": {
+    "actions": "Actions",
+    "cancel": "Cancel",
+    "close": "Close",
+    "despawnVehicle": "Despawn Vehicle",
+    "info": "Info",
+    "noResults": "No results",
+    "passengers": "Passengers",
+    "repairVehicle": "Repair Vehicle"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Action performed! It might take a minute or two for the panel to update...",
@@ -3488,6 +3620,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "There was not enough data for this commmunity to determine"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Favorite this metric",
     "growtherrored": "ERRORED",
     "growthloadingdata": "LOADING DATA",
     "growthnewusersjoiningyourcommunity": "New users joining your community",
@@ -3506,8 +3639,26 @@
     "numberOfUniqueUsersThatVisitedTheCommunity": "Number of unique users that visited the community page from Community Discovery",
     "numberOfUniqueViewsFromCommunityDiscover": "Number of unique views from Community Discovery",
     "theresNotEnoughDataToPopulateTheGraph": "Theres not enough data to populate the graph.",
-    "thisMetricIsFavorite": "This metric is favorite",
-    "favoriteThisMetric": "Favorite this metric"
+    "thisMetricIsFavorite": "This metric is favorite"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "No favorites yet. Click the star icon on any metric or graph to add it to your Favorites.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Shape how your community appears in discovery and keep the headline, banner, and description aligned."
+  },
+  "guideManagement": {
+    "add": "Add",
+    "addGuide": "Add Guide",
+    "allGuidesAvailable": "All Guides Available",
+    "cancel": "Cancel",
+    "editTheGuideLabel": "Edit the Guide Label",
+    "editTheGuideURL": "Edit the Guide URL",
+    "enterBelowAllInformationRegardingThisGuide": "Enter below all information regarding this guide.",
+    "gitBookGuideURL": "GitBook Guide URL",
+    "guideLabel": "Guide Label",
+    "missingGuideURL": "Missing guide URL!",
+    "missingVideoURL": "Missing video URL!",
+    "newGuide": "New Guide",
+    "tutorialVideoURL": "Tutorial Video URL"
   },
   "helpButtonComponent": {
     "close": "Close",
@@ -3527,13 +3678,19 @@
     "icon": "Icon",
     "image": "Image"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Fullscreen"
+  },
+  "iFrameForm": {
+    "iFrameURL": "iFrame URL"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Click to upload an image",
+    "hyperlinkOptions": "Hyperlink Options",
     "targetForm": "Form",
     "targetNone": "None",
     "targetPage": "Custom Page",
-    "targetUrl": "URL",
-    "hyperlinkOptions": "Hyperlink Options"
+    "targetUrl": "URL"
   },
   "imageInn": {
     "dropArea": "Drop Area"
@@ -3781,6 +3938,31 @@
     "withADuplicate": "with a duplicate",
     "yes": "Yes",
     "youDoNotHavePermissionsForThisGameServer": "You do not have permissions for this game server"
+  },
+  "indexPage": {
+    "aIAutomation": "AI Automation",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Automatically detect duplicate accounts across dozens of behavior and profile signals to keep your community secure.",
+    "backups": "Backups",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS ranks are your single control point for permissions. Manage whitelists, file and website access, Discord role sync, and more from one unified system.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Create custom forms for whitelist applications, LOA requests, and more. Powerful stage automations can update user ranks, sync rosters, trigger notifications, and handle repetitive workflow steps automatically.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Custom community rosters update live with member activity status, connection time, ranks, and more. Trigger automations for status changes or update rosters directly from form stage actions.",
+    "formsAndApplications": "Forms and Applications",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Harness AI-powered automation to run your community faster, safer, and with less manual work.",
+    "integratedGamePanels": "Integrated Game Panels",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Keep your files, forms, and workflows organized in one place.",
+    "managesYourEntireGamingCommunity": "manages your entire gaming community.",
+    "manageYourGameOperationsWithNativePanelIntegrations": "Manage your game operations with native panel integrations.",
+    "openBillingCenter": "Open Billing Center",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Organize members, assign responsibilities, and keep staff structure clean.",
+    "rankManager": "Rank Manager",
+    "rosters": "Rosters",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Run your gaming community from a single platform: AI-powered security and form automation, live rosters and rank-based permissions, synced Discord role management, and collaborative document workflows with granular access controls.",
+    "saveWithQuarterlyBilling": "Save 25% with quarterly billing",
+    "security": "Security",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Share and live-edit documents, add watermark protection, embed images and files, and automatically sync access permissions with CMS ranks.",
+    "totalBilledQuarterly": "total billed quarterly",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Use AI-assisted grading to process form submissions automatically and route each one to the correct review stage.",
+    "userManagement": "User Management"
   },
   "InfoBlocksForm": {
     "add": "Add",
@@ -4065,7 +4247,7 @@
     "newFormSubmission": "New Form Submission",
     "newForumTopic": "New Forum Topic",
     "newForumTopicReply": "New Forum Topic Reply",
-    "newNotification": "🔔:",
+    "newNotification": "\uD83D\uDD14:",
     "no": "No",
     "noLocalStorageSupport": "Your browser doesn't support local storage or it may be disabled.",
     "noNotificationsFound": "No Notifications Found",
@@ -4078,6 +4260,7 @@
     "profile": "Profile",
     "promotional": "Promotional",
     "running": "Running",
+    "serverHosting": "Server Hosting",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS manages your community's website, documents, whitelisting, in-game permissions, and more!",
     "thisCommunityUsesDiscordIntegrationPleas": "This community uses Discord Integration! Please link your discord for proper role sync.",
     "thisCommunityUsesRobloxIntegrationPleas": "This community uses Roblox Integration! Please link your Roblox for proper integration usage.",
@@ -4085,16 +4268,17 @@
     "viewMessage": "View message",
     "welcome": "Welcome",
     "welcomeToSonoranCms": "Welcome to Sonoran CMS!",
-    "yes": "Yes",
-    "serverHosting": "Server Hosting"
+    "yes": "Yes"
   },
   "ManageFormDialog": {
     "activity": "Activity",
     "allowedRanksToReply": "Allowed Ranks to Reply",
     "allowSubmitterReplies": "Allow Submitter Replies",
     "cancel": "Cancel",
+    "changedTheStageFrom": "changed the stage from",
     "changeStage": "Change Stage",
     "close": "Close",
+    "commentHere": "Comment here...",
     "deleteForm": "Delete Form",
     "hidden": "Hidden",
     "invalidStage": "Invalid Stage",
@@ -4118,9 +4302,14 @@
     "thereWasAnUnexpectedErrorWhenSavingSetti": "There was an unexpected error when saving settings.",
     "unlocked": "UNLOCKED",
     "visible": "Visible",
-    "willNotifyYouWhenANewReplyIsAddedToThisF": "Will notify you when a new reply is added to this form.",
-    "changedTheStageFrom": "changed the stage from",
-    "commentHere": "Comment here..."
+    "willNotifyYouWhenANewReplyIsAddedToThisF": "Will notify you when a new reply is added to this form."
+  },
+  "massNotificationManagement": {
+    "btnLabel": "Btn Label",
+    "btnURL": "Btn URL",
+    "notificationContent": "Notification Content",
+    "sendNotification": "Send Notification",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "will show a top QNotify with the content as the notify message, if you supply a btn label & url it'll be attached with the QNotify."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4309,21 +4498,23 @@
     "roster": "Roster",
     "rounded": "Rounded",
     "square": "Square",
+    "styles": "Styles",
     "submitForm": "Submit Form",
     "target": "Target",
     "targetForm": "Target Form",
     "targets": "Targets",
     "textColor": "Text Color",
     "unelevated": "Unelevated",
-    "webPage": "Web Page",
-    "styles": "Styles"
+    "webPage": "Web Page"
   },
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "An error occured while querying data:",
     "anErrorOccuredWhileSubmittingForm": "An error occured while submitting form:",
+    "cancel": "Cancel",
     "errorYouDoNotHavePermissionToSubmitThisF": "Error: You do not have permission to submit this form.",
     "formCouldNotBeFoundToBeCreatedFrom": "Form could not be found to be created from.",
     "noRank": "No Rank",
+    "previous": "Previous",
     "requiredFieldTooltip": "is required",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "There is one or more fields that are required that are not filled in.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "The user will be able to view this submission on their profile.",
@@ -4334,9 +4525,7 @@
     "You": " (You)",
     "youAreSubmittingThisFormUnder": "You are submitting this form under:",
     "youDoNotHavePermissionToSubmitThisFormUn": "You do not have permission to submit this form under another user.",
-    "youMustSelectAUserToSubmitThisFormUnder": "You must select a user to submit this form under.",
-    "previous": "Previous",
-    "cancel": "Cancel"
+    "youMustSelectAUserToSubmitThisFormUnder": "You must select a user to submit this form under."
   },
   "oauth": {
     "dismiss": "Dismiss",
@@ -4389,6 +4578,7 @@
     "none": "none",
     "openSectionEditor": "Open section editor",
     "pageBackground": "Page Background",
+    "pasteSection": "Paste Section",
     "scalesTheBackgroundImageSoThatItsOrigina": "Scales the background image so that its original proportions are maintained.",
     "scalesTheBackgroundImageToCoverContainer": "Scales the background image to cover container",
     "scalesTheImageAsLargeAsPossibleWithinIts": "Scales the image as large as possible within its container without cropping or stretching the image.",
@@ -4396,8 +4586,7 @@
     "triggerAnimations": "Trigger Animations",
     "triggerAnimationsToPlay": "Trigger all animations to play on this page.",
     "websiteBuilderDocuments": "Website Builder Documents",
-    "websiteBuilderTutorial": "Website Builder Tutorial",
-    "pasteSection": "Paste Section"
+    "websiteBuilderTutorial": "Website Builder Tutorial"
   },
   "PageEditorHeader": {
     "back": "Back",
@@ -4803,6 +4992,7 @@
     "exampleName": "Example Name",
     "exampleRank": "Example Rank",
     "learnHowToUseProfileFields": "Customize user profile fields for your community.",
+    "newProfileField": "New Profile Field",
     "profileFieldsDocuments": "Profile Fields Documents",
     "profileFieldsEditor": "Profile Fields Editor",
     "profilefieldseditorerrorsnofindfield": "There was no field found from what is selected.",
@@ -4815,8 +5005,7 @@
     "profilefieldseditorsuccesssavefield": "Saved Profile Field",
     "profileFieldsTutorial": "Profile Fields Tutorial",
     "profileInformation": "Profile Information",
-    "remove": "Remove",
-    "newProfileField": "New Profile Field"
+    "remove": "Remove"
   },
   "profileFieldsEditor": {
     "errors": {
@@ -4892,6 +5081,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Error: You cannot edit this member due to your community power.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Error: You do not have permission to edit an individuals information.",
     "exportTime": "Export Time:",
+    "filterForms": "Filter Forms",
     "for": "for",
     "formLabel": "Form Label",
     "formSettings": "Form Settings",
@@ -4974,8 +5164,7 @@
     "viewFlags": "View Flags",
     "warningYouAreStillNamedAsTheAuthorOfThis": "Warning: You are still named as the author of this form",
     "youDoNotHavePermissionToEditThisField": "You do not have permission to edit this field.",
-    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
-    "filterForms": "Filter Forms"
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name."
   },
   "PromotionFlow": {
     "actions": "Actions",
@@ -5053,12 +5242,37 @@
     "selectPromotionFlowFromCommunityConfiguration": "Select a promotion flow from the community configuration.",
     "sendRankNoti": "Send Rank Notification",
     "subtitle": "Process automated rank promotion flows for your community members.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "This action will only trigger if this flow is demoting.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "This action will only trigger if this flow is promoting.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "This action will trigger for both promotions and demotions.",
     "title": "Promotion Flows",
     "toLabelVariableDesc": "This will state the to label set for this promotion flow.",
-    "toLabelVariableLabel": "To Label",
-    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "This action will only trigger if this flow is promoting.",
-    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "This action will only trigger if this flow is demoting.",
-    "thisActionWillTriggerForBothPromotionsAndDemotions": "This action will trigger for both promotions and demotions."
+    "toLabelVariableLabel": "To Label"
+  },
+  "protectedManagement": {
+    "between": "Between:",
+    "cMSManagementPanel": "CMS Management Panel",
+    "connectedUsers": "Connected Users",
+    "lastUpdated": "Last Updated:",
+    "manageGuides": "Manage Guides",
+    "noSpecificGrowthMetricsFetched": "No specific growth metrics fetched...",
+    "noSpecificUsersMetricsFetched": "No specific users metrics fetched...",
+    "sendMassNotification": "Send Mass Notification",
+    "specificDetailedUserMetricsHistory": "Specific Detailed - User Metrics History",
+    "specificGrowthUserMetricsHistory": "Specific Growth - User Metrics History",
+    "systemAccounts": "System Accounts"
+  },
+  "qBItems": {
+    "itemImageSelector": "Item Image (Selector)",
+    "search": "Search"
+  },
+  "qBJobs": {
+    "defaultDuty": "Default Duty",
+    "jobLabel": "Job Label",
+    "offDutyPay": "Off Duty Pay"
+  },
+  "qBoxItems": {
+    "search": "Search"
   },
   "RadioIntegration": {
     "apiCredentials": "Radio API Credentials",
@@ -5078,13 +5292,13 @@
     "noCommunityId": "No Community ID",
     "permissionSelector": "Radio Permission Selector",
     "remove": "Remove",
+    "setAnAPIIDAndKeyToSetPermissions": "Set an API ID and Key to set permissions",
     "syncOptions": "Radio Sync Options",
-    "title": "Sonoran Radio Configurations",
-    "setAnAPIIDAndKeyToSetPermissions": "Set an API ID and Key to set permissions"
+    "title": "Sonoran Radio Configurations"
   },
   "RadioPermSelector": {
-    "setRadio": "Set Radio",
-    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Select the private channels the rank is allowed to join"
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Select the private channels the rank is allowed to join",
+    "setRadio": "Set Radio"
   },
   "rankAccountRow": {
     "addedAfter": "Added After {length} {unit}",
@@ -5188,8 +5402,8 @@
     "filterRanks": "Filter Ranks"
   },
   "rankSelect": {
-    "noRankOptionsToSelectFrom": "No rank options to select from",
-    "filterRanks": "Filter Ranks"
+    "filterRanks": "Filter Ranks",
+    "noRankOptionsToSelectFrom": "No rank options to select from"
   },
   "Resources": {
     "errorAnErrorOccuredWhileFetchingServerDa": "Error: An error occured while fetching server data.",
@@ -5241,6 +5455,7 @@
     "clickToDisableConditionalFormatValueBein": "Click to disable conditional format value being overridden",
     "clickToOverrideConditionalFormatValue": "Click to override conditional format value",
     "close": "Close",
+    "deleteRow": "Delete Row",
     "downloadRosterCsv": "Download Full Roster as CSV",
     "end": "End:",
     "errorDownloadingRosterCSV": "Error downloading roster CSV, contact support if this persists.",
@@ -5250,11 +5465,10 @@
     "membersPerPage": "Members per page:",
     "na": "N/A",
     "noServer": "No server name",
+    "ranks": "Ranks",
     "start": "Start:",
     "valueHasBeenOverwrittenByAManualValueIgn": "Value has been overwritten by a manual value, ignoring conditional value sets.",
-    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster.",
-    "ranks": "Ranks",
-    "deleteRow": "Delete Row"
+    "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "You don't have the permissions to manage the activity tracker on this roster."
   },
   "searchEngineEditor": {
     "pageDesciption": "Page Description",
@@ -5275,6 +5489,7 @@
     "bottom": "Bottom",
     "center": "Center",
     "clone": "Clone",
+    "close": "Close",
     "contain": "contain",
     "cover": "cover",
     "cssPlaceholder": "Example: border: 2px solid #ff671d; border-radius: 8px;",
@@ -5312,8 +5527,13 @@
     "vertical": "Vertical",
     "viewportHeight": "Viewport Height",
     "viewportWidth": "Viewport Width",
-    "width": "Width",
-    "close": "Close"
+    "width": "Width"
+  },
+  "sectionWrapper": {
+    "copyElement": "Copy Element",
+    "copySection": "Copy Section",
+    "pasteElement": "Paste Element",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Virtually copy section, paste onto other pages with right-click."
   },
   "selectComPage": {
     "selectCommunityPage": "Select Community Page"
@@ -5328,6 +5548,7 @@
     "createCustomPages": "Create custom webpages for your community!",
     "homepageUpdated": "Homepage updated!",
     "homepageUpdatedButDuringDiscoveryApproval": "Homepage updated, but during discovery approval it failed and disabled discovery due to:",
+    "pageOptions": "Page options",
     "searchPages": "Search Pages",
     "selectPageTemplate": "Select Page Template",
     "sortModeActivatedDragAndDropTheRowsInThe": "Sort Mode Activated: Drag And Drop the rows in the order in which youd like them sorted.",
@@ -5337,8 +5558,7 @@
     "thisPageIsSetToYourDashboardItCannotBeRe": "This page is set to your Dashboard, it cannot be removed.",
     "toolbarCustomization": "Toolbar Customization",
     "websitePages": "Website Pages",
-    "yourCommunityPage": "Your Community Page",
-    "pageOptions": "Page options"
+    "yourCommunityPage": "Your Community Page"
   },
   "selectRoster": {
     "selectRoster": "Select Roster"
@@ -5383,6 +5603,7 @@
     "administration": "Administration",
     "allowPrivateCommentsTrigger": "Trigger On Private Comments",
     "changedOn": "Changed On",
+    "close": "Close",
     "column": "Column",
     "erlcServer": "ER:LC Server",
     "formSubmitter": "Form Submitter",
@@ -5391,56 +5612,55 @@
     "lockType": "Lock Type",
     "moderation": "Moderation",
     "newValue": "New Value",
+    "player": "Player",
     "roleplay": "Roleplay",
     "roster": "Roster",
     "stageChanger": "Stage Changer",
     "unlockMessages": "Unlock Messages",
-    "viewChannel": "View Channel",
-    "player": "Player",
-    "close": "Close"
+    "viewChannel": "View Channel"
   },
   "shieldFilter": {
     "cancel": "Cancel",
     "create": "Create"
   },
   "shieldPanel": {
+    "action": "Action:",
     "addFilter": "Add Filter",
     "addRule": "Add Rule",
     "allowOrBlock": "Allow or block IPs on your server's ports.",
     "applicationFilters": "Application Filters",
     "attackHistory": "Attack History",
+    "attacks": "Attacks",
+    "close": "Close",
+    "comment": "Comment",
     "commonhelp": "Help",
+    "destination": "Destination *",
+    "destinationPort": "Destination Port",
     "filters": "Filters",
     "Filters": "Filters",
     "firewall": "Firewall",
     "firewallRules": "Firewall Rules",
+    "help": "Help",
+    "history": "History",
     "learnAboutSonoranShield": "Learn about Sonoran Shield",
     "linkYourServer": "Link your Server",
     "myFilters": "My Filters",
     "myServers": "My Servers:",
     "noActiveServers": "No Active Servers",
     "poweredByPath": "Powered by Path.net, our all-access panel puts an end to network attacks once and for all.",
+    "protocol": "Protocol",
+    "save": "Save",
+    "search": "Search",
     "sonoranShieldDocuments": "Sonoran Shield Documents",
     "sonoranShieldKeeps": "Sonoran Shield keeps your community in the game or your money back.",
     "sonoranShieldNetworkDefense": "Sonoran Shield Network Defense",
     "sonoranShieldTutorial": "Sonoran Shield Tutorial",
-    "unlink": "Unlink",
-    "search": "Search",
-    "history": "History",
-    "help": "Help",
-    "viewHistoricalNetworkAttacksOnYourServer": "View historical network attacks on your server.",
-    "attacks": "Attacks",
-    "close": "Close",
-    "destination": "Destination *",
-    "sourceType": "Source Type *",
-    "sourceIP": "Source IP *",
     "sourceASN": "Source ASN *",
-    "protocol": "Protocol",
+    "sourceIP": "Source IP *",
     "sourcePort": "Source Port",
-    "destinationPort": "Destination Port",
-    "action": "Action:",
-    "comment": "Comment",
-    "save": "Save"
+    "sourceType": "Source Type *",
+    "unlink": "Unlink",
+    "viewHistoricalNetworkAttacksOnYourServer": "View historical network attacks on your server."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:",
@@ -5577,7 +5797,19 @@
     "newStage": "New Stage",
     "reorderStages": "Reorder Stages"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Account Username",
+    "globalPermissions": "Global Permissions",
+    "miscData": "Misc Data",
+    "registeredAt": "Registered At:",
+    "save": "Save",
+    "username": "Username:"
+  },
+  "systemAccount": {
+    "cancel": "Cancel"
+  },
   "tabbedPermissionEditor": {
+    "calendars": "Calendars",
     "copiedCalendarPermissions": "Copied Calendar Permissions",
     "copiedERLCPermissions": "Copied ER:LC Permissions",
     "copiedFormsPermissions": "Copied Forms Permissions",
@@ -5589,6 +5821,11 @@
     "copiedServerPermissions": "Copied Server Permissions",
     "copiedShiftTypesPermissions": "Copied ER:LC Permissions",
     "copiedSystemPermissions": "Copied System Permissions",
+    "eRLCServers": "ERLC Servers",
+    "forms": "Forms",
+    "gameServers": "Game Servers",
+    "navigation": "Navigation",
+    "pages": "Pages",
     "pasteCalendarPermissions": "Paste Calendar Permissions",
     "pasteERLCPermissions": "Paste ER:LC Permissions",
     "pasteFormsPermissions": "Paste Forms Permissions",
@@ -5600,18 +5837,12 @@
     "pasteServerPermissions": "Paste Server Permissions",
     "pasteShiftTypesPermissions": "Paste ER:LC Permissions",
     "pasteSystemPermissions": "Paste System Permissions",
-    "shiftTypes": "Shift Types",
-    "system": "System",
-    "navigation": "Navigation",
-    "forms": "Forms",
-    "rosters": "Rosters",
-    "pages": "Pages",
-    "calendars": "Calendars",
     "profileFields": "Profile Fields",
+    "rosters": "Rosters",
     "servers": "Servers",
-    "gameServers": "Game Servers",
-    "eRLCServers": "ERLC Servers",
-    "shortURLs": "Short URLs"
+    "shiftTypes": "Shift Types",
+    "shortURLs": "Short URLs",
+    "system": "System"
   },
   "TeamspeakIntegration": {
     "addMapping": "Add Mapping",
@@ -5785,6 +6016,9 @@
     "youAreRunningAnOutdatedVersionOf": "You are running an outdated version of",
     "yourServersVersion": "Your Servers Version"
   },
+  "videoForm": {
+    "videoURL": "Video URL"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Allowed Ranks to Reply",
     "allowSubmitterReplies": "Allow Submitter Replies",
@@ -5842,9 +6076,9 @@
     "rightActivity": "Right: Activity"
   },
   "whatYouSeeEditor": {
-    "updateMessage": "The text content has been converted from the old editor. Please review and update as needed.",
+    "backgroundColor": "Background Color",
     "textColor": "Text Color",
-    "backgroundColor": "Background Color"
+    "updateMessage": "The text content has been converted from the old editor. Please review and update as needed."
   },
   "Whitelist": {
     "allowList": "Allow List",
@@ -5854,239 +6088,5 @@
     "sonoranCmsCoreResourceIsOutofdatePleaseU": "Sonoran CMS Core resource is out-of-date, please update it immediately through auto-updating or manually downloading the latest version. This portion of the panel is unusable with the current running version.",
     "theRanksSelectedHereWillNotBeAllowedToAc": "The ranks selected here will not be allowed to access this server.",
     "thisListTakesPrecedenceOverTheAllowList": "This list takes precedence over the allow list."
-  },
-  "accountCardForm": {
-    "selectCommunityProfile": "Select Community Profile"
-  },
-  "carouselEl": {
-    "noImagesOptionsSet": "No Images Options Set"
-  },
-  "iFrameEl": {
-    "fullscreen": "⛶ Fullscreen"
-  },
-  "iFrameForm": {
-    "iFrameURL": "iFrame URL"
-  },
-  "videoForm": {
-    "videoURL": "Video URL"
-  },
-  "sectionWrapper": {
-    "copySection": "Copy Section",
-    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Virtually copy section, paste onto other pages with right-click.",
-    "copyElement": "Copy Element",
-    "pasteElement": "Paste Element"
-  },
-  "driveQuickUploader": {
-    "noUploadsYet": "No uploads yet"
-  },
-  "editMeta": {
-    "renameDocument": "Rename Document",
-    "toggleViewingWatermark": "Toggle Viewing Watermark"
-  },
-  "eRLCPlayerSearchItem": {
-    "openUserPanelFor": "Open user panel for",
-    "createAndViewRecords": "Create and view records."
-  },
-  "eRLCVisionPlayerActivity": {
-    "noActivityFound": "No activity found"
-  },
-  "formRankAccountRow": {
-    "section": "Section:"
-  },
-  "communityLookup": {
-    "communityID": "Community ID",
-    "forceJoin": "Force Join",
-    "forceLeave": "Force Leave",
-    "restoreCommunity": "Restore Community",
-    "rawData": "Raw Data"
-  },
-  "communityTemplates": {
-    "needsReview": "Needs Review",
-    "newChangesPendingReview": "New Changes | Pending Review",
-    "approved": "Approved",
-    "inactive": "Inactive",
-    "approve": "Approve",
-    "edit": "Edit",
-    "remove": "Remove",
-    "editTemplate": "Edit Template",
-    "save": "Save",
-    "cancel": "Cancel"
-  },
-  "guideManagement": {
-    "allGuidesAvailable": "All Guides Available",
-    "addGuide": "Add Guide",
-    "editTheGuideLabel": "Edit the Guide Label",
-    "missingGuideURL": "Missing guide URL!",
-    "editTheGuideURL": "Edit the Guide URL",
-    "missingVideoURL": "Missing video URL!",
-    "newGuide": "New Guide",
-    "enterBelowAllInformationRegardingThisGuide": "Enter below all information regarding this guide.",
-    "guideLabel": "Guide Label",
-    "gitBookGuideURL": "GitBook Guide URL",
-    "tutorialVideoURL": "Tutorial Video URL",
-    "add": "Add",
-    "cancel": "Cancel"
-  },
-  "massNotificationManagement": {
-    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "will show a top QNotify with the content as the notify message, if you supply a btn label & url it'll be attached with the QNotify.",
-    "notificationContent": "Notification Content",
-    "btnLabel": "Btn Label",
-    "btnURL": "Btn URL",
-    "sendNotification": "Send Notification"
-  },
-  "sysAccountLookup": {
-    "accountUsername": "Account Username",
-    "miscData": "Misc Data",
-    "username": "Username:",
-    "registeredAt": "Registered At:",
-    "globalPermissions": "Global Permissions",
-    "save": "Save"
-  },
-  "activityHoursView": {
-    "end": "End",
-    "trash": "Trash",
-    "start": "Start"
-  },
-  "comManagementDialog": {
-    "noTemplatesFoundOnYourAccount": "No templates found on your account.",
-    "createTemplate": "Create Template",
-    "templateCreationBasicInformation": "Template Creation - Basic Information",
-    "templateTitle": "Template Title",
-    "templateDescription": "Template Description",
-    "templateCreationDataSelection": "Template Creation - Data Selection",
-    "back": "Back",
-    "templateCreationFinalize": "Template Creation - Finalize",
-    "departments": "Departments",
-    "noDepartments": "No Departments",
-    "rosters": "Rosters",
-    "noRosters": "No Rosters",
-    "forms": "Forms",
-    "stages": "Stages",
-    "noStages": "No Stages",
-    "stageGroups": "Stage Groups",
-    "noStageGroups": "No Stage Groups",
-    "calendarCategories": "Calendar Categories",
-    "noCalendarCategories": "No Calendar Categories",
-    "pages": "Pages",
-    "noPages": "No Pages",
-    "noToolbarItems": "No Toolbar Items",
-    "submit": "Submit",
-    "view": "View",
-    "templateManage": "Template Manage -",
-    "notAssociated": "Not Associated",
-    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "This page is no longer associated with the community which means it no longer can be updated.",
-    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Once removed it will no longer be accessible through this dialog.",
-    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "This will update this page with what your community currently has, this is irreversible once the template is saved.",
-    "return": "Return",
-    "save": "Save"
-  },
-  "comTemplateDetailsDialog": {
-    "bySonoranSoftwareSystems": "by Sonoran Software Systems",
-    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Created by an Official Sonoran Software Systems Employee",
-    "view": "View"
-  },
-  "billingViewer": {
-    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Select the amount of GB storage you would like to add to your community."
-  },
-  "growthIndex": {
-    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "No favorites yet. Click the star icon on any metric or graph to add it to your Favorites.",
-    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Shape how your community appears in discovery and keep the headline, banner, and description aligned."
-  },
-  "communityDrive": {
-    "new": "New",
-    "assetFolders": "Asset Folders",
-    "downloadAsset": "Download Asset",
-    "removeAsset": "Remove Asset",
-    "communityImagesAssets": "Community Images / Assets",
-    "files": "Files",
-    "play": "Play",
-    "audioPlayer": "Audio Player"
-  },
-  "qBItems": {
-    "search": "Search",
-    "itemImageSelector": "Item Image (Selector)"
-  },
-  "qBJobs": {
-    "jobLabel": "Job Label",
-    "defaultDuty": "Default Duty",
-    "offDutyPay": "Off Duty Pay"
-  },
-  "qBoxItems": {
-    "search": "Search"
-  },
-  "gameDashboard": {
-    "activePlayers": "Active Players"
-  },
-  "gameEnvironment": {
-    "blackout": "Blackout"
-  },
-  "gamePlayers": {
-    "noCharacters": "No characters"
-  },
-  "gameResources": {
-    "noResults": "No Results",
-    "start": "Start",
-    "ensure": "Ensure"
-  },
-  "gameVehicles": {
-    "passengers": "Passengers",
-    "actions": "Actions",
-    "repairVehicle": "Repair Vehicle",
-    "despawnVehicle": "Despawn Vehicle",
-    "close": "Close",
-    "info": "Info",
-    "noResults": "No results",
-    "cancel": "Cancel"
-  },
-  "communityDashboard": {
-    "yes": "Yes",
-    "no": "No",
-    "reSync": "Re-Sync"
-  },
-  "communityMenu": {
-    "launchingYourNewCommunity": "Launching your new community...",
-    "join": "Join",
-    "dismiss": "Dismiss"
-  },
-  "indexPage": {
-    "managesYourEntireGamingCommunity": "manages your entire gaming community.",
-    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Run your gaming community from a single platform: AI-powered security and form automation, live rosters and rank-based permissions, synced Discord role management, and collaborative document workflows with granular access controls.",
-    "integratedGamePanels": "Integrated Game Panels",
-    "manageYourGameOperationsWithNativePanelIntegrations": "Manage your game operations with native panel integrations.",
-    "aIAutomation": "AI Automation",
-    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Harness AI-powered automation to run your community faster, safer, and with less manual work.",
-    "security": "Security",
-    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Automatically detect duplicate accounts across dozens of behavior and profile signals to keep your community secure.",
-    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Use AI-assisted grading to process form submissions automatically and route each one to the correct review stage.",
-    "userManagement": "User Management",
-    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Organize members, assign responsibilities, and keep staff structure clean.",
-    "rosters": "Rosters",
-    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Custom community rosters update live with member activity status, connection time, ranks, and more. Trigger automations for status changes or update rosters directly from form stage actions.",
-    "rankManager": "Rank Manager",
-    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS ranks are your single control point for permissions. Manage whitelists, file and website access, Discord role sync, and more from one unified system.",
-    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Keep your files, forms, and workflows organized in one place.",
-    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Share and live-edit documents, add watermark protection, embed images and files, and automatically sync access permissions with CMS ranks.",
-    "formsAndApplications": "Forms and Applications",
-    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Create custom forms for whitelist applications, LOA requests, and more. Powerful stage automations can update user ranks, sync rosters, trigger notifications, and handle repetitive workflow steps automatically.",
-    "saveWithQuarterlyBilling": "Save 25% with quarterly billing",
-    "totalBilledQuarterly": "total billed quarterly",
-    "backups": "Backups",
-    "openBillingCenter": "Open Billing Center"
-  },
-  "protectedManagement": {
-    "cMSManagementPanel": "CMS Management Panel",
-    "lastUpdated": "Last Updated:",
-    "connectedUsers": "Connected Users",
-    "systemAccounts": "System Accounts",
-    "manageGuides": "Manage Guides",
-    "specificDetailedUserMetricsHistory": "Specific Detailed - User Metrics History",
-    "between": "Between:",
-    "noSpecificUsersMetricsFetched": "No specific users metrics fetched...",
-    "specificGrowthUserMetricsHistory": "Specific Growth - User Metrics History",
-    "noSpecificGrowthMetricsFetched": "No specific growth metrics fetched...",
-    "sendMassNotification": "Send Mass Notification"
-  },
-  "systemAccount": {
-    "cancel": "Cancel"
   }
 }
