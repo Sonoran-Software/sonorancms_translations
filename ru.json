@@ -95,6 +95,7 @@
     "confirmation": "убедитесь, что сохранили аккаунт для применения настроек истечения срока.",
     "connections": "ID",
     "copyDiscordId": "Скопировать TeamSpeak ID",
+    "copyRawPermissions": "Копировать необработанные разрешения",
     "copyRobloxId": "Копировать Roblox ID",
     "copyTeamspeakId": "Редактировать информацию об учетной записи",
     "days": "Закрыть",
@@ -136,8 +137,10 @@
     "mergeAccountsDescription": "Объединение исходного аккаунта с целевым переместит все формы, события, темы и ответы на форумах, а также другие исторические данные из исходного аккаунта в целевой. После этого исходный аккаунт будет архивирован. Это действие нельзя отменить, поэтому, пожалуйста, будьте осторожны.",
     "mergeFailed": "Ошибка объединения:",
     "mergeSuccessful": "Успешное объединение аккаунтов!",
+    "minimumInactivityWindowDays": "Минимальное окно неактивности (дни)",
     "modifyExpiration": "Изменить срок действия",
     "multiaccount": "Подтверждение",
+    "multiAccountBanConfiguration": "Конфигурация бана для нескольких аккаунтов",
     "multiaccountRankChange": "Ранги для установки",
     "na": "Отменить бан",
     "name": "Системный статус",
@@ -230,6 +233,7 @@
     "youProbablyNeedToUpdateYourServers": "Ранги"
   },
   "actionsEditor": {
+    "calendarCategories": "Категории календаря",
     "calendarEvents": "События календаря",
     "checked": "Отмечено",
     "clockIn": "Вход",
@@ -296,6 +300,7 @@
     "rsvpDiscordMentionsVariableLabel": "Упоминания Discord из списка RSVP",
     "serverInSession": "Сервер в сессии",
     "servers": "Сервер(ы)",
+    "servers2": "Серверы",
     "serverSessions": "Сессии сервера",
     "sessionEnd": "Конец сессии",
     "sessionStart": "Начало сессии",
@@ -310,6 +315,9 @@
     "unchecked": "Неотмечено",
     "unknownAction": "Неизвестное действие",
     "value": "Значение"
+  },
+  "activityHoursView": {
+    "start": "старт"
   },
   "AdminPanel": {
     "accountsaccounts": "Пользовательские аккаунты",
@@ -750,6 +758,9 @@
     "unknownErrorOccuredWhileAttemptingToGene": "Сообщество успешно изменено по подписке!",
     "unpaid": "НЕПОЛНОЕ"
   },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Выберите объем хранилища в ГБ, который вы хотите добавить в ваше сообщество."
+  },
   "ButtonGroupForm": {
     "addButton": "Стили",
     "button": "Скопированные системные разрешения",
@@ -935,7 +946,8 @@
     "title": "Иконка карточки"
   },
   "CarouselForm": {
-    "add": "Метка"
+    "add": "Метка",
+    "upload": "Загрузить"
   },
   "ChangeDirDialog": {
     "changeDirectory": "Переместить этот файл в",
@@ -1259,6 +1271,22 @@
     "latestVersion": "Произошла ошибка при запросе загрузки:",
     "unauthorizedMissingPermissionsToDownload": "Последнее обновление:"
   },
+  "comManagementDialog": {
+    "back": "Назад",
+    "createTemplate": "Создать шаблон",
+    "departments": "Отделы",
+    "noCalendarCategories": "Нет категорий календаря",
+    "noPages": "Страниц нет",
+    "noRosters": "Нет списков",
+    "noStages": "Нет этапов",
+    "notAssociated": "Не связано",
+    "noToolbarItems": "Нет элементов панели инструментов",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "После удаления оно больше не будет доступно через этот диалог.",
+    "save": "Сохранить",
+    "stages": "Этапы",
+    "templateCreationBasicInformation": "Создание шаблона — Основная информация",
+    "templateDescription": "Описание шаблона"
+  },
   "common": {
     "add": "Добавить",
     "calCates": "Категории календаря",
@@ -1317,6 +1345,10 @@
     "successfullyLeft": "сообщество!",
     "youCannotLeaveACommunityThatYouOwn": "Произошла неожиданная ошибка при выходе из этого сообщества, если это повторится, свяжитесь с поддержкой. Ошибка:"
   },
+  "communityDashboard": {
+    "no": "Нет",
+    "yes": "Да"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Документы Community Discovery",
     "commmunityDiscoveryTutorial": "Учебник по Community Discovery",
@@ -1329,8 +1361,10 @@
     "previewCommunity": "Предварительный просмотр сообщества",
     "pro": "Про",
     "return": "Вернуться",
+    "search": "Поиск",
     "standard": "Стандартный",
     "starter": "Начальный",
+    "tags": "Теги:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "В этом сообществе одни из самых активных участников",
     "thisCommunityIsGrowingRapidly": "Это сообщество быстро растет",
     "thisCommunityIsReceivingHighWebsiteTraff": "Это сообщество получает высокий трафик на веб-сайте",
@@ -1338,9 +1372,39 @@
     "viewAll": "Просмотреть все",
     "website": "Веб-сайт"
   },
+  "communityDrive": {
+    "audioPlayer": "Аудиоплеер",
+    "communityImagesAssets": "Изображения/ресурсы сообщества",
+    "files": "Файлы",
+    "new": "НОВОЕ",
+    "play": "Играть",
+    "removeAsset": "Удалить актив"
+  },
+  "communityLookup": {
+    "communityID": "ID сообщества",
+    "forceJoin": "Принудительное присоединение",
+    "forceLeave": "Принудительно покинуть",
+    "rawData": "Необработанные данные",
+    "restoreCommunity": "ВОССТАНОВИТЬ СООБЩЕСТВО"
+  },
+  "communityMenu": {
+    "dismiss": "Отклонить",
+    "join": "Присоединиться"
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Возникла проблема при загрузке страницы",
     "thereWasAProblemLoadingThePage": "Аккаунты"
+  },
+  "communityTemplates": {
+    "edit": "Создать",
+    "editTemplate": "Редактировать шаблон",
+    "inactive": "Неактивно",
+    "needsReview": "Требует проверки",
+    "remove": "Удалить"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "Создано сотрудником Sonoran Software Systems",
+    "view": "Просмотр"
   },
   "ConditionalFormSectionUI": {
     "Checked": "Проверено",
@@ -1716,7 +1780,8 @@
     "yourCurrently": "в этом сообществе, возможно, вы захотите заполнить заявку, вы можете сделать это на"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Обязательно"
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Обязательно",
+    "used": "использовано"
   },
   "DepartmentEditor": {
     "addRosterRow": "Редактировать строку списка",
@@ -1809,12 +1874,15 @@
   "disciplinaryAccounts": {
     "accountLabel": "Аккаунт",
     "addDisciplinaryPoints": "добавить дисциплинарные баллы",
+    "amount": "Сумма:",
     "configureActions": "Настройка действий",
+    "date": "Дата:",
     "disciplinaryPoints": "дисциплинарныеБаллы",
     "noActiveDisciplinaryPoints": "нет активных дисциплинарных пунктов",
     "noRobloxAccountLinked": "Roblox аккаунт не привязан",
     "pointsLabel": "Баллы",
-    "reasonLabel": "Причина"
+    "reasonLabel": "Причина",
+    "source": "Источник:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -2058,6 +2126,8 @@
     "roleId": "Выберите ранг",
     "roleInUseExplanation": "Эта роль Discord уже используется в существующей категории, обновите это сопоставление, если вы хотите добавить больше рангов CMS.",
     "selectRank": "Гильдия:",
+    "selectRankS": "Выбрать звание(я)",
+    "selectRole": "Выберите роль",
     "thisMappingDoesntExistRefresh": "Произошла ошибка при удалении сопоставления, попробуйте позже."
   },
   "DiscordRoleMultiSelector": {
@@ -2143,6 +2213,9 @@
     "errorMissingPermissionsForThisFile": "Ошибка: У вас нет прав на редактирование этого файла.",
     "errorYouDoNotHavePermissionToEditThisFil": "Ошибка:",
     "protectionOnlyAccess": "У вас есть доступ только для защиты этого документа, поэтому редактор контента скрыт."
+  },
+  "driveQuickUploader": {
+    "noUploadsYet": "Загрузок пока нет"
   },
   "DriveViewDoc": {
     "documentName": "Ошибка: недостаточно прав для этого файла.",
@@ -2363,6 +2436,7 @@
     "private": "Только люди с разрешением могут просматривать",
     "public": "Все могут видеть документ, и он отображается в их диске",
     "rankAccess": "Просмотр документа",
+    "shareType": "Тип общего доступа",
     "unlisted": "Ссылка может быть передана кому угодно, и редакторы могут видеть в своем диске",
     "viewDocument": "Редактирование документа"
   },
@@ -2487,10 +2561,15 @@
     "webhookChannel": "вебхукКанал"
   },
   "ERLCActivity": {
+    "date": "Дата",
     "errorAnErrorOccuredWhileFetchingServerDa": "Произошла ошибка при получении данных сервера",
     "filter": "Фильтр",
     "latestActivity": "Последняя активность",
     "pending": "В ожидании",
+    "pickDateRange": "Выберите диапазон дат",
+    "searchByUsername": "Поиск по имени пользователя",
+    "selectTypes": "Выберите типы",
+    "selectUser": "Выбрать пользователя",
     "showingAllLogs": "Показ всех логов",
     "showingPlayerRecords": "Показ записей игроков",
     "unknownStage": "Неизвестный этап"
@@ -2638,6 +2717,7 @@
     "illicit": "незаконный",
     "kickUsersWithAllothersInUsername": "кикатьПользователейССообществаВИмениПользователя",
     "kickUsersWithInappropriateUsernames": "Забанить пользователей с неподобающими именами пользователя",
+    "log": "лог",
     "lowercaseCommand": "команда",
     "name": "Имя",
     "priorityPlayerList": "Список приоритетных игроков",
@@ -2649,6 +2729,7 @@
     "selfharm": "самоповреждение",
     "sexual": "сексуальный",
     "stages": "Этапы",
+    "testUsername": "Тестовое имя пользователя",
     "username": "имя пользователя",
     "usernameModeration": "модерация имени пользователя",
     "violence": "насилие"
@@ -2666,6 +2747,7 @@
     "disciplinaryPoints": "Дисциплинарные очки",
     "editedTheRecords": "отредактировал записи",
     "editExistingRecord": "Редактировать существующую запись",
+    "editHistory": "История изменений",
     "enterUsernames": "Введите имя(я) пользователя",
     "enterYourReasonForRecord": "Введите вашу причину для записи...",
     "kick": "Выгнать",
@@ -2676,6 +2758,7 @@
     "numberOfPointsToAdd": "Количество очков для добавления...",
     "points": "Очки",
     "pointsFrom": "баллы из",
+    "reason": "Причина",
     "reasonFrom": "причина от",
     "recordType": "Тип записи",
     "saveChanges": "Сохранить изменения",
@@ -2741,7 +2824,14 @@
     "noPlayersConnected": "Нет подключенных игроков",
     "playersIngame": "игроки в игре",
     "playersInQueue": "игроки_в_очереди",
+    "sheriff": "шериф",
     "teams": "команды"
+  },
+  "eRLCPlayerSearchItem": {
+    "openUserPanelFor": "Открыть панель пользователя для"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "Активность не найдена"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Активировать это действие после нарушения ограничения в течение определённого времени (в секундах)",
@@ -2911,6 +3001,9 @@
     "submissions": "Отправки от третьих лиц",
     "thirdpartySubmissions": "Таймклок",
     "timeclock": "Новая отправка"
+  },
+  "formRankAccountRow": {
+    "section": "Раздел:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Поле/Источник для ссылки",
@@ -3303,6 +3396,7 @@
     "thisForumTopicIsLockedFromNewReplies": "Заблокировать",
     "thisForumTopicIsPinnedWithinThe": "Эта тема форума закрыта для новых ответов.",
     "thisTopic": "Отмена",
+    "title": "Название",
     "topicRepliesBelow": "ID:",
     "uniqueIdCopiedToClipboard": "1 секунда назад",
     "unlock": "Открепить",
@@ -3363,9 +3457,49 @@
     "uploadANewPhoto": "Произошла ошибка при получении информации о галерее:",
     "uploadNewPhoto": "Заголовок поста"
   },
+  "gameEnvironment": {
+    "blackout": "Затемнение"
+  },
   "GameIndex": {
+    "andClickToCopyPasteTheIDAndKeyBelow": "и нажмите, чтобы скопировать/вставить ID и ключ ниже.",
+    "aPIKey": "Ключ API",
+    "click": "Клик",
+    "communityID": "ID сообщества",
+    "copyYourERLCAPIKey": "Скопируйте свой ключ API ER:LC",
+    "createNewServer": "Создать новый сервер",
+    "directoryToCustomizeYourFeatures": "каталог для настройки ваших функций.",
+    "disabledDueToMissingPermission": "Отключено из-за отсутствия разрешения:",
+    "eRLCAPIKey": "Ключ API ER:LC",
+    "fileManager": "Файловый менеджер",
+    "installSonoran": "Установить Sonoran",
+    "melonly": "Melonly",
     "melonlyApiKey": "Ключ API Melonly",
-    "noPlayersFoundSearch": "Игроки не найдены... Поиск"
+    "navigateToOwnedServers": "Перейти к \"Своим серверам\"",
+    "navigateToServers": "Перейти к \"Серверам\"",
+    "navigateToThe": "Перейти к",
+    "noPlayersFoundSearch": "Игроки не найдены... Поиск",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "После завершения установки вы можете получить доступ к файлам ресурсов в",
+    "oneClickInstallation": "Установка в один клик",
+    "pasteYourERLCAPIKey": "Вставьте свой ключ API ER:LC",
+    "purchaseAFiveMGameServerFromRocketNode": "Купить игровой сервер FiveM у Rocket Node",
+    "purchaseAPIAccessFromERLC": "Купить доступ к API в ER:LC",
+    "selectEditServerSettings": "Выберите \"Редактировать настройки сервера\"",
+    "selectEditToCopyToClipboard": "Выберите \"Редактировать\", чтобы скопировать в буфер обмена",
+    "sonoranInstaller": "Установщик Sonoran",
+    "useTestData": "Использовать тестовые данные",
+    "videoTutorial": "Обучающее видео",
+    "youMustBeAnAdminToViewTheAPIKey": "Вы должны быть администратором, чтобы просмотреть API-ключ."
+  },
+  "gameResources": {
+    "ensure": "Убедитесь",
+    "noResults": "Нет результатов"
+  },
+  "gameVehicles": {
+    "actions": "Действия",
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "despawnVehicle": "удалитьТранспортноеСредство",
+    "repairVehicle": "починитьТранспортноеСредство"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Было получено обновление состояния игры, и несохраненная конфигурация банды может быть перезаписана, если вы сохраните",
@@ -3402,6 +3536,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "Недостаточно данных для определения этого сообщества"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Избранная эта метрика",
     "growtherrored": "ЗАГРУЗКА ДАННЫХ",
     "growthloadingdata": "Эти данные графика зависят от данных, собранных только с",
     "growthnewusersjoiningyourcommunity": "Пользователи, покинувшие ваше сообщество:",
@@ -3419,7 +3554,19 @@
     "growthuserswhohaveleftyourcommunity": "Количество уникальных входов участников",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Предыдущий период",
     "numberOfUniqueViewsFromCommunityDiscover": "Количество уникальных пользователей, посетивших страницу сообщества из Community Discovery",
-    "theresNotEnoughDataToPopulateTheGraph": "ОШИБКА"
+    "theresNotEnoughDataToPopulateTheGraph": "ОШИБКА",
+    "thisMetricIsFavorite": "Эта метрика избранная"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Пока нет избранного. Нажмите значок звезды на любом показателе или графике, чтобы добавить его в Избранное."
+  },
+  "guideManagement": {
+    "addGuide": "Добавить руководство",
+    "allGuidesAvailable": "Все руководства доступны",
+    "editTheGuideLabel": "Изменить ярлык руководства",
+    "editTheGuideURL": "Изменить URL руководства",
+    "enterBelowAllInformationRegardingThisGuide": "Ниже введите всю информацию об этом руководстве.",
+    "gitBookGuideURL": "URL руководства GitBook"
   },
   "helpButtonComponent": {
     "close": "Закрыть",
@@ -3439,8 +3586,15 @@
     "icon": "Иконка",
     "image": "Изображение"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Полноэкранный режим"
+  },
+  "iFrameForm": {
+    "iFrameURL": "URL iFrame"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Это поле не содержит данных. Наиболее вероятная причина - устаревший плагин Sonoran CMS Core на ваших серверах.",
+    "hyperlinkOptions": "Параметры гиперссылки",
     "targetForm": "Форма",
     "targetNone": "Нет",
     "targetPage": "Пользовательская страница",
@@ -3459,7 +3613,9 @@
     "errorMaxSizeMessage": "Тип файла не поддерживается. Пожалуйста, загружайте только изображения.",
     "errorMaxTotalSizeMessage": "Произошла неожиданная ошибка во время загрузки. Пожалуйста, попробуйте снова. Если проблема сохраняется, обратитесь в службу поддержки за помощью.",
     "errorMessage": "Произошла ошибка во время загрузки.",
-    "errorUploadMessage": "Файл превышает ограничение по размеру в 5 МБ."
+    "errorUploadMessage": "Файл превышает ограничение по размеру в 5 МБ.",
+    "imagePreview": "Предварительный просмотр изображения",
+    "upload": "Загрузить"
   },
   "Index": {
     "account": "Учетная запись",
@@ -3690,6 +3846,24 @@
     "withADuplicate": "с дубликатом",
     "yes": "Да",
     "youDoNotHavePermissionsForThisGameServer": "У вас нет разрешений для этого игрового сервера"
+  },
+  "indexPage": {
+    "aIAutomation": "Автоматизация ИИ",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Автоматически обнаруживайте дублирующиеся аккаунты по десяткам поведенческих и профильных сигналов, чтобы поддерживать безопасность вашего сообщества.",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "Ранги CMS — это ваша единая точка контроля прав доступа. Управляйте белыми списками, доступом к файлам и сайтам, синхронизацией ролей Discord и многим другим из одной единой системы.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Создавайте настраиваемые формы для заявок в whitelist, запросов LOA и многого другого. Мощные автоматизации этапов могут автоматически обновлять ранги пользователей, синхронизировать списки, запускать уведомления и выполнять повторяющиеся шаги рабочего процесса.",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Используйте автоматизацию на базе ИИ, чтобы управлять вашим сообществом быстрее, безопаснее и с меньшим ручным трудом.",
+    "integratedGamePanels": "Интегрированные игровые панели",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Храните ваши файлы, формы и рабочие процессы в одном месте.",
+    "managesYourEntireGamingCommunity": "управляет всем вашим игровым сообществом.",
+    "openBillingCenter": "Открыть центр биллинга",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Организуйте участников, распределяйте обязанности и поддерживайте чистую структуру штата.",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Управляйте своим игровым сообществом с единой платформы: безопасность на базе ИИ и автоматизация форм, живые списки участников и права доступа по рангам, синхронизированное управление ролями Discord и совместные рабочие процессы с документами и детальным контролем доступа.",
+    "saveWithQuarterlyBilling": "Сэкономьте 25% при квартальной оплате",
+    "security": "Безопасность",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Делитесь документами и редактируйте их в реальном времени, добавляйте защиту водяным знаком, встраивайте изображения и файлы и автоматически синхронизируйте права доступа с уровнями CMS.",
+    "totalBilledQuarterly": "общая сумма выставляется поквартально",
+    "userManagement": "Управление пользователями"
   },
   "InfoBlocksForm": {
     "add": "Пользовательский",
@@ -4001,8 +4175,10 @@
     "allowedRanksToReply": "Ссылка для общего доступа скопирована в буфер обмена!",
     "allowSubmitterReplies": "Разрешенные ранги для ответа",
     "cancel": "Отмена",
+    "changedTheStageFrom": "изменил этап с",
     "changeStage": "Изменить этап",
     "close": "Новый ответ",
+    "commentHere": "Комментарий здесь...",
     "deleteForm": "Сохранить",
     "hidden": "ЗАБЛОКИРОВАНО",
     "invalidStage": "Видимый",
@@ -4027,6 +4203,10 @@
     "unlocked": "Разрешить ответы отправителя",
     "visible": "Показать комментарии",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Нет опций"
+  },
+  "massNotificationManagement": {
+    "notificationContent": "содержимое уведомления",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "покажет верхнее QNotify с содержимым в качестве сообщения уведомления, если вы укажете метку кнопки и url, они будут прикреплены к QNotify."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord вебхук",
@@ -4796,6 +4976,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Ошибка: У вас нет разрешения на редактирование информации о пользователе.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Изменить название сообщества",
     "exportTime": "Учетная запись:",
+    "filterForms": "Фильтры форм",
     "for": "История входа/выхода",
     "formLabel": "Время отправки",
     "formSettings": "Включение этого параметра позволит участнику просматривать отправку формы в своем профиле.",
@@ -4956,9 +5137,27 @@
     "selectPromotionFlowFromCommunityConfiguration": "Выберите процесс повышения из конфигурации сообщества.",
     "sendRankNoti": "Отправить уведомление о звании",
     "subtitle": "Обрабатывайте автоматизированные потоки повышений ранга для членов вашего сообщества.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Это действие сработает только если этот поток понижается.",
     "title": "Потоки продвижения",
     "toLabelVariableDesc": "Это укажет установленную метку 'до' для этого потока продвижения.",
     "toLabelVariableLabel": "Метка до"
+  },
+  "protectedManagement": {
+    "between": "Между:",
+    "cMSManagementPanel": "Панель управления CMS",
+    "lastUpdated": "Последнее обновление:",
+    "manageGuides": "Управление руководствами",
+    "noSpecificGrowthMetricsFetched": "Метрики роста не получены...",
+    "noSpecificUsersMetricsFetched": "Метрики конкретных пользователей не получены...",
+    "specificDetailedUserMetricsHistory": "Подробно по конкретному пользователю — история метрик",
+    "specificGrowthUserMetricsHistory": "Подробно по росту — история метрик пользователя"
+  },
+  "qBJobs": {
+    "defaultDuty": "Дежурство по умолчанию",
+    "jobLabel": "Метка задания"
+  },
+  "qBoxItems": {
+    "search": "Поиск"
   },
   "RadioIntegration": {
     "apiCredentials": "учетные_данные_API",
@@ -4978,10 +5177,12 @@
     "noCommunityId": "нетИдентификатораСообщества",
     "permissionSelector": "селектор разрешений",
     "remove": "удалить",
+    "setAnAPIIDAndKeyToSetPermissions": "Укажите API ID и ключ для настройки разрешений",
     "syncOptions": "опцииСинхронизации",
     "title": "Конфигурации Sonoran Radio"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Выберите приватные каналы, к которым рангу разрешено присоединяться",
     "setRadio": "установить Радио"
   },
   "rankAccountRow": {
@@ -5138,6 +5339,7 @@
     "clickToDisableConditionalFormatValueBein": "Нажмите, чтобы переопределить условное значение",
     "clickToOverrideConditionalFormatValue": "Значение было переопределено вручную, игнорируя установленные условные значения.",
     "close": "Н/Д",
+    "deleteRow": "Удалить строку",
     "downloadRosterCsv": "Скачать полный список в формате CSV",
     "end": "Конец",
     "errorDownloadingRosterCSV": "Ошибка при загрузке CSV-списка, если это повторится, свяжитесь с поддержкой.",
@@ -5147,6 +5349,7 @@
     "membersPerPage": "Закрыть",
     "na": "Горизонтально",
     "noServer": "Нет имени сервера",
+    "ranks": "Ранги",
     "start": "Начать:",
     "valueHasBeenOverwrittenByAManualValueIgn": "Кнопка",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "У вас нет прав на управление трекером активности в этом составе."
@@ -5208,6 +5411,10 @@
     "viewportHeight": "Высота окна просмотра",
     "viewportWidth": "Ширина окна просмотра",
     "width": "Ширина"
+  },
+  "sectionWrapper": {
+    "pasteElement": "Вставить элемент",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Виртуально скопируйте раздел, вставьте на другие страницы правой кнопкой мыши."
   },
   "selectComPage": {
     "selectCommunityPage": "Это отобразит значок администратора (шестеренка) справа от значка Вход/Выход для легкого доступа и не мешая."
@@ -5276,6 +5483,7 @@
     "administration": "Администрирование",
     "allowPrivateCommentsTrigger": "Триггер на приватные комментарии",
     "changedOn": "Изменено на",
+    "close": "Закрыть",
     "column": "Столбец",
     "erlcServer": "Сервер ER:LC",
     "formSubmitter": "Отправитель формы",
@@ -5300,21 +5508,28 @@
     "allowOrBlock": "Разрешить или блокировать IP-адреса на портах вашего сервера.",
     "applicationFilters": "Фильтры приложений",
     "attackHistory": "История атак",
+    "comment": "Комментарий",
     "commonhelp": "Помощь",
+    "destinationPort": "Порт назначения",
     "filters": "Фильтры",
     "Filters": "Фильтры",
     "firewall": "Брандмауэр",
     "firewallRules": "Правила брандмауэра",
+    "help": "Помощь",
     "learnAboutSonoranShield": "Узнайте о Sonoran Shield",
     "linkYourServer": "Свяжите ваш сервер",
     "myFilters": "Мои фильтры",
     "myServers": "Мои серверы:",
     "noActiveServers": "Нет активных серверов",
     "poweredByPath": "При поддержке Path.net, наша панель полного доступа раз и навсегда прекращает сетевые атаки.",
+    "protocol": "Протокол",
     "sonoranShieldDocuments": "Документы Sonoran Shield",
     "sonoranShieldKeeps": "Sonoran Shield сохраняет ваше сообщество в игре или возвращает деньги.",
     "sonoranShieldNetworkDefense": "Сетевая защита Sonoran Shield",
     "sonoranShieldTutorial": "Учебник Sonoran Shield",
+    "sourceASN": "Источник ASN *",
+    "sourcePort": "Порт источника",
+    "sourceType": "Тип источника *",
     "unlink": "Отвязать"
   },
   "specificSubscribedAccountNotificationPreference": {
@@ -5452,6 +5667,11 @@
     "newStage": "Закрыть",
     "reorderStages": "Название документа"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Имя пользователя учетной записи",
+    "globalPermissions": "Глобальные разрешения",
+    "save": "Сохранить"
+  },
   "tabbedPermissionEditor": {
     "copiedCalendarPermissions": "Вставить разрешения календаря",
     "copiedERLCPermissions": "Скопированы разрешения ER:LC",
@@ -5464,6 +5684,8 @@
     "copiedServerPermissions": "Вставить серверные разрешения",
     "copiedShiftTypesPermissions": "Скопированные разрешения ER:LC",
     "copiedSystemPermissions": "Вставить системные разрешения",
+    "forms": "Формы",
+    "navigation": "Навигация",
     "pasteCalendarPermissions": "Скопированные разрешения полей профиля",
     "pasteERLCPermissions": "Вставить разрешения ER:LC",
     "pasteFormsPermissions": "Скопированные разрешения списков",
@@ -5475,7 +5697,10 @@
     "pasteServerPermissions": "Скопированные разрешения игрового сервера",
     "pasteShiftTypesPermissions": "Вставить разрешения ER:LC",
     "pasteSystemPermissions": "Скопированные разрешения навигации",
-    "shiftTypes": "Типы смен"
+    "profileFields": "Поля профиля",
+    "servers": "Серверы",
+    "shiftTypes": "Типы смен",
+    "system": "Система"
   },
   "TeamspeakIntegration": {
     "addMapping": "Полная синхронизация",
@@ -5649,6 +5874,9 @@
     "youAreRunningAnOutdatedVersionOf": "на вашем сервере! Для корректной работы этой панели требуется более новая версия.",
     "yourServersVersion": "Требуемая версия"
   },
+  "videoForm": {
+    "videoURL": "URL видео"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Изменить этап",
     "allowSubmitterReplies": "Разрешенные ранги для ответа",
@@ -5706,6 +5934,7 @@
     "rightActivity": "Право: Активность"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "Цвет фона",
     "updateMessage": "Выберите ранг"
   },
   "Whitelist": {

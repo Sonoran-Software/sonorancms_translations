@@ -95,6 +95,7 @@
     "confirmation": "有効期限の設定を適用するためにアカウントを保存してください。",
     "connections": "ID",
     "copyDiscordId": "TeamSpeak IDをコピー",
+    "copyRawPermissions": "生の権限をコピー",
     "copyRobloxId": "ロブロックスIDをコピー",
     "copyTeamspeakId": "アカウント情報を編集",
     "days": "閉じる",
@@ -136,8 +137,10 @@
     "mergeAccountsDescription": "元アカウントを対象アカウントに統合すると、すべてのフォーム提出、イベント、フォーラムトピックと返信、その他の履歴データが元アカウントから対象アカウントに移動されます。その後、元アカウントはアーカイブされます。この操作は元に戻せないため、慎重に進めてください。",
     "mergeFailed": "統合に失敗しました:",
     "mergeSuccessful": "アカウント統合が成功しました！",
+    "minimumInactivityWindowDays": "最小非アクティブ期間（日）",
     "modifyExpiration": "有効期限の変更",
     "multiaccount": "確認",
+    "multiAccountBanConfiguration": "複数アカウント禁止設定",
     "multiaccountRankChange": "設定するランク",
     "na": "禁止を取り消す",
     "name": "システムステータス",
@@ -230,6 +233,7 @@
     "youProbablyNeedToUpdateYourServers": "ランク"
   },
   "actionsEditor": {
+    "calendarCategories": "カレンダーのカテゴリ",
     "calendarEvents": "カレンダーイベント",
     "checked": "チェック済み",
     "clockIn": "出勤",
@@ -296,6 +300,7 @@
     "rsvpDiscordMentionsVariableLabel": "RSVPリストDiscordメンション",
     "serverInSession": "セッション中のサーバー",
     "servers": "サーバー",
+    "servers2": "サーバー",
     "serverSessions": "サーバーセッション",
     "sessionEnd": "セッション終了",
     "sessionStart": "セッション開始",
@@ -310,6 +315,9 @@
     "unchecked": "未チェック",
     "unknownAction": "不明なアクション",
     "value": "値"
+  },
+  "activityHoursView": {
+    "start": "開始"
   },
   "AdminPanel": {
     "accountsaccounts": "ユーザーアカウント",
@@ -750,6 +758,9 @@
     "unknownErrorOccuredWhileAttemptingToGene": "サブスクリプションからコミュニティを正常に変更しました！",
     "unpaid": "不完全"
   },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "コミュニティに追加したい GB ストレージの量を選択してください。"
+  },
   "ButtonGroupForm": {
     "addButton": "スタイル",
     "button": "システム権限をコピーしました",
@@ -935,7 +946,8 @@
     "title": "カードアイコン"
   },
   "CarouselForm": {
-    "add": "ラベル"
+    "add": "ラベル",
+    "upload": "アップロード"
   },
   "ChangeDirDialog": {
     "changeDirectory": "このファイルを移動",
@@ -1259,6 +1271,22 @@
     "latestVersion": "ダウンロード要求中にエラーが発生しました:",
     "unauthorizedMissingPermissionsToDownload": "最終更新日:"
   },
+  "comManagementDialog": {
+    "back": "戻る",
+    "createTemplate": "テンプレートを作成",
+    "departments": "部門",
+    "noCalendarCategories": "カレンダーのカテゴリはありません",
+    "noPages": "ページがありません",
+    "noRosters": "名簿がありません",
+    "noStages": "ステージなし",
+    "notAssociated": "未関連",
+    "noToolbarItems": "ツールバーアイテムがありません",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "削除すると、このダイアログからはアクセスできなくなります。",
+    "save": "保存",
+    "stages": "ステージ",
+    "templateCreationBasicInformation": "テンプレート作成 - 基本情報",
+    "templateDescription": "テンプレートの説明"
+  },
   "common": {
     "add": "追加",
     "calCates": "カレンダーのカテゴリ",
@@ -1317,6 +1345,10 @@
     "successfullyLeft": "コミュニティ！",
     "youCannotLeaveACommunityThatYouOwn": "このコミュニティを離れる際に予期しないエラーが発生しました。これが続く場合はサポートに連絡してください。エラー:"
   },
+  "communityDashboard": {
+    "no": "いいえ",
+    "yes": "はい"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "コミュニティディスカバリードキュメント",
     "commmunityDiscoveryTutorial": "コミュニティディスカバリーチュートリアル",
@@ -1329,8 +1361,10 @@
     "previewCommunity": "コミュニティをプレビュー",
     "pro": "プロ",
     "return": "戻る",
+    "search": "検索",
     "standard": "スタンダード",
     "starter": "スターター",
+    "tags": "タグ:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "このコミュニティには最もアクティブなメンバーがいます",
     "thisCommunityIsGrowingRapidly": "このコミュニティは急速に成長しています",
     "thisCommunityIsReceivingHighWebsiteTraff": "このコミュニティは高いウェブサイトトラフィックを受けています",
@@ -1338,9 +1372,39 @@
     "viewAll": "すべて表示",
     "website": "ウェブサイト"
   },
+  "communityDrive": {
+    "audioPlayer": "オーディオプレーヤー",
+    "communityImagesAssets": "コミュニティ画像 / アセット",
+    "files": "ファイル",
+    "new": "新規",
+    "play": "再生",
+    "removeAsset": "アセットを削除"
+  },
+  "communityLookup": {
+    "communityID": "コミュニティ ID",
+    "forceJoin": "強制参加",
+    "forceLeave": "強制退出",
+    "rawData": "生データ",
+    "restoreCommunity": "コミュニティを復元"
+  },
+  "communityMenu": {
+    "dismiss": "閉じる",
+    "join": "参加"
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "ページの読み込み中に問題が発生しました",
     "thereWasAProblemLoadingThePage": "アカウント"
+  },
+  "communityTemplates": {
+    "edit": "編集",
+    "editTemplate": "テンプレートを編集",
+    "inactive": "非アクティブ",
+    "needsReview": "要レビュー",
+    "remove": "削除"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "公式のSonoran Software Systemsの従業員によって作成されました",
+    "view": "表示"
   },
   "ConditionalFormSectionUI": {
     "Checked": "確認済み",
@@ -1716,7 +1780,8 @@
     "yourCurrently": "このコミュニティ内にいる場合、申請書を記入することをお勧めします。それは次の場所で行うことができます"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "必須"
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "必須",
+    "used": "使用済み"
   },
   "DepartmentEditor": {
     "addRosterRow": "名簿行を編集",
@@ -1809,12 +1874,15 @@
   "disciplinaryAccounts": {
     "accountLabel": "アカウント",
     "addDisciplinaryPoints": "懲戒ポイントを追加",
+    "amount": "金額:",
     "configureActions": "アクションを構成",
+    "date": "日付：",
     "disciplinaryPoints": "懲戒点数",
     "noActiveDisciplinaryPoints": "アクティブな懲戒ポイントはありません",
     "noRobloxAccountLinked": "Robloxアカウントがリンクされていません",
     "pointsLabel": "ポイント",
-    "reasonLabel": "理由"
+    "reasonLabel": "理由",
+    "source": "ソース:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -2058,6 +2126,8 @@
     "roleId": "ランクを選択",
     "roleInUseExplanation": "このDiscordロールは既存のカテゴリーマッピングにすでに使用されています。CMSランクをさらに追加したい場合は、その既存のマッピングを更新してください。",
     "selectRank": "ギルド：",
+    "selectRankS": "ランクを選択",
+    "selectRole": "ロールを選択",
     "thisMappingDoesntExistRefresh": "マッピングを削除中にエラーが発生しました。後でもう一度お試しください。"
   },
   "DiscordRoleMultiSelector": {
@@ -2143,6 +2213,9 @@
     "errorMissingPermissionsForThisFile": "エラー：このファイルを編集する権限がありません。",
     "errorYouDoNotHavePermissionToEditThisFil": "エラー：",
     "protectionOnlyAccess": "この文書は保護のみのアクセスですので、コンテンツエディターは非表示です。"
+  },
+  "driveQuickUploader": {
+    "noUploadsYet": "まだアップロードはありません"
   },
   "DriveViewDoc": {
     "documentName": "エラー: このファイルの権限が不足しています。",
@@ -2363,6 +2436,7 @@
     "private": "権限を持つ人のみが表示可能",
     "public": "誰でもドキュメントを表示でき、自分のドライブにリストされます",
     "rankAccess": "ドキュメントを表示",
+    "shareType": "共有タイプ",
     "unlisted": "リンクは誰にでも共有でき、編集者は自分のドライブで見ることができます",
     "viewDocument": "ドキュメントを編集"
   },
@@ -2487,10 +2561,15 @@
     "webhookChannel": "ウェブフックチャンネル"
   },
   "ERLCActivity": {
+    "date": "日付",
     "errorAnErrorOccuredWhileFetchingServerDa": "サーバーデータの取得中にエラーが発生しました",
     "filter": "フィルター",
     "latestActivity": "最新の活動",
     "pending": "保留中",
+    "pickDateRange": "期間を選択",
+    "searchByUsername": "ユーザー名で検索",
+    "selectTypes": "種類を選択",
+    "selectUser": "ユーザーを選択",
     "showingAllLogs": "すべてのログを表示中",
     "showingPlayerRecords": "プレイヤー記録を表示中",
     "unknownStage": "不明なステージ"
@@ -2638,6 +2717,7 @@
     "illicit": "不正な",
     "kickUsersWithAllothersInUsername": "ユーザー名が他のすべてを含むユーザーをキック",
     "kickUsersWithInappropriateUsernames": "不適切なユーザー名のユーザーをキックする",
+    "log": "ログ",
     "lowercaseCommand": "コマンド",
     "name": "名前",
     "priorityPlayerList": "優先プレイヤーリスト",
@@ -2649,6 +2729,7 @@
     "selfharm": "自傷行為",
     "sexual": "性的",
     "stages": "ステージ",
+    "testUsername": "テスト ユーザー名",
     "username": "ユーザー名",
     "usernameModeration": "ユーザーネーム管理",
     "violence": "暴力"
@@ -2666,6 +2747,7 @@
     "disciplinaryPoints": "懲戒ポイント",
     "editedTheRecords": "レコードを編集しました",
     "editExistingRecord": "既存のレコードを編集",
+    "editHistory": "編集履歴",
     "enterUsernames": "ユーザー名を入力してください",
     "enterYourReasonForRecord": "記録の理由を入力してください...",
     "kick": "追放",
@@ -2676,6 +2758,7 @@
     "numberOfPointsToAdd": "追加するポイント数...",
     "points": "ポイント",
     "pointsFrom": "ポイント元",
+    "reason": "理由",
     "reasonFrom": "理由元",
     "recordType": "記録タイプ",
     "saveChanges": "変更を保存",
@@ -2741,7 +2824,14 @@
     "noPlayersConnected": "接続されているプレイヤーはいません",
     "playersIngame": "ゲーム内のプレイヤー",
     "playersInQueue": "キュー内のプレイヤー",
+    "sheriff": "保安官",
     "teams": "チーム"
+  },
+  "eRLCPlayerSearchItem": {
+    "openUserPanelFor": "ユーザーパネルを開く:"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "アクティビティが見つかりません"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "制限違反後、一定時間（秒数）でこのアクションをトリガーします",
@@ -2911,6 +3001,9 @@
     "submissions": "サードパーティの送信",
     "thirdpartySubmissions": "タイムクロック",
     "timeclock": "新しい送信"
+  },
+  "formRankAccountRow": {
+    "section": "セクション:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "参照するフィールド/ソース",
@@ -3303,6 +3396,7 @@
     "thisForumTopicIsLockedFromNewReplies": "ロック",
     "thisForumTopicIsPinnedWithinThe": "このフォーラムトピックは新しい返信を受け付けていません。",
     "thisTopic": "キャンセル",
+    "title": "タイトル",
     "topicRepliesBelow": "ID：",
     "uniqueIdCopiedToClipboard": "1秒前",
     "unlock": "ピン解除",
@@ -3363,9 +3457,49 @@
     "uploadANewPhoto": "ギャラリー情報の取得中にエラーが発生しました：",
     "uploadNewPhoto": "投稿タイトル"
   },
+  "gameEnvironment": {
+    "blackout": "停電"
+  },
   "GameIndex": {
+    "andClickToCopyPasteTheIDAndKeyBelow": "下のIDとキーをコピー/貼り付けするにはクリックしてください。",
+    "aPIKey": "APIキー",
+    "click": "クリック",
+    "communityID": "コミュニティ ID",
+    "copyYourERLCAPIKey": "ER:LC APIキーをコピー",
+    "createNewServer": "新しいサーバーを作成",
+    "directoryToCustomizeYourFeatures": "機能をカスタマイズするためのディレクトリ",
+    "disabledDueToMissingPermission": "権限がないため無効です:",
+    "eRLCAPIKey": "ER:LC APIキー",
+    "fileManager": "ファイルマネージャー",
+    "installSonoran": "Sonoran をインストール",
+    "melonly": "Melonly",
     "melonlyApiKey": "Melonly APIキー",
-    "noPlayersFoundSearch": "プレーヤーが見つかりません…検索"
+    "navigateToOwnedServers": "「Owned Servers」へ移動",
+    "navigateToServers": "「Servers」へ移動",
+    "navigateToThe": "へ移動",
+    "noPlayersFoundSearch": "プレーヤーが見つかりません…検索",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "インストールが完了したら、リソースファイルにアクセスできます",
+    "oneClickInstallation": "ワンクリックインストール",
+    "pasteYourERLCAPIKey": "ER:LC APIキーを貼り付け",
+    "purchaseAFiveMGameServerFromRocketNode": "Rocket NodeからFiveMゲームサーバーを購入",
+    "purchaseAPIAccessFromERLC": "ER:LC から API アクセスを購入",
+    "selectEditServerSettings": "「Edit Server Settings」を選択",
+    "selectEditToCopyToClipboard": "コピーするには「編集」を選択してください",
+    "sonoranInstaller": "Sonoran インストーラ",
+    "useTestData": "テストデータを使用",
+    "videoTutorial": "ビデオチュートリアル",
+    "youMustBeAnAdminToViewTheAPIKey": "APIキーを表示するには管理者である必要があります。"
+  },
+  "gameResources": {
+    "ensure": "確実にする",
+    "noResults": "結果なし"
+  },
+  "gameVehicles": {
+    "actions": "操作",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "despawnVehicle": "車両を消去",
+    "repairVehicle": "車両の修理"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "ゲーム状態の更新が受信され、保存されていないギャング設定が上書きされる可能性があります。",
@@ -3402,6 +3536,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "このコミュニティには判断するための十分なデータがありませんでした"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "この指標をお気に入りにする",
     "growtherrored": "データを読み込み中",
     "growthloadingdata": "このグラフデータは、データがキャプチャされた時点からのみ依存します",
     "growthnewusersjoiningyourcommunity": "コミュニティを離れたユーザー：",
@@ -3419,7 +3554,19 @@
     "growthuserswhohaveleftyourcommunity": "ユニークメンバーのログイン数",
     "numberOfUniqueUsersThatVisitedTheCommunity": "前の期間",
     "numberOfUniqueViewsFromCommunityDiscover": "コミュニティディスカバリーからコミュニティページを訪れたユニークユーザー数",
-    "theresNotEnoughDataToPopulateTheGraph": "エラー"
+    "theresNotEnoughDataToPopulateTheGraph": "エラー",
+    "thisMetricIsFavorite": "この指標はお気に入りです"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "まだお気に入りはありません。任意のメトリックまたはグラフの星アイコンをクリックして、お気に入りに追加してください。"
+  },
+  "guideManagement": {
+    "addGuide": "ガイドを追加",
+    "allGuidesAvailable": "すべてのガイドが利用可能",
+    "editTheGuideLabel": "ガイドラベルを編集",
+    "editTheGuideURL": "ガイドURLを編集",
+    "enterBelowAllInformationRegardingThisGuide": "このガイドに関するすべての情報を以下に入力してください。",
+    "gitBookGuideURL": "GitBook ガイド URL"
   },
   "helpButtonComponent": {
     "close": "閉じる",
@@ -3439,8 +3586,15 @@
     "icon": "アイコン",
     "image": "画像"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ 全画面表示"
+  },
+  "iFrameForm": {
+    "iFrameURL": "iFrame URL"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "このフィールドにはデータがありません。最も考えられる問題は、サーバーの Sonoran CMS コアプラグインが古いことです。",
+    "hyperlinkOptions": "ハイパーリンクオプション",
     "targetForm": "フォーム",
     "targetNone": "なし",
     "targetPage": "カスタムページ",
@@ -3459,7 +3613,9 @@
     "errorMaxSizeMessage": "ファイルタイプがサポートされていません。画像のみをアップロードしてください。",
     "errorMaxTotalSizeMessage": "アップロード中に予期しないエラーが発生しました。もう一度お試しください。問題が解決しない場合は、サポートにお問い合わせください。",
     "errorMessage": "アップロード中にエラーが発生しました。",
-    "errorUploadMessage": "ファイルがサイズ制限の5MBを超えています。"
+    "errorUploadMessage": "ファイルがサイズ制限の5MBを超えています。",
+    "imagePreview": "画像プレビュー",
+    "upload": "アップロード"
   },
   "Index": {
     "account": "アカウント",
@@ -3691,6 +3847,25 @@
     "yes": "はい",
     "youDoNotHavePermissionsForThisGameServer": "最終更新"
   },
+  "indexPage": {
+    "aIAutomation": "AI自動化",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "行動とプロフィールの数十のシグナルをまたいで重複アカウントを自動検出し、コミュニティの安全を守ります。",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMSランクは権限の単一管理ポイントです。ホワイトリスト、ファイルとウェブサイトへのアクセス、Discordロール同期などを、1つの統合システムから管理できます。",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "ホワイトリスト申請、LOAリクエストなどのカスタムフォームを作成できます。強力なステージ自動化で、ユーザーランクの更新、ロスターの同期、通知のトリガー、反復的なワークフローステップの自動処理が可能です。",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "AIを活用した自動化で、コミュニティをより速く、より安全に、そして手作業を減らして運営しましょう。",
+    "integratedGamePanels": "統合ゲームパネル",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "ファイル、フォーム、ワークフローを 1 か所に整理して管理",
+    "managesYourEntireGamingCommunity": "あなたのゲームコミュニティ全体を管理します。",
+    "manageYourGameOperationsWithNativePanelIntegrations": "ネイティブパネル統合でゲーム運用を管理。",
+    "openBillingCenter": "請求センターを開く",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "メンバーを整理し、責任を割り当て、スタッフ構成をすっきり保ちます。",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "AI搭載のセキュリティとフォーム自動化、ライブ名簿とランクベースの権限、同期されたDiscordロール管理、きめ細かなアクセス制御を備えた共同ドキュメントワークフローで、ゲームコミュニティを1つのプラットフォームから運営しましょう。",
+    "saveWithQuarterlyBilling": "四半期請求で25%節約",
+    "security": "セキュリティ",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "ドキュメントを共有して共同編集し、透かし保護を追加し、画像とファイルを埋め込み、CMSのランクとアクセス権限を自動的に同期します。",
+    "totalBilledQuarterly": "四半期ごとの請求総額",
+    "userManagement": "ユーザー管理"
+  },
   "InfoBlocksForm": {
     "add": "カスタム",
     "blockColor": "ブロック値",
@@ -3875,7 +4050,7 @@
     "limitsdeletecomconf": "本当にCMSコミュニティを完全に削除してもよろしいですか？",
     "limitsdrivestorage": "コミュニティメトリクス",
     "limitsgoprotoday": "カスタムコミュニティID",
-    "limitspermanentdeletequestion": "？これは不可逆であり、この操作が完了した後にコミュニティを復元することはできません。",
+    "limitspermanentdeletequestion": "本当に削除しますか",
     "limitspermanetnlydeletecommunity": "キャンセル",
     "limitspleasetypeexactly": "CMSコミュニティを完全に削除します。",
     "limitsthisnotreversabe": "正確に入力してください：",
@@ -4001,8 +4176,10 @@
     "allowedRanksToReply": "共有リンクがクリップボードにコピーされました！",
     "allowSubmitterReplies": "返信を許可されたランク",
     "cancel": "キャンセル",
+    "changedTheStageFrom": "ステージをから変更しました",
     "changeStage": "ステージを変更",
     "close": "新しい返信",
+    "commentHere": "ここにコメント...",
     "deleteForm": "保存",
     "hidden": "ロック済み",
     "invalidStage": "表示",
@@ -4027,6 +4204,10 @@
     "unlocked": "提出者の返信を許可",
     "visible": "コメントを表示",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "オプションなし"
+  },
+  "massNotificationManagement": {
+    "notificationContent": "通知内容",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "通知メッセージとして内容が表示されるトップ QNotify を表示します。btn ラベルと url を指定すると、それが QNotify に添付されます。"
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4796,6 +4977,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "エラー: 個人情報を編集する権限がありません。",
     "errorYouDoNotHavePermissionToEditAnIndiv": "コミュニティ名を変更",
     "exportTime": "アカウント:",
+    "filterForms": "フォームをフィルター",
     "for": "出退勤履歴",
     "formLabel": "提出時間",
     "formSettings": "これをオンにすると、メンバーがプロフィールでフォームの提出を表示できるようになります。",
@@ -4956,9 +5138,27 @@
     "selectPromotionFlowFromCommunityConfiguration": "コミュニティ設定から昇進フローを選択。",
     "sendRankNoti": "ランク通知を送信",
     "subtitle": "コミュニティメンバーのために自動ランク昇進フローを処理します。",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "この操作は、このフローが降格中の場合にのみ実行されます。",
     "title": "昇進フロー",
     "toLabelVariableDesc": "このプロモーションフローに設定されたラベルへを示します。",
     "toLabelVariableLabel": "ラベルへ"
+  },
+  "protectedManagement": {
+    "between": "均等：",
+    "cMSManagementPanel": "CMS管理パネル",
+    "lastUpdated": "最終更新:",
+    "manageGuides": "ガイドを管理",
+    "noSpecificGrowthMetricsFetched": "特定の成長メトリクスは取得されていません...",
+    "noSpecificUsersMetricsFetched": "特定のユーザーのメトリクスは取得されていません...",
+    "specificDetailedUserMetricsHistory": "特定の詳細 - ユーザーメトリクス履歴",
+    "specificGrowthUserMetricsHistory": "特定の成長 - ユーザーメトリクス履歴"
+  },
+  "qBJobs": {
+    "defaultDuty": "デフォルトの職務",
+    "jobLabel": "ジョブラベル"
+  },
+  "qBoxItems": {
+    "search": "検索"
   },
   "RadioIntegration": {
     "apiCredentials": "API認証情報",
@@ -4978,10 +5178,12 @@
     "noCommunityId": "コミュニティIDなし",
     "permissionSelector": "権限セレクター",
     "remove": "削除",
+    "setAnAPIIDAndKeyToSetPermissions": "権限を設定するための API ID と Key を設定",
     "syncOptions": "同期オプション",
     "title": "ソノランラジオの設定"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "ランクが参加できるプライベートチャンネルを選択",
     "setRadio": "無線を設定"
   },
   "rankAccountRow": {
@@ -5138,6 +5340,7 @@
     "clickToDisableConditionalFormatValueBein": "条件付きフォーマット値を上書きするにはクリック",
     "clickToOverrideConditionalFormatValue": "値は手動で上書きされ、条件付き値セットが無視されました。",
     "close": "該当なし",
+    "deleteRow": "行を削除",
     "downloadRosterCsv": "CSVとして完全な名簿をダウンロード",
     "end": "終わり",
     "errorDownloadingRosterCSV": "名簿CSVのダウンロード中にエラーが発生しました。これが続く場合はサポートに連絡してください。",
@@ -5147,6 +5350,7 @@
     "membersPerPage": "閉じる",
     "na": "水平",
     "noServer": "サーバー名なし",
+    "ranks": "ランク",
     "start": "開始:",
     "valueHasBeenOverwrittenByAManualValueIgn": "ボタン",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "このロスターでアクティビティトラッカーを管理する権限がありません。"
@@ -5208,6 +5412,10 @@
     "viewportHeight": "ビューポート高さ",
     "viewportWidth": "ビューポート幅",
     "width": "幅"
+  },
+  "sectionWrapper": {
+    "pasteElement": "要素を貼り付け",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "セクションを仮想コピーし、右クリックで他のページに貼り付けます。"
   },
   "selectComPage": {
     "selectCommunityPage": "これにより、出勤/退勤アイコンの右側に管理アイコン（歯車）が表示され、簡単にアクセスできるようになります。"
@@ -5276,6 +5484,7 @@
     "administration": "管理",
     "allowPrivateCommentsTrigger": "プライベートコメントでトリガーを許可",
     "changedOn": "変更日",
+    "close": "閉じる",
     "column": "列",
     "erlcServer": "ER:LCサーバー",
     "formSubmitter": "フォーム提出者",
@@ -5300,21 +5509,28 @@
     "allowOrBlock": "サーバーのポートでIPを許可またはブロックします。",
     "applicationFilters": "アプリケーションフィルター",
     "attackHistory": "攻撃履歴",
+    "comment": "コメント",
     "commonhelp": "ヘルプ",
+    "destinationPort": "送信先ポート",
     "filters": "フィルター",
     "Filters": "フィルター",
     "firewall": "ファイアウォール",
     "firewallRules": "ファイアウォールルール",
+    "help": "ヘルプ",
     "learnAboutSonoranShield": "ソノランシールドについて学ぶ",
     "linkYourServer": "サーバーをリンクする",
     "myFilters": "私のフィルター",
     "myServers": "私のサーバー:",
     "noActiveServers": "アクティブなサーバーはありません",
     "poweredByPath": "Path.netによって提供されるオールアクセスパネルは、ネットワーク攻撃を完全に終わらせます。",
+    "protocol": "プロトコル",
     "sonoranShieldDocuments": "ソノランシールドドキュメント",
     "sonoranShieldKeeps": "Sonoran Shieldは、コミュニティをゲーム内に保ちます。満足できない場合は返金します。",
     "sonoranShieldNetworkDefense": "Sonoran Shieldネットワーク防御",
     "sonoranShieldTutorial": "ソノランシールドチュートリアル",
+    "sourceASN": "ソース ASN *",
+    "sourcePort": "ソースポート",
+    "sourceType": "ソースタイプ *",
     "unlink": "リンク解除"
   },
   "specificSubscribedAccountNotificationPreference": {
@@ -5452,6 +5668,11 @@
     "newStage": "閉じる",
     "reorderStages": "ドキュメント名"
   },
+  "sysAccountLookup": {
+    "accountUsername": "アカウントユーザー名",
+    "globalPermissions": "グローバル権限",
+    "save": "保存"
+  },
   "tabbedPermissionEditor": {
     "copiedCalendarPermissions": "カレンダー権限を貼り付け",
     "copiedERLCPermissions": "ER:LC 権限をコピーしました",
@@ -5464,6 +5685,8 @@
     "copiedServerPermissions": "サーバー権限を貼り付け",
     "copiedShiftTypesPermissions": "コピーされたER:LC権限",
     "copiedSystemPermissions": "システム権限を貼り付け",
+    "forms": "フォーム",
+    "navigation": "ナビゲーション",
     "pasteCalendarPermissions": "プロフィールフィールド権限をコピーしました",
     "pasteERLCPermissions": "ER:LC の権限を貼り付け",
     "pasteFormsPermissions": "ロスター権限をコピーしました",
@@ -5475,7 +5698,10 @@
     "pasteServerPermissions": "ゲームサーバー権限をコピーしました",
     "pasteShiftTypesPermissions": "ER:LC権限を貼り付け",
     "pasteSystemPermissions": "ナビゲーション権限をコピーしました",
-    "shiftTypes": "シフトタイプ"
+    "profileFields": "プロフィールフィールド",
+    "servers": "サーバー",
+    "shiftTypes": "シフトタイプ",
+    "system": "システム"
   },
   "TeamspeakIntegration": {
     "addMapping": "フル同期",
@@ -5649,6 +5875,9 @@
     "youAreRunningAnOutdatedVersionOf": "このパネルは正常に動作するために新しいバージョンが必要です。",
     "yourServersVersion": "必要なバージョン"
   },
+  "videoForm": {
+    "videoURL": "動画 URL"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "ステージを変更する",
     "allowSubmitterReplies": "返信を許可されたランク",
@@ -5706,6 +5935,7 @@
     "rightActivity": "右：活動"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "背景画像",
     "updateMessage": "ランクを選択"
   },
   "Whitelist": {

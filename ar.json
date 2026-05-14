@@ -95,6 +95,7 @@
     "confirmation": "تأكيد",
     "connections": "الاتصالات",
     "copyDiscordId": "نسخ معرف ديسكورد",
+    "copyRawPermissions": "نسخ الأذونات الخام",
     "copyRobloxId": "انسخ معرف Roblox",
     "copyTeamspeakId": "نسخ معرف تيم سبيك",
     "days": "أيام",
@@ -136,8 +137,10 @@
     "mergeAccountsDescription": "دمج الحساب المصدر في الحساب الهدف سينقل جميع إرسالات النماذج والأحداث ومواضيع المنتدى والردود والبيانات التاريخية الأخرى من الحساب المصدر إلى الحساب الهدف. سيتم أرشفة الحساب المصدر بعد ذلك. لا يمكن التراجع عن هذا الإجراء، لذا يرجى المتابعة بحذر.",
     "mergeFailed": "فشل الدمج:",
     "mergeSuccessful": "نجاح دمج الحساب!",
+    "minimumInactivityWindowDays": "الحد الأدنى لنافذة عدم النشاط (أيام)",
     "modifyExpiration": "تعديل انتهاء الصلاحية",
     "multiaccount": "حساب متعدد",
+    "multiAccountBanConfiguration": "تكوين الحظر لعدة حسابات",
     "multiaccountRankChange": "تغيير رتبة الحسابات المتعددة",
     "na": "غير متوفر",
     "name": "الاسم",
@@ -230,6 +233,7 @@
     "youProbablyNeedToUpdateYourServers": "ربما تحتاج إلى تحديث خوادمك"
   },
   "actionsEditor": {
+    "calendarCategories": "فئات التقويم",
     "calendarEvents": "أحداث التقويم",
     "checked": "تم التحديد",
     "clockIn": "تسجيل الدخول",
@@ -296,6 +300,7 @@
     "rsvpDiscordMentionsVariableLabel": "قائمة RSVP إشارة Discord",
     "serverInSession": "الخادم في الجلسة",
     "servers": "الخوادم",
+    "servers2": "الخوادم",
     "serverSessions": "جلسات الخادم",
     "sessionEnd": "نهاية الجلسة",
     "sessionStart": "بدء الجلسة",
@@ -310,6 +315,9 @@
     "unchecked": "غير محدد",
     "unknownAction": "إجراء غير معروف",
     "value": "قيمة"
+  },
+  "activityHoursView": {
+    "start": "ابدأ"
   },
   "AdminPanel": {
     "accountsaccounts": "الحسابات",
@@ -750,6 +758,9 @@
     "unknownErrorOccuredWhileAttemptingToGene": "حدث خطأ غير معروف أثناء محاولة إنشاء عملية الدفع، يرجى المحاولة مرة أخرى لاحقًا.",
     "unpaid": "غير مدفوع"
   },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "حدد مقدار سعة التخزين بالجيجابايت التي ترغب في إضافتها إلى مجتمعك."
+  },
   "ButtonGroupForm": {
     "addButton": "إضافة زر",
     "button": "زر #",
@@ -935,7 +946,8 @@
     "title": "العنوان"
   },
   "CarouselForm": {
-    "add": "إضافة"
+    "add": "إضافة",
+    "upload": "رفع"
   },
   "ChangeDirDialog": {
     "changeDirectory": "تغيير الدليل",
@@ -1259,6 +1271,22 @@
     "latestVersion": "أحدث إصدار:",
     "unauthorizedMissingPermissionsToDownload": "غير مصرح: الأذونات مفقودة لتحميل المورد الأساسي. الإذن: تعديل التكامل"
   },
+  "comManagementDialog": {
+    "back": "رجوع",
+    "createTemplate": "إنشاء قالب",
+    "departments": "الأقسام",
+    "noCalendarCategories": "لا توجد فئات تقويم",
+    "noPages": "لا صفحات",
+    "noRosters": "لا توجد قوائم",
+    "noStages": "لا توجد مراحل",
+    "notAssociated": "غير مرتبط",
+    "noToolbarItems": "لا توجد عناصر شريط الأدوات",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "بمجرد إزالته، لن يعود من الممكن الوصول إليه عبر هذا الحوار.",
+    "save": "حفظ",
+    "stages": "المراحل",
+    "templateCreationBasicInformation": "إنشاء القالب - المعلومات الأساسية",
+    "templateDescription": "وصف القالب"
+  },
   "common": {
     "add": "إضافة",
     "calCates": "فئات التقويم",
@@ -1317,6 +1345,10 @@
     "successfullyLeft": "تم المغادرة بنجاح",
     "youCannotLeaveACommunityThatYouOwn": "لا يمكنك مغادرة مجتمع تملكه!"
   },
+  "communityDashboard": {
+    "no": "لا",
+    "yes": "نعم"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "وثائق اكتشاف المجتمع",
     "commmunityDiscoveryTutorial": "دليل اكتشاف المجتمع",
@@ -1329,8 +1361,10 @@
     "previewCommunity": "معاينة المجتمع",
     "pro": "برو",
     "return": "عودة",
+    "search": "بحث",
     "standard": "قياسي",
     "starter": "مبتدئ",
+    "tags": "الوسوم:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "هذا المجتمع لديه بعض الأعضاء الأكثر نشاطًا",
     "thisCommunityIsGrowingRapidly": "هذا المجتمع ينمو بسرعة",
     "thisCommunityIsReceivingHighWebsiteTraff": "هذا المجتمع يتلقى حركة مرور عالية على الموقع",
@@ -1338,9 +1372,39 @@
     "viewAll": "عرض الكل",
     "website": "موقع الويب"
   },
+  "communityDrive": {
+    "audioPlayer": "مشغل الصوت",
+    "communityImagesAssets": "صور ومحتوى المجتمع",
+    "files": "الملفات",
+    "new": "جديد",
+    "play": "تشغيل",
+    "removeAsset": "إزالة الأصل"
+  },
+  "communityLookup": {
+    "communityID": "معرف المجتمع",
+    "forceJoin": "إجبار الانضمام",
+    "forceLeave": "إجبار المغادرة",
+    "rawData": "البيانات الخام",
+    "restoreCommunity": "استعادة المجتمع"
+  },
+  "communityMenu": {
+    "dismiss": "تجاهل",
+    "join": "انضم"
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "خطأ: ليس لديك إذن لعرض",
     "thereWasAProblemLoadingThePage": "كانت هناك مشكلة في تحميل الصفحة"
+  },
+  "communityTemplates": {
+    "edit": "تعديل",
+    "editTemplate": "تعديل القالب",
+    "inactive": "غير نشط",
+    "needsReview": "يحتاج إلى مراجعة",
+    "remove": "إزالة"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "بواسطة أنظمة سونوران للبرمجيات",
+    "view": "عرض"
   },
   "ConditionalFormSectionUI": {
     "Checked": "تم التحقق",
@@ -1716,7 +1780,8 @@
     "yourCurrently": "أنت حالياً"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "قد لا تكون جميع الملفات مرئية لك، يتم حساب هذا الاستخدام لجميع الملفات داخل المجتمع."
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "قد لا تكون جميع الملفات مرئية لك، يتم حساب هذا الاستخدام لجميع الملفات داخل المجتمع.",
+    "used": "مُستخدَم"
   },
   "DepartmentEditor": {
     "addRosterRow": "إضافة صف إلى القائمة",
@@ -1809,12 +1874,15 @@
   "disciplinaryAccounts": {
     "accountLabel": "حساب",
     "addDisciplinaryPoints": "إضافة نقاط تأديبية",
+    "amount": "الكمية:",
     "configureActions": "تكوين الإجراءات",
+    "date": "التاريخ:",
     "disciplinaryPoints": "النقاط التأديبية",
     "noActiveDisciplinaryPoints": "لا توجد نقاط تأديبية نشطة",
     "noRobloxAccountLinked": "لا يوجد حساب Roblox مرتبط",
     "pointsLabel": "نقاط",
-    "reasonLabel": "السبب"
+    "reasonLabel": "السبب",
+    "source": "المصدر:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -2058,6 +2126,8 @@
     "roleId": "معرف الدور:",
     "roleInUseExplanation": "هذا الدور في Discord قيد الاستخدام بالفعل في تعيين فئة موجودة، قم بتحديث هذا التعيين الموجود إذا كنت ترغب في إضافة المزيد من رتب CMS.",
     "selectRank": "اختر الرتبة",
+    "selectRankS": "اختر الرتب",
+    "selectRole": "اختر الدور",
     "thisMappingDoesntExistRefresh": "هذا التعيين غير موجود، قم بالتحديث."
   },
   "DiscordRoleMultiSelector": {
@@ -2143,6 +2213,9 @@
     "errorMissingPermissionsForThisFile": "خطأ: الأذونات مفقودة لهذا الملف.",
     "errorYouDoNotHavePermissionToEditThisFil": "خطأ: ليس لديك إذن لتعديل هذا الملف.",
     "protectionOnlyAccess": "لديك وصول حصري للحماية لهذا المستند، لذلك المحرر مخفي."
+  },
+  "driveQuickUploader": {
+    "noUploadsYet": "لا توجد عمليات رفع بعد"
   },
   "DriveViewDoc": {
     "documentName": "اسم المستند",
@@ -2363,6 +2436,7 @@
     "private": "خاص",
     "public": "عام",
     "rankAccess": "وصول الترتيب",
+    "shareType": "نوع المشاركة",
     "unlisted": "غير مدرج",
     "viewDocument": "عرض المستند"
   },
@@ -2487,10 +2561,15 @@
     "webhookChannel": "قناة الويب هوك"
   },
   "ERLCActivity": {
+    "date": "تاريخ",
     "errorAnErrorOccuredWhileFetchingServerDa": "حدث خطأ أثناء استرجاع بيانات الخادم",
     "filter": "تصفية",
     "latestActivity": "النشاط الأخير",
     "pending": "قيد الانتظار",
+    "pickDateRange": "اختر نطاق التاريخ",
+    "searchByUsername": "البحث باسم المستخدم",
+    "selectTypes": "اختر الأنواع",
+    "selectUser": "اختر المستخدم",
     "showingAllLogs": "عرض جميع السجلات",
     "showingPlayerRecords": "عرض سجلات اللاعبين",
     "unknownStage": "مرحلة غير معروفة"
@@ -2638,6 +2717,7 @@
     "illicit": "غير قانوني",
     "kickUsersWithAllothersInUsername": "طرد المستخدمين الذين لديهم \"الآخرين\" في الاسم المستخدم",
     "kickUsersWithInappropriateUsernames": "طرد المستخدمين بأسماء غير لائقة",
+    "log": "‏:سجل",
     "lowercaseCommand": "الأمر",
     "name": "الاسم",
     "priorityPlayerList": "قائمة اللاعبين المميزين",
@@ -2649,6 +2729,7 @@
     "selfharm": "إيذاء النفس",
     "sexual": "جنسي",
     "stages": "مراحل",
+    "testUsername": "اسم المستخدم التجريبي",
     "username": "اسم المستخدم",
     "usernameModeration": "اسم المستخدمModeration",
     "violence": "العنف"
@@ -2666,6 +2747,7 @@
     "disciplinaryPoints": "نقاط تأديبية",
     "editedTheRecords": "تم تحرير السجل",
     "editExistingRecord": "تحرير السجل الموجود",
+    "editHistory": "تعديل السجل",
     "enterUsernames": "أدخل اسم(اء) المستخدم",
     "enterYourReasonForRecord": "أدخل سببك للسجل...",
     "kick": "طرد",
@@ -2676,6 +2758,7 @@
     "numberOfPointsToAdd": "عدد النقاط المراد إضافتها...",
     "points": "نقاط",
     "pointsFrom": "نقاط من",
+    "reason": "السبب",
     "reasonFrom": "السبب من",
     "recordType": "نوع السجل",
     "saveChanges": "حفظ التغييرات",
@@ -2741,7 +2824,11 @@
     "noPlayersConnected": "لا يوجد لاعبين متصلين",
     "playersIngame": "اللاعبون في اللعبة",
     "playersInQueue": "اللاعبون في الطابور",
+    "sheriff": "شريف",
     "teams": "الفرق"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "لم يتم العثور على نشاط"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "تفعيل هذا الإجراء بعد انتهاك القيد لمدة معينة من الوقت (بالثواني)",
@@ -2911,6 +2998,9 @@
     "submissions": "التقديمات",
     "thirdpartySubmissions": "تقديمات الطرف الثالث",
     "timeclock": "ساعة الوقت"
+  },
+  "formRankAccountRow": {
+    "section": "القسم:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "الملفات المقبولة للتحميل",
@@ -3303,6 +3393,7 @@
     "thisForumTopicIsLockedFromNewReplies": "تم قفل هذا الموضوع من الردود الجديدة.",
     "thisForumTopicIsPinnedWithinThe": "تم تثبيت هذا الموضوع في المنتدى",
     "thisTopic": "هذا الموضوع؟",
+    "title": "العنوان",
     "topicRepliesBelow": "ردود الموضوع أدناه",
     "uniqueIdCopiedToClipboard": "تم نسخ المعرف الفريد إلى الحافظة.",
     "unlock": "فتح",
@@ -3363,9 +3454,49 @@
     "uploadANewPhoto": "تحميل صورة جديدة",
     "uploadNewPhoto": "تحميل صورة جديدة"
   },
+  "gameEnvironment": {
+    "blackout": "انقطاع الكهرباء"
+  },
   "GameIndex": {
+    "andClickToCopyPasteTheIDAndKeyBelow": "وانقر لنسخ/لصق المعرّف والمفتاح أدناه.",
+    "aPIKey": "مفتاح API",
+    "click": "انقر",
+    "communityID": "معرف المجتمع",
+    "copyYourERLCAPIKey": "انسخ مفتاح API لـ ER:LC",
+    "createNewServer": "إنشاء خادم جديد",
+    "directoryToCustomizeYourFeatures": "الدليل لتخصيص ميزاتك.",
+    "disabledDueToMissingPermission": "معطّل بسبب عدم وجود إذن:",
+    "eRLCAPIKey": "مفتاح API لـ ER:LC",
+    "fileManager": "مدير الملفات",
+    "installSonoran": "تثبيت Sonoran",
+    "melonly": "ميلونلي",
     "melonlyApiKey": "مفتاح API الخاص بـ Melonly",
-    "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث"
+    "navigateToOwnedServers": "انتقل إلى \"الخوادم المملوكة\"",
+    "navigateToServers": "انتقل إلى \"الخوادم\"",
+    "navigateToThe": "انتقل إلى",
+    "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "بمجرد اكتمال التثبيت، يمكنك الوصول إلى ملفات الموارد في",
+    "oneClickInstallation": "التثبيت بنقرة واحدة",
+    "pasteYourERLCAPIKey": "الصق مفتاح API لـ ER:LC",
+    "purchaseAFiveMGameServerFromRocketNode": "اشترِ خادم ألعاب FiveM من Rocket Node",
+    "purchaseAPIAccessFromERLC": "شراء الوصول إلى واجهة برمجة التطبيقات من ER:LC",
+    "selectEditServerSettings": "اختر \"تعديل إعدادات الخادم\"",
+    "selectEditToCopyToClipboard": "حدد \"تحرير\" للنسخ إلى الحافظة",
+    "sonoranInstaller": "مثبت Sonoran",
+    "useTestData": "استخدم بيانات الاختبار",
+    "videoTutorial": "فيديو الشرح",
+    "youMustBeAnAdminToViewTheAPIKey": "يجب أن تكون مسؤولًا لعرض مفتاح API."
+  },
+  "gameResources": {
+    "ensure": "تأكّد",
+    "noResults": "لا توجد نتائج"
+  },
+  "gameVehicles": {
+    "actions": "الإجراءات",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "despawnVehicle": "إزالة المركبة",
+    "repairVehicle": "إصلاح مركبة"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "تم تنفيذ الإجراء! قد يستغرق تحديث اللوحة دقيقة أو دقيقتين...",
@@ -3402,6 +3533,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "لم تكن هناك بيانات كافية لهذا المجتمع لتحديد"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "ضع هذا المقياس في المفضلة",
     "growtherrored": "خطأ",
     "growthloadingdata": "تحميل البيانات",
     "growthnewusersjoiningyourcommunity": "المستخدمون الجدد الذين ينضمون إلى مجتمعك",
@@ -3419,7 +3551,19 @@
     "growthuserswhohaveleftyourcommunity": "المستخدمون الذين غادروا مجتمعك:",
     "numberOfUniqueUsersThatVisitedTheCommunity": "عدد المستخدمين الفريدين الذين زاروا صفحة المجتمع من اكتشاف المجتمع",
     "numberOfUniqueViewsFromCommunityDiscover": "عدد المشاهدات الفريدة من اكتشاف المجتمع",
-    "theresNotEnoughDataToPopulateTheGraph": "لا توجد بيانات كافية لملء الرسم البياني."
+    "theresNotEnoughDataToPopulateTheGraph": "لا توجد بيانات كافية لملء الرسم البياني.",
+    "thisMetricIsFavorite": "هذا المقياس مفضل"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "لا توجد مفضلات بعد. انقر على أيقونة النجمة في أي مقياس أو مخطط لإضافته إلى المفضلات لديك."
+  },
+  "guideManagement": {
+    "addGuide": "إضافة دليل",
+    "allGuidesAvailable": "جميع الأدلة المتاحة",
+    "editTheGuideLabel": "تعديل تسمية الدليل",
+    "editTheGuideURL": "تعديل رابط الدليل",
+    "enterBelowAllInformationRegardingThisGuide": "أدخل أدناه جميع المعلومات المتعلقة بهذا الدليل.",
+    "gitBookGuideURL": "رابط دليل GitBook"
   },
   "helpButtonComponent": {
     "close": "إغلاق",
@@ -3439,8 +3583,15 @@
     "icon": "أيقونة",
     "image": "صورة"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ ملء الشاشة"
+  },
+  "iFrameForm": {
+    "iFrameURL": "عنوان URL للإطار المضمّن"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "انقر لتحميل صورة",
+    "hyperlinkOptions": "خيارات الرابط التشعبي",
     "targetForm": "نموذج",
     "targetNone": "لا شيء",
     "targetPage": "صفحة مخصصة",
@@ -3459,7 +3610,9 @@
     "errorMaxSizeMessage": "يتجاوز الملف الحد الأقصى للحجم وهو 5 ميجابايت.",
     "errorMaxTotalSizeMessage": "إجمالي حجم الملفات يتجاوز الحد الأقصى المسموح به وهو 100 ميجابايت.",
     "errorMessage": "حدث خطأ أثناء رفع الصورة:",
-    "errorUploadMessage": "حدث خطأ أثناء الرفع."
+    "errorUploadMessage": "حدث خطأ أثناء الرفع.",
+    "imagePreview": "معاينة الصورة",
+    "upload": "رفع"
   },
   "Index": {
     "account": "حساب",
@@ -3691,6 +3844,25 @@
     "yes": "نعم",
     "youDoNotHavePermissionsForThisGameServer": "ليس لديك أذونات لهذا خادم اللعبة"
   },
+  "indexPage": {
+    "aIAutomation": "الأتمتة بالذكاء الاصطناعي",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "اكتشف تلقائيًا الحسابات المكررة عبر عشرات إشارات السلوك والملف الشخصي للحفاظ على أمان مجتمعك.",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "رتب CMS هي نقطة التحكم الوحيدة لديك للأذونات. أدر القوائم البيضاء، والوصول إلى الملفات والمواقع الإلكترونية، ومزامنة أدوار Discord، والمزيد من نظام موحد واحد.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "أنشئ نماذج مخصصة لتطبيقات القائمة البيضاء، وطلبات LOA، والمزيد. يمكن لأتمتة المرحلة القوية تحديث رتب المستخدمين، ومزامنة القوائم، وتشغيل الإشعارات، والتعامل مع خطوات سير العمل المتكررة تلقائيًا.",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "استفد من الأتمتة المدعومة بالذكاء الاصطناعي لتشغيل مجتمعك بشكل أسرع وأكثر أمانًا وبعمل يدوي أقل.",
+    "integratedGamePanels": "لوحات اللعبة المتكاملة",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "احتفظ بملفاتك ونماذجك وسير عملك منظمة في مكان واحد.",
+    "managesYourEntireGamingCommunity": "يدير مجتمع الألعاب الخاص بك بالكامل.",
+    "manageYourGameOperationsWithNativePanelIntegrations": "أدر عمليات لعبتك مع تكاملات اللوحة الأصلية.",
+    "openBillingCenter": "فتح مركز الفوترة",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "نظّم الأعضاء، ووزّع المسؤوليات، وحافظ على هيكل الموظفين مرتبًا.",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "أدر مجتمع الألعاب الخاص بك من منصة واحدة: أمان مدعوم بالذكاء الاصطناعي وأتمتة النماذج، وقوائم أعضاء مباشرة وأذونات قائمة على الرتبة، وإدارة متزامنة لأدوار Discord، وسير عمل تعاونية للمستندات مع ضوابط وصول دقيقة.",
+    "saveWithQuarterlyBilling": "وفّر 25% مع الفوترة ربع السنوية",
+    "security": "الأمان",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "مشاركة المستندات وتحريرها مباشرةً، وإضافة حماية بعلامة مائية، وتضمين الصور والملفات، ومزامنة أذونات الوصول تلقائيًا مع رتب نظام إدارة المحتوى.",
+    "totalBilledQuarterly": "إجمالي الفوترة ربع السنوية",
+    "userManagement": "إدارة المستخدمين"
+  },
   "InfoBlocksForm": {
     "add": "إضافة",
     "blockColor": "لون الكتلة",
@@ -3875,7 +4047,7 @@
     "limitsdeletecomconf": "تأكيد حذف المجتمع",
     "limitsdrivestorage": "تخزين السحابة",
     "limitsgoprotoday": "احصل على النسخة الاحترافية اليوم",
-    "limitspermanentdeletequestion": "هل أنت متأكد أنك تريد حذف هذا بشكل دائم",
+    "limitspermanentdeletequestion": "هل أنت متأكد أنك تريد الحذف نهائيًا",
     "limitspermanetnlydeletecommunity": "لحذف مجتمع إدارة المحتوى الخاص بك بشكل دائم.",
     "limitspleasetypeexactly": "يرجى كتابة بالضبط:",
     "limitsthisnotreversabe": "؟ هذا لا رجعة فيه ولا يمكننا استعادة مجتمعك بعد تنفيذ هذا الإجراء.",
@@ -4001,8 +4173,10 @@
     "allowedRanksToReply": "الرتب المسموح لها بالرد",
     "allowSubmitterReplies": "السماح بردود المقدم",
     "cancel": "إلغاء",
+    "changedTheStageFrom": "تم تغيير المرحلة من",
     "changeStage": "تغيير المرحلة",
     "close": "إغلاق",
+    "commentHere": "علّق هنا...",
     "deleteForm": "حذف النموذج",
     "hidden": "مخفي",
     "invalidStage": "مرحلة غير صالحة",
@@ -4027,6 +4201,10 @@
     "unlocked": "غير مقفل",
     "visible": "مرئي",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "سيتم إشعارك عند إضافة رد جديد إلى هذا النموذج."
+  },
+  "massNotificationManagement": {
+    "notificationContent": "محتوى الإشعار",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "سيعرض إشعار QNotify علويًا بالمحتوى كرسالة الإشعار، إذا قدّمت تسمية زر و url فسيُرفقان مع QNotify."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "رابط Discord التشعبي",
@@ -4797,6 +4975,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "خطأ: لا يمكنك تحرير هذا العضو بسبب صلاحياتك في المجتمع.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "خطأ: ليس لديك إذن لتحرير معلومات الأفراد.",
     "exportTime": "وقت التصدير:",
+    "filterForms": "تصفية النماذج",
     "for": "لـ",
     "formLabel": "تسمية النموذج",
     "formSettings": "إعدادات النموذج",
@@ -4957,9 +5136,27 @@
     "selectPromotionFlowFromCommunityConfiguration": "اختر مسار ترقية من إعدادات المجتمع.",
     "sendRankNoti": "إرسال إشعار الرتبة",
     "subtitle": "معالجة تدفقات ترقية الرتب الآلية لأعضاء مجتمعك.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "لن يتم تشغيل هذا الإجراء إلا إذا كانت هذه التدفق في حالة تخفيض.",
     "title": "تدفقات الترقية",
     "toLabelVariableDesc": "سيقوم بتحديد التسمية المحددة لتدفق الترقية هذا.",
     "toLabelVariableLabel": "إلى التسمية"
+  },
+  "protectedManagement": {
+    "between": "بين:",
+    "cMSManagementPanel": "لوحة إدارة نظام إدارة المحتوى",
+    "lastUpdated": "آخر تحديث:",
+    "manageGuides": "إدارة الأدلة",
+    "noSpecificGrowthMetricsFetched": "لم يتم جلب مقاييس نمو محددة...",
+    "noSpecificUsersMetricsFetched": "لم يتم جلب مقاييس مستخدمين محددين...",
+    "specificDetailedUserMetricsHistory": "محدد مفصل - سجل مقاييس المستخدم",
+    "specificGrowthUserMetricsHistory": "نمو محدد - سجل مقاييس المستخدم"
+  },
+  "qBJobs": {
+    "defaultDuty": "الواجب الافتراضي",
+    "jobLabel": "تسمية الوظيفة"
+  },
+  "qBoxItems": {
+    "search": "بحث"
   },
   "RadioIntegration": {
     "apiCredentials": "بيانات الاعتماد API",
@@ -4979,10 +5176,12 @@
     "noCommunityId": "لا يوجد معرف المجتمع",
     "permissionSelector": "محدد الإذن",
     "remove": "إزالة",
+    "setAnAPIIDAndKeyToSetPermissions": "عيّن معرّف API ومفتاحًا لتعيين الأذونات",
     "syncOptions": "خيارات المزامنة",
     "title": "تكوينات Sonoran Radio"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "اختر القنوات الخاصة التي يُسمح للرتبة بالانضمام إليها",
     "setRadio": "تعيين الراديو"
   },
   "rankAccountRow": {
@@ -5139,6 +5338,7 @@
     "clickToDisableConditionalFormatValueBein": "انقر لتعطيل تجاوز قيمة التنسيق الشرطي",
     "clickToOverrideConditionalFormatValue": "انقر لتجاوز قيمة التنسيق الشرطي",
     "close": "إغلاق",
+    "deleteRow": "حذف الصف",
     "downloadRosterCsv": "قم بتنزيل القائمة الكاملة بتنسيق CSV",
     "end": "النهاية",
     "errorDownloadingRosterCSV": "حدث خطأ أثناء تنزيل قائمة CSV، اتصل بالدعم إذا استمر هذا.",
@@ -5148,6 +5348,7 @@
     "membersPerPage": "الأعضاء لكل صفحة:",
     "na": "غير متاح",
     "noServer": "لا يوجد اسم خادم",
+    "ranks": "الرتب",
     "start": "ابدأ",
     "valueHasBeenOverwrittenByAManualValueIgn": "تم تجاوز القيمة بواسطة قيمة يدوية، متجاهلاً مجموعات القيم الشرطية.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "ليس لديك الأذونات لإدارة متتبع النشاط في هذه القائمة."
@@ -5209,6 +5410,10 @@
     "viewportHeight": "ارتفاع نافذة العرض",
     "viewportWidth": "عرض نافذة العرض",
     "width": "العرض"
+  },
+  "sectionWrapper": {
+    "pasteElement": "لصق العنصر",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "انسخ القسم افتراضيًا، والصقه في صفحات أخرى بالنقر بزر الماوس الأيمن."
   },
   "selectComPage": {
     "selectCommunityPage": "اختر صفحة المجتمع"
@@ -5277,6 +5482,7 @@
     "administration": "إدارة",
     "allowPrivateCommentsTrigger": "تفعيل عند التعليقات الخاصة",
     "changedOn": "تغير في",
+    "close": "إغلاق",
     "column": "عمود",
     "erlcServer": "خادم ER:LC",
     "formSubmitter": "مقدم النموذج",
@@ -5301,21 +5507,28 @@
     "allowOrBlock": "السماح أو حظر عناوين IP على منافذ الخادم الخاص بك.",
     "applicationFilters": "فلاتر التطبيق",
     "attackHistory": "تاريخ الهجمات",
+    "comment": "تعليق",
     "commonhelp": "مساعدة",
+    "destinationPort": "منفذ الوجهة",
     "filters": "مرشحات",
     "Filters": "فلاتر",
     "firewall": "جدار الحماية",
     "firewallRules": "قواعد الجدار الناري",
+    "help": "مساعدة",
     "learnAboutSonoranShield": "تعرف على درع سونوران",
     "linkYourServer": "ربط الخادم الخاص بك",
     "myFilters": "فلاتري",
     "myServers": "خوادمي:",
     "noActiveServers": "لا توجد خوادم نشطة",
     "poweredByPath": "مدعوم من Path.net، تضع لوحتنا الشاملة حداً للهجمات على الشبكة مرة واحدة وإلى الأبد.",
+    "protocol": "البروتوكول",
     "sonoranShieldDocuments": "وثائق درع سونوران",
     "sonoranShieldKeeps": "يحافظ Sonoran Shield على مجتمعك في اللعبة أو استرداد أموالك.",
     "sonoranShieldNetworkDefense": "دفاع شبكة Sonoran Shield",
     "sonoranShieldTutorial": "دليل درع سونوران",
+    "sourceASN": "ASN المصدر *",
+    "sourcePort": "منفذ المصدر",
+    "sourceType": "نوع المصدر *",
     "unlink": "إلغاء الربط"
   },
   "specificSubscribedAccountNotificationPreference": {
@@ -5453,6 +5666,11 @@
     "newStage": "مرحلة جديدة",
     "reorderStages": "إعادة ترتيب المراحل"
   },
+  "sysAccountLookup": {
+    "accountUsername": "اسم المستخدم للحساب",
+    "globalPermissions": "الأذونات العامة",
+    "save": "حفظ"
+  },
   "tabbedPermissionEditor": {
     "copiedCalendarPermissions": "نسخ أذونات التقويم",
     "copiedERLCPermissions": "نسخ أذونات ER:LC",
@@ -5465,6 +5683,8 @@
     "copiedServerPermissions": "نسخ أذونات الخادم",
     "copiedShiftTypesPermissions": "نسخ أذونات ER:LC",
     "copiedSystemPermissions": "نسخ أذونات النظام",
+    "forms": "النماذج",
+    "navigation": "التنقل",
     "pasteCalendarPermissions": "لصق أذونات التقويم",
     "pasteERLCPermissions": "الصق أذونات ER:LC",
     "pasteFormsPermissions": "لصق أذونات النماذج",
@@ -5476,7 +5696,10 @@
     "pasteServerPermissions": "لصق أذونات الخادم",
     "pasteShiftTypesPermissions": "لصق أذونات ER:LC",
     "pasteSystemPermissions": "لصق أذونات النظام",
-    "shiftTypes": "أنواع الورديات"
+    "profileFields": "حقول الملف الشخصي",
+    "servers": "الخوادم",
+    "shiftTypes": "أنواع الورديات",
+    "system": "النظام"
   },
   "TeamspeakIntegration": {
     "addMapping": "إضافة تعيين",
@@ -5650,6 +5873,9 @@
     "youAreRunningAnOutdatedVersionOf": "أنت تستخدم إصدارًا قديمًا من",
     "yourServersVersion": "إصدار خوادمك"
   },
+  "videoForm": {
+    "videoURL": "رابط الفيديو"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "الرتب المسموح لها بالرد",
     "allowSubmitterReplies": "السماح بردود المقدم",
@@ -5707,6 +5933,7 @@
     "rightActivity": "يمين: نشاط"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "لون الخلفية",
     "updateMessage": "تم تحويل محتوى النص من المحرر القديم. يرجى المراجعة والتحديث حسب الحاجة."
   },
   "Whitelist": {

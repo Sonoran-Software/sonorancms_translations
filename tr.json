@@ -95,6 +95,7 @@
     "confirmation": "Onay",
     "connections": "Bağlantılar",
     "copyDiscordId": "Discord ID'sini Kopyala",
+    "copyRawPermissions": "Ham İzinleri Kopyala",
     "copyRobloxId": "Roblox Kimliğini Kopyala",
     "copyTeamspeakId": "TeamSpeak ID'sini Kopyala",
     "days": "Günler",
@@ -136,8 +137,10 @@
     "mergeAccountsDescription": "Kaynak hesabı hedef hesapla birleştirmek, tüm form gönderimlerini, etkinlikleri, forum konularını ve yanıtlarını ve diğer tarihsel verileri kaynak hesaptan hedef hesaba taşır. Kaynak hesap daha sonra arşivlenecektir. Bu işlem geri alınamaz, lütfen dikkatli devam ediniz.",
     "mergeFailed": "Birleştirme Başarısız:",
     "mergeSuccessful": "Hesap Başarıyla Birleştirildi!",
+    "minimumInactivityWindowDays": "Minimum hareketsizlik penceresi (gün)",
     "modifyExpiration": "Süresini Değiştir",
     "multiaccount": "Çoklu Hesap",
+    "multiAccountBanConfiguration": "Çoklu Hesap Yasaklama Yapılandırması",
     "multiaccountRankChange": "Çoklu Hesap Rütbe Değişikliği",
     "na": "N/A",
     "name": "Ad",
@@ -230,6 +233,7 @@
     "youProbablyNeedToUpdateYourServers": "Muhtemelen sunucularınızı güncellemeniz gerekiyor"
   },
   "actionsEditor": {
+    "calendarCategories": "Takvim Kategorileri",
     "calendarEvents": "Takvim Etkinlikleri",
     "checked": "İşaretli",
     "clockIn": "Giriş",
@@ -296,6 +300,7 @@
     "rsvpDiscordMentionsVariableLabel": "RSVP Listesi Discord Bahsedilmeleri",
     "serverInSession": "Sunucu Oturumda",
     "servers": "Sunucu(lar)",
+    "servers2": "Sunucular",
     "serverSessions": "Sunucu Oturumları",
     "sessionEnd": "Oturum Bitişi",
     "sessionStart": "Oturum Başlangıcı",
@@ -310,6 +315,9 @@
     "unchecked": "İşaretsiz",
     "unknownAction": "Bilinmeyen Eylem",
     "value": "Değer"
+  },
+  "activityHoursView": {
+    "start": "Başlat"
   },
   "AdminPanel": {
     "accountsaccounts": "Hesaplar",
@@ -750,6 +758,9 @@
     "unknownErrorOccuredWhileAttemptingToGene": "Ödeme işlemi oluşturulurken bilinmeyen bir hata oluştu, lütfen daha sonra tekrar deneyin.",
     "unpaid": "ÖDENMEMİŞ"
   },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Topluluğunuza eklemek istediğiniz GB depolama miktarını seçin."
+  },
   "ButtonGroupForm": {
     "addButton": "Buton Ekle",
     "button": "Buton #",
@@ -935,7 +946,8 @@
     "title": "Başlık"
   },
   "CarouselForm": {
-    "add": "Ekle"
+    "add": "Ekle",
+    "upload": "Yükle"
   },
   "ChangeDirDialog": {
     "changeDirectory": "Dizini Değiştir",
@@ -1259,6 +1271,22 @@
     "latestVersion": "En son sürüm:",
     "unauthorizedMissingPermissionsToDownload": "Yetkisiz: Çekirdek kaynağı indirmek için izinler eksik. İzin: ENTEGRASYONU_DEĞİŞTİR"
   },
+  "comManagementDialog": {
+    "back": "Geri",
+    "createTemplate": "Şablon Oluştur",
+    "departments": "Departmanlar",
+    "noCalendarCategories": "Takvim Kategorisi Yok",
+    "noPages": "Sayfa Yok",
+    "noRosters": "Listeler yok",
+    "noStages": "Aşama yok",
+    "notAssociated": "İlişkilendirilmemiş",
+    "noToolbarItems": "Araç Çubuğu Öğesi Yok",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Kaldırıldıktan sonra bu iletişim kutusu üzerinden artık erişilemez.",
+    "save": "Kaydet",
+    "stages": "Aşamalar",
+    "templateCreationBasicInformation": "Şablon Oluşturma - Temel Bilgiler",
+    "templateDescription": "Şablon Açıklaması"
+  },
   "common": {
     "add": "Ekle",
     "calCates": "Takvim Kategorileri",
@@ -1317,6 +1345,10 @@
     "successfullyLeft": "Başarıyla ayrıldınız",
     "youCannotLeaveACommunityThatYouOwn": "Sahibi olduğunuz bir topluluktan ayrılamazsınız!"
   },
+  "communityDashboard": {
+    "no": "Hayır",
+    "yes": "Evet"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Topluluk Keşfi Belgeleri",
     "commmunityDiscoveryTutorial": "Topluluk Keşfi Eğitimi",
@@ -1329,8 +1361,10 @@
     "previewCommunity": "Topluluğu Önizle",
     "pro": "Pro",
     "return": "Geri Dön",
+    "search": "Ara",
     "standard": "Standart",
     "starter": "Başlangıç",
+    "tags": "Etiketler:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "Bu topluluk en aktif üyelerden bazılarına sahip",
     "thisCommunityIsGrowingRapidly": "Bu topluluk hızla büyüyor",
     "thisCommunityIsReceivingHighWebsiteTraff": "Bu topluluk yüksek web sitesi trafiği alıyor",
@@ -1338,9 +1372,39 @@
     "viewAll": "Hepsini Gör",
     "website": "Web Sitesi"
   },
+  "communityDrive": {
+    "audioPlayer": "Ses Çalar",
+    "communityImagesAssets": "Topluluk Görselleri / Varlıklar",
+    "files": "Dosyalar",
+    "new": "Yeni",
+    "play": "Oynat",
+    "removeAsset": "Varlığı Kaldır"
+  },
+  "communityLookup": {
+    "communityID": "Topluluk Kimliği",
+    "forceJoin": "Zorla Katıl",
+    "forceLeave": "Zorla Ayrıl",
+    "rawData": "Ham Veri",
+    "restoreCommunity": "Topluluğu Geri Yükle"
+  },
+  "communityMenu": {
+    "dismiss": "Kapat",
+    "join": "Katıl"
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Hata: Görüntüleme izniniz yok",
     "thereWasAProblemLoadingThePage": "Sayfa yüklenirken bir sorun oluştu"
+  },
+  "communityTemplates": {
+    "edit": "Düzenle",
+    "editTemplate": "Şablonu Düzenle",
+    "inactive": "Etkin değil",
+    "needsReview": "İnceleme Gerekiyor",
+    "remove": "Kaldır"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "Sonoran Software Systems tarafından",
+    "view": "Görüntüle"
   },
   "ConditionalFormSectionUI": {
     "Checked": "Kontrol edildi",
@@ -1716,7 +1780,8 @@
     "yourCurrently": "Şu anda"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Tüm dosyalar size görünmeyebilir, bu kullanım topluluktaki tüm dosyalar için hesaplanmıştır."
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Tüm dosyalar size görünmeyebilir, bu kullanım topluluktaki tüm dosyalar için hesaplanmıştır.",
+    "used": "Kullanıldı"
   },
   "DepartmentEditor": {
     "addRosterRow": "Liste Satırı Ekle",
@@ -1809,12 +1874,15 @@
   "disciplinaryAccounts": {
     "accountLabel": "Hesap",
     "addDisciplinaryPoints": "disiplinPuanıEkle",
+    "amount": "Miktar:",
     "configureActions": "Eylemleri Yapılandır",
+    "date": "Tarih:",
     "disciplinaryPoints": "disiplinPuanları",
     "noActiveDisciplinaryPoints": "Aktif Disiplin Puanı Yok",
     "noRobloxAccountLinked": "Roblox Hesabı Bağlı Değil",
     "pointsLabel": "Puanlar",
-    "reasonLabel": "Sebep"
+    "reasonLabel": "Sebep",
+    "source": "Kaynak:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -2058,6 +2126,8 @@
     "roleId": "Rol ID:",
     "roleInUseExplanation": "Bu Discord rolü zaten mevcut bir kategori eşlemesinde kullanılıyor, daha fazla CMS rütbesi eklemek istiyorsanız mevcut eşlemeyi güncelleyin.",
     "selectRank": "Rütbe Seç",
+    "selectRankS": "Rütbe(leri) Seç",
+    "selectRole": "Rol Seç",
     "thisMappingDoesntExistRefresh": "Bu eşleme mevcut değil, yenileyin."
   },
   "DiscordRoleMultiSelector": {
@@ -2143,6 +2213,9 @@
     "errorMissingPermissionsForThisFile": "Hata: Bu dosya için izinler eksik.",
     "errorYouDoNotHavePermissionToEditThisFil": "Hata: Bu dosyayı düzenleme izniniz yok.",
     "protectionOnlyAccess": "Bu belgede yalnızca koruma erişimine sahipsiniz, bu nedenle içerik düzenleyici gizlidir."
+  },
+  "driveQuickUploader": {
+    "noUploadsYet": "Henüz yükleme yok"
   },
   "DriveViewDoc": {
     "documentName": "Belge Adı",
@@ -2363,6 +2436,7 @@
     "private": "Özel",
     "public": "Herkese Açık",
     "rankAccess": "Rütbe Erişimi",
+    "shareType": "Paylaşım Türü",
     "unlisted": "Liste Dışı",
     "viewDocument": "Belgeyi Görüntüle"
   },
@@ -2487,10 +2561,15 @@
     "webhookChannel": "webhookKanali"
   },
   "ERLCActivity": {
+    "date": "Tarih",
     "errorAnErrorOccuredWhileFetchingServerDa": "Sunucu verileri alınırken bir hata oluştu.",
     "filter": "filtre",
     "latestActivity": "son etkinlik",
     "pending": "Bekleyen",
+    "pickDateRange": "Tarih Aralığı Seç",
+    "searchByUsername": "Kullanıcı adına göre ara",
+    "selectTypes": "Türleri Seç",
+    "selectUser": "Kullanıcı Seç",
     "showingAllLogs": "Tüm günlükler gösteriliyor",
     "showingPlayerRecords": "Oyuncu kayıtları gösteriliyor",
     "unknownStage": "Bilinmeyen Aşama"
@@ -2638,6 +2717,7 @@
     "illicit": "yasa dışı",
     "kickUsersWithAllothersInUsername": "kullanıcıAdındaAllothersOlanKullanıcılarıAt",
     "kickUsersWithInappropriateUsernames": "uygunsuzKullanıcıAdlarınaSahipKullanıcılarıAt",
+    "log": ":log",
     "lowercaseCommand": "komut",
     "name": "Ad",
     "priorityPlayerList": "Öncelikli Oyuncu Listesi",
@@ -2649,6 +2729,7 @@
     "selfharm": "kendine zarar verme",
     "sexual": "cinsel",
     "stages": "Aşamalar",
+    "testUsername": "Test Kullanıcı Adı",
     "username": "kullanıcı adı",
     "usernameModeration": "kullanıcıadıDenetleme",
     "violence": "şiddet"
@@ -2666,6 +2747,7 @@
     "disciplinaryPoints": "Disiplin Puanları",
     "editedTheRecords": "kaydı düzenledi",
     "editExistingRecord": "Mevcut Kaydı Düzenle",
+    "editHistory": "Düzenleme Geçmişi",
     "enterUsernames": "Kullanıcı Ad(lar)ını Girin",
     "enterYourReasonForRecord": "Kayıt için nedeninizi girin...",
     "kick": "At",
@@ -2676,6 +2758,7 @@
     "numberOfPointsToAdd": "Eklenecek puan sayısı...",
     "points": "Puanlar",
     "pointsFrom": "puanlar",
+    "reason": "Sebep",
     "reasonFrom": "sebepten",
     "recordType": "Kayıt Türü",
     "saveChanges": "Değişiklikleri Kaydet",
@@ -2741,7 +2824,14 @@
     "noPlayersConnected": "bağlıOyuncuYok",
     "playersIngame": "oyuncularOyunda",
     "playersInQueue": "kuyruktakiOyuncular",
+    "sheriff": "şerif",
     "teams": "takımlar"
+  },
+  "eRLCPlayerSearchItem": {
+    "openUserPanelFor": "için kullanıcı panelini aç"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "Aktivite bulunamadı"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Kısıtlamanın ihlal edilmesinin ardından bir süre sonra (saniye olarak) bu eylemi tetikle",
@@ -2911,6 +3001,9 @@
     "submissions": "Gönderimler",
     "thirdpartySubmissions": "Üçüncü taraf gönderimleri",
     "timeclock": "Zaman saati"
+  },
+  "formRankAccountRow": {
+    "section": "Bölüm:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Kabul Edilen Yükleyici Dosyaları",
@@ -3303,6 +3396,7 @@
     "thisForumTopicIsLockedFromNewReplies": "Bu forum konusu yeni yanıtlara kapalıdır.",
     "thisForumTopicIsPinnedWithinThe": "Bu forum konusu içinde sabitlenmiştir",
     "thisTopic": "bu konuyu?",
+    "title": "Başlık",
     "topicRepliesBelow": "Konu Yanıtları Aşağıda",
     "uniqueIdCopiedToClipboard": "Benzersiz Kimlik Kopyalandı.",
     "unlock": "Kilidi Aç",
@@ -3363,9 +3457,49 @@
     "uploadANewPhoto": "Yeni Bir Fotoğraf Yükle",
     "uploadNewPhoto": "Yeni Fotoğraf Yükle"
   },
+  "gameEnvironment": {
+    "blackout": "Elektrik kesintisi"
+  },
   "GameIndex": {
+    "andClickToCopyPasteTheIDAndKeyBelow": "ve aşağıdaki kimliği ve anahtarı kopyalamak/yapıştırmak için tıklayın.",
+    "aPIKey": "API Anahtarı",
+    "click": "Tıkla",
+    "communityID": "Topluluk Kimliği",
+    "copyYourERLCAPIKey": "ER:LC API Anahtarınızı Kopyalayın",
+    "createNewServer": "Yeni Sunucu Oluştur",
+    "directoryToCustomizeYourFeatures": "özelliklerinizi özelleştirmek için dizin.",
+    "disabledDueToMissingPermission": "Eksik izin nedeniyle devre dışı bırakıldı:",
+    "eRLCAPIKey": "ER:LC API Anahtarı",
+    "fileManager": "Dosya Yöneticisi",
+    "installSonoran": "Sonoran'ı Yükle",
+    "melonly": "Melonly",
     "melonlyApiKey": "Melonly API Anahtarı",
-    "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara"
+    "navigateToOwnedServers": "\"Sahip Olunan Sunucular\" bölümüne git",
+    "navigateToServers": "\"Sunucular\" bölümüne git",
+    "navigateToThe": "Şuraya git",
+    "noPlayersFoundSearch": "Oyuncu Bulunamadı... Ara",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Kurulum tamamlandığında, kaynak dosyalara şuradan erişebilirsiniz:",
+    "oneClickInstallation": "Tek Tıkla Kurulum",
+    "pasteYourERLCAPIKey": "ER:LC API Anahtarınızı Yapıştırın",
+    "purchaseAFiveMGameServerFromRocketNode": "Rocket Node'dan bir FiveM Oyun Sunucusu satın alın",
+    "purchaseAPIAccessFromERLC": "ER:LC'den API Erişimi Satın Alın",
+    "selectEditServerSettings": "\"Sunucu Ayarlarını Düzenle\" seç",
+    "selectEditToCopyToClipboard": "Panoya kopyalamak için \"Düzenle\"yi seçin",
+    "sonoranInstaller": "Sonoran Yükleyici",
+    "useTestData": "Test Verilerini Kullan",
+    "videoTutorial": "Video Eğitimi",
+    "youMustBeAnAdminToViewTheAPIKey": "API anahtarını görüntülemek için yönetici olmalısınız."
+  },
+  "gameResources": {
+    "ensure": "Sağla",
+    "noResults": "Sonuç yok"
+  },
+  "gameVehicles": {
+    "actions": "Eylemler",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "despawnVehicle": "aracıYokEt",
+    "repairVehicle": "aracıTamirEt"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Eylem gerçekleştirildi! Panelin güncellenmesi bir veya iki dakika sürebilir...",
@@ -3402,6 +3536,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "Bu topluluk için yeterli veri yoktu"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Bu metriği favorile",
     "growtherrored": "HATA",
     "growthloadingdata": "VERİ YÜKLENİYOR",
     "growthnewusersjoiningyourcommunity": "Topluluğunuza katılan yeni kullanıcılar",
@@ -3419,7 +3554,19 @@
     "growthuserswhohaveleftyourcommunity": "Topluluğunuzdan ayrılan kullanıcılar:",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Topluluk Keşfi'nden topluluk sayfasını ziyaret eden benzersiz kullanıcı sayısı",
     "numberOfUniqueViewsFromCommunityDiscover": "Topluluk Keşfi'nden gelen benzersiz görüntüleme sayısı",
-    "theresNotEnoughDataToPopulateTheGraph": "Grafiği doldurmak için yeterli veri yok."
+    "theresNotEnoughDataToPopulateTheGraph": "Grafiği doldurmak için yeterli veri yok.",
+    "thisMetricIsFavorite": "Bu metrik favori"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Henüz favori yok. Favorilerinize eklemek için herhangi bir metrik veya grafikteki yıldız simgesine tıklayın."
+  },
+  "guideManagement": {
+    "addGuide": "Kılavuz Ekle",
+    "allGuidesAvailable": "Tüm Rehberler Mevcut",
+    "editTheGuideLabel": "Kılavuz Etiketini Düzenle",
+    "editTheGuideURL": "Kılavuz URL'sini Düzenle",
+    "enterBelowAllInformationRegardingThisGuide": "Bu rehberle ilgili tüm bilgileri aşağıya girin.",
+    "gitBookGuideURL": "GitBook Kılavuz URL'si"
   },
   "helpButtonComponent": {
     "close": "Kapat",
@@ -3439,8 +3586,15 @@
     "icon": "Simge",
     "image": "Görsel"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Tam ekran"
+  },
+  "iFrameForm": {
+    "iFrameURL": "iFrame URL"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Bir resim yüklemek için tıklayın",
+    "hyperlinkOptions": "Köprü Bağlantı Seçenekleri",
     "targetForm": "Formüler",
     "targetNone": "Hiçbiri",
     "targetPage": "Özel Sayfa",
@@ -3459,7 +3613,9 @@
     "errorMaxSizeMessage": "Dosya boyutu 5MB sınırını aşıyor.",
     "errorMaxTotalSizeMessage": "Dosyaların toplam boyutu izin verilen maksimum sınırı olan 100MB'yi aşıyor.",
     "errorMessage": "Görüntü yüklenirken bir hata oluştu:",
-    "errorUploadMessage": "Yükleme sırasında bir hata oluştu."
+    "errorUploadMessage": "Yükleme sırasında bir hata oluştu.",
+    "imagePreview": "Görsel önizleme",
+    "upload": "Yükle"
   },
   "Index": {
     "account": "Hesap",
@@ -3690,6 +3846,24 @@
     "withADuplicate": "çift ile",
     "yes": "Evet",
     "youDoNotHavePermissionsForThisGameServer": "Bu oyun sunucusu için izinleriniz yok."
+  },
+  "indexPage": {
+    "aIAutomation": "Yapay Zeka Otomasyonu",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Onlarca davranış ve profil sinyali arasında yinelenen hesapları otomatik olarak algılayarak topluluğunuzu güvende tutun.",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS sıralamaları, izinler için tek kontrol noktanızdır. Beyaz listeleri, dosya ve web sitesi erişimini, Discord rol eşitlemesini ve daha fazlasını tek birleşik sistemden yönetin.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Beyaz liste başvuruları, LOA talepleri ve daha fazlası için özel formlar oluşturun. Güçlü aşama otomasyonları kullanıcı rütbelerini güncelleyebilir, kadroları eşitleyebilir, bildirimleri tetikleyebilir ve yinelenen iş akışı adımlarını otomatik olarak işleyebilir.",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Topluluğunuzu daha hızlı, daha güvenli ve daha az manuel işle çalıştırmak için yapay zekâ destekli otomasyondan yararlanın.",
+    "integratedGamePanels": "Entegre Oyun Panelleri",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Dosyalarınızı, formlarınızı ve iş akışlarınızı tek bir yerde düzenli tutun.",
+    "managesYourEntireGamingCommunity": "tüm oyun topluluğunuzu yönetir.",
+    "openBillingCenter": "Faturalandırma Merkezini Aç",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Üyeleri düzenleyin, sorumluluklar atayın ve personel yapısını temiz tutun.",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Oyun topluluğunuzu tek bir platformdan yönetin: yapay zeka destekli güvenlik ve form otomasyonu, canlı kadrolar ve rütbe tabanlı izinler, eşzamanlı Discord rol yönetimi ve ayrıntılı erişim denetimleriyle işbirliğine dayalı belge iş akışları.",
+    "saveWithQuarterlyBilling": "Üç aylık faturalandırmayla %25 tasarruf edin",
+    "security": "Güvenlik",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Belgeleri paylaşın ve canlı düzenleyin, filigran koruması ekleyin, görseller ve dosyalar yerleştirin ve erişim izinlerini CMS sıralarıyla otomatik olarak eşitleyin.",
+    "totalBilledQuarterly": "çeyreklik toplam faturalandırma",
+    "userManagement": "Kullanıcı Yönetimi"
   },
   "InfoBlocksForm": {
     "add": "Ekle",
@@ -4001,8 +4175,10 @@
     "allowedRanksToReply": "Yanıt Vermeye İzin Verilen Rütbeler",
     "allowSubmitterReplies": "Gönderen Yanıtlarına İzin Ver",
     "cancel": "İptal",
+    "changedTheStageFrom": "aşamayı şuradan değiştirdi",
     "changeStage": "Aşamayı Değiştir",
     "close": "Kapat",
+    "commentHere": "Buraya yorum yazın...",
     "deleteForm": "Formu Sil",
     "hidden": "Gizli",
     "invalidStage": "Geçersiz Aşama",
@@ -4027,6 +4203,10 @@
     "unlocked": "KİLİTLİ DEĞİL",
     "visible": "Görünür",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Bu forma yeni bir yanıt eklendiğinde sizi bilgilendireceğiz."
+  },
+  "massNotificationManagement": {
+    "notificationContent": "Bildirim İçeriği",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "bir btn etiketi ve url sağlarsanız, içerik bildirim mesajı olarak bir üst QNotify gösterecek, QNotify'a eklenecektir."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4797,6 +4977,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Hata: Topluluk yetkiniz nedeniyle bu üyeyi düzenleyemezsiniz.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Hata: Bir bireyin bilgilerini düzenleme izniniz yok.",
     "exportTime": "Dışa Aktarma Zamanı:",
+    "filterForms": "Formları Filtrele",
     "for": "için",
     "formLabel": "Form Etiketi",
     "formSettings": "Form Ayarları",
@@ -4957,9 +5138,27 @@
     "selectPromotionFlowFromCommunityConfiguration": "Topluluk yapılandırmasından bir terfi akışı seçin.",
     "sendRankNoti": "Rütbe Bildirimi Gönder",
     "subtitle": "Topluluk üyeleriniz için otomatik rütbe terfi akışlarını işleyin.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Bu eylem yalnızca bu akış düşürülüyorsa tetiklenir.",
     "title": "Terfi Akışları",
     "toLabelVariableDesc": "Bu, bu promo akışı için ayarlanmış hedef etiketini belirtecektir.",
     "toLabelVariableLabel": "Hedef Etiket"
+  },
+  "protectedManagement": {
+    "between": "Arasında:",
+    "cMSManagementPanel": "CMS Yönetim Paneli",
+    "lastUpdated": "Son güncelleme:",
+    "manageGuides": "Kılavuzları Yönet",
+    "noSpecificGrowthMetricsFetched": "Belirli büyüme metrikleri alınmadı...",
+    "noSpecificUsersMetricsFetched": "Belirli kullanıcı metrikleri alınmadı...",
+    "specificDetailedUserMetricsHistory": "Özel Ayrıntılı - Kullanıcı Metrikleri Geçmişi",
+    "specificGrowthUserMetricsHistory": "Özel Büyüme - Kullanıcı Metrikleri Geçmişi"
+  },
+  "qBJobs": {
+    "defaultDuty": "Varsayılan Görev",
+    "jobLabel": "İş Etiketi"
+  },
+  "qBoxItems": {
+    "search": "Ara"
   },
   "RadioIntegration": {
     "apiCredentials": "apiKimlikBilgileri",
@@ -4979,10 +5178,12 @@
     "noCommunityId": "toplulukKimliğiYok",
     "permissionSelector": "izinSeçici",
     "remove": "kaldırmak",
+    "setAnAPIIDAndKeyToSetPermissions": "İzinleri ayarlamak için bir API Kimliği ve Anahtarı ayarlayın",
     "syncOptions": "senkronizasyonSeçenekleri",
     "title": "Sonoran Radyo Yapılandırmaları"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Rankın katılmasına izin verilen özel kanalları seçin",
     "setRadio": "radyoAyarlama"
   },
   "rankAccountRow": {
@@ -5139,6 +5340,7 @@
     "clickToDisableConditionalFormatValueBein": "Koşullu format değerinin geçersiz kılınmasını devre dışı bırakmak için tıklayın",
     "clickToOverrideConditionalFormatValue": "Koşullu format değerini geçersiz kılmak için tıklayın",
     "close": "Kapat",
+    "deleteRow": "Satırı Sil",
     "downloadRosterCsv": "Tam Listeyi CSV Olarak İndir",
     "end": "Bitiş",
     "errorDownloadingRosterCSV": "Roster CSV'si indirilirken hata oluştu, devam ederse destek ekibiyle iletişime geçin.",
@@ -5148,6 +5350,7 @@
     "membersPerPage": "Sayfa başına üye:",
     "na": "Yok",
     "noServer": "Sunucu adı yok",
+    "ranks": "Rütbeler",
     "start": "Başla:",
     "valueHasBeenOverwrittenByAManualValueIgn": "Değer, koşullu değer setlerini göz ardı ederek manuel bir değerle geçersiz kılındı.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Bu listede etkinlik izleyicisini yönetme yetkiniz yok."
@@ -5209,6 +5412,10 @@
     "viewportHeight": "Görünüm Yüksekliği",
     "viewportWidth": "Görünüm Genişliği",
     "width": "Genişlik"
+  },
+  "sectionWrapper": {
+    "pasteElement": "Öğeyi Yapıştır",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Bölümü sanal olarak kopyalayın, sağ tıklayarak diğer sayfalara yapıştırın."
   },
   "selectComPage": {
     "selectCommunityPage": "Topluluk Sayfasını Seç"
@@ -5277,6 +5484,7 @@
     "administration": "Yönetim",
     "allowPrivateCommentsTrigger": "Özel Yorumlarda Tetikle",
     "changedOn": "Değiştirdi",
+    "close": "Kapat",
     "column": "Sütun",
     "erlcServer": "ER:LC Sunucu",
     "formSubmitter": "Form Gönderen",
@@ -5301,21 +5509,28 @@
     "allowOrBlock": "Sunucunuzun portlarındaki IP'leri izin verin veya engelleyin.",
     "applicationFilters": "Uygulama Filtreleri",
     "attackHistory": "Saldırı Geçmişi",
+    "comment": "Yorum",
     "commonhelp": "Yardım",
+    "destinationPort": "Hedef Bağlantı Noktası",
     "filters": "Filtreler",
     "Filters": "Filtreler",
     "firewall": "Güvenlik Duvarı",
     "firewallRules": "Güvenlik Duvarı Kuralları",
+    "help": "Yardım",
     "learnAboutSonoranShield": "Sonoran Shield hakkında bilgi edinin",
     "linkYourServer": "Sunucunuzu Bağlayın",
     "myFilters": "Filtrelerim",
     "myServers": "Sunucularım:",
     "noActiveServers": "Aktif Sunucu Yok",
     "poweredByPath": "Path.net tarafından desteklenen, tüm erişim panelimiz ağ saldırılarına bir son verir.",
+    "protocol": "Protokol",
     "sonoranShieldDocuments": "Sonoran Shield Belgeleri",
     "sonoranShieldKeeps": "Sonoran Shield, topluluğunuzu oyunda tutar veya paranızı geri verir.",
     "sonoranShieldNetworkDefense": "Sonoran Shield Ağ Savunması",
     "sonoranShieldTutorial": "Sonoran Shield Eğitimi",
+    "sourceASN": "Kaynak ASN *",
+    "sourcePort": "Kaynak Port",
+    "sourceType": "Kaynak Türü *",
     "unlink": "Bağlantıyı Kaldır"
   },
   "specificSubscribedAccountNotificationPreference": {
@@ -5453,6 +5668,11 @@
     "newStage": "Yeni Aşama",
     "reorderStages": "Aşamaları Yeniden Sırala"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Hesap Kullanıcı Adı",
+    "globalPermissions": "Genel İzinler",
+    "save": "Kaydet"
+  },
   "tabbedPermissionEditor": {
     "copiedCalendarPermissions": "Takvim İzinleri Kopyalandı",
     "copiedERLCPermissions": "Kopyalanan ER:LC İzinleri",
@@ -5465,6 +5685,8 @@
     "copiedServerPermissions": "Sunucu İzinleri Kopyalandı",
     "copiedShiftTypesPermissions": "Kopyalanmış ER:LC İzinleri",
     "copiedSystemPermissions": "Sistem İzinleri Kopyalandı",
+    "forms": "Formlar",
+    "navigation": "Navigasyon",
     "pasteCalendarPermissions": "Takvim İzinlerini Yapıştır",
     "pasteERLCPermissions": "ER:LC İzinlerini Yapıştır",
     "pasteFormsPermissions": "Form İzinlerini Yapıştır",
@@ -5476,7 +5698,10 @@
     "pasteServerPermissions": "Sunucu İzinlerini Yapıştır",
     "pasteShiftTypesPermissions": "ER:LC İzinlerini Yapıştır",
     "pasteSystemPermissions": "Sistem İzinlerini Yapıştır",
-    "shiftTypes": "Vardiya Türleri"
+    "profileFields": "Profil Alanları",
+    "servers": "Sunucular",
+    "shiftTypes": "Vardiya Türleri",
+    "system": "Sistem"
   },
   "TeamspeakIntegration": {
     "addMapping": "Eşleme Ekle",
@@ -5650,6 +5875,9 @@
     "youAreRunningAnOutdatedVersionOf": "Sunucunuzda eski bir sürüm çalıştırıyorsunuz",
     "yourServersVersion": "Sunucunuzun Sürümü"
   },
+  "videoForm": {
+    "videoURL": "Video URL"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Yanıt Vermeye İzinli Rütbeler",
     "allowSubmitterReplies": "Gönderenin Yanıtlarına İzin Ver",
@@ -5707,6 +5935,7 @@
     "rightActivity": "Sağ: Etkinlik"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "Arka Plan Rengi",
     "updateMessage": "Metin içeriği eski editörden dönüştürüldü. Lütfen gerektiği gibi gözden geçirin ve güncelleyin."
   },
   "Whitelist": {
