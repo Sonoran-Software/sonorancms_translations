@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "Aktiva Disciplinpoäng",
     "activeSecurityFlags": "Aktiva Säkerhetsflaggor",
     "profile": "profil",
+    "upload": "Ladda upp",
     "visit": "Besök"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "communityNamn",
     "communityProfile": "gemenskapsprofil",
     "communityRank": "communityRank"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Välj gemenskapsprofil"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "Ett fel inträffade vid uppdatering av meddelandeinställningar, försök igen senare. Fel:",
@@ -317,7 +321,9 @@
     "value": "Värde"
   },
   "activityHoursView": {
-    "start": "Starta"
+    "end": "Slut",
+    "start": "Starta",
+    "trash": "Papperskorg"
   },
   "AdminPanel": {
     "accountsaccounts": "Konton",
@@ -433,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "erlcNotiInnehåll",
     "erlcNotiContentDescription": "Författaren har använt \"Skicka ER:LC-innehåll\"",
+    "eRLCServer": "ERLC Server",
     "roles": "Roll(er)",
     "webhookChannel": "webhookKanal",
     "webhookContentHint": "webhookInnehållTips",
@@ -689,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "tillämpaBan",
     "banExpiration": "banUtgång",
+    "banReason": "Bananledning",
     "close": "stäng",
     "daysAheadToExpire": "Dagar kvar till utgång",
     "permanent": "permanent",
@@ -944,6 +952,9 @@
     "header": "Rubrik",
     "square": "Kvadratisk",
     "title": "Titel"
+  },
+  "carouselEl": {
+    "noImagesOptionsSet": "Inga bildalternativ angivna"
   },
   "CarouselForm": {
     "add": "Lägg till",
@@ -1273,19 +1284,36 @@
   },
   "comManagementDialog": {
     "back": "Tillbaka",
+    "calendarCategories": "Kalenderkategorier",
     "createTemplate": "Skapa mall",
     "departments": "Avdelningar",
+    "forms": "Formulär",
     "noCalendarCategories": "Inga kalenderkategorier",
+    "noDepartments": "Inga avdelningar",
     "noPages": "Inga sidor",
     "noRosters": "Inga listor",
+    "noStageGroups": "Inga steggrupper",
     "noStages": "Inga steg",
     "notAssociated": "Inte associerad",
+    "noTemplatesFoundOnYourAccount": "Inga mallar hittades på ditt konto.",
     "noToolbarItems": "Inga verktygsfältsobjekt",
     "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "När den har tagits bort kommer den inte längre att vara tillgänglig via denna dialog.",
+    "pages": "Sidor",
+    "return": "Återvänd",
+    "rosters": "Rostrar",
     "save": "Spara",
+    "stageGroups": "Steggrupper",
     "stages": "Steg",
+    "submit": "Skicka",
     "templateCreationBasicInformation": "Mallskapande - Grundläggande information",
-    "templateDescription": "Mallarbeskrivning"
+    "templateCreationDataSelection": "Mallskapande - Dataval",
+    "templateCreationFinalize": "Slutför mallskapande",
+    "templateDescription": "Mallarbeskrivning",
+    "templateManage": "Mallhantering -",
+    "templateTitle": "Malltitel",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "Denna sida är inte längre kopplad till communityn vilket betyder att den inte längre kan uppdateras.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "Detta kommer att uppdatera den här sidan med det som din community för närvarande har, detta går inte att ångra när mallen har sparats.",
+    "view": "Visa"
   },
   "common": {
     "add": "Lägg till",
@@ -1347,6 +1375,7 @@
   },
   "communityDashboard": {
     "no": "Nej",
+    "reSync": "Återsynkronisera",
     "yes": "Ja"
   },
   "CommunityDiscovery": {
@@ -1373,8 +1402,10 @@
     "website": "Webbplats"
   },
   "communityDrive": {
+    "assetFolders": "Tillgångsmappar",
     "audioPlayer": "Ljudspelare",
     "communityImagesAssets": "Gemenskapsbilder / tillgångar",
+    "downloadAsset": "Ladda ner tillgång",
     "files": "Filer",
     "new": "Ny",
     "play": "Spela",
@@ -1389,21 +1420,28 @@
   },
   "communityMenu": {
     "dismiss": "Avfärda",
-    "join": "Gå med"
+    "join": "Gå med",
+    "launchingYourNewCommunity": "Lanserar din nya gemenskap..."
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fel: Du har inte behörighet att visa",
     "thereWasAProblemLoadingThePage": "Det uppstod ett problem vid laddning av sidan"
   },
   "communityTemplates": {
+    "approve": "Godkänn",
+    "approved": "Godkänd",
+    "cancel": "Avbryt",
     "edit": "Redigera",
     "editTemplate": "Redigera mall",
     "inactive": "Inaktiv",
     "needsReview": "Behöver granskas",
-    "remove": "Ta bort"
+    "newChangesPendingReview": "Nya ändringar | Väntar på granskning",
+    "remove": "Ta bort",
+    "save": "Spara"
   },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "av Sonoran Software Systems",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Skapad av en officiell anställd på Sonoran Software Systems",
     "view": "Visa"
   },
   "ConditionalFormSectionUI": {
@@ -1789,10 +1827,12 @@
     "allowWhitelist": "Tillåt Vitlista",
     "attachesToProfile": "Fäster till Profil",
     "BlockWhitelist": "Blockera Vitlista",
+    "cancel": "Avbryt",
     "clockInOut": "Klocka In & Ut",
     "departmentManager": "Avdelningschef",
     "editFieldOnOtherProfiles": "Redigera Fält på Andra Profiler",
     "editRosterRow": "Redigera Roster Rad",
+    "field": "Fält",
     "hidesFieldFromProfileOwner": "Döljer Fält från Profilägare",
     "inheritedFromDefaultDepartmentPermission": "ÄRVD FRÅN STANDARDAVDELNINGENS BEHÖRIGHETER",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Det är meningslöst att kopiera behörigheter för en app som inte har några behörigheter...",
@@ -1878,6 +1918,7 @@
     "configureActions": "Konfigurera Åtgärder",
     "date": "Datum:",
     "disciplinaryPoints": "disciplinäraPoäng",
+    "eRLCViolationAutomatic": "ERLC-överträdelse - Automatisk",
     "noActiveDisciplinaryPoints": "inga aktiva disciplinära poäng",
     "noRobloxAccountLinked": "Inget Roblox-konto Länkat",
     "pointsLabel": "Poäng",
@@ -2035,6 +2076,7 @@
     "departmentEditedMentions": "Avdelning redigerad - Nämner",
     "departmentRemovedChannel": "Avdelning borttagen - Kanal",
     "departmentRemovedMentions": "Avdelning borttagen - Nämner",
+    "direction": "Riktning",
     "disabled": "Inaktiverad",
     "discordRoleSyncDocuments": "Discord Roll Synkronisering Dokument",
     "discordRoleSyncTutorial": "Discord Roll Synkronisering Tutorial",
@@ -2111,6 +2153,7 @@
     "webhookLogging": "Webhook Loggning"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Lägg till ytterligare roller",
     "afterChangesAreMadeItWillQueueMasssyncsW": "Efter att ändringar har gjorts kommer det att köa mass-synkroniseringar med boten, vilket kan ta lite tid för att inte spamma boten.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "Ett fel inträffade vid tillägg av rollmappning, försök igen senare.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "Ett fel inträffade vid utvärdering av mappningar innan åtagande, försök igen.",
@@ -2131,6 +2174,7 @@
     "thisMappingDoesntExistRefresh": "Denna mappning existerar inte, uppdatera."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "Filtrera roller eller servrar",
     "guild": "Guild:"
   },
   "DiscordRoleSelector": {
@@ -2250,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Observera att resurser som använder metadata är skiftlägeskänsliga (t.ex. firstname och FirstName fungerar olika)",
     "noVehiclesAvailable": "Inga fordon tillgängliga",
     "onDuty": "I tjänst",
+    "onlineStatus": "Online-status:",
     "owner": "Ägare:",
     "ownerLicense": "Ägarlicens:",
     "phoneNumber": "Telefonnummer",
@@ -2316,6 +2361,7 @@
     "permissions": "Behörigheter",
     "pressEnterToAdd": "Tryck Enter för att lägga till",
     "quarter": "Kvartal",
+    "rankS": "rang(er)",
     "ruleBuilder": "Regelbyggare",
     "save": "Spara",
     "select": "Välj",
@@ -2368,9 +2414,14 @@
     "selectItem": "Välj Föremål",
     "selectNextSlot": "Välj nästa plats:",
     "slot": "Plats",
+    "slot2": "Plats",
     "slotMetadata": "Plats Metadata",
     "update": "Uppdatera",
     "update43": "Uppdatera"
+  },
+  "editMeta": {
+    "renameDocument": "Byt namn på dokument",
+    "toggleViewingWatermark": "Växla visningsvattenstämpel"
   },
   "Editor": {
     "activityTrackerHours": "Aktivitetsspårningstimmar",
@@ -2482,7 +2533,8 @@
     "containImage": "Innehåll bild",
     "fillImage": "Fyll bild",
     "lockItemToThisSection": "Lås objekt till denna sektion",
-    "unlockToDragItemToAnotherSection": "Lås upp för att dra objekt till en annan sektion"
+    "unlockToDragItemToAnotherSection": "Lås upp för att dra objekt till en annan sektion",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "Lägg till knapp rad",
@@ -2568,11 +2620,15 @@
     "pending": "Väntande",
     "pickDateRange": "Välj datumintervall",
     "searchByUsername": "Sök efter användarnamn",
+    "selectMember": "Välj medlem",
     "selectTypes": "Välj typer",
     "selectUser": "Välj användare",
     "showingAllLogs": "Visar alla loggar",
     "showingPlayerRecords": "Visar spelarens poster",
-    "unknownStage": "Okänt Steg"
+    "staffMember": "Personalkompis",
+    "type": "Typ",
+    "unknownStage": "Okänt Steg",
+    "user": "Användare"
   },
   "ERLCActivityLog": {
     "addedMessage": "lade till meddelande",
@@ -2821,13 +2877,17 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Nuvarande spelare i kö",
     "filter": "filter",
+    "fire": "eld",
     "noPlayersConnected": "inga spelare anslutna",
     "playersIngame": "spelareIgång",
     "playersInQueue": "spelareIKön",
+    "police": "polis",
+    "search": "Sök",
     "sheriff": "sheriff",
     "teams": "team"
   },
   "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Skapa och visa poster.",
     "openUserPanelFor": "Öppna användarpanel för"
   },
   "eRLCVisionPlayerActivity": {
@@ -3324,6 +3384,7 @@
     "categoryLabel": "Kategorietikett",
     "create": "Skapa",
     "createPrivateTopics": "Skapa privata ämnen",
+    "createTopics": "Skapa ämnen",
     "deleteCategory": "Radera kategori",
     "edit": "Redigera",
     "editSubcategory": "Redigera underkategori",
@@ -3457,10 +3518,14 @@
     "uploadANewPhoto": "Ladda upp ett nytt foto",
     "uploadNewPhoto": "Ladda upp nytt foto"
   },
+  "gameDashboard": {
+    "activePlayers": "Aktiva spelare"
+  },
   "gameEnvironment": {
     "blackout": "Strömavbrott"
   },
   "GameIndex": {
+    "accessTheGameServerSPanel": "Åtkomst till spelserverns panel.",
     "andClickToCopyPasteTheIDAndKeyBelow": "och klicka för att kopiera/klistra in ID:t och nyckeln nedan.",
     "aPIKey": "API-nyckel",
     "click": "Klick",
@@ -3469,36 +3534,64 @@
     "createNewServer": "Skapa ny server",
     "directoryToCustomizeYourFeatures": "katalogen för att anpassa dina funktioner.",
     "disabledDueToMissingPermission": "Inaktiverad på grund av saknad behörighet:",
+    "downloadInstall": "Ladda ner och installera",
     "eRLCAPIKey": "ER:LC API-nyckel",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC ger API-åtkomst som en betald uppgradering.",
     "fileManager": "Filhanterare",
+    "forOff": "till 20 % rabatt.",
+    "gamePanelPurchase": "Köp av spelpanel",
     "installSonoran": "Installera Sonoran",
+    "launchGame": "Starta spel",
+    "loadIntoYourERLCServer": "Ladda in i din ER:LC-server",
+    "manualInstall": "Manuell installation",
     "melonly": "Melonly",
     "melonlyApiKey": "Melonly API-nyckel",
+    "moderation": "Moderering",
+    "navigateToERLCAPI": "Navigera till \"ER:LC API\"",
     "navigateToOwnedServers": "Navigera till \"Ägda servrar\"",
     "navigateToServers": "Navigera till \"Servrar\"",
     "navigateToThe": "Navigera till",
+    "navigateToUpgradedPacks": "Navigera till \"Uppgraderade paket\"",
     "noPlayersFoundSearch": "Inga spelare hittades... Sök",
     "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "När installationen är klar kan du komma åt resursfilerna i",
     "oneClickInstallation": "Installation med ett klick",
+    "onTheRocketNodeGamePanelNavigateTo": "På Rocket Node-spelets panel, navigera till",
+    "onTheRocketNodePanel": "på Rocket Node-panelen.",
+    "openTheServerInfoTab": "Öppna fliken \"Serverinfo\"",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Klistra in din API-nyckel nedan i fältet och klicka på bocken för att spara",
     "pasteYourERLCAPIKey": "Klistra in din ER:LC API-nyckel",
     "purchaseAFiveMGameServerFromRocketNode": "Köp en FiveM-spelserver från Rocket Node",
     "purchaseAPIAccessFromERLC": "Köp API-åtkomst från ER:LC",
+    "resources": "resurser",
+    "select": "Välj",
+    "selectAPIPackAndPurchase": "Välj \"API-paket\" och köp",
     "selectEditServerSettings": "Välj \"Redigera serverinställningar\"",
     "selectEditToCopyToClipboard": "Välj \"Redigera\" för att kopiera till Urklipp",
+    "selectTheMenuButtonAtTheTopLeft": "Välj knappen \"Meny\" uppe till vänster",
+    "selectYourPrivateServer": "Välj din privata server",
     "sonoranInstaller": "Sonoran-installationsprogram",
+    "useCouponCode": "Använd kupongkod",
     "useTestData": "Använd testdata",
     "videoTutorial": "Instruktionsvideo",
+    "youCanLearnMoreAboutConfigurationOptions": "Du kan läsa mer om konfigurationsalternativ",
     "youMustBeAnAdminToViewTheAPIKey": "Du måste vara administratör för att visa API-nyckeln."
+  },
+  "gamePlayers": {
+    "noCharacters": "Inga karaktärer"
   },
   "gameResources": {
     "ensure": "Säkerställ",
-    "noResults": "Inga resultat"
+    "noResults": "Inga resultat",
+    "start": "Start"
   },
   "gameVehicles": {
     "actions": "Åtgärder",
     "cancel": "Avbryt",
     "close": "Stäng",
     "despawnVehicle": "ta bort fordon",
+    "info": "Info",
+    "noResults": "Inga resultat",
+    "passengers": "Passagerare",
     "repairVehicle": "repareraFordon"
   },
   "Gangs": {
@@ -3558,15 +3651,23 @@
     "thisMetricIsFavorite": "Denna mätning är favorit"
   },
   "growthIndex": {
-    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Inga favoriter än. Klicka på stjärnikonen för valfri mätning eller graf för att lägga till den i dina favoriter."
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Inga favoriter än. Klicka på stjärnikonen för valfri mätning eller graf för att lägga till den i dina favoriter.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Forma hur din community visas i upptäckten och håll rubriken, bannern och beskrivningen i linje."
   },
   "guideManagement": {
+    "add": "Lägg till",
     "addGuide": "Lägg till guide",
     "allGuidesAvailable": "Alla guider tillgängliga",
+    "cancel": "Avbryt",
     "editTheGuideLabel": "Redigera guideetiketten",
     "editTheGuideURL": "Redigera guide-URL:en",
     "enterBelowAllInformationRegardingThisGuide": "Ange nedan all information om denna guide.",
-    "gitBookGuideURL": "GitBook-guide-URL"
+    "gitBookGuideURL": "GitBook-guide-URL",
+    "guideLabel": "Guideetikett",
+    "missingGuideURL": "Saknar guide-URL!",
+    "missingVideoURL": "Saknar video-URL!",
+    "newGuide": "Ny guide",
+    "tutorialVideoURL": "Instruktionsvideo-URL"
   },
   "helpButtonComponent": {
     "close": "Stäng",
@@ -3850,19 +3951,26 @@
   "indexPage": {
     "aIAutomation": "AI-automatisering",
     "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Upptäck automatiskt dubblettkonton över dussintals beteende- och profilsignaler för att hålla din community säker.",
+    "backups": "Säkerhetskopior",
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-ranker är din enda kontrollpunkt för behörigheter. Hantera whitelistor, fil- och webbplatsåtkomst, synkronisering av Discord-roller och mer från ett enhetligt system.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Skapa anpassade formulär för whitelistansökningar, LOA-förfrågningar och mer. Kraftfulla stage-automatiseringar kan uppdatera användarrankningar, synkronisera trupper, utlösa aviseringar och hantera repetitiva arbetsflödessteg automatiskt.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Anpassade communitylistor uppdateras live med medlemmarnas aktivitetsstatus, anslutningstid, ranker och mer. Utlös automatiseringar för statusändringar eller uppdatera listor direkt från formulärstadieåtgärder.",
+    "formsAndApplications": "Formulär och applikationer",
     "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Utnyttja AI-driven automatisering för att driva din community snabbare, säkrare och med mindre manuellt arbete.",
     "integratedGamePanels": "Integrerade spelpaneler",
     "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Håll dina filer, formulär och arbetsflöden organiserade på ett ställe.",
     "managesYourEntireGamingCommunity": "hanterar hela din spelgemenskap.",
+    "manageYourGameOperationsWithNativePanelIntegrations": "Hantera dina speloperationer med inbyggda panelintegrationer.",
     "openBillingCenter": "Öppna faktureringscenter",
     "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Organisera medlemmar, tilldela ansvar och håll personalstrukturen ren.",
+    "rankManager": "Rankhanterare",
+    "rosters": "Rostrar",
     "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Hantera din spelcommunity från en enda plattform: AI-driven säkerhet och formulärautomation, live-roster och rankbaserade behörigheter, synkroniserad Discord-rollhantering och samarbetsbaserade dokumentflöden med finmaskiga åtkomstkontroller.",
     "saveWithQuarterlyBilling": "Spara 25% med kvartalsvis fakturering",
     "security": "Säkerhet",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Dela och redigera dokument i realtid, lägg till vattenstämpelskydd, bädda in bilder och filer och synkronisera automatiskt åtkomstbehörigheter med CMS-rankningar.",
     "totalBilledQuarterly": "totalt fakturerat per kvartal",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Använd AI-assisterad granskning för att automatiskt bearbeta formulärinsändningar och dirigera varje till rätt granskningssteg.",
     "userManagement": "Användarhantering"
   },
   "InfoBlocksForm": {
@@ -4161,6 +4269,7 @@
     "profile": "Profil",
     "promotional": "Reklam",
     "running": "Körs",
+    "serverHosting": "Serverhosting",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS hanterar din gemenskaps webbplats, dokument, vitlistning, spelbehörigheter och mer!",
     "thisCommunityUsesDiscordIntegrationPleas": "Denna community använder Discord-integration! Vänligen länka din Discord för korrekt rollsynkronisering.",
     "thisCommunityUsesRobloxIntegrationPleas": "Denna gemenskap använder Roblox-integration! Vänligen länka din Roblox för korrekt användning av integrationen.",
@@ -4205,7 +4314,10 @@
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Kommer att meddela dig när ett nytt svar läggs till i detta formulär."
   },
   "massNotificationManagement": {
+    "btnLabel": "Knappetikett",
+    "btnURL": "Knapp-URL",
     "notificationContent": "meddelandeinnehåll",
+    "sendNotification": "Skicka meddelande",
     "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "kommer att visa en topp-QNotify med innehållet som meddelandet, om du anger en knappetikett & url kommer den att bifogas till QNotify."
   },
   "MassPromotionFlowActionsEditor": {
@@ -4305,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "Misslyckades med att spara dokumentmetadata.",
     "file": "fil",
     "folder": "mapp",
-    "save": "Spara"
+    "save": "Spara",
+    "share": "Dela \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "Aktiva gemenskapsmedlemmar med denna länk kan",
@@ -4394,6 +4507,7 @@
     "roster": "Roster",
     "rounded": "Rundad",
     "square": "Fyrkantig",
+    "styles": "Stilar",
     "submitForm": "Skicka formulär",
     "target": "Mål",
     "targetForm": "Målformulär",
@@ -4405,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "Ett fel inträffade vid hämtning av data:",
     "anErrorOccuredWhileSubmittingForm": "Ett fel inträffade vid inskickning av formulär:",
+    "cancel": "Avbryt",
     "errorYouDoNotHavePermissionToSubmitThisF": "Fel: Du har inte behörighet att skicka in detta formulär.",
     "formCouldNotBeFoundToBeCreatedFrom": "Formuläret kunde inte hittas för att skapas från.",
     "noRank": "Ingen rang",
+    "previous": "Föregående",
     "requiredFieldTooltip": "{field} är obligatoriskt",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "Det finns ett eller flera obligatoriska fält som inte är ifyllda.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "Användaren kommer att kunna se denna inlämning på sin profil.",
@@ -4471,6 +4587,7 @@
     "none": "ingen",
     "openSectionEditor": "Öppna sektionsredigerare",
     "pageBackground": "Sidans bakgrund",
+    "pasteSection": "Klistra in sektion",
     "savedCustomCssClasses": "Sparade anpassade CSS-klasser.",
     "scalesTheBackgroundImageSoThatItsOrigina": "Skalar bakgrundsbilden så att dess ursprungliga proportioner bibehålls.",
     "scalesTheBackgroundImageToCoverContainer": "Skalar bakgrundsbilden för att täcka behållaren",
@@ -4889,6 +5006,7 @@
     "exampleName": "Exempel Namn",
     "exampleRank": "Exempel Rank",
     "learnHowToUseProfileFields": "Lär dig hur du använder Profilfält",
+    "newProfileField": "Nytt profilfält",
     "profileFieldsDocuments": "Profilfält Dokument",
     "profileFieldsEditor": "Profilfältsredigerare",
     "profilefieldseditorerrorsnofindfield": "Det fanns inget fält från det som valts.",
@@ -5139,6 +5257,8 @@
     "sendRankNoti": "Skicka ranknotifiering",
     "subtitle": "Behandla automatiserade rangbefordringsflöden för dina communitymedlemmar.",
     "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Den här åtgärden utlöses bara om det här flödet demoteras.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "Den här åtgärden utlöses bara om det här flödet befordras.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "Denna åtgärd kommer att utlösas för både befordringar och degraderingar.",
     "title": "Befordringsflöden",
     "toLabelVariableDesc": "Detta kommer att ange till etiketten som ställts in för detta promotionsflöde.",
     "toLabelVariableLabel": "Till etikett"
@@ -5146,16 +5266,24 @@
   "protectedManagement": {
     "between": "Mellan:",
     "cMSManagementPanel": "CMS-hanteringspanel",
+    "connectedUsers": "Anslutna användare",
     "lastUpdated": "Senast uppdaterad:",
     "manageGuides": "Hantera guider",
     "noSpecificGrowthMetricsFetched": "Inga specifika tillväxtmätvärden hämtades...",
     "noSpecificUsersMetricsFetched": "Inga specifika användarmätvärden hämtades...",
+    "sendMassNotification": "Skicka massmeddelande",
     "specificDetailedUserMetricsHistory": "Specifik detalj – användarmetrikhistorik",
-    "specificGrowthUserMetricsHistory": "Specifik tillväxt – användarmetrikhistorik"
+    "specificGrowthUserMetricsHistory": "Specifik tillväxt – användarmetrikhistorik",
+    "systemAccounts": "Systemkonton"
+  },
+  "qBItems": {
+    "itemImageSelector": "Artikelbild (Väljare)",
+    "search": "Sök"
   },
   "qBJobs": {
     "defaultDuty": "Standarduppgift",
-    "jobLabel": "Jobbetikett"
+    "jobLabel": "Jobbetikett",
+    "offDutyPay": "Avdöst lön"
   },
   "qBoxItems": {
     "search": "Sök"
@@ -5288,6 +5416,7 @@
     "filterRanks": "Filtrera rangordningar"
   },
   "rankSelect": {
+    "filterRanks": "Filtrera rangordningar",
     "noRankOptionsToSelectFrom": "ingaRankingsalternativAttVäljaFrån"
   },
   "Resources": {
@@ -5374,6 +5503,7 @@
     "bottom": "Botten",
     "center": "Centrum",
     "clone": "Klona",
+    "close": "Stäng",
     "contain": "innehålla",
     "cover": "täcka",
     "cssPlaceholder": "Exempel: border: 2px solid #ff671d; border-radius: 8px;",
@@ -5414,6 +5544,8 @@
     "width": "Bredd"
   },
   "sectionWrapper": {
+    "copyElement": "Kopiera element",
+    "copySection": "Kopiera sektion",
     "pasteElement": "Klistra in element",
     "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Kopiera avsnittet virtuellt, klistra in på andra sidor med högerklick."
   },
@@ -5430,6 +5562,7 @@
     "createCustomPages": "Skapa anpassade webbsidor för din gemenskap!",
     "homepageUpdated": "Hemsidan uppdaterad!",
     "homepageUpdatedButDuringDiscoveryApproval": "Hemsidan uppdaterad, men under upptäcktsgodkännande misslyckades det och inaktiverade upptäckt på grund av:",
+    "pageOptions": "Sidalternativ",
     "searchPages": "Sök sidor",
     "selectPageTemplate": "Välj sidmall",
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteringsläge aktiverat: Dra och släpp raderna i den ordning du vill sortera dem.",
@@ -5493,6 +5626,7 @@
     "lockType": "Låstyp",
     "moderation": "Moderering",
     "newValue": "Nytt Värde",
+    "player": "Spelare",
     "roleplay": "Rollspel",
     "roster": "Roster",
     "stageChanger": "Stegbytar",
@@ -5504,19 +5638,24 @@
     "create": "Skapa"
   },
   "shieldPanel": {
+    "action": "Åtgärd:",
     "addFilter": "Lägg till filter",
     "addRule": "Lägg till regel",
     "allowOrBlock": "Tillåt eller blockera IP-adresser på din servers portar.",
     "applicationFilters": "Applikationsfilter",
     "attackHistory": "Attackhistorik",
+    "attacks": "Attacker",
+    "close": "Stäng",
     "comment": "Kommentar",
     "commonhelp": "Hjälp",
+    "destination": "Destination *",
     "destinationPort": "Destinationsport",
     "filters": "Filter",
     "Filters": "Filter",
     "firewall": "Brandvägg",
     "firewallRules": "Brandväggsregler",
     "help": "Hjälp",
+    "history": "Historik",
     "learnAboutSonoranShield": "Lär dig om Sonoran Shield",
     "linkYourServer": "Länka din server",
     "myFilters": "Mina filter",
@@ -5524,14 +5663,18 @@
     "noActiveServers": "Inga aktiva servrar",
     "poweredByPath": "Drivs av Path.net, vår all-access panel sätter stopp för nätverksattacker en gång för alla.",
     "protocol": "Protokoll",
+    "save": "Spara",
+    "search": "Sök",
     "sonoranShieldDocuments": "Sonoran Shield-dokument",
     "sonoranShieldKeeps": "Sonoran Shield håller din community i spelet eller pengarna tillbaka.",
     "sonoranShieldNetworkDefense": "Sonoran Shield Nätverksförsvar",
     "sonoranShieldTutorial": "Sonoran Shield-handledning",
     "sourceASN": "Källa ASN *",
+    "sourceIP": "Källa IP *",
     "sourcePort": "Källport",
     "sourceType": "Källtyp *",
-    "unlink": "Avlänka"
+    "unlink": "Avlänka",
+    "viewHistoricalNetworkAttacksOnYourServer": "Visa historiska nätverksattacker mot din server."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "Ett fel inträffade vid uppdatering av meddelandeinställningar, försök igen senare. Fel:",
@@ -5671,9 +5814,16 @@
   "sysAccountLookup": {
     "accountUsername": "Kontoanvändarnamn",
     "globalPermissions": "Globala behörigheter",
-    "save": "Spara"
+    "miscData": "Diverse data",
+    "registeredAt": "Registrerad den:",
+    "save": "Spara",
+    "username": "Användarnamn:"
+  },
+  "systemAccount": {
+    "cancel": "Avbryt"
   },
   "tabbedPermissionEditor": {
+    "calendars": "Kalendrar",
     "copiedCalendarPermissions": "Kopierade kalenderbehörigheter",
     "copiedERLCPermissions": "Kopierade ER:LC-behörigheter",
     "copiedFormsPermissions": "Kopierade formulärbehörigheter",
@@ -5685,8 +5835,11 @@
     "copiedServerPermissions": "Kopierade serverbehörigheter",
     "copiedShiftTypesPermissions": "Kopierade ER:LC Behörigheter",
     "copiedSystemPermissions": "Kopierade systembehörigheter",
+    "eRLCServers": "ERLC-servrar",
     "forms": "Formulär",
+    "gameServers": "Spelservrar",
     "navigation": "Navigering",
+    "pages": "Sidor",
     "pasteCalendarPermissions": "Klistra in kalenderbehörigheter",
     "pasteERLCPermissions": "Klistra in ER:LC-behörigheter",
     "pasteFormsPermissions": "Klistra in formulärbehörigheter",
@@ -5699,8 +5852,10 @@
     "pasteShiftTypesPermissions": "Klistra in ER:LC Behörigheter",
     "pasteSystemPermissions": "Klistra in systembehörigheter",
     "profileFields": "Profilfält",
+    "rosters": "Listor",
     "servers": "Servrar",
     "shiftTypes": "Skifttyper",
+    "shortURLs": "Korta URL:er",
     "system": "System"
   },
   "TeamspeakIntegration": {
@@ -5936,6 +6091,7 @@
   },
   "whatYouSeeEditor": {
     "backgroundColor": "Bakgrundsfärg",
+    "textColor": "Textfärg",
     "updateMessage": "Textinnehållet har konverterats från den gamla redigeraren. Vänligen granska och uppdatera vid behov."
   },
   "Whitelist": {

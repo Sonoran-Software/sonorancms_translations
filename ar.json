@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "النقاط التأديبية النشطة",
     "activeSecurityFlags": "علامات الأمان النشطة",
     "profile": "الملف الشخصي",
+    "upload": "رفع",
     "visit": "زيارة"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "اسم المجتمع",
     "communityProfile": "ملف المجتمع الشخصي",
     "communityRank": "رتبة المجتمع"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "اختر ملف المجتمع الشخصي"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "حدث خطأ أثناء تحديث تفضيلات الإشعارات، حاول مرة أخرى لاحقًا. خطأ:",
@@ -317,7 +321,9 @@
     "value": "قيمة"
   },
   "activityHoursView": {
-    "start": "ابدأ"
+    "end": "نهاية",
+    "start": "ابدأ",
+    "trash": "سلة المهملات"
   },
   "AdminPanel": {
     "accountsaccounts": "الحسابات",
@@ -433,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "مراقبة لعبة ER:LC الخاصة بك.",
     "erlcNotiContentDescription": "وصف المحتوى المرسل",
+    "eRLCServer": "خادم ERLC",
     "roles": "دور/أدوار",
     "webhookChannel": "webhookChannel",
     "webhookContentHint": "إدراج محتوى بنص أو JSON لمعالجة الطلب الخاص بك",
@@ -689,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "تطبيق الحظر",
     "banExpiration": "انتهاء الحظر",
+    "banReason": "سبب الحظر",
     "close": "إغلاق",
     "daysAheadToExpire": "الأيام المتبقية لانتهاء الصلاحية",
     "permanent": "دائم",
@@ -944,6 +952,9 @@
     "header": "رأس",
     "square": "مربع",
     "title": "العنوان"
+  },
+  "carouselEl": {
+    "noImagesOptionsSet": "لا توجد خيارات للصور محددة"
   },
   "CarouselForm": {
     "add": "إضافة",
@@ -1273,19 +1284,36 @@
   },
   "comManagementDialog": {
     "back": "رجوع",
+    "calendarCategories": "فئات التقويم",
     "createTemplate": "إنشاء قالب",
     "departments": "الأقسام",
+    "forms": "النماذج",
     "noCalendarCategories": "لا توجد فئات تقويم",
+    "noDepartments": "لا توجد أقسام",
     "noPages": "لا صفحات",
     "noRosters": "لا توجد قوائم",
+    "noStageGroups": "لا توجد مجموعات مراحل",
     "noStages": "لا توجد مراحل",
     "notAssociated": "غير مرتبط",
+    "noTemplatesFoundOnYourAccount": "لم يتم العثور على قوالب في حسابك.",
     "noToolbarItems": "لا توجد عناصر شريط الأدوات",
     "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "بمجرد إزالته، لن يعود من الممكن الوصول إليه عبر هذا الحوار.",
+    "pages": "الصفحات",
+    "return": "عودة",
+    "rosters": "القوائم",
     "save": "حفظ",
+    "stageGroups": "مجموعات المراحل",
     "stages": "المراحل",
+    "submit": "إرسال",
     "templateCreationBasicInformation": "إنشاء القالب - المعلومات الأساسية",
-    "templateDescription": "وصف القالب"
+    "templateCreationDataSelection": "إنشاء القالب - اختيار البيانات",
+    "templateCreationFinalize": "إكمال إنشاء القالب",
+    "templateDescription": "وصف القالب",
+    "templateManage": "إدارة القالب -",
+    "templateTitle": "عنوان القالب",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "لم تعد هذه الصفحة مرتبطة بالمجتمع، مما يعني أنه لم يعد بالإمكان تحديثها.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "سيؤدي هذا إلى تحديث هذه الصفحة بما لدى مجتمعك حاليًا، وهذا لا يمكن التراجع عنه بمجرد حفظ القالب.",
+    "view": "عرض"
   },
   "common": {
     "add": "إضافة",
@@ -1347,6 +1375,7 @@
   },
   "communityDashboard": {
     "no": "لا",
+    "reSync": "إعادة المزامنة",
     "yes": "نعم"
   },
   "CommunityDiscovery": {
@@ -1373,8 +1402,10 @@
     "website": "موقع الويب"
   },
   "communityDrive": {
+    "assetFolders": "مجلدات الأصول",
     "audioPlayer": "مشغل الصوت",
     "communityImagesAssets": "صور ومحتوى المجتمع",
+    "downloadAsset": "تنزيل العنصر",
     "files": "الملفات",
     "new": "جديد",
     "play": "تشغيل",
@@ -1389,21 +1420,28 @@
   },
   "communityMenu": {
     "dismiss": "تجاهل",
-    "join": "انضم"
+    "join": "انضم",
+    "launchingYourNewCommunity": "إطلاق مجتمعك الجديد..."
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "خطأ: ليس لديك إذن لعرض",
     "thereWasAProblemLoadingThePage": "كانت هناك مشكلة في تحميل الصفحة"
   },
   "communityTemplates": {
+    "approve": "موافقة",
+    "approved": "تمت الموافقة",
+    "cancel": "إلغاء",
     "edit": "تعديل",
     "editTemplate": "تعديل القالب",
     "inactive": "غير نشط",
     "needsReview": "يحتاج إلى مراجعة",
-    "remove": "إزالة"
+    "newChangesPendingReview": "التغييرات الجديدة | قيد المراجعة",
+    "remove": "إزالة",
+    "save": "حفظ"
   },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "بواسطة أنظمة سونوران للبرمجيات",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "تم إنشاؤه بواسطة موظف رسمي من أنظمة سونوران للبرمجيات",
     "view": "عرض"
   },
   "ConditionalFormSectionUI": {
@@ -1789,10 +1827,12 @@
     "allowWhitelist": "السماح بالقائمة البيضاء",
     "attachesToProfile": "يرتبط بالملف الشخصي",
     "BlockWhitelist": "حظر القائمة البيضاء",
+    "cancel": "إلغاء",
     "clockInOut": "تسجيل الدخول والخروج",
     "departmentManager": "مدير القسم",
     "editFieldOnOtherProfiles": "تحرير الحقل في الملفات الشخصية الأخرى",
     "editRosterRow": "تحرير صف القائمة",
+    "field": "الحقل",
     "hidesFieldFromProfileOwner": "يخفي الحقل عن مالك الملف الشخصي",
     "inheritedFromDefaultDepartmentPermission": "موروث من أذونات القسم الافتراضية",
     "itsUselessToCopyPermissionOfAnAppThatHas": "لا فائدة من نسخ أذونات تطبيق ليس له أذونات...",
@@ -1878,6 +1918,7 @@
     "configureActions": "تكوين الإجراءات",
     "date": "التاريخ:",
     "disciplinaryPoints": "النقاط التأديبية",
+    "eRLCViolationAutomatic": "انتهاك ERLC - تلقائي",
     "noActiveDisciplinaryPoints": "لا توجد نقاط تأديبية نشطة",
     "noRobloxAccountLinked": "لا يوجد حساب Roblox مرتبط",
     "pointsLabel": "نقاط",
@@ -2035,6 +2076,7 @@
     "departmentEditedMentions": "تعديل قسم - الإشارات",
     "departmentRemovedChannel": "إزالة قسم - القناة",
     "departmentRemovedMentions": "إزالة قسم - الإشارات",
+    "direction": "الاتجاه",
     "disabled": "معطل",
     "discordRoleSyncDocuments": "مستندات مزامنة دور Discord",
     "discordRoleSyncTutorial": "دليل مزامنة دور Discord",
@@ -2111,6 +2153,7 @@
     "webhookLogging": "تسجيل Webhook"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "إضافة أدوار إضافية",
     "afterChangesAreMadeItWillQueueMasssyncsW": "بعد إجراء التغييرات سيتم وضعها في طابور التزامن الجماعي مع البوت، مما قد يستغرق بعض الوقت لتجنب إزعاج البوت.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "حدث خطأ أثناء إضافة تعيين الدور، حاول مرة أخرى لاحقًا.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "حدث خطأ أثناء تقييم التعيينات قبل الالتزام، حاول مرة أخرى.",
@@ -2131,6 +2174,7 @@
     "thisMappingDoesntExistRefresh": "هذا التعيين غير موجود، قم بالتحديث."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "تصفية الأدوار أو الخوادم",
     "guild": "النقابة:"
   },
   "DiscordRoleSelector": {
@@ -2250,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "لاحظ أن الموارد التي تستخدم البيانات الوصفية حساسة لحالة الأحرف (على سبيل المثال firstname و FirstName يتصرفان بشكل مختلف)",
     "noVehiclesAvailable": "لا توجد مركبات متاحة",
     "onDuty": "في الخدمة",
+    "onlineStatus": "حالة الاتصال:",
     "owner": "المالك:",
     "ownerLicense": "رخصة المالك:",
     "phoneNumber": "رقم الهاتف",
@@ -2316,6 +2361,7 @@
     "permissions": "أذونات",
     "pressEnterToAdd": "اضغط على Enter للإضافة",
     "quarter": "ربع",
+    "rankS": "رتبة / رتب",
     "ruleBuilder": "منشئ القواعد",
     "save": "حفظ",
     "select": "اختر",
@@ -2368,9 +2414,14 @@
     "selectItem": "اختر العنصر",
     "selectNextSlot": "اختر الفتحة التالية:",
     "slot": "فتحة",
+    "slot2": "فتحة",
     "slotMetadata": "بيانات الفتحة",
     "update": "تحديث",
     "update43": "تحديث"
+  },
+  "editMeta": {
+    "renameDocument": "إعادة تسمية المستند",
+    "toggleViewingWatermark": "تبديل عرض العلامة المائية"
   },
   "Editor": {
     "activityTrackerHours": "ساعات متعقب النشاط",
@@ -2482,7 +2533,8 @@
     "containImage": "احتواء الصورة",
     "fillImage": "ملء الصورة",
     "lockItemToThisSection": "قفل العنصر في هذا القسم",
-    "unlockToDragItemToAnotherSection": "فتح القفل لسحب العنصر إلى قسم آخر"
+    "unlockToDragItemToAnotherSection": "فتح القفل لسحب العنصر إلى قسم آخر",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "إضافة صف أزرار",
@@ -2568,11 +2620,15 @@
     "pending": "قيد الانتظار",
     "pickDateRange": "اختر نطاق التاريخ",
     "searchByUsername": "البحث باسم المستخدم",
+    "selectMember": "اختر العضو",
     "selectTypes": "اختر الأنواع",
     "selectUser": "اختر المستخدم",
     "showingAllLogs": "عرض جميع السجلات",
     "showingPlayerRecords": "عرض سجلات اللاعبين",
-    "unknownStage": "مرحلة غير معروفة"
+    "staffMember": "عضو طاقم",
+    "type": "نوع",
+    "unknownStage": "مرحلة غير معروفة",
+    "user": "مستخدم"
   },
   "ERLCActivityLog": {
     "addedMessage": "أضيفت الرسالة",
@@ -2821,11 +2877,18 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "اللاعبون الحاليون في الطابور",
     "filter": "تصفية",
+    "fire": "نار",
     "noPlayersConnected": "لا يوجد لاعبين متصلين",
     "playersIngame": "اللاعبون في اللعبة",
     "playersInQueue": "اللاعبون في الطابور",
+    "police": "الشرطة",
+    "search": "بحث",
     "sheriff": "شريف",
     "teams": "الفرق"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "إنشاء وعرض السجلات.",
+    "openUserPanelFor": "افتح لوحة المستخدم لـ"
   },
   "eRLCVisionPlayerActivity": {
     "noActivityFound": "لم يتم العثور على نشاط"
@@ -3321,6 +3384,7 @@
     "categoryLabel": "تسمية الفئة",
     "create": "إنشاء",
     "createPrivateTopics": "إنشاء مواضيع خاصة",
+    "createTopics": "إنشاء مواضيع",
     "deleteCategory": "حذف الفئة",
     "edit": "تعديل",
     "editSubcategory": "تعديل الفئة الفرعية",
@@ -3454,10 +3518,14 @@
     "uploadANewPhoto": "تحميل صورة جديدة",
     "uploadNewPhoto": "تحميل صورة جديدة"
   },
+  "gameDashboard": {
+    "activePlayers": "اللاعبون النشطون"
+  },
   "gameEnvironment": {
     "blackout": "انقطاع الكهرباء"
   },
   "GameIndex": {
+    "accessTheGameServerSPanel": "الوصول إلى لوحة خادم اللعبة.",
     "andClickToCopyPasteTheIDAndKeyBelow": "وانقر لنسخ/لصق المعرّف والمفتاح أدناه.",
     "aPIKey": "مفتاح API",
     "click": "انقر",
@@ -3466,36 +3534,64 @@
     "createNewServer": "إنشاء خادم جديد",
     "directoryToCustomizeYourFeatures": "الدليل لتخصيص ميزاتك.",
     "disabledDueToMissingPermission": "معطّل بسبب عدم وجود إذن:",
+    "downloadInstall": "تنزيل وتثبيت",
     "eRLCAPIKey": "مفتاح API لـ ER:LC",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "تمنح ER:LC الوصول إلى واجهة برمجة التطبيقات كترقية مدفوعة.",
     "fileManager": "مدير الملفات",
+    "forOff": "بخصم 20%.",
+    "gamePanelPurchase": "شراء لوحة اللعبة",
     "installSonoran": "تثبيت Sonoran",
+    "launchGame": "تشغيل اللعبة",
+    "loadIntoYourERLCServer": "حمّل إلى خادم ER:LC الخاص بك",
+    "manualInstall": "التثبيت اليدوي",
     "melonly": "ميلونلي",
     "melonlyApiKey": "مفتاح API الخاص بـ Melonly",
+    "moderation": "الإشراف",
+    "navigateToERLCAPI": "انتقل إلى \"ER:LC API\"",
     "navigateToOwnedServers": "انتقل إلى \"الخوادم المملوكة\"",
     "navigateToServers": "انتقل إلى \"الخوادم\"",
     "navigateToThe": "انتقل إلى",
+    "navigateToUpgradedPacks": "انتقل إلى \"الحزم المطوّرة\"",
     "noPlayersFoundSearch": "لم يتم العثور على لاعبين... البحث",
     "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "بمجرد اكتمال التثبيت، يمكنك الوصول إلى ملفات الموارد في",
     "oneClickInstallation": "التثبيت بنقرة واحدة",
+    "onTheRocketNodeGamePanelNavigateTo": "في لوحة لعبة Rocket Node، انتقل إلى",
+    "onTheRocketNodePanel": "في لوحة Rocket Node.",
+    "openTheServerInfoTab": "افتح علامة التبويب \"معلومات الخادم\"",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "الصق مفتاح API الخاص بك أدناه في حقل الإدخال وانقر على علامة الاختيار للحفظ",
     "pasteYourERLCAPIKey": "الصق مفتاح API لـ ER:LC",
     "purchaseAFiveMGameServerFromRocketNode": "اشترِ خادم ألعاب FiveM من Rocket Node",
     "purchaseAPIAccessFromERLC": "شراء الوصول إلى واجهة برمجة التطبيقات من ER:LC",
+    "resources": "الموارد",
+    "select": "اختر",
+    "selectAPIPackAndPurchase": "اختر \"حزمة API\" واشترِ",
     "selectEditServerSettings": "اختر \"تعديل إعدادات الخادم\"",
     "selectEditToCopyToClipboard": "حدد \"تحرير\" للنسخ إلى الحافظة",
+    "selectTheMenuButtonAtTheTopLeft": "اختر زر \"القائمة\" في أعلى اليسار",
+    "selectYourPrivateServer": "اختر خادمك الخاص",
     "sonoranInstaller": "مثبت Sonoran",
+    "useCouponCode": "استخدم رمز القسيمة",
     "useTestData": "استخدم بيانات الاختبار",
     "videoTutorial": "فيديو الشرح",
+    "youCanLearnMoreAboutConfigurationOptions": "يمكنك معرفة المزيد عن خيارات التكوين",
     "youMustBeAnAdminToViewTheAPIKey": "يجب أن تكون مسؤولًا لعرض مفتاح API."
+  },
+  "gamePlayers": {
+    "noCharacters": "لا توجد شخصيات"
   },
   "gameResources": {
     "ensure": "تأكّد",
-    "noResults": "لا توجد نتائج"
+    "noResults": "لا توجد نتائج",
+    "start": "ابدأ"
   },
   "gameVehicles": {
     "actions": "الإجراءات",
     "cancel": "إلغاء",
     "close": "إغلاق",
     "despawnVehicle": "إزالة المركبة",
+    "info": "معلومات",
+    "noResults": "لا توجد نتائج",
+    "passengers": "الركاب",
     "repairVehicle": "إصلاح مركبة"
   },
   "Gangs": {
@@ -3555,15 +3651,23 @@
     "thisMetricIsFavorite": "هذا المقياس مفضل"
   },
   "growthIndex": {
-    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "لا توجد مفضلات بعد. انقر على أيقونة النجمة في أي مقياس أو مخطط لإضافته إلى المفضلات لديك."
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "لا توجد مفضلات بعد. انقر على أيقونة النجمة في أي مقياس أو مخطط لإضافته إلى المفضلات لديك.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "شكّل كيفية ظهور مجتمعك في الاكتشاف وحافظ على اتساق العنوان الرئيسي واللافتة والوصف."
   },
   "guideManagement": {
+    "add": "إضافة",
     "addGuide": "إضافة دليل",
     "allGuidesAvailable": "جميع الأدلة المتاحة",
+    "cancel": "إلغاء",
     "editTheGuideLabel": "تعديل تسمية الدليل",
     "editTheGuideURL": "تعديل رابط الدليل",
     "enterBelowAllInformationRegardingThisGuide": "أدخل أدناه جميع المعلومات المتعلقة بهذا الدليل.",
-    "gitBookGuideURL": "رابط دليل GitBook"
+    "gitBookGuideURL": "رابط دليل GitBook",
+    "guideLabel": "تسمية الدليل",
+    "missingGuideURL": "رابط الدليل مفقود!",
+    "missingVideoURL": "رابط الفيديو مفقود!",
+    "newGuide": "دليل جديد",
+    "tutorialVideoURL": "رابط فيديو الشرح"
   },
   "helpButtonComponent": {
     "close": "إغلاق",
@@ -3847,8 +3951,11 @@
   "indexPage": {
     "aIAutomation": "الأتمتة بالذكاء الاصطناعي",
     "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "اكتشف تلقائيًا الحسابات المكررة عبر عشرات إشارات السلوك والملف الشخصي للحفاظ على أمان مجتمعك.",
+    "backups": "النسخ الاحتياطية",
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "رتب CMS هي نقطة التحكم الوحيدة لديك للأذونات. أدر القوائم البيضاء، والوصول إلى الملفات والمواقع الإلكترونية، ومزامنة أدوار Discord، والمزيد من نظام موحد واحد.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "أنشئ نماذج مخصصة لتطبيقات القائمة البيضاء، وطلبات LOA، والمزيد. يمكن لأتمتة المرحلة القوية تحديث رتب المستخدمين، ومزامنة القوائم، وتشغيل الإشعارات، والتعامل مع خطوات سير العمل المتكررة تلقائيًا.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "تتحدث قوائم المجتمع المخصصة مباشرةً مع حالة نشاط الأعضاء ووقت الاتصال والرتب والمزيد. فعّل الأتمتات لتغييرات الحالة أو حدّث القوائم مباشرةً من إجراءات مرحلة النموذج.",
+    "formsAndApplications": "النماذج والتطبيقات",
     "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "استفد من الأتمتة المدعومة بالذكاء الاصطناعي لتشغيل مجتمعك بشكل أسرع وأكثر أمانًا وبعمل يدوي أقل.",
     "integratedGamePanels": "لوحات اللعبة المتكاملة",
     "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "احتفظ بملفاتك ونماذجك وسير عملك منظمة في مكان واحد.",
@@ -3856,11 +3963,14 @@
     "manageYourGameOperationsWithNativePanelIntegrations": "أدر عمليات لعبتك مع تكاملات اللوحة الأصلية.",
     "openBillingCenter": "فتح مركز الفوترة",
     "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "نظّم الأعضاء، ووزّع المسؤوليات، وحافظ على هيكل الموظفين مرتبًا.",
+    "rankManager": "مدير الرتب",
+    "rosters": "القوائم",
     "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "أدر مجتمع الألعاب الخاص بك من منصة واحدة: أمان مدعوم بالذكاء الاصطناعي وأتمتة النماذج، وقوائم أعضاء مباشرة وأذونات قائمة على الرتبة، وإدارة متزامنة لأدوار Discord، وسير عمل تعاونية للمستندات مع ضوابط وصول دقيقة.",
     "saveWithQuarterlyBilling": "وفّر 25% مع الفوترة ربع السنوية",
     "security": "الأمان",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "مشاركة المستندات وتحريرها مباشرةً، وإضافة حماية بعلامة مائية، وتضمين الصور والملفات، ومزامنة أذونات الوصول تلقائيًا مع رتب نظام إدارة المحتوى.",
     "totalBilledQuarterly": "إجمالي الفوترة ربع السنوية",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "استخدم التصحيح بمساعدة الذكاء الاصطناعي لمعالجة عمليات إرسال النماذج تلقائيًا وتوجيه كل منها إلى مرحلة المراجعة الصحيحة.",
     "userManagement": "إدارة المستخدمين"
   },
   "InfoBlocksForm": {
@@ -4159,6 +4269,7 @@
     "profile": "الملف الشخصي",
     "promotional": "ترويجي",
     "running": "قيد التشغيل",
+    "serverHosting": "استضافة الخادم",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "يدير Sonoran CMS موقع مجتمعك على الويب، المستندات، القائمة البيضاء، الأذونات داخل اللعبة، والمزيد!",
     "thisCommunityUsesDiscordIntegrationPleas": "يستخدم هذا المجتمع تكامل Discord! يرجى ربط Discord الخاص بك لمزامنة الأدوار بشكل صحيح.",
     "thisCommunityUsesRobloxIntegrationPleas": "هذه المجتمع يستخدم تكامل Roblox! يرجى ربط حساب Roblox الخاص بك لاستخدام التكامل بشكل صحيح.",
@@ -4203,7 +4314,10 @@
     "willNotifyYouWhenANewReplyIsAddedToThisF": "سيتم إشعارك عند إضافة رد جديد إلى هذا النموذج."
   },
   "massNotificationManagement": {
+    "btnLabel": "تسمية الزر",
+    "btnURL": "زر الرابط",
     "notificationContent": "محتوى الإشعار",
+    "sendNotification": "إرسال إشعار",
     "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "سيعرض إشعار QNotify علويًا بالمحتوى كرسالة الإشعار، إذا قدّمت تسمية زر و url فسيُرفقان مع QNotify."
   },
   "MassPromotionFlowActionsEditor": {
@@ -4303,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "فشل في حفظ بيانات تعريف المستند.",
     "file": "ملف",
     "folder": "مجلد",
-    "save": "حفظ"
+    "save": "حفظ",
+    "share": "مشاركة \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "يمكن للأعضاء النشطين في المجتمع مع هذا الرابط",
@@ -4392,6 +4507,7 @@
     "roster": "قائمة",
     "rounded": "مستدير",
     "square": "مربع",
+    "styles": "الأنماط",
     "submitForm": "إرسال النموذج",
     "target": "الهدف",
     "targetForm": "نموذج الهدف",
@@ -4403,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "حدث خطأ أثناء استعلام البيانات:",
     "anErrorOccuredWhileSubmittingForm": "حدث خطأ أثناء تقديم النموذج:",
+    "cancel": "إلغاء",
     "errorYouDoNotHavePermissionToSubmitThisF": "خطأ: ليس لديك إذن لتقديم هذا النموذج.",
     "formCouldNotBeFoundToBeCreatedFrom": "لم يتم العثور على النموذج لإنشائه.",
     "noRank": "بدون رتبة",
+    "previous": "السابق",
     "requiredFieldTooltip": "{field} مطلوب",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "هناك حقل أو أكثر مطلوب لم يتم ملؤه.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "سيتمكن المستخدم من عرض هذا الإرسال في ملفه الشخصي.",
@@ -4469,6 +4587,7 @@
     "none": "لا شيء",
     "openSectionEditor": "افتح محرر القسم",
     "pageBackground": "خلفية الصفحة",
+    "pasteSection": "لصق القسم",
     "savedCustomCssClasses": "تم حفظ فئات CSS المخصصة.",
     "scalesTheBackgroundImageSoThatItsOrigina": "يقوم بتكبير صورة الخلفية بحيث يتم الحفاظ على نسبها الأصلية.",
     "scalesTheBackgroundImageToCoverContainer": "يقوم بتكبير صورة الخلفية لتغطية الحاوية",
@@ -4887,6 +5006,7 @@
     "exampleName": "اسم المثال",
     "exampleRank": "مثال على الرتبة",
     "learnHowToUseProfileFields": "تعلم كيفية استخدام حقول الملف الشخصي",
+    "newProfileField": "حقل ملف شخصي جديد",
     "profileFieldsDocuments": "وثائق حقول الملف الشخصي",
     "profileFieldsEditor": "محرر حقول الملف الشخصي",
     "profilefieldseditorerrorsnofindfield": "لم يتم العثور على أي حقل مما هو محدد.",
@@ -5137,6 +5257,8 @@
     "sendRankNoti": "إرسال إشعار الرتبة",
     "subtitle": "معالجة تدفقات ترقية الرتب الآلية لأعضاء مجتمعك.",
     "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "لن يتم تشغيل هذا الإجراء إلا إذا كانت هذه التدفق في حالة تخفيض.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "لن يتم تشغيل هذا الإجراء إلا إذا كانت هذه التدفق في حالة ترقية.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "سيؤدي هذا الإجراء إلى التشغيل لكل من الترقيات والتخفيضات.",
     "title": "تدفقات الترقية",
     "toLabelVariableDesc": "سيقوم بتحديد التسمية المحددة لتدفق الترقية هذا.",
     "toLabelVariableLabel": "إلى التسمية"
@@ -5144,16 +5266,24 @@
   "protectedManagement": {
     "between": "بين:",
     "cMSManagementPanel": "لوحة إدارة نظام إدارة المحتوى",
+    "connectedUsers": "المستخدمون المتصلون",
     "lastUpdated": "آخر تحديث:",
     "manageGuides": "إدارة الأدلة",
     "noSpecificGrowthMetricsFetched": "لم يتم جلب مقاييس نمو محددة...",
     "noSpecificUsersMetricsFetched": "لم يتم جلب مقاييس مستخدمين محددين...",
+    "sendMassNotification": "إرسال إشعار جماعي",
     "specificDetailedUserMetricsHistory": "محدد مفصل - سجل مقاييس المستخدم",
-    "specificGrowthUserMetricsHistory": "نمو محدد - سجل مقاييس المستخدم"
+    "specificGrowthUserMetricsHistory": "نمو محدد - سجل مقاييس المستخدم",
+    "systemAccounts": "حسابات النظام"
+  },
+  "qBItems": {
+    "itemImageSelector": "صورة العنصر (المحدد)",
+    "search": "بحث"
   },
   "qBJobs": {
     "defaultDuty": "الواجب الافتراضي",
-    "jobLabel": "تسمية الوظيفة"
+    "jobLabel": "تسمية الوظيفة",
+    "offDutyPay": "بدل خارج الخدمة"
   },
   "qBoxItems": {
     "search": "بحث"
@@ -5286,6 +5416,7 @@
     "filterRanks": "تصفية الرتب"
   },
   "rankSelect": {
+    "filterRanks": "تصفية الرتب",
     "noRankOptionsToSelectFrom": "لا توجد خيارات للرتب للاختيار منها"
   },
   "Resources": {
@@ -5372,6 +5503,7 @@
     "bottom": "أسفل",
     "center": "وسط",
     "clone": "استنساخ",
+    "close": "إغلاق",
     "contain": "احتواء",
     "cover": "تغطية",
     "cssPlaceholder": "مثال: border: 2px solid #ff671d; border-radius: 8px;",
@@ -5412,6 +5544,8 @@
     "width": "العرض"
   },
   "sectionWrapper": {
+    "copyElement": "نسخ العنصر",
+    "copySection": "نسخ القسم",
     "pasteElement": "لصق العنصر",
     "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "انسخ القسم افتراضيًا، والصقه في صفحات أخرى بالنقر بزر الماوس الأيمن."
   },
@@ -5428,6 +5562,7 @@
     "createCustomPages": "قم بإنشاء صفحات ويب مخصصة لمجتمعك!",
     "homepageUpdated": "تم تحديث الصفحة الرئيسية!",
     "homepageUpdatedButDuringDiscoveryApproval": "تم تحديث الصفحة الرئيسية، ولكن أثناء الموافقة على الاكتشاف فشلت وتم تعطيل الاكتشاف بسبب:",
+    "pageOptions": "خيارات الصفحة",
     "searchPages": "بحث عن الصفحات",
     "selectPageTemplate": "اختر قالب الصفحة",
     "sortModeActivatedDragAndDropTheRowsInThe": "تم تفعيل وضع الفرز: اسحب وأفلت الصفوف بالترتيب الذي تريده.",
@@ -5491,6 +5626,7 @@
     "lockType": "نوع القفل",
     "moderation": "الإشراف",
     "newValue": "قيمة جديدة",
+    "player": "اللاعب",
     "roleplay": "لعب الأدوار",
     "roster": "القائمة",
     "stageChanger": "مغير المرحلة",
@@ -5502,19 +5638,24 @@
     "create": "إنشاء"
   },
   "shieldPanel": {
+    "action": "الإجراء:",
     "addFilter": "إضافة فلتر",
     "addRule": "إضافة قاعدة",
     "allowOrBlock": "السماح أو حظر عناوين IP على منافذ الخادم الخاص بك.",
     "applicationFilters": "فلاتر التطبيق",
     "attackHistory": "تاريخ الهجمات",
+    "attacks": "الهجمات",
+    "close": "إغلاق",
     "comment": "تعليق",
     "commonhelp": "مساعدة",
+    "destination": "الوجهة *",
     "destinationPort": "منفذ الوجهة",
     "filters": "مرشحات",
     "Filters": "فلاتر",
     "firewall": "جدار الحماية",
     "firewallRules": "قواعد الجدار الناري",
     "help": "مساعدة",
+    "history": "السجل",
     "learnAboutSonoranShield": "تعرف على درع سونوران",
     "linkYourServer": "ربط الخادم الخاص بك",
     "myFilters": "فلاتري",
@@ -5522,14 +5663,18 @@
     "noActiveServers": "لا توجد خوادم نشطة",
     "poweredByPath": "مدعوم من Path.net، تضع لوحتنا الشاملة حداً للهجمات على الشبكة مرة واحدة وإلى الأبد.",
     "protocol": "البروتوكول",
+    "save": "حفظ",
+    "search": "بحث",
     "sonoranShieldDocuments": "وثائق درع سونوران",
     "sonoranShieldKeeps": "يحافظ Sonoran Shield على مجتمعك في اللعبة أو استرداد أموالك.",
     "sonoranShieldNetworkDefense": "دفاع شبكة Sonoran Shield",
     "sonoranShieldTutorial": "دليل درع سونوران",
     "sourceASN": "ASN المصدر *",
+    "sourceIP": "IP المصدر *",
     "sourcePort": "منفذ المصدر",
     "sourceType": "نوع المصدر *",
-    "unlink": "إلغاء الربط"
+    "unlink": "إلغاء الربط",
+    "viewHistoricalNetworkAttacksOnYourServer": "عرض الهجمات الشبكية التاريخية على خادمك."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "حدث خطأ أثناء تحديث تفضيلات الإشعارات، حاول مرة أخرى لاحقًا. خطأ:",
@@ -5669,9 +5814,16 @@
   "sysAccountLookup": {
     "accountUsername": "اسم المستخدم للحساب",
     "globalPermissions": "الأذونات العامة",
-    "save": "حفظ"
+    "miscData": "بيانات متنوعة",
+    "registeredAt": "تاريخ التسجيل:",
+    "save": "حفظ",
+    "username": "اسم المستخدم:"
+  },
+  "systemAccount": {
+    "cancel": "إلغاء"
   },
   "tabbedPermissionEditor": {
+    "calendars": "التقاويم",
     "copiedCalendarPermissions": "نسخ أذونات التقويم",
     "copiedERLCPermissions": "نسخ أذونات ER:LC",
     "copiedFormsPermissions": "نسخ أذونات النماذج",
@@ -5683,8 +5835,11 @@
     "copiedServerPermissions": "نسخ أذونات الخادم",
     "copiedShiftTypesPermissions": "نسخ أذونات ER:LC",
     "copiedSystemPermissions": "نسخ أذونات النظام",
+    "eRLCServers": "خوادم ERLC",
     "forms": "النماذج",
+    "gameServers": "خوادم الألعاب",
     "navigation": "التنقل",
+    "pages": "الصفحات",
     "pasteCalendarPermissions": "لصق أذونات التقويم",
     "pasteERLCPermissions": "الصق أذونات ER:LC",
     "pasteFormsPermissions": "لصق أذونات النماذج",
@@ -5697,8 +5852,10 @@
     "pasteShiftTypesPermissions": "لصق أذونات ER:LC",
     "pasteSystemPermissions": "لصق أذونات النظام",
     "profileFields": "حقول الملف الشخصي",
+    "rosters": "القوائم",
     "servers": "الخوادم",
     "shiftTypes": "أنواع الورديات",
+    "shortURLs": "الروابط القصيرة",
     "system": "النظام"
   },
   "TeamspeakIntegration": {
@@ -5934,6 +6091,7 @@
   },
   "whatYouSeeEditor": {
     "backgroundColor": "لون الخلفية",
+    "textColor": "لون النص",
     "updateMessage": "تم تحويل محتوى النص من المحرر القديم. يرجى المراجعة والتحديث حسب الحاجة."
   },
   "Whitelist": {

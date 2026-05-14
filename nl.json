@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "Actieve disciplinaire punten",
     "activeSecurityFlags": "Actieve Beveiligingsvlaggen",
     "profile": "profiel",
+    "upload": "Uploaden",
     "visit": "Bezoek"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "gemeenschapsnaam",
     "communityProfile": "gemeenschapsprofiel",
     "communityRank": "communityRang"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Selecteer Gemeenschapsprofiel"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "Er is een fout opgetreden bij het bijwerken van de meldingsvoorkeuren, probeer het later opnieuw. Fout:",
@@ -317,7 +321,9 @@
     "value": "Waarde"
   },
   "activityHoursView": {
-    "start": "Start"
+    "end": "Einde",
+    "start": "Start",
+    "trash": "Prullenbak"
   },
   "AdminPanel": {
     "accountsaccounts": "Accounts",
@@ -433,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "erlcNotiInhoud",
     "erlcNotiContentDescription": "ERLC serveraankondigingen instellen en ontvangen in dit menu.",
+    "eRLCServer": "ERLC Server",
     "roles": "Rol(len)",
     "webhookChannel": "webhookKanaal",
     "webhookContentHint": "webhookinhoudhint",
@@ -689,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "toepassingBlokkeer",
     "banExpiration": "banVerloop",
+    "banReason": "Banreden",
     "close": "sluiten",
     "daysAheadToExpire": "dagen tot vervaldatum",
     "permanent": "permanent",
@@ -944,6 +952,9 @@
     "header": "Koptekst",
     "square": "Vierkant",
     "title": "Titel"
+  },
+  "carouselEl": {
+    "noImagesOptionsSet": "Geen Afbeeldingsopties Ingesteld"
   },
   "CarouselForm": {
     "add": "Toevoegen",
@@ -1273,19 +1284,36 @@
   },
   "comManagementDialog": {
     "back": "Terug",
+    "calendarCategories": "Kalendercategorieën",
     "createTemplate": "Sjabloon maken",
     "departments": "Afdelingen",
+    "forms": "Formulieren",
     "noCalendarCategories": "Geen kalendercategorieën",
+    "noDepartments": "Geen afdelingen",
     "noPages": "Geen pagina's",
     "noRosters": "Geen roosterlijsten",
+    "noStageGroups": "Geen stadiagroepen",
     "noStages": "Geen stadia",
     "notAssociated": "Niet gekoppeld",
+    "noTemplatesFoundOnYourAccount": "Geen sjablonen gevonden in je account.",
     "noToolbarItems": "Geen werkbalkitems",
     "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Zodra verwijderd, is het niet langer toegankelijk via dit dialoogvenster.",
+    "pages": "Pagina's",
+    "return": "Terugkeren",
+    "rosters": "Roosters",
     "save": "Opslaan",
+    "stageGroups": "Stadiagroepen",
     "stages": "Stadia",
+    "submit": "Indienen",
     "templateCreationBasicInformation": "Sjabloon maken - Basisinformatie",
-    "templateDescription": "Sjabloombeschrijving"
+    "templateCreationDataSelection": "Sjabloon aanmaken - Gegevensselectie",
+    "templateCreationFinalize": "Sjabloon maken - Voltooien",
+    "templateDescription": "Sjabloombeschrijving",
+    "templateManage": "Sjabloon beheren -",
+    "templateTitle": "Sjabloontitel",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "Deze pagina is niet langer gekoppeld aan de community, wat betekent dat deze niet meer kan worden bijgewerkt.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "Dit werkt deze pagina bij met wat uw community momenteel heeft, dit is onomkeerbaar zodra de sjabloon is opgeslagen.",
+    "view": "Bekijk"
   },
   "common": {
     "add": "Toevoegen",
@@ -1347,6 +1375,7 @@
   },
   "communityDashboard": {
     "no": "Nee",
+    "reSync": "Opnieuw synchroniseren",
     "yes": "Ja"
   },
   "CommunityDiscovery": {
@@ -1373,8 +1402,10 @@
     "website": "Website"
   },
   "communityDrive": {
+    "assetFolders": "Assetmappen",
     "audioPlayer": "Audiospeler",
     "communityImagesAssets": "Communityafbeeldingen / assets",
+    "downloadAsset": "Downloaden asset",
     "files": "Bestanden",
     "new": "NIEUW",
     "play": "Afspelen",
@@ -1389,21 +1420,28 @@
   },
   "communityMenu": {
     "dismiss": "Negeren",
-    "join": "Lid worden"
+    "join": "Lid worden",
+    "launchingYourNewCommunity": "Je nieuwe community aan het lanceren..."
   },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Fout: U heeft geen toestemming om dit te bekijken",
     "thereWasAProblemLoadingThePage": "Er was een probleem bij het laden van de pagina"
   },
   "communityTemplates": {
+    "approve": "Goedkeuren",
+    "approved": "Goedgekeurd",
+    "cancel": "Annuleren",
     "edit": "Bewerken",
     "editTemplate": "Sjabloon bewerken",
     "inactive": "Inactief",
     "needsReview": "Moet worden beoordeeld",
-    "remove": "Verwijderen"
+    "newChangesPendingReview": "Nieuwe wijzigingen | In afwachting van beoordeling",
+    "remove": "Verwijderen",
+    "save": "Opslaan"
   },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "door Sonoran Software Systems",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Gemaakt door een officiële medewerker van Sonoran Software Systems",
     "view": "Bekijk"
   },
   "ConditionalFormSectionUI": {
@@ -1789,10 +1827,12 @@
     "allowWhitelist": "Toestaan Whitelist",
     "attachesToProfile": "Hecht aan Profiel",
     "BlockWhitelist": "Blokkeer Whitelist",
+    "cancel": "Annuleren",
     "clockInOut": "Klok In & Uit",
     "departmentManager": "Afdelingsmanager",
     "editFieldOnOtherProfiles": "Bewerk Veld op Andere Profielen",
     "editRosterRow": "Roster Rij Bewerken",
+    "field": "Veld",
     "hidesFieldFromProfileOwner": "Verbergt Veld voor Profieleigenaar",
     "inheritedFromDefaultDepartmentPermission": "GEËRFD VAN STANDAARD AFDELINGSPERMISSIES",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Het is nutteloos om machtigingen van een app te kopiëren die geen machtigingen heeft...",
@@ -1878,6 +1918,7 @@
     "configureActions": "Acties Configureren",
     "date": "Datum:",
     "disciplinaryPoints": "disciplinairepunten",
+    "eRLCViolationAutomatic": "ERLC-overtreding - automatisch",
     "noActiveDisciplinaryPoints": "geenActieveDisciplinairPunten",
     "noRobloxAccountLinked": "Geen Roblox Account Gekoppeld",
     "pointsLabel": "Punten",
@@ -2035,6 +2076,7 @@
     "departmentEditedMentions": "Afdeling bewerkt - Vermeldingen",
     "departmentRemovedChannel": "Afdeling verwijderd - Kanaal",
     "departmentRemovedMentions": "Afdeling verwijderd - Vermeldingen",
+    "direction": "Richting",
     "disabled": "Uitgeschakeld",
     "discordRoleSyncDocuments": "Discord Rol Sync Documenten",
     "discordRoleSyncTutorial": "Discord Rol Sync Tutorial",
@@ -2111,6 +2153,7 @@
     "webhookLogging": "Webhook Logging"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Extra rollen toevoegen",
     "afterChangesAreMadeItWillQueueMasssyncsW": "Nadat wijzigingen zijn aangebracht, zal het massale synchronisaties met de bot in de wachtrij plaatsen, wat enige tijd kan duren om de bot niet te overspoelen.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "Er is een fout opgetreden bij het toevoegen van de rolmapping, probeer het later opnieuw.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "Er is een fout opgetreden bij het evalueren van mappings voor commit, probeer het opnieuw.",
@@ -2131,6 +2174,7 @@
     "thisMappingDoesntExistRefresh": "Deze mapping bestaat niet, vernieuw."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "Rollen of servers filteren",
     "guild": "Gilde:"
   },
   "DiscordRoleSelector": {
@@ -2250,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Let op dat bronnen die de metadata gebruiken hoofdlettergevoelig zijn (bijv. voornaam en Voornaam werken anders)",
     "noVehiclesAvailable": "Geen Voertuigen Beschikbaar",
     "onDuty": "In Dienst",
+    "onlineStatus": "Online status:",
     "owner": "Eigenaar:",
     "ownerLicense": "Eigenaar Licentie:",
     "phoneNumber": "Telefoonnummer",
@@ -2316,6 +2361,7 @@
     "permissions": "Machtigingen",
     "pressEnterToAdd": "Druk op Enter om toe te voegen",
     "quarter": "Kwartaal",
+    "rankS": "Rang(en)",
     "ruleBuilder": "Regelbouwer",
     "save": "Opslaan",
     "select": "Selecteer",
@@ -2368,9 +2414,14 @@
     "selectItem": "Selecteer Item",
     "selectNextSlot": "Selecteer volgende slot:",
     "slot": "Slot",
+    "slot2": "Slot",
     "slotMetadata": "Slot Metadata",
     "update": "Bijwerken",
     "update43": "Bijwerken"
+  },
+  "editMeta": {
+    "renameDocument": "Document hernoemen",
+    "toggleViewingWatermark": "Watermerkweergave wisselen"
   },
   "Editor": {
     "activityTrackerHours": "Activiteit Tracker Uren",
@@ -2482,7 +2533,8 @@
     "containImage": "Afbeelding bevatten",
     "fillImage": "Afbeelding vullen",
     "lockItemToThisSection": "Vergrendel item aan deze sectie",
-    "unlockToDragItemToAnotherSection": "Ontgrendel om item naar een andere sectie te slepen"
+    "unlockToDragItemToAnotherSection": "Ontgrendel om item naar een andere sectie te slepen",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "Voeg Knoppen Rij Toe",
@@ -2568,11 +2620,15 @@
     "pending": "In afwachting",
     "pickDateRange": "Datumbereik kiezen",
     "searchByUsername": "Zoek op gebruikersnaam",
+    "selectMember": "Selecteer lid",
     "selectTypes": "Selecteer types",
     "selectUser": "Selecteer Gebruiker",
     "showingAllLogs": "Alle logs weergeven",
     "showingPlayerRecords": "Spelerrecords weergeven",
-    "unknownStage": "Onbekende Fase"
+    "staffMember": "Personeelslid",
+    "type": "Type",
+    "unknownStage": "Onbekende Fase",
+    "user": "Gebruiker"
   },
   "ERLCActivityLog": {
     "addedMessage": "toegevoegd bericht",
@@ -2821,13 +2877,17 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Huidige spelers in wachtrij",
     "filter": "filter",
+    "fire": "brand",
     "noPlayersConnected": "geenSpelersVerbonden",
     "playersIngame": "spelers in-game",
     "playersInQueue": "spelersInWachtrij",
+    "police": "politie",
+    "search": "Zoeken",
     "sheriff": "sheriff",
     "teams": "teams"
   },
   "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Records maken en bekijken.",
     "openUserPanelFor": "Open gebruikerspaneel voor"
   },
   "eRLCVisionPlayerActivity": {
@@ -3324,6 +3384,7 @@
     "categoryLabel": "Categorielabel",
     "create": "Aanmaken",
     "createPrivateTopics": "Privé-onderwerpen aanmaken",
+    "createTopics": "Onderwerpen Aanmaken",
     "deleteCategory": "Categorie verwijderen",
     "edit": "Bewerken",
     "editSubcategory": "Subcategorie bewerken",
@@ -3457,10 +3518,14 @@
     "uploadANewPhoto": "Upload een nieuwe foto",
     "uploadNewPhoto": "Upload Nieuwe Foto"
   },
+  "gameDashboard": {
+    "activePlayers": "Actieve spelers"
+  },
   "gameEnvironment": {
     "blackout": "Black-out"
   },
   "GameIndex": {
+    "accessTheGameServerSPanel": "Toegang tot het paneel van de spelserver.",
     "andClickToCopyPasteTheIDAndKeyBelow": "en klik om de ID en sleutel hieronder te kopiëren/plakken.",
     "aPIKey": "API-sleutel",
     "click": "Klik",
@@ -3469,36 +3534,64 @@
     "createNewServer": "Nieuwe server maken",
     "directoryToCustomizeYourFeatures": "map om je functies aan te passen.",
     "disabledDueToMissingPermission": "Uitgeschakeld wegens ontbrekende toestemming:",
+    "downloadInstall": "Downloaden & installeren",
     "eRLCAPIKey": "ER:LC API-sleutel",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC biedt API-toegang als betaalde upgrade.",
     "fileManager": "Bestandsbeheer",
+    "forOff": "met 20% korting.",
+    "gamePanelPurchase": "Gamepaneelaankoop",
     "installSonoran": "Installeer Sonoran",
+    "launchGame": "Spel starten",
+    "loadIntoYourERLCServer": "Laad in je ER:LC-server",
+    "manualInstall": "Handmatige installatie",
     "melonly": "Melonly",
     "melonlyApiKey": "Melonly API-sleutel",
+    "moderation": "Moderatie",
+    "navigateToERLCAPI": "Navigeer naar \"ER:LC API\"",
     "navigateToOwnedServers": "Navigeer naar \"Owned Servers\"",
     "navigateToServers": "Navigeer naar \"Servers\"",
     "navigateToThe": "Navigeer naar de",
+    "navigateToUpgradedPacks": "Navigeer naar \"Geüpgradede pakketten\"",
     "noPlayersFoundSearch": "Geen spelers gevonden... Zoeken",
     "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Zodra de installatie is voltooid, kunt u toegang krijgen tot de resourcebestanden in de",
     "oneClickInstallation": "Installatie met één klik",
+    "onTheRocketNodeGamePanelNavigateTo": "Ga op het Rocket Node-spelpaneel naar",
+    "onTheRocketNodePanel": "op het Rocket Node-paneel.",
+    "openTheServerInfoTab": "Open het tabblad \"Serverinfo\"",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Plak uw API-sleutel hieronder in het invoerveld en klik op het vinkje om op te slaan",
     "pasteYourERLCAPIKey": "Plak je ER:LC API-sleutel",
     "purchaseAFiveMGameServerFromRocketNode": "Koop een FiveM-spelserver van Rocket Node",
     "purchaseAPIAccessFromERLC": "Koop API-toegang van ER:LC",
+    "resources": "Middelen",
+    "select": "Selecteer",
+    "selectAPIPackAndPurchase": "Selecteer \"API Pack\" en koop",
     "selectEditServerSettings": "Selecteer \"Serverinstellingen bewerken\"",
     "selectEditToCopyToClipboard": "Selecteer \"Bewerken\" om naar klembord te kopiëren",
+    "selectTheMenuButtonAtTheTopLeft": "Selecteer de knop \"Menu\" linksboven",
+    "selectYourPrivateServer": "Selecteer je privésever",
     "sonoranInstaller": "Sonoran-installatieprogramma",
+    "useCouponCode": "Couponcode gebruiken",
     "useTestData": "Testgegevens gebruiken",
     "videoTutorial": "Videotutorial",
+    "youCanLearnMoreAboutConfigurationOptions": "Je kunt meer leren over configuratieopties",
     "youMustBeAnAdminToViewTheAPIKey": "Je moet een beheerder zijn om de API-sleutel te bekijken."
+  },
+  "gamePlayers": {
+    "noCharacters": "Geen karakters"
   },
   "gameResources": {
     "ensure": "Zorgen",
-    "noResults": "Geen resultaten"
+    "noResults": "Geen resultaten",
+    "start": "Start"
   },
   "gameVehicles": {
     "actions": "Acties",
     "cancel": "Annuleren",
     "close": "Sluiten",
     "despawnVehicle": "voertuigVerwijderen",
+    "info": "Info",
+    "noResults": "Geen resultaten",
+    "passengers": "Passagiers",
     "repairVehicle": "repareerVoertuig"
   },
   "Gangs": {
@@ -3558,15 +3651,23 @@
     "thisMetricIsFavorite": "Deze metric is favoriet"
   },
   "growthIndex": {
-    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Nog geen favorieten. Klik op het sterpictogram bij een metriek of grafiek om deze toe te voegen aan je favorieten."
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Nog geen favorieten. Klik op het sterpictogram bij een metriek of grafiek om deze toe te voegen aan je favorieten.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Bepaal hoe je community in ontdekkingen verschijnt en houd de kop, banner en beschrijving op elkaar afgestemd."
   },
   "guideManagement": {
+    "add": "Toevoegen",
     "addGuide": "Gids toevoegen",
     "allGuidesAvailable": "Alle beschikbare gidsen",
+    "cancel": "Annuleren",
     "editTheGuideLabel": "Bewerk het gidslabel",
     "editTheGuideURL": "Bewerk de gids-URL",
     "enterBelowAllInformationRegardingThisGuide": "Voer hieronder alle informatie in met betrekking tot deze gids.",
-    "gitBookGuideURL": "GitBook-handleiding-URL"
+    "gitBookGuideURL": "GitBook-handleiding-URL",
+    "guideLabel": "Gidslabel",
+    "missingGuideURL": "Guide-URL ontbreekt!",
+    "missingVideoURL": "Video-URL ontbreekt!",
+    "newGuide": "Nieuwe gids",
+    "tutorialVideoURL": "URL van tutorialvideo"
   },
   "helpButtonComponent": {
     "close": "Sluiten",
@@ -3850,8 +3951,11 @@
   "indexPage": {
     "aIAutomation": "AI-automatisering",
     "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Detecteer automatisch dubbele accounts op basis van tientallen gedrags- en profielsignalen om je community veilig te houden.",
+    "backups": "Back-ups",
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-rangen zijn je enige controlepunt voor machtigingen. Beheer whitelists, bestands- en website-toegang, Discord-rolsynchronisatie en meer vanuit één uniform systeem.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Maak aangepaste formulieren voor whitelist-aanvragen, LOA-verzoeken en meer. Krachtige stage-automatiseringen kunnen gebruikersrangen bijwerken, roosters synchroniseren, meldingen activeren en repetitieve workflowstappen automatisch afhandelen.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Aangepaste communityroosters werken live bij met ledenactiviteitsstatus, verbindingstijd, rangen en meer. Activeer automatiseringen voor statuswijzigingen of werk roosters rechtstreeks bij vanuit formulierfase-acties.",
+    "formsAndApplications": "Formulieren en toepassingen",
     "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Benut AI-gestuurde automatisering om je community sneller, veiliger en met minder handmatig werk te laten draaien.",
     "integratedGamePanels": "Geïntegreerde gamepanelen",
     "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Houd je bestanden, formulieren en workflows op één plek georganiseerd.",
@@ -3859,11 +3963,14 @@
     "manageYourGameOperationsWithNativePanelIntegrations": "Beheer je game-activiteiten met native paneelintegraties.",
     "openBillingCenter": "Factureringscentrum openen",
     "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Leden organiseren, verantwoordelijkheden toewijzen en de personeelsstructuur overzichtelijk houden.",
+    "rankManager": "Rangbeheerder",
+    "rosters": "Roosters",
     "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Beheer je gamingcommunity vanuit één platform: AI-gestuurde beveiliging en formulierautomatisering, live roosters en op rang gebaseerde rechten, gesynchroniseerd Discord-rollenbeheer en gezamenlijke documentworkflows met gedetailleerde toegangscontroles.",
     "saveWithQuarterlyBilling": "Bespaar 25% met kwartaalfacturering",
     "security": "Beveiliging",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Deel en bewerk documenten live, voeg watermerkbeveiliging toe, voeg afbeeldingen en bestanden in en synchroniseer automatisch toegangsrechten met CMS-rangen.",
     "totalBilledQuarterly": "totaal per kwartaal gefactureerd",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Gebruik AI-ondersteunde beoordeling om formulierinzendingen automatisch te verwerken en elke inzending naar de juiste beoordelingsfase te leiden.",
     "userManagement": "Gebruikersbeheer"
   },
   "InfoBlocksForm": {
@@ -4162,6 +4269,7 @@
     "profile": "Profiel",
     "promotional": "Promotioneel",
     "running": "Actief",
+    "serverHosting": "Serverhosting",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS beheert de website, documenten, whitelisting, in-game permissies en meer van uw community!",
     "thisCommunityUsesDiscordIntegrationPleas": "Deze community gebruikt Discord-integratie! Koppel je Discord voor juiste rol synchronisatie.",
     "thisCommunityUsesRobloxIntegrationPleas": "Deze community gebruikt Roblox-integratie! Koppel je Roblox voor correct gebruik van de integratie.",
@@ -4206,7 +4314,10 @@
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Zal je op de hoogte stellen wanneer een nieuwe reactie aan dit formulier is toegevoegd."
   },
   "massNotificationManagement": {
+    "btnLabel": "Knoplabel",
+    "btnURL": "Knop-URL",
     "notificationContent": "notificatie-inhoud",
+    "sendNotification": "Verzend Melding",
     "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "zal een bovenste QNotify tonen met de inhoud als het meldingbericht, als je een knoplabel & url opgeeft, wordt die aan de QNotify toegevoegd."
   },
   "MassPromotionFlowActionsEditor": {
@@ -4306,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "Het opslaan van de documentmetadata is mislukt.",
     "file": "bestand",
     "folder": "map",
-    "save": "Opslaan"
+    "save": "Opslaan",
+    "share": "Delen \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "Actieve gemeenschapsleden met deze link kunnen",
@@ -4395,6 +4507,7 @@
     "roster": "Rooster",
     "rounded": "Afgerond",
     "square": "Vierkant",
+    "styles": "Stijlen",
     "submitForm": "Formulier indienen",
     "target": "Doel",
     "targetForm": "Doelformulier",
@@ -4406,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "Er is een fout opgetreden bij het opvragen van gegevens:",
     "anErrorOccuredWhileSubmittingForm": "Er is een fout opgetreden bij het indienen van het formulier:",
+    "cancel": "Annuleren",
     "errorYouDoNotHavePermissionToSubmitThisF": "Fout: U heeft geen toestemming om dit formulier in te dienen.",
     "formCouldNotBeFoundToBeCreatedFrom": "Formulier kon niet worden gevonden om te worden aangemaakt.",
     "noRank": "Geen Rang",
+    "previous": "Vorige",
     "requiredFieldTooltip": "{field} is vereist",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "Er zijn een of meer verplichte velden die niet zijn ingevuld.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "De gebruiker kan deze inzending op zijn profiel bekijken.",
@@ -4472,6 +4587,7 @@
     "none": "geen",
     "openSectionEditor": "Open sectie-editor",
     "pageBackground": "Pagina Achtergrond",
+    "pasteSection": "Plak sectie",
     "savedCustomCssClasses": "Opgeslagen aangepaste CSS-klassen.",
     "scalesTheBackgroundImageSoThatItsOrigina": "Schaalt de achtergrondafbeelding zodat de oorspronkelijke verhoudingen behouden blijven.",
     "scalesTheBackgroundImageToCoverContainer": "Schaalt de achtergrondafbeelding om de container te bedekken",
@@ -4890,6 +5006,7 @@
     "exampleName": "Voorbeeld Naam",
     "exampleRank": "Voorbeeld Rang",
     "learnHowToUseProfileFields": "Leer hoe je Profielvelden gebruikt",
+    "newProfileField": "Nieuw Profielveld",
     "profileFieldsDocuments": "Profielvelden Documenten",
     "profileFieldsEditor": "Profielvelden Editor",
     "profilefieldseditorerrorsnofindfield": "Er is geen veld gevonden van wat is geselecteerd.",
@@ -5140,6 +5257,8 @@
     "sendRankNoti": "Verzend Rangmelding",
     "subtitle": "Voer geautomatiseerde rangpromotiestromen uit voor uw gemeenschap.",
     "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Deze actie wordt alleen geactiveerd als deze flow gedegradeerd wordt.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "Deze actie wordt alleen geactiveerd als deze flow gepromoveerd wordt.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "Deze actie wordt geactiveerd voor zowel promoties als degradaties.",
     "title": "Promotiestromen",
     "toLabelVariableDesc": "Dit zal de naar-label ingesteld voor deze promotievloeiing aangeven.",
     "toLabelVariableLabel": "Naar Label"
@@ -5147,16 +5266,24 @@
   "protectedManagement": {
     "between": "Tussen:",
     "cMSManagementPanel": "CMS-beheerpaneel",
+    "connectedUsers": "Verbonden gebruikers",
     "lastUpdated": "Laatst bijgewerkt:",
     "manageGuides": "Gidsen beheren",
     "noSpecificGrowthMetricsFetched": "Er zijn geen specifieke groeistatistieken opgehaald...",
     "noSpecificUsersMetricsFetched": "Er zijn geen specifieke gebruikersstatistieken opgehaald...",
+    "sendMassNotification": "Verzend Massamelding",
     "specificDetailedUserMetricsHistory": "Specifiek gedetailleerd - gebruikersmetriekgeschiedenis",
-    "specificGrowthUserMetricsHistory": "Specifieke groei - gebruikersmetriekgeschiedenis"
+    "specificGrowthUserMetricsHistory": "Specifieke groei - gebruikersmetriekgeschiedenis",
+    "systemAccounts": "Systeemaccounts"
+  },
+  "qBItems": {
+    "itemImageSelector": "Itemafbeelding (Selector)",
+    "search": "Zoeken"
   },
   "qBJobs": {
     "defaultDuty": "Standaarddienst",
-    "jobLabel": "Taaklabel"
+    "jobLabel": "Taaklabel",
+    "offDutyPay": "Uit dienst betaling"
   },
   "qBoxItems": {
     "search": "Zoeken"
@@ -5289,6 +5416,7 @@
     "filterRanks": "Filter Rangen"
   },
   "rankSelect": {
+    "filterRanks": "Filter Rangen",
     "noRankOptionsToSelectFrom": "geenRangOptiesOmUitTeKiezen"
   },
   "Resources": {
@@ -5375,6 +5503,7 @@
     "bottom": "Onder",
     "center": "Midden",
     "clone": "Klonen",
+    "close": "Sluiten",
     "contain": "bevat",
     "cover": "bedekken",
     "cssPlaceholder": "Voorbeeld: rand: 2px solide #ff671d; rand-radius: 8px;",
@@ -5415,6 +5544,8 @@
     "width": "Breedte"
   },
   "sectionWrapper": {
+    "copyElement": "Kopieer element",
+    "copySection": "Sectie kopiëren",
     "pasteElement": "Plak element",
     "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Sectie virtueel kopiëren, op andere pagina's plakken met de rechtermuisknop."
   },
@@ -5431,6 +5562,7 @@
     "createCustomPages": "Maak aangepaste webpagina's voor je community!",
     "homepageUpdated": "Startpagina bijgewerkt!",
     "homepageUpdatedButDuringDiscoveryApproval": "Homepage bijgewerkt, maar tijdens goedkeuring van ontdekking is het mislukt en is ontdekking uitgeschakeld vanwege:",
+    "pageOptions": "Paginopties",
     "searchPages": "Zoek Pagina's",
     "selectPageTemplate": "Selecteer Paginatemplate",
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteermodus geactiveerd: Sleep de rijen in de volgorde waarin u ze wilt sorteren.",
@@ -5494,6 +5626,7 @@
     "lockType": "Vergrendelingstype",
     "moderation": "Moderatie",
     "newValue": "Nieuwe Waarde",
+    "player": "Speler",
     "roleplay": "Roleplay",
     "roster": "Rooster",
     "stageChanger": "Faseveranderaar",
@@ -5505,19 +5638,24 @@
     "create": "Aanmaken"
   },
   "shieldPanel": {
+    "action": "Actie:",
     "addFilter": "Filter Toevoegen",
     "addRule": "Regel Toevoegen",
     "allowOrBlock": "Sta IP's toe of blokkeer ze op de poorten van je server.",
     "applicationFilters": "Applicatie Filters",
     "attackHistory": "Aanval Geschiedenis",
+    "attacks": "Aanvallen",
+    "close": "Sluiten",
     "comment": "Opmerking",
     "commonhelp": "Help",
+    "destination": "Doel *",
     "destinationPort": "Doelpoort",
     "filters": "Filters",
     "Filters": "Filters",
     "firewall": "Firewall",
     "firewallRules": "Firewall Regels",
     "help": "Help",
+    "history": "Geschiedenis",
     "learnAboutSonoranShield": "Leer over Sonoran Shield",
     "linkYourServer": "Koppel je Server",
     "myFilters": "Mijn Filters",
@@ -5525,14 +5663,18 @@
     "noActiveServers": "Geen Actieve Servers",
     "poweredByPath": "Aangedreven door Path.net, ons all-access paneel maakt een einde aan netwerk aanvallen voor eens en altijd.",
     "protocol": "Protocol",
+    "save": "Opslaan",
+    "search": "Zoeken",
     "sonoranShieldDocuments": "Sonoran Shield Documenten",
     "sonoranShieldKeeps": "Sonoran Shield houdt je gemeenschap in het spel of je krijgt je geld terug.",
     "sonoranShieldNetworkDefense": "Sonoran Shield Netwerkverdediging",
     "sonoranShieldTutorial": "Sonoran Shield Tutorial",
     "sourceASN": "Bron ASN *",
+    "sourceIP": "Bron-IP *",
     "sourcePort": "Bronpoort",
     "sourceType": "Brontype *",
-    "unlink": "Ontkoppelen"
+    "unlink": "Ontkoppelen",
+    "viewHistoricalNetworkAttacksOnYourServer": "Bekijk historische netwerkaanvallen op je server."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "Er is een fout opgetreden bij het bijwerken van de meldingsvoorkeuren, probeer het later opnieuw. Fout:",
@@ -5672,9 +5814,16 @@
   "sysAccountLookup": {
     "accountUsername": "Gebruikersnaam account",
     "globalPermissions": "Globale machtigingen",
-    "save": "Opslaan"
+    "miscData": "Diverse gegevens",
+    "registeredAt": "Geregistreerd op:",
+    "save": "Opslaan",
+    "username": "Gebruikersnaam:"
+  },
+  "systemAccount": {
+    "cancel": "Annuleren"
   },
   "tabbedPermissionEditor": {
+    "calendars": "Kalenders",
     "copiedCalendarPermissions": "Gekopieerde Kalenderrechten",
     "copiedERLCPermissions": "Gekopieerde ER:LC Machtigingen",
     "copiedFormsPermissions": "Gekopieerde Formulierenrechten",
@@ -5686,8 +5835,11 @@
     "copiedServerPermissions": "Gekopieerde Serverrechten",
     "copiedShiftTypesPermissions": "Gekopieerde ER:LC Machtigingen",
     "copiedSystemPermissions": "Gekopieerde Systeemrechten",
+    "eRLCServers": "ERLC Servers",
     "forms": "Formulieren",
+    "gameServers": "Game Servers",
     "navigation": "Navigatie",
+    "pages": "Pagina's",
     "pasteCalendarPermissions": "Plak Kalenderrechten",
     "pasteERLCPermissions": "Plak ER:LC-machtigingen",
     "pasteFormsPermissions": "Plak Formulierenrechten",
@@ -5700,8 +5852,10 @@
     "pasteShiftTypesPermissions": "Plak ER:LC Machtigingen",
     "pasteSystemPermissions": "Plak Systeemrechten",
     "profileFields": "Profielvelden",
+    "rosters": "Rosters",
     "servers": "Servers",
     "shiftTypes": "Ploegtypen",
+    "shortURLs": "Korte URL's",
     "system": "Systeem"
   },
   "TeamspeakIntegration": {
@@ -5937,6 +6091,7 @@
   },
   "whatYouSeeEditor": {
     "backgroundColor": "Achtergrondkleur",
+    "textColor": "Tekstkleur",
     "updateMessage": "De tekstinhoud is geconverteerd van de oude editor. Controleer en werk indien nodig bij."
   },
   "Whitelist": {
