@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "活跃的纪律点",
     "activeSecurityFlags": "活动安全标志",
     "profile": "个人资料",
+    "upload": "上传",
     "visit": "访问"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "社区名称",
     "communityProfile": "社区资料",
     "communityRank": "社区排名"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "选择社区资料"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "更新通知偏好时发生错误，请稍后再试。错误：",
@@ -95,6 +99,7 @@
     "confirmation": "确认",
     "connections": "连接",
     "copyDiscordId": "复制 Discord ID",
+    "copyRawPermissions": "复制原始权限",
     "copyRobloxId": "复制 Roblox ID",
     "copyTeamspeakId": "复制 TeamSpeak ID",
     "days": "天",
@@ -136,8 +141,10 @@
     "mergeAccountsDescription": "将源账户合并到目标账户将会把所有表单提交、事件、论坛主题和回复以及其他历史数据从源账户移至目标账户。然后源账户将被存档。此操作无法撤销，请谨慎进行。",
     "mergeFailed": "合并失败：",
     "mergeSuccessful": "账户合并成功！",
+    "minimumInactivityWindowDays": "最小非活跃窗口（天）",
     "modifyExpiration": "修改到期时间",
     "multiaccount": "多账户",
+    "multiAccountBanConfiguration": "多账户禁令配置",
     "multiaccountRankChange": "多账户等级变更",
     "na": "不适用",
     "name": "姓名",
@@ -230,6 +237,7 @@
     "youProbablyNeedToUpdateYourServers": "您可能需要更新您的服务器"
   },
   "actionsEditor": {
+    "calendarCategories": "日历类别",
     "calendarEvents": "日历事件",
     "checked": "勾选",
     "clockIn": "打卡上班",
@@ -296,6 +304,7 @@
     "rsvpDiscordMentionsVariableLabel": "RSVP 列表 Discord 提及",
     "serverInSession": "服务器会话中",
     "servers": "服务器",
+    "servers2": "服务器",
     "serverSessions": "服务器会话",
     "sessionEnd": "会话结束",
     "sessionStart": "会话开始",
@@ -310,6 +319,11 @@
     "unchecked": "未勾选",
     "unknownAction": "未知操作",
     "value": "值"
+  },
+  "activityHoursView": {
+    "end": "结束",
+    "start": "开始",
+    "trash": "垃圾箱"
   },
   "AdminPanel": {
     "accountsaccounts": "账户",
@@ -425,6 +439,7 @@
     "erlcNoti": "erlc通知",
     "erlcNotiContent": "erlc通知内容",
     "erlcNotiContentDescription": "您有一條新的緊急通知",
+    "eRLCServer": "ERLC服务器",
     "roles": "角色",
     "webhookChannel": "Webhook频道",
     "webhookContentHint": "Webhook 内容提示",
@@ -682,6 +697,7 @@
   "BanConfiguration": {
     "applyBan": "应用禁令",
     "banExpiration": "禁令到期",
+    "banReason": "封禁原因",
     "close": "关闭",
     "daysAheadToExpire": "距到期天数",
     "permanent": "永久",
@@ -750,6 +766,9 @@
     "trial": "试用",
     "unknownErrorOccuredWhileAttemptingToGene": "尝试生成结账时发生未知错误，请稍后再试。",
     "unpaid": "未支付"
+  },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "选择您想要添加到您的社区的 GB 存储量。"
   },
   "ButtonGroupForm": {
     "addButton": "添加按钮",
@@ -935,8 +954,12 @@
     "square": "方形",
     "title": "标题"
   },
+  "carouselEl": {
+    "noImagesOptionsSet": "无图片选项集"
+  },
   "CarouselForm": {
-    "add": "添加"
+    "add": "添加",
+    "upload": "上传"
   },
   "ChangeDirDialog": {
     "changeDirectory": "更改目录",
@@ -1260,6 +1283,39 @@
     "latestVersion": "最新版本：",
     "unauthorizedMissingPermissionsToDownload": "未授权：缺少下载核心资源的权限。权限：修改集成"
   },
+  "comManagementDialog": {
+    "back": "返回",
+    "calendarCategories": "日历类别",
+    "createTemplate": "创建模板",
+    "departments": "部门",
+    "forms": "表单",
+    "noCalendarCategories": "没有日历类别",
+    "noDepartments": "无部门",
+    "noPages": "没有页面",
+    "noRosters": "无名册",
+    "noStageGroups": "无阶段组",
+    "noStages": "无阶段",
+    "notAssociated": "未关联",
+    "noTemplatesFoundOnYourAccount": "在你的账户中未找到模板。",
+    "noToolbarItems": "没有工具栏项目",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "一旦移除，它将不再可通过此对话框访问。",
+    "pages": "页面",
+    "return": "返回",
+    "rosters": "名册",
+    "save": "保存",
+    "stageGroups": "阶段组",
+    "stages": "阶段",
+    "submit": "提交",
+    "templateCreationBasicInformation": "模板创建 - 基本信息",
+    "templateCreationDataSelection": "模板创建 - 数据选择",
+    "templateCreationFinalize": "模板创建-完成",
+    "templateDescription": "模板描述",
+    "templateManage": "模板管理-",
+    "templateTitle": "模板标题",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "此页面不再与社区关联，这意味着它不再可以更新。",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "这将用您的社区当前拥有的内容更新此页面，模板保存后此操作不可逆。",
+    "view": "查看"
+  },
   "common": {
     "add": "添加",
     "calCates": "日历类别",
@@ -1318,6 +1374,11 @@
     "successfullyLeft": "成功离开",
     "youCannotLeaveACommunityThatYouOwn": "你不能离开你拥有的社区！"
   },
+  "communityDashboard": {
+    "no": "否",
+    "reSync": "重新同步",
+    "yes": "是"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "社区发现文档",
     "commmunityDiscoveryTutorial": "社区发现教程",
@@ -1330,8 +1391,10 @@
     "previewCommunity": "预览社区",
     "pro": "专业",
     "return": "返回",
+    "search": "搜索",
     "standard": "标准",
     "starter": "入门",
+    "tags": "标签:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "此社区拥有一些最活跃的成员",
     "thisCommunityIsGrowingRapidly": "此社区正在快速增长",
     "thisCommunityIsReceivingHighWebsiteTraff": "此社区正在接收大量网站流量",
@@ -1339,9 +1402,48 @@
     "viewAll": "查看全部",
     "website": "网站"
   },
+  "communityDrive": {
+    "assetFolders": "资源文件夹",
+    "audioPlayer": "音频播放器",
+    "communityImagesAssets": "社区图片 / 资源",
+    "downloadAsset": "下载资源",
+    "files": "文件",
+    "new": "新",
+    "play": "播放",
+    "removeAsset": "移除资产"
+  },
+  "communityLookup": {
+    "communityID": "社区ID",
+    "forceJoin": "强制加入",
+    "forceLeave": "强制离开",
+    "rawData": "原始数据",
+    "restoreCommunity": "恢复社区"
+  },
+  "communityMenu": {
+    "dismiss": "忽略",
+    "join": "加入",
+    "launchingYourNewCommunity": "正在启动您的新社区..."
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "错误：您没有查看权限",
     "thereWasAProblemLoadingThePage": "加载页面时出现问题"
+  },
+  "communityTemplates": {
+    "approve": "批准",
+    "approved": "批准",
+    "cancel": "取消",
+    "edit": "编辑",
+    "editTemplate": "编辑模板",
+    "inactive": "未激活",
+    "needsReview": "需要审核",
+    "newChangesPendingReview": "新更改｜待审核",
+    "remove": "移除",
+    "save": "保存"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "由 Sonoran Software Systems 提供",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "由 Sonoran 软件系统的官方员工创建",
+    "view": "查看"
   },
   "ConditionalFormSectionUI": {
     "Checked": "已检查",
@@ -1717,7 +1819,8 @@
     "yourCurrently": "您当前"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "并非所有文件对您可见，此使用量是根据社区内的所有文件计算的。"
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "并非所有文件对您可见，此使用量是根据社区内的所有文件计算的。",
+    "used": "已使用"
   },
   "DepartmentEditor": {
     "addRosterRow": "添加花名册行",
@@ -1725,10 +1828,12 @@
     "allowWhitelist": "允许白名单",
     "attachesToProfile": "附加到个人资料",
     "BlockWhitelist": "阻止白名单",
+    "cancel": "取消",
     "clockInOut": "打卡",
     "departmentManager": "部门经理",
     "editFieldOnOtherProfiles": "编辑其他个人资料上的字段",
     "editRosterRow": "编辑名单行",
+    "field": "字段",
     "hidesFieldFromProfileOwner": "对个人资料所有者隐藏字段",
     "inheritedFromDefaultDepartmentPermission": "从默认部门权限继承",
     "itsUselessToCopyPermissionOfAnAppThatHas": "复制没有权限的应用的权限是无用的...",
@@ -1810,12 +1915,16 @@
   "disciplinaryAccounts": {
     "accountLabel": "账户",
     "addDisciplinaryPoints": "添加纪律点",
+    "amount": "数量：",
     "configureActions": "配置操作",
+    "date": "日期：",
     "disciplinaryPoints": "处分分数",
+    "eRLCViolationAutomatic": "ERLC 违规 - 自动",
     "noActiveDisciplinaryPoints": "没有有效的纪律点",
     "noRobloxAccountLinked": "未链接Roblox账户",
     "pointsLabel": "积分",
-    "reasonLabel": "原因"
+    "reasonLabel": "原因",
+    "source": "来源:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -1968,6 +2077,7 @@
     "departmentEditedMentions": "部门编辑 - 提及",
     "departmentRemovedChannel": "部门删除 - 频道",
     "departmentRemovedMentions": "部门删除 - 提及",
+    "direction": "方向",
     "disabled": "已禁用",
     "discordRoleSyncDocuments": "Discord角色同步文档",
     "discordRoleSyncTutorial": "Discord角色同步教程",
@@ -2044,6 +2154,7 @@
     "webhookLogging": "Webhook日志"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "添加额外角色",
     "afterChangesAreMadeItWillQueueMasssyncsW": "更改完成后，将在机器人中排队进行批量同步，这可能需要一些时间以避免对机器人造成过多请求。",
     "anErrorOccuredWhileAddingRoleMappingTryA": "添加角色映射时发生错误，请稍后再试。",
     "anErrorOccuredWhileEvaluatingMappingsBef": "在提交前评估映射时发生错误，请再试一次。",
@@ -2059,9 +2170,12 @@
     "roleId": "角色 ID：",
     "roleInUseExplanation": "此 Discord 角色已在现有类别映射中，如果您希望添加更多 CMS 级别，请更新该现有映射。",
     "selectRank": "选择等级",
+    "selectRankS": "选择等级",
+    "selectRole": "选择角色",
     "thisMappingDoesntExistRefresh": "此映射不存在，请刷新。"
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "筛选 角色 或 服务器",
     "guild": "公会："
   },
   "DiscordRoleSelector": {
@@ -2145,6 +2259,9 @@
     "errorYouDoNotHavePermissionToEditThisFil": "错误：您没有权限编辑此文件。",
     "protectionOnlyAccess": "您对该文档仅有保护权限，因此内容编辑器被隐藏。"
   },
+  "driveQuickUploader": {
+    "noUploadsYet": "暂无上传"
+  },
   "DriveViewDoc": {
     "documentName": "文档名称",
     "errorMissingPermissionsForThisFile": "错误：缺少此文件的权限。"
@@ -2178,6 +2295,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "请注意，使用元数据的资源区分大小写（例如，firstname 和 FirstName 的行为不同）",
     "noVehiclesAvailable": "无可用车辆",
     "onDuty": "值班中",
+    "onlineStatus": "在线状态:",
     "owner": "所有者：",
     "ownerLicense": "所有者许可证：",
     "phoneNumber": "电话号码",
@@ -2244,6 +2362,7 @@
     "permissions": "权限",
     "pressEnterToAdd": "按 Enter 键添加",
     "quarter": "季度",
+    "rankS": "等级",
     "ruleBuilder": "规则构建器",
     "save": "保存",
     "select": "选择",
@@ -2296,9 +2415,14 @@
     "selectItem": "选择物品",
     "selectNextSlot": "选择下一个槽位：",
     "slot": "槽位",
+    "slot2": "槽位",
     "slotMetadata": "槽位元数据",
     "update": "更新",
     "update43": "更新"
+  },
+  "editMeta": {
+    "renameDocument": "重命名文档",
+    "toggleViewingWatermark": "切换查看水印"
   },
   "Editor": {
     "activityTrackerHours": "活动跟踪小时",
@@ -2364,6 +2488,7 @@
     "private": "私人",
     "public": "公开",
     "rankAccess": "等级访问",
+    "shareType": "共享类型",
     "unlisted": "未列出",
     "viewDocument": "查看文档"
   },
@@ -2409,7 +2534,8 @@
     "containImage": "包含图像",
     "fillImage": "填充图像",
     "lockItemToThisSection": "将项目锁定到此部分",
-    "unlockToDragItemToAnotherSection": "解锁以将项目拖到另一个部分"
+    "unlockToDragItemToAnotherSection": "解锁以将项目拖到另一个部分",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "添加按钮行到嵌入",
@@ -2488,13 +2614,22 @@
     "webhookChannel": "webhook频道"
   },
   "ERLCActivity": {
+    "date": "日期",
     "errorAnErrorOccuredWhileFetchingServerDa": "获取服务器数据时发生错误",
     "filter": "过滤器",
     "latestActivity": "最新活动",
     "pending": "待定",
+    "pickDateRange": "选择日期范围",
+    "searchByUsername": "按用户名搜索",
+    "selectMember": "选择成员",
+    "selectTypes": "选择类型",
+    "selectUser": "选择用户",
     "showingAllLogs": "显示所有日志",
     "showingPlayerRecords": "显示玩家记录",
-    "unknownStage": "未知阶段"
+    "staffMember": "工作人员",
+    "type": "类型",
+    "unknownStage": "未知阶段",
+    "user": "用户"
   },
   "ERLCActivityLog": {
     "addedMessage": "添加的消息",
@@ -2639,6 +2774,7 @@
     "illicit": "非法",
     "kickUsersWithAllothersInUsername": "踢出用户名中包含其他所有者的用户",
     "kickUsersWithInappropriateUsernames": "踢出用户名不当的用户",
+    "log": "：log",
     "lowercaseCommand": "命令",
     "name": "名称",
     "priorityPlayerList": "优先玩家列表",
@@ -2650,6 +2786,7 @@
     "selfharm": "自残",
     "sexual": "性别的",
     "stages": "阶段",
+    "testUsername": "测试用户名",
     "username": "用户名",
     "usernameModeration": "用户名审核",
     "violence": "暴力"
@@ -2667,6 +2804,7 @@
     "disciplinaryPoints": "纪律积分",
     "editedTheRecords": "编辑了记录",
     "editExistingRecord": "编辑现有记录",
+    "editHistory": "编辑历史",
     "enterUsernames": "输入用户名",
     "enterYourReasonForRecord": "输入您记录的原因...",
     "kick": "踢出",
@@ -2677,6 +2815,7 @@
     "numberOfPointsToAdd": "要添加的积分数...",
     "points": "积分",
     "pointsFrom": "积分从",
+    "reason": "原因",
     "reasonFrom": "原因从",
     "recordType": "记录类型",
     "saveChanges": "保存更改",
@@ -2739,10 +2878,21 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "当前队列中的玩家",
     "filter": "过滤器",
+    "fire": "火",
     "noPlayersConnected": "没有玩家连接",
     "playersIngame": "玩家在游戏中",
     "playersInQueue": "队列中的玩家",
+    "police": "警察",
+    "search": "搜索",
+    "sheriff": "警长",
     "teams": "团队"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "创建并查看记录。",
+    "openUserPanelFor": "为…打开用户面板"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "未找到活动"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "在违反限制一段时间后（以秒为单位）触发此操作",
@@ -2912,6 +3062,9 @@
     "submissions": "提交",
     "thirdpartySubmissions": "第三方提交",
     "timeclock": "时间钟"
+  },
+  "formRankAccountRow": {
+    "section": "部分:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "接受的上传文件类型",
@@ -3232,6 +3385,7 @@
     "categoryLabel": "类别标签",
     "create": "创建",
     "createPrivateTopics": "创建私人话题",
+    "createTopics": "创建话题",
     "deleteCategory": "删除类别",
     "edit": "编辑",
     "editSubcategory": "编辑子类别",
@@ -3304,6 +3458,7 @@
     "thisForumTopicIsLockedFromNewReplies": "此论坛主题已锁定，无法新增回复。",
     "thisForumTopicIsPinnedWithinThe": "此论坛主题已置顶。",
     "thisTopic": "这个主题吗？",
+    "title": "标题",
     "topicRepliesBelow": "主题回复在下方",
     "uniqueIdCopiedToClipboard": "唯一ID已复制到剪贴板。",
     "unlock": "解锁",
@@ -3364,9 +3519,81 @@
     "uploadANewPhoto": "上传新照片",
     "uploadNewPhoto": "上传新照片"
   },
+  "gameDashboard": {
+    "activePlayers": "活跃玩家"
+  },
+  "gameEnvironment": {
+    "blackout": "停电"
+  },
   "GameIndex": {
+    "accessTheGameServerSPanel": "访问游戏服务器面板。",
+    "andClickToCopyPasteTheIDAndKeyBelow": "并点击复制/粘贴下方的 ID 和密钥。",
+    "aPIKey": "API密钥",
+    "click": "点击",
+    "communityID": "社区ID",
+    "copyYourERLCAPIKey": "复制你的 ER:LC API 密钥",
+    "createNewServer": "创建新服务器",
+    "directoryToCustomizeYourFeatures": "用于自定义您的功能的目录。",
+    "disabledDueToMissingPermission": "因缺少权限而禁用：",
+    "downloadInstall": "下载并安装",
+    "eRLCAPIKey": "ER:LC API 密钥",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC 通过付费升级提供 API 访问权限。",
+    "fileManager": "文件管理器",
+    "forOff": "享受八折优惠。",
+    "gamePanelPurchase": "游戏面板购买",
+    "installSonoran": "安装 Sonoran",
+    "launchGame": "启动游戏",
+    "loadIntoYourERLCServer": "加载到你的 ER:LC 服务器",
+    "manualInstall": "手动安装",
+    "melonly": "Melonly",
     "melonlyApiKey": "Melonly API密钥",
-    "noPlayersFoundSearch": "未找到玩家……搜索"
+    "moderation": "管理",
+    "navigateToERLCAPI": "导航到“ER:LC API”",
+    "navigateToOwnedServers": "导航到“Owned Servers”",
+    "navigateToServers": "导航到“Servers”",
+    "navigateToThe": "导航到",
+    "navigateToUpgradedPacks": "前往“升级包”",
+    "noPlayersFoundSearch": "未找到玩家……搜索",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "安装完成后，您可以访问中的资源文件",
+    "oneClickInstallation": "一键安装",
+    "onTheRocketNodeGamePanelNavigateTo": "在 Rocket Node 游戏面板中，导航到",
+    "onTheRocketNodePanel": "在 Rocket Node 面板上。",
+    "openTheServerInfoTab": "打开“Server Info”选项卡",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "将你的 API 密钥粘贴到下方输入框中，然后点击勾选标记保存",
+    "pasteYourERLCAPIKey": "粘贴你的 ER:LC API 密钥",
+    "purchaseAFiveMGameServerFromRocketNode": "从 Rocket Node 购买 FiveM 游戏服务器",
+    "purchaseAPIAccessFromERLC": "从 ER:LC 购买 API 访问权限",
+    "resources": "资源",
+    "select": "选择",
+    "selectAPIPackAndPurchase": "选择“API Pack”并购买",
+    "selectEditServerSettings": "选择“编辑服务器设置”",
+    "selectEditToCopyToClipboard": "选择“编辑”以复制到剪贴板",
+    "selectTheMenuButtonAtTheTopLeft": "选择左上角的“Menu”按钮",
+    "selectYourPrivateServer": "选择你的私人服务器",
+    "sonoranInstaller": "Sonoran 安装程序",
+    "useCouponCode": "使用优惠码",
+    "useTestData": "使用测试数据",
+    "videoTutorial": "视频教程",
+    "youCanLearnMoreAboutConfigurationOptions": "你可以了解更多关于配置选项的信息",
+    "youMustBeAnAdminToViewTheAPIKey": "您必须是管理员才能查看 API 密钥。"
+  },
+  "gamePlayers": {
+    "noCharacters": "没有角色"
+  },
+  "gameResources": {
+    "ensure": "确保",
+    "noResults": "没有结果",
+    "start": "开始"
+  },
+  "gameVehicles": {
+    "actions": "操作",
+    "cancel": "取消",
+    "close": "关闭",
+    "despawnVehicle": "移除载具",
+    "info": "信息",
+    "noResults": "没有结果",
+    "passengers": "乘客",
+    "repairVehicle": "修复车辆"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "操作已执行！面板更新可能需要一两分钟...",
@@ -3403,6 +3630,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "此社区的数据不足，无法确定"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "收藏此指标",
     "growtherrored": "错误",
     "growthloadingdata": "加载数据",
     "growthnewusersjoiningyourcommunity": "新用户加入您的社区",
@@ -3420,7 +3648,27 @@
     "growthuserswhohaveleftyourcommunity": "离开您社区的用户：",
     "numberOfUniqueUsersThatVisitedTheCommunity": "从社区发现访问社区页面的独特用户数",
     "numberOfUniqueViewsFromCommunityDiscover": "来自社区发现的独特浏览次数",
-    "theresNotEnoughDataToPopulateTheGraph": "没有足够的数据来填充图表。"
+    "theresNotEnoughDataToPopulateTheGraph": "没有足够的数据来填充图表。",
+    "thisMetricIsFavorite": "此指标是收藏"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "还没有收藏。点击任意指标或图表上的星标图标，将其添加到你的收藏中。",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "塑造你的社区在发现中的呈现方式，并保持标题、横幅和描述一致。"
+  },
+  "guideManagement": {
+    "add": "添加",
+    "addGuide": "添加指南",
+    "allGuidesAvailable": "所有指南可用",
+    "cancel": "取消",
+    "editTheGuideLabel": "编辑指南标签",
+    "editTheGuideURL": "编辑指南 URL",
+    "enterBelowAllInformationRegardingThisGuide": "在下方输入有关此指南的所有信息。",
+    "gitBookGuideURL": "GitBook 指南 URL",
+    "guideLabel": "指南标签",
+    "missingGuideURL": "缺少 guide URL！",
+    "missingVideoURL": "缺少视频 URL！",
+    "newGuide": "新指南",
+    "tutorialVideoURL": "教程视频 URL"
   },
   "helpButtonComponent": {
     "close": "关闭",
@@ -3440,8 +3688,15 @@
     "icon": "图标",
     "image": "图片"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ 全屏"
+  },
+  "iFrameForm": {
+    "iFrameURL": "iFrame URL"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "点击上传图片",
+    "hyperlinkOptions": "超链接选项",
     "targetForm": "表单",
     "targetNone": "无",
     "targetPage": "自定义页面",
@@ -3460,7 +3715,9 @@
     "errorMaxSizeMessage": "文件超过 5MB 的大小限制。",
     "errorMaxTotalSizeMessage": "文件总大小超过允许的最大限制 100MB。",
     "errorMessage": "上传图片时发生错误：",
-    "errorUploadMessage": "上传过程中发生错误。"
+    "errorUploadMessage": "上传过程中发生错误。",
+    "imagePreview": "图片预览",
+    "upload": "上传"
   },
   "Index": {
     "account": "账户",
@@ -3691,6 +3948,31 @@
     "withADuplicate": "存在重复项",
     "yes": "是",
     "youDoNotHavePermissionsForThisGameServer": "您没有权限访问此游戏服务器。"
+  },
+  "indexPage": {
+    "aIAutomation": "AI 自动化",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "自动检测数十种行为和资料信号中的重复账户，确保您的社区安全。",
+    "backups": "备份",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS 等级是权限的唯一控制点。从一个统一系统中管理白名单、文件和网站访问、Discord 角色同步等更多功能。",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "为白名单申请、LOA 请求等创建自定义表单。强大的阶段自动化可更新用户等级、同步名单、触发通知，并自动处理重复的工作流步骤。",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "自定义社区名册随成员活动状态、连接时间、等级等实时更新。为状态变化触发自动化，或直接从表单阶段操作更新名册。",
+    "formsAndApplications": "表单和应用程序",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "利用 AI 驱动的自动化，让您的社区运行得更快、更安全，并减少手动工作。",
+    "integratedGamePanels": "集成游戏面板",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "将你的文件、表单和工作流集中整理在一个地方。",
+    "managesYourEntireGamingCommunity": "管理您的整个游戏社区。",
+    "manageYourGameOperationsWithNativePanelIntegrations": "使用原生面板集成管理您的游戏运营。",
+    "openBillingCenter": "打开计费中心",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "组织成员，分配职责，并保持人员结构整洁。",
+    "rankManager": "等级管理",
+    "rosters": "名册",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "在单一平台上管理你的游戏社区：AI 驱动的安全和表单自动化，实时名单和基于排名的权限，同步的 Discord 角色管理，以及带有细粒度访问控制的协作文档工作流。",
+    "saveWithQuarterlyBilling": "选择季度计费可节省25%",
+    "security": "安全",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "共享并实时编辑文档，添加水印保护，嵌入图片和文件，并自动将访问权限与 CMS 等级同步。",
+    "totalBilledQuarterly": "季度总计已计费",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "使用 AI 辅助评分自动处理表单提交，并将每一项路由到正确的审核阶段。",
+    "userManagement": "用户管理"
   },
   "InfoBlocksForm": {
     "add": "添加",
@@ -3988,6 +4270,7 @@
     "profile": "个人资料",
     "promotional": "促销",
     "running": "运行中",
+    "serverHosting": "服务器托管",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS 管理您的社区网站、文档、白名单、游戏内权限等！",
     "thisCommunityUsesDiscordIntegrationPleas": "此社区使用 Discord 集成！请链接您的 Discord 以进行正确的角色同步。",
     "thisCommunityUsesRobloxIntegrationPleas": "该社区使用Roblox集成！请链接您的Roblox以正确使用集成。",
@@ -4002,8 +4285,10 @@
     "allowedRanksToReply": "允许回复的等级",
     "allowSubmitterReplies": "允许提交者回复",
     "cancel": "取消",
+    "changedTheStageFrom": "已将阶段从",
     "changeStage": "更改阶段",
     "close": "关闭",
+    "commentHere": "在此处评论...",
     "deleteForm": "删除表单",
     "hidden": "隐藏",
     "invalidStage": "无效阶段",
@@ -4028,6 +4313,13 @@
     "unlocked": "解锁",
     "visible": "可见",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "当有新回复添加到此表单时将通知您。"
+  },
+  "massNotificationManagement": {
+    "btnLabel": "按钮标签",
+    "btnURL": "按钮 URL",
+    "notificationContent": "通知内容",
+    "sendNotification": "发送通知",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "如果你提供 btn 标签和 url ，将会显示一个顶部 QNotify，其内容为通知消息，并且它们会附加到 QNotify 上。"
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4126,7 +4418,8 @@
     "failedToSaveTheDocumentMetadata": "保存文档元数据失败。",
     "file": "文件",
     "folder": "文件夹",
-    "save": "保存"
+    "save": "保存",
+    "share": "共享 \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "具有此链接的活跃社区成员可以",
@@ -4215,6 +4508,7 @@
     "roster": "名册",
     "rounded": "圆形",
     "square": "方形",
+    "styles": "样式",
     "submitForm": "提交表单",
     "target": "目标",
     "targetForm": "目标表单",
@@ -4226,9 +4520,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "查询数据时发生错误：",
     "anErrorOccuredWhileSubmittingForm": "提交表单时发生错误：",
+    "cancel": "取消",
     "errorYouDoNotHavePermissionToSubmitThisF": "错误：您没有权限提交此表单。",
     "formCouldNotBeFoundToBeCreatedFrom": "找不到要创建的表单。",
     "noRank": "无等级",
+    "previous": "上一个",
     "requiredFieldTooltip": "{field} 是必填项",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "有一个或多个必填字段未填写。",
     "theUserWillBeAbleToViewThisSubmissionOnT": "用户将能够在其个人资料上查看此提交。",
@@ -4292,6 +4588,7 @@
     "none": "无",
     "openSectionEditor": "打开节编辑器",
     "pageBackground": "页面背景",
+    "pasteSection": "粘贴部分",
     "savedCustomCssClasses": "已保存的自定义CSS类。",
     "scalesTheBackgroundImageSoThatItsOrigina": "缩放背景图像以保持其原始比例。",
     "scalesTheBackgroundImageToCoverContainer": "缩放背景图像以覆盖容器",
@@ -4710,6 +5007,7 @@
     "exampleName": "示例名称",
     "exampleRank": "示例等级",
     "learnHowToUseProfileFields": "学习如何使用个人资料字段",
+    "newProfileField": "新个人资料字段",
     "profileFieldsDocuments": "个人资料字段文档",
     "profileFieldsEditor": "配置文件字段编辑器",
     "profilefieldseditorerrorsnofindfield": "未找到所选内容中的任何字段。",
@@ -4798,6 +5096,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "错误：由于您的社区权限，您无法编辑此成员。",
     "errorYouDoNotHavePermissionToEditAnIndiv": "错误：您没有权限编辑个人信息。",
     "exportTime": "导出时间：",
+    "filterForms": "过滤表单",
     "for": "用于",
     "formLabel": "表单标签",
     "formSettings": "表单设置",
@@ -4958,9 +5257,37 @@
     "selectPromotionFlowFromCommunityConfiguration": "从社区配置中选择一个晋升流程。",
     "sendRankNoti": "发送等级通知",
     "subtitle": "为您的社区成员处理自动等级晋升流程。",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "仅当此流程正在降级时，此操作才会触发。",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "仅当此流程正在晋级时，此操作才会触发。",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "此操作将同时适用于晋升和降级。",
     "title": "晋升流程",
     "toLabelVariableDesc": "这将说明此晋升流设置的到标签。",
     "toLabelVariableLabel": "到标签"
+  },
+  "protectedManagement": {
+    "between": "之间：",
+    "cMSManagementPanel": "CMS 管理面板",
+    "connectedUsers": "已连接用户",
+    "lastUpdated": "最后更新：",
+    "manageGuides": "管理指南",
+    "noSpecificGrowthMetricsFetched": "未获取到特定增长指标...",
+    "noSpecificUsersMetricsFetched": "未获取到特定用户指标...",
+    "sendMassNotification": "发送群发通知",
+    "specificDetailedUserMetricsHistory": "特定详细-用户指标历史",
+    "specificGrowthUserMetricsHistory": "特定增长-用户指标历史",
+    "systemAccounts": "系统账户"
+  },
+  "qBItems": {
+    "itemImageSelector": "物品图片（选择器）",
+    "search": "搜索"
+  },
+  "qBJobs": {
+    "defaultDuty": "默认职责",
+    "jobLabel": "作业标签",
+    "offDutyPay": "下班薪资"
+  },
+  "qBoxItems": {
+    "search": "搜索"
   },
   "RadioIntegration": {
     "apiCredentials": "API凭证",
@@ -4980,10 +5307,12 @@
     "noCommunityId": "无社区 ID",
     "permissionSelector": "权限选择器",
     "remove": "移除",
+    "setAnAPIIDAndKeyToSetPermissions": "设置 API ID 和密钥以设置权限",
     "syncOptions": "同步选项",
     "title": "Sonoran Radio 配置"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "选择该等级允许加入的私密频道",
     "setRadio": "设置广播"
   },
   "rankAccountRow": {
@@ -5088,6 +5417,7 @@
     "filterRanks": "筛选等级"
   },
   "rankSelect": {
+    "filterRanks": "筛选等级",
     "noRankOptionsToSelectFrom": "没有可供选择的等级选项"
   },
   "Resources": {
@@ -5140,6 +5470,7 @@
     "clickToDisableConditionalFormatValueBein": "点击以禁用条件格式值被覆盖",
     "clickToOverrideConditionalFormatValue": "点击以覆盖条件格式值",
     "close": "关闭",
+    "deleteRow": "删除行",
     "downloadRosterCsv": "下载完整名单为CSV文件",
     "end": "结束:",
     "errorDownloadingRosterCSV": "下载名单 CSV 时出错，如果问题仍然存在，请联系支持。",
@@ -5149,6 +5480,7 @@
     "membersPerPage": "每页成员数：",
     "na": "不适用",
     "noServer": "没有服务器名称",
+    "ranks": "等级",
     "start": "开始:",
     "valueHasBeenOverwrittenByAManualValueIgn": "值已被手动值覆盖，忽略条件值设置。",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "您没有权限管理此名单上的活动追踪器。"
@@ -5172,6 +5504,7 @@
     "bottom": "底部",
     "center": "居中",
     "clone": "克隆",
+    "close": "关闭",
     "contain": "包含",
     "cover": "覆盖",
     "cssPlaceholder": "示例：border: 2px solid #ff671d; border-radius: 8px;",
@@ -5211,6 +5544,12 @@
     "viewportWidth": "视口宽度",
     "width": "宽度"
   },
+  "sectionWrapper": {
+    "copyElement": "复制元素",
+    "copySection": "复制部分",
+    "pasteElement": "粘贴元素",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "虚拟复制区段，右键粘贴到其他页面。"
+  },
   "selectComPage": {
     "selectCommunityPage": "选择社区页面"
   },
@@ -5224,6 +5563,7 @@
     "createCustomPages": "为您的社区创建自定义网页！",
     "homepageUpdated": "主页已更新！",
     "homepageUpdatedButDuringDiscoveryApproval": "主页已更新，但在发现审批过程中失败并由于以下原因禁用发现：",
+    "pageOptions": "页面选项",
     "searchPages": "搜索页面",
     "selectPageTemplate": "选择页面模板",
     "sortModeActivatedDragAndDropTheRowsInThe": "排序模式已激活：拖放行以按您希望的顺序排序。",
@@ -5278,6 +5618,7 @@
     "administration": "管理",
     "allowPrivateCommentsTrigger": "触发私人评论",
     "changedOn": "更改日期",
+    "close": "关闭",
     "column": "列",
     "erlcServer": "ER:LC服务器",
     "formSubmitter": "表单提交者",
@@ -5286,6 +5627,7 @@
     "lockType": "锁定类型",
     "moderation": "管理",
     "newValue": "新值",
+    "player": "玩家",
     "roleplay": "角色扮演",
     "roster": "名单",
     "stageChanger": "阶段变更者",
@@ -5297,27 +5639,43 @@
     "create": "创建"
   },
   "shieldPanel": {
+    "action": "操作：",
     "addFilter": "添加筛选器",
     "addRule": "添加规则",
     "allowOrBlock": "允许或阻止IP访问您服务器的端口。",
     "applicationFilters": "应用筛选器",
     "attackHistory": "攻击历史",
+    "attacks": "攻击",
+    "close": "关闭",
+    "comment": "评论",
     "commonhelp": "帮助",
+    "destination": "目标 *",
+    "destinationPort": "目标端口",
     "filters": "过滤器",
     "Filters": "筛选器",
     "firewall": "防火墙",
     "firewallRules": "防火墙规则",
+    "help": "帮助",
+    "history": "历史",
     "learnAboutSonoranShield": "了解 Sonoran Shield",
     "linkYourServer": "链接您的服务器",
     "myFilters": "我的筛选器",
     "myServers": "我的服务器：",
     "noActiveServers": "无活动服务器",
     "poweredByPath": "由Path.net提供支持，我们的全访问面板彻底终结网络攻击。",
+    "protocol": "协议",
+    "save": "保存",
+    "search": "搜索",
     "sonoranShieldDocuments": "Sonoran Shield 文档",
     "sonoranShieldKeeps": "Sonoran Shield让您的社区保持在线，否则退款。",
     "sonoranShieldNetworkDefense": "Sonoran Shield网络防御",
     "sonoranShieldTutorial": "Sonoran Shield 教程",
-    "unlink": "取消链接"
+    "sourceASN": "来源 ASN *",
+    "sourceIP": "来源 IP *",
+    "sourcePort": "源端口",
+    "sourceType": "来源类型 *",
+    "unlink": "取消链接",
+    "viewHistoricalNetworkAttacksOnYourServer": "查看服务器上的历史网络攻击。"
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "更新通知偏好时发生错误，请稍后再试。错误：",
@@ -5454,7 +5812,19 @@
     "newStage": "新阶段",
     "reorderStages": "重新排序阶段"
   },
+  "sysAccountLookup": {
+    "accountUsername": "账户用户名",
+    "globalPermissions": "全局权限",
+    "miscData": "杂项数据",
+    "registeredAt": "注册于:",
+    "save": "保存",
+    "username": "用户名:"
+  },
+  "systemAccount": {
+    "cancel": "取消"
+  },
   "tabbedPermissionEditor": {
+    "calendars": "日历",
     "copiedCalendarPermissions": "复制的日历权限",
     "copiedERLCPermissions": "已复制ER:LC权限",
     "copiedFormsPermissions": "复制的表单权限",
@@ -5466,6 +5836,11 @@
     "copiedServerPermissions": "复制的服务器权限",
     "copiedShiftTypesPermissions": "复制的ER:LC权限",
     "copiedSystemPermissions": "复制的系统权限",
+    "eRLCServers": "ERLC服务器",
+    "forms": "表单",
+    "gameServers": "游戏服务器",
+    "navigation": "导航",
+    "pages": "页面",
     "pasteCalendarPermissions": "粘贴日历权限",
     "pasteERLCPermissions": "粘贴ER:LC权限",
     "pasteFormsPermissions": "粘贴表单权限",
@@ -5477,7 +5852,12 @@
     "pasteServerPermissions": "粘贴服务器权限",
     "pasteShiftTypesPermissions": "粘贴ER:LC权限",
     "pasteSystemPermissions": "粘贴系统权限",
-    "shiftTypes": "班次类型"
+    "profileFields": "个人资料字段",
+    "rosters": "名册",
+    "servers": "服务器",
+    "shiftTypes": "班次类型",
+    "shortURLs": "短网址",
+    "system": "系统"
   },
   "TeamspeakIntegration": {
     "addMapping": "添加映射",
@@ -5651,6 +6031,9 @@
     "youAreRunningAnOutdatedVersionOf": "你正在运行一个过时的版本",
     "yourServersVersion": "你的服务器版本"
   },
+  "videoForm": {
+    "videoURL": "视频 URL"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "允许的回复等级",
     "allowSubmitterReplies": "允许提交者回复",
@@ -5708,6 +6091,8 @@
     "rightActivity": "右：活动"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "背景颜色",
+    "textColor": "文字颜色",
     "updateMessage": "文本内容已从旧编辑器转换。请根据需要进行审查和更新。"
   },
   "Whitelist": {

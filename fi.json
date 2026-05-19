@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "Aktiiviset kurinpidolliset pisteet",
     "activeSecurityFlags": "Aktiiviset turvaliput",
     "profile": "profiili",
+    "upload": "Lataa",
     "visit": "Käy"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "yhteisönNimi",
     "communityProfile": "yhteisöprofiili",
     "communityRank": "yhteisön sijoitus"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Valitse yhteisöprofiili"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "Virhe tapahtui ilmoitusasetuksia päivittäessä, yritä myöhemmin uudelleen. Virhe:",
@@ -95,6 +99,7 @@
     "confirmation": "Vahvistus",
     "connections": "Yhteydet",
     "copyDiscordId": "Kopioi Discord ID",
+    "copyRawPermissions": "Kopioi raaoit oikeudet",
     "copyRobloxId": "Kopioi Roblox-tunnus",
     "copyTeamspeakId": "Kopioi TeamSpeak ID",
     "days": "Päivät",
@@ -136,8 +141,10 @@
     "mergeAccountsDescription": "Lähdetilin yhdistäminen kohdetiliin siirtää kaikki lomakevastaukset, tapahtumat, foorumin aiheet ja vastaukset sekä muun historiallisen datan lähdetililtä kohdetilille. Lähdetili arkistoidaan. Tätä toimintoa ei voi peruuttaa, joten olethan varovainen.",
     "mergeFailed": "Yhdistäminen epäonnistui:",
     "mergeSuccessful": "Tilien yhdistäminen onnistui!",
+    "minimumInactivityWindowDays": "Vähimmäispassiivisuusikkuna (päivää)",
     "modifyExpiration": "Muokkaa vanhenemista",
     "multiaccount": "Monitili",
+    "multiAccountBanConfiguration": "Usean tilin kieltoasetukset",
     "multiaccountRankChange": "Monitilin arvon muutos",
     "na": "Ei saatavilla",
     "name": "Nimi",
@@ -230,6 +237,7 @@
     "youProbablyNeedToUpdateYourServers": "Sinun täytyy todennäköisesti päivittää palvelimesi"
   },
   "actionsEditor": {
+    "calendarCategories": "Kalenterikategoriat",
     "calendarEvents": "Kalenteritapahtumat",
     "checked": "Valittu",
     "clockIn": "Kellokirjaus Sisään",
@@ -296,6 +304,7 @@
     "rsvpDiscordMentionsVariableLabel": "RSVP-listan Discord-viittaukset",
     "serverInSession": "Palvelin istunnossa",
     "servers": "Palvelimet",
+    "servers2": "Palvelimet",
     "serverSessions": "Palvelinistunnot",
     "sessionEnd": "Istunnon loppu",
     "sessionStart": "Istunnon alku",
@@ -310,6 +319,11 @@
     "unchecked": "Ei valittu",
     "unknownAction": "Tuntematon toimi",
     "value": "Arvo"
+  },
+  "activityHoursView": {
+    "end": "loppu",
+    "start": "Aloita",
+    "trash": "Roskakori"
   },
   "AdminPanel": {
     "accountsaccounts": "Tilit",
@@ -425,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "erlcNotiSisältö",
     "erlcNotiContentDescription": "erlcNotiSisaellyskuvaseloste",
+    "eRLCServer": "ERLC-palvelin",
     "roles": "Rooli(t)",
     "webhookChannel": "webhook-kanava",
     "webhookContentHint": "webhookin sisällön vihje",
@@ -681,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "sovella Kielto",
     "banExpiration": "kiellon päättyminen",
+    "banReason": "Porttikiellon syy",
     "close": "sulje",
     "daysAheadToExpire": "päiviäVanhenemiseen",
     "permanent": "pysyvä",
@@ -749,6 +765,9 @@
     "trial": "KOKEILU",
     "unknownErrorOccuredWhileAttemptingToGene": "Tuntematon virhe tapahtui kassaa luodessa, yritä myöhemmin uudelleen.",
     "unpaid": "MAKSAMATON"
+  },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Valitse niiden GB-tallennustilan määrä, jonka haluat lisätä yhteisöösi."
   },
   "ButtonGroupForm": {
     "addButton": "Lisää painike",
@@ -934,8 +953,12 @@
     "square": "Neliö",
     "title": "Otsikko"
   },
+  "carouselEl": {
+    "noImagesOptionsSet": "Ei kuvavaihtoehtoja asetettu"
+  },
   "CarouselForm": {
-    "add": "Lisää"
+    "add": "Lisää",
+    "upload": "Lataa"
   },
   "ChangeDirDialog": {
     "changeDirectory": "Vaihda hakemistoa",
@@ -1259,6 +1282,39 @@
     "latestVersion": "Uusin versio:",
     "unauthorizedMissingPermissionsToDownload": "Luvaton: Puuttuvat oikeudet ladata ydinaineistoa. Oikeus: MODIFY_INTEGRATION"
   },
+  "comManagementDialog": {
+    "back": "Takaisin",
+    "calendarCategories": "Kalenterikategoriat",
+    "createTemplate": "Luo malli",
+    "departments": "Osastot",
+    "forms": "Lomakkeet",
+    "noCalendarCategories": "Ei kalenterikategorioita",
+    "noDepartments": "Ei osastoja",
+    "noPages": "Ei sivuja",
+    "noRosters": "Ei luetteloita",
+    "noStageGroups": "Ei vaihe-ryhmiä",
+    "noStages": "Ei vaiheita",
+    "notAssociated": "Ei yhdistetty",
+    "noTemplatesFoundOnYourAccount": "Tililläsi ei löytynyt malleja.",
+    "noToolbarItems": "Ei työkalupalkin kohteita",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Kun se on poistettu, siihen ei enää pääse tämän valintaikkunan kautta.",
+    "pages": "Sivut",
+    "return": "Palaa",
+    "rosters": "Luettelot",
+    "save": "Tallenna",
+    "stageGroups": "Vaihe-ryhmät",
+    "stages": "Vaiheet",
+    "submit": "Lähetä",
+    "templateCreationBasicInformation": "Mallin luonti - perustiedot",
+    "templateCreationDataSelection": "Mallin luonti - Datan valinta",
+    "templateCreationFinalize": "Mallin luonti - viimeistele",
+    "templateDescription": "Mallin kuvaus",
+    "templateManage": "Mallin hallinta -",
+    "templateTitle": "Mallin otsikko",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "Tämä sivu ei ole enää yhteydessä yhteisöön, mikä tarkoittaa, että sitä ei enää voi päivittää.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "Tämä päivittää tämän sivun yhteisösi nykyisellä sisällöllä, tämä on peruuttamaton, kun malli on tallennettu.",
+    "view": "Näytä"
+  },
   "common": {
     "add": "Lisää",
     "calCates": "Kalenteriluokat",
@@ -1317,6 +1373,11 @@
     "successfullyLeft": "Poistuit onnistuneesti",
     "youCannotLeaveACommunityThatYouOwn": "Et voi poistua yhteisöstä, jonka omistat!"
   },
+  "communityDashboard": {
+    "no": "Ei",
+    "reSync": "Synkronoi uudelleen",
+    "yes": "Kyllä"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Yhteisön löytämisen dokumentit",
     "commmunityDiscoveryTutorial": "Yhteisön löytämisen opas",
@@ -1329,8 +1390,10 @@
     "previewCommunity": "Esikatsele yhteisöä",
     "pro": "Pro",
     "return": "Palaa",
+    "search": "Haku",
     "standard": "Perus",
     "starter": "Aloittelija",
+    "tags": "Tunnisteet:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "Tällä yhteisöllä on joitakin aktiivisimmista jäsenistä",
     "thisCommunityIsGrowingRapidly": "Tämä yhteisö kasvaa nopeasti",
     "thisCommunityIsReceivingHighWebsiteTraff": "Tämä yhteisö saa paljon verkkosivuliikennettä",
@@ -1338,9 +1401,48 @@
     "viewAll": "Näytä kaikki",
     "website": "Verkkosivusto"
   },
+  "communityDrive": {
+    "assetFolders": "Resurssikansiot",
+    "audioPlayer": "Äänisoitin",
+    "communityImagesAssets": "Yhteisön kuvat / resurssit",
+    "downloadAsset": "Lataa resurssi",
+    "files": "Tiedostot",
+    "new": "Uusi",
+    "play": "Pelaa",
+    "removeAsset": "Poista tiedosto"
+  },
+  "communityLookup": {
+    "communityID": "Yhteisön ID",
+    "forceJoin": "Pakota liittyminen",
+    "forceLeave": "Pakota poistuminen",
+    "rawData": "Raakadata",
+    "restoreCommunity": "Palauta yhteisö"
+  },
+  "communityMenu": {
+    "dismiss": "Hylkää",
+    "join": "Liity",
+    "launchingYourNewCommunity": "Uuden yhteisösi käynnistäminen..."
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Virhe: Sinulla ei ole oikeutta tarkastella",
     "thereWasAProblemLoadingThePage": "Sivun lataamisessa oli ongelma"
+  },
+  "communityTemplates": {
+    "approve": "Hyväksy",
+    "approved": "Hyväksytty",
+    "cancel": "Peruuta",
+    "edit": "Muokkaa",
+    "editTemplate": "Muokkaa mallia",
+    "inactive": "Ei aktiivinen",
+    "needsReview": "Vaatii tarkistuksen",
+    "newChangesPendingReview": "Uudet muutokset | Odottaa tarkistusta",
+    "remove": "Poista",
+    "save": "Tallenna"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "Sonoran Software Systemsin toimesta",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Luonut virallinen Sonoran Software Systemsin työntekijä",
+    "view": "Näytä"
   },
   "ConditionalFormSectionUI": {
     "Checked": "Tarkistettu",
@@ -1716,7 +1818,8 @@
     "yourCurrently": "Olet tällä hetkellä"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Kaikki tiedostot eivät välttämättä ole näkyvissä sinulle, tämä käyttö lasketaan kaikille yhteisön tiedostoille."
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Kaikki tiedostot eivät välttämättä ole näkyvissä sinulle, tämä käyttö lasketaan kaikille yhteisön tiedostoille.",
+    "used": "käytetty"
   },
   "DepartmentEditor": {
     "addRosterRow": "Lisää kokoonpanorivi",
@@ -1724,10 +1827,12 @@
     "allowWhitelist": "Salli sallittujen luettelo",
     "attachesToProfile": "Liittyy profiiliin",
     "BlockWhitelist": "Estä sallittujen luettelo",
+    "cancel": "Peruuta",
     "clockInOut": "Kellokortti sisään ja ulos",
     "departmentManager": "Osaston johtaja",
     "editFieldOnOtherProfiles": "Muokkaa kenttää muissa profiileissa",
     "editRosterRow": "Muokkaa kokoonpanoriviä",
+    "field": "Kenttä",
     "hidesFieldFromProfileOwner": "Piilottaa kentän profiilin omistajalta",
     "inheritedFromDefaultDepartmentPermission": "PERITTY OLETUSOSASTON KÄYTTÖOIKEUKSISTA",
     "itsUselessToCopyPermissionOfAnAppThatHas": "On turhaa kopioida sovelluksen oikeuksia, jolla ei ole oikeuksia...",
@@ -1809,12 +1914,16 @@
   "disciplinaryAccounts": {
     "accountLabel": "Tili",
     "addDisciplinaryPoints": "lisääKurinpisteitä",
+    "amount": "Määrä:",
     "configureActions": "Määritä toimet",
+    "date": "Päivämäärä:",
     "disciplinaryPoints": "kurinpidollisetPisteet",
+    "eRLCViolationAutomatic": "ERLC-rikkomus - Automaattinen",
     "noActiveDisciplinaryPoints": "ei aktiivisia kurinpidollisia pisteitä",
     "noRobloxAccountLinked": "Ei linkitettyä Roblox-tiliä",
     "pointsLabel": "Pisteet",
-    "reasonLabel": "Syy"
+    "reasonLabel": "Syy",
+    "source": "Lähde:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -1967,6 +2076,7 @@
     "departmentEditedMentions": "Osasto muokattu - Maininnat",
     "departmentRemovedChannel": "Osasto poistettu - Kanava",
     "departmentRemovedMentions": "Osasto poistettu - Maininnat",
+    "direction": "Suunta",
     "disabled": "Poistettu käytöstä",
     "discordRoleSyncDocuments": "Discord-roolien synkronointidokumentit",
     "discordRoleSyncTutorial": "Discord-roolien synkronointiohje",
@@ -2043,6 +2153,7 @@
     "webhookLogging": "Webhook-lokitus"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Lisää lisärooleja",
     "afterChangesAreMadeItWillQueueMasssyncsW": "Kun muutokset on tehty, se asettaa massasyncit jonoon botin kanssa, mikä voi kestää jonkin aikaa välttääkseen botin spammaamisen.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "Virhe roolikartoituksen lisäämisessä, yritä myöhemmin uudelleen.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "Virhe kartoitusten arvioinnissa ennen sitoutumista, yritä uudelleen.",
@@ -2058,9 +2169,12 @@
     "roleId": "Roolin ID:",
     "roleInUseExplanation": "Tämä Discord-rooli on jo olemassa olevassa kategoriasidonnassa, päivitä se, jos haluat lisätä lisää CMS-arvoja.",
     "selectRank": "Valitse arvo",
+    "selectRankS": "Valitse arvot",
+    "selectRole": "Valitse rooli",
     "thisMappingDoesntExistRefresh": "Tätä kartoitusta ei ole olemassa, päivitä."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "Suodata rooleja tai palvelimia",
     "guild": "Yhteisö:"
   },
   "DiscordRoleSelector": {
@@ -2144,6 +2258,9 @@
     "errorYouDoNotHavePermissionToEditThisFil": "Virhe: Sinulla ei ole oikeutta muokata tätä tiedostoa.",
     "protectionOnlyAccess": "Sinulla on vain suojausoikeudet tähän asiakirjaan, joten sisällön muokkaus on piilotettu."
   },
+  "driveQuickUploader": {
+    "noUploadsYet": "Ei latauksia vielä"
+  },
   "DriveViewDoc": {
     "documentName": "Asiakirjan nimi",
     "errorMissingPermissionsForThisFile": "Virhe: Puuttuvat käyttöoikeudet tälle tiedostolle."
@@ -2177,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Huomaa, että metatietoja käyttävät resurssit ovat kirjainkoolle herkkiä (esim. firstname ja FirstName toimivat eri tavalla)",
     "noVehiclesAvailable": "Ei ajoneuvoja saatavilla",
     "onDuty": "Työvuorossa",
+    "onlineStatus": "Online-tila:",
     "owner": "Omistaja:",
     "ownerLicense": "Omistajan lisenssi:",
     "phoneNumber": "Puhelinnumero",
@@ -2243,6 +2361,7 @@
     "permissions": "Oikeudet",
     "pressEnterToAdd": "Paina Enter lisätäksesi",
     "quarter": "Vuosineljännes",
+    "rankS": "arvo(arvot)",
     "ruleBuilder": "Sääntöjen rakentaja",
     "save": "Tallenna",
     "select": "Valitse",
@@ -2295,9 +2414,14 @@
     "selectItem": "Valitse esine",
     "selectNextSlot": "Valitse seuraava paikka:",
     "slot": "Paikka",
+    "slot2": "Paikka",
     "slotMetadata": "Paikan metadata",
     "update": "Päivitä",
     "update43": "Päivitä"
+  },
+  "editMeta": {
+    "renameDocument": "Nimeä asiakirja uudelleen",
+    "toggleViewingWatermark": "Vaihda vesileiman näyttö"
   },
   "Editor": {
     "activityTrackerHours": "Aktiivisuuden seurannan tunnit",
@@ -2363,6 +2487,7 @@
     "private": "Yksityinen",
     "public": "Julkinen",
     "rankAccess": "Pääsytaso",
+    "shareType": "Jakotyyppi",
     "unlisted": "Listaamaton",
     "viewDocument": "Näytä dokumentti"
   },
@@ -2408,7 +2533,8 @@
     "containImage": "Sisällytä kuva",
     "fillImage": "Täytä kuva",
     "lockItemToThisSection": "Lukitse kohde tähän osioon",
-    "unlockToDragItemToAnotherSection": "Avaa lukitus vetääksesi kohteen toiseen osioon"
+    "unlockToDragItemToAnotherSection": "Avaa lukitus vetääksesi kohteen toiseen osioon",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "Lisää nappirivi",
@@ -2487,13 +2613,22 @@
     "webhookChannel": "webhook-kanava"
   },
   "ERLCActivity": {
+    "date": "Päivämäärä",
     "errorAnErrorOccuredWhileFetchingServerDa": "Tapahtui virhe haettaessa palvelintietoja",
     "filter": "suodatin",
     "latestActivity": "viimeisinAktiviteetti",
     "pending": "Odottaa",
+    "pickDateRange": "Valitse päivämääräväli",
+    "searchByUsername": "Etsi käyttäjänimellä",
+    "selectMember": "Valitse jäsen",
+    "selectTypes": "Valitse tyypit",
+    "selectUser": "Valitse käyttäjä",
     "showingAllLogs": "Näytetään kaikki lokit",
     "showingPlayerRecords": "Näytetään pelaajien tiedot",
-    "unknownStage": "Tuntematon vaihe"
+    "staffMember": "Henkilökunnan jäsen",
+    "type": "Tyyppi",
+    "unknownStage": "Tuntematon vaihe",
+    "user": "Käyttäjä"
   },
   "ERLCActivityLog": {
     "addedMessage": "lisätty viesti",
@@ -2638,6 +2773,7 @@
     "illicit": "laiton",
     "kickUsersWithAllothersInUsername": "potkiKaikkiKäyttäjätJoidenNimessäOnMuut",
     "kickUsersWithInappropriateUsernames": "potkaiseKäyttäjiäSopimattomillaKäyttäjänimillä",
+    "log": "loki",
     "lowercaseCommand": "komento",
     "name": "Nimi",
     "priorityPlayerList": "Prioriteettipelaajaluettelo",
@@ -2649,6 +2785,7 @@
     "selfharm": "itsensä vahingoittaminen",
     "sexual": "sukupuolinen",
     "stages": "Vaiheet",
+    "testUsername": "Testikäyttäjänimi",
     "username": "käyttäjänimi",
     "usernameModeration": "käyttäjänimihallinta",
     "violence": "väkivalta"
@@ -2666,6 +2803,7 @@
     "disciplinaryPoints": "Kurinpito pisteet",
     "editedTheRecords": "muokkasi tietuetta",
     "editExistingRecord": "Muokkaa olemassa olevaa tietuetta",
+    "editHistory": "Muokkaa historiaa",
     "enterUsernames": "Anna käyttäjänimi(t)",
     "enterYourReasonForRecord": "Anna syy merkinnälle...",
     "kick": "Potku",
@@ -2676,6 +2814,7 @@
     "numberOfPointsToAdd": "Lisättävien pisteiden määrä...",
     "points": "Pisteet",
     "pointsFrom": "pisteistä alkaen",
+    "reason": "Syy",
     "reasonFrom": "syy alkaen",
     "recordType": "Merkinnän tyyppi",
     "saveChanges": "Tallenna muutokset",
@@ -2738,10 +2877,21 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Jonossa olevat pelaajat",
     "filter": "suodatin",
+    "fire": "tuli",
     "noPlayersConnected": "eiYhtäänPelaajiaYhdistettynä",
     "playersIngame": "pelaajat pelissä",
     "playersInQueue": "jonossa olevat pelaajat",
+    "police": "poliisi",
+    "search": "Haku",
+    "sheriff": "sheriffi",
     "teams": "joukkueet"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Luo ja katsele merkintöjä.",
+    "openUserPanelFor": "Avaa käyttäjäpaneeli kohteelle"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "Toimintaa ei löytynyt"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Suorita tämä toiminto rikkomuksen jälkeen tietyn ajan kuluessa (sekunteina)",
@@ -2911,6 +3061,9 @@
     "submissions": "Lähetykset",
     "thirdpartySubmissions": "Kolmannen osapuolen lähetykset",
     "timeclock": "Aikakello"
+  },
+  "formRankAccountRow": {
+    "section": "Osio:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Hyväksytyt lataustiedostot",
@@ -3231,6 +3384,7 @@
     "categoryLabel": "Kategorian nimi",
     "create": "Luo",
     "createPrivateTopics": "Luo yksityisiä aiheita",
+    "createTopics": "Luo aiheet",
     "deleteCategory": "Poista kategoria",
     "edit": "Muokkaa",
     "editSubcategory": "Muokkaa alikategoriaa",
@@ -3303,6 +3457,7 @@
     "thisForumTopicIsLockedFromNewReplies": "Tämä foorumin aihe on lukittu uusilta vastauksilta.",
     "thisForumTopicIsPinnedWithinThe": "Tämä foorumin aihe on kiinnitetty",
     "thisTopic": "tämän aiheen?",
+    "title": "Otsikko",
     "topicRepliesBelow": "Aiheen vastaukset alapuolella",
     "uniqueIdCopiedToClipboard": "Yksilöllinen tunnus kopioitu leikepöydälle.",
     "unlock": "Avaa",
@@ -3363,9 +3518,81 @@
     "uploadANewPhoto": "Lataa uusi kuva",
     "uploadNewPhoto": "Lataa uusi kuva"
   },
+  "gameDashboard": {
+    "activePlayers": "Aktiiviset pelaajat"
+  },
+  "gameEnvironment": {
+    "blackout": "Sähkökatkos"
+  },
   "GameIndex": {
+    "accessTheGameServerSPanel": "Avaa pelipalvelimen hallintapaneeli.",
+    "andClickToCopyPasteTheIDAndKeyBelow": "ja napsauta kopioidaksesi/liittääksesi alla olevan tunnuksen ja avaimen.",
+    "aPIKey": "API-avain",
+    "click": "Klikkaa",
+    "communityID": "Yhteisön ID",
+    "copyYourERLCAPIKey": "Kopioi ER:LC API-avain",
+    "createNewServer": "Luo uusi palvelin",
+    "directoryToCustomizeYourFeatures": "hakemisto ominaisuuksiesi mukauttamiseen.",
+    "disabledDueToMissingPermission": "Poistettu käytöstä puuttuvan käyttöoikeuden vuoksi:",
+    "downloadInstall": "Lataa ja asenna",
+    "eRLCAPIKey": "ER:LC API-avain",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC tarjoaa API-käytön maksullisena päivityksenä.",
+    "fileManager": "Tiedostonhallinta",
+    "forOff": "20 %:n alennuksella.",
+    "gamePanelPurchase": "Pelikonsolin osto",
+    "installSonoran": "Asenna Sonoran",
+    "launchGame": "Käynnistä peli",
+    "loadIntoYourERLCServer": "Lataa ER:LC-palvelimeesi",
+    "manualInstall": "Manuaalinen asennus",
+    "melonly": "Melonly",
     "melonlyApiKey": "Melonly API-avain",
-    "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi"
+    "moderation": "Moderointi",
+    "navigateToERLCAPI": "Siirry kohtaan \"ER:LC API\"",
+    "navigateToOwnedServers": "Siirry kohtaan \"Owned Servers\"",
+    "navigateToServers": "Siirry kohtaan \"Servers\"",
+    "navigateToThe": "Siirry kohteeseen",
+    "navigateToUpgradedPacks": "Siirry kohtaan \"Upgraded Packs\"",
+    "noPlayersFoundSearch": "Ei pelaajia löydetty... Etsi",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Kun asennus on valmis, voit käyttää resurssitiedostoja kohdassa",
+    "oneClickInstallation": "Asennus yhdellä napsautuksella",
+    "onTheRocketNodeGamePanelNavigateTo": "Rocket Node -pelipaneelissa siirry kohtaan",
+    "onTheRocketNodePanel": "Rocket Node -paneelissa.",
+    "openTheServerInfoTab": "Avaa \"Server Info\"-välilehti",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Liitä API-avaimesi alle syöttökenttään ja tallenna napsauttamalla valintamerkkiä",
+    "pasteYourERLCAPIKey": "Liitä ER:LC API-avain",
+    "purchaseAFiveMGameServerFromRocketNode": "Osta FiveM-pelipalvelin Rocket Nodelta",
+    "purchaseAPIAccessFromERLC": "Osta API-käyttöoikeus ER:LC:ltä",
+    "resources": "resurssit",
+    "select": "Valitse",
+    "selectAPIPackAndPurchase": "Valitse \"API Pack\" ja osta",
+    "selectEditServerSettings": "Valitse \"Muokkaa palvelinasetuksia\"",
+    "selectEditToCopyToClipboard": "Valitse \"Muokkaa\" kopioidaksesi leikepöydälle",
+    "selectTheMenuButtonAtTheTopLeft": "Valitse \"Valikko\"-painike vasemmassa yläkulmassa",
+    "selectYourPrivateServer": "Valitse yksityinen palvelimesi",
+    "sonoranInstaller": "Sonoran-asentaja",
+    "useCouponCode": "Käytä kuponkikoodia",
+    "useTestData": "Käytä testitietoja",
+    "videoTutorial": "Opetusvideo",
+    "youCanLearnMoreAboutConfigurationOptions": "Voit lukea lisää määritysasetuksista",
+    "youMustBeAnAdminToViewTheAPIKey": "Sinun täytyy olla ylläpitäjä nähdäksesi API-avaimen."
+  },
+  "gamePlayers": {
+    "noCharacters": "Ei hahmoja"
+  },
+  "gameResources": {
+    "ensure": "Varmista",
+    "noResults": "Ei tuloksia",
+    "start": "Aloita"
+  },
+  "gameVehicles": {
+    "actions": "Toiminnot",
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "despawnVehicle": "poistaAjoneuvo",
+    "info": "Tiedot",
+    "noResults": "Ei tuloksia",
+    "passengers": "Matkustajat",
+    "repairVehicle": "korjaaAjoneuvo"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Toiminto suoritettu! Paneelin päivitys voi kestää minuutin tai kaksi...",
@@ -3402,6 +3629,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "Tälle yhteisölle ei ollut tarpeeksi tietoa päätöksen tekemiseksi"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Suosikiksi tämä mittari",
     "growtherrored": "VIRHE",
     "growthloadingdata": "LADATAAN TIETOJA",
     "growthnewusersjoiningyourcommunity": "Uudet käyttäjät, jotka liittyvät yhteisöösi",
@@ -3419,7 +3647,27 @@
     "growthuserswhohaveleftyourcommunity": "Käyttäjät, jotka ovat poistuneet yhteisöstäsi:",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Yhteisön sivua yhteisön löytämisestä katsoneiden yksilöllisten käyttäjien määrä",
     "numberOfUniqueViewsFromCommunityDiscover": "Yhteisön löytämisestä saadut yksilölliset katselukerrat",
-    "theresNotEnoughDataToPopulateTheGraph": "Ei ole tarpeeksi tietoja kaavion täyttämiseksi."
+    "theresNotEnoughDataToPopulateTheGraph": "Ei ole tarpeeksi tietoja kaavion täyttämiseksi.",
+    "thisMetricIsFavorite": "Tämä mittari on suosikki"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Ei vielä suosikkeja. Lisää se Suosikkeihisi napsauttamalla tähtikuvaketta missä tahansa mittarissa tai kaaviossa.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Muokkaa yhteisösi näkymää löydöissä ja pidä otsikko, banneri ja kuvaus yhdenmukaisina."
+  },
+  "guideManagement": {
+    "add": "Lisää",
+    "addGuide": "Lisää opas",
+    "allGuidesAvailable": "Kaikki oppaat saatavilla",
+    "cancel": "Peruuta",
+    "editTheGuideLabel": "Muokkaa oppaan tunnistetta",
+    "editTheGuideURL": "Muokkaa oppaan URL-osoitetta",
+    "enterBelowAllInformationRegardingThisGuide": "Syötä alle kaikki tiedot tästä oppaasta.",
+    "gitBookGuideURL": "GitBook-oppaen URL",
+    "guideLabel": "Oppaan tunniste",
+    "missingGuideURL": "Oppaan URL puuttuu!",
+    "missingVideoURL": "Videon URL puuttuu!",
+    "newGuide": "Uusi opas",
+    "tutorialVideoURL": "Opetusvideon URL"
   },
   "helpButtonComponent": {
     "close": "Sulje",
@@ -3439,8 +3687,15 @@
     "icon": "Ikoni",
     "image": "Kuva"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Koko näyttö"
+  },
+  "iFrameForm": {
+    "iFrameURL": "iFramen URL"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Napsauta ladataksesi kuvan",
+    "hyperlinkOptions": "Hyperlink-vaihtoehdot",
     "targetForm": "i18n key: fi.json, phrase: Form",
     "targetNone": "Ei mikään",
     "targetPage": "Mukautettu sivu",
@@ -3459,7 +3714,9 @@
     "errorMaxSizeMessage": "Tiedosto ylittää 5MB kokorajoituksen.",
     "errorMaxTotalSizeMessage": "Tiedostojen kokonaiskoko ylittää sallitun enimmäisrajan 100MB.",
     "errorMessage": "Virhe kuvan latauksessa:",
-    "errorUploadMessage": "Virhe latauksen aikana."
+    "errorUploadMessage": "Virhe latauksen aikana.",
+    "imagePreview": "Kuvan esikatselu",
+    "upload": "Lataa"
   },
   "Index": {
     "account": "Tili",
@@ -3690,6 +3947,31 @@
     "withADuplicate": "kaksoiskappaleen kanssa",
     "yes": "Kyllä",
     "youDoNotHavePermissionsForThisGameServer": "Sinulla ei ole oikeuksia tähän pelipalvelimeen"
+  },
+  "indexPage": {
+    "aIAutomation": "Tekoälyautomaatio",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Havaitse automaattisesti kaksoiskappaleina olevat tilit kymmenistä käyttäytymis- ja profiilisignaaleista, jotta yhteisösi pysyy turvassa.",
+    "backups": "Varmuuskopiot",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-rankingit ovat ainoa ohjauspisteesi käyttöoikeuksille. Hallinnoi sallittuja listoita, tiedosto- ja verkkosivustojen käyttöä, Discord-roolien synkronointia ja muuta yhdestä yhtenäisestä järjestelmästä.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Luo mukautettuja lomakkeita sallittujen sovellusten, LOA-pyyntöjen ja muun hallintaan. Tehokkaat vaihemääritykset voivat päivittää käyttäjien arvoja, synkronoida kokoonpanoja, käynnistää ilmoituksia ja hoitaa toistuvat työnkulun vaiheet automaattisesti.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Mukautetut yhteisön kokoonpanot päivittyvät reaaliajassa jäsenten aktiivisuustilan, yhteysajan, sijoitusten ja muun perusteella. Käynnistä automaatioita tilamuutoksille tai päivitä kokoonpanoja suoraan lomakevaiheen toiminnoista.",
+    "formsAndApplications": "Lomakkeet ja hakemukset",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Hyödynnä tekoälypohjaista automaatiota, jotta voit hallita yhteisöäsi nopeammin, turvallisemmin ja vähemmällä manuaalityöllä.",
+    "integratedGamePanels": "Integroitu pelipaneelit",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Pidä tiedostosi, lomakkeesi ja työnkulusi järjestyksessä yhdessä paikassa.",
+    "managesYourEntireGamingCommunity": "hallitsee koko pelaajayhteisöäsi",
+    "manageYourGameOperationsWithNativePanelIntegrations": "Hallitse pelitoimintojasi natiiveilla paneeli-integraatioilla.",
+    "openBillingCenter": "Avaa laskutuskeskus",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Järjestä jäsenet, jaa vastuut ja pidä henkilöstörakenne selkeänä.",
+    "rankManager": "Arvojen hallinta",
+    "rosters": "Luettelot",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Hallitse peliyhteisöäsi yhdeltä alustalta: tekoälypohjainen tietoturva ja lomakeautomaatio, reaaliaikaiset rosterit ja rankkiperusteiset käyttöoikeudet, synkronoitu Discord-roolien hallinta sekä yhteistyöhön perustuvat asiakirjatyönkulut tarkalla käyttöoikeuksien hallinnalla.",
+    "saveWithQuarterlyBilling": "Säästä 25 % neljännesvuosilaskutuksella",
+    "security": "Turvallisuus",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Jaa ja muokkaa asiakirjoja yhdessä reaaliajassa, lisää vesileimasuojaus, upota kuvia ja tiedostoja sekä synkronoi käyttöoikeudet automaattisesti CMS-roolien kanssa.",
+    "totalBilledQuarterly": "laskutettu yhteensä neljännesvuosittain",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Käytä tekoälyn avustamaa arviointia lomakkeiden lähetyksien käsittelemiseen automaattisesti ja ohjaa kukin oikeaan tarkistusvaiheeseen.",
+    "userManagement": "Käyttäjähallinta"
   },
   "InfoBlocksForm": {
     "add": "Lisää",
@@ -3987,6 +4269,7 @@
     "profile": "Profiili",
     "promotional": "Mainos",
     "running": "Käynnissä",
+    "serverHosting": "Palvelinten hosting",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS hallinnoi yhteisösi verkkosivustoa, asiakirjoja, valkoinen listausta, pelinsisäisiä oikeuksia ja paljon muuta!",
     "thisCommunityUsesDiscordIntegrationPleas": "Tämä yhteisö käyttää Discord-integraatiota! Linkitä Discordisi roolien synkronointia varten.",
     "thisCommunityUsesRobloxIntegrationPleas": "Tämä yhteisö käyttää Roblox-integraatiota! Linkitä Roblox-tilisi integroitumisen varmistamiseksi.",
@@ -4001,8 +4284,10 @@
     "allowedRanksToReply": "Sallitut arvot vastata",
     "allowSubmitterReplies": "Salli lähettäjän vastaukset",
     "cancel": "Peruuta",
+    "changedTheStageFrom": "vaihtoi vaiheen alkaen",
     "changeStage": "Vaihda vaihe",
     "close": "Sulje",
+    "commentHere": "Kommentoi tähän...",
     "deleteForm": "Poista lomake",
     "hidden": "Piilotettu",
     "invalidStage": "Virheellinen vaihe",
@@ -4027,6 +4312,13 @@
     "unlocked": "AVATTU",
     "visible": "Näkyvä",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Ilmoitamme sinulle, kun tähän lomakkeeseen lisätään uusi vastaus."
+  },
+  "massNotificationManagement": {
+    "btnLabel": "Painike-otsikko",
+    "btnURL": "URL-painike",
+    "notificationContent": "ilmoitussisältö",
+    "sendNotification": "Lähetä ilmoitus",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "näyttää ylhäällä QNotifyn, jonka sisältö on ilmoitusviesti, jos annat painikkeen otsikon ja url-osoitteen, ne liitetään QNotifyyn."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4125,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "Dokumentin metatietojen tallentaminen epäonnistui.",
     "file": "tiedosto",
     "folder": "kansio",
-    "save": "Tallenna"
+    "save": "Tallenna",
+    "share": "Jaa \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "Aktiiviset yhteisön jäsenet tällä linkillä voivat",
@@ -4214,6 +4507,7 @@
     "roster": "Rosteri",
     "rounded": "Pyöristetty",
     "square": "Neliö",
+    "styles": "Tyylit",
     "submitForm": "Lähetä lomake",
     "target": "Kohde",
     "targetForm": "Kohdelomake",
@@ -4225,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "Virhe tapahtui tietoja kysyttäessä:",
     "anErrorOccuredWhileSubmittingForm": "Virhe tapahtui lomaketta lähetettäessä:",
+    "cancel": "Peruuta",
     "errorYouDoNotHavePermissionToSubmitThisF": "Virhe: Sinulla ei ole oikeutta lähettää tätä lomaketta.",
     "formCouldNotBeFoundToBeCreatedFrom": "Lomaketta ei löytynyt luotavaksi.",
     "noRank": "Ei arvoa",
+    "previous": "Edellinen",
     "requiredFieldTooltip": "{field} on pakollinen",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "Yksi tai useampi pakollinen kenttä on täyttämättä.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "Käyttäjä voi tarkastella tätä lähetystä profiilissaan.",
@@ -4291,6 +4587,7 @@
     "none": "ei mitään",
     "openSectionEditor": "Avaa osion editori",
     "pageBackground": "Sivun tausta",
+    "pasteSection": "Liitä osio",
     "savedCustomCssClasses": "Tallennetut mukautetut CSS-luokat.",
     "scalesTheBackgroundImageSoThatItsOrigina": "Skaalaa taustakuva niin, että sen alkuperäiset mittasuhteet säilyvät.",
     "scalesTheBackgroundImageToCoverContainer": "Skaalaa taustakuva peittämään säiliö",
@@ -4709,6 +5006,7 @@
     "exampleName": "Esimerkkinimi",
     "exampleRank": "Esimerkki Arvo",
     "learnHowToUseProfileFields": "Opi käyttämään profiilikenttiä",
+    "newProfileField": "Uusi profiilikenttä",
     "profileFieldsDocuments": "Profiilikenttien dokumentit",
     "profileFieldsEditor": "Profiilikenttien muokkaus",
     "profilefieldseditorerrorsnofindfield": "Valitusta ei löytynyt kenttää.",
@@ -4797,6 +5095,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Virhe: Et voi muokata tätä jäsentä yhteisön valtuuksiesi vuoksi.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Virhe: Sinulla ei ole oikeuksia muokata yksilön tietoja.",
     "exportTime": "Vientiaika:",
+    "filterForms": "Lomakkeiden suodatin",
     "for": "kohteelle",
     "formLabel": "Lomakkeen otsikko",
     "formSettings": "Lomakkeen asetukset",
@@ -4957,9 +5256,37 @@
     "selectPromotionFlowFromCommunityConfiguration": "Valitse ylennysprosessi yhteisön kokoonpanosta.",
     "sendRankNoti": "Lähetä tason ilmoitus",
     "subtitle": "Suorita automatisoidut arvojen promootiot yhteisösi jäsenille.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Tämä toiminto laukeaa vain, jos tämä työnkulku on alemmalle tasolle siirtymässä.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "Tämä toiminto laukeaa vain, jos tämä työnkulku on nousemassa tasolle.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "Tämä toiminto käynnistyy sekä ylennyksissä että alennuksissa.",
     "title": "Promootio Kierrot",
     "toLabelVariableDesc": "Tämä ilmoittaa ylennysprosessille asetetun kohdetason.",
     "toLabelVariableLabel": "Kohdetaso"
+  },
+  "protectedManagement": {
+    "between": "Välissä:",
+    "cMSManagementPanel": "CMS-hallintapaneeli",
+    "connectedUsers": "Yhdistetyt käyttäjät",
+    "lastUpdated": "Viimeksi päivitetty:",
+    "manageGuides": "Hallitse oppaita",
+    "noSpecificGrowthMetricsFetched": "Ei tiettyjä kasvumittareita haettu...",
+    "noSpecificUsersMetricsFetched": "Ei tiettyjen käyttäjien mittareita haettu...",
+    "sendMassNotification": "Lähetä joukkoviesti",
+    "specificDetailedUserMetricsHistory": "Tarkka yksityiskohtainen - käyttäjämittareiden historia",
+    "specificGrowthUserMetricsHistory": "Tarkka kasvu - käyttäjämittareiden historia",
+    "systemAccounts": "Järjestelmän tilit"
+  },
+  "qBItems": {
+    "itemImageSelector": "Tuotekuva (valitsin)",
+    "search": "Haku"
+  },
+  "qBJobs": {
+    "defaultDuty": "Oletustehtävä",
+    "jobLabel": "Työn tunniste",
+    "offDutyPay": "Vapaan ajan palkka"
+  },
+  "qBoxItems": {
+    "search": "Haku"
   },
   "RadioIntegration": {
     "apiCredentials": "apiVaihdetiedot",
@@ -4979,10 +5306,12 @@
     "noCommunityId": "ei yhteisön tunnusta",
     "permissionSelector": "Käyttöoikeuksien valitsin",
     "remove": "poistaa",
+    "setAnAPIIDAndKeyToSetPermissions": "Aseta API-tunnus ja avain käyttöoikeuksien asettamiseksi",
     "syncOptions": "synkronointiasetukset",
     "title": "Sonoran Radion asetukset"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Valitse yksityiset kanavat, joihin arvo saa liittyä",
     "setRadio": "asetaRadio"
   },
   "rankAccountRow": {
@@ -5087,6 +5416,7 @@
     "filterRanks": "Suodata arvot"
   },
   "rankSelect": {
+    "filterRanks": "Suodata arvot",
     "noRankOptionsToSelectFrom": "eiRankkejaValittavana"
   },
   "Resources": {
@@ -5139,6 +5469,7 @@
     "clickToDisableConditionalFormatValueBein": "Klikkaa poistaaksesi ehdollisen muotoiluarvon ohituksen",
     "clickToOverrideConditionalFormatValue": "Klikkaa ohittaaksesi ehdollisen muotoiluarvon",
     "close": "Sulje",
+    "deleteRow": "Poista rivi",
     "downloadRosterCsv": "Lataa täydellinen kokoonpano CSV-muodossa",
     "end": "Loppu",
     "errorDownloadingRosterCSV": "Virhe ladattaessa kokoonpanon CSV-tiedostoa, ota yhteyttä tukeen, jos ongelma jatkuu.",
@@ -5148,6 +5479,7 @@
     "membersPerPage": "Jäseniä per sivu:",
     "na": "Ei sovellettavissa",
     "noServer": "Ei palvelimen nimeä",
+    "ranks": "Arvot",
     "start": "Aloita:",
     "valueHasBeenOverwrittenByAManualValueIgn": "Arvo on ohitettu manuaalisella arvolla, jättäen huomioimatta ehdolliset arvot.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Sinulla ei ole oikeuksia hallita aktiivisuusseurantaa tällä kokoonpanolla."
@@ -5171,6 +5503,7 @@
     "bottom": "Alaosa",
     "center": "Keskusta",
     "clone": "Kloonaa",
+    "close": "Sulje",
     "contain": "sisällytä",
     "cover": "peitä",
     "cssPlaceholder": "Esimerkki: border: 2px solid #ff671d; border-radius: 8px;",
@@ -5210,6 +5543,12 @@
     "viewportWidth": "Näkymän leveys",
     "width": "Leveys"
   },
+  "sectionWrapper": {
+    "copyElement": "Kopioi elementti",
+    "copySection": "Kopioi osio",
+    "pasteElement": "Liitä elementti",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Kopioi osio virtuaalisesti, liitä muille sivuille hiiren kakkospainikkeella."
+  },
   "selectComPage": {
     "selectCommunityPage": "Valitse yhteisön sivu"
   },
@@ -5223,6 +5562,7 @@
     "createCustomPages": "Luo mukautettuja verkkosivuja yhteisöllesi!",
     "homepageUpdated": "Kotisivu päivitetty!",
     "homepageUpdatedButDuringDiscoveryApproval": "Etusivu päivitetty, mutta hyväksynnän aikana tapahtui virhe ja haku poista käytöstä seuraavan syyn takia:",
+    "pageOptions": "Sivun asetukset",
     "searchPages": "Hae sivuja",
     "selectPageTemplate": "Valitse sivupohja",
     "sortModeActivatedDragAndDropTheRowsInThe": "Lajittelutila aktivoitu: Vedä ja pudota rivit haluamaasi järjestykseen.",
@@ -5277,6 +5617,7 @@
     "administration": "Hallinto",
     "allowPrivateCommentsTrigger": "Käynnistä yksityisistä kommenteista",
     "changedOn": "Muutettu",
+    "close": "Sulje",
     "column": "Sarakkeen",
     "erlcServer": "ER:LC-palvelin",
     "formSubmitter": "Lomakkeen lähettäjä",
@@ -5285,6 +5626,7 @@
     "lockType": "Lukitustyyppi",
     "moderation": "Moderaatio",
     "newValue": "Uusi arvo",
+    "player": "Pelaaja",
     "roleplay": "Roolipeli",
     "roster": "Luettelo",
     "stageChanger": "Vaiheen vaihtaja",
@@ -5296,27 +5638,43 @@
     "create": "Luo"
   },
   "shieldPanel": {
+    "action": "Toiminto:",
     "addFilter": "Lisää suodatin",
     "addRule": "Lisää sääntö",
     "allowOrBlock": "Salli tai estä IP-osoitteet palvelimesi porteilla.",
     "applicationFilters": "Sovellussuodattimet",
     "attackHistory": "Hyökkäyshistoria",
+    "attacks": "Hyökkäykset",
+    "close": "Sulje",
+    "comment": "Kommentoi",
     "commonhelp": "Apua",
+    "destination": "Kohde *",
+    "destinationPort": "Kohdeportti",
     "filters": "Suodattimet",
     "Filters": "Suodattimet",
     "firewall": "Palomuuri",
     "firewallRules": "Palomuurisäännöt",
+    "help": "Apua",
+    "history": "Historia",
     "learnAboutSonoranShield": "Opi Sonoran Shieldista",
     "linkYourServer": "Linkitä palvelimesi",
     "myFilters": "Omat suodattimet",
     "myServers": "Palvelimeni:",
     "noActiveServers": "Ei aktiivisia palvelimia",
     "poweredByPath": "Path.netin tukemana, all-access-paneelimme lopettaa verkkohyökkäykset lopullisesti.",
+    "protocol": "Protokolla",
+    "save": "Tallenna",
+    "search": "Haku",
     "sonoranShieldDocuments": "Sonoran Shield -dokumentit",
     "sonoranShieldKeeps": "Sonoran Shield pitää yhteisösi pelissä tai rahasi takaisin.",
     "sonoranShieldNetworkDefense": "Sonoran Shield -verkkopuolustus",
     "sonoranShieldTutorial": "Sonoran Shield -opas",
-    "unlink": "Poista linkitys"
+    "sourceASN": "Lähde ASN *",
+    "sourceIP": "Lähde IP *",
+    "sourcePort": "Lähdeportti",
+    "sourceType": "Lähdetyyppi *",
+    "unlink": "Poista linkitys",
+    "viewHistoricalNetworkAttacksOnYourServer": "Näytä palvelimesi historialliset verkkohyökkäykset."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "Virhe tapahtui ilmoitusasetusten päivittämisen aikana, yritä myöhemmin uudelleen. Virhe:",
@@ -5453,7 +5811,19 @@
     "newStage": "Uusi vaihe",
     "reorderStages": "Järjestä vaiheet uudelleen"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Tilin käyttäjätunnus",
+    "globalPermissions": "Yleiset oikeudet",
+    "miscData": "Sekalaiset tiedot",
+    "registeredAt": "Rekisteröitynyt:",
+    "save": "Tallenna",
+    "username": "Käyttäjänimi:"
+  },
+  "systemAccount": {
+    "cancel": "Peruuta"
+  },
   "tabbedPermissionEditor": {
+    "calendars": "Kalenterit",
     "copiedCalendarPermissions": "Kopioidut kalenterioikeudet",
     "copiedERLCPermissions": "Kopioidut ER:LC-oikeudet",
     "copiedFormsPermissions": "Kopioidut lomakeoikeudet",
@@ -5465,6 +5835,11 @@
     "copiedServerPermissions": "Kopioidut palvelinoikeudet",
     "copiedShiftTypesPermissions": "Kopioidut ER:LC-oikeudet",
     "copiedSystemPermissions": "Kopioidut järjestelmän oikeudet",
+    "eRLCServers": "ERLC-palvelimet",
+    "forms": "Lomakkeet",
+    "gameServers": "Pelipalvelimet",
+    "navigation": "Navigointi",
+    "pages": "Sivut",
     "pasteCalendarPermissions": "Liitä kalenterioikeudet",
     "pasteERLCPermissions": "Liitä ER:LC-oikeudet",
     "pasteFormsPermissions": "Liitä lomakeoikeudet",
@@ -5476,7 +5851,12 @@
     "pasteServerPermissions": "Liitä palvelinoikeudet",
     "pasteShiftTypesPermissions": "Liitä ER:LC-oikeudet",
     "pasteSystemPermissions": "Liitä järjestelmän oikeudet",
-    "shiftTypes": "Vuorotyypit"
+    "profileFields": "Profiilikentät",
+    "rosters": "Luettelot",
+    "servers": "Palvelimet",
+    "shiftTypes": "Vuorotyypit",
+    "shortURLs": "Lyhyet URL-osoitteet",
+    "system": "Järjestelmä"
   },
   "TeamspeakIntegration": {
     "addMapping": "Lisää kartoitus",
@@ -5650,6 +6030,9 @@
     "youAreRunningAnOutdatedVersionOf": "Käytät vanhentunutta versiota",
     "yourServersVersion": "Palvelimesi versio"
   },
+  "videoForm": {
+    "videoURL": "Videon URL"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Sallitut arvot vastata",
     "allowSubmitterReplies": "Salli lähettäjän vastaukset",
@@ -5707,6 +6090,8 @@
     "rightActivity": "Oikea: Toiminta"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "Taustaväri",
+    "textColor": "Tekstin väri",
     "updateMessage": "Tekstisisältö on muunnettu vanhasta editorista. Tarkista ja päivitä tarvittaessa."
   },
   "Whitelist": {

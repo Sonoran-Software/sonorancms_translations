@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "Aktivní disciplinární body",
     "activeSecurityFlags": "Aktivní bezpečnostní příznaky",
     "profile": "profil",
+    "upload": "Nahrát",
     "visit": "Navštívit"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "název komunity",
     "communityProfile": "profil komunity",
     "communityRank": "hodnostKomunity"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Vybrat profil komunity"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "Došlo k chybě při aktualizaci nastavení upozornění, zkuste to prosím později. Chyba:",
@@ -95,6 +99,7 @@
     "confirmation": "Potvrzení",
     "connections": "Připojení",
     "copyDiscordId": "Kopírovat Discord ID",
+    "copyRawPermissions": "Kopírovat surová oprávnění",
     "copyRobloxId": "Kopírovat Roblox ID",
     "copyTeamspeakId": "Kopírovat TeamSpeak ID",
     "days": "Dny",
@@ -136,8 +141,10 @@
     "mergeAccountsDescription": "Sloučení zdrojového účtu do cílového účtu přesune všechny odeslané formuláře, události, témata a odpovědi ve fóru a další historická data ze zdrojového účtu na cílový účet. Zdrojový účet bude poté archivován. Tuto akci nelze vrátit zpět, proto pokračujte opatrně.",
     "mergeFailed": "Sloučení selhalo:",
     "mergeSuccessful": "Úspěšné sloučení účtů!",
+    "minimumInactivityWindowDays": "Minimální okno neaktivity (dny)",
     "modifyExpiration": "Upravit vypršení",
     "multiaccount": "Multi-účet",
+    "multiAccountBanConfiguration": "Konfigurace zákazu více účtů",
     "multiaccountRankChange": "Změna hodnosti pro více účtů",
     "na": "N/A",
     "name": "Jméno",
@@ -230,6 +237,7 @@
     "youProbablyNeedToUpdateYourServers": "Pravděpodobně potřebujete aktualizovat své servery"
   },
   "actionsEditor": {
+    "calendarCategories": "Kategorie kalendáře",
     "calendarEvents": "Události kalendáře",
     "checked": "Zaškrtnuto",
     "clockIn": "Přihlásit",
@@ -296,6 +304,7 @@
     "rsvpDiscordMentionsVariableLabel": "Seznam RSVP zmínek na Discordu",
     "serverInSession": "Server v relaci",
     "servers": "Server(y)",
+    "servers2": "Servery",
     "serverSessions": "Relace serveru",
     "sessionEnd": "Konec relace",
     "sessionStart": "Začátek relace",
@@ -310,6 +319,11 @@
     "unchecked": "Nezaškrtnuto",
     "unknownAction": "Neznámá akce",
     "value": "Hodnota"
+  },
+  "activityHoursView": {
+    "end": "Konec",
+    "start": "Začít",
+    "trash": "Koš"
   },
   "AdminPanel": {
     "accountsaccounts": "Účty",
@@ -425,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "erlcNotiObsah",
     "erlcNotiContentDescription": "Popis oznámení ERLC",
+    "eRLCServer": "ERLC Server",
     "roles": "Role(y)",
     "webhookChannel": "webhookový kanál",
     "webhookContentHint": "Obsah webhooku",
@@ -681,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "uvalit zákaz",
     "banExpiration": "Konec banu",
+    "banReason": "Důvod zákazu",
     "close": "zavřít",
     "daysAheadToExpire": "dní do vypršení platnosti",
     "permanent": "trvalý",
@@ -749,6 +765,9 @@
     "trial": "ZKUŠEBNÍ VERZE",
     "unknownErrorOccuredWhileAttemptingToGene": "Došlo k neznámé chybě při pokusu o vytvoření pokladny, zkuste to prosím znovu později.",
     "unpaid": "NEZAPLACENO"
+  },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Vyberte množství GB úložiště, které chcete přidat do své komunity."
   },
   "ButtonGroupForm": {
     "addButton": "Přidat tlačítko",
@@ -934,8 +953,12 @@
     "square": "Čtverec",
     "title": "Název"
   },
+  "carouselEl": {
+    "noImagesOptionsSet": "žádné možnosti obrázků nejsou nastaveny"
+  },
   "CarouselForm": {
-    "add": "Přidat"
+    "add": "Přidat",
+    "upload": "Nahrát"
   },
   "ChangeDirDialog": {
     "changeDirectory": "Změnit adresář",
@@ -1259,6 +1282,39 @@
     "latestVersion": "Nejnovější verze:",
     "unauthorizedMissingPermissionsToDownload": "Neoprávněný přístup: Chybí oprávnění ke stažení základního zdroje. Oprávnění: MODIFY_INTEGRATION"
   },
+  "comManagementDialog": {
+    "back": "Zpět",
+    "calendarCategories": "Kategorie kalendáře",
+    "createTemplate": "Vytvořit šablonu",
+    "departments": "Oddělení",
+    "forms": "Formuláře",
+    "noCalendarCategories": "Žádné kategorie kalendáře",
+    "noDepartments": "Žádná oddělení",
+    "noPages": "Žádné stránky",
+    "noRosters": "Žádné seznamy",
+    "noStageGroups": "Žádné skupiny fází",
+    "noStages": "Žádné fáze",
+    "notAssociated": "Nepřiřazeno",
+    "noTemplatesFoundOnYourAccount": "Ve vašem účtu nebyly nalezeny žádné šablony.",
+    "noToolbarItems": "Žádné položky nástrojové lišty",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Jakmile bude odstraněno, již nebude přístupné prostřednictvím tohoto dialogu.",
+    "pages": "Stránky",
+    "return": "Zpět",
+    "rosters": "Seznamy",
+    "save": "Uložit",
+    "stageGroups": "Skupiny fází",
+    "stages": "Fáze",
+    "submit": "Odeslat",
+    "templateCreationBasicInformation": "Vytvoření šablony - Základní informace",
+    "templateCreationDataSelection": "Vytvoření šablony - výběr dat",
+    "templateCreationFinalize": "Dokončení vytvoření šablony",
+    "templateDescription": "Popis šablony",
+    "templateManage": "Správa šablon -",
+    "templateTitle": "Název šablony",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "Tato stránka již není spojena s komunitou, což znamená, že ji již nelze aktualizovat.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "Tímto se tato stránka aktualizuje podle toho, co má vaše komunita aktuálně, jakmile je šablona uložena, je to nevratné.",
+    "view": "Zobrazit"
+  },
   "common": {
     "add": "Přidat",
     "calCates": "Kategorie kalendáře",
@@ -1317,6 +1373,11 @@
     "successfullyLeft": "Úspěšně opuštěno",
     "youCannotLeaveACommunityThatYouOwn": "Nemůžete opustit komunitu, kterou vlastníte!"
   },
+  "communityDashboard": {
+    "no": "Ne",
+    "reSync": "Znovu synchronizovat",
+    "yes": "Ano"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Dokumenty objevování komunity",
     "commmunityDiscoveryTutorial": "Návod na objevování komunity",
@@ -1329,8 +1390,10 @@
     "previewCommunity": "Náhled komunity",
     "pro": "Pro",
     "return": "Zpět",
+    "search": "Hledat",
     "standard": "Standardní",
     "starter": "Startovací",
+    "tags": "Štítky:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "Tato komunita má některé z nejaktivnějších členů",
     "thisCommunityIsGrowingRapidly": "Tato komunita rychle roste",
     "thisCommunityIsReceivingHighWebsiteTraff": "Tato komunita má vysokou návštěvnost webových stránek",
@@ -1338,9 +1401,48 @@
     "viewAll": "Zobrazit vše",
     "website": "Webová stránka"
   },
+  "communityDrive": {
+    "assetFolders": "Složky aktiv",
+    "audioPlayer": "Přehrávač zvuku",
+    "communityImagesAssets": "Obrázky komunity / aktiva",
+    "downloadAsset": "Stáhnout soubor",
+    "files": "Soubory",
+    "new": "NOVÉ",
+    "play": "Hrát",
+    "removeAsset": "Odstranit položku"
+  },
+  "communityLookup": {
+    "communityID": "ID komunity",
+    "forceJoin": "Vynutit připojení",
+    "forceLeave": "Vynutit opuštění",
+    "rawData": "Surová data",
+    "restoreCommunity": "Obnovit komunitu"
+  },
+  "communityMenu": {
+    "dismiss": "Zavřít",
+    "join": "Připojit se",
+    "launchingYourNewCommunity": "Spouštíme vaši novou komunitu..."
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Chyba: Nemáte oprávnění k zobrazení",
     "thereWasAProblemLoadingThePage": "Při načítání stránky došlo k problému"
+  },
+  "communityTemplates": {
+    "approve": "Schválit",
+    "approved": "Schváleno",
+    "cancel": "Zrušit",
+    "edit": "Upravit",
+    "editTemplate": "Upravit šablonu",
+    "inactive": "Neaktivní",
+    "needsReview": "Vyžaduje kontrolu",
+    "newChangesPendingReview": "Nové změny | Čeká na kontrolu",
+    "remove": "Odstranit",
+    "save": "Uložit"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "od Sonoran Software Systems",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Vytvořeno oficiálním zaměstnancem Sonoran Software Systems",
+    "view": "Zobrazit"
   },
   "ConditionalFormSectionUI": {
     "Checked": "Zkontrolováno",
@@ -1716,7 +1818,8 @@
     "yourCurrently": "Momentálně jste"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Ne všechny soubory mohou být viditelné, toto použití je vypočítáno pro všechny soubory v rámci komunity."
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Ne všechny soubory mohou být viditelné, toto použití je vypočítáno pro všechny soubory v rámci komunity.",
+    "used": "použito"
   },
   "DepartmentEditor": {
     "addRosterRow": "Přidat řádek seznamu",
@@ -1724,10 +1827,12 @@
     "allowWhitelist": "Povolit whitelist",
     "attachesToProfile": "Připojuje se k profilu",
     "BlockWhitelist": "Blokovat whitelist",
+    "cancel": "Zrušit",
     "clockInOut": "Přihlásit se a odhlásit se",
     "departmentManager": "Manažer oddělení",
     "editFieldOnOtherProfiles": "Upravit pole na jiných profilech",
     "editRosterRow": "Upravit řádek seznamu",
+    "field": "Pole",
     "hidesFieldFromProfileOwner": "Skrývá pole před vlastníkem profilu",
     "inheritedFromDefaultDepartmentPermission": "ZDĚDĚNO Z VÝCHOZÍCH OPRÁVNĚNÍ ODDĚLENÍ",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Je zbytečné kopírovat oprávnění aplikace, která nemá žádná oprávnění...",
@@ -1809,12 +1914,16 @@
   "disciplinaryAccounts": {
     "accountLabel": "Účet",
     "addDisciplinaryPoints": "přidat-kárné-body",
+    "amount": "Částka:",
     "configureActions": "Nastavit akce",
+    "date": "Datum:",
     "disciplinaryPoints": "disciplinární body",
+    "eRLCViolationAutomatic": "Porušení ERLC - automatické",
     "noActiveDisciplinaryPoints": "žádné aktivní disciplinární body",
     "noRobloxAccountLinked": "Žádný propojený Roblox účet",
     "pointsLabel": "Body",
-    "reasonLabel": "Důvod"
+    "reasonLabel": "Důvod",
+    "source": "Zdroj:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -1967,6 +2076,7 @@
     "departmentEditedMentions": "Úprava oddělení - Zmínky",
     "departmentRemovedChannel": "Odstranění oddělení - Kanál",
     "departmentRemovedMentions": "Odstranění oddělení - Zmínky",
+    "direction": "Směr",
     "disabled": "Zakázáno",
     "discordRoleSyncDocuments": "Dokumenty o synchronizaci rolí Discord",
     "discordRoleSyncTutorial": "Návod na synchronizaci rolí Discord",
@@ -2043,6 +2153,7 @@
     "webhookLogging": "Protokolování webhooků"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Přidat další role",
     "afterChangesAreMadeItWillQueueMasssyncsW": "Po provedení změn se zařadí hromadné synchronizace s botem, což může chvíli trvat, aby se bot nepřetěžoval.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "Při přidávání mapování rolí došlo k chybě, zkuste to znovu později.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "Při vyhodnocování mapování před potvrzením došlo k chybě, zkuste to znovu.",
@@ -2058,9 +2169,12 @@
     "roleId": "ID role:",
     "roleInUseExplanation": "Tato role Discord je již v existujícím mapování kategorie, aktualizujte toto existující mapování, pokud chcete přidat další hodnosti CMS.",
     "selectRank": "Vyberte hodnost",
+    "selectRankS": "Vybrat hodnost(i)",
+    "selectRole": "Vybrat roli",
     "thisMappingDoesntExistRefresh": "Toto mapování neexistuje, obnovte stránku."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "Filtrovat role nebo servery",
     "guild": "Cech:"
   },
   "DiscordRoleSelector": {
@@ -2144,6 +2258,9 @@
     "errorYouDoNotHavePermissionToEditThisFil": "Chyba: Nemáte oprávnění upravovat tento soubor.",
     "protectionOnlyAccess": "Pro tento dokument máte přístup pouze k ochraně, takže editor obsahu je skrytý."
   },
+  "driveQuickUploader": {
+    "noUploadsYet": "Zatím žádné nahrávky"
+  },
   "DriveViewDoc": {
     "documentName": "Název dokumentu",
     "errorMissingPermissionsForThisFile": "Chyba: Chybí oprávnění k tomuto souboru."
@@ -2177,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Upozorňujeme, že zdroje používající metadata rozlišují velká a malá písmena (např. firstname a FirstName se chovají odlišně)",
     "noVehiclesAvailable": "Žádná vozidla nejsou k dispozici",
     "onDuty": "Ve službě",
+    "onlineStatus": "Stav online:",
     "owner": "Majitel:",
     "ownerLicense": "Licence majitele:",
     "phoneNumber": "Telefonní číslo",
@@ -2243,6 +2361,7 @@
     "permissions": "Oprávnění",
     "pressEnterToAdd": "Stiskněte Enter pro přidání",
     "quarter": "Čtvrtletí",
+    "rankS": "hodnost(i)",
     "ruleBuilder": "Tvůrce pravidel",
     "save": "Uložit",
     "select": "Vybrat",
@@ -2295,9 +2414,14 @@
     "selectItem": "Vybrat položku",
     "selectNextSlot": "Vyberte další slot:",
     "slot": "Slot",
+    "slot2": "Slot",
     "slotMetadata": "Metadata slotu",
     "update": "Aktualizovat",
     "update43": "Aktualizovat"
+  },
+  "editMeta": {
+    "renameDocument": "Přejmenovat dokument",
+    "toggleViewingWatermark": "Přepnout zobrazení vodoznaku"
   },
   "Editor": {
     "activityTrackerHours": "Hodiny sledování aktivity",
@@ -2363,6 +2487,7 @@
     "private": "Soukromé",
     "public": "Veřejné",
     "rankAccess": "Přístup k hodnocení",
+    "shareType": "Typ sdílení",
     "unlisted": "Neveřejné",
     "viewDocument": "Zobrazit dokument"
   },
@@ -2408,7 +2533,8 @@
     "containImage": "Obsahovat obrázek",
     "fillImage": "Vyplnit obrázek",
     "lockItemToThisSection": "Uzamknout položku do této sekce",
-    "unlockToDragItemToAnotherSection": "Odemknout pro přetažení položky do jiné sekce"
+    "unlockToDragItemToAnotherSection": "Odemknout pro přetažení položky do jiné sekce",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "Přidat řádek tlačítek",
@@ -2487,13 +2613,22 @@
     "webhookChannel": "webhookKanál"
   },
   "ERLCActivity": {
+    "date": "Datum",
     "errorAnErrorOccuredWhileFetchingServerDa": "Při načítání dat serveru došlo k chybě",
     "filter": "filtr",
     "latestActivity": "nejnovější aktivita",
     "pending": "Čeká se",
+    "pickDateRange": "Vyberte časové rozmezí",
+    "searchByUsername": "Hledat podle uživatelského jména",
+    "selectMember": "Vybrat člena",
+    "selectTypes": "Vybrat typy",
+    "selectUser": "Vybrat uživatele",
     "showingAllLogs": "Zobrazení všech protokolů",
     "showingPlayerRecords": "Zobrazení záznamů hráče",
-    "unknownStage": "Neznámá fáze"
+    "staffMember": "Člen týmu",
+    "type": "Typ",
+    "unknownStage": "Neznámá fáze",
+    "user": "Uživatel"
   },
   "ERLCActivityLog": {
     "addedMessage": "přidaná zpráva",
@@ -2638,6 +2773,7 @@
     "illicit": "nezákonný",
     "kickUsersWithAllothersInUsername": "vykopnoutUživateleSek všemiZnakVUživatelskémJménu",
     "kickUsersWithInappropriateUsernames": "vykopnoutUživateleSNepříslušnýmiUživatelskýmiJmény",
+    "log": "záznam",
     "lowercaseCommand": "příkaz",
     "name": "Název",
     "priorityPlayerList": "Seznam prioritních hráčů",
@@ -2649,6 +2785,7 @@
     "selfharm": "sebepoškozování",
     "sexual": "sexuální",
     "stages": "Fáze",
+    "testUsername": "Testovací uživatelské jméno",
     "username": "uživatelské jméno",
     "usernameModeration": "uživatelské jméno moderace",
     "violence": "násilí"
@@ -2666,6 +2803,7 @@
     "disciplinaryPoints": "Disciplinární body",
     "editedTheRecords": "upravil záznamy",
     "editExistingRecord": "Upravit existující záznam",
+    "editHistory": "Historie úprav",
     "enterUsernames": "Zadejte uživatelské jména",
     "enterYourReasonForRecord": "Zadejte svůj důvod pro záznam...",
     "kick": "Vyhodit",
@@ -2676,6 +2814,7 @@
     "numberOfPointsToAdd": "Počet bodů k přidání...",
     "points": "Body",
     "pointsFrom": "body od",
+    "reason": "Důvod",
     "reasonFrom": "důvod od",
     "recordType": "Typ záznamu",
     "saveChanges": "Uložit změny",
@@ -2738,10 +2877,21 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Aktuální hráči ve frontě",
     "filter": "Filtr",
+    "fire": "oheň",
     "noPlayersConnected": "Žádní hráči nejsou připojeni",
     "playersIngame": "hráči ve hře",
     "playersInQueue": "hráči ve frontě",
+    "police": "policie",
+    "search": "Hledat",
+    "sheriff": "šerif",
     "teams": "týmy"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Vytvářet a zobrazovat záznamy.",
+    "openUserPanelFor": "Otevřít uživatelský panel pro"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "Žádná aktivita nenalezena"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Tuto akci spustíte po porušení omezení po určitou dobu (v sekundách)",
@@ -2911,6 +3061,9 @@
     "submissions": "Odeslání",
     "thirdpartySubmissions": "Odeslání třetí strany",
     "timeclock": "Časový záznam"
+  },
+  "formRankAccountRow": {
+    "section": "Sekce:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Přijaté soubory nahrávače",
@@ -3231,6 +3384,7 @@
     "categoryLabel": "Štítek kategorie",
     "create": "Vytvořit",
     "createPrivateTopics": "Vytvářet soukromá témata",
+    "createTopics": "Vytvořit témata",
     "deleteCategory": "Smazat kategorii",
     "edit": "Upravit",
     "editSubcategory": "Upravit podkategorii",
@@ -3303,6 +3457,7 @@
     "thisForumTopicIsLockedFromNewReplies": "Toto fórum je uzamčeno pro nové odpovědi.",
     "thisForumTopicIsPinnedWithinThe": "Toto fórum je připnuto v rámci",
     "thisTopic": "toto téma?",
+    "title": "Název",
     "topicRepliesBelow": "Odpovědi na téma níže",
     "uniqueIdCopiedToClipboard": "Jedinečné ID zkopírováno do schránky.",
     "unlock": "Odemknout",
@@ -3363,9 +3518,81 @@
     "uploadANewPhoto": "Nahrát novou fotografii",
     "uploadNewPhoto": "Nahrát novou fotografii"
   },
+  "gameDashboard": {
+    "activePlayers": "Aktivní hráči"
+  },
+  "gameEnvironment": {
+    "blackout": "Výpadek"
+  },
   "GameIndex": {
+    "accessTheGameServerSPanel": "Přistupte k panelu herního serveru.",
+    "andClickToCopyPasteTheIDAndKeyBelow": "a klikněte pro zkopírování/vložení ID a klíče níže.",
+    "aPIKey": "API klíč",
+    "click": "Klikněte",
+    "communityID": "ID komunity",
+    "copyYourERLCAPIKey": "Zkopírujte svůj ER:LC API klíč",
+    "createNewServer": "Vytvořit nový server",
+    "directoryToCustomizeYourFeatures": "adresář pro přizpůsobení vašich funkcí.",
+    "disabledDueToMissingPermission": "Zakázáno kvůli chybějícím oprávněním:",
+    "downloadInstall": "Stáhnout a nainstalovat",
+    "eRLCAPIKey": "ER:LC API klíč",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC poskytuje přístup k API jako placené rozšíření.",
+    "fileManager": "Správce souborů",
+    "forOff": "se slevou 20 %.",
+    "gamePanelPurchase": "Nákup herního panelu",
+    "installSonoran": "Nainstalovat Sonoran",
+    "launchGame": "Spustit hru",
+    "loadIntoYourERLCServer": "Načíst do vašeho serveru ER:LC",
+    "manualInstall": "Ruční instalace",
+    "melonly": "Melonly",
     "melonlyApiKey": "Klíč API Melonly",
-    "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat"
+    "moderation": "Moderování",
+    "navigateToERLCAPI": "Přejít na \"ER:LC API\"",
+    "navigateToOwnedServers": "Přejděte na \"Vlastněné servery\"",
+    "navigateToServers": "Přejděte na \"Servery\"",
+    "navigateToThe": "Přejděte na",
+    "navigateToUpgradedPacks": "Přejít na „Upgraded Packs“",
+    "noPlayersFoundSearch": "Žádní hráči nebyli nalezeni... Vyhledat",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Jakmile je instalace dokončena, můžete přistupovat k souborům prostředků v",
+    "oneClickInstallation": "Instalace na jedno kliknutí",
+    "onTheRocketNodeGamePanelNavigateTo": "V herním panelu Rocket Node přejděte na",
+    "onTheRocketNodePanel": "v panelu Rocket Node.",
+    "openTheServerInfoTab": "Otevřete kartu \"Informace o serveru\"",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Vložte svůj klíč API níže do pole a klikněte na fajfku pro uložení",
+    "pasteYourERLCAPIKey": "Vložte svůj ER:LC API klíč",
+    "purchaseAFiveMGameServerFromRocketNode": "Zakoupit FiveM herní server od Rocket Node",
+    "purchaseAPIAccessFromERLC": "Zakoupit přístup k API pro ER:LC",
+    "resources": "Zdroje",
+    "select": "Vybrat",
+    "selectAPIPackAndPurchase": "Vyberte \"API Pack\" a zakupte",
+    "selectEditServerSettings": "Vyberte \"Upravit nastavení serveru\"",
+    "selectEditToCopyToClipboard": "Vyberte \"Upravit\" pro kopírování do schránky",
+    "selectTheMenuButtonAtTheTopLeft": "Vyberte tlačítko \"Menu\" vlevo nahoře",
+    "selectYourPrivateServer": "Vyberte svůj soukromý server",
+    "sonoranInstaller": "Instalátor Sonoran",
+    "useCouponCode": "Použít kód kupónu",
+    "useTestData": "Použít testovací data",
+    "videoTutorial": "Výukové video",
+    "youCanLearnMoreAboutConfigurationOptions": "Můžete se dozvědět více o možnostech konfigurace",
+    "youMustBeAnAdminToViewTheAPIKey": "Pro zobrazení API klíče musíte být administrátor."
+  },
+  "gamePlayers": {
+    "noCharacters": "Žádné postavy"
+  },
+  "gameResources": {
+    "ensure": "Zajistit",
+    "noResults": "Žádné výsledky",
+    "start": "Start"
+  },
+  "gameVehicles": {
+    "actions": "Akce",
+    "cancel": "Zrušit",
+    "close": "Zavřít",
+    "despawnVehicle": "vymazatVozidlo",
+    "info": "Informace",
+    "noResults": "Žádné výsledky",
+    "passengers": "Cestující",
+    "repairVehicle": "opravaVozidla"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Akce provedena! Může to trvat minutu nebo dvě, než se panel aktualizuje...",
@@ -3402,6 +3629,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "Nebylo dostatek dat pro tuto komunitu k určení"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Přidat metriku mezi oblíbené",
     "growtherrored": "CHYBA",
     "growthloadingdata": "NAČÍTÁNÍ DAT",
     "growthnewusersjoiningyourcommunity": "Noví uživatelé připojující se k vaší komunitě",
@@ -3419,7 +3647,27 @@
     "growthuserswhohaveleftyourcommunity": "Uživatelé, kteří opustili vaši komunitu:",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Počet unikátních uživatelů, kteří navštívili stránku komunity z Community Discovery",
     "numberOfUniqueViewsFromCommunityDiscover": "Počet unikátních zobrazení z Community Discovery",
-    "theresNotEnoughDataToPopulateTheGraph": "Není dostatek dat pro zobrazení grafu."
+    "theresNotEnoughDataToPopulateTheGraph": "Není dostatek dat pro zobrazení grafu.",
+    "thisMetricIsFavorite": "Tato metrika je oblíbená"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Zatím žádné oblíbené položky. Kliknutím na ikonu hvězdičky u libovolné metriky nebo grafu ji přidáte do oblíbených.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Upravte, jak se vaše komunita zobrazuje při objevování, a zachovejte nadpis, banner a popis v souladu."
+  },
+  "guideManagement": {
+    "add": "Přidat",
+    "addGuide": "Přidat průvodce",
+    "allGuidesAvailable": "Všechny dostupné průvodce",
+    "cancel": "Zrušit",
+    "editTheGuideLabel": "Upravit štítek průvodce",
+    "editTheGuideURL": "Upravit URL průvodce",
+    "enterBelowAllInformationRegardingThisGuide": "Níže zadejte všechny informace týkající se této příručky.",
+    "gitBookGuideURL": "URL průvodce GitBooku",
+    "guideLabel": "Štítek průvodce",
+    "missingGuideURL": "Chybí URL průvodce!",
+    "missingVideoURL": "Chybí URL videa!",
+    "newGuide": "Nový průvodce",
+    "tutorialVideoURL": "URL výukového videa"
   },
   "helpButtonComponent": {
     "close": "Zavřít",
@@ -3439,8 +3687,15 @@
     "icon": "Ikona",
     "image": "Obrázek"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Celá obrazovka"
+  },
+  "iFrameForm": {
+    "iFrameURL": "Adresa URL iFrame"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Klikněte pro nahrání obrázku",
+    "hyperlinkOptions": "Možnosti hypertextového odkazu",
     "targetForm": "Formulář",
     "targetNone": "Žádný",
     "targetPage": "Vlastní stránka",
@@ -3459,7 +3714,9 @@
     "errorMaxSizeMessage": "Soubor překračuje limit velikosti 5MB.",
     "errorMaxTotalSizeMessage": "Celková velikost souborů překračuje maximální povolený limit 100MB.",
     "errorMessage": "Při nahrávání obrázku došlo k chybě:",
-    "errorUploadMessage": "Při nahrávání došlo k chybě."
+    "errorUploadMessage": "Při nahrávání došlo k chybě.",
+    "imagePreview": "Náhled obrázku",
+    "upload": "Nahrát"
   },
   "Index": {
     "account": "Účet",
@@ -3690,6 +3947,31 @@
     "withADuplicate": "s duplikátem",
     "yes": "Ano",
     "youDoNotHavePermissionsForThisGameServer": "Nemáte oprávnění pro tento herní server."
+  },
+  "indexPage": {
+    "aIAutomation": "AI automatizace",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Automaticky detekujte duplicitní účty napříč desítkami behaviorálních a profilových signálů, abyste udrželi vaši komunitu v bezpečí.",
+    "backups": "Zálohy",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS role jsou váš jediný kontrolní bod pro oprávnění. Spravujte whitelisty, přístup k souborům a webům, synchronizaci Discord rolí a další z jednoho sjednoceného systému.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Vytvářejte vlastní formuláře pro žádosti o zařazení na whitelist, žádosti o LOA a další. Výkonná automatizace stadií může aktualizovat uživatelské hodnosti, synchronizovat sestavy, spouštět oznámení a automaticky zpracovávat opakující se kroky workflow.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Vlastní komunitní seznamy se živě aktualizují podle stavu aktivity členů, doby připojení, hodností a dalších údajů. Spouštějte automatizace při změnách stavu nebo aktualizujte seznamy přímo z akcí fáze formuláře.",
+    "formsAndApplications": "Formuláře a aplikace",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Využijte automatizaci poháněnou umělou inteligencí, abyste svou komunitu spravovali rychleji, bezpečněji a s menší manuální prací.",
+    "integratedGamePanels": "Integrované herní panely",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Mějte své soubory, formuláře a pracovní postupy uspořádané na jednom místě.",
+    "managesYourEntireGamingCommunity": "spravuje celou vaši herní komunitu.",
+    "manageYourGameOperationsWithNativePanelIntegrations": "Spravujte své herní operace pomocí nativních integrací panelu.",
+    "openBillingCenter": "Otevřít fakturační centrum",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Uspořádejte členy, přidělte odpovědnosti a udržujte strukturu zaměstnanců přehlednou.",
+    "rankManager": "Správce hodností",
+    "rosters": "Seznamy",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Provozujte svou herní komunitu z jedné platformy: zabezpečení a automatizace formulářů poháněné AI, živé soupisky a oprávnění podle hodnosti, synchronizovaná správa rolí na Discordu a spolupráce na dokumentech s podrobnými řízeními přístupu.",
+    "saveWithQuarterlyBilling": "Ušetřete 25 % při čtvrtletním účtování",
+    "security": "Bezpečnost",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Sdílejte dokumenty a upravujte je naživo, přidejte ochranu vodoznakem, vkládejte obrázky a soubory a automaticky synchronizujte oprávnění k přístupu s úrovněmi CMS.",
+    "totalBilledQuarterly": "celkem účtováno čtvrtletně",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Používejte hodnocení s asistencí AI k automatickému zpracování odeslání formulářů a směrování každého z nich do správné fáze kontroly.",
+    "userManagement": "Správa uživatelů"
   },
   "InfoBlocksForm": {
     "add": "Přidat",
@@ -3987,6 +4269,7 @@
     "profile": "Profil",
     "promotional": "Propagační",
     "running": "Běží",
+    "serverHosting": "Server hosting",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS spravuje webové stránky vaší komunity, dokumenty, whitelistování, herní oprávnění a další!",
     "thisCommunityUsesDiscordIntegrationPleas": "Tato komunita používá integraci Discord! Pro správnou synchronizaci rolí prosím propojte svůj Discord.",
     "thisCommunityUsesRobloxIntegrationPleas": "Tato komunita používá integraci Roblox! Pro správné využití integrace prosím propojte svůj Roblox.",
@@ -4001,8 +4284,10 @@
     "allowedRanksToReply": "Povolené hodnosti k odpovědi",
     "allowSubmitterReplies": "Povolit odpovědi odesílatele",
     "cancel": "Zrušit",
+    "changedTheStageFrom": "změnila fázi z",
     "changeStage": "Změnit fázi",
     "close": "Zavřít",
+    "commentHere": "Sem napište komentář...",
     "deleteForm": "Smazat formulář",
     "hidden": "Skryté",
     "invalidStage": "Neplatná fáze",
@@ -4027,6 +4312,13 @@
     "unlocked": "ODUZAMČENO",
     "visible": "Viditelné",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Budeme vás informovat, když bude k tomuto formuláři přidána nová odpověď."
+  },
+  "massNotificationManagement": {
+    "btnLabel": "Popisek tlačítka",
+    "btnURL": "Btn URL",
+    "notificationContent": "Obsah oznámení",
+    "sendNotification": "Poslat Oznámení",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "zobrazí horní QNotify s obsahem jako oznámení, pokud zadáte štítek tlačítka a url, bude připojeno k QNotify."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4125,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "Nepodařilo se uložit metadata dokumentu.",
     "file": "soubor",
     "folder": "složka",
-    "save": "Uložit"
+    "save": "Uložit",
+    "share": "Sdílet \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "Aktivní členové komunity s tímto odkazem mohou",
@@ -4214,6 +4507,7 @@
     "roster": "Seznam",
     "rounded": "Zaoblený",
     "square": "Čtvercový",
+    "styles": "Styly",
     "submitForm": "Odeslat formulář",
     "target": "Cíl",
     "targetForm": "Cílový formulář",
@@ -4225,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "Došlo k chybě při dotazování na data:",
     "anErrorOccuredWhileSubmittingForm": "Došlo k chybě při odesílání formuláře:",
+    "cancel": "Zrušit",
     "errorYouDoNotHavePermissionToSubmitThisF": "Chyba: Nemáte oprávnění odeslat tento formulář.",
     "formCouldNotBeFoundToBeCreatedFrom": "Formulář nebyl nalezen, aby mohl být vytvořen.",
     "noRank": "Žádná hodnost",
+    "previous": "Předchozí",
     "requiredFieldTooltip": "{field} je požadováno",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "Existuje jedno nebo více povinných polí, která nejsou vyplněna.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "Uživatel bude moci zobrazit toto odeslání na svém profilu.",
@@ -4291,6 +4587,7 @@
     "none": "žádný",
     "openSectionEditor": "Otevřít editor sekcí",
     "pageBackground": "Pozadí stránky",
+    "pasteSection": "Vložit sekci",
     "savedCustomCssClasses": "Uložené vlastní třídy CSS.",
     "scalesTheBackgroundImageSoThatItsOrigina": "Zvětší obrázek na pozadí tak, aby byly zachovány jeho původní proporce.",
     "scalesTheBackgroundImageToCoverContainer": "Zvětší obrázek na pozadí tak, aby pokryl kontejner",
@@ -4709,6 +5006,7 @@
     "exampleName": "Příklad jména",
     "exampleRank": "Příklad hodnosti",
     "learnHowToUseProfileFields": "Naučte se používat pole profilu",
+    "newProfileField": "Nové pole profilu",
     "profileFieldsDocuments": "Dokumenty pole profilu",
     "profileFieldsEditor": "Editor polí profilu",
     "profilefieldseditorerrorsnofindfield": "Nebyla nalezena žádná pole z toho, co je vybráno.",
@@ -4797,6 +5095,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Chyba: Nemůžete upravit tohoto člena kvůli vašim komunitním oprávněním.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Chyba: Nemáte oprávnění upravovat informace jednotlivců.",
     "exportTime": "Čas exportu:",
+    "filterForms": "Filtr formulářů",
     "for": "pro",
     "formLabel": "Štítek formuláře",
     "formSettings": "Nastavení formuláře",
@@ -4957,9 +5256,37 @@
     "selectPromotionFlowFromCommunityConfiguration": "Vyberte propagační tok z konfigurace komunity.",
     "sendRankNoti": "Poslat Oznámení O Hodnosti",
     "subtitle": "Provést automatizované propagační toky hodností pro členy vaší komunity.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Tato akce se spustí pouze pokud tento tok snižuje oprávnění.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "Tato akce se spustí pouze pokud tento tok povyšuje oprávnění.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "Tato akce se spustí jak pro povýšení, tak pro degradaci.",
     "title": "Propagační toky",
     "toLabelVariableDesc": "Toto uvede cílové označení nastavené pro tento propagační tok.",
     "toLabelVariableLabel": "Na Označení"
+  },
+  "protectedManagement": {
+    "between": "Mezi:",
+    "cMSManagementPanel": "Panel správy CMS",
+    "connectedUsers": "Připojení uživatelé",
+    "lastUpdated": "Poslední aktualizace:",
+    "manageGuides": "Spravovat průvodce",
+    "noSpecificGrowthMetricsFetched": "Nebyla načtena žádná specifická růstová metrika...",
+    "noSpecificUsersMetricsFetched": "Nebyla načtena žádná specifická uživatelská metrika...",
+    "sendMassNotification": "Poslat Hromadné Oznámení",
+    "specificDetailedUserMetricsHistory": "Specifické podrobné – historie uživatelských metrik",
+    "specificGrowthUserMetricsHistory": "Specifické růstové – historie uživatelských metrik",
+    "systemAccounts": "Systémové účty"
+  },
+  "qBItems": {
+    "itemImageSelector": "Obrázek položky (výběr)",
+    "search": "Hledat"
+  },
+  "qBJobs": {
+    "defaultDuty": "Výchozí povinnost",
+    "jobLabel": "Štítek úlohy",
+    "offDutyPay": "Mzdové za dobu mimo službu"
+  },
+  "qBoxItems": {
+    "search": "Hledat"
   },
   "RadioIntegration": {
     "apiCredentials": "přihlašovací údaje API",
@@ -4979,10 +5306,12 @@
     "noCommunityId": "žádné ID komunity",
     "permissionSelector": "výběr oprávnění",
     "remove": "odstranit",
+    "setAnAPIIDAndKeyToSetPermissions": "Nastavte ID API a klíč pro nastavení oprávnění",
     "syncOptions": "synchronizační možnosti",
     "title": "Konfigurace Sonoran Radio"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Vyberte soukromé kanály, do kterých se hodnost může připojit",
     "setRadio": "nastavitRadio"
   },
   "rankAccountRow": {
@@ -5087,6 +5416,7 @@
     "filterRanks": "Filtrovat hodnosti"
   },
   "rankSelect": {
+    "filterRanks": "Filtrovat hodnosti",
     "noRankOptionsToSelectFrom": "Žádné možnosti hodnosti k výběru"
   },
   "Resources": {
@@ -5139,6 +5469,7 @@
     "clickToDisableConditionalFormatValueBein": "Klikněte pro deaktivaci přepsání podmíněné hodnoty formátu",
     "clickToOverrideConditionalFormatValue": "Klikněte pro přepsání podmíněné hodnoty formátu",
     "close": "Zavřít",
+    "deleteRow": "Smazat řádek",
     "downloadRosterCsv": "Stáhnout kompletní seznam jako CSV",
     "end": "Konec",
     "errorDownloadingRosterCSV": "Chyba při stahování CSV soupisek, pokud problém přetrvává, kontaktujte podporu.",
@@ -5148,6 +5479,7 @@
     "membersPerPage": "Členů na stránku:",
     "na": "N/A",
     "noServer": "Žádný název serveru",
+    "ranks": "Hodnosti",
     "start": "Start:",
     "valueHasBeenOverwrittenByAManualValueIgn": "Hodnota byla přepsána ruční hodnotou, ignorování podmíněných hodnot.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Nemáte oprávnění spravovat sledování aktivity na tomto seznamu."
@@ -5171,6 +5503,7 @@
     "bottom": "Dole",
     "center": "Střed",
     "clone": "Klonovat",
+    "close": "Zavřít",
     "contain": "obsahovat",
     "cover": "pokrýt",
     "cssPlaceholder": "Příklad: border: 2px solid #ff671d; border-radius: 8px;",
@@ -5210,6 +5543,12 @@
     "viewportWidth": "Šířka zobrazení",
     "width": "Šířka"
   },
+  "sectionWrapper": {
+    "copyElement": "Kopírovat prvek",
+    "copySection": "Kopírovat sekci",
+    "pasteElement": "Vložit prvek",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Virtuálně zkopírujte sekci, vložte na jiné stránky kliknutím pravým tlačítkem."
+  },
   "selectComPage": {
     "selectCommunityPage": "Vybrat stránku komunity"
   },
@@ -5223,6 +5562,7 @@
     "createCustomPages": "Vytvořte si vlastní webové stránky pro vaši komunitu!",
     "homepageUpdated": "Domovská stránka byla aktualizována!",
     "homepageUpdatedButDuringDiscoveryApproval": "Domovská stránka byla aktualizována, ale během schválení objevu se nezdařilo a objev byl deaktivován z důvodu:",
+    "pageOptions": "Možnosti stránky",
     "searchPages": "Hledat stránky",
     "selectPageTemplate": "Vyberte šablonu stránky",
     "sortModeActivatedDragAndDropTheRowsInThe": "Režim třídění aktivován: Přetáhněte řádky v pořadí, ve kterém je chcete seřadit.",
@@ -5277,6 +5617,7 @@
     "administration": "Správa",
     "allowPrivateCommentsTrigger": "Spustit při soukromých komentářích",
     "changedOn": "Změněno dne",
+    "close": "Zavřít",
     "column": "Sloupec",
     "erlcServer": "ER:LC Server",
     "formSubmitter": "Odesílatel formuláře",
@@ -5285,6 +5626,7 @@
     "lockType": "Typ zámku",
     "moderation": "Moderace",
     "newValue": "Nová hodnota",
+    "player": "Hráč",
     "roleplay": "Roleplay",
     "roster": "Sestava",
     "stageChanger": "Měnič fáze",
@@ -5296,27 +5638,43 @@
     "create": "Vytvořit"
   },
   "shieldPanel": {
+    "action": "Akce:",
     "addFilter": "Přidat filtr",
     "addRule": "Přidat pravidlo",
     "allowOrBlock": "Povolit nebo blokovat IP adresy na portech vašeho serveru.",
     "applicationFilters": "Filtry aplikace",
     "attackHistory": "Historie útoků",
+    "attacks": "Útoky",
+    "close": "Zavřít",
+    "comment": "Komentář",
     "commonhelp": "Nápověda",
+    "destination": "Cíl *",
+    "destinationPort": "Cílový port",
     "filters": "Filtry",
     "Filters": "Filtry",
     "firewall": "Firewall",
     "firewallRules": "Pravidla firewallu",
+    "help": "Nápověda",
+    "history": "Historie",
     "learnAboutSonoranShield": "Zjistěte více o Sonoran Shield",
     "linkYourServer": "Propojte svůj server",
     "myFilters": "Moje filtry",
     "myServers": "Moje servery:",
     "noActiveServers": "Žádné aktivní servery",
     "poweredByPath": "Díky Path.net, náš panel s plným přístupem jednou provždy ukončuje síťové útoky.",
+    "protocol": "Protokol",
+    "save": "Uložit",
+    "search": "Hledat",
     "sonoranShieldDocuments": "Dokumenty Sonoran Shield",
     "sonoranShieldKeeps": "Sonoran Shield udržuje vaši komunitu ve hře nebo vrátí peníze.",
     "sonoranShieldNetworkDefense": "Sonoran Shield Network Defense",
     "sonoranShieldTutorial": "Návod na Sonoran Shield",
-    "unlink": "Odpojit"
+    "sourceASN": "Zdroj ASN *",
+    "sourceIP": "Zdroj IP *",
+    "sourcePort": "Zdrojový port",
+    "sourceType": "Typ zdroje *",
+    "unlink": "Odpojit",
+    "viewHistoricalNetworkAttacksOnYourServer": "Zobrazit historické síťové útoky na vašem serveru."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "Došlo k chybě při aktualizaci preferencí oznámení, zkuste to znovu později. Chyba:",
@@ -5453,7 +5811,19 @@
     "newStage": "Nová fáze",
     "reorderStages": "Přeuspořádat fáze"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Uživatelské jméno účtu",
+    "globalPermissions": "Globální oprávnění",
+    "miscData": "Různá data",
+    "registeredAt": "Registrováno dne:",
+    "save": "Uložit",
+    "username": "Uživatelské jméno:"
+  },
+  "systemAccount": {
+    "cancel": "Zrušit"
+  },
   "tabbedPermissionEditor": {
+    "calendars": "Kalendáře",
     "copiedCalendarPermissions": "Zkopírovaná oprávnění kalendáře",
     "copiedERLCPermissions": "Zkopírováno ER:LC Oprávnění",
     "copiedFormsPermissions": "Zkopírovaná oprávnění formulářů",
@@ -5465,6 +5835,11 @@
     "copiedServerPermissions": "Zkopírovaná oprávnění serveru",
     "copiedShiftTypesPermissions": "Kopírováno oprávnění ER:LC",
     "copiedSystemPermissions": "Zkopírovaná systémová oprávnění",
+    "eRLCServers": "ERLC Servery",
+    "forms": "Formuláře",
+    "gameServers": "Herní servery",
+    "navigation": "Navigace",
+    "pages": "Stránky",
     "pasteCalendarPermissions": "Vložit oprávnění kalendáře",
     "pasteERLCPermissions": "Vložit oprávnění ER:LC",
     "pasteFormsPermissions": "Vložit oprávnění formulářů",
@@ -5476,7 +5851,12 @@
     "pasteServerPermissions": "Vložit oprávnění serveru",
     "pasteShiftTypesPermissions": "Vložit oprávnění ER:LC",
     "pasteSystemPermissions": "Vložit systémová oprávnění",
-    "shiftTypes": "Typy směn"
+    "profileFields": "Profilová pole",
+    "rosters": "Seznamy",
+    "servers": "Servery",
+    "shiftTypes": "Typy směn",
+    "shortURLs": "Krátké URL adresy",
+    "system": "Systém"
   },
   "TeamspeakIntegration": {
     "addMapping": "Přidat mapování",
@@ -5650,6 +6030,9 @@
     "youAreRunningAnOutdatedVersionOf": "Používáte zastaralou verzi",
     "yourServersVersion": "Verze vašeho serveru"
   },
+  "videoForm": {
+    "videoURL": "URL videa"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Povolené hodnosti pro odpověď",
     "allowSubmitterReplies": "Povolit odpovědi odesílatele",
@@ -5707,6 +6090,8 @@
     "rightActivity": "Vpravo: Aktivita"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "Barva pozadí",
+    "textColor": "Barva textu",
     "updateMessage": "Textový obsah byl převeden ze starého editoru. Prosím, zkontrolujte a aktualizujte podle potřeby."
   },
   "Whitelist": {

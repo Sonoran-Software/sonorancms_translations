@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "Points disciplinaires actifs",
     "activeSecurityFlags": "Drapeaux de sécurité actifs",
     "profile": "profil",
+    "upload": "Téléverser",
     "visit": "Visiter"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "nom de la communauté",
     "communityProfile": "profilCommunauté",
     "communityRank": "rangCommunautaire"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Sélectionner le profil de la communauté"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "Une erreur s'est produite lors de la mise à jour des préférences de notification, réessayez plus tard. Erreur :",
@@ -95,6 +99,7 @@
     "confirmation": "Confirmation",
     "connections": "Connexions",
     "copyDiscordId": "Copier l'ID Discord",
+    "copyRawPermissions": "Copier les permissions brutes",
     "copyRobloxId": "Copier l'ID Roblox",
     "copyTeamspeakId": "Copier l'ID TeamSpeak",
     "days": "Jours",
@@ -136,8 +141,10 @@
     "mergeAccountsDescription": "La fusion du compte source avec le compte cible transférera tous les envois de formulaires, événements, sujets et réponses de forum, ainsi que toutes les données historiques du compte source vers le compte cible. Le compte source sera ensuite archivé. Cette action est irréversible, veuillez donc procéder avec précaution.",
     "mergeFailed": "Échec de la fusion :",
     "mergeSuccessful": "Fusion de compte réussie !",
+    "minimumInactivityWindowDays": "Fenêtre minimale d'inactivité (jours)",
     "modifyExpiration": "Modifier l'expiration",
     "multiaccount": "Multi-compte",
+    "multiAccountBanConfiguration": "Configuration de bannissement multi-compte",
     "multiaccountRankChange": "Changement de rang multi-comptes",
     "na": "N/A",
     "name": "Nom",
@@ -230,6 +237,7 @@
     "youProbablyNeedToUpdateYourServers": "Vous devez probablement mettre à jour vos serveurs"
   },
   "actionsEditor": {
+    "calendarCategories": "Catégories de calendrier",
     "calendarEvents": "Événements de calendrier",
     "checked": "Coché",
     "clockIn": "Point d'entrée",
@@ -296,6 +304,7 @@
     "rsvpDiscordMentionsVariableLabel": "Mentions Discord de la liste RSVP",
     "serverInSession": "Serveur en session",
     "servers": "Serveur(s)",
+    "servers2": "Serveurs",
     "serverSessions": "Sessions du serveur",
     "sessionEnd": "Fin de la session",
     "sessionStart": "Début de la session",
@@ -310,6 +319,11 @@
     "unchecked": "Non coché",
     "unknownAction": "Action Inconnue",
     "value": "Valeur"
+  },
+  "activityHoursView": {
+    "end": "Fin",
+    "start": "Début",
+    "trash": "Corbeille"
   },
   "AdminPanel": {
     "accountsaccounts": "Comptes",
@@ -425,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "Contenu de la notification ERLC",
     "erlcNotiContentDescription": "Description du contenu de notification ERLC",
+    "eRLCServer": "Serveur ERLC",
     "roles": "Rôle(s)",
     "webhookChannel": "canalWebhook",
     "webhookContentHint": "Indice de contenu du webhook",
@@ -681,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "appliquer une interdiction",
     "banExpiration": "expirationDuBan",
+    "banReason": "Raison du bannissement",
     "close": "fermer",
     "daysAheadToExpire": "joursAvantExpiration",
     "permanent": "permanent",
@@ -749,6 +765,9 @@
     "trial": "ESSAI",
     "unknownErrorOccuredWhileAttemptingToGene": "Une erreur inconnue s'est produite lors de la tentative de génération du paiement, veuillez réessayer plus tard.",
     "unpaid": "IMPAYÉ"
+  },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Sélectionnez la quantité de stockage GB que vous souhaitez ajouter à votre communauté."
   },
   "ButtonGroupForm": {
     "addButton": "Ajouter un Bouton",
@@ -934,8 +953,12 @@
     "square": "Carré",
     "title": "Titre"
   },
+  "carouselEl": {
+    "noImagesOptionsSet": "Aucune option d’images définie"
+  },
   "CarouselForm": {
-    "add": "Ajouter"
+    "add": "Ajouter",
+    "upload": "Téléverser"
   },
   "ChangeDirDialog": {
     "changeDirectory": "Changer de répertoire",
@@ -1259,6 +1282,39 @@
     "latestVersion": "Dernière version :",
     "unauthorizedMissingPermissionsToDownload": "Non autorisé : Permissions manquantes pour télécharger la ressource principale. Permission : MODIFY_INTEGRATION"
   },
+  "comManagementDialog": {
+    "back": "Retour",
+    "calendarCategories": "Catégories de calendrier",
+    "createTemplate": "Créer un modèle",
+    "departments": "Départements",
+    "forms": "Formulaires",
+    "noCalendarCategories": "Aucune catégorie de calendrier",
+    "noDepartments": "Aucun département",
+    "noPages": "Aucune page",
+    "noRosters": "Aucune liste",
+    "noStageGroups": "Aucun groupe d'étapes",
+    "noStages": "Aucune étape",
+    "notAssociated": "Non associé",
+    "noTemplatesFoundOnYourAccount": "Aucun modèle trouvé sur votre compte.",
+    "noToolbarItems": "Aucun élément de barre d'outils",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Une fois supprimé, il ne sera plus accessible via cette boîte de dialogue.",
+    "pages": "Pages",
+    "return": "Retour",
+    "rosters": "Listes",
+    "save": "Enregistrer",
+    "stageGroups": "Groupes d'étapes",
+    "stages": "Étapes",
+    "submit": "Soumettre",
+    "templateCreationBasicInformation": "Création de modèle - Informations de base",
+    "templateCreationDataSelection": "Création de modèle - Sélection des données",
+    "templateCreationFinalize": "Finalisation de la création du modèle",
+    "templateDescription": "Description du modèle",
+    "templateManage": "Gestion du modèle -",
+    "templateTitle": "Titre du modèle",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "Cette page n'est plus associée à la communauté, ce qui signifie qu'elle ne peut plus être mise à jour.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "Cela mettra à jour cette page avec ce que votre communauté a actuellement, cette action est irréversible une fois le modèle enregistré.",
+    "view": "Voir"
+  },
   "common": {
     "add": "Ajouter",
     "calCates": "Catégories de calendrier",
@@ -1317,6 +1373,11 @@
     "successfullyLeft": "Quitté avec succès",
     "youCannotLeaveACommunityThatYouOwn": "Vous ne pouvez pas quitter une communauté que vous possédez !"
   },
+  "communityDashboard": {
+    "no": "Non",
+    "reSync": "Resynchroniser",
+    "yes": "Oui"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Documents de découverte de la communauté",
     "commmunityDiscoveryTutorial": "Tutoriel de découverte de la communauté",
@@ -1329,8 +1390,10 @@
     "previewCommunity": "Aperçu de la communauté",
     "pro": "Pro",
     "return": "Retour",
+    "search": "Rechercher",
     "standard": "Standard",
     "starter": "Débutant",
+    "tags": "Tags :",
     "thisCommunityHasSomeOfTheMostActiveMembe": "Cette communauté a certains des membres les plus actifs",
     "thisCommunityIsGrowingRapidly": "Cette communauté se développe rapidement",
     "thisCommunityIsReceivingHighWebsiteTraff": "Cette communauté reçoit un trafic web élevé",
@@ -1338,9 +1401,48 @@
     "viewAll": "Voir tout",
     "website": "Site web"
   },
+  "communityDrive": {
+    "assetFolders": "Dossiers de ressources",
+    "audioPlayer": "Lecteur audio",
+    "communityImagesAssets": "Images / ressources de la communauté",
+    "downloadAsset": "Télécharger l’actif",
+    "files": "Fichiers",
+    "new": "Nouveau",
+    "play": "Lire",
+    "removeAsset": "Supprimer l'élément"
+  },
+  "communityLookup": {
+    "communityID": "ID de la communauté",
+    "forceJoin": "Forcer l'adhésion",
+    "forceLeave": "Quitter de force",
+    "rawData": "Données brutes",
+    "restoreCommunity": "Restaurer la communauté"
+  },
+  "communityMenu": {
+    "dismiss": "Rejeter",
+    "join": "Rejoindre",
+    "launchingYourNewCommunity": "Lancement de votre nouvelle communauté..."
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Erreur : Vous n'avez pas la permission de voir",
     "thereWasAProblemLoadingThePage": "Il y a eu un problème lors du chargement de la page"
+  },
+  "communityTemplates": {
+    "approve": "Approuver",
+    "approved": "Approuvé",
+    "cancel": "Annuler",
+    "edit": "Éditer",
+    "editTemplate": "Modifier le modèle",
+    "inactive": "Inactif",
+    "needsReview": "À revoir",
+    "newChangesPendingReview": "Nouveaux changements | En attente de révision",
+    "remove": "Supprimer",
+    "save": "Enregistrer"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "par Sonoran Software Systems",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Créé par un employé officiel de Sonoran Software Systems",
+    "view": "Voir"
   },
   "ConditionalFormSectionUI": {
     "Checked": "Vérifié",
@@ -1716,7 +1818,8 @@
     "yourCurrently": "Vous êtes actuellement"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Tous les fichiers peuvent ne pas être visibles pour vous, cette utilisation est calculée pour tous les fichiers au sein de la communauté."
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Tous les fichiers peuvent ne pas être visibles pour vous, cette utilisation est calculée pour tous les fichiers au sein de la communauté.",
+    "used": "utilisé"
   },
   "DepartmentEditor": {
     "addRosterRow": "Ajouter une ligne à la liste",
@@ -1724,10 +1827,12 @@
     "allowWhitelist": "Autoriser la liste blanche",
     "attachesToProfile": "Attaché au profil",
     "BlockWhitelist": "Bloquer la liste blanche",
+    "cancel": "Annuler",
     "clockInOut": "Pointer à l'entrée et à la sortie",
     "departmentManager": "Responsable de département",
     "editFieldOnOtherProfiles": "Modifier le champ sur d'autres profils",
     "editRosterRow": "Modifier la ligne de la liste",
+    "field": "Champ",
     "hidesFieldFromProfileOwner": "Masquer le champ au propriétaire du profil",
     "inheritedFromDefaultDepartmentPermission": "HÉRITÉ DES PERMISSIONS PAR DÉFAUT DU DÉPARTEMENT",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Il est inutile de copier les permissions d'une application qui n'a pas de permissions...",
@@ -1809,12 +1914,16 @@
   "disciplinaryAccounts": {
     "accountLabel": "Compte",
     "addDisciplinaryPoints": "ajouterDesPointsDisciplinaires",
+    "amount": "Montant:",
     "configureActions": "Configurer les Actions",
+    "date": "Date :",
     "disciplinaryPoints": "points disciplinaires",
+    "eRLCViolationAutomatic": "Violation ERLC - automatique",
     "noActiveDisciplinaryPoints": "aucunPointDisciplinaireActif",
     "noRobloxAccountLinked": "Aucun Compte Roblox Lié",
     "pointsLabel": "Points",
-    "reasonLabel": "Raison"
+    "reasonLabel": "Raison",
+    "source": "Source:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -1967,6 +2076,7 @@
     "departmentEditedMentions": "Département modifié - Mentions",
     "departmentRemovedChannel": "Département supprimé - Canal",
     "departmentRemovedMentions": "Département supprimé - Mentions",
+    "direction": "Direction",
     "disabled": "Désactivé",
     "discordRoleSyncDocuments": "Documents de Synchronisation des Rôles Discord",
     "discordRoleSyncTutorial": "Tutoriel de Synchronisation des Rôles Discord",
@@ -2043,6 +2153,7 @@
     "webhookLogging": "Journalisation des Webhooks"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Ajouter des rôles supplémentaires",
     "afterChangesAreMadeItWillQueueMasssyncsW": "Après que les modifications ont été apportées, elles seront mises en file d'attente pour des synchronisations massives avec le bot, ce qui peut prendre du temps pour ne pas spammer le bot.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "Une erreur s'est produite lors de l'ajout de la correspondance de rôle, réessayez plus tard.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "Une erreur s'est produite lors de l'évaluation des correspondances avant la validation, réessayez.",
@@ -2058,9 +2169,12 @@
     "roleId": "ID du rôle :",
     "roleInUseExplanation": "Ce rôle Discord est déjà dans une correspondance de catégorie existante, mettez à jour cette correspondance existante si vous souhaitez ajouter plus de rangs CMS.",
     "selectRank": "Sélectionner le rang",
+    "selectRankS": "Sélectionner le ou les rangs",
+    "selectRole": "Sélectionner un rôle",
     "thisMappingDoesntExistRefresh": "Cette correspondance n'existe pas, actualisez."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "Filtrer les rôles ou les guildes",
     "guild": "Guilde :"
   },
   "DiscordRoleSelector": {
@@ -2144,6 +2258,9 @@
     "errorYouDoNotHavePermissionToEditThisFil": "Erreur : Vous n'avez pas la permission de modifier ce fichier.",
     "protectionOnlyAccess": "Vous avez un accès en protection uniquement pour ce document, donc l'éditeur de contenu est masqué."
   },
+  "driveQuickUploader": {
+    "noUploadsYet": "Aucun téléversement pour le moment"
+  },
   "DriveViewDoc": {
     "documentName": "Nom du Document",
     "errorMissingPermissionsForThisFile": "Erreur : Permissions manquantes pour ce fichier."
@@ -2177,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Notez que les ressources utilisant les métadonnées sont sensibles à la casse (par exemple, firstname et FirstName agissent différemment)",
     "noVehiclesAvailable": "Aucun véhicule disponible",
     "onDuty": "En service",
+    "onlineStatus": "Statut en ligne:",
     "owner": "Propriétaire :",
     "ownerLicense": "Licence du propriétaire :",
     "phoneNumber": "Numéro de téléphone",
@@ -2243,6 +2361,7 @@
     "permissions": "Permissions",
     "pressEnterToAdd": "Appuyez sur Entrée pour ajouter",
     "quarter": "Trimestre",
+    "rankS": "Rang(s)",
     "ruleBuilder": "Constructeur de Règles",
     "save": "Enregistrer",
     "select": "Sélectionner",
@@ -2295,9 +2414,14 @@
     "selectItem": "Sélectionner l'article",
     "selectNextSlot": "Sélectionner l'emplacement suivant :",
     "slot": "Emplacement",
+    "slot2": "Emplacement",
     "slotMetadata": "Métadonnées de l'emplacement",
     "update": "Mettre à jour",
     "update43": "Mettre à jour"
+  },
+  "editMeta": {
+    "renameDocument": "Renommer le document",
+    "toggleViewingWatermark": "Activer/désactiver le filigrane d'affichage"
   },
   "Editor": {
     "activityTrackerHours": "Heures de suivi d'activité",
@@ -2363,6 +2487,7 @@
     "private": "Privé",
     "public": "Public",
     "rankAccess": "Accès au rang",
+    "shareType": "Type de partage",
     "unlisted": "Non répertorié",
     "viewDocument": "Voir le document"
   },
@@ -2408,7 +2533,8 @@
     "containImage": "Contenir l'image",
     "fillImage": "Remplir l'image",
     "lockItemToThisSection": "Verrouiller l'élément à cette section",
-    "unlockToDragItemToAnotherSection": "Déverrouiller pour faire glisser l'élément vers une autre section"
+    "unlockToDragItemToAnotherSection": "Déverrouiller pour faire glisser l'élément vers une autre section",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "Ajouter une ligne de boutons",
@@ -2487,13 +2613,22 @@
     "webhookChannel": "canalWebhook"
   },
   "ERLCActivity": {
+    "date": "Date",
     "errorAnErrorOccuredWhileFetchingServerDa": "Une erreur est survenue lors de la récupération des données du serveur.",
     "filter": "filtrer",
     "latestActivity": "Dernière activité",
     "pending": "En attente",
+    "pickDateRange": "Choisir une plage de dates",
+    "searchByUsername": "Rechercher par nom d'utilisateur",
+    "selectMember": "Sélectionner un membre",
+    "selectTypes": "Sélectionner des types",
+    "selectUser": "Sélectionner l'utilisateur",
     "showingAllLogs": "Affichage de tous les journaux",
     "showingPlayerRecords": "Affichage des dossiers des joueurs",
-    "unknownStage": "Stade inconnu"
+    "staffMember": "Membre du personnel",
+    "type": "Type",
+    "unknownStage": "Stade inconnu",
+    "user": "Utilisateur"
   },
   "ERLCActivityLog": {
     "addedMessage": "message ajouté",
@@ -2638,6 +2773,7 @@
     "illicit": "illicite",
     "kickUsersWithAllothersInUsername": "expulserLesUtilisateursAvecTousLesAutresDansLeNomDUtilisateur",
     "kickUsersWithInappropriateUsernames": "expulserLesUtilisateursAvecDesNomsDUtilisateurInappropriés",
+    "log": "journal",
     "lowercaseCommand": "commande",
     "name": "Nom",
     "priorityPlayerList": "Liste de joueurs prioritaires",
@@ -2649,6 +2785,7 @@
     "selfharm": "automutilation",
     "sexual": "sexuel",
     "stages": "Stades",
+    "testUsername": "Nom d'utilisateur de test",
     "username": "nom d'utilisateur",
     "usernameModeration": "modérationDuNomD'utilisateur",
     "violence": "violence"
@@ -2666,6 +2803,7 @@
     "disciplinaryPoints": "Points disciplinaires",
     "editedTheRecords": "modifié les enregistrements",
     "editExistingRecord": "Modifier le Dossier Existant",
+    "editHistory": "Modifier l'historique",
     "enterUsernames": "Entrez le(s) nom(s) d'utilisateur",
     "enterYourReasonForRecord": "Entrez votre raison pour le dossier...",
     "kick": "Expulser",
@@ -2676,6 +2814,7 @@
     "numberOfPointsToAdd": "Nombre de points à ajouter...",
     "points": "Points",
     "pointsFrom": "points de",
+    "reason": "Raison",
     "reasonFrom": "raison de",
     "recordType": "Type de dossier",
     "saveChanges": "Enregistrer les Modifications",
@@ -2738,10 +2877,21 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Joueurs actuels en file d'attente",
     "filter": "filtre",
+    "fire": "feu",
     "noPlayersConnected": "aucunJoueurConnecté",
     "playersIngame": "```Nombre de joueurs en jeu```\n",
     "playersInQueue": "joueursEnAttente",
+    "police": "police",
+    "search": "Rechercher",
+    "sheriff": "shérif",
     "teams": "équipes"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Créer et afficher des dossiers.",
+    "openUserPanelFor": "Ouvrir le panneau utilisateur pour"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "Aucune activité trouvée"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Déclencher cette action après avoir enfreint la restriction pendant un certain temps (en secondes)",
@@ -2911,6 +3061,9 @@
     "submissions": "Soumissions",
     "thirdpartySubmissions": "Soumissions tierces",
     "timeclock": "Horloge de pointage"
+  },
+  "formRankAccountRow": {
+    "section": "Section:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Fichiers acceptés pour le téléversement",
@@ -3231,6 +3384,7 @@
     "categoryLabel": "Étiquette de catégorie",
     "create": "Créer",
     "createPrivateTopics": "Créer des sujets privés",
+    "createTopics": "Créer des sujets",
     "deleteCategory": "Supprimer la catégorie",
     "edit": "Éditer",
     "editSubcategory": "Éditer la sous-catégorie",
@@ -3303,6 +3457,7 @@
     "thisForumTopicIsLockedFromNewReplies": "Ce sujet de forum est verrouillé pour les nouvelles réponses.",
     "thisForumTopicIsPinnedWithinThe": "Ce sujet de forum est épinglé dans le",
     "thisTopic": "ce sujet ?",
+    "title": "Titre",
     "topicRepliesBelow": "Réponses au sujet ci-dessous",
     "uniqueIdCopiedToClipboard": "ID unique copié dans le presse-papiers.",
     "unlock": "Déverrouiller",
@@ -3363,9 +3518,81 @@
     "uploadANewPhoto": "Télécharger une nouvelle photo",
     "uploadNewPhoto": "Télécharger une nouvelle photo"
   },
+  "gameDashboard": {
+    "activePlayers": "Joueurs actifs"
+  },
+  "gameEnvironment": {
+    "blackout": "Panne d'électricité"
+  },
   "GameIndex": {
+    "accessTheGameServerSPanel": "Accédez au panneau du serveur de jeu.",
+    "andClickToCopyPasteTheIDAndKeyBelow": "et cliquez pour copier/coller l'ID et la clé ci-dessous.",
+    "aPIKey": "Clé API",
+    "click": "Cliquez",
+    "communityID": "ID de la communauté",
+    "copyYourERLCAPIKey": "Copiez votre clé API ER:LC",
+    "createNewServer": "Créer un nouveau serveur",
+    "directoryToCustomizeYourFeatures": "répertoire pour personnaliser vos fonctionnalités.",
+    "disabledDueToMissingPermission": "Désactivé en raison d’une autorisation manquante :",
+    "downloadInstall": "Télécharger et installer",
+    "eRLCAPIKey": "Clé API ER:LC",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC accorde l’accès à l’API en tant que mise à niveau payante.",
+    "fileManager": "Gestionnaire de fichiers",
+    "forOff": "à -20 %.",
+    "gamePanelPurchase": "Achat du panneau de jeu",
+    "installSonoran": "Installer Sonoran",
+    "launchGame": "Lancer le jeu",
+    "loadIntoYourERLCServer": "Charger dans votre serveur ER:LC",
+    "manualInstall": "Installation manuelle",
+    "melonly": "Melonly",
     "melonlyApiKey": "Clé API Melonly",
-    "noPlayersFoundSearch": "Aucun joueur trouvé... Rechercher"
+    "moderation": "Modération",
+    "navigateToERLCAPI": "Aller à \"ER:LC API\"",
+    "navigateToOwnedServers": "Aller à \"Serveurs possédés\"",
+    "navigateToServers": "Aller à \"Servers\"",
+    "navigateToThe": "Aller à la",
+    "navigateToUpgradedPacks": "Accéder à « Packs améliorés »",
+    "noPlayersFoundSearch": "Aucun joueur trouvé... Rechercher",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Une fois l'installation terminée, vous pouvez accéder aux fichiers de ressources dans",
+    "oneClickInstallation": "Installation en un clic",
+    "onTheRocketNodeGamePanelNavigateTo": "Sur le panneau du jeu Rocket Node, accédez à",
+    "onTheRocketNodePanel": "sur le panneau Rocket Node.",
+    "openTheServerInfoTab": "Ouvrir l’onglet \"Infos du serveur\"",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Collez votre clé API ci-dessous dans le champ de saisie et cliquez sur la coche pour enregistrer",
+    "pasteYourERLCAPIKey": "Collez votre clé API ER:LC",
+    "purchaseAFiveMGameServerFromRocketNode": "Acheter un serveur de jeu FiveM chez Rocket Node",
+    "purchaseAPIAccessFromERLC": "Acheter l'accès à l'API depuis ER:LC",
+    "resources": "Ressources",
+    "select": "Sélectionner",
+    "selectAPIPackAndPurchase": "Sélectionnez « API Pack » et achetez",
+    "selectEditServerSettings": "Sélectionner \"Modifier les paramètres du serveur\"",
+    "selectEditToCopyToClipboard": "Sélectionnez \"Modifier\" pour copier dans le Presse-papiers",
+    "selectTheMenuButtonAtTheTopLeft": "Sélectionnez le bouton \"Menu\" en haut à gauche",
+    "selectYourPrivateServer": "Sélectionnez votre serveur privé",
+    "sonoranInstaller": "Installateur Sonoran",
+    "useCouponCode": "Utiliser le code promo",
+    "useTestData": "Utiliser des données de test",
+    "videoTutorial": "Tutoriel vidéo",
+    "youCanLearnMoreAboutConfigurationOptions": "Vous pouvez en apprendre davantage sur les options de configuration",
+    "youMustBeAnAdminToViewTheAPIKey": "Vous devez être administrateur pour voir la clé API."
+  },
+  "gamePlayers": {
+    "noCharacters": "Aucun personnage"
+  },
+  "gameResources": {
+    "ensure": "S'assurer",
+    "noResults": "Aucun résultat",
+    "start": "Démarrer"
+  },
+  "gameVehicles": {
+    "actions": "Actions",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "despawnVehicle": "disparaîtreVéhicule",
+    "info": "Info",
+    "noResults": "Aucun résultat",
+    "passengers": "Passagers",
+    "repairVehicle": "réparerVéhicule"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Action effectuée ! Cela peut prendre une minute ou deux pour que le panneau se mette à jour...",
@@ -3402,6 +3629,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "Il n'y avait pas assez de données pour que cette communauté puisse déterminer"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Favoriser cette métrique",
     "growtherrored": "ERREUR",
     "growthloadingdata": "CHARGEMENT DES DONNÉES",
     "growthnewusersjoiningyourcommunity": "Nouveaux utilisateurs rejoignant votre communauté",
@@ -3419,7 +3647,27 @@
     "growthuserswhohaveleftyourcommunity": "Utilisateurs ayant quitté votre communauté :",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Nombre d'utilisateurs uniques ayant visité la page de la communauté depuis la Découverte de la Communauté",
     "numberOfUniqueViewsFromCommunityDiscover": "Nombre de vues uniques depuis la Découverte de la Communauté",
-    "theresNotEnoughDataToPopulateTheGraph": "Il n'y a pas assez de données pour remplir le graphique."
+    "theresNotEnoughDataToPopulateTheGraph": "Il n'y a pas assez de données pour remplir le graphique.",
+    "thisMetricIsFavorite": "Cette métrique est favorite"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Aucun favori pour le moment. Cliquez sur l'icône étoile sur n'importe quelle métrique ou graphique pour l'ajouter à vos favoris.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Façonnez la façon dont votre communauté apparaît dans la découverte et gardez le titre, la bannière et la description alignés."
+  },
+  "guideManagement": {
+    "add": "Ajouter",
+    "addGuide": "Ajouter un guide",
+    "allGuidesAvailable": "Tous les guides disponibles",
+    "cancel": "Annuler",
+    "editTheGuideLabel": "Modifier le libellé du guide",
+    "editTheGuideURL": "Modifier l’URL du guide",
+    "enterBelowAllInformationRegardingThisGuide": "Saisissez ci-dessous toutes les informations concernant ce guide.",
+    "gitBookGuideURL": "URL du guide GitBook",
+    "guideLabel": "Libellé du guide",
+    "missingGuideURL": "URL de guide manquante !",
+    "missingVideoURL": "URL de vidéo manquante !",
+    "newGuide": "Nouveau guide",
+    "tutorialVideoURL": "URL de la vidéo tutorielle"
   },
   "helpButtonComponent": {
     "close": "Fermer",
@@ -3439,8 +3687,15 @@
     "icon": "Icône",
     "image": "Image"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Plein écran"
+  },
+  "iFrameForm": {
+    "iFrameURL": "URL de l'iFrame"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Cliquez pour télécharger une image",
+    "hyperlinkOptions": "Options de lien hypertexte",
     "targetForm": "Formulaire",
     "targetNone": "Aucun",
     "targetPage": "Page personnalisée",
@@ -3459,7 +3714,9 @@
     "errorMaxSizeMessage": "Le fichier dépasse la limite de taille de 5 Mo.",
     "errorMaxTotalSizeMessage": "La taille totale des fichiers dépasse la limite maximale autorisée de 100 Mo.",
     "errorMessage": "Une erreur s'est produite lors du téléchargement de l'image :",
-    "errorUploadMessage": "Une erreur s'est produite pendant le téléchargement."
+    "errorUploadMessage": "Une erreur s'est produite pendant le téléchargement.",
+    "imagePreview": "Aperçu de l'image",
+    "upload": "Téléverser"
   },
   "Index": {
     "account": "Compte",
@@ -3690,6 +3947,31 @@
     "withADuplicate": "avec un doublon",
     "yes": "Oui",
     "youDoNotHavePermissionsForThisGameServer": "Vous n'avez pas les permissions pour ce serveur de jeu."
+  },
+  "indexPage": {
+    "aIAutomation": "Automatisation IA",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Détectez automatiquement les comptes en double à travers des dizaines de signaux de comportement et de profil pour garder votre communauté en sécurité.",
+    "backups": "Sauvegardes",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "Les rangs CMS sont votre point de contrôle unique pour les permissions. Gérez les listes blanches, l'accès aux fichiers et aux sites web, la synchronisation des rôles Discord, et plus encore depuis un système unifié.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Créez des formulaires personnalisés pour les demandes de liste blanche, les demandes de LOA et plus encore. De puissantes automatisations d'étape peuvent mettre à jour les rangs des utilisateurs, synchroniser les effectifs, déclencher des notifications et gérer automatiquement les étapes répétitives du flux de travail.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Les listes de communauté personnalisées se mettent à jour en direct avec le statut d'activité des membres, le temps de connexion, les rangs, et plus encore. Déclenchez des automatisations pour les changements de statut ou mettez à jour les listes directement depuis les actions des étapes du formulaire.",
+    "formsAndApplications": "Formulaires et applications",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Exploitez l’automatisation alimentée par l’IA pour gérer votre communauté plus vite, plus sûrement et avec moins de travail manuel.",
+    "integratedGamePanels": "Panneaux de jeu intégrés",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Gardez vos fichiers, formulaires et workflows organisés au même endroit.",
+    "managesYourEntireGamingCommunity": "gère toute votre communauté de jeu.",
+    "manageYourGameOperationsWithNativePanelIntegrations": "Gérez vos opérations de jeu avec des intégrations natives du panneau.",
+    "openBillingCenter": "Ouvrir le centre de facturation",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Organisez les membres, attribuez les responsabilités et gardez la structure du personnel claire.",
+    "rankManager": "Gestionnaire de Rangs",
+    "rosters": "Listes",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Gérez votre communauté de jeu depuis une seule plateforme : sécurité optimisée par l'IA et automatisation des formulaires, effectifs en direct et permissions basées sur le rang, gestion synchronisée des rôles Discord et flux de travail documentaires collaboratifs avec des contrôles d'accès granulaires.",
+    "saveWithQuarterlyBilling": "Économisez 25 % avec la facturation trimestrielle",
+    "security": "Sécurité",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Partager et modifier des documents en direct, ajouter une protection par filigrane, intégrer des images et des fichiers, et synchroniser automatiquement les permissions d'accès avec les rangs du CMS.",
+    "totalBilledQuarterly": "total facturé trimestriellement",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Utilisez le classement assisté par IA pour traiter automatiquement les soumissions de formulaire et acheminer chacune vers l'étape de révision appropriée.",
+    "userManagement": "Gestion des utilisateurs"
   },
   "InfoBlocksForm": {
     "add": "Ajouter",
@@ -3987,6 +4269,7 @@
     "profile": "Profil",
     "promotional": "Promotionnel",
     "running": "En cours d'exécution",
+    "serverHosting": "Hébergement serveur",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS gère le site web de votre communauté, les documents, la liste blanche, les permissions en jeu, et plus encore !",
     "thisCommunityUsesDiscordIntegrationPleas": "Cette communauté utilise l'intégration Discord! Veuillez lier votre discord pour une synchronisation correcte des rôles.",
     "thisCommunityUsesRobloxIntegrationPleas": "Cette communauté utilise l'intégration Roblox ! Veuillez lier votre Roblox pour une utilisation correcte de l'intégration.",
@@ -4001,8 +4284,10 @@
     "allowedRanksToReply": "Rangs Autorisés à Répondre",
     "allowSubmitterReplies": "Autoriser les Réponses du Soumetteur",
     "cancel": "Annuler",
+    "changedTheStageFrom": "a changé l'étape de",
     "changeStage": "Changer de stade",
     "close": "Fermer",
+    "commentHere": "Commenter ici...",
     "deleteForm": "Supprimer le Formulaire",
     "hidden": "Caché",
     "invalidStage": "Étape Invalide",
@@ -4027,6 +4312,13 @@
     "unlocked": "DÉVERROUILLÉ",
     "visible": "Visible",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Vous serez notifié lorsqu'une nouvelle réponse sera ajoutée à ce formulaire."
+  },
+  "massNotificationManagement": {
+    "btnLabel": "Libellé du bouton",
+    "btnURL": "Btn URL",
+    "notificationContent": "Contenu de la notification",
+    "sendNotification": "Envoyer une notification",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "affichera une QNotify supérieure avec le contenu comme message de notification, si vous fournissez un libellé de bouton et une url, ils seront joints à la QNotify."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Webhook Discord",
@@ -4125,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "Échec de l'enregistrement des métadonnées du document.",
     "file": "fichier",
     "folder": "dossier",
-    "save": "Enregistrer"
+    "save": "Enregistrer",
+    "share": "Partager \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "Les membres actifs de la communauté avec ce lien peuvent",
@@ -4214,6 +4507,7 @@
     "roster": "Liste",
     "rounded": "Arrondi",
     "square": "Carré",
+    "styles": "Styles",
     "submitForm": "Soumettre le formulaire",
     "target": "Cible",
     "targetForm": "Formulaire cible",
@@ -4225,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "Une erreur s'est produite lors de l'interrogation des données :",
     "anErrorOccuredWhileSubmittingForm": "Une erreur s'est produite lors de la soumission du formulaire :",
+    "cancel": "Annuler",
     "errorYouDoNotHavePermissionToSubmitThisF": "Erreur : Vous n'avez pas la permission de soumettre ce formulaire.",
     "formCouldNotBeFoundToBeCreatedFrom": "Le formulaire n'a pas pu être trouvé pour être créé.",
     "noRank": "Aucun rang",
+    "previous": "Précédent",
     "requiredFieldTooltip": "{field} est requis",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "Il y a un ou plusieurs champs obligatoires qui ne sont pas remplis.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "L'utilisateur pourra voir cette soumission sur son profil.",
@@ -4241,7 +4537,7 @@
     "youMustSelectAUserToSubmitThisFormUnder": "Vous devez sélectionner un utilisateur pour soumettre ce formulaire."
   },
   "oauth": {
-    "dismiss": "Rejeter",
+    "dismiss": "Ignorer",
     "noAuthCredentialsPresentContactSupport": "Aucun identifiant d'authentification présent, contactez le support."
   },
   "OnJoinActionEditor": {
@@ -4291,6 +4587,7 @@
     "none": "aucun",
     "openSectionEditor": "Ouvrir l'éditeur de section",
     "pageBackground": "Arrière-plan de la page",
+    "pasteSection": "Coller la section",
     "savedCustomCssClasses": "Classes CSS personnalisées enregistrées.",
     "scalesTheBackgroundImageSoThatItsOrigina": "Agrandit l'image de fond de sorte que ses proportions originales soient maintenues.",
     "scalesTheBackgroundImageToCoverContainer": "Agrandit l'image de fond pour couvrir le conteneur",
@@ -4709,6 +5006,7 @@
     "exampleName": "Nom d'exemple",
     "exampleRank": "Exemple de Rang",
     "learnHowToUseProfileFields": "Apprenez à utiliser les champs de profil",
+    "newProfileField": "Nouveau champ de profil",
     "profileFieldsDocuments": "Documents des champs de profil",
     "profileFieldsEditor": "Éditeur de Champs de Profil",
     "profilefieldseditorerrorsnofindfield": "Aucun champ n'a été trouvé à partir de ce qui est sélectionné.",
@@ -4797,6 +5095,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Erreur : Vous ne pouvez pas modifier ce membre en raison de votre pouvoir communautaire.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Erreur : Vous n'avez pas la permission de modifier les informations d'un individu.",
     "exportTime": "Heure d'exportation :",
+    "filterForms": "Filtrer les formulaires",
     "for": "pour",
     "formLabel": "Étiquette de formulaire",
     "formSettings": "Paramètres du formulaire",
@@ -4957,9 +5256,37 @@
     "selectPromotionFlowFromCommunityConfiguration": "Sélectionnez un processus de promotion dans la configuration de la communauté.",
     "sendRankNoti": "Envoyer une notification de rang",
     "subtitle": "Traitez les flux de promotion de rang automatisés pour vos membres de la communauté.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Cette action ne se déclenchera que si ce flux est en diminution.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "Cette action ne se déclenchera que si ce flux est en promotion.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "Cette action se déclenchera pour les promotions et les rétrogradations.",
     "title": "Flux de promotions",
     "toLabelVariableDesc": "Cela indiquera l'étiquette de destination définie pour ce flux de promotion.",
     "toLabelVariableLabel": "Étiquette de destination"
+  },
+  "protectedManagement": {
+    "between": "Entre:",
+    "cMSManagementPanel": "Panneau de gestion du CMS",
+    "connectedUsers": "Utilisateurs connectés",
+    "lastUpdated": "Dernière mise à jour :",
+    "manageGuides": "Gérer les guides",
+    "noSpecificGrowthMetricsFetched": "Aucune métrique de croissance spécifique récupérée...",
+    "noSpecificUsersMetricsFetched": "Aucune métrique d’utilisateurs spécifiques récupérée...",
+    "sendMassNotification": "Envoyer une notification de masse",
+    "specificDetailedUserMetricsHistory": "Détaillé spécifique - Historique des métriques utilisateur",
+    "specificGrowthUserMetricsHistory": "Croissance spécifique - Historique des métriques utilisateur",
+    "systemAccounts": "Comptes système"
+  },
+  "qBItems": {
+    "itemImageSelector": "Image de l'article (sélecteur)",
+    "search": "Rechercher"
+  },
+  "qBJobs": {
+    "defaultDuty": "Service par défaut",
+    "jobLabel": "Libellé du poste",
+    "offDutyPay": "Prime d'astreinte"
+  },
+  "qBoxItems": {
+    "search": "Rechercher"
   },
   "RadioIntegration": {
     "apiCredentials": "informations d'identification de l'API",
@@ -4979,10 +5306,12 @@
     "noCommunityId": "aucun identifiant de communauté",
     "permissionSelector": "sélecteurDePermission",
     "remove": "supprimer",
+    "setAnAPIIDAndKeyToSetPermissions": "Définissez un ID API et une clé pour définir les autorisations",
     "syncOptions": "optionsDeSynchronisation",
     "title": "Configurations de Sonoran Radio"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Sélectionnez les canaux privés que le rang est autorisé à rejoindre",
     "setRadio": "réglerRadio"
   },
   "rankAccountRow": {
@@ -5087,6 +5416,7 @@
     "filterRanks": "Filtrer les rangs"
   },
   "rankSelect": {
+    "filterRanks": "Filtrer les rangs",
     "noRankOptionsToSelectFrom": "aucuneOptionDeRangÀSélectionner"
   },
   "Resources": {
@@ -5139,6 +5469,7 @@
     "clickToDisableConditionalFormatValueBein": "Cliquez pour désactiver la valeur de format conditionnel remplacée",
     "clickToOverrideConditionalFormatValue": "Cliquez pour remplacer la valeur de format conditionnel",
     "close": "Fermer",
+    "deleteRow": "Supprimer la ligne",
     "downloadRosterCsv": "Télécharger la liste complète au format CSV",
     "end": "Fin:",
     "errorDownloadingRosterCSV": "Erreur lors du téléchargement du fichier CSV de la liste, contactez le support si cela persiste.",
@@ -5148,6 +5479,7 @@
     "membersPerPage": "Membres par page :",
     "na": "N/A",
     "noServer": "Pas de nom de serveur",
+    "ranks": "Rangs",
     "start": "Commencer:",
     "valueHasBeenOverwrittenByAManualValueIgn": "La valeur a été remplacée par une valeur manuelle, ignorant les ensembles de valeurs conditionnelles.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Vous n'avez pas les permissions pour gérer le suivi des activités sur ce tableau."
@@ -5171,6 +5503,7 @@
     "bottom": "Bas",
     "center": "Centre",
     "clone": "Cloner",
+    "close": "Fermer",
     "contain": "contenir",
     "cover": "couvrir",
     "cssPlaceholder": "Exemple : bordure : 2px solide #ff671d; bordure-radius : 8px;",
@@ -5210,6 +5543,12 @@
     "viewportWidth": "Largeur de la fenêtre",
     "width": "Largeur"
   },
+  "sectionWrapper": {
+    "copyElement": "Copier l'élément",
+    "copySection": "Copier la section",
+    "pasteElement": "Coller l'élément",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Copier virtuellement la section, coller sur d'autres pages avec un clic droit."
+  },
   "selectComPage": {
     "selectCommunityPage": "Sélectionner la Page de la Communauté"
   },
@@ -5223,6 +5562,7 @@
     "createCustomPages": "Créez des pages Web personnalisées pour votre communauté !",
     "homepageUpdated": "Page d'accueil mise à jour !",
     "homepageUpdatedButDuringDiscoveryApproval": "La page d'accueil a été mise à jour, mais lors de l'approbation de la découverte, elle a échoué et a désactivé la découverte en raison de :",
+    "pageOptions": "Options de page",
     "searchPages": "Rechercher des pages",
     "selectPageTemplate": "Sélectionner le modèle de page",
     "sortModeActivatedDragAndDropTheRowsInThe": "Mode de tri activé : Glissez et déposez les lignes dans l'ordre dans lequel vous souhaitez les trier.",
@@ -5277,6 +5617,7 @@
     "administration": "Administration",
     "allowPrivateCommentsTrigger": "Déclencher sur les commentaires privés",
     "changedOn": "Changé le",
+    "close": "Fermer",
     "column": "Colonne",
     "erlcServer": "Serveur ER:LC",
     "formSubmitter": "Soumissionnaire de formulaire",
@@ -5285,6 +5626,7 @@
     "lockType": "Type de verrouillage",
     "moderation": "Modération",
     "newValue": "Nouvelle valeur",
+    "player": "Joueur",
     "roleplay": "Rôleplay",
     "roster": "Liste",
     "stageChanger": "Changeur de stade",
@@ -5296,27 +5638,43 @@
     "create": "Créer"
   },
   "shieldPanel": {
+    "action": "Action :",
     "addFilter": "Ajouter un filtre",
     "addRule": "Ajouter une règle",
     "allowOrBlock": "Autoriser ou bloquer des IPs sur les ports de votre serveur.",
     "applicationFilters": "Filtres d'application",
     "attackHistory": "Historique des attaques",
+    "attacks": "Attaques",
+    "close": "Fermer",
+    "comment": "Commentaire",
     "commonhelp": "Aide",
+    "destination": "Destination *",
+    "destinationPort": "Port de destination",
     "filters": "Filtres",
     "Filters": "Filtres",
     "firewall": "Pare-feu",
     "firewallRules": "Règles du pare-feu",
+    "help": "Aide",
+    "history": "Historique",
     "learnAboutSonoranShield": "En savoir plus sur Sonoran Shield",
     "linkYourServer": "Liez votre serveur",
     "myFilters": "Mes filtres",
     "myServers": "Mes serveurs :",
     "noActiveServers": "Aucun serveur actif",
     "poweredByPath": "Propulsé par Path.net, notre panneau d'accès complet met fin aux attaques réseau une fois pour toutes.",
+    "protocol": "Protocole",
+    "save": "Enregistrer",
+    "search": "Rechercher",
     "sonoranShieldDocuments": "Documents Sonoran Shield",
     "sonoranShieldKeeps": "Sonoran Shield garde votre communauté dans le jeu ou vous rembourse.",
     "sonoranShieldNetworkDefense": "Défense du réseau Sonoran Shield",
     "sonoranShieldTutorial": "Tutoriel Sonoran Shield",
-    "unlink": "Délier"
+    "sourceASN": "ASN source *",
+    "sourceIP": "IP source *",
+    "sourcePort": "Port source",
+    "sourceType": "Type de source *",
+    "unlink": "Délier",
+    "viewHistoricalNetworkAttacksOnYourServer": "Voir les attaques réseau historiques sur votre serveur."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "Une erreur s'est produite lors de la mise à jour des préférences de notification, réessayez plus tard. Erreur :",
@@ -5453,7 +5811,19 @@
     "newStage": "Nouvelle Étape",
     "reorderStages": "Réorganiser les Étapes"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Nom d'utilisateur du compte",
+    "globalPermissions": "Autorisations globales",
+    "miscData": "Données diverses",
+    "registeredAt": "Enregistré le:",
+    "save": "Enregistrer",
+    "username": "Nom d'utilisateur:"
+  },
+  "systemAccount": {
+    "cancel": "Annuler"
+  },
   "tabbedPermissionEditor": {
+    "calendars": "Calendriers",
     "copiedCalendarPermissions": "Permissions du Calendrier Copiées",
     "copiedERLCPermissions": "Permissions ER:LC copiées",
     "copiedFormsPermissions": "Permissions des Formulaires Copiées",
@@ -5465,6 +5835,11 @@
     "copiedServerPermissions": "Permissions du Serveur Copiées",
     "copiedShiftTypesPermissions": "Permissions ER:LC copiées",
     "copiedSystemPermissions": "Permissions Système Copiées",
+    "eRLCServers": "Serveurs ERLC",
+    "forms": "Formulaires",
+    "gameServers": "Serveurs de jeu",
+    "navigation": "Navigation",
+    "pages": "Pages",
     "pasteCalendarPermissions": "Coller les Permissions du Calendrier",
     "pasteERLCPermissions": "Coller les autorisations ER:LC",
     "pasteFormsPermissions": "Coller les Permissions des Formulaires",
@@ -5476,7 +5851,12 @@
     "pasteServerPermissions": "Coller les Permissions du Serveur",
     "pasteShiftTypesPermissions": "Coller les permissions ER:LC",
     "pasteSystemPermissions": "Coller les Permissions Système",
-    "shiftTypes": "Types de service"
+    "profileFields": "Champs de Profil",
+    "rosters": "Listes",
+    "servers": "Serveurs",
+    "shiftTypes": "Types de service",
+    "shortURLs": "URL courtes",
+    "system": "Système"
   },
   "TeamspeakIntegration": {
     "addMapping": "Ajouter un mappage",
@@ -5650,6 +6030,9 @@
     "youAreRunningAnOutdatedVersionOf": "Vous utilisez une version obsolète de",
     "yourServersVersion": "Version de votre serveur"
   },
+  "videoForm": {
+    "videoURL": "URL de la vidéo"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Rangs autorisés à répondre",
     "allowSubmitterReplies": "Autoriser les réponses du soumetteur",
@@ -5707,6 +6090,8 @@
     "rightActivity": "Droite : Activité"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "Couleur de fond",
+    "textColor": "Couleur du texte",
     "updateMessage": "Le contenu textuel a été converti depuis l'ancien éditeur. Veuillez vérifier et mettre à jour si nécessaire."
   },
   "Whitelist": {

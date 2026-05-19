@@ -16,6 +16,7 @@
     "activeDisciplinaryPoints": "Aktive Disiplinære Poeng",
     "activeSecurityFlags": "Aktive sikkerhetsflagg",
     "profile": "profil",
+    "upload": "Last opp",
     "visit": "Besøk"
   },
   "accountCard": {
@@ -23,6 +24,9 @@
     "communityName": "felleskapsnavn",
     "communityProfile": "samfunnsprofil",
     "communityRank": "samfunnRank"
+  },
+  "accountCardForm": {
+    "selectCommunityProfile": "Velg fellesskapsprofil"
   },
   "accountNotificationPreferences": {
     "anErrorOccuredWhileUpdatingNotificationP": "En feil oppstod under oppdatering av varslingsinnstillinger, prøv igjen senere. Feil:",
@@ -95,6 +99,7 @@
     "confirmation": "Bekreftelse",
     "connections": "Tilkoblinger",
     "copyDiscordId": "Kopier Discord ID",
+    "copyRawPermissions": "Kopier rå tillatelser",
     "copyRobloxId": "Kopier Roblox-ID",
     "copyTeamspeakId": "Kopier TeamSpeak ID",
     "days": "Dager",
@@ -136,8 +141,10 @@
     "mergeAccountsDescription": "Å slå sammen kildekontoen til målkontoen vil flytte alle skjema innsendinger, hendelser, forumemner og svar, og annen historisk data fra kildekontoen til målkontoen. Kildekontoen vil deretter bli arkivert. Denne handlingen kan ikke omgjøres, så vennligst fortsett med forsiktighet.",
     "mergeFailed": "Sammenslåing feilet:",
     "mergeSuccessful": "Kontosammenslåing vellykket!",
+    "minimumInactivityWindowDays": "Minimum inaktivitetsvindu (dager)",
     "modifyExpiration": "Endre utløp",
     "multiaccount": "Multi-Konto",
+    "multiAccountBanConfiguration": "Konfigurasjon for utestengelse av flere kontoer",
     "multiaccountRankChange": "Endring av rang for flere kontoer",
     "na": "N/A",
     "name": "Navn",
@@ -230,6 +237,7 @@
     "youProbablyNeedToUpdateYourServers": "Du må sannsynligvis oppdatere serverne dine"
   },
   "actionsEditor": {
+    "calendarCategories": "Kalenderkategorier",
     "calendarEvents": "Kalenderhendelser",
     "checked": "Avkrysset",
     "clockIn": "Klokke Inn",
@@ -296,6 +304,7 @@
     "rsvpDiscordMentionsVariableLabel": "RSVP Liste Discord-omtaler",
     "serverInSession": "Server i økt",
     "servers": "Server(e)",
+    "servers2": "Servere",
     "serverSessions": "Serverøkter",
     "sessionEnd": "Økt Slutt",
     "sessionStart": "Økt Start",
@@ -310,6 +319,11 @@
     "unchecked": "Ikke avkrysset",
     "unknownAction": "Ukjent handling",
     "value": "Verdi"
+  },
+  "activityHoursView": {
+    "end": "Slutt",
+    "start": "Start",
+    "trash": "Papirkurv"
   },
   "AdminPanel": {
     "accountsaccounts": "Kontoer",
@@ -425,6 +439,7 @@
     "erlcNoti": "erlcNoti",
     "erlcNotiContent": "ER:LC partnersøknader er nå åpne!",
     "erlcNotiContentDescription": "Mottak én varsling per melding for hver vedtakelse (navn, verdi, konsekvens, utført av, team).",
+    "eRLCServer": "ERLC-server",
     "roles": "Rolle(r)",
     "webhookChannel": "webhookKanalen",
     "webhookContentHint": "webhookInnholdsHint",
@@ -681,6 +696,7 @@
   "BanConfiguration": {
     "applyBan": "anvendeUtestengelse",
     "banExpiration": "utløp av utestengelse",
+    "banReason": "Banårsak",
     "close": "lukk",
     "daysAheadToExpire": "dagerTilUtløp",
     "permanent": "permanent",
@@ -749,6 +765,9 @@
     "trial": "PRØVE",
     "unknownErrorOccuredWhileAttemptingToGene": "Ukjent feil oppstod under forsøk på å generere utsjekking, vennligst prøv igjen senere.",
     "unpaid": "UBETALT"
+  },
+  "billingViewer": {
+    "selectTheAmountOfGBStorageYouWouldLikeToAddToYourCommunity": "Velg mengden GB lagringsplass du ønsker å legge til i fellesskapet ditt."
   },
   "ButtonGroupForm": {
     "addButton": "Legg til knapp",
@@ -934,8 +953,12 @@
     "square": "Firkantet",
     "title": "Tittel"
   },
+  "carouselEl": {
+    "noImagesOptionsSet": "ingen bildealternativer angitt"
+  },
   "CarouselForm": {
-    "add": "Legg til"
+    "add": "Legg til",
+    "upload": "Last opp"
   },
   "ChangeDirDialog": {
     "changeDirectory": "Bytt katalog",
@@ -1259,6 +1282,39 @@
     "latestVersion": "Siste versjon:",
     "unauthorizedMissingPermissionsToDownload": "Uautorisert: Mangler tillatelser for å laste ned kjerne ressurs. Tillatelse: MODIFY_INTEGRATION"
   },
+  "comManagementDialog": {
+    "back": "Tilbake",
+    "calendarCategories": "Kalenderkategorier",
+    "createTemplate": "Opprett mal",
+    "departments": "Avdelinger",
+    "forms": "Skjemaer",
+    "noCalendarCategories": "Ingen kalenderkategorier",
+    "noDepartments": "Ingen avdelinger",
+    "noPages": "Ingen sider",
+    "noRosters": "Ingen lister",
+    "noStageGroups": "Ingen stadiegrupper",
+    "noStages": "Ingen stadier",
+    "notAssociated": "Ikke tilknyttet",
+    "noTemplatesFoundOnYourAccount": "Ingen maler ble funnet på kontoen din.",
+    "noToolbarItems": "Ingen verktøylinjeelementer",
+    "onceRemovedItWillNoLongerBeAccessibleThroughThisDialog": "Når den er fjernet, vil den ikke lenger være tilgjengelig gjennom denne dialogen.",
+    "pages": "Sider",
+    "return": "Tilbake",
+    "rosters": "Lister",
+    "save": "Lagre",
+    "stageGroups": "Stadiegrupper",
+    "stages": "Stadier",
+    "submit": "Send inn",
+    "templateCreationBasicInformation": "Opprettelse av mal - Grunnleggende informasjon",
+    "templateCreationDataSelection": "Maloppretting - Datavalg",
+    "templateCreationFinalize": "Fullfør maloppretting",
+    "templateDescription": "Malbeskrivelse",
+    "templateManage": "Maladministrasjon -",
+    "templateTitle": "Mal tittel",
+    "thisPageIsNoLongerAssociatedWithTheCommunityWhichMeansItNoLo": "Denne siden er ikke lenger knyttet til fellesskapet, noe som betyr at den ikke lenger kan oppdateres.",
+    "thisWillUpdateThisPageWithWhatYourCommunityCurrentlyHasThisI": "Dette vil oppdatere denne siden med det fellesskapet ditt for øyeblikket har, dette kan ikke angres når malen er lagret.",
+    "view": "Vis"
+  },
   "common": {
     "add": "Legg til",
     "calCates": "Kalenderkategorier",
@@ -1317,6 +1373,11 @@
     "successfullyLeft": "Vellykket forlatt",
     "youCannotLeaveACommunityThatYouOwn": "Du kan ikke forlate et samfunn som du eier!"
   },
+  "communityDashboard": {
+    "no": "Nei",
+    "reSync": "Synkroniser på nytt",
+    "yes": "Ja"
+  },
   "CommunityDiscovery": {
     "commmunityDiscoveryDocuments": "Community Discovery-dokumenter",
     "commmunityDiscoveryTutorial": "Community Discovery-veiledning",
@@ -1329,8 +1390,10 @@
     "previewCommunity": "Forhåndsvisning av samfunn",
     "pro": "Pro",
     "return": "Tilbake",
+    "search": "Søk",
     "standard": "Standard",
     "starter": "Startpakke",
+    "tags": "Tagger:",
     "thisCommunityHasSomeOfTheMostActiveMembe": "Dette samfunnet har noen av de mest aktive medlemmene",
     "thisCommunityIsGrowingRapidly": "Dette samfunnet vokser raskt",
     "thisCommunityIsReceivingHighWebsiteTraff": "Dette samfunnet mottar høy nettsidetrafikk",
@@ -1338,9 +1401,48 @@
     "viewAll": "Vis alle",
     "website": "Nettsted"
   },
+  "communityDrive": {
+    "assetFolders": "Mapper",
+    "audioPlayer": "Lydspiller",
+    "communityImagesAssets": "Fellesskapsbilder / ressurser",
+    "downloadAsset": "Last ned ressurs",
+    "files": "Filer",
+    "new": "Ny",
+    "play": "Spill",
+    "removeAsset": "Fjern ressurs"
+  },
+  "communityLookup": {
+    "communityID": "Fellesskaps-ID",
+    "forceJoin": "Tving innmelding",
+    "forceLeave": "Tvunget forlate",
+    "rawData": "Rådata",
+    "restoreCommunity": "Gjenopprett fellesskap"
+  },
+  "communityMenu": {
+    "dismiss": "Avvis",
+    "join": "Bli med",
+    "launchingYourNewCommunity": "Lanserer ditt nye fellesskap..."
+  },
   "CommunityPage": {
     "errorYouDoNotHavePermissionToView": "Feil: Du har ikke tillatelse til å se",
     "thereWasAProblemLoadingThePage": "Det oppstod et problem med å laste siden"
+  },
+  "communityTemplates": {
+    "approve": "Godkjenn",
+    "approved": "Godkjent",
+    "cancel": "Avbryt",
+    "edit": "Rediger",
+    "editTemplate": "Rediger mal",
+    "inactive": "Inaktiv",
+    "needsReview": "Trenger gjennomgang",
+    "newChangesPendingReview": "Nye endringer | Venter på gjennomgang",
+    "remove": "Fjern",
+    "save": "Lagre"
+  },
+  "comTemplateDetailsDialog": {
+    "bySonoranSoftwareSystems": "av Sonoran Software Systems",
+    "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Opprettet av en offisiell ansatt i Sonoran Software Systems",
+    "view": "Vis"
   },
   "ConditionalFormSectionUI": {
     "Checked": "Sjekket",
@@ -1716,7 +1818,8 @@
     "yourCurrently": "Du er for øyeblikket"
   },
   "DataUsage": {
-    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Ikke alle filer kan være synlige for deg, denne bruken er beregnet for alle filer innenfor fellesskapet."
+    "notAllFilesMayBeVisibleToYouThisUsageIsC": "Ikke alle filer kan være synlige for deg, denne bruken er beregnet for alle filer innenfor fellesskapet.",
+    "used": "Brukt"
   },
   "DepartmentEditor": {
     "addRosterRow": "Legg til roster-rad",
@@ -1724,10 +1827,12 @@
     "allowWhitelist": "Tillat Hviteliste",
     "attachesToProfile": "Fester til Profil",
     "BlockWhitelist": "Blokker Hviteliste",
+    "cancel": "Avbryt",
     "clockInOut": "Klokke inn og ut",
     "departmentManager": "Avdelingsleder",
     "editFieldOnOtherProfiles": "Rediger Felt på Andre Profiler",
     "editRosterRow": "Rediger Roster Rad",
+    "field": "Felt",
     "hidesFieldFromProfileOwner": "Skjuler Felt fra Profil Eieren",
     "inheritedFromDefaultDepartmentPermission": "ARVET FRA STANDARD AVDELINGSTILLATELSER",
     "itsUselessToCopyPermissionOfAnAppThatHas": "Det er nytteløst å kopiere tillatelser for en app som ikke har noen tillatelser...",
@@ -1809,12 +1914,16 @@
   "disciplinaryAccounts": {
     "accountLabel": "Konto",
     "addDisciplinaryPoints": "legg til disiplinærpoeng",
+    "amount": "Beløp:",
     "configureActions": "Konfigurer handlinger",
+    "date": "Dato:",
     "disciplinaryPoints": "disiplinpoeng",
+    "eRLCViolationAutomatic": "ERLC-brudd - Automatisk",
     "noActiveDisciplinaryPoints": "ingen aktive disiplinære poeng",
     "noRobloxAccountLinked": "Ingen Roblox-konto koblet",
     "pointsLabel": "Poeng",
-    "reasonLabel": "Grunn"
+    "reasonLabel": "Grunn",
+    "source": "Kilde:"
   },
   "disciplinaryConfig": {
     "com_name": {
@@ -1967,6 +2076,7 @@
     "departmentEditedMentions": "Avdeling redigert - Omtaler",
     "departmentRemovedChannel": "Avdeling fjernet - Kanal",
     "departmentRemovedMentions": "Avdeling fjernet - Omtaler",
+    "direction": "Retning",
     "disabled": "Deaktivert",
     "discordRoleSyncDocuments": "Discord Rolle Synkronisering Dokumenter",
     "discordRoleSyncTutorial": "Discord Rolle Synkronisering Veiledning",
@@ -2043,6 +2153,7 @@
     "webhookLogging": "Webhook Logging"
   },
   "DiscordRoleMappingEditor": {
+    "addAdditionalRoles": "Legg til flere roller",
     "afterChangesAreMadeItWillQueueMasssyncsW": "Etter at endringer er gjort, vil det stille i kø massesynkroniseringer med boten, noe som kan ta litt tid for å unngå å spamme boten.",
     "anErrorOccuredWhileAddingRoleMappingTryA": "En feil oppstod under tillegging av rollekartlegging, prøv igjen senere.",
     "anErrorOccuredWhileEvaluatingMappingsBef": "En feil oppstod under evaluering av kartlegginger før forpliktelse, prøv igjen.",
@@ -2058,9 +2169,12 @@
     "roleId": "Rolle-ID:",
     "roleInUseExplanation": "Denne Discord-rollen er allerede i en eksisterende kategorikartlegging, oppdater den eksisterende kartleggingen hvis du ønsker å legge til flere CMS-rangeringer.",
     "selectRank": "Velg Rang",
+    "selectRankS": "Velg rang(er)",
+    "selectRole": "Velg rolle",
     "thisMappingDoesntExistRefresh": "Denne kartleggingen eksisterer ikke, oppdater."
   },
   "DiscordRoleMultiSelector": {
+    "filterRolesOrGuilds": "Filtrer roller eller fellesskap",
     "guild": "Gilde:"
   },
   "DiscordRoleSelector": {
@@ -2144,6 +2258,9 @@
     "errorYouDoNotHavePermissionToEditThisFil": "Feil: Du har ikke tillatelse til å redigere denne filen.",
     "protectionOnlyAccess": "Du har kun beskyttelsesadgang for dette dokumentet, så innholdsredigereren er skjult."
   },
+  "driveQuickUploader": {
+    "noUploadsYet": "Ingen opplastinger ennå"
+  },
   "DriveViewDoc": {
     "documentName": "Dokumentnavn",
     "errorMissingPermissionsForThisFile": "Feil: Mangler tillatelser for denne filen."
@@ -2177,6 +2294,7 @@
     "noteThatResourcesUsingTheMetadataAreCase": "Merk at ressurser som bruker metadata er store- og småbokstavfølsomme (f.eks. firstname og FirstName fungerer forskjellig)",
     "noVehiclesAvailable": "Ingen kjøretøy tilgjengelig",
     "onDuty": "På vakt",
+    "onlineStatus": "Pålogget status:",
     "owner": "Eier:",
     "ownerLicense": "Eierlisens:",
     "phoneNumber": "Telefonnummer",
@@ -2243,6 +2361,7 @@
     "permissions": "Tillatelser",
     "pressEnterToAdd": "Trykk Enter for å legge til",
     "quarter": "Kvartal",
+    "rankS": "rang(er)",
     "ruleBuilder": "Regelbygger",
     "save": "Lagre",
     "select": "Velg",
@@ -2295,9 +2414,14 @@
     "selectItem": "Velg element",
     "selectNextSlot": "Velg neste plass:",
     "slot": "Plass",
+    "slot2": "Plass",
     "slotMetadata": "Plass metadata",
     "update": "Oppdater",
     "update43": "Oppdater"
+  },
+  "editMeta": {
+    "renameDocument": "Gi nytt navn til dokument",
+    "toggleViewingWatermark": "Veksle visning av vannmerke"
   },
   "Editor": {
     "activityTrackerHours": "Aktivitetssporingstimer",
@@ -2363,6 +2487,7 @@
     "private": "Privat",
     "public": "Offentlig",
     "rankAccess": "Rangtilgang",
+    "shareType": "Delingstype",
     "unlisted": "Uoppført",
     "viewDocument": "Vis dokument"
   },
@@ -2408,7 +2533,8 @@
     "containImage": "Innehold bilde",
     "fillImage": "Fyll bilde",
     "lockItemToThisSection": "Lås element til denne seksjonen",
-    "unlockToDragItemToAnotherSection": "Lås opp for å dra element til en annen seksjon"
+    "unlockToDragItemToAnotherSection": "Lås opp for å dra element til en annen seksjon",
+    "y": "% y:"
   },
   "embedBuilder": {
     "addButtonRowToEmbed": "Legg til knapperad",
@@ -2487,13 +2613,22 @@
     "webhookChannel": "webhook-kanal"
   },
   "ERLCActivity": {
+    "date": "Dato",
     "errorAnErrorOccuredWhileFetchingServerDa": "Det oppstod en feil under henting av serverdata.",
     "filter": "filter",
     "latestActivity": "Siste aktivitet",
     "pending": "Venter",
+    "pickDateRange": "Velg datointervall",
+    "searchByUsername": "Søk etter brukernavn",
+    "selectMember": "Velg medlem",
+    "selectTypes": "Velg typer",
+    "selectUser": "Velg bruker",
     "showingAllLogs": "Viser alle logger",
     "showingPlayerRecords": "Viser spilleroppføringer",
-    "unknownStage": "Ukjent fase"
+    "staffMember": "Ansatt",
+    "type": "Type",
+    "unknownStage": "Ukjent fase",
+    "user": "Bruker"
   },
   "ERLCActivityLog": {
     "addedMessage": "lagt til melding",
@@ -2638,6 +2773,7 @@
     "illicit": "ulovlig",
     "kickUsersWithAllothersInUsername": "spark brukere med \"alle andre\" i brukernavnet",
     "kickUsersWithInappropriateUsernames": "spark brukere med upassende brukernavn",
+    "log": ":logg",
     "lowercaseCommand": "kommando",
     "name": "Navn",
     "priorityPlayerList": "Prioritert spillerliste",
@@ -2649,6 +2785,7 @@
     "selfharm": "selvskading",
     "sexual": "seksuell",
     "stages": "Faser",
+    "testUsername": "Test brukernavn",
     "username": "brukernavn",
     "usernameModeration": "brukernavnModerasjon",
     "violence": "voldtekt"
@@ -2666,6 +2803,7 @@
     "disciplinaryPoints": "Disiplinærpoeng",
     "editedTheRecords": "redigerte postens",
     "editExistingRecord": "Rediger eksisterende post",
+    "editHistory": "Redigeringshistorikk",
     "enterUsernames": "Angi brukernavn",
     "enterYourReasonForRecord": "Angi din grunn for oppføringen...",
     "kick": "Sparke",
@@ -2676,6 +2814,7 @@
     "numberOfPointsToAdd": "Antall poeng som skal legges til...",
     "points": "Poeng",
     "pointsFrom": "poeng fra",
+    "reason": "Grunn",
     "reasonFrom": "grunn fra",
     "recordType": "Oppføringstype",
     "saveChanges": "Lagre endringer",
@@ -2738,10 +2877,21 @@
   "ERLCPlayers": {
     "currentPlayersInQueue": "Nåværende spillere i kø",
     "filter": "filtrer",
+    "fire": "brann",
     "noPlayersConnected": "Ingen spillere tilkoblet",
     "playersIngame": "spillereIspillet",
     "playersInQueue": "spillereikøen",
+    "police": "politiet",
+    "search": "Søk",
+    "sheriff": "sheriff",
     "teams": "team"
+  },
+  "eRLCPlayerSearchItem": {
+    "createAndViewRecords": "Opprett og vis oppføringer.",
+    "openUserPanelFor": "Åpne brukerpanel for"
+  },
+  "eRLCVisionPlayerActivity": {
+    "noActivityFound": "Ingen aktivitet funnet"
   },
   "ERLCWhitelist": {
     "actionDelayLabel": "Utfordre denne handlingen etter å ha brutt begrensningen i en viss tid (i sekunder)",
@@ -2911,6 +3061,9 @@
     "submissions": "Innsendinger",
     "thirdpartySubmissions": "Tredjeparts innsendinger",
     "timeclock": "Tidsklokke"
+  },
+  "formRankAccountRow": {
+    "section": "Seksjon:"
   },
   "FormRenderer": {
     "acceptedUploaderFiles": "Godkjente Opplastingsfiler",
@@ -3231,6 +3384,7 @@
     "categoryLabel": "Kategorietikett",
     "create": "Opprett",
     "createPrivateTopics": "Opprett private emner",
+    "createTopics": "Opprett emner",
     "deleteCategory": "Slett kategori",
     "edit": "Rediger",
     "editSubcategory": "Rediger underkategori",
@@ -3303,6 +3457,7 @@
     "thisForumTopicIsLockedFromNewReplies": "Dette forumemnet er låst for nye svar.",
     "thisForumTopicIsPinnedWithinThe": "Dette forumemnet er festet innenfor",
     "thisTopic": "dette emnet?",
+    "title": "Tittel",
     "topicRepliesBelow": "Emnesvar nedenfor",
     "uniqueIdCopiedToClipboard": "Unik ID kopiert til utklippstavlen.",
     "unlock": "Lås opp",
@@ -3363,9 +3518,81 @@
     "uploadANewPhoto": "Last opp et nytt bilde",
     "uploadNewPhoto": "Last opp nytt bilde"
   },
+  "gameDashboard": {
+    "activePlayers": "Aktive spillere"
+  },
+  "gameEnvironment": {
+    "blackout": "Strømbrudd"
+  },
   "GameIndex": {
+    "accessTheGameServerSPanel": "Få tilgang til spillserverens panel.",
+    "andClickToCopyPasteTheIDAndKeyBelow": "og klikk for å kopiere/lime inn ID-en og nøkkelen nedenfor.",
+    "aPIKey": "API-nøkkel",
+    "click": "Klikk",
+    "communityID": "Fellesskaps-ID",
+    "copyYourERLCAPIKey": "Kopier ER:LC API-nøkkelen din",
+    "createNewServer": "Opprett ny server",
+    "directoryToCustomizeYourFeatures": "katalog for å tilpasse funksjonene dine.",
+    "disabledDueToMissingPermission": "Deaktivert på grunn av manglende tillatelse:",
+    "downloadInstall": "Last ned og installer",
+    "eRLCAPIKey": "ER:LC API-nøkkel",
+    "eRLCGrantsAPIAccessAsAPaidUpgrade": "ER:LC gir API-tilgang som en betalt oppgradering.",
+    "fileManager": "Filbehandling",
+    "forOff": "for 20 % rabatt.",
+    "gamePanelPurchase": "Kjøp av spillpanel",
+    "installSonoran": "Installer Sonoran",
+    "launchGame": "Start spill",
+    "loadIntoYourERLCServer": "Last inn i din ER:LC-server",
+    "manualInstall": "Manuell installasjon",
+    "melonly": "Melonly",
     "melonlyApiKey": "Melonly API-nøkkel",
-    "noPlayersFoundSearch": "Ingen Spillere Funnet... Søk"
+    "moderation": "Moderering",
+    "navigateToERLCAPI": "Naviger til \"ER:LC API\"",
+    "navigateToOwnedServers": "Naviger til \"Eide servere\"",
+    "navigateToServers": "Naviger til \"Servere\"",
+    "navigateToThe": "Naviger til",
+    "navigateToUpgradedPacks": "Naviger til \"Oppgraderte pakker\"",
+    "noPlayersFoundSearch": "Ingen Spillere Funnet... Søk",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Når installasjonen er fullført, kan du få tilgang til ressursfilene i",
+    "oneClickInstallation": "Ett-klikk-installasjon",
+    "onTheRocketNodeGamePanelNavigateTo": "På Rocket Node-spillpanelet, naviger til",
+    "onTheRocketNodePanel": "på Rocket Node-panelet.",
+    "openTheServerInfoTab": "Åpne fanen \"Server Info\"",
+    "pasteYourAPIKeyBelowInTheInputAndClickTheCheckmarkToSave": "Lim inn API-nøkkelen din nedenfor i feltet og klikk på avkrysningsmerket for å lagre",
+    "pasteYourERLCAPIKey": "Lim inn ER:LC API-nøkkelen din",
+    "purchaseAFiveMGameServerFromRocketNode": "Kjøp en FiveM-spillserver fra Rocket Node",
+    "purchaseAPIAccessFromERLC": "Kjøp API-tilgang fra ER:LC",
+    "resources": "Ressurser",
+    "select": "Velg",
+    "selectAPIPackAndPurchase": "Velg \"API-pakke\" og kjøp",
+    "selectEditServerSettings": "Velg \"Rediger serverinnstillinger\"",
+    "selectEditToCopyToClipboard": "Velg \"Rediger\" for å kopiere til utklippstavlen",
+    "selectTheMenuButtonAtTheTopLeft": "Velg \"Meny\"-knappen øverst til venstre",
+    "selectYourPrivateServer": "Velg din private server",
+    "sonoranInstaller": "Sonoran-installasjon",
+    "useCouponCode": "Bruk kupongkode",
+    "useTestData": "Bruk testdata",
+    "videoTutorial": "Opplæringsvideo",
+    "youCanLearnMoreAboutConfigurationOptions": "Du kan lære mer om konfigurasjonsalternativer",
+    "youMustBeAnAdminToViewTheAPIKey": "Du må være administrator for å se API-nøkkelen."
+  },
+  "gamePlayers": {
+    "noCharacters": "Ingen karakterer"
+  },
+  "gameResources": {
+    "ensure": "Sørg for",
+    "noResults": "Ingen resultater",
+    "start": "Start"
+  },
+  "gameVehicles": {
+    "actions": "Handlinger",
+    "cancel": "Avbryt",
+    "close": "Lukk",
+    "despawnVehicle": "fjernKjøretøy",
+    "info": "Info",
+    "noResults": "Ingen resultater",
+    "passengers": "Passasjerer",
+    "repairVehicle": "reparérKjøretøy"
   },
   "Gangs": {
     "actionPerformedItMightTakeAMinuteOrTwoFo": "Handling utført! Det kan ta et minutt eller to før panelet oppdateres...",
@@ -3402,6 +3629,7 @@
     "thereWasNotEnoughDataForThisCommmunityToDetermine": "Det var ikke nok data for dette fellesskapet til å bestemme"
   },
   "GrowthGraph": {
+    "favoriteThisMetric": "Favoritt denne metrikken",
     "growtherrored": "FEIL",
     "growthloadingdata": "LASTER DATA",
     "growthnewusersjoiningyourcommunity": "Nye brukere som blir med i ditt samfunn",
@@ -3419,7 +3647,27 @@
     "growthuserswhohaveleftyourcommunity": "Brukere som har forlatt ditt samfunn:",
     "numberOfUniqueUsersThatVisitedTheCommunity": "Antall unike brukere som besøkte samfunnssiden fra Community Discovery",
     "numberOfUniqueViewsFromCommunityDiscover": "Antall unike visninger fra Community Discovery",
-    "theresNotEnoughDataToPopulateTheGraph": "Det er ikke nok data til å fylle ut grafen."
+    "theresNotEnoughDataToPopulateTheGraph": "Det er ikke nok data til å fylle ut grafen.",
+    "thisMetricIsFavorite": "Denne metrikken er favoritt"
+  },
+  "growthIndex": {
+    "noFavoritesYetClickTheStarIconOnAnyMetricOrGraphToAddItToYou": "Ingen favoritter ennå. Klikk stjerneikonet på en hvilken som helst metrikk eller graf for å legge den til i Favoritter.",
+    "shapeHowYourCommunityAppearsInDiscoveryAndKeepTheHeadlineBan": "Form hvordan fellesskapet ditt vises i oppdagelse, og hold overskrift, banner og beskrivelse samstemt."
+  },
+  "guideManagement": {
+    "add": "Legg til",
+    "addGuide": "Legg til veiledning",
+    "allGuidesAvailable": "Alle guider tilgjengelig",
+    "cancel": "Avbryt",
+    "editTheGuideLabel": "Rediger guideetiketten",
+    "editTheGuideURL": "Rediger guide-URL-en",
+    "enterBelowAllInformationRegardingThisGuide": "Skriv inn all informasjon om denne veiledningen nedenfor.",
+    "gitBookGuideURL": "GitBook-guide-URL",
+    "guideLabel": "Guideetikett",
+    "missingGuideURL": "Mangler guide-URL!",
+    "missingVideoURL": "Mangler video-URL!",
+    "newGuide": "Ny veiledning",
+    "tutorialVideoURL": "Opplæringsvideo-URL"
   },
   "helpButtonComponent": {
     "close": "Lukk",
@@ -3439,8 +3687,15 @@
     "icon": "Ikon",
     "image": "Bilde"
   },
+  "iFrameEl": {
+    "fullscreen": "⛶ Fullskjerm"
+  },
+  "iFrameForm": {
+    "iFrameURL": "iFrame-URL"
+  },
   "ImageForm": {
     "clickToUploadAnImage": "Klikk for å laste opp et bilde",
+    "hyperlinkOptions": "Hyperkoblingsalternativer",
     "targetForm": "Skjema",
     "targetNone": "Ingen",
     "targetPage": "Tilpasset side",
@@ -3459,7 +3714,9 @@
     "errorMaxSizeMessage": "Filen overskrider størrelsesgrensen på 5MB.",
     "errorMaxTotalSizeMessage": "Den totale størrelsen på filene overskrider den maksimalt tillatte grensen på 100MB.",
     "errorMessage": "En feil oppstod under opplasting av bildet:",
-    "errorUploadMessage": "En feil oppstod under opplastingen."
+    "errorUploadMessage": "En feil oppstod under opplastingen.",
+    "imagePreview": "Forhåndsvisning av bilde",
+    "upload": "Last opp"
   },
   "Index": {
     "account": "Konto",
@@ -3690,6 +3947,31 @@
     "withADuplicate": "med en duplikat",
     "yes": "Ja",
     "youDoNotHavePermissionsForThisGameServer": "Du har ikke tillatelser for denne spillserveren."
+  },
+  "indexPage": {
+    "aIAutomation": "AI-automatisering",
+    "automaticallyDetectDuplicateAccountsAcrossDozensOfBehaviorAn": "Oppdag automatisk dupliserte kontoer på tvers av dusinvis av atferds- og profilsignaler for å holde fellesskapet ditt sikkert.",
+    "backups": "Sikkerhetskopier",
+    "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-rangeringer er ditt eneste kontrollpunkt for tillatelser. Administrer hvitelister, fil- og nettstedtilgang, Discord-rollesynkronisering og mer fra ett samlet system.",
+    "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Opprett tilpassede skjemaer for søknader om hvitelisting, LOA-forespørsler og mer. Kraftige faseautomatiseringer kan oppdatere brukerrangeringer, synkronisere vaktlister, utløse varsler og håndtere gjentakende arbeidsflytsteg automatisk.",
+    "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Tilpassede fellesskapslister oppdateres live med medlemsaktivitetsstatus, tilkoblingstid, rangeringer og mer. Utløs automatiseringer for statusendringer eller oppdater lister direkte fra handlinger i skjemastadiet.",
+    "formsAndApplications": "Skjemaer og applikasjoner",
+    "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Utnytt AI-drevet automatisering for å drifte fellesskapet ditt raskere, tryggere og med mindre manuelt arbeid.",
+    "integratedGamePanels": "Integrerte spillpaneler",
+    "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Hold filene, skjemaene og arbeidsflytene dine organisert på ett sted.",
+    "managesYourEntireGamingCommunity": "administrerer hele spillfellesskapet ditt.",
+    "manageYourGameOperationsWithNativePanelIntegrations": "Administrer spilldriften din med innebygde panelintegrasjoner.",
+    "openBillingCenter": "Åpne faktureringssenteret",
+    "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Organiser medlemmer, tildel ansvar og hold personalstrukturen ryddig.",
+    "rankManager": "Rangforvalter",
+    "rosters": "Lister",
+    "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Driv gamingfellesskapet ditt fra én plattform: AI-drevet sikkerhet og skjemautomatisering, live-oversikter og rangbaserte tillatelser, synkronisert Discord-rolleadministrasjon og samarbeidsbaserte dokumentarbeidsflyter med detaljerte tilgangskontroller.",
+    "saveWithQuarterlyBilling": "Spar 25 % med kvartalsvis fakturering",
+    "security": "Sikkerhet",
+    "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Del og rediger dokumenter live, legg til vannmerkevern, bygg inn bilder og filer, og synkroniser tilgangstillatelser automatisk med CMS-rangeringer.",
+    "totalBilledQuarterly": "totalt fakturert kvartalsvis",
+    "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Bruk AI-assistert vurdering til å behandle skjemainnsendinger automatisk og sende hver enkelt til riktig gjennomgangssteg.",
+    "userManagement": "Brukeradministrasjon"
   },
   "InfoBlocksForm": {
     "add": "Legg til",
@@ -3987,6 +4269,7 @@
     "profile": "Profil",
     "promotional": "Reklame",
     "running": "Kjører",
+    "serverHosting": "Serverhosting",
     "sonoranCmsManagesYourCommunitysWebsiteDo": "Sonoran CMS administrerer nettsiden, dokumentene, hvitelisting, spilltillatelser og mer for ditt samfunn!",
     "thisCommunityUsesDiscordIntegrationPleas": "Dette fellesskapet bruker Discord-integrasjon! Vennligst koble til din Discord for riktig rolle synkronisering.",
     "thisCommunityUsesRobloxIntegrationPleas": "Dette samfunnet bruker Roblox-integrasjon! Vennligst lenk Roblox-kontoen din for riktig bruk av integrasjon.",
@@ -4001,8 +4284,10 @@
     "allowedRanksToReply": "Tillatte Rangeringer å Svare",
     "allowSubmitterReplies": "Tillat Innsender Svar",
     "cancel": "Avbryt",
+    "changedTheStageFrom": "endret fasen fra",
     "changeStage": "Endre fase",
     "close": "Lukk",
+    "commentHere": "Kommenter her...",
     "deleteForm": "Slett Skjema",
     "hidden": "Skjult",
     "invalidStage": "Ugyldig Etappe",
@@ -4027,6 +4312,13 @@
     "unlocked": "ULÅST",
     "visible": "Synlig",
     "willNotifyYouWhenANewReplyIsAddedToThisF": "Vil varsle deg når et nytt svar legges til dette skjemaet."
+  },
+  "massNotificationManagement": {
+    "btnLabel": "Knappetikett",
+    "btnURL": "Knapp URL",
+    "notificationContent": "varslingsinnhold",
+    "sendNotification": "Send varsel",
+    "willShowATopQNotifyWithTheContentAsTheNotifyMessageIfYouSupp": "viser en topp QNotify med innholdet som varslingsmeldingen, hvis du oppgir en knappeetikett og url vil den bli vedlagt QNotify."
   },
   "MassPromotionFlowActionsEditor": {
     "discordWebhook": "Discord Webhook",
@@ -4125,7 +4417,8 @@
     "failedToSaveTheDocumentMetadata": "Kunne ikke lagre dokumentmetadataene.",
     "file": "filen",
     "folder": "mappen",
-    "save": "Lagre"
+    "save": "Lagre",
+    "share": "Del \""
   },
   "ModifyShareSettingsDialog": {
     "activeCommunityMembersWithThisLinkCanTyp": "Aktive fellesskapsmedlemmer med denne lenken kan",
@@ -4214,6 +4507,7 @@
     "roster": "Rulleliste",
     "rounded": "Rundet",
     "square": "Firkantet",
+    "styles": "Stiler",
     "submitForm": "Send inn skjema",
     "target": "Mål",
     "targetForm": "Målskjema",
@@ -4225,9 +4519,11 @@
   "NewForm": {
     "anErrorOccuredWhileQueryingData": "En feil oppstod under spørring av data:",
     "anErrorOccuredWhileSubmittingForm": "En feil oppstod under innsending av skjema:",
+    "cancel": "Avbryt",
     "errorYouDoNotHavePermissionToSubmitThisF": "Feil: Du har ikke tillatelse til å sende inn dette skjemaet.",
     "formCouldNotBeFoundToBeCreatedFrom": "Skjemaet kunne ikke bli funnet for å bli opprettet fra.",
     "noRank": "Ingen rang",
+    "previous": "Forrige",
     "requiredFieldTooltip": "{field} er påkrevd",
     "thereIsOneOrMoreFieldsThatAreRequiredTha": "Det er ett eller flere obligatoriske felt som ikke er fylt ut.",
     "theUserWillBeAbleToViewThisSubmissionOnT": "Brukeren vil kunne se denne innsendingen på sin profil.",
@@ -4291,6 +4587,7 @@
     "none": "ingen",
     "openSectionEditor": "Åpne seksjonsredigering",
     "pageBackground": "Sidebakgrunn",
+    "pasteSection": "Lim inn seksjon",
     "savedCustomCssClasses": "Lagrede tilpassede CSS klasser.",
     "scalesTheBackgroundImageSoThatItsOrigina": "Skalerer bakgrunnsbildet slik at dets opprinnelige proporsjoner opprettholdes.",
     "scalesTheBackgroundImageToCoverContainer": "Skalerer bakgrunnsbildet for å dekke beholderen",
@@ -4709,6 +5006,7 @@
     "exampleName": "Eksempelnavn",
     "exampleRank": "Eksempel Rang",
     "learnHowToUseProfileFields": "Lær hvordan du bruker Profilfelt",
+    "newProfileField": "Nytt profilfelt",
     "profileFieldsDocuments": "Profilfelt Dokumenter",
     "profileFieldsEditor": "Profilfeltredigerer",
     "profilefieldseditorerrorsnofindfield": "Det ble ikke funnet noe felt fra det som er valgt.",
@@ -4797,6 +5095,7 @@
     "errorYouCannotEditThisMemberDueToYourCom": "Feil: Du kan ikke redigere dette medlemmet på grunn av din samfunnsautoritet.",
     "errorYouDoNotHavePermissionToEditAnIndiv": "Feil: Du har ikke tillatelse til å redigere en persons informasjon.",
     "exportTime": "Eksporttid:",
+    "filterForms": "Filter skjemaer",
     "for": "for",
     "formLabel": "Skjematittel",
     "formSettings": "Skjemainnstillinger",
@@ -4957,9 +5256,37 @@
     "selectPromotionFlowFromCommunityConfiguration": "Velg en promoveringsflyt fra fellesskapskonfigurasjonen.",
     "sendRankNoti": "Send Rangvarsel",
     "subtitle": "Prosesser automatisk rangeringsfremmingsflyter for medlemmene i communityet ditt.",
+    "thisActionWillOnlyTriggerIfThisFlowIsDemoting": "Denne handlingen utløses bare hvis denne flyten nedgraderes.",
+    "thisActionWillOnlyTriggerIfThisFlowIsPromoting": "Denne handlingen utløses bare hvis denne flyten oppgraderes.",
+    "thisActionWillTriggerForBothPromotionsAndDemotions": "Denne handlingen vil utløses for både forfremmelser og degraderinger.",
     "title": "Promotering Strømmer",
     "toLabelVariableDesc": "Dette vil oppgi til merke satt for denne forfremmelsesflyten.",
     "toLabelVariableLabel": "Til Merke"
+  },
+  "protectedManagement": {
+    "between": "Mellom:",
+    "cMSManagementPanel": "CMS-administrasjonspanel",
+    "connectedUsers": "Tilkoblede brukere",
+    "lastUpdated": "Sist oppdatert:",
+    "manageGuides": "Administrer guider",
+    "noSpecificGrowthMetricsFetched": "Ingen spesifikke vekstmålinger hentet...",
+    "noSpecificUsersMetricsFetched": "Ingen spesifikke brukermålinger hentet...",
+    "sendMassNotification": "Send massevarsel",
+    "specificDetailedUserMetricsHistory": "Spesifikk detaljert - historikk for brukermålinger",
+    "specificGrowthUserMetricsHistory": "Spesifikk vekst - historikk for brukermålinger",
+    "systemAccounts": "Systemkontoer"
+  },
+  "qBItems": {
+    "itemImageSelector": "Varebilde (velger)",
+    "search": "Søk"
+  },
+  "qBJobs": {
+    "defaultDuty": "Standardplikt",
+    "jobLabel": "Jobbetikett",
+    "offDutyPay": "Betalt fri"
+  },
+  "qBoxItems": {
+    "search": "Søk"
   },
   "RadioIntegration": {
     "apiCredentials": "apiLegitimasjoner",
@@ -4979,10 +5306,12 @@
     "noCommunityId": "ingenFellesskapsId",
     "permissionSelector": "rettighetsvelger",
     "remove": "fjern",
+    "setAnAPIIDAndKeyToSetPermissions": "Angi en API-ID og nøkkel for å sette tillatelser",
     "syncOptions": "synkroniseringsvalg",
     "title": "Sonoran Radio-konfigurasjoner"
   },
   "RadioPermSelector": {
+    "selectThePrivateChannelsTheRankIsAllowedToJoin": "Velg de private kanalene rangeringen har lov til å bli med i",
     "setRadio": "setteRadio"
   },
   "rankAccountRow": {
@@ -5087,6 +5416,7 @@
     "filterRanks": "Filtrer rangeringer"
   },
   "rankSelect": {
+    "filterRanks": "Filtrer rangeringer",
     "noRankOptionsToSelectFrom": "ingenRangerÅVelgeFra"
   },
   "Resources": {
@@ -5139,6 +5469,7 @@
     "clickToDisableConditionalFormatValueBein": "Klikk for å deaktivere betinget formatverdi som blir overstyrt",
     "clickToOverrideConditionalFormatValue": "Klikk for å overstyre betinget formatverdi",
     "close": "Lukk",
+    "deleteRow": "Slett rad",
     "downloadRosterCsv": "Last ned hele listen som CSV",
     "end": "Slutt",
     "errorDownloadingRosterCSV": "Feil ved nedlasting av CSV for roster. Kontakt support hvis dette vedvarer.",
@@ -5148,6 +5479,7 @@
     "membersPerPage": "Medlemmer per side:",
     "na": "N/A",
     "noServer": "Ingen servernavn",
+    "ranks": "Ranger",
     "start": "Start:",
     "valueHasBeenOverwrittenByAManualValueIgn": "Verdi har blitt overstyrt av en manuell verdi, ignorerer betingede verdier.",
     "youDontHaveThePermissionsToManageTheActivityTrackerOnThisRoster": "Du har ikke tillatelse til å administrere aktivitetsfølgeren på denne listen."
@@ -5171,6 +5503,7 @@
     "bottom": "Bunn",
     "center": "Senter",
     "clone": "Klon",
+    "close": "Lukk",
     "contain": "inneholde",
     "cover": "dekke",
     "cssPlaceholder": "Eksempel: border: 2px solid #ff671d; border-radius: 8px;",
@@ -5210,6 +5543,12 @@
     "viewportWidth": "Visningsbredde",
     "width": "Bredde"
   },
+  "sectionWrapper": {
+    "copyElement": "Kopier element",
+    "copySection": "Kopier seksjon",
+    "pasteElement": "Lim inn element",
+    "virtuallyCopySectionPasteOntoOtherPagesWithRightClick": "Kopier seksjonen virtuelt, lim inn på andre sider med høyreklikk."
+  },
   "selectComPage": {
     "selectCommunityPage": "Velg Fellesskapsside"
   },
@@ -5223,6 +5562,7 @@
     "createCustomPages": "Lag tilpassede nettsider for fellesskapet ditt!",
     "homepageUpdated": "Hjemmeside oppdatert!",
     "homepageUpdatedButDuringDiscoveryApproval": "Hjemmesiden oppdatert, men under oppdagelsesgodkjenning mislyktes det og deaktiverte oppdagelsen på grunn av:",
+    "pageOptions": "Sidealternativer",
     "searchPages": "Søk i sider",
     "selectPageTemplate": "Velg sidemal",
     "sortModeActivatedDragAndDropTheRowsInThe": "Sorteringsmodus aktivert: Dra og slipp radene i den rekkefølgen du vil ha dem sortert.",
@@ -5277,6 +5617,7 @@
     "administration": "Administrasjon",
     "allowPrivateCommentsTrigger": "Utløs ved private kommentarer",
     "changedOn": "Endret på",
+    "close": "Lukk",
     "column": "Kolonne",
     "erlcServer": "ER:LC-server",
     "formSubmitter": "Skjemainnsender",
@@ -5285,6 +5626,7 @@
     "lockType": "Låsetype",
     "moderation": "Moderasjon",
     "newValue": "Ny verdi",
+    "player": "Spiller",
     "roleplay": "Rollespill",
     "roster": "Oppstilling",
     "stageChanger": "Fasebytter",
@@ -5296,27 +5638,43 @@
     "create": "Opprett"
   },
   "shieldPanel": {
+    "action": "Handling:",
     "addFilter": "Legg til filter",
     "addRule": "Legg til regel",
     "allowOrBlock": "Tillat eller blokkér IP-er på serverens porter.",
     "applicationFilters": "Applikasjonsfiltre",
     "attackHistory": "Angrepshistorikk",
+    "attacks": "Angrep",
+    "close": "Lukk",
+    "comment": "Kommentar",
     "commonhelp": "Hjelp",
+    "destination": "Destinasjon *",
+    "destinationPort": "Destinasjonsport",
     "filters": "Filtre",
     "Filters": "Filtre",
     "firewall": "Brannmur",
     "firewallRules": "Brannmurregler",
+    "help": "Hjelp",
+    "history": "Historikk",
     "learnAboutSonoranShield": "Lær om Sonoran Shield",
     "linkYourServer": "Koble til serveren din",
     "myFilters": "Mine filtre",
     "myServers": "Mine servere:",
     "noActiveServers": "Ingen aktive servere",
     "poweredByPath": "Drevet av Path.net, vår all-access panel setter en stopper for nettverksangrep en gang for alle.",
+    "protocol": "Protokoll",
+    "save": "Lagre",
+    "search": "Søk",
     "sonoranShieldDocuments": "Sonoran Shield-dokumenter",
     "sonoranShieldKeeps": "Sonoran Shield holder fellesskapet ditt i gang eller pengene tilbake.",
     "sonoranShieldNetworkDefense": "Sonoran Shield Nettverksforsvar",
     "sonoranShieldTutorial": "Sonoran Shield-veiledning",
-    "unlink": "Koble fra"
+    "sourceASN": "Kilde-ASN *",
+    "sourceIP": "Kilde-IP *",
+    "sourcePort": "Kildeport",
+    "sourceType": "Kildetype *",
+    "unlink": "Koble fra",
+    "viewHistoricalNetworkAttacksOnYourServer": "Vis historiske nettverksangrep på serveren din."
   },
   "specificSubscribedAccountNotificationPreference": {
     "anErrorOccuredWhileUpdatingNotificationP": "En feil oppstod ved oppdatering av varselinnstillinger, prøv igjen senere. Feil:",
@@ -5453,7 +5811,19 @@
     "newStage": "Ny Etappe",
     "reorderStages": "Omorganiser Etapper"
   },
+  "sysAccountLookup": {
+    "accountUsername": "Kontobrukernavn",
+    "globalPermissions": "Globale tillatelser",
+    "miscData": "Diverse data",
+    "registeredAt": "Registrert den:",
+    "save": "Lagre",
+    "username": "Brukernavn:"
+  },
+  "systemAccount": {
+    "cancel": "Avbryt"
+  },
   "tabbedPermissionEditor": {
+    "calendars": "Kalendere",
     "copiedCalendarPermissions": "Kopierte kalender tillatelser",
     "copiedERLCPermissions": "Kopierte ER:LC Tillatelser",
     "copiedFormsPermissions": "Kopierte skjemaer tillatelser",
@@ -5465,6 +5835,11 @@
     "copiedServerPermissions": "Kopierte servertillatelser",
     "copiedShiftTypesPermissions": "Kopierte ER:LC-rettigheter",
     "copiedSystemPermissions": "Kopierte systemtillatelser",
+    "eRLCServers": "ERLC-servere",
+    "forms": "Skjemaer",
+    "gameServers": "Spillservere",
+    "navigation": "Navigasjon",
+    "pages": "Sider",
     "pasteCalendarPermissions": "Lim inn kalender tillatelser",
     "pasteERLCPermissions": "Lim ER:LC-tillatelser",
     "pasteFormsPermissions": "Lim inn skjemaer tillatelser",
@@ -5476,7 +5851,12 @@
     "pasteServerPermissions": "Lim inn servertillatelser",
     "pasteShiftTypesPermissions": "Lim inn ER:LC-rettigheter",
     "pasteSystemPermissions": "Lim inn systemtillatelser",
-    "shiftTypes": "Skifttyper"
+    "profileFields": "Profilfelt",
+    "rosters": "Lister",
+    "servers": "Servere",
+    "shiftTypes": "Skifttyper",
+    "shortURLs": "Korte URL-er",
+    "system": "System"
   },
   "TeamspeakIntegration": {
     "addMapping": "Legg til mapping",
@@ -5650,6 +6030,9 @@
     "youAreRunningAnOutdatedVersionOf": "Du kjører en utdatert versjon av",
     "yourServersVersion": "Din servers versjon"
   },
+  "videoForm": {
+    "videoURL": "Video-URL"
+  },
   "ViewFormMgmt": {
     "allowedRanksToReply": "Tillatte rangeringer for å svare",
     "allowSubmitterReplies": "Tillat innsending av svar",
@@ -5707,6 +6090,8 @@
     "rightActivity": "Høyre: Aktivitet"
   },
   "whatYouSeeEditor": {
+    "backgroundColor": "Bakgrunnsfarge",
+    "textColor": "Tekstfarge",
     "updateMessage": "Tekstinnholdet er konvertert fra den gamle redaktøren. Vennligst gjennomgå og oppdater etter behov."
   },
   "Whitelist": {
