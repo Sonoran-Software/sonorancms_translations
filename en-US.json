@@ -5470,6 +5470,7 @@
     "clickToOverrideConditionalFormatValue": "Click to override conditional format value",
     "close": "Close",
     "deleteRow": "Delete Row",
+    "editRow": "Edit Row",
     "downloadRosterCsv": "Download Full Roster as CSV",
     "end": "End:",
     "errorDownloadingRosterCSV": "Error downloading roster CSV, contact support if this persists.",
