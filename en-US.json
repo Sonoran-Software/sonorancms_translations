@@ -5179,7 +5179,10 @@
     "viewFlags": "View Flags",
     "warningYouAreStillNamedAsTheAuthorOfThis": "Warning: You are still named as the author of this form",
     "youDoNotHavePermissionToEditThisField": "You do not have permission to edit this field.",
-    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name."
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
+    "discordId": "Discord ID",
+    "robloxId": "Roblox ID",
+    "teamspeakId": "TeamSpeak ID"
   },
   "PromotionFlow": {
     "actions": "Actions",
