@@ -4250,7 +4250,7 @@
     "newFormSubmission": "New Form Submission",
     "newForumTopic": "New Forum Topic",
     "newForumTopicReply": "New Forum Topic Reply",
-    "newNotification": "\uD83D\uDD14:",
+    "newNotification": "🔔:",
     "no": "No",
     "noLocalStorageSupport": "Your browser doesn't support local storage or it may be disabled.",
     "noNotificationsFound": "No Notifications Found",
@@ -5109,6 +5109,10 @@
     "global": "Global",
     "hours": "Hours",
     "id": "ID",
+    "identifierInformation": "Identifier Information",
+    "identifierInformationDescription": "Identifiers uniquely identify accounts. Set one as primary to show it on community rosters.",
+    "noIdentifiersSet": "No identifiers set.",
+    "sorryWeCouldNotFindAnyFormsMatching": "Sorry, we could not find any forms matching.",
     "id67": "ID:",
     "invalidUser": "Invalid User",
     "joined": "Joined",
@@ -5187,7 +5191,9 @@
     "viewFlags": "View Flags",
     "warningYouAreStillNamedAsTheAuthorOfThis": "Warning: You are still named as the author of this form",
     "youDoNotHavePermissionToEditThisField": "You do not have permission to edit this field.",
-    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name."
+    "youDoNotHavePermssionsToChangeYourDisplayName": "You do not have permssions to change your display name.",
+    "discordIdCopiedToClipboard": "Discord ID Copied to Clipboard.",
+    "robloxIdCopiedToClipboard": "Roblox ID Copied to Clipboard."
   },
   "PromotionFlow": {
     "actions": "Actions",
