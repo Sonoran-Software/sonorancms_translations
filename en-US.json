@@ -5113,6 +5113,7 @@
     "id67": "ID:",
     "identifierInformation": "Identifier Information",
     "identifierInformationDescription": "Identifiers uniquely identify accounts. Set one as primary to show it on community rosters.",
+    "identifierInformationDescriptionReadOnly": "Identifiers uniquely identify accounts.",
     "invalidUser": "Invalid User",
     "joined": "Joined",
     "learnAboutYourCommmunityProfile": "Learn about Your Commmunity Profile",
