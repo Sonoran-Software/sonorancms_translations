@@ -3965,19 +3965,19 @@
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Custom community rosters update live with member activity status, connection time, ranks, and more. Trigger automations for status changes or update rosters directly from form stage actions.",
     "faq": {
       "free": {
-        "answer": "Sonoran CMS includes a free tier so communities can get started without a paid subscription.",
+        "answer": "Yes. Sonoran CMS includes a free tier with the core tools your community needs to manage members, permissions, forms, documents, and more in one place. Desktop and mobile apps are also free for all platforms.",
         "question": "Is Sonoran CMS free?"
       },
       "guestAccess": {
-        "answer": "You can configure public-facing areas for guests while keeping member-only tools protected behind account permissions.",
-        "question": "Can guests access my community?"
+        "answer": "Migrating to Sonoran CMS is simple with the Google Drive migration tool. Log in, select your files, and import them into CMS. From there, CMS ranks handle document access automatically, so you no longer have to manually add or remove users on every file.",
+        "question": "My Google Drive permissions are a mess. How do I migrate?"
       },
       "outsideFiveM": {
-        "answer": "Sonoran CMS is built for gaming communities across multiple platforms and can be used outside of FiveM.",
-        "question": "Can I use Sonoran CMS outside of FiveM?"
+        "answer": "Sonoran CMS works for any gaming community, with dedicated game panels for FiveM and ER:LC. These panels let you view and manage in-game players, vehicles, inventories, and more directly from CMS.",
+        "question": "Is Sonoran CMS just for FiveM and ER:LC communities?"
       },
       "setupTime": {
-        "answer": "Most communities can begin using Sonoran CMS in minutes, then expand their setup over time with modules, permissions, and integrations.",
+        "answer": "Getting started with Sonoran CMS only takes a few minutes. Set up your community, configure the tools you need, and start managing everything from one place.",
         "question": "How long does setup take?"
       }
     },
@@ -4005,77 +4005,77 @@
     },
     "modules": {
       "alt": {
-        "description": "Prevent banned users from ever applying or joining your community again with advanced alternate account detection. Or, easily filter and find user action logs throughout your CMS platform.",
+        "description": "Keep banned users from rejoining your community with advanced alternate account detection. Flag accounts using duplicate IPs, device IDs, VPN usage, and other identifiers, then use AI log search to quickly investigate recent member activity.",
         "keyFeatures": {
-          "investigateFlags": "View and investigate all flags placed on a user's account.",
-          "ipFlags": "Flag accounts originating from the same IP address.",
-          "loggingCenter": "Access the logging center to search and find historical user actions in their CMS community."
+          "investigateFlags": "Prevent banned users from applying or rejoining.",
+          "ipFlags": "Detect duplicate IPs, device IDs, and VPN usage.",
+          "loggingCenter": "Search member activity with AI-powered logs."
         },
         "label": "Alt Detection",
         "promoImagePreview": "Alternate Account Detection Promo",
         "title": "Alternate Account Detection"
       },
       "drive": {
-        "description": "Create and store documents in your community's drive! With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite.",
+        "description": "Build and manage documents in your community’s file drive. With CMS rank-based permissions, access stays easy to control. Set which ranks can view or edit documents, then update a user’s ranks to automatically grant or remove access.",
         "keyFeatures": {
-          "createDocuments": "Create documents and folders to organize your community resources.",
-          "migrateGoogleDrive": "Migrate your Google Drive files into your community drive.",
-          "richTextEditor": "Use the rich text editor with support for images, tables, and more."
+          "createDocuments": "Real-time collaborative documents.",
+          "migrateGoogleDrive": "End the strain of manual document permission management.",
+          "richTextEditor": "Manage view and edit access with CMS ranks."
         },
         "label": "Drive",
         "promoImagePreview": "Drive Promo",
         "title": "Community Drive"
       },
       "forms": {
-        "description": "Create fully customizable member applications, forms for tracking, and more! Whether it's a new member application, promotion request, or ban appeal, Sonoran CMS allows you to customize it all.",
+        "description": "Create custom forms and applications for your members, then move submissions through each stage manually or with AI-assisted reviews. Form stage automations can update CMS ranks, manage system-wide permissions, send notifications, trigger webhooks, and more.",
         "keyFeatures": {
-          "aiProcessing": "Automate form review and processing with custom automations and AI form processing.",
-          "customForms": "Create and submit custom forms.",
-          "patrolLog": "Manage a time-clock with \"Patrol Log\" type custom forms."
+          "aiProcessing": "Process submissions manually or with AI.",
+          "customForms": "Build custom forms and member applications.",
+          "patrolLog": "Automate ranks, permissions, notifications, and webhooks."
         },
         "label": "Forms",
         "promoImagePreview": "Forms Promo",
         "title": "Custom Forms"
       },
       "permissions": {
-        "description": "Assign community members ranks, set the permissions of those ranks. Manage the access and promotions of community members in the roster.",
+        "description": "Control community access from one centralized rank system. CMS ranks can manage permissions for file drive documents, private webpages, forms, and more — with optional Discord role syncing for faster updates across your community.",
         "keyFeatures": {
-          "configureRanks": "Grant or deny user permissions by configuring the ranks.",
-          "mergeAccounts": "Merge duplicate accounts and their ranks.",
-          "promotionFlows": "Create a variety of ranks and promotion flows between those ranks."
+          "configureRanks": "Control access to files, pages, forms, and more.",
+          "mergeAccounts": "Sync CMS ranks with Discord roles.",
+          "promotionFlows": "Manage permissions from centralized CMS ranks."
         },
         "label": "Permissions",
         "promoImagePreview": "Permissions Promo",
         "title": "Ranks and Permissions"
       },
       "rosters": {
-        "description": "Track member statuses, connection time, ranks, identifiers, and more with custom community rosters!",
+        "description": "Ditch the spreadsheet and track every member in one centralized roster. View in-game play time, ranks, Discord and Roblox identifiers, activity status, and more — then automate notifications for inactive members before they fall through the cracks.",
         "keyFeatures": {
-          "assignRanks": "Assign ranks and permissions to roster members.",
-          "automations": "Create powerful automations with your custom community rosters!",
-          "createRosters": "Create and edit rosters and roles."
+          "assignRanks": "Monitor member activity, ranks, and statuses.",
+          "automations": "Track identifiers like Discord, Roblox, and more.",
+          "createRosters": "Automate inactivity alerts and roster notifications."
         },
         "label": "Rosters",
         "promoImagePreview": "Rosters Promo",
         "title": "Custom Rosters"
       },
       "urls": {
-        "description": "Create friendly, short URLs for anything in your community! The URL shortener takes any link and converts it to a short and readable format!",
+        "description": "Create short, shareable URLs for any destination. Track link performance with built-in metrics, manage redirects, and connect your own custom domains for branded links.",
         "keyFeatures": {
-          "customSubdomains": "Create custom subdomains.",
-          "internalPaths": "Use one of several internal URL paths that cannot be overriden by a custom short URL.",
-          "shortUrlFormats": "Choose between three types of short URL formats."
+          "customSubdomains": "Track clicks and link performance.",
+          "internalPaths": "Use custom domains for branded URLs.",
+          "shortUrlFormats": "Shorten links to any destination."
         },
         "label": "Short URLs",
         "promoImagePreview": "Short URLs Promo",
         "title": "URL Shortener"
       },
       "website": {
-        "description": "Create custom pages with community information, multi-media, announcements, and more, all with your own custom domain!",
+        "description": "Build your community website directly in the CMS, with support for custom domains. Create a central portal for current members, staff, and future prospects to access the information, tools, and resources they need.",
         "keyFeatures": {
-          "forums": "Create forums to promote community engagement and discussion.",
-          "galleries": "Make image galleries and add them to your custom websites.",
-          "websitesAndToolbars": "Build your own community websites and toolbars."
+          "forums": "Use your own custom domain.",
+          "galleries": "Create one portal for members, staff, and prospects.",
+          "websitesAndToolbars": "Build your website directly in the CMS."
         },
         "label": "Website",
         "promoImagePreview": "Website Builder Promo",
