@@ -3949,23 +3949,142 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS ranks are your single control point for permissions. Manage whitelists, file and website access, Discord role sync, and more from one unified system.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Create custom forms for whitelist applications, LOA requests, and more. Powerful stage automations can update user ranks, sync rosters, trigger notifications, and handle repetitive workflow steps automatically.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Custom community rosters update live with member activity status, connection time, ranks, and more. Trigger automations for status changes or update rosters directly from form stage actions.",
+    "faq": {
+      "free": {
+        "answer": "Sonoran CMS includes a free tier so communities can get started without a paid subscription.",
+        "question": "Is Sonoran CMS free?"
+      },
+      "guestAccess": {
+        "answer": "You can configure public-facing areas for guests while keeping member-only tools protected behind account permissions.",
+        "question": "Can guests access my community?"
+      },
+      "outsideFiveM": {
+        "answer": "Sonoran CMS is built for gaming communities across multiple platforms and can be used outside of FiveM.",
+        "question": "Can I use Sonoran CMS outside of FiveM?"
+      },
+      "setupTime": {
+        "answer": "Most communities can begin using Sonoran CMS in minutes, then expand their setup over time with modules, permissions, and integrations.",
+        "question": "How long does setup take?"
+      }
+    },
+    "frequentlyAskedQuestions": "Frequently Asked Questions",
     "formsAndApplications": "Forms and Applications",
+    "gamePanelDocumentationAria": "{panel} game panel documentation",
+    "gamePanelPreviewAlt": "{panel} game panel preview",
     "harnessAIPoweredAutomationToRunYourCommunityFasterSaferAndWi": "Harness AI-powered automation to run your community faster, safer, and with less manual work.",
+    "heroSubtitle": "Run your gaming community in a single app with the Sonoran Community Management System!",
     "integratedGamePanels": "Integrated Game Panels",
     "keepYourFilesFormsAndWorkflowsOrganizedInOnePlace": "Keep your files, forms, and workflows organized in one place.",
+    "learnMore": "Learn More",
+    "manages": "Manages",
     "managesYourEntireGamingCommunity": "manages your entire gaming community.",
     "manageYourGameOperationsWithNativePanelIntegrations": "Manage your game operations with native panel integrations.",
+    "meta": {
+      "description": "Centralize your gaming community with Sonoran CMS. From forums to document management, in-game permissions, Discord, and Teamspeak integration - all in one app.",
+      "keywords": "gaming community, gaming app, Sonoran CMS, community management, forums, documents, whitelisting, in-game permissions, Discord integration, Teamspeak, gaming platform",
+      "ogDescription": "Bring your gaming community together with integrated forums, document management, Discord, and Teamspeak support - all through Sonoran CMS.",
+      "ogTitle": "Centralize Your Gaming Community with Sonoran CMS",
+      "structuredDataAboutName": "Sonoran CMS - Your gaming community, one app!",
+      "structuredDataAudienceType": "Gamers, Community Managers",
+      "title": "All-in-One Gaming Community App - Sonoran CMS",
+      "titleSuffix": "Sonoran Software Systems"
+    },
+    "modules": {
+      "alt": {
+        "description": "Prevent banned users from ever applying or joining your community again with advanced alternate account detection. Or, easily filter and find user action logs throughout your CMS platform.",
+        "keyFeatures": {
+          "investigateFlags": "View and investigate all flags placed on a user's account.",
+          "ipFlags": "Flag accounts originating from the same IP address.",
+          "loggingCenter": "Access the logging center to search and find historical user actions in their CMS community."
+        },
+        "label": "Alt Detection",
+        "promoImagePreview": "Alternate Account Detection Promo",
+        "title": "Alternate Account Detection"
+      },
+      "drive": {
+        "description": "Create and store documents in your community's drive! With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite.",
+        "keyFeatures": {
+          "createDocuments": "Create documents and folders to organize your community resources.",
+          "migrateGoogleDrive": "Migrate your Google Drive files into your community drive.",
+          "richTextEditor": "Use the rich text editor with support for images, tables, and more."
+        },
+        "label": "Drive",
+        "promoImagePreview": "Drive Promo",
+        "title": "Community Drive"
+      },
+      "forms": {
+        "description": "Create fully customizable member applications, forms for tracking, and more! Whether it's a new member application, promotion request, or ban appeal, Sonoran CMS allows you to customize it all.",
+        "keyFeatures": {
+          "aiProcessing": "Automate form review and processing with custom automations and AI form processing.",
+          "customForms": "Create and submit custom forms.",
+          "patrolLog": "Manage a time-clock with \"Patrol Log\" type custom forms."
+        },
+        "label": "Forms",
+        "promoImagePreview": "Forms Promo",
+        "title": "Custom Forms"
+      },
+      "permissions": {
+        "description": "Assign community members ranks, set the permissions of those ranks. Manage the access and promotions of community members in the roster.",
+        "keyFeatures": {
+          "configureRanks": "Grant or deny user permissions by configuring the ranks.",
+          "mergeAccounts": "Merge duplicate accounts and their ranks.",
+          "promotionFlows": "Create a variety of ranks and promotion flows between those ranks."
+        },
+        "label": "Permissions",
+        "promoImagePreview": "Permissions Promo",
+        "title": "Ranks and Permissions"
+      },
+      "rosters": {
+        "description": "Track member statuses, connection time, ranks, identifiers, and more with custom community rosters!",
+        "keyFeatures": {
+          "assignRanks": "Assign ranks and permissions to roster members.",
+          "automations": "Create powerful automations with your custom community rosters!",
+          "createRosters": "Create and edit rosters and roles."
+        },
+        "label": "Rosters",
+        "promoImagePreview": "Rosters Promo",
+        "title": "Custom Rosters"
+      },
+      "urls": {
+        "description": "Create friendly, short URLs for anything in your community! The URL shortener takes any link and converts it to a short and readable format!",
+        "keyFeatures": {
+          "customSubdomains": "Create custom subdomains.",
+          "internalPaths": "Use one of several internal URL paths that cannot be overriden by a custom short URL.",
+          "shortUrlFormats": "Choose between three types of short URL formats."
+        },
+        "label": "Short URLs",
+        "promoImagePreview": "Short URLs Promo",
+        "title": "URL Shortener"
+      },
+      "website": {
+        "description": "Create custom pages with community information, multi-media, announcements, and more, all with your own custom domain!",
+        "keyFeatures": {
+          "forums": "Create forums to promote community engagement and discussion.",
+          "galleries": "Make image galleries and add them to your custom websites.",
+          "websitesAndToolbars": "Build your own community websites and toolbars."
+        },
+        "label": "Website",
+        "promoImagePreview": "Website Builder Promo",
+        "title": "Website Builder"
+      }
+    },
+    "monthly": "Monthly",
     "openBillingCenter": "Open Billing Center",
     "organizeMembersAssignResponsibilitiesAndKeepStaffStructureCl": "Organize members, assign responsibilities, and keep staff structure clean.",
+    "perMonth": "/mo",
+    "quarterly": "Quarterly",
     "rankManager": "Rank Manager",
     "rosters": "Rosters",
     "runYourGamingCommunityFromASinglePlatformAIPoweredSecurityAn": "Run your gaming community from a single platform: AI-powered security and form automation, live rosters and rank-based permissions, synced Discord role management, and collaborative document workflows with granular access controls.",
     "saveWithQuarterlyBilling": "Save 25% with quarterly billing",
     "security": "Security",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Share and live-edit documents, add watermark protection, embed images and files, and automatically sync access permissions with CMS ranks.",
+    "sonoranCmsLogoAlt": "Sonoran CMS logo",
+    "tabPanelImageFrameAria": "Tab panel image frame",
     "totalBilledQuarterly": "total billed quarterly",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Use AI-assisted grading to process form submissions automatically and route each one to the correct review stage.",
-    "userManagement": "User Management"
+    "userManagement": "User Management",
+    "viewDocumentation": "View Documentation"
   },
   "InfoBlocksForm": {
     "add": "Add",
