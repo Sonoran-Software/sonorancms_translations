@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Заголовок поста"
   },
   "gameDashboard": {
-    "activePlayers": "Активные игроки"
+    "activePlayers": "Активные игроки",
+    "search": "Скачать логи"
   },
   "gameEnvironment": {
     "blackout": "Затемнение"

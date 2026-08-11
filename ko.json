@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "갤러리 게시물 제목"
   },
   "gameDashboard": {
-    "activePlayers": "활성 플레이어"
+    "activePlayers": "활성 플레이어",
+    "search": "로그 다운로드"
   },
   "gameEnvironment": {
     "blackout": "정전"

@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Upload nyt foto"
   },
   "gameDashboard": {
-    "activePlayers": "Aktive spillere"
+    "activePlayers": "Aktive spillere",
+    "search": "Søg"
   },
   "gameEnvironment": {
     "blackout": "Strømsvigt"

@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Prześlij nowe zdjęcie"
   },
   "gameDashboard": {
-    "activePlayers": "Aktywni gracze"
+    "activePlayers": "Aktywni gracze",
+    "search": "Szukaj"
   },
   "gameEnvironment": {
     "blackout": "Blackout"

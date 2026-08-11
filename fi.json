@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Lataa uusi kuva"
   },
   "gameDashboard": {
-    "activePlayers": "Aktiiviset pelaajat"
+    "activePlayers": "Aktiiviset pelaajat",
+    "search": "Haku"
   },
   "gameEnvironment": {
     "blackout": "Sähkökatkos"

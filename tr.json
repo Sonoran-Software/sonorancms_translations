@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Yeni Fotoğraf Yükle"
   },
   "gameDashboard": {
-    "activePlayers": "Aktif Oyuncular"
+    "activePlayers": "Aktif Oyuncular",
+    "search": "Ara"
   },
   "gameEnvironment": {
     "blackout": "Elektrik kesintisi"

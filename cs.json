@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Nahrát novou fotografii"
   },
   "gameDashboard": {
-    "activePlayers": "Aktivní hráči"
+    "activePlayers": "Aktivní hráči",
+    "search": "Hledat"
   },
   "gameEnvironment": {
     "blackout": "Výpadek"

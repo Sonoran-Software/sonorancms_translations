@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Ladda upp nytt foto"
   },
   "gameDashboard": {
-    "activePlayers": "Aktiva spelare"
+    "activePlayers": "Aktiva spelare",
+    "search": "Sök"
   },
   "gameEnvironment": {
     "blackout": "Strömavbrott"

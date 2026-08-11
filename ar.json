@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "تحميل صورة جديدة"
   },
   "gameDashboard": {
-    "activePlayers": "اللاعبون النشطون"
+    "activePlayers": "اللاعبون النشطون",
+    "search": "بحث"
   },
   "gameEnvironment": {
     "blackout": "انقطاع الكهرباء"

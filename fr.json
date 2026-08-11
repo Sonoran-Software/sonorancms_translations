@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Télécharger une nouvelle photo"
   },
   "gameDashboard": {
-    "activePlayers": "Joueurs actifs"
+    "activePlayers": "Joueurs actifs",
+    "search": "Rechercher"
   },
   "gameEnvironment": {
     "blackout": "Panne d'électricité"
