@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Upload Nieuwe Foto"
   },
   "gameDashboard": {
-    "activePlayers": "Actieve spelers"
+    "activePlayers": "Actieve spelers",
+    "search": "Zoeken"
   },
   "gameEnvironment": {
     "blackout": "Black-out"

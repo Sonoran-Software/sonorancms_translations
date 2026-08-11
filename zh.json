@@ -3552,7 +3552,8 @@
     "uploadNewPhoto": "上传新照片"
   },
   "gameDashboard": {
-    "activePlayers": "活跃玩家"
+    "activePlayers": "活跃玩家",
+    "search": "搜索"
   },
   "gameEnvironment": {
     "blackout": "停电"

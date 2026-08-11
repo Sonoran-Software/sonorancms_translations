@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "投稿タイトル"
   },
   "gameDashboard": {
-    "activePlayers": "アクティブなプレーヤー"
+    "activePlayers": "アクティブなプレーヤー",
+    "search": "ログをダウンロード"
   },
   "gameEnvironment": {
     "blackout": "停電"

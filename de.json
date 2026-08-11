@@ -3551,7 +3551,8 @@
     "uploadNewPhoto": "Neues Foto hochladen"
   },
   "gameDashboard": {
-    "activePlayers": "Aktive Spieler"
+    "activePlayers": "Aktive Spieler",
+    "search": "Suche"
   },
   "gameEnvironment": {
     "blackout": "Stromausfall"
