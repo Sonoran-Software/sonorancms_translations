@@ -1154,9 +1154,9 @@
         "label": "Security center",
         "subtitle": "Ask about security preferences, flags, and CMS security tooling.",
         "suggestions": {
-          "availableTools": "What security tools are available here?",
           "openPanel": "Open the security panel for me.",
-          "reviewFlags": "How do I review flagged accounts?"
+          "reviewFlags": "How do I review flagged accounts?",
+          "searchLogs": "Who changed a member's access or ranks recently?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1271,14 @@
         "openedSummary": "Opened {label}.",
         "unavailableNoOptions": "No CMS navigation targets are available in this context.",
         "unavailableSummary": "That panel is not available here. Available options: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Searched the community audit logs.",
+        "confirmationLabel": "Search community audit logs",
+        "description": "Search the active Sonoran CMS community's audit logs when the user asks who performed an action, what changed, why something happened, or when an event occurred. Use this for community activity investigations, not documentation questions.",
+        "failedSummary": "The community audit log search failed: {message}",
+        "questionDescription": "A concise question about actions or events in the active community.",
+        "questionRequired": "A log-search question is required."
       }
     }
   },
