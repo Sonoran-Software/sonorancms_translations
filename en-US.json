@@ -1154,6 +1154,7 @@
         "label": "Security center",
         "subtitle": "Ask about security preferences, flags, and CMS security tooling.",
         "suggestions": {
+          "availableTools": "What security tools are available here?",
           "openPanel": "Open the security panel for me.",
           "reviewFlags": "How do I review flagged accounts?",
           "searchLogs": "Who changed a member's access or ranks recently?"
