@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Jakie narzędzia bezpieczeństwa są tu dostępne?",
           "openPanel": "Otwórz panel bezpieczeństwa dla mnie.",
-          "reviewFlags": "Jak przeglądać oznaczone konta?"
+          "reviewFlags": "Jak przeglądać oznaczone konta?",
+          "searchLogs": "Kto ostatnio zmienił dostęp lub rangi członka?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Otwarto {label}.",
         "unavailableNoOptions": "W tym kontekście nie są dostępne żadne cele nawigacyjne CMS.",
         "unavailableSummary": "Ten panel nie jest tutaj dostępny. Dostępne opcje: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Przeszukano dzienniki audytu społeczności.",
+        "confirmationLabel": "Przeszukaj dzienniki audytu społeczności",
+        "description": "Przeszukuj aktywne dzienniki audytu społeczności Sonoran CMS, gdy użytkownik pyta, kto wykonał działanie, co się zmieniło, dlaczego coś się wydarzyło lub kiedy nastąpiło zdarzenie. Używaj tego do dochodzeń dotyczących aktywności społeczności, nie do pytań o dokumentację.",
+        "failedSummary": "Przeszukiwanie dziennika audytu społeczności nie powiodło się: {message}",
+        "questionDescription": "Zwięzłe pytanie o działania lub zdarzenia w aktywnej społeczności.",
+        "questionRequired": "Wymagane jest pytanie wyszukiwania w dzienniku."
       }
     }
   },

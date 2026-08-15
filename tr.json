@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Burada hangi güvenlik araçları mevcut?",
           "openPanel": "Benim için güvenlik panelini aç.",
-          "reviewFlags": "Bayraklanmış hesapları nasıl inceleyebilirim?"
+          "reviewFlags": "Bayraklanmış hesapları nasıl inceleyebilirim?",
+          "searchLogs": "Bir üyenin erişimini veya rütbelerini son zamanlarda kim değiştirdi?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "{label} açıldı.",
         "unavailableNoOptions": "Bu bağlamda mevcut CMS gezinme hedefleri yok.",
         "unavailableSummary": "Bu panel burada mevcut değil. Mevcut seçenekler: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Topluluk denetim günlüklerinde arandı.",
+        "confirmationLabel": "Topluluk denetim günlüklerinde ara",
+        "description": "Kullanıcı kim bir işlem yaptı, ne değişti, neden bir şey oldu veya bir olay ne zaman gerçekleşti diye sorduğunda, etkin Sonoran CMS topluluğunun denetim günlüklerinde arama yapın. Bunu belge soruları için değil, topluluk etkinliği incelemeleri için kullanın.",
+        "failedSummary": "Topluluk denetim günlüğü araması başarısız oldu: {message}",
+        "questionDescription": "Etkin topluluktaki eylemler veya olaylar hakkında kısa bir soru.",
+        "questionRequired": "Bir günlük arama sorusu gereklidir."
       }
     }
   },

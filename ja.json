@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "ここにはどんなセキュリティツールが利用可能ですか？",
           "openPanel": "私のためにセキュリティパネルを開いて。",
-          "reviewFlags": "フラグ付きアカウントを確認するにはどうすればいいですか？"
+          "reviewFlags": "フラグ付きアカウントを確認するにはどうすればいいですか？",
+          "searchLogs": "最近、メンバーのアクセスやランクを変更したのは誰ですか?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "{label} を開きました。",
         "unavailableNoOptions": "この文脈ではCMSナビゲーションターゲットは利用できません。",
         "unavailableSummary": "そのパネルはここで利用できません。利用可能なオプション: {availableOptions}。"
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "コミュニティ監査ログを検索しました。",
+        "confirmationLabel": "コミュニティ監査ログを検索",
+        "description": "ユーザーが誰がアクションを実行したか、何が変更されたか、なぜ何かが起きたか、またはいつイベントが発生したかを尋ねたときは、アクティブな Sonoran CMS コミュニティの監査ログを検索します。これはドキュメントの質問ではなく、コミュニティのアクティビティ調査に使用してください。",
+        "failedSummary": "コミュニティ監査ログの検索に失敗しました: {message}",
+        "questionDescription": "アクティブなコミュニティでのアクションやイベントに関する簡潔な質問。",
+        "questionRequired": "ログ検索の質問が必要です。"
       }
     }
   },

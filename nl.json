@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Welke beveiligingstools zijn hier beschikbaar?",
           "openPanel": "Open het beveiligingspaneel voor mij.",
-          "reviewFlags": "Hoe beoordeel ik gemerkte accounts?"
+          "reviewFlags": "Hoe beoordeel ik gemerkte accounts?",
+          "searchLogs": "Wie heeft onlangs iemands toegang of rangen gewijzigd?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Geopend {label}.",
         "unavailableNoOptions": "Er zijn geen CMS-navigatiedoelen beschikbaar in deze context.",
         "unavailableSummary": "Dat paneel is hier niet beschikbaar. Beschikbare opties: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Doorzocht de auditlogboeken van de community.",
+        "confirmationLabel": "Zoek auditlogboeken van de community",
+        "description": "Doorzoek de actieve auditlogs van de Sonoran CMS-community wanneer de gebruiker vraagt wie een actie heeft uitgevoerd, wat er is gewijzigd, waarom iets is gebeurd of wanneer een gebeurtenis plaatsvond. Gebruik dit voor onderzoeken naar community-activiteit, niet voor documentatievragen.",
+        "failedSummary": "Het zoeken in het auditlogboek van de community is mislukt: {message}",
+        "questionDescription": "Een beknopte vraag over acties of gebeurtenissen in de actieve community.",
+        "questionRequired": "Er is een vraag voor het zoeken in logboeken vereist."
       }
     }
   },

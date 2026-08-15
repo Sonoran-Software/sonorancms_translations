@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Quels outils de sécurité sont disponibles ici ?",
           "openPanel": "Ouvrez le panneau de sécurité pour moi.",
-          "reviewFlags": "Comment revoir les comptes signalés ?"
+          "reviewFlags": "Comment revoir les comptes signalés ?",
+          "searchLogs": "Qui a récemment modifié l'accès ou les grades d'un membre ?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Ouvert {label}.",
         "unavailableNoOptions": "Aucune cible de navigation CMS n'est disponible dans ce contexte.",
         "unavailableSummary": "Ce panneau n'est pas disponible ici. Options disponibles : {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Journaux d’audit de la communauté recherchés.",
+        "confirmationLabel": "Rechercher les journaux d’audit de la communauté",
+        "description": "Recherchez dans les journaux d'audit de la communauté Sonoran CMS active lorsque l'utilisateur demande qui a effectué une action, ce qui a changé, pourquoi quelque chose s'est produit ou quand un événement a eu lieu. Utilisez ceci pour les enquêtes sur l'activité de la communauté, pas pour les questions de documentation.",
+        "failedSummary": "La recherche des journaux d’audit de la communauté a échoué : {message}",
+        "questionDescription": "Une question concise sur les actions ou les événements dans la communauté active.",
+        "questionRequired": "Une question de recherche dans les journaux est requise."
       }
     }
   },

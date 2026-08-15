@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Hvilke sikkerhetsverktøy er tilgjengelige her?",
           "openPanel": "Åpne sikkerhetspanelet for meg.",
-          "reviewFlags": "Hvordan gjennomgår jeg flaggede kontoer?"
+          "reviewFlags": "Hvordan gjennomgår jeg flaggede kontoer?",
+          "searchLogs": "Hvem endret nylig en medlems tilgang eller rang?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Åpnet {label}.",
         "unavailableNoOptions": "Ingen CMS-navigeringsmål er tilgjengelig i denne konteksten.",
         "unavailableSummary": "Det panelet er ikke tilgjengelig her. Tilgjengelige alternativer: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Søkte i fellesskapets revisjonslogger.",
+        "confirmationLabel": "Søk i fellesskapets revisjonslogger",
+        "description": "Søk i Sonoran CMS-fellesskapets aktive revisjonslogger når brukeren spør hvem som utførte en handling, hva som endret seg, hvorfor noe skjedde, eller når en hendelse fant sted. Bruk dette til undersøkelser av fellesskapsaktivitet, ikke dokumentasjonsspørsmål.",
+        "failedSummary": "Søk i fellesskapets revisjonslogger mislyktes: {message}",
+        "questionDescription": "Et kort spørsmål om handlinger eller hendelser i det aktive fellesskapet.",
+        "questionRequired": "Et loggsøkspørsmål er påkrevd."
       }
     }
   },

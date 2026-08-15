@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "여기서 어떤 보안 도구를 사용할 수 있나요?",
           "openPanel": "보안 패널을 열어주세요.",
-          "reviewFlags": "플래그된 계정을 검토하려면 어떻게 하나요?"
+          "reviewFlags": "플래그된 계정을 검토하려면 어떻게 하나요?",
+          "searchLogs": "최근에 누가 회원의 액세스 또는 역할을 변경했나요?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "{label}을(를) 열었습니다.",
         "unavailableNoOptions": "이 컨텍스트에서는 CMS 탐색 대상이 없습니다.",
         "unavailableSummary": "이 패널은 여기에서 사용할 수 없습니다. 사용 가능한 옵션: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "커뮤니티 감사 로그 검색 완료.",
+        "confirmationLabel": "커뮤니티 감사 로그 검색",
+        "description": "사용자가 누가 작업을 수행했는지, 무엇이 변경되었는지, 왜 어떤 일이 발생했는지, 또는 이벤트가 언제 발생했는지 물을 때 활성 Sonoran CMS 커뮤니티의 감사 로그를 검색합니다. 커뮤니티 활동 조사에 사용하고, 문서 관련 질문에는 사용하지 마세요.",
+        "failedSummary": "커뮤니티 감사 로그 검색 실패: {message}",
+        "questionDescription": "활성 커뮤니티의 작업이나 이벤트에 대한 간결한 질문.",
+        "questionRequired": "로그 검색 질문이 필요합니다."
       }
     }
   },

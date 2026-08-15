@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "ما هي أدوات الأمان المتوفرة هنا؟",
           "openPanel": "افتح لوحة الأمان من أجلي.",
-          "reviewFlags": "كيف يمكنني مراجعة الحسابات المعلمة؟"
+          "reviewFlags": "كيف يمكنني مراجعة الحسابات المعلمة؟",
+          "searchLogs": "من الذي غيّر وصول عضو أو رتبته مؤخرًا؟"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "تم فتح {label}.",
         "unavailableNoOptions": "لا توجد أهداف تنقل في CMS متاحة في هذا السياق.",
         "unavailableSummary": "تلك اللوحة غير متوفرة هنا. الخيارات المتاحة: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "تم البحث في سجلات تدقيق المجتمع.",
+        "confirmationLabel": "ابحث في سجلات تدقيق المجتمع",
+        "description": "ابحث في سجلات تدقيق مجتمع Sonoran CMS النشط عندما يسأل المستخدم من الذي نفذ إجراءً، أو ما الذي تغير، أو لماذا حدث شيء ما، أو متى وقع حدث. استخدم هذا للتحقيقات في نشاط المجتمع، وليس لأسئلة التوثيق.",
+        "failedSummary": "فشل البحث في سجل تدقيق المجتمع: {message}",
+        "questionDescription": "سؤال موجز عن الإجراءات أو الأحداث في المجتمع النشط.",
+        "questionRequired": "مطلوب سؤال بحث في السجل."
       }
     }
   },

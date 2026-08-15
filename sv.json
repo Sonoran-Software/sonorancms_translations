@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Vilka säkerhetsverktyg finns tillgängliga här?",
           "openPanel": "Öppna säkerhetspanelen för mig.",
-          "reviewFlags": "Hur granskar jag flaggade konton?"
+          "reviewFlags": "Hur granskar jag flaggade konton?",
+          "searchLogs": "Vem ändrade en medlems åtkomst eller rang nyligen?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Öppnad {label}.",
         "unavailableNoOptions": "Inga CMS navigationstargets är tillgängliga i det här sammanhanget.",
         "unavailableSummary": "Den panelen är inte tillgänglig här. Tillgängliga alternativ: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Sökte i communityns granskningsloggar.",
+        "confirmationLabel": "Sök i communityns granskningsloggar",
+        "description": "Sök i den aktiva Sonoran CMS-communityns granskningsloggar när användaren frågar vem som utförde en åtgärd, vad som ändrades, varför något hände eller när en händelse inträffade. Använd detta för utredningar av communityaktivitet, inte för dokumentationsfrågor.",
+        "failedSummary": "Sökningen i communityns granskningsloggar misslyckades: {message}",
+        "questionDescription": "En kort fråga om åtgärder eller händelser i den aktiva communityn.",
+        "questionRequired": "En sökfråga för loggar krävs."
       }
     }
   },
