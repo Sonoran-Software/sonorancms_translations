@@ -1157,7 +1157,8 @@
         "suggestions": {
           "availableTools": "这里有哪些安全工具可用？",
           "openPanel": "为我打开安全面板。",
-          "reviewFlags": "如何审核标记的账户？"
+          "reviewFlags": "如何审核标记的账户？",
+          "searchLogs": "最近是谁更改了成员的访问权限或等级？"
         }
       },
       "teamSpeakIntegration": {
@@ -1272,6 +1273,14 @@
         "openedSummary": "已打开 {label}。",
         "unavailableNoOptions": "此上下文中没有可用的 CMS 导航目标。",
         "unavailableSummary": "此面板在此不可用。 可用选项：{availableOptions}。"
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "已搜索社区审计日志。",
+        "confirmationLabel": "搜索社区审计日志",
+        "description": "当用户询问是谁执行了某个操作、发生了什么变更、为什么会发生某事或某个事件何时发生时，搜索当前 Sonoran CMS 社区的审计日志。将其用于社区活动调查，不用于文档问题。",
+        "failedSummary": "社区审计日志搜索失败：{message}",
+        "questionDescription": "关于当前社区中的操作或事件的简洁问题。",
+        "questionRequired": "需要日志搜索问题。"
       }
     }
   },

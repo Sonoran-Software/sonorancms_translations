@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Quali strumenti di sicurezza sono disponibili qui?",
           "openPanel": "Apri il pannello di sicurezza per me.",
-          "reviewFlags": "Come posso esaminare gli account segnalati?"
+          "reviewFlags": "Come posso esaminare gli account segnalati?",
+          "searchLogs": "Chi ha cambiato di recente l'accesso o i ranghi di un membro?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Aperto {label}.",
         "unavailableNoOptions": "Nessun target di navigazione CMS disponibile in questo contesto.",
         "unavailableSummary": "Quel pannello non è disponibile qui. Opzioni disponibili: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Registrati i registri di controllo della community.",
+        "confirmationLabel": "Cerca nei registri di controllo della community",
+        "description": "Cerca nei registri di controllo della community Sonoran CMS attiva quando l'utente chiede chi ha eseguito un'azione, cosa è cambiato, perché è successo qualcosa o quando si è verificato un evento. Usa questo per le indagini sulle attività della community, non per domande sulla documentazione.",
+        "failedSummary": "La ricerca nei registri di controllo della community non è riuscita: {message}",
+        "questionDescription": "Una domanda concisa su azioni o eventi nella community attiva.",
+        "questionRequired": "È richiesta una domanda di ricerca nel registro."
       }
     }
   },

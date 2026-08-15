@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Welche Sicherheitstools sind hier verfügbar?",
           "openPanel": "Öffnen Sie das Sicherheits-Panel für mich.",
-          "reviewFlags": "Wie überprüfe ich markierte Konten?"
+          "reviewFlags": "Wie überprüfe ich markierte Konten?",
+          "searchLogs": "Wer hat kürzlich den Zugriff oder die Ränge eines Mitglieds geändert?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Geöffnet {label}.",
         "unavailableNoOptions": "Keine CMS-Navigationsziele sind in diesem Kontext verfügbar.",
         "unavailableSummary": "Dieses Panel ist hier nicht verfügbar. Verfügbare Optionen: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Community-Audit-Logs durchsucht.",
+        "confirmationLabel": "Community-Audit-Logs durchsuchen",
+        "description": "Durchsuche die Audit-Logs der aktiven Sonoran CMS-Community, wenn der Nutzer fragt, wer eine Aktion ausgeführt hat, was sich geändert hat, warum etwas passiert ist oder wann ein Ereignis stattgefunden hat. Verwende dies für Untersuchungen von Community-Aktivitäten, nicht für Dokumentationsfragen.",
+        "failedSummary": "Die Suche in den Community-Audit-Logs ist fehlgeschlagen: {message}",
+        "questionDescription": "Eine kurze Frage zu Aktionen oder Ereignissen in der aktiven Community",
+        "questionRequired": "Eine Protokollsuchfrage ist erforderlich."
       }
     }
   },

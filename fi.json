@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Mitä tietoturvatyökaluja on saatavilla täällä?",
           "openPanel": "Avaa tietoturvapaneeli minulle.",
-          "reviewFlags": "Kuinka tarkastan lippumäärätyt tilit?"
+          "reviewFlags": "Kuinka tarkastan lippumäärätyt tilit?",
+          "searchLogs": "Kuka muutti jäsenen käyttöoikeuksia tai arvoja äskettäin?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Avattu {label}.",
         "unavailableNoOptions": "Tässä kontekstissa ei ole käytettävissä CMS-navigointikohteita.",
         "unavailableSummary": "Tämä paneeli ei ole täällä käytettävissä. Saatavilla olevat vaihtoehdot: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Yhteisön valvontalokit haettu.",
+        "confirmationLabel": "Etsi yhteisön valvontalokeja",
+        "description": "Hae aktiivisen Sonoran CMS -yhteisön tarkastuslokeista, kun käyttäjä kysyy, kuka suoritti toiminnon, mitä muuttui, miksi jotain tapahtui tai milloin tapahtuma sattui. Käytä tätä yhteisön toiminnan selvittämiseen, ei dokumentaatiokysymyksiin.",
+        "failedSummary": "Yhteisön valvontalokin haku epäonnistui: {message}",
+        "questionDescription": "Tiivis kysymys aktiivisen yhteisön toimista tai tapahtumista.",
+        "questionRequired": "Lokihaku-kysymys vaaditaan."
       }
     }
   },

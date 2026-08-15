@@ -1156,7 +1156,8 @@
         "suggestions": {
           "availableTools": "Jaké bezpečnostní nástroje jsou zde k dispozici?",
           "openPanel": "Otevřete bezpečnostní panel pro mě.",
-          "reviewFlags": "Jak mohu kontrolovat označené účty?"
+          "reviewFlags": "Jak mohu kontrolovat označené účty?",
+          "searchLogs": "Kdo nedávno změnil členův přístup nebo hodnosti?"
         }
       },
       "teamSpeakIntegration": {
@@ -1271,6 +1272,14 @@
         "openedSummary": "Otevřeno {label}.",
         "unavailableNoOptions": "V tomto kontextu nejsou k dispozici žádné cíle navigace CMS.",
         "unavailableSummary": "Tento panel zde není dostupný. Dostupné možnosti: {availableOptions}."
+      },
+      "searchCmsAuditLogs": {
+        "completedSummary": "Prohledány auditní záznamy komunity.",
+        "confirmationLabel": "Hledat auditní záznamy komunity",
+        "description": "Prohledávejte aktivní auditní protokoly komunity Sonoran CMS, když se uživatel ptá, kdo provedl akci, co se změnilo, proč se něco stalo nebo kdy k události došlo. Používejte to pro vyšetřování aktivit komunity, ne pro dotazy na dokumentaci.",
+        "failedSummary": "Hledání auditních záznamů komunity selhalo: {message}",
+        "questionDescription": "Stručná otázka o akcích nebo událostech v aktivní komunitě.",
+        "questionRequired": "Je vyžadována otázka pro vyhledávání v záznamech."
       }
     }
   },
