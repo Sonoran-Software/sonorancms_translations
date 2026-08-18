@@ -3998,6 +3998,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS 等级是权限的唯一控制点。从一个统一系统中管理白名单、文件和网站访问、Discord 角色同步等更多功能。",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "为白名单申请、LOA 请求等创建自定义表单。强大的阶段自动化可更新用户等级、同步名单、触发通知，并自动处理重复的工作流步骤。",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "自定义社区名册随成员活动状态、连接时间、等级等实时更新。为状态变化触发自动化，或直接从表单阶段操作更新名册。",
+    "developers": {
+      "button": "探索开发者工具",
+      "description": "为任何游戏使用免费 API、开源库和 AI 插件构建自定义集成。",
+      "eyebrow": "开发者工具",
+      "titleAria": "我们热爱开发者。",
+      "titlePrefix": "我们",
+      "titleSuffix": "开发者。"
+    },
     "faq": {
       "free": {
         "answer": "是。Sonoran CMS 包括一个免费层，提供你的社区在一个地方管理成员、权限、表单、文档等所需的核心工具。桌面和移动应用也对所有平台免费。",

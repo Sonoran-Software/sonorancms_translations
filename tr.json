@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS sıralamaları, izinler için tek kontrol noktanızdır. Beyaz listeleri, dosya ve web sitesi erişimini, Discord rol eşitlemesini ve daha fazlasını tek birleşik sistemden yönetin.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Beyaz liste başvuruları, LOA talepleri ve daha fazlası için özel formlar oluşturun. Güçlü aşama otomasyonları kullanıcı rütbelerini güncelleyebilir, kadroları eşitleyebilir, bildirimleri tetikleyebilir ve yinelenen iş akışı adımlarını otomatik olarak işleyebilir.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Özel topluluk kadroları, üye etkinlik durumu, bağlantı süresi, rütbeler ve daha fazlasıyla canlı olarak güncellenir. Durum değişiklikleri için otomasyonları tetikleyin veya kadroları doğrudan form aşaması eylemlerinden güncelleyin.",
+    "developers": {
+      "button": "Geliştirici Araçlarını Keşfet",
+      "description": "Herhangi bir oyun için ücretsiz API'ler, açık kaynaklı kütüphaneler ve yapay zeka eklentileriyle özel entegrasyonlar oluşturun.",
+      "eyebrow": "Geliştirici Araçları",
+      "titleAria": "Geliştiricileri seviyoruz.",
+      "titlePrefix": "Biz",
+      "titleSuffix": "Geliştiriciler."
+    },
     "faq": {
       "free": {
         "answer": "Evet. Sonoran CMS, topluluğunuzun üyeleri, izinleri, formları, belgeleri ve daha fazlasını tek bir yerde yönetmesi için ihtiyaç duyduğu temel araçları içeren ücretsiz bir katman sunar. Masaüstü ve mobil uygulamalar da tüm platformlar için ücretsizdir.",

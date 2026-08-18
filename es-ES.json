@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "Los rangos de CMS son tu único punto de control para los permisos. Gestiona listas blancas, acceso a archivos y sitios web, sincronización de roles de Discord y más desde un sistema unificado.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Crea formularios personalizados para solicitudes de lista blanca, solicitudes de LOA y más. Las potentes automatizaciones de etapas pueden actualizar rangos de usuarios, sincronizar plantillas, activar notificaciones y gestionar automáticamente pasos repetitivos del flujo de trabajo.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Las listas personalizadas de la comunidad se actualizan en tiempo real con el estado de actividad de los miembros, el tiempo de conexión, los rangos y más. Activa automatizaciones para cambios de estado o actualiza las listas directamente desde las acciones de etapa del formulario.",
+    "developers": {
+      "button": "Explorar herramientas para desarrolladores",
+      "description": "Crea integraciones personalizadas para cualquier juego con APIs gratuitas, bibliotecas de código abierto y complementos de IA.",
+      "eyebrow": "Herramientas para desarrolladores",
+      "titleAria": "Nos encantan los desarrolladores.",
+      "titlePrefix": "Nosotros",
+      "titleSuffix": "Desarrolladores."
+    },
     "faq": {
       "free": {
         "answer": "Sí. Sonoran CMS incluye un nivel gratuito con las herramientas básicas que tu comunidad necesita para gestionar miembros, permisos, formularios, documentos y más en un solo lugar. Las apps de escritorio y móviles también son gratuitas para todas las plataformas.",
