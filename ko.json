@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS 순위는 권한을 위한 단일 제어 지점입니다. 하나의 통합 시스템에서 허용 목록, 파일 및 웹사이트 액세스, Discord 역할 동기화 등을 관리하세요.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "허용 목록 신청, LOA 요청 등 을 위한 사용자 지정 양식을 만드세요. 강력한 단계 자동화로 사용자 등급을 업데이트하고, 명단을 동기화하고, 알림을 트리거하고, 반복적인 워크플로 단계 를 자동으로 처리할 수 있습니다.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "사용자 지정 커뮤니티 명단이 구성원 활동 상태, 연결 시간, 순위 등으로 실시간 업데이트됩니다. 상태 변경에 대한 자동화를 트리거하거나 양식 단계 작업에서 직접 명단을 업데이트하세요.",
+    "developers": {
+      "button": "개발자 도구 둘러보기",
+      "description": "무료 API, 오픈 소스 라이브러리, AI 플러그인으로 어떤 게임이든 맞춤형 연동을 구축하세요.",
+      "eyebrow": "개발자 도구",
+      "titleAria": "우리는 개발자를 사랑합니다.",
+      "titlePrefix": "우리",
+      "titleSuffix": "개발자."
+    },
     "faq": {
       "free": {
         "answer": "예. Sonoran CMS에는 구성원이 필요로 하는 핵심 도구인 구성원, 권한, 양식, 문서 등을 한곳에서 관리할 수 있는 무료 등급이 포함되어 있습니다. 데스크톱 및 모바일 앱도 모든 플랫폼에서 무료입니다.",

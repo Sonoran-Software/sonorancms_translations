@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "Rangi CMS są twoim jedynym punktem kontroli uprawnień. Zarządzaj listami dozwolonych, dostępem do plików i witryn, synchronizacją ról Discord i nie tylko z jednego ujednoliconego systemu.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Twórz niestandardowe formularze dla aplikacji z białej listy, wniosków LOA i nie tylko. Potężne automatyzacje etapów mogą aktualizować rangi użytkowników, synchronizować składy, wyzwalać powiadomienia i automatycznie obsługiwać powtarzalne kroki workflow.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Niestandardowe społecznościowe listy członków aktualizują się na żywo wraz ze statusem aktywności członków, czasem połączenia, rangami i nie tylko. Wyzwalaj automatyzacje dla zmian statusu lub aktualizuj listy bezpośrednio z akcji etapu formularza.",
+    "developers": {
+      "button": "Poznaj narzędzia deweloperskie",
+      "description": "Twórz niestandardowe integracje dla każdej gry za pomocą darmowych API, bibliotek open source i wtyczek AI.",
+      "eyebrow": "Narzędzia deweloperskie",
+      "titleAria": "Uwielbiamy deweloperów.",
+      "titlePrefix": "My",
+      "titleSuffix": "Deweloperzy."
+    },
     "faq": {
       "free": {
         "answer": "Tak. Sonoran CMS zawiera darmowy plan z podstawowymi narzędziami, których Twoja społeczność potrzebuje do zarządzania członkami, uprawnieniami, formularzami, dokumentami i nie tylko w jednym miejscu. Aplikacje desktopowe i mobilne są również darmowe dla wszystkich platform.",

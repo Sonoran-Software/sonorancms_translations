@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS role jsou váš jediný kontrolní bod pro oprávnění. Spravujte whitelisty, přístup k souborům a webům, synchronizaci Discord rolí a další z jednoho sjednoceného systému.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Vytvářejte vlastní formuláře pro žádosti o zařazení na whitelist, žádosti o LOA a další. Výkonná automatizace stadií může aktualizovat uživatelské hodnosti, synchronizovat sestavy, spouštět oznámení a automaticky zpracovávat opakující se kroky workflow.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Vlastní komunitní seznamy se živě aktualizují podle stavu aktivity členů, doby připojení, hodností a dalších údajů. Spouštějte automatizace při změnách stavu nebo aktualizujte seznamy přímo z akcí fáze formuláře.",
+    "developers": {
+      "button": "Prozkoumat vývojářské nástroje",
+      "description": "Vytvářejte vlastní integrace pro jakoukoli hru s bezplatnými API, open-source knihovnami a AI pluginy.",
+      "eyebrow": "Vývojářské nástroje",
+      "titleAria": "Milujeme vývojáře.",
+      "titlePrefix": "My",
+      "titleSuffix": "Vývojáři."
+    },
     "faq": {
       "free": {
         "answer": "Ano. Sonoran CMS obsahuje bezplatnou verzi se základními nástroji, které vaše komunita potřebuje ke správě členů, oprávnění, formulářů, dokumentů a dalšího na jednom místě. Desktopové a mobilní aplikace jsou také zdarma pro všechny platformy.",

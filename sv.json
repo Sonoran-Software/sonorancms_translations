@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-ranker är din enda kontrollpunkt för behörigheter. Hantera whitelistor, fil- och webbplatsåtkomst, synkronisering av Discord-roller och mer från ett enhetligt system.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Skapa anpassade formulär för whitelistansökningar, LOA-förfrågningar och mer. Kraftfulla stage-automatiseringar kan uppdatera användarrankningar, synkronisera trupper, utlösa aviseringar och hantera repetitiva arbetsflödessteg automatiskt.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Anpassade communitylistor uppdateras live med medlemmarnas aktivitetsstatus, anslutningstid, ranker och mer. Utlös automatiseringar för statusändringar eller uppdatera listor direkt från formulärstadieåtgärder.",
+    "developers": {
+      "button": "Utforska utvecklarverktyg",
+      "description": "Bygg anpassade integrationer för vilket spel som helst med gratis-API:er, öppen källkod-bibliotek och AI-pluginer.",
+      "eyebrow": "Utvecklarverktyg",
+      "titleAria": "Vi älskar utvecklare.",
+      "titlePrefix": "Vi",
+      "titleSuffix": "Utvecklare."
+    },
     "faq": {
       "free": {
         "answer": "Ja. Sonoran CMS inkluderar en gratisnivå med de viktigaste verktygen som din community behöver för att hantera medlemmar, behörigheter, formulär, dokument och mer på ett ställe. Skrivbords- och mobilappar är också gratis för alla plattformar.",

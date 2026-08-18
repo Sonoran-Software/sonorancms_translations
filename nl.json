@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-rangen zijn je enige controlepunt voor machtigingen. Beheer whitelists, bestands- en website-toegang, Discord-rolsynchronisatie en meer vanuit één uniform systeem.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Maak aangepaste formulieren voor whitelist-aanvragen, LOA-verzoeken en meer. Krachtige stage-automatiseringen kunnen gebruikersrangen bijwerken, roosters synchroniseren, meldingen activeren en repetitieve workflowstappen automatisch afhandelen.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Aangepaste communityroosters werken live bij met ledenactiviteitsstatus, verbindingstijd, rangen en meer. Activeer automatiseringen voor statuswijzigingen of werk roosters rechtstreeks bij vanuit formulierfase-acties.",
+    "developers": {
+      "button": "Ontdek ontwikkelaarstools",
+      "description": "Bouw aangepaste integraties voor elk spel met gratis API's, open-sourcebibliotheken en AI-plugins.",
+      "eyebrow": "Ontwikkelaarstools",
+      "titleAria": "We houden van ontwikkelaars.",
+      "titlePrefix": "Wij",
+      "titleSuffix": "Ontwikkelaars."
+    },
     "faq": {
       "free": {
         "answer": "Ja. Sonoran CMS bevat een gratis abonnement met de kernhulpmiddelen die je community nodig heeft om leden, machtigingen, formulieren, documenten en meer op één plek te beheren. Desktop- en mobiele apps zijn ook gratis voor alle platformen.",

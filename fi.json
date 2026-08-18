@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS-rankingit ovat ainoa ohjauspisteesi käyttöoikeuksille. Hallinnoi sallittuja listoita, tiedosto- ja verkkosivustojen käyttöä, Discord-roolien synkronointia ja muuta yhdestä yhtenäisestä järjestelmästä.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Luo mukautettuja lomakkeita sallittujen sovellusten, LOA-pyyntöjen ja muun hallintaan. Tehokkaat vaihemääritykset voivat päivittää käyttäjien arvoja, synkronoida kokoonpanoja, käynnistää ilmoituksia ja hoitaa toistuvat työnkulun vaiheet automaattisesti.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Mukautetut yhteisön kokoonpanot päivittyvät reaaliajassa jäsenten aktiivisuustilan, yhteysajan, sijoitusten ja muun perusteella. Käynnistä automaatioita tilamuutoksille tai päivitä kokoonpanoja suoraan lomakevaiheen toiminnoista.",
+    "developers": {
+      "button": "Tutustu kehittäjätyökaluihin",
+      "description": "Rakenna mukautettuja integraatioita mihin tahansa peliin ilmaisilla API:lla, avoimen lähdekoodin kirjastoilla ja tekoälyliitännäisillä.",
+      "eyebrow": "Kehittäjätyökalut",
+      "titleAria": "Rakastamme kehittäjiä.",
+      "titlePrefix": "Me",
+      "titleSuffix": "Kehittäjät."
+    },
     "faq": {
       "free": {
         "answer": "Kyllä. Sonoran CMS sisältää ilmaisen tason, jossa on yhteisösi tarvitsemat ydintyökalut jäsenten, käyttöoikeuksien, lomakkeiden, asiakirjojen ja muun hallintaan yhdessä paikassa. Työpöytä- ja mobiilisovellukset ovat myös ilmaisia kaikilla alustoilla.",

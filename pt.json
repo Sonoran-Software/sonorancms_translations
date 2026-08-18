@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "Os níveis de CMS são o seu ponto único de controlo para permissões. Gerencie listas de permissões, acesso a ficheiros e sites, sincronização de funções do Discord e mais a partir de um sistema unificado.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Crie formulários personalizados para solicitações de whitelist, solicitações de LOA e muito mais. Automações poderosas de estágio podem atualizar cargos de usuários, sincronizar listas, disparar notificações e lidar automaticamente com etapas repetitivas do fluxo de trabalho.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Rosters personalizados da comunidade são atualizados ao vivo com status de atividade dos membros, tempo de conexão, ranks e mais. Acione automações para mudanças de status ou atualize rosters diretamente a partir de ações de etapa do formulário.",
+    "developers": {
+      "button": "Explorar Ferramentas para Desenvolvedores",
+      "description": "Crie integrações personalizadas para qualquer jogo com APIs gratuitas, bibliotecas de código aberto e plugins de IA.",
+      "eyebrow": "Ferramentas para Desenvolvedores",
+      "titleAria": "Nós adoramos desenvolvedores.",
+      "titlePrefix": "Nós",
+      "titleSuffix": "Desenvolvedores."
+    },
     "faq": {
       "free": {
         "answer": "Sim. O Sonoran CMS inclui um plano gratuito com as ferramentas essenciais que sua comunidade precisa para gerenciar membros, permissões, formulários, documentos e muito mais em um só lugar. Os aplicativos para desktop e mobile também são gratuitos para todas as plataformas.",

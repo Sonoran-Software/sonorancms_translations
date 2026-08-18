@@ -3997,6 +3997,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMSランクは権限の単一管理ポイントです。ホワイトリスト、ファイルとウェブサイトへのアクセス、Discordロール同期などを、1つの統合システムから管理できます。",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "ホワイトリスト申請、LOAリクエストなどのカスタムフォームを作成できます。強力なステージ自動化で、ユーザーランクの更新、ロスターの同期、通知のトリガー、反復的なワークフローステップの自動処理が可能です。",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "カスタム コミュニティ ロスターは、メンバーのアクティビティ ステータス、接続時間、ランクなどでリアルタイム更新されます。ステータス変更の自動化をトリガーするか、フォーム ステージ アクションから直接ロスターを更新します。",
+    "developers": {
+      "button": "開発者ツールを探索",
+      "description": "無料の API、オープンソース ライブラリ、AI プラグインで、あらゆるゲーム向けにカスタム連携を構築",
+      "eyebrow": "開発者ツール",
+      "titleAria": "私たちは開発者が大好きです。",
+      "titlePrefix": "私たちは",
+      "titleSuffix": "開発者。"
+    },
     "faq": {
       "free": {
         "answer": "はい。Sonoran CMS には、コミュニティのメンバー、権限、フォーム、ドキュメントなどを 1 つの場所で管理するために必要なコアツールを含む無料プランがあります。デスクトップアプリとモバイルアプリも、すべてのプラットフォームで無料です。",
