@@ -3995,6 +3995,14 @@
     "cMSRanksAreYourSingleControlPointForPermissionsManageWhiteli": "CMS ranks are your single control point for permissions. Manage whitelists, file and website access, Discord role sync, and more from one unified system.",
     "createCustomFormsForWhitelistApplicationsLOARequestsAndMoreP": "Create custom forms for whitelist applications, LOA requests, and more. Powerful stage automations can update user ranks, sync rosters, trigger notifications, and handle repetitive workflow steps automatically.",
     "customCommunityRostersUpdateLiveWithMemberActivityStatusConn": "Custom community rosters update live with member activity status, connection time, ranks, and more. Trigger automations for status changes or update rosters directly from form stage actions.",
+    "developers": {
+      "button": "Explore Developer Tools",
+      "description": "Build custom integrations for any game with free APIs, open-source libraries, and AI plugins.",
+      "eyebrow": "Developer Tools",
+      "titleAria": "We love developers.",
+      "titlePrefix": "We",
+      "titleSuffix": "Developers."
+    },
     "faq": {
       "free": {
         "answer": "Yes. Sonoran CMS includes a free tier with the core tools your community needs to manage members, permissions, forms, documents, and more in one place. Desktop and mobile apps are also free for all platforms.",
