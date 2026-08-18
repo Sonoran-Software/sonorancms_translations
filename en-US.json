@@ -1449,6 +1449,13 @@
     "remove": "Remove",
     "save": "Save"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Starting User ID",
+    "positiveWholeNumber": "Enter a whole number greater than zero.",
+    "saveError": "The starting user ID could not be saved. Try again.",
+    "title": "Community User IDs",
+    "tooltip": "Sets the first number used for automatically assigned community user IDs. Existing and manually assigned IDs are not changed."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "by Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Created by an Official Sonoran Software Systems Employee",
@@ -1606,13 +1613,6 @@
     "unselectAll": "Unselect All",
     "useBlankTemplate": "Use Blank Template",
     "view": "View"
-  },
-  "CommunityUserIdStartConfigurator": {
-    "label": "Starting User ID",
-    "positiveWholeNumber": "Enter a whole number greater than zero.",
-    "saveError": "The starting user ID could not be saved. Try again.",
-    "title": "Community User IDs",
-    "tooltip": "Sets the first number used for automatically assigned community user IDs. Existing and manually assigned IDs are not changed."
   },
   "customization": {
     "inputs": {
