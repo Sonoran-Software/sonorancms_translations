@@ -1449,6 +1449,13 @@
     "remove": "Poista",
     "save": "Tallenna"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Aloituskäyttäjätunnus",
+    "positiveWholeNumber": "Anna kokonaisluku, joka on suurempi kuin nolla.",
+    "saveError": "Aloittavaa käyttäjätunnusta ei voitu tallentaa. Yritä uudelleen.",
+    "title": "Yhteisön käyttäjätunnukset",
+    "tooltip": "Asettaa ensimmäisen numeron, jota käytetään automaattisesti määritetyille yhteisön käyttäjätunnuksille. Olemassa olevia ja manuaalisesti määritettyjä tunnuksia ei muuteta."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "Sonoran Software Systemsin toimesta",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Luonut virallinen Sonoran Software Systemsin työntekijä",

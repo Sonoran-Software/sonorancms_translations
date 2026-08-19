@@ -1449,6 +1449,13 @@
     "remove": "Fjern",
     "save": "Gem"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Startbruger-ID",
+    "positiveWholeNumber": "Indtast et helt tal større end nul.",
+    "saveError": "Startbruger-ID'et kunne ikke gemmes. Prøv igen.",
+    "title": "Fællesskabsbruger-ID'er",
+    "tooltip": "Angiver det første nummer, der bruges til automatisk tildelte community-bruger-id'er. Eksisterende og manuelt tildelte id'er ændres ikke."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "af Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Oprettet af en officiel medarbejder fra Sonoran Software Systems",

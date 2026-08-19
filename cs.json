@@ -1449,6 +1449,13 @@
     "remove": "Odstranit",
     "save": "Uložit"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Počáteční ID uživatele",
+    "positiveWholeNumber": "Zadejte celé číslo větší než nula.",
+    "saveError": "Počáteční uživatelské ID se nepodařilo uložit. Zkuste to znovu.",
+    "title": "ID uživatelů komunity",
+    "tooltip": "Nastaví první číslo použité pro automaticky přiřazovaná ID uživatelů komunity. Stávající a ručně přiřazená ID se nemění."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "od Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Vytvořeno oficiálním zaměstnancem Sonoran Software Systems",

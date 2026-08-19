@@ -1449,6 +1449,13 @@
     "remove": "削除",
     "save": "保存"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "開始ユーザー ID",
+    "positiveWholeNumber": "0より大きい整数を入力してください。",
+    "saveError": "開始ユーザー ID を保存できませんでした。もう一度お試しください。",
+    "title": "コミュニティユーザーID",
+    "tooltip": "自動で割り当てられるコミュニティユーザー ID に使用する最初の番号を設定します。既存の ID と手動で割り当てられた ID は変更されません。"
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "公式のSonoran Software Systemsの従業員によって作成されました",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Sonoran Software Systems の正式な従業員が作成",

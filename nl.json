@@ -1449,6 +1449,13 @@
     "remove": "Verwijderen",
     "save": "Opslaan"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Startende gebruikers-ID",
+    "positiveWholeNumber": "Voer een geheel getal groter dan nul in.",
+    "saveError": "De beginnende gebruikers-ID kon niet worden opgeslagen. Probeer het opnieuw.",
+    "title": "Gebruikers-ID's van de gemeenschap",
+    "tooltip": "Stelt het eerste nummer in dat wordt gebruikt voor automatisch toegewezen communitygebruiker-ID's. Bestaande en handmatig toegewezen ID's worden niet gewijzigd."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "door Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Gemaakt door een officiële medewerker van Sonoran Software Systems",
