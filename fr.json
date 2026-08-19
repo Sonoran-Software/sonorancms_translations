@@ -1449,6 +1449,13 @@
     "remove": "Supprimer",
     "save": "Enregistrer"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "ID utilisateur de départ",
+    "positiveWholeNumber": "Entrez un nombre entier supérieur à zéro.",
+    "saveError": "L'identifiant utilisateur de départ n'a pas pu être enregistré. Réessayez.",
+    "title": "ID d'utilisateur de la communauté",
+    "tooltip": "Définit le premier nombre utilisé pour les identifiants d'utilisateur de communauté attribués automatiquement. Les identifiants existants et attribués manuellement ne sont pas modifiés."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "par Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Créé par un employé officiel de Sonoran Software Systems",

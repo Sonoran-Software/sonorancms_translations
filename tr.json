@@ -1449,6 +1449,13 @@
     "remove": "Kaldır",
     "save": "Kaydet"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Başlangıç Kullanıcı Kimliği",
+    "positiveWholeNumber": "Sıfırdan büyük bir tam sayı girin.",
+    "saveError": "Başlangıç kullanıcı kimliği kaydedilemedi. Tekrar deneyin.",
+    "title": "Topluluk Kullanıcı Kimlikleri",
+    "tooltip": "Otomatik atanan topluluk kullanıcı kimlikleri için kullanılan ilk numarayı ayarlar. Var olan ve elle atanmış kimlikler değiştirilmez."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "Sonoran Software Systems tarafından",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Resmi bir Sonoran Software Systems çalışanı tarafından oluşturuldu",

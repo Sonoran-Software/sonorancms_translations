@@ -1449,6 +1449,13 @@
     "remove": "Fjern",
     "save": "Lagre"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Startende bruker-ID",
+    "positiveWholeNumber": "Skriv inn et heltall større enn null.",
+    "saveError": "Startbruker-ID-en kunne ikke lagres. Prøv igjen.",
+    "title": "Samfunnsbruker-ID-er",
+    "tooltip": "Angir det første tallet som brukes for automatisk tildelte community-bruker-ID-er. Eksisterende og manuelt tildelte ID-er endres ikke."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "av Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Opprettet av en offisiell ansatt i Sonoran Software Systems",

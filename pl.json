@@ -1449,6 +1449,13 @@
     "remove": "Usuń",
     "save": "Zapisz"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Początkowy identyfikator użytkownika",
+    "positiveWholeNumber": "Wprowadź liczbę całkowitą większą od zera.",
+    "saveError": "Nie udało się zapisać początkowego identyfikatora użytkownika. Spróbuj ponownie.",
+    "title": "identyfikatory użytkowników społeczności",
+    "tooltip": "Ustawia pierwszą liczbę używaną do automatycznie przypisywanych identyfikatorów użytkowników społeczności. Istniejące i ręcznie przypisane identyfikatory nie są zmieniane."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "przez Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Stworzone przez oficjalnego pracownika Sonoran Software Systems",

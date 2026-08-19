@@ -1449,6 +1449,13 @@
     "remove": "Entfernen",
     "save": "Speichern"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Startende Benutzer-ID",
+    "positiveWholeNumber": "Gib eine ganze Zahl größer als null ein.",
+    "saveError": "Die anfängliche Benutzer-ID konnte nicht gespeichert werden. Versuchen Sie es erneut.",
+    "title": "Community-Benutzer-IDs",
+    "tooltip": "Legt die erste Zahl fest, die für automatisch zugewiesene Community-Benutzer-IDs verwendet wird. Vorhandene und manuell zugewiesene IDs werden nicht geändert."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "von Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Erstellt von einem offiziellen Mitarbeiter von Sonoran Software Systems",

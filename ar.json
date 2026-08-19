@@ -1449,6 +1449,13 @@
     "remove": "إزالة",
     "save": "حفظ"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "معرّف المستخدم الابتدائي",
+    "positiveWholeNumber": "أدخل عددًا صحيحًا أكبر من صفر.",
+    "saveError": "تعذر حفظ معرّف المستخدم الابتدائي. حاول مرة أخرى.",
+    "title": "معرّفات مستخدمي المجتمع",
+    "tooltip": "يحدد أول رقم مستخدم لتعيين معرّفات مستخدمي المجتمع تلقائيًا. لا يتم تغيير المعرفات الحالية والمعينة يدويًا."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "بواسطة أنظمة سونوران للبرمجيات",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "تم إنشاؤه بواسطة موظف رسمي من أنظمة سونوران للبرمجيات",

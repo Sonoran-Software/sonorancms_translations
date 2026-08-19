@@ -1449,6 +1449,13 @@
     "remove": "Remover",
     "save": "Salvar"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "ID do utilizador inicial",
+    "positiveWholeNumber": "Insira um número inteiro maior que zero.",
+    "saveError": "Não foi possível salvar o ID de usuário inicial. Tente novamente.",
+    "title": "IDs de Usuário da Comunidade",
+    "tooltip": "Define o primeiro número usado para IDs de usuário da comunidade atribuídos automaticamente. IDs existentes e atribuídos manualmente não são alterados."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "por Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Criado por um Funcionário Oficial da Sonoran Software Systems",

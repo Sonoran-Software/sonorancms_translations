@@ -1449,6 +1449,13 @@
     "remove": "Ta bort",
     "save": "Spara"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Startanvändar-ID",
+    "positiveWholeNumber": "Ange ett heltal större än noll.",
+    "saveError": "Det gick inte att spara det startande användar-ID:t. Försök igen.",
+    "title": "Gemenskapsanvändar-ID:n",
+    "tooltip": "Ställer in det första numret som används för automatiskt tilldelade community-användar-ID:n. Befintliga och manuellt tilldelade ID:n ändras inte."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "av Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Skapad av en officiell anställd på Sonoran Software Systems",

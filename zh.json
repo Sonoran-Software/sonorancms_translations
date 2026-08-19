@@ -1450,6 +1450,13 @@
     "remove": "移除",
     "save": "保存"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "起始用户 ID",
+    "positiveWholeNumber": "请输入大于零的整数。",
+    "saveError": "起始用户 ID 无法保存。请重试。",
+    "title": "社区用户ID",
+    "tooltip": "设置自动分配的社区用户 ID 使用的首个数字。现有 ID 和手动分配的 ID 不会更改。"
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "由 Sonoran Software Systems 提供",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "由 Sonoran 软件系统的官方员工创建",

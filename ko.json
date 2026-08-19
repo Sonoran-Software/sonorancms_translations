@@ -1449,6 +1449,13 @@
     "remove": "제거",
     "save": "저장"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "시작 사용자 ID",
+    "positiveWholeNumber": "0보다 큰 정수를 입력하세요.",
+    "saveError": "시작 사용자 ID를 저장할 수 없었습니다. 다시 시도하세요.",
+    "title": "커뮤니티 사용자 ID",
+    "tooltip": "자동으로 할당되는 커뮤니티 사용자 ID에 사용되는 첫 번째 숫자를 설정합니다. 기존 ID와 수동으로 할당된 ID는 변경되지 않습니다."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "공식 Sonoran Software Systems 직원이 작성",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "공식 Sonoran Software Systems 직원이 생성함",

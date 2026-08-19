@@ -1449,6 +1449,13 @@
     "remove": "Удалить",
     "save": "Сохранить"
   },
+  "CommunityUserIdStartConfigurator": {
+    "label": "Начальный ID пользователя",
+    "positiveWholeNumber": "Введите целое число больше нуля.",
+    "saveError": "Не удалось сохранить начальный ID пользователя. Попробуйте еще раз.",
+    "title": "ID пользователей сообщества",
+    "tooltip": "Задает первое число, используемое для автоматически назначаемых ID пользователей сообщества. Существующие и назначенные вручную ID не изменяются."
+  },
   "comTemplateDetailsDialog": {
     "bySonoranSoftwareSystems": "Создано сотрудником Sonoran Software Systems",
     "createdByAnOfficialSonoranSoftwareSystemsEmployee": "Создано официальным сотрудником Sonoran Software Systems",
