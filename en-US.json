@@ -5867,14 +5867,6 @@
     "unlink": "Unlink",
     "viewHistoricalNetworkAttacksOnYourServer": "View historical network attacks on your server."
   },
-  "specificSubscribedAccountNotificationPreference": {
-    "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:",
-    "desktop": "Desktop",
-    "discord": "Discord",
-    "inbox": "Inbox",
-    "mobile": "Mobile",
-    "notification": "Notification"
-  },
   "siteAi": {
     "applyToPreview": "Apply to preview",
     "couldNotGenerate": "Site AI could not generate this draft.",
@@ -5910,6 +5902,14 @@
     },
     "title": "Site AI",
     "you": "You"
+  },
+  "specificSubscribedAccountNotificationPreference": {
+    "anErrorOccuredWhileUpdatingNotificationP": "An error occured while updating notification preferences, try again later. Error:",
+    "desktop": "Desktop",
+    "discord": "Discord",
+    "inbox": "Inbox",
+    "mobile": "Mobile",
+    "notification": "Notification"
   },
   "StageActionEditor": {
     "allowedRanksToReply": "Allowed Ranks to Reply",
