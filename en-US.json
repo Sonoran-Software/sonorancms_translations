@@ -5873,7 +5873,7 @@
     "credits": "Site AI credits",
     "creditsMultiplier": "{multiplier}× Site AI credits",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Describe a page or change. Site AI an unsaved draft.",
+    "description": "Describe a page or change. Site AI creates an unsaved draft.",
     "draftApplied": "Site AI draft applied to the editor preview. Save the page to publish it.",
     "draftInstructions": "Apply it to the editor preview, then use the normal Save button when you are happy.",
     "draftReady": "Draft ready",
@@ -5894,6 +5894,7 @@
     "previewLoading": "Loading Site AI draft…",
     "previewUnavailable": "Preview unavailable",
     "promptLabel": "Describe the page or change",
+    "reconnecting": "Reconnecting to your generation…",
     "sendShortcut": "Ctrl/⌘ + Enter to send",
     "suggestions": {
       "darkCinematicTheme": "Restyle this page with a dark, cinematic theme and accessible contrast.",
