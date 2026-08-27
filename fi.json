@@ -4143,6 +4143,24 @@
     "security": "Turvallisuus",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Jaa ja muokkaa asiakirjoja yhdessä reaaliajassa, lisää vesileimasuojaus, upota kuvia ja tiedostoja sekä synkronoi käyttöoikeudet automaattisesti CMS-roolien kanssa.",
     "sonoranCmsLogoAlt": "Sonoran CMS -logo",
+    "support": {
+      "contactButton": "Ota yhteyttä tukeen",
+      "description": "Live-chat-tuki on saatavilla 7 päivää viikossa oikeilta ihmisiltä, jotka ymmärtävät roolipeliyhteisöjä — tiimeillä Yhdysvalloissa ja Isossa-Britanniassa.",
+      "features": {
+        "humans": "Ihmistuki",
+        "liveChat": "Pikaviestintä päivittäin",
+        "locations": "USA + UK -tiimi"
+      },
+      "flags": {
+        "uk": "Yhdistynyt kuningaskunta",
+        "us": "Yhdysvallat"
+      },
+      "googleBadge": "Google-arvostelut",
+      "reviewsButton": "Lue Google-arvostelut",
+      "titleHighlight": "5 tähden tuki.",
+      "titleLead": "Yhteisösi ansaitsee",
+      "widgetTitle": "Sonoranin tuen vastausajat"
+    },
     "tabPanelImageFrameAria": "Välilehden paneelin kuvakehys",
     "totalBilledQuarterly": "laskutettu yhteensä neljännesvuosittain",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Käytä tekoälyn avustamaa arviointia lomakkeiden lähetyksien käsittelemiseen automaattisesti ja ohjaa kukin oikeaan tarkistusvaiheeseen.",

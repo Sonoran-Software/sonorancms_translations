@@ -4143,6 +4143,24 @@
     "security": "Sicherheit",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Dokumente teilen und live bearbeiten, Wasserzeichenschutz hinzufügen, Bilder und Dateien einbetten und Zugriffsberechtigungen automatisch mit CMS-Rängen synchronisieren.",
     "sonoranCmsLogoAlt": "Sonoran CMS-Logo",
+    "support": {
+      "contactButton": "Support kontaktieren",
+      "description": "Live-Chat-Support ist 7 Tage die Woche von echten Menschen verfügbar, die Rollenspiel-Communitys verstehen — mit Teams in den USA und im Vereinigten Königreich.",
+      "features": {
+        "humans": "Menschlicher Support",
+        "liveChat": "Live-Chat täglich",
+        "locations": "USA + UK-Team"
+      },
+      "flags": {
+        "uk": "Vereinigtes Königreich",
+        "us": "Vereinigte Staaten"
+      },
+      "googleBadge": "Google-Bewertungen",
+      "reviewsButton": "Google-Bewertungen lesen",
+      "titleHighlight": "5-Sterne-Support.",
+      "titleLead": "Ihre Community verdient",
+      "widgetTitle": "Sonoran Support Antwortzeiten"
+    },
     "tabPanelImageFrameAria": "Bildrahmen des Registerkartenbereichs",
     "totalBilledQuarterly": "Gesamt vierteljährlich abgerechnet",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Verwende KI-gestützte Bewertung, um Formulareinsendungen automatisch zu verarbeiten und jede an die richtige Prüfungsphase weiterzuleiten.",

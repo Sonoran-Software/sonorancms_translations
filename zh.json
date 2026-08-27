@@ -4144,6 +4144,24 @@
     "security": "安全",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "共享并实时编辑文档，添加水印保护，嵌入图片和文件，并自动将访问权限与 CMS 等级同步。",
     "sonoranCmsLogoAlt": "Sonoran CMS 标志",
+    "support": {
+      "contactButton": "联系支持",
+      "description": "实时聊天支持每周 7 天可用，由了解角色扮演社区的真人提供——团队位于美国和英国。",
+      "features": {
+        "humans": "人工支持",
+        "liveChat": "每日在线聊天",
+        "locations": "美国 + 英国团队"
+      },
+      "flags": {
+        "uk": "英国",
+        "us": "美国"
+      },
+      "googleBadge": "Google 评价",
+      "reviewsButton": "阅读 Google 评价",
+      "titleHighlight": "五星支持。",
+      "titleLead": "您的社区值得",
+      "widgetTitle": "Sonoran 支持响应时间"
+    },
     "tabPanelImageFrameAria": "标签面板图像框架",
     "totalBilledQuarterly": "季度总计已计费",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "使用 AI 辅助评分自动处理表单提交，并将每一项路由到正确的审核阶段。",

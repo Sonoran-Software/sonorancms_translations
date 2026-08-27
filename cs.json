@@ -4143,6 +4143,24 @@
     "security": "Bezpečnost",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Sdílejte dokumenty a upravujte je naživo, přidejte ochranu vodoznakem, vkládejte obrázky a soubory a automaticky synchronizujte oprávnění k přístupu s úrovněmi CMS.",
     "sonoranCmsLogoAlt": "logo Sonoran CMS",
+    "support": {
+      "contactButton": "Kontaktujte podporu",
+      "description": "Živá chatová podpora je k dispozici 7 dní v týdnu od skutečných lidí, kteří rozumějí roleplay komunitám — s týmy v USA a Velké Británii.",
+      "features": {
+        "humans": "Lidská podpora",
+        "liveChat": "Živý chat denně",
+        "locations": "tým z USA + Velké Británie"
+      },
+      "flags": {
+        "uk": "Spojené království",
+        "us": "Spojené státy"
+      },
+      "googleBadge": "Recenze na Googlu",
+      "reviewsButton": "Přečíst recenze na Googlu",
+      "titleHighlight": "Podpora 5 hvězdiček.",
+      "titleLead": "Vaše komunita si zaslouží",
+      "widgetTitle": "Doby odezvy podpory Sonoran"
+    },
     "tabPanelImageFrameAria": "Rámeček obrázku panelu záložek",
     "totalBilledQuarterly": "celkem účtováno čtvrtletně",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Používejte hodnocení s asistencí AI k automatickému zpracování odeslání formulářů a směrování každého z nich do správné fáze kontroly.",

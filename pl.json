@@ -4143,6 +4143,24 @@
     "security": "Bezpieczeństwo",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Udostępniaj i edytuj dokumenty na żywo, dodawaj ochronę znakiem wodnym, osadzaj obrazy i pliki oraz automatycznie synchronizuj uprawnienia dostępu z rangami CMS.",
     "sonoranCmsLogoAlt": "Logo Sonoran CMS",
+    "support": {
+      "contactButton": "Skontaktuj się z pomocą techniczną",
+      "description": "Wsparcie na czacie na żywo jest dostępne 7 dni w tygodniu od prawdziwych ludzi, którzy rozumieją społeczności roleplay — z zespołami w USA i Wielkiej Brytanii.",
+      "features": {
+        "humans": "Wsparcie od ludzi",
+        "liveChat": "Czat na żywo codziennie",
+        "locations": "zespół USA + UK"
+      },
+      "flags": {
+        "uk": "Wielka Brytania",
+        "us": "Stany Zjednoczone"
+      },
+      "googleBadge": "Opinie w Google",
+      "reviewsButton": "Przeczytaj opinie w Google",
+      "titleHighlight": "Wsparcie 5-gwiazdkowe.",
+      "titleLead": "Twoja społeczność zasługuje",
+      "widgetTitle": "Czasy odpowiedzi wsparcia Sonoran"
+    },
     "tabPanelImageFrameAria": "Rama obrazu panelu kart",
     "totalBilledQuarterly": "łącznie rozliczane kwartalnie",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Użyj oceniania wspomaganego przez AI, aby automatycznie przetwarzać zgłoszenia formularza i kierować każde z nich do odpowiedniego etapu przeglądu.",

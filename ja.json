@@ -4143,6 +4143,24 @@
     "security": "セキュリティ",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "ドキュメントを共有して共同編集し、透かし保護を追加し、画像とファイルを埋め込み、CMSのランクとアクセス権限を自動的に同期します。",
     "sonoranCmsLogoAlt": "Sonoran CMS ロゴ",
+    "support": {
+      "contactButton": "コミュニティの所有者のみが転送を開始および完了できます。",
+      "description": "ライブチャットサポートは、ロールプレイコミュニティを理解している実在のスタッフが年中無休で対応します — USAとUKのチームがいます。",
+      "features": {
+        "humans": "有人サポート",
+        "liveChat": "ライブチャット毎日",
+        "locations": "USA + UK チーム"
+      },
+      "flags": {
+        "uk": "イギリス",
+        "us": "アメリカ合衆国"
+      },
+      "googleBadge": "Google レビュー",
+      "reviewsButton": "Google レビューを見る",
+      "titleHighlight": "5つ星サポート。",
+      "titleLead": "あなたのコミュニティはふさわしい",
+      "widgetTitle": "Sonoran サポートの応答時間"
+    },
     "tabPanelImageFrameAria": "タブパネル画像フレーム",
     "totalBilledQuarterly": "四半期ごとの請求総額",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "AI支援の採点を使用してフォーム送信を自動的に処理し、それぞれを適切なレビュー段階に振り分けます。",

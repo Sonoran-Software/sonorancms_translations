@@ -4143,6 +4143,24 @@
     "security": "الأمان",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "مشاركة المستندات وتحريرها مباشرةً، وإضافة حماية بعلامة مائية، وتضمين الصور والملفات، ومزامنة أذونات الوصول تلقائيًا مع رتب نظام إدارة المحتوى.",
     "sonoranCmsLogoAlt": "شعار Sonoran CMS",
+    "support": {
+      "contactButton": "اتصل بالدعم",
+      "description": "دعم الدردشة المباشرة متاح 7 أيام في الأسبوع من أشخاص حقيقيين يفهمون مجتمعات لعب الأدوار — مع فرق في الولايات المتحدة والمملكة المتحدة.",
+      "features": {
+        "humans": "الدعم البشري",
+        "liveChat": "الدردشة المباشرة يوميًا",
+        "locations": "فريق الولايات المتحدة + المملكة المتحدة"
+      },
+      "flags": {
+        "uk": "المملكة المتحدة",
+        "us": "الولايات المتحدة"
+      },
+      "googleBadge": "تقييمات Google",
+      "reviewsButton": "اقرأ تقييمات Google",
+      "titleHighlight": "دعم من 5 نجوم.",
+      "titleLead": "مجتمعك يستحق",
+      "widgetTitle": "أوقات استجابة دعم Sonoran"
+    },
     "tabPanelImageFrameAria": "إطار صورة لوحة التبويب",
     "totalBilledQuarterly": "إجمالي الفوترة ربع السنوية",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "استخدم التصحيح بمساعدة الذكاء الاصطناعي لمعالجة عمليات إرسال النماذج تلقائيًا وتوجيه كل منها إلى مرحلة المراجعة الصحيحة.",
