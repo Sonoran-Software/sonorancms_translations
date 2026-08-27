@@ -5888,7 +5888,7 @@
     "credits": "Site AI 积分",
     "creditsMultiplier": "{multiplier}× Site AI 积分",
     "cssSheetName": "站点 AI · {pageTitle}",
-    "description": "描述页面或更改。Site AI 一个未保存的草稿。",
+    "description": "描述页面或更改。Site AI 会创建未保存的草稿。",
     "draftApplied": "Site AI 草稿已应用到编辑器预览。保存页面以发布它。",
     "draftInstructions": "将它应用到编辑器预览中，然后在满意时使用普通的保存按钮。",
     "draftReady": "草稿已就绪",
@@ -5909,6 +5909,7 @@
     "previewLoading": "正在加载 Site AI 草稿…",
     "previewUnavailable": "无法预览",
     "promptLabel": "描述页面或更改",
+    "reconnecting": "正在重新连接到你的生成…",
     "sendShortcut": "Ctrl/⌘ + Enter 发送",
     "suggestions": {
       "darkCinematicTheme": "将此页面重新设计为黑暗、电影感主题，并保持可访问的对比度。",

@@ -5887,7 +5887,7 @@
     "credits": "Site AI-kreditter",
     "creditsMultiplier": "{multiplier}× Site AI-kreditter",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Beskriv en side eller ændring. Site AI en ikke-gemt kladde.",
+    "description": "Beskriv en side eller ændring. Site AI opretter et ikke-gemt udkast.",
     "draftApplied": "Site AI-udkast anvendt i editorforhåndsvisningen. Gem siden for at publicere den.",
     "draftInstructions": "Anvend det på redigeringsforhåndsvisningen, og brug derefter den normale Gem-knap, når du er tilfreds.",
     "draftReady": "Kladde klar",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Indlæser Site AI-udkast…",
     "previewUnavailable": "Forhåndsvisning ikke tilgængelig",
     "promptLabel": "Beskriv siden eller ændringen",
+    "reconnecting": "Genopretter forbindelsen til din generering…",
     "sendShortcut": "Ctrl/⌘ + Enter for at sende",
     "suggestions": {
       "darkCinematicTheme": "Giv denne side et mørkt, filmisk tema med tilgængelig kontrast.",

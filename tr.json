@@ -5887,7 +5887,7 @@
     "credits": "Site AI kredisi",
     "creditsMultiplier": "{multiplier}× Site AI kredisi",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Bir sayfayı veya değişikliği açıklayın. Site AI kaydedilmemiş taslak.",
+    "description": "Bir sayfayı veya değişikliği açıklayın. Site AI kaydedilmemiş bir taslak oluşturur.",
     "draftApplied": "Site AI taslağı düzenleyici önizlemesine uygulandı. Yayınlamak için sayfayı kaydedin.",
     "draftInstructions": "Bunu düzenleyici önizlemesine uygulayın, ardından memnun kaldığınızda normal Kaydet düğmesini kullanın.",
     "draftReady": "Taslak hazır",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Site AI taslağı yükleniyor…",
     "previewUnavailable": "Önizleme kullanılamıyor",
     "promptLabel": "Sayfayı veya değişikliği açıklayın",
+    "reconnecting": "Üretiminize yeniden bağlanılıyor…",
     "sendShortcut": "Göndermek için Ctrl/⌘ + Enter",
     "suggestions": {
       "darkCinematicTheme": "Bu sayfayı koyu, sinematik bir tema ve erişilebilir kontrastla yeniden stillendir.",

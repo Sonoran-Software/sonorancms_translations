@@ -5887,7 +5887,7 @@
     "credits": "أرصدة Site AI",
     "creditsMultiplier": "{multiplier}× أرصدة Site AI",
     "cssSheetName": "ذكاء الموقع · {pageTitle}",
-    "description": "صفحة أو تغيير. موقع الذكاء الاصطناعي مسودة غير محفوظة.",
+    "description": "صفحة أو تغيير. يُنشئ Site AI مسودة غير محفوظة.",
     "draftApplied": "تم تطبيق مسودة الذكاء الاصطناعي للموقع على معاينة المحرر. احفظ الصفحة لنشرها.",
     "draftInstructions": "طبّقه على معاينة المحرر، ثم استخدم زر الحفظ العادي عندما تكون راضيًا.",
     "draftReady": "المسودة جاهزة",
@@ -5908,6 +5908,7 @@
     "previewLoading": "جارٍ تحميل مسودة Site AI…",
     "previewUnavailable": "المعاينة غير متاحة",
     "promptLabel": "صف الصفحة أو التغيير",
+    "reconnecting": "إعادة الاتصال بعملية التوليد الخاصة بك…",
     "sendShortcut": "Ctrl/⌘ + Enter للإرسال",
     "suggestions": {
       "darkCinematicTheme": "أعد تنسيق هذه الصفحة بسمة داكنة وسينمائية وتباين سهل الوصول إليه.",

@@ -5887,7 +5887,7 @@
     "credits": "Site AIクレジット",
     "creditsMultiplier": "{multiplier}× Site AIクレジット",
     "cssSheetName": "サイトAI・{pageTitle}",
-    "description": "ページや変更内容を記述してください。Site AI 未保存の下書き。",
+    "description": "ページや変更を説明してください。Site AI は未保存の下書きを作成します。",
     "draftApplied": "Site AI の下書きがエディタのプレビューに適用されました。ページを保存して公開してください。",
     "draftInstructions": "エディタのプレビューに適用し、気に入ったら通常の保存ボタンを使ってください。",
     "draftReady": "下書きが準備できました",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Site AI の下書きを読み込み中…",
     "previewUnavailable": "プレビューは利用できません",
     "promptLabel": "ページまたは変更を説明",
+    "reconnecting": "生成に再接続しています…",
     "sendShortcut": "送信するにはCtrl/⌘ + Enter",
     "suggestions": {
       "darkCinematicTheme": "このページを暗く映画的なテーマとアクセシブルなコントラストで再スタイルしてください。",

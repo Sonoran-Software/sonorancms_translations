@@ -5887,7 +5887,7 @@
     "credits": "Site AI -hyvitykset",
     "creditsMultiplier": "{multiplier}× Site AI -hyvitykset",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Kuvaile sivu tai muutos. Site AI tallentamaton luonnos.",
+    "description": "Kuvaile sivu tai muutos. Site AI luo tallentamattoman luonnoksen.",
     "draftApplied": "Sivun AI-luonnos on otettu käyttöön editorin esikatselussa. Tallenna sivu julkaistaksesi sen.",
     "draftInstructions": "Ota se käyttöön editorin esikatselussa, ja käytä sitten tavallista Tallenna-painiketta, kun olet tyytyväinen.",
     "draftReady": "Luonnos valmis",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Ladataan Site AI -luonnosta…",
     "previewUnavailable": "Esikatselu ei saatavilla",
     "promptLabel": "Kuvaile sivua tai muutosta",
+    "reconnecting": "Yhdistetään uudelleen luontiisi…",
     "sendShortcut": "Ctrl/⌘ + Enter lähettää",
     "suggestions": {
       "darkCinematicTheme": "Muotoile tämä sivu uudelleen tummalla, elokuvallisella teemalla ja saavutettavalla kontrastilla.",

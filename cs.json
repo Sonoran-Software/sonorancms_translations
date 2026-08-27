@@ -5887,7 +5887,7 @@
     "credits": "kredity Site AI",
     "creditsMultiplier": "{multiplier}× kredity Site AI",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Popište stránku nebo změnu. Site AI neuložený koncept.",
+    "description": "Popište stránku nebo změnu. Site AI vytvoří neuložený koncept.",
     "draftApplied": "Návrh Site AI byl použit do náhledu editoru. Uložte stránku, abyste ji publikovali.",
     "draftInstructions": "Použijte to na náhled editoru, pak použijte běžné tlačítko Uložit, až budete spokojeni.",
     "draftReady": "Koncept připraven",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Načítání návrhu Site AI…",
     "previewUnavailable": "Náhled není k dispozici",
     "promptLabel": "Popište stránku nebo změnu",
+    "reconnecting": "Znovu se připojuji k vaší generaci…",
     "sendShortcut": "Ctrl/⌘ + Enter pro odeslání",
     "suggestions": {
       "darkCinematicTheme": "Přestylujte tuto stránku do tmavého filmového tématu s přístupným kontrastem.",

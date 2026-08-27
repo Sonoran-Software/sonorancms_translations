@@ -5887,7 +5887,7 @@
     "credits": "créditos do Site AI",
     "creditsMultiplier": "{multiplier}× créditos do Site AI",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Descreva uma página ou alteração. Site AI um rascunho não salvo.",
+    "description": "Descreva uma página ou alteração. O Site AI cria um rascunho não salvo.",
     "draftApplied": "Rascunho do Site AI aplicado à pré-visualização do editor. Salve a página para publicá-lo.",
     "draftInstructions": "Aplique-o na pré-visualização do editor e depois use o botão Salvar normal quando estiver satisfeito.",
     "draftReady": "Rascunho pronto",
@@ -5908,6 +5908,7 @@
     "previewLoading": "A carregar rascunho do Site AI…",
     "previewUnavailable": "Pré-visualização indisponível",
     "promptLabel": "Descreva a página ou alteração",
+    "reconnecting": "Reconectando à sua geração…",
     "sendShortcut": "Ctrl/⌘ + Enter para enviar",
     "suggestions": {
       "darkCinematicTheme": "Reestilize esta página com um tema escuro, cinematográfico e com contraste acessível.",

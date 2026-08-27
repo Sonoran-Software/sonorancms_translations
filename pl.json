@@ -5887,7 +5887,7 @@
     "credits": "kredyty Site AI",
     "creditsMultiplier": "{multiplier}× kredyty Site AI",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Opisz stronę lub zmianę. Site AI wersja robocza niezapisana.",
+    "description": "Opisz stronę lub zmianę. Site AI tworzy niezapisany szkic.",
     "draftApplied": "Wersja robocza Site AI zastosowana do podglądu edytora. Zapisz stronę, aby ją opublikować.",
     "draftInstructions": "Zastosuj to do podglądu edytora, a potem użyj zwykłego przycisku Zapisz, gdy będziesz zadowolony.",
     "draftReady": "Wersja robocza gotowa",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Ładowanie wersji roboczej Site AI…",
     "previewUnavailable": "Podgląd niedostępny",
     "promptLabel": "Opisz stronę lub zmianę",
+    "reconnecting": "Ponowne łączenie z generowaniem…",
     "sendShortcut": "Ctrl/⌘ + Enter, aby wysłać",
     "suggestions": {
       "darkCinematicTheme": "Nadaj tej stronie ciemny, filmowy motyw z dostępnym kontrastem.",

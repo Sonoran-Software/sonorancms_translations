@@ -5887,7 +5887,7 @@
     "credits": "créditos de Site AI",
     "creditsMultiplier": "{multiplier}× créditos de Site AI",
     "cssSheetName": "Sitio AI · {pageTitle}",
-    "description": "Describe una página o un cambio. Site AI es un borrador no guardado.",
+    "description": "Describe una página o cambio. Site AI crea un borrador sin guardar.",
     "draftApplied": "Borrador de Site AI aplicado a la vista previa del editor. Guarda la página para publicarlo.",
     "draftInstructions": "Aplícalo a la vista previa del editor, luego usa el botón Guardar normal cuando estés satisfecho.",
     "draftReady": "Borrador listo",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Cargando borrador de Site AI…",
     "previewUnavailable": "Vista previa no disponible",
     "promptLabel": "Describe la página o el cambio",
+    "reconnecting": "Reconectando con tu generación…",
     "sendShortcut": "Ctrl/⌘ + Intro para enviar",
     "suggestions": {
       "darkCinematicTheme": "Rediseña esta página con un tema oscuro, cinematográfico y contraste accesible.",
