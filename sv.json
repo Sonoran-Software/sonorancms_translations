@@ -4143,6 +4143,24 @@
     "security": "Säkerhet",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Dela och redigera dokument i realtid, lägg till vattenstämpelskydd, bädda in bilder och filer och synkronisera automatiskt åtkomstbehörigheter med CMS-rankningar.",
     "sonoranCmsLogoAlt": "Sonoran CMS-logotyp",
+    "support": {
+      "contactButton": "Kontakta support",
+      "description": "Livechat-support finns tillgänglig 7 dagar i veckan från riktiga personer som förstår rollspelscommunities — med team i USA och Storbritannien.",
+      "features": {
+        "humans": "Mänsklig support",
+        "liveChat": "Livechatt dagligen",
+        "locations": "USA + UK-team"
+      },
+      "flags": {
+        "uk": "Storbritannien",
+        "us": "USA"
+      },
+      "googleBadge": "Google-recensioner",
+      "reviewsButton": "Läs Google-recensioner",
+      "titleHighlight": "5-stjärnig support.",
+      "titleLead": "Din gemenskap förtjänar",
+      "widgetTitle": "Sonoran Support svarstider"
+    },
     "tabPanelImageFrameAria": "Flikpanelbildram",
     "totalBilledQuarterly": "totalt fakturerat per kvartal",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Använd AI-assisterad granskning för att automatiskt bearbeta formulärinsändningar och dirigera varje till rätt granskningssteg.",

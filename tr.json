@@ -4143,6 +4143,24 @@
     "security": "Güvenlik",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Belgeleri paylaşın ve canlı düzenleyin, filigran koruması ekleyin, görseller ve dosyalar yerleştirin ve erişim izinlerini CMS sıralarıyla otomatik olarak eşitleyin.",
     "sonoranCmsLogoAlt": "Sonoran CMS logosu",
+    "support": {
+      "contactButton": "Destek ile İletişime Geçin",
+      "description": "Canlı sohbet desteği, rol yapma topluluklarını anlayan gerçek kişilerden haftanın 7 günü kullanılabilir — ABD ve Birleşik Krallık'taki ekiplerle.",
+      "features": {
+        "humans": "İnsan desteği",
+        "liveChat": "Canlı sohbet günlük",
+        "locations": "ABD + BK ekibi"
+      },
+      "flags": {
+        "uk": "Birleşik Krallık",
+        "us": "Amerika Birleşik Devletleri"
+      },
+      "googleBadge": "Google Yorumları",
+      "reviewsButton": "Google Yorumlarını Oku",
+      "titleHighlight": "5 Yıldızlı Destek.",
+      "titleLead": "Topluluğunuz hak ediyor",
+      "widgetTitle": "Sonoran Destek yanıt süreleri"
+    },
     "tabPanelImageFrameAria": "Sekme paneli görsel çerçevesi",
     "totalBilledQuarterly": "çeyreklik toplam faturalandırma",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Form gönderimlerini otomatik olarak işlemek ve her birini doğru inceleme aşamasına yönlendirmek için yapay zeka destekli notlandırmayı kullanın.",

@@ -4143,6 +4143,24 @@
     "security": "보안",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "문서를 공유하고 실시간으로 편집하며, 워터마크 보호를 추가하고, 이미지와 파일을 삽입하고, CMS 등급과 액세스 권한을 자동으로 동기화합니다.",
     "sonoranCmsLogoAlt": "Sonoran CMS 로고",
+    "support": {
+      "contactButton": "커뮤니티의 소유자만 전송을 시작하고 완료할 수 있습니다.",
+      "description": "라이브 채팅 지원은 역할극 커뮤니티를 이해하는 실제 상담원들과 주 7일 이용 가능합니다 — 미국과 영국에 팀이 있습니다.",
+      "features": {
+        "humans": "사람 지원",
+        "liveChat": "매일 실시간 채팅",
+        "locations": "미국 + 영국 팀"
+      },
+      "flags": {
+        "uk": "영국",
+        "us": "미국"
+      },
+      "googleBadge": "Google 리뷰",
+      "reviewsButton": "Google 리뷰 읽기",
+      "titleHighlight": "5성급 지원.",
+      "titleLead": "귀하의 커뮤니티는 마땅히 누릴 자격이 있습니다",
+      "widgetTitle": "Sonoran Support 응답 시간"
+    },
     "tabPanelImageFrameAria": "탭 패널 이미지 프레임",
     "totalBilledQuarterly": "분기 총 청구 금액",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "AI 지원 채점을 사용하여 양식 제출을 자동으로 처리하고 각 제출을 올바른 검토 단계로 라우팅하세요.",

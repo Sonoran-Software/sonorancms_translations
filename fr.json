@@ -4143,6 +4143,24 @@
     "security": "Sécurité",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Partager et modifier des documents en direct, ajouter une protection par filigrane, intégrer des images et des fichiers, et synchroniser automatiquement les permissions d'accès avec les rangs du CMS.",
     "sonoranCmsLogoAlt": "Logo Sonoran CMS",
+    "support": {
+      "contactButton": "Contacter le support",
+      "description": "L’assistance par chat en direct est disponible 7 jours sur 7 avec de vraies personnes qui comprennent les communautés de roleplay — avec des équipes aux États-Unis et au Royaume-Uni.",
+      "features": {
+        "humans": "Support humain",
+        "liveChat": "Chat en direct quotidiennement",
+        "locations": "équipe USA + UK"
+      },
+      "flags": {
+        "uk": "Royaume-Uni",
+        "us": "États-Unis"
+      },
+      "googleBadge": "Avis Google",
+      "reviewsButton": "Lire les avis Google",
+      "titleHighlight": "Support 5 étoiles.",
+      "titleLead": "Votre communauté mérite",
+      "widgetTitle": "Délais de réponse du support Sonoran"
+    },
     "tabPanelImageFrameAria": "Cadre d'image du panneau d'onglets",
     "totalBilledQuarterly": "total facturé trimestriellement",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Utilisez le classement assisté par IA pour traiter automatiquement les soumissions de formulaire et acheminer chacune vers l'étape de révision appropriée.",

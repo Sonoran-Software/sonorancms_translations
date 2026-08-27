@@ -4143,6 +4143,24 @@
     "security": "Beveiliging",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Deel en bewerk documenten live, voeg watermerkbeveiliging toe, voeg afbeeldingen en bestanden in en synchroniseer automatisch toegangsrechten met CMS-rangen.",
     "sonoranCmsLogoAlt": "Sonoran CMS-logo",
+    "support": {
+      "contactButton": "Contact Ondersteuning",
+      "description": "Live chatondersteuning is 7 dagen per week beschikbaar van echte mensen die roleplaygemeenschappen begrijpen — met teams in de VS en het VK.",
+      "features": {
+        "humans": "Menselijke ondersteuning",
+        "liveChat": "Livechat dagelijks",
+        "locations": "team VS en VK"
+      },
+      "flags": {
+        "uk": "Verenigd Koninkrijk",
+        "us": "Verenigde Staten"
+      },
+      "googleBadge": "Google-recensies",
+      "reviewsButton": "Google-recensies lezen",
+      "titleHighlight": "5-sterrenondersteuning.",
+      "titleLead": "Uw gemeenschap verdient",
+      "widgetTitle": "Sonoran Support-reactietijden"
+    },
     "tabPanelImageFrameAria": "Tabbladpaneel afbeeldingsframe",
     "totalBilledQuarterly": "totaal per kwartaal gefactureerd",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Gebruik AI-ondersteunde beoordeling om formulierinzendingen automatisch te verwerken en elke inzending naar de juiste beoordelingsfase te leiden.",

@@ -4143,6 +4143,24 @@
     "security": "Sikkerhed",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Del og rediger dokumenter live, tilføj vandmærkebeskyttelse, indlejr billeder og filer, og synkroniser automatisk adgangstilladelser med CMS-rækker.",
     "sonoranCmsLogoAlt": "Sonoran CMS-logo",
+    "support": {
+      "contactButton": "Kontakt support",
+      "description": "Live chat-support er tilgængelig 7 dage om ugen fra rigtige mennesker, der forstår roleplay-fællesskaber — med teams i USA og Storbritannien.",
+      "features": {
+        "humans": "Menneskelig support",
+        "liveChat": "Livechat dagligt",
+        "locations": "USA + UK-team"
+      },
+      "flags": {
+        "uk": "Storbritannien",
+        "us": "USA"
+      },
+      "googleBadge": "Google-anmeldelser",
+      "reviewsButton": "Læs Google-anmeldelser",
+      "titleHighlight": "5-stjernet support.",
+      "titleLead": "Dit fællesskab fortjener",
+      "widgetTitle": "Sonoran Support svartider"
+    },
     "tabPanelImageFrameAria": "Billedramme til fanepanel",
     "totalBilledQuarterly": "samlet faktureret pr. kvartal",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Brug AI-assisteret bedømmelse til at behandle formularindsendelser automatisk og sende hver enkelt til det korrekte gennemgangstrin.",
