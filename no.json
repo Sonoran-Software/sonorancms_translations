@@ -5887,7 +5887,7 @@
     "credits": "Site AI-kreditter",
     "creditsMultiplier": "{multiplier}× Site AI-kreditter",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Beskriv en side eller endring. Nettsted-AI et ulagret utkast.",
+    "description": "Beskriv en side eller endring. Site AI oppretter et ikke-lagret utkast.",
     "draftApplied": "Site-AI-utkast brukt i redigeringsforhåndsvisningen. Lagre siden for å publisere den.",
     "draftInstructions": "Bruk det i forhåndsvisningen i redigereren, og bruk deretter den vanlige Lagre-knappen når du er fornøyd.",
     "draftReady": "Utkast klart",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Laster Site AI-utkast…",
     "previewUnavailable": "Forhåndsvisning ikke tilgjengelig",
     "promptLabel": "Beskriv siden eller endringen",
+    "reconnecting": "Kobler til igjen til genereringen din…",
     "sendShortcut": "Ctrl/⌘ + Enter for å sende",
     "suggestions": {
       "darkCinematicTheme": "Gi denne siden en ny stil med et mørkt, filmatisk tema og tilgjengelig kontrast.",

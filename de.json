@@ -5887,7 +5887,7 @@
     "credits": "Site AI-Guthaben",
     "creditsMultiplier": "{multiplier}× Site AI-Guthaben",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Beschreibe eine Seite oder Änderung. Site AI ein nicht gespeicherter Entwurf.",
+    "description": "Beschreibe eine Seite oder Änderung. Site AI erstellt einen ungespeicherten Entwurf.",
     "draftApplied": "Site-AI-Entwurf wurde auf die Editor-Vorschau angewendet. Speichere die Seite, um sie zu veröffentlichen.",
     "draftInstructions": "Auf die Editor-Vorschau anwenden, dann den normalen Speichern-Button verwenden, wenn du zufrieden bist.",
     "draftReady": "Entwurf bereit",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Site AI-Entwurf wird geladen…",
     "previewUnavailable": "Vorschau nicht verfügbar",
     "promptLabel": "Beschreibe die Seite oder Änderung",
+    "reconnecting": "Erneute Verbindung zu deiner Generierung…",
     "sendShortcut": "Strg/⌘ + Enter zum Senden",
     "suggestions": {
       "darkCinematicTheme": "Gestalte diese Seite mit einem dunklen, cineastischen Thema und zugänglichem Kontrast neu.",

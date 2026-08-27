@@ -5887,7 +5887,7 @@
     "credits": "Site AI-credits",
     "creditsMultiplier": "{multiplier}× Site AI-credits",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Beschrijf een pagina of wijziging. Site AI een niet-opgeslagen concept.",
+    "description": "Beschrijf een pagina of wijziging. Site AI maakt een niet-opgeslagen concept.",
     "draftApplied": "Site AI-ontwerp toegepast op het editorvoorbeeld. Sla de pagina op om deze te publiceren.",
     "draftInstructions": "Pas het toe op de editorpreview en gebruik daarna gewoon de normale knop Opslaan wanneer je tevreden bent.",
     "draftReady": "Concept klaar",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Site AI-concept wordt geladen…",
     "previewUnavailable": "Voorbeeld niet beschikbaar",
     "promptLabel": "Beschrijf de pagina of wijziging",
+    "reconnecting": "Opnieuw verbinding maken met je generatie…",
     "sendShortcut": "Ctrl/⌘ + Enter om te verzenden",
     "suggestions": {
       "darkCinematicTheme": "Geef deze pagina een donkere, filmische stijl met toegankelijke contrasten.",

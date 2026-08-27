@@ -4003,24 +4003,6 @@
       "titlePrefix": "We",
       "titleSuffix": "Developers."
     },
-    "support": {
-      "contactButton": "Contact Support",
-      "description": "Live chat support is available 7 days a week from real people who understand roleplay communities — with teams in the USA and UK.",
-      "features": {
-        "humans": "Human support",
-        "liveChat": "Live chat daily",
-        "locations": "USA + UK team"
-      },
-      "flags": {
-        "uk": "United Kingdom",
-        "us": "United States"
-      },
-      "googleBadge": "Google Reviews",
-      "reviewsButton": "Read Google Reviews",
-      "titleHighlight": "5-Star Support.",
-      "titleLead": "Your community deserves",
-      "widgetTitle": "Sonoran Support response times"
-    },
     "faq": {
       "free": {
         "answer": "Yes. Sonoran CMS includes a free tier with the core tools your community needs to manage members, permissions, forms, documents, and more in one place. Desktop and mobile apps are also free for all platforms.",
@@ -4152,6 +4134,24 @@
     "security": "Security",
     "shareAndLiveEditDocumentsAddWatermarkProtectionEmbedImagesAn": "Share and live-edit documents, add watermark protection, embed images and files, and automatically sync access permissions with CMS ranks.",
     "sonoranCmsLogoAlt": "Sonoran CMS logo",
+    "support": {
+      "contactButton": "Contact Support",
+      "description": "Live chat support is available 7 days a week from real people who understand roleplay communities — with teams in the USA and UK.",
+      "features": {
+        "humans": "Human support",
+        "liveChat": "Live chat daily",
+        "locations": "USA + UK team"
+      },
+      "flags": {
+        "uk": "United Kingdom",
+        "us": "United States"
+      },
+      "googleBadge": "Google Reviews",
+      "reviewsButton": "Read Google Reviews",
+      "titleHighlight": "5-Star Support.",
+      "titleLead": "Your community deserves",
+      "widgetTitle": "Sonoran Support response times"
+    },
     "tabPanelImageFrameAria": "Tab panel image frame",
     "totalBilledQuarterly": "total billed quarterly",
     "useAIAssistedGradingToProcessFormSubmissionsAutomaticallyAnd": "Use AI-assisted grading to process form submissions automatically and route each one to the correct review stage.",

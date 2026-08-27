@@ -5887,7 +5887,7 @@
     "credits": "Site AI-krediter",
     "creditsMultiplier": "{multiplier}× Site AI-krediter",
     "cssSheetName": "Webbplats-AI · {pageTitle}",
-    "description": "Beskriv en sida eller ändring. Site AI ett osparat utkast.",
+    "description": "Beskriv en sida eller ändring. Site AI skapar ett osparat utkast.",
     "draftApplied": "Webbplats-AI-utkast tillämpat på redigerarens förhandsvisning. Spara sidan för att publicera den.",
     "draftInstructions": "Tillämpa det på redigeringsförhandsgranskningen, använd sedan den vanliga Spara-knappen när du är nöjd.",
     "draftReady": "Utkast klart",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Läser in Site AI-utkast…",
     "previewUnavailable": "Förhandsvisning ej tillgänglig",
     "promptLabel": "Beskriv sidan eller ändringen",
+    "reconnecting": "Återansluter till din generering…",
     "sendShortcut": "Ctrl/⌘ + Enter för att skicka",
     "suggestions": {
       "darkCinematicTheme": "Ge denna sida en ny stil med ett mörkt, filmiskt tema och tillgänglig kontrast.",

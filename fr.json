@@ -5887,7 +5887,7 @@
     "credits": "crédits Site AI",
     "creditsMultiplier": "{multiplier}× crédits Site AI",
     "cssSheetName": "Site IA · {pageTitle}",
-    "description": "Décrivez une page ou un changement. Site AI un brouillon non enregistré.",
+    "description": "Décrivez une page ou une modification. Site AI crée un brouillon non enregistré.",
     "draftApplied": "Brouillon IA du site appliqué à l'aperçu de l'éditeur. Enregistrez la page pour la publier.",
     "draftInstructions": "Appliquez-le à l’aperçu de l’éditeur, puis utilisez le bouton Enregistrer normal lorsque vous êtes satisfait.",
     "draftReady": "Brouillon prêt",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Chargement du brouillon de Site AI…",
     "previewUnavailable": "Aperçu indisponible",
     "promptLabel": "Décrivez la page ou la modification",
+    "reconnecting": "Reconnexion à votre génération…",
     "sendShortcut": "Ctrl/⌘ + Entrée pour envoyer",
     "suggestions": {
       "darkCinematicTheme": "Reformatez cette page avec un thème sombre, cinématographique et un contraste accessible.",

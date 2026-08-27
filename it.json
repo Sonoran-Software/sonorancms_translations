@@ -5887,7 +5887,7 @@
     "credits": "crediti Site AI",
     "creditsMultiplier": "{multiplier}× crediti Site AI",
     "cssSheetName": "Site AI · {pageTitle}",
-    "description": "Descrivi una pagina o una modifica. Site AI una bozza non salvata.",
+    "description": "Descrivi una pagina o una modifica. Site AI crea una bozza non salvata.",
     "draftApplied": "Bozza IA del sito applicata all'anteprima dell'editor. Salva la pagina per pubblicarla.",
     "draftInstructions": "Applica all'anteprima dell'editor, poi usa il normale pulsante Salva quando sei soddisfatto.",
     "draftReady": "Bozza pronta",
@@ -5908,6 +5908,7 @@
     "previewLoading": "Caricamento bozza di Site AI…",
     "previewUnavailable": "Anteprima non disponibile",
     "promptLabel": "Descrivi la pagina o la modifica",
+    "reconnecting": "Riconnessione alla tua generazione…",
     "sendShortcut": "Ctrl/⌘ + Invio per inviare",
     "suggestions": {
       "darkCinematicTheme": "Ritocca questa pagina con un tema scuro, cinematografico e con contrasto accessibile.",
