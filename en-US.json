@@ -5559,6 +5559,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "An error occured while saving group order, try again later.",
     "areYouSureYouWantToDeleteThisDepartment": "Are you sure you want to delete this group?",
     "areYouSureYouWantToDeleteThisRank": "Are you sure you want to delete this rank?",
+    "autoSaveFailed": "Your changes could not be saved — please check your connection and try again.",
     "availableRoles": "Available Roles",
     "availableRolesToImport": "Available Roles to Import",
     "cancel": "Cancel",
