@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "붙여넣을 내용이 없습니다. 복사하세요.",
     "areYouSureYouWantToDeleteThisDepartment": "새 계급 이름",
     "areYouSureYouWantToDeleteThisRank": "클립보드에 복사되었습니다!",
+    "autoSaveFailed": "변경 사항을 저장할 수 없습니다 — 연결을 확인한 후 다시 시도해 주세요.",
     "availableRoles": "역할 이름으로 검색",
     "availableRolesToImport": "선택된 길드 없음",
     "cancel": "제거",

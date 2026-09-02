@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Tapahtui virhe tallennettaessa osaston järjestystä, yritä uudelleen myöhemmin.",
     "areYouSureYouWantToDeleteThisDepartment": "Oletko varma, että haluat poistaa tämän osaston?",
     "areYouSureYouWantToDeleteThisRank": "Oletko varma, että haluat poistaa tämän arvon?",
+    "autoSaveFailed": "Muutoksiasi ei voitu tallentaa — tarkista yhteytesi ja yritä uudelleen.",
     "availableRoles": "Saatavilla olevat roolit",
     "availableRolesToImport": "Saatavilla olevat roolit tuontia varten",
     "cancel": "Peruuta",

@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Beim Speichern der Abteilungsreihenfolge ist ein Fehler aufgetreten, bitte versuchen Sie es später erneut.",
     "areYouSureYouWantToDeleteThisDepartment": "Sind Sie sicher, dass Sie diese Abteilung löschen möchten?",
     "areYouSureYouWantToDeleteThisRank": "Sind Sie sicher, dass Sie diesen Rang löschen möchten?",
+    "autoSaveFailed": "Deine Änderungen konnten nicht gespeichert werden — bitte überprüfe deine Verbindung und versuche es erneut.",
     "availableRoles": "Verfügbare Rollen",
     "availableRolesToImport": "Verfügbare Rollen zum Importieren",
     "cancel": "Abbrechen",

@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Ocurrió un error al guardar el orden del departamento, intenta de nuevo más tarde.",
     "areYouSureYouWantToDeleteThisDepartment": "¿Estás seguro de que quieres eliminar este departamento?",
     "areYouSureYouWantToDeleteThisRank": "¿Estás seguro de que quieres eliminar este rango?",
+    "autoSaveFailed": "No se han podido guardar tus cambios — comprueba tu conexión e inténtalo de nuevo.",
     "availableRoles": "Roles Disponibles",
     "availableRolesToImport": "Roles Disponibles para Importar",
     "cancel": "Cancelar",

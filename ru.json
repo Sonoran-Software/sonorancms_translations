@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Нечего вставлять, пожалуйста, скопируйте",
     "areYouSureYouWantToDeleteThisDepartment": "Новое название ранга",
     "areYouSureYouWantToDeleteThisRank": "Скопировано в буфер обмена!",
+    "autoSaveFailed": "Не удалось сохранить ваши изменения — проверьте подключение и попробуйте снова.",
     "availableRoles": "Поиск по названию роли",
     "availableRolesToImport": "Гильдия не выбрана",
     "cancel": "Удалить",

@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Une erreur s'est produite lors de l'enregistrement de l'ordre du département, réessayez plus tard.",
     "areYouSureYouWantToDeleteThisDepartment": "Êtes-vous sûr de vouloir supprimer ce département ?",
     "areYouSureYouWantToDeleteThisRank": "Êtes-vous sûr de vouloir supprimer ce grade ?",
+    "autoSaveFailed": "Vos modifications n’ont pas pu être enregistrées — veuillez vérifier votre connexion et réessayer.",
     "availableRoles": "Rôles disponibles",
     "availableRolesToImport": "Rôles disponibles à importer",
     "cancel": "Annuler",

@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Der opstod en fejl under lagring af afdelingsrækkefølge, prøv igen senere.",
     "areYouSureYouWantToDeleteThisDepartment": "Er du sikker på, at du vil slette denne afdeling?",
     "areYouSureYouWantToDeleteThisRank": "Er du sikker på, at du vil slette denne rang?",
+    "autoSaveFailed": "Dine ændringer kunne ikke gemmes — tjek venligst din forbindelse og prøv igen.",
     "availableRoles": "Tilgængelige Roller",
     "availableRolesToImport": "Tilgængelige Roller til Import",
     "cancel": "Annuller",

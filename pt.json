@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Ocorreu um erro ao salvar a ordem do departamento, tente novamente mais tarde.",
     "areYouSureYouWantToDeleteThisDepartment": "Tem certeza de que deseja excluir este departamento?",
     "areYouSureYouWantToDeleteThisRank": "Tem certeza de que deseja excluir esta patente?",
+    "autoSaveFailed": "Não foi possível salvar suas alterações — verifique sua conexão e tente novamente.",
     "availableRoles": "Funções Disponíveis",
     "availableRolesToImport": "Funções Disponíveis para Importar",
     "cancel": "Cancelar",

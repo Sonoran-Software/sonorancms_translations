@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Departman sırası kaydedilirken bir hata oluştu, lütfen daha sonra tekrar deneyin.",
     "areYouSureYouWantToDeleteThisDepartment": "Bu departmanı silmek istediğinizden emin misiniz?",
     "areYouSureYouWantToDeleteThisRank": "Bu rütbeyi silmek istediğinizden emin misiniz?",
+    "autoSaveFailed": "Değişiklikleriniz kaydedilemedi — lütfen bağlantınızı kontrol edin ve yeniden deneyin.",
     "availableRoles": "Mevcut Roller",
     "availableRolesToImport": "İçe Aktarılacak Mevcut Roller",
     "cancel": "İptal",

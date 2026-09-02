@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Ett fel inträffade vid sparande av avdelningsordning, försök igen senare.",
     "areYouSureYouWantToDeleteThisDepartment": "Är du säker på att du vill radera denna avdelning?",
     "areYouSureYouWantToDeleteThisRank": "Är du säker på att du vill radera denna rang?",
+    "autoSaveFailed": "Dina ändringar kunde inte sparas — kontrollera din anslutning och försök igen.",
     "availableRoles": "Tillgängliga Roller",
     "availableRolesToImport": "Tillgängliga Roller att Importera",
     "cancel": "Avbryt",

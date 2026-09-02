@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Si è verificato un errore durante il salvataggio dell'ordine del dipartimento, riprova più tardi.",
     "areYouSureYouWantToDeleteThisDepartment": "Sei sicuro di voler eliminare questo dipartimento?",
     "areYouSureYouWantToDeleteThisRank": "Sei sicuro di voler eliminare questo grado?",
+    "autoSaveFailed": "Le tue modifiche non sono state salvate — controlla la connessione e riprova.",
     "availableRoles": "Ruoli Disponibili",
     "availableRolesToImport": "Ruoli Disponibili da Importare",
     "cancel": "Annulla",

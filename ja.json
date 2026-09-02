@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "貼り付けるものがありません。コピーしてください。",
     "areYouSureYouWantToDeleteThisDepartment": "新しいランク名",
     "areYouSureYouWantToDeleteThisRank": "クリップボードにコピーしました！",
+    "autoSaveFailed": "変更を保存できませんでした — 接続を確認して、もう一度お試しください。",
     "availableRoles": "役割名で検索",
     "availableRolesToImport": "ギルドが選択されていません",
     "cancel": "削除",

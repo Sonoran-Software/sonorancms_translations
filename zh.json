@@ -5574,6 +5574,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "保存部门顺序时发生错误，请稍后再试。",
     "areYouSureYouWantToDeleteThisDepartment": "您确定要删除这个部门吗？",
     "areYouSureYouWantToDeleteThisRank": "您确定要删除这个等级吗？",
+    "autoSaveFailed": "您的更改无法保存—请检查您的连接并重试。",
     "availableRoles": "可用角色",
     "availableRolesToImport": "可导入的角色",
     "cancel": "取消",

@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "حدث خطأ أثناء حفظ ترتيب القسم، حاول مرة أخرى لاحقًا.",
     "areYouSureYouWantToDeleteThisDepartment": "هل أنت متأكد أنك تريد حذف هذا القسم؟",
     "areYouSureYouWantToDeleteThisRank": "هل أنت متأكد أنك تريد حذف هذه الرتبة؟",
+    "autoSaveFailed": "تعذّر حفظ تغييراتك — يُرجى التحقق من اتصالك ثم المحاولة مرة أخرى.",
     "availableRoles": "الأدوار المتاحة",
     "availableRolesToImport": "الأدوار المتاحة للاستيراد",
     "cancel": "إلغاء",
