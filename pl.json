@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Wystąpił błąd podczas zapisywania kolejności działów, spróbuj ponownie później.",
     "areYouSureYouWantToDeleteThisDepartment": "Czy na pewno chcesz usunąć ten departament?",
     "areYouSureYouWantToDeleteThisRank": "Czy na pewno chcesz usunąć tę rangę?",
+    "autoSaveFailed": "Nie udało się zapisać zmian — sprawdź połączenie i spróbuj ponownie.",
     "availableRoles": "Dostępne Role",
     "availableRolesToImport": "Dostępne Role do Importu",
     "cancel": "Anuluj",

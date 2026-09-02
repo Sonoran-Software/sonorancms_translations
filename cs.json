@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Při ukládání pořadí oddělení došlo k chybě, zkuste to znovu později.",
     "areYouSureYouWantToDeleteThisDepartment": "Opravdu chcete smazat toto oddělení?",
     "areYouSureYouWantToDeleteThisRank": "Opravdu chcete smazat tuto hodnost?",
+    "autoSaveFailed": "Vaše změny se nepodařilo uložit — zkontrolujte prosím připojení a zkuste to znovu.",
     "availableRoles": "Dostupné role",
     "availableRolesToImport": "Dostupné role k importu",
     "cancel": "Zrušit",

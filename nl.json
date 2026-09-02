@@ -5573,6 +5573,7 @@
     "anErrorOccuredWhileSavingDepartmentOrder": "Er is een fout opgetreden bij het opslaan van de afdelingsvolgorde, probeer het later opnieuw.",
     "areYouSureYouWantToDeleteThisDepartment": "Weet je zeker dat je deze afdeling wilt verwijderen?",
     "areYouSureYouWantToDeleteThisRank": "Weet je zeker dat je deze rang wilt verwijderen?",
+    "autoSaveFailed": "Uw wijzigingen konden niet worden opgeslagen — controleer uw verbinding en probeer het opnieuw.",
     "availableRoles": "Beschikbare Rollen",
     "availableRolesToImport": "Beschikbare Rollen om te Importeren",
     "cancel": "Annuleren",
