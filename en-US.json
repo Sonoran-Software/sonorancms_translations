@@ -1426,6 +1426,11 @@
     "forceJoin": "Force Join",
     "forceLeave": "Force Leave",
     "rawData": "Raw Data",
+    "resetSiteAiUsage": "Reset Site AI Usage",
+    "resetSiteAiUsageConfirmation": "Reset the current month's Site AI usage for community {community}? This cannot be undone.",
+    "resetSiteAiUsageFailed": "Site AI usage could not be reset.",
+    "resetSiteAiUsageSuccess": "Site AI usage was reset for community {community}.",
+    "resetSiteAiUsageTitle": "Reset Site AI Usage",
     "restoreCommunity": "Restore Community"
   },
   "communityMenu": {
