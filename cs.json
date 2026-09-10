@@ -1426,6 +1426,11 @@
     "forceJoin": "Vynutit připojení",
     "forceLeave": "Vynutit opuštění",
     "rawData": "Surová data",
+    "resetSiteAiUsage": "Resetovat využití Site AI",
+    "resetSiteAiUsageConfirmation": "Obnovit používání Site AI za текущí měsíc pro komunitu {community}? To nelze vrátit zpět.",
+    "resetSiteAiUsageFailed": "Použití AI na webu se nepodařilo resetovat.",
+    "resetSiteAiUsageSuccess": "Využití Site AI bylo resetováno pro komunitu {community}.",
+    "resetSiteAiUsageTitle": "Resetovat využití Site AI",
     "restoreCommunity": "Obnovit komunitu"
   },
   "communityMenu": {

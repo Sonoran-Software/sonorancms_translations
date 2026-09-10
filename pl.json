@@ -1426,6 +1426,11 @@
     "forceJoin": "Wymuś dołączenie",
     "forceLeave": "Wymuś opuszczenie",
     "rawData": "Surowe dane",
+    "resetSiteAiUsage": "Resetowanie użycia AI witryny",
+    "resetSiteAiUsageConfirmation": "Zresetować bieżące miesięczne użycie Site AI dla społeczności {community}? Tego nie można cofnąć.",
+    "resetSiteAiUsageFailed": "Nie można było zresetować użycia AI witryny.",
+    "resetSiteAiUsageSuccess": "Użycie AI witryny zostało zresetowane dla społeczności {community}.",
+    "resetSiteAiUsageTitle": "Resetowanie użycia AI witryny",
     "restoreCommunity": "Przywróć społeczność"
   },
   "communityMenu": {

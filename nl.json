@@ -1426,6 +1426,11 @@
     "forceJoin": "Geforceerd deelnemen",
     "forceLeave": "Geforceerd verlaten",
     "rawData": "Ruwe Data",
+    "resetSiteAiUsage": "Site AI-gebruik resetten",
+    "resetSiteAiUsageConfirmation": "De Site AI-gebruik van deze maand voor community {community} resetten? Dit kan niet ongedaan worden gemaakt.",
+    "resetSiteAiUsageFailed": "AI-gebruik van de site kon niet worden gereset.",
+    "resetSiteAiUsageSuccess": "Site AI-gebruik is gereset voor community {community}.",
+    "resetSiteAiUsageTitle": "Site AI-gebruik resetten",
     "restoreCommunity": "Herstel Gemeenschap"
   },
   "communityMenu": {

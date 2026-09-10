@@ -1426,6 +1426,11 @@
     "forceJoin": "Forçar entrada",
     "forceLeave": "Forçar saída",
     "rawData": "Dados Brutos",
+    "resetSiteAiUsage": "Redefinir uso da IA do site",
+    "resetSiteAiUsageConfirmation": "Redefinir o uso de IA do site deste mês para a comunidade {community}? Isso não pode ser desfeito.",
+    "resetSiteAiUsageFailed": "Não foi possível redefinir o uso da IA do site.",
+    "resetSiteAiUsageSuccess": "O uso da IA do site foi redefinido para a comunidade {community}.",
+    "resetSiteAiUsageTitle": "Redefinir uso da IA do site",
     "restoreCommunity": "Restaurar Comunidade"
   },
   "communityMenu": {

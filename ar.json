@@ -1426,6 +1426,11 @@
     "forceJoin": "إجبار الانضمام",
     "forceLeave": "إجبار المغادرة",
     "rawData": "البيانات الخام",
+    "resetSiteAiUsage": "إعادة تعيين استخدام الذكاء الاصطناعي للموقع",
+    "resetSiteAiUsageConfirmation": "إعادة تعيين استخدام Site AI للشهر الحالي للمجتمع {community}؟ لا يمكن التراجع عن ذلك.",
+    "resetSiteAiUsageFailed": "تعذر إعادة تعيين استخدام الذكاء الاصطناعي للموقع.",
+    "resetSiteAiUsageSuccess": "تمت إعادة تعيين استخدام الذكاء الاصطناعي للموقع للمجتمع {community}.",
+    "resetSiteAiUsageTitle": "إعادة تعيين استخدام الذكاء الاصطناعي للموقع",
     "restoreCommunity": "استعادة المجتمع"
   },
   "communityMenu": {

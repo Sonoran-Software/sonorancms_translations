@@ -1426,6 +1426,11 @@
     "forceJoin": "Forcer l'adhésion",
     "forceLeave": "Quitter de force",
     "rawData": "Données brutes",
+    "resetSiteAiUsage": "Réinitialiser l’utilisation de l’IA du site",
+    "resetSiteAiUsageConfirmation": "Réinitialiser l'utilisation mensuelle actuelle de l'IA du site pour la communauté {community} ? Cette action est irréversible.",
+    "resetSiteAiUsageFailed": "La consommation d'IA du site n'a pas pu être réinitialisée.",
+    "resetSiteAiUsageSuccess": "L’utilisation de l’IA du site a été réinitialisée pour la communauté {community}.",
+    "resetSiteAiUsageTitle": "Réinitialiser l’utilisation de l’IA du site",
     "restoreCommunity": "Restaurer la communauté"
   },
   "communityMenu": {

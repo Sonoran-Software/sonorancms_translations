@@ -1427,6 +1427,11 @@
     "forceJoin": "强制加入",
     "forceLeave": "强制离开",
     "rawData": "原始数据",
+    "resetSiteAiUsage": "重置站点 AI 使用量",
+    "resetSiteAiUsageConfirmation": "重置社区 {community} 本月的 Site AI 使用量？此操作无法撤销。",
+    "resetSiteAiUsageFailed": "站点 AI 使用量无法重置。",
+    "resetSiteAiUsageSuccess": "社区 {community} 的站点 AI 使用量已重置。",
+    "resetSiteAiUsageTitle": "重置站点 AI 使用量",
     "restoreCommunity": "恢复社区"
   },
   "communityMenu": {

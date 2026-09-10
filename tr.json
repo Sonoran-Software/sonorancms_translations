@@ -1426,6 +1426,11 @@
     "forceJoin": "Zorla Katıl",
     "forceLeave": "Zorla Ayrıl",
     "rawData": "Ham Veri",
+    "resetSiteAiUsage": "Site Yapay Zeka Kullanımını Sıfırla",
+    "resetSiteAiUsageConfirmation": "Topluluk {community} için geçerli ayın Site AI kullanımını sıfırla? Bu geri alınamaz.",
+    "resetSiteAiUsageFailed": "Site yapay zeka kullanımı sıfırlanamadı.",
+    "resetSiteAiUsageSuccess": "Site Yapay Zeka kullanımı {community} topluluğu için sıfırlandı.",
+    "resetSiteAiUsageTitle": "Site Yapay Zeka Kullanımını Sıfırla",
     "restoreCommunity": "Topluluğu Geri Yükle"
   },
   "communityMenu": {
