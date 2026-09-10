@@ -1426,6 +1426,11 @@
     "forceJoin": "Tvinga anslutning",
     "forceLeave": "Tvinga att lämna",
     "rawData": "Rådata",
+    "resetSiteAiUsage": "Återställ webbplatsens AI-användning",
+    "resetSiteAiUsageConfirmation": "Återställ innevarande månads Site AI-användning för communityn {community}? Detta kan inte ångras.",
+    "resetSiteAiUsageFailed": "AI-användningen på webbplatsen kunde inte återställas.",
+    "resetSiteAiUsageSuccess": "Webbplatsens AI-användning återställdes för communityn {community}.",
+    "resetSiteAiUsageTitle": "Återställ webbplatsens AI-användning",
     "restoreCommunity": "Återställ gemenskap"
   },
   "communityMenu": {

@@ -1426,6 +1426,11 @@
     "forceJoin": "Unirse forzadamente",
     "forceLeave": "Forzar salida",
     "rawData": "Datos en bruto",
+    "resetSiteAiUsage": "Restablecer uso de IA del sitio",
+    "resetSiteAiUsageConfirmation": "¿Restablecer el uso de Site AI del mes actual para la comunidad {community}? Esto no se puede deshacer.",
+    "resetSiteAiUsageFailed": "No se pudo restablecer el uso de IA del sitio.",
+    "resetSiteAiUsageSuccess": "Se restableció el uso de IA del sitio para la comunidad {community}.",
+    "resetSiteAiUsageTitle": "Restablecer uso de IA del sitio",
     "restoreCommunity": "Restaurar comunidad"
   },
   "communityMenu": {

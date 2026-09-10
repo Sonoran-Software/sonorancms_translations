@@ -1426,6 +1426,11 @@
     "forceJoin": "Pakota liittyminen",
     "forceLeave": "Pakota poistuminen",
     "rawData": "Raakadata",
+    "resetSiteAiUsage": "Nollaa sivuston AI-käyttö",
+    "resetSiteAiUsageConfirmation": "Nollataanko tämän kuukauden Site AI -käyttö yhteisölle {community}? Tätä ei voi kumota.",
+    "resetSiteAiUsageFailed": "Sivuston AI-käyttöä ei voitu nollata.",
+    "resetSiteAiUsageSuccess": "Sivuston AI-käyttö nollattiin yhteisölle {community}.",
+    "resetSiteAiUsageTitle": "Nollaa sivuston AI-käyttö",
     "restoreCommunity": "Palauta yhteisö"
   },
   "communityMenu": {

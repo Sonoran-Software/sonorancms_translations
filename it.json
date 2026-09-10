@@ -1426,6 +1426,11 @@
     "forceJoin": "Forza l'accesso",
     "forceLeave": "Forza abbandono",
     "rawData": "Dati Grezzi",
+    "resetSiteAiUsage": "Reimposta utilizzo di Site AI",
+    "resetSiteAiUsageConfirmation": "Reimpostare l'utilizzo di Site AI del mese corrente per la community {community}? Questa operazione non può essere annullata.",
+    "resetSiteAiUsageFailed": "Impossibile reimpostare l'utilizzo dell'IA del sito.",
+    "resetSiteAiUsageSuccess": "L'utilizzo di Site AI è stato reimpostato per la community {community}.",
+    "resetSiteAiUsageTitle": "Reimposta utilizzo di Site AI",
     "restoreCommunity": "Ripristina comunità"
   },
   "communityMenu": {

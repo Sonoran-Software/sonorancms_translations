@@ -1426,6 +1426,11 @@
     "forceJoin": "強制参加",
     "forceLeave": "強制退出",
     "rawData": "生データ",
+    "resetSiteAiUsage": "Site AI 使用量をリセット",
+    "resetSiteAiUsageConfirmation": "コミュニティ {community} の今月の Site AI 使用量をリセットしますか? これは元に戻せません。",
+    "resetSiteAiUsageFailed": "サイトのAI使用量をリセットできませんでした。",
+    "resetSiteAiUsageSuccess": "コミュニティ {community} の Site AI 使用量がリセットされました。",
+    "resetSiteAiUsageTitle": "Site AI 使用量をリセット",
     "restoreCommunity": "コミュニティを復元"
   },
   "communityMenu": {

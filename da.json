@@ -1426,6 +1426,11 @@
     "forceJoin": "Tvangsjoin",
     "forceLeave": "Tving forlad",
     "rawData": "Rå Data",
+    "resetSiteAiUsage": "Nulstil Site AI-brug",
+    "resetSiteAiUsageConfirmation": "Nulstil den aktuelle måneds Site AI-forbrug for fællesskabet {community}? Dette kan ikke fortrydes.",
+    "resetSiteAiUsageFailed": "Webstedets AI-forbrug kunne ikke nulstilles.",
+    "resetSiteAiUsageSuccess": "Site AI-brug blev nulstillet for community {community}.",
+    "resetSiteAiUsageTitle": "Nulstil Site AI-brug",
     "restoreCommunity": "Gendan fællesskab"
   },
   "communityMenu": {

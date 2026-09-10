@@ -1426,6 +1426,11 @@
     "forceJoin": "Tving innmelding",
     "forceLeave": "Tvunget forlate",
     "rawData": "Rådata",
+    "resetSiteAiUsage": "Tilbakestill Site AI-bruk",
+    "resetSiteAiUsageConfirmation": "Tilbakestill inneværende måneds Site AI-bruk for community {community}? Dette kan ikke angres.",
+    "resetSiteAiUsageFailed": "Nettstedets AI-bruk kunne ikke tilbakestilles.",
+    "resetSiteAiUsageSuccess": "Site AI-bruk ble tilbakestilt for community {community}.",
+    "resetSiteAiUsageTitle": "Tilbakestill Site AI-bruk",
     "restoreCommunity": "Gjenopprett fellesskap"
   },
   "communityMenu": {

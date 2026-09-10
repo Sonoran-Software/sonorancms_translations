@@ -1426,6 +1426,11 @@
     "forceJoin": "Принудительное присоединение",
     "forceLeave": "Принудительно покинуть",
     "rawData": "Необработанные данные",
+    "resetSiteAiUsage": "Сбросить использование ИИ сайта",
+    "resetSiteAiUsageConfirmation": "Сбросить использование Site AI за текущий месяц для сообщества {community}? Это нельзя отменить.",
+    "resetSiteAiUsageFailed": "Не удалось сбросить использование ИИ сайта.",
+    "resetSiteAiUsageSuccess": "Использование ИИ сайта было сброшено для сообщества {community}.",
+    "resetSiteAiUsageTitle": "Сбросить использование ИИ сайта",
     "restoreCommunity": "ВОССТАНОВИТЬ СООБЩЕСТВО"
   },
   "communityMenu": {

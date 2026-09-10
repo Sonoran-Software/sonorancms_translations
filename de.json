@@ -1426,6 +1426,11 @@
     "forceJoin": "Beitritt erzwingen",
     "forceLeave": "Erzwungenes Verlassen",
     "rawData": "Rohdaten",
+    "resetSiteAiUsage": "Site-AI-Nutzung zurücksetzen",
+    "resetSiteAiUsageConfirmation": "Den Site-AI-Verbrauch des aktuellen Monats für die Community {community} zurücksetzen? Dies kann nicht rückgängig gemacht werden.",
+    "resetSiteAiUsageFailed": "Die KI-Nutzung der Website konnte nicht zurückgesetzt werden.",
+    "resetSiteAiUsageSuccess": "Die Site-AI-Nutzung wurde für die Community {community} zurückgesetzt.",
+    "resetSiteAiUsageTitle": "Site-AI-Nutzung zurücksetzen",
     "restoreCommunity": "Gemeinschaft wiederherstellen"
   },
   "communityMenu": {
