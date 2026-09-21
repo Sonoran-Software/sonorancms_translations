@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guild"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Legg til mapping",
+    "cancel": "Avbryt",
+    "confirmRemove": "Slette denne koblingen? Eksisterende Discord-roller vil forbli til de endres av en annen kobling eller manuelt.",
+    "description": "Beskrivelse (valgfritt)",
+    "destinationGuild": "Destinasjonsserver",
+    "destinationRole": "Destinasjonsrolle",
+    "disable": "Deaktiver",
+    "disabled": "Deaktivert",
+    "edit": "Rediger mapping",
+    "empty": "Ingen Discord-til-Discord-tilordninger konfigurert.",
+    "enable": "Aktiver",
+    "enabled": "Aktivert",
+    "failed": "Kan ikke laste inn eller lagre Discord-tilordninger. Oppdater før du prøver på nytt.",
+    "help": "Synk en kilderolle til en målrolle i en koblet Discord-server. Rolle-tilføyelser, fjerninger og /sync bruker disse mappingene. CMS-rangmappingene nedenfor er konfigurert separat. SonoranBot trenger Administrer roller og en høyere rolle enn målrollen. Lagring kjører ikke en massesynk; bruk /sync i Discord for å avstemme eksisterende medlemmer.",
+    "refresh": "oppdater",
+    "remove": "Slett kartlegging",
+    "save": "Lagre",
+    "saved": "Discord-tilordning lagret.",
+    "sourceGuild": "Kildeserver (autorativ)",
+    "sourceRole": "Kilderolle",
+    "title": "Discord-til-Discord rolle-tilordninger"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto utestengt - Kanal",
     "accountBannedMentions": "Konto utestengt - Områder",

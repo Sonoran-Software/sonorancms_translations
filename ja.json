@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "役割"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "マッピングを追加",
+    "cancel": "テンプレート確認",
+    "confirmRemove": "このマッピングを削除しますか? 既存の Discord ロールは、別のマッピングで変更されるか手動で変更されるまでそのまま残ります。",
+    "description": "説明（任意）",
+    "destinationGuild": "送信先サーバー",
+    "destinationRole": "送信先ロール",
+    "disable": "無効",
+    "disabled": "無効",
+    "edit": "マッピングを編集",
+    "empty": "Discord 同士のマッピングは設定されていません。",
+    "enable": "有効",
+    "enabled": "有効",
+    "failed": "Discord のマッピングを読み込めませんでした、または保存できませんでした。再試行する前に更新してください。",
+    "help": "リンクされた Discord サーバー内で、ソースロールを移行先ロールに同期します。ロールの追加、削除、および /sync はこれらのマッピングを使用します。下の CMS ランク マッピングは別途設定されます。SonoranBot には「ロールの管理」と移行先ロールより高いロールが必要です。保存しても一括同期は実行されません。既存メンバーを照合するには Discord で /sync を使用してください。",
+    "refresh": "更新",
+    "remove": "マッピングを削除",
+    "save": "アップローダー",
+    "saved": "Discord マッピングを保存しました。",
+    "sourceGuild": "ソースサーバー（権威元）",
+    "sourceRole": "ソースロール",
+    "title": "Discord 同士の役割マッピング"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "アカウント停止 - チャンネル",
     "accountBannedMentions": "アカウントが停止されました - メンション",

@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gremio"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Agregar mapeo",
+    "cancel": "Cancelar",
+    "confirmRemove": "¿Eliminar este mapeo? Los roles existentes de Discord permanecerán hasta que los cambie otro mapeo o manualmente.",
+    "description": "Descripción (opcional)",
+    "destinationGuild": "Servidor de destino",
+    "destinationRole": "Rol de destino",
+    "disable": "Deshabilitar",
+    "disabled": "Deshabilitado",
+    "edit": "Editar asignación",
+    "empty": "No hay mapeos de Discord a Discord configurados.",
+    "enable": "Habilitar",
+    "enabled": "Habilitado",
+    "failed": "No se pueden cargar o guardar las asignaciones de Discord. Actualiza antes de volver a intentarlo.",
+    "help": "Sincroniza un rol de origen con un rol de destino en un servidor de Discord vinculado. Las altas de roles, las bajas y /sync usan estas asignaciones. Las asignaciones de rangos de CMS que aparecen abajo se configuran por separado. SonoranBot necesita Gestionar roles y un rol superior al rol de destino. Guardar no ejecuta una sincronización masiva; usa /sync en Discord para reconciliar a los miembros existentes.",
+    "refresh": "actualizar",
+    "remove": "Eliminar asignación",
+    "save": "Guardar",
+    "saved": "Asignación de Discord guardada.",
+    "sourceGuild": "Servidor de origen (autoritativo)",
+    "sourceRole": "Rol de origen",
+    "title": "mapeos de roles de Discord a Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Cuenta Suspendida - Canal",
     "accountBannedMentions": "Cuenta suspendida - Menciones",

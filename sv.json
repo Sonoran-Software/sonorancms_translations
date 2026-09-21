@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guild"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Lägg till mappning",
+    "cancel": "Avbryt",
+    "confirmRemove": "Ta bort denna mappning? Befintliga Discord-roller kommer att finnas kvar tills de ändras av en annan mappning eller manuellt.",
+    "description": "Beskrivning (valfritt)",
+    "destinationGuild": "Destinationsserver",
+    "destinationRole": "Destinationsroll",
+    "disable": "Inaktivera",
+    "disabled": "Inaktiverad",
+    "edit": "Redigera mappning",
+    "empty": "Inga Discord-till-Discord-mappningar har konfigurerats.",
+    "enable": "Aktivera",
+    "enabled": "Aktiverad",
+    "failed": "Det gick inte att läsa in eller spara Discord-mappningar. Uppdatera innan du försöker igen.",
+    "help": "Synka en källroll till en måroll i en länkad Discord-server. Rolltillägg, borttagningar och /sync använder dessa mappningar. CMS-rankmappningarna nedan konfigureras separat. SonoranBot behöver Hantera roller och en högre roll än mårollen. Spara kör inte en massynk; använd /sync i Discord för att synka befintliga medlemmar.",
+    "refresh": "uppdatera",
+    "remove": "Ta bort mappning",
+    "save": "Spara",
+    "saved": "Discord-mappning sparad.",
+    "sourceGuild": "Källserver (auktoritativ)",
+    "sourceRole": "Källroll",
+    "title": "Discord-till-Discord-rollmappningar"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto Avstängt - Kanal",
     "accountBannedMentions": "Kontot är förbjudet - Nämner",

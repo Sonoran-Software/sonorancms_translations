@@ -2028,14 +2028,14 @@
     "enable": "Enable",
     "enabled": "Enabled",
     "failed": "Unable to load or save Discord mappings. Refresh before retrying.",
-    "help": "Sync a source role to a destination role in a linked Discord server. Role additions, removals, and /sync use these mappings. CMS rank mappings below are configured separately. SonoranBot needs Manage Roles and a higher role than the destination role. Saving does not run a mass sync; use /sync in Discord to reconcile existing members.",
+    "help": "Sync role(s) from one guild to another",
     "refresh": "Refresh",
     "remove": "Delete mapping",
     "save": "Save",
     "saved": "Discord mapping saved.",
     "sourceGuild": "Source server (authoritative)",
     "sourceRole": "Source role",
-    "title": "Discord-to-Discord role mappings"
+    "title": "Discord-to-Discord Mappings"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Account Banned - Channel",

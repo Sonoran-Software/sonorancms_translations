@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gildia"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Dodaj mapowanie",
+    "cancel": "Anuluj",
+    "confirmRemove": "Usunąć to mapowanie? Istniejące role Discord pozostaną, dopóki nie zostaną zmienione przez inne mapowanie lub ręcznie.",
+    "description": "Opis (opcjonalnie)",
+    "destinationGuild": "Serwer docelowy",
+    "destinationRole": "Rola docelowa",
+    "disable": "Wyłącz",
+    "disabled": "Wyłączone",
+    "edit": "Edytuj mapowanie",
+    "empty": "Brak skonfigurowanych mapowań Discord–Discord.",
+    "enable": "Włącz",
+    "enabled": "Włączony",
+    "failed": "Nie można wczytać ani zapisać mapowań Discorda. Odśwież przed ponowną próbą.",
+    "help": "Synchronizuj rolę źródłową z rolą docelową w połączonym serwerze Discord. Dodawanie ról, usuwanie ról oraz /sync używają tych mapowań. Mapowania rang CMS poniżej są konfigurowane osobno. SonoranBot potrzebuje uprawnienia Zarządzaj rolami i roli wyższej niż rola docelowa. Zapis nie uruchamia masowej synchronizacji; użyj /sync w Discordzie, aby uzgodnić istniejących członków.",
+    "refresh": "odśwież",
+    "remove": "Usuń mapowanie",
+    "save": "Zapisz",
+    "saved": "Mapowanie Discorda zapisane.",
+    "sourceGuild": "Serwer źródłowy (autorytatywny)",
+    "sourceRole": "Rola źródłowa",
+    "title": "Mapowania ról Discord–Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto zabanowane - Kanał",
     "accountBannedMentions": "Konto zablokowane - Wzmianki",

@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guild"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Tilføj kortlægning",
+    "cancel": "Annuller",
+    "confirmRemove": "Slet denne tilknytning? Eksisterende Discord-roller forbliver, indtil de ændres af en anden tilknytning eller manuelt.",
+    "description": "Beskrivelse (valgfri)",
+    "destinationGuild": "Destinationsserver",
+    "destinationRole": "Destinationsrolle",
+    "disable": "Deaktiver",
+    "disabled": "Deaktiveret",
+    "edit": "Rediger kortlægning",
+    "empty": "Ingen Discord-til-Discord-mappinger konfigureret.",
+    "enable": "Aktiver",
+    "enabled": "Aktiveret",
+    "failed": "Kunne ikke indlæse eller gemme Discord-mappinger. Opdater før du prøver igen.",
+    "help": "Synkroniser en kilderolle til en destinationsrolle i en tilknyttet Discord-server. Rolletilføjelser, fjernelser og /sync bruger disse mappinger. CMS-rangmappingerne nedenfor er konfigureret separat. SonoranBot har brug for Administrer roller og en højere rolle end destinationsrollen. Gemning udfører ikke en massesynkronisering; brug /sync i Discord til at afstemme eksisterende medlemmer.",
+    "refresh": "opdatere",
+    "remove": "Slet kortlægning",
+    "save": "Gem",
+    "saved": "Discord-mapping gemt.",
+    "sourceGuild": "Kildeserver (autorativ)",
+    "sourceRole": "Kilderolle",
+    "title": "Discord-til-Discord rolletilknytninger"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto Bannet - Kanal",
     "accountBannedMentions": "Konto udelukket - Omtaler",
