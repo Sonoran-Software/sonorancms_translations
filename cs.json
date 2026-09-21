@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gilda"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Přidat mapování",
+    "cancel": "Zrušit",
+    "confirmRemove": "Smazat toto mapování? Stávající role Discordu zůstanou zachovány, dokud je nezmění jiné mapování nebo ručně.",
+    "description": "Popis (volitelné)",
+    "destinationGuild": "Cílový server",
+    "destinationRole": "Cílová role",
+    "disable": "Zakázat",
+    "disabled": "Zakázáno",
+    "edit": "Upravit mapování",
+    "empty": "Není nakonfigurováno žádné mapování Discord→Discord.",
+    "enable": "Povolit",
+    "enabled": "Povoleno",
+    "failed": "Nelze načíst nebo uložit mapování Discordu. Obnovte před dalším pokusem.",
+    "help": "Synchronizuje zdrojovou roli s cílovou rolí v propojeném Discord serveru. Přidání rolí, odebrání rolí a /sync používají tato mapování. Mapování hodností CMS níže jsou nakonfigurována samostatně. SonoranBot potřebuje oprávnění Spravovat role a vyšší roli než cílová role. Uložení nespustí hromadnou synchronizaci; použijte /sync v Discordu k sladění existujících členů.",
+    "refresh": "obnovit",
+    "remove": "Smazat mapování",
+    "save": "Uložit",
+    "saved": "Discord mapování uloženo.",
+    "sourceGuild": "Zdrojový server (autoritatívní)",
+    "sourceRole": "Zdrojová role",
+    "title": "Mapování rolí Discord→Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Účet zablokován - Kanál",
     "accountBannedMentions": "Účet zablokován - Zmínky",

@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Sunucu"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Eşleme Ekle",
+    "cancel": "İptal",
+    "confirmRemove": "Bu eşlemeyi sil? Mevcut Discord rolleri, başka bir eşleme tarafından değiştirilene veya manuel olarak değiştirilene kadar kalır.",
+    "description": "Açıklama (isteğe bağlı)",
+    "destinationGuild": "Hedef sunucu",
+    "destinationRole": "Hedef rol",
+    "disable": "Devre Dışı Bırak",
+    "disabled": "Devre Dışı",
+    "edit": "Eşlemeyi düzenle",
+    "empty": "Discord'dan Discord'a eşleştirme yapılandırılmadı.",
+    "enable": "Etkinleştir",
+    "enabled": "Etkin",
+    "failed": "Discord eşleştirmeleri yüklenemiyor veya kaydedilemiyor. Yeniden denemeden önce yenileyin.",
+    "help": "Bağlı bir Discord sunucusunda bir kaynak rolü bir hedef role eşitleyin. Rol eklemeleri, kaldırmaları ve /sync bu eşlemeleri kullanır. Aşağıdaki CMS rütbe eşlemeleri ayrı olarak yapılandırılır. SonoranBot'un Rolleri Yönet iznine ve hedef rolden daha yüksek bir role ihtiyacı vardır. Kaydetme toplu eşitleme çalıştırmaz; mevcut üyeleri eşleştirmek için Discord'da /sync kullanın.",
+    "refresh": "Yenile",
+    "remove": "Eşlemeyi Sil",
+    "save": "Kaydet",
+    "saved": "Discord eşlemesi kaydedildi.",
+    "sourceGuild": "Kaynak sunucu (yetkili)",
+    "sourceRole": "Kaynak rol",
+    "title": "Discord'dan Discord'a rol eşleştirmeleri"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Hesap Yasaklandı - Kanal",
     "accountBannedMentions": "Hesap Yasaklandı - Bahsetmeler",

@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guilde"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Ajouter un mappage",
+    "cancel": "Annuler",
+    "confirmRemove": "Supprimer ce mappage ? Les rôles Discord existants resteront jusqu’à ce qu’ils soient modifiés par un autre mappage ou manuellement.",
+    "description": "Description (facultative)",
+    "destinationGuild": "Serveur de destination",
+    "destinationRole": "Rôle de destination",
+    "disable": "Désactiver",
+    "disabled": "Désactivé",
+    "edit": "Modifier le mappage",
+    "empty": "Aucun mappage Discord vers Discord configuré.",
+    "enable": "Activer",
+    "enabled": "Activé",
+    "failed": "Impossible de charger ou d’enregistrer les mappages Discord. Actualisez avant de réessayer.",
+    "help": "Synchronise un rôle source vers un rôle de destination dans un serveur Discord lié. Les ajouts de rôle, les suppressions et /sync utilisent ces mappages. Les mappages de rang CMS ci-dessous sont configurés séparément. SonoranBot a besoin de Gérer les rôles et d'un rôle supérieur au rôle de destination. L'enregistrement n'effectue pas de synchronisation de masse ; utilisez /sync dans Discord pour réconcilier les membres existants.",
+    "refresh": "i18n key: fr.json, phrase: refresh",
+    "remove": "Supprimer le mappage",
+    "save": "Enregistrer",
+    "saved": "Correspondance Discord enregistrée.",
+    "sourceGuild": "Serveur source (faisant autorité)",
+    "sourceRole": "Rôle source",
+    "title": "Mappages de rôles Discord vers Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Compte banni - Canal",
     "accountBannedMentions": "Compte banni - Mentions",

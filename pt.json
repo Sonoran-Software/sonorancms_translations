@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guilda"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Adicionar mapeamento",
+    "cancel": "Cancelar",
+    "confirmRemove": "Excluir este mapeamento? As funções existentes do Discord permanecerão até serem alteradas por outro mapeamento ou manualmente.",
+    "description": "Descrição (opcional)",
+    "destinationGuild": "Servidor de destino",
+    "destinationRole": "Função de destino",
+    "disable": "Desativar",
+    "disabled": "Desativado",
+    "edit": "Editar mapeamento",
+    "empty": "Nenhum mapeamento de Discord para Discord configurado.",
+    "enable": "Ativar",
+    "enabled": "Habilitado",
+    "failed": "Não foi possível carregar ou salvar os mapeamentos do Discord. Atualize antes de tentar novamente.",
+    "help": "Sincronize uma função de origem com uma função de destino em um servidor Discord vinculado. Adições, remoções e /sync de funções usam estes mapeamentos. Os mapeamentos de cargos do CMS abaixo são configurados separadamente. O SonoranBot precisa de Gerenciar funções e de um cargo superior ao cargo de destino. Salvar não executa uma sincronização em massa; use /sync no Discord para reconciliar os membros existentes.",
+    "refresh": "atualizar",
+    "remove": "Excluir mapeamento",
+    "save": "Salvar",
+    "saved": "Mapeamento do Discord salvo.",
+    "sourceGuild": "Servidor de origem (autoritativo)",
+    "sourceRole": "Função de origem",
+    "title": "Mapeamentos de função do Discord para Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Conta Banida - Canal",
     "accountBannedMentions": "Conta Banida - Menções",
