@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guild"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Add mapping",
+    "cancel": "Cancel",
+    "confirmRemove": "Delete this mapping? Existing Discord roles will remain until changed by another mapping or manually.",
+    "description": "Description (optional)",
+    "destinationGuild": "Destination server",
+    "destinationRole": "Destination role",
+    "disable": "Disable",
+    "disabled": "Disabled",
+    "edit": "Edit mapping",
+    "empty": "No Discord-to-Discord mappings configured.",
+    "enable": "Enable",
+    "enabled": "Enabled",
+    "failed": "Unable to load or save Discord mappings. Refresh before retrying.",
+    "help": "Sync a source role to a destination role in a linked Discord server. Role additions, removals, and /sync use these mappings. CMS rank mappings below are configured separately. SonoranBot needs Manage Roles and a higher role than the destination role. Saving does not run a mass sync; use /sync in Discord to reconcile existing members.",
+    "refresh": "Refresh",
+    "remove": "Delete mapping",
+    "save": "Save",
+    "saved": "Discord mapping saved.",
+    "sourceGuild": "Source server (authoritative)",
+    "sourceRole": "Source role",
+    "title": "Discord-to-Discord role mappings"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Account Banned - Channel",
     "accountBannedMentions": "Account Banned - Mentions",
