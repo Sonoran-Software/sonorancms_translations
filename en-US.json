@@ -1,7 +1,7 @@
 {
   "DiscordGuildRoleMapping": {
-    "title": "Discord-to-Discord role mappings",
-    "help": "Sync a source role to a destination role in a linked Discord server. Role additions, removals, and /sync use these mappings. CMS rank mappings below are configured separately. SonoranBot needs Manage Roles and a higher role than the destination role. Saving does not run a mass sync; use /sync in Discord to reconcile existing members.",
+    "title": "Discord-to-Discord Mappings",
+    "help": "Sync role(s) from one guild to another",
     "refresh": "Refresh",
     "add": "Add mapping",
     "edit": "Edit mapping",
