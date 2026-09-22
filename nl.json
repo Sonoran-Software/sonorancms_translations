@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gilde"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Mapping toevoegen",
+    "cancel": "Annuleren",
+    "confirmRemove": "Deze koppeling verwijderen? Bestaande Discord-rollen blijven bestaan totdat ze worden gewijzigd door een andere koppeling of handmatig.",
+    "description": "Beschrijving (optioneel)",
+    "destinationGuild": "Doelserver",
+    "destinationRole": "Doelrol",
+    "disable": "Uitschakelen",
+    "disabled": "Uitgeschakeld",
+    "edit": "Koppeling bewerken",
+    "empty": "Geen Discord-naar-Discord-koppelingen geconfigureerd.",
+    "enable": "Inschakelen",
+    "enabled": "Ingeschakeld",
+    "failed": "Kan Discord-koppelingen niet laden of opslaan. Vernieuw voordat je het opnieuw probeert.",
+    "help": "Synchroniseer rol(len) van het ene gilde naar het andere",
+    "refresh": "vernieuwen",
+    "remove": "Mapping verwijderen",
+    "save": "Opslaan",
+    "saved": "Discord-koppeling opgeslagen.",
+    "sourceGuild": "Bronserver (gezaghebbend)",
+    "sourceRole": "Bronrol",
+    "title": "Discord-naar-Discord-koppelingen"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Account verbannen - Kanaal",
     "accountBannedMentions": "Account verbannen - Vermeldingen",

@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "역할"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "매핑 추가",
+    "cancel": "템플릿 확인",
+    "confirmRemove": "이 매핑을 삭제하시겠습니까? 기존 Discord 역할은 다른 매핑으로 변경되거나 수동으로 변경될 때까지 유지됩니다.",
+    "description": "설명 (선택 사항)",
+    "destinationGuild": "대상 서버",
+    "destinationRole": "대상 역할",
+    "disable": "비활성화",
+    "disabled": "비활성화됨",
+    "edit": "매핑 수정",
+    "empty": "설정된 Discord-Discord 매핑이 없습니다.",
+    "enable": "활성화",
+    "enabled": "활성화됨",
+    "failed": "Discord 매핑을 불러오거나 저장할 수 없습니다. 다시 시도하기 전에 새로고침하세요.",
+    "help": "한 길드에서 다른 길드로 역할 동기화",
+    "refresh": "새로 고침",
+    "remove": "매핑 삭제",
+    "save": "업로드",
+    "saved": "Discord 매핑이 저장되었습니다.",
+    "sourceGuild": "원본 서버(권위적)",
+    "sourceRole": "소스 역할",
+    "title": "Discord-Discord 매핑"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "계정 차단 - 채널",
     "accountBannedMentions": "계정 차단됨 - 언급",

@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "役割"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "マッピングを追加",
+    "cancel": "テンプレート確認",
+    "confirmRemove": "このマッピングを削除しますか? 既存の Discord ロールは、別のマッピングで変更されるか手動で変更されるまでそのまま残ります。",
+    "description": "説明（任意）",
+    "destinationGuild": "送信先サーバー",
+    "destinationRole": "送信先ロール",
+    "disable": "無効",
+    "disabled": "無効",
+    "edit": "マッピングを編集",
+    "empty": "Discord 同士のマッピングは設定されていません。",
+    "enable": "有効",
+    "enabled": "有効",
+    "failed": "Discord のマッピングを読み込めませんでした、または保存できませんでした。再試行する前に更新してください。",
+    "help": "1つのギルドから別のギルドへロールを同期",
+    "refresh": "更新",
+    "remove": "マッピングを削除",
+    "save": "アップローダー",
+    "saved": "Discord マッピングを保存しました。",
+    "sourceGuild": "ソースサーバー（権威元）",
+    "sourceRole": "ソースロール",
+    "title": "Discord 同士のマッピング"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "アカウント停止 - チャンネル",
     "accountBannedMentions": "アカウントが停止されました - メンション",

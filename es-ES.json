@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gremio"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Agregar mapeo",
+    "cancel": "Cancelar",
+    "confirmRemove": "¿Eliminar este mapeo? Los roles existentes de Discord permanecerán hasta que los cambie otro mapeo o manualmente.",
+    "description": "Descripción (opcional)",
+    "destinationGuild": "Servidor de destino",
+    "destinationRole": "Rol de destino",
+    "disable": "Deshabilitar",
+    "disabled": "Deshabilitado",
+    "edit": "Editar asignación",
+    "empty": "No hay mapeos de Discord a Discord configurados.",
+    "enable": "Habilitar",
+    "enabled": "Habilitado",
+    "failed": "No se pueden cargar o guardar las asignaciones de Discord. Actualiza antes de volver a intentarlo.",
+    "help": "Sincronizar rol(es) de un servidor a otro",
+    "refresh": "actualizar",
+    "remove": "Eliminar asignación",
+    "save": "Guardar",
+    "saved": "Asignación de Discord guardada.",
+    "sourceGuild": "Servidor de origen (autoritativo)",
+    "sourceRole": "Rol de origen",
+    "title": "Mapeos de Discord a Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Cuenta Suspendida - Canal",
     "accountBannedMentions": "Cuenta suspendida - Menciones",

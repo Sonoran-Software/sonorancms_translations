@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "نقابة"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "إضافة تعيين",
+    "cancel": "إلغاء",
+    "confirmRemove": "حذف هذا الربط؟ ستبقى أدوار Discord الحالية حتى يتم تغييرها بواسطة ربط آخر أو يدويًا.",
+    "description": "الوصف (اختياري)",
+    "destinationGuild": "خادم الوجهة",
+    "destinationRole": "دور الوجهة",
+    "disable": "تعطيل",
+    "disabled": "معطل",
+    "edit": "تعديل الربط",
+    "empty": "لا توجد تعيينات من Discord إلى Discord مُهيأة.",
+    "enable": "تمكين",
+    "enabled": "ممكّن",
+    "failed": "تعذّر تحميل أو حفظ تعيينات Discord. حدّث الصفحة قبل إعادة المحاولة.",
+    "help": "مزامنة دور(أدوار) من نقابة إلى أخرى",
+    "refresh": "تحديث",
+    "remove": "حذف التعيين",
+    "save": "حفظ",
+    "saved": "تم حفظ تعيين Discord.",
+    "sourceGuild": "الخادم المصدر (المعتمد)",
+    "sourceRole": "الدور المصدر",
+    "title": "تعيينات Discord إلى Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "القناة - الحساب محظور",
     "accountBannedMentions": "الحساب محظور - الإشعارات",

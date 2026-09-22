@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gilda"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Aggiungi mappatura",
+    "cancel": "Annulla",
+    "confirmRemove": "Eliminare questa mappatura? I ruoli Discord esistenti rimarranno finché non verranno cambiati da un'altra mappatura o manualmente.",
+    "description": "Descrizione (facoltativa)",
+    "destinationGuild": "Server di destinazione",
+    "destinationRole": "Ruolo di destinazione",
+    "disable": "Disabilita",
+    "disabled": "Disabilitato",
+    "edit": "Modifica mappatura",
+    "empty": "Nessuna mappatura Discord-to-Discord configurata.",
+    "enable": "Abilita",
+    "enabled": "Abilitato",
+    "failed": "Impossibile caricare o salvare le mappature Discord. Aggiorna prima di riprovare.",
+    "help": "Sincronizza ruolo/i da una gilda a un'altra",
+    "refresh": "aggiorna",
+    "remove": "Elimina mappatura",
+    "save": "Salva",
+    "saved": "Mappatura Discord salvata.",
+    "sourceGuild": "Server sorgente (autorevole)",
+    "sourceRole": "Ruolo sorgente",
+    "title": "Mappature Discord-to-Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Canale Account Bannato",
     "accountBannedMentions": "Account bloccato - Menzioni",

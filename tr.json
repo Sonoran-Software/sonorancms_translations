@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Sunucu"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Eşleme Ekle",
+    "cancel": "İptal",
+    "confirmRemove": "Bu eşlemeyi sil? Mevcut Discord rolleri, başka bir eşleme tarafından değiştirilene veya manuel olarak değiştirilene kadar kalır.",
+    "description": "Açıklama (isteğe bağlı)",
+    "destinationGuild": "Hedef sunucu",
+    "destinationRole": "Hedef rol",
+    "disable": "Devre Dışı Bırak",
+    "disabled": "Devre Dışı",
+    "edit": "Eşlemeyi düzenle",
+    "empty": "Discord'dan Discord'a eşleştirme yapılandırılmadı.",
+    "enable": "Etkinleştir",
+    "enabled": "Etkin",
+    "failed": "Discord eşleştirmeleri yüklenemiyor veya kaydedilemiyor. Yeniden denemeden önce yenileyin.",
+    "help": "Bir sunucudan diğerine rol(leri) eşitle",
+    "refresh": "Yenile",
+    "remove": "Eşlemeyi Sil",
+    "save": "Kaydet",
+    "saved": "Discord eşlemesi kaydedildi.",
+    "sourceGuild": "Kaynak sunucu (yetkili)",
+    "sourceRole": "Kaynak rol",
+    "title": "Discord'dan Discord'a Eşleştirmeler"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Hesap Yasaklandı - Kanal",
     "accountBannedMentions": "Hesap Yasaklandı - Bahsetmeler",

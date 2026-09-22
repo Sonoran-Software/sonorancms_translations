@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gilda"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Přidat mapování",
+    "cancel": "Zrušit",
+    "confirmRemove": "Smazat toto mapování? Stávající role Discordu zůstanou zachovány, dokud je nezmění jiné mapování nebo ručně.",
+    "description": "Popis (volitelné)",
+    "destinationGuild": "Cílový server",
+    "destinationRole": "Cílová role",
+    "disable": "Zakázat",
+    "disabled": "Zakázáno",
+    "edit": "Upravit mapování",
+    "empty": "Není nakonfigurováno žádné mapování Discord→Discord.",
+    "enable": "Povolit",
+    "enabled": "Povoleno",
+    "failed": "Nelze načíst nebo uložit mapování Discordu. Obnovte před dalším pokusem.",
+    "help": "Synchronizovat roli/role z jednoho guilda do druhého",
+    "refresh": "obnovit",
+    "remove": "Smazat mapování",
+    "save": "Uložit",
+    "saved": "Discord mapování uloženo.",
+    "sourceGuild": "Zdrojový server (autoritatívní)",
+    "sourceRole": "Zdrojová role",
+    "title": "Mapování Discord→Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Účet zablokován - Kanál",
     "accountBannedMentions": "Účet zablokován - Zmínky",

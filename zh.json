@@ -2015,6 +2015,29 @@
   "DiscordChannelSelector": {
     "guild": "公会"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "添加映射",
+    "cancel": "取消",
+    "confirmRemove": "删除此映射？现有 Discord 角色将保留，直到被另一个映射更改或手动更改。",
+    "description": "描述（可选）",
+    "destinationGuild": "目标服务器",
+    "destinationRole": "目标角色",
+    "disable": "禁用",
+    "disabled": "已禁用",
+    "edit": "编辑映射",
+    "empty": "未配置 Discord 到 Discord 的映射。",
+    "enable": "启用",
+    "enabled": "启用",
+    "failed": "无法加载或保存 Discord 映射。请刷新后重试。",
+    "help": "将角色从一个公会同步到另一个公会",
+    "refresh": "刷新",
+    "remove": "删除映射",
+    "save": "保存",
+    "saved": "Discord 映射已保存。",
+    "sourceGuild": "源服务器（权威）",
+    "sourceRole": "来源角色",
+    "title": "Discord 到 Discord 的映射"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "账户封禁 - 频道",
     "accountBannedMentions": "帐户已封禁 - 提及",

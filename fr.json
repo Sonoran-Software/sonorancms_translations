@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guilde"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Ajouter un mappage",
+    "cancel": "Annuler",
+    "confirmRemove": "Supprimer ce mappage ? Les rôles Discord existants resteront jusqu’à ce qu’ils soient modifiés par un autre mappage ou manuellement.",
+    "description": "Description (facultative)",
+    "destinationGuild": "Serveur de destination",
+    "destinationRole": "Rôle de destination",
+    "disable": "Désactiver",
+    "disabled": "Désactivé",
+    "edit": "Modifier le mappage",
+    "empty": "Aucun mappage Discord vers Discord configuré.",
+    "enable": "Activer",
+    "enabled": "Activé",
+    "failed": "Impossible de charger ou d’enregistrer les mappages Discord. Actualisez avant de réessayer.",
+    "help": "Synchroniser le(s) rôle(s) d’une guilde à une autre",
+    "refresh": "i18n key: fr.json, phrase: refresh",
+    "remove": "Supprimer le mappage",
+    "save": "Enregistrer",
+    "saved": "Correspondance Discord enregistrée.",
+    "sourceGuild": "Serveur source (faisant autorité)",
+    "sourceRole": "Rôle source",
+    "title": "Correspondances Discord vers Discord"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Compte banni - Canal",
     "accountBannedMentions": "Compte banni - Mentions",

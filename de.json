@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Gilde"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Zuordnung hinzufügen",
+    "cancel": "Abbrechen",
+    "confirmRemove": "Diese Zuordnung löschen? Vorhandene Discord-Rollen bleiben bestehen, bis sie durch eine andere Zuordnung geändert oder manuell geändert werden.",
+    "description": "Beschreibung (optional)",
+    "destinationGuild": "Zielserver",
+    "destinationRole": "Zielrolle",
+    "disable": "Deaktivieren",
+    "disabled": "Deaktiviert",
+    "edit": "Zuordnung bearbeiten",
+    "empty": "Keine Discord-zu-Discord-Zuordnungen konfiguriert.",
+    "enable": "Aktivieren",
+    "enabled": "Aktiviert",
+    "failed": "Discord-Zuordnungen konnten nicht geladen oder gespeichert werden. Vor dem erneuten Versuch aktualisieren.",
+    "help": "Rolle(n) von einer Gilde in eine andere synchronisieren",
+    "refresh": "Aktualisieren",
+    "remove": "Zuordnung löschen",
+    "save": "Speichern",
+    "saved": "Discord-Zuordnung gespeichert.",
+    "sourceGuild": "Quellserver (maßgeblich)",
+    "sourceRole": "Quellrolle",
+    "title": "Discord-zu-Discord-Zuordnungen"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto gesperrt - Kanal",
     "accountBannedMentions": "Konto gesperrt - Erwähnungen",

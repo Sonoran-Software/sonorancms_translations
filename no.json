@@ -2014,6 +2014,29 @@
   "DiscordChannelSelector": {
     "guild": "Guild"
   },
+  "DiscordGuildRoleMapping": {
+    "add": "Legg til mapping",
+    "cancel": "Avbryt",
+    "confirmRemove": "Slette denne koblingen? Eksisterende Discord-roller vil forbli til de endres av en annen kobling eller manuelt.",
+    "description": "Beskrivelse (valgfritt)",
+    "destinationGuild": "Destinasjonsserver",
+    "destinationRole": "Destinasjonsrolle",
+    "disable": "Deaktiver",
+    "disabled": "Deaktivert",
+    "edit": "Rediger mapping",
+    "empty": "Ingen Discord-til-Discord-tilordninger konfigurert.",
+    "enable": "Aktiver",
+    "enabled": "Aktivert",
+    "failed": "Kan ikke laste inn eller lagre Discord-tilordninger. Oppdater før du prøver på nytt.",
+    "help": "Synk rol(le)r fra én guild til en annen",
+    "refresh": "oppdater",
+    "remove": "Slett kartlegging",
+    "save": "Lagre",
+    "saved": "Discord-tilordning lagret.",
+    "sourceGuild": "Kildeserver (autorativ)",
+    "sourceRole": "Kilderolle",
+    "title": "Discord-til-Discord-tilordninger"
+  },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto utestengt - Kanal",
     "accountBannedMentions": "Konto utestengt - Områder",
