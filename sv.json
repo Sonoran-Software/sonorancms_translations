@@ -2028,14 +2028,14 @@
     "enable": "Aktivera",
     "enabled": "Aktiverad",
     "failed": "Det gick inte att läsa in eller spara Discord-mappningar. Uppdatera innan du försöker igen.",
-    "help": "Synka en källroll till en måroll i en länkad Discord-server. Rolltillägg, borttagningar och /sync använder dessa mappningar. CMS-rankmappningarna nedan konfigureras separat. SonoranBot behöver Hantera roller och en högre roll än mårollen. Spara kör inte en massynk; använd /sync i Discord för att synka befintliga medlemmar.",
+    "help": "Synka roll(er) från en guild till en annan",
     "refresh": "uppdatera",
     "remove": "Ta bort mappning",
     "save": "Spara",
     "saved": "Discord-mappning sparad.",
     "sourceGuild": "Källserver (auktoritativ)",
     "sourceRole": "Källroll",
-    "title": "Discord-till-Discord-rollmappningar"
+    "title": "Discord-till-Discord-mappningar"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto Avstängt - Kanal",

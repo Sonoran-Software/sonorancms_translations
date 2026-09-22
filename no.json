@@ -2028,14 +2028,14 @@
     "enable": "Aktiver",
     "enabled": "Aktivert",
     "failed": "Kan ikke laste inn eller lagre Discord-tilordninger. Oppdater før du prøver på nytt.",
-    "help": "Synk en kilderolle til en målrolle i en koblet Discord-server. Rolle-tilføyelser, fjerninger og /sync bruker disse mappingene. CMS-rangmappingene nedenfor er konfigurert separat. SonoranBot trenger Administrer roller og en høyere rolle enn målrollen. Lagring kjører ikke en massesynk; bruk /sync i Discord for å avstemme eksisterende medlemmer.",
+    "help": "Synk rol(le)r fra én guild til en annen",
     "refresh": "oppdater",
     "remove": "Slett kartlegging",
     "save": "Lagre",
     "saved": "Discord-tilordning lagret.",
     "sourceGuild": "Kildeserver (autorativ)",
     "sourceRole": "Kilderolle",
-    "title": "Discord-til-Discord rolle-tilordninger"
+    "title": "Discord-til-Discord-tilordninger"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto utestengt - Kanal",

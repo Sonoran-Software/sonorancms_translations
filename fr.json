@@ -2028,14 +2028,14 @@
     "enable": "Activer",
     "enabled": "Activé",
     "failed": "Impossible de charger ou d’enregistrer les mappages Discord. Actualisez avant de réessayer.",
-    "help": "Synchronise un rôle source vers un rôle de destination dans un serveur Discord lié. Les ajouts de rôle, les suppressions et /sync utilisent ces mappages. Les mappages de rang CMS ci-dessous sont configurés séparément. SonoranBot a besoin de Gérer les rôles et d'un rôle supérieur au rôle de destination. L'enregistrement n'effectue pas de synchronisation de masse ; utilisez /sync dans Discord pour réconcilier les membres existants.",
+    "help": "Synchroniser le(s) rôle(s) d’une guilde à une autre",
     "refresh": "i18n key: fr.json, phrase: refresh",
     "remove": "Supprimer le mappage",
     "save": "Enregistrer",
     "saved": "Correspondance Discord enregistrée.",
     "sourceGuild": "Serveur source (faisant autorité)",
     "sourceRole": "Rôle source",
-    "title": "Mappages de rôles Discord vers Discord"
+    "title": "Correspondances Discord vers Discord"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Compte banni - Canal",

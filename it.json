@@ -2028,14 +2028,14 @@
     "enable": "Abilita",
     "enabled": "Abilitato",
     "failed": "Impossibile caricare o salvare le mappature Discord. Aggiorna prima di riprovare.",
-    "help": "Sincronizza un ruolo sorgente con un ruolo di destinazione in un server Discord collegato. Le aggiunte ai ruoli, le rimozioni e /sync usano queste mappature. Le mappature dei ranghi CMS qui sotto sono configurate separatamente. SonoranBot necessita di Gestisci ruoli e di un ruolo superiore al ruolo di destinazione. Il salvataggio non esegue una sincronizzazione di massa; usa /sync in Discord per riconciliare i membri esistenti.",
+    "help": "Sincronizza ruolo/i da una gilda a un'altra",
     "refresh": "aggiorna",
     "remove": "Elimina mappatura",
     "save": "Salva",
     "saved": "Mappatura Discord salvata.",
     "sourceGuild": "Server sorgente (autorevole)",
     "sourceRole": "Ruolo sorgente",
-    "title": "Mappature dei ruoli Discord-to-Discord"
+    "title": "Mappature Discord-to-Discord"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Canale Account Bannato",

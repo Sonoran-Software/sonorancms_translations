@@ -2028,14 +2028,14 @@
     "enable": "Ota käyttöön",
     "enabled": "Otetaan käyttöön",
     "failed": "Discord-määritysten lataaminen tai tallentaminen ei onnistu. Päivitä ennen uudelleenyritystä.",
-    "help": "Synkronoi lähderooli kohderooliin linkitetyssä Discord-palvelimessa. Roolien lisäykset, poisto ja /sync käyttävät näitä määrityksiä. Alla olevat CMS-arvomääritykset on määritetty erikseen. SonoranBot tarvitsee Manage Roles -oikeuden ja korkeamman roolin kuin kohderooli. Tallentaminen ei suorita massasykronointia; käytä /sync-komentoa Discordissa nykyisten jäsenten yhdenmukaistamiseen.",
+    "help": "Synkronoi rooli(t) yhdestä killasta toiseen",
     "refresh": "Päivitä",
     "remove": "Poista kartoitus",
     "save": "Tallenna",
     "saved": "Discord-kartoitus tallennettu.",
     "sourceGuild": "Lähdepalvelin (auktoritatiivinen)",
     "sourceRole": "Lähdeasema",
-    "title": "Discord–Discord-roolien kartoitukset"
+    "title": "Discord–Discord-mäppäykset"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Tilin Kieltolista - Kanava",

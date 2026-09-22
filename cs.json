@@ -2028,14 +2028,14 @@
     "enable": "Povolit",
     "enabled": "Povoleno",
     "failed": "Nelze načíst nebo uložit mapování Discordu. Obnovte před dalším pokusem.",
-    "help": "Synchronizuje zdrojovou roli s cílovou rolí v propojeném Discord serveru. Přidání rolí, odebrání rolí a /sync používají tato mapování. Mapování hodností CMS níže jsou nakonfigurována samostatně. SonoranBot potřebuje oprávnění Spravovat role a vyšší roli než cílová role. Uložení nespustí hromadnou synchronizaci; použijte /sync v Discordu k sladění existujících členů.",
+    "help": "Synchronizovat roli/role z jednoho guilda do druhého",
     "refresh": "obnovit",
     "remove": "Smazat mapování",
     "save": "Uložit",
     "saved": "Discord mapování uloženo.",
     "sourceGuild": "Zdrojový server (autoritatívní)",
     "sourceRole": "Zdrojová role",
-    "title": "Mapování rolí Discord→Discord"
+    "title": "Mapování Discord→Discord"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Účet zablokován - Kanál",
