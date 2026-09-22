@@ -2028,14 +2028,14 @@
     "enable": "Habilitar",
     "enabled": "Habilitado",
     "failed": "No se pueden cargar o guardar las asignaciones de Discord. Actualiza antes de volver a intentarlo.",
-    "help": "Sincroniza un rol de origen con un rol de destino en un servidor de Discord vinculado. Las altas de roles, las bajas y /sync usan estas asignaciones. Las asignaciones de rangos de CMS que aparecen abajo se configuran por separado. SonoranBot necesita Gestionar roles y un rol superior al rol de destino. Guardar no ejecuta una sincronización masiva; usa /sync en Discord para reconciliar a los miembros existentes.",
+    "help": "Sincronizar rol(es) de un servidor a otro",
     "refresh": "actualizar",
     "remove": "Eliminar asignación",
     "save": "Guardar",
     "saved": "Asignación de Discord guardada.",
     "sourceGuild": "Servidor de origen (autoritativo)",
     "sourceRole": "Rol de origen",
-    "title": "mapeos de roles de Discord a Discord"
+    "title": "Mapeos de Discord a Discord"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Cuenta Suspendida - Canal",

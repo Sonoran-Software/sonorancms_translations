@@ -2029,14 +2029,14 @@
     "enable": "启用",
     "enabled": "启用",
     "failed": "无法加载或保存 Discord 映射。请刷新后重试。",
-    "help": "将源角色同步到已关联 Discord 服务器中的目标角色。角色添加、移除以及 /sync 都会使用这些映射。下方的 CMS 排名映射是单独配置的。SonoranBot 需要 Manage Roles 权限，并且其角色等级要高于目标角色。保存不会执行批量同步；请在 Discord 中使用 /sync 来协调现有成员。",
+    "help": "将角色从一个公会同步到另一个公会",
     "refresh": "刷新",
     "remove": "删除映射",
     "save": "保存",
     "saved": "Discord 映射已保存。",
     "sourceGuild": "源服务器（权威）",
     "sourceRole": "来源角色",
-    "title": "Discord 到 Discord 角色映射"
+    "title": "Discord 到 Discord 的映射"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "账户封禁 - 频道",

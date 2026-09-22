@@ -2028,14 +2028,14 @@
     "enable": "Aktiver",
     "enabled": "Aktiveret",
     "failed": "Kunne ikke indlæse eller gemme Discord-mappinger. Opdater før du prøver igen.",
-    "help": "Synkroniser en kilderolle til en destinationsrolle i en tilknyttet Discord-server. Rolletilføjelser, fjernelser og /sync bruger disse mappinger. CMS-rangmappingerne nedenfor er konfigureret separat. SonoranBot har brug for Administrer roller og en højere rolle end destinationsrollen. Gemning udfører ikke en massesynkronisering; brug /sync i Discord til at afstemme eksisterende medlemmer.",
+    "help": "Synkroniser rolle(r) fra en guild til en anden",
     "refresh": "opdatere",
     "remove": "Slet kortlægning",
     "save": "Gem",
     "saved": "Discord-mapping gemt.",
     "sourceGuild": "Kildeserver (autorativ)",
     "sourceRole": "Kilderolle",
-    "title": "Discord-til-Discord rolletilknytninger"
+    "title": "Discord-til-Discord-mappinger"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto Bannet - Kanal",

@@ -2028,14 +2028,14 @@
     "enable": "Aktivieren",
     "enabled": "Aktiviert",
     "failed": "Discord-Zuordnungen konnten nicht geladen oder gespeichert werden. Vor dem erneuten Versuch aktualisieren.",
-    "help": "Synchronisiere eine Quellrolle mit einer Zielrolle in einem verknüpften Discord-Server. Rollenzuweisungen, Entfernungen und /sync verwenden diese Zuordnungen. CMS-Rangzuordnungen unten werden separat konfiguriert. SonoranBot benötigt Rollen verwalten und eine höhere Rolle als die Zielrolle. Das Speichern führt keine Massen-Synchronisierung aus; verwende /sync in Discord, um vorhandene Mitglieder abzugleichen.",
+    "help": "Rolle(n) von einer Gilde in eine andere synchronisieren",
     "refresh": "Aktualisieren",
     "remove": "Zuordnung löschen",
     "save": "Speichern",
     "saved": "Discord-Zuordnung gespeichert.",
     "sourceGuild": "Quellserver (maßgeblich)",
     "sourceRole": "Quellrolle",
-    "title": "Discord-zu-Discord-Rollen-Zuordnungen"
+    "title": "Discord-zu-Discord-Zuordnungen"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto gesperrt - Kanal",

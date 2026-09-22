@@ -2028,14 +2028,14 @@
     "enable": "Inschakelen",
     "enabled": "Ingeschakeld",
     "failed": "Kan Discord-koppelingen niet laden of opslaan. Vernieuw voordat je het opnieuw probeert.",
-    "help": "Synchroniseer een bronrol naar een doelrol in een gekoppelde Discord-server. Roltoevoegingen, verwijderingen en /sync gebruiken deze koppelingen. CMS-rangkoppelingen hieronder zijn apart geconfigureerd. SonoranBot heeft Rollen beheren nodig en een hogere rol dan de doelrol. Opslaan voert geen massale synchronisatie uit; gebruik /sync in Discord om bestaande leden te reconciliëren.",
+    "help": "Synchroniseer rol(len) van het ene gilde naar het andere",
     "refresh": "vernieuwen",
     "remove": "Mapping verwijderen",
     "save": "Opslaan",
     "saved": "Discord-koppeling opgeslagen.",
     "sourceGuild": "Bronserver (gezaghebbend)",
     "sourceRole": "Bronrol",
-    "title": "Discord-naar-Discord rolkoppelingen"
+    "title": "Discord-naar-Discord-koppelingen"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Account verbannen - Kanaal",

@@ -2028,14 +2028,14 @@
     "enable": "Włącz",
     "enabled": "Włączony",
     "failed": "Nie można wczytać ani zapisać mapowań Discorda. Odśwież przed ponowną próbą.",
-    "help": "Synchronizuj rolę źródłową z rolą docelową w połączonym serwerze Discord. Dodawanie ról, usuwanie ról oraz /sync używają tych mapowań. Mapowania rang CMS poniżej są konfigurowane osobno. SonoranBot potrzebuje uprawnienia Zarządzaj rolami i roli wyższej niż rola docelowa. Zapis nie uruchamia masowej synchronizacji; użyj /sync w Discordzie, aby uzgodnić istniejących członków.",
+    "help": "Synchronizuj rolę(e) z jednej gildii do drugiej",
     "refresh": "odśwież",
     "remove": "Usuń mapowanie",
     "save": "Zapisz",
     "saved": "Mapowanie Discorda zapisane.",
     "sourceGuild": "Serwer źródłowy (autorytatywny)",
     "sourceRole": "Rola źródłowa",
-    "title": "Mapowania ról Discord–Discord"
+    "title": "Mapowania Discord–Discord"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "Konto zabanowane - Kanał",

@@ -2028,14 +2028,14 @@
     "enable": "활성화",
     "enabled": "활성화됨",
     "failed": "Discord 매핑을 불러오거나 저장할 수 없습니다. 다시 시도하기 전에 새로고침하세요.",
-    "help": "연결된 Discord 서버에서 소스 역할을 대상 역할에 동기화합니다. 역할 추가, 제거, 그리고 /sync 가 이 매핑을 사용합니다. 아래의 CMS 등급 매핑은 별도로 구성됩니다. SonoranBot 에는 역할 관리 권한과 대상 역할보다 높은 역할이 필요합니다. 저장해도 대량 동기화는 실행되지 않습니다. 기존 구성원을 맞추려면 Discord 에서 /sync 를 사용하세요.",
+    "help": "한 길드에서 다른 길드로 역할 동기화",
     "refresh": "새로 고침",
     "remove": "매핑 삭제",
     "save": "업로드",
     "saved": "Discord 매핑이 저장되었습니다.",
     "sourceGuild": "원본 서버(권위적)",
     "sourceRole": "소스 역할",
-    "title": "Discord-Discord 역할 매핑"
+    "title": "Discord-Discord 매핑"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "계정 차단 - 채널",

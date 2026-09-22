@@ -2028,14 +2028,14 @@
     "enable": "有効",
     "enabled": "有効",
     "failed": "Discord のマッピングを読み込めませんでした、または保存できませんでした。再試行する前に更新してください。",
-    "help": "リンクされた Discord サーバー内で、ソースロールを移行先ロールに同期します。ロールの追加、削除、および /sync はこれらのマッピングを使用します。下の CMS ランク マッピングは別途設定されます。SonoranBot には「ロールの管理」と移行先ロールより高いロールが必要です。保存しても一括同期は実行されません。既存メンバーを照合するには Discord で /sync を使用してください。",
+    "help": "1つのギルドから別のギルドへロールを同期",
     "refresh": "更新",
     "remove": "マッピングを削除",
     "save": "アップローダー",
     "saved": "Discord マッピングを保存しました。",
     "sourceGuild": "ソースサーバー（権威元）",
     "sourceRole": "ソースロール",
-    "title": "Discord 同士の役割マッピング"
+    "title": "Discord 同士のマッピング"
   },
   "DiscordIntegration": {
     "accountBannedChannel": "アカウント停止 - チャンネル",
